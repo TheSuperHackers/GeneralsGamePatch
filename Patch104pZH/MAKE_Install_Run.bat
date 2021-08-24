@@ -1,4 +1,6 @@
 call MAKE_Install.bat
 
+set GameExeArgs0=%GameExeArgs:"=%
+
 ::Run game
-%GameRootDir%\generals.exe -win -quickstart
+%GameRootDir%\%GameExeFile% %GameExeArgs0%

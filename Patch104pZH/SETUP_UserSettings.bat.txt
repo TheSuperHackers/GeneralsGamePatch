@@ -1,0 +1,10 @@
+:: Copy this file, remove the .txt extension from the file name, and edit it depending on your requirements.
+
+:: Set game install root directory
+set GameRootDir="C:\Program Files (x86)\EA Games\Command & Conquer The First Decade\Command & Conquer(tm) Generals Zero Hour"
+
+:: Set game executable path and file relative to root directory
+set GameExeFile="generals.exe"
+
+:: Set game launch command line arguments
+set GameExeArgs="-win -quickstart"
