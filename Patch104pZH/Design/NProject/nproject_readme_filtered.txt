@@ -174,56 +174,56 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
 2.0 Global Faction Changes
 ---------------------------
- - The production speed when low power are now constant at 80% of normal speed
- - All factions Cargo Planes now have equal stats
- - Fixed the Cargo Plane propeller texture error that have small thin gray lines
- - Standardized unit transport size. Like an Overlord that needs more transport slot than a Technical
- - Fixed the issues with firing elevation limit. Now both tanks and artillery can attack very high/low targets alike
- - Tank armor received damage from INFANTRY_MISSILE reduced from 100% to 85%
- - Tank armor received damage from POISON reduced from 25% to 15%
- - TruckArmor received damage from INFANTRY_MISSILE increased from 50% to 65% (except anti-personnel vehicles)
- - Now you can build all kind of superweapons when the superweapon restriction turned on, but still only ONE for each type
+ - [NOTRELEVANT] The production speed when low power are now constant at 80% of normal speed
+ - [NOTRELEVANT] All factions Cargo Planes now have equal stats
+ - [IMPROVEMENT] Fixed the Cargo Plane propeller texture error that have small thin gray lines
+ - [NOTRELEVANT] Standardized unit transport size. Like an Overlord that needs more transport slot than a Technical
+ - [?] Fixed the issues with firing elevation limit. Now both tanks and artillery can attack very high/low targets alike
+ - [NOTRELEVANT] Tank armor received damage from INFANTRY_MISSILE reduced from 100% to 85%
+ - [NOTRELEVANT] Tank armor received damage from POISON reduced from 25% to 15%
+ - [NOTRELEVANT] TruckArmor received damage from INFANTRY_MISSILE increased from 50% to 65% (except anti-personnel vehicles)
+ - [NOTRELEVANT] Now you can build all kind of superweapons when the superweapon restriction turned on, but still only ONE for each type
    For example, if you build a Particle Cannon you still can build a SCUD Storm or a Nuclear Missile, OR another
    subfaction's Particle Cannon, or capture enemy superweapons. Use this advantage to dominate the game!
- - All heroes get improved armor and healthpoints. Heroes more resist special weapon attacks than infantry, and heroes more
+ - [NOTRELEVANT] All heroes get improved armor and healthpoints. Heroes more resist special weapon attacks than infantry, and heroes more
    immune to sniper attacks. So there is no more "Pathfinder Own Heroes" again.
- - All structures now more resistant to aircraft missiles to prevent fighters razing structures better than bombers
- - Implemented "Ground Attack" button on all artillery and aircraft units.
- - Attackable toxic infantry and burning infantry issue fixed
- - Eternally flying dead aircraft bug (like in 'How To Make A Chinook Bug' video at YouTube) FIXED! You will never encounter
+ - [NOTRELEVANT] All structures now more resistant to aircraft missiles to prevent fighters razing structures better than bombers
+ - [?] Implemented "Ground Attack" button on all artillery and aircraft units.
+ - [IMPROVEMENT] Attackable toxic infantry and burning infantry issue fixed
+ - [IMPROVEMENT] Eternally flying dead aircraft bug (like in 'How To Make A Chinook Bug' video at YouTube) FIXED! You will never encounter
    this funny bug that may reduce the frame rate in online matches
- - All infantry now use the right death voices (some infantry uses wrong death voices before)
+ - [IMPROVEMENT] All infantry now use the right death voices (some infantry uses wrong death voices before)
  - All buildable aircraft and artillery units guard range sightly increased, makes them can guard areas more effective
- - Negative power bug/exploit fixed! This bug occurs when an under construction power plant disabled by a Microwave Tank.
+ - [ALREADY FIXED] Negative power bug/exploit fixed! This bug occurs when an under construction power plant disabled by a Microwave Tank.
    Now all power plants can't be disabled when under construction.
- - USA Dozer, Chinese Dozer, and GLA Worker can detect Demo Traps again like in original Generals (in Zero Hour they can
+ - [NOTRELEVANT] USA Dozer, Chinese Dozer, and GLA Worker can detect Demo Traps again like in original Generals (in Zero Hour they can
    disarm Demo Traps, but cannot detect them)
- - Dozers clear mines faster. Clearing delay reduced to 50%
- - All infantry use exploded animation when killed by suicide weapons
- - All infantry spill bloods when hitted by bullet and melee weapons!
- - Fixed various issues on all infantry model animations, such as running in place or skidding when moving
- - All buildings with door animation have been standarized so their door opening time are all equal. Some buildings
+ - [NOTRELEVANT] Dozers clear mines faster. Clearing delay reduced to 50%
+ - [MAYBE] All infantry use exploded animation when killed by suicide weapons
+ - [NOTRELEVANT] All infantry spill bloods when hitted by bullet and melee weapons!
+ - [IMPROVEMENT] Fixed various issues on all infantry model animations, such as running in place or skidding when moving
+ - [IMPROVEMENT] All buildings with door animation have been standarized so their door opening time are all equal. Some buildings
    door opening time were way too long which greatly affect the overall build time of all the units produced from those
    buildings. See each building changes for more details.
- - Fixed the damage disparency issue caused by rocket projectile weapons due to them hitting each other upon detonation that
+ - [MAYBE] Fixed the damage disparency issue caused by rocket projectile weapons due to them hitting each other upon detonation that
    makes them ineffective on massed attacks
 
- - Improved object animations, particles, and effects. Also, using the most unused animation for some units
- - Improved scoring system (i.e angry Mobs counted as one unit build PER SQUAD in the scoreboard, not PER MEMBER)
- - Improved unit movements:
+ - [MAYBE] Improved object animations, particles, and effects. Also, using the most unused animation for some units
+ - [MAYBE] Improved scoring system (i.e angry Mobs counted as one unit build PER SQUAD in the scoreboard, not PER MEMBER)
+ - [IMPROVEMENT] Improved unit movements:
    > Tanks no longer just slides away on the ground, the will show actual accelerations/braking movements
    > Vehicles have better movements. some vehicles also bounce a little, simulate hitting random rocks
    > Most vehicles can move backwards correctly
    > Helicopters sway a bit when idle
- - All artillery weapon shells now have given dust trails like Artillery Barrage shells
- - Cleaned up many buildings particle effects that were misplaced or attached to invalid locations in the models
- - Removed the blurry edges on the texture used for the no-build indicator when you try to build structures on invalid places
- - Parachutes now has housecolors (except crate parachutes)
+ - [NOTRELEVANT] All artillery weapon shells now have given dust trails like Artillery Barrage shells
+ - [IMPROVEMENT] Cleaned up many buildings particle effects that were misplaced or attached to invalid locations in the models
+ - [IMPROVEMENT] Removed the blurry edges on the texture used for the no-build indicator when you try to build structures on invalid places
+ - [IMPROVEMENT] Parachutes now has housecolors (except crate parachutes)
 
  EMERGENCY REPAIR:
- - Emergency Repair heal radius increased to 150%
- - Emergency Repair also repair structures
- - New and better Emergency Repair (this makes the Emergency Repair more valuable as a Generals Powers):
+ - [MAYBE] Emergency Repair heal radius increased to 150%
+ - [MAYBE] Emergency Repair also repair structures
+ - [MAYBE] New and better Emergency Repair (this makes the Emergency Repair more valuable as a Generals Powers):
    > Level 1 Emergency Repair heal amount sightly increased, and still one-shot repair
    > Level 2 Emergency Repair is not one-shot repair but repair continuously for some amount of time
    > Level 3 Emergency Repair is same as level 2 but lasts much longer, it also have initial repair boost like level 1, and
@@ -236,240 +236,240 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  General Balances and Fixes:
 
  USA DOZER:
- - USA Dozer animation improved. Now Dozers animated when building structures (like when clearing mines). Clearing mines
+ - [IMPROVEMENT] USA Dozer animation improved. Now Dozers animated when building structures (like when clearing mines). Clearing mines
    animation also fixed (fixing the strange dirt effects)
- - USA Dozer now will not drop salvage crates when destroyed
+ - [NOTRELEVANT] USA Dozer now will not drop salvage crates when destroyed
 
  RANGER:
- - Ranger Flash-Bangs projectile now travel faster
- - Destroyed USA buildings now spawn the corresponding subfaction's Rangers
+ - [NOTRELEVANT] Ranger Flash-Bangs projectile now travel faster
+ - [IMPROVEMENT] Destroyed USA buildings now spawn the corresponding subfaction's Rangers
 
  MISSILE DEFENDER:
  - New and rebalanced Missile Defender Laser Lock ability (hopefully better):
-   > NO MORE MISSILE DEFENDER BUG! Now AI will never fire these ability without initial delay again
-   > Laser Lock ability maximum attack range reduced, now it's smaller than artillery weapon range
-   > New Laser Lock effect/animation! The laser now attached to the model to reduce particle usage
-   > The infantry no longer unanimated when performing this ability
- - Missile Defender weapon damage increased from 40 to 50
- - Missile Defender rate of fire reduced from 1000 to 1600 miliseconds
- - Added minimum attack range to Missile Defender normal weapon to match Tank Hunter and RPG Trooper weapons (laser lock weapon is unaffected)
- - Missile Defender normal attack rockets fuel time rebalanced to match their other factions counterparts (RPG and Tank Hunter)
- - Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
+   > [IMPROVEMENT] NO MORE MISSILE DEFENDER BUG! Now AI will never fire these ability without initial delay again
+   > [NOTRELEVANT] Laser Lock ability maximum attack range reduced, now it's smaller than artillery weapon range
+   > [IMPROVEMENT] New Laser Lock effect/animation! The laser now attached to the model to reduce particle usage
+   > [IMPROVEMENT] The infantry no longer unanimated when performing this ability
+ - [NOTRELEVANT] Missile Defender weapon damage increased from 40 to 50
+ - [NOTRELEVANT] Missile Defender rate of fire reduced from 1000 to 1600 miliseconds
+ - [?] Added minimum attack range to Missile Defender normal weapon to match Tank Hunter and RPG Trooper weapons (laser lock weapon is unaffected)
+ - [NOTRELEVANT] Missile Defender normal attack rockets fuel time rebalanced to match their other factions counterparts (RPG and Tank Hunter)
+ - [NOTRELEVANT] Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
    Zero Hour
 
  PATHFINDER:
- - Pathfinder rate of fire reduced from 2000 to 3000 miliseconds
- - Pathfinder weapon tracer now properly turn into red when they reached the heroic veterancy
+ - [NOTRELEVANT] Pathfinder rate of fire reduced from 2000 to 3000 miliseconds
+ - [IMPROVEMENT] Pathfinder weapon tracer now properly turn into red when they reached the heroic veterancy
 
  COLONEL BURTON:
- - Only one Colonel Burton allowed for one player. For example, if you build AirForce's Colonel Burton you cannot build
+ - [NOTRELEVANT] Only one Colonel Burton allowed for one player. For example, if you build AirForce's Colonel Burton you cannot build
    another Colonel Burton from the other subfactions
- - Colonel Burton healthpoint increased from 200 to 220
+ - [NOTRELEVANT] Colonel Burton healthpoint increased from 200 to 220
 
  PILOTS:
- - Pilots will not reduce their movement speed when in heroic veterancy
- - Pilots never affected by Chemical Suits upgrade anymore due to unfixable bug in the game engine itself
- - Pilots no longer can promote Combat Bikes!
+ - [IMPROVEMENT] Pilots will not reduce their movement speed when in heroic veterancy
+ - [IMPROVEMENT] Pilots never affected by Chemical Suits upgrade anymore due to unfixable bug in the game engine itself
+ - [MAYBE] Pilots no longer can promote Combat Bikes!
 
  CRUSADER:
- - A single Crusader Tank will no longer create two chassis rubbles
- - Promoted Crusader Tank will not create Pilot if died from being crushed, like the other USA vehicles
- - Fixed the Composite Armor upgrade effect for Crusader Tanks that gives too many healthpoint bonus
- - Crusader Tank turret turn speed slightly decreased
+ - [IMPROVEMENT] A single Crusader Tank will no longer create two chassis rubbles
+ - [IMPROVEMENT] Promoted Crusader Tank will not create Pilot if died from being crushed, like the other USA vehicles
+ - [MAYBE] Fixed the Composite Armor upgrade effect for Crusader Tanks that gives too many healthpoint bonus
+ - [NOTRELEVANT] Crusader Tank turret turn speed slightly decreased
 
  HUMVEE:
- - Fixed minor bug of TOW Missile that use wrong missile trails when attacking air units
- - Improved Humvee TOW Missiles. Effectiveness against aircraft increased.
- - Fixed several model issues
- - Humvee TOW Missile turret now elevate when attacking air units
- - New model for Humvee TOW missile
- - Humvee armor received damage from JET_MISSILES and STEALTHJET_MISSILES increased from 30% to 50%
+ - [IMPROVEMENT] Fixed minor bug of TOW Missile that use wrong missile trails when attacking air units
+ - [NOTRELEVANT] Improved Humvee TOW Missiles. Effectiveness against aircraft increased.
+ - [IMPROVEMENT] Fixed several model issues
+ - [IMPROVEMENT] Humvee TOW Missile turret now elevate when attacking air units
+ - [IMPROVEMENT] New model for Humvee TOW missile
+ - [NOTRELEVANT] Humvee armor received damage from JET_MISSILES and STEALTHJET_MISSILES increased from 30% to 50%
 
  AMBULANCE:
- - You need an USA Barracks to build Ambulances
- - Ambulance now resist radiations as well as toxins
- - Ambulance no longer heal vehicles to make Battle Drones as primary vehicle healer
- - Ambulance cleanup guard area and scan rate increased, allowing them to clean nearby toxins/radiations better when idle
+ - [NOTRELEVANT] You need an USA Barracks to build Ambulances
+ - [NOTRELEVANT] Ambulance now resist radiations as well as toxins
+ - [NOTRELEVANT] Ambulance no longer heal vehicles to make Battle Drones as primary vehicle healer
+ - [NOTRELEVANT] Ambulance cleanup guard area and scan rate increased, allowing them to clean nearby toxins/radiations better when idle
 
  SENTRY DRONE:
- - Fixed Sentry Drone issue that sometimes not responding to player orders
- - Sentry Drone can attack while moving
- - Sentry Drone stealth detection range increased from 225 to 270
- - Sentry Drone no longer immune to toxins
- - Sentry Drone build cost reduced from 800 to 650
- - Gun upgraded Sentry Drone rate of fire increased from 200 to 130 miliseconds
- - Fixed the Sentry Drone model UV Mapping and texture errors, also the shadow bugs
- - Sentry Drone Guns upgrade research time reduced from 30 to 20 seconds
- - Sentry Drone Guns upgrade research cost reduced from 1000 to 800
- - Now the Drone Armor upgrade also allows them to self repair
- - Sentry Drone armor received damage from CRUSH increased from 60% to 80%
+ - [IMPROVEMENT] Fixed Sentry Drone issue that sometimes not responding to player orders
+ - [MAYBE] Sentry Drone can attack while moving
+ - [MAYBE] Sentry Drone stealth detection range increased from 225 to 270
+ - [MAYBE] Sentry Drone no longer immune to toxins
+ - [MAYBE] Sentry Drone build cost reduced from 800 to 650
+ - [MAYBE] Gun upgraded Sentry Drone rate of fire increased from 200 to 130 miliseconds
+ - [IMPROVEMENT] Fixed the Sentry Drone model UV Mapping and texture errors, also the shadow bugs
+ - [MAYBE] Sentry Drone Guns upgrade research time reduced from 30 to 20 seconds
+ - [MAYBE] Sentry Drone Guns upgrade research cost reduced from 1000 to 800
+ - [MAYBE] Now the Drone Armor upgrade also allows them to self repair
+ - [MAYBE] Sentry Drone armor received damage from CRUSH increased from 60% to 80%
 
  AVENGER:
- - Avenger will not block dozer builds anymore!
- - All Avengers need Strategy Center to be built
- - Avenger now use their own armor
- - Avenger no longer benefits from Composite Armor upgrade, it's not tank after all
- - Avenger Point Defense Laser can be used against infantry
- - Avenger move speed increased from 30 to 40
- - Avenger build cost reduced from 2000 to 1600
- - Fixed UV Mapping errors on the Avenger model
- - Removed the annoying "strange thing" (looks like a small rock) that sometimes appeared when the Avenger moving
- - Avenger designator turret now can rotate instead turning the whole unit
+ - [IMPROVEMENT] Avenger will not block dozer builds anymore!
+ - [NOTRELEVANT] All Avengers need Strategy Center to be built
+ - [?] Avenger now use their own armor
+ - [NOTRELEVANT] Avenger no longer benefits from Composite Armor upgrade, it's not tank after all
+ - [NOTRELEVANT] Avenger Point Defense Laser can be used against infantry
+ - [NOTRELEVANT] Avenger move speed increased from 30 to 40
+ - [NOTRELEVANT] Avenger build cost reduced from 2000 to 1600
+ - [IMPROVEMENT] Fixed UV Mapping errors on the Avenger model
+ - [IMPROVEMENT] Removed the annoying "strange thing" (looks like a small rock) that sometimes appeared when the Avenger moving
+ - [IMPROVEMENT] Avenger designator turret now can rotate instead turning the whole unit
 
  TOMAHAWK LAUNCHER:
- - Fixed the Tomahawk Launcher missiles that did not start with full health (that make it easier to destroy)
- - Added the Waypoint Targeting upgrade (see below)
+ - [MAYBE] Fixed the Tomahawk Launcher missiles that did not start with full health (that make it easier to destroy)
+ - [NOTRELEVANT] Added the Waypoint Targeting upgrade (see below)
 
  MICROWAVE TANK:
- - Improved Microwave Tank model
- - Fixed the shadow bugs on Microwave Tank model
- - Microwave Tank model lid can be closed/opened by animation. it's also compatible with turret logic now
- - Microwave Tank now have properly rotating turret so it now can attack without turning the whole tank
- - Fixed the Microwave Tank treads issue that rotating into the wrong direction while moving
- - Now Microwave Tank can rush toward enemy infantry and fry them to make better use of their emitter weapon
- - Promoted Microwave Tank will not create Pilot if died from being crushed, like the other USA vehicles
+ - [IMPROVEMENT] Improved Microwave Tank model
+ - [IMPROVEMENT] Fixed the shadow bugs on Microwave Tank model
+ - [IMPROVEMENT] Microwave Tank model lid can be closed/opened by animation. it's also compatible with turret logic now
+ - [IMPROVEMENT] Microwave Tank now have properly rotating turret so it now can attack without turning the whole tank
+ - [IMPROVEMENT] Fixed the Microwave Tank treads issue that rotating into the wrong direction while moving
+ - [IMPROVEMENT] Now Microwave Tank can rush toward enemy infantry and fry them to make better use of their emitter weapon
+ - [IMPROVEMENT] Promoted Microwave Tank will not create Pilot if died from being crushed, like the other USA vehicles
 
  PALADIN:
- - Removed the shadow bugs on Paladin Tank model, also fixed the treads that are bit off-centered
- - Paladin Tank attack range increased from 150 to 160
- - Paladin Tank turret turn speed slightly decreased
+ - [IMPROVEMENT] Removed the shadow bugs on Paladin Tank model, also fixed the treads that are bit off-centered
+ - [NOTRELEVANT] Paladin Tank attack range increased from 150 to 160
+ - [NOTRELEVANT] Paladin Tank turret turn speed slightly decreased
 
  VEHICLE DRONES:
- - All USA vehicle drones healthbar are now hidden because they are no longer selectable
- - Now vehicle drones are counted as aircraft, not ground vehicles anymore
- - Vehicle drones now will never stray too far from their parent vehicles
- - Battle Drone will more often repairing than attacking, balancing the removed Ambulance vehicle repair
- - Battle Drone now repair their master correctly (sometimes they attack/move to the enemy while repairing, which is fail)
- - Changed Battle Drone weapon damage type from SMALL_ARMS to GATTLING
- - Hellfire Drone will spawn the right debris when destroyed
+ - [MAYBE] All USA vehicle drones healthbar are now hidden because they are no longer selectable
+ - [?] Now vehicle drones are counted as aircraft, not ground vehicles anymore
+ - [MAYBE] Vehicle drones now will never stray too far from their parent vehicles
+ - [NOTRELEVANT] Battle Drone will more often repairing than attacking, balancing the removed Ambulance vehicle repair
+ - [IMPROVEMENT] Battle Drone now repair their master correctly (sometimes they attack/move to the enemy while repairing, which is fail)
+ - [MAYBE] Changed Battle Drone weapon damage type from SMALL_ARMS to GATTLING
+ - [IMPROVEMENT] Hellfire Drone will spawn the right debris when destroyed
 
  CHINOOK:
- - Improved Chinook model
- - Chinook can have Countermeasures upgrade
- - Chinook build cost reduced from 1200 to 1100
- - Chinook armor default received damage increased from 50% to 75% to make them less tanky against unusual weapons
+ - [IMPROVEMENT] Improved Chinook model
+ - [NOTRELEVANT] Chinook can have Countermeasures upgrade
+ - [NOTRELEVANT] Chinook build cost reduced from 1200 to 1100
+ - [NOTRELEVANT] Chinook armor default received damage increased from 50% to 75% to make them less tanky against unusual weapons
 
  COMANCHE:
- - New Comanche missiles and rocket pods model
- - Comanche unupgraded missile weapon launch at right position
- - Comanche machinegun now can pitch correctly
- - Improved Comanche geometry/collision settings
+ - [IMPROVEMENT] New Comanche missiles and rocket pods model
+ - [IMPROVEMENT] Comanche unupgraded missile weapon launch at right position
+ - [IMPROVEMENT] Comanche machinegun now can pitch correctly
+ - [IMPROVEMENT] Improved Comanche geometry/collision settings
 
  RAPTOR:
- - Improved Raptor missile movements so they will no longer scatter their attacks
- - Raptor minimum attack range (weapon blind area) reduced from 100 to 60, allowing them to perform better
- - New Raptor weapon attack sound
+ - [IMPROVEMENT] Improved Raptor missile movements so they will no longer scatter their attacks
+ - [IMPROVEMENT] Raptor minimum attack range (weapon blind area) reduced from 100 to 60, allowing them to perform better
+ - [NOTRELEVANT] New Raptor weapon attack sound
 
  AURORA BOMBER:
- - New supersonic attack effect for Aurora Bomber
+ - [NOTRELEVANT] New supersonic attack effect for Aurora Bomber
 
  NIGHTHAWK (STEALTH FIGHTER):
- - The name officially changed from the Stealth Fighter to Nighthawk
- - You cannot purchase Bunker Buster upgrade if you haven't unlocked the Nighthawk
- - Fixed Nighthawk low-fuel voice
- - Improved Nighthawk missile movements so they will no longer scatter their attacks
- - Nighthawk now has aim tolerance so they don't need to aim exactly straight toward the target when attacking
- - Bunker Buster upgrade cost increased from 1500 to 1800
- - New Nighthawk weapon attack sound
+ - [NOTRELEVANT] The name officially changed from the Stealth Fighter to Nighthawk
+ - [IMPROVEMENT] You cannot purchase Bunker Buster upgrade if you haven't unlocked the Nighthawk
+ - [IMPROVEMENT] Fixed Nighthawk low-fuel voice
+ - [IMPROVEMENT] Improved Nighthawk missile movements so they will no longer scatter their attacks
+ - [IMPROVEMENT] Nighthawk now has aim tolerance so they don't need to aim exactly straight toward the target when attacking
+ - [NOTRELEVANT] Bunker Buster upgrade cost increased from 1500 to 1800
+ - [NOTRELEVANT] New Nighthawk weapon attack sound
 
  SPECIAL POWERS AIRCRAFTS:
- - Now B3 Bomber (used to MOAB and AirForce Carpet Bomb) are stealthed
- - Spectre Gunship healthpoint increased from 600 to 1000
- - Fixed USA A-10 Thunderbolt airplane damaged model, and also firing pivot angle
- - A-10 Thunderbolt missiles now can't be lasered
- - A-10 Thunderbolt no longer reveal shroud along their way
- - New model and updated textures for USA B-52 Stratofortress bomber plane
- - Fixed USA B-52 bomber plane engine sound
- - New model and cameo for Spy Drone
- - Spy Drone can be moved and no longer immobile after deployed!
+ - [NOTRELEVANT] Now B3 Bomber (used to MOAB and AirForce Carpet Bomb) are stealthed
+ - [NOTRELEVANT] Spectre Gunship healthpoint increased from 600 to 1000
+ - [IMPROVEMENT] Fixed USA A-10 Thunderbolt airplane damaged model, and also firing pivot angle
+ - [NOTRELEVANT] A-10 Thunderbolt missiles now can't be lasered
+ - [NOTRELEVANT] A-10 Thunderbolt no longer reveal shroud along their way
+ - [MAYBE] New model and updated textures for USA B-52 Stratofortress bomber plane
+ - [IMPROVEMENT] Fixed USA B-52 bomber plane engine sound
+ - [NOTRELEVANT] New model and cameo for Spy Drone
+ - [NOTRELEVANT] Spy Drone can be moved and no longer immobile after deployed!
 
  USA COMMAND CENTER:
- - USA Command Center door opening time reduced from 1500 to 1000 miliseconds
- - New USA Command Center radar deploying animation!
+ - [MAYBE] USA Command Center door opening time reduced from 1500 to 1000 miliseconds
+ - [IMPROVEMENT] New USA Command Center radar deploying animation!
 
  COLD FUSION REACTOR:
- - Cold Fusion Reactors Control Rods upgrade research time reduced from 30 to 15 seconds
+ - [NOTRELEVANT] Cold Fusion Reactors Control Rods upgrade research time reduced from 30 to 15 seconds
 
  USA BARRACKS:
- - Fixed the USA Barracks model where the sandbags have missing sides and the flagpole also floating
+ - [IMPROVEMENT] Fixed the USA Barracks model where the sandbags have missing sides and the flagpole also floating
 
  USA SUPPLY CENTER:
- - Fixed the shadow bug on USA Supply Center model (the supply crane)
- - USA Supply Center refund value increased from 400 to 450 due to the reduced Chinook build cost
- - Additional details for USA Supply Center to balance the footprint
+ - [IMPROVEMENT] Fixed the shadow bug on USA Supply Center model (the supply crane)
+ - [NOTRELEVANT] USA Supply Center refund value increased from 400 to 450 due to the reduced Chinook build cost
+ - [MAYBE] Additional details for USA Supply Center to balance the footprint
 
  USA WAR FACTORY:
- - USA War Factory door opening time reduced from 3250 to 1500 miliseconds
+ - [MAYBE] USA War Factory door opening time reduced from 3250 to 1500 miliseconds
 
  USA AIRFIELD:
- - Fixed the missing shadow on USA Airfield model when in damaged conditions
- - USA Airfield hangar door opening time reduced from 2000 to 1500 miliseconds
- - USA Airfield building footprint size slightly reduced
- - New USA Airfield hangar lights animation!
+ - [IMPROVEMENT] Fixed the missing shadow on USA Airfield model when in damaged conditions
+ - [MAYBE] USA Airfield hangar door opening time reduced from 2000 to 1500 miliseconds
+ - [NOTRELEVANT] USA Airfield building footprint size slightly reduced
+ - [IMPROVEMENT] New USA Airfield hangar lights animation!
 
  PATRIOT MISSILE:
- - Fixed all Patriot Missile weapon that sometimes only fires less missiles after not firing for a long time
- - Improved Patriot Missile assist ability to make them work better together
- - Patriot Missile no longer block unit sights, allowing other units to attack enemies behind
- - Fixed Patriot Missile scaffolding that was off-centered
- - Changed the Patriot Missile attack sound to use the proper (unused) sound set
+ - [IMPROVEMENT] Fixed all Patriot Missile weapon that sometimes only fires less missiles after not firing for a long time
+ - [IMPROVEMENT] Improved Patriot Missile assist ability to make them work better together
+ - [MAYBE] Patriot Missile no longer block unit sights, allowing other units to attack enemies behind
+ - [IMPROVEMENT] Fixed Patriot Missile scaffolding that was off-centered
+ - [NOTRELEVANT] Changed the Patriot Missile attack sound to use the proper (unused) sound set
 
  FIREBASE:
- - New model for Firebase, also fixed the Firebase firing angle issue
- - Fixed missing model issue on Firebase when sold/constructed on reallydamaged condition
- - You require a Barracks instead a Cold Fusion Reactor to build the Firebase
- - Firebase now can be attacked by Ranger Flash Bangs and toxin weapons properly
- - All snipers will no longer keep attacking on empty Firebases, same with Ranger flashbang attacks
- - Rebalanced Firebase weapon:
+ - [MAYBE] New model for Firebase, also fixed the Firebase firing angle issue
+ - [IMPROVEMENT] Fixed missing model issue on Firebase when sold/constructed on reallydamaged condition
+ - [NOTRELEVANT] You require a Barracks instead a Cold Fusion Reactor to build the Firebase
+ - [IMPROVEMENT] Firebase now can be attacked by Ranger Flash Bangs and toxin weapons properly
+ - [IMPROVEMENT] All snipers will no longer keep attacking on empty Firebases, same with Ranger flashbang attacks
+ - [NOTRELEVANT] Rebalanced Firebase weapon:
    > Weapon damage increased from 75 to 90 on direct hit, while splash damage reduced to 65
    > Weapon damage radius increased from 10 to 30
    > Minimum attack range (weapon blind area) increased from 50 to 85
    > Rate of fire reduced from 2000 to 3600 miliseconds
- - Firebase armor received damage from SMALL_ARMS reduced from 40% to 35% to match the other base defenses
- - Firebase armor received damage from GATTLING reduced from 30% to 25% to match the other base defenses
- - Now the garrisoned units will not get lethal damage when the Firebase is destroyed
- - Firebase no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Firebase armor received damage from SMALL_ARMS reduced from 40% to 35% to match the other base defenses
+ - [NOTRELEVANT] Firebase armor received damage from GATTLING reduced from 30% to 25% to match the other base defenses
+ - [MAYBE] Now the garrisoned units will not get lethal damage when the Firebase is destroyed
+ - [MAYBE] Firebase no longer block unit sights, allowing other units to attack enemies behind
 
  STRATEGY CENTER:
- - Now you cannot build multiple Strategy Centers from different subfactions that allowing you to deploy multiple
+ - [NOTRELEVANT] Now you cannot build multiple Strategy Centers from different subfactions that allowing you to deploy multiple
    battleplans at one time, and Strategy Center are no longer capturable
- - Strategy Center healthpoint increased from 1500 to 2500
- - Strategy Center build time reduced from 60 to 45 to match the other factions tech centers build time
- - Strategy Center no longer reveal surrounding when a battle plan is announced
+ - [NOTRELEVANT] Strategy Center healthpoint increased from 1500 to 2500
+ - [NOTRELEVANT] Strategy Center build time reduced from 60 to 45 to match the other factions tech centers build time
+ - [NOTRELEVANT] Strategy Center no longer reveal surrounding when a battle plan is announced
 
  SUPPLY DROP ZONE:
- - Supply Drop Zone Cargo Plane are no longer attackable, prevent the annoying "unit lost" report from EVA
- - Supply Drop Zone money now delivered in one crate and will show the money amount upon landing!
- - Fixed the bug where Supply Drop Zone crates did not delivered properly
+ - [IMPROVEMENT] Supply Drop Zone Cargo Plane are no longer attackable, prevent the annoying "unit lost" report from EVA
+ - [NOTRELEVANT] Supply Drop Zone money now delivered in one crate and will show the money amount upon landing!
+ - [MAYBE] Fixed the bug where Supply Drop Zone crates did not delivered properly
    > No more stray supply crates that missed their landing spot
    > No more crate stealing from your enemies
-   > No more multiplying cash amount cheat from the collision exploit/glitch!
- - No more Supply Drop Zone initial cooldown exploit cheat! Now Supply Drop Zones can't be disabled when under construction
+   > [IMPROVEMENT] No more multiplying cash amount cheat from the collision exploit/glitch!
+ - [ALREADY FIXED] No more Supply Drop Zone initial cooldown exploit cheat! Now Supply Drop Zones can't be disabled when under construction
 
  PARTICLE CANNON:
- - Reduced Particle Cannon build footprint size, so Particle Cannon requires slight less area when placed for build
- - Fixed the Particle Cannon animation bug that occurs when the building were disabled with Microwave Tank weapon
+ - [NOTRELEVANT] Reduced Particle Cannon build footprint size, so Particle Cannon requires slight less area when placed for build
+ - [IMPROVEMENT] Fixed the Particle Cannon animation bug that occurs when the building were disabled with Microwave Tank weapon
    during construction and released upon completion
 
  CHEMICAL SUITS:
- - Chemical Suits upgraded infantry received damage from POISON, RADIATION, and MICROWAVE increased from 20% to 50%
+ - [NOTRELEVANT] Chemical Suits upgraded infantry received damage from POISON, RADIATION, and MICROWAVE increased from 20% to 50%
    Now with the reduced bonus, chemsuit infantry are still more vulnerable to toxins and radiations than tanks
 
  USA PARADROP:
- - The Paradrop special power now deliver the corresponding subfaction's Rangers correctly
- - Paradrop now also deliver some Missile Defenders in the mix:
+ - [IMPROVEMENT] The Paradrop special power now deliver the corresponding subfaction's Rangers correctly
+ - [MAYBE] Paradrop now also deliver some Missile Defenders in the mix:
    > Level 1: 4 Rangers and 1 Missile Defender
    > Level 2: 7 Rangers and 3 Missile Defenders
    > Level 3: 10 Rangers and 5 Missile Defenders
 
 
  New Stuff:
- - Mortar Infantry
+ - [NOTRELEVANT] Mortar Infantry
      America's artillery infantry unit. Build at Barracks. Requires Strategy Center
- - Crate Drop Generals Power
+ - [NOTRELEVANT] Crate Drop Generals Power
      Drops money crates on target area by plane. Anyone can pick the dropped supply crates, including allies and enemies.
      Available in Rank-3 for all USA factions. Really useful when your forces or your allies is low on funds.
- - Tomahawk Waypoint Targeting Upgrade
+ - [NOTRELEVANT] Tomahawk Waypoint Targeting Upgrade
      Tomahawk missiles can be given a flight-path, make them can relay position of enemy to nearby Tomahawk Launchers in
      similar fashion with Patriots. Purchaseable at Strategy Center. It's a targeted ability, not passive weapon upgrade.
 
@@ -478,61 +478,61 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 2.1.1 AirForce General
 ----------------------
  Balances and Fixes:
- - AirForce General Sentry Drone build cost reduced from 850 to 700
- - AirForce General Chinook (not Combat Chinook) build cost increased from 950 to 1100 to match the other USA factions Chinooks
- - AirForce General Supply Center refund value changed from 400 to 450 due to the Chinook price change
- - AirForce General Avenger build cost increased from 1600 to 1700
- - AirForce General Microwave Tank build cost increased from 800 to 900
- - Fixed Airforce General Firebase that use wrong model at snowy-reallydamaged condition
- - Emergency Repair no longer available for AirForce General
+ - [NOTRELEVANT] AirForce General Sentry Drone build cost reduced from 850 to 700
+ - [NOTRELEVANT] AirForce General Chinook (not Combat Chinook) build cost increased from 950 to 1100 to match the other USA factions Chinooks
+ - [NOTRELEVANT] AirForce General Supply Center refund value changed from 400 to 450 due to the Chinook price change
+ - [NOTRELEVANT] AirForce General Avenger build cost increased from 1600 to 1700
+ - [NOTRELEVANT] AirForce General Microwave Tank build cost increased from 800 to 900
+ - [NOTRELEVANT] Fixed Airforce General Firebase that use wrong model at snowy-reallydamaged condition
+ - [NOTRELEVANT] Emergency Repair no longer available for AirForce General
 
  AIRFORCE GENERAL AIRCRAFTS:
- - AirForce General aircrafts healthpoint increased to 110% compared to their other USA general counterparts
- - Toned down AirForce General Countermeasures upgrade flares to compensate his aircrafts with Point Defense Laser by default
- - Rebalanced aircraft Point Defense Laser:
+ - [NOTRELEVANT] AirForce General aircrafts healthpoint increased to 110% compared to their other USA general counterparts
+ - [NOTRELEVANT] Toned down AirForce General Countermeasures upgrade flares to compensate his aircrafts with Point Defense Laser by default
+ - [NOTRELEVANT] Rebalanced aircraft Point Defense Laser:
    > Fixed the Point Defense Laser issue that sometimes not responding (that sometime reload faster, sometime slower)
    > AirForce General aircrafts Point Defense Laser reload time greatly increased
    > Only King Raptor that have faster Point Defense Laser reload time
    > Remove Point Defense Laser ability from AirForce General standard Chinook
 
  SPECIAL POWERS AIRCRAFTS:
- - Improved AirForce Carpet Bomb efficiency
- - AirForce Carpet Bomb can be called from other generals Strategy Center
- - AirForce General A-10 Strike Generals Power reload time reduced from 4:00 to 3:30
+ - [?] Improved AirForce Carpet Bomb efficiency
+ - [IMPROVEMENT] AirForce Carpet Bomb can be called from other generals Strategy Center
+ - [NOTRELEVANT] AirForce General A-10 Strike Generals Power reload time reduced from 4:00 to 3:30
 
  COMBAT CHINOOK:
- - Combat Chinook can no longer load vehicles
- - Combat Chinook can be build when you have either a War Factory or an Airfield
- - Combat Chinook hotkey changed from 'T' to 'A'
- - Combat Chinook build cost increased from 1200 to 1300
- - Combat Chinook healthpoint reduced from 350 to 320
- - Now you can build Combat Chinook from the Airfield as well
- - Resized Combat Chinook model. Now it's as big as normal Chinook.
- - Improved Combat Chinook model, also fixed the missing fireport bones
+ - [NOTRELEVANT] Combat Chinook can no longer load vehicles
+ - [NOTRELEVANT] Combat Chinook can be build when you have either a War Factory or an Airfield
+ - [NOTRELEVANT] Combat Chinook hotkey changed from 'T' to 'A'
+ - [NOTRELEVANT] Combat Chinook build cost increased from 1200 to 1300
+ - [NOTRELEVANT] Combat Chinook healthpoint reduced from 350 to 320
+ - [NOTRELEVANT] Now you can build Combat Chinook from the Airfield as well
+ - [IMPROVEMENT] Resized Combat Chinook model. Now it's as big as normal Chinook.
+ - [IMPROVEMENT] Improved Combat Chinook model, also fixed the missing fireport bones
 
  KING RAPTOR:
- - King Raptor damage per missile reduced from 125 to 100, matching normal Raptor missile damage
- - King Raptor will use the yellow missile trail only when reached heroic veterancy
- - King Raptor weapon reload time increased from 2000 to 6000 miliseconds, matching normal Raptor weapon reload time
+ - [NOTRELEVANT] King Raptor damage per missile reduced from 125 to 100, matching normal Raptor missile damage
+ - [NOTRELEVANT] King Raptor will use the yellow missile trail only when reached heroic veterancy
+ - [NOTRELEVANT] King Raptor weapon reload time increased from 2000 to 6000 miliseconds, matching normal Raptor weapon reload time
 
  COMANCHE:
- - Correct selection cameo for Stealth Comanche
- - Fixed Stealth Comanche behavior after upgraded with the stealth upgrade. Now they will respond to enemies when idle
+ - [IMPROVEMENT] Correct selection cameo for Stealth Comanche
+ - [?] Fixed Stealth Comanche behavior after upgraded with the stealth upgrade. Now they will respond to enemies when idle
    correctly.
- - Stealth Comanche re-stealth time increased from 1500 to 2000 miliseconds
+ - [NOTRELEVANT] Stealth Comanche re-stealth time increased from 1500 to 2000 miliseconds
 
  NIGHTHAWK:
- - You cannot build AirForce General Nighthawk if you didn't unlock it on the Generals Promotions
- - If you play as AirForce General, you can build other subfaction Nighthawk correctly
+ - [NOTRELEVANT] You cannot build AirForce General Nighthawk if you didn't unlock it on the Generals Promotions
+ - [IMPROVEMENT] If you play as AirForce General, you can build other subfaction Nighthawk correctly
 
 
  New Stuff:
- - Hypersonic Aurora
+ - [NOTRELEVANT] Hypersonic Aurora
      Stealthed Aurora Bomber. Use the black Aurora skin (was used to Aurora Alpha skin on patch 1.04 before).
- - Support Nighthawk
+ - [NOTRELEVANT] Support Nighthawk
      Upgraded version of Nighthawk capable of healing infantry on the ground below it and also repairs nearby aircraft,
      allowing this unit to support your troops while remain unseen. Replaces AirForce General standard Nighthawk.
- - F/A-32 Ernest
+ - [NOTRELEVANT] F/A-32 Ernest
      Ernest attack aircraft is an advanced unit with scattering missiles attack that have wide area damage. Effective
      against ground units. Have no air-to-air capability. Requires Strategy Center and Rank 1 Generals Promotion.
 
@@ -541,47 +541,47 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 2.1.2 Laser General
 -------------------
  Balances and Fixes:
- - No Mortar infantry for Laser General
- - Laser General Avenger build cost increased from 1500 to 1600
- - No more Aurora and Tomahawk for Laser General
+ - [NOTRELEVANT] No Mortar infantry for Laser General
+ - [NOTRELEVANT] Laser General Avenger build cost increased from 1500 to 1600
+ - [NOTRELEVANT] No more Aurora and Tomahawk for Laser General
 
  LASER CRUSADER:
- - Laser Crusaders no longer drain powers
- - Laser Crusaders no longer disabled when low powered
- - Fixed the shadow bug and UV Mapping errors on Laser Crusader model
+ - [NOTRELEVANT] Laser Crusaders no longer drain powers
+ - [NOTRELEVANT] Laser Crusaders no longer disabled when low powered
+ - [IMPROVEMENT] Fixed the shadow bug and UV Mapping errors on Laser Crusader model
 
  LASER TURRET:
- - Rebalanced Laser Turret weapon:
+ - [NOTRELEVANT] Rebalanced Laser Turret weapon:
    > No more multiple laser shots (reduced weapon clip size from 4 to 1)
    > Weapon damage (from one weapon clip) reduced from 120 to 130
    > Reload time reduced from 2750 to 2000
- - Laser Turret hotkey changed from 'T' to 'M'
- - Laser Turret now have proper model on snow conditions.
+ - [NOTRELEVANT] Laser Turret hotkey changed from 'T' to 'M'
+ - [IMPROVEMENT] Laser Turret now have proper model on snow conditions.
 
 
  New Stuff:
- - Laser Ranger
+ - [NOTRELEVANT] Laser Ranger
      Replaces Ranger. Their assault rifle replaced with a light laser gun.
- - Laser Paladin
+ - [NOTRELEVANT] Laser Paladin
      Replaces Paladin Tank. Fires a stream of laser beam. Equipped with Point Defense Laser. Have ability to fire one blast
      charged attack. Charged attack have pre-attack delay, but do more damage and have greater AoE.
- - Laser Comanche
+ - [NOTRELEVANT] Laser Comanche
      Replaces Comanche. Armed with a machine gun and two laser turrets. Even no longer have Rocket Pods or similar upgrade,
      the laser weapon sightly more effective compared to the normal Comanche. Has Laser Charge ability instead Rocket Pods
      which is unlocked after the Laser Capacitors upgrade.
- - Laser Nighthawk
+ - [NOTRELEVANT] Laser Nighthawk
      Replaces Nighthawk. Attacks with a series of laser beams instead missiles. Upgrades into charged shot blast that can
      clear garrisons with the Bunker Busters upgrade.
- - Advanced Cold Fusion Reactor
+ - [NOTRELEVANT] Advanced Cold Fusion Reactor
      This CFR with purple rods is still same with the old Laser General CFR that provides more powers, just to make it
      easier to identify from the normal CFR (CFR = Cold Fusion Reactor)
- - Humvee Laser Gun upgrade
+ - [NOTRELEVANT] Humvee Laser Gun upgrade
      Arms Laser General Humvees with a laser turret that can attack ground and air units. Replaces TOW Missile upgrade.
      Note that purchasing this upgrade will NOT upgrade the other subfaction Humvees with TOW upgrade.
- - Sentry Drone Laser Turret upgrade
+ - [NOTRELEVANT] Sentry Drone Laser Turret upgrade
      Arms Laser General Sentry Drones with a laser turret instead machinegun. Replaces Sentry Drone Gun upgrade.
      Note that purchasing this upgrade will NOT upgrade the other subfaction Sentry Drones with machineguns.
- - Laser Capacitors upgrade
+ - [NOTRELEVANT] Laser Capacitors upgrade
      This upgrade replaces several units weapon with laser weapons. Purchased at Strategy Center. Effects:
       > Col. Burton : Replace the chain gun with highly concentrated laser turret
       > Battle Drone : Replace the machine gun with a light laser turret
@@ -594,48 +594,49 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 2.1.3 Superweapon General
 -------------------------
  Balances and Fixes:
- - Superweapon General Sentry Drone build cost reduced from 1000 to 700
- - Superweapon General Comanche build cost reduced from 1800 to 1500
- - Superweapon General no longer have 3-level Spectre Gunship (now it's AirForce General exclusive)
+ - [NOTRELEVANT] Superweapon General Sentry Drone build cost reduced from 1000 to 700
+ - [NOTRELEVANT] Superweapon General Comanche build cost reduced from 1800 to 1500
+ - [NOTRELEVANT] Superweapon General no longer have 3-level Spectre Gunship (now it's AirForce General exclusive)
 
  AURORA ALPHA:
- - Aurora Alpha now use the white skin with gray patterns (like in early version of Zero Hour) instead using the black
+ - [NOTRELEVANT] Aurora Alpha now use the white skin with gray patterns (like in early version of Zero Hour) instead using the black
    Hypersonic Aurora skin.
- - Aurora Alpha weapon damage sightly reduced, but still more powerful than normal Aurora
- - Fixed Aurora Alpha kill veterancy problem. Now they will be properly promoted when destroying enemies.
+ - [NOTRELEVANT] Aurora Alpha weapon damage sightly reduced, but still more powerful than normal Aurora
+ - [IMPROVEMENT] Fixed Aurora Alpha kill veterancy problem. Now they will be properly promoted when destroying enemies.
 
  COLD FUSION REACTOR:
- - Advanced Control Rods upgrade research cost increased from 500 to 600
- - Advanced Control Rods upgrade research time reduced from 30 to 20 seconds
+ - [NOTRELEVANT] Advanced Control Rods upgrade research cost increased from 500 to 600
+ - [NOTRELEVANT] Advanced Control Rods upgrade research time reduced from 30 to 20 seconds
 
  EMP PATRIOT:
- - EMP Patriot build cost increased from 900 to 1000
- - Rebalanced EMP Patriot weapon:
+ - [NOTRELEVANT] EMP Patriot build cost increased from 900 to 1000
+ - [NOTRELEVANT] Rebalanced EMP Patriot weapon:
    > Weapon damage per missile increased from 15 to 25
    > Attack range reduced from 275 to 225, matching the normal Patriot Missile range
    > Missile firing rate reduced from 100 to 250 miliseconds, matching the normal Patriot Missile speed
    > Disable duration caused by EMP now varies depending on the affected target health
    > No longer able to one-hit-kill aircrafts
- - Fixed EMP Patriot model that use wrong model when constructing or being sold
+ - [IMPROVEMENT] Fixed EMP Patriot model that use wrong model when constructing or being sold
 
 
  New Stuff:
- - Biohazard Tech
+ - [NOTRELEVANT] Biohazard Tech
      Infantry version of Ambulance. Clean up radiation and toxins and heal nearby infantry.
- - Striker
+ - [NOTRELEVANT] Striker
      Striker Humvee is an anti-armor vehicle for Superweapon General as an equivalent to Crusader. Armed with armor-piercing
      cannon and four missiles.
- - Mechanic
+ - [NOTRELEVANT] Mechanic
      Also known as "Repair Ambulance". Replaces Ambulance. Repairs nearby vehicles, Also can helps Dozers by finishing left
      constructions and repair damaged structures.
- - Point Defense Drone
+ - [NOTRELEVANT] Point Defense Drone
      Replaces Battle Drone. Repairs parent vehicle. Equipped with machinegun and Point Defense Laser. Cost 400
- - Pillbox
+ - [NOTRELEVANT] Pillbox
      Returning anti-personnel base defense from Red Alert series. Pillbox can covers the anti-infantry role to work together
      with EMP Patriot. Cheap and only requires low power (but NOT disabled when low-powered). Requires Cold Fusion Reactor
      to be built.
  - Advanced Particle Cannon
-     Fires pink laser instead the blue one. Smaller size, lower build cost, damages more longer
+     [MAYBE] Fires pink laser instead the blue one.
+     [NOTRELEVANT] Smaller size, lower build cost, damages more longer
 
 
 
@@ -644,239 +645,239 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  General Balances and Fixes:
 
  CHINESE DOZER:
- - Chinese Dozer animation improved. Now Dozers animated when building structures (like when clearing mines). Clearing mines
+ - [IMPROVEMENT] Chinese Dozer animation improved. Now Dozers animated when building structures (like when clearing mines). Clearing mines
    animation also fixed (fixing the strange dirt effects)
- - Reduced Chinese Dozer shroud clearing range to match the USA Dozer shroud clearing range
- - Chinese Dozer now will not drop salvage crates when destroyed
+ - [NOTRELEVANT] Reduced Chinese Dozer shroud clearing range to match the USA Dozer shroud clearing range
+ - [MAYBE] Chinese Dozer now will not drop salvage crates when destroyed
 
  RED GUARD:
- - Red Guard and Minigunner shroud clearing range increased from 200 to 400
- - Red Guard bayonet re-enabled (see below)
- - No more lefty Red Guards! (animation fix)
+ - [NOTRELEVANT] Red Guard and Minigunner shroud clearing range increased from 200 to 400
+ - [MAYBE] Red Guard bayonet re-enabled (see below)
+ - [IMPROVEMENT] No more lefty Red Guards! (animation fix)
 
  TANK HUNTER:
- - Tank Hunter weapon damage increased from 40 to 50
- - Tank Hunter rate of fire reduced from 1000 to 1600 miliseconds
+ - [NOTRELEVANT] Tank Hunter weapon damage increased from 40 to 50
+ - [NOTRELEVANT] Tank Hunter rate of fire reduced from 1000 to 1600 miliseconds
 
  BLACK LOTUS:
- - Only one Black Lotus allowed for one player
- - Black Lotus healthpoint increased from 200 to 220
- - Black Lotus now is stealthed while garrisoned
+ - [NOTRELEVANT] Only one Black Lotus allowed for one player
+ - [NOTRELEVANT] Black Lotus healthpoint increased from 200 to 220
+ - [MAYBE] Black Lotus now is stealthed while garrisoned
 
  SUPPLY TRUCK:
- - Supply Truck will never kicked-out-to-the-outer-space-and-return-to-the-earth-with-no-damage again with shockwave weapons
- - Supply Truck now will not drop salvage crates when destroyed
+ - [IMPROVEMENT] Supply Truck will never kicked-out-to-the-outer-space-and-return-to-the-earth-with-no-damage again with shockwave weapons
+ - [MAYBE] Supply Truck now will not drop salvage crates when destroyed
 
  BATTLEMASTER:
- - Fixed the horde bug where Battlemasters can't gain horde bonus from different kind of vehicles (including from other Battlemaster variants)
- - Fixed the model issue where the treads didn't move while the tank is moving
- - Fixed the issue where the tank have no trail dusts while the tank is moving
- - Battlemaster healthpoint increased from 400 to 420
- - Battlemaster unupgraded movement speed increased from 25 to 28
+ - [MAYBE] Fixed the horde bug where Battlemasters can't gain horde bonus from different kind of vehicles (including from other Battlemaster variants)
+ - [IMPROVEMENT] Fixed the model issue where the treads didn't move while the tank is moving
+ - [IMPROVEMENT] Fixed the issue where the tank have no trail dusts while the tank is moving
+ - [NOTRELEVANT] Battlemaster healthpoint increased from 400 to 420
+ - [NOTRELEVANT] Battlemaster unupgraded movement speed increased from 25 to 28
 
  GATTLING TANK:
- - Gattling Tank now can gain horde bonus in group of 5 or more
- - Fixed the bug that makes Gattling Tank keep silent when attacking air
- - Minor balances on Gattling Tank veterancy requirements
- - Gattling Tank armor received damage from COMANCHE_VULCAN reduced from 25% to 20%
+ - [MAYBE] Gattling Tank now can gain horde bonus in group of 5 or more
+ - [IMPROVEMENT] Fixed the bug that makes Gattling Tank keep silent when attacking air
+ - [?] Minor balances on Gattling Tank veterancy requirements
+ - [NOTRELEVANT] Gattling Tank armor received damage from COMANCHE_VULCAN reduced from 25% to 20%
 
  DRAGON TANK:
- - New Dragon Tank model (based on Beta Generals model)
- - Dragon Tank attack range increased from 75 to 100
- - Dragon Tank armor received damage from SMALL_ARMS reduced from 25% to 20%
- - Dragon Tank armor received damage from GATTLING reduced from 25% to 15%
- - Dragon Tank armor received damage from POISON reduced from 25% to 15%
- - Dragon Tank healthpoint increased from 280 to 320
+ - [NOTRELEVANT] New Dragon Tank model (based on Beta Generals model)
+ - [NOTRELEVANT] Dragon Tank attack range increased from 75 to 100
+ - [NOTRELEVANT] Dragon Tank armor received damage from SMALL_ARMS reduced from 25% to 20%
+ - [NOTRELEVANT] Dragon Tank armor received damage from GATTLING reduced from 25% to 15%
+ - [NOTRELEVANT] Dragon Tank armor received damage from POISON reduced from 25% to 15%
+ - [NOTRELEVANT] Dragon Tank healthpoint increased from 280 to 320
 
  TROOP CRAWLER:
- - You need a Chinese Barracks to build Troop Crawlers
- - Better Troop Crawler stealth detection animations
- - Troop Crawler now will not drop salvage crates when destroyed (except it's Assault Troop Crawler)
- - Troop Crawlers are now amphibious, increasing the usefulness of this unit from just a simple transport or cannon fodder.
+ - [NOTRELEVANT] You need a Chinese Barracks to build Troop Crawlers
+ - [IMPROVEMENT] Better Troop Crawler stealth detection animations
+ - [NOTRELEVANT] Troop Crawler now will not drop salvage crates when destroyed (except it's Assault Troop Crawler)
+ - [MAYBE] Troop Crawlers are now amphibious, increasing the usefulness of this unit from just a simple transport or cannon fodder.
 
  LISTENING OUTPOST:
- - You need a Chinese Barracks to build Listening Outposts
- - Better Listening Outpost stealth detection animations
- - Changed Listening Outpost armor from TankArmor to TruckArmor (also applied to Attack Outpost)
- - Listening Outpost now will not drop salvage crates when destroyed
- - Fixed various issues with Listening Outpost model
+ - [NOTRELEVANT] You need a Chinese Barracks to build Listening Outposts
+ - [IMPROVEMENT] Better Listening Outpost stealth detection animations
+ - [NOTRELEVANT] Changed Listening Outpost armor from TankArmor to TruckArmor (also applied to Attack Outpost)
+ - [NOTRELEVANT] Listening Outpost now will not drop salvage crates when destroyed
+ - [IMPROVEMENT] Fixed various issues with Listening Outpost model
 
  OVERLORD:
- - Upgraded Overlords will not block dozer builds anymore!
- - Fixed the Overlord weapon that sometimes only fires one shell when the Overlord is not firing for a long time
- - Overlord armor received damage from JET_MISSILES and STEALTHJET_MISSILES reduced from 100% to 85%
- - Overlord armor received damage from RADIATION reduced from 50% to 40%
- - Overlord can target air units correctly when upgraded with Gattling/Bunker upgrade
- - Overlord debris no longer attackable
- - Unupgraded Overlord locomotor initial acceleration speed increased to 125%
- - Fixed the shadow bugs in Overlord model
- - Overlord Gattling Cannon upgrade cost reduced from 1200 to 900
- - Overlord Gattling Cannon turret turns faster to increase its effectiveness
- - Overlord Gattling Cannon ground weapon damage reduced to 75% compared from the Gattling Cannon building weapon
- - Overlord Gattling Cannon air weapon range reduced from 400 to 350
- - Fixed minor bug where the structure addon didn't affected by Frenzy visual effects
+ - [IMPROVEMENT] Upgraded Overlords will not block dozer builds anymore!
+ - [IMPROVEMENT] Fixed the Overlord weapon that sometimes only fires one shell when the Overlord is not firing for a long time
+ - [NOTRELEVANT] Overlord armor received damage from JET_MISSILES and STEALTHJET_MISSILES reduced from 100% to 85%
+ - [NOTRELEVANT] Overlord armor received damage from RADIATION reduced from 50% to 40%
+ - [IMPROVEMENT] Overlord can target air units correctly when upgraded with Gattling/Bunker upgrade
+ - [IMPROVEMENT] Overlord debris no longer attackable
+ - [NOTRELEVANT] Unupgraded Overlord locomotor initial acceleration speed increased to 125%
+ - [IMPROVEMENT] Fixed the shadow bugs in Overlord model
+ - [NOTRELEVANT] Overlord Gattling Cannon upgrade cost reduced from 1200 to 900
+ - [NOTRELEVANT] Overlord Gattling Cannon turret turns faster to increase its effectiveness
+ - [NOTRELEVANT] Overlord Gattling Cannon ground weapon damage reduced to 75% compared from the Gattling Cannon building weapon
+ - [NOTRELEVANT] Overlord Gattling Cannon air weapon range reduced from 400 to 350
+ - [?] Fixed minor bug where the structure addon didn't affected by Frenzy visual effects
 
  INFERNO CANNON:
- - Infreno Cannon attacks now inflict burned death instead exploded death
- - Inferno Cannon healthpoint increased from 120 to 180
+ - [IMPROVEMENT] Infreno Cannon attacks now inflict burned death instead exploded death
+ - [NOTRELEVANT] Inferno Cannon healthpoint increased from 120 to 180
 
  ECM TANK:
- - Increased ECM missile jammer weapon effectiveness
- - ECM Tank no longer can gain experience
- - Fixed ECM Tank behavior that sometimes just standing still while guarding an area
- - Added Hold Fire mode to ECM Tank to keep them using the missile jammer instead hunting with vehicle disabler when idle
- - New wave color for ECM Tank missile jammer weapon
+ - [NOTRELEVANT] Increased ECM missile jammer weapon effectiveness
+ - [IMPROVEMENT] ECM Tank no longer can gain experience
+ - [?] Fixed ECM Tank behavior that sometimes just standing still while guarding an area
+ - [MAYBE] Added Hold Fire mode to ECM Tank to keep them using the missile jammer instead hunting with vehicle disabler when idle
+ - [MAYBE] New wave color for ECM Tank missile jammer weapon
 
  NUKE CANNON:
- - Nuke Cannon attack range increased from 350 to 420
- - Nuke Cannon barrel will recoil properly when attacking with Nuclear Shells
- - Nuke Cannon no longer crushable by Overlord tanks
- - Fixed Nuke Cannon weapon shells explosion effect that bit off from the center of the explosion
- - You cannot purchase Neutron Shells upgrade if you haven't unlocked the Nuke Cannon
+ - [NOTRELEVANT] Nuke Cannon attack range increased from 350 to 420
+ - [IMPROVEMENT] Nuke Cannon barrel will recoil properly when attacking with Nuclear Shells
+ - [NOTRELEVANT] Nuke Cannon no longer crushable by Overlord tanks
+ - [IMPROVEMENT] Fixed Nuke Cannon weapon shells explosion effect that bit off from the center of the explosion
+ - [IMPROVEMENT] You cannot purchase Neutron Shells upgrade if you haven't unlocked the Nuke Cannon
 
  MIG:
- - MiG napalm missiles never creates flying firestorm again if used againts aircrafts
- - Improved MiG missile movements so they will no longer scatter their attacks
- - MiG minimum attack range (weapon blind area) reduced from 80 to 60, allowing them to perform better
- - MiG build cost increased from 1200 to 1300
- - MiG build time increased from 10 to 15 seconds
- - MiG Black Napalm weapon reload time increased from 2000 to 8000 miliseconds to match the unupgraded weapon reload time
- - Fixed the bug where MiG weapon able to attack paradropping infantry after the Black Napalm upgrade
+ - [IMPROVEMENT] MiG napalm missiles never creates flying firestorm again if used againts aircrafts
+ - [IMPROVEMENT] Improved MiG missile movements so they will no longer scatter their attacks
+ - [NOTRELEVANT] MiG minimum attack range (weapon blind area) reduced from 80 to 60, allowing them to perform better
+ - [NOTRELEVANT] MiG build cost increased from 1200 to 1300
+ - [NOTRELEVANT] MiG build time increased from 10 to 15 seconds
+ - [NOTRELEVANT] MiG Black Napalm weapon reload time increased from 2000 to 8000 miliseconds to match the unupgraded weapon reload time
+ - [?] Fixed the bug where MiG weapon able to attack paradropping infantry after the Black Napalm upgrade
 
  HELIX:
- - Improved Helix model
- - Helix build cost increased from 1500 to 1600
- - Helix Gattling Cannon now can attack air
- - Helix can target air units when upgraded with Gattling/Bunker upgrade
- - Helix Napalm Bomb now properly trigger burned death instead exploded death upon the bomb's first impact
- - Helix Gattling Cannon upgrade cost reduced from 1200 to 900
- - Helix Gattling Cannon ground weapon damage reduced to 75% compared from the Gattling Cannon building weapon
- - Helix Gattling Cannon air weapon range reduced from 400 to 350
- - Fixed minor bug where the structure addon didn't affected by Frenzy visual effects
+ - [IMPROVEMENT] Improved Helix model
+ - [NOTRELEVANT] Helix build cost increased from 1500 to 1600
+ - [NOTRELEVANT] Helix Gattling Cannon now can attack air
+ - [NOTRELEVANT] Helix can target air units when upgraded with Gattling/Bunker upgrade
+ - [IMPROVEMENT] Helix Napalm Bomb now properly trigger burned death instead exploded death upon the bomb's first impact
+ - [NOTRELEVANT] Helix Gattling Cannon upgrade cost reduced from 1200 to 900
+ - [NOTRELEVANT] Helix Gattling Cannon ground weapon damage reduced to 75% compared from the Gattling Cannon building weapon
+ - [NOTRELEVANT] Helix Gattling Cannon air weapon range reduced from 400 to 350
+ - [?] Fixed minor bug where the structure addon didn't affected by Frenzy visual effects
 
  CHINESE COMMAND CENTER:
- - Chinese Command Center door opening time reduced from 3000 to 1000 miliseconds
- - Fixed Chinese Command Center radar upgrading animation that was cut off midway
+ - [MAYBE] Chinese Command Center door opening time reduced from 3000 to 1000 miliseconds
+ - [IMPROVEMENT] Fixed Chinese Command Center radar upgrading animation that was cut off midway
 
  NUCLEAR REACTOR:
- - All Nuclear Reactors will not die because of their Overcharge ability. Overcharge ability will automatically turned off
+ - [NOTRELEVANT] All Nuclear Reactors will not die because of their Overcharge ability. Overcharge ability will automatically turned off
    on reactor's low healthpoint
- - Optimized all Nuclear Reactor model codes. Damaged states smokes and fires appears at right positions
- - Additional details for Nuclear Reactor to match its footprint
+ - [IMPROVEMENT] Optimized all Nuclear Reactor model codes. Damaged states smokes and fires appears at right positions
+ - [MAYBE] Additional details for Nuclear Reactor to match its footprint
 
  CHINESE BARRACKS:
- - Fixed the shadow bug on Chinese Barracks model at several snow/night conditions
+ - [IMPROVEMENT] Fixed the shadow bug on Chinese Barracks model at several snow/night conditions
 
  CHINESE SUPPLY CENTER:
- - New Chinese Supply Center model. The new model actually used to Chinese Supply Center in Generals Beta
- - Added door animation for the old Supply Center (used for Boss General), matching the new Chinese Supply Center model
+ - [NOTRELEVANT] New Chinese Supply Center model. The new model actually used to Chinese Supply Center in Generals Beta
+ - [IMPROVEMENT] Added door animation for the old Supply Center (used for Boss General), matching the new Chinese Supply Center model
 
  BUNKER:
- - Fixed the issue of Chinese Bunkers that not appeared on the radar
- - Fixed Chinese Bunker fireport issue where garrisons sometimes attacking from the center bottom of the Bunker
- - Chinese Bunker build time increased from 5 to 10 seconds
- - Chinese Bunker now more vulnerable to Nighthawk weapon like other defenses
- - Chinese Bunker no longer block unit sights, allowing other units to attack enemies behind
+ - [IMPROVEMENT] Fixed the issue of Chinese Bunkers that not appeared on the radar
+ - [IMPROVEMENT] Fixed Chinese Bunker fireport issue where garrisons sometimes attacking from the center bottom of the Bunker
+ - [NOTRELEVANT] Chinese Bunker build time increased from 5 to 10 seconds
+ - [NOTRELEVANT] Chinese Bunker now more vulnerable to Nighthawk weapon like other defenses
+ - [MAYBE] Chinese Bunker no longer block unit sights, allowing other units to attack enemies behind
 
  GATTLING CANNON:
- - Gattling Cannon build cost reduced from 1200 to 1000. Finally!
- - Gattling Cannon now can purchase mines upgrades even when low-powered
- - Gattling Cannon no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Gattling Cannon build cost reduced from 1200 to 1000. Finally!
+ - [MAYBE] Gattling Cannon now can purchase mines upgrades even when low-powered
+ - [MAYBE] Gattling Cannon no longer block unit sights, allowing other units to attack enemies behind
 
  CHINESE WAR FACTORY:
- - Fixed the shadow bug on Chinese War Factory model (the repair dock crane)
- - Fixed the texture alpha errors on the snow condition models
- - Chinese War Factory door opening time reduced from 4000 to 1500 miliseconds. No more dramatic entry!
+ - [IMPROVEMENT] Fixed the shadow bug on Chinese War Factory model (the repair dock crane)
+ - [IMPROVEMENT] Fixed the texture alpha errors on the snow condition models
+ - [MAYBE] Chinese War Factory door opening time reduced from 4000 to 1500 miliseconds. No more dramatic entry!
 
  CHINESE AIRFIELD:
- - Fixed several Chinese Airfield model issue like the missing inner walls
- - Fixed the Chinese Airfield scaffolding model that the tower scaffolding was over the helipad, not at the tower
- - Chinese Airfield hangar door opening time reduced from 2000 to 1500 miliseconds
+ - [IMPROVEMENT] Fixed several Chinese Airfield model issue like the missing inner walls
+ - [IMPROVEMENT] Fixed the Chinese Airfield scaffolding model that the tower scaffolding was over the helipad, not at the tower
+ - [MAYBE] Chinese Airfield hangar door opening time reduced from 2000 to 1500 miliseconds
 
  PROPAGANDA CENTER:
- - Fixed the issue of Propaganda Center that not appeared on the radar
- - Propaganda Center equipped with a Speaker Tower and can build units
- - Propaganda Center healthpoint increased from 1000 to 2000 to match the other factions tech center buildings
- - Nationalism upgrade cost reduced from 1500 to 1000
- - Subliminal Messaging upgrade cost increased from 500 to 1000
+ - [IMPROVEMENT] Fixed the issue of Propaganda Center that not appeared on the radar
+ - [NOTRELEVANT] Propaganda Center equipped with a Speaker Tower and can build units
+ - [NOTRELEVANT] Propaganda Center healthpoint increased from 1000 to 2000 to match the other factions tech center buildings
+ - [NOTRELEVANT] Nationalism upgrade cost reduced from 1500 to 1000
+ - [NOTRELEVANT] Subliminal Messaging upgrade cost increased from 500 to 1000
 
  SPEAKER TOWER:
- - Completely new and improved model for Speaker Tower!
- - Speaker Tower healthpoint increased from 300 to 500
- - Speaker Tower now counted as base defenses, not base buildings. Fixing the bug that makes a player still not defeated
+ - [MAYBE] Completely new and improved model for Speaker Tower!
+ - [NOTRELEVANT] Speaker Tower healthpoint increased from 300 to 500
+ - [IMPROVEMENT] Speaker Tower now counted as base defenses, not base buildings. Fixing the bug that makes a player still not defeated
    when only have Speaker Tower as remaining building.
- - Speaker Tower now also upgradable with Mines like the other Chinese structures
- - Speaker Tower no longer block unit sights, allowing other units to attack enemies behind
+ - [IMPROVEMENT] Speaker Tower now also upgradable with Mines like the other Chinese structures
+ - [MAYBE] Speaker Tower no longer block unit sights, allowing other units to attack enemies behind
 
  INTERNET CENTER:
- - You require a Propaganda Center instead a War Factory to build the Internet Center
- - Internet Center now requires 4 powers, but will not disabled when low power
- - Internet Center now counted as normal base structure, not base defense (sometimes it attacked automatically by AI before)
- - Now you cannot build multiple Internet Centers from different subfactions
- - New constructing animation for Internet Center. Now it have unique scaffolding (not using the Supply Center one)
+ - [NOTRELEVANT] You require a Propaganda Center instead a War Factory to build the Internet Center
+ - [NOTRELEVANT] Internet Center now requires 4 powers, but will not disabled when low power
+ - [IMPROVEMENT] Internet Center now counted as normal base structure, not base defense (sometimes it attacked automatically by AI before)
+ - [NOTRELEVANT] Now you cannot build multiple Internet Centers from different subfactions
+ - [IMPROVEMENT] New constructing animation for Internet Center. Now it have unique scaffolding (not using the Supply Center one)
  - Some changes on Satellite Hack upgrades due to new Spy Plane ability (see below):
-   > Satellite Hack I reveal now non-permanent. Now it only reveal enemy Command Centers for 25 seconds each 4 minutes.
-   > Also fixed Satellite Hack I bug that sometimes not revealing enemy newly built Command Centers (hopefully)
-   > Satellite Hack II now only reveal enemy structures, not entire forces, to give it some diversity from USA Intelligence
+   > [NOTRELEVANT] Satellite Hack I reveal now non-permanent. Now it only reveal enemy Command Centers for 25 seconds each 4 minutes.
+   > [IMPROVEMENT] Also fixed Satellite Hack I bug that sometimes not revealing enemy newly built Command Centers (hopefully)
+   > [NOTRELEVANT] Satellite Hack II now only reveal enemy structures, not entire forces, to give it some diversity from USA Intelligence
      special power.
-   > Satellite Hack II reveal duration increased to match the new Satellite Hack I reveal duration
+   > [NOTRELEVANT] Satellite Hack II reveal duration increased to match the new Satellite Hack I reveal duration
 
  NUCLEAR MISSILE SILO:
- - Improved Nuclear Missile superweapon. Now it may destroy GLA structures and their holes. (NOTE: Total damage delivered
+ - [MAYBE] Improved Nuclear Missile superweapon. Now it may destroy GLA structures and their holes. (NOTE: Total damage delivered
    are not changed, it's still the most powerful superweapon anyway)
- - Toned down the Nuclear Missile Silo building destruction effect
- - Uranium Shells upgrade cost reduced from 2500 to 2000
- - Uranium Shells upgrade now only increases Battlemaster and Overlord weapon damage
- - Nuclear Tank upgrade cost reduced from 2000 to 1500
- - All Chinese factions' Battlemaster and Overlord can have Isotope Stability upgrade
+ - [IMPROVEMENT] Toned down the Nuclear Missile Silo building destruction effect
+ - [NOTRELEVANT] Uranium Shells upgrade cost reduced from 2500 to 2000
+ - [NOTRELEVANT] Uranium Shells upgrade now only increases Battlemaster and Overlord weapon damage
+ - [NOTRELEVANT] Nuclear Tank upgrade cost reduced from 2000 to 1500
+ - [NOTRELEVANT] All Chinese factions' Battlemaster and Overlord can have Isotope Stability upgrade
 
  BUILDING MINES:
- - Land Mines upgrade cost reduced from 600 to 400
- - Land Mines upgrade research time reduced from 20 to 15 seconds
- - Neutron Mines now exclusive for Nuke General! The other Chinese generals will get the new EMP Mines instead. (see below)
+ - [NOTRELEVANT] Land Mines upgrade cost reduced from 600 to 400
+ - [NOTRELEVANT] Land Mines upgrade research time reduced from 20 to 15 seconds
+ - [NOTRELEVANT] Neutron Mines now exclusive for Nuke General! The other Chinese generals will get the new EMP Mines instead. (see below)
 
  GATTLING WEAPONS:
- - Gattling weapons now properly show the muzzle flash when attacking ground units
+ - [IMPROVEMENT] Gattling weapons now properly show the muzzle flash when attacking ground units
 
  SPECIAL POWERS:
- - Artillery Barrage shells delivered faster and no longer shown on radar
- - New Artillery Barrage shell explosion sound
- - Added new model to Chinese Carpet Bomber (no longer use USA B52 knockoff)
- - Improved Carpet Bomb special power efficiency
- - New Electro-Magnetic Pulse bomb model
- - Doubled up the Cash Hack cash values to make this special power more worth spend your Generals Points.
+ - [NOTRELEVANT] Artillery Barrage shells delivered faster and no longer shown on radar
+ - [NOTRELEVANT] New Artillery Barrage shell explosion sound
+ - [MAYBE] Added new model to Chinese Carpet Bomber (no longer use USA B52 knockoff)
+ - [MAYBE] Improved Carpet Bomb special power efficiency
+ - [IMPROVEMENT] New Electro-Magnetic Pulse bomb model
+ - [MAYBE] Doubled up the Cash Hack cash values to make this special power more worth spend your Generals Points.
    > Level 1: $2000
    > Level 2: $4000
    > Level 3: $8000
 
 
  New Stuff:
- - Flamethrower
+ - [NOTRELEVANT] Flamethrower
      Infantry version of the Dragon Tank. But unlike the Dragon Tank, they can't make a fire wall. Requires War Factory
- - Iron Dragon
+ - [NOTRELEVANT] Iron Dragon
      Heavy bomber aircraft with EMP Bomb that disables enemy vehicles and structures. Effective against structures.
- - Support Van
+ - [NOTRELEVANT] Support Van
      Portable Speaker Tower, can transport 4 infantry. Use it as a support for your attack force since it's cheaper than
      any units that have Speaker Tower. Build at Propaganda Center. Requires War Factory.
- - Spy Post (aka Spy Outpost)
+ - [NOTRELEVANT] Spy Post (aka Spy Outpost)
      Recon/intel/support structure. Has wide vision range and reveals enemy paths. Can load up to 4 Hackers as expansion
      for the Internet Center. Requires Propaganda Center.
- - EMP Mines
+ - [NOTRELEVANT] EMP Mines
      All Land Mines will be upgraded with EMP Mines instead the old Neutron Mines. EMP Mines will temporarily disable
      vehicles that stepped on them. Neutron Mines now exclusive for Nuke General. Neutron Cluster didn't affected.
- - Red Guard and Minigunner Bayonet ability
+ - [MAYBE] Red Guard and Minigunner Bayonet ability
      Attack enemy infantry unit with bayonet. Useful to counter infantry horde attacks.
- - Battlemaster Machinegun
+ - [NOTRELEVANT] Battlemaster Machinegun
      Battlemasters now will utilize their machineguns against infantry targets. Even not really damaging (as they're not
      intended to be anti-infantry), it's much better than tank shells that often to miss.
- - Spy Plane ability
+ - [NOTRELEVANT] Spy Plane ability
      Call a Spy Plane to scout a target area. Spot hidden enemies. Deployed from Internet Center. Countdown Timer: 1 minute
- - Firestorm Generals Power
+ - [NOTRELEVANT] Firestorm Generals Power
      A MiG squadron strafle target area with napalms to create a firestorm. Available at Rank-5. Upgradable with
      Black Napalm
- - Neutron Cluster Mines Upgrade
+ - [NOTRELEVANT] Neutron Cluster Mines Upgrade
      Upgrade Cluster Mines generals power to drop Neutron Mines instead the normal one. Purchase at Propaganda Center
- - Neutron Pulse Upgrade
+ - [NOTRELEVANT] Neutron Pulse Upgrade
      Upgrade Electro-Magnetic Pulse kills vehicle pilots and infantry inside the buildings. Also disables buildings and
      vehicles. Purchase at Propaganda Center
      
@@ -885,82 +886,82 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 2.2.1 Infantry General
 ----------------------
  Balances and Fixes:
- - Infantry General Tank Hunter healthpoint increased from 100 to 140
- - Infantry General Tank Hunter no longer starts as veteran
- - Gattling Tank now available for Infantry General
- - Infantry General Inferno Cannon build cost reduced from 1100 to 900
- - Infantry General got Cash Hack instead Emergency Repair
+ - [NOTRELEVANT] Infantry General Tank Hunter healthpoint increased from 100 to 140
+ - [NOTRELEVANT] Infantry General Tank Hunter no longer starts as veteran
+ - [NOTRELEVANT] Gattling Tank now available for Infantry General
+ - [NOTRELEVANT] Infantry General Inferno Cannon build cost reduced from 1100 to 900
+ - [MAYBE] Infantry General got Cash Hack instead Emergency Repair
 
  MINIGUNNER:
- - Minigunner now trained in pairs like Red Guard (build cost stays on 400)
- - Minigunner (pairs) build time increased from 10 to 12 seconds
- - Minigunner weapon damage sightly reduced
- - Now Minigunner can be squished/crushed by vehicles
- - No longer starts as veteran. But now they're affected by the Red Guard Training and the new Infantry Training.
- - Reduced the required spin-up time for Minigunner weapon to 50%
+ - [NOTRELEVANT] Minigunner now trained in pairs like Red Guard (build cost stays on 400)
+ - [NOTRELEVANT] Minigunner (pairs) build time increased from 10 to 12 seconds
+ - [NOTRELEVANT] Minigunner weapon damage sightly reduced
+ - [IMPROVEMENT] Now Minigunner can be squished/crushed by vehicles
+ - [NOTRELEVANT] No longer starts as veteran. But now they're affected by the Red Guard Training and the new Infantry Training.
+ - [NOTRELEVANT] Reduced the required spin-up time for Minigunner weapon to 50%
 
  SUPER HACKER:
- - New cameo and model for Super Hacker
- - No longer starts as veteran
- - Their Internet Hack ability are better than normal Hackers:
+ - [IMPROVEMENT] New cameo and model for Super Hacker
+ - [NOTRELEVANT] No longer starts as veteran
+ - [NOTRELEVANT] Their Internet Hack ability are better than normal Hackers:
    > Private : $6
    > Veteran : $8
    > Elite   : $10
    > Heroic  : $12
- - Super Hackers now are stealthed while garrisoned
+ - [MAYBE] Super Hackers now are stealthed while garrisoned
 
  ASSAULT TROOP CRAWLER:
- - Assault Troop Crawler build cost reduced from 2400 to 2200
- - Assault Troop Crawler speakers also affect self
- - Assault Troop Crawler speaker tower effect range, refresh rate, and heal amount have been changed to match the
+ - [NOTRELEVANT] Assault Troop Crawler build cost reduced from 2400 to 2200
+ - [MAYBE] Assault Troop Crawler speakers also affect self
+ - [MAYBE] Assault Troop Crawler speaker tower effect range, refresh rate, and heal amount have been changed to match the
    other units with portable speaker towers
- - Significant changes for Assault Troop Crawler armor in order to balance it with the normal Troop Crawler armor:
+ - [MAYBE] Significant changes for Assault Troop Crawler armor in order to balance it with the normal Troop Crawler armor:
    > received damage from SMALL_ARMS reduced from 25% to 20%
    > received damage from GATTLING reduced from 25% to 12%
    > received damage from INFANTRY_MISSILE reduced from 100% to 65%
    > received damage from POISON reduced from 25% to 15%
- - Assault Troop Crawler now are amphibious!
+ - [MAYBE] Assault Troop Crawler now are amphibious!
 
  ATTACK OUTPOST:
- - Attack Outpost now has different model than normal Listening Outpost
- - Attack Outpost build cost increased from 1000 to 1500
- - Attack Outpost build time increased from 15 to 20 seconds
- - Attack Outpost now only can load 6 infantry
- - Attack Outpost no longer have speakers. It's not stealthed Assault Troop Crawler anyway.
+ - [IMPROVEMENT] Attack Outpost now has different model than normal Listening Outpost
+ - [NOTRELEVANT] Attack Outpost build cost increased from 1000 to 1500
+ - [NOTRELEVANT] Attack Outpost build time increased from 15 to 20 seconds
+ - [NOTRELEVANT] Attack Outpost now only can load 6 infantry
+ - [NOTRELEVANT] Attack Outpost no longer have speakers. It's not stealthed Assault Troop Crawler anyway.
 
  ASSAULT HELIX:
- - New and improved Assault Helix
+ - [NOTRELEVANT] New and improved Assault Helix
    > Starts with Bunker upgrade
    > Can be upgraded again with Napalm Bomb, and either Gattling Cannon or Speaker Tower
    > Can load up to 6 units (infantry and vehicles).
- - Assault Helix build cost increased from 1500 to 1900
+ - [NOTRELEVANT] Assault Helix build cost increased from 1500 to 1900
 
  FORTIFIED BUNKER:
- - Fortified Bunker build cost increased from 700 to 800
- - Fortified Bunker build time increased from 8 to 15 seconds
- - Fortified Bunker healthpoint increased from 1000 to 1200
- - No longer starts with Land Mines due to its buggy nature. This will prevents the mines appears on bottom-left corner
+ - [NOTRELEVANT] Fortified Bunker build cost increased from 700 to 800
+ - [NOTRELEVANT] Fortified Bunker build time increased from 8 to 15 seconds
+ - [NOTRELEVANT] Fortified Bunker healthpoint increased from 1000 to 1200
+ - [NOTRELEVANT] No longer starts with Land Mines due to its buggy nature. This will prevents the mines appears on bottom-left corner
    of the map on loaded games.
 
  MINIGUNNER TRAINING:
- - Replaced with Infantry Training (read below). Now there's no more elite Minigunners at start.
+ - [NOTRELEVANT] Replaced with Infantry Training (read below). Now there's no more elite Minigunners at start.
 
  INFANTRY PARADROP:
- - Infantry Paradrop now deliver mix of Minigunners and Tank Hunters to increase its effectiveness:
+ - [MAYBE] Infantry Paradrop now deliver mix of Minigunners and Tank Hunters to increase its effectiveness:
    > Level 1: 3 Minigunners and 2 Tank Hunters
    > Level 2: 6 Minigunners and 4 Tank Hunters
    > Level 3: 10 Minigunners and 6 Tank Hunters
- - Infantry Paradrop can be used in another Chinese factions' Command Center but drops Red Guards instead Minigunners
+ - [IMPROVEMENT] Infantry Paradrop can be used in another Chinese factions' Command Center but drops Red Guards instead Minigunners
 
 
  New Stuff:
- - Footman
+ - [NOTRELEVANT] Footman
      Elite infantry. Armed with scoped machinegun that can attack from both long and close ranged. Switch between Assault
      and Scope Mode. This unit is the only non-stealthed sniper unit in game. Requires Propaganda Center to be trained. No
      Generals Promotions needed. Cannot gain horde bonus unlike the other combat infantry.
- - Super Lotus
+ - [NOTRELEVANT] Super Lotus
      Replaces Black Lotus. Stronger and hacks faster. Can capture buildings, steal cashes, disable vehicles AND BUILDINGS
- - Infantry Training science protocol
+ - [NOTRELEVANT] Infantry Training science protocol
      Replaces Minigunner Training. This revamped and rebalanced version makes Minigunners, Tank Hunters, and Flamethrowers
      start as veterans. Other subfaction Red Guards, Tank Hunters, and Flamethrowers also affected with this training. With
      this, when enemy capture an Infantry General Barracks they will not get any veteran infantry.
@@ -970,35 +971,35 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 2.2.2 Nuke General
 ------------------
  Balances and Fixes:
- - Nuke General Red Guard build time reduced from 12 to 10 seconds, standardized with other China factions
- - Nuke General Black Lotus build cost reduced from 1600 to 1500
- - Nuke General Troop Crawler build cost increased from 1400 to 1600
+ - [IMPROVEMENT] Nuke General Red Guard build time reduced from 12 to 10 seconds, standardized with other China factions
+ - [NOTRELEVANT] Nuke General Black Lotus build cost reduced from 1600 to 1500
+ - [NOTRELEVANT] Nuke General Troop Crawler build cost increased from 1400 to 1600
 
  NUCLEAR BATTLEMASTER and OVERLORD
- - Improved Nuclear Battlemaster and Overlord shells radiation field
- - New model and cameo for Nuclear Overlord!
+ - [NOTRELEVANT] Improved Nuclear Battlemaster and Overlord shells radiation field
+ - [MAYBE] New model and cameo for Nuclear Overlord!
 
  NUKE CANNON:
- - Nuke General Nuke Cannon build cost reduced from 1600 to 1500
- - New Nuke Helix and Nuke Cannon skin
- - You cannot build Nuke General Nuke Cannon if you didn't unlock it on the Generals Promotions
- - If you play as Nuke General, you can build other subfaction Nuke Cannons correctly
+ - [NOTRELEVANT] Nuke General Nuke Cannon build cost reduced from 1600 to 1500
+ - [MAYBE] New Nuke Helix and Nuke Cannon skin
+ - [NOTRELEVANT] You cannot build Nuke General Nuke Cannon if you didn't unlock it on the Generals Promotions
+ - [IMPROVEMENT] If you play as Nuke General, you can build other subfaction Nuke Cannons correctly
 
  NUKE MIG:
- - Increased Nuke MiG weapon damage per missile from 100 to 125 to compensate its inability to create fire fields
- - Increased Nuke MiG weapon splash damage from 40 to 65 for the same reason
- - Tactical Nuke MiG weapon (after upgrade) reload time increased from 2000 to 8000 miliseconds to match the unupgraded weapon reload time
+ - [NOTRELEVANT] Increased Nuke MiG weapon damage per missile from 100 to 125 to compensate its inability to create fire fields
+ - [NOTRELEVANT] Increased Nuke MiG weapon splash damage from 40 to 65 for the same reason
+ - [NOTRELEVANT] Tactical Nuke MiG weapon (after upgrade) reload time increased from 2000 to 8000 miliseconds to match the unupgraded weapon reload time
 
  New Stuff:
- - Nuke Hunter
+ - [NOTRELEVANT] Nuke Hunter
      Missile armed infantry. Missiles carry a small tactical nukes. Replaces his Tank Hunter.
- - Nuke Hacker
+ - [NOTRELEVANT] Nuke Hacker
      Nuke Hacker can't disable buildings, but he has a nuclear weapon in his suitcase. This nuclear charge can be placed at
      buildings and will detonate in 20 seconds. Replaces his normal Hacker.
- - Weapon Grade Uranium Shells upgrade
+ - [NOTRELEVANT] Weapon Grade Uranium Shells upgrade
      Additional weapon damage bonus for Nuclear Battlemaster and Overlord, also loads standard Battlemaster and Overlord
      shells with small tactical nukes.
- - Fusion Reactor upgrade
+ - [NOTRELEVANT] Fusion Reactor upgrade
      More additional movement speed for Nuclear Battlemaster and Overlord. If you purchased this upgrade without purchased
      the Isotope Stability upgrade, when the tanks destroyed, they do more damage than the normal Nuclear Tanks.
 
@@ -1007,60 +1008,60 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 2.2.3 Tank General
 ------------------
  Balances and Fixes:
- - Tank General Tank Hunter build cost reduced from 375 to 350
- - No Flamethrower infantry for Tank General
- - Tank General Hacker build cost reduced from 780 to 700
- - Tank General Black Lotus build cost reduced from 1875 to 1500
- - Tank General Dragon Tank no longer starts as veteran
- - Tank General Troop Crawler build cost increased from 1400 to 1600
- - Tank General Listening Outpost build cost reduced from 950 to 900
- - Tank General ECM Tank build cost reduced from 800 to 700
- - Tank General ECM Tank no longer starts as veteran
- - Tank General MiG build cost reduced from 1600 to 1500
- - Tank General Helix build cost reduced from 2000 to 1700
+ - [NOTRELEVANT] Tank General Tank Hunter build cost reduced from 375 to 350
+ - [NOTRELEVANT] No Flamethrower infantry for Tank General
+ - [NOTRELEVANT] Tank General Hacker build cost reduced from 780 to 700
+ - [NOTRELEVANT] Tank General Black Lotus build cost reduced from 1875 to 1500
+ - [NOTRELEVANT] Tank General Dragon Tank no longer starts as veteran
+ - [NOTRELEVANT] Tank General Troop Crawler build cost increased from 1400 to 1600
+ - [NOTRELEVANT] Tank General Listening Outpost build cost reduced from 950 to 900
+ - [NOTRELEVANT] Tank General ECM Tank build cost reduced from 800 to 700
+ - [NOTRELEVANT] Tank General ECM Tank no longer starts as veteran
+ - [NOTRELEVANT] Tank General MiG build cost reduced from 1600 to 1500
+ - [NOTRELEVANT] Tank General Helix build cost reduced from 2000 to 1700
 
  BATTLEMASTER:
- - Tank General Battlemaster build time reduced from 12 to 8 seconds, faster than vanilla China Battlemaster build time
- - Autoloader upgraded Battlemaster rate of fire now constant at 200% from normal attack speed
- - No longer starts as veteran
- - Tank General Battlemaster movement speed now slightly faster compared to the vanilla China Battlemaster
+ - [NOTRELEVANT] Tank General Battlemaster build time reduced from 12 to 8 seconds, faster than vanilla China Battlemaster build time
+ - [NOTRELEVANT] Autoloader upgraded Battlemaster rate of fire now constant at 200% from normal attack speed
+ - [NOTRELEVANT] No longer starts as veteran
+ - [NOTRELEVANT] Tank General Battlemaster movement speed now slightly faster compared to the vanilla China Battlemaster
 
  EMPEROR OVERLORD:
- - Emperor Overlord uses the right model when destroyed, not turn into normal Overlord again
- - Fixed Emperor Overlord model shadow bugs and bad UV Mappings, and now with better skin!
- - Emperor Overlord speaker now compatible with Subliminal Messaging upgrade
- - Emperor Overlord now can be upgraded with bunker like standard Overlord!
- - Emperor Overlord build cost increased from 1900 to 2000
- - Emperor Overlord weapon damage per shot reduced from 80 to 75
- - Emperor Overlord rate of fire reduced from 1800 to 2100 miliseconds
+ - [IMPROVEMENT] Emperor Overlord uses the right model when destroyed, not turn into normal Overlord again
+ - [IMPROVEMENT] Fixed Emperor Overlord model shadow bugs and bad UV Mappings, and now with better skin!
+ - [MAYBE] Emperor Overlord speaker now compatible with Subliminal Messaging upgrade
+ - [NOTRELEVANT] Emperor Overlord now can be upgraded with bunker like standard Overlord!
+ - [NOTRELEVANT] Emperor Overlord build cost increased from 1900 to 2000
+ - [NOTRELEVANT] Emperor Overlord weapon damage per shot reduced from 80 to 75
+ - [NOTRELEVANT] Emperor Overlord rate of fire reduced from 1800 to 2100 miliseconds
    (don't worry, despite all the weapon changes, Emperor Overlord weapon is still stronger than normal Overlord)
- - Emperor Overlord healthpoint increased from 1100 to 1200
- - Emperor Overlord movement speed now slightly faster compared to normal Overlord
- - No longer starts as veteran
+ - [NOTRELEVANT] Emperor Overlord healthpoint increased from 1100 to 1200
+ - [NOTRELEVANT] Emperor Overlord movement speed now slightly faster compared to normal Overlord
+ - [NOTRELEVANT] No longer starts as veteran
 
  BATTLEMASTER TRAINING:
- - Replaced with Tank Training (read below). Now there's no more elite Battlemaster at start.
+ - [NOTRELEVANT] Replaced with Tank Training (read below). Now there's no more elite Battlemaster at start.
 
  TANK DROP:
- - Increase Tank Drop effectiveness and amount of dropped tanks:
+ - [MAYBE] Increase Tank Drop effectiveness and amount of dropped tanks:
    > Level 1: 2 Battlemasters
    > Level 2: 3 Battlemasters
    > Level 3: 6 Battlemasters
- - Tank Drop use larger parachutes
+ - [IMPROVEMENT] Tank Drop use larger parachutes
 
 
  New Stuff:
- - Twin-Gattling Tank
+ - [NOTRELEVANT] Twin-Gattling Tank
      Gattling Tank variant with two barrels instead of one. Fires faster so it can do more damage per second compared to the
      normal Gattling Tank. Replaces Gattling Tank.
- - Flame Tank
+ - [NOTRELEVANT] Flame Tank
      Newest breed of Dragon Tank with two heavy flamethrower instead mounted tower of the old Dragon Tank variant. Replaces
      Dragon Tank.
- - Siege Cannon
+ - [NOTRELEVANT] Siege Cannon
      Siege Cannon is a WWII-styled tank destroyer with devastating cannon that could obliterate anything on ground. Siege
      Cannon is Tank General answer to his lack of artillery units. This unit is effective against structures and ground
      units alike. Requires Propaganda Center and Rank 1 Generals Promotion.
- - Tank Training science protocol
+ - [NOTRELEVANT] Tank Training science protocol
     Replaces Battlemaster Training. Makes Battlemasters, Gattling Tanks, and Dragon Tanks start as veterans. Also affects
     other subfactions Battlemasters, Gattling Tanks, and Dragon Tanks. With this, when enemy capture an Tank General War
     Factory they will not get any veteran tanks.
@@ -1072,261 +1073,261 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  General Balances and Fixes:
 
  WORKER:
- - Worker healthpoint increased from 100 to 140. This have been applied in original Generals, but were removed in Zero Hour
- - Worker build time increased from 3 to 5 seconds
- - Worker Shoes upgrade research time increased from 10 to 25 seconds
- - Cleaned up Worker animation codes, also fixed the supply gathering/docking animations
+ - [NOTRELEVANT] Worker healthpoint increased from 100 to 140. This have been applied in original Generals, but were removed in Zero Hour
+ - [NOTRELEVANT] Worker build time increased from 3 to 5 seconds
+ - [NOTRELEVANT] Worker Shoes upgrade research time increased from 10 to 25 seconds
+ - [IMPROVEMENT] Cleaned up Worker animation codes, also fixed the supply gathering/docking animations
 
  REBEL:
- - Booby Trap upgrade cost reduced from 1000 to 500
+ - [NOTRELEVANT] Booby Trap upgrade cost reduced from 1000 to 500
 
  RPG TROOPER:
- - RPG Trooper can have Camouflage upgrade
- - RPG Trooper weapon damage increased from 40 to 50
- - RPG Trooper rate of fire reduced from 1000 to 1600 miliseconds
+ - [NOTRELEVANT] RPG Trooper can have Camouflage upgrade
+ - [NOTRELEVANT] RPG Trooper weapon damage increased from 40 to 50
+ - [NOTRELEVANT] RPG Trooper rate of fire reduced from 1000 to 1600 miliseconds
 
  TERRORIST:
- - Terrorist now use correct death animations (including exploded and burned animations)
- - Now you can manually detonate the Terrorist
- - Fixed the model animation error that occurs in non-english build. The German version "Demo Drone" also replaced with
+ - [IMPROVEMENT] Terrorist now use correct death animations (including exploded and burned animations)
+ - [MAYBE] Now you can manually detonate the Terrorist
+ - [IMPROVEMENT] Fixed the model animation error that occurs in non-english build. The German version "Demo Drone" also replaced with
    human Terrorist like in the English version (because the drone model used as Demolition General Remote Car, see below).
 
  SABOTEUR:
- - You require a Palace instead an Arms Dealer to train the Saboteur
- - Saboteur now steal $2000 from supply centers, make them more valueable.
- - Fully new animation set for Saboteur! Now they're not sharing same movement style with Workers anymore.
- - Saboteur now will be revealed when taking damage
+ - [NOTRELEVANT] You require a Palace instead an Arms Dealer to train the Saboteur
+ - [MAYBE] Saboteur now steal $2000 from supply centers, make them more valueable.
+ - [IMPROVEMENT] Fully new animation set for Saboteur! Now they're not sharing same movement style with Workers anymore.
+ - [MAYBE] Saboteur now will be revealed when taking damage
 
  ANGRY MOBS:
- - Angry Mobs build cost increased from 800 to 1000 per squad
- - Angry Mobs squad size increased from 10 to 12 members
+ - [NOTRELEVANT] Angry Mobs build cost increased from 800 to 1000 per squad
+ - [NOTRELEVANT] Angry Mobs squad size increased from 10 to 12 members
  - Rebalanced Angry Mobs weapons:
-   > Now all Angry Mobs only starts with pistols and rocks, when upgraded with Arm The Mobs all members got AK-47
-   > Pistols, rocks, and AK-47 no longer overpowered against structures and heavy vehicles
-   > Angry Mobs molotovs changed into targeted ability! Target a ground area to order the squad to throw molotovs on there
-   > Molotov flying speed increased
-   > Molotov inflicts fire damage
- - Mob's rock bounces when hit the ground/target
- - Fixed the issue where Angry Mobs pistol weapon (before Arm The Mobs upgrade) didn't get benefit from AP Bullets upgrade
- - Fixed the bug where the mobs trying to move closer into the target when attacks instead firing from distance (hopefully)
- - Mob members movement speed increased a bit and will not reduced when injured, so they can catch the squad leader faster
+   > [NOTRELEVANT] Now all Angry Mobs only starts with pistols and rocks, when upgraded with Arm The Mobs all members got AK-47
+   > [NOTRELEVANT] Pistols, rocks, and AK-47 no longer overpowered against structures and heavy vehicles
+   > [IMPROVEMENT] Angry Mobs molotovs changed into targeted ability! Target a ground area to order the squad to throw molotovs on there
+   > [MAYBE] Molotov flying speed increased
+   > [IMPROVEMENT] Molotov inflicts fire damage
+ - [IMPROVEMENT] Mob's rock bounces when hit the ground/target
+ - [NOTRELEVANT] Fixed the issue where Angry Mobs pistol weapon (before Arm The Mobs upgrade) didn't get benefit from AP Bullets upgrade
+ - [IMPROVEMENT] Fixed the bug where the mobs trying to move closer into the target when attacks instead firing from distance (hopefully)
+ - [IMPROVEMENT] Mob members movement speed increased a bit and will not reduced when injured, so they can catch the squad leader faster
 
  HIJACKER:
- - Hijacker can no longer hijack Combat Bikes
- - Hijacker can no longer hijack drone units like Sentry Drones
- - Hijacker now will be able to respawn correctly from all vehicles, not just from USA vehicles! (some exceptions apply)
- - Hijacker build cost increased from 400 to 600
- - Hijacker build time increased from 10 to 12 seconds
- - Hijacker now will be revealed when taking damage (same goes to Stealth General Hijacker)
+ - [NOTRELEVANT] Hijacker can no longer hijack Combat Bikes
+ - [MAYBE] Hijacker can no longer hijack drone units like Sentry Drones
+ - [NOTRELEVANT] Hijacker now will be able to respawn correctly from all vehicles, not just from USA vehicles! (some exceptions apply)
+ - [NOTRELEVANT] Hijacker build cost increased from 400 to 600
+ - [NOTRELEVANT] Hijacker build time increased from 10 to 12 seconds
+ - [MAYBE] Hijacker now will be revealed when taking damage (same goes to Stealth General Hijacker)
 
  JARMEN KELL:
- - Only one Jarmen Kell allowed for one player
- - Jarmen Kell healthpoint increased from 200 to 220
- - Jarmen Kell attack range increased from 225 to 300, makes Jarmen Kell much better than Pathfinders
- - Jarmen Kell weapon tracer now properly turn into red when he reached the heroic veterancy
+ - [NOTRELEVANT] Only one Jarmen Kell allowed for one player
+ - [NOTRELEVANT] Jarmen Kell healthpoint increased from 200 to 220
+ - [NOTRELEVANT] Jarmen Kell attack range increased from 225 to 300, makes Jarmen Kell much better than Pathfinders
+ - [IMPROVEMENT] Jarmen Kell weapon tracer now properly turn into red when he reached the heroic veterancy
 
  SCORPION TANK:
- - Scorpion Tank gets a free rocket at the second salvage pickup, even not upgraded with Scorpion Rocket
- - Scorpion Tank barrel recoils at the right position
- - Scorpion Tank destroyed animation fixed
- - Scorpion Tank build cost increased from 600 to 650
- - Minor improvements on Scorpion Tank model and skin
+ - [MAYBE] Scorpion Tank gets a free rocket at the second salvage pickup, even not upgraded with Scorpion Rocket
+ - [IMPROVEMENT] Scorpion Tank barrel recoils at the right position
+ - [IMPROVEMENT] Scorpion Tank destroyed animation fixed
+ - [NOTRELEVANT] Scorpion Tank build cost increased from 600 to 650
+ - [IMPROVEMENT] Minor improvements on Scorpion Tank model and skin
 
  TECHNICAL:
  - Various changes for Technical weapons to make sure the growth from salvage upgrade much more consistent:
-   > Normal weapon (pre-salvage) damage reduced from 10 to 8
-   > 1st salvage upgrade weapon splash radius greatly reduced (from 25 to 2)
-   > 1st salvage upgrade weapon no longer misses when attacking infantry
-   > 2nd salvage upgrade weapon damage type changed from EXPLOSION to GATTLING to match the previous weapons damage type
-   > 2nd salvage upgrade weapon no longer misses when attacking infantry
-   > 2nd salvage upgrade weapon no longer have minimum attack range
+   > [NOTRELEVANT] Normal weapon (pre-salvage) damage reduced from 10 to 8
+   > [NOTRELEVANT] 1st salvage upgrade weapon splash radius greatly reduced (from 25 to 2)
+   > [?] 1st salvage upgrade weapon no longer misses when attacking infantry
+   > [NOTRELEVANT] 2nd salvage upgrade weapon damage type changed from EXPLOSION to GATTLING to match the previous weapons damage type
+   > [?] 2nd salvage upgrade weapon no longer misses when attacking infantry
+   > [?] 2nd salvage upgrade weapon no longer have minimum attack range
 
  RADAR VAN:
- - Radar Van's radar tower hidden until the Radar Van Scan upgrade purchased
- - Radar Van now will not drop salvage crates when destroyed
+ - [IMPROVEMENT] Radar Van's radar tower hidden until the Radar Van Scan upgrade purchased
+ - [NOTRELEVANT] Radar Van now will not drop salvage crates when destroyed
 
  QUAD CANNON:
  - Various changes for Quad Cannon weapons for more consistent growth and balance:
-   > Changed Quad Cannon weapon damage type from SMALL_ARMS to GATTLING
-   > Normal weapon (pre-salvage) damage reduced from 10 to 8
-   > Normal weapon (pre-salvage) damage against air targets increased from 5 to 6
-   > Normal weapon (pre-salvage) rate of fire reduced from 100 to 110 miliseconds
-   > 1st salvage upgrade weapon damage increased from 8 to 10
-   > 1st salvage upgrade weapon damage against air targets increased from 5 to 8
-   > 1st salvage upgrade weapon rate of fire reduced from 50 to 100 miliseconds
-   > 2nd salvage upgrade weapon damage increased from 8 to 12
-   > 2nd salvage upgrade weapon damage against air targets increased from 5 to 10
-   > 2nd salvage upgrade weapon rate of fire reduced from 25 to 100 miliseconds
- - Quad Cannon now show the muzzle flash when attacking ground units
- - Quad Cannon build time increased from 6 to 8 seconds
- - Quad Cannon armor received damage from COMANCHE_VULCAN reduced from 50% to 40%
+   > [MAYBE] Changed Quad Cannon weapon damage type from SMALL_ARMS to GATTLING
+   > [NOTRELEVANT] Normal weapon (pre-salvage) damage reduced from 10 to 8
+   > [NOTRELEVANT] Normal weapon (pre-salvage) damage against air targets increased from 5 to 6
+   > [NOTRELEVANT] Normal weapon (pre-salvage) rate of fire reduced from 100 to 110 miliseconds
+   > [NOTRELEVANT] 1st salvage upgrade weapon damage increased from 8 to 10
+   > [NOTRELEVANT] 1st salvage upgrade weapon damage against air targets increased from 5 to 8
+   > [NOTRELEVANT] 1st salvage upgrade weapon rate of fire reduced from 50 to 100 miliseconds
+   > [NOTRELEVANT] 2nd salvage upgrade weapon damage increased from 8 to 12
+   > [NOTRELEVANT] 2nd salvage upgrade weapon damage against air targets increased from 5 to 10
+   > [NOTRELEVANT] 2nd salvage upgrade weapon rate of fire reduced from 25 to 100 miliseconds
+ - [IMPROVEMENT] Quad Cannon now show the muzzle flash when attacking ground units
+ - [NOTRELEVANT] Quad Cannon build time increased from 6 to 8 seconds
+ - [NOTRELEVANT] Quad Cannon armor received damage from COMANCHE_VULCAN reduced from 50% to 40%
 
  TOXIN TRACTOR:
- - Toxin Tractor no longer immune to radiations
- - Toxin Tractor now little more resistant to infantry and bullet weapons
- - Fixed the Toxin Tractor salvage upgrade models that didn't show/hide correct toxin tanks
- - Toxin Tractor no longer get free Anthrax upgrade on the heroic veterancy
+ - [MAYBE] Toxin Tractor no longer immune to radiations
+ - [NOTRELEVANT] Toxin Tractor now little more resistant to infantry and bullet weapons
+ - [IMPROVEMENT] Fixed the Toxin Tractor salvage upgrade models that didn't show/hide correct toxin tanks
+ - [NOTRELEVANT] Toxin Tractor no longer get free Anthrax upgrade on the heroic veterancy
 
  COMBAT BIKE:
- - Combat Bike build time increased from 4 to 6 seconds
- - You need a GLA Barracks to build Combat Bikes
- - Removed the minimum attack range from Combat Bike rocket weapon (when used by RPG Trooper)
- - Fixed the Terrorist Combat Bike animation when dropped at Reinforcement Pad
- - Now you can manually detonate the Terrorist Combat Bike
- - New weapon model for Combat Bike when loaded by a sniper unit (Jarmen Kell, GLA Sniper, Boss Pathfinder)
- - Fixed the missing Saboteur animation when he is killed riding a Combat Bike
- - Combat Bike now will not drop salvage crates when destroyed
+ - [NOTRELEVANT] Combat Bike build time increased from 4 to 6 seconds
+ - [NOTRELEVANT] You need a GLA Barracks to build Combat Bikes
+ - [IMPROVEMENT] Removed the minimum attack range from Combat Bike rocket weapon (when used by RPG Trooper)
+ - [IMPROVEMENT] Fixed the Terrorist Combat Bike animation when dropped at Reinforcement Pad
+ - [IMPROVEMENT] Now you can manually detonate the Terrorist Combat Bike
+ - [IMPROVEMENT] New weapon model for Combat Bike when loaded by a sniper unit (Jarmen Kell, GLA Sniper, Boss Pathfinder)
+ - [IMPROVEMENT] Fixed the missing Saboteur animation when he is killed riding a Combat Bike
+ - [NOTRELEVANT] Combat Bike now will not drop salvage crates when destroyed
 
  ROCKET BUGGY:
- - Greatly increased Rocket Buggy braking speed to avoid them often getting killed by defenses because of their slow braking.
+ - [IMPROVEMENT] Greatly increased Rocket Buggy braking speed to avoid them often getting killed by defenses because of their slow braking.
 
  BOMB TRUCK:
- - Fixed Bomb Truck model that have weird wheel animations
- - Fixed the model error when Bomb Truck disguised as an Avenger
- - Bomb Truck no longer can crush infantry due to the abusive/exploitable nature of the disguise mechanic
- - Bomb Truck now will play the sound when revealing its disguise
+ - [IMPROVEMENT] Fixed Bomb Truck model that have weird wheel animations
+ - [IMPROVEMENT] Fixed the model error when Bomb Truck disguised as an Avenger
+ - [NOTRELEVANT] Bomb Truck no longer can crush infantry due to the abusive/exploitable nature of the disguise mechanic
+ - [IMPROVEMENT] Bomb Truck now will play the sound when revealing its disguise
 
  BATTLE BUS:
- - Battle Bus Junk Bunker now have 10 seconds timeout before automatically destroyed when there is no passengers inside,
+ - [MAYBE] Battle Bus Junk Bunker now have 10 seconds timeout before automatically destroyed when there is no passengers inside,
    unlike the original game where it is instantly destroyed after the passengers evacuating, so you can garrison it again
    and prevent it accidentally destroyed because you evactuated the passengers by mistake
- - Battle Bus now will be disabled by the correct weapon type in its bunker form, so ECM can disable it while Microwave Tank
+ - [IMPROVEMENT] Battle Bus now will be disabled by the correct weapon type in its bunker form, so ECM can disable it while Microwave Tank
    can't attack it
 
  MARAUDER:
- - Marauder can turn its turret to attack instead the whole chassis
- - Marauder second salvage upgrade weapon rate of fire reduced from 850 to 1500 miliseconds
+ - [NOTRELEVANT] Marauder can turn its turret to attack instead the whole chassis
+ - [NOTRELEVANT] Marauder second salvage upgrade weapon rate of fire reduced from 850 to 1500 miliseconds
 
  SCUD LAUNCHER:
- - SCUD Launcher first and second salvage upgrade weapon attack range reduced from 450 to 400, thus no longer outrange the Nuke Cannon
- - SCUD Launcher can have AP Rockets upgrade
- - Fixed several SCUD Launcher model issue like bottomless chassis and missing wheel faces (thanks to Jordan)
- - SCUD Launcher turret no longer turns when firing
- - Infantry now use the correct poisoned death animation when attacked by the SCUD Launcher Anthrax Warhead instead using
+ - [MAYBE] SCUD Launcher first and second salvage upgrade weapon attack range reduced from 450 to 400, thus no longer outrange the Nuke Cannon
+ - [NOTRELEVANT] SCUD Launcher can have AP Rockets upgrade
+ - [IMPROVEMENT] Fixed several SCUD Launcher model issue like bottomless chassis and missing wheel faces (thanks to Jordan)
+ - [IMPROVEMENT] SCUD Launcher turret no longer turns when firing
+ - [IMPROVEMENT] Infantry now use the correct poisoned death animation when attacked by the SCUD Launcher Anthrax Warhead instead using
    exploded death animation
- - Fixed the SCUD Launcher missiles that did not start with full health (that make it easier to destroy)
+ - [MAYBE] Fixed the SCUD Launcher missiles that did not start with full health (that make it easier to destroy)
 
  GLA BARRACKS:
- - GLA Barracks build cost increased from 500 to 800
+ - [NOTRELEVANT] GLA Barracks build cost increased from 500 to 800
 
  SUPPLY STASH:
- - Supply Stash build cost increased from 1500 to 1800
- - Minor fixes on Supply Stash Fortified Structure addon model that have floating sandbags when in damaged conditions
- - Fixed Supply Stash selection sound that sometimes didn't played properly
+ - [NOTRELEVANT] Supply Stash build cost increased from 1500 to 1800
+ - [IMPROVEMENT] Minor fixes on Supply Stash Fortified Structure addon model that have floating sandbags when in damaged conditions
+ - [IMPROVEMENT] Fixed Supply Stash selection sound that sometimes didn't played properly
 
  ARMS DEALER:
- - Minor fixes on Arms Dealer Fortified Structure addon model that have floating sandbags when in damaged conditions
+ - [IMPROVEMENT] Minor fixes on Arms Dealer Fortified Structure addon model that have floating sandbags when in damaged conditions
 
  TUNNEL NETWORK:
- - Tunnel Network can create salvage crate from enemy kills
- - Tunnel Network can have Fortified Structures upgrade
- - Tunnel Network weapon now properly gained benefit from AP Bullets upgrade
- - Changes for TunnelNetworkArmor to be regulated with the other base defense armors:
+ - [NOTRELEVANT] Tunnel Network can create salvage crate from enemy kills
+ - [MAYBE] Tunnel Network can have Fortified Structures upgrade
+ - [MAYBE] Tunnel Network weapon now properly gained benefit from AP Bullets upgrade
+ - [NOTRELEVANT] Changes for TunnelNetworkArmor to be regulated with the other base defense armors:
    > received damage from GATTLING increased from 10% to 15%
    > received damage from JET_MISSILES reduced from 100% to 50%
    > received damage from STEALTHJET_MISSILES increased from 150% to 250%
    > received damage from AURORA_BOMB reduced from 250% to 200%
- - Fixed Tunnel Network turret model that use wrong texture on snow conditions
- - Tunnel Network weapon no longer make the whole building flashes when firing
- - Added Hold Fire mode to camo-netted Tunnel Network because sometimes they need to NOT attract any attentions when
+ - [IMPROVEMENT] Fixed Tunnel Network turret model that use wrong texture on snow conditions
+ - [IMPROVEMENT] Tunnel Network weapon no longer make the whole building flashes when firing
+ - [IMPROVEMENT] Added Hold Fire mode to camo-netted Tunnel Network because sometimes they need to NOT attract any attentions when
    camouflaged
- - Tunnel Network no longer block unit sights, allowing other units to attack enemies behind
+ - [MAYBE] Tunnel Network no longer block unit sights, allowing other units to attack enemies behind
 
  STINGER SITE:
- - Stinger Site can be attacked by Ranger Flash Bangs again
- - Stinger Site soldiers respawn delay reduced from 30 to 18 seconds
- - Stinger Site can have Fortified Structures upgrade
- - Stinger Site no longer block unit sights, allowing other units to attack enemies behind
- - Stinger Soldiers now can properly take damage from radiations like the other normal infantry
- - Individual Stinger Soldier can't be targeted by Burton knife attacks anymore
- - Stinger Soldiers no longer able to attack when the building is being sold, like the other defense buildings
- - Fixed the Stinger Soldier anti-air weapon that didn't get benefit from AP Rockets upgrade
+ - [MAYBE] Stinger Site can be attacked by Ranger Flash Bangs again
+ - [NOTRELEVANT] Stinger Site soldiers respawn delay reduced from 30 to 18 seconds
+ - [MAYBE] Stinger Site can have Fortified Structures upgrade
+ - [MAYBE] Stinger Site no longer block unit sights, allowing other units to attack enemies behind
+ - [MAYBE] Stinger Soldiers now can properly take damage from radiations like the other normal infantry
+ - [MAYBE] Individual Stinger Soldier can't be targeted by Burton knife attacks anymore
+ - [IMPROVEMENT] Stinger Soldiers no longer able to attack when the building is being sold, like the other defense buildings
+ - [MAYBE] Fixed the Stinger Soldier anti-air weapon that didn't get benefit from AP Rockets upgrade
 
  DEMO TRAPS:
- - Demo Trap can create salvage crate from enemy kills
- - Under construction Demo Traps now can be selected, so resuming unfinished Demo Traps construction are much easier
- - Demo Traps will play blinking light animation when triggered
+ - [MAYBE] Demo Trap can create salvage crate from enemy kills
+ - [IMPROVEMENT] Under construction Demo Traps now can be selected, so resuming unfinished Demo Traps construction are much easier
+ - [IMPROVEMENT] Demo Traps will play blinking light animation when triggered
 
  PALACE:
- - Added the missing Stop button in Palace command bar
- - Palace build cost increased from 2500 to 2800
- - Palace healthpoint reduced from 3000 to 2500
- - Fixed the Palace model that lost some fireports after upgraded with Fortified Structures
- - Camouflage upgrade research time reduced from 60 to 40 seconds
- - Fortified Structure upgrade now give flat overall 15% armor increase
+ - [IMPROVEMENT] Added the missing Stop button in Palace command bar
+ - [NOTRELEVANT] Palace build cost increased from 2500 to 2800
+ - [NOTRELEVANT] Palace healthpoint reduced from 3000 to 2500
+ - [IMPROVEMENT] Fixed the Palace model that lost some fireports after upgraded with Fortified Structures
+ - [NOTRELEVANT] Camouflage upgrade research time reduced from 60 to 40 seconds
+ - [NOTRELEVANT] Fortified Structure upgrade now give flat overall 15% armor increase
 
  BLACK MARKET:
- - Fixed the Black Market model errors
+ - [IMPROVEMENT] Fixed the Black Market model errors
 
  SCUD STORM:
- - SCUD Storm's SCUD-bug fixed! You can no longer use the infamous exploit to launch SCUD Storm repeatedly ever again!
- - New SCUD Storm animation! Now the missiles will be hidden underground until they are ready to fire.
- - SCUD Storm spawn corresponding toxin field level when destroyed
- - SCUD Storm can have Fortified Structures upgrade
- - SCUD Storm missiles can create salvage crate from enemy kills
- - Fixed the bug where SCUD Storm being immune to the damage caused by its own launched missiles
+ - [IMPROVEMENT] SCUD Storm's SCUD-bug fixed! You can no longer use the infamous exploit to launch SCUD Storm repeatedly ever again!
+ - [IMPROVEMENT] New SCUD Storm animation! Now the missiles will be hidden underground until they are ready to fire.
+ - [MAYBE] SCUD Storm spawn corresponding toxin field level when destroyed
+ - [MAYBE] SCUD Storm can have Fortified Structures upgrade
+ - [MAYBE] SCUD Storm missiles can create salvage crate from enemy kills
+ - [IMPROVEMENT] Fixed the bug where SCUD Storm being immune to the damage caused by its own launched missiles
 
  GLA HOLES:
- - GLA Holes now spawn the corresponding subfaction's Worker
- - GLA Holes use new models for snow condition and/or when upgraded with Fortified upgrade
- - Stinger Site and Tunnel Network GLA Holes now counted as base defenses. Fixing the bug that makes a player still not
+ - [IMPROVEMENT] GLA Holes now spawn the corresponding subfaction's Worker
+ - [IMPROVEMENT] GLA Holes use new models for snow condition and/or when upgraded with Fortified upgrade
+ - [IMPROVEMENT] Stinger Site and Tunnel Network GLA Holes now counted as base defenses. Fixing the bug that makes a player still not
    defeated when only having living base defenses holes, but when the hole is finished rebuilt the player will surely
    defeated.
- - You can now demolish GLA Holes to immediately destroy the hole. Because sometimes you just want to clear the area
+ - [IMPROVEMENT] You can now demolish GLA Holes to immediately destroy the hole. Because sometimes you just want to clear the area
    without waiting the hole to finish rebuilding.
 
  FAKE STRUCTURES:
- - Fake Structures use right selected sound rather than the real structure's selected sound
- - Prerequisites from Fake Command Center, Fake Barracks, and Fake Supply Stash removed
- - Detonation weapon area effects depends on the building. Fake Command Center blasts larger area than Fake Barracks
- - Build time fixed at 50% of the corresponding real structure build time
- - Build cost fixed at 25% of the corresponding real structure build cost
- - Upgrade time fixed at 50% of the corresponding real structure build time
- - Upgrade cost fixed at 75% of the corresponding real structure build cost
- - Fake Structures now have the same healthpoints as their real building counterparts
- - They are also now gain benefits from Fortified Structure upgrade
- - These changes will make them even more undistinguishable from the real ones
+ - [IMPROVEMENT] Fake Structures use right selected sound rather than the real structure's selected sound
+ - [?] Prerequisites from Fake Command Center, Fake Barracks, and Fake Supply Stash removed
+ - [MAYBE] Detonation weapon area effects depends on the building. Fake Command Center blasts larger area than Fake Barracks
+ - [NOTRELEVANT] Build time fixed at 50% of the corresponding real structure build time
+ - [NOTRELEVANT] Build cost fixed at 25% of the corresponding real structure build cost
+ - [NOTRELEVANT] Upgrade time fixed at 50% of the corresponding real structure build time
+ - [NOTRELEVANT] Upgrade cost fixed at 75% of the corresponding real structure build cost
+ - [NOTRELEVANT] Fake Structures now have the same healthpoints as their real building counterparts
+ - [NOTRELEVANT] They are also now gain benefits from Fortified Structure upgrade
+ - [NOTRELEVANT] These changes will make them even more undistinguishable from the real ones
 
  TOXIN SHELLS:
- - Toxin field area of effect will not reduced after Anthrax upgrade purchased
- - Toxin Shells toxin field effect no longer harm structures (like how radiation field works)
+ - [MAYBE] Toxin field area of effect will not reduced after Anthrax upgrade purchased
+ - [MAYBE] Toxin Shells toxin field effect no longer harm structures (like how radiation field works)
 
  AMBUSH:
- - Ambush special power now also include some RPG Troopers on higher levels:
+ - [MAYBE] Ambush special power now also include some RPG Troopers on higher levels:
    > Level 1: 4 Rebels only
    > Level 2: 6 Rebels and 2 RPG Troopers
    > Level 3: 8 Rebels and 4 RPG Troopers
 
  SNEAK ATTACK:
- - Improved the Sneak Attack model and animation
- - Fixed the Sneak Attack deploying animation when damaged and snow conditions
- - Sneak Attack now counted as base defenses, not base buildings
- - Sneak Attack Tunnel Network can no longer detect stealth
- - Fixed the Sneak Attack building collision error where units can pass through it after deployment
- - No more EVA warning for activated Sneak Attack special power
- - You can demolish Sneak Attack tunnel to immediately destroy the tunnel, in case you need to. Only can be done after
+ - [IMPROVEMENT] Improved the Sneak Attack model and animation
+ - [IMPROVEMENT] Fixed the Sneak Attack deploying animation when damaged and snow conditions
+ - [IMPROVEMENT] Sneak Attack now counted as base defenses, not base buildings
+ - [MAYBE] Sneak Attack Tunnel Network can no longer detect stealth
+ - [IMPROVEMENT] Fixed the Sneak Attack building collision error where units can pass through it after deployment
+ - [MAYBE] No more EVA warning for activated Sneak Attack special power
+ - [IMPROVEMENT] You can demolish Sneak Attack tunnel to immediately destroy the tunnel, in case you need to. Only can be done after
    the Sneak Attack finished deploying.
 
  SPECIAL POWERS:
- - Anthrax Bomb generals power starts with green toxin field instead the blue one, and it can be upgraded with Anthrax
+ - [MAYBE] Anthrax Bomb generals power starts with green toxin field instead the blue one, and it can be upgraded with Anthrax
    Beta/Gamma upgrade
- - Anthrax Bomb toxin damage per second rebalanced and do toxin damage from the start
- - New GPS Scrambler attack cursor!
- - No more EVA warning for activated enemy GPS Scrambler special power
+ - [MAYBE] Anthrax Bomb toxin damage per second rebalanced and do toxin damage from the start
+ - [IMPROVEMENT] New GPS Scrambler attack cursor!
+ - [MAYBE] No more EVA warning for activated enemy GPS Scrambler special power
 
 
  New Stuff:
- - Fake Stinger Site
+ - [NOTRELEVANT] Fake Stinger Site
      Realistic replica of Stinger Site. Can be upgraded to real building or detonated. Have decoy Stinger Soldiers that can
      attack with no damage. Good for distraction. Even they do no damages, enemy will still take caution when moving around
      their aircraft if you place them correctly.
- - Fake Tunnel Network
+ - [NOTRELEVANT] Fake Tunnel Network
      Realistic replica of Tunnel Network. Doesn't come with free RPG Troopers. Can be upgraded to real building (and gives
      you the free RPG Troopers) or detonated. The turret can attack like the real Tunnel Network, but with no damage. Good
      for distraction. This building not connected to the network, so if you're worried about Bunker Busters or Nuke Cannon
      Neutron Shells attacks that kill the units inside the tunnel when they're still under construction, you can build the
      fake version first, and upgrade them to real structure.
- - Fake SCUD Storm
+ - [NOTRELEVANT] Fake SCUD Storm
      Realistic replica of SCUD Storm. Can be upgraded to real building or detonated. Can launch fake SCUD Storm superweapon
      that will scares your opponents. Except the low
 er building healthpoint, your enemies can't tell are this building real
@@ -1334,15 +1335,15 @@ er building healthpoint, your enemies can't tell are this building real
      superweapon launched, they will realize that this building do no damages and they were fooled by you. When upgraded to
      real version it will reset the countdown, don't think you can cheated the timer with this.
      PROTIP: Use this fake structure for trolling or as drama-generating technique, for the lulz!
- - Battle Bus Junk Bunker Ability
+ - [MAYBE] Battle Bus Junk Bunker Ability
      Battle Bus will always convert itself into a defensive bunker if destroyed once (EVEN WITH NO INFANTRY INSIDE!).
      Now Battle Bus receives additional armor in this state. Infantry still can attack from the inside or exit the bus
      WITHOUT DESTROYING THE BUS BUNKER. If the Bus Bunker destroyed, the passengers will be killed instantly however.
- - Demo Drop Generals Power
+ - [NOTRELEVANT] Demo Drop Generals Power
      Drops several Demo Trap from air by planes. Used to defensive trap like Cluster Mines. Available at Rank-3 in three
      levels. You cannot sell the dropped Demo Traps. And you should note that it's not a parabombing special power! The
      dropped Demo Traps only automatically explode when there are any enemy UNITS nearby, not buildings (like Cluster Mines)
- - Demoralize Generals Power
+ - [NOTRELEVANT] Demoralize Generals Power
      Demoralize is some kind of "Anti-Frenzy" special power. It allows you to suppress units morale at a target area to make
      them lost their fighting will. Demoralized units got their weapon damage, attack range, and firing speed reduced to
      half. And similar with Frenzy that also affects enemy units, Demoralize also affects your own units, so use it with
@@ -1353,45 +1354,45 @@ er building healthpoint, your enemies can't tell are this building real
 2.3.1 Toxin General
 -------------------
  Balances and Fixes:
- - Rebel, RPG Trooper, Terrorist, Worker, and Stinger Soldier more resistant to toxin attack
- - Certain build cost changes for Toxin General vehicles. They're now more expensive compared to vGLA vehicles.
- - Toxin General SCUD Storm build cost reduced from 5000 to 4500
- - Camouflage upgrade no longer affects Toxin Rebel and Toxin RPG Trooper
- - Anthrax Gamma upgrade cost increased from 1500 to 2000
- - All Anthrax Gamma garrison clearing weapon will make the right toxin splash color effect when clearing garrison
- - Toxin General no longer have access to Rocket Buggy Ammo upgrade because of the new Rocket Buggy Toxin Ammo upgrade,
+ - [NOTRELEVANT] Rebel, RPG Trooper, Terrorist, Worker, and Stinger Soldier more resistant to toxin attack
+ - [NOTRELEVANT] Certain build cost changes for Toxin General vehicles. They're now more expensive compared to vGLA vehicles.
+ - [NOTRELEVANT] Toxin General SCUD Storm build cost reduced from 5000 to 4500
+ - [?] Camouflage upgrade no longer affects Toxin Rebel and Toxin RPG Trooper
+ - [NOTRELEVANT] Anthrax Gamma upgrade cost increased from 1500 to 2000
+ - [IMPROVEMENT] All Anthrax Gamma garrison clearing weapon will make the right toxin splash color effect when clearing garrison
+ - [NOTRELEVANT] Toxin General no longer have access to Rocket Buggy Ammo upgrade because of the new Rocket Buggy Toxin Ammo upgrade,
    but still can get the extra ammo upgrade from other GLA general Black Market.
 
  TOXIN REBEL:
- - Toxin Rebel build time increased from 5 to 6 seconds
- - Toxin Rebel weapon splash damage radius reduced from 10 to 3
- - Toxin Rebel mounted Combat Bike can attack with either machineguns or toxin sprayer
+ - [NOTRELEVANT] Toxin Rebel build time increased from 5 to 6 seconds
+ - [NOTRELEVANT] Toxin Rebel weapon splash damage radius reduced from 10 to 3
+ - [NOTRELEVANT] Toxin Rebel mounted Combat Bike can attack with either machineguns or toxin sprayer
 
  TOXIN TERRORIST:
- - Toxin Terrorist detonation damage at Beta level reduced to match the Gamma level detonation damage
- - Toxin Terrorist spawn larger toxin field. Damage radius increased 12 to 15
+ - [MAYBE] Toxin Terrorist detonation damage at Beta level reduced to match the Gamma level detonation damage
+ - [NOTRELEVANT] Toxin Terrorist spawn larger toxin field. Damage radius increased 12 to 15
 
  TOXIN TUNNEL NETWORK:
- - Toxin Tunnel Network build cost increased from 800 to 1000 due to expensive Toxin RPG Trooper build cost
- - Toxin Tunnel Network refund value increased from 100 to 150 due to its increased build cost
- - Fixed the shadow bugs on Toxin Tunnel Network model
+ - [NOTRELEVANT] Toxin Tunnel Network build cost increased from 800 to 1000 due to expensive Toxin RPG Trooper build cost
+ - [NOTRELEVANT] Toxin Tunnel Network refund value increased from 100 to 150 due to its increased build cost
+ - [IMPROVEMENT] Fixed the shadow bugs on Toxin Tunnel Network model
 
  STINGER SITE:
- - New Toxin General Stinger Site cameo to distinguish it to the normal Stinger Site
- - Toxin General Stinger Soldier weapon toxin field radius reduced from 12 to 7.5
- - New skin for Toxin General Stinger Soldier (to distinguish them from normal Stinger Soldier)
- - Fixed the issue where Toxin General Stinger Soldier weapon damage got doubled with the Anthrax Gamma upgrade instead just upgrading the toxins
+ - [IMPROVEMENT] New Toxin General Stinger Site cameo to distinguish it to the normal Stinger Site
+ - [NOTRELEVANT] Toxin General Stinger Soldier weapon toxin field radius reduced from 12 to 7.5
+ - [IMPROVEMENT] New skin for Toxin General Stinger Soldier (to distinguish them from normal Stinger Soldier)
+ - [MAYBE] Fixed the issue where Toxin General Stinger Soldier weapon damage got doubled with the Anthrax Gamma upgrade instead just upgrading the toxins
 
  DEMO TRAP:
- - Removed premature explosion of Toxin General Demo Trap. Now it detonates at same speed like its cousins.
+ - [IMPROVEMENT] Removed premature explosion of Toxin General Demo Trap. Now it detonates at same speed like its cousins.
 
 
  New Stuff:
- - Toxin RPG Trooper
+ - [NOTRELEVANT] Toxin RPG Trooper
      RPG rockets carry small amount of toxin. Resistant to toxins. Replaces RPG Trooper
- - Heavy Toxin Tractor
+ - [NOTRELEVANT] Heavy Toxin Tractor
      Toxin Tractor with sturdier armor and more toxin loads. Replaces Toxin Tractor
- - Rocket Buggy Toxin Ammo upgrade
+ - [NOTRELEVANT] Rocket Buggy Toxin Ammo upgrade
      Rocket Buggy can be upgraded with toxin-tipped ammunition in similar fashion with Toxin Shells upgrade
 
 
@@ -1399,60 +1400,60 @@ er building healthpoint, your enemies can't tell are this building real
 2.3.2 Demolition General
 ------------------------
  Balances and Fixes:
- - Hijacker and Saboteur now also available for Demolition General
- - Demolition General Toxin Tractor cannot upgrade its weapon with Anthrax Beta upgrade, but still can get the Beta weapon
+ - [NOTRELEVANT] Hijacker and Saboteur now also available for Demolition General
+ - [NOTRELEVANT] Demolition General Toxin Tractor cannot upgrade its weapon with Anthrax Beta upgrade, but still can get the Beta weapon
    upgrade benefit from the other generals Palace
- - Demolition General Marauder, Rocket Buggy, and SCUD Launcher weapons get a minor buff compared to their normal weapon
+ - [NOTRELEVANT] Demolition General Marauder, Rocket Buggy, and SCUD Launcher weapons get a minor buff compared to their normal weapon
    counterparts
- - The Scorpion Rocket upgrade no longer available on Demolition General Arms Dealer due to the new War Track unit.
+ - [NOTRELEVANT] The Scorpion Rocket upgrade no longer available on Demolition General Arms Dealer due to the new War Track unit.
 
  REBEL:
- - Camouflage upgrade no longer affects Demolition General Rebel
- - Demolition General Rebel can place TNT charges like Chinese Tank Hunter
+ - [?] Camouflage upgrade no longer affects Demolition General Rebel
+ - [MAYBE] Demolition General Rebel can place TNT charges like Chinese Tank Hunter
 
  ROCKET BUGGY:
- - Demolition General Rocket Buggy will not lose its unique rockets after the Buggy Ammo upgrade
+ - [?] Demolition General Rocket Buggy will not lose its unique rockets after the Buggy Ammo upgrade
 
  MARAUDER:
- - Toxin Shells upgrade no longer affects Demolition General Marauder
+ - [NOTRELEVANT] Toxin Shells upgrade no longer affects Demolition General Marauder
 
  ADVANCED DEMO TRAP:
- - Fixed the wrong model of Advanced Demo Trap when under construction
- - Advanced Demo Trap will not harm friendly units, like Chinese minefields
+ - [IMPROVEMENT] Fixed the wrong model of Advanced Demo Trap when under construction
+ - [?] Advanced Demo Trap will not harm friendly units, like Chinese minefields
 
  SCUD STORM:
- - Demolition General SCUD Storm no longer spawn toxin field when destroyed
- - Demolition General SCUD Storm weapon direct hit damage reduced from 600 to 500 per missile
- - Demolition General SCUD Storm weapon missile direct hit radius reduced from 75 to 50, equal to the normal SCUD Storm
- - Demolition General SCUD Storm weapon splash damage increased from 150 to 200 per missile
+ - [MAYBE] Demolition General SCUD Storm no longer spawn toxin field when destroyed
+ - [NOTRELEVANT] Demolition General SCUD Storm weapon direct hit damage reduced from 600 to 500 per missile
+ - [NOTRELEVANT] Demolition General SCUD Storm weapon missile direct hit radius reduced from 75 to 50, equal to the normal SCUD Storm
+ - [NOTRELEVANT] Demolition General SCUD Storm weapon splash damage increased from 150 to 200 per missile
 
  DEMOLITIONS UPGRADE:
- - Improved Demolition ability
- - Fixing Demolition General infantry and vehicles suicide death animations
- - Demolitions upgraded infantry only exploded when they're detonate themselves, exploded, crushed, or burned
- - Combat Bike now can use Demolition suicide ability correctly
- - Remove Demolitions suicide ability from Demolition General base defenses
+ - [?] Improved Demolition ability
+ - [IMPROVEMENT] Fixing Demolition General infantry and vehicles suicide death animations
+ - [?] Demolitions upgraded infantry only exploded when they're detonate themselves, exploded, crushed, or burned
+ - [IMPROVEMENT] Combat Bike now can use Demolition suicide ability correctly
+ - [?] Remove Demolitions suicide ability from Demolition General base defenses
 
  AMBUSH:
- - Due to Demolitions upgrade effect to infantry, Demolition General Ambush special power will only spawn fewer infantry:
+ - [NOTRELEVANT] Due to Demolitions upgrade effect to infantry, Demolition General Ambush special power will only spawn fewer infantry:
    > Level 1: 4 Rebels only
    > Level 2: 5 Rebels and 1 RPG Troopers
    > Level 3: 7 Rebels and 2 RPG Troopers
 
 
  New Stuff:
- - Demo RPG Trooper
+ - [NOTRELEVANT] Demo RPG Trooper
      Armed with Demo Grenade launcher which have wider damage radius than standard RPG to give some "collateral damage".
- - Demo Saboteur
+ - [NOTRELEVANT] Demo Saboteur
      Demolition General Saboteur can sabotage buildings like normal Saboteur, in addition, they also can plant explosive
      charges like his Jarmen Kell. Replaces his normal Saboteur.
- - War Track
+ - [NOTRELEVANT] War Track
      Replaces Demolition General Scorpion. Can be upgraded by a small Mortar Gun instead scorpion rockets. The upgrade
      purchased individually on the unit instead from the Arms Dealer.
- - Demolition Battle Bus
+ - [NOTRELEVANT] Demolition Battle Bus
      Demolition General Battle Bus can deploy remote-controlled mobile Demo Traps in form of Remote Car (see below). In
      return, it only can carry up to six passengers instead of eight. Replaces his normal Battle Bus.
- - Remote Car
+ - [NOTRELEVANT] Remote Car
      Demo Trap stuffed on a remote controlled toy car. Deployed by the Demolition Battle Bus. These Remote Cars are deployed
      instantly by the bus for a price, after deploying a Remote Car the bus need to wait for some time before can deploy
      another one.
@@ -1462,56 +1463,56 @@ er building healthpoint, your enemies can't tell are this building real
 2.3.3 Stealth General
 ---------------------
  Balances and Fixes:
- - Stealth General Rebel build cost reduced from 200 to 150
- - Stealth General light vehicles healthpoints increased
- - SCUD Launcher now available for Stealth General
- - Booby Trap upgrade available for Stealth General
- - Stealth General GPS Scrambler now in three levels. Area of effect increase over the level (area indicated by the cursor
+ - [NOTRELEVANT] Stealth General Rebel build cost reduced from 200 to 150
+ - [NOTRELEVANT] Stealth General light vehicles healthpoints increased
+ - [NOTRELEVANT] SCUD Launcher now available for Stealth General
+ - [MAYBE] Booby Trap upgrade available for Stealth General
+ - [NOTRELEVANT] Stealth General GPS Scrambler now in three levels. Area of effect increase over the level (area indicated by the cursor
    radius)
- - Emergency Repair no longer available for Stealth General
+ - [NOTRELEVANT] Emergency Repair no longer available for Stealth General
 
  SABOTEUR:
- - Stealth General Saboteur steal more cashes and disable buildings longer
- - Stealth General Combat Bike build cost reduced to 500 from 550
+ - [NOTRELEVANT] Stealth General Saboteur steal more cashes and disable buildings longer
+ - [NOTRELEVANT] Stealth General Combat Bike build cost reduced to 500 from 550
 
  HIJACKER:
- - Now you need a Palace to build Stealth General Hijacker
- - You cannot build Stealth General Hijacker if you didn't unlock it on the Generals Promotions
- - If you play as Stealth General, you can build other subfaction Hijackers correctly
+ - [NOTRELEVANT] Now you need a Palace to build Stealth General Hijacker
+ - [NOTRELEVANT] You cannot build Stealth General Hijacker if you didn't unlock it on the Generals Promotions
+ - [IMPROVEMENT] If you play as Stealth General, you can build other subfaction Hijackers correctly
 
  JARMEN KELL:
- - Stealth General Jarmen Kell can detects stealth
+ - [NOTRELEVANT] Stealth General Jarmen Kell can detects stealth
 
  BASE DEFENSES:
- - Tunnel Network and Stinger Site no longer stealthed if still under construction. Prevent base defenses spam that allow
+ - [MAYBE] Tunnel Network and Stinger Site no longer stealthed if still under construction. Prevent base defenses spam that allow
    you to deny build area by placing stealthed under construction base defenses
 
  CAMO NETTING:
- - Camo-netted Palace will reveal itself when the garrisoned infantry attacking outside
+ - [MAYBE] Camo-netted Palace will reveal itself when the garrisoned infantry attacking outside
 
  CAMOUFLAGE:
- - Camouflage upgrade available for Stealth General. Rebel, RPG Trooper, Terrorist, and Worker are affected by this upgrade.
+ - [NOTRELEVANT] Camouflage upgrade available for Stealth General. Rebel, RPG Trooper, Terrorist, and Worker are affected by this upgrade.
    This makes the Stealth General can hide almost all of his army
- - Stealth General Terrorist can have Camouflage upgrade, yet they still will reveal themselves when moving
- - Stealth General Rebel no longer stealthed if the Camouflage upgrade is not purchased
- - Worker produced from Supply Stash no longer stealthed if the Camouflage upgrade is not purchased
+ - [MAYBE] Stealth General Terrorist can have Camouflage upgrade, yet they still will reveal themselves when moving
+ - [NOTRELEVANT] Stealth General Rebel no longer stealthed if the Camouflage upgrade is not purchased
+ - [NOTRELEVANT] Worker produced from Supply Stash no longer stealthed if the Camouflage upgrade is not purchased
 
 
  New Stuff:
- - Sniper
+ - [NOTRELEVANT] Sniper
      GLA Snipers are similar to USA Pathfinders, but they are less camouflaged so they requires more time to regain
      stealth and also reveal themselves when firing unlike Pathfinders. Requires Palace and unlock it at 1 Star General
- - Scorpion APC (Armored Personnel Carrier)
+ - [NOTRELEVANT] Scorpion APC (Armored Personnel Carrier)
      Twin-barreled anti-armor and transport vehicle. Can be upgraded with Scorpion Rocket. Thye're little weaker in term of
      firepower than the tank counterpart and can't have salvage upgrade however. Used to be the Scorpion Tank in beta
      version of Generals.
- - Quad Cannon Sniper Rounds upgrade
+ - [NOTRELEVANT] Quad Cannon Sniper Rounds upgrade
      Increases Quad Cannon attack range and weapon damage against infantry. Purchased at Palace
- - Radar Van Radar Jammer upgrade
+ - [MAYBE] Radar Van Radar Jammer upgrade
      Stealth General Radar Van now can be upgraded with Radar Jammer. The Radar Jam ability allows you to create black
      shroud around the Radar Van which block enemy visibility on the map and also prevent most Generals special powers
      fired at the shrouded area until the black shroud cleared, much like the shroud in the campaign missions.
- - Light Vehicle Training science protocol
+ - [NOTRELEVANT] Light Vehicle Training science protocol
      Replaces Technical Training, exclusive for Stealth General. Makes not only Technicals, but also Rocket Buggies start
      as veterans. Also affects other subfactions Technicals and Rocket Buggies.
 
@@ -1537,36 +1538,36 @@ er building healthpoint, your enemies can't tell are this building real
  Starting from version 2.6 computer player can play Boss General, but only in Official Maps and NProject Mod maps
 
  Balances and Fixes (based on Generals Challenge Boss):
- - Boss General have a new faction logo at the Command Center!
- - Some original Boss General upgrades may not available in this mod, like no Nationalism for Boss General
- - Advanced units now requires corresponding faction's superweapon. For example, you cannot build Overlord without a Nuclear
-   Missile Silo
- - Boss Dozer use USA Dozer voices, not the Chinese one
- - No horde bonuses for Boss General Tank Hunter
- - No drones and Pilots for Boss General USA vehicles
- - Fixing Boss General Avenger that have double air turret
- - Boss General King Raptor build cost increased from 1100 to 1600
- - All Boss General buldings can auto-repair like USA buildings
- - All Boss General buldings (except SCUD Storm, Nuclear Missile, and base defenses) spawn Rangers when destroyed
- - Boss General superweapons build cost increased from 5000 to 6000
- - Boss General only can build one kind of his/her superweapon when superweapon restriction is turned on, so choose your
-   advanced tech carefully!
- - Fixed all Boss General superweapon buildings that cannot purchase several upgrades when low-powered
- - Now you also require Boss General War Factory to build Boss General King Raptor
- - Boss General Patriot Missile no longer spawn Rangers when destroyed
- - Boss General Tunnel Network comes with Tank Hunters, not RPG Troopers
- - Boss General Tunnel Network no longer armed with its machinegun. You have Gattling Cannons anyway
- - Boss General Tunnel Network can no longer detect stealth units
- - Boss General Tunnel Network and SCUD Storm no longer spawn rebuild holes when destroyed
- - Boss General SCUD Storm requires 10 powers and disabled when low power
+ - [NOTRELEVANT] Boss General have a new faction logo at the Command Center!
+ - [NOTRELEVANT] Some original Boss General upgrades may not available in this mod, like no Nationalism for Boss General
+ - [NOTRELEVANT] Advanced units now requires corresponding faction's superweapon. For example, you cannot build Overlord without a Nuclear
+   [NOTRELEVANT] Missile Silo
+ - [NOTRELEVANT] Boss Dozer use USA Dozer voices, not the Chinese one
+ - [NOTRELEVANT] No horde bonuses for Boss General Tank Hunter
+ - [NOTRELEVANT] No drones and Pilots for Boss General USA vehicles
+ - [NOTRELEVANT] Fixing Boss General Avenger that have double air turret
+ - [NOTRELEVANT] Boss General King Raptor build cost increased from 1100 to 1600
+ - [NOTRELEVANT] All Boss General buldings can auto-repair like USA buildings
+ - [NOTRELEVANT] All Boss General buldings (except SCUD Storm, Nuclear Missile, and base defenses) spawn Rangers when destroyed
+ - [NOTRELEVANT] Boss General superweapons build cost increased from 5000 to 6000
+ - [NOTRELEVANT] Boss General only can build one kind of his/her superweapon when superweapon restriction is turned on, so choose your
+   [NOTRELEVANT] advanced tech carefully!
+ - [NOTRELEVANT] Fixed all Boss General superweapon buildings that cannot purchase several upgrades when low-powered
+ - [NOTRELEVANT] Now you also require Boss General War Factory to build Boss General King Raptor
+ - [NOTRELEVANT] Boss General Patriot Missile no longer spawn Rangers when destroyed
+ - [NOTRELEVANT] Boss General Tunnel Network comes with Tank Hunters, not RPG Troopers
+ - [NOTRELEVANT] Boss General Tunnel Network no longer armed with its machinegun. You have Gattling Cannons anyway
+ - [NOTRELEVANT] Boss General Tunnel Network can no longer detect stealth units
+ - [NOTRELEVANT] Boss General Tunnel Network and SCUD Storm no longer spawn rebuild holes when destroyed
+ - [NOTRELEVANT] Boss General SCUD Storm requires 10 powers and disabled when low power
 
 
  New Stuff:
- - Large Supply Truck
+ - [NOTRELEVANT] Large Supply Truck
      $300 per truck isn't enough? Try this Large Supply Truck with larger cargo loads. The wheels bugs also have been fixed.
- - Terrorist
+ - [NOTRELEVANT] Terrorist
      Now Boss General can build Terrorist from the Barracks! They also can gain Chemical Suits upgrade.
- - Combat Bike
+ - [NOTRELEVANT] Combat Bike
      Now all Boss General infantry (except Angry Mobs of course) can use Boss General Combat Bike. Here the new weapon set:
       Ranger >> Machine guns
       Tank Hunter >> Missile launcher
@@ -1583,113 +1584,113 @@ er building healthpoint, your enemies can't tell are this building real
  Balances and Fixes:
 
  TREES / PLANTS / SHRUBBERIES (thanks to beng for his shrubbery fix as references):
- - Now trees can be burned again! like in vanilla Generals
- - Improved forest fire effects!
- - Falling leaves when a tree damaged!
- - Trees can be damaged/killed by more kind of weapons! Try destroying trees with explosions or toxins!
- - Burned/destroyed trees will disappeared after a while
- - Added many new burned trees models to avoid too much reused generic burned tree models on unfitting trees!
- - Added some new shrubberies in the worldbuilder
+ - [IMPROVEMENT] Now trees can be burned again! like in vanilla Generals
+ - [IMPROVEMENT] Improved forest fire effects!
+ - [IMPROVEMENT] Falling leaves when a tree damaged!
+ - [IMPROVEMENT] Trees can be damaged/killed by more kind of weapons! Try destroying trees with explosions or toxins!
+ - [IMPROVEMENT] Burned/destroyed trees will disappeared after a while
+ - [IMPROVEMENT] Added many new burned trees models to avoid too much reused generic burned tree models on unfitting trees!
+ - [IMPROVEMENT] Added some new shrubberies in the worldbuilder
 
- - Small/cluster rocks can be cleared by build, however big (I mean BIG) rocks cannot
+ - [IMPROVEMENT] Small/cluster rocks can be cleared by build, however big (I mean BIG) rocks cannot
 
  TECH BUILDINGS:
- - All tech buildings now can be disabled by microwaves
- - Fixed the missing tech buildings in night and/or snow maps issue
+ - [IMPROVEMENT] All tech buildings now can be disabled by microwaves
+ - [IMPROVEMENT] Fixed the missing tech buildings in night and/or snow maps issue
 
  ARTILLERY PLATFORM:
- - Improved Tech Artillery Platform attacking animation
- - Fixed Tech Artillery Platform firing effects that appears on wrong location
+ - [IMPROVEMENT] Improved Tech Artillery Platform attacking animation
+ - [IMPROVEMENT] Fixed Tech Artillery Platform firing effects that appears on wrong location
 
  REINFORCEMENT PAD:
- - Tech Reinforcement Pad healthpoint incresed from 1000 to 2000
- - Tech Reinforcement Pad properly leaves rubbles when destroyed
- - Removed the auto-repair structure ability from Tech Reinforcement Pad
- - Cargo Planes called from Tech Reinforcement Pad no longer attackable
+ - [NOTRELEVANT] Tech Reinforcement Pad healthpoint incresed from 1000 to 2000
+ - [IMPROVEMENT] Tech Reinforcement Pad properly leaves rubbles when destroyed
+ - [NOTRELEVANT] Removed the auto-repair structure ability from Tech Reinforcement Pad
+ - [NOTRELEVANT] Cargo Planes called from Tech Reinforcement Pad no longer attackable
 
  REPAIR BAY:
- - Tech Repair Bay healthpoint incresed from 1000 to 2000
- - Tech Repair Bay properly leaves rubbles when destroyed
- - Remove the auto-repair structure ability from Tech Repair Bay
- - You can send damaged vehicles to be repaired at the Tech Repair Bay like the War Factories
- - Some tech units can be built from Tech Repair Bay
+ - [NOTRELEVANT] Tech Repair Bay healthpoint incresed from 1000 to 2000
+ - [IMPROVEMENT] Tech Repair Bay properly leaves rubbles when destroyed
+ - [NOTRELEVANT] Remove the auto-repair structure ability from Tech Repair Bay
+ - [NOTRELEVANT] You can send damaged vehicles to be repaired at the Tech Repair Bay like the War Factories
+ - [NOTRELEVANT] Some tech units can be built from Tech Repair Bay
 
  HOSPITAL:
- - You can send injured infantry to heal at the Tech Hospital like the Barracks
- - Fixed various model issues with Tech Hospital at night maps
+ - [IMPROVEMENT] You can send injured infantry to heal at the Tech Hospital like the Barracks
+ - [IMPROVEMENT] Fixed various model issues with Tech Hospital at night maps
 
  OIL DERRICKS:
- - Tech Oil Derrick healthpoint reduced from 2000 to 1000
- - Tech Oil Derrick generated cash changed from $200 per 12 seconds to $50 per 3 seconds
- - Tech Oil Derrick explode in flames when destroyed
- - Fixed shadow bleed issue on Tech Oil Derrick model at reallydamaged and rubble conditions
+ - [NOTRELEVANT] Tech Oil Derrick healthpoint reduced from 2000 to 1000
+ - [NOTRELEVANT] Tech Oil Derrick generated cash changed from $200 per 12 seconds to $50 per 3 seconds
+ - [IMPROVEMENT] Tech Oil Derrick explode in flames when destroyed
+ - [IMPROVEMENT] Fixed shadow bleed issue on Tech Oil Derrick model at reallydamaged and rubble conditions
 
  OIL REFINERY:
- - Tech Oil Refinery animation fixed:
+ - [IMPROVEMENT] Tech Oil Refinery animation fixed:
     Fixed the double blinking lights issue
     No more blinking lights on day maps
     Fixed the model issue that have double tech flags on snowy maps
     Removes floating flames that appeared on the building rubbles
     Fixed the shadow bleed at reallydamaged and rubble conditions
- - Tech Oil Refinery explode in flames when destroyed
+ - [IMPROVEMENT] Tech Oil Refinery explode in flames when destroyed
 
  SUPPLIES:
- - Supply Piles, Supply Docks, and Supply Warehouses now immune to all attacks
- - Supply boxes covered with snows on snowy maps
- - Supply Piles (small and large ones) no longer block unit sights, allowing other units to attack enemies behind.
+ - [IMPROVEMENT] Supply Piles, Supply Docks, and Supply Warehouses now immune to all attacks
+ - [IMPROVEMENT] Supply boxes covered with snows on snowy maps
+ - [NOTRELEVANT] Supply Piles (small and large ones) no longer block unit sights, allowing other units to attack enemies behind.
    Does not applied to Supply Docks and Supply Warehouses.
- - Supply sources now have selection cameo picture for easier identification
- - Toxin Repository (like the one found in GLA ZH Mission 4) properly hides the toxin tanks like supply boxes
- - Fixed the Toxin Repository missing shadows
+ - [?] Supply sources now have selection cameo picture for easier identification
+ - [IMPROVEMENT] Toxin Repository (like the one found in GLA ZH Mission 4) properly hides the toxin tanks like supply boxes
+ - [IMPROVEMENT] Fixed the Toxin Repository missing shadows
 
  CIVILIAN BUILDINGS:
- - Implemented new garrison slots standards! Now smaller buildings will have less garrison slots while larger ones have more slots.
- - Smaller buildings now will also have less healthpoints while larger ones are more sturdy.
- - Fixed various (and I mean loads of) civilian buildings model issues such as shadow bugs, missing animations, and broken fireports!
- - New names/descriptions for some civilian buildings
- - Fixed the Bunkers, Firebase, and all kind of garrison buildings individual unit exit button description.
- - Changed civilian bunker armor to StructureArmorTough
- - Reduced civilian bunker garrison slots from 10 to 8
- - ChemicalFactory and PharmaceuticalFactory are now garrisonable
- - Fixed ChineeseFireworksFactory shadow bugs and missing animations, also will explode on death like Oil Derricks
- - MogadishuHouse15, MogadishuHouse16, and MogadishuHouse17 are now garrisonable until destroyed
- - Fixed the CivilianTEROutPost bug that swallows the units trying to garrison it
- - Fixed the TiananmenGate missing animation and The Chairman portrait, also made it garrisonable
- - Changed the OutHouse from a prop into a functional garrisonable building like the other outhouses
+ - [NOTRELEVANT] Implemented new garrison slots standards! Now smaller buildings will have less garrison slots while larger ones have more slots.
+ - [NOTRELEVANT] Smaller buildings now will also have less healthpoints while larger ones are more sturdy.
+ - [IMPROVEMENT] Fixed various (and I mean loads of) civilian buildings model issues such as shadow bugs, missing animations, and broken fireports!
+ - [IMPROVEMENT] New names/descriptions for some civilian buildings
+ - [IMPROVEMENT] Fixed the Bunkers, Firebase, and all kind of garrison buildings individual unit exit button description.
+ - [IMPROVEMENT] Changed civilian bunker armor to StructureArmorTough
+ - [NOTRELEVANT] Reduced civilian bunker garrison slots from 10 to 8
+ - [MAYBE] ChemicalFactory and PharmaceuticalFactory are now garrisonable
+ - [IMPROVEMENT] Fixed ChineeseFireworksFactory shadow bugs and missing animations, also will explode on death like Oil Derricks
+ - [MAYBE] MogadishuHouse15, MogadishuHouse16, and MogadishuHouse17 are now garrisonable until destroyed
+ - [IMPROVEMENT] Fixed the CivilianTEROutPost bug that swallows the units trying to garrison it
+ - [IMPROVEMENT] Fixed the TiananmenGate missing animation and The Chairman portrait, also made it garrisonable
+ - [IMPROVEMENT] Changed the OutHouse from a prop into a functional garrisonable building like the other outhouses
  - More changes on the worldbuilder table below (too many things to list)
 
  CIVILIAN VEHICLES:
- - ALL common convertible cars no longer can crush infantry
- - Common convertible cars size in transports reduced from 3 to 1
- - Car Bombs now has the same vision range as the Terrorist
- - Car Bombs now can also be disabled by subdual weapons
- - Destroying enemy Car Bombs now properly gives you experience points
- - Big vehicles such as big rigs and trailer trucks will do more damage when converted into car bombs
- - Added missing damaged/rubble models to those civilian cars whenever available
+ - [NOTRELEVANT] ALL common convertible cars no longer can crush infantry
+ - [NOTRELEVANT] Common convertible cars size in transports reduced from 3 to 1
+ - [NOTRELEVANT] Car Bombs now has the same vision range as the Terrorist
+ - [IMPROVEMENT] Car Bombs now can also be disabled by subdual weapons
+ - [IMPROVEMENT] Destroying enemy Car Bombs now properly gives you experience points
+ - [NOTRELEVANT] Big vehicles such as big rigs and trailer trucks will do more damage when converted into car bombs
+ - [IMPROVEMENT] Added missing damaged/rubble models to those civilian cars whenever available
 
  OTHER STUFFS:
- - Building bibs now can be cleared by build!
- - Fixed the shadow bugs and visible bones on Dam models
- - Fixed Dock cliff objects missing backsides, which also fixes the weird shadow issues
- - Fixed the DockMilitary objects missing shadows
- - Applied infantry fixes to the civilians units, such as infantry unit scaling, updated death effects, synced running speed animations, etc.
- - Improved the Ox animations
- - Fixed the HorseDrawnCart, OxPlow, and Scooter animations
- - Fixed the Rickshaw animations, also gave it 1 infantry transport slot for luls
- - Fixed civilian boat units that can't move on water but on land instead
- - The whole trains are now near indestructible, not just the locomotive part!
+ - [IMPROVEMENT] Building bibs now can be cleared by build!
+ - [IMPROVEMENT] Fixed the shadow bugs and visible bones on Dam models
+ - [IMPROVEMENT] Fixed Dock cliff objects missing backsides, which also fixes the weird shadow issues
+ - [IMPROVEMENT] Fixed the DockMilitary objects missing shadows
+ - [IMPROVEMENT] Applied infantry fixes to the civilians units, such as infantry unit scaling, updated death effects, synced running speed animations, etc.
+ - [IMPROVEMENT] Improved the Ox animations
+ - [IMPROVEMENT] Fixed the HorseDrawnCart, OxPlow, and Scooter animations
+ - [IMPROVEMENT] Fixed the Rickshaw animations, also gave it 1 infantry transport slot for luls
+ - [IMPROVEMENT] Fixed civilian boat units that can't move on water but on land instead
+ - [IMPROVEMENT] The whole trains are now near indestructible, not just the locomotive part!
 
 
  New Stuff:
- - Large Supply Pile
+ - [IMPROVEMENT] Large Supply Pile
      Two piles of supplies, contains much supplies than small supply piles like supply docks. Your supply gatherer will
      go in between thee piles to dock and collect boxes. Removed when empty like small supply piles.
- - Cave
+ - [IMPROVEMENT] Cave
      Garrison it with your forces to travel them between the other connected caves. Not connected to GLA Tunnel Network
- - Repair Drone
+ - [NOTRELEVANT] Repair Drone
      Fast moving drone. Repairs nearby vehicles and clear mines. Build at Tech Repair Bay. The spinning wheels bug also
      have been fixed.
- - Tech Super Nuclear Reactor
+ - [IMPROVEMENT] Tech Super Nuclear Reactor
      Capture for free 100 powers! However, this will explode in big nuke when destroyed
 
 
@@ -1818,78 +1819,78 @@ er building healthpoint, your enemies can't tell are this building real
 
 3.2 Skirmish and The AI
 -------------------------
- - More choices for starting money. Now there are: 3000, 5000, 7500, 10000 (default), 15000, 20000, 25000, 30000, 35000,
+ - [IMPROVEMENT] More choices for starting money. Now there are: 3000, 5000, 7500, 10000 (default), 15000, 20000, 25000, 30000, 35000,
    40000, 45000, 50000, 60000, 75000, and 100000
- - More choises for house color: Yellow, Red, Blue, Green, Orange, Cyan, Purple, Pink, Maroon, Olive, and Brown
- - Fixed the missing new zero hour musics that didn't played on each music tracks in skirmish (they only play the old musics)
- - Correction on skirmish house colors that have small differences with campaign house colors (like USA blue house color
+ - [NOTRELEVANT] More choises for house color: Yellow, Red, Blue, Green, Orange, Cyan, Purple, Pink, Maroon, Olive, and Brown
+ - [IMPROVEMENT] Fixed the missing new zero hour musics that didn't played on each music tracks in skirmish (they only play the old musics)
+ - [NOTRELEVANT] Correction on skirmish house colors that have small differences with campaign house colors (like USA blue house color
    that brighter in skirmish and darker in campaign)
- - Toned down Yellow and Purple colors a bit to make them less bright and more comfortable in eyes.
- - Now you can see all players faction and house color when set to random, not only showing the "Random" text again.
+ - [NOTRELEVANT] Toned down Yellow and Purple colors a bit to make them less bright and more comfortable in eyes.
+ - [NOTRELEVANT] Now you can see all players faction and house color when set to random, not only showing the "Random" text again.
    This also fixed the replay that didn't show all players faction and house color in diplomacy menu when set to random.
- - Removed the Officers Club flags on every Command Center that appear if you preordered the Generals/ZH game. You'll no
+ - [IMPROVEMENT] Removed the Officers Club flags on every Command Center that appear if you preordered the Generals/ZH game. You'll no
    longer see those annoying white flag on your Command Center.
- - Fixed Steak Honor medal images that have odd transparent area.
+ - [IMPROVEMENT] Fixed Steak Honor medal images that have odd transparent area.
 
  Skirmish AI Changes:
- - Fixed the "Building: 0%" Dozer/Worker construction bug on several factions
- - Dozers will more often to repair buildings
- - Fixed expansion dozer scripts that told the AI to build wrong dozer on each subfactions
- - Ignored Laser General Sentry Drone bug issue fixed. Now AI will respond Laser General Sentry Drone as a threat.
- - Ignored Technical chassis bug issue fixed. Same as above. Now Technicals are considered as a threat.
- - AI will react to fake buildings (they will never ignore them again)
- - AI will try to rebuild their Command Center if destroyed.
- - Fixed Laser General AI that build base with odd angle
- - Fixed the bug that makes Demolition General AI didn't build more than one Black Markets
- - Fixed the bug that makes AirForce General didn't build thier Strategy Center in Normal AI difficulty
- - Fixed the bug that makes the Superweapon General didn't upgrade their Cold Fusion Reactor properly
- - vUSA AI will upgrade their Cold Fusion Reactor properly after the Particle Cannon built
- - Fixed the bug that makes Easy USA AI not upgrade their Cold Fusion Reactor properly
- - AI will try to purchase upgrades that didn't purchased by the original AI (like Drone Armor, Neutron Mines, etc.)
- - Fixed the bug that makes the AI didn't purchase MOAB upgrade properly
- - Hard AI will fire their superweapon properly (sometimes they didn't fire when low in credits)
- - Fixed scripting error that makes vGLA AI activate GPS Scrambler when their Sneak Attack is ready instead the right one
- - Fixed minor scripting error that makes any China AI build light vehicle counter team when a wrong time
- - Fixed AI problem that sometimes ignore tech/neutral buildings that owned by their enemies
- - Minor improvement in AI behavior which reduce the lags that often to happen when there's AI player in the game
+ - [IMPROVEMENT] Fixed the "Building: 0%" Dozer/Worker construction bug on several factions
+ - [IMPROVEMENT] Dozers will more often to repair buildings
+ - [IMPROVEMENT] Fixed expansion dozer scripts that told the AI to build wrong dozer on each subfactions
+ - [IMPROVEMENT] Ignored Laser General Sentry Drone bug issue fixed. Now AI will respond Laser General Sentry Drone as a threat.
+ - [IMPROVEMENT] Ignored Technical chassis bug issue fixed. Same as above. Now Technicals are considered as a threat.
+ - [IMPROVEMENT] AI will react to fake buildings (they will never ignore them again)
+ - [IMPROVEMENT] AI will try to rebuild their Command Center if destroyed.
+ - [IMPROVEMENT] Fixed Laser General AI that build base with odd angle
+ - [IMPROVEMENT] Fixed the bug that makes Demolition General AI didn't build more than one Black Markets
+ - [IMPROVEMENT] Fixed the bug that makes AirForce General didn't build thier Strategy Center in Normal AI difficulty
+ - [IMPROVEMENT] Fixed the bug that makes the Superweapon General didn't upgrade their Cold Fusion Reactor properly
+ - [IMPROVEMENT] vUSA AI will upgrade their Cold Fusion Reactor properly after the Particle Cannon built
+ - [IMPROVEMENT] Fixed the bug that makes Easy USA AI not upgrade their Cold Fusion Reactor properly
+ - [IMPROVEMENT] AI will try to purchase upgrades that didn't purchased by the original AI (like Drone Armor, Neutron Mines, etc.)
+ - [IMPROVEMENT] Fixed the bug that makes the AI didn't purchase MOAB upgrade properly
+ - [IMPROVEMENT] Hard AI will fire their superweapon properly (sometimes they didn't fire when low in credits)
+ - [IMPROVEMENT] Fixed scripting error that makes vGLA AI activate GPS Scrambler when their Sneak Attack is ready instead the right one
+ - [IMPROVEMENT] Fixed minor scripting error that makes any China AI build light vehicle counter team when a wrong time
+ - [IMPROVEMENT] Fixed AI problem that sometimes ignore tech/neutral buildings that owned by their enemies
+ - [IMPROVEMENT] Minor improvement in AI behavior which reduce the lags that often to happen when there's AI player in the game
 
- - No more AI handicap! (where Easy AI RoF and HP were reduced and Hard AI were increased)
- - For amusement, the AI won't sell their buildings even they are in pinch. Go hunt every of their single buildings!
- - Change some object AI priorities (e.g. Avenger is an AA Vehicle, not a Tank)
- - AI will use more/different units for attacking
- - Sometimes AI will use different Generals Power as usual
- - USA AI will use random battleplan, not only 'Hold The Line' like before
- - Your USA ally AI will use their Intelligence ability to help you searching your enemies
- - Sometimes GLA AI will use the Radar Van Scan ability
- - Some AI Generals now will prior to build Reactors first before build their Barracks
- - All China AI will build Land Mines/Neutron Mines. Watch your steps in any Chinese base!
- - Some GLA AI will build Demo Traps in their bases. Watch your steps!
- - Superweapon General AI build more superweapon on normal difficulty
- - Hard GLA AI will build more Black Markets
- - AI will garrison some civilian buildings more often
- - Easy AI build more defenses and attack faster
- - Easy AI will build airforces!
- - Some AI Generals will build more Dozers/Workers than before
- - Some Generals will use the new features of the mod (i.e. Flamethrower, Point Defense Drone, Laser Paladin, etc.)
+ - [IMPROVEMENT] No more AI handicap! (where Easy AI RoF and HP were reduced and Hard AI were increased)
+ - [NOTRELEVANT] For amusement, the AI won't sell their buildings even they are in pinch. Go hunt every of their single buildings!
+ - [IMPROVEMENT] Change some object AI priorities (e.g. Avenger is an AA Vehicle, not a Tank)
+ - [IMPROVEMENT] AI will use more/different units for attacking
+ - [IMPROVEMENT] Sometimes AI will use different Generals Power as usual
+ - [IMPROVEMENT] USA AI will use random battleplan, not only 'Hold The Line' like before
+ - [IMPROVEMENT] Your USA ally AI will use their Intelligence ability to help you searching your enemies
+ - [IMPROVEMENT] Sometimes GLA AI will use the Radar Van Scan ability
+ - [IMPROVEMENT] Some AI Generals now will prior to build Reactors first before build their Barracks
+ - [IMPROVEMENT] All China AI will build Land Mines/Neutron Mines. Watch your steps in any Chinese base!
+ - [IMPROVEMENT] Some GLA AI will build Demo Traps in their bases. Watch your steps!
+ - [IMPROVEMENT] Superweapon General AI build more superweapon on normal difficulty
+ - [IMPROVEMENT] Hard GLA AI will build more Black Markets
+ - [IMPROVEMENT] AI will garrison some civilian buildings more often
+ - [IMPROVEMENT] Easy AI build more defenses and attack faster
+ - [IMPROVEMENT] Easy AI will build airforces!
+ - [IMPROVEMENT] Some AI Generals will build more Dozers/Workers than before
+ - [NOTRELEVANT] Some Generals will use the new features of the mod (i.e. Flamethrower, Point Defense Drone, Laser Paladin, etc.)
 
  Skirmish Maps Changes:
- - Optimize the CombatZone and Inner/Outer Perimeter areas in several maps
- - Fixed some AI paths to prevent them building base defenses on wrong sides
- - Add some "hidden treasures" in some maps (money crates, etc). Happy hunting! :)
- - No more shared OuterPerimeter areas in several maps, like in "Death Valley" map.
- - Fixed the missing CombatZone in "Defcon 6", also each players starts with a Tech Nuclear Bunker
- - Remove useless water area in "Dust Devil" that have no water, ponds, or lakes
- - Fixed the fortress wall scripts in "Fallen Empire", now they cannot be garrisoned by AI anymore
- - Fixed the missing CombatZone in "Tournament A" and "Tournament B" maps
- - Fixed USA Fuel Air Bomb jetplane that was weaker in "Mountain Guns" map
- - If you capture the Old Radio Station in "Mountain Guns" map, you will able to call in carpet bomber!
- - Change the Oil Derrick positions in "Sand Serpent" map
- - Return the oasis on each starting positions in "Golden Oasis" that removed in Zero Hour version
- - Major terrain pathfinding changes for "Twilight Flame" map. At the middle area, units will prefer to avoid the cliffs
+ - [IMPROVEMENT] Optimize the CombatZone and Inner/Outer Perimeter areas in several maps
+ - [IMPROVEMENT] Fixed some AI paths to prevent them building base defenses on wrong sides
+ - [NOTRELEVANT] Add some "hidden treasures" in some maps (money crates, etc). Happy hunting! :)
+ - [IMPROVEMENT] No more shared OuterPerimeter areas in several maps, like in "Death Valley" map.
+ - [NOTRELEVANT] Fixed the missing CombatZone in "Defcon 6", also each players starts with a Tech Nuclear Bunker
+ - [IMPROVEMENT] Remove useless water area in "Dust Devil" that have no water, ponds, or lakes
+ - [IMPROVEMENT] Fixed the fortress wall scripts in "Fallen Empire", now they cannot be garrisoned by AI anymore
+ - [IMPROVEMENT] Fixed the missing CombatZone in "Tournament A" and "Tournament B" maps
+ - [IMPROVEMENT] Fixed USA Fuel Air Bomb jetplane that was weaker in "Mountain Guns" map
+ - [NOTRELEVANT] If you capture the Old Radio Station in "Mountain Guns" map, you will able to call in carpet bomber!
+ - [NOTRELEVANT] Change the Oil Derrick positions in "Sand Serpent" map
+ - [NOTRELEVANT] Return the oasis on each starting positions in "Golden Oasis" that removed in Zero Hour version
+ - [IMPROVEMENT] Major terrain pathfinding changes for "Twilight Flame" map. At the middle area, units will prefer to avoid the cliffs
    instead passing trough or climb them.
- - Rebalanced the "Fortress Avalanche" map. Every corner starting position now have equal distance to the center of the map
+ - [IMPROVEMENT] Rebalanced the "Fortress Avalanche" map. Every corner starting position now have equal distance to the center of the map
    (before the change the bottomleft corner is the farthermost position from the center).
- - Fixed the purple-colored scorchmarks issue on "Homeland Alliance" map.
+ - [IMPROVEMENT] Fixed the purple-colored scorchmarks issue on "Homeland Alliance" map.
 
 3.2.1 New Maps!
 -----------------
@@ -2021,24 +2022,24 @@ Boss General AI. Here's the list of the new maps:
 
 3.3 Worldbuilder
 ------------------
- - All objects placed in correct locations in Worldbuilder unit trees
- - All plants now visible in worldbuilder preview!
- - Fixed some objects with wrong placement angle
- - Correction on default house colors that have small differences with skirmish house colors (like USA blue house color
+ - [MAYBE] All objects placed in correct locations in Worldbuilder unit trees
+ - [MAYBE] All plants now visible in worldbuilder preview!
+ - [MAYBE] Fixed some objects with wrong placement angle
+ - [MAYBE] Correction on default house colors that have small differences with skirmish house colors (like USA blue house color
    that brighter in skirmish and darker in campaign)
- - Added some new object from unused models including new plants and properties
- - Add some hidden features from DeeZire World Builder:
+ - [MAYBE] Added some new object from unused models including new plants and properties
+ - [MAYBE] Add some hidden features from DeeZire World Builder:
    > Integrated Mesh Mold tool, useful to make mountains and volcanoes
    > Add camera shaker at a waypoint
    > Enable/Disable 3DS Max camera playback mode
    > Show/Hide weather on the map
- - Collapsing structures now can show their rubbles properly when you put them with zero health from the worldbuilder!
- - Most objects now classified in their correct categories in the worldbuilder (I hope so; mostly system and debris objects)
- - Added back many terrain texture types that are missing from vanilla Generals back to the Worldbuilder
- - Also added several of new terrain texture types that were unused in the game files
- - Added the missing speech entries from vanilla Generals (such as the unit descriptions and mission briefings) back to ZH
+ - [MAYBE] Collapsing structures now can show their rubbles properly when you put them with zero health from the worldbuilder!
+ - [MAYBE] Most objects now classified in their correct categories in the worldbuilder (I hope so; mostly system and debris objects)
+ - [MAYBE] Added back many terrain texture types that are missing from vanilla Generals back to the Worldbuilder
+ - [MAYBE] Also added several of new terrain texture types that were unused in the game files
+ - [MAYBE] Added the missing speech entries from vanilla Generals (such as the unit descriptions and mission briefings) back to ZH
 
-For additions, some objects are improved and there are also new objects added. These affect the gameplay as well.
+[MAYBE] For additions, some objects are improved and there are also new objects added. These affect the gameplay as well.
 Here is the list and what this mod have change:
 
  :========================================================================================================================:
@@ -2407,72 +2408,72 @@ Here is the list and what this mod have change:
 This section made to list the changes applied to graphic pictures, especially cameos. This might be useful for cross-
 reference (maybe you are curious what kind of changes applied, or want to use these in your mod too).
 
-- Several texture files that have their quality reduced in vZH compared to the vGen quality.
-- Horde bonus decal texture now properly facing forward to the front side of the unit.
-- Fixed minor art error that Dr.Thrax picture (at Generals Challenge selection) background is not green toxin clouds
-- Fixed minor art error that General Fai picture (at Generals Challenge selection) background infantry lost their guns
-- Fixed major art error that General Townes picture (at Generals Challenge selection) have thick black line on the top, one
+- [IMPROVEMENT] Several texture files that have their quality reduced in vZH compared to the vGen quality.
+- [IMPROVEMENT] Horde bonus decal texture now properly facing forward to the front side of the unit.
+- [IMPROVEMENT] Fixed minor art error that Dr.Thrax picture (at Generals Challenge selection) background is not green toxin clouds
+- [IMPROVEMENT] Fixed minor art error that General Fai picture (at Generals Challenge selection) background infantry lost their guns
+- [IMPROVEMENT] Fixed major art error that General Townes picture (at Generals Challenge selection) have thick black line on the top, one
   missing rank star (it were 3 stars instead 4 stars) and heavily bleeding colors.
-- Fixed minor art error that Prince Kassad picture (at loading screen) that shown someone's name (possibly he stole the jacket
+- [IMPROVEMENT] Fixed minor art error that Prince Kassad picture (at loading screen) that shown someone's name (possibly he stole the jacket
   or maybe it's his real name :P). Removed!
-- Fixed minor art error that General Tao picture (at loading screen) have thick black line on the bottom
+- [IMPROVEMENT] Fixed minor art error that General Tao picture (at loading screen) have thick black line on the bottom
 
 Cameos:
-- Cleaned up some cameos with small purple boxes/things (possibly from unhidden bones while rendering)
-- USA Barracks cameo no longer show the wrong building (it was USA Command Center before)
-- Normal Spectre Gunship (one level Spectre Gunship) now have new cameo with no level bars below
-- Comanche cameo now uses game model picture instead real life Comanche picture
-- Sentry Drone cameo background no longer blurred
-- Chinook cameo now uses game model picture instead real life Chinook picture
-- Superweapon General Cold Fusion Reactor rods glows better (no more yellowish outline outside the blue glow)
-- Fixed the broken Advanced Particle Cannon big cameo
-- New cameo for Combat Chinook
-- Raptor and King Raptor cameo now uses game model picture instead real life F-22 Raptor pictures
-- Tomahawk cameo no longer use Generals Alpha version of Tomahawk (that colored brown instead gray)
-- Paladin Tank cameo no longer use Generals Alpha version of Paladin (that have different turret, color, and laser gun)
-- Patriot Missile cameo now uses game model picture instead real life Patriot Missiles Site picture
-- Firebase cameo now uses game model picture instead real life artillery gun picture
-- Nighthawk cameo now uses game model picture instead real life Nighthawk picture
-- USA War Factory small cameo no longer use Generals Alpha version of Crusader (the brown tank)
-- New cameos for Comanche Rocket Pods upgrade and Rocket Barrage ability
-- New cameo for Terorrist-converted civilian Bomb Cars
-- New cameos for civilian Nuclear Bunkers and Reactors (because they are now counted as Tech Building)
-- Added USA Microwave, Laser Crusader, and Avenger cameos with blue lasers (elite laser) for map modding entertainment :P
-- Advanced Particle Cannon have unique superweapon fire button
-- Each fake structures have their own unique Become Real Structure buttons
-- Additional Fake Sturcture cameos (for Stinger Site, Tunnel Network, Toxin Network, SCUD Storm, and Prison)
-- Minor fixes on Emperor Overlord Tank cameo that have messed speaker tower and wrong texture at the tread chassis
-- Improved and new ECM Tank cameo
-- Fixed Listening Outpost cameo that have wrong radar dish, also missing deploy stand and front small radar dish
-- Fixed Minigunner cameo that the Red Guard holds a machinegun instead a minigun
-- New cameos for Nuke General MiG and Helix
-- Nuclear Battlemaster cameo no longer use normal Battlemaster on the picture
-- New cameo for Super Hacker
-- Fixed the broken Chinese and GLA POW Truck cameos
-- New cameos for Tactical Nuke MiG and Patriotism upgrades
-- New cameo for Toxin Terrorist
-- Fixed GLA Barracks cameo that missing the logo on the center ground
-- Tunnel Network cameo no longer use Generals Beta version of Tunnel Network (that have smaller door and no defense gun)
-- Fixed small error on Rebel cameo where the gun barrel was cropped
-- Fixed Radar Van cameo that missing some properties
-- Fixed Scorpion Tank and Scorpion Rocket upgrade cameos that have wrong texture
-- Fixed Chinese Airfield cameo that missing the helipad and some details
-- Toxin Rebel cameo shown the toxin tanks on his back
-- Fixed GLA Supply Stash cameo that missing some details
-- Fixed Chinese Barracks cameo that have missing some details
-- Fixed Black Market cameo that have different building pattern
-- Cleaned up the UV Mapping errors that appeared in USA Dozer cameo
-- Fixed Propaganda Center cameo that have wrong banner textures
-- Fixed the missing Superweapon General Cold Fusion Reactor small cameo
-- Fixed the missing Dozer/Worker Clear Mines ability small cameo
-- (when you see it...) Pathfinder cameo now have closed left eye, which more makes sense
-- Fixed Battle Bus cameo that already upgraded with salvage upgrade
-- Fixed Bomb Truck unit and upgrade cameos that have wrong and overlapping bomb packs
-- New cameo for USA Leaflet Drop. Now it no longer use the B-52's "In America democracy comes to you!" picture.
-- New cameo for Internet Center
-- New cameo for Infantry General Infantry Paradrop special power
+- [IMPROVEMENT] Cleaned up some cameos with small purple boxes/things (possibly from unhidden bones while rendering)
+- [IMPROVEMENT] USA Barracks cameo no longer show the wrong building (it was USA Command Center before)
+- [IMPROVEMENT] Normal Spectre Gunship (one level Spectre Gunship) now have new cameo with no level bars below
+- [IMPROVEMENT] Comanche cameo now uses game model picture instead real life Comanche picture
+- [IMPROVEMENT] Sentry Drone cameo background no longer blurred
+- [IMPROVEMENT] Chinook cameo now uses game model picture instead real life Chinook picture
+- [IMPROVEMENT] Superweapon General Cold Fusion Reactor rods glows better (no more yellowish outline outside the blue glow)
+- [IMPROVEMENT] Fixed the broken Advanced Particle Cannon big cameo
+- [IMPROVEMENT] New cameo for Combat Chinook
+- [IMPROVEMENT] Raptor and King Raptor cameo now uses game model picture instead real life F-22 Raptor pictures
+- [IMPROVEMENT] Tomahawk cameo no longer use Generals Alpha version of Tomahawk (that colored brown instead gray)
+- [IMPROVEMENT] Paladin Tank cameo no longer use Generals Alpha version of Paladin (that have different turret, color, and laser gun)
+- [IMPROVEMENT] Patriot Missile cameo now uses game model picture instead real life Patriot Missiles Site picture
+- [IMPROVEMENT] Firebase cameo now uses game model picture instead real life artillery gun picture
+- [IMPROVEMENT] Nighthawk cameo now uses game model picture instead real life Nighthawk picture
+- [IMPROVEMENT] USA War Factory small cameo no longer use Generals Alpha version of Crusader (the brown tank)
+- [IMPROVEMENT] New cameos for Comanche Rocket Pods upgrade and Rocket Barrage ability
+- [IMPROVEMENT] New cameo for Terorrist-converted civilian Bomb Cars
+- [IMPROVEMENT] New cameos for civilian Nuclear Bunkers and Reactors (because they are now counted as Tech Building)
+- [NOTRELEVANT] Added USA Microwave, Laser Crusader, and Avenger cameos with blue lasers (elite laser) for map modding entertainment :P
+- [IMPROVEMENT] Advanced Particle Cannon have unique superweapon fire button
+- [IMPROVEMENT] Each fake structures have their own unique Become Real Structure buttons
+- [NOTRELEVANT] Additional Fake Sturcture cameos (for Stinger Site, Tunnel Network, Toxin Network, SCUD Storm, and Prison)
+- [IMPROVEMENT] Minor fixes on Emperor Overlord Tank cameo that have messed speaker tower and wrong texture at the tread chassis
+- [IMPROVEMENT] Improved and new ECM Tank cameo
+- [IMPROVEMENT] Fixed Listening Outpost cameo that have wrong radar dish, also missing deploy stand and front small radar dish
+- [IMPROVEMENT] Fixed Minigunner cameo that the Red Guard holds a machinegun instead a minigun
+- [NOTRELEVANT] New cameos for Nuke General MiG and Helix
+- [IMPROVEMENT] Nuclear Battlemaster cameo no longer use normal Battlemaster on the picture
+- [NOTRELEVANT] New cameo for Super Hacker
+- [IMPROVEMENT] Fixed the broken Chinese and GLA POW Truck cameos
+- [NOTRELEVANT] New cameos for Tactical Nuke MiG and Patriotism upgrades
+- [NOTRELEVANT] New cameo for Toxin Terrorist
+- [IMPROVEMENT] Fixed GLA Barracks cameo that missing the logo on the center ground
+- [IMPROVEMENT] Tunnel Network cameo no longer use Generals Beta version of Tunnel Network (that have smaller door and no defense gun)
+- [IMPROVEMENT] Fixed small error on Rebel cameo where the gun barrel was cropped
+- [IMPROVEMENT] Fixed Radar Van cameo that missing some properties
+- [IMPROVEMENT] Fixed Scorpion Tank and Scorpion Rocket upgrade cameos that have wrong texture
+- [IMPROVEMENT] Fixed Chinese Airfield cameo that missing the helipad and some details
+- [IMPROVEMENT] Toxin Rebel cameo shown the toxin tanks on his back
+- [IMPROVEMENT] Fixed GLA Supply Stash cameo that missing some details
+- [IMPROVEMENT] Fixed Chinese Barracks cameo that have missing some details
+- [IMPROVEMENT] Fixed Black Market cameo that have different building pattern
+- [IMPROVEMENT] Cleaned up the UV Mapping errors that appeared in USA Dozer cameo
+- [IMPROVEMENT] Fixed Propaganda Center cameo that have wrong banner textures
+- [IMPROVEMENT] Fixed the missing Superweapon General Cold Fusion Reactor small cameo
+- [IMPROVEMENT] Fixed the missing Dozer/Worker Clear Mines ability small cameo
+- [IMPROVEMENT] (when you see it...) Pathfinder cameo now have closed left eye, which more makes sense
+- [IMPROVEMENT] Fixed Battle Bus cameo that already upgraded with salvage upgrade
+- [IMPROVEMENT] Fixed Bomb Truck unit and upgrade cameos that have wrong and overlapping bomb packs
+- [IMPROVEMENT] New cameo for USA Leaflet Drop. Now it no longer use the B-52's "In America democracy comes to you!" picture.
+- [IMPROVEMENT] New cameo for Internet Center
+- [IMPROVEMENT] New cameo for Infantry General Infantry Paradrop special power
 
-- Housecolor fixes on these cameos:
+- [IMPROVEMENT] Housecolor fixes on these cameos:
     USA Airfield (the Raptor)
     Microwave Tank (both versions)
     Stealth Comanche
@@ -2527,39 +2528,39 @@ Cameos:
 ------------------
 Here are non-gameplay changes that were implemented in this mod
 
- - The GUI menu color changed from blue to red
- - OPTIONS menu expanded (thanks to DeeZire). Here is the contents:
-    > Clock display
+ - [NOTRELEVANT] The GUI menu color changed from blue to red
+ - [IMPROVEMENT] OPTIONS menu expanded (thanks to DeeZire). Here is the contents:
+    > [NOTRELEVANT] Clock display
        Don't play computer games too long! This will note you 'what time is it' on the match without return to the desktop
-    > Anti-Aliasing setting
+    > [IMPROVEMENT] Anti-Aliasing setting
        It already describe much. To set the level of anti-aliasing
-    > Replay Camera settings
+    > [IMPROVEMENT] Replay Camera settings
        If the replays too annoying because it always follow the camera movement, try to turn it off here ;)
-    > Scroll Anchor settings
+    > [NOTRELEVANT] Scroll Anchor settings
        Just show/hide the mouse when scrolling the monitor
-    > Language Filter setting
+    > [IMPROVEMENT] Language Filter setting
        Turn on/off the language filter on the online
-    > Uncapped FPS on Advanced Display settings
+    > [IMPROVEMENT] Uncapped FPS on Advanced Display settings
        Allows frame rates above 30. This may affects game speed, so not recommended for who didn't understand it
 
- - You can quick access the Worldbuilder from the game main menu. If you run the Worldbuilder from here, you can use this
+ - [NOTRELEVANT] You can quick access the Worldbuilder from the game main menu. If you run the Worldbuilder from here, you can use this
    mod features in the Worldbuilder (see the Worldbuilder section below). (Warning: A lot of RAM memory required)
- - Quick access to LAN Multiplayer Lobby from the main menu. Since the Generals Online pretty much defunct, the
+ - [NOTRELEVANT] Quick access to LAN Multiplayer Lobby from the main menu. Since the Generals Online pretty much defunct, the
    Multiplayer button on the main menu moves you directly to LAN Multiplayer Lobby instead to the sub-menu.
- - Improved visual effects. Such as firestorm, toxin explosion, etc. have better appearance, including cameos and models!
- - Improved audio effects. Some units get new voices, also new EVA voices that never heared before! You will never hear
+ - [MAYBE] Improved visual effects. Such as firestorm, toxin explosion, etc. have better appearance, including cameos and models!
+ - [MAYBE] Improved audio effects. Some units get new voices, also new EVA voices that never heared before! You will never hear
    the shouting Ranger/Rebel/RedGuard again.
- - Better commandset order/listing. The build list from factories sorted from the lowest tier units.
- - More detailed command button description, especially some units that only have "Strong vs. and Weak vs." description.
- - Generals Power shortcut button positions fixed. They are now in the right positions and not pass over the button borders
+ - [NOTRELEVANT] Better commandset order/listing. The build list from factories sorted from the lowest tier units.
+ - [MAYBE] More detailed command button description, especially some units that only have "Strong vs. and Weak vs." description.
+ - [IMPROVEMENT] Generals Power shortcut button positions fixed. They are now in the right positions and not pass over the button borders
    on the bar.
- - New build cursor. You can see it when you want to place buildings
- - NEW MUSIC TRACK for USA! "Main Menu Theme Metal Remix" by "Bill Brown"
- - Unique icons for each subfaction will be shown in the scoreboard instead the base faction logo icon.
- - Added new fancy scrolling animation for the command bar GUI, similar to what you saw in the Generals alpha build videos!
- - Removed the map limit on Skirmish and Network map selection. Now if you have hundreds of maps saved in your computer they
+ - [MAYBE] New build cursor. You can see it when you want to place buildings
+ - [NOTRELEVANT] NEW MUSIC TRACK for USA! "Main Menu Theme Metal Remix" by "Bill Brown"
+ - [IMPROVEMENT] Unique icons for each subfaction will be shown in the scoreboard instead the base faction logo icon.
+ - [MAYBE] Added new fancy scrolling animation for the command bar GUI, similar to what you saw in the Generals alpha build videos!
+ - [IMPROVEMENT] Removed the map limit on Skirmish and Network map selection. Now if you have hundreds of maps saved in your computer they
    all can be displayed in the map selection menu.
- - Fixed the Officers Club Honor medal that placed at a quite odd place (if you managed to unlock it)
+ - [IMPROVEMENT] Fixed the Officers Club Honor medal that placed at a quite odd place (if you managed to unlock it)
  - Added Supporter Honor medal as a token of gratitude for using this mod. :)
 
 
