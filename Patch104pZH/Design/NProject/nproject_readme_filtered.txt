@@ -1345,9 +1345,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
      fake version first, and upgrade them to real structure.
  - [NOTRELEVANT] Fake SCUD Storm
      Realistic replica of SCUD Storm. Can be upgraded to real building or detonated. Can launch fake SCUD Storm superweapon
-     that will scares your opponents. Except
- the low
-er building healthpoint, your enemies can't tell are this building real
+     that will scares your opponents. Except the lower building healthpoint, your enemies can't tell are this building real
      or fake because this building also have the superweapon countdown and also revealed to all players, but when the fake
      superweapon launched, they will realize that this building do no damages and they were fooled by you. When upgraded to
      real version it will reset the countdown, don't think you can cheated the timer with this.
