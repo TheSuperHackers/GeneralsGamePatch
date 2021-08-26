@@ -196,7 +196,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    this funny bug that may reduce the frame rate in online matches
  - [IMPROVEMENT] All infantry now use the right death voices (some infantry uses wrong death voices before)
  - All buildable aircraft and artillery units guard range sightly increased, makes them can guard areas more effective
- - [ALREADY FIXED] Negative power bug/exploit fixed! This bug occurs when an under construction power plant disabled by a Microwave Tank.
+ - [DONE] Negative power bug/exploit fixed! This bug occurs when an under construction power plant disabled by a Microwave Tank.
    Now all power plants can't be disabled when under construction.
  - [NOTRELEVANT] USA Dozer, Chinese Dozer, and GLA Worker can detect Demo Traps again like in original Generals (in Zero Hour they can
    disarm Demo Traps, but cannot detect them)
@@ -249,7 +249,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  MISSILE DEFENDER:
  - New and rebalanced Missile Defender Laser Lock ability (hopefully better):
    > [IMPROVEMENT] NO MORE MISSILE DEFENDER BUG! Now AI will never fire these ability without initial delay again
-   > [NOTRELEVANT] Laser Lock ability maximum attack range reduced, now it's smaller than artillery weapon range
+   > [MAYBE] Laser Lock ability maximum attack range reduced, now it's smaller than artillery weapon range
    > [IMPROVEMENT] New Laser Lock effect/animation! The laser now attached to the model to reduce particle usage
    > [IMPROVEMENT] The infantry no longer unanimated when performing this ability
  - [NOTRELEVANT] Missile Defender weapon damage increased from 40 to 50
@@ -449,7 +449,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > No more stray supply crates that missed their landing spot
    > No more crate stealing from your enemies
    > [IMPROVEMENT] No more multiplying cash amount cheat from the collision exploit/glitch!
- - [ALREADY FIXED] No more Supply Drop Zone initial cooldown exploit cheat! Now Supply Drop Zones can't be disabled when under construction
+ - [DONE] No more Supply Drop Zone initial cooldown exploit cheat! Now Supply Drop Zones can't be disabled when under construction
 
  PARTICLE CANNON:
  - [NOTRELEVANT] Reduced Particle Cannon build footprint size, so Particle Cannon requires slight less area when placed for build
@@ -828,7 +828,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Now you cannot build multiple Internet Centers from different subfactions
  - [IMPROVEMENT] New constructing animation for Internet Center. Now it have unique scaffolding (not using the Supply Center one)
  - Some changes on Satellite Hack upgrades due to new Spy Plane ability (see below):
-   > [NOTRELEVANT] Satellite Hack I reveal now non-permanent. Now it only reveal enemy Command Centers for 25 seconds each 4 minutes.
+   > [MAYBE] Satellite Hack I reveal now non-permanent. Now it only reveal enemy Command Centers for 25 seconds each 4 minutes.
    > [IMPROVEMENT] Also fixed Satellite Hack I bug that sometimes not revealing enemy newly built Command Centers (hopefully)
    > [NOTRELEVANT] Satellite Hack II now only reveal enemy structures, not entire forces, to give it some diversity from USA Intelligence
      special power.
