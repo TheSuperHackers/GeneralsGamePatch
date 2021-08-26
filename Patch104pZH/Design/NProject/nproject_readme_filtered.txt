@@ -178,8 +178,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] All factions Cargo Planes now have equal stats
  - [IMPROVEMENT] Fixed the Cargo Plane propeller texture error that have small thin gray lines
  - [NOTRELEVANT] Standardized unit transport size. Like an Overlord that needs more transport slot than a Technical
- - [IMPROVEMENT] Fixed the issues with firing elevation limit. Now both tanks and artillery can attack very high/low targets alike
- Reason: Certain maps have topology which can force units to path around to reach their targets, even if it is within reach of their weapon.
+ - [?] Fixed the issues with firing elevation limit. Now both tanks and artillery can attack very high/low targets alike
  - [NOTRELEVANT] Tank armor received damage from INFANTRY_MISSILE reduced from 100% to 85%
  - [NOTRELEVANT] Tank armor received damage from POISON reduced from 25% to 15%
  - [NOTRELEVANT] TruckArmor received damage from INFANTRY_MISSILE increased from 50% to 65% (except anti-personnel vehicles)
@@ -189,8 +188,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] All heroes get improved armor and healthpoints. Heroes more resist special weapon attacks than infantry, and heroes more
    immune to sniper attacks. So there is no more "Pathfinder Own Heroes" again.
  - [NOTRELEVANT] All structures now more resistant to aircraft missiles to prevent fighters razing structures better than bombers
- - [IMPROVEMENT] Implemented "Ground Attack" button on all artillery and aircraft units.
- Reason: Allows for more precise force fire than regular force fire. Does not supplant normal force fire but complements it.
+ - [?] Implemented "Ground Attack" button on all artillery and aircraft units.
  - [IMPROVEMENT] Attackable toxic infantry and burning infantry issue fixed
  - [IMPROVEMENT] Eternally flying dead aircraft bug (like in 'How To Make A Chinook Bug' video at YouTube) FIXED! You will never encounter
    this funny bug that may reduce the frame rate in online matches
@@ -254,8 +252,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > [IMPROVEMENT] The infantry no longer unanimated when performing this ability
  - [NOTRELEVANT] Missile Defender weapon damage increased from 40 to 50
  - [NOTRELEVANT] Missile Defender rate of fire reduced from 1000 to 1600 miliseconds
- - [MAYBE] Added minimum attack range to Missile Defender normal weapon to match Tank Hunter and RPG Trooper weapons (laser lock weapon is unaffected)
- Reason: Missile Defenders will not damage themselves anymore. May affect instances where Rockvees are rammed and they may be unable to retaliate.
+ - [?] Added minimum attack range to Missile Defender normal weapon to match Tank Hunter and RPG Trooper weapons (laser lock weapon is unaffected)
  - [NOTRELEVANT] Missile Defender normal attack rockets fuel time rebalanced to match their other factions counterparts (RPG and Tank Hunter)
  - [NOTRELEVANT] Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
    Zero Hour
@@ -310,8 +307,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  AVENGER:
  - [IMPROVEMENT] Avenger will not block dozer builds anymore!
  - [NOTRELEVANT] All Avengers need Strategy Center to be built
- - [MAYBE] Avenger now use their own armor
- Reason: Only Airforce General Avenger uses AntiAirArmor, which makes them more vulnerable to JET_MISSILE compared to AvengerArmor. May affect interactions.
+ - [?] Avenger now use their own armor
  - [NOTRELEVANT] Avenger no longer benefits from Composite Armor upgrade, it's not tank after all
  - [NOTRELEVANT] Avenger Point Defense Laser can be used against infantry
  - [NOTRELEVANT] Avenger move speed increased from 30 to 40
@@ -340,8 +336,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  VEHICLE DRONES:
  - [MAYBE] All USA vehicle drones healthbar are now hidden because they are no longer selectable
- - [MAYBE] Now vehicle drones are counted as aircraft, not ground vehicles anymore
- Reason: Anti Air weapons may be more reactive to them.
+ - [?] Now vehicle drones are counted as aircraft, not ground vehicles anymore
  - [MAYBE] Vehicle drones now will never stray too far from their parent vehicles
  - [NOTRELEVANT] Battle Drone will more often repairing than attacking, balancing the removed Ambulance vehicle repair
  - [IMPROVEMENT] Battle Drone now repair their master correctly (sometimes they attack/move to the enemy while repairing, which is fail)
@@ -501,8 +496,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > Remove Point Defense Laser ability from AirForce General standard Chinook
 
  SPECIAL POWERS AIRCRAFTS:
- - [MAYBE] Improved AirForce Carpet Bomb efficiency
- Reason: Depends on what "efficiency" means. Needs to be examined.
+ - [?] Improved AirForce Carpet Bomb efficiency
  - [IMPROVEMENT] AirForce Carpet Bomb can be called from other generals Strategy Center
  - [NOTRELEVANT] AirForce General A-10 Strike Generals Power reload time reduced from 4:00 to 3:30
 
@@ -523,9 +517,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  COMANCHE:
  - [IMPROVEMENT] Correct selection cameo for Stealth Comanche
- - [MAYBE] Fixed Stealth Comanche behavior after upgraded with the stealth upgrade. Now they will respond to enemies when idle
+ - [?] Fixed Stealth Comanche behavior after upgraded with the stealth upgrade. Now they will respond to enemies when idle
    correctly.
- Reason: Sometimes it may be wise to let Stealth Comanches not automatically engage targets and blow their cover.
  - [NOTRELEVANT] Stealth Comanche re-stealth time increased from 1500 to 2000 miliseconds
 
  NIGHTHAWK:
@@ -685,8 +678,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  GATTLING TANK:
  - [MAYBE] Gattling Tank now can gain horde bonus in group of 5 or more
  - [IMPROVEMENT] Fixed the bug that makes Gattling Tank keep silent when attacking air
- - [NOTRELEVANT] Minor balances on Gattling Tank veterancy requirements
- Reason: May improve or worsen the rate at which the Gattling Tank gains veterancy. Squarely a balance issue.
+ - [?] Minor balances on Gattling Tank veterancy requirements
  - [NOTRELEVANT] Gattling Tank armor received damage from COMANCHE_VULCAN reduced from 25% to 20%
 
  DRAGON TANK:
@@ -723,8 +715,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Overlord Gattling Cannon turret turns faster to increase its effectiveness
  - [NOTRELEVANT] Overlord Gattling Cannon ground weapon damage reduced to 75% compared from the Gattling Cannon building weapon
  - [NOTRELEVANT] Overlord Gattling Cannon air weapon range reduced from 400 to 350
- - [IMPROVEMENT] Fixed minor bug where the structure addon didn't affected by Frenzy visual effects
- Reason: Makes Frenzied Overlords look less jarring and has no impact on their stats.
+ - [?] Fixed minor bug where the structure addon didn't affected by Frenzy visual effects
 
  INFERNO CANNON:
  - [IMPROVEMENT] Infreno Cannon attacks now inflict burned death instead exploded death
@@ -733,8 +724,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  ECM TANK:
  - [NOTRELEVANT] Increased ECM missile jammer weapon effectiveness
  - [IMPROVEMENT] ECM Tank no longer can gain experience
- - [IMPROVEMENT] Fixed ECM Tank behavior that sometimes just standing still while guarding an area
- Reason: Guarding with ECM Tanks is niche enough, don't see much harm in allowing this.
+ - [?] Fixed ECM Tank behavior that sometimes just standing still while guarding an area
  - [MAYBE] Added Hold Fire mode to ECM Tank to keep them using the missile jammer instead hunting with vehicle disabler when idle
  - [MAYBE] New wave color for ECM Tank missile jammer weapon
 
@@ -752,8 +742,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] MiG build cost increased from 1200 to 1300
  - [NOTRELEVANT] MiG build time increased from 10 to 15 seconds
  - [NOTRELEVANT] MiG Black Napalm weapon reload time increased from 2000 to 8000 miliseconds to match the unupgraded weapon reload time
- - [MAYBE] Fixed the bug where MiG weapon able to attack paradropping infantry after the Black Napalm upgrade
- Reason: Generally a fix, removes a possible distraction. Overall niche and possibly an improvement.
+ - [?] Fixed the bug where MiG weapon able to attack paradropping infantry after the Black Napalm upgrade
 
  HELIX:
  - [IMPROVEMENT] Improved Helix model
@@ -764,8 +753,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Helix Gattling Cannon upgrade cost reduced from 1200 to 900
  - [NOTRELEVANT] Helix Gattling Cannon ground weapon damage reduced to 75% compared from the Gattling Cannon building weapon
  - [NOTRELEVANT] Helix Gattling Cannon air weapon range reduced from 400 to 350
- - [IMPROVEMENT] Fixed minor bug where the structure addon didn't affected by Frenzy visual effects
-  Reason: Makes Frenzied Helixes look less jarring and has no impact on their stats.
+ - [?] Fixed minor bug where the structure addon didn't affected by Frenzy visual effects
 
  CHINESE COMMAND CENTER:
  - [MAYBE] Chinese Command Center door opening time reduced from 3000 to 1000 miliseconds
@@ -1149,13 +1137,10 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - Various changes for Technical weapons to make sure the growth from salvage upgrade much more consistent:
    > [NOTRELEVANT] Normal weapon (pre-salvage) damage reduced from 10 to 8
    > [NOTRELEVANT] 1st salvage upgrade weapon splash radius greatly reduced (from 25 to 2)
-   > [MAYBE] 1st salvage upgrade weapon no longer misses when attacking infantry
-   Reason: Balance issue. Best to be discussed and reviewed further.
+   > [?] 1st salvage upgrade weapon no longer misses when attacking infantry
    > [NOTRELEVANT] 2nd salvage upgrade weapon damage type changed from EXPLOSION to GATTLING to match the previous weapons damage type
-   > [MAYBE] 2nd salvage upgrade weapon no longer misses when attacking infantry
-   Reason: Balance issue. Best to be discussed and reviewed further.
-   > [MAYBE] 2nd salvage upgrade weapon no longer have minimum attack range
-   Reason: Balance issue. Best to be discussed and reviewed further.
+   > [?] 2nd salvage upgrade weapon no longer misses when attacking infantry
+   > [?] 2nd salvage upgrade weapon no longer have minimum attack range
 
  RADAR VAN:
  - [IMPROVEMENT] Radar Van's radar tower hidden until the Radar Van Scan upgrade purchased
@@ -1293,8 +1278,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  FAKE STRUCTURES:
  - [IMPROVEMENT] Fake Structures use right selected sound rather than the real structure's selected sound
- - [MAYBE] Prerequisites from Fake Command Center, Fake Barracks, and Fake Supply Stash removed
- Reason: This may concern balance; I have no real authority to judge here.
+ - [?] Prerequisites from Fake Command Center, Fake Barracks, and Fake Supply Stash removed
  - [MAYBE] Detonation weapon area effects depends on the building. Fake Command Center blasts larger area than Fake Barracks
  - [NOTRELEVANT] Build time fixed at 50% of the corresponding real structure build time
  - [NOTRELEVANT] Build cost fixed at 25% of the corresponding real structure build cost
@@ -1345,8 +1329,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
      fake version first, and upgrade them to real structure.
  - [NOTRELEVANT] Fake SCUD Storm
      Realistic replica of SCUD Storm. Can be upgraded to real building or detonated. Can launch fake SCUD Storm superweapon
-     that will scares your opponents. Except
- the low
+     that will scares your opponents. Except the low
 er building healthpoint, your enemies can't tell are this building real
      or fake because this building also have the superweapon countdown and also revealed to all players, but when the fake
      superweapon launched, they will realize that this building do no damages and they were fooled by you. When upgraded to
@@ -1374,8 +1357,7 @@ er building healthpoint, your enemies can't tell are this building real
  - [NOTRELEVANT] Rebel, RPG Trooper, Terrorist, Worker, and Stinger Soldier more resistant to toxin attack
  - [NOTRELEVANT] Certain build cost changes for Toxin General vehicles. They're now more expensive compared to vGLA vehicles.
  - [NOTRELEVANT] Toxin General SCUD Storm build cost reduced from 5000 to 4500
- - [MAYBE] Camouflage upgrade no longer affects Toxin Rebel and Toxin RPG Trooper
- Reason: Balance issue. Best to be discussed and reviewed further.
+ - [?] Camouflage upgrade no longer affects Toxin Rebel and Toxin RPG Trooper
  - [NOTRELEVANT] Anthrax Gamma upgrade cost increased from 1500 to 2000
  - [IMPROVEMENT] All Anthrax Gamma garrison clearing weapon will make the right toxin splash color effect when clearing garrison
  - [NOTRELEVANT] Toxin General no longer have access to Rocket Buggy Ammo upgrade because of the new Rocket Buggy Toxin Ammo upgrade,
@@ -1426,22 +1408,18 @@ er building healthpoint, your enemies can't tell are this building real
  - [NOTRELEVANT] The Scorpion Rocket upgrade no longer available on Demolition General Arms Dealer due to the new War Track unit.
 
  REBEL:
- - [MAYBE] Camouflage upgrade no longer affects Demolition General Rebel
- Reason: Balance issue. Best to be discussed and reviewed further.
+ - [?] Camouflage upgrade no longer affects Demolition General Rebel
  - [MAYBE] Demolition General Rebel can place TNT charges like Chinese Tank Hunter
 
  ROCKET BUGGY:
- - [MAYBE] Demolition General Rocket Buggy will not lose its unique rockets after the Buggy Ammo upgrade
- Reason: If it's a visual change, there is no harm in it. If it changes their damage - best not to.
+ - [?] Demolition General Rocket Buggy will not lose its unique rockets after the Buggy Ammo upgrade
 
  MARAUDER:
  - [NOTRELEVANT] Toxin Shells upgrade no longer affects Demolition General Marauder
 
  ADVANCED DEMO TRAP:
  - [IMPROVEMENT] Fixed the wrong model of Advanced Demo Trap when under construction
- - [MAYBE] Advanced Demo Trap will not harm friendly units, like Chinese minefields
- Reason: Would allow for more reckless use of Demo Traps, possibly baiting enemies into it. May be a balance issue.
-
+ - [?] Advanced Demo Trap will not harm friendly units, like Chinese minefields
 
  SCUD STORM:
  - [MAYBE] Demolition General SCUD Storm no longer spawn toxin field when destroyed
@@ -1450,14 +1428,11 @@ er building healthpoint, your enemies can't tell are this building real
  - [NOTRELEVANT] Demolition General SCUD Storm weapon splash damage increased from 150 to 200 per missile
 
  DEMOLITIONS UPGRADE:
- - [MAYBE] Improved Demolition ability
- Reason: Vague. May include the fixed below, may be referring to higher damage or radius.
+ - [?] Improved Demolition ability
  - [IMPROVEMENT] Fixing Demolition General infantry and vehicles suicide death animations
- - [MAYBE] Demolitions upgraded infantry only exploded when they're detonate themselves, exploded, crushed, or burned
- Reason: Certain units, such as Rangers or Gattling Tanks, will not trigger explosions if Demolitions infantry is killed. A balance concern.
+ - [?] Demolitions upgraded infantry only exploded when they're detonate themselves, exploded, crushed, or burned
  - [IMPROVEMENT] Combat Bike now can use Demolition suicide ability correctly
- - [MAYBE] Remove Demolitions suicide ability from Demolition General base defenses
- Reason: Balance issue. Best to be discussed and reviewed further.
+ - [?] Remove Demolitions suicide ability from Demolition General base defenses
 
  AMBUSH:
  - [NOTRELEVANT] Due to Demolitions upgrade effect to infantry, Demolition General Ambush special power will only spawn fewer infantry:
@@ -1664,8 +1639,7 @@ er building healthpoint, your enemies can't tell are this building real
  - [IMPROVEMENT] Supply boxes covered with snows on snowy maps
  - [NOTRELEVANT] Supply Piles (small and large ones) no longer block unit sights, allowing other units to attack enemies behind.
    Does not applied to Supply Docks and Supply Warehouses.
- - [IMPROVEMENT] Supply sources now have selection cameo picture for easier identification
- Reason: Zero harm and can help some people identify what is what without having to hover over them.
+ - [?] Supply sources now have selection cameo picture for easier identification
  - [IMPROVEMENT] Toxin Repository (like the one found in GLA ZH Mission 4) properly hides the toxin tanks like supply boxes
  - [IMPROVEMENT] Fixed the Toxin Repository missing shadows
 
