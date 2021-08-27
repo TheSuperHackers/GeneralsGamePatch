@@ -7,7 +7,7 @@ https://github.com/commy2/zerohour/issues/224 [IMPROVEMENT]           Mixing Bat
 https://github.com/commy2/zerohour/issues/223 [IMPROVEMENT]           Sentry Drone Lacks Voice Line When Leaving Factory
 https://github.com/commy2/zerohour/issues/222 [MAYBE]                 Poison Fields Can Clear Poison Fields
 https://github.com/commy2/zerohour/issues/221 [IMPROVEMENT]           Units Sometimes Waste Shots On Overlord Debris
-https://github.com/commy2/zerohour/issues/220 [IMPROVEMENT][NPROJECT] Units Sometimes Waste Shots On Poisoned Or Burned Infantry
+https://github.com/commy2/zerohour/issues/220 [DONE] Units Sometimes Waste Shots On Poisoned Or Burned Infantry
 https://github.com/commy2/zerohour/issues/219 [MAYBE]                 Stinger Site Does Not Benefit From AP Rockets When Engaging Airborne Targets
 https://github.com/commy2/zerohour/issues/218 [NOTRELEVANT]           Hackers Are Bad Late Game Eco
 https://github.com/commy2/zerohour/issues/217 [MAYBE]                 Scud Launchers Missing Upgrade Icon For AP Rockets
@@ -154,7 +154,7 @@ https://github.com/commy2/zerohour/issues/64  [MAYBE]                 Battle Dro
 https://github.com/commy2/zerohour/issues/63  [MAYBE]                 Paladins And Microwaves Gain Slightly Less Than Intended From Composite Armor
 https://github.com/commy2/zerohour/issues/62  [MAYBE]                 Crusader And Laser Tanks Receive Composite Armor Health Bonus Twice
 https://github.com/commy2/zerohour/issues/61  [NOTRELEVANT]           Destroyed American Boss Buildings Spawn Wrong Ranger Type
-https://github.com/commy2/zerohour/issues/60  [IMPROVEMENT][NPROJECT] Destroyed Particle Cannons Spawn Wrong Ranger Type
+https://github.com/commy2/zerohour/issues/60  [DONE] Destroyed Particle Cannons Spawn Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/59  [IMPROVEMENT]           Air Force General Name Misspelling
 https://github.com/commy2/zerohour/issues/58  [IMPROVEMENT]           Some Combat Bikes Missing DoorOpenTime Entry
 https://github.com/commy2/zerohour/issues/57  [IMPROVEMENT]           Broken Combat Bike Animations
