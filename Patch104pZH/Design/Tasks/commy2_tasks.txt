@@ -154,7 +154,7 @@ https://github.com/commy2/zerohour/issues/64  [MAYBE]                 Battle Dro
 https://github.com/commy2/zerohour/issues/63  [MAYBE]                 Paladins And Microwaves Gain Slightly Less Than Intended From Composite Armor
 https://github.com/commy2/zerohour/issues/62  [MAYBE]                 Crusader And Laser Tanks Receive Composite Armor Health Bonus Twice
 https://github.com/commy2/zerohour/issues/61  [NOTRELEVANT]           Destroyed American Boss Buildings Spawn Wrong Ranger Type
-https://github.com/commy2/zerohour/issues/60  [IMPROVEMENT][NPROJECT] Destroyed Particle Cannons Spawn Wrong Ranger Type
+https://github.com/commy2/zerohour/issues/60  [DONE] Destroyed Particle Cannons Spawn Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/59  [IMPROVEMENT]           Air Force General Name Misspelling
 https://github.com/commy2/zerohour/issues/58  [IMPROVEMENT]           Some Combat Bikes Missing DoorOpenTime Entry
 https://github.com/commy2/zerohour/issues/57  [IMPROVEMENT]           Broken Combat Bike Animations
