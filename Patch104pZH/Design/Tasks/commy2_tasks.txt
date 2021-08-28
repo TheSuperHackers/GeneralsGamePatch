@@ -192,7 +192,7 @@ https://github.com/commy2/zerohour/issues/24  [IMPROVEMENT]           GLA Buildi
 https://github.com/commy2/zerohour/issues/23  [IMPROVEMENT]           Demo General Jarmen Kell Repeats Voice Line When Planting Timed Demo Charge
 https://github.com/commy2/zerohour/issues/22  [IMPROVEMENT]           Build Scorpion Tank-Button Misspelling
 https://github.com/commy2/zerohour/issues/21  [IMPROVEMENT]           Demo And Tox Rebel Ambush Tooltips Are Wrong
-https://github.com/commy2/zerohour/issues/20  [IMPROVEMENT]           Demo Rocket Buggy Loses Red Missile Detonation Effect After Buggy Ammo Upgrade
+https://github.com/commy2/zerohour/issues/20  [DONE]                  Demo Rocket Buggy Loses Red Missile Detonation Effect After Buggy Ammo Upgrade
 https://github.com/commy2/zerohour/issues/19  [IMPROVEMENT]           Emerging Sneak Attack Uses Tunnel Network Portrait
 https://github.com/commy2/zerohour/issues/18  [MAYBE]                 Toxin General Terrorist Without Anthrax Beta Upgrade Creates No Poison Cloud
 https://github.com/commy2/zerohour/issues/17  [MAYBE]                 Toxin General Terrorist Does Extra Damage Before Anthrax Gamma Upgrade
