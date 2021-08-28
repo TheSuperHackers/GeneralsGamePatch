@@ -196,7 +196,7 @@ https://github.com/commy2/zerohour/issues/20  [IMPROVEMENT]           Demo Rocke
 https://github.com/commy2/zerohour/issues/19  [IMPROVEMENT]           Emerging Sneak Attack Uses Tunnel Network Portrait
 https://github.com/commy2/zerohour/issues/18  [MAYBE]                 Toxin General Terrorist Without Anthrax Beta Upgrade Creates No Poison Cloud
 https://github.com/commy2/zerohour/issues/17  [MAYBE]                 Toxin General Terrorist Does Extra Damage Before Anthrax Gamma Upgrade
-https://github.com/commy2/zerohour/issues/16  [IMPROVEMENT]           Toxin Demo Trap Creates Poison Cloud Before It Explodes
+https://github.com/commy2/zerohour/issues/16  [DONE]                  Toxin Demo Trap Creates Poison Cloud Before It Explodes
 https://github.com/commy2/zerohour/issues/15  [IMPROVEMENT]           Gamma Toxin Streams Create Green Particles When Clearing Buildings
 https://github.com/commy2/zerohour/issues/14  [IMPROVEMENT]           Toxin Shells Lose Projectile Explosion Effect After Anthrax Upgrade
 https://github.com/commy2/zerohour/issues/13  [DONE]                  Destroyed Toxin Tractor Always Creates Green Particles
