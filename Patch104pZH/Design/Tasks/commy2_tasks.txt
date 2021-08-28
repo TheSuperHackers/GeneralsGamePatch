@@ -186,7 +186,7 @@ https://github.com/commy2/zerohour/issues/30  [IMPROVEMENT]           Crushing M
 https://github.com/commy2/zerohour/issues/29  [DONE]                  GLA Base Defense Hole Sufficient For Player Survival
 https://github.com/commy2/zerohour/issues/28  [MAYBE]                 Demo General Terrorist Does Not Explode When Crushed, Burned Or Blown Up
 https://github.com/commy2/zerohour/issues/27  [IMPROVEMENT][NPROJECT] Scud Storm Does Not Damage Itself
-https://github.com/commy2/zerohour/issues/26  [IMPROVEMENT]           Saboteur Uses Wrong Art For Sabotage Building-Ability
+https://github.com/commy2/zerohour/issues/26  [DONE]                  Saboteur Uses Wrong Art For Sabotage Building-Ability
 https://github.com/commy2/zerohour/issues/25  [NOTRELEVANT]           Boss Tomahawk Launcher Never Drops Scrap
 https://github.com/commy2/zerohour/issues/24  [IMPROVEMENT]           GLA Buildings Don't Create Scrap
 https://github.com/commy2/zerohour/issues/23  [IMPROVEMENT]           Demo General Jarmen Kell Repeats Voice Line When Planting Timed Demo Charge
