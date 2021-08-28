@@ -123,7 +123,7 @@ https://github.com/commy2/zerohour/issues/96  [IMPROVEMENT]           Vanilla Ch
 https://github.com/commy2/zerohour/issues/95  [IMPROVEMENT]           Inconsistent Outpost Geometry
 https://github.com/commy2/zerohour/issues/94  [DONE]                  Tank And Nuke Outposts Fail To Attack Buildings
 https://github.com/commy2/zerohour/issues/93  [IMPROVEMENT]           Vanilla China Outposts Missing Detection Effect
-https://github.com/commy2/zerohour/issues/92  [IMPROVEMENT][NPROJECT] Speaker Tower Sufficient For Player Survival
+https://github.com/commy2/zerohour/issues/92  [DONE]                  Speaker Tower Sufficient For Player Survival
 https://github.com/commy2/zerohour/issues/91  [MAYBE]                 Flashbangs Can Clear Mines
 https://github.com/commy2/zerohour/issues/90  [NOTRELEVANT]           Jarmen Kell Can Snipe Landed Chinooks And Helixes
 https://github.com/commy2/zerohour/issues/89  [IMPROVEMENT]           Non-Vanilla USA Fire Bases Use Patriot Sound Effect
