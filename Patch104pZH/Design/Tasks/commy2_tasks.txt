@@ -104,7 +104,7 @@ https://github.com/commy2/zerohour/issues/115 [IMPROVEMENT]           Early And 
 https://github.com/commy2/zerohour/issues/114 [IMPROVEMENT]           Hitting Battle Bus In Hull Mode Causes Screen Shake
 https://github.com/commy2/zerohour/issues/113 [MAYBE][NPROJECT]       Flashbangs Cannot Target Stinger Sites
 https://github.com/commy2/zerohour/issues/112 [IMPROVEMENT]           Stealth Fake Arms Dealer Missing Camo Netting Upgrade Icon
-https://github.com/commy2/zerohour/issues/111 [DONE]                  Stealth General Saboteur Uses Rebel Death Scream
+https://github.com/commy2/zerohour/issues/111 [IMPROVEMENT][NPROJECT] Stealth General Saboteur Uses Rebel Death Scream
 https://github.com/commy2/zerohour/issues/110 [IMPROVEMENT]           Anthrax Beta And Gamma Upgrade Icons Missing From Many Objects
 https://github.com/commy2/zerohour/issues/109 [IMPROVEMENT]           Some Helixes Missing Napalm Bomb Upgrade Icon
 https://github.com/commy2/zerohour/issues/108 [IMPROVEMENT]           Chinook and Supply Center Upgrade Icons
