@@ -110,7 +110,7 @@ https://github.com/commy2/zerohour/issues/109 [IMPROVEMENT]           Some Helix
 https://github.com/commy2/zerohour/issues/108 [IMPROVEMENT]           Chinook and Supply Center Upgrade Icons
 https://github.com/commy2/zerohour/issues/107 [IMPROVEMENT]           Pilots Have Misleading Upgrade Icons
 https://github.com/commy2/zerohour/issues/106 [NOTRELEVANT]           Cargo Planes With Countermeasures Are Missing Hit Effects
-https://github.com/commy2/zerohour/issues/105 [IMPROVEMENT]           Some American And Chinese Units Use GLA Death Scream When Gamma Poisoned
+https://github.com/commy2/zerohour/issues/105 [DONE]                  Some American And Chinese Units Use GLA Death Scream When Gamma Poisoned
 https://github.com/commy2/zerohour/issues/104 [IMPROVEMENT]           China Command Center Missing Radar Upgrade Icon
 https://github.com/commy2/zerohour/issues/103 [IMPROVEMENT]           Some Special Power Buttons Disappear From Command Center After Mines Upgrade
 https://github.com/commy2/zerohour/issues/102 [IMPROVEMENT]           Tank Hunter Missing Patriotism Upgrade Icon
