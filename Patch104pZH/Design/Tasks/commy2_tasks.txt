@@ -84,7 +84,7 @@ https://github.com/commy2/zerohour/issues/135 [IMPROVEMENT]           Tunnel And
 https://github.com/commy2/zerohour/issues/134 [IMPROVEMENT]           Air Force Carpet Bomber Tooltip Claims 2:30 Cooldown Instead Of True 4:00
 https://github.com/commy2/zerohour/issues/133 [MAYBE]                 Fire Base Command Button Order Misaligned With Other Buildings
 https://github.com/commy2/zerohour/issues/132 [MAYBE]                 Raptor Guard Air Button Misplaced
-https://github.com/commy2/zerohour/issues/131 [IMPROVEMENT]           Demo General Combat Bike With Demolitions Upgrade Deals No Damage When Destroyed By Gamma Poison
+https://github.com/commy2/zerohour/issues/131 [DONE]                  Demo General Combat Bike With Demolitions Upgrade Deals No Damage When Destroyed By Gamma Poison
 https://github.com/commy2/zerohour/issues/130 [IMPROVEMENT][NPROJECT] Demo Combat Bike Uses Portrait As Button
 https://github.com/commy2/zerohour/issues/129 [MAYBE]                 Selling Air Force Supply Center Does Refund Less Than Half Of Build Value
 https://github.com/commy2/zerohour/issues/128 [IMPROVEMENT]           Repair And Reinforcement Pads Reward XP When Killed
