@@ -167,7 +167,7 @@ https://github.com/commy2/zerohour/issues/51  [DONE]                  Demo Gener
 https://github.com/commy2/zerohour/issues/50  [DONE]                  Demo General Vehicle Destruction Effect Glitches
 https://github.com/commy2/zerohour/issues/49  [DONE]                  Demo General Infantry Play Terrorist Sound Effect When Killed
 https://github.com/commy2/zerohour/issues/48  [MAYBE]                 Demo General Scud Launcher With Demolitions Upgrade Deals Full Damage When Destroyed
-https://github.com/commy2/zerohour/issues/47  [IMPROVEMENT]           Demo General Battle Bus Is Deleted Without Dealing Damage When Suicided
+https://github.com/commy2/zerohour/issues/47  [DONE]                  Demo General Battle Bus Is Deleted Without Dealing Damage When Suicided
 https://github.com/commy2/zerohour/issues/46  [IMPROVEMENT]           Technical Has To Recenter Turret To Suicide
 https://github.com/commy2/zerohour/issues/45  [IMPROVEMENT]           Combat Bike Has Disabled Suicide Ability Button
 https://github.com/commy2/zerohour/issues/44  [MAYBE]                 Terrorist And Bomb Truck Missing Suicide Ability
