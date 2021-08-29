@@ -1,7 +1,11 @@
 # GeneralsGamePatch
 Generals Game Patch to fix most bugs and balancing issues in Zero Hour 1.04
 
-External Forum Discussion Topic: https://bit.ly/zhpatch
+Please take a moment of your time and visit our survey.
+  https://bit.ly/zh_survey_1ben
+
+External Forum Discussion Topic:
+  https://bit.ly/zhpatch
 
 Bug fixes and improvements applied so far, in no particular order:
 - Fixed a GLA Battle Bus issue that presented a wrong model in bunkered state
