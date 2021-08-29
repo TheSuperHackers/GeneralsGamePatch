@@ -164,7 +164,7 @@ https://github.com/commy2/zerohour/issues/54  [IMPROVEMENT]           Vanilla GL
 https://github.com/commy2/zerohour/issues/53  [MAYBE]                 Veteran Quad Cannons Deal Less Damage When Scrapped
 https://github.com/commy2/zerohour/issues/52  [NOTRELEVANT]           Boss Base Defense Inconsistencies
 https://github.com/commy2/zerohour/issues/51  [IMPROVEMENT]           Demo General Worker On Bike Missing Demo Generals Bike Destruction Effect
-https://github.com/commy2/zerohour/issues/50  [IMPROVEMENT]           Demo General Vehicle Destruction Effect Glitches
+https://github.com/commy2/zerohour/issues/50  [DONE]                  Demo General Vehicle Destruction Effect Glitches
 https://github.com/commy2/zerohour/issues/49  [DONE]                  Demo General Infantry Play Terrorist Sound Effect When Killed
 https://github.com/commy2/zerohour/issues/48  [MAYBE]                 Demo General Scud Launcher With Demolitions Upgrade Deals Full Damage When Destroyed
 https://github.com/commy2/zerohour/issues/47  [IMPROVEMENT]           Demo General Battle Bus Is Deleted Without Dealing Damage When Suicided
