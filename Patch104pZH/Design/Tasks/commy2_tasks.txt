@@ -205,7 +205,7 @@ https://github.com/commy2/zerohour/issues/11  [DONE]                  Scud Storm
 https://github.com/commy2/zerohour/issues/10  [IMPROVEMENT]           Quad Cannon-ECM-Bug
 https://github.com/commy2/zerohour/issues/9   [DONE]                  Camo-Netted Palace Not Revealed When Garrisoned Troops Fire
 https://github.com/commy2/zerohour/issues/8   [DONE]                  Supply Truck Has Extremely Low Mass
-https://github.com/commy2/zerohour/issues/7   [IMPROVEMENT][NPROJECT] Mini-Gunner Has Broken Squish Detection
+https://github.com/commy2/zerohour/issues/7   [DONE]                  Mini-Gunner Has Broken Squish Detection
 https://github.com/commy2/zerohour/issues/6   [IMPROVEMENT]           Mini-Gunner Has Broken Sound And Fire Animation When Aiming At Airborne Targets
 https://github.com/commy2/zerohour/issues/5   [DONE]                  Heroic Pathfinders And Jarmen Kell Don't Use Red Tracers
 https://github.com/commy2/zerohour/issues/4   [IMPROVEMENT]           Vet 3 Jarmen Kell Has Tracer For Sniper Attack But Not For Normal Attack
