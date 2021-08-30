@@ -3439,7 +3439,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
       COMBOBOXDATA = ISEDITABLE: 0,
                     MAXCHARS: 16,
-                    MAXDISPLAY: 5,
+                    MAXDISPLAY: 14,
                     ASCIIONLY: 0,
                     LETTERSANDNUMBERS: 0;
       COMBOBOXDROPDOWNBUTTONENABLEDDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
@@ -3680,7 +3680,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
       COMBOBOXDATA = ISEDITABLE: 0,
                     MAXCHARS: 16,
-                    MAXDISPLAY: 5,
+                    MAXDISPLAY: 14,
                     ASCIIONLY: 0,
                     LETTERSANDNUMBERS: 0;
       COMBOBOXDROPDOWNBUTTONENABLEDDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
@@ -3921,7 +3921,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
       COMBOBOXDATA = ISEDITABLE: 0,
                     MAXCHARS: 16,
-                    MAXDISPLAY: 5,
+                    MAXDISPLAY: 14,
                     ASCIIONLY: 0,
                     LETTERSANDNUMBERS: 0;
       COMBOBOXDROPDOWNBUTTONENABLEDDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
@@ -4162,7 +4162,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
       COMBOBOXDATA = ISEDITABLE: 0,
                     MAXCHARS: 16,
-                    MAXDISPLAY: 5,
+                    MAXDISPLAY: 14,
                     ASCIIONLY: 0,
                     LETTERSANDNUMBERS: 0;
       COMBOBOXDROPDOWNBUTTONENABLEDDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
@@ -4403,7 +4403,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
       COMBOBOXDATA = ISEDITABLE: 0,
                     MAXCHARS: 16,
-                    MAXDISPLAY: 5,
+                    MAXDISPLAY: 14,
                     ASCIIONLY: 0,
                     LETTERSANDNUMBERS: 0;
       COMBOBOXDROPDOWNBUTTONENABLEDDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
@@ -4644,7 +4644,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
       COMBOBOXDATA = ISEDITABLE: 0,
                     MAXCHARS: 16,
-                    MAXDISPLAY: 5,
+                    MAXDISPLAY: 14,
                     ASCIIONLY: 0,
                     LETTERSANDNUMBERS: 0;
       COMBOBOXDROPDOWNBUTTONENABLEDDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
@@ -4885,7 +4885,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
       COMBOBOXDATA = ISEDITABLE: 0,
                     MAXCHARS: 16,
-                    MAXDISPLAY: 5,
+                    MAXDISPLAY: 14,
                     ASCIIONLY: 0,
                     LETTERSANDNUMBERS: 0;
       COMBOBOXDROPDOWNBUTTONENABLEDDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
@@ -5126,7 +5126,7 @@ WINDOW
                        IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
       COMBOBOXDATA = ISEDITABLE: 0,
                     MAXCHARS: 16,
-                    MAXDISPLAY: 5,
+                    MAXDISPLAY: 14,
                     ASCIIONLY: 0,
                     LETTERSANDNUMBERS: 0;
       COMBOBOXDROPDOWNBUTTONENABLEDDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
