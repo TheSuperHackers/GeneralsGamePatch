@@ -1,0 +1,755 @@
+FILE_VERSION = 2;
+STARTLAYOUTBLOCK
+  LAYOUTINIT = WOLLoginMenuInit;
+  LAYOUTUPDATE = WOLLoginMenuUpdate;
+  LAYOUTSHUTDOWN = WOLLoginMenuShutdown;
+ENDLAYOUTBLOCK
+WINDOW
+  WINDOWTYPE = USER;
+  SCREENRECT = UPPERLEFT: 0 0,
+               BOTTOMRIGHT: 800 600,
+               CREATIONRESOLUTION: 800 600;
+  NAME = "GameSpyLoginQuick.wnd:WOLLoginMenuParent";
+  STATUS = ENABLED+NOINPUT+BORDER+SEE_THRU;
+  STYLE = USER;
+  SYSTEMCALLBACK = "WOLLoginMenuSystem";
+  INPUTCALLBACK = "WOLLoginMenuInput";
+  TOOLTIPCALLBACK = "[None]";
+  DRAWCALLBACK = "[None]";
+  FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
+  HEADERTEMPLATE = "[None]";
+  TOOLTIPDELAY = -1;
+  TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  255 255 255 255,
+              DISABLED: 255 255 255 255, DISABLEDBORDER: 255 255 255 255,
+              HILITE:   255 255 255 255, HILITEBORDER:   255 255 255 255;
+  ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 2 2 2 255, BORDERCOLOR: 254 254 254 255,
+                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+  DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 64 64 64 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+  HILITEDRAWDATA = IMAGE: NoImage, COLOR: 128 128 255 255, BORDERCOLOR: 254 254 254 255,
+                   IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                   IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                   IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                   IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                   IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                   IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                   IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                   IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+  CHILD
+  WINDOW
+    WINDOWTYPE = USER;
+    SCREENRECT = UPPERLEFT: 0 538,
+                 BOTTOMRIGHT: 800 589,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:MainMenuBackground";
+    STATUS = ENABLED;
+    STYLE = USER;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "W3DMainMenuDraw";
+    FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
+    HEADERTEMPLATE = "[None]";
+    TOOLTIPDELAY = -1;
+    TEXTCOLOR = ENABLED:  255 255 255 0, ENABLEDBORDER:  255 255 255 0,
+                DISABLED: 255 255 255 0, DISABLEDBORDER: 255 255 255 0,
+                HILITE:   255 255 255 0, HILITEBORDER:   255 255 255 0;
+    ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 127 66, BORDERCOLOR: 254 254 254 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 64 64 64 255, BORDERCOLOR: 254 254 254 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: NoImage, COLOR: 128 128 255 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+  END
+  CHILD
+  WINDOW
+    WINDOWTYPE = PUSHBUTTON;
+    SCREENRECT = UPPERLEFT: 710 546,
+                 BOTTOMRIGHT: 795 582,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:ButtonBack";
+    STATUS = ENABLED+IMAGE+NOFOCUS;
+    STYLE = PUSHBUTTON+MOUSETRACK;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
+    HEADERTEMPLATE = "MainButton";
+    TOOLTIPTEXT = "TOOLTIP:Back";
+    TOOLTIPDELAY = -1;
+    TEXT = "GUI:Back";
+    TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+    ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                      IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: Buttons-Disabled-Left, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                       IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
+                     IMAGE: Buttons-Pushed-Left, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+  END
+  CHILD
+  WINDOW
+    WINDOWTYPE = STATICTEXT;
+    SCREENRECT = UPPERLEFT: 192 16,
+                 BOTTOMRIGHT: 592 64,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:";
+    STATUS = ENABLED+BORDER;
+    STYLE = STATICTEXT+MOUSETRACK;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Arial", SIZE: 16, BOLD: 1;
+    HEADERTEMPLATE = "Title";
+    TOOLTIPDELAY = -1;
+    TEXT = "GUI:WOLLogin";
+    TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+    ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 2 2 2 100, BORDERCOLOR: 255 132 130 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+    DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 64 64 64 255, BORDERCOLOR: 192 192 192 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+    HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 128 0 255, BORDERCOLOR: 128 255 128 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+    STATICTEXTDATA = CENTERED: 1;
+  END
+  CHILD
+  WINDOW
+    WINDOWTYPE = PUSHBUTTON;
+    SCREENRECT = UPPERLEFT: 4 546,
+                 BOTTOMRIGHT: 178 582,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:ButtonUseAccount";
+    STATUS = ENABLED+IMAGE+NOFOCUS;
+    STYLE = PUSHBUTTON+MOUSETRACK;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
+    HEADERTEMPLATE = "MainButton";
+    TOOLTIPTEXT = "TOOLTIP:UseAccount";
+    TOOLTIPDELAY = -1;
+    TEXT = "GUI:UseAccount";
+    TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+    ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                      IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: Buttons-Disabled-Left, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                       IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
+                     IMAGE: Buttons-Pushed-Left, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+  END
+  CHILD
+  WINDOW
+    WINDOWTYPE = PUSHBUTTON;
+    SCREENRECT = UPPERLEFT: 216 288,
+                 BOTTOMRIGHT: 568 320,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:ButtonLogin";
+    STATUS = ENABLED+IMAGE+NOFOCUS;
+    STYLE = PUSHBUTTON+MOUSETRACK;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Arial", SIZE: 12, BOLD: 0;
+    HEADERTEMPLATE = "Button";
+    TOOLTIPTEXT = "TOOLTIP:Login";
+    TOOLTIPDELAY = -1;
+    TEXT = "GUI:Login";
+    TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+    ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                      IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: Buttons-Disabled-Left, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                       IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
+                     IMAGE: Buttons-Pushed-Left, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+  END
+  CHILD
+  WINDOW
+    WINDOWTYPE = ENTRYFIELD;
+    SCREENRECT = UPPERLEFT: 360 240,
+                 BOTTOMRIGHT: 568 265,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:TextEntryLoginName";
+    STATUS = ENABLED+IMAGE;
+    STYLE = ENTRYFIELD+MOUSETRACK;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
+    HEADERTEMPLATE = "TextEntry";
+    TOOLTIPTEXT = "STT:LoginName";
+    TOOLTIPDELAY = -1;
+    TEXT = "Entry";
+    TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+    ENABLEDDRAWDATA = IMAGE: TextEntryEnabledLeftEnd, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                      IMAGE: TextEntryEnabledRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: TextEntryEnabledRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: TextEntryEnabledSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: TextEntryDisabledLeftEnd, COLOR: 128 128 128 255, BORDERCOLOR: 0 0 0 255,
+                       IMAGE: TextEntryDisabledRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: TextEntryDisabledRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: TextEntryDisabledSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: TextEntryHiliteLeftEnd, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                     IMAGE: TextEntryHiliteRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: TextEntryHiliteRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: TextEntryHiliteSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    TEXTENTRYDATA = MAXLEN: 20,
+                    SECRETTEXT: 0,
+                    NUMERICALONLY: 0,
+                    ALPHANUMERICALONLY: 0,
+                    ASCIIONLY: 1;
+  END
+  CHILD
+  WINDOW
+    WINDOWTYPE = STATICTEXT;
+    SCREENRECT = UPPERLEFT: 224 232,
+                 BOTTOMRIGHT: 344 272,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:";
+    STATUS = ENABLED+BORDER;
+    STYLE = STATICTEXT+MOUSETRACK;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Arial", SIZE: 12, BOLD: 0;
+    HEADERTEMPLATE = "MinorTitle";
+    TOOLTIPDELAY = -1;
+    TEXT = "GUI:Username";
+    TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+    ENABLEDDRAWDATA = IMAGE: StaticTextEnabled, COLOR: 2 2 2 100, BORDERCOLOR: 0 0 0 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: StaticTextDisabled, COLOR: 64 64 64 255, BORDERCOLOR: 192 192 192 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: StaticTextHilite, COLOR: 0 128 0 255, BORDERCOLOR: 128 255 128 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    STATICTEXTDATA = CENTERED: 1;
+  END
+  CHILD
+  WINDOW
+    WINDOWTYPE = PUSHBUTTON;
+    SCREENRECT = UPPERLEFT: 360 546,
+                 BOTTOMRIGHT: 533 582,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:ButtonTOS";
+    STATUS = ENABLED+IMAGE+NOFOCUS;
+    STYLE = PUSHBUTTON+MOUSETRACK;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
+    HEADERTEMPLATE = "MainButton";
+    TOOLTIPTEXT = "TOOLTIP:TOS";
+    TOOLTIPDELAY = -1;
+    TEXT = "GUI:TOS";
+    TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+    ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                      IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: Buttons-Disabled-Left, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                       IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
+                     IMAGE: Buttons-Pushed-Left, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+  END
+  CHILD
+  WINDOW
+    WINDOWTYPE = PUSHBUTTON;
+    SCREENRECT = UPPERLEFT: 181 546,
+                 BOTTOMRIGHT: 354 582,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:ButtonCreateAccount";
+    STATUS = ENABLED+IMAGE+NOFOCUS;
+    STYLE = PUSHBUTTON+MOUSETRACK;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
+    HEADERTEMPLATE = "MainButton";
+    TOOLTIPTEXT = "TOOLTIP:CreateAccount";
+    TOOLTIPDELAY = -1;
+    TEXT = "GUI:CreateAccount";
+    TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+    ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                      IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: Buttons-Disabled-Left, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                       IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
+                     IMAGE: Buttons-Pushed-Left, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+  END
+  CHILD
+  WINDOW
+    WINDOWTYPE = USER;
+    SCREENRECT = UPPERLEFT: 199 85,
+                 BOTTOMRIGHT: 591 488,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "GameSpyLoginQuick.wnd:ParentTOS";
+    STATUS = DRAGABLE+ENABLED+HIDDEN+BORDER;
+    STYLE = USER;
+    SYSTEMCALLBACK = "PassSelectedButtonsToParentSystem";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Times New Roman", SIZE: 14, BOLD: 0;
+    HEADERTEMPLATE = "[NONE]";
+    TOOLTIPDELAY = -1;
+    TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  255 255 255 255,
+                DISABLED: 255 255 255 255, DISABLEDBORDER: 255 255 255 255,
+                HILITE:   255 255 255 255, HILITEBORDER:   255 255 255 255;
+    ENABLEDDRAWDATA = IMAGE: NoImage, COLOR: 0 0 0 202, BORDERCOLOR: 0 0 0 100,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+    DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 64 64 64 255, BORDERCOLOR: 254 254 254 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+    HILITEDRAWDATA = IMAGE: NoImage, COLOR: 128 128 255 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
+    CHILD
+    WINDOW
+      WINDOWTYPE = SCROLLLISTBOX;
+      SCREENRECT = UPPERLEFT: 211 98,
+                   BOTTOMRIGHT: 586 452,
+                   CREATIONRESOLUTION: 800 600;
+      NAME = "GameSpyLoginQuick.wnd:ListboxTOS";
+      STATUS = ENABLED+IMAGE+BORDER;
+      STYLE = SCROLLLISTBOX+MOUSETRACK;
+      SYSTEMCALLBACK = "[None]";
+      INPUTCALLBACK = "[None]";
+      TOOLTIPCALLBACK = "[None]";
+      DRAWCALLBACK = "[None]";
+      FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
+      HEADERTEMPLATE = "LabelRegular";
+      TOOLTIPDELAY = -1;
+      TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                  DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+  ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 168 255,
+                    IMAGE: ListBoxHiliteItemLeftEnd, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+                    IMAGE: ListBoxHiliteItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                    IMAGE: ListBoxHiliteItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                    IMAGE: ListBoxHiliteItemSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+  DISABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 168 255,
+                     IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+  HILITEDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 126, BORDERCOLOR: 49 55 168 255,
+                   IMAGE: ListBoxHiliteSelectedItemLeftEnd, COLOR: 254 254 254 255, BORDERCOLOR: 0 128 0 255,
+                   IMAGE: ListBoxHiliteSelectedItemRightEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                   IMAGE: ListBoxHiliteSelectedItemRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                   IMAGE: ListBoxHiliteSelectedItemSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      LISTBOXDATA = LENGTH: 100,
+                    AUTOSCROLL: 0,
+                    AUTOPURGE: 0,
+                    SCROLLBAR: 1,
+                    MULTISELECT: 0,
+                    COLUMNS: 1,
+                    FORCESELECT: 0;
+      LISTBOXENABLEDUPBUTTONDRAWDATA = IMAGE: VSliderUpButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                                       IMAGE: VSliderUpButtonHiliteSelected, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      LISTBOXDISABLEDUPBUTTONDRAWDATA = IMAGE: VSliderUpButtonDisabled, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                                        IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 254 254 254 255,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      LISTBOXHILITEUPBUTTONDRAWDATA = IMAGE: VSliderUpButtonHilite, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                                      IMAGE: VSliderUpButtonHiliteSelected, COLOR: 254 254 254 255, BORDERCOLOR: 0 128 0 255,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      LISTBOXENABLEDDOWNBUTTONDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                                         IMAGE: VSliderDownButtonHiliteSelected, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                         IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      LISTBOXDISABLEDDOWNBUTTONDRAWDATA = IMAGE: VSliderDownButtonDisabled, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                                          IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 254 254 254 255,
+                                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      LISTBOXHILITEDOWNBUTTONDRAWDATA = IMAGE: VSliderDownButtonHilite, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                                        IMAGE: VSliderDownButtonHiliteSelected, COLOR: 254 254 254 255, BORDERCOLOR: 0 128 0 255,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                        IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      LISTBOXENABLEDSLIDERDRAWDATA = IMAGE: VSliderEnabledTopEnd, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                                     IMAGE: VSliderEnabledBottomEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                     IMAGE: VSliderEnabledRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                     IMAGE: VSliderEnabledSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      LISTBOXDISABLEDSLIDERDRAWDATA = IMAGE: VSliderDisabledTopEnd, COLOR: 128 128 128 255, BORDERCOLOR: 64 64 64 255,
+                                      IMAGE: VSliderDisabledBottomEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: VSliderDisabledRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: VSliderDisabledSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      LISTBOXHILITESLIDERDRAWDATA = IMAGE: VSliderHiliteTopEnd, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                                    IMAGE: VSliderHiliteBottomEnd, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: VSliderHiliteRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: VSliderHiliteSmallRepeatingCenter, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      SLIDERTHUMBENABLEDDRAWDATA = IMAGE: VsliderThumbEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                                   IMAGE: VSliderUpButtonHiliteSelected, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
+                                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                   IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      SLIDERTHUMBDISABLEDDRAWDATA = IMAGE: VsliderThumbDisabled, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                                    IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 254 254 254 255,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                    IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+      SLIDERTHUMBHILITEDRAWDATA = IMAGE: VsliderThumbHilite, COLOR: 0 255 0 255, BORDERCOLOR: 0 128 0 255,
+                                  IMAGE: VsliderThumbHiliteSelected, COLOR: 254 254 254 255, BORDERCOLOR: 0 128 0 255,
+                                  IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                  IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                  IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                  IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                  IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                  IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                                  IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    END
+    CHILD
+    WINDOW
+      WINDOWTYPE = PUSHBUTTON;
+      SCREENRECT = UPPERLEFT: 519 459,
+                   BOTTOMRIGHT: 580 482,
+                   CREATIONRESOLUTION: 800 600;
+      NAME = "GameSpyLoginQuick.wnd:ButtonTOSOK";
+      STATUS = ENABLED+IMAGE+NOFOCUS;
+      STYLE = PUSHBUTTON+MOUSETRACK;
+      SYSTEMCALLBACK = "[None]";
+      INPUTCALLBACK = "[None]";
+      TOOLTIPCALLBACK = "[None]";
+      DRAWCALLBACK = "[None]";
+      FONT = NAME: "Arial", SIZE: 12, BOLD: 0;
+      HEADERTEMPLATE = "Button";
+      TOOLTIPDELAY = -1;
+      TEXT = "GUI:OK";
+      TEXTCOLOR = ENABLED:  254 254 254 255, ENABLEDBORDER:  0 0 0 255,
+                  DISABLED: 192 192 192 255, DISABLEDBORDER: 64 64 64 255,
+                  HILITE:   128 128 255 255, HILITEBORDER:   0 0 128 255;
+    ENABLEDDRAWDATA = IMAGE: Buttons-Left, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
+                      IMAGE: NoImage, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: Buttons-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: Buttons-Disabled-Left, COLOR: 128 128 128 255, BORDERCOLOR: 192 192 192 255,
+                       IMAGE: NoImage, COLOR: 192 192 192 255, BORDERCOLOR: 128 128 128 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: Buttons-Disabled-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: Buttons-HiLite-Left, COLOR: 209 253 4 255, BORDERCOLOR: 59 60 52 255,
+                     IMAGE: Buttons-Pushed-Left, COLOR: 47 55 168 255, BORDERCOLOR: 254 254 254 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-Pushed-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Middle, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: Buttons-HiLite-Right, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    END
+    ENDALLCHILDREN
+  END
+  ENDALLCHILDREN
+END
