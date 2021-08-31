@@ -30,7 +30,7 @@ Bug fixes and improvements applied so far, in no particular order:
 - Fixed issue that caused Toxin demo trap to prematurely create toxin puddle before explosion
 - Fixed GLA Stealth Saboteur death voice
 - Fixed issue that sent the China Supply Truck flying high in the sky when shot
-- Fixed issue that made it difficult to drive over the China Infantry Minigunner
+- **[REVIEW]** Fixed issue that made it difficult to drive over the China Infantry Minigunner
 - Fixed issue that had Toxin Shells lose Projectile effect after acquiring Anthrax Beta
 - Fixed issue that made Gamma Toxin Streams have green particles when clearing buildings
 - Fixed wrong UI portrait image of GLA Sneak attack
