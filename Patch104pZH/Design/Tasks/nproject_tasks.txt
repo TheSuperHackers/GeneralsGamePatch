@@ -415,7 +415,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  PATRIOT MISSILE:
  - [IMPROVEMENT] Fixed all Patriot Missile weapon that sometimes only fires less missiles after not firing for a long time
  - [IMPROVEMENT] Improved Patriot Missile assist ability to make them work better together
- - [MAYBE] Patriot Missile no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Patriot Missile no longer block unit sights, allowing other units to attack enemies behind
  - [IMPROVEMENT] Fixed Patriot Missile scaffolding that was off-centered
  - [NOTRELEVANT] Changed the Patriot Missile attack sound to use the proper (unused) sound set
 
@@ -433,7 +433,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Firebase armor received damage from SMALL_ARMS reduced from 40% to 35% to match the other base defenses
  - [NOTRELEVANT] Firebase armor received damage from GATTLING reduced from 30% to 25% to match the other base defenses
  - [MAYBE] Now the garrisoned units will not get lethal damage when the Firebase is destroyed
- - [MAYBE] Firebase no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Firebase no longer block unit sights, allowing other units to attack enemies behind
 
  STRATEGY CENTER:
  - [NOTRELEVANT] Now you cannot build multiple Strategy Centers from different subfactions that allowing you to deploy multiple
@@ -785,16 +785,16 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT] Added door animation for the old Supply Center (used for Boss General), matching the new Chinese Supply Center model
 
  BUNKER:
- - [IMPROVEMENT] Fixed the issue of Chinese Bunkers that not appeared on the radar
+ - [DONE] Fixed the issue of Chinese Bunkers that not appeared on the radar
  - [IMPROVEMENT] Fixed Chinese Bunker fireport issue where garrisons sometimes attacking from the center bottom of the Bunker
  - [NOTRELEVANT] Chinese Bunker build time increased from 5 to 10 seconds
  - [NOTRELEVANT] Chinese Bunker now more vulnerable to Nighthawk weapon like other defenses
- - [MAYBE] Chinese Bunker no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Chinese Bunker no longer block unit sights, allowing other units to attack enemies behind
 
  GATTLING CANNON:
  - [NOTRELEVANT] Gattling Cannon build cost reduced from 1200 to 1000. Finally!
  - [MAYBE] Gattling Cannon now can purchase mines upgrades even when low-powered
- - [MAYBE] Gattling Cannon no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Gattling Cannon no longer block unit sights, allowing other units to attack enemies behind
 
  CHINESE WAR FACTORY:
  - [IMPROVEMENT] Fixed the shadow bug on Chinese War Factory model (the repair dock crane)
@@ -807,7 +807,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [MAYBE] Chinese Airfield hangar door opening time reduced from 2000 to 1500 miliseconds
 
  PROPAGANDA CENTER:
- - [IMPROVEMENT] Fixed the issue of Propaganda Center that not appeared on the radar
+ - [DONE] Fixed the issue of Propaganda Center that not appeared on the radar
  - [NOTRELEVANT] Propaganda Center equipped with a Speaker Tower and can build units
  - [NOTRELEVANT] Propaganda Center healthpoint increased from 1000 to 2000 to match the other factions tech center buildings
  - [NOTRELEVANT] Nationalism upgrade cost reduced from 1500 to 1000
@@ -816,10 +816,10 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  SPEAKER TOWER:
  - [MAYBE] Completely new and improved model for Speaker Tower!
  - [NOTRELEVANT] Speaker Tower healthpoint increased from 300 to 500
- - [IMPROVEMENT] Speaker Tower now counted as base defenses, not base buildings. Fixing the bug that makes a player still not defeated
+ - [REJECTED] Speaker Tower now counted as base defenses, not base buildings. Fixing the bug that makes a player still not defeated
    when only have Speaker Tower as remaining building.
  - [IMPROVEMENT] Speaker Tower now also upgradable with Mines like the other Chinese structures
- - [MAYBE] Speaker Tower no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Speaker Tower no longer block unit sights, allowing other units to attack enemies behind
 
  INTERNET CENTER:
  - [NOTRELEVANT] You require a Propaganda Center instead a War Factory to build the Internet Center
@@ -1246,13 +1246,13 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT] Tunnel Network weapon no longer make the whole building flashes when firing
  - [IMPROVEMENT] Added Hold Fire mode to camo-netted Tunnel Network because sometimes they need to NOT attract any attentions when
    camouflaged
- - [MAYBE] Tunnel Network no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Tunnel Network no longer block unit sights, allowing other units to attack enemies behind
 
  STINGER SITE:
  - [MAYBE] Stinger Site can be attacked by Ranger Flash Bangs again
  - [NOTRELEVANT] Stinger Site soldiers respawn delay reduced from 30 to 18 seconds
  - [MAYBE] Stinger Site can have Fortified Structures upgrade
- - [MAYBE] Stinger Site no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Stinger Site no longer block unit sights, allowing other units to attack enemies behind
  - [MAYBE] Stinger Soldiers now can properly take damage from radiations like the other normal infantry
  - [MAYBE] Individual Stinger Soldier can't be targeted by Burton knife attacks anymore
  - [IMPROVEMENT] Stinger Soldiers no longer able to attack when the building is being sold, like the other defense buildings
