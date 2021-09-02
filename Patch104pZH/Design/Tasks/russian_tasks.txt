@@ -1,4 +1,5 @@
 See Voice.ini for more information.
+Full russian localization files: https://github.com/xezon/GeneralsRussianLoca
 
 RATING
 [+] Good
@@ -45,7 +46,7 @@ CHINA
 [+] {vsup***.wav} SupplyTruck
 
 [+] {ired***.wav} RedGuard
-[+] {irem***.wav} RedMinigunner
+[?] {irem***.wav} RedMinigunner
 [-] {itan***.wav} TankHunter
 [0] {ibla***.wav} BlackLotus
 [+] {ihac***.wav} Hacker
@@ -91,7 +92,7 @@ GLA
 [-] {vtec***.wav} Technical
 [-] {vbom***.wav} BombTruck
 [-] {vqua***.wav} QuadCannon
-[+] {vscu***.wav} SCUD Launcher
+[+] {vscu***.wav} ScudLauncher
 [-] {vmar***.wav} MarauderTank
 [?] {vpog***.wav} POWTruckGLA
 [+] {vcyc***.wav} CombatCycle
