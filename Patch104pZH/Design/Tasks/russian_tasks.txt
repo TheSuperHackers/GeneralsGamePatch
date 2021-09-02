@@ -1,0 +1,82 @@
+[+] Good
+[0] OK
+[-] Bad
+
+RG MECHANICS RUSSIAN
+
+USA
+[-] Dozer
+[ ] Upgrades
+[0] Strategy Center
+
+[-] Ranger
+[0] Missile Defender
+[-] Burton
+[+] Sniper
+
+[-] Humvee
+[0] Ambulance
+[0] Crusader
+[0] Laser Crusader
+[+] Avenger
+[+] Paladin
+[+] Microwave
+[-] Tomahawk
+
+[0] Chinook
+[-] Combat Chinook
+[-] Raptor
+[-] King Raptor
+[0] Stealth Fighter
+[0] Commanche
+[0] Aurora
+[0] Alpha Aurora
+
+CHINA
+[-] Dozer
+[ ] Upgrades
+[+] Supply Truck
+
+[+] Red Guard
+[-] Tank Hunter
+[0] Lotus
+[+] Hacker
+
+[-] Battlemaster
+[-] Gattling Tank
+[+] Outpost
+[+] Attack Outpost
+[-] Dragon Tank
+[-] Troop Crawler
+[-] Overlord Tank
+[-] Emperor Tank
+[+] ECM Tank
+[-] Infernal Cannon
+[-] Nuklear Cannon
+
+[0] Mig Fighter
+[-] Helix
+
+GLA
+[-] Worker
+[ ] Upgrades
+
+[0] Rebel
+[-] RPG
+[0] Terrorist
+[+] Jarmen Kell
+[+] Hijacker
+[0] Saboteur
+[+] Angry Mob
+
+[-] Quad
+[-] Technical
+[+] Scorpion
+[-] Marauder
+[+] Combat Bike
+[+] Toxin Tractor
+[0] Battle Bus
+[-] Radar Van
+[-] Bomb Truck
+[0] Rocket Buggy
+[+] SCUD Launcher
