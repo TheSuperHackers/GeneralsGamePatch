@@ -16,7 +16,7 @@ Bug fixes and improvements applied so far, in no particular order:
 - Improved the performance of USA Patriot missile assist effect by around 60%
 - Fixed issue that prevented China Tank and China Nuke Outposts to attack buildings and terrain
 - Improved the mobility of the China Dozer to avoid scenarios where it gets stuck unnecessarily
-- **[REVIEW]** Removed Heat Haze effect from Microwave Tank and GPS Scrambler to avoid critical rendering glitches on some systems
+- **[REVIEW]** Removed Heat Haze effect from Microwave Tank and GPS Scrambler to avoid critical rendering glitches
 - Fixed critical issue that crashed all clients in a match
 - Fixed issue that allowed to build units and upgrades in building scaffolds
 - Fixed issue that made units keep firing onto already killed infantry units
@@ -44,3 +44,7 @@ Bug fixes and improvements applied so far, in no particular order:
 - Fixed Demo GLA vehicle destruction effect glitches
 - Fixed issue that made Demo GLA Combat Bike used by GLA Worker miss the vehicle destruction effect
 - Fixed issue that made Demo GLA Battle Bus vanish after demo suicide without applying any damage
+- Added missing faction colors to Snow China Speaker Tower building model
+- Fixed issue that allowed GLA Toxin Tractor to attack units standing too close to it
+- Fixed issue that hid China Bunkers and China Propaganda Center from radar minimap
+- Fixed issue that had China unit upgrades not render with red color when Frenzy power was applied
