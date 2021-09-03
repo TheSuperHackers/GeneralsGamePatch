@@ -158,7 +158,7 @@ https://github.com/commy2/zerohour/issues/60  [DONE][NPROJECT]        Destroyed 
 https://github.com/commy2/zerohour/issues/59  [IMPROVEMENT]           Air Force General Name Misspelling
 https://github.com/commy2/zerohour/issues/58  [IMPROVEMENT]           Some Combat Bikes Missing DoorOpenTime Entry
 https://github.com/commy2/zerohour/issues/57  [IMPROVEMENT]           Broken Combat Bike Animations
-https://github.com/commy2/zerohour/issues/56  [IMPROVEMENT]           Saboteur Body Disappears From Destroyed Combat Bike
+https://github.com/commy2/zerohour/issues/56  [DONE]                  Saboteur Body Disappears From Destroyed Combat Bike
 https://github.com/commy2/zerohour/issues/55  [IMPROVEMENT]           Vanilla GLA Combat Bike Has Duplicated Death Scream
 https://github.com/commy2/zerohour/issues/54  [IMPROVEMENT]           Vanilla GLA Hijacker And Saboteur Can Ride Toxin Generals Combat Bike
 https://github.com/commy2/zerohour/issues/53  [MAYBE]                 Veteran Quad Cannons Deal Less Damage When Scrapped
