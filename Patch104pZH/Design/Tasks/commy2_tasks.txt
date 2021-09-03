@@ -174,7 +174,7 @@ https://github.com/commy2/zerohour/issues/44  [MAYBE]                 Terrorist 
 https://github.com/commy2/zerohour/issues/43  [DONE]                  Suicide Ability Button Is Placed Inconsistently
 https://github.com/commy2/zerohour/issues/42  [DONE]                  Worker Has Disabled Suicide Button Before Demolitions Upgrade
 https://github.com/commy2/zerohour/issues/41  [DONE]                  Base Defenses Missing Demoliton Upgrade Icon
-https://github.com/commy2/zerohour/issues/38  [IMPROVEMENT]           Detached Floating Object Orbits Avenger Model When Moving
+https://github.com/commy2/zerohour/issues/38  [DONE]                  Detached Floating Object Orbits Avenger Model When Moving
 https://github.com/commy2/zerohour/issues/37  [IMPROVEMENT]           Tomahawk Launchers Have Reversed Order For Battle And Scout Drone Upgrade
 https://github.com/commy2/zerohour/issues/36  [NOTRELEVANT]           Boss Helix Inconsistencies
 https://github.com/commy2/zerohour/issues/35  [NOTRELEVANT]           Boss Infantry Inconsistencies
