@@ -148,7 +148,7 @@ https://github.com/commy2/zerohour/issues/70  [NOTRELEVANT]           Boss Sentr
 https://github.com/commy2/zerohour/issues/69  [IMPROVEMENT]           Damaged And Non-Vanilla USA Sentry Drones Missing Their Move Start Sounds
 https://github.com/commy2/zerohour/issues/68  [IMPROVEMENT]           Spy Drone Seleced By Q-Shortcut
 https://github.com/commy2/zerohour/issues/67  [DONE]                  Super Weapon And Laser General Vehicle Drone Upgrade Incompatibility
-https://github.com/commy2/zerohour/issues/66  [IMPROVEMENT]           Evacuate Buttons Are Not Aligned
+https://github.com/commy2/zerohour/issues/66  [DONE]                  Evacuate Buttons Are Not Aligned
 https://github.com/commy2/zerohour/issues/65  [IMPROVEMENT]           Laser General Humvee Has Duplicated Infantry Enter And Exit Sound Effect
 https://github.com/commy2/zerohour/issues/64  [MAYBE]                 Battle Drone Gains Double The Intended Bonus From Drone Armor
 https://github.com/commy2/zerohour/issues/63  [MAYBE]                 Paladins And Microwaves Gain Slightly Less Than Intended From Composite Armor
