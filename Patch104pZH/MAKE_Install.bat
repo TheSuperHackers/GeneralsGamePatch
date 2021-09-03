@@ -26,6 +26,7 @@ if '%errorlevel%' NEQ '0' (
 echo on
 
 call MAKE_Patch104pZH.bat
+call MAKE_Patch104pArtZH.bat
 call SETUP_UserSettings.bat
 
 ::Copy release files to game
