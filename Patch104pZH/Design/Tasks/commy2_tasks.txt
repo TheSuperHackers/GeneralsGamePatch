@@ -160,7 +160,7 @@ https://github.com/commy2/zerohour/issues/58  [IMPROVEMENT]           Some Comba
 https://github.com/commy2/zerohour/issues/57  [IMPROVEMENT]           Broken Combat Bike Animations
 https://github.com/commy2/zerohour/issues/56  [DONE]                  Saboteur Body Disappears From Destroyed Combat Bike
 https://github.com/commy2/zerohour/issues/55  [DONE]                  Vanilla GLA Combat Bike Has Duplicated Death Scream
-https://github.com/commy2/zerohour/issues/54  [IMPROVEMENT]           Vanilla GLA Hijacker And Saboteur Can Ride Toxin Generals Combat Bike
+https://github.com/commy2/zerohour/issues/54  [DONE]                  Vanilla GLA Hijacker And Saboteur Can Ride Toxin Generals Combat Bike
 https://github.com/commy2/zerohour/issues/53  [MAYBE]                 Veteran Quad Cannons Deal Less Damage When Scrapped
 https://github.com/commy2/zerohour/issues/52  [NOTRELEVANT]           Boss Base Defense Inconsistencies
 https://github.com/commy2/zerohour/issues/51  [DONE]                  Demo General Worker On Bike Missing Demo Generals Bike Destruction Effect
