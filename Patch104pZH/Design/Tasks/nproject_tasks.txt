@@ -270,8 +270,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Colonel Burton healthpoint increased from 200 to 220
 
  PILOTS:
- - [IMPROVEMENT] Pilots will not reduce their movement speed when in heroic veterancy
- - [IMPROVEMENT] Pilots never affected by Chemical Suits upgrade anymore due to unfixable bug in the game engine itself
+ - [DONE] Pilots will not reduce their movement speed when in heroic veterancy
+ - [DONE] Pilots never affected by Chemical Suits upgrade anymore due to unfixable bug in the game engine itself
  - [MAYBE] Pilots no longer can promote Combat Bikes!
 
  CRUSADER:
