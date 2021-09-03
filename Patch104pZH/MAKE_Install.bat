@@ -1,3 +1,4 @@
+@echo off
 :: BatchGotAdmin
 :-------------------------------------
 ::  --> Check for permissions
@@ -22,6 +23,7 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------
+echo on
 
 call MAKE_Patch104pZH.bat
 call SETUP_UserSettings.bat

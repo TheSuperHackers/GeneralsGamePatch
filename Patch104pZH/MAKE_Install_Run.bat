@@ -1,3 +1,4 @@
+@echo off
 :: BatchGotAdmin
 :-------------------------------------
 ::  --> Check for permissions
@@ -22,10 +23,25 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------
+echo on
 
 call MAKE_Install.bat
+
+:: Rename files as per setup in SETUP_UserSettings.bat
+for %%f in (%GameFilesToDisable%) do (
+	if exist %GameRootDir%\%%f (
+		ren %GameRootDir%\%%f %%f.PATCH104P
+	)
+)
 
 set GameExeArgs0=%GameExeArgs:"=%
 
 ::Run game
 %GameRootDir%\%GameExeFile% %GameExeArgs0%
+
+:: Restore files as per setup in SETUP_UserSettings.bat
+for %%f in (%GameFilesToDisable%) do (
+	if exist %GameRootDir%\%%f.PATCH104P (
+		ren %GameRootDir%\%%f.PATCH104P %%f
+	)
+)
