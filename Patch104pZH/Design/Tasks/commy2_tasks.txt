@@ -147,7 +147,7 @@ https://github.com/commy2/zerohour/issues/71  [IMPROVEMENT]           Some Palad
 https://github.com/commy2/zerohour/issues/70  [NOTRELEVANT]           Boss Sentry Drone Inconsistencies
 https://github.com/commy2/zerohour/issues/69  [IMPROVEMENT]           Damaged And Non-Vanilla USA Sentry Drones Missing Their Move Start Sounds
 https://github.com/commy2/zerohour/issues/68  [IMPROVEMENT]           Spy Drone Seleced By Q-Shortcut
-https://github.com/commy2/zerohour/issues/67  [IMPROVEMENT]           Super Weapon And Laser General Vehicle Drone Upgrade Incompatibility
+https://github.com/commy2/zerohour/issues/67  [DONE]                  Super Weapon And Laser General Vehicle Drone Upgrade Incompatibility
 https://github.com/commy2/zerohour/issues/66  [IMPROVEMENT]           Evacuate Buttons Are Not Aligned
 https://github.com/commy2/zerohour/issues/65  [IMPROVEMENT]           Laser General Humvee Has Duplicated Infantry Enter And Exit Sound Effect
 https://github.com/commy2/zerohour/issues/64  [MAYBE]                 Battle Drone Gains Double The Intended Bonus From Drone Armor
@@ -168,11 +168,11 @@ https://github.com/commy2/zerohour/issues/50  [DONE]                  Demo Gener
 https://github.com/commy2/zerohour/issues/49  [DONE]                  Demo General Infantry Play Terrorist Sound Effect When Killed
 https://github.com/commy2/zerohour/issues/48  [MAYBE]                 Demo General Scud Launcher With Demolitions Upgrade Deals Full Damage When Destroyed
 https://github.com/commy2/zerohour/issues/47  [DONE]                  Demo General Battle Bus Is Deleted Without Dealing Damage When Suicided
-https://github.com/commy2/zerohour/issues/46  [IMPROVEMENT]           Technical Has To Recenter Turret To Suicide
+https://github.com/commy2/zerohour/issues/46  [DONE]                  Technical Has To Recenter Turret To Suicide
 https://github.com/commy2/zerohour/issues/45  [IMPROVEMENT]           Combat Bike Has Disabled Suicide Ability Button
 https://github.com/commy2/zerohour/issues/44  [MAYBE]                 Terrorist And Bomb Truck Missing Suicide Ability
 https://github.com/commy2/zerohour/issues/43  [DONE]                  Suicide Ability Button Is Placed Inconsistently
-https://github.com/commy2/zerohour/issues/42  [IMPROVEMENT]           Worker Has Disabled Suicide Button Before Demolitions Upgrade
+https://github.com/commy2/zerohour/issues/42  [DONE]                  Worker Has Disabled Suicide Button Before Demolitions Upgrade
 https://github.com/commy2/zerohour/issues/41  [IMPROVEMENT]           Base Defenses Missing Demoliton Upgrade Icon
 https://github.com/commy2/zerohour/issues/38  [IMPROVEMENT]           Detached Floating Object Orbits Avenger Model When Moving
 https://github.com/commy2/zerohour/issues/37  [IMPROVEMENT]           Tomahawk Launchers Have Reversed Order For Battle And Scout Drone Upgrade
