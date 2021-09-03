@@ -171,7 +171,7 @@ https://github.com/commy2/zerohour/issues/47  [DONE]                  Demo Gener
 https://github.com/commy2/zerohour/issues/46  [DONE]                  Technical Has To Recenter Turret To Suicide
 https://github.com/commy2/zerohour/issues/45  [IMPROVEMENT]           Combat Bike Has Disabled Suicide Ability Button
 https://github.com/commy2/zerohour/issues/44  [MAYBE]                 Terrorist And Bomb Truck Missing Suicide Ability
-https://github.com/commy2/zerohour/issues/43  [IMPROVEMENT]           Suicide Ability Button Is Placed Inconsistently
+https://github.com/commy2/zerohour/issues/43  [DONE]                  Suicide Ability Button Is Placed Inconsistently
 https://github.com/commy2/zerohour/issues/42  [DONE]                  Worker Has Disabled Suicide Button Before Demolitions Upgrade
 https://github.com/commy2/zerohour/issues/41  [IMPROVEMENT]           Base Defenses Missing Demoliton Upgrade Icon
 https://github.com/commy2/zerohour/issues/38  [IMPROVEMENT]           Detached Floating Object Orbits Avenger Model When Moving
