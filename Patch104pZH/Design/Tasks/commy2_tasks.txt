@@ -44,7 +44,7 @@ https://github.com/commy2/zerohour/issues/184 [IMPROVEMENT]           Battle Bus
 https://github.com/commy2/zerohour/issues/183 [IMPROVEMENT]           Battle Bus Turns Towards Target When Loaded Troops Are Ordered To Engage Airborne Units
 https://github.com/commy2/zerohour/issues/182 [IMPROVEMENT]           Listening Outpost Lacks Voice Lines For Attacking Enemies
 https://github.com/commy2/zerohour/issues/181 [IMPROVEMENT]           Some Units Lack Voice Line When Ordered To Attack Airborne Targets
-https://github.com/commy2/zerohour/issues/180 [IMPROVEMENT]           Vanilla GLA Battle Bus Missing Sound Effect When Power Sliding
+https://github.com/commy2/zerohour/issues/180 [DONE]                  Vanilla GLA Battle Bus Missing Sound Effect When Power Sliding
 https://github.com/commy2/zerohour/issues/179 [IMPROVEMENT]           Nuke Cannons May Change Target On Their Own While Unpacking
 https://github.com/commy2/zerohour/issues/178 [IMPROVEMENT]           Jarmen Kell On A Bike Lacks Muzzle Flash Effect When Using Sniper Attack
 https://github.com/commy2/zerohour/issues/177 [IMPROVEMENT]           Demo General Rebel Lacks Voice Line When Targetting Building With Booby Trap
