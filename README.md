@@ -51,7 +51,7 @@ Bug fixes and improvements applied so far, in no particular order:
 - Expanded menu map selection lists to 1200 entries
 - Fixed wrong cameo image of USA Alpha Aurora
 - Fixed issue that prevented to build Drones on multi sub-faction USA Humvee group selection
-- Fixed issue that delayed Demo GLA Technical suicide by up to 0.75 seconds
+- **[REVIEW]** Fixed issue that delayed Demo GLA Technical suicide by up to 0.75 seconds
 - Removed obsolete suicide button from Demo GLA Worker when Demo Upgrade is not yet owned
 - Fixed issue that prevented executing demo suicide with different unit types in a group selection
 - Fixed issue that prevented evacuating units with different unit types in a group selection
