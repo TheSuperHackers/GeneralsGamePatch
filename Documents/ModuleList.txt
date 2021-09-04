@@ -1,0 +1,3910 @@
+;--------------------------------------------
+:Module List For Generals and ZeroHour:
+;--------------------------------------------
+Original author: DeeZire
+Website: http://www.deezire.net/index.php?
+
+Module list is updated annually by the NLS Team, this file is created for use as reference use only.
+
+Note: 
+Some of the added discovered parameters are for ZeroHour expansion pack only; do take note that some parameters might still 
+work for Classic Generals but there's no guarantees for it.
+
+Also, If you are going to edit this file, please follow the current formatting. Thank you.
+;--------------------------------------------
+:Table of Contents:
+;--------------------------------------------
+- Modules
+- Appendices
+  - ChangeType List
+  - LOD List
+  - Veterancy Level List
+  - Weapon Slot List
+  - Object Condition Types
+  - WeaponSet Condition Types
+  - AutoChooseSources Types
+  - ArmorSet Condition Types
+  - Disabled Types
+  - Status Types
+  - Locomotor SET Types
+  - DamageType List
+  - DeathTypes List
+  - Shadow Types
+  - ConditionState Types
+  - Animation Flags List
+  - AnimationMode Types
+  - KindOf list
+  - Unit Sounds List
+  - Unit Specific Sounds List
+  - Internal Upgrades List
+- MISC SECTION
+  - CommandButton Command list
+  - CommandButton Options Types
+  - CommandButton WeaponSlot Types
+  - CommandButton Border Types
+  - CommandButton RadiusCursorType List
+  - WeaponBonus Types
+  - WeaponBonus Fields
+  - SpecialPower.ini Enum types
+  - Used Tactical Analysis Strings
+  - Frame to Milisecond Ratio
+  - Minimum DelayBetweenShots Values
+
+;--------------------------------------------
+:Modules:
+;--------------------------------------------
+ActiveBody
+[this is a Body module not a Behavior module, The Subdual part of the module allows the use of JAMMED Model Condition State]
+      MaxHealth = [integer]
+      InitialHealth = [integer]
+
+     [Subdual damage "Subdues" you (reaction defined by BodyModule) when it passes your max health.
+      The cap limits how extra-subdued you can be, and the other numbers detemine how fast it drains away on its own.
+      A Projectile or Missile doesn't get "subdued", Instead they loose stability and scatters. -ZEROHOUR ONLY!] 
+      SubdualDamageCap = [integer]
+      SubdualDamageHealRate = [integer]  
+      SubdualDamageHealAmount = [integer] 
+End
+
+AnimationSteeringUpdate
+[Controls the minimum time to finish a transition or animation state of an object. proper timing will result in smoother animations.]
+    MinTransitionTime = [millisecond]
+End
+
+ActiveShroudUpgrade
+[Once activated, It will create a black shroud around the object that triggered this. 
+Pretty much like the Red Alert 2 Gap Generator. You cannot see the shroud for your self but it can be seen by your enemy..]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+
+    NewShroudRange = [real number]
+End
+
+AIUpdateInterface
+[The default AI update you can use on units 
+NOTE: In assigning the 'LocomotorSet' parameter on the object, always keep it BELOW this module.]
+
+     AutoAcquireEnemiesWhenIdle = [Yes/No][NOTWHILEATTACKING/ATTACK_BUILDINGS/STEALTHED]
+     MoodAttackCheckRate  = [milliseconds. default is 2000] [How often do we scan our surroundings for enemies to engage on?]
+     ForbidPlayerCommands = [Yes/No] [If yes, do not respond to any given commands by the player and vice versa - ZH Parameter]
+     TurretsLinked        = [Yes/No] [Does the two turrets (Turret & AltTurret) respond at the same time or are they both independent?]  
+ 
+[this part of the module allows the use of TurretMoveStart and TurretMoveLoop within UnitSpecificSounds section of the object]
+     Turret
+       ControlledWeaponSlots = [weaponslots]
+       TurretTurnRate        = [integer]
+       TurretPitchRate       = [integer]
+       NaturalTurretAngle    = [integer, default 0 = horizontal]
+       NaturalTurretPitch    = [integer, default 0 = horizontal]
+       FirePitch             = [integer, default 0 = horizontal]
+       MinPhysicalPitch      = [integer, default 0 = horizontal]
+       GroundUnitPitch       = [integer, default 0 = horizontal] 
+       TurretFireAngleSweep  = [weaponslot] [integer]
+       TurretSweepSpeedModifier = [weaponslot] [real number]
+       AllowsPitch         = [Yes/No]
+       MinIdleScanAngle    = [real number]
+       MaxIdleScanAngle    = [real number]
+       MinIdleScanInterval = [integer, milliseconds]
+       MaxIdleScanInterval = [integer, milliseconds]
+       RecenterTime        = [integer,milliseconds]
+       FiresWhileTurning   = [Yes/No]
+       InitiallyDisabled   = [Yes/No]
+    End
+    AltTurret
+        [as above]
+    End
+End
+
+AnimatedParticleSysBoneClientUpdate
+[no parameters - this module is a ClientUpdate not a Behavior and 
+allows the object to have particle system effects dynamically attached to animated sub-objects or bones]
+End
+
+ArmorUpgrade
+[triggers use of PLAYER_UPGRADE ArmorSet type to upgrade the object's armour set]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+End
+
+AssaultTransportAIUpdate
+[This AI, If armed with a weapon using the DEPLOY Damaged type, will order the passengers
+To hop out of the vehicle and attack the selected target. The passengers will auto return
+If ordered to stop or the target is dead]
+
+    AutoAcquireEnemiesWhenIdle = [Yes/No][NOTWHILEATTACKING/ATTACK_BUILDINGS/STEALTHED]
+    MoodAttackCheckRate = [integer, milliseconds. default is 2000]
+    ForbidPlayerCommands = [Yes/No]
+    MembersGetHealedAtLifeRatio = [real number]
+    ClearRangeRequiredToContinueAttackMove = [integer] [Default is 50]
+    
+    TurretsLinked =[Yes/No]
+    Turret
+     [See AIUpdateInterface module for full list]
+    End
+    AltTurret
+        [as above]
+    End
+End
+
+AssistedTargetingUpdate
+[Allows weapons (or defence) to relay with a similar weapon (or defense) within it's range. 
+The weapon called by this module requires "RequestAssistRange" parameter in order to make the object relay properly.]
+    AssistingClipSize   = [integer]          [How many shots to make when asked by someone of my kind who has a RequestAssistRange weapon. Default is 1]
+    AssistingWeaponSlot = [Weapon slot list] [And the weapon to use.  Should have huge range and no natural clip. Defaults to PRIMARY Slot]
+    LaserFromAssisted   = [object name]      [Stream to draw from the requestor to me]
+    LaserToTarget       = [object name]      [Stream to draw from me to the target] 
+End
+
+AutoDepositUpdate
+[Allows object to passively earn credits continuously overtime. Can be upgraded to improve its passive earning.]
+    ActualMoney   = [Yes/No]        [If set to No, This will not give you any money bonus. Instead, the "$" that appears above is used for props only]
+    DepositTiming = [milliseconds]  [Give me money (the player) every XXX milliseconds]
+    DepositAmount = [integer]       [How much to give the player?]
+    InitialCaptureBonus = [integer] [How much to give the player when you first capture the object]
+    UpgradedBoost = [UpgradeType:[Entry From Upgrade.ini] Boost:[integer] -ZEROHOUR ONLY!]
+End
+
+AutoFindHealingUpdate
+[This update will have the unit search for a healing station if injured]
+[Extra note: This should be put below the AI Module and this works for AI units only]
+    ScanRate     = [milliseconds] [ how much we search for a healing station?]
+    ScanRange    = [integer]      [ and how far we have to look for a healing station?]
+    NeverHeal    = [0.1 to 1.0]   [ don't heal if we are > 85% healthy.]
+    AlwaysHeal   = [0.1 to 1.0]   [ if we get below 25%, find healing right away.]
+End
+
+AutoHealBehavior
+[Heals object near the object around containing this module like the ambulance or heal himself or 
+can be used to instantly heal objects in one click burst like the emergency repair power]
+
+    [This is used when this module is needed to be triggered by an upgrade]
+    TriggeredBy = [entry from Upgrade.INI, requires StartsActive = No]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No] 
+
+    HealingAmount         = [integer]              [How many HP do we restore when this module is active?]
+    HealingDelay          = [integer, milliseconds][....and how frequent do we heal when this module is active?]
+    StartHealingDelay     = [integer, milliseconds][Does the activation of this module have a delay or is it instant?] 
+    Radius                = [real number]          [How far is our healing range?]
+    StartsActive          = [Yes/No]               [Is this module on by default? If no, requires upgrade first] 
+    SingleBurst           = [Yes/No]               [Is our healing ability a single use only? If No, healing module is passive]
+    AffectsWholePlayer    = [Yes/No]               [Self explainatory]
+    KindOf                = [KindOf list]          [What KindOf we give priority when healing stuff?]
+    ForbiddenKindOf       = [KindOf list]          [...and what kindof do we reject?]
+    SkipSelfForHealing    = [Yes/No]               [When this module is active, does the caster skip itself so he can heal others? If no, he is also affected]
+    
+    RadiusParticleSystemName        = [entry from ParticleSystem.INI] [Do we have any special particle effects when we're active?]
+    UnitHealPulseParticleSystemName = [entry from ParticleSystem.INI] [Do the units / structures affected by this module have any special particle effects?]
+End
+
+BattleBusSlowDeathBehavior
+[Requires the object to have the UndeadBody module in order for this module to work 
+and triggers the use of the SECOND_LIFE model condition state and ArmorSet type
+-MODULE IS FOR ZEROHOUR ONLY!] 
+    DeathTypes = [DeathType listing]
+    SinkRate = [real number]
+    ExemptStatus = [status name]   
+    RequiredStatus = [status name]
+    ProbabilityModifier = [integer]
+    ModifierBonusPerOverkillPercent = [percent]
+    SinkDelay = [integer, milliseconds]
+    SinkDelayVariance = [integer]
+    DestructionDelay = [integer, milliseconds]
+    DestructionDelayVariance = [integer]
+    DestructionAltitude = [integer]
+    FlingForce = [integer]
+    FlingForceVariance = [integer]
+    FlingPitch = [integer]
+    FlingPitchVariance = [integer]
+    FX = [INITIAL/MIDPOINT/FINAL    Entry from FXList.INI, multiple statements can be used for multiple FX's]
+    OCL = [INITIAL/MIDPOINT/FINAL    Entry from ObjectCreationList.INI, multiple statements can be used for multiple OCL's]
+    Weapon = [INITIAL/MIDPOINT/FINAL Entry from Weapon.INI, multiple statements can be used for multiple "death" weapons.]
+    
+        FXStartUndeath = [Entry from Fxlist.ini]
+        OCLStartUndeath = [Entry from ObjectCreationList.ini]
+        FXHitGround = [Entry from Fxlist.ini]
+        OCLHitGround = [Entry from ObjectCreationList.ini]
+        DelayFromGroundToFinalDeath = [integer]
+        ThrowForce = [integer]
+        PercentDamageToPassengers =  [percent]
+        EmptyHulkDestructionDelay = [integer]
+End
+
+BunkerBusterBehavior
+[Pretty much self explainatory. Allows the missile to pretty much act like a bunker buster to clear out enemy garrisons -MODULE IS FOR ZEROHOUR ONLY!]
+    UpgradeRequired               = [Entry from Upgrade.ini] [Do we require an upgrade first?]           
+    DetonationFX                  = [Entry from FXList.ini]  [The big detonation kaboom at the bottom]
+    CrashThroughBunkerFX          = [Entry from FXList.ini]  [FX Used when going thru the targeted bunker]
+    CrashThroughBunkerFXFrequency = [integer, milliseconds] [How often to play the crash bang crunch FX on the way through the bunker ceiling?]
+    SeismicEffectRadius           = [integer]                [How far do we shake the camera?]
+    SeismicEffectMagnitude        = [integer]                [...and How strong do we shake the camera?]
+    ShockwaveWeaponTemplate       = [Entry from weapon.ini]  [What weapon should we use when we detonate on the ground?]
+    OccupantDamageWeaponTemplate  = [Entry from weapon.ini]  [What weapon should we use when we clear a bunker?]
+End
+
+BaikonurLaunchPower
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+    DetonationObject = [object name]
+    StartsPaused = [Yes/No, yes requires UnpauseSpecialPowerUpgrade module]
+End
+
+BaseRegenerateUpdate
+[no parameters - forces object to auto-repair itself over time, parameters defined in GameData.INI through 'BaseRegenHealthPerSecond' and 'BaseRegenDelay']
+End
+
+BattlePlanUpdate
+[Allows you to assign a select battle plan for your units]
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+
+    ;Transition Timings
+    BombardmentPlanAnimationTime = [integer, milliseconds]
+    HoldTheLinePlanAnimationTime = [integer, milliseconds]
+    SearchAndDestroyPlanAnimationTime = [integer, milliseconds]
+    TransitionIdleTime                = [integer, milliseconds]
+
+    ;Audio hooks
+    BombardmentAnnouncementName    = [entry from SoundEffects.INI]
+    BombardmentPlanUnpackSoundName = [entry from SoundEffects.INI]
+    BombardmentPlanPackSoundName   = [entry from SoundEffects.INI]
+
+    SearchAndDestroyPlanUnpackSoundName   = [entry from SoundEffects.INI]
+    SearchAndDestroyPlanIdleLoopSoundName = [entry from SoundEffects.INI]
+    SearchAndDestroyPlanPackSoundName     = [entry from SoundEffects.INI]
+    SearchAndDestroyAnnouncementName      = [entry from SoundEffects.INI]
+
+    HoldTheLinePlanUnpackSoundName = [entry from SoundEffects.INI]
+    HoldTheLinePlanPackSoundName  = [entry from SoundEffects.INI]
+    HoldTheLineAnnouncementName   = [entry from SoundEffects.INI]
+
+
+    [battle plan labels]
+    HoldTheLineMessageLabel = [entry from string file]
+    BombardmentMessageLabel = [entry from string file]
+    SearchAndDestroyMessageLabel = [entry from string file]
+
+    [Army bonuses granted by different battle plans]
+    ValidMemberKindOf = [KindOf list]
+    InvalidMemberKindOf = [KindOf list]
+    BattlePlanChangeParalyzeTime = [integer, milliseconds]
+    HoldTheLinePlanArmorDamageScalar = [real number]
+    SearchAndDestroyPlanSightRangeScalar = [real number]
+
+    [***NOTE*** WEAPON bonuses for army are specified in GameData.ini file]
+    [Building bonuses granted based on battle plan mode]
+    StrategyCenterSearchAndDestroySightRangeScalar = [real number]
+    StrategyCenterSearchAndDestroyDetectsStealth = [Yes/No]
+    StrategyCenterHoldTheLineMaxHealthScalar = [real number]
+    StrategyCenterHoldTheLineMaxHealthChangeType = [Change Type List]
+
+    VisionObjectName = [object name]
+End
+
+BeaconClientUpdate
+[this module is a ClientUpdate not a Behavior and is hardcoded to produce the BeaconSmokeFFFFFF particle system definition by default 
+but will call the BeaconSmoke###### particle system definition relative to the players color]
+    RadarPulseFrequency = [integer, milliseconds]
+    RadarPulseDuration = [integer, milliseconds]
+End
+
+BoneFXDamage
+[no parameters - enables use of BoneFXUpdate module on this object where an additional dynamic FX logic can be used]
+End
+
+BoneFXUpdate
+[Enables the use of a more dynamic FX logic for the object. N takes numbers from 1-8]
+    PristineParticleSystemN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} PSys:{entry from ParticleSystem.INI}]
+    PristineOCLN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} OCL:{entry from ObjectCreationList.INI}]
+    PristineFXListN = [bone:{name}  OnlyOnce:{Yes/No} {Min} {Max} FXList:{entry from FXList.INI}]
+
+    DamageParticleTypes = [DamageTypes listing]
+    DamagedParticleSystemN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} PSys:{entry from ParticleSystem.INI}]
+    DamageOCLTypes = [DamageTypes listing]
+    DamagedOCLN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} OCL:{entry from ObjectCreationList.INI}]
+    DamageFXTypes = [DamageTypes listing]
+    DamagedFXListN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} FXList:{entry from FXList.INI}]
+
+    ReallyDamagedFXListN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} FXList:{entry from FXList.INI}]
+    ReallyDamagedOCLN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} OCL:{entry from ObjectCreationList.INI}]
+    ReallyDamagedParticleSystemN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} PSys:{entry from ParticleSystem.INI}]
+
+    RubbleParticleSystemN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} PSys:{entry from ParticleSystem.INI}]
+    RubbleOCLN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} OCL:{entry from ObjectCreationList.INI}]
+    RubbleFXListN = [bone:{name} OnlyOnce:{Yes/No} {Min} {Max} FXList:{entry from FXList.INI}]
+End
+
+;///////////////////////////////////////////////////////////////////
+;NOTE!NOTE!NOTE!NOTE!NOTE!
+;This three modules is needed if you want your object to be a bridge (optional: define bridge in Road.ini)..
+;///////////////////////////////////////////////////////////////////
+BridgeBehavior
+[special case logic allows for ParentObject to be specified as a bone name to allow other objects to appear on the bridge]
+  LateralScaffoldSpeed = [integer]
+  VerticalScaffoldSpeed = [integer]
+  BridgeDieFX = [FX:{entry from FXList.INI} Delay:{milliseconds} Bone:{bone name}, multiple entries can be used for multiple fx]
+  BridgeDieOCL = [OCL:{entry from ObjectCreationList.INI} Delay:{milliseconds} Bone:{bone name}, multiple entries can be used for multiple fx]
+End
+
+BridgeScaffoldBehavior
+[no parameters - this module allows the object to surround the parent object like a scaffold -doesn't work anymore. but still needed]
+End
+
+BridgeTowerBehavior
+[no parameters - this module transfers damage done to itself to its parent bridge too -doesn't work anymore. but still needed]
+End
+;///////////////////////////////////////////////////////////////////
+
+CashBountyPower
+[When enabled, allows all allied objects to earn credits when it kills enemies. 
+This module is REQUIRED to use the " SPECIAL_CASH_BOUNTY" special power enum type to work properly]
+  SpecialPowerTemplate = [entry from SpecialPower.INI]
+  Bounty = [percent]
+  StartsPaused = [Yes/No, yes requires UnpauseSpecialPowerUpgrade module]
+End
+
+CashHackSpecialPower
+[Allows you to steal money from an enemy supply center. 
+This module is REQUIRED to use the " SPECIAL_CASH_HACK" special power enum type to work properly]
+  SpecialPowerTemplate = [entry from SpecialPower.INI]
+  MoneyAmount          = [integer] 
+  UpgradeMoneyAmount   = [entry from Science.INI integer cash amount to steal, multiple entries can be used for multiple upgrades]
+  StartsPaused         = [Yes/No, yes requires UnpauseSpecialPowerUpgrade module]
+End
+
+CaveContain
+[objects will be connected to the same cave system (eachother) if they share the CaveIndex]
+
+[ This is an index where all caves with this number are connected.  You can change
+  it with a script, or you can instance a second object and set it to 1.  Please use sequential integers
+  to keep it fast.]
+  CaveIndex = [integer, can be adjusted in WorldBuilder, required]
+  
+  AllowInsideKindOf = [KindOfs]
+  ForbidInsideKindOf = [KindOfs]
+End
+
+CountermeasuresBehavior
+[Allows object to throw countermeasures to defend itself against missile attacks. -MODULE IS FOR ZEROHOUR ONLY!]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+
+    FlareTemplateName     = [Object Entry]    ; IF theres no defined Object, Then no Flares for you!
+    FlareBoneBaseName     = [bone name]       ; Bone names of where to spawn the flares.
+    VolleySize            = [Integer]        ; Number of flares launched per volley (requires bones)
+    VolleyArcAngle        = [Integer]        ; Max angle of flare relative to forward direction (with VolleySize of 1, flare will always goes straight back).
+    VolleyVelocityFactor  = [Integer]        ; Shoots out flares at a stronger velocity with a higher value.
+    DelayBetweenVolleys   = [Integer, milliseconds]        ; Time between flare volleys
+    NumberOfVolleys       = [Integer]                      ; Number of times the volleys will fire before reloading
+    ReloadTime            = [Integer, milliseconds]        ; After all volleys launched, then reloading must occur. If 0, then reloading occurs at airstrip only.
+    EvasionRate           = [Percent]                       ; With active flares, the specified percentage will be diverted.
+    ReactionLaunchLatency = [integer, milliseconds]        ; Reaction between getting shot at and the firing of the first volley of countermeasures.
+    MissileDecoyDelay     = [integer, milliseconds] ; A reported missile that has been determined to hit a decoy will wait this long before acquiring countermeasures.
+    MustReloadAtAirfield  = [Yes/No]                 ; Reload Countermeasures at the airfield? If No, It will auto reload while in mid air.
+End
+
+CheckpointUpdate
+[no parameters - allows object to open and close like a gate when a friendly object approaches it - requires DOOR_1_OPENING and DOOR_1_CLOSING ConditionStates]
+End
+
+ChinookAIUpdate
+[logic requires bones for either end of the rope to be defined as RopeEnd and RopeStart]
+
+[If you want your infantry (or tank :P) to Rappel down a rope, Just add the CAN_RAPPEL to the objects KindOf field, after doing that,
+[You can now use the "RAPPELLING" ModelConditonState for rappelling out of the object that has the rappel code 
+[Of this module.  
+
+[This part of the module will allow your tank or infantry to use the rappel feature if CAN_RAPPEL is defined in the kindof field of the certain unit, and 
+allows the use of the CombatDropKillFX within  UnitSpecificFX section of the object and module allows the use of VoiceCombatDrop and VoiceSupply and VoiceClearBuilding  
+within UnitSpecificSounds section of the object]
+
+          RappelSpeed = [integer]
+          RopeDropSpeed = [integer]
+          RopeName = [object name, defaults to 'GenericRope' object definition in system.ini]
+          RopeFinalHeight = [integer]
+          RopeWidth = [real number]
+          RopeWobbleLen = [integer]    
+          RopeWobbleAmplitude = [real number]
+          RopeWobbleRate = [integer]
+          RopeColor = [r: g: b:]
+          RotorWashParticleSystem = [Entry From ParticleSystem.ini] -ZERO HOUR ONLY!
+          NumRopes = [integer]
+          PerRopeDelayMin = [integer]
+          PerRopeDelayMax = [integer]
+          MinDropHeight = [integer]
+          WaitForRopesToDrop = [Yes/No]
+
+[This part requires the object to have KindOf = HARVESTER]
+          MaxBoxes = [integer]
+          SupplyCenterActionDelay = [integer]
+          SupplyWarehouseActionDelay = [integer]
+          SupplyWarehouseScanDistance = [integer]
+          SuppliesDepletedVoice = [Entry from Voice.INI]
+          UpgradedSupplyBoost = [percent] -ZERO HOUR ONLY! Triggered by Upgrade_AmericaSupplyLines only
+
+[Just a normal AIUpdateInterface field]
+     AutoAcquireEnemiesWhenIdle = [Yes/No][NOTWHILEATTACKING/ATTACK_BUILDINGS/STEALTHED]
+     MoodAttackCheckRate = [integer, milliseconds. default is 2000]
+     ForbidPlayerCommands =  [Yes/No]
+     TurretsLinked =[Yes/No]
+ 
+[this part of the module allows the use of TurretMoveStart and TurretMoveLoop within UnitSpecificSounds section of the object]
+    Turret
+     [see AIUpdateInterface for full list]
+    End
+    AltTurret
+     [see AIUpdateInterface for full list]
+    End
+End
+
+CleanupAreaPower
+[Allows the object to clean up poison fields via special power command. Requires 'SPECIAL_CLEANUP_AREA' special power enum type to work properly]
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+    MaxMoveDistanceFromLocation = [real number]
+    StartsPaused = [Yes/No, yes requires UnpauseSpecialPowerUpgrade module]
+    InitiateSound = [Entry from Voice.ini] 
+End
+
+CleanupHazardUpdate
+[Allows object to scan and hunt down objects with 'CLEANUP_HAZARD' KindOf when idle. Works in tandem with the 'CleanupAreaPower' module.]
+    WeaponSlot = [Weapon Slot List]
+    ScanRate = [integer, milliseconds]
+    ScanRange = [real number]
+End
+
+CommandButtonHuntUpdate
+[no parameters - this module allows this object to hunt using a particular ability or command via scripts -AI Only]
+End
+
+CommandSetUpgrade
+[Gives the object the ability to change commandsets back and forth when this module is used two times]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+
+    RemovesUpgrades [entry(s) from Upgrade.INI, multiple "upgrade" entrys can be put here]
+    CommandSet = [entry from CommandSet.INI]
+    CommandSetAlt = [entry from CommandSet.INI]
+    TriggerAlt = [entry(s) from Upgrade.INI]
+End
+
+ConvertToCarBombCrateCollide
+[Triggers the use of CARBOMB WeaponSet Condition of the hijacked object and turns it to a suicide unit unless given with a different weapon]
+[Note: Doesn't allow objects with "BOAT" and "AIRCRAFT" to pick it up.]
+    RequiredKindOf = [KindOf]
+    ForbiddenKindOf = [KindOf]
+    FXList = [entry from FXList.INI]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+ConvertToHijackedVehicleCrateCollide
+[module is hardcoded to play the HijackDriver sound definition when triggered and converts the unit to your side]
+    RequiredKindOf = [KindOf]
+    ForbiddenKindOf = [KindOf]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+CostModifierUpgrade
+[When triggered, allows object prices to be changed globally]
+    TriggeredBy = [entry from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+
+    EffectKindOf = [KindOf]
+    Percentage = [percentage]
+End
+
+CreateCrateDie
+[Independent CrateData listings will each produce a maximum of one crate]
+    DeathTypes = [DeathTypes listing]
+    RequiredStatus = [StatusBits type]
+    ExemptStatus = [StatusBits type]
+
+    CrateData = [entry from Crate.INI]
+End
+
+CreateObjectDie
+[Creates an object when the owning object dies]
+    DeathTypes = [DeathTypes listing]
+    ExemptStatus = [status name]
+    RequiredStatus = [StatusBits type]
+
+    CreationList = [entry from ObjectCreationList.INI]
+    TransferPreviousHealth = [Yes/No] 
+End
+
+CrushDie
+[this module allows for the use of the FRONTCRUSHED and BACKCRUSHED ConditionStates with this object]
+    DeathTypes = [DeathTypes listing]
+    ExemptStatus = [status name]
+    RequiredStatus = [StatusBits type]
+
+    TotalCrushSound = [entry from SoundEffects.INI]
+    BackEndCrushSound = [entry from SoundEffects.INI]
+    FrontEndCrushSound = [entry from SoundEffects.INI]
+    TotalCrushSoundPercent = [percent]
+    BackEndCrushSoundPercent = [percent]
+    FrontEndCrushSoundPercent = [percent]
+End
+
+DamDie
+[no parameters, allows object to continue existing as an obstacle but allowing water terrain to move through - the module must be applied after any other death modules]
+End
+
+DefectorSpecialPower
+[When used in junction with the "SPECIAL_DEFECTOR" special power, The targeted unit will defect to your side]
+[allows use of 'DefectorTimerTickSound' and 'DefectorTimerDingSound' sound entry field in MiscAudio.ini]
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+    FatCursorRadius = [real number]
+    StartsPaused = [Yes/No, yes requires UnpauseSpecialPowerUpgrade module]
+End
+
+DefaultProductionExitUpdate
+[logic requires NaturalRallyPoint x: co-ordinate to match the object GeometryMajorRadius]
+    UnitCreatePoint = [x: y: z:]
+    NaturalRallyPoint = [x: y: z:]
+    UseSpawnRallyPoint = [Yes/No]
+End
+
+DelayedUpgrade
+[this module triggers use of the DelayedWeaponSetUpgradeUpdate module on this object.
+ Note: This module only exists in vanilla generals and is unavailable for zerohour]
+ 
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+
+    DelayTime = [integer, milliseconds]
+End
+
+DelayedWeaponSetUpgradeUpdate
+[no parameters, this module delays the effect of a WeaponSet player upgrade - requires DelayedUpgrade module]
+ Note: This module only exists in vanilla generals and is unavailable for zerohour]
+End
+
+DeletionUpdate
+[Deletes the object when the lifetime expires]
+    MinLifetime = [integer, milliseconds]
+    MaxLifetime = [integer, milliseconds]
+End
+
+DeliverPayloadAIUpdate
+[this module allows the use of StartDive within UnitSpecificSounds section of the object]
+    DoorDelay = [integer]
+    DeliveryDistance = [integer]
+    MaxAttempts = [integer]
+    DropDelay = [integer]
+    DropOffset = [x: y: z:]
+    DropVariance = [x: y: z:]
+    PutInContainer = [object name]
+End
+
+DemoTrapUpdate
+[Requires object to have "DEMOTRAP" Kind of defined in the KindOf Field]
+    DefaultProximityMode = [Yes/No]
+    DetonationWeaponSlot = [Weapon Slot List]
+    ProximityModeWeaponSlot = [Weapon Slot List]
+    ManualModeWeaponSlot = [Weapon Slot List]
+    TriggerDetonationRange = [real number]
+    IgnoreTargetTypes = [KindOfs]
+    AutoDetonationWithFriendsInvolved = [Yes/No]
+    DetonateWhenKilled = [Yes/No]
+    DetonationWeapon = [Entry from Weapon.ini] 
+End
+
+DeployStyleAIUpdate
+[this module allows use of PACKING and UNPACKING ConditionState(s)and allows the use of Deploy and Undeploy within UnitSpecificSounds section of the object]
+    PackTime = [integer]
+    UnpackTime = [integer]
+    TurretsFunctionOnlyWhenDeployed = [Yes/No]
+    TurretsMustCenterBeforePacking = [Yes/No]
+    ManualDeployAnimations = [Yes/No]
+    ResetTurretBeforePacking = [Yes/No]
+
+    AutoAcquireEnemiesWhenIdle = [Yes/No][NOTWHILEATTACKING/ATTACK_BUILDINGS/STEALTHED]
+    MoodAttackCheckRate = [integer, milliseconds, default 2000]
+    ForbidPlayerCommands =  [Yes/No]
+    TurretsLinked =[Yes/No]
+    Turret
+      [see AIUpdateInterface for full list]
+    End
+    AltTurret
+      [see AIUpdateInterface for full list]
+    End
+End
+
+DestroyDie
+    DeathTypes = [DeathTypes listing]
+    RequiredStatus = [StatusBits type]
+    ExemptStatus = [StatusBits type]
+End
+
+DozerAIUpdate
+[this module allows the use of VoiceRepair  and  VoiceBuildResponse and  VoiceNoBuild and VoiceTaskComplete within UnitSpecificSounds section of the object]
+[Requires Kindof = DOZER]
+    RepairHealthPercentPerSecond = [percent]
+    BoredTime = [integer, milliseconds]
+    BoredRange = [integer]
+
+    AutoAcquireEnemiesWhenIdle = [Yes/No]
+    MoodAttackCheckRate = [integer, milliseconds]
+    ForbidPlayerCommands =  [Yes/No]
+    TurretsLinked =[Yes/No]
+    Turret
+     [See AIUpdateInterface for full list]
+    End
+    AltTurret
+     [See AIUpdateInterface for full list]
+    End
+End
+
+DumbProjectileBehavior
+[Requires "PROJECTILE" KindOf]
+    MaxLifespan = [integer, milliseconds]
+    TumbleRandomly = [Yes/No]
+    DetonateCallsKill = [Yes/No]
+    OrientToFlightPath = [Yes/No]
+    FirstHeight = [integer]
+    FirstPercentIndent = [percent]
+    SecondHeight = [integer]
+    SecondPercentIndent = [percent]
+    GarrisonHitKillRequiredKindOf = [KindOf]
+    GarrisonHitKillForbiddenKindOf = [KindOf]
+    GarrisonHitKillCount= [integer]
+    GarrisonHitKillFX = [entry from FXList.INI]
+    FlightPathAdjustDistPerSecond = [real number]
+End
+
+DynamicGeometryInfoUpdate
+    InitialDelay = [integer, milliseconds]
+    InitialHeight = [real number]
+    InitialMajorRadius = [real number]
+    InitialMinorRadius = [real number]
+    FinalHeight = [real number]
+    FinalMajorRadius = [real number]
+    FinalMinorRadius = [real number]
+    TransitionTime = [integer, milliseconds]
+    ReverseAtTransitionTime = [Yes/No]
+End
+
+DynamicShroudClearingRangeUpdate
+    ChangeInterval = [integer, milliseconds]
+    GrowInterval = [integer, milliseconds]
+    ShrinkDelay = [integer, milliseconds]
+    ShrinkTime = [integer, milliseconds]
+    GrowDelay = [integer, milliseconds]
+    GrowTime = [integer, milliseconds]
+    FinalVision = [real number]
+    GridDecalTemplate
+        Texture = [texture name without file extension]
+        Style = [texture application style type]
+        OpacityMin = [percent]
+        OpacityMax = [percent]
+        OpacityThrobTime = [integer, milliseconds]
+        OnlyVisibleToOwningPlayer = [Yes/No]
+
+        [Hardcoded. Color is always blue. Changing this field won't do anything]
+        Color = [r: g: b: a:]
+    End
+End
+
+EjectPilotDie
+[this module allows use of SoundEject and VoiceEject within UnitSpecificSounds section of the object]
+    DeathTypes = [DeathTypes listing]
+    ExemptStatus = [status name]
+    GroundCreationList = [entry from ObjectCreationList.INI]
+    AirCreationList = [entry from ObjectCreationList.INI]
+    VeterancyLevels = [veterancy levels listing]
+End
+
+EMPUpdate
+    DisabledDuration = [integer, milliseconds]
+    Lifetime = [integer, milliseconds]
+    StartColor = [r: g: b:]
+    StartFadeTime = [integer, milliseconds]
+    StartScale = [real number]
+    EndColor = [r: g: b:]
+    TargetScaleMin = [real number]
+    TargetScaleMax = [real number]
+    DisableFXParticleSystem = [entry from ParticleSystem.INI]
+    SparksPerCubicFoot = [integer]
+    
+[Parameters below only exist for ZERO HOUR!]
+    DoesNotAffectMyOwnBuildings = [Yes/No]
+    DoesNotAffect = [Either from : ALLIES/ENEMIES/NEUTRALS/SELF]
+    EffectRadius = [integer]
+    VictimForbiddenKindOf = [kindof listing]
+    VictimRequiredKindOf = [kindof listing]
+End
+
+EnemyNearUpdate
+[no parameters - this module allows the the use of 'VoiceMeetEnemy' object sound parameter  and 
+also allows the object to use the ENEMYNEAR ConditionState 
+which will be triggered when an enemy object is within this objects VisionRange]
+End
+
+ExperienceScalarUpgrade
+[Allows object, who has this module, gets a experience earning boost when triggered.]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    
+[how this works: 0.5 means 50% increase, 1.0 means 100% increase in bonus. So, if you specify the number '0.25', it would mean a 25% increase in EXP bonus.]  
+    AdXPScalar = [real number]  
+End
+
+FireSpreadUpdate
+[Is the object allowed to spread fire to his buddies?  
+This module is triggered when the object gets hit with a weapon that uses 'FLAME' damage type.]
+    OCLEmbers = [entry from ObjectCreationList.INI] [ Should we spawn a "fire ember" in order to spread fire?]
+    MinSpreadDelay = [integer, milliseconds]        [ Minimum Time we try spreading fire]
+    MaxSpreadDelay = [integer, milliseconds]        [ Maximum Time we try spreading fire]
+    SpreadTryRange = [real number]                  [ A non-zero entry means fires will be set explicitly without relying on embers
+                                                    [ The closest flammable thing will be set on fire automatically.
+End
+
+FirestormDynamicGeometryInfoUpdate
+[Pretty much self explanatory]
+    InitialDelay = [integer, milliseconds]
+    InitialHeight = [real number]
+    InitialMajorRadius = [real number]
+    InitialMinorRadius = [real number]
+    FinalHeight = [real number]
+    FinalMajorRadius = [real number]
+    FinalMinorRadius = [real number]
+    TransitionTime = [integer, milliseconds]
+    ReverseAtTransitionTime = [Yes/No]
+    ScorchSize = [real number]
+    ParticleOffsetZ = [real number]
+    ParticleSystemN = [N = 1-16, entry from ParticleSystem.INI]
+    FXList = [entry from FXList.INI]    
+    DelayBetweenDamageFrames = [integer, milliseconds]
+    MaxHeightForDamage = [integer]
+    DamageAmount = [integer]
+End
+
+FireOCLAfterWeaponCooldownUpdate
+    WeaponSlot = [Weapon Slot List]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    OCL = [entry from ObjectCreationList.INI] 
+    MinShotsToCreateOCL = [integer]
+    OCLLifetimePerSecond = [integer]
+    OCLLifetimeMaxCap = [integer]
+End
+
+FireWeaponCollide
+    CollideWeapon = [entry from Weapon.INI]
+    ForbiddenStatus = [status name]
+    RequiredStatus = [status name]
+End
+
+FireWeaponWhenDamagedBehavior
+    StartsActive = [Yes/No]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    ReactionWeaponPristine = [entry from Weapon.INI]
+    ReactionWeaponDamaged = [entry from Weapon.INI]
+    ReactionWeaponReallyDamaged = [entry from Weapon.INI]
+    ReactionWeaponRubble = [entry from Weapon.INI]
+    ContinuousWeaponPristine = [entry from Weapon.INI]
+    ContinuousWeaponDamaged = [entry from Weapon.INI]
+    ContinuousWeaponReallyDamaged = [entry from Weapon.INI]
+    ContinuousWeaponRubble = [entry from Weapon.INI]
+    DamageTypes = [DamageTypes listing]
+    DamageAmount = [integer]
+End
+
+FireWeaponWhenDeadBehavior
+[Allows the object, who have this module, fire a weapon when it dies]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+ 
+    DeathTypes = [DeathTypes listing]
+    RequiredStatus  = [StatusBit type]
+    ExemptStatus = [StatusBit type]
+
+    DeathWeapon = [entry from Weapon.INI]
+    StartsActive = [Yes/No]
+End
+
+FireWeaponUpdate
+[Allows object to passively fire a weapon around itself]
+    Weapon = [entry from Weapon.INI]       [What weapon should we use?]
+    ExclusiveWeaponDelay = [integer]      [If we fire a real weapon, we turn this module off for this long]
+    InitialDelay = [integer/milliseconds] [amount of delay before we use the weapon in this module]
+End
+
+FireWeaponPower
+    SpecialPowerTemplate = [Entry(s) from SpecialPower.ini]
+    MaxShotsToFire = [real number]
+End
+
+FlightDeckBehavior
+[Requires AIRCRAFT_CARRIER and FS_AIRFIELD Kindof in order to work properly. -ZEROHOUR ONLY]
+       NumRunways              = [real number]  [how many runways do we have? maximum is 2]
+       NumSpacesPerRunway      = [real number]  [how much space will parked aircrafts have?]
+
+      [N takes numbers from 1-2]
+        RunwayNSpaces           = [Names of Bones of the Model]
+        RunwayNTakeoff          = [Names of Bones of the Model]
+        RunwayNLanding          = [Names of Bones of the Model]
+        RunwayNTaxi             = [Names of Bones of the Model]
+        RunwayNCreation         = [Names of Bones of the Model]
+        RunwayNCatapultSystem   = [Entry From Particlesystem.ini]
+
+        HealAmountPerSecond     = [integer]  [How much health do we give the landed aircraft on our deck?] 
+        ApproachHeight          = [integer]  [What should the minimum height of aircrafts be in order to land?]
+        LandingDeckHeightOffset = [integer Z-axis] [How high is the landing deck?]
+        ParkingCleanupPeriod    = [integer]  [How often the carrier checks to move planes forward in the queue to fill empty spaces]
+        HumanFollowPeriod       = [integer]  [Human factor for delay like a traffic jam.. takes time to react when the guy in front moves]
+
+      [Template of payload, and how quickly destroyed ones get replaced.]
+        PayloadTemplate         = [Object Name] [If theres no defined unit then...no jets for you!]
+        ReplacementDelay        = [integer, milliseconds]
+        DockAnimationDelay      = [integer, milliseconds]
+
+      [How quickly a wave of fighters can be launched]
+        LaunchWaveDelay         = [integer, milliseconds]
+        LaunchRampDelay         = [integer, milliseconds]
+        LowerRampDelay          = [integer, milliseconds]
+        CatapultFireDelay       = [integer, milliseconds]
+End
+
+
+FlammableUpdate
+[This module is triggered when the object that have this module is hit by a weapon that uses 'FLAME' or "PARTICLE_BEAM" damage type.
+ Once triggered, it also allows the use of the AFLAME and SMOLDERING and BURNED ConditionState(s).]
+    BurnedDelay           = [integer, milliseconds]       [How long do we burn before we smolder]
+    BurningSoundName      = [entry from SoundEffects.INI] [What sound to use when we're on fire]
+    FlameDamageLimit      = [integer]                     [How much flame damage to recieve before catching fire]
+    FlameDamageExpiration = [integer, milliseconds]       [in a span of this long, in millisecond] 
+    AflameDuration        = [integer, milliseconds]       [If I catch fire, I'll burn for this long in millisecond]
+    AflameDamageAmount    = [integer]                     [Taking this much damage]
+    AflameDamageDelay     = [integer, milliseconds]       [This often]
+End
+
+FloatUpdate
+[forces object to remain relative to sea level and allows for use of SEA_LEVEL locomotion rules. 
+Enabled = Yes means 'float on water and stay relative to water level' while Enabled = No means 'float on water and bob about']
+    Enabled = [Yes/No]
+End
+
+FXListDie
+    DeathTypes = [DeathTypes listing]
+    DeathFX = [entry from FXList.INI]
+    OrientToObject = [Yes/No]
+    RequiredStatus = [StatusBits type]
+    ExemptStatus = [StatusBits type]
+    StartsActive = [Yes/No]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+End
+
+GarrisonContain
+[Module is hard-coded to use the GarrisonGun object definition for the weapons pointing from the object 
+when occupants are firing and these are drawn at bones named FIREPOINT.  Also, it automatically calls "GARRISONED" Model ConditionState when the object is loaded]
+
+[NOTE: THE FIREBASE LOGIC IS ONLY FOR ZEROHOUR]
+[If The model has STATIONx (X can range from 1 to 12) and the draw module (AKA W3DModelDraw) has a "ExtraPublicBone = STATIONx (x corresponds to bone number)" defined and 
+the garrison module has the "IsEnclosingContainer = No"... The garrisoned guys will appear at the location of the "STATION" bones...they will appear like they do on the firebase. 
+
+Also requires the HiveStructureBody to work properly]
+
+    ContainMax = [integer]
+    EnterSound = [entry from SoundEffects.INI]
+    ExitSound = [entry from SoundEffects.INI]
+    DamagePercentToUnits = [percent]
+    MobileGarrison = [Yes/No]
+    InitialRoster = [object name integer]
+    ImmuneToClearBuildingAttacks = [Yes/No]
+    IsEnclosingContainer = [Yes/No] 
+    HealObjects = [Yes/No]
+    TimeForFullHeal = [integer, milliseconds]
+    PassengersAllowedToFire = [Yes/No]
+    AllowInsideKindOf = [KindOF list]
+    ForbidInsideKindOf = [KindOf listing]
+    AllowAlliesInside = [Yes/No]
+    AllowEnemiesInside = [Yes/No]
+    AllowNeutralInside = [Yes/No]
+End
+
+GrantStealthBehavior
+[Gives unit(s), when triggered, permanent stealth within it's defined area of effect. -ZEROHOUR ONLY]
+    StartRadius = [integer]    
+    FinalRadius = [integer]
+    RadiusGrowRate = [integer]    
+    RadiusParticleSystemName = [Entry(s) from ParticleSystem.ini]
+    KindOf = [KindOF list]
+    ForbiddenKindOf = [KindOF list]
+End
+
+GenerateMinefieldBehavior
+[Allows object to spawn mines around itself via upgrade]
+    MineName = [object name]
+    GenerationFX = [entry from FXList.INI]
+    DistanceAroundObject = [integer]
+    MinesPerSquareFoot = [integer]
+    GenerateOnlyOnDeath = [Yes/No]
+    BorderOnly = [Yes/No]
+    SmartBorder = [Yes/No]
+    SmartBorderSkipInterior = [Yes/No]
+    AlwaysCircular = [Yes/No]
+    RandomJitter = [integer]
+    SkipIfThisMuchUnderStructure = [integer]
+    Upgradable = [Yes/No]           
+    UpgradedMineName = [object name]  
+    UpgradedTriggeredBy = [entry from Upgrade.INI]
+End
+
+GrantUpgradeCreate
+[Grants object with an upgrade from the start]
+   UpgradeToGrant = [entry from Upgrade.INI]
+   ExemptStatus = [Status Bits type]
+End
+
+
+GrantScienceUpgrade
+[Grants object with a Science point from the start -ZEROHOUR ONLY]
+    GrantScience = [Entry from Science.ini]
+    TriggeredBy = [entry from Upgrade.INI]
+End
+
+
+InternetHackContain
+[Contain module that triggers the HackInternetAIUpdate command to passengers -see TransportContain module for required parameters of this module -ZEROHOUR ONLY]
+End
+
+HackInternetAIUpdate
+[this module allows the use of UnitPack and UnitUnpack and UnitCashPing within UnitSpecificSounds section of the object 
+and allows use of PACKING and UNPACKING ConditionState(s) -Requires "MONEY_HACKER" kind of in order to work properly.]
+    UnpackTime                = [integer, milliseconds] 
+    PackTime                  = [integer, milliseconds]
+    PackUnpackVariationFactor = [real number]           [Randomises the Unpack/Pack time delay]
+    CashUpdateDelay           = [integer, milliseconds] [How long do we wait to get our cash when we hack the interwebs?]
+    CashUpdateDelayFast       = [integer, milliseconds] [Increase wait time when inside a "container". Triggered by InternetHackContain module]
+    RegularCashAmount         = [integer]               [How much do we earn every time we hack?]
+    VeteranCashAmount         = [integer]               [How much do we earn every time we hack when we're a veteran hacker?]
+    EliteCashAmount           = [integer]               [How much do we earn every time we hack when we're a elite hacker?]
+    HeroicCashAmount          = [integer]               [How much do we earn every time we hack when we're a pr0 1337 h4c|<3r?!?!] 
+    XpPerCashUpdate           = [integer]
+End
+
+HealCrateCollide
+[this module heals all objects belonging to the same owner as the object that collides with this object
+also triggers the 'CrateHeal' sound effects field in MiscAudio.ini]
+
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+HealContain
+[This module will automatically heal and restore the health of units that enters or exits the transport]
+    ContainMax = [integer]
+    TimeForFullHeal = [integer, milliseconds]
+    EnterSound = [entry from SoundEffects.INI]
+    ExitSound = [entry from SoundEffects.INI]
+    AllowInsideKindOf = [KindOf listing]
+    ForbidInsideKindOf = [KindOf listing]
+    AllowAlliesInside = [Yes/No]
+    AllowEnemiesInside = [Yes/No]
+    AllowNeutralInside = [Yes/No]
+End
+
+HeightDieUpdate
+    TargetHeight = [real number]
+    TargetHeightIncludesStructures = [Yes/No]
+    OnlyWhenMovingDown = [Yes/No]
+    InitialDelay = [integer, milliseconds]
+    SnapToGroundOnDeath = [Yes/No]
+    DestroyAttachedParticlesAtHeight = [real number]
+End
+
+HelicopterSlowDeathBehavior
+[this module requires LocomotorWorksWhenDead = Yes on the objects Locomotor to function correctly]
+    DestructionDelay = [integer, milliseconds]
+    DestructionDelayVariance = [integer]
+    DestructionAltitude = [integer]
+    SpiralOrbitTurnRate = [real number]
+    SpiralOrbitForwardSpeed = [real number]
+    SpiralOrbitForwardSpeedDamping = [real number]
+    MinSelfSpin = [integer]
+    MaxSelfSpin = [integer]
+    SelfSpinUpdateDelay = [integer, milliseconds]
+    SelfSpinUpdateAmount = [integer, degrees]
+    FallHowFast = [percent]
+    MinBladeFlyOffDelay = [integer, milliseconds]
+    MaxBladeFlyOffDelay = [integer, milliseconds]
+    AttachParticle = [entry from ParticleSystem.INI]
+    AttachParticleBone = [bone name]
+    AttachParticleLoc = [x: y: z:]
+    BladeObjectName = [object name]
+    BladeBoneName = [bone name]
+    OCLEjectPilot = [entry from ObjectCreationList.INI]
+    FXBlade = [entry from FXList.INI]
+    OCLBlade = [entry from ObjectCreationList.INI]
+    FXHitGround = [entry from FXList.INI]
+    OCLHitGround = [entry from ObjectCreationList.INI]
+    FXFinalBlowUp = [entry from FXList.INI]
+    OCLFinalBlowUp = [entry from ObjectCreationList.INI]
+    DelayFromGroundToFinalDeath = [integer]
+    FinalRubbleObject = [object name]
+    MaxBraking = [integer]
+    SoundDeathLoop = [entry from SoundEffects.INI]
+End
+
+HighlanderBody
+[this is a Body module not a Behavior module and allows the object to take damage but not die - the object will only die from irresistable damage]
+      MaxHealth = [integer]
+      InitialHealth = [integer
+End
+
+HijackerUpdate
+    ParachuteName = [object name]
+    AttachToTargetBone = [sub object/bone name]
+    OffsetZ = [integer]
+End
+
+HiveStructureBody
+[this is a Body module not a Behavior module and requires the SpawnBehavior module to work properly]
+    MaxHealth = [integer]
+    InitialHealth = [integer
+    SubdualDamageCap = [integer]
+    SubdualDamageHealRate = [integer]  
+    SubdualDamageHealAmount = [integer] 
+    PropagateDamageTypesToSlavesWhenExisting = [DamageTypes listing]
+    SwallowDamageTypesIfSlavesNotExisting = [DamageTypes listing]
+End
+
+HordeUpdate
+[module is hardcoded to apply the following textures to objects that are affected by this module: EXHorde, EXHorde_UP, EXHordeB, EXHordeB_UP]
+    UpdateRate = [integer, milliseconds][ how often to recheck horde status ]
+    RubOffRadius = [integer]              [ if I am this close to a real hordesman, I will get to be an honorary hordesman ]
+    AlliesOnly = [Yes/No]                 [ do we only count allies towards horde status? ]
+    ExactMatch = [Yes/No]                 [ do we only count units of our exact same type towards horde status? (overrides kindof)]
+    Action = [WeaponBonus name]           [ when horde-ing, grant us the HORDE bonus ]
+    Radius = [integer]                    [ how close other units must be to us to count towards our horde-ness (~30 feet or so) ]
+    KindOf = [KindOfs]                    [ what KindOf's must match to count towards horde-ness ]
+    Count = [integer]                     [ how many units must be within Radius to grant us horde-ness ]
+    AllowedNationalism = [Yes/No]
+    FlagSubObjectNames = [sub object name] 
+End
+
+HelixContain
+[Like Transport, but when full, passes transport queries along to first passenger (redirects like tunnel). Basically works like the Overlord Contain.]
+    Slots = [integer]
+    DamagePercentToUnits = [percentage]
+    AllowInsideKindOf = [KindOf listing]
+    ForbidInsideKindOf = [KindOf listing]
+    AllowAlliesInside = [Yes/No]
+    AllowNeutralInside = [Yes/No]
+    AllowEnemiesInside = [Yes/No]
+    ExitDelay = [integer, milliseconds]
+    NumberOfExitPaths = [integer, should corrospond to N]
+    GoAggressiveOnExit = [Yes/No]
+    ScatterNearbyOnExit = [Yes/No]
+    OrientLikeContainerOnExit = [Yes/No]
+    KeepContainerVelocityOnExit = [Yes/No]
+    BurnedDeathToUnits  = [Yes/No]
+    ExitPitchRate = [integer]
+    ExitBone = [bone name]
+    DoorOpenTime = [integer, milliseconds]
+    HealthRegen%PerSec = [percentage]
+    DestroyRidersWhoAreNotFreeToExit = [Yes/No]
+    ResetMoodCheckTimeOnExit = [Yes/No]
+    ArmedRidersUpgradeMyWeaponSet = [Yes/No]
+    DelayExitInAir = [Yes/No]
+    EnterSound = [entry from SoundEffects.INI] ;SoundEnter Override
+    ExitSound = [entry from SoundEffects.INI]  ;SoundExit Override
+    PassengersAllowedToFire = [Yes/No]
+    PassengersInTurret = [Yes/No]
+    WeaponBonusPassedToPassengers = [Yes/No]
+    PayloadTemplateName = [object name]
+    ShouldDrawPips = [Yes/No]
+End
+
+ImmortalBody
+[this is a Body module not a Behavior module and prevents the object from dying or taking damage]
+      MaxHealth = [integer]
+      InitialHealth = [integer
+      SubdualDamageCap = [integer]
+      SubdualDamageHealRate = [integer]  
+      SubdualDamageHealAmount = [integer] 
+End 
+
+InactiveBody
+[no parameters - this is a Body module not a Behavior module and prevents normal interaction with other objects]
+End
+
+InstantDeathBehavior
+    DeathTypes = [DeathTypes listing]
+    FX = [entry from FXList.INI]
+    OCL = [entry from ObjectCreationList.INI]
+    Weapon = [Entry from Weapon.ini]
+    RequiredStatus = [status name]
+    ExemptStatus = [status name]
+End
+
+JetAIUpdate
+[this module allows the use of VoiceLowFuel and Afterburner within UnitSpecificSounds section of the object -Requires Kindof = AIRCRAFT]
+[And Allows the use of JETEXHAUST JETAFTERBURNER Model conditionstates, this is triggered when its taking off from the runway]
+    OutOfAmmoDamagePerSecond      = [percent]  ; Amount of damage to take per SEC (not per frame) when out of ammo
+    NeedsRunway                   = [Yes/No]   ; Does the aircraft need a runway when it takes off?
+    KeepsParkingSpaceWhenAirborne = [Yes/No]   ; Does the aircraft that took off from that "hanger" keeps it or not?
+    TakeoffDistForMaxLift         = [percent]  ; Larger numbers give more lift sooner when taking off
+    TakeoffPause                  = [millisecond]  ; How long does the aircraft pause for a moment before taking off?
+    MinHeight                     = [integer]   ; How low can the aircraft go? offsets using the Z axis 
+    ParkingOffset                 = [-X.0 offsets the plane to the rear, X.0 offsets it foward, X can be any number]  ; scooch it a little forward so the tail doesn't hit the doors  
+    SneakyOffsetWhenAttacking     = [integer]   ; This is how far behind us people aim when we are in attack mode 
+    AttackLocomotorType           = [LocomotorSetType] ; what locomotor set are we going to use if we're in attack mode?
+    AttackLocomotorPersistTime    = [real number]  ;how long the "attack" locomotor persist after we finished attacking? 
+    AttackersMissPersistTime      = [real number]  ;how long do we remain unattackable when the attackmode is done?
+    ReturnToBaseIdleTime = [integer, milliseconds] ; if idle for this long, return to base, even if not out of ammo
+    ReturnForAmmoLocomotorType    = [LocomotorSetType] ; what locomotor set are we going to use if we're going back to re-arm?
+    LockonTime                    = [integer, milliseconds] ; how long does the lockon tick sound last?
+    LockonCursor                  = [object name] ;what should the "lockon" cursor look like? (use LockonCursor defined in system.ini)
+    LockonInitialDist             = [integer]     ; how far does the enemy anti-air required to trigger this
+    LockonFreq                    = [real number] ; smaller==longer pulse delay, larger==shorter pulse delay
+    LockonAngleSpin               = [real number] ;how fast to spin the lockon blinker 
+    LockonBlinky                  = [Yes/No]      ; does it blinker?
+    AutoAcquireEnemiesWhenIdle    = [Yes/No NOTWHILEATTACKING/ATTACK_BUILDINGS/STEALTHED]
+    MoodAttackCheckRate           = [integer, milliseconds, default is 2000]
+    Turret
+            TurretTurnRate = [integer]
+            TurretPitchRate = [integer]
+            NaturalTurretAngle = [integer]
+            NaturalTurretPitch = [integer]
+            FirePitch = [integer]
+            MinPhysicalPitch = [integer, defalt 0 = horizontal]
+            GroundUnitPitch = [integer, default 0 = horizontal] 
+            TurretFireAngleSweep = [weaponslot][integer]
+            TurretSweepSpeedModifier = [weaponslot    real number]
+            ControlledWeaponSlots = [weaponslots]
+            AllowsPitch = [Yes/No]
+            MinIdleScanAngle = [real number]
+            MaxIdleScanAngle = [real number]
+            MinIdleScanInterval = [integer, milliseconds]
+            MaxIdleScanInterval = [integer, milliseconds]
+            RecenterTime = [integer,milliseconds]
+            FiresWhileTurning = [Yes/No]
+            InitiallyDisabled = [Yes/No]
+    End
+    AltTurret
+        [as above]
+    End
+End
+
+JetSlowDeathBehavior
+[this module requires LocomotorWorksWhenDead = Yes on the objects Locomotor to function correctly]
+    FXOnGroundDeath = [entry from FXList.INI]
+    OCLOnGroundDeath = [entry from ObjectCreationList.INI]
+    FXInitialDeath = [entry from FXList.INI]
+    OCLInitialDeath = [entry from ObjectCreationList.INI]
+    DelaySecondaryFromInitialDeath = [integer, milliseconds]
+    FXSecondary = [entry from FXList.INI]
+    OCLSecondary = [entry from ObjectCreationList.INI]
+    DelayFinalBlowUpFromHitGround = [integer, milliseconds]
+    DeathLoopSound = [entry from SoundEffects.INI]
+    DestructionDelay = [integer, milliseconds]
+    DestructionDelayVariance = [integer]
+    DestructionAltitude = [integer]
+    RollRate = [real number]
+    RollRateDelta = [percent]
+    PitchRate = [real number]
+    FallHowFast = [percent]
+    FXHitGround = [entry from FXList.INI]
+    OCLHitGround = [entry from ObjectCreationList.INI]
+    FXFinalBlowUp = [entry from FXList.INI]
+    OCLFinalBlowUp = [entry from ObjectCreationList.INI]
+    RequiredStatus = [status name]
+    ExemptStatus = [status name]
+    DeathTypes  = [DeathType listing]
+End
+
+KeepObjectDie
+[this module ensures the object remains in the game world when it is destroyed although it will no longer interact]
+   DeathTypes = [DeathType listing]
+   RequiredStatus = [StatusBits type]
+   ExemptStatus = [StatusBits type]
+End
+
+LaserUpdate
+[this module is a ClientUpdate not a Behavior]
+    MuzzleParticleSystem = [entry from ParticleSystem.INI]
+    TargetParticleSystem = [entry from ParticleSystem.INI]
+    PunchThroughScalar = [Real Number] ; If our target dies, we get this much bigger so it looks like we punched through
+End
+
+LifetimeUpdate
+    MinLifetime = [integer, milliseconds]
+    MaxLifetime = [integer, milliseconds, should be greater than or equal to MinLifetime]
+End
+
+LockWeaponCreate
+[Prevents indeterminate state plus two unpickable weapons equaling no attack.]
+        SlotToLock = [Weapon Slot List]
+End
+
+LocomotorSetUpgrade
+[triggers use of SET_NORMAL_UPGRADED locomotor on this object and allows the use of VoiceMoveUpgrade within UnitSpecificSounds section of the object]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+End
+
+LeafletDropBehavior
+[This module temporarily Disables Units within it's radius in a period of time. this should be use in conjunction with the "SPECIAL_LEAFLET_DROP" Special Power Enum]
+        DisabledDuration    =  [integer]
+        Delay               =  [integer]
+        AffectRadius        =  [integer]
+        LeafletFXParticleSystem = [entry from ParticleSystem.INI]
+End
+
+MaxHealthUpgrade
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    AddMaxHealth = [real number]
+    ChangeType = [Change Type List]
+End
+
+
+MinefieldBehavior
+[NOTE: This is a misleading Module name, since it's really single-Mine Behavior not a Minefield...]
+[Requires MINE KindOf type in order for this module to properly work.]
+    DetonationWeapon           = [entry from Weapon.INI]
+    DetonatedBy                = [ENEMIES, ALLIES, NEUTRAL]
+    Regenerates                = [Yes/No]
+    StopsRegenAfterCreatorDies = [Yes/No]
+    WorkersDetonate            = [Yes/No]
+    CreatorDeathCheckRate      = [integer, milliseconds]
+    ScootFromStartingPointTime = [integer, milliseconds]
+    NumVirtualMines            = [integer]
+    RepeatDetonateMoveThresh   = [real number]
+    DegenPercentPerSecondAfterCreatorDies = [percent]
+    CreationList = [Entry from ObjectCreationList.INI]   
+End
+
+MissileAIUpdate 
+    DetonateOnNoFuel                = [Yes/No]               [Should i explode when i run out of fuel?]
+    DetonateCallsKill               = [Yes/No]               [When i detonate, does it mean i am already dead or not?] 
+    UseWeaponSpeed                  = [Yes/No]               [Weapon speed is defined on the weapon itself]
+    IgnitionFX                      = [entry from FXList.INI] 
+    InitialVelocity                 = [integer]              [How much throw force does the launcher throws us?]
+    IgnitionDelay                   = [integer, milliseconds][How long to delay before we go to fullspeed?]
+    FuelLifetime                    = [integer, milliseconds][How long to fly before we just fall into the ground?]
+    TryToFollowTarget               = [Yes/No]               [When fired out of the weapon, do we follow the target?]
+    KillSelfDelay                   = [integer in msec]     [How long (in seconds) to delay before we detonate?]
+
+    [How far do we stray off course when we get jammed? 
+    [this part of the module allows the use of JAMMED Model Condition State]
+    DistanceScatterWhenJammed       = [integer]  
+
+    GarrisonHitKillRequiredKindOf   = [KindOf]               [What "KindOf" are we allowed to kill when they're inside structures?]
+    GarrisonHitKillForbiddenKindOf  = [KindOf]               [What "KindOf" are we not allowed to kill when they're inside structures?] 
+    GarrisonHitKillCount            = [integer]]             [How many targets do we wipe out from the garrisoned targets] 
+    GarrisonHitKillFX               = [entry from FXList.INI]
+    DistanceToTargetForLock         = [integer]
+    DistanceToTargetBeforeDiving    = [integer]
+    DistanceToTravelBeforeTurning   = [integer]
+End 
+
+MissileLauncherBuildingUpdate
+[Allows the use of the DOOR_1_OPENING, DOOR_1_WAITING_OPEN, DOOR_1_WAITING_TO_CLOSE, and DOOR_1_CLOSING Model condition states]
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+    DoorOpenTime = [integer, milliseconds]        [this scales the animation speed in DOOR_1_OPENING ConditionState]
+    DoorWaitOpenTime = [integer, milliseconds]    [this scales the animation speed in DOOR_1_WAITING_TO_CLOSE ConditionState]
+    DoorCloseTime = [integer, milliseconds]       [this scales the animation speed in DOOR_1_CLOSING ConditionState]
+    DoorOpeningFX = [entry from FXList.INI]
+    DoorOpenFX = [entry from FXList.INI]
+    DoorWaitingToCloseFX = [entry from FXList.INI]
+    DoorClosingFX = [entry from FXList.INI]
+    DoorClosedFX = [entry from FXList.INI]
+    DoorOpenIdleAudio = [entry from SoundEffects.INI]
+End
+
+MobMemberSlavedUpdate
+    MustCatchUpRadius = [integer]
+    NoNeedToCatchUpRadius = [integer]
+    Squirrelliness = [real number]
+    CatchUpCrisisBailTime = [integer]
+End
+
+MobNexusContain
+    Slots = [integer]
+    InitialPayload = [object name, integer] [multiple statements can be used]
+    DamagePercentToUnits = [percent]
+    HealthRegen%PerSec = [percentage]
+End
+
+MoneyCrateCollide
+[ A crate that gives x dollars to the person who picked up this crate. Also triggers the use of the 'CrateMoney' sound effects field in MiscAudio.ini]
+    MoneyProvided     = [integer]  [How much money do we provide?]
+    UpgradedBoost     = [UpgradeType:{Entry from Upgrade.ini} Boost:{integer}]
+    
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX             = [entry from FXList.INI]
+    ExecuteAnimation      = [entry from Animation2D.INI]
+    ExecuteAnimationTime  = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+ModelConditionUpgrade
+[Allows you to switch to a model conditionstate via upgrades -ZEROHOUR ONLY!]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    ConditionFlag = [Condition State list]
+End
+
+NeutronMissileSlowDeathBehavior
+    DeathTypes = [DeathType listing]
+    DestructionDelay = [integer, milliseconds]
+    DestructionDelayVariance = [integer]
+    DestructionAltitude = [integer]
+
+    FX = [INITIAL/MIDPOINT/FINAL    entry from FXList.INI, multiple statements can be used]
+    OCL = [INITIAL/MIDPOINT/FINAL    entry from ObjectCreationList.INI, multiple statements can be used]
+    Weapon = [INITIAL/MIDPOINT/FINAL entry from Weapon.INI, multiple statements can be used]
+
+    ScorchMarkSize = [integer]
+    FXList = [enty from FXList.INI]
+[N takes numbers from 1-9]    
+    BlastNEnabled = [Yes/No]
+    BlastNDelay = [integer, milliseconds]
+    BlastNScorchDelay [integer, milliseconds]
+    BlastNInnerRadius = [real number]
+    BlastNOuterRadius = [real number]
+    BlastNMaxDamage = [real number, damage is hardcoded to use DamageType EXPLOSION]
+    BlastNMinDamage = [real number, damage is hardcoded to use DamageType EXPLOSION]
+    BlastNToppleSpeed = [real number]
+    BlastNPushForce = [real number]
+End
+
+NeutronBlastBehavior
+[Kills the Pilot of the vehicles when shot by a projectile that has this module]
+     BlastRadius = [integer]
+     AffectAirborne = [Yes/No]
+     AffectAllies = [Yes/No]
+End
+
+NeutronMissileUpdate
+    LaunchFX = [entry from FXList.INI]
+    TargetFromDirectlyAbove = [integer]
+    RelativeSpeed = [real number]
+    MaxTurnRate = [integer]
+    ForwardDamping = [real number]
+    SpecialSpeedTime = [integer, milliseconds]
+    SpecialSpeedHeight = [integer]
+    SpecialAccelFactor = [integer]
+    SpecialJitterDistance = [real number]
+    IgnitionFX = [entry from FXList.INI]
+    DistanceToTargetBeforeDiving = [integer]
+    DistanceToTravelBeforeTurning = [integer]
+       IgnitionDelay = [integer]
+    DeliveryDecalRadius = [integer]
+    DeliveryDecal
+        Texture = [texture name without file extension]
+        Style = [shadow style type]
+        OpacityMin = [percent]
+        OpacityMax = [percent]
+        OpacityThrobTime = [integer, milliseconds]
+        Color = [r: g: b: a:]
+        OnlyVisibleToOwningPlayer = [Yes/No]
+    End
+End
+
+
+ObjectCreationUpgrade
+[Allows an Object create/spawn a new object via upgrades]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    UpgradeObject = [entry from ObjectCreationList.INI]
+End
+
+OCLSpecialPower
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+    OCL = [entry from ObjectCreationList.INI]
+    UpgradeOCL = [entry from Science.INI, entry from ObjectCreationList.INI, multiple entries for multiple upgrades]
+    OCLAdjustPositionToPassable = [Yes/No]
+    CreateLocation = [creation point(s)]
+    StartsPaused = [Yes/No, yes requires UnpauseSpecialPowerUpgrade module]
+    ReferenceObject [object name]
+    ScriptedSpecialPowerOnly = [Yes/No]
+End
+
+OCLUpdate
+[A Context window is a reaction to this, no CommandSet] 
+    FactionTriggered = [Yes/No]
+    FactionOCL = [Faction: [faction] ] [entry from ObjectCreationList.INI, multiple statements can be made]
+    MinDelay = [integer, milliseconds]
+    MaxDelay = [integer, milliseconds]
+    CreateAtEdge = [Yes/No]
+    OCL = [entry from ObjectCreationList.INI]
+End
+
+OpenContain
+    ContainMax = [integer]
+    EnterSound = [entry from SoundEffects.INI]
+    ExitSound = [entry from SoundEffects.INI]
+    AllowInsideKindOf = [KindOf listing]
+    ForbidInsideKindOf = [KindOf listing]
+    PassengersAllowedToFire = [Yes/No]
+    PassengersInTurret = [Yes/No]
+    NumberOfExitPaths = [integer]
+    AllowAlliesInside = [Yes/No]
+    AllowEnemiesInside = [Yes/No]
+    AllowNeutralInside = [Yes/No]
+    DamagePercentToUnits = [percent]
+End
+
+OverchargeBehavior
+[-Module will display GUI:OverchargeExhausted when objects health is below specified percentage.
+ -Activates the use of the "EnergyBonus" object parameter.
+ -Allows this object to turn on or off the POWER_PLANT_UPGRADING and POWER_PLANT_UPGRADED Model ConditionState(s).
+ -Inflicts "PENALTY" damage to the parent object when the ability is active.]
+    HealthPercentToDrainPerSecond    = [percent] [% of max health to drain per second when in overcharge mode]
+    NotAllowedWhenHealthBelowPercent = [percent] [When the object's current health is below this, turn off overcharge bonus automatically]
+End
+
+
+OverlordContain
+[Like Transport, but when full, passes transport queries along to first passenger (redirects like tunnel)]
+    Slots = [integer]
+    DamagePercentToUnits = [percentage]
+    AllowInsideKindOf = [KindOf]
+    PassengersAllowedToFire = [Yes/No]
+    PassengersInTurret = [Yes/No]
+    ExperienceSinkForRider = [Yes/No]
+    WeaponBonusPassedToPassengers = [Yes/No]
+    PayloadTemplateName = [object name]
+    InitialPayload = [object name, integer] [multiple statements can be used]
+End
+
+
+ParkingPlaceBehavior
+[this module is used by FS_AIRFIELD KindOfs and if HasRunways is set then the model requires RunwayStartN, RunwayEndN, RunwayNPrepN, RunwayNParkingN and RunwayNParkNHan bones where N corrosponds to rows and columns. Module will only use the HeliPark01 bone for helicopters]
+    HealAmountPerSecond = [integer]
+    NumRows = [integer]
+    NumCols = [integer]
+    HasRunways = [Yes/No]
+    ApproachHeight = [integer]
+    ParkInHangars = [Yes/No]
+End
+
+PassengersFireUpgrade
+[Contain Modules should have the "PassengersAllowedToFire" parameter to "No" in order for this module to work -ZERO HOUR ONLY]
+    TriggeredBy   = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+End
+
+ParachuteContain
+[module hardcoded to utilize PARA_MAN, PARA_ATTACH and PARA_COG bones on contained object]
+    PitchRateMax = [integer] 
+    RollRateMax = [integer]
+    LowAltitudeDamping = [real number]
+    ParachuteOpenDist = [real number]
+    KillWhenLandingInWaterSlop = [Yes/No]
+    FreeFallDamagePercent = [percent]
+    AllowInsideKindOf  = [KindOf listing]
+    ForbidInsideKindOf = [KindOf listing]
+    ParachuteOpenSound = [entry from SoundEffects.INI]
+End
+
+ParticleUplinkCannonUpdate
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+
+    BeginChargeTime = [integer, milliseconds]
+    RaiseAntennaTime = [integer, milliseconds]
+
+    ReadyDelayTime = [integer, milliseconds]
+    WidthGrowTime = [integer, milliseconds]
+    BeamTravelTime = [integer, milliseconds]
+    TotalFiringTime  = [integer, milliseconds]
+
+    RevealRange = [integer]
+
+    OuterEffectBoneName = [bone name]
+    OuterEffectNumBones = [integer]
+    OuterNodesLightFlareParticleSystem = [entry from ParticleSystem.INI]
+    OuterNodesMediumFlareParticleSystem = [entry from ParticleSystem.INI]
+    OuterNodesIntenseFlareParticleSystem = [entry from ParticleSystem.INI]
+
+    ConnectorBoneName = [bone name]
+    ConnectorMediumLaserName = [entry from ParticleSystem.INI]
+    ConnectorIntenseLaserName = [entry from ParticleSystem.INI]
+    ConnectorMediumFlare = [entry from ParticleSystem.INI]
+    ConnectorIntenseFlare = [entry from ParticleSystem.INI]
+
+    FireBoneName = [bone name]
+
+    LaserBaseLightFlareParticleSystemName = [entry from ParticleSystem.INI]
+    LaserBaseMediumFlareParticleSystemName = [entry from ParticleSystem.INI]
+    LaserBaseIntenseFlareParticleSystemName = [entry from ParticleSystem.INI]
+
+    ParticleBeamLaserName = [entry from ParticleSystem.INI]
+    SwathOfDeathDistance = [real number]
+    SwathOfDeathAmplitude = [real number]
+    TotalScorchMarks = [integer]
+    ScorchMarkScalar = [real number]
+    BeamLaunchFX = [entry from FXList.INI]
+    DelayBetweenLaunchFX = [entry from FXList.INI]
+    GroundHitFX = [entry from FXList.INI]
+    DamagePerSecond = [integer]
+    TotalDamagePulses = [integer]
+    DamageType = [DamageType]
+    DamageRadiusScalar = [real number]
+
+    PoweringUpSoundLoop = [entry from SoundEffects.INI]
+    UnpackToIdleSoundLoop = [entry from SoundEffects.INI]
+    FiringToPackSoundLoop = [entry from SoundEffects.INI]
+    GroundAnnihilationSoundLoop = [entry from SoundEffects.INI]
+
+    DamagePulseRemnantObjectName = [object name]
+    ManualDrivingSpeed = [integer]
+    ManualFastDrivingSpeed = [integer]
+    DoubleClickToFastDriveDelay = [integer, milliseconds]
+End
+
+PhysicsBehavior
+[Allows the object to interact, tilt or define how heavy it is in the game world]
+    VehicleCrashesIntoNonBuildingWeaponTemplate = [Entry from Weapon.ini][If nothing defined, this is hardcoded to call the VehicleCrashesIntoBuildingWeapon weapon entry]
+    VehicleCrashesIntoBuildingWeaponTemplate    = [Entry from Weapon.ini][If nothing defined, this is hardcoded to call the VehicleCrashesIntoNonBuildingWeapon weapon entry]
+    Mass                     = [integer]   [NOTE: negative values (eg: -0.5) will cause the game to crash but you can do something like this: 0.00002, Default is 50]
+    ForwardFriction          = [integer]   [This countrols how many friction to apply when moving forward] 
+    ZFriction                = [integer]   [This countrols how many friction to apply when falling] 
+    LateralFriction          = [integer]   [This countrols how many friction to apply when moving sidewards] 
+    AerodynamicFriction      = [integer]   [Everything is perfectly aerodynamic by default (0), 1 means not, so this will slow down while in the air (>1 means REALLY not)]
+    CenterOfMassOffset       = [integer]   [Default of 0 means nothing tips as it falls.  Positive value tips forward, negative value tips backwards]
+    AllowBouncing            = [Yes/No]    [Is the Object allowed to bounce when impacting the ground?]  
+    AllowCollideForce        = [Yes/No]    [Allow Collide force when colliding to some object?]
+    KillWhenRestingOnGround  = [Yes/No]    [If Yes, Kill the object while on the ground, If No, Allows object to live when resting on the ground] 
+    MinFallHeightForDamage   = [integer]     [Minimum height from falling to inflict damage to ourselves]
+    FallHeightDamageFactor   = [real number] [how much damage to do when we fall?]
+    PitchRollYawFactor       = [real number]
+
+    [How much do we resist rolling, pitching and yawing when we're hit with a shockwave blast?
+     This part allows the use of the STUNNED and STUNNED_FLAILING Model ConditionState(s)]
+    ShockMaxRoll  = [Enter from 0.1 to 1.0, values are in reverse, 1.0 won't be resistant and 0.001 would be extremely resistant]
+    ShockMaxPitch = [same as above]
+    ShockMaxYaw   = [ditto]
+
+    [How resistant are we against a shockwave blast?]
+    ShockResistance = [Enter from 0.1 to 1.0, 0.10 would be 10% resistant while 1.0 is 100% resistant]
+End
+
+PilotFindVehicleUpdate
+[This update will have the pilot go find a "Friendly" vehicle To Enter, this feature is exclusive for AI only]
+    ScanRate = [integer, millisecond. Limit 2000]
+    ScanRange = [integer, milliseconds]
+    MinHealth = [Enter from 0.1 to 1.0, 0.10 would be 10% while 1.0 is 100%]
+                [If the vehicle is 0.5 or 50% healthy, The AI pilot will not entire the said vehicle he spotted]     
+End
+
+PointDefenseLaserUpdate
+    WeaponTemplate = [entry from Weapon.INI]
+    PrimaryTargetTypes = [KindOf]
+    SecondaryTargetTypes = [KindOf]
+    ScanRate = [integer, millisecond. Limit 2000]
+    ScanRange = [integer]
+    PredictTargetVelocityFactor = [real number]
+End
+
+PoisonedBehavior
+[Triggered when a weapon with a "POISON" DamageType shoots the said object with this module]
+    PoisonDamageInterval = [integer] [Every this many msec, I will retake the poison damage dealt me]
+    PoisonDuration = [milliseconds]  [for this long after last hit by poison damage]
+End
+
+PowerPlantUpdate
+[Allows this object to act as an (upgradeable) power supply,
+ Allows this object to use the POWER_PLANT_UPGRADING and POWER_PLANT_UPGRADED Model ConditionState(s)]
+    RodsExtendTime = [integer, milliseconds]
+End
+
+PowerPlantUpgrade
+[triggers use of "EnergyBonus" ("ExtraPower" in Original Generals) setting on this object to provide extra power]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+End
+
+PreorderCreate
+[no parameters - this module allows the use of the PREORDER ConditionState with this object which in turn is only triggered by presence of registry key 'Preorder' set to '1' in HKLM\Software\ElectronicArts\EAGames\Generals]
+End
+
+ProductionUpdate
+[module is required on an object that uses 'PublicTimer' code for any SpecialPower and/or required for units/structures with object upgrades]
+    MaxQueueEntries              = [integer]               [If Set to 1, you can't build multiple upgrades at the same time]
+    ConstructionCompleteDuration = [integer, milliseconds] [in mSeconds, wait time so if you have multiple units they don't run over each other]
+    QuantityModifier             = [object name,integer]   [Redguards uses this so they can comeout of the barracks in pairs]
+    DisabledTypesToProcess       = [disabled types list]
+
+[Allows the use of the DOOR_x_WAITING_OPEN, DOOR_x_CLOSING, DOOR_x_OPENING Model condition state]
+[X is from 1 to 4 since there's a hardcoded limit of four only]
+[NOTE: DoorOpeningTime also controls how long the produced unit HAVE TO WAIT before popped out, adding the build time of ALL units produced from this factory!]
+    NumDoorAnimations            = [integer, maximum is 4] [How many doors to use when unit training is complete?]
+    DoorOpeningTime              = [integer, milliseconds] [in mSeconds, how long the door is opening]
+    DoorWaitOpenTime             = [integer, milliseconds] [in mSeconds, time the door stays open after the unit exiting]
+    DoorCloseTime                = [integer, milliseconds] [in mSeconds, how long the door is closing]
+End
+
+ProjectileStreamUpdate
+[no parameters - this module allows the object to behave as a stream like water or other liquid ordinance and works with W3DProjectileStreamDraw]
+End
+
+ProneUpdate
+[this module allows the use of the PRONE ConditionState with this object]
+    DamageToFramesRatio = [real number]
+End
+
+PropagandaTowerBehavior
+[Allows this object that have this module to cast a healing aura to heal nearby units]
+    Radius                        = [real number]            [How far can we affect units?]
+    DelayBetweenUpdates           = [integer, milliseconds]  [How often to recheck the propaganda status (msec)
+    HealPercentEachSecond         = [percent]                [Give this unit % of max health every second] 
+    PulseFX                       = [entry from FXList.INI]  [Plays as often as DelayBetweenUpdates]
+    AffectsSelf                   = [yes/no]                 [Does the bonus affects the owner?]
+    UpgradeRequired               = [entry from Upgrade.INI] [What kind of upgrade do we need in order to increase our health bonus?]
+    UpgradedHealPercentEachSecond = [percent]                [Give this unit % of max health every second when upgraded]  
+    UpgradedPulseFX               = [entry from FXList.INI]  [Plays as often as DelayBetweenUpdates]
+End
+
+QueueProductionExitUpdate
+    UnitCreatePoint = [x: y: z:]
+    NaturalRallyPoint = [x: y: z:]
+    ExitDelay = [integer, milliseconds]
+    InitialBurst = [integer]
+End
+
+RadarUpgrade
+[triggers use of RadarUpdate module on this object if present and enables the Radar in the Commandbar]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    DisableProof = [Yes/No]
+End
+
+RadarUpdate
+[Allows the use of the RADAR_EXTENDING and RADAR_UPGRADED model conditionstate and enables the Radar in the Commandbar]
+    RadarExtendTime = [integer, milliseconds]
+End
+
+RadiusDecalUpdate
+[no parameters - this module allows use of a radius decal cursor from Mouse.INI on the objects weapon when not explicitly fired]
+End
+
+RailedTransportAIUpdate
+[Used on TRANSPORT KindOfs that follow a specific pre-defined waypoint path in a scripted manner]
+[The Evacuate buton should use the "EXECUTE_RAILED_TRANSPORT" Command Enum in order to evacuate properly]
+    PathPrefixName = [waypoint prefix name]
+End
+
+RailedTransportContain
+[Used on TRANSPORT KindOfs that follow a specific pre-defined waypoint path in a scripted manner]
+[The Evacuate buton should use the "EXECUTE_RAILED_TRANSPORT" Command Enum in order to evacuate properly]
+    Slots = [integer]
+    DamagePercentToUnits = [percentage]
+    AllowInsideKindOf = [KindOf listing]
+    ForbidInsideKindOf = [KindOf listing]
+    DoorOpenTime = [integer, milliseconds]
+    ScatterNearbyOnExit = [Yes/No]
+    DestroyRidersWhoAreNotFreeToExit = [Yes/No]
+    ResetMoodCheckTimeOnExit = [Yes/No]
+    OrientLikeContainerOnExit = [Yes/No]
+    KeepContainerVelocityOnExit = [Yes/No]
+End
+
+RailedTransportDockUpdate
+[defaults to docking with DOCKWAITING07 bone on destination object]
+    NumberApproachPositions = [integer]
+    PullInsideDuration = [integer, milliseconds]
+    PushOutsideDuration = [integer, milliseconds]
+    ToleranceDistance = [integer]
+End
+
+RailroadBehavior
+[requires object to follow waypoint path named as Tunnel, Disembark or Station with 'Start' and 'End' convention]
+    IsLocomotive = [Yes/No]
+    CrashFXTemplateName = [object name]
+    PathPrefixName = [waypoint path prefix name if different from default]
+    CarriageTemplateName = [object name, one entry required for each carriage, requires IsLocomotive = Yes]
+    BigMetalBounceSound = [entry from SoundEffects.INI]
+    SmallMetalBounceSound = [entry from SoundEffects.INI]
+    MeatyBounceSound = [entry from SoundEffects.INI]
+    RunningGarrisonSpeedMax = [integer]
+    KillSpeedMin = [integer]
+    SpeedMax = [integer, requires IsLocomotive = Yes]
+    WaitAtStationTime = [integer, milliseconds, requires IsLocomotive = Yes]
+    RunningSound = [entry from SoundEffects.INI, requires IsLocomotive = Yes]
+    ClicketyClackSound = [entry from SoundEffects.INI]
+    WhistleSound = [entry from SoundEffects.INI]
+    Friction = [real number]
+End
+
+ReplaceObjectUpgrade
+[Allows object to switch to a completely new object when upgraded]
+    TriggeredBy = [Entry(S) from upgrade.ini]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    ReplaceObject = [Object name]
+End
+
+RebuildHoleBehavior
+[Requires the "REBUILD_HOLE" Kind of on the object that will use this to work properly]
+    WorkerObjectName          = [object name]
+    WorkerRespawnDelay        = [integer, milliseconds]
+    HoleHealthRegen%PerSecond = [percentage]
+End 
+
+RebuildHoleExposeDie
+[requires the "object" stated on the HoleName Parameter to have the "REBUILD_HOLE" KindOF and RebuildHoleBehavior Module in order to work]
+    HoleName = [object name] 
+    HoleMaxHealth = [real number]
+    TransferAttackers = [Yes/No]
+    DeathTypes = [DeathTypes listing]
+    RequiredStatus = [status name]
+    ExemptStatus = [status name]
+End
+
+RepairDockUpdate
+[module is hardcoded to require DockWaitingN, DockEndN, DockActionN and DockStartN bones, where N should correspond to NumberApproachPositions]
+[requires REPAIR_PAD KindOf to work properly.]
+    TimeForFullHeal = [integer, milliseconds]
+    AllowsPassthrough = [Yes\No] 
+    NumberApproachPositions = [integer]
+End
+
+RiderChangeContain
+    [module requires ExitStartN and ExitEndN bones defined unless over-ridden by ExitBone definition and allows the use of SoundEnter And SoundExit ]
+    
+    [Description]
+    [A list of each valid rider that is allowed to ride this object. Each rider is
+    assigned a modelcondition state, a weaponset flag, an object status bit, and
+    a commandset override. The actual object is hidden inside the container so the 
+    visible rider is fluff. Also riders are deleted (not killed) when the bike is
+    destroyed, so all deaths must be OCLs on the bike -ZERO HOUR ONLY!]
+
+    [N  Takes number from 1 to 8]
+    RiderN                = [Object] [Model CondtionState] [WeaponSetCondition] [StatusBitType] [Entry From CommandSet.ini] [LocomotorSetType]
+    ScuttleDelay          = [integer, milliseconds]
+    ScuttleStatus         = [StatusBit Type]
+
+    
+    Slots                 = [integer}
+    DamagePercentToUnits  = [percentage]
+    AllowInsideKindOf     = [KindOf listing]
+    ForbidInsideKindOf = [KindOf listing]
+    ExitDelay = [integer, milliseconds]
+    NumberOfExitPaths = [integer, should corrospond to N]
+    GoAggressiveOnExit = [Yes/No]
+    ScatterNearbyOnExit = [Yes/No]
+    OrientLikeContainerOnExit = [Yes/No]
+    KeepContainerVelocityOnExit = [Yes/No]
+    BurnedDeathToUnits  = [Yes/No]
+    ExitPitchRate = [integer]
+    ExitBone = [bone name]
+    DoorOpenTime = [integer, milliseconds]
+    HealthRegen%PerSec = [percentage]
+    DestroyRidersWhoAreNotFreeToExit = [Yes/No]
+    ResetMoodCheckTimeOnExit = [Yes/No]
+    InitialPayload = [object name, integer] [multiple statements can be used]
+    ArmedRidersUpgradeMyWeaponSet = [Yes/No]
+    DelayExitInAir = [Yes/No]
+    EnterSound = [entry from SoundEffects.INI] ;SoundEnter Override
+    ExitSound = [entry from SoundEffects.INI]  ;SoundExit Override
+End
+
+SalvageCrateCollide
+ [module is hardcoded to apply the EXJunkCrate shadow texture to this object.] 
+ [triggers use of "VoiceSalvage" UnitSpecificSounds parameter on objects capable of picking this crate up.]
+ 
+    WeaponChance = [percent] [If we are WeaponSalvager, this is the chance we get a WeaponSet upgrade if not fully upgraded]
+    LevelChance  = [percent] [Either we are just a regular Salvager, or we are fully upgraded.  This is the chance we gain a level]
+    MoneyChance  = [percent] [This is the chance we get money.  Level + Money = 100%.  Weapon is an independant FirstChance]
+    MinMoney     = [integer] [If we get money, this is how much we get.  Make them different to get a random range]
+    MaxMoney     = [integer] [Same as above]
+
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+SabotagePowerPlantCrateCollide
+[When triggered, this module temporarily shuts down the power plant. Targeted objects needs to have 'FS_POWER' Kindof.]
+[module is hardcoded to play the SabotageBuildingPower sound definition when triggered]
+
+    SabotagePowerDuration = [real number]
+
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+SabotageSupplyDropzoneCrateCollide 
+[When triggered, this module steals cash from enemy players then gives it to the owning player who used this]
+[Targeted objects needs to have 'FS_SUPPLY_DROPZONE' Kindof.]
+
+    StealCashAmount = [real number]
+
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+SabotageSuperweaponCrateCollide
+[When triggered, this module resets enemy superweapon timers back to it's start point. Targeted objects needs to have 'FS_SUPERWEAPON' Kindof.]
+[module is hardcoded to play the SabotageBuilding  sound definition when triggered]
+
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+SabotageCommandCenterCrateCollide
+[When triggered, this module temporarily disables the command center. Targeted objects needs to have 'COMMANDCENTER' Kindof.]
+[module is hardcoded to play the SabotageBuilding  sound definition when triggered]
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+SabotageSupplyCenterCrateCollide
+[When triggered, this module steals cash from enemy players then gives it to the owning player who used this. Targeted objects needs to have 'FS_SUPPLY_CENTER' Kindof.]
+[module is hardcoded to play the SabotageBuilding  sound definition when triggered]
+    
+    StealCashAmount = [real number]
+
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+SabotageMilitaryFactoryCrateCollide
+[When triggered, this module temporarily disables the warfactory. Targeted objects needs to have 'FS_FACTORY' Kindof.]
+[module is hardcoded to play the SabotageBuilding  sound definition when triggered]
+
+    SabotageDuration = [real number]
+
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+SabotageFakeBuildingCrateCollide
+[When triggered, this module detonates the fake building, if it has any weapons, and gives it away to the player. Targeted objects needs to have 'FS_FAKE' Kindof.]
+[module is hardcoded to play the SabotageBuilding  sound definition when triggered]
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+SabotageInternetCenterCrateCollide
+[When triggered, this module temporarily disables the internet center. Targeted objects needs to have 'FS_INTERNET_CENTER' Kindof.]
+[module is hardcoded to play the SabotageBuilding  sound definition when triggered]
+
+    SabotageDuration = [real number]
+
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+ShroudCrateCollide 
+[no parameters - this module shrouds the entire map for the owner of the object that collides with this object. 
+Also triggers the 'CrateShroud' sound effect field in MiscAudio.ini]
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+SlavedUpdate
+[Requires to have 'DRONE' Kindof if you're using it for drone units]
+    GuardMaxRange                 = [integer]         [How far away from master I'm allowed when master is idle (doesn't wander)]
+    GuardWanderRange              = [integer]         [How far away I'm allowed to wander from master while guarding]
+    AttackRange                   = [integer]         [How far away from master I'm allowed when master is attacking a target]
+    AttackWanderRange             = [integer]         [How far I'm allowed to wander from target]
+    ScoutRange                    = [integer]         [How far away from master I'm allowed when master is moving]
+    ScoutWanderRange              = [integer]         [How far I'm allowed to wander from scout point]
+    StayOnSameLayerAsMaster       = [Yes/No]          [Do i stick to my master?] 
+    DistToTargetToGrantRangeBonus = [integer]         [How close I have to be to the master's target in order to grant master a range bonus]
+
+    [This part is hardcoded to trigger the "RepairSparks" Sound effect when it repairs it's master, the entry is found in SoundEffects.ini]
+    [This also automatically triggers the "SET_PANIC" LocomotorSet Type in order to move around faster when repairing]
+    RepairRange             = [integer]               [How far I can zip around while repair (only moves when he stops welding]
+    RepairMinAltitude       = [real number]           [My minimum repair hover altitude]
+    RepairMaxAltitude       = [real number]           [And my Maximum]
+    RepairRatePerSecond     = [integer]               [How many health points can I restore per second]
+    RepairWhenBelowHealth%  = [percent]               [How low should my master's health be (in %) before I should prioritize repairing and ignore enemy targets]
+    RepairMinReadyTime      = [integer, milliseconds] [What is my minimum delay time?]
+    RepairMaxReadyTime      = [integer, milliseconds] [And my max?]
+    RepairMinWeldTime       = [integer, milliseconds] [How much min delay do i need moving around and repairing per millisecond?
+    RepairMaxWeldTime       = [integer, milliseconds] [and my max delay]
+    RepairWeldingSys        = [entry from ParticleSystem.INI] [What particle system should i use when i'm repairing?]
+    RepairWeldingFXBone     = [bone name]             [And where to trigger the weld effect sparks?]
+End
+
+SlowDeathBehavior
+[The basic death module]
+    DeathTypes = [DeathType listing]
+    SinkRate = [real number]
+    ExemptStatus = [status name]
+    RequiredStatus = [status name]
+    ProbabilityModifier = [integer]
+    ModifierBonusPerOverkillPercent = [percent]
+    SinkDelay = [integer, milliseconds]
+    SinkDelayVariance = [integer]
+    DestructionDelay = [integer, milliseconds]
+    DestructionDelayVariance = [integer]
+    DestructionAltitude = [integer]
+    FlingForce = [integer]
+    FlingForceVariance = [integer]
+    FlingPitch = [integer]
+    FlingPitchVariance = [integer]
+    FX = [INITIAL/MIDPOINT/FINAL    entry from FXList.INI, multiple statements can be used]
+    OCL = [INITIAL/MIDPOINT/FINAL    entry from ObjectCreationList.INI, multiple statements can be used]
+    Weapon = [INITIAL/MIDPOINT/FINAL entry from Weapon.INI, multiple statements can be used]
+End
+
+SpawnBehavior
+[Allows object to spawn objects when triggered]
+    SpawnTemplateName = [object name, multiple entries can be used for multiple objects]
+    SpawnNumber = [integer]
+    SpawnReplaceDelay = [integer]
+    SpawnedRequireSpawner = [Yes/No]
+    OneShot = [Yes/No]
+    CanReclaimOrphans = [Yes/No]
+    AggregateHealth = [Yes/No]
+    ExitByBudding = [Yes/No]
+    InitialBurst = [integer]
+    SlavesHaveFreeWill = [Yes/No]
+End
+
+SpawnPointProductionExitUpdate
+    SpawnPointBoneName = [bone name]
+End
+
+SpecialAbility
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+    UpdateModuleStartsAttack = [Yes/No]
+    InitiateSound = [entry from SoundEffects.INI]
+    StartsPaused = [Yes/No, yes requires UnpauseSpecialPowerUpgrade module]
+End
+
+SpecialAbilityUpdate
+[this module  allows the use of PACKING and UNPACKING ConditionState(s)]
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+    StartAbilityRange = [real number]
+    AbilityAbortRange = [real number]
+    PreparationTime = [integer, milliseconds]]
+    PreTriggerUnstealthTime = [integer, milliseconds]
+    SkipPackingWithNoTarget = [Yes/No]
+    SpecialObject = [object name]
+    SpecialObjectAttachToBone = [bone name]
+    SpecialObjectsPersistent = [Yes/No]    
+    MaxSpecialObjects = [integer]
+    EffectDuration = [integer, milliseconds]
+    EffectValue = [integer]
+    UniqueSpecialObjectTargets = [Yes/No]
+    SpecialObjectsPersistWhenOwnerDies = [Yes/No]
+    AlwaysValidateSpecialObjects = [Yes/No]
+    FlipOwnerAfterPacking = [Yes/No]
+    FlipOwnerAfterUnpacking = [Yes/No]
+    FleeRangeAfterCompletion = [real number]
+    DisableFXParticleSystem = [entry from ParticleSystem.INI]
+    DoCaptureFX = [Yes/No]
+    PackSound = [entry from SoundEffects.INI]
+    UnpackSound = [entry from SoundEffects.INI]
+    PrepSoundLoop = [entry from SoundEffects.INI]
+    TriggerSound = [entry from SoundEffects.INI]
+    LoseStealthOnTrigger = [Yes/No]
+    AwardXPForTriggering = [integer]
+    SkillPointsForTriggering = [integer]
+    ApproachRequiresLOS = [Yes/No]
+    NeedToFaceTarget = [Yes/No]
+    UnpackTime = [integer, milliseconds]
+    PackTime = [integer, milliseconds]
+    PersistentPrepTime = [integer]
+    PersistenceRequiresRecharge = [Yes/No]
+End 
+
+SpecialPowerCreate
+[no parameters - this module forces the objects SpecialPower to start charging upon creation of the object - required by special powers that have PublicTimer = Yes]
+End
+
+SpecialPowerCompletionDie
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+End
+
+SpectreGunshipUpdate
+    SpecialPowerTemplate = [Entry from SpecialPower.INI]
+    GunshipOrbitRadius = [real number]     [Controls the total size of the AttackAreaDecal and also the area Radius in which the gunship encircles]
+    TargetingReticleRadius = [real number] [How big the TargetingReticleDecal is]
+    AttackAreaRadius = [real number]       [Total area radius in which the gunship can bombard]
+    OrbitTime = [milliseconds]             [How long does the gunship circle and bombard the targeted area]
+    OrbitInsertionSlope = [real number]    [How steep the gunship enters the target area]
+   
+    HowitzerWeaponTemplate = [Entry from Weapon.INI] 
+    HowitzerFiringRate = [milliseconds, default: 300ms] [Delay between shots of the howitzer cannon]
+    HowitzerFollowLag = [milliseconds]      [How long after gattling acquires target can howitzer shoot same]
+    RandomOffsetForHowitzer = [real number] [Howitzer weapon scatter radius, higher the less accurate the cannon is]
+ 
+    GattlingTemplateName = [Object Entry] [REQUIRED in order for the howitzer cannon to work]
+    GattlingStrafeFXParticleSystem = [entry from ParticleSystem.INI] [When the gattling cannon is firing, what particle effect to show as an bullet impact]
+    StrafingIncrement = [real number] [how far apart is each shot of the gattling as it strafes]
+    AttackAreaDecal
+      Texture = [texture name without file extension]
+      Style = [shadow style type]
+      OpacityMin = [percent]
+      OpacityMax = [percent]
+      OpacityThrobTime = [integer, milliseconds]
+      Color = [r: g: b: a:]
+      OnlyVisibleToOwningPlayer = [Yes/No]
+    End
+    TargetingReticleDecal
+      Texture = [texture name without file extension]
+      Style = [shadow style type]
+      OpacityMin = [percent]
+      OpacityMax = [percent]
+      OpacityThrobTime = [integer, milliseconds]
+      Color = [r: g: b: a:]
+      OnlyVisibleToOwningPlayer = [Yes/No]
+    End
+End
+
+SpectreGunshipDeploymentUpdate
+    SpecialPowerTemplate = [entry(s) from SpecialPower.ini
+    RequiredScience = [Entry From Science.ini]
+    GunshipTemplateName = [Object Entry]
+    AttackAreaRadius = [integer]
+    CreateLocation = [OCL CreationPointType List ]
+End
+
+SpyVisionUpdate
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    NeedsUpgrade  = [Yes/No]
+
+    SelfPowered = [Yes/No]
+    SelfPoweredDuration = [integer, Millisecond]
+    SelfPoweredInterval = [integer, Millisecond]
+    SpyOnKindof = [KindOf list] [DEFAULTS     Too all defined kindof]
+End
+
+SpyVisionSpecialPower
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+    BaseDuration = [integer, milliseconds]
+    StartsPaused = [Yes/No, yes requires UnpauseSpecialPowerUpgrade module]
+    
+    ;This part of this module is obsolete. It was originally used for the removed POW logic.
+    ;BonusDurationPerCaptured = [integer, milliseconds]
+    ;MaxDuration = [integer, milliseconds]
+End
+
+SquishCollide
+[no parameters - this module allows the object to use the SPLATTED death type and SPLATTED ConditionState - infantry only]
+End
+
+StatusBitsUpgrade
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RemovesUpgrades =  [entry(s) from Upgrade.INI, multiple "upgrade" entrys can be put here]
+    RequiresAllTriggers = [Yes/No]
+    StatusToSet = [status name]
+    StatusToClear = [status name]
+End
+
+SmartBombTargetHomingUpdate
+[this module dynamically adjust the "bomb" so it will drop to its designated target instead of missing it]
+    CourseCorrectionScalar = [real number] [ 1=no homing, 0=snapto; 0.99=smooth, 0.95=too-fast]
+End
+
+  
+StealthDetectorUpdate
+[module is hardcoded to display MESSAGE:StealthDiscovered when triggered]
+    DetectionRate            = [integer, milliseconds] [how often to rescan for stealthed things in my sight (msec)]
+    DetectionRange           = [integer, if not specified, Defaults to Object's VisionRange]  [how far can we scan for stealthed things?]
+    CanDetectWhileGarrisoned = [Yes/No] [Can i detect or scan for stealthed things when i'm garrisoned?]
+    CanDetectWhileContained  = [Yes/No] [Or loaded in a vehicle or structure?]
+    ExtraRequiredKindOf      = [KindOf] [If the unit have a particular kind of defined here, Detect and reveal it] [For an example on how this works, check the Dozers]
+    ExtraForbiddenKindOf     = [KindOf] [If the unit have a particular kind of defined here, Don't Detect and reveal it]
+    PingSound                = [entry from SoundEffects.INI]   [If scanning for stealthed items, play this]
+    LoudPingSound            = [entry from SoundEffects.INI]   [If we found stealthed items, play this]
+    IRParticleSysName        = [entry from ParticleSystem.INI] [Use this particle while we're scanning while doing nothing]
+    IRBrightParticleSysName  = [entry from ParticleSystem.INI] [Use this particle if we found stealthed things]
+    IRGridParticleSysName    = [entry from ParticleSystem.INI] [Use this particle to put a grid on the stealthed things we found]
+    IRBeaconParticleSysName  = [entry from ParticleSystem.INI] [Use this particle if we found stealthed things]
+    IRParticleSysBone        = [bone name]                     [Where to spawn the particle fx's]
+    InitiallyDisabled        = [Yes/No]                        [Used by strategy centers]
+End
+
+StealthUpdate
+[This module allows the use of SoundStealthOn and SoundStealthOff parameters on the object and is hardcoded to display MESSAGE:StealthNeutralized when the object has been discovered]
+    UseRiderStealth            = [Yes/No]                   [When used in a transport, do we use the passenger's stealth update instead of our own?]
+    StealthDelay               = [integer, milliseconds]    [How many millisecond does it need to trigger / retrigger our stealth?]
+    MoveThresholdSpeed         = [integer]
+    StealthForbiddenConditions = [Object Condition types]   [What object status that breaks our stealth ability?]
+    HintDetectableConditions   = [Status Bit types]         [What object status that gives hint to the enemy that we're here lurking?]
+    FriendlyOpacityMin         = [percentage]               [What's our minimum opacity when we fade in / out?]
+    FriendlyOpacityMax         = [percentage]               [What's our maximum opacity when we fade in / out?]
+    PulseFrequency             = [integer, milliseconds]    [How fast do we trigger the fade in / out effect?]
+    RevealDistanceFromTarget   = [real number]              [When attacking, how far away do we reveal ourselves to the enemy?]
+    OrderIdleEnemiesToAttackMeUponReveal = [Yes/No]         [Self explainatory]
+    ForbiddenStatus            = [Status Bit types]
+    RequiredStatus             = [Status Bit types]
+    InnateStealth              = [Yes/No]                   [If yes, stealth module is on by default. If no, requires upgrade first]
+        
+    EnemyDetectionEvaEvent     = [Entry from Eva.ini]
+    OwnDetectionEvaEvent       = [Entry from Eva.ini]
+    GrantedBySpecialPower      = [Yes/No]                   [Is our stealth ability only enabled when granted by a special power?]
+    BlackMarketCheckDelay      = [integer, milliseconds]
+
+    [Note: This part needs the DISGUISER KindOf defined on the object and 
+    [allows the use of DisguiseStarted and DisguiseRevealedSuccess 
+    [and DisguiseRevealedFailure within UnitSpecificSounds section of the object]
+    DisguisesAsTeam = [Yes/No]
+    DisguiseFX = [entry from FXList.INI]
+    DisguiseRevealFX = [entry from FXList.INI]
+    DisguiseTransitionTime = [integer, milliseconds]
+    DisguiseRevealTransitionTime = [integer, milliseconds]
+End
+
+StealthUpgrade
+[enables use of StealthUpdate module on this object, requires InnateStealth = No defined in the StealthUpdate module]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+End
+
+StickyBombUpdate
+[this module keeps this object attached properly to the intended target if the targetted object moves 
+and allows the use of UnitBombPing and StickyBombCreated within UnitSpecificSounds section of the object]
+       GeometryBasedDamageWeapon = [Entry from Weapon.ini][We add our bounding circle to the radius of this weapon, and damage people ourselves]
+       GeometryBasedDamageFX = [Entry from FXList.INI][And we modify our detonation fx here]
+End
+
+StructureBody
+[This is a Body module not a Behavior module. Used by objects with STRUCTURE and IMMOBILE KindOf's defined.]
+    MaxHealth = [integer]
+    InitialHealth = [integer
+    SubdualDamageCap = [integer]
+    SubdualDamageHealRate = [integer]
+    SubdualDamageHealAmount = [integer]
+End
+
+StructureCollapseUpdate
+[Allows Objects to collapse to the ground during death, uses RUBBLE state during collapse sequence and uses POST_COLLAPSE model state 
+ after finishing the collapsing sequence; Requires the GeometryHeight to know how deep the object will sink and finally stop the animation]
+
+    ExemptStatus = [StatusBits type]
+    MinCollapseDelay = [integer, milliseconds] [Min delay when to play the "DELAY" OCL or FX state effects]
+    MaxCollapseDelay = [integer, milliseconds] [Max delay of above]
+    CollapseDamping =  [-1 to 1]               [How much drag do we applly when freefalling during collapse? 1 means apply full drag, 0 means no drag, -1 freefall at full speed.]
+    MaxShudder = [real number]                 [How much do we shake when we collapse? 1.0 is parkisons disease levels]
+    MinBurstDelay = [integer, milliseconds]    [Min delay when to play the "BURST" OCL or FX state effects]
+    MaxBurstDelay = [integer, milliseconds]    [Max Delay of above]
+    BigBurstFrequency = [integer]              [How many BURST state do we play?]
+    OCL = [INITIAL/FINAL/DELAY/BURST entry from ObjectCreationList.INI, Multiple Statements can me made]
+    FXList = [INITIAL/FINAL/DELAY/BURST entry from FXList.INI,Multiple Statements can me made]
+End
+
+StructureToppleUpdate
+[Allows Objects to topple over to the ground during death, uses RUBBLE state during toppling sequence and uses POST_COLLAPSE model state 
+ after finishing the toppling sequence]
+    MinToppleDelay = [integer, milliseconds]
+    MaxToppleDelay = [integer, milliseconds]
+    MinToppleBurstDelay = [integer, milliseconds]
+    MaxToppleBurstDelay = [integer, milliseconds]
+    StructuralIntegrity = [real number]
+    StructuralDecay = [real number]
+    TopplingFX = [entry from FXList.INI]
+    ToppleDelayFX = [entry from FXList.INI]
+    ToppleStartFX = [entry from FXList.INI]
+    ToppleDoneFX = [entry from FXList.INI]
+    CrushingFX = [entry from FXList.INI]
+    CrushingWeaponName = [entry from Weapon.INI]
+    DamageFXTypes = [DamageTypes listing]
+    AngleFX = [real number entry from FXList.INI]
+End
+
+SubObjectsUpgrade
+[shows/hides sub-objects on this objects model via upgrading,works 
+ in tandem with the show/hide object fields on the draw module]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    ShowSubObjects = [sub object name(s)]
+    HideSubObjects = [sub object name(s)]
+End
+;-----------------------------
+[These set of modules requires the "SUPPLY_SOURCE"  and "SUPPLY_SOURCE_ON_PREVIEW" KindOf defined in order to properly work]
+SupplyCenterCreate
+[no parameters - this module ensures the object acts as a destination for collection of supplies]
+End
+
+SupplyCenterDockUpdate
+    NumberApproachPositions = [integer]
+    AllowsPassthrough       = [Yes/No]
+    GrantTemporaryStealth   = [integer] [Give temporary stealth to the harvester whenever created. Loses it when player order given.]
+End
+;-----------------------------
+SupplyCenterProductionExitUpdate
+[logic requires NaturalRallyPoint x: co-ordinate to match the object GeometryMajorRadius!]
+    UnitCreatePoint = [x: y: z:]
+     NaturalRallyPoint = [x: y: z:]
+    GrantTemporaryStealth = [integer/millisec]  [Give temporary stealth to the harvester whenever created. Loses it when player order given.]
+End
+
+SupplyTruckAIUpdate
+[This requires the object to have KindOf = HARVESTER]
+    MaxBoxes = [integer]
+    SupplyCenterActionDelay = [integer]
+    SupplyWarehouseActionDelay = [integer]
+    SupplyWarehouseScanDistance = [integer]
+    SuppliesDepletedVoice = [sound name from Voice.INI]
+    AutoAcquireEnemiesWhenIdle = [Yes/No][NOTWHILEATTACKING/ATTACK_BUILDINGS/STEALTHED]
+    MoodAttackCheckRate = [integer, milliseconds, default is 2000]
+    ForbidPlayerCommands =  [Yes/No]
+    TurretsLinked =[Yes/No]
+    Turret
+      [see AIUpdateInterface for full parameters]
+    End
+    AltTurret
+      [as above]
+    End
+End
+
+SupplyWarehouseCreate
+[no parameters - this module ensures the object acts as a source for collection of supplies. this modules requires the "SUPPLY_SOURCE" KindOf defined in order to properly work]
+End
+
+SupplyWarehouseCripplingBehavior
+[This modules requires the "SUPPLY_SOURCE" KindOf defined in order to properly work, Forces object to dynamically restore itself - module is triggered when object is REALLYDAMAGED or at 30% of MaxHealth]
+    SelfHealingSupression = [integer, milliseconds] [Time since last damage until I can start to heal]
+    SelfHealDelay = [integer, milliseconds]         [Once I am okay to heal, how often to do so]
+    SelfHealAmount = [integer]                      [And how much to restore my health points]
+End
+
+SupplyWarehouseDockUpdate
+[This modules requires the "SUPPLY_SOURCE" KindOf defined in order to properly work]
+    NumberApproachPositions = [integer]  [If set, Use DockWaitingN, DockEndN, DockActionN and DockStartN bones, where N should correspond to NumberApproachPositions] 
+                                         [If -1 is set, anyone can approch this without using any docking bones]
+    AllowPassthrough        = [Yes/No]   [Should we allow harvesters to go thru?]
+    StartingBoxes           = [integer]  [Even if you use a script to set the cash value, this will determine graphically what "full" is]
+    DeleteWhenEmpty         = [Yes/No]   [Delete Supply Resource if depleted]
+End
+
+SwayClientUpdate
+[no parameters, this module is a ClientUpdate not a Behavior.
+ Allows object to randomly sway if enabled in GameData.INI or allowed by LOD specific settings.
+ Sway options can be edited via Map scripting using the "Set wind sway amount and direction" Script]
+End
+
+TechBuildingBehavior
+[Objects with TECH_BUILDING Kindof requires this module]
+    PulseFX = [entry from FXList.INI]
+    PulseFXRate = [integer, milliseconds]
+End
+
+TensileFormationUpdate
+[allows object to share dynamic formation - if not enabled then damage to this object will affect all nearby objects that have this module, otherwise damage only affects this object]
+    Enabled = [Yes/No]
+    CrackSound = [entry from SoundEffects.INI]
+End
+
+ToppleUpdate
+[Will only trigger when the unit colliding with this object has at least {CrusherLevel = 2}]
+    ToppleFX = [entry from FXList.INI]  [FX played at the start of the toppling sequence]
+    BounceFX = [entry from FXList.INI]  [FX played when hitting the ground]
+    StumpName = [object name]           [What object to spawn while we're toppling?]
+    KillWhenStartToppling = [Yes/No]    [Is the object considered dead right from the beginning of the toppling process?]
+    KillWhenFinishedToppling = [yes/no] [Or does the object dies just after it topples over completely?]
+    KillStumpWhenToppled = [Yes/No]     [Once we've toppled, do we also kill the spawned stump as well?]
+    ToppleLeftOrRightOnly = [Yes/No]    [Do we topple in the left and right direction only?]
+    ReorientToppledRubble = [Yes/No]    
+    InitialVelocityPercent = [percent, default is 1%] [How fast do we topple over?]
+    InitialAccelPercent = [percent,default is 1%]     [How fast do we accelerate when toppling over?]
+    BounceVelocityPercent = [percent, default is 30%] [How bouncey are we when we impact the ground?]
+End
+
+TransitionDamageFX
+[N takes numbers from 1-12]
+    DamagedFXListN = [Loc:{x: y: z:} FXList:{entry from FXList.INI}]
+    DamagedParticleSystemN = [bone:{name} RandomBone:{Yes/No} PSys:{entry from ParticleSystem.INI}]
+    DamagedOCLN = [Loc:{x: y: z:} OCL:{entry from ObjectCreationList.INI}]
+
+    ReallyDamagedFXListN = [Loc:{x: y: z:} FXList:{entry from FXList.INI}]
+    ReallyDamagedOCLN = [Loc:{x: y: z:} OCL:{entry from ObjectCreationList.INI}]
+    ReallyDamagedParticleSystemN = [bone:{name} RandomBone:{Yes/No} PSys:{entry from ParticleSystem.INI}]
+
+    RubbleFXListN = [Loc:{x: y: z:} FXList:{entry from FXList.INI}]
+    RubbleOCLN = [Loc:{x: y: z:} OCL:{entry from ObjectCreationList.INI}]
+    RubbleParticleSystemN = [bone:{name} RandomBone:{Yes/No} PSys:{entry from ParticleSystem.INI}]
+End
+
+
+TransportAIUpdate
+[used on TRANSPORT KindOfs that contain other objects - see AIUpdateInterface Module for all associated parameters]
+End
+
+
+TransportContain
+[Module requires ExitStartN and ExitEndN bones defined unless over-ridden by ExitBone definition,
+ Allows the use of SoundEnter And SoundExit UnitSpecificSounds,
+ Needs TransportAIUpdate module and TRANSPORT Kindof in order to work efficiently, but can be still used even without those two parameters. ]
+    Slots = [integer]
+    DamagePercentToUnits = [percentage]
+    AllowInsideKindOf = [KindOf listing]
+    ForbidInsideKindOf = [KindOf listing]
+    AllowAlliesInside = [Yes/No] 
+    AllowNeutralInside = [Yes/No]
+    AllowEnemiesInside = [Yes/No]
+    ExitDelay = [integer, milliseconds]
+    NumberOfExitPaths = [integer, should corrospond to N]
+    GoAggressiveOnExit = [Yes/No]
+    ScatterNearbyOnExit = [Yes/No]
+    OrientLikeContainerOnExit = [Yes/No]
+    KeepContainerVelocityOnExit = [Yes/No]
+    BurnedDeathToUnits  = [Yes/No]
+    ExitPitchRate = [integer]
+    ExitBone = [bone name]
+    DoorOpenTime = [integer, milliseconds]
+    HealthRegen%PerSec = [percentage]
+    DestroyRidersWhoAreNotFreeToExit = [Yes/No]
+    ResetMoodCheckTimeOnExit = [Yes/No]
+    InitialPayload = [object name, integer] [multiple statements can be used]
+    ArmedRidersUpgradeMyWeaponSet = [Yes/No]
+    DelayExitInAir = [Yes/No]
+    EnterSound = [entry from SoundEffects.INI] ;SoundEnter Override
+    ExitSound = [entry from SoundEffects.INI]  ;SoundExit Override
+    WeaponBonusPassedToPassengers = [Yes/No]
+    PassengersAllowedToFire = [Yes/No]
+End
+
+TunnelContain
+[Allows object to enter tunnels and exit to other tunnels of the same type. 
+Tunnel capacity is controlled by 'MaxTunnelCapacity' entry located in GameData.ini]
+    TimeForFullHeal = [integer, in milliseconds)
+    EnterSound = [entry from SoundEffects.INI] ;SoundEnter Override
+    ExitSound = [entry from SoundEffects.INI]  ;SoundExit Override
+    NumberOfExitPaths = [integer, should corrospond to N]
+    AllowAlliesInside = [Yes/No] 
+    AllowNeutralInside = [Yes/No]
+    AllowEnemiesInside = [Yes/No]
+    ExemptStatus = [StatusBits type]
+End
+  
+UndeadBody 
+[Body module that treats the first death as a state change. 
+Allows the use of SECOND_LIFE Model condition state and SECOND_LIFE ArmorSet type and the BattleBusSlowDeathBehavior module - ZEROHOUR ONLY]
+    MaxHealth           = [integer]
+    InitialHealth       = [integer]
+    SecondLifeMaxHealth =[integer]
+    SubdualDamageCap = [integer]
+    SubdualDamageHealRate = [integer]
+    SubdualDamageHealAmount = [integer]
+End
+
+UnitCrateCollide
+[A crate module that allows to spawn free vehicles once it gets picked up
+Also triggers the 'CrateFreeUnit' sound effects field in MiscAudio.ini]
+    UnitCount = [integer]
+    UnitName = [object name]
+    
+    RequiredKindOf    = [KindOf]   [What KindOf type is needed to allow us to be picked up]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+UnpauseSpecialPowerUpgrade
+[Unlocks the special power of the owning object if he gets upgraded]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+    SpecialPowerTemplate = [entry from SpecialPower.INI]
+End
+
+UpgradeDie
+[This frees the object based upgrade for the producer object]
+[NOTE: the Module tag name and Upgrade Name you will define in the "UpgradeToRemove" tag should be the exact upgrade name or your game will crash]
+    DeathTypes = [DeathTypes listing]
+    UpgradeToRemove = [entry from Upgrade.INI moduletag name, 
+    RequiredStatus = [StatusBits type]
+    ExemptStatus = [StatusBits type]
+End
+
+VeterancyGainCreate
+[Module that instantly promotes a unit once triggered at start or via a Science special power]
+    StartingLevel = [Veterancy Level List]
+    ScienceRequired = [entry from Science.INI]
+End
+
+VeterancyCrateCollide
+[ Gives a veterancy, if trainable, when picked up  within the 'EffectRange' radius.]
+    EffectRange        = [real number][ 0 range affects only the object that collides with this]
+    AddsOwnerVeterancy = [Yes/No]     [do we add our own veterancy to the target (rather than just +1 level)?]
+    IsPilot            = [Yes/No]     [ do extra checks instead of being an ordinary crate]
+    
+    RequiredKindOf    = [KindOf]   [What 'KindOf' class we want to affect?]
+    ForbiddenKindOf   = [KindOf]   [What 'KindOf' type we dont allow to pick us?]
+    ForbidOwnerPlayer = [Yes/No]   [Works with OwnedByMaker (or by explicit ownership script) to prevent a certain player from picking up the crate]
+    HumanOnly         = [Yes/No]   [Let's the crate only be picked up by Humans, mostly for scripted stuff]
+    BuildingPickup    = [Yes/No]                  [Allows the crate to be picked up by a building. Example: Plane drops..]
+    PickupScience     = [Entry from Science.INI]  [Forces the player owning the unit trying to get the crate to have a certain science.]
+
+    ExecuteFX = [entry from FXList.INI]
+    ExecuteAnimation = [entry from Animation2D.INI]
+    ExecuteAnimationTime = [real number, seconds]
+    ExecuteAnimationZRise = [integer, units per second to rise]
+    ExecuteAnimationFades = [Yes/No]
+End
+
+WanderAIUpdate
+[no parameters - this module allows this object to move randomly about its point of origin using a SET_WANDER locomotor]
+End
+
+WaveGuideUpdate
+[module is hardcoded to use the following particle system definitions: WaveSpray03, WaveSpray02, WaveSpray01, WaveSplashRight01, WaveSplashLeft01, WaveHit01, WaveSplash01 
+and also uses the WaterWaveBridge object definition as a template when it collides with a bridge.
+Requires a WAVEGUIDE KindOf]
+    WaveDelay                  = [integer, milliseconds] ;Delay before the wave starts moving.
+    YSize                      = [real number]           ;Wave size in Y-Axis Orientation.
+    LinearWaveSpacing          = [real number]           ;Linear waves get pushed up at these intervals across.
+    WaveBendMagnitude          = [real number]           ;Shape of wave (larger # = more flat and 0 = straight line).
+    WaterVelocity              = [real number]           ;In dist per sec, velocity to "push up" the water.
+    PreferredHeight            = [real number]           ;Water level we want to be after the wave.
+    ShorelineEffectDistance    = [real number]           ;This far behind the wave we "hit" the shores.
+    DamageRadius               = [real number]           ;Damage things this far from us waves.
+    DamageAmount               = [integer]               ;Do this much damage to the objects in our path.
+    ToppleForce                = [real number]           ;Force strength we topple things within our path.
+    RandomSplashSound          = [entry from SoundEffects.INI]   ;What kind of sound we play when we randomly splashes around
+    RandomSplashSoundFrequency = [integer]                       ;Every so often a # from 1-100 is chosen, if above this number the sound will play
+    BridgeParticle             = [entry from ParticleSystem.INI] ;Particle system when wave hits a bridge
+    BridgeParticleAngleFudge   = [floating point number]         ;Angle to offset the bridge particle angle
+    LoopingSound               = [entry from SoundEffects.INI]   ;What sound do we play while we're wrecking havoc?
+End
+
+WeaponBonusUpgrade
+[Triggers use of WeaponBonus = parameter on this objects weapons]
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+End
+
+WeaponBonusUpdate
+[Temporarily triggers use of a certain WeaponBonus. Weapon Bonus list is found in Gamedata.ini.  -ZERO HOUR ONLY]
+    RequiredAffectKindOf = [Kindof]            ; what kindof we allow so it will get affected by the "temp" weapon bonus?
+    ForbiddenAffectKindOf = [Kindof]           ; what kindof we forbid so it will not get affected by the "temp" weapon bonus?
+    BonusDuration = [milliseconds]               ; How long effect lasts,ms
+    BonusDelay = [integer]                       ; How often to pulse (short lifetime will trump, of course)
+    BonusRange = [integer]                     ; Keep in line with radius cursor size in special power template
+    BonusConditionType = [Weapon Bonus List]   ; And which bonus to give
+End
+
+WeaponSetUpgrade
+[Triggers use of the following:
+ -'PLAYER_UPGRADE' WeaponSet type
+  'WeaponUpgradeSound'  UnitSpecificSounds parameter
+  'WEAPONSET_PLAYER_UPGRADE' ConditionState]
+  
+    TriggeredBy = [entry(s) from Upgrade.INI]
+    FXListUpgrade = [entry from FXList.INI]
+    ConflictsWith = [entry(s) from Upgrade.INI]
+    RequiresAllTriggers = [Yes/No]
+End
+
+WorkerAIUpdate
+[this modules makes the object behave both like a harvester and a builder unit; requires both "HARVESTER" and "DOZER" kindof type to work properly.
+ this module allows the use of following parameters:
+ "VoiceRepair", "VoiceBuildResponse", "VoiceSupply", "VoiceNoBuild" and "VoiceTaskComplete" within UnitSpecificSounds section of the object,
+ "MINE_CLEARING_DETAIL" WeaponSet ConditionType] 
+    RepairHealthPercentPerSecond = [percent]
+    BoredTime = [integer, milliseconds]
+    BoredRange = [integer]
+    MaxBoxes = [integer]
+    AutoAcquireEnemiesWhenIdle = [Yes/No]
+    UpgradedSupplyBoost  = [integer] 
+    SupplyCenterActionDelay = [integer]
+    SupplyWarehouseActionDelay = [integer]
+    SupplyWarehouseScanDistance = [integer]
+    SuppliesDepletedVoice = [sound name from Voice.INI]
+End
+
+;--------------------------------------------
+;--------------------------------------------
+W3D Draw Modules:
+NOTE: Draw modules should ALWAYS Be on the beginning of the object code in order to appear properly in Worldbuilder and/or ingame]
+;--------------------------------------------
+;--------------------------------------------
+W3DDebrisDraw
+[no parameters - special case draw module used by ObjectCreationList.INI when using the CreateDebris code which defaults to calling the GenericDebris object definition as a template for each debris object generated]
+End
+
+W3DDefaultDraw
+[no parameters - all world objects should use a draw module, this module is employed where an object should never actually be drawn due either to the nature or type of the object or because its drawing is handled by other logic, e.g. bridges]
+End
+
+W3DDependencyModelDraw
+[special case draw module which is interdependent with the W3DOverlordTankDraw and the W3DOverlordAirCraftDraw and the W3DOverlordTruckDraw module(s)]
+    [see W3DModelDraw module for associated parameters]
+    AttachToBoneInContainer = [bone name from object in W3DOverlordTankDraw module]
+End
+
+W3DModelDraw
+      DefaultConditionState [OR, ConditionState = NONE]
+        Model = [W3D model filename]
+        
+        [Weapon Bone Settings]
+        WeaponRecoilBone   = [Weapon Slot list, bone name, multiple statements can be used]
+        WeaponFireFXBone   = [Weapon Slot list, bone name, multiple statements can be used]
+        WeaponMuzzleFlash  = [Weapon Slot list, bone name, multiple statements can be used]
+        WeaponLaunchBone   = [Weapon Slot list, bone name, multiple statements can be used]
+        WeaponHideShowBone = [Weapon Slot list, bone name]
+
+        [Model Animation Settings]
+        ; there is a new, OPTIONAL number following the animation. (remember, only ONE number)
+        ; it represents the distance that a single loop the animation would
+        ; cover. (ie, maybe it has the solder taking three strides, for a 
+        ; distance of 30 or so)
+        ;
+        ; Animation = DUDEANIM_SKN.DUDEANIM_RKROL 32 ;<- the distance modifier
+        ;
+        ; how to tweak the number:
+        ;   -- "skidding"?          reduce the number
+        ;   -- "running in place"?  increase the number
+        ;
+        Animation = [model animation name, integer] [multiple statements can be used]
+        AnimationSpeedFactorRange = [integer, integer] [default: 1.0 1.0]
+        ;
+        ; if there are multiple idle animations exist, they will be played IN EXACT ORDER from top to bottom.
+        ; adding TWO OPTIONAL numbers after the animation name allows it to be played more than once in the loop.
+        ;
+        ;  IdleAnimation = DUDEANIM_SKN.DUDEANIM_STA 0 30
+        ;
+        ; this will make this idle animation played up to 30 times before continuing to the next idle animation.
+        ; if you put the first value to 3 it will be played at least three times, 0 makes it possible to be skipped.
+        ; this is useful if you want certain idle animation to be played more often than the other idle animations.
+        ;
+        IdleAnimation = [model animation name, integer, integer] [multiple statements can be used]
+        AnimationMode = [Animation Mode Types]
+        TransitionKey = [TransitionKey name]
+        Flags = [AnimationFlag types list]
+        WaitForStateToFinishIfPossible = [transition state]
+        
+        [Turret Settings - this is related to the AIUpdate modules]
+        Turret = [sub object name]
+        TurretArtAngle = [integer]
+        TurretPitch = [sub object name]
+        TurretArtPitch = [integer]
+        AltTurret = [sub object name]
+        AltTurretArtAngle = [integer]
+        AltTurretArtPitch = [integer]
+        AltTurretPitch = [sub object name]
+        
+        [Misc Settings]
+        ShowSubObject = [sub object name(s)]
+        HideSubObject = [sub object name(s)]
+        ParticleSysBone = [Bone name  Entry from ParticleSystem.INI, multiple statements can be used]
+    End
+    
+    ConditionState = [ConditionState name, multiple statements can be made]
+        [as above]
+    End
+    
+    TransitionState = [FromTransitionKey name ToTransitionKeyName, viceversa]
+        [as above]
+    End
+    ; AliasConditionState is a  keyword that says,
+    ; "give me another ConditionState exactly like the previous
+    ; one, except with different conditions". Useful when you
+    ; have several states that are the same with only different condition bits.
+    AliasConditionState = [ConditionState, multiple statements can be made]
+
+    ; this says "we don't use these condition states at all, so completely
+    ; ignore them for purposes of matchmaking"... this is useful to help
+    ; reduce the number of AliasConditionState clauses you must add in
+    ; order to avoid ambiguity in some cases.
+    IgnoreConditionStates = [Condition State Names]
+
+    [Misc Settings]
+    AnimationsRequirePower  = [Yes/No]                 [Does our animation needs power in order to work?] 
+    MinLODRequired          = [LOD listing]            [Whats the minimum Level of detail required we need to show up ingame?]
+    OkToChangeModelColor    = [Yes/no]                 [Set to yes in order for team colour models to work]
+    ReceivesDynamicLights   = [Yes/no]                 [If Yes, light pulse codes in FXList.ini will cast lights on the model]
+    ParticlesAttachedToAnimatedBones   = [Yes/No]      [alternative to "AnimatedParticleSysBoneClientUpdate" module - ZEROHOUR Only!]
+    ExtraPublicBone                    = [bone name]   [ multiple entries can be used for additional bones to expose to logic]
+    ProjectileBoneFeedbackEnabledSlots = [Weapon Slot list]     [ WeaponLaunchBone will be shown/hidden, not just used for firing offset]
+    TrackMarks                         = [texture filename with file extension]
+    AttachToBoneInAnotherModule        = [bone name]
+
+    [Controls how fast and deep the barrel recoils - this is related to the AIUpdate modules]
+    InitialRecoilSpeed = xx  [how fast does the barrel pushes back into the turret? [default: 80]]
+    MaxRecoilDistance = xx   [how far does the barrel pushes back into the turret? [corresponds to 3d X-angle, default: 3.0]
+    RecoilSettleSpeed = xx   [after recoiling, how fast does the barrel go back into it's original position? [default: 3.0]]
+    RecoilDamping = xx       [stiffness of the recoil springs? 1.0 = recoil will have some resistance, less than 1.0 = recoil faster.]
+End 
+
+W3DOverlordTankDraw
+[special case draw module which is interdependent with the W3DDependencyModelDraw module - allows other objects to be attached to this object through use of AttachToBoneInContainer logic]
+    [see W3DModelDraw module for associated parameters]
+    
+    [Controls how fast the treads will move or stop]
+    TreadDriveSpeedFraction = [real number, default is 0.3]
+    TreadPivotSpeedFraction = [real number, default is 0.6]
+    TreadAnimationRate = [real number, default is 0]
+
+    TreadDebrisLeft    = [Entry From ParticleSystem.ini]
+    TreadDebrisRight   = [Entry From ParticleSystem.ini]
+
+    [Controls how fast and deep the barrel recoils - this is related to the AIUpdate modules]
+    InitialRecoilSpeed = xx  [how fast does the barrel pushes back into the turret? [default: 80]]
+    MaxRecoilDistance = xx   [how far does the barrel pushes back into the turret? [corresponds to 3d X-angle, default: 3.0]
+    RecoilSettleSpeed = xx   [after recoiling, how fast does the barrel go back into it's original position? [default: 3.0]]
+    RecoilDamping = xx       [stiffness of the recoil springs? 1.0 = recoil will have some resistance, less than 1.0 = recoil faster.]
+End
+
+W3DOverlordAircraftDraw
+[special case draw module which is interdependent with the W3DDependencyModelDraw module - allows other objects to be attached to this object through use of AttachToBoneInContainer logic]
+    [see W3DModelDraw module for associated parameters]
+End
+
+W3DOverlordTruckDraw
+[special case draw module which is interdependent with the W3DDependencyModelDraw module - allows other objects to be attached to this object through use of AttachToBoneInContainer logic]
+    [see W3DModelDraw and W3DTruckDraw module for associated parameters]
+End
+
+W3DLaserDraw
+[this module is interdependent with the LaserUpdate module and requires the object to have KindOf = INERT IMMOBILE]
+    Texture              = [texture filename with file extension, defaults to EXLaser.tga]
+    NumBeams             = [integer]    [Number of overlapping cylinders that make the beam. 1 beam will just use inner data]
+    InnerBeamWidth       = [real number][The total width of the inner beam]
+    OuterBeamWidth       = [real number][The total width of the outer beam] 
+    InnerColor           = [r: g: b: a:][The inside color of the laser (hot)] 
+    OuterColor           = [r: g: b: a:][The outside color of the laser (cool)]
+    MaxIntensityLifetime = [milliseconds] [Laser stays at max intensity for specified time in ms]
+    FadeLifetime         = [milliseconds] [How long will the Laser last before it fades out and delete itself]
+    Tile                 = [Yes/No]     [The height of the texture will determine how many times to tile the texture to fit without scaling]
+    Segments             = [integer]    [Number of segments -- more segments give smoother curve (but more joints) Current max: 20]
+    SegmentOverlapRatio  = [real number][This value overlaps(+) or separates(-) the segments by ratio]
+    ArcHeight            = [real number][The height of the arc]
+    TilingScalar         = [real number][Stretches tiling if value > 1.0, otherwise shrinks it (1.0 is natural)]
+End
+
+
+W3DPoliceCarDraw
+[This module allows for the use of the FRONTCRUSHED and BACKCRUSHED ConditionStates with this object]
+[And this modules allows the object to cast a ambient light around itself]
+    [see W3DModelDraw module for associated parameters]
+End
+
+W3DTreeDraw
+[The W3DTreeDraw handles normal drawing and sway, and knock over behavior.
+   Normally this happens in the W3DTreeBuffer, and there is no corresponding drawable or
+   object. Required to have KindOf OPTIMIZED_TREE  -ZEROHOUR ONLY]
+[Note: 
+Objects with this Module will not properly appear in Worldbuilder if your texture is NOT in Art/Terrain folder and your model in Art/W3D Folder;
+The texture should be in targa (.tga) and not in DirectDraw Surface (.dds) format in order for it to work.]
+        ModelName          = [Model Name]  
+        TextureName        = [Model's texture name with file extension. example: imacrappytree.tga]
+        MinimumToppleSpeed = [percent, default is 1%]
+        DoTopple           = [yes/no]
+        DoShadow           = [yes/no]
+        ToppleFX           = [Entry From FXList.ini]
+        BounceFX           = [Entry From FXList.ini]
+        KillWhenFinishedToppling = [yes/no]
+        SinkDistance       = [real number]
+        SinkTime           = [milliseconds]
+        DarkeningFactor    = [milliseconds]
+        MoveInwardTime     = [milliseconds]
+        MoveOutwardTime    = [milliseconds]
+        MoveOutwardDistanceFactor = [real number]
+End
+
+W3DPropDraw
+[When used, it will not interact to the game world and will just act as a none interacting prop which ignores geometry and other behavior modules.  
+Can be cleared by building on top of the object. -Requires PROP KindOf]
+[Note: Objects with this Module will not properly appear in WorldBuilder since there's a bug EA apparently left -ZEROHOUR ONLY]
+        ModelName = [Model Name]  
+End
+
+W3DProjectileStreamDraw
+[requires object to have KindOf = INERT and requires "ProjectileStreamUpdate" module to properly work]
+    Texture = [texture filename with file extension]
+    Width = [real number]
+    TileFactor = [integer]
+    ScrollRate = [real number]
+    MaxSegments = [integer]
+End
+
+W3DRopeDraw
+[no parameters - this module requires the object to be KindOf = DRAWABLE_ONLY]
+End
+
+W3DScienceModelDraw
+[special case draw module that allows object to be seen only by players who have the RequiredScience]
+    [see W3DModelDraw module for associated parameters]
+    RequiredScience = [entry from Science.INI]
+End
+
+
+W3DSupplyDraw
+[this module is interdependant with the SupplyWarehouseDockUpdate module and together the two modules will automatically show and hide a percentage of the bones on the object that have the SupplyBonePrefix]
+    [see W3DModelDraw module for associated parameters]
+    SupplyBonePrefix = [bone name]
+End
+
+
+W3DTankDraw
+[Default Draw used by Tanks. The module is hardcoded to call for the TrackDebrisDirtRight and TrackDebrisDirtLeft particle system definitions]
+see W3DModelDraw module for associated parameters]
+
+    [Controls how fast the treads will move or stop]
+    TreadDriveSpeedFraction = [real number, default is 0.3]
+    TreadPivotSpeedFraction = [real number, default is 0.6]
+    TreadAnimationRate = [real number, default is 0]
+
+    [NOTE: This doesnt properly work with the "W3DTankTruckDraw" Draw module]
+    TreadDebrisLeft      = [Entry From ParticleSystem.ini]
+    TreadDebrisRight     = [Entry From ParticleSystem.ini]
+    
+    [Controls how fast and deep the barrel recoils - this is related to the AIUpdate modules]
+    InitialRecoilSpeed = [integer, default: 2.0] 
+    MaxRecoilDistance = [integer, default: 3.0]
+    RecoilDamping = [integer, default: 0.4]
+    RecoilSettleSpeed = [integer, default: 0.065]
+End
+
+
+W3DTankTruckDraw
+[special case module that allows parameters from W3DTankDraw and W3DTruckDraw to be used - effectively this is a module that combines the other two]
+[This can be useful for half track type units]
+    [see W3DModelDraw module for associated parameters]
+    
+    [Controls how fast the treads will move or stop]
+    TreadDriveSpeedFraction = [real number, default is 0.3]
+    TreadPivotSpeedFraction = [real number, default is 0.6]
+    TreadAnimationRate = [real number, default is 0]
+
+    [Controls how fast and deep the barrel recoils - this is related to the AIUpdate modules]
+    InitialRecoilSpeed = [integer, default: 2.0] 
+    MaxRecoilDistance = [integer, default: 3.0]
+    RecoilDamping = [integer, default: 0.4]
+    RecoilSettleSpeed = [integer, default: 0.065]
+    
+    [Controls the attached "cab" model on the vehicle]
+    RotationDamping = [real number]
+    TrailerRotationMultiplier = [real number]]
+    TrailerBone = [bone name]
+    CabRotationMultiplier = [real number]
+    CabBone = [bone name]
+    
+    [Wheels setup]
+    PowerslideRotationAddition = [real number]
+    TireRotationMultiplier = [real number]
+    MidRightMidTireBone = [bone name]
+    MidLeftMidTireBone = [bone name]
+    MidRightRearTireBone = [bone name]
+    MidLeftRearTireBone = [bone name]
+    MidRightFrontTireBone = [bone name]
+    MidLeftFrontTireBone = [bone name]
+    RightRearTireBone = [bone name]
+    LeftRearTireBone = [bone name]
+    RightFrontTireBone = [bone name]
+    LeftFrontTireBone = [bone name]
+    
+    [Dust Spray setup]
+    PowerslideSpray = [entry from ParticleSystem.INI]
+    DirtSpray = [entry from ParticleSystem.INI]
+    Dust = [entry from ParticleSystem.INI]
+End
+
+W3DTracerDraw
+[no parameters - this module requires object to be KindOf = DRAWABLE_ONLY]
+End
+
+W3DTruckDraw
+[module is hardcoded to call for the TreadDebrisRight and TreadDebrisLeft (unless overriden) particle system definitions 
+and allows use of TruckPowerslideSound and TruckLandingSound within the UnitSpecificSounds section of the object 
+- this module also includes automatic logic for showing and hiding of HEADLIGHT bones in and out of the NIGHT ConditionState]
+    [see W3DModelDraw module for associated parameters]
+
+    [Controls the attached "cab" model on the vehicle]
+    RotationDamping = [real number]
+    TrailerRotationMultiplier = [real number]]
+    TrailerBone = [bone name]
+    CabRotationMultiplier = [real number]
+    CabBone = [bone name]
+    
+    [Wheels setup]
+    PowerslideRotationAddition = [real number]
+    TireRotationMultiplier = [real number]
+    MidRightMidTireBone = [bone name]
+    MidLeftMidTireBone = [bone name]
+    MidRightRearTireBone = [bone name]
+    MidLeftRearTireBone = [bone name]
+    MidRightFrontTireBone = [bone name]
+    MidLeftFrontTireBone = [bone name]
+    RightRearTireBone = [bone name]
+    LeftRearTireBone = [bone name]
+    RightFrontTireBone = [bone name]
+    LeftFrontTireBone = [bone name]
+    
+    [Dust Spray setup]
+    PowerslideSpray = [entry from ParticleSystem.INI]
+    DirtSpray = [entry from ParticleSystem.INI]
+    Dust = [entry from ParticleSystem.INI]
+End
+
+;------------------------------
+:Appendices:
+;------------------------------
+;------------------------------
+ChangeType List:
+;------------------------------
+PRESERVE_RATIO 
+ADD_CURRENT_HEALTH_TOO 
+SAME_CURRENTHEALTH
+
+;------------------------------
+LOD List:
+;------------------------------
+LOW
+MEDIUM
+HIGH
+;------------------------------
+Veterancy Level List:
+;------------------------------
+REGULAR 
+VETERAN  
+ELITE
+HEROIC
+;------------------------------
+Object Condition Types:
+;------------------------------
+USING_ABILITY 
+RIDERS_ATTACKING
+TAKING_DAMAGE
+NO_BLACK_MARKET
+FIRING_TERTIARY
+FIRING_SECONDARY
+FIRING_PRIMARY
+MOVING
+ATTACKING
+
+;------------------------------
+Weapon Slot List:
+;------------------------------
+PRIMARY
+SECONDARY
+TERTIARY
+
+;------------------------------
+WeaponSet Condition Types:
+;------------------------------
+PLAYER_UPGRADE
+MINE_CLEARING_DETAIL
+CARBOMB
+VEHICLE_HIJACK
+CRATEUPGRADE_ONE
+CRATEUPGRADE_TWO
+WEAPON_RIDER1
+WEAPON_RIDER2 
+WEAPON_RIDER3 
+WEAPON_RIDER4
+WEAPON_RIDER5
+WEAPON_RIDER6
+WEAPON_RIDER7
+WEAPON_RIDER8
+
+VETERAN  [This can trigger the WEAPONSET_VETERAN model state]
+ELITE    [this can trigger the WEAPONSET_ELITE model state]  
+HERO     [this can trigger the WEAPONSET_HERO model state] 
+
+;------------------------------
+AutoChooseSources Types:
+;------------------------------
+FROM_DOZER
+FROM_AI
+FROM_SCRIPT
+FROM_PLAYER
+DEFAULT_SWITCH_WEAPON
+
+;------------------------------
+ArmorSet Condition Types:
+;------------------------------
+PLAYER_UPGRADE
+CRATE_UPGRADE_ONE
+CRATE_UPGRADE_TWO
+WEAK_VERSUS_BASEDEFENSES
+SECOND_LIFE ;requires the undeadbody module.
+VETERAN
+ELITE
+HERO
+
+;------------------------------
+Disabled Types:
+;------------------------------
+DISABLED_SCRIPT_UNDERPOWERED
+DISABLED_SCRIPT_DISABLED 
+DISABLED_FREEFALL
+DISABLED_UNDERPOWERED
+DISABLED_UNMANNED
+DISABLED_PARALYZED
+DISABLED_HELD
+DISABLED_EMP
+DISABLED_HACKED
+DISABLED_BRAINWASHED
+DISABLED_SUBDUED
+DISABLED_AWESTRUCK
+DEFAULT
+
+;------------------------------
+Status Types:
+;------------------------------
+KILLING_SELF 
+DISGUISED
+BOOBY_TRAPPED
+FAERIE_FIRE
+STATUS_RIDER8
+STATUS_RIDER7 
+STATUS_RIDER6 
+STATUS_RIDER5 
+STATUS_RIDER4 
+STATUS_RIDER3 
+STATUS_RIDER2 
+STATUS_RIDER1
+DECK_HEIGHT_OFFSET 
+IGNORING_STEALTH  
+USING_ABILITY 
+RECONSTRUCTING 
+UNDERGOING_REPAIR 
+SOLD
+TOPPLED
+DETECTED
+STEALTHED 
+IS_AIMING_WEAPON
+IS_BRAKING
+IS_CARBOMB
+IS_FIRING_WEAPON
+WET 
+AFLAME 
+HIJACKED 
+REPULSOR
+PARACHUTING 
+AIRBORNE_TARGET 
+NO_ATTACK_FROM_AI ;the ai will not target it, but you can force fire it.
+MASKED            ;the ai will not target it and you also cannot target it.
+NO_ATTACK 
+NO_COLLISIONS 
+UNSELECTABLE 
+UNDER_CONSTRUCTION 
+CAN_ATTACK
+CAN_STEALTH
+DESTROYED
+REASSIGN_PARKING
+DEPLOYED
+
+;------------------------------
+Locomotor SET Types:
+;------------------------------
+SET_NORMAL
+SET_SUPERSONIC
+SET_SLUGGISH
+SET_TAXIING
+SET_PANIC
+SET_WANDER
+SET_FREEFALL
+SET_NORMAL_UPGRADED
+
+;------------------------------
+DamageType List:
+;------------------------------
+DEFAULT ;this sets the level for all nonspecified damage types in armor.
+EXPLOSION 
+CRUSH 
+ARMOR_PIERCING 
+SMALL_ARMS 
+GATTLING 
+RADIATION 
+FLAME 
+LASER 
+SNIPER 
+POISON 
+HEALING  
+WATER 
+DEPLOY 
+SURRENDER 
+HACK 
+KILL_PILOT 
+PENALTY 
+KILL_GARRISONED
+FALLING 
+MELEE 
+DISARM 
+HAZARD_CLEANUP 
+PARTICLE_BEAM
+TOPPLING 
+INFANTRY_MISSILE 
+AURORA_BOMB 
+LAND_MINE 
+JET_MISSILES 
+STEALTHJET_MISSILES 
+MOLOTOV_COCKTAIL 
+COMANCHE_VULCAN 
+MICROWAVE
+STATUS
+SUBDUAL_BUILDING
+SUBDUAL_VEHICLE
+SUBDUAL_MISSILE
+SUBDUAL_UNRESISTABLE
+UNRESISTABLE
+;------------------------------
+DeathTypes List:
+;------------------------------
+ALL 
+NORMAL 
+CRUSHED 
+BURNED 
+EXPLODED 
+TOPPLED 
+FLOODED 
+SUICIDED
+LASERED 
+DETONATED 
+SPLATTED
+POISONED 
+POISONED_BETA 
+POISONED_GAMMA
+EXTRA_2
+EXTRA_3
+EXTRA_4
+EXTRA_5
+EXTRA_6
+EXTRA_7
+EXTRA_8
+
+;------------------------------
+Shadow Types:
+;------------------------------
+SHADOW_DECAL 
+SHADOW_VOLUME 
+SHADOW_PROJECTION 
+SHADOW_DYNAMIC_PROJECTION
+SHADOW_DIRECTIONAL_PROJECTION 
+SHADOW_ALPHA_DECAL 
+SHADOW_ADDITIVE_DECAL
+
+;------------------------------
+OCLSpecialPower CreateLocation Types:
+;------------------------------
+CREATE_AT_EDGE_FARTHEST_FROM_TARGET 
+CREATE_AT_EDGE_FARTHEST_FROM_SOURCE 
+CREATE_ABOVE_LOCATION 
+USE_OWNER_OBJECT 
+CREATE_AT_LOCATION 
+CREATE_AT_EDGE_NEAR_TARGET
+CREATE_AT_EDGE_NEAR_SOURCE
+CREATE_OBJECT 
+
+;------------------------------
+ConditionState Types:
+;------------------------------
+USER_1
+USER_2
+JAMMED
+ATTACKING
+WEAPONSET_CRATEUPGRADE_ONE 
+WEAPONSET_CRATEUPGRADE_TWO 
+ARMORSET_CRATEUPGRADE_TWO
+ARMORSET_CRATEUPGRADE_ONE
+PREORDER
+STUNNED
+STUNNED_FLAILING
+EXPLODED_BOUNCING 
+EXPLODED_FLAILING 
+CAPTURED
+RAISING_FLAG
+CONTINUOUS_FIRE_SLOW 
+CONTINUOUS_FIRE_FAST
+CONTINUOUS_FIRE_MEAN
+SPECIAL_CHEERING
+ARMED
+RAPELLING
+PARACHUTING
+CLIMBING
+SPLATTED
+BURNED
+AFLAME
+SMOLDERING 
+POWER_PLANT_UPGRADING
+POWER_PLANT_UPGRADED
+OVER_WATER
+MOVING
+DEPLOYED 
+UNPACKING 
+PACKING 
+JETEXHAUST 
+JETAFTERBURNER 
+LOADED 
+CARRYING 
+DOCKING_ENDING 
+DOCKING_ACTIVE 
+DOCKING_BEGINNING 
+DOCKING 
+PANICKING
+RADAR_UPGRADED
+RADAR_EXTENDED
+CONSTRUCTION_COMPLETE
+ACTIVELY_CONSTRUCTING
+ACTIVELY_BEING_CONSTRUCTED
+PARTIALLY_CONSTRUCTED
+AWAITING_CONSTRUCTION
+DYING
+PRONE
+FREEFALL
+POST_COLLAPSE
+TOPPLED
+TURRET_ROTATE
+
+RELOADING_A
+BETWEEN_FIRING_SHOTS_A 
+FIRING_A 
+PREATTACK_A
+USING_WEAPON_A
+
+RELOADING_B
+BETWEEN_FIRING_SHOTS_B
+FIRING_B 
+PREATTACK_B 
+USING_WEAPON_B
+
+RELOADING_C 
+BETWEEN_FIRING_SHOTS_C
+FIRING_C 
+PREATTACK_C 
+USING_WEAPON_C
+
+DOOR_4_WAITING_TO_CLOSE 
+DOOR_4_WAITING_OPEN 
+DOOR_4_CLOSING
+DOOR_4_OPENING 
+
+DOOR_3_WAITING_TO_CLOSE 
+DOOR_3_WAITING_OPEN 
+DOOR_3_CLOSING
+DOOR_3_OPENING 
+
+DOOR_2_WAITING_TO_CLOSE 
+DOOR_2_WAITING_OPEN
+DOOR_2_CLOSING
+DOOR_2_OPENING 
+
+DOOR_1_WAITING_TO_CLOSE 
+DOOR_1_WAITING_OPEN
+DOOR_1_CLOSING
+DOOR_1_OPENING 
+
+WEAPONSET_PLAYER_UPGRADE 
+WEAPONSET_HERO
+WEAPONSET_ELITE 
+WEAPONSET_VETERAN 
+ENEMYNEAR
+REALLYDAMAGED
+RUBBLE
+DAMAGED
+SNOW 
+SOLD
+DISGUISED
+NIGHT 
+SPECIAL_DAMAGED 
+BACKCRUSHED 
+FRONTCRUSHED
+SECOND_LIFE
+RIDER1
+RIDER2
+RIDER3
+RIDER4
+RIDER5
+RIDER6
+RIDER7
+RIDER8
+PRISTINE
+RIGHT_TO_CENTER
+CENTER_TO_RIGHT
+LEFT_TO_CENTER
+CENTER_TO_LEFT
+
+;------------------------------
+Animation Flags List:
+;------------------------------
+RANDOMSTART
+START_FRAME_FIRST
+START_FRAME_LAST
+ADJUST_HEIGHT_BY_CONSTRUCTION_PERCENT
+PRISTINE_BONE_POS_IN_FINAL_FRAME
+MAINTAIN_FRAME_ACROSS_STATES 
+MAINTAIN_FRAME_ACROSS_STATES2 
+MAINTAIN_FRAME_ACROSS_STATES3
+MAINTAIN_FRAME_ACROSS_STATES4
+RESTART_ANIM_WHEN_COMPLETE
+
+;------------------------------
+AnimationMode Types:
+;------------------------------
+MANUAL 
+ONCE 
+ONCE_BACKWARDS
+LOOP_BACKWARDS 
+LOOP_PINGPONG
+LOOP
+
+;------------------------------
+KindOf list:
+;------------------------------
+IGNORE_DOCKING_BONES
+IGNORES_SELECT_ALL
+IGNORED_IN_GUI
+CONSERVATIVE_BUILDING
+DEMOTRAP
+EMP_HARDENED
+TECH_BASE_DEFENSE
+CANNOT_RETALIATE ; apparently fixes deploy AI lock bug
+REJECT_UNMANNED 
+AIRCRAFT_CARRIER
+OPTIMIZED_TREE
+PROP
+BLAST_CRATER
+BOOBY_TRAP
+REVEALS_ENEMY_PATHS
+MONEY_HACKER
+CLIFF_JUMPER
+DONT_AUTO_CRUSH_INFANTRY
+HERO
+INERT
+DISGUISER
+REVEAL_TO_ALL
+SUPPLY_SOURCE
+CANNOT_BUILD_NEAR_SUPPLIES
+SPAWNS_ARE_THE_WEAPONS
+SHOW_PORTRAIT_WHEN_CONTROLLED
+HULK
+IMMUNE_TO_CAPTURE
+BOAT
+GARRISONABLE_UNTIL_DESTROYED
+PARACHUTE
+PARACHUTABLE
+SUPPLY_SOURCE_ON_PREVIEW
+CLICK_THROUGH
+BALLISTIC_MISSILE
+DRONE
+PRODUCED_AT_HELIPAD 
+POWERED
+TECH_BUILDING
+AUTO_RALLYPOINT
+FORCEATTACKABLE
+LOW_OVERLAPPABLE
+AIRCRAFT_PATH_AROUND
+DEFENSIVE_WALL
+WALK_ON_TOP_OF_WALL
+ATTACK_NEEDS_LINE_OF_SIGHT
+ALWAYS_SELECTABLE
+PORTABLE_STRUCTURE
+CLEANUP_HAZARD
+MINE
+UNATTACKABLE
+ALWAYS_VISIBLE
+SMALL_MISSILE
+CLEARED_BY_BUILD
+CAPTURABLE
+CRATE
+MOB_NEXUS
+SCORE_DESTROY
+SCORE_CREATE
+SCORE
+REBUILD_HOLE
+MP_COUNT_FOR_VICTORY
+DRAWABLE_ONLY
+CASH_GENERATOR
+STEALTH_GARRISON
+HEAL_PAD
+REPAIR_PAD
+WAVE_EFFECT
+WAVEGUIDE
+NO_GARRISON
+NO_COLLIDE
+NO_HEAL_ICON
+NO_SELECT
+PRELOAD
+PROJECTILE
+BRIDGE_TOWER
+LANDMARK_BRIDGE
+BRIDGE
+TRANSPORT
+WEAPON_SALVAGER
+ARMOR_SALVAGER
+SALVAGER
+LINEBUILD
+COMMANDCENTER
+HARVESTER
+DOZER
+HUGE_VEHICLE
+AIRCRAFT
+VEHICLE
+INFANTRY
+STRUCTURE
+SHRUBBERY
+STICK_TO_TERRAIN_SLOPE
+IMMOBILE
+SELECTABLE
+OBSTACLE
+FS_STRATEGY_CENTER
+FS_SUPPLY_CENTER
+FS_BLACK_MARKET
+FS_SUPERWEAPON
+FS_SUPPLY_DROPZONE
+FS_AIRFIELD 
+FS_WARFACTORY
+FS_BARRACKS
+FS_ADVANCED_TECH
+FS_TECHNOLOGY
+FS_BASE_DEFENSE
+FS_FACTORY
+FS_POWER
+FS_INTERNET_CENTER
+FS_FAKE
+CAN_BE_REPULSED
+CAN_RAPPEL
+CAN_ATTACK
+CAN_CAST_REFLECTIONS
+CAN_SEE_THROUGH_STRUCTURE
+
+;------------------------------
+Unit Sounds List:
+;------------------------------
+VoiceSelect
+VoiceSelectElite ; Plays when an object, with elite veterancy, is selected
+VoiceGroupSelect ; Plays when a group of objects of the same type is selected
+VoiceMeetEnemy   ; Plays when an object encounters an enemy unit
+VoiceMove
+VoiceAttack
+VoiceAttackAir     ; Plays when an object is ordered to attack air units.
+VoiceAttackSpecial ; Plays When an object is ordered to attack using a special power weapon
+VoiceGuard
+VoiceFear         ; Plays when an object's health bar reaches the red zone
+VoiceTaskUnable   ; Plays when an object is unable to perform its given task
+VoiceTaskComplete ; Plays when an object successfully finishes its given task
+VoiceDefect       ; Plays when an object defects to another player
+
+SoundMoveStart        ; Plays when an object starts moving
+SoundMoveStartDamaged ; Plays when an object starts moving while damaged
+SoundMoveLoop         ; Plays while an object is moving 
+SoundMoveLoopDamaged  ; Plays while an object is moving while damaged
+SoundCreated          ; Plays when an object is created from a factory
+SoundFallingFromPlane ; Plays when an object is dropped from a plane
+SoundPromotedVeteran  ; Plays when an object is promoted to veteran
+SoundPromotedElite    ; Plays when an object is promoted to elite
+SoundPromotedHero     ; Plays when an object is promoted to heroic
+SoundEnter            ; Plays when an object exits a transport or structure
+SoundExit             ; Plays when an object exits a transport or structure
+SoundOnDamaged        ; Plays when an object's health bar reaches the yellow zone
+SoundOnReallyDamaged  ; Plays when an object's health bar reaches the red zone
+
+SoundStealthOn  ; Plays when an object "stealths"
+SoundStealthOff ; Plays when an object "un-stealths"
+
+SoundAmbient              ; Plays as long as the object exists
+SoundAmbientDamaged       ; Plays as long as the object exists while damaged
+SoundAmbientReallyDamaged ; Plays as long as the object exists while really damaged
+SoundAmbientRubble        ; Plays as long as the object exists while "dead"
+
+Unit Specific Sounds List:
+
+VoiceCreate   ; Plays when an object is created from a factory
+VoiceCrush    ; Plays When an object is ordered to crush something with the forcemove command
+VoiceUnload   ; Plays when an object is ordered to unload its passengers
+VoiceEnter    ; Plays when an object is ordered to enter a transport
+VoiceGarrison ; Plays when an abject is ordered to garrison a structure
+
+VoiceBombard   ; Plays when an object is ordered to attack the ground
+VoiceGetHealed ; Plays when a unit is hit by HEAL damage (ex. when it's being repaired)
+
+VoiceLowFuel ; Plays when a plane is running out of fuel.
+
+VoicePrimaryWeaponMode   ; Plays when an object switches to its PRIMARY weapon
+VoiceSecondaryWeaponMode ; Plays when an object switches to its SECONDARY weapon
+VoiceTertiaryWeaponMode  ; Plays when an object switches to its TERTIARY weapon
+
+VoiceCaptureBuildingComplete ; Plays when an object successfully captures a building with an ability
+VoiceClearBuilding           ; Plays when an object is ordered to 'clear' a structure
+
+VoiceBuildResponse ; Plays when a builder is ordered to build stuff
+VoiceNoBuild       ; Plays when a builder is unable to build a structure in the selected area
+VoiceRepair        ; Plays when a builder is ordered to repair stuff
+VoiceDisarm        ; Plays when an object is ordered to clear mines
+VoiceSupply        ; Plays when a gatherer is ordered to gather supplies
+
+VoiceSubdue         ; Plays when an object uses a weapon with "SURRENDER" damage type (ex. Ranger's flashbangs)
+VoiceEject          ; Plays when a pilot ejects from the object. Requires the "EjectPilotDie" module
+VoiceMelee          ; Plays when an object uses a weapon with "MELEE" damage type (ex. Burton's knife)
+VoiceCombatDrop     ; Plays when an object is ordered to do a "combat drop". Requires a button with the "COMBATDROP" command type. Also requires the "ChinookAIUpdate" module with the rope logic defined
+VoiceFireRocketPods ; Plays when the comanche fires its rocket pod ability. Hardcoded to only work with the "ComancheRocketPodWeapon" weapon
+
+VoiceRapidFire              ; Plays when an object with a continous fire bonus weapon reaches the "CONTINUOUS_FIRE_FAST" state
+VoiceStealCashComplete      ; Plays when an object successfully steals cash with an ability
+VoiceDisableVehicleComplete ; Plays when an object successfully disables a vehicle with an ability
+VoiceHackInternet           ; Plays when an object is ordered to "hack the internet"
+VoiceFlameLocation          ; Plays When an object uses a weapon with the "FLAME" damage type on a target location. (ex. Dragon Tank Firewall)
+
+VoiceSalvage        ; Plays when an object is ordered to collect a salvage crate
+VoiceSnipePilot     ; Plays when an object uses a weapon with "KILL_PILOT" damage type (ex. Jarmen's Pilot Snipe)
+VoiceEnterHostile   ; Plays when an object is ordered to enter an enemy vehicle or structure (ex. Hijackers and Saboteurs)
+VoiceMoveUpgraded   ; Plays when a unit is given a move order with an upgraded locomotor (ex. workers with shoes)
+VoicePoisonLocation ; Plays When an object uses a weapon with the "POISON" damage type on a target location. (ex. Toxin Tractor Sprinkler)
+
+WeaponUpgradeSound ; Plays when an object's weaponset is upgraded
+
+TurretMoveStart ; Plays when an objects turret starts to turn
+TurretMoveLoop  ; Plays while an object's turret is turning
+
+Deploy   ; Plays when an object deploys
+Undeploy ; Plays when an object un-deploys
+
+TruckLandingSound    ; Plays when a truck lands (presumably after jumping from a cliff). Requires "W3DTruckDraw"
+TruckPowerslideSound ; Plays when a truck does a "powerslide". Requires "W3DTruckDraw"
+
+AfterBurner ; Playes when a jet takes off from an airfield
+
+UnderConstruction ; Plays while an object is being built by a builder
+
+StickyBombCreated  ; Plays when an object using the "StickyBombUpdate" module is spawned 
+  
+DisguiseStarted         ; Plays when an object uses it's disguise ability
+DisguiseRevealedSuccess ; Plays when a disguised object succesfully sneaks in and reveals himself when his target is close
+DisguiseRevealedFailure ; Plays when a disguised object gets caught and is forced to reveal himself
+
+HowitzerFire ;Plays when the Specter Gunship fires its Howitzer weapon
+
+Internal Upgrades List:
+
+Upgrade_Veterancy_VETERAN ; Upgrade given to an object when it reaches VETERAN veterancy rank
+Upgrade_Veterancy_ELITE   ; Upgrade given to an object when it reaches ELITE veterancy rank 
+Upgrade_Veterancy_HEROIC  ; Upgrade given to an object when it reaches HEROIC veterancy rank 
+
+;--------------------------------------------
+:MISC SECTION: 
+;--------------------------------------------
+CommandButton Command list:
+Note: 
+There are some command types here that doesn't work with vGenerals because it was added exclusively in ZeroHour
+and there are some that doesn't properly work anymore.
+
+SELECT_ALL_UNITS_OF_TYPE
+SPECIAL_POWER_CONSTRUCT_FROM_SHORTCUT   
+SPECIAL_POWER_CONSTRUCT
+SPECIAL_POWER_FROM_SHORTCUT 
+SPECIAL_POWER_FROM_COMMAND_CENTER   ;only existed in vGenerals
+SPECIAL_POWER
+PLACE_BEACON
+SABOTAGE_BUILDING
+CONVERT_TO_CARBOMB
+HIJACK_VEHICLE
+SWITCH_WEAPON
+COMBATDROP
+TOGGLE_OVERCHARGE
+HACK_INTERNET
+PURCHASE_SCIENCE
+FIRE_WEAPON
+SELL
+SET_RALLY_POINT
+BEACON_DELETE
+EXECUTE_RAILED_TRANSPORT
+EVACUATE
+EXIT_CONTAINER
+WAYPOINTS
+STOP
+GUARD_FLYING_UNITS_ONLY
+GUARD_WITHOUT_PURSUIT
+GUARD
+ATTACK_MOVE
+CANCEL_UPGRADE
+OBJECT_UPGRADE
+PLAYER_UPGRADE
+CANCEL_UNIT_BUILD
+UNIT_BUILD
+DOZER_CONSTRUCT_CANCEL
+DOZER_CONSTRUCT
+
+
+CommandButton Options Types:
+unused-reserved
+MUST_BE_STOPPED
+CAN_USE_WAYPOINTS
+USES_MINE_CLEARING_WEAPONSET
+IGNORES_UNDERPOWERED
+SCRIPT_ONLY
+---DO-NOT-USE---
+SINGLE_USE_COMMAND
+NOT_QUEUEABLE
+OPTION_THREE
+OPTION_TWO
+OPTION_ONE
+ATTACK_OBJECTS_POSITION
+ALLOW_MINE_TARGET
+ALLOW_SHRUBBERY_TARGET
+CHECK_LIKE
+CONTEXTMODE_COMMAND
+OK_FOR_MULTI_SELECT
+NEED_SPECIAL_POWER_SCIENCE
+NEED_UPGRADE
+NEED_TARGET_ALLY_OBJECT
+NEED_TARGET_NEUTRAL_OBJECT
+NEED_TARGET_ENEMY_OBJECT
+NEED_TARGET_POS
+
+
+CommandButton WeaponSlot Types:
+PRIMARY
+SECONDARY
+TERTIARY
+
+CommandButton Border Types:
+SYSTEM
+ACTION
+UPGRADE 
+BUILD
+
+CommandButton RadiusCursorType List:
+Note: this are tied to the IngameUI.ini
+AMBULANCE
+CLEARMINES
+FRENZY
+SPYDRONE
+RADAR
+AMBUSH
+ANTHRAXBOMB
+SCUDSTORM
+CLUSTERMINES
+NAPALMSTRIKE
+ARTILLERYBARRAGE
+EMPPULSE
+NUCLEARMISSILE
+HELIX_NAPALM_BOMB
+SPECTREGUNSHIP
+SPYSATELLITE
+PARADROP
+DAISYCUTTER
+CARPETBOMB
+A10STRIKE
+PARTICLECANNON
+SUPERWEAPON_SCATTER_AREA
+OFFENSIVE_SPECIALPOWER
+FRIENDLY_SPECIALPOWER
+EMERGENCY_REPAIR
+GUARD_AREA  
+ATTACK_CONTINUE_AREA
+ATTACK_SCATTER_AREA 
+ATTACK_DAMAGE_AREA
+
+WeaponBonus Types:
+NOTE: See Gamedata.ini to see what it does.
+When this code is defined in Gamedata.ini, it implements the weapon bonus GLOBALLY to all available weapons. 
+It can be overriden if it's assigned to a weapon code in Weapon.ini
+
+GARRISONED
+HORDE
+CONTINUOUS_FIRE_MEAN
+CONTINUOUS_FIRE_FAST
+NATIONALISM
+PLAYER_UPGRADE
+DRONE_SPOTTING
+ENTHUSIASTIC
+VETERAN
+ELITE
+HERO
+BATTLEPLAN_BOMBARDMENT
+BATTLEPLAN_HOLDTHELINE
+BATTLEPLAN_SEARCHANDDESTROY
+SUBLIMINAL
+SOLO_HUMAN_EASY
+SOLO_HUMAN_NORMAL
+SOLO_HUMAN_HARD
+SOLO_AI_EASY
+SOLO_AI_NORMAL
+SOLO_AI_HARD
+FRENZY_ONE 
+FRENZY_TWO
+FRENZY_THREE
+FANATICISM
+DEMORALIZED_OBSOLETE
+TARGET_FAERIE_FIRE
+
+WeaponBonus Fields:
+DAMAGE
+RADIUS
+RANGE
+RATE_OF_FIRE
+PRE_ATTACK
+
+
+SpecialPower.ini Enum types:
+AIRF_SPECIAL_SPECTRE_GUNSHIP
+AIRF_SPECIAL_DAISY_CUTTER
+AIRF_SPECIAL_CARPET_BOMB
+AIRF_SPECIAL_A10_THUNDERBOLT_STRIKE
+
+SUPW_SPECIAL_NEUTRON_MISSILE
+SUPW_SPECIAL_PARTICLE_UPLINK_CANNON
+SUPR_SPECIAL_CRUISE_MISSILE
+
+NUKE_SPECIAL_NEUTRON_MISSILE
+NUKE_SPECIAL_CLUSTER_MINES
+
+SLTH_SPECIAL_GPS_SCRAMBLER
+
+INFA_SPECIAL_PARADROP_AMERICA
+
+LAZR_SPECIAL_PARTICLE_UPLINK_CANNON
+
+SPECIAL_PARADROP_AMERICA
+SPECIAL_BATTLESHIP_BOMBARDMENT
+SPECIAL_COMMUNICATIONS_DOWNLOAD
+
+SPECIAL_A10_THUNDERBOLT_STRIKE
+SPECIAL_TANK_PARADROP
+SPECIAL_SNEAK_ATTACK
+SPECIAL_GPS_SCRAMBLER
+SPECIAL_SPECTRE_GUNSHIP
+
+EARLY_SPECIAL_LEAFLET_DROP
+SPECIAL_LEAFLET_DROP
+
+EARLY_SPECIAL_CHINA_CARPET_BOMB
+SPECIAL_CHINA_CARPET_BOMB
+
+SPECIAL_FRENZY
+EARLY_SPECIAL_FRENZY
+ 
+SPECIAL_REPAIR_VEHICLES
+EARLY_SPECIAL_REPAIR_VEHICLES
+
+SPECIAL_LAUNCH_BAIKONUR_ROCKET 
+SPECIAL_CLEANUP_AREA
+SPECIAL_CIA_INTELLIGENCE    
+SPECIAL_CHANGE_BATTLE_PLANS 
+SPECIAL_CASH_BOUNTY 
+SPECIAL_PARTICLE_UPLINK_CANNON  
+SPECIAL_BOOBY_TRAP
+SPECIAL_DISGUISE_AS_VEHICLE
+SPECIAL_SPY_DRONE   
+SPECIAL_RADAR_VAN_SCAN  
+SPECIAL_INFANTRY_CAPTURE_BUILDING   
+SPECIAL_BLACKLOTUS_STEAL_CASH_HACK  
+SPECIAL_BLACKLOTUS_DISABLE_VEHICLE_HACK 
+SPECIAL_BLACKLOTUS_CAPTURE_BUILDING 
+SPECIAL_TANKHUNTER_TNT_ATTACK   
+SPECIAL_HACKER_DISABLE_BUILDING 
+SPECIAL_HELIX_NAPALM_BOMB   
+SPECIAL_TIMED_CHARGES   
+SPECIAL_REMOTE_CHARGES  
+SPECIAL_MISSILE_DEFENDER_LASER_GUIDED_MISSILES  
+SPECIAL_ARTILLERY_BARRAGE   
+SPECIAL_DETONATE_DIRTY_NUKE 
+SPECIAL_CRATE_DROP  
+SPECIAL_DEMORALIZE_OBSOLETE 
+SPECIAL_SCUD_STORM  
+SPECIAL_ANTHRAX_BOMB
+SPECIAL_BLACK_MARKET_NUKE
+SPECIAL_AMBUSH  
+SPECIAL_TERROR_CELL 
+SPECIAL_DEFECTOR    
+SPECIAL_SPY_SATELLITE   
+SPECIAL_NEUTRON_MISSILE 
+SPECIAL_CASH_HACK   
+SPECIAL_NAPALM_STRIKE   
+SPECIAL_EMP_PULSE   
+SPECIAL_CLUSTER_MINES   
+SPECIAL_CARPET_BOMB 
+SPECIAL_DAISY_CUTTER
+SPECIAL_INVALID
+
+;--------------------------------------------
+Used Tactical Analysis Strings:
+;--------------------------------------------
+ACADEMY:BuildAHero
+ACADEMY:RanOutOfPower
+ACADEMY:IdleBuildingUnits
+ACADEMY:TryGarrisoningAStructure
+ACADEMY:TryUsingSuperweapons
+ACADEMY:SpendGeneralsPoints
+ACADEMY:TryCapturingStructures
+ACADEMY:BuildMorePeons
+ACADEMY:TryBuildingRadar
+ACADEMY:UseGuardAbility
+ACADEMY:UseControlGroups
+
+Frame to Milisecond Ratio: 
+[Description: Particle effect lifetimes use framecounts , but weapons delays and object lifetimes use miliseconds. So this is just here to make calculations easier]
+1 frame = 33.33 ms
+1 ms    = 0.03 frames
+
+Minimum DelayBetweenShots Values:
+[Description: Any value lower than this is replaced with "0" = 33.33 = every frame]
+without continous fire weapon bonus = 67 (rounded to 99)
+with continous fire weapon bonus = 89 (rounded to 99)
+e.g. fastest gattling cannon delay without wasted speed is 264(88x3)

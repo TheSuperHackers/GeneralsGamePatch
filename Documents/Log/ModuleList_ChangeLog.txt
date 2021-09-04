@@ -1,0 +1,138 @@
+;--------------------------------------------
+:UPDATE LOG:
+;Moved and seperated the log file for 
+;the module list to keep the main file clutter free
+;--------------------------------------------
+Update: November 11, 2020:
+-Added more info on the "SwayClientUpdate" module.
+
+Update: July 02, 2020:
+-Added more info on the "OverchargedBehavior" module.
+
+Update: 01/4/2020
+- Updated "Used Tactical Analysis Strings" List
+
+Update: 11/17/2019
+-Updated info on recoil settings on the draw modules.
+
+Update 08/17/2019
+-Further segmented some info into their own text files.
+-added more info on "WorkerAIUpdate" module
+-added more info on "FlammableUpdate" module
+-added more info on both "DelayedUpgrade" and "DelayedWeaponSetUpgradeUpdate" modules.
+
+Update 03/28/2019
+-updated descriptions of "PhysicsBehavior" module.
+
+Update 03/10/2019:
+-Updated descriptions of 'StructureCollapseUpdate' module.
+-Updated descriptions of 'StructureToppleUpdate
+' module.
+
+Update 12/7/2018
+- Removed 'ExemptStatus' and 'RequiredStatus' off "SpawnBehavior" Module as they seem to be not working.
+- Removed 'ForbidInsideKindOf' and 'AllowInsideKindOf' off "TunnelContain" Module as they seem to be not working.
+- Added 'RequiredKindOf' on all CrateCollide modules; needs verification if they actually work.
+- Added parameter descriptions for 'ToppleUpdate' module.
+- Corrected redundancy in "VeterancyCrateCollide".
+
+Update 10/1/2018
+- Corrected GrantUpgradeCreate description again (the entire tag and its parameters does exist in Vanilla Generals, not just ZH)
+
+Update 09/14/2018
+- Corrected GrantUpgradeCreate descriptions (moving the ZEROHOUR ONLY tag to ExemptStatus)
+
+Update 07/01/2018
+-Corrected SpectreGunshipUpdate parameter entries.
+-Added more info on SpectreGunshipUpdate module.
+
+Update 10/03/2017
+- added information about ProductionUpdate module door times.
+
+Update 09/12/2017
+- "interger" -> "integer"
+- corrected some more formatting issues
+- added more info about Animation and IdleAnimation in W3D draw modules.
+
+Updated 09/05/2017
+- Expanded and added default values to the recoil codes found in the 'W3DModelDraw' and related draws modules.
+- Added additional descriptions to the 'ReceivesDynamicLights' parameter.
+- Added additional descriptions to the 'Animation' parameter of 'W3DModelDraw' module.
+- Added additional descriptions to the 'SubObjectsUpgrade' module.
+- Corrected a few formatting issues.
+
+Update 02/04/2017
+- Added/Fixed description for ParticleSystem attributes
+
+Update 09/02/2016
+- Added more comments to the AIUpdateInterface module
+- Added two new discovered parameters to FireWeaponWhenDamagedBehavior
+
+UPDATE 7/22/16
+- Added comment to NeutronMissileSlowDeathBehavior's 'BlastNMaxDamage' and 'BlastNMinDamage' parameters.
+
+UPDATE: 4/25/16
+- Added Internal Upgrades List
+
+UPDATE: 4/19/16
+- Added Unit Sounds List and Unit Specific Sounds List
+
+UPDATE 2/11/15:
+- Added minimum DelayBetweenShots value
+- Fixed some typos and formatting issues
+- Added Table of Contents
+
+UPDATE 8/1/14:
+- Corrected two parameters in the 'ArmorSetCondition Types' list
+- Added discovered parameters on the following modules:
+  - CrushDie
+  - CreateObjectDie
+  - ConvertToCarBombCrateCollide
+  - ConvertToHijackedVehicleCrateCollide
+  - SpawnBehavior
+  - FireWeaponWhenDeadBehavior
+
+UPDATE 9/4/14:
+- Added minor particle system information
+
+UPDATE 6/4/13:
+- Added particle system information
+- Added FX List information
+
+UPDATE 15/3/13:
+- Added comment to DynamicShroudClearingRangeUpdate color field.
+
+UPDATE 4/2/2012:
+- Added discovered parameters on the crate modules.
+
+UPDATE 3/12/2012:
+- Added discovered parameters for 'KeepObjectDie' module
+- Added small description for 'StructureToppleUpdate' module
+- Corrected 'AnimationSteeringUpdate' description
+
+UPDATE 11/16/11:
+Updated entries and description on crate collide modules
+Updated entries on 'TunnelContain' module
+Minor update on 'SpawnBehavior' module
+
+UPDATE 9/20/11:
+- Fixed error and improved descriptions on some modules
+
+UPDATE 9/2/11:
+- Added frame to milisecond ratio, cameo sizes, used tactical analysis strings and others
+
+UPDATE from 10/14/07 to 10/10/09:
+- Added special power ini's enum type list
+- Added more descriptions to the modules
+- Added a few more missing entries
+- Corrected a few parameter descriptions
+- Added more discovered parameters by beng and me
+- Corrected a few parameters for ZeroHour
+- Fixed a few double entries
+- Corrected a few typographical errors
+- Organized the modules a little bit
+- Corrcted a few module parameters with help from beng
+- Fixed a few typing errors again
+- Added abit more description to the module/parameters
+- Added abit more description to the modules/parameters
+- Added a few discovered parameters
