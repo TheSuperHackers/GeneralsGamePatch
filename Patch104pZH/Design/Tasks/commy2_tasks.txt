@@ -146,7 +146,7 @@ https://github.com/commy2/zerohour/issues/72  [IMPROVEMENT]           Non-Vanill
 https://github.com/commy2/zerohour/issues/71  [IMPROVEMENT]           Some Paladins Missing Hellfire Drone Upgrade Icon
 https://github.com/commy2/zerohour/issues/70  [NOTRELEVANT]           Boss Sentry Drone Inconsistencies
 https://github.com/commy2/zerohour/issues/69  [IMPROVEMENT]           Damaged And Non-Vanilla USA Sentry Drones Missing Their Move Start Sounds
-https://github.com/commy2/zerohour/issues/68  [IMPROVEMENT]           Spy Drone Seleced By Q-Shortcut
+https://github.com/commy2/zerohour/issues/68  [DONE]                  Spy Drone Seleced By Q-Shortcut
 https://github.com/commy2/zerohour/issues/67  [DONE]                  Super Weapon And Laser General Vehicle Drone Upgrade Incompatibility
 https://github.com/commy2/zerohour/issues/66  [DONE]                  Evacuate Buttons Are Not Aligned
 https://github.com/commy2/zerohour/issues/65  [DONE]                  Laser General Humvee Has Duplicated Infantry Enter And Exit Sound Effect
