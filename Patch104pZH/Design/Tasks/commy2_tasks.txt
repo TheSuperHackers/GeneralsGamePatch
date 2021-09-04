@@ -102,7 +102,7 @@ https://github.com/commy2/zerohour/issues/118 [MAYBE]                 Some ECM T
 https://github.com/commy2/zerohour/issues/117 [IMPROVEMENT]           Some Rebels Are Missing Upgrade Icons
 https://github.com/commy2/zerohour/issues/116 [MAYBE]                 Tactical Nuke Mig Upgrade Not Buildable While Low On Power
 https://github.com/commy2/zerohour/issues/115 [IMPROVEMENT]           Early And Nuke Carpet Bomber Unavailable While Controlling Mixed Sub Faction Command Centers
-https://github.com/commy2/zerohour/issues/114 [IMPROVEMENT]           Hitting Battle Bus In Hull Mode Causes Screen Shake
+https://github.com/commy2/zerohour/issues/114 [DONE]                  Hitting Battle Bus In Hull Mode Causes Screen Shake
 https://github.com/commy2/zerohour/issues/113 [MAYBE][NPROJECT]       Flashbangs Cannot Target Stinger Sites
 https://github.com/commy2/zerohour/issues/112 [IMPROVEMENT]           Stealth Fake Arms Dealer Missing Camo Netting Upgrade Icon
 https://github.com/commy2/zerohour/issues/111 [DONE][NPROJECT]        Stealth General Saboteur Uses Rebel Death Scream
