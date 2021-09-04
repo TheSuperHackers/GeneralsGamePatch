@@ -1,4 +1,5 @@
-call SETUP_Folders.bat
+set ThisDir1=%~dp0
+call %ThisDir1%SETUP_Folders.bat
 
 :: Define big file name(s)
 set BigName=600_Patch104pArtZH
