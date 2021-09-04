@@ -27,6 +27,7 @@ echo on
 
 call MAKE_Patch104pZH.bat
 call MAKE_Patch104pArtZH.bat
+call SETUP_UserSettings.bat
 
 ::Copy release files to game
 xcopy /Y /S %GeneratedReleaseUnpackedDir% %GameRootDir%
