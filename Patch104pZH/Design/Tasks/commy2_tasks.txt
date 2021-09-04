@@ -2,6 +2,7 @@ Note: These are issue reports. The titles describe the problem. So the expectati
 
 GAME
 
+https://github.com/commy2/zerohour/issues/228 [DONE]                  Specrte Gunship Seleced By W-Shortcut
 https://github.com/commy2/zerohour/issues/225 [IMPROVEMENT]           Spectre Loses Team Color When Shot Down
 https://github.com/commy2/zerohour/issues/224 [IMPROVEMENT]           Mixing Battle Masters From Different Sub-Factions Does Not Grant Horde Bonus
 https://github.com/commy2/zerohour/issues/223 [IMPROVEMENT]           Sentry Drone Lacks Voice Line When Leaving Factory
@@ -146,10 +147,10 @@ https://github.com/commy2/zerohour/issues/72  [IMPROVEMENT]           Non-Vanill
 https://github.com/commy2/zerohour/issues/71  [IMPROVEMENT]           Some Paladins Missing Hellfire Drone Upgrade Icon
 https://github.com/commy2/zerohour/issues/70  [NOTRELEVANT]           Boss Sentry Drone Inconsistencies
 https://github.com/commy2/zerohour/issues/69  [IMPROVEMENT]           Damaged And Non-Vanilla USA Sentry Drones Missing Their Move Start Sounds
-https://github.com/commy2/zerohour/issues/68  [IMPROVEMENT]           Spy Drone Seleced By Q-Shortcut
+https://github.com/commy2/zerohour/issues/68  [DONE]                  Spy Drone Seleced By Q-Shortcut
 https://github.com/commy2/zerohour/issues/67  [DONE]                  Super Weapon And Laser General Vehicle Drone Upgrade Incompatibility
 https://github.com/commy2/zerohour/issues/66  [DONE]                  Evacuate Buttons Are Not Aligned
-https://github.com/commy2/zerohour/issues/65  [IMPROVEMENT]           Laser General Humvee Has Duplicated Infantry Enter And Exit Sound Effect
+https://github.com/commy2/zerohour/issues/65  [DONE]                  Laser General Humvee Has Duplicated Infantry Enter And Exit Sound Effect
 https://github.com/commy2/zerohour/issues/64  [MAYBE]                 Battle Drone Gains Double The Intended Bonus From Drone Armor
 https://github.com/commy2/zerohour/issues/63  [MAYBE]                 Paladins And Microwaves Gain Slightly Less Than Intended From Composite Armor
 https://github.com/commy2/zerohour/issues/62  [MAYBE]                 Crusader And Laser Tanks Receive Composite Armor Health Bonus Twice
@@ -158,9 +159,9 @@ https://github.com/commy2/zerohour/issues/60  [DONE][NPROJECT]        Destroyed 
 https://github.com/commy2/zerohour/issues/59  [IMPROVEMENT]           Air Force General Name Misspelling
 https://github.com/commy2/zerohour/issues/58  [IMPROVEMENT]           Some Combat Bikes Missing DoorOpenTime Entry
 https://github.com/commy2/zerohour/issues/57  [IMPROVEMENT]           Broken Combat Bike Animations
-https://github.com/commy2/zerohour/issues/56  [IMPROVEMENT]           Saboteur Body Disappears From Destroyed Combat Bike
-https://github.com/commy2/zerohour/issues/55  [IMPROVEMENT]           Vanilla GLA Combat Bike Has Duplicated Death Scream
-https://github.com/commy2/zerohour/issues/54  [IMPROVEMENT]           Vanilla GLA Hijacker And Saboteur Can Ride Toxin Generals Combat Bike
+https://github.com/commy2/zerohour/issues/56  [DONE]                  Saboteur Body Disappears From Destroyed Combat Bike
+https://github.com/commy2/zerohour/issues/55  [DONE]                  Vanilla GLA Combat Bike Has Duplicated Death Scream
+https://github.com/commy2/zerohour/issues/54  [DONE]                  Vanilla GLA Hijacker And Saboteur Can Ride Toxin Generals Combat Bike
 https://github.com/commy2/zerohour/issues/53  [MAYBE]                 Veteran Quad Cannons Deal Less Damage When Scrapped
 https://github.com/commy2/zerohour/issues/52  [NOTRELEVANT]           Boss Base Defense Inconsistencies
 https://github.com/commy2/zerohour/issues/51  [DONE]                  Demo General Worker On Bike Missing Demo Generals Bike Destruction Effect
@@ -174,7 +175,7 @@ https://github.com/commy2/zerohour/issues/44  [MAYBE]                 Terrorist 
 https://github.com/commy2/zerohour/issues/43  [DONE]                  Suicide Ability Button Is Placed Inconsistently
 https://github.com/commy2/zerohour/issues/42  [DONE]                  Worker Has Disabled Suicide Button Before Demolitions Upgrade
 https://github.com/commy2/zerohour/issues/41  [DONE]                  Base Defenses Missing Demoliton Upgrade Icon
-https://github.com/commy2/zerohour/issues/38  [IMPROVEMENT]           Detached Floating Object Orbits Avenger Model When Moving
+https://github.com/commy2/zerohour/issues/38  [DONE]                  Detached Floating Object Orbits Avenger Model When Moving
 https://github.com/commy2/zerohour/issues/37  [IMPROVEMENT]           Tomahawk Launchers Have Reversed Order For Battle And Scout Drone Upgrade
 https://github.com/commy2/zerohour/issues/36  [NOTRELEVANT]           Boss Helix Inconsistencies
 https://github.com/commy2/zerohour/issues/35  [NOTRELEVANT]           Boss Infantry Inconsistencies
