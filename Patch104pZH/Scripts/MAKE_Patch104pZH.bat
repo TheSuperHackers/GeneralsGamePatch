@@ -1,7 +1,5 @@
-call SETUP_Folders.bat
-
-:: Copy base release files
-xcopy /Y /S %ReleaseUnpackedDir%\* %GeneratedReleaseUnpackedDir%\*
+set ThisDir1=%~dp0
+call %ThisDir1%SETUP_Folders.bat
 
 :: Define big file name(s)
 set BigName=600_Patch104pZH
@@ -13,7 +11,6 @@ del /s /f /q %GeneratedBigFilesDir%\%BigName%.big
 :: Copy .big contents
 xcopy /Y /S %GameFilesDir%\*.ini %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\*.wnd %GeneratedBigFilesUnpackedDir%\%BigName%\
-xcopy /Y /S %GameFilesDir%\*.w3d %GeneratedBigFilesUnpackedDir%\%BigName%\
 
 :: Generate .big file(s)
 %ToolsDir%\GeneralsBigCreator\GeneralsBigCreator.exe -source %GeneratedBigFilesUnpackedDir%\%BigName% -dest %GeneratedBigFilesDir%\%BigName%.big

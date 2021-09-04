@@ -25,7 +25,8 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 echo on
 
-call MAKE_Install.bat
+set ThisDir0=%~dp0
+call %ThisDir0%MAKE_Install.bat
 
 :: Rename files as per setup in SETUP_UserSettings.bat
 for %%f in (%GameFilesToDisable%) do (

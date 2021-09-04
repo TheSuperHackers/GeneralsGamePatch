@@ -25,8 +25,10 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 echo on
 
-call MAKE_Patch104pZH.bat
-call SETUP_UserSettings.bat
+set ThisDir0=%~dp0
+call %ThisDir0%Scripts\MAKE_Patch104pZH.bat
+call %ThisDir0%Scripts\MAKE_Patch104pArtZH.bat
+call %ThisDir0%SETUP_UserSettings.bat
 
 ::Copy release files to game
 xcopy /Y /S %GeneratedReleaseUnpackedDir% %GameRootDir%
