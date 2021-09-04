@@ -138,7 +138,7 @@ https://github.com/commy2/zerohour/issues/82  [?]                     B2 Carpet 
 https://github.com/commy2/zerohour/issues/81  [IMPROVEMENT]           Spectre Missing Portrait And Upgrade Icons
 https://github.com/commy2/zerohour/issues/80  [IMPROVEMENT]           Air Force And Super Weapon Spectre Tooltip Claims 4:00 Cooldown Instead Of True 3:00
 https://github.com/commy2/zerohour/issues/78  [MAYBE]                 Spectre Inconsistencies
-https://github.com/commy2/zerohour/issues/77  [IMPROVEMENT]           Non-Vanilla USA Pilots Are Missing Voice Lines When Garrisoning Buildings
+https://github.com/commy2/zerohour/issues/77  [DONE]                  Non-Vanilla USA Pilots Are Missing Voice Lines When Garrisoning Buildings
 https://github.com/commy2/zerohour/issues/76  [IMPROVEMENT]           Chem Suit Rangers Are Missing Hit Effects
 https://github.com/commy2/zerohour/issues/75  [IMPROVEMENT]           Some Hellfire Drones Use Scout Drone Model
 https://github.com/commy2/zerohour/issues/74  [IMPROVEMENT]           Avenger Turns Chassis When Turret Is Aiming At Air Unit
