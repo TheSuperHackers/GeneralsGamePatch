@@ -129,7 +129,7 @@ https://github.com/commy2/zerohour/issues/91  [MAYBE]                 Flashbangs
 https://github.com/commy2/zerohour/issues/90  [NOTRELEVANT]           Jarmen Kell Can Snipe Landed Chinooks And Helixes
 https://github.com/commy2/zerohour/issues/89  [IMPROVEMENT]           Non-Vanilla USA Fire Bases Use Patriot Sound Effect
 https://github.com/commy2/zerohour/issues/88  [NOTRELEVANT]           Air Force General Chinook And Combat Chinook Have Different PDL Scan Ranges
-https://github.com/commy2/zerohour/issues/87  [IMPROVEMENT]           Some Chinooks Collect Slower Than Others
+https://github.com/commy2/zerohour/issues/87  [DONE]                  Some Chinooks Collect Slower Than Others
 https://github.com/commy2/zerohour/issues/86  [NOTRELEVANT]           Boss King Raptor Inconsistencies
 https://github.com/commy2/zerohour/issues/85  [NOTRELEVANT]           King Raptor Missing Armor Bonus From Countermeasures Upgrade
 https://github.com/commy2/zerohour/issues/84  [MAYBE]                 Air Force General MOAB B2-Bomber Lacks Point Defense Laser
