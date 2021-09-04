@@ -2,6 +2,7 @@ Note: These are issue reports. The titles describe the problem. So the expectati
 
 GAME
 
+https://github.com/commy2/zerohour/issues/228 [DONE]                  Specrte Gunship Seleced By W-Shortcut
 https://github.com/commy2/zerohour/issues/225 [IMPROVEMENT]           Spectre Loses Team Color When Shot Down
 https://github.com/commy2/zerohour/issues/224 [IMPROVEMENT]           Mixing Battle Masters From Different Sub-Factions Does Not Grant Horde Bonus
 https://github.com/commy2/zerohour/issues/223 [IMPROVEMENT]           Sentry Drone Lacks Voice Line When Leaving Factory
