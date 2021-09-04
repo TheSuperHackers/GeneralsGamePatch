@@ -1,8 +1,5 @@
 call SETUP_Folders.bat
 
-:: Copy base release files
-xcopy /Y /S %ReleaseUnpackedDir%\* %GeneratedReleaseUnpackedDir%\*
-
 :: Define big file name(s)
 set BigName=600_Patch104pZH
 

@@ -1,6 +1,9 @@
 call MAKE_Patch104pZH.bat
 call MAKE_Patch104pArtZH.bat
 
+:: Copy base release files
+xcopy /Y /S %ReleaseUnpackedDir%\* %GeneratedReleaseUnpackedDir%\*
+
 :: Define archive name(s)
 set ArchiveName=Patch104pZH
 
