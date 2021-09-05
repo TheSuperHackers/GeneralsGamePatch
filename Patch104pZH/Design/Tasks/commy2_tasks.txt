@@ -11,7 +11,7 @@ https://github.com/commy2/zerohour/issues/221 [IMPROVEMENT]           Units Some
 https://github.com/commy2/zerohour/issues/220 [DONE][NPROJECT]        Units Sometimes Waste Shots On Poisoned Or Burned Infantry
 https://github.com/commy2/zerohour/issues/219 [MAYBE]                 Stinger Site Does Not Benefit From AP Rockets When Engaging Airborne Targets
 https://github.com/commy2/zerohour/issues/218 [NOTRELEVANT]           Hackers Are Bad Late Game Eco
-https://github.com/commy2/zerohour/issues/217 [MAYBE]                 Scud Launchers Missing Upgrade Icon For AP Rockets
+https://github.com/commy2/zerohour/issues/217 [DONE]                  Scud Launchers Missing Upgrade Icon For AP Rockets
 https://github.com/commy2/zerohour/issues/216 [IMPROVEMENT]           Nationalism And Patriotism Don't Update For Garrisoned Units
 https://github.com/commy2/zerohour/issues/215 [NOTRELEVANT]           Nationalism And Patriotism Take Effect While Not Horded
 https://github.com/commy2/zerohour/issues/210 [IMPROVEMENT][NPROJECT] Weapons And Animations Broken On HiDef Scud Launcher
