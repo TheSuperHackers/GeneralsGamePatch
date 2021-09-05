@@ -18,7 +18,6 @@ Bug fixes and improvements applied so far, in no particular order:
 - Improved the mobility of the China Dozer to avoid scenarios where it gets stuck unnecessarily
 - **[REVIEW]** Removed Heat Haze effect from Microwave Tank and GPS Scrambler to avoid critical rendering glitches
 - Fixed critical issue that crashed all clients in a match
-- Fixed issue that allowed to build units and upgrades in building scaffolds
 - Fixed issue that made units keep firing onto already killed infantry units
 - Fixed issue that spawned wrong USA Ranger types on Particle Cannon kills
 - Fixed issue that prevented a stealthed and attacking GLA Palace to reveal itself
