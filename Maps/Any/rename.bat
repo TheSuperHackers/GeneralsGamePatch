@@ -1,0 +1,12 @@
+ren shadow_limit_test_215_scorpions\shadow_limit_test_215_scorpions.map TestScorpionShadowLimit215.map
+ren shadow_limit_test_215_scorpions\shadow_limit_test_215_scorpions.tga TestScorpionShadowLimit215.tga
+ren shadow_limit_test_215_scorpions                                     TestScorpionShadowLimit215
+ren shadow_limit_test_216_scorpions\shadow_limit_test_216_scorpions.map TestScorpionShadowLimit216.map
+ren shadow_limit_test_216_scorpions\shadow_limit_test_216_scorpions.tga TestScorpionShadowLimit216.tga
+ren shadow_limit_test_216_scorpions                                     TestScorpionShadowLimit216
+ren shadow_limit_test_512_scorpions\shadow_limit_test_512_scorpions.map TestScorpionShadowLimit512.map
+ren shadow_limit_test_512_scorpions\shadow_limit_test_512_scorpions.tga TestScorpionShadowLimit512.tga
+ren shadow_limit_test_512_scorpions                                     TestScorpionShadowLimit512
+ren shadow_limit_test_513_scorpions\shadow_limit_test_513_scorpions.map TestScorpionShadowLimit513.map
+ren shadow_limit_test_513_scorpions\shadow_limit_test_513_scorpions.tga TestScorpionShadowLimit513.tga
+ren shadow_limit_test_513_scorpions                                     TestScorpionShadowLimit513
