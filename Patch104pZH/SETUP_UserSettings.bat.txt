@@ -1,5 +1,7 @@
 :: Copy this file, remove the .txt extension from the file name, and edit it depending on your requirements.
 
+@echo off
+
 :: Set game install root directory
 set GameRootDir="C:\Program Files (x86)\EA Games\Command & Conquer The First Decade\Command & Conquer(tm) Generals Zero Hour"
 
@@ -8,3 +10,26 @@ set GameExeFile="generals.exe"
 
 :: Set game launch command line arguments
 set GameExeArgs="-win -quickstart"
+
+:: Set files that should be voided (renamed) before launching generals.exe
+set GameFilesToDisable=
+set GameFilesToDisable=%GameFilesToDisable% "200_ControlBarObsEnglishZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "250_HideIP_WindowZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "251_HideMail_WindowZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "339_ControlBarProHideIpZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "339_ControlBarProHideMailZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "340_ControlBarPro1080ZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "340_ControlBarProZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDBaseZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDBrazilianZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDChineseZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDEnglishZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDFrenchZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDGermanZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDItalianZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDKoreanZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDPolishZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "400_ControlBarHDSpanishZH.big"
+set GameFilesToDisable=%GameFilesToDisable% "800_GermanUncutLiteZH.big"
+
+echo on
