@@ -18,7 +18,6 @@ Bug fixes and improvements applied so far, in no particular order:
 - Improved the mobility of the China Dozer to avoid scenarios where it gets stuck unnecessarily
 - **[REVIEW]** Removed Heat Haze effect from Microwave Tank and GPS Scrambler to avoid critical rendering glitches
 - Fixed critical issue that crashed all clients in a match
-- Fixed issue that allowed to build units and upgrades in building scaffolds
 - Fixed issue that made units keep firing onto already killed infantry units
 - Fixed issue that spawned wrong USA Ranger types on Particle Cannon kills
 - Fixed issue that prevented a stealthed and attacking GLA Palace to reveal itself
@@ -39,7 +38,7 @@ Bug fixes and improvements applied so far, in no particular order:
 - Fixed wrong demo charge voice effect for Demo GLA Jarmen Kell
 - Fixed wrong poison death voice effects for USA and China infantry units
 - Fixed wrong death voice effects for Demo GLA infantry
-- Fixed issue that made GLA Marauder become an indestructible wreck after being crushed by a China Overlord tank
+- Fixed issue that made GLA Marauder become indestructible unit after being crushed by China Overlord tank
 - Expanded army selection drop down box in Menu Game Room to see all factions at once without scrolling
 - Fixed Demo GLA vehicle destruction effect glitches
 - Fixed issue that made Demo GLA Combat Bike used by GLA Worker miss the vehicle destruction effect
@@ -48,3 +47,28 @@ Bug fixes and improvements applied so far, in no particular order:
 - Fixed issue that allowed GLA Toxin Tractor to attack units standing too close to it
 - Fixed issue that hid China Bunkers and China Propaganda Center from radar minimap
 - Fixed issue that had China unit upgrades not render with red color when Frenzy power was applied
+- Expanded menu map selection lists to 1200 entries
+- Fixed wrong cameo image of USA Alpha Aurora
+- Fixed issue that prevented to build Drones on multi sub-faction USA Humvee group selection
+- **[REVIEW]** Fixed issue that delayed Demo GLA Technical suicide by up to 0.75 seconds
+- Removed obsolete suicide button from Demo GLA Worker when Demo Upgrade is not yet owned
+- Fixed issue that prevented executing demo suicide with different unit types in a group selection
+- Fixed issue that prevented evacuating units with different unit types in a group selection
+- Added missing Demo Upgrade icon to Demo GLA Tunnel and Stinger
+- Fixed issue that made non-VUSA Avengers retaliate with laser guidance ability
+- Fixed issue with USA Avenger that had small piece of geometry float nearby
+- Fixed issue where GLA Combat Cycle had two death sounds
+- Fixed issue where Laser USA Humvee had two infantry enter sounds 
+- Fixed issue that caused USA Pilots to walk slower when fully vetted
+- Removed non-functional Chemical Suits from USA Pilots
+- Removed non-functional Advanced Training from USA Pilots
+- Fixed issue that made GLA Saboteur disappear when killed on GLA Combat Cycle
+- Fixed inconsistency issue that allowed GLA Hijacker and GLA Saboteur ride the Toxin GLA Combat Cycle
+- USA Spy Drone is no longer selectable with Select All key(s) (Q W)
+- USA Spectre Gunship is no longer selectable with Select All key(s) (Q W)
+- Fixed issue where hits on bunkered GLA Battle Bus would cause screen shake effects
+- Added missing sounds to USA Sentry Drone movement command
+- Added missing sounds to USA Pilot enter building command
+- Added missing sounds to VGLA Battle Bus
+- Fixed wrong sounds on USA Fire Base selection
+- Fixed wrong unit tooltip on Laser USA Aurora
