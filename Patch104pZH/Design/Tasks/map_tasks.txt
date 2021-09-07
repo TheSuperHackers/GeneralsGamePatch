@@ -1,0 +1,68 @@
+MAP CHANGES
+
+NProject: "All existing maps also have been improved with better pathfinding, enhanced AI, and less lag."
+- [IMPROVEMENT] Refined the attack paths
+- [IMPROVEMENT] Added proper trigger areas (combatzone, perimeters, etc)
+- [IMPROVEMENT] Filled the holes in impassable areas, including those at off-map limits
+- [NOTRELEVANT] Isolate water bodies and cliffs that are not normally passable even with amphibious/ATVs
+- [NOTRELEVANT] Standarized supply docks and tech buildings to face -45 degree angle (for consistency sake)
+- [MAYBE] Added new tech buildings in few maps but is very minimal
+
+Contra 009 Final
+- [NOTRELEVANT] Lone Eagle: River made passable by amphibious units.
+- [NOTRELEVANT] Dark Mountain: Shores made passable by amphibious units.
+- [IMPROVEMENT] The Frontline: Terrain scorches and vehicle tracks were blue. Fixed.
+- [IMPROVEMENT] Fallen Empire: Fixed bad terrain for the top right player not allowing good USA Supply Center placement (mid area).
+- [IMPROVEMENT] Forgotten Forest: Fixed incorrectly set Flank AI path for one of the players. Fixed bad terrain for China Supply Center placement for the top right player.
+- [IMPROVEMENT] Desert Fury: Small rocks object near bottom right player made passable. Bottom left ramp impassable area fixed. There is one Oil Derrick per side now.
+- [IMPROVEMENT] Flooded Plains: Repositioned Supply Docks. Widened paths crossing the river. Added new vegetation.
+- [IMPROVEMENT] Lights Out: Balanced supply and Oil Derrick locations (right side players had unfair advantage). Widened middle area. Added ramps leading to Oil Derricks. Right mountain made symmetric to the left one. Other small fixes.
+- [IMPROVEMENT] Rocky Rampage: Repositioned Supply Docks.
+- [IMPROVEMENT] Rogue Agent: Added hills to empty map edges. Fixed water color.
+- [IMPROVEMENT] Dust Devil: Tech building areas now have ramps on both sides. Tech buildings changed – one Reinforcement Pad per side. Impassable hill slopes made passable. Secondary Supply Docks moved closer to player bases. Added Artillery Platforms at the original secondary Supply Dock positions. Added more buildings on the map. Middle Oil Derricks location balanced.
+- [IMPROVEMENT] Tournament A: Reworked middle and hill areas. Flattened terrain and removed annoying obstacles.
+- [IMPROVEMENT] Tournament B: Added missing civilian highrise structures.
+- [IMPROVEMENT] Tournament Lake: Fixed steep terrain in the middle preventing players from building Supply Centers near supply piles.
+- [MAYBE] Flash Effect: Bridges replaced with wide ramps.
+- [MAYBE] Tournament Island: Wider entrance paths between bases.
+- [IMPROVEMENT] Winter Wolf: Sequoia trees were too close to supply docks, which made building supply centers hard. Instead, there is only one sequoia in the center now. Upper supply dock area fixed to allow better USA Supply Center placement. Small rocks made passable. Some visual fixes.
+- [MAYBE] Tournament Continent: Changed position of supply piles in player bases.
+- [IMPROVEMENT] Green Pastures: Fixed imbalanced player starting positions and supply docks.
+- [IMPROVEMENT] Twilight Flame: Fixed AI pathfinding. Greatly improved performance. Fixed Combat Zone area. Fixed player 5 outer perimeter having incorrect name. Added ramps between mid players. Each player has 2 Supply Docks in base. Adjusted top right supply dock position.
+- [IMPROVEMENT] Iron Dragon: Decreased object count and applied some scripts to increase performance.
+- [IMPROVEMENT] Fortress Avalanche: Decreased object count, improved AI waypoint paths and applied some scripts to increase performance. Fixed small issue with terrain between bottom left and bottom mid players. Rebalanced player starting positions and supply docks.
+- [IMPROVEMENT] Some vanilla maps have been balanced, inspired by ReLaX.
+
+Contra 009 Patch 2
+- [IMPROVEMENT] Twilight Flame ramps between left and right players near the center were too steep which made units there act stupid. Fixed.
+- [IMPROVEMENT] Inserted a balanced version of Flash Fire.
+- [IMPROVEMENT] Barren Badlands: Fixed steep hills preventing units from attacking. There is more space for better USA Supply Center placement on the lower ground near the secondary Supply Docks so that Chinooks don't start collecting from the primary Supply Dock.
+- [IMPROVEMENT] Victory Valley: Fixed badly placed water reflection and reworked middle area.
+- [IMPROVEMENT] There were too many trees on Red Rock, Mountain Fox and Death Valley, hence most of them were removed. As a result, the object count on the maps was trimmed by half.
+- [IMPROVEMENT] Red Rock: Fixed slow loading time and bad water texture color.
+- [IMPROVEMENT] Bitter Winter: One of the bottom player's Wood Towers had bad terrain, preventing infantry from going in and out of that tower.
+- [MAYBE] Tournament Island: Added small ramps between players.
+- [IMPROVEMENT] Homeland Alliance: Removed the Repair Bay because it was closer to the bottom team and rebalanced player positions.
+
+Contra 009 Patch 3
+- [IMPROVEMENT] Bitter Winter updated to balanced version by ReLaX.
+- [IMPROVEMENT] Final Crusade: Based the map on Final Crusade FIXEDv2 from the ranked maps pool. Widened all paths and bridges.
+- [IMPROVEMENT] Tournament Desert: Changed roads and added some visual details. Made more space for Chinese Supply Center placement on secondary supply docks.
+- [IMPROVEMENT] Victory Valley: Added missing cliff near the northeast player. Widened middle ramps. Other small adjustments.
+- [IMPROVEMENT] Tournament B: Small supply piles on the back replaced with one big supply pile. Front supply piles replaced with oil derricks. Fixed global lighting and added snowfall.
+- [IMPROVEMENT] Tournament Lake: Balanced player starting positions and supply positions. Added a big supply pile near each player. Removed some of the middle supplies.
+- [IMPROVEMENT] Tournament City, Eastern Everglades, Dark Night: Altered global lighting to make the maps more playable.
+- [IMPROVEMENT] Dark Mountain: Fixed borders.
+- [MAYBE] Heartland Shield: Rearranged Supply Dock and Oil Derrick positions. Added two ramps across the river.
+- [MAYBE] Wasteland Warlords: Moved player positions away from map borders.
+- [MAYBE] Twilight Flame: Flattened middle area.
+- [IMPROVEMENT] Golden Oasis: Improved city area and map visuals.
+- [IMPROVEMENT] Lone Eagle: Global lighting changes.
+- [IMPROVEMENT] Seaside Mutiny: Removed choke points. Lots of terrain made passable.
+- [NOTRELEVANT] Tournament Urban: Added a secondary supply source in each player base.
+- [MAYBE] Mountain Fox: Lowered terrain height. Added two wide ramps leading to the higher grounds. Added a secondary supply source in each player base. Tech Oil Refineries replaced by Tech Radars.
+- [MAYBE] Killing Fields: Vanilla map replaced with a revised version by Mp3.
+- [MAYBE] Leipzig Lowlands: Removed the middle Oil Derricks. Added a big supply pile at each player's base.
+- [MAYBE] Silent River: Changed supplies and Oil Derricks, totally rebalancing the map and changing how it plays. Global lighting changes.
+- [MAYBE] Winding River: Layout and resource changes.
+- [IMPROVEMENT] Forgotten Forest: Removed walls and flattened impassable areas.
