@@ -15,7 +15,7 @@ https://github.com/commy2/zerohour/issues/219 [MAYBE][NPROJECT]       Stinger Si
 https://github.com/commy2/zerohour/issues/218 [NOTRELEVANT]           Hackers Are Bad Late Game Eco
 https://github.com/commy2/zerohour/issues/217 [DONE][NPROJECT]        Scud Launchers Missing Upgrade Icon For AP Rockets
 https://github.com/commy2/zerohour/issues/216 [IMPROVEMENT]           Nationalism And Patriotism Don't Update For Garrisoned Units
-https://github.com/commy2/zerohour/issues/215 [NOTRELEVANT]           Nationalism And Patriotism Take Effect While Not Horded
+https://github.com/commy2/zerohour/issues/215 [MAYBE]                 Nationalism And Patriotism Take Effect While Not Horded
 https://github.com/commy2/zerohour/issues/210 [IMPROVEMENT][NPROJECT] Weapons And Animations Broken On HiDef Scud Launcher
 https://github.com/commy2/zerohour/issues/209 [MAYBE][NPROJECT]       Demo General Combat Bike With Demolitions Upgrade Deals Full Damage When Destroyed Without Terrorist
 https://github.com/commy2/zerohour/issues/208 [MAYBE][NPROJECT]       Demo General Terror Bike Damages Allies Before Demolitions Upgrade
@@ -38,7 +38,7 @@ https://github.com/commy2/zerohour/issues/192 [IMPROVEMENT][NPROJECT] Laser Turr
 https://github.com/commy2/zerohour/issues/191 [IMPROVEMENT]           Patriot Battery And Laser Turret Extended Range Exploit
 https://github.com/commy2/zerohour/issues/190 [IMPROVEMENT]           Black Lotus Seleced By Q-Shortcut
 https://github.com/commy2/zerohour/issues/189 [DONE][NPROJECT]        China Dozer Movement Behavior
-https://github.com/commy2/zerohour/issues/188 [NOTRELEVANT][NPROJECT] Upgrading Mig Weapons Reduces Reload Time
+https://github.com/commy2/zerohour/issues/188 [MAYBE][NPROJECT]       Upgrading Mig Weapons Reduces Reload Time
 https://github.com/commy2/zerohour/issues/187 [IMPROVEMENT][NPROJECT] Nuke Mig Tooltip Claims Unit Can Create Firestorms
 https://github.com/commy2/zerohour/issues/186 [DONE][NPROJECT]        Laser General Aurora Uses Tooltip From Microwave Tank
 https://github.com/commy2/zerohour/issues/185 [IMPROVEMENT][NPROJECT] Fake Supply Stash Uses Portrait As Button
@@ -112,7 +112,7 @@ https://github.com/commy2/zerohour/issues/110 [IMPROVEMENT][NPROJECT] Anthrax Be
 https://github.com/commy2/zerohour/issues/109 [IMPROVEMENT][NPROJECT] Some Helixes Missing Napalm Bomb Upgrade Icon
 https://github.com/commy2/zerohour/issues/108 [IMPROVEMENT][NPROJECT] Chinook and Supply Center Upgrade Icons
 https://github.com/commy2/zerohour/issues/107 [IMPROVEMENT][NPROJECT] Pilots Have Misleading Upgrade Icons
-https://github.com/commy2/zerohour/issues/106 [NOTRELEVANT][NPROJECT] Cargo Planes With Countermeasures Are Missing Hit Effects
+https://github.com/commy2/zerohour/issues/106 [IMPROVEMENT][NPROJECT] Cargo Planes With Countermeasures Are Missing Hit Effects
 https://github.com/commy2/zerohour/issues/105 [DONE][NPROJECT]        Some American And Chinese Units Use GLA Death Scream When Gamma Poisoned
 https://github.com/commy2/zerohour/issues/104 [IMPROVEMENT][NPROJECT] China Command Center Missing Radar Upgrade Icon
 https://github.com/commy2/zerohour/issues/103 [IMPROVEMENT][NPROJECT] Some Special Power Buttons Disappear From Command Center After Mines Upgrade
@@ -130,10 +130,10 @@ https://github.com/commy2/zerohour/issues/92  [REJECTED][NPROJECT]    Speaker To
 https://github.com/commy2/zerohour/issues/91  [MAYBE]                 Flashbangs Can Clear Mines
 https://github.com/commy2/zerohour/issues/90  [NOTRELEVANT][NPROJECT] Jarmen Kell Can Snipe Landed Chinooks And Helixes
 https://github.com/commy2/zerohour/issues/89  [NONE][NPROJECT]        Non-Vanilla USA Fire Bases Use Patriot Sound Effect
-https://github.com/commy2/zerohour/issues/88  [NOTRELEVANT][NPROJECT] Air Force General Chinook And Combat Chinook Have Different PDL Scan Ranges
+https://github.com/commy2/zerohour/issues/88  [MAYBE][NPROJECT]       Air Force General Chinook And Combat Chinook Have Different PDL Scan Ranges
 https://github.com/commy2/zerohour/issues/87  [IMPROVEMENT][NPROJECT] Some Chinooks Collect Slower Than Others
 https://github.com/commy2/zerohour/issues/86  [NOTRELEVANT][NPROJECT] Boss King Raptor Inconsistencies
-https://github.com/commy2/zerohour/issues/85  [NOTRELEVANT][NPROJECT] King Raptor Missing Armor Bonus From Countermeasures Upgrade
+https://github.com/commy2/zerohour/issues/85  [MAYBE][NPROJECT]       King Raptor Missing Armor Bonus From Countermeasures Upgrade
 https://github.com/commy2/zerohour/issues/84  [MAYBE]                 Air Force General MOAB B2-Bomber Lacks Point Defense Laser
 https://github.com/commy2/zerohour/issues/83  [MAYBE]                 Some Airplane Countermeasures Evasion Rates Are 50% Instead Of 30%
 https://github.com/commy2/zerohour/issues/82  [?]                     B2 Carpet Bomber Has Extremely Tight Turn Radius
