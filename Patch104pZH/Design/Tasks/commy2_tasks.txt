@@ -21,7 +21,7 @@ https://github.com/commy2/zerohour/issues/209 [MAYBE][NPROJECT]       Demo Gener
 https://github.com/commy2/zerohour/issues/208 [MAYBE][NPROJECT]       Demo General Terror Bike Damages Allies Before Demolitions Upgrade
 https://github.com/commy2/zerohour/issues/207 [DONE][NPROJECT]        Demo General Terrorist On Bike Missing Red Smoke Effect After Demolitions Upgrade
 https://github.com/commy2/zerohour/issues/206 [MAYBE]                 Combat Chinook Moves Very Close To Target When Passengers Are Ordered To Attack
-https://github.com/commy2/zerohour/issues/205 [IMPROVEMENT]           Listening Outpost Damaged Smoke Effect Sticks After Repair
+https://github.com/commy2/zerohour/issues/205 [DONE]                  Listening Outpost Damaged Smoke Effect Sticks After Repair
 https://github.com/commy2/zerohour/issues/204 [MAYBE]                 Fire Base Cannot Order Passengers To Attack Airborne Targets
 https://github.com/commy2/zerohour/issues/203 [MAYBE][NPROJECT]       Overlord With Bunker Cannot Order Passengers To Attack Airborne Targets
 https://github.com/commy2/zerohour/issues/202 [MAYBE][NPROJECT]       Helix With Bunker Cannot Order Passengers To Attack Airborne Targets
