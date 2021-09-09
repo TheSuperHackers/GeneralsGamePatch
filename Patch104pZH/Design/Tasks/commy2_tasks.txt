@@ -5,7 +5,7 @@ GAME
 https://github.com/commy2/zerohour/issues/228 [DONE]                  Specrte Gunship Seleced By W-Shortcut
 https://github.com/commy2/zerohour/issues/227 [DONE][NPROJECT]        Toxin Truck Gains Minimum Range After Anthrax Upgrade
 https://github.com/commy2/zerohour/issues/226 [DONE][NPROJECT]        Propaganda Center And Bunker Use Default Radar Priority
-https://github.com/commy2/zerohour/issues/225 [IMPROVEMENT][NPROJECT] Spectre Loses Team Color When Shot Down
+https://github.com/commy2/zerohour/issues/225 [DONE][NPROJECT]        Spectre Loses Team Color When Shot Down
 https://github.com/commy2/zerohour/issues/224 [IMPROVEMENT][NPROJECT] Mixing Battle Masters From Different Sub-Factions Does Not Grant Horde Bonus
 https://github.com/commy2/zerohour/issues/223 [IMPROVEMENT][NPROJECT] Sentry Drone Lacks Voice Line When Leaving Factory
 https://github.com/commy2/zerohour/issues/222 [MAYBE]                 Poison Fields Can Clear Poison Fields
