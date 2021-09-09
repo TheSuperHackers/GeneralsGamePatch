@@ -9,6 +9,7 @@ del /s /f /q %GeneratedBigFilesUnpackedDir%\%BigName%
 del /s /f /q %GeneratedBigFilesDir%\%BigName%.big
 
 :: Copy .big contents
+:: Add optional non-essential art files here.
 xcopy /Y /S %GameFilesDir%\Art\W3D\NBPTower_DNS.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\NBPTower_DS.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\NBPTower_ENS.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
