@@ -13,6 +13,8 @@ xcopy /Y /S %GameFilesDir%\*.ini %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\*.wnd %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\AVAvnger.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\AVAvnger_D.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
+xcopy /Y /S %GameFilesDir%\Art\W3D\NVLOutpost.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
+xcopy /Y /S %GameFilesDir%\Art\W3D\NVLOutpost_D.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 
 :: Generate .big file(s)
 %ToolsDir%\GeneralsBigCreator\GeneralsBigCreator.exe -source %GeneratedBigFilesUnpackedDir%\%BigName% -dest %GeneratedBigFilesDir%\%BigName%.big
