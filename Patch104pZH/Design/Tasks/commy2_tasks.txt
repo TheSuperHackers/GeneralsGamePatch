@@ -16,7 +16,7 @@ https://github.com/commy2/zerohour/issues/218 [NOTRELEVANT]           Hackers Ar
 https://github.com/commy2/zerohour/issues/217 [DONE][NPROJECT]        Scud Launchers Missing Upgrade Icon For AP Rockets
 https://github.com/commy2/zerohour/issues/216 [IMPROVEMENT]           Nationalism And Patriotism Don't Update For Garrisoned Units
 https://github.com/commy2/zerohour/issues/215 [MAYBE]                 Nationalism And Patriotism Take Effect While Not Horded
-https://github.com/commy2/zerohour/issues/210 [IMPROVEMENT][NPROJECT] Weapons And Animations Broken On HiDef Scud Launcher
+https://github.com/commy2/zerohour/issues/210 [DONE][NPROJECT]        Weapons And Animations Broken On HiDef Scud Launcher
 https://github.com/commy2/zerohour/issues/209 [MAYBE][NPROJECT]       Demo General Combat Bike With Demolitions Upgrade Deals Full Damage When Destroyed Without Terrorist
 https://github.com/commy2/zerohour/issues/208 [MAYBE][NPROJECT]       Demo General Terror Bike Damages Allies Before Demolitions Upgrade
 https://github.com/commy2/zerohour/issues/207 [IMPROVEMENT][NPROJECT] Demo General Terrorist On Bike Missing Red Smoke Effect After Demolitions Upgrade
