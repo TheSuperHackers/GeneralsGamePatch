@@ -17,6 +17,8 @@ xcopy /Y /S %GameFilesDir%\Art\W3D\NBPTower_ENS.W3D %GeneratedBigFilesUnpackedDi
 xcopy /Y /S %GameFilesDir%\Art\W3D\NBPTower_ES.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\NBPTower_NS.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\NBPTower_S.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
+xcopy /Y /S %GameFilesDir%\Art\W3D\NVLOutpost.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
+xcopy /Y /S %GameFilesDir%\Art\W3D\NVLOutpost_D.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 
 :: Generate .big file(s)
 %ToolsDir%\GeneralsBigCreator\GeneralsBigCreator.exe -source %GeneratedBigFilesUnpackedDir%\%BigName% -dest %GeneratedBigFilesDir%\%BigName%.big
