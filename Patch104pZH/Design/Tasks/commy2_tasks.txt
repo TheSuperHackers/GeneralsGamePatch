@@ -19,7 +19,7 @@ https://github.com/commy2/zerohour/issues/215 [MAYBE]                 Nationalis
 https://github.com/commy2/zerohour/issues/210 [DONE][NPROJECT]        Weapons And Animations Broken On HiDef Scud Launcher
 https://github.com/commy2/zerohour/issues/209 [MAYBE][NPROJECT]       Demo General Combat Bike With Demolitions Upgrade Deals Full Damage When Destroyed Without Terrorist
 https://github.com/commy2/zerohour/issues/208 [MAYBE][NPROJECT]       Demo General Terror Bike Damages Allies Before Demolitions Upgrade
-https://github.com/commy2/zerohour/issues/207 [IMPROVEMENT][NPROJECT] Demo General Terrorist On Bike Missing Red Smoke Effect After Demolitions Upgrade
+https://github.com/commy2/zerohour/issues/207 [DONE][NPROJECT]        Demo General Terrorist On Bike Missing Red Smoke Effect After Demolitions Upgrade
 https://github.com/commy2/zerohour/issues/206 [MAYBE]                 Combat Chinook Moves Very Close To Target When Passengers Are Ordered To Attack
 https://github.com/commy2/zerohour/issues/205 [IMPROVEMENT]           Listening Outpost Damaged Smoke Effect Sticks After Repair
 https://github.com/commy2/zerohour/issues/204 [MAYBE]                 Fire Base Cannot Order Passengers To Attack Airborne Targets
