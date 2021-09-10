@@ -9,6 +9,9 @@ del /s /f /q %GeneratedBigFilesUnpackedDir%\%BigName%
 del /s /f /q %GeneratedBigFilesDir%\%BigName%.big
 
 :: Copy .big contents
+:: All files listed here become part of the core of Patch104p and are meant
+:: to be critical for client compatibility and essential for functionality.
+:: Optional files should be moved into one of the other scripts.
 xcopy /Y /S %GameFilesDir%\*.ini %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\*.wnd %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\AVAvnger.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
