@@ -1,0 +1,9 @@
+Info by Enlima29
+
+1. Game unit variants values are inconsistent across sub factions, so as a baseline, vanilla faction variant values were used for the corresponding unit variants. This way they will be equal across the sub factions.
+
+2. If there are any subfaction perk bonuses, they will be buffed/nerfed accordingly as little as possible (yet still noticable) to the subfaction unit copies. For example AFG (Air Force General) aircrafts get 10% more health points than vanilla USA aircrafts, or tank general infantry only 5% more expensive than vanilla china infantry prices. This way balancing becomes easier, because variations only have slight differences in stats, and no more crippling extreme penalties like before.
+
+3. Same goes with sub faction unique units like Emperor or Laser tanks. The differences are not supposed to be too drastic compared to their vanilla variations. For example: Aurora alpha damage gets only slightly more Damage+AOE than normal Aurora. Or making Minigunner and Redguard DPS (Damage Per Second) difference not as significant.
+
+4. Unit spawn veterancy was removed, because it ruins the concept of veterancy itself. Veteran promotion GP (General Promotion) is still fine, but start as elite veteran is a bit too much. General veteran promotion GP have been redesigned. For example Tank general has no more tanks that start as veteran and no more elite battlemaster GP, but instead gets a new Tank Training GP that affect his Battlemaster, Gattling, and Dragon tanks.

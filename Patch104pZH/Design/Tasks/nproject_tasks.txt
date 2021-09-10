@@ -175,9 +175,9 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 2.0 Global Faction Changes
 ---------------------------
  - [NOTRELEVANT] The production speed when low power are now constant at 80% of normal speed
- - [NOTRELEVANT] All factions Cargo Planes now have equal stats
+ - [MAYBE]       All factions Cargo Planes now have equal stats
  - [IMPROVEMENT] Fixed the Cargo Plane propeller texture error that have small thin gray lines
- - [NOTRELEVANT] Standardized unit transport size. Like an Overlord that needs more transport slot than a Technical
+ - [MAYBE]       Standardized unit transport size. Like an Overlord that needs more transport slot than a Technical
  - [IMPROVEMENT] Fixed the issues with firing elevation limit. Now both tanks and artillery can attack very high/low targets alike
  Reason: Certain maps have topology which can force units to path around to reach their targets, even if it is within reach of their weapon.
  - [NOTRELEVANT] Tank armor received damage from INFANTRY_MISSILE reduced from 100% to 85%
@@ -257,7 +257,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [MAYBE] Added minimum attack range to Missile Defender normal weapon to match Tank Hunter and RPG Trooper weapons (laser lock weapon is unaffected)
  Reason: Missile Defenders will not damage themselves anymore. May affect instances where Rockvees are rammed and they may be unable to retaliate.
  - [NOTRELEVANT] Missile Defender normal attack rockets fuel time rebalanced to match their other factions counterparts (RPG and Tank Hunter)
- - [NOTRELEVANT] Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
+ - [MAYBE] Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
    Zero Hour
 
  PATHFINDER:
@@ -375,17 +375,17 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT] Improved Nighthawk missile movements so they will no longer scatter their attacks
  - [IMPROVEMENT] Nighthawk now has aim tolerance so they don't need to aim exactly straight toward the target when attacking
  - [NOTRELEVANT] Bunker Buster upgrade cost increased from 1500 to 1800
- - [NOTRELEVANT] New Nighthawk weapon attack sound
+ - [MAYBE] New Nighthawk weapon attack sound
 
  SPECIAL POWERS AIRCRAFTS:
  - [NOTRELEVANT] Now B3 Bomber (used to MOAB and AirForce Carpet Bomb) are stealthed
  - [NOTRELEVANT] Spectre Gunship healthpoint increased from 600 to 1000
  - [IMPROVEMENT] Fixed USA A-10 Thunderbolt airplane damaged model, and also firing pivot angle
  - [NOTRELEVANT] A-10 Thunderbolt missiles now can't be lasered
- - [NOTRELEVANT] A-10 Thunderbolt no longer reveal shroud along their way
+ - [MAYBE] A-10 Thunderbolt no longer reveal shroud along their way
  - [MAYBE] New model and updated textures for USA B-52 Stratofortress bomber plane
  - [IMPROVEMENT] Fixed USA B-52 bomber plane engine sound
- - [NOTRELEVANT] New model and cameo for Spy Drone
+ - [MAYBE] New model and cameo for Spy Drone
  - [NOTRELEVANT] Spy Drone can be moved and no longer immobile after deployed!
 
  USA COMMAND CENTER:
@@ -444,7 +444,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  SUPPLY DROP ZONE:
  - [IMPROVEMENT] Supply Drop Zone Cargo Plane are no longer attackable, prevent the annoying "unit lost" report from EVA
- - [NOTRELEVANT] Supply Drop Zone money now delivered in one crate and will show the money amount upon landing!
+ - [MAYBE] Supply Drop Zone money now delivered in one crate and will show the money amount upon landing!
  - [MAYBE] Fixed the bug where Supply Drop Zone crates did not delivered properly
    > No more stray supply crates that missed their landing spot
    > No more crate stealing from your enemies
@@ -488,7 +488,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] AirForce General Supply Center refund value changed from 400 to 450 due to the Chinook price change
  - [NOTRELEVANT] AirForce General Avenger build cost increased from 1600 to 1700
  - [NOTRELEVANT] AirForce General Microwave Tank build cost increased from 800 to 900
- - [NOTRELEVANT] Fixed Airforce General Firebase that use wrong model at snowy-reallydamaged condition
+ - [IMPROVEMENT] Fixed Airforce General Firebase that use wrong model at snowy-reallydamaged condition
  - [NOTRELEVANT] Emergency Repair no longer available for AirForce General
 
  AIRFORCE GENERAL AIRCRAFTS:
@@ -606,7 +606,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Superweapon General no longer have 3-level Spectre Gunship (now it's AirForce General exclusive)
 
  AURORA ALPHA:
- - [NOTRELEVANT] Aurora Alpha now use the white skin with gray patterns (like in early version of Zero Hour) instead using the black
+ - [DONE] Aurora Alpha now use the white skin with gray patterns (like in early version of Zero Hour) instead using the black
    Hypersonic Aurora skin.
  - [NOTRELEVANT] Aurora Alpha weapon damage sightly reduced, but still more powerful than normal Aurora
  - [IMPROVEMENT] Fixed Aurora Alpha kill veterancy problem. Now they will be properly promoted when destroying enemies.
@@ -772,7 +772,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT] Fixed Chinese Command Center radar upgrading animation that was cut off midway
 
  NUCLEAR REACTOR:
- - [NOTRELEVANT] All Nuclear Reactors will not die because of their Overcharge ability. Overcharge ability will automatically turned off
+ - [MAYBE] All Nuclear Reactors will not die because of their Overcharge ability. Overcharge ability will automatically turned off
    on reactor's low healthpoint
  - [IMPROVEMENT] Optimized all Nuclear Reactor model codes. Damaged states smokes and fires appears at right positions
  - [MAYBE] Additional details for Nuclear Reactor to match its footprint
@@ -1120,7 +1120,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > [MAYBE] Molotov flying speed increased
    > [IMPROVEMENT] Molotov inflicts fire damage
  - [IMPROVEMENT] Mob's rock bounces when hit the ground/target
- - [NOTRELEVANT] Fixed the issue where Angry Mobs pistol weapon (before Arm The Mobs upgrade) didn't get benefit from AP Bullets upgrade
+ - [MAYBE] Fixed the issue where Angry Mobs pistol weapon (before Arm The Mobs upgrade) didn't get benefit from AP Bullets upgrade
  - [IMPROVEMENT] Fixed the bug where the mobs trying to move closer into the target when attacks instead firing from distance (hopefully)
  - [IMPROVEMENT] Mob members movement speed increased a bit and will not reduced when injured, so they can catch the squad leader faster
 
@@ -2470,12 +2470,12 @@ Cameos:
 - [IMPROVEMENT] Improved and new ECM Tank cameo
 - [IMPROVEMENT] Fixed Listening Outpost cameo that have wrong radar dish, also missing deploy stand and front small radar dish
 - [IMPROVEMENT] Fixed Minigunner cameo that the Red Guard holds a machinegun instead a minigun
-- [NOTRELEVANT] New cameos for Nuke General MiG and Helix
+- [IMPROVEMENT] New cameos for Nuke General MiG and Helix
 - [IMPROVEMENT] Nuclear Battlemaster cameo no longer use normal Battlemaster on the picture
-- [NOTRELEVANT] New cameo for Super Hacker
+- [IMPROVEMENT] New cameo for Super Hacker
 - [IMPROVEMENT] Fixed the broken Chinese and GLA POW Truck cameos
-- [NOTRELEVANT] New cameos for Tactical Nuke MiG and Patriotism upgrades
-- [NOTRELEVANT] New cameo for Toxin Terrorist
+- [IMPROVEMENT] New cameos for Tactical Nuke MiG and Patriotism upgrades
+- [IMPROVEMENT] New cameo for Toxin Terrorist
 - [IMPROVEMENT] Fixed GLA Barracks cameo that missing the logo on the center ground
 - [IMPROVEMENT] Tunnel Network cameo no longer use Generals Beta version of Tunnel Network (that have smaller door and no defense gun)
 - [IMPROVEMENT] Fixed small error on Rebel cameo where the gun barrel was cropped
@@ -2554,13 +2554,13 @@ Here are non-gameplay changes that were implemented in this mod
 
  - [NOTRELEVANT] The GUI menu color changed from blue to red
  - [IMPROVEMENT] OPTIONS menu expanded (thanks to DeeZire). Here is the contents:
-    > [NOTRELEVANT] Clock display
+    > [MAYBE] Clock display
        Don't play computer games too long! This will note you 'what time is it' on the match without return to the desktop
     > [IMPROVEMENT] Anti-Aliasing setting
        It already describe much. To set the level of anti-aliasing
     > [IMPROVEMENT] Replay Camera settings
        If the replays too annoying because it always follow the camera movement, try to turn it off here ;)
-    > [NOTRELEVANT] Scroll Anchor settings
+    > [MAYBE] Scroll Anchor settings
        Just show/hide the mouse when scrolling the monitor
     > [IMPROVEMENT] Language Filter setting
        Turn on/off the language filter on the online
