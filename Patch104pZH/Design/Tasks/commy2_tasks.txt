@@ -75,7 +75,7 @@ https://github.com/commy2/zerohour/issues/147 [MAYBE][NPROJECT]       Anthrax Be
 https://github.com/commy2/zerohour/issues/146 [IMPROVEMENT][NPROJECT] Demo General RPG-Trooper On A Bike Fires Generic Missiles (No Red Smoke)
 https://github.com/commy2/zerohour/issues/145 [IMPROVEMENT][NPROJECT] Toxin General RPG-Trooper On A Bike Fires Generic Missiles (No Anthrax Trail)
 https://github.com/commy2/zerohour/issues/144 [IMPROVEMENT]           Overlord Does Not Fit Into Chinook But Only Takes 3 Slots Inside Helix
-https://github.com/commy2/zerohour/issues/143 [IMPROVEMENT]           GPS Scrambled Rangers And Red Guards Remain Stealthed While Capturing Buildings
+https://github.com/commy2/zerohour/issues/143 [DONE]                  GPS Scrambled Rangers And Red Guards Remain Stealthed While Capturing Buildings
 https://github.com/commy2/zerohour/issues/142 [IMPROVEMENT][NPROJECT] Fire Base Shoots At Awkward Angle
 https://github.com/commy2/zerohour/issues/141 [IMPROVEMENT][NPROJECT] Toxin General RPG-Trooper Shoots Stinger Missiles
 https://github.com/commy2/zerohour/issues/140 [IMPROVEMENT][NPROJECT] Gattling Helix Sometimes Fires At Airborne Units
