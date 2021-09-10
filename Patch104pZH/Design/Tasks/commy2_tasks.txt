@@ -42,7 +42,7 @@ https://github.com/commy2/zerohour/issues/188 [MAYBE][NPROJECT]       Upgrading 
 https://github.com/commy2/zerohour/issues/187 [IMPROVEMENT][NPROJECT] Nuke Mig Tooltip Claims Unit Can Create Firestorms
 https://github.com/commy2/zerohour/issues/186 [DONE][NPROJECT]        Laser General Aurora Uses Tooltip From Microwave Tank
 https://github.com/commy2/zerohour/issues/185 [IMPROVEMENT][NPROJECT] Fake Supply Stash Uses Portrait As Button
-https://github.com/commy2/zerohour/issues/184 [IMPROVEMENT]           Battle Bus With Passengers Freezes When Attacking Airborne Targets
+https://github.com/commy2/zerohour/issues/184 [DONE]                  Battle Bus With Passengers Freezes When Attacking Airborne Targets
 https://github.com/commy2/zerohour/issues/183 [IMPROVEMENT]           Battle Bus Turns Towards Target When Loaded Troops Are Ordered To Engage Airborne Units
 https://github.com/commy2/zerohour/issues/182 [IMPROVEMENT][NPROJECT] Listening Outpost Lacks Voice Lines For Attacking Enemies
 https://github.com/commy2/zerohour/issues/181 [IMPROVEMENT]           Some Units Lack Voice Line When Ordered To Attack Airborne Targets
@@ -53,7 +53,7 @@ https://github.com/commy2/zerohour/issues/177 [DONE][NPROJECT]        Demo Gener
 https://github.com/commy2/zerohour/issues/176 [IMPROVEMENT]           Stinger Site Automatically Engages Buildings
 https://github.com/commy2/zerohour/issues/175 [IMPROVEMENT][NPROJECT] Stinger Site Lacks Muzzle Flash And Recoil Animation When Targeting Airborne Targets
 https://github.com/commy2/zerohour/issues/174 [IMPROVEMENT]           Stinger Site Can Double Fire
-https://github.com/commy2/zerohour/issues/173 [IMPROVEMENT]           Humvee Without TOW Missiles Upgrade Freezes When Attack Moving Into Airborne Targets
+https://github.com/commy2/zerohour/issues/173 [DONE]                  Humvee Without TOW Missiles Upgrade Freezes When Attack Moving Into Airborne Targets
 https://github.com/commy2/zerohour/issues/172 [IMPROVEMENT]           Extended Range Exploit
 https://github.com/commy2/zerohour/issues/163 [DONE][NPROJECT]        Destroyed Heroic Toxin Tractor Creates Green Poison Cloud Without Anthrax Beta Upgrade
 https://github.com/commy2/zerohour/issues/162 [NOTRELEVANT][NPROJECT] Boss General Has Some Conflicting Hotkeys
@@ -73,7 +73,7 @@ https://github.com/commy2/zerohour/issues/149 [MAYBE][NPROJECT]       Demo Gener
 https://github.com/commy2/zerohour/issues/148 [MAYBE][NPROJECT]       Anthrax Gamma Upgrade Does Not Increase Damage Over Time Of Any Poison Field
 https://github.com/commy2/zerohour/issues/147 [MAYBE][NPROJECT]       Anthrax Beta Upgrade Decreases Area Of Effect Of Small Poison Clouds
 https://github.com/commy2/zerohour/issues/146 [DONE][NPROJECT]        Demo General RPG-Trooper On A Bike Fires Generic Missiles (No Red Smoke)
-https://github.com/commy2/zerohour/issues/145 [IMPROVEMENT][NPROJECT] Toxin General RPG-Trooper On A Bike Fires Generic Missiles (No Anthrax Trail)
+https://github.com/commy2/zerohour/issues/145 [DONE][NPROJECT]        Toxin General RPG-Trooper On A Bike Fires Generic Missiles (No Anthrax Trail)
 https://github.com/commy2/zerohour/issues/144 [IMPROVEMENT]           Overlord Does Not Fit Into Chinook But Only Takes 3 Slots Inside Helix
 https://github.com/commy2/zerohour/issues/143 [IMPROVEMENT]           GPS Scrambled Rangers And Red Guards Remain Stealthed While Capturing Buildings
 https://github.com/commy2/zerohour/issues/142 [IMPROVEMENT][NPROJECT] Fire Base Shoots At Awkward Angle
