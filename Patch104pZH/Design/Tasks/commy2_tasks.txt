@@ -79,7 +79,7 @@ https://github.com/commy2/zerohour/issues/143 [IMPROVEMENT]           GPS Scramb
 https://github.com/commy2/zerohour/issues/142 [IMPROVEMENT][NPROJECT] Fire Base Shoots At Awkward Angle
 https://github.com/commy2/zerohour/issues/141 [IMPROVEMENT][NPROJECT] Toxin General RPG-Trooper Shoots Stinger Missiles
 https://github.com/commy2/zerohour/issues/140 [IMPROVEMENT][NPROJECT] Gattling Helix Sometimes Fires At Airborne Units
-https://github.com/commy2/zerohour/issues/139 [IMPROVEMENT][NPROJECT] Dummy Weapons Cause Notifications And Hit Effects
+https://github.com/commy2/zerohour/issues/139 [DONE][NPROJECT]        Dummy Weapons Cause Notifications And Hit Effects
 https://github.com/commy2/zerohour/issues/138 [IMPROVEMENT][NPROJECT] Nuke Battlemaster Uses Normal Battlemaster Button
 https://github.com/commy2/zerohour/issues/137 [IMPROVEMENT][NPROJECT] Tracer Emerges Below Jarmen Kell When Using Sniper Attack
 https://github.com/commy2/zerohour/issues/136 [DONE][NPROJECT]        Demo Charge Buttons Are Placed Differently On Jarmen Kell Than On Colonel Burton
