@@ -88,7 +88,7 @@ https://github.com/commy2/zerohour/issues/134 [IMPROVEMENT][NPROJECT] Air Force 
 https://github.com/commy2/zerohour/issues/133 [MAYBE][NPROJECT]       Fire Base Command Button Order Misaligned With Other Buildings
 https://github.com/commy2/zerohour/issues/132 [MAYBE][NPROJECT]       Raptor Guard Air Button Misplaced
 https://github.com/commy2/zerohour/issues/131 [IMPROVEMENT][NPROJECT] Demo General Combat Bike With Demolitions Upgrade Deals No Damage When Destroyed By Gamma Poison
-https://github.com/commy2/zerohour/issues/130 [IMPROVEMENT][NPROJECT] Demo Combat Bike Uses Portrait As Button
+https://github.com/commy2/zerohour/issues/130 [DONE][NPROJECT]        Demo Combat Bike Uses Portrait As Button
 https://github.com/commy2/zerohour/issues/129 [MAYBE][NPROJECT]       Selling Air Force Supply Center Does Refund Less Than Half Of Build Value
 https://github.com/commy2/zerohour/issues/128 [IMPROVEMENT][NPROJECT] Repair And Reinforcement Pads Reward XP When Killed
 https://github.com/commy2/zerohour/issues/127 [IMPROVEMENT][NPROJECT] Aurora Alpha Fuel Air Explosion May Trigger Before Bomb Hits
