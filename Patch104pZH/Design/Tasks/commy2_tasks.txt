@@ -42,7 +42,7 @@ https://github.com/commy2/zerohour/issues/188 [MAYBE][NPROJECT]       Upgrading 
 https://github.com/commy2/zerohour/issues/187 [IMPROVEMENT][NPROJECT] Nuke Mig Tooltip Claims Unit Can Create Firestorms
 https://github.com/commy2/zerohour/issues/186 [DONE][NPROJECT]        Laser General Aurora Uses Tooltip From Microwave Tank
 https://github.com/commy2/zerohour/issues/185 [IMPROVEMENT][NPROJECT] Fake Supply Stash Uses Portrait As Button
-https://github.com/commy2/zerohour/issues/184 [IMPROVEMENT]           Battle Bus With Passengers Freezes When Attacking Airborne Targets
+https://github.com/commy2/zerohour/issues/184 [DONE]                  Battle Bus With Passengers Freezes When Attacking Airborne Targets
 https://github.com/commy2/zerohour/issues/183 [IMPROVEMENT]           Battle Bus Turns Towards Target When Loaded Troops Are Ordered To Engage Airborne Units
 https://github.com/commy2/zerohour/issues/182 [IMPROVEMENT][NPROJECT] Listening Outpost Lacks Voice Lines For Attacking Enemies
 https://github.com/commy2/zerohour/issues/181 [IMPROVEMENT]           Some Units Lack Voice Line When Ordered To Attack Airborne Targets
