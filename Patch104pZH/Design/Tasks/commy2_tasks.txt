@@ -72,7 +72,7 @@ https://github.com/commy2/zerohour/issues/150 [MAYBE]                 Anthrax Ga
 https://github.com/commy2/zerohour/issues/149 [MAYBE][NPROJECT]       Demo General Anthrax Bomb Creates Upgraded Blue Poison Cloud
 https://github.com/commy2/zerohour/issues/148 [MAYBE][NPROJECT]       Anthrax Gamma Upgrade Does Not Increase Damage Over Time Of Any Poison Field
 https://github.com/commy2/zerohour/issues/147 [MAYBE][NPROJECT]       Anthrax Beta Upgrade Decreases Area Of Effect Of Small Poison Clouds
-https://github.com/commy2/zerohour/issues/146 [IMPROVEMENT][NPROJECT] Demo General RPG-Trooper On A Bike Fires Generic Missiles (No Red Smoke)
+https://github.com/commy2/zerohour/issues/146 [DONE][NPROJECT]        Demo General RPG-Trooper On A Bike Fires Generic Missiles (No Red Smoke)
 https://github.com/commy2/zerohour/issues/145 [DONE][NPROJECT]        Toxin General RPG-Trooper On A Bike Fires Generic Missiles (No Anthrax Trail)
 https://github.com/commy2/zerohour/issues/144 [IMPROVEMENT]           Overlord Does Not Fit Into Chinook But Only Takes 3 Slots Inside Helix
 https://github.com/commy2/zerohour/issues/143 [IMPROVEMENT]           GPS Scrambled Rangers And Red Guards Remain Stealthed While Capturing Buildings
