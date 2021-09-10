@@ -64,7 +64,7 @@ https://github.com/commy2/zerohour/issues/158 [NOTRELEVANT][NPROJECT] Boss Patri
 https://github.com/commy2/zerohour/issues/157 [NOTRELEVANT][NPROJECT] Boss General Has Strange Selection Of Available Upgrades
 https://github.com/commy2/zerohour/issues/156 [NOTRELEVANT][NPROJECT] Some Boss Infantry Units Lack Chemical Suits Upgrade Icon
 https://github.com/commy2/zerohour/issues/155 [NOTRELEVANT][NPROJECT] Boss General Scud Storm Cannot Upgrade Neutron Mines
-https://github.com/commy2/zerohour/issues/154 [IMPROVEMENT][NPROJECT] Fake Command Centers Lose Sub-Faction Decal After Fortified Structures Upgrade
+https://github.com/commy2/zerohour/issues/154 [DONE][NPROJECT]        Fake Command Centers Lose Sub-Faction Decal After Fortified Structures Upgrade
 https://github.com/commy2/zerohour/issues/153 [DONE][NPROJECT]        Base Defense Scaffolds Set Off Demo Traps
 https://github.com/commy2/zerohour/issues/152 [IMPROVEMENT]           Aurora And Carpet Bomb Model Is Extremely Low Poly
 https://github.com/commy2/zerohour/issues/151 [MAYBE]                 Uranium Shells Leave No Radiation Field
