@@ -45,7 +45,7 @@ https://github.com/commy2/zerohour/issues/185 [IMPROVEMENT][NPROJECT] Fake Suppl
 https://github.com/commy2/zerohour/issues/184 [DONE]                  Battle Bus With Passengers Freezes When Attacking Airborne Targets
 https://github.com/commy2/zerohour/issues/183 [DONE]                  Battle Bus Turns Towards Target When Loaded Troops Are Ordered To Engage Airborne Units
 https://github.com/commy2/zerohour/issues/182 [IMPROVEMENT][NPROJECT] Listening Outpost Lacks Voice Lines For Attacking Enemies
-https://github.com/commy2/zerohour/issues/181 [IMPROVEMENT]           Some Units Lack Voice Line When Ordered To Attack Airborne Targets
+https://github.com/commy2/zerohour/issues/181 [DONE]                  Some Units Lack Voice Line When Ordered To Attack Airborne Targets
 https://github.com/commy2/zerohour/issues/180 [DONE][NPROJECT]        Vanilla GLA Battle Bus Missing Sound Effect When Power Sliding
 https://github.com/commy2/zerohour/issues/179 [DONE]                  Nuke Cannons May Change Target On Their Own While Unpacking
 https://github.com/commy2/zerohour/issues/178 [IMPROVEMENT][NPROJECT] Jarmen Kell On A Bike Lacks Muzzle Flash Effect When Using Sniper Attack
