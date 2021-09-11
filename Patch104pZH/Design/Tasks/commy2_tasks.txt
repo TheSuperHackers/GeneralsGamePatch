@@ -99,7 +99,7 @@ https://github.com/commy2/zerohour/issues/123 [DONE][NPROJECT]        Super Weap
 https://github.com/commy2/zerohour/issues/122 [DONE][NPROJECT]        Paradrop Spawns Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/121 [IMPROVEMENT]           Countermeasures Tooltip Claims 50% Evasion Rate Instead Of True 30%
 https://github.com/commy2/zerohour/issues/120 [MAYBE][NPROJECT]       Vehicles Can Shoot Out Of Combat Chinook
-https://github.com/commy2/zerohour/issues/119 [IMPROVEMENT]           Car Bomb May Bug Out And Be Unable To Attack
+https://github.com/commy2/zerohour/issues/119 [DONE]                  Car Bomb May Bug Out And Be Unable To Attack
 https://github.com/commy2/zerohour/issues/118 [MAYBE][NPROJECT]       Some ECM Tanks Automatically Engage Enemy Vehicles
 https://github.com/commy2/zerohour/issues/117 [DONE][NPROJECT]        Some Rebels Are Missing Upgrade Icons
 https://github.com/commy2/zerohour/issues/116 [MAYBE][NPROJECT]       Tactical Nuke Mig Upgrade Not Buildable While Low On Power
