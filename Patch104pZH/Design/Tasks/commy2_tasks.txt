@@ -115,7 +115,7 @@ https://github.com/commy2/zerohour/issues/107 [IMPROVEMENT][NPROJECT] Pilots Hav
 https://github.com/commy2/zerohour/issues/106 [IMPROVEMENT][NPROJECT] Cargo Planes With Countermeasures Are Missing Hit Effects
 https://github.com/commy2/zerohour/issues/105 [DONE][NPROJECT]        Some American And Chinese Units Use GLA Death Scream When Gamma Poisoned
 https://github.com/commy2/zerohour/issues/104 [IMPROVEMENT][NPROJECT] China Command Center Missing Radar Upgrade Icon
-https://github.com/commy2/zerohour/issues/103 [IMPROVEMENT][NPROJECT] Some Special Power Buttons Disappear From Command Center After Mines Upgrade
+https://github.com/commy2/zerohour/issues/103 [DONE][NPROJECT]        Some Special Power Buttons Disappear From Command Center After Mines Upgrade
 https://github.com/commy2/zerohour/issues/102 [DONE][NPROJECT]        Tank Hunter Missing Patriotism Upgrade Icon
 https://github.com/commy2/zerohour/issues/101 [IMPROVEMENT][NPROJECT] Speaker Tower Lacks Mine Upgrade
 https://github.com/commy2/zerohour/issues/100 [IMPROVEMENT][NPROJECT] Overlord Turns Chassis When Gattling Cannon Is Aiming At Air Unit
