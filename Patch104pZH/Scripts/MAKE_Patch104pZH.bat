@@ -14,6 +14,8 @@ del /s /f /q %GeneratedBigFilesDir%\%BigName%.big
 :: Optional files should be moved into one of the other scripts.
 xcopy /Y /S %GameFilesDir%\*.ini %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\*.wnd %GeneratedBigFilesUnpackedDir%\%BigName%\
+xcopy /Y /S %GameFilesDir%\Art\Textures\exlaser3.dds %GeneratedBigFilesUnpackedDir%\%BigName%\
+xcopy /Y /S %GameFilesDir%\Art\W3D\ABSWGLink_L.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\AVAvnger.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\AVAvnger_D.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
 xcopy /Y /S %GameFilesDir%\Art\W3D\NVLOutpost.W3D %GeneratedBigFilesUnpackedDir%\%BigName%\
