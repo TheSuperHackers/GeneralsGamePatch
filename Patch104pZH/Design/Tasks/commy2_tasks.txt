@@ -209,7 +209,7 @@ https://github.com/commy2/zerohour/issues/10  [IMPROVEMENT][NPROJECT] Quad Canno
 https://github.com/commy2/zerohour/issues/9   [DONE][NPROJECT]        Camo-Netted Palace Not Revealed When Garrisoned Troops Fire
 https://github.com/commy2/zerohour/issues/8   [DONE][NPROJECT]        Supply Truck Has Extremely Low Mass
 https://github.com/commy2/zerohour/issues/7   [DONE][NPROJECT]        Mini-Gunner Has Broken Squish Detection
-https://github.com/commy2/zerohour/issues/6   [IMPROVEMENT][NPROJECT] Mini-Gunner Has Broken Sound And Fire Animation When Aiming At Airborne Targets
+https://github.com/commy2/zerohour/issues/6   [DONE][NPROJECT]        Mini-Gunner Has Broken Sound And Fire Animation When Aiming At Airborne Targets
 https://github.com/commy2/zerohour/issues/5   [DONE][NPROJECT]        Heroic Pathfinders And Jarmen Kell Don't Use Red Tracers
 https://github.com/commy2/zerohour/issues/4   [IMPROVEMENT][NPROJECT] Vet 3 Jarmen Kell Has Tracer For Sniper Attack But Not For Normal Attack
 https://github.com/commy2/zerohour/issues/3   [MAYBE]                 Frenzy-Scan Bug
