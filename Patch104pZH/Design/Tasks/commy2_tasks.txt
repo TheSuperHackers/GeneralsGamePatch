@@ -48,7 +48,7 @@ https://github.com/commy2/zerohour/issues/182 [IMPROVEMENT][NPROJECT] Listening 
 https://github.com/commy2/zerohour/issues/181 [DONE]                  Some Units Lack Voice Line When Ordered To Attack Airborne Targets
 https://github.com/commy2/zerohour/issues/180 [DONE][NPROJECT]        Vanilla GLA Battle Bus Missing Sound Effect When Power Sliding
 https://github.com/commy2/zerohour/issues/179 [DONE]                  Nuke Cannons May Change Target On Their Own While Unpacking
-https://github.com/commy2/zerohour/issues/178 [IMPROVEMENT][NPROJECT] Jarmen Kell On A Bike Lacks Muzzle Flash Effect When Using Sniper Attack
+https://github.com/commy2/zerohour/issues/178 [DONE][NPROJECT]        Jarmen Kell On A Bike Lacks Muzzle Flash Effect When Using Sniper Attack
 https://github.com/commy2/zerohour/issues/177 [DONE][NPROJECT]        Demo General Rebel Lacks Voice Line When Targetting Building With Booby Trap
 https://github.com/commy2/zerohour/issues/176 [DONE]                  Stinger Site Automatically Engages Buildings
 https://github.com/commy2/zerohour/issues/175 [DONE][NPROJECT]        Stinger Site Lacks Muzzle Flash And Recoil Animation When Targeting Airborne Targets
