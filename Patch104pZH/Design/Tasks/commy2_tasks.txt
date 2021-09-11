@@ -96,7 +96,7 @@ https://github.com/commy2/zerohour/issues/126 [MAYBE]                 Microwave 
 https://github.com/commy2/zerohour/issues/125 [IMPROVEMENT][NPROJECT] USA War Factory Displays Generic Tank On Button
 https://github.com/commy2/zerohour/issues/124 [IMPROVEMENT][NPROJECT] Super Weapon Particle Cannon Uses Normal Particle Cannon Portrait
 https://github.com/commy2/zerohour/issues/123 [IMPROVEMENT][NPROJECT] Super Weapon General Particle Cannon Uses Some Blue Effects
-https://github.com/commy2/zerohour/issues/122 [IMPROVEMENT][NPROJECT] Paradrop Spawns Wrong Ranger Type
+https://github.com/commy2/zerohour/issues/122 [DONE][NPROJECT]        Paradrop Spawns Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/121 [IMPROVEMENT]           Countermeasures Tooltip Claims 50% Evasion Rate Instead Of True 30%
 https://github.com/commy2/zerohour/issues/120 [MAYBE][NPROJECT]       Vehicles Can Shoot Out Of Combat Chinook
 https://github.com/commy2/zerohour/issues/119 [IMPROVEMENT]           Car Bomb May Bug Out And Be Unable To Attack
