@@ -105,7 +105,7 @@ https://github.com/commy2/zerohour/issues/117 [DONE][NPROJECT]        Some Rebel
 https://github.com/commy2/zerohour/issues/116 [MAYBE][NPROJECT]       Tactical Nuke Mig Upgrade Not Buildable While Low On Power
 https://github.com/commy2/zerohour/issues/115 [IMPROVEMENT][NPROJECT] Early And Nuke Carpet Bomber Unavailable While Controlling Mixed Sub Faction Command Centers
 https://github.com/commy2/zerohour/issues/114 [DONE][NPROJECT]        Hitting Battle Bus In Hull Mode Causes Screen Shake
-https://github.com/commy2/zerohour/issues/113 [MAYBE][NPROJECT]       Flashbangs Cannot Target Stinger Sites
+https://github.com/commy2/zerohour/issues/113 [DONE][NPROJECT]        Flashbangs Cannot Target Stinger Sites
 https://github.com/commy2/zerohour/issues/112 [IMPROVEMENT][NPROJECT] Stealth Fake Arms Dealer Missing Camo Netting Upgrade Icon
 https://github.com/commy2/zerohour/issues/111 [DONE][NPROJECT]        Stealth General Saboteur Uses Rebel Death Scream
 https://github.com/commy2/zerohour/issues/110 [IMPROVEMENT][NPROJECT] Anthrax Beta And Gamma Upgrade Icons Missing From Many Objects
