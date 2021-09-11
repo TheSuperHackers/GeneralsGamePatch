@@ -103,7 +103,7 @@ https://github.com/commy2/zerohour/issues/119 [IMPROVEMENT]           Car Bomb M
 https://github.com/commy2/zerohour/issues/118 [MAYBE][NPROJECT]       Some ECM Tanks Automatically Engage Enemy Vehicles
 https://github.com/commy2/zerohour/issues/117 [DONE][NPROJECT]        Some Rebels Are Missing Upgrade Icons
 https://github.com/commy2/zerohour/issues/116 [MAYBE][NPROJECT]       Tactical Nuke Mig Upgrade Not Buildable While Low On Power
-https://github.com/commy2/zerohour/issues/115 [IMPROVEMENT][NPROJECT] Early And Nuke Carpet Bomber Unavailable While Controlling Mixed Sub Faction Command Centers
+https://github.com/commy2/zerohour/issues/115 [DONE][NPROJECT]        Early And Nuke Carpet Bomber Unavailable While Controlling Mixed Sub Faction Command Centers
 https://github.com/commy2/zerohour/issues/114 [DONE][NPROJECT]        Hitting Battle Bus In Hull Mode Causes Screen Shake
 https://github.com/commy2/zerohour/issues/113 [MAYBE][NPROJECT]       Flashbangs Cannot Target Stinger Sites
 https://github.com/commy2/zerohour/issues/112 [IMPROVEMENT][NPROJECT] Stealth Fake Arms Dealer Missing Camo Netting Upgrade Icon
