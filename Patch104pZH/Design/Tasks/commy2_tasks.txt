@@ -45,16 +45,16 @@ https://github.com/commy2/zerohour/issues/185 [IMPROVEMENT][NPROJECT] Fake Suppl
 https://github.com/commy2/zerohour/issues/184 [DONE]                  Battle Bus With Passengers Freezes When Attacking Airborne Targets
 https://github.com/commy2/zerohour/issues/183 [DONE]                  Battle Bus Turns Towards Target When Loaded Troops Are Ordered To Engage Airborne Units
 https://github.com/commy2/zerohour/issues/182 [IMPROVEMENT][NPROJECT] Listening Outpost Lacks Voice Lines For Attacking Enemies
-https://github.com/commy2/zerohour/issues/181 [IMPROVEMENT]           Some Units Lack Voice Line When Ordered To Attack Airborne Targets
+https://github.com/commy2/zerohour/issues/181 [DONE]                  Some Units Lack Voice Line When Ordered To Attack Airborne Targets
 https://github.com/commy2/zerohour/issues/180 [DONE][NPROJECT]        Vanilla GLA Battle Bus Missing Sound Effect When Power Sliding
 https://github.com/commy2/zerohour/issues/179 [DONE]                  Nuke Cannons May Change Target On Their Own While Unpacking
-https://github.com/commy2/zerohour/issues/178 [IMPROVEMENT][NPROJECT] Jarmen Kell On A Bike Lacks Muzzle Flash Effect When Using Sniper Attack
+https://github.com/commy2/zerohour/issues/178 [DONE][NPROJECT]        Jarmen Kell On A Bike Lacks Muzzle Flash Effect When Using Sniper Attack
 https://github.com/commy2/zerohour/issues/177 [DONE][NPROJECT]        Demo General Rebel Lacks Voice Line When Targetting Building With Booby Trap
-https://github.com/commy2/zerohour/issues/176 [IMPROVEMENT]           Stinger Site Automatically Engages Buildings
-https://github.com/commy2/zerohour/issues/175 [IMPROVEMENT][NPROJECT] Stinger Site Lacks Muzzle Flash And Recoil Animation When Targeting Airborne Targets
-https://github.com/commy2/zerohour/issues/174 [IMPROVEMENT]           Stinger Site Can Double Fire
+https://github.com/commy2/zerohour/issues/176 [DONE]                  Stinger Site Automatically Engages Buildings
+https://github.com/commy2/zerohour/issues/175 [DONE][NPROJECT]        Stinger Site Lacks Muzzle Flash And Recoil Animation When Targeting Airborne Targets
+https://github.com/commy2/zerohour/issues/174 [DONE]                  Stinger Site Can Double Fire
 https://github.com/commy2/zerohour/issues/173 [DONE]                  Humvee Without TOW Missiles Upgrade Freezes When Attack Moving Into Airborne Targets
-https://github.com/commy2/zerohour/issues/172 [IMPROVEMENT]           Extended Range Exploit
+https://github.com/commy2/zerohour/issues/172 [DONE]                  Extended Range Exploit
 https://github.com/commy2/zerohour/issues/163 [DONE][NPROJECT]        Destroyed Heroic Toxin Tractor Creates Green Poison Cloud Without Anthrax Beta Upgrade
 https://github.com/commy2/zerohour/issues/162 [NOTRELEVANT][NPROJECT] Boss General Has Some Conflicting Hotkeys
 https://github.com/commy2/zerohour/issues/161 [MAYBE][NPROJECT]       Terrorist And Terror Bike Have To Force-Fire Ground To Detonate
@@ -81,7 +81,7 @@ https://github.com/commy2/zerohour/issues/141 [IMPROVEMENT][NPROJECT] Toxin Gene
 https://github.com/commy2/zerohour/issues/140 [DONE][NPROJECT]        Gattling Helix Sometimes Fires At Airborne Units
 https://github.com/commy2/zerohour/issues/139 [DONE][NPROJECT]        Dummy Weapons Cause Notifications And Hit Effects
 https://github.com/commy2/zerohour/issues/138 [IMPROVEMENT][NPROJECT] Nuke Battlemaster Uses Normal Battlemaster Button
-https://github.com/commy2/zerohour/issues/137 [IMPROVEMENT][NPROJECT] Tracer Emerges Below Jarmen Kell When Using Sniper Attack
+https://github.com/commy2/zerohour/issues/137 [DONE][NPROJECT]        Tracer Emerges Below Jarmen Kell When Using Sniper Attack
 https://github.com/commy2/zerohour/issues/136 [DONE][NPROJECT]        Demo Charge Buttons Are Placed Differently On Jarmen Kell Than On Colonel Burton
 https://github.com/commy2/zerohour/issues/135 [IMPROVEMENT][NPROJECT] Tunnel And Palace Lack Stop Button
 https://github.com/commy2/zerohour/issues/134 [IMPROVEMENT][NPROJECT] Air Force Carpet Bomber Tooltip Claims 2:30 Cooldown Instead Of True 4:00
@@ -90,20 +90,20 @@ https://github.com/commy2/zerohour/issues/132 [MAYBE][NPROJECT]       Raptor Gua
 https://github.com/commy2/zerohour/issues/131 [DONE][NPROJECT]        Demo General Combat Bike With Demolitions Upgrade Deals No Damage When Destroyed By Gamma Poison
 https://github.com/commy2/zerohour/issues/130 [DONE][NPROJECT]        Demo Combat Bike Uses Portrait As Button
 https://github.com/commy2/zerohour/issues/129 [MAYBE][NPROJECT]       Selling Air Force Supply Center Does Refund Less Than Half Of Build Value
-https://github.com/commy2/zerohour/issues/128 [IMPROVEMENT][NPROJECT] Repair And Reinforcement Pads Reward XP When Killed
+https://github.com/commy2/zerohour/issues/128 [DONE][NPROJECT]        Repair And Reinforcement Pads Reward XP When Killed
 https://github.com/commy2/zerohour/issues/127 [DONE][NPROJECT]        Aurora Alpha Fuel Air Explosion May Trigger Before Bomb Hits
 https://github.com/commy2/zerohour/issues/126 [MAYBE]                 Microwave Tank Vulnerable To Infantry Missiles
 https://github.com/commy2/zerohour/issues/125 [IMPROVEMENT][NPROJECT] USA War Factory Displays Generic Tank On Button
 https://github.com/commy2/zerohour/issues/124 [IMPROVEMENT][NPROJECT] Super Weapon Particle Cannon Uses Normal Particle Cannon Portrait
-https://github.com/commy2/zerohour/issues/123 [IMPROVEMENT][NPROJECT] Super Weapon General Particle Cannon Uses Some Blue Effects
-https://github.com/commy2/zerohour/issues/122 [IMPROVEMENT][NPROJECT] Paradrop Spawns Wrong Ranger Type
+https://github.com/commy2/zerohour/issues/123 [DONE][NPROJECT]        Super Weapon General Particle Cannon Uses Some Blue Effects
+https://github.com/commy2/zerohour/issues/122 [DONE][NPROJECT]        Paradrop Spawns Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/121 [IMPROVEMENT]           Countermeasures Tooltip Claims 50% Evasion Rate Instead Of True 30%
 https://github.com/commy2/zerohour/issues/120 [MAYBE][NPROJECT]       Vehicles Can Shoot Out Of Combat Chinook
-https://github.com/commy2/zerohour/issues/119 [IMPROVEMENT]           Car Bomb May Bug Out And Be Unable To Attack
+https://github.com/commy2/zerohour/issues/119 [DONE]                  Car Bomb May Bug Out And Be Unable To Attack
 https://github.com/commy2/zerohour/issues/118 [MAYBE][NPROJECT]       Some ECM Tanks Automatically Engage Enemy Vehicles
 https://github.com/commy2/zerohour/issues/117 [DONE][NPROJECT]        Some Rebels Are Missing Upgrade Icons
 https://github.com/commy2/zerohour/issues/116 [MAYBE][NPROJECT]       Tactical Nuke Mig Upgrade Not Buildable While Low On Power
-https://github.com/commy2/zerohour/issues/115 [IMPROVEMENT][NPROJECT] Early And Nuke Carpet Bomber Unavailable While Controlling Mixed Sub Faction Command Centers
+https://github.com/commy2/zerohour/issues/115 [DONE][NPROJECT]        Early And Nuke Carpet Bomber Unavailable While Controlling Mixed Sub Faction Command Centers
 https://github.com/commy2/zerohour/issues/114 [DONE][NPROJECT]        Hitting Battle Bus In Hull Mode Causes Screen Shake
 https://github.com/commy2/zerohour/issues/113 [MAYBE][NPROJECT]       Flashbangs Cannot Target Stinger Sites
 https://github.com/commy2/zerohour/issues/112 [IMPROVEMENT][NPROJECT] Stealth Fake Arms Dealer Missing Camo Netting Upgrade Icon
@@ -115,7 +115,7 @@ https://github.com/commy2/zerohour/issues/107 [IMPROVEMENT][NPROJECT] Pilots Hav
 https://github.com/commy2/zerohour/issues/106 [IMPROVEMENT][NPROJECT] Cargo Planes With Countermeasures Are Missing Hit Effects
 https://github.com/commy2/zerohour/issues/105 [DONE][NPROJECT]        Some American And Chinese Units Use GLA Death Scream When Gamma Poisoned
 https://github.com/commy2/zerohour/issues/104 [IMPROVEMENT][NPROJECT] China Command Center Missing Radar Upgrade Icon
-https://github.com/commy2/zerohour/issues/103 [IMPROVEMENT][NPROJECT] Some Special Power Buttons Disappear From Command Center After Mines Upgrade
+https://github.com/commy2/zerohour/issues/103 [DONE][NPROJECT]        Some Special Power Buttons Disappear From Command Center After Mines Upgrade
 https://github.com/commy2/zerohour/issues/102 [DONE][NPROJECT]        Tank Hunter Missing Patriotism Upgrade Icon
 https://github.com/commy2/zerohour/issues/101 [IMPROVEMENT][NPROJECT] Speaker Tower Lacks Mine Upgrade
 https://github.com/commy2/zerohour/issues/100 [IMPROVEMENT][NPROJECT] Overlord Turns Chassis When Gattling Cannon Is Aiming At Air Unit
@@ -211,7 +211,7 @@ https://github.com/commy2/zerohour/issues/8   [DONE][NPROJECT]        Supply Tru
 https://github.com/commy2/zerohour/issues/7   [DONE][NPROJECT]        Mini-Gunner Has Broken Squish Detection
 https://github.com/commy2/zerohour/issues/6   [IMPROVEMENT][NPROJECT] Mini-Gunner Has Broken Sound And Fire Animation When Aiming At Airborne Targets
 https://github.com/commy2/zerohour/issues/5   [DONE][NPROJECT]        Heroic Pathfinders And Jarmen Kell Don't Use Red Tracers
-https://github.com/commy2/zerohour/issues/4   [IMPROVEMENT][NPROJECT] Vet 3 Jarmen Kell Has Tracer For Sniper Attack But Not For Normal Attack
+https://github.com/commy2/zerohour/issues/4   [DONE][NPROJECT]        Vet 3 Jarmen Kell Has Tracer For Sniper Attack But Not For Normal Attack
 https://github.com/commy2/zerohour/issues/3   [MAYBE]                 Frenzy-Scan Bug
 https://github.com/commy2/zerohour/issues/2   [DONE][NPROJECT]        Microwave-Supply Drop Zone-Bug
 https://github.com/commy2/zerohour/issues/1   [DONE][NPROJECT]        Scud-Bug
