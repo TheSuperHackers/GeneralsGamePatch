@@ -91,7 +91,7 @@ https://github.com/commy2/zerohour/issues/131 [DONE][NPROJECT]        Demo Gener
 https://github.com/commy2/zerohour/issues/130 [DONE][NPROJECT]        Demo Combat Bike Uses Portrait As Button
 https://github.com/commy2/zerohour/issues/129 [MAYBE][NPROJECT]       Selling Air Force Supply Center Does Refund Less Than Half Of Build Value
 https://github.com/commy2/zerohour/issues/128 [IMPROVEMENT][NPROJECT] Repair And Reinforcement Pads Reward XP When Killed
-https://github.com/commy2/zerohour/issues/127 [IMPROVEMENT][NPROJECT] Aurora Alpha Fuel Air Explosion May Trigger Before Bomb Hits
+https://github.com/commy2/zerohour/issues/127 [DONE][NPROJECT]        Aurora Alpha Fuel Air Explosion May Trigger Before Bomb Hits
 https://github.com/commy2/zerohour/issues/126 [MAYBE]                 Microwave Tank Vulnerable To Infantry Missiles
 https://github.com/commy2/zerohour/issues/125 [IMPROVEMENT][NPROJECT] USA War Factory Displays Generic Tank On Button
 https://github.com/commy2/zerohour/issues/124 [IMPROVEMENT][NPROJECT] Super Weapon Particle Cannon Uses Normal Particle Cannon Portrait
