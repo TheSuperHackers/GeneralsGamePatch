@@ -54,7 +54,7 @@ https://github.com/commy2/zerohour/issues/176 [IMPROVEMENT]           Stinger Si
 https://github.com/commy2/zerohour/issues/175 [IMPROVEMENT][NPROJECT] Stinger Site Lacks Muzzle Flash And Recoil Animation When Targeting Airborne Targets
 https://github.com/commy2/zerohour/issues/174 [IMPROVEMENT]           Stinger Site Can Double Fire
 https://github.com/commy2/zerohour/issues/173 [DONE]                  Humvee Without TOW Missiles Upgrade Freezes When Attack Moving Into Airborne Targets
-https://github.com/commy2/zerohour/issues/172 [IMPROVEMENT]           Extended Range Exploit
+https://github.com/commy2/zerohour/issues/172 [DONE]                  Extended Range Exploit
 https://github.com/commy2/zerohour/issues/163 [DONE][NPROJECT]        Destroyed Heroic Toxin Tractor Creates Green Poison Cloud Without Anthrax Beta Upgrade
 https://github.com/commy2/zerohour/issues/162 [NOTRELEVANT][NPROJECT] Boss General Has Some Conflicting Hotkeys
 https://github.com/commy2/zerohour/issues/161 [MAYBE][NPROJECT]       Terrorist And Terror Bike Have To Force-Fire Ground To Detonate
@@ -78,7 +78,7 @@ https://github.com/commy2/zerohour/issues/144 [IMPROVEMENT]           Overlord D
 https://github.com/commy2/zerohour/issues/143 [IMPROVEMENT]           GPS Scrambled Rangers And Red Guards Remain Stealthed While Capturing Buildings
 https://github.com/commy2/zerohour/issues/142 [IMPROVEMENT][NPROJECT] Fire Base Shoots At Awkward Angle
 https://github.com/commy2/zerohour/issues/141 [IMPROVEMENT][NPROJECT] Toxin General RPG-Trooper Shoots Stinger Missiles
-https://github.com/commy2/zerohour/issues/140 [IMPROVEMENT][NPROJECT] Gattling Helix Sometimes Fires At Airborne Units
+https://github.com/commy2/zerohour/issues/140 [DONE][NPROJECT]        Gattling Helix Sometimes Fires At Airborne Units
 https://github.com/commy2/zerohour/issues/139 [DONE][NPROJECT]        Dummy Weapons Cause Notifications And Hit Effects
 https://github.com/commy2/zerohour/issues/138 [IMPROVEMENT][NPROJECT] Nuke Battlemaster Uses Normal Battlemaster Button
 https://github.com/commy2/zerohour/issues/137 [IMPROVEMENT][NPROJECT] Tracer Emerges Below Jarmen Kell When Using Sniper Attack
@@ -96,7 +96,7 @@ https://github.com/commy2/zerohour/issues/126 [MAYBE]                 Microwave 
 https://github.com/commy2/zerohour/issues/125 [IMPROVEMENT][NPROJECT] USA War Factory Displays Generic Tank On Button
 https://github.com/commy2/zerohour/issues/124 [IMPROVEMENT][NPROJECT] Super Weapon Particle Cannon Uses Normal Particle Cannon Portrait
 https://github.com/commy2/zerohour/issues/123 [DONE][NPROJECT]        Super Weapon General Particle Cannon Uses Some Blue Effects
-https://github.com/commy2/zerohour/issues/122 [IMPROVEMENT][NPROJECT] Paradrop Spawns Wrong Ranger Type
+https://github.com/commy2/zerohour/issues/122 [DONE][NPROJECT]        Paradrop Spawns Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/121 [IMPROVEMENT]           Countermeasures Tooltip Claims 50% Evasion Rate Instead Of True 30%
 https://github.com/commy2/zerohour/issues/120 [MAYBE][NPROJECT]       Vehicles Can Shoot Out Of Combat Chinook
 https://github.com/commy2/zerohour/issues/119 [IMPROVEMENT]           Car Bomb May Bug Out And Be Unable To Attack
