@@ -1,32 +1,38 @@
-#### Supplied by xezon
+# BIG File Format
 
---- BIG HEADER
+## Supplied by xezon
+
+### BIG HEADER
+```
 .BIG signature (4 bytes) - it must be 0x46474942 - 'BIGF'
 .BIG file size (4 bytes)
 FILE HEADER count (4 bytes)
 BIG HEADER + FILE HEADER (count) + LAST HEADER size in bytes (4 bytes)
+```
 
---- FILE HEADER
+### FILE HEADER
+```
 File data offset (4 bytes) - position in the .BIG file where the content of this specific file starts
 File data size (4 bytes)
 File name - null terminated string
+```
 
---- LAST HEADER
+### LAST HEADER
+```
 Unknown value (4 bytes)
 Unknown value (4 bytes)
+```
 
+## Supplied by Thyme Wiki
 
-#### Supplied by Thyme Wiki
-
+Source
 https://github.com/TheAssemblyArmada/Thyme/wiki/BIG-File-Format
-
-BIG File Format
 
 BIG files are an archive format used in many games published by Electronic Arts.
 The supported features vary between games, with some using compression or encryption, but for SAGE, the files are trivially concatenated together and wrapped with a header containing a series of index entries that located a given file within the archive.
 
-__Header__
-
+### Header
+```
 struct BIGFileHeader
 {
     uint32_t id;
@@ -41,6 +47,7 @@ struct IndexEntry
     int32_t position;
     char file_name[n];
 };
+```
 
 The header "id" is a FourCC that is either "BIGF" for Generals/Zero Hour or "BIG4" for the Battle for Middle Earth games. Thyme will accept either of these as valid. Next is the size of the archive in bytes stored as a little endian 32bit integer.
 All other integers in the header are big endian and thus require byte swapping on popular CPU architectures such as x86 and common modes of ARM. "file_count" provides the number of files the archive contains and thus how many index entries there are and "data_start" is the offset to the end of the header.
