@@ -118,7 +118,7 @@ https://github.com/commy2/zerohour/issues/104 [IMPROVEMENT][NPROJECT] China Comm
 https://github.com/commy2/zerohour/issues/103 [DONE][NPROJECT]        Some Special Power Buttons Disappear From Command Center After Mines Upgrade
 https://github.com/commy2/zerohour/issues/102 [DONE][NPROJECT]        Tank Hunter Missing Patriotism Upgrade Icon
 https://github.com/commy2/zerohour/issues/101 [IMPROVEMENT][NPROJECT] Speaker Tower Lacks Mine Upgrade
-https://github.com/commy2/zerohour/issues/100 [IMPROVEMENT][NPROJECT] Overlord Turns Chassis When Gattling Cannon Is Aiming At Air Unit
+https://github.com/commy2/zerohour/issues/100 [DONE][NPROJECT]        Overlord Turns Chassis When Gattling Cannon Is Aiming At Air Unit
 https://github.com/commy2/zerohour/issues/99  [MAYBE][NPROJECT]       Emperor Overlord Incompatible With Subliminal Messaging
 https://github.com/commy2/zerohour/issues/98  [?][NPROJECT]           Nuke Cannon Animation Inconsistency
 https://github.com/commy2/zerohour/issues/97  [NOTRELEVANT][NPROJECT] Infantry General Gattling Tank Starts As Veteran
