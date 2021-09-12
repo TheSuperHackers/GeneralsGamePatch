@@ -100,3 +100,26 @@ In our first survey we asked community how they feel about addressing bugs that 
 - Added missing sounds to VGLA Battle Bus
 - Fixed wrong sounds on USA Fire Base selection
 - Fixed wrong unit tooltip on Laser USA Aurora
+- Added missing AP Rocket Upgrade icon to GLA SCUD Launcher cameo
+- Added missing Patriotism Upgrade icon to Infantry China Tank Hunter
+- Added missing Upgrade icons to GLA Rebels
+- Fixed wrong upgrade icon placements on USA Tomahawk
+- Fixed China Nuklear Missile exploit
+- Fixed issue that had USA Spectre Gunship lose its player color when shot down
+- Fixed issue where China Battlemasters from different sub faction did not benefit from Horde Bonus
+- Fixed broken weapons and animations on GLA HiDef Scud Launcher (cut)
+- Added missing red smoke effect for Demo GLA Terrorist on Combat Cycle after Demo Upgrade
+- Added missing construction sound effect for USA Sentry Drone
+- Fixed China Nuke Cannon Neutron Shells exploit
+- Added missing booby trap sound effect for Demo GLA Rebel
+- Fixed issue where some USA Chinooks collected 100 milliseconds slower than others
+- Fixed issue where damage smoke effects on China Outpost would not disappear after repair
+- **[REVIEW]** Fixed issue where damage smoke effects on China Outpost would show for enemy player when stealthed
+- Fixed issue where GLA Battle Bus would turn chassis after targeting air unit
+- Fixed issue where GLA Battle Bus would stop moving after targeting air unit
+- Fixed issue where USA Humvee without TOW missile would stop moving after targeting air unit
+- Fixed issue where Toxin GLA Rocket Soldier on Combat Cycle did not shoot with correct rocket type
+- Fixed issue where Demo GLA Rocket Soldier on Combat Cycle did not shoot with correct rocket type
+- Fixed issue where GLA Fake Command Center did look different to real Command Center after Fortified Structure upgrade
+- Fixed issue where several dummy weapons caused confusing attack notifications
+- Fixed issue where China Helix with Gattling Gun could attack air units
