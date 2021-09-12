@@ -1,7 +1,9 @@
-Source:
+# DDS files and DXT compression
+
+Source
 https://w3dhub.com/forum/topic/417101-dds-files-and-dxt-compression/
 
-#### What is DXT?
+## What is DXT?
 
 DDS is a container format designed for texture data and can have different amounts of compression applied (including none). There are 3 major compression formats defined in the Direct3D 6 standard: DXT1, DXT3 and DXT5. These are also called BC1/2/3 ("Block Compression") respectively. Later versions added BC4/5 (D3D10) and BC6/7 (D3D11). Each of these have their own use cases and advantages, so higher numbers are not just "better" versions.
 
@@ -9,7 +11,7 @@ The advantage of these compression formats compared to something more common lik
 
 A more thorough look at the details of the compression formats can be found here: http://www.reedbeta.com/blog/understanding-bcn-texture-compression-formats/
 
-#### Which Format to Use?
+## Which Format to Use?
 
 The DXT-Formats mostly differ in their handling of the alpha channel (usually used for transparency).
 
@@ -23,14 +25,14 @@ The more modern BC4-7 formats should generally be avoided for now since the olde
 
 At some point in the future, I will specifically take a look at BC5 for optimum quality normal maps and general BC7 vs. BC3 quality since it should be tremendously better in most use cases at the same size. BC7 instead of BC1 should not be used frivolously due to being twice the size and also less amenable to further compression (e.g. zip) since it actually carries so much more information, but when you really need a near-lossless result, this will do it. Since the BC7 format is so much more complex, some encoders can take many hours for a single texture at high quality, but there are some faster ones out there (see below, so far I only tried Compressonator for BC7, will revisit this at some point).
 
-#### Which Exporter to Use?
+## Which Exporter to Use?
 
 This is where we get the reason why I wrote this post in the first place. I noticed some textures looking awfully blocky ingame with obviously off-color artifacts, which was caused by an extremely bad DXT encoder. I then set out to compare different compressors and stared at textures for hours (I also used PSNR metrics, but visual inspection was much more useful). In total I tested 7 different tools with two DXT1 textures we had uncompressed sources for.
 
 First of all here's my personal ranking in terms of output quality:
 
 * Crunch (https://github.com/Unity-Technologies/crunch/tree/unity/bin) tied with Nvidia Texture Tools
-* Nvidia Texture Tools (NVTT, download from "releases")
+* Nvidia Texture Tools (NVTT, https://github.com/castano/nvidia-texture-tools)
 * Compressonator (https://github.com/castano/nvidia-texture-tools)
 * Nvidia Texture Tools for Adobe Photoshop (https://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop)
 * Paint.Net (https://www.getpaint.net/)
