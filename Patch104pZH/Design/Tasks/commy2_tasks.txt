@@ -56,14 +56,14 @@ https://github.com/commy2/zerohour/issues/174 [DONE]                  Stinger Si
 https://github.com/commy2/zerohour/issues/173 [DONE]                  Humvee Without TOW Missiles Upgrade Freezes When Attack Moving Into Airborne Targets
 https://github.com/commy2/zerohour/issues/172 [DONE]                  Extended Range Exploit
 https://github.com/commy2/zerohour/issues/163 [DONE][NPROJECT]        Destroyed Heroic Toxin Tractor Creates Green Poison Cloud Without Anthrax Beta Upgrade
-https://github.com/commy2/zerohour/issues/162 [NOTRELEVANT][NPROJECT] Boss General Has Some Conflicting Hotkeys
+https://github.com/commy2/zerohour/issues/162 [IMPROVEMENT][NPROJECT] Boss General Has Some Conflicting Hotkeys
 https://github.com/commy2/zerohour/issues/161 [MAYBE][NPROJECT]       Terrorist And Terror Bike Have To Force-Fire Ground To Detonate
 https://github.com/commy2/zerohour/issues/160 [MAYBE]                 Slow Units Can Outrun Comanche Missiles
-https://github.com/commy2/zerohour/issues/159 [NOTRELEVANT][NPROJECT] Boss Nationalism Upgrade Changes Tooltip After Land Mines Upgrade
-https://github.com/commy2/zerohour/issues/158 [NOTRELEVANT][NPROJECT] Boss Patriot Battery Has Unique Stop Button Position
-https://github.com/commy2/zerohour/issues/157 [NOTRELEVANT][NPROJECT] Boss General Has Strange Selection Of Available Upgrades
-https://github.com/commy2/zerohour/issues/156 [NOTRELEVANT][NPROJECT] Some Boss Infantry Units Lack Chemical Suits Upgrade Icon
-https://github.com/commy2/zerohour/issues/155 [NOTRELEVANT][NPROJECT] Boss General Scud Storm Cannot Upgrade Neutron Mines
+https://github.com/commy2/zerohour/issues/159 [IMPROVEMENT][NPROJECT] Boss Nationalism Upgrade Changes Tooltip After Land Mines Upgrade
+https://github.com/commy2/zerohour/issues/158 [IMPROVEMENT][NPROJECT] Boss Patriot Battery Has Unique Stop Button Position
+https://github.com/commy2/zerohour/issues/157 [MAYBE][NPROJECT]       Boss General Has Strange Selection Of Available Upgrades
+https://github.com/commy2/zerohour/issues/156 [IMPROVEMENT][NPROJECT] Some Boss Infantry Units Lack Chemical Suits Upgrade Icon
+https://github.com/commy2/zerohour/issues/155 [IMPROVEMENT][NPROJECT] Boss General Scud Storm Cannot Upgrade Neutron Mines
 https://github.com/commy2/zerohour/issues/154 [DONE][NPROJECT]        Fake Command Centers Lose Sub-Faction Decal After Fortified Structures Upgrade
 https://github.com/commy2/zerohour/issues/153 [DONE][NPROJECT]        Base Defense Scaffolds Set Off Demo Traps
 https://github.com/commy2/zerohour/issues/152 [IMPROVEMENT]           Aurora And Carpet Bomb Model Is Extremely Low Poly
@@ -120,7 +120,7 @@ https://github.com/commy2/zerohour/issues/102 [DONE][NPROJECT]        Tank Hunte
 https://github.com/commy2/zerohour/issues/101 [IMPROVEMENT][NPROJECT] Speaker Tower Lacks Mine Upgrade
 https://github.com/commy2/zerohour/issues/100 [DONE][NPROJECT]        Overlord Turns Chassis When Gattling Cannon Is Aiming At Air Unit
 https://github.com/commy2/zerohour/issues/99  [MAYBE][NPROJECT]       Emperor Overlord Incompatible With Subliminal Messaging
-https://github.com/commy2/zerohour/issues/98  [?][NPROJECT]           Nuke Cannon Animation Inconsistency
+https://github.com/commy2/zerohour/issues/98  [MAYBE][NPROJECT]       Nuke Cannon Animation Inconsistency
 https://github.com/commy2/zerohour/issues/97  [NOTRELEVANT][NPROJECT] Infantry General Gattling Tank Starts As Veteran
 https://github.com/commy2/zerohour/issues/96  [IMPROVEMENT][NPROJECT] Vanilla China Troop Crawlers Missing Detection Effect
 https://github.com/commy2/zerohour/issues/95  [IMPROVEMENT][NPROJECT] Inconsistent Outpost Geometry
@@ -132,11 +132,11 @@ https://github.com/commy2/zerohour/issues/90  [NOTRELEVANT][NPROJECT] Jarmen Kel
 https://github.com/commy2/zerohour/issues/89  [NONE][NPROJECT]        Non-Vanilla USA Fire Bases Use Patriot Sound Effect
 https://github.com/commy2/zerohour/issues/88  [MAYBE][NPROJECT]       Air Force General Chinook And Combat Chinook Have Different PDL Scan Ranges
 https://github.com/commy2/zerohour/issues/87  [DONE][NPROJECT]        Some Chinooks Collect Slower Than Others
-https://github.com/commy2/zerohour/issues/86  [NOTRELEVANT][NPROJECT] Boss King Raptor Inconsistencies
+https://github.com/commy2/zerohour/issues/86  [MAYBE][NPROJECT]       Boss King Raptor Inconsistencies
 https://github.com/commy2/zerohour/issues/85  [MAYBE][NPROJECT]       King Raptor Missing Armor Bonus From Countermeasures Upgrade
 https://github.com/commy2/zerohour/issues/84  [MAYBE]                 Air Force General MOAB B2-Bomber Lacks Point Defense Laser
 https://github.com/commy2/zerohour/issues/83  [MAYBE]                 Some Airplane Countermeasures Evasion Rates Are 50% Instead Of 30%
-https://github.com/commy2/zerohour/issues/82  [?]                     B2 Carpet Bomber Has Extremely Tight Turn Radius
+https://github.com/commy2/zerohour/issues/82  [MAYBE]                 B2 Carpet Bomber Has Extremely Tight Turn Radius
 https://github.com/commy2/zerohour/issues/81  [DONE][NPROJECT]        Spectre Missing Portrait And Upgrade Icons
 https://github.com/commy2/zerohour/issues/80  [IMPROVEMENT][NPROJECT] Air Force And Super Weapon Spectre Tooltip Claims 4:00 Cooldown Instead Of True 3:00
 https://github.com/commy2/zerohour/issues/78  [MAYBE][NPROJECT]       Spectre Inconsistencies
@@ -147,7 +147,7 @@ https://github.com/commy2/zerohour/issues/74  [DONE][NPROJECT]        Avenger Tu
 https://github.com/commy2/zerohour/issues/73  [MAYBE][NPROJECT]       Avenger Turret Inconsistencies
 https://github.com/commy2/zerohour/issues/72  [DONE][NPROJECT]        Non-Vanilla USA Microwave Tanks Use Humvee Move Start Sounds
 https://github.com/commy2/zerohour/issues/71  [DONE][NPROJECT]        Some Paladins Missing Hellfire Drone Upgrade Icon
-https://github.com/commy2/zerohour/issues/70  [NOTRELEVANT][NPROJECT] Boss Sentry Drone Inconsistencies
+https://github.com/commy2/zerohour/issues/70  [MAYBE][NPROJECT]       Boss Sentry Drone Inconsistencies
 https://github.com/commy2/zerohour/issues/69  [DONE][NPROJECT]        Damaged And Non-Vanilla USA Sentry Drones Missing Their Move Start Sounds
 https://github.com/commy2/zerohour/issues/68  [DONE]                  Spy Drone Seleced By Q-Shortcut
 https://github.com/commy2/zerohour/issues/67  [DONE][NPROJECT]        Super Weapon And Laser General Vehicle Drone Upgrade Incompatibility
@@ -156,7 +156,7 @@ https://github.com/commy2/zerohour/issues/65  [DONE][NPROJECT]        Laser Gene
 https://github.com/commy2/zerohour/issues/64  [MAYBE][NPROJECT]       Battle Drone Gains Double The Intended Bonus From Drone Armor
 https://github.com/commy2/zerohour/issues/63  [MAYBE][NPROJECT]       Paladins And Microwaves Gain Slightly Less Than Intended From Composite Armor
 https://github.com/commy2/zerohour/issues/62  [MAYBE][NPROJECT]       Crusader And Laser Tanks Receive Composite Armor Health Bonus Twice
-https://github.com/commy2/zerohour/issues/61  [NOTRELEVANT][NPROJECT] Destroyed American Boss Buildings Spawn Wrong Ranger Type
+https://github.com/commy2/zerohour/issues/61  [IMPROVEMENT][NPROJECT] Destroyed American Boss Buildings Spawn Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/60  [DONE][NPROJECT]        Destroyed Particle Cannons Spawn Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/59  [IMPROVEMENT]           Air Force General Name Misspelling
 https://github.com/commy2/zerohour/issues/58  [IMPROVEMENT][NPROJECT] Some Combat Bikes Missing DoorOpenTime Entry
@@ -165,7 +165,7 @@ https://github.com/commy2/zerohour/issues/56  [DONE][NPROJECT]        Saboteur B
 https://github.com/commy2/zerohour/issues/55  [DONE][NPROJECT]        Vanilla GLA Combat Bike Has Duplicated Death Scream
 https://github.com/commy2/zerohour/issues/54  [DONE][NPROJECT]        Vanilla GLA Hijacker And Saboteur Can Ride Toxin Generals Combat Bike
 https://github.com/commy2/zerohour/issues/53  [MAYBE]                 Veteran Quad Cannons Deal Less Damage When Scrapped
-https://github.com/commy2/zerohour/issues/52  [NOTRELEVANT][NPROJECT] Boss Base Defense Inconsistencies
+https://github.com/commy2/zerohour/issues/52  [MAYBE][NPROJECT]       Boss Base Defense Inconsistencies
 https://github.com/commy2/zerohour/issues/51  [DONE][NPROJECT]        Demo General Worker On Bike Missing Demo Generals Bike Destruction Effect
 https://github.com/commy2/zerohour/issues/50  [DONE][NPROJECT]        Demo General Vehicle Destruction Effect Glitches
 https://github.com/commy2/zerohour/issues/49  [DONE][NPROJECT]        Demo General Infantry Play Terrorist Sound Effect When Killed
@@ -179,9 +179,9 @@ https://github.com/commy2/zerohour/issues/42  [DONE]                  Worker Has
 https://github.com/commy2/zerohour/issues/41  [DONE]                  Base Defenses Missing Demoliton Upgrade Icon
 https://github.com/commy2/zerohour/issues/38  [DONE][NPROJECT]        Detached Floating Object Orbits Avenger Model When Moving
 https://github.com/commy2/zerohour/issues/37  [DONE][NPROJECT]        Tomahawk Launchers Have Reversed Order For Battle And Scout Drone Upgrade
-https://github.com/commy2/zerohour/issues/36  [NOTRELEVANT][NPROJECT] Boss Helix Inconsistencies
-https://github.com/commy2/zerohour/issues/35  [NOTRELEVANT][NPROJECT] Boss Infantry Inconsistencies
-https://github.com/commy2/zerohour/issues/34  [NOTRELEVANT][NPROJECT] Boss Avenger Inconsistencies
+https://github.com/commy2/zerohour/issues/36  [MAYBE][NPROJECT]       Boss Helix Inconsistencies
+https://github.com/commy2/zerohour/issues/35  [MAYBE][NPROJECT]       Boss Infantry Inconsistencies
+https://github.com/commy2/zerohour/issues/34  [MAYBE][NPROJECT]       Boss Avenger Inconsistencies
 https://github.com/commy2/zerohour/issues/33  [MAYBE][NPROJECT]       Air Force General Avenger Receives 30% More Damage From Jet Missiles
 https://github.com/commy2/zerohour/issues/32  [MAYBE][NPROJECT]       Non-vanilla USA Avengers Benefit From Composite Armor
 https://github.com/commy2/zerohour/issues/31  [DONE]                  Some Avengers Can Retaliate
@@ -190,7 +190,7 @@ https://github.com/commy2/zerohour/issues/29  [DONE][NPROJECT]        GLA Base D
 https://github.com/commy2/zerohour/issues/28  [MAYBE][NPROJECT]       Demo General Terrorist Does Not Explode When Crushed, Burned Or Blown Up
 https://github.com/commy2/zerohour/issues/27  [DONE][NPROJECT]        Scud Storm Does Not Damage Itself
 https://github.com/commy2/zerohour/issues/26  [DONE][NPROJECT]        Saboteur Uses Wrong Art For Sabotage Building-Ability
-https://github.com/commy2/zerohour/issues/25  [NOTRELEVANT][NPROJECT] Boss Tomahawk Launcher Never Drops Scrap
+https://github.com/commy2/zerohour/issues/25  [IMPROVEMENT][NPROJECT] Boss Tomahawk Launcher Never Drops Scrap
 https://github.com/commy2/zerohour/issues/24  [IMPROVEMENT][NPROJECT] GLA Buildings Don't Create Scrap
 https://github.com/commy2/zerohour/issues/23  [DONE][NPROJECT]        Demo General Jarmen Kell Repeats Voice Line When Planting Timed Demo Charge
 https://github.com/commy2/zerohour/issues/22  [IMPROVEMENT]           Build Scorpion Tank-Button Misspelling
