@@ -1561,21 +1561,21 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  Starting from version 2.6 computer player can play Boss General, but only in Official Maps and NProject Mod maps
 
  Balances and Fixes (based on Generals Challenge Boss):
- - [NOTRELEVANT] Boss General have a new faction logo at the Command Center!
+ - [IMPROVEMENT] Boss General have a new faction logo at the Command Center!
  - [NOTRELEVANT] Some original Boss General upgrades may not available in this mod, like no Nationalism for Boss General
- - [NOTRELEVANT] Advanced units now requires corresponding faction's superweapon. For example, you cannot build Overlord without a Nuclear
-   [NOTRELEVANT] Missile Silo
- - [NOTRELEVANT] Boss Dozer use USA Dozer voices, not the Chinese one
+ - [MAYBE] Advanced units now requires corresponding faction's superweapon. For example, you cannot build Overlord without a Nuclear
+   Missile Silo
+ - [IMPROVEMENT] Boss Dozer use USA Dozer voices, not the Chinese one
  - [NOTRELEVANT] No horde bonuses for Boss General Tank Hunter
  - [NOTRELEVANT] No drones and Pilots for Boss General USA vehicles
- - [NOTRELEVANT] Fixing Boss General Avenger that have double air turret
+ - [IMPROVEMENT] Fixing Boss General Avenger that have double air turret
  - [NOTRELEVANT] Boss General King Raptor build cost increased from 1100 to 1600
- - [NOTRELEVANT] All Boss General buldings can auto-repair like USA buildings
+ - [MAYBE] All Boss General buldings can auto-repair like USA buildings
  - [NOTRELEVANT] All Boss General buldings (except SCUD Storm, Nuclear Missile, and base defenses) spawn Rangers when destroyed
  - [NOTRELEVANT] Boss General superweapons build cost increased from 5000 to 6000
- - [NOTRELEVANT] Boss General only can build one kind of his/her superweapon when superweapon restriction is turned on, so choose your
-   [NOTRELEVANT] advanced tech carefully!
- - [NOTRELEVANT] Fixed all Boss General superweapon buildings that cannot purchase several upgrades when low-powered
+ - [IMPROVEMENT] Boss General only can build one kind of his/her superweapon when superweapon restriction is turned on, so choose your
+   advanced tech carefully!
+ - [IMPROVEMENT] Fixed all Boss General superweapon buildings that cannot purchase several upgrades when low-powered
  - [NOTRELEVANT] Now you also require Boss General War Factory to build Boss General King Raptor
  - [NOTRELEVANT] Boss General Patriot Missile no longer spawn Rangers when destroyed
  - [NOTRELEVANT] Boss General Tunnel Network comes with Tank Hunters, not RPG Troopers
