@@ -137,7 +137,7 @@ https://github.com/commy2/zerohour/issues/85  [MAYBE][NPROJECT]       King Rapto
 https://github.com/commy2/zerohour/issues/84  [MAYBE]                 Air Force General MOAB B2-Bomber Lacks Point Defense Laser
 https://github.com/commy2/zerohour/issues/83  [MAYBE]                 Some Airplane Countermeasures Evasion Rates Are 50% Instead Of 30%
 https://github.com/commy2/zerohour/issues/82  [?]                     B2 Carpet Bomber Has Extremely Tight Turn Radius
-https://github.com/commy2/zerohour/issues/81  [IMPROVEMENT][NPROJECT] Spectre Missing Portrait And Upgrade Icons
+https://github.com/commy2/zerohour/issues/81  [DONE][NPROJECT]        Spectre Missing Portrait And Upgrade Icons
 https://github.com/commy2/zerohour/issues/80  [IMPROVEMENT][NPROJECT] Air Force And Super Weapon Spectre Tooltip Claims 4:00 Cooldown Instead Of True 3:00
 https://github.com/commy2/zerohour/issues/78  [MAYBE][NPROJECT]       Spectre Inconsistencies
 https://github.com/commy2/zerohour/issues/77  [DONE][NPROJECT]        Non-Vanilla USA Pilots Are Missing Voice Lines When Garrisoning Buildings
