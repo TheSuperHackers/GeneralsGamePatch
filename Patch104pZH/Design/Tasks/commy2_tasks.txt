@@ -146,7 +146,7 @@ https://github.com/commy2/zerohour/issues/75  [IMPROVEMENT][NPROJECT] Some Hellf
 https://github.com/commy2/zerohour/issues/74  [DONE][NPROJECT]        Avenger Turns Chassis When Turret Is Aiming At Air Unit
 https://github.com/commy2/zerohour/issues/73  [MAYBE][NPROJECT]       Avenger Turret Inconsistencies
 https://github.com/commy2/zerohour/issues/72  [DONE][NPROJECT]        Non-Vanilla USA Microwave Tanks Use Humvee Move Start Sounds
-https://github.com/commy2/zerohour/issues/71  [IMPROVEMENT][NPROJECT] Some Paladins Missing Hellfire Drone Upgrade Icon
+https://github.com/commy2/zerohour/issues/71  [DONE][NPROJECT]        Some Paladins Missing Hellfire Drone Upgrade Icon
 https://github.com/commy2/zerohour/issues/70  [NOTRELEVANT][NPROJECT] Boss Sentry Drone Inconsistencies
 https://github.com/commy2/zerohour/issues/69  [DONE][NPROJECT]        Damaged And Non-Vanilla USA Sentry Drones Missing Their Move Start Sounds
 https://github.com/commy2/zerohour/issues/68  [DONE]                  Spy Drone Seleced By Q-Shortcut
