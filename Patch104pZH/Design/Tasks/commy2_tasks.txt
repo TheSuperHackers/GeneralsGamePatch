@@ -142,7 +142,7 @@ https://github.com/commy2/zerohour/issues/80  [IMPROVEMENT][NPROJECT] Air Force 
 https://github.com/commy2/zerohour/issues/78  [MAYBE][NPROJECT]       Spectre Inconsistencies
 https://github.com/commy2/zerohour/issues/77  [DONE][NPROJECT]        Non-Vanilla USA Pilots Are Missing Voice Lines When Garrisoning Buildings
 https://github.com/commy2/zerohour/issues/76  [DONE][NPROJECT]        Chem Suit Rangers Are Missing Hit Effects
-https://github.com/commy2/zerohour/issues/75  [IMPROVEMENT][NPROJECT] Some Hellfire Drones Use Scout Drone Model
+https://github.com/commy2/zerohour/issues/75  [DONE][NPROJECT]        Some Hellfire Drones Use Scout Drone Model
 https://github.com/commy2/zerohour/issues/74  [DONE][NPROJECT]        Avenger Turns Chassis When Turret Is Aiming At Air Unit
 https://github.com/commy2/zerohour/issues/73  [MAYBE][NPROJECT]       Avenger Turret Inconsistencies
 https://github.com/commy2/zerohour/issues/72  [DONE][NPROJECT]        Non-Vanilla USA Microwave Tanks Use Humvee Move Start Sounds
