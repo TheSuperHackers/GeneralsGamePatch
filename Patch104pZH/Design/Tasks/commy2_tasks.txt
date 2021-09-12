@@ -321,10 +321,10 @@ https://github.com/commy2/zerohour/issues/164                         USA05 Tox 
 
 WORLD BUILDER
 
-https://github.com/commy2/zerohour/issues/214 [IMPROVEMENT][NPROJECT] Air Force General Chinook Listed Under Vanilla USA In World Builder
-https://github.com/commy2/zerohour/issues/213 [IMPROVEMENT][NPROJECT] Laser General Hellfire Drone Listed Under Super Weapon General In World Builder
-https://github.com/commy2/zerohour/issues/212 [IMPROVEMENT][NPROJECT] All Bombs Listed Under USA In World Builder
-https://github.com/commy2/zerohour/issues/211 [IMPROVEMENT][NPROJECT] Helix Wreck Props Listed Under USA In World Builder
-https://github.com/commy2/zerohour/issues/79  [IMPROVEMENT][NPROJECT] Spectre Hardpoints Listed Under Normal China In World Builder
-https://github.com/commy2/zerohour/issues/40  [IMPROVEMENT][NPROJECT] Infantry General Gattling Tank Listed Under Tank General In World Builder
-https://github.com/commy2/zerohour/issues/39  [IMPROVEMENT][NPROJECT] Tank General Air Field Listed Under Vanilla China In World Builder
+https://github.com/commy2/zerohour/issues/214 [DONE][NPROJECT]        Air Force General Chinook Listed Under Vanilla USA In World Builder
+https://github.com/commy2/zerohour/issues/213 [DONE][NPROJECT]        Laser General Hellfire Drone Listed Under Super Weapon General In World Builder
+https://github.com/commy2/zerohour/issues/212 [DONE][NPROJECT]        All Bombs Listed Under USA In World Builder
+https://github.com/commy2/zerohour/issues/211 [DONE][NPROJECT]        Helix Wreck Props Listed Under USA In World Builder
+https://github.com/commy2/zerohour/issues/79  [DONE][NPROJECT]        Spectre Hardpoints Listed Under Normal China In World Builder
+https://github.com/commy2/zerohour/issues/40  [DONE][NPROJECT]        Infantry General Gattling Tank Listed Under Tank General In World Builder
+https://github.com/commy2/zerohour/issues/39  [DONE][NPROJECT]        Tank General Air Field Listed Under Vanilla China In World Builder
