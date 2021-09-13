@@ -100,3 +100,59 @@ In our first survey we asked community how they feel about addressing bugs that 
 - Added missing sounds to VGLA Battle Bus
 - Fixed wrong sounds on USA Fire Base selection
 - Fixed wrong unit tooltip on Laser USA Aurora
+- Added missing AP Rocket Upgrade icon to GLA SCUD Launcher cameo
+- Added missing Patriotism Upgrade icon to Infantry China Tank Hunter
+- Added missing Upgrade icons to GLA Rebels
+- Fixed wrong upgrade icon placements on USA Tomahawk
+- Fixed China Nuklear Missile exploit
+- Fixed issue that had USA Spectre Gunship lose its player color when shot down
+- Fixed issue where China Battlemasters from different sub faction did not benefit from Horde Bonus
+- Fixed broken weapons and animations on GLA HiDef Scud Launcher (cut)
+- Added missing red smoke effect for Demo GLA Terrorist on Combat Cycle after Demo Upgrade
+- Added missing construction sound effect for USA Sentry Drone
+- Fixed China Nuke Cannon Neutron Shells exploit
+- Added missing booby trap sound effect for Demo GLA Rebel
+- Fixed issue where some USA Chinooks collected 100 milliseconds slower than others
+- Fixed issue where damage smoke effects on China Outpost would not disappear after repair
+- **[REVIEW]** Fixed issue where damage smoke effects on China Outpost would show for enemy player when stealthed
+- Fixed issue where GLA Battle Bus would turn chassis after targeting air unit
+- Fixed issue where GLA Battle Bus would stop moving after targeting air unit
+- Fixed issue where USA Humvee without TOW missile would stop moving after targeting air unit
+- Fixed issue where Toxin GLA Rocket Soldier on Combat Cycle did not shoot with correct rocket type
+- Fixed issue where Demo GLA Rocket Soldier on Combat Cycle did not shoot with correct rocket type
+- Fixed issue where GLA Fake Command Center did look different to real Command Center after Fortified Structure upgrade
+- Fixed issue where several dummy weapons caused confusing attack notifications
+- Fixed issue where China Helix with Gattling Gun could attack air units
+- Fixed wrong USA Ranger spawn type of Paradrop ability
+- Fixed exploit that allowed to shoot on ground units from very far away
+- Fixed issue where GLA Stinger would shoot twice without any delay
+- Fixed issue where GLA Stinger would automatically attack enemy buildings
+- Fixed wrong particle effect colors on Superweapon USA Particle Cannon
+- Fixed issue where China Carpet Bomber could not be used with the Command Center of another China sub faction
+- Added missing air attack voices for various units
+- Added missing air attack effects and animations for GLA Stringer
+- Fixed issue where Generals Powers would disappear from Infantry China Command Center after Mines upgrade
+- Fixed issue where Generals Powers would disappear from Nuke China Command Center after Mines upgrade
+- **[REVIEW]** Fixed issue where a Terrorist Car Bomb would stop working after attacking a moving vehicle
+- Removed EXP bonus from destroying a civilian Repair Pad (cut)
+- Removed EXP bonus from destroying a civilian Reinforcement Pad
+- Added missing muzzle flash for Vehicle Snipe ability of GLA Jarmen Kell on Combat Cycle
+- Fixed wrong muzzle flash location for Vehicle Snipe ability of GLA Jarmen Kell
+- Added red bullet tracer effect to heroic GLA Jarmen Kell
+- Added red bullet tracer effect to heroic USA Pathfinder
+- Fixed issue where Fuel Bomb of USA Alpha Aurora would detonate before the bomb hit the ground
+- Fixed wrong muzzle flash location of Infantry China Minigunner
+- Fixed broken recoil animation of Infantry China Minigunner
+- **[REVIEW]** Fixed incorrect air attack sound of Infantry China Minigunner
+- Fixed issue where China Overlord would turn chassis while Gattling Cannon aims on air units
+- Fixed issue where GLA Scud Storm could not damage itself
+- Added missing hit effects to USA Cargo Planes with Countermeasures upgrade
+- Added missing hit effects to USA Rangers after Chemical Suits upgrade
+- Fixed issues with USA Spectre button, portrait and upgrade icons
+- Added missing Hellfire Drone icon to Boss Paladin
+- Added missing Mines upgrade to China Speakertower
+- Improved the 3D model of the Carpet Bomber and Aurora bomb object
+- Fixed various wrong object categories for World Builder
+- Fixed issue where Stealth GLA could not build Hijacker with VGLA Barracks
+- Fixed issue where Nuke China could not build Nuke Cannon in VChina and Infantry China Warfactories
+- Fixed issue where Airforce USA could not build Stealth Fighters in non-Airforce Airfields
