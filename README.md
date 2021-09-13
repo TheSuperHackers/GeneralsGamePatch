@@ -123,7 +123,7 @@ In our first survey we asked community how they feel about addressing bugs that 
 - Fixed issue where GLA Fake Command Center did look different to real Command Center after Fortified Structure upgrade
 - Fixed issue where several dummy weapons caused confusing attack notifications
 - Fixed issue where China Helix with Gattling Gun could attack air units
-- Fixes wrong USA Ranger spawn type of Paradrop ability
+- Fixed wrong USA Ranger spawn type of Paradrop ability
 - Fixed exploit that allowed to shoot on ground units from very far away
 - Fixed issue where GLA Stinger would shoot twice without any delay
 - Fixed issue where GLA Stinger would automatically attack enemy buildings
@@ -133,7 +133,7 @@ In our first survey we asked community how they feel about addressing bugs that 
 - Added missing air attack effects and animations for GLA Stringer
 - Fixed issue where Generals Powers would disappear from Infantry China Command Center after Mines upgrade
 - Fixed issue where Generals Powers would disappear from Nuke China Command Center after Mines upgrade
-- Fixed issue where a Terrorist Car Bomb would stop working after attacking a moving vehicle
+- **[REVIEW]** Fixed issue where a Terrorist Car Bomb would stop working after attacking a moving vehicle
 - Removed EXP bonus from destroying a civilian Repair Pad (cut)
 - Removed EXP bonus from destroying a civilian Reinforcement Pad
 - Added missing muzzle flash for Vehicle Snipe ability of GLA Jarmen Kell on Combat Cycle
