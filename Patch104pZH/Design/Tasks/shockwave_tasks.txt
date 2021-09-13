@@ -3521,61 +3521,61 @@ stealth
 		- New Cameo's for the Booby Trap
 		- GPS Scramble now comes in 3 levels at lvl3 instead of one at lvl5
 		- Added New lvl3 Generals Ability Salvage drop a plane comes by and drops 6 salvage crates
-		- Rocket Buggies can now be upgraded with salvage crates
-		- Rocket Buggies now have the old rocket trail and effect they used to have on the pre release screenshots and movies
-		- RPG Troopers have a new rocket trailer
-		- New Worker shoes cameo
+		- [MAYBE] Rocket Buggies can now be upgraded with salvage crates
+		- [NOTRELEVANT] Rocket Buggies now have the old rocket trail and effect they used to have on the pre release screenshots and movies
+		- [NOTRELEVANT] RPG Troopers have a new rocket trailer
+		- [MAYBE] New Worker shoes cameo
 
 	- Normal GLA Only
-		- Scorpion Tanks Can be upgraded with wheels (upgrade per scorpion increases the speed and decreases the armor)
+		- [NOTRELEVANT] Scorpion Tanks Can be upgraded with wheels (upgrade per scorpion increases the speed and decreases the armor)
 
 	- GLA Demolition General
-		- Added new unit mobile demo trap (stealthed when not moving and will detonate when a vehicle drives over it)
-		- Added New lvl3 Generals Power Demotrap parabombing (comes in 3 levels)
-		- Added New lvl3 Generals Power Terror cell (spawns terrorists at a target location replaced the rebel ambush comes in 3 levels)
-		- Added New upgrade HE RPG rockets (enable the RPG trooper to fire a single destructive RPG rocket)
-		- New ZSU-57 Flak Tank (replaced the quad cannon)
-		- Added New upgrade for bombtruck (nuclear warhead increases the damage 25% and leaves radiations)
-		- Replaced the Anthrax bomb with the black-market nuke
-		- New cameo for combat bike (showing a terrorist instead of a rebel)
-		- New Demolition RPG Trooper
-		- New Rocket Tunnel Network
-		- New Demolition Rebel
-		- New Demolition Saboteur (need a lvl3 general’s point)
+		- [NOTRELEVANT] Added new unit mobile demo trap (stealthed when not moving and will detonate when a vehicle drives over it)
+		- [NOTRELEVANT] Added New lvl3 Generals Power Demotrap parabombing (comes in 3 levels)
+		- [NOTRELEVANT] Added New lvl3 Generals Power Terror cell (spawns terrorists at a target location replaced the rebel ambush comes in 3 levels)
+		- [NOTRELEVANT] Added New upgrade HE RPG rockets (enable the RPG trooper to fire a single destructive RPG rocket)
+		- [NOTRELEVANT] New ZSU-57 Flak Tank (replaced the quad cannon)
+		- [NOTRELEVANT] Added New upgrade for bombtruck (nuclear warhead increases the damage 25% and leaves radiations)
+		- [NOTRELEVANT] Replaced the Anthrax bomb with the black-market nuke
+		- [IMPROVEMENT] New cameo for combat bike (showing a terrorist instead of a rebel)
+		- [NOTRELEVANT] New Demolition RPG Trooper
+		- [NOTRELEVANT] New Rocket Tunnel Network
+		- [NOTRELEVANT] New Demolition Rebel
+		- [NOTRELEVANT] New Demolition Saboteur (need a lvl3 general’s point)
 		- New Demolition Terrorist
-		- New Demolition Scud Storm model
-		- New Marauder (can get a scorpion rocket and loses the 2 barreled turret salvage upgrade)
-		- Added HE shell upgrade (tanks get 25% more damage)
+		- [MAYBE] New Demolition Scud Storm model
+		- [NOTRELEVANT] New Marauder (can get a scorpion rocket and loses the 2 barreled turret salvage upgrade)
+		- [NOTRELEVANT] Added HE shell upgrade (tanks get 25% more damage)
 
 	- GLA Toxin General
-		- New Toxin Scorpion tank (get a toxin scorpion rocket)
-		- New Toxin Rocket Buggy
-		- New Toxin Marauder (2 barreled turret salvage upgrade)
-		- New Toxin Tractor (more armor as the normal ones)
-		- New Toxin RPG Trooper
-		- New Toxin rebel cameo
-		- New Toxin Stinger site
-		- New Toxin Terrorist cameo
-		- Toxin terrorists now spread more toxins
-		- Added New upgrade for toxin terrorist nerve gas pack (nerve gas kills vehicle pilots most be upgraded per terrorist)
-		- Added new lvl3 generals power nerve gas bomb (kills infantry and vehicle pilots)
-		- New Chemical Scud launcher fires 16 smaller scud missiles with toxins
-		- Toxin Grenadier (fires a toxin grenade at a large range)
+		- [NOTRELEVANT] New Toxin Scorpion tank (get a toxin scorpion rocket)
+		- [NOTRELEVANT] New Toxin Rocket Buggy
+		- [NOTRELEVANT] New Toxin Marauder (2 barreled turret salvage upgrade)
+		- [NOTRELEVANT] New Toxin Tractor (more armor as the normal ones)
+		- [NOTRELEVANT] New Toxin RPG Trooper
+		- [MAYBE] New Toxin rebel cameo
+		- [NOTRELEVANT] New Toxin Stinger site
+		- [MAYBE] New Toxin Terrorist cameo
+		- [NOTRELEVANT] Toxin terrorists now spread more toxins
+		- [NOTRELEVANT] Added New upgrade for toxin terrorist nerve gas pack (nerve gas kills vehicle pilots most be upgraded per terrorist)
+		- [NOTRELEVANT] Added new lvl3 generals power nerve gas bomb (kills infantry and vehicle pilots)
+		- [NOTRELEVANT] New Chemical Scud launcher fires 16 smaller scud missiles with toxins
+		- [NOTRELEVANT] Toxin Grenadier (fires a toxin grenade at a large range)
 
 	- GLA Stealth General
-		- Starts with wheeled Scorpions
-		- New Scud Truck (faster as normal scud launcher but weaker and they are slower as a rocket buggies, needs a lvl1 generals point)
-		- Added new Fundamentalists (Cheap and weak but armed with ak47, shotguns and Uzi’s very effective vs. anything)
-		- Added new unit assassin (Sniper units stealthed when not attacking needs lvl3 generals point)
-		- Battle busses can disguise them selves like bombtrucks
-		- Added new building machinegun site (like stinger site but with machine gunners)
-		- Added new unit mobile supply stash (work like supply stash and comes with 4 workers)
-		- New RPG Trooper (can be upgraded with stinger)
-		- Added new upgrade stinger (all RPG troopers receive e stinger launcher making there missiles faster)
-		- Added new upgrade Quad Sniper (allows quad cannons to kill infantry very fast)
-		- New Stealth Rebels (armed with a stronger weapon)
-		- Added new upgrade Molotov cocktails (rebels will be able to use Molotovs)
-		- Added New Fanaticism Upgrade (all infantry become more aggressive)
+		- [NOTRELEVANT] Starts with wheeled Scorpions
+		- [NOTRELEVANT] New Scud Truck (faster as normal scud launcher but weaker and they are slower as a rocket buggies, needs a lvl1 generals point)
+		- [NOTRELEVANT] Added new Fundamentalists (Cheap and weak but armed with ak47, shotguns and Uzi’s very effective vs. anything)
+		- [NOTRELEVANT] Added new unit assassin (Sniper units stealthed when not attacking needs lvl3 generals point)
+		- [NOTRELEVANT] Battle busses can disguise them selves like bombtrucks
+		- [NOTRELEVANT] Added new building machinegun site (like stinger site but with machine gunners)
+		- [NOTRELEVANT] Added new unit mobile supply stash (work like supply stash and comes with 4 workers)
+		- [NOTRELEVANT] New RPG Trooper (can be upgraded with stinger)
+		- [NOTRELEVANT] Added new upgrade stinger (all RPG troopers receive e stinger launcher making there missiles faster)
+		- [NOTRELEVANT] Added new upgrade Quad Sniper (allows quad cannons to kill infantry very fast)
+		- [NOTRELEVANT] New Stealth Rebels (armed with a stronger weapon)
+		- [NOTRELEVANT] Added new upgrade Molotov cocktails (rebels will be able to use Molotovs)
+		- [NOTRELEVANT] Added New Fanaticism Upgrade (all infantry become more aggressive)
 
 
 
