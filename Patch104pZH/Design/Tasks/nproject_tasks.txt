@@ -175,9 +175,9 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 2.0 Global Faction Changes
 ---------------------------
  - [NOTRELEVANT] The production speed when low power are now constant at 80% of normal speed
- - [NOTRELEVANT] All factions Cargo Planes now have equal stats
+ - [MAYBE]       All factions Cargo Planes now have equal stats
  - [IMPROVEMENT] Fixed the Cargo Plane propeller texture error that have small thin gray lines
- - [NOTRELEVANT] Standardized unit transport size. Like an Overlord that needs more transport slot than a Technical
+ - [MAYBE]       Standardized unit transport size. Like an Overlord that needs more transport slot than a Technical
  - [IMPROVEMENT] Fixed the issues with firing elevation limit. Now both tanks and artillery can attack very high/low targets alike
  Reason: Certain maps have topology which can force units to path around to reach their targets, even if it is within reach of their weapon.
  - [NOTRELEVANT] Tank armor received damage from INFANTRY_MISSILE reduced from 100% to 85%
@@ -257,7 +257,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [MAYBE] Added minimum attack range to Missile Defender normal weapon to match Tank Hunter and RPG Trooper weapons (laser lock weapon is unaffected)
  Reason: Missile Defenders will not damage themselves anymore. May affect instances where Rockvees are rammed and they may be unable to retaliate.
  - [NOTRELEVANT] Missile Defender normal attack rockets fuel time rebalanced to match their other factions counterparts (RPG and Tank Hunter)
- - [NOTRELEVANT] Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
+ - [MAYBE] Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
    Zero Hour
 
  PATHFINDER:
@@ -270,8 +270,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Colonel Burton healthpoint increased from 200 to 220
 
  PILOTS:
- - [IMPROVEMENT] Pilots will not reduce their movement speed when in heroic veterancy
- - [IMPROVEMENT] Pilots never affected by Chemical Suits upgrade anymore due to unfixable bug in the game engine itself
+ - [DONE] Pilots will not reduce their movement speed when in heroic veterancy
+ - [DONE] Pilots never affected by Chemical Suits upgrade anymore due to unfixable bug in the game engine itself
  - [MAYBE] Pilots no longer can promote Combat Bikes!
 
  CRUSADER:
@@ -375,17 +375,17 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT] Improved Nighthawk missile movements so they will no longer scatter their attacks
  - [IMPROVEMENT] Nighthawk now has aim tolerance so they don't need to aim exactly straight toward the target when attacking
  - [NOTRELEVANT] Bunker Buster upgrade cost increased from 1500 to 1800
- - [NOTRELEVANT] New Nighthawk weapon attack sound
+ - [MAYBE] New Nighthawk weapon attack sound
 
  SPECIAL POWERS AIRCRAFTS:
  - [NOTRELEVANT] Now B3 Bomber (used to MOAB and AirForce Carpet Bomb) are stealthed
  - [NOTRELEVANT] Spectre Gunship healthpoint increased from 600 to 1000
  - [IMPROVEMENT] Fixed USA A-10 Thunderbolt airplane damaged model, and also firing pivot angle
  - [NOTRELEVANT] A-10 Thunderbolt missiles now can't be lasered
- - [NOTRELEVANT] A-10 Thunderbolt no longer reveal shroud along their way
+ - [MAYBE] A-10 Thunderbolt no longer reveal shroud along their way
  - [MAYBE] New model and updated textures for USA B-52 Stratofortress bomber plane
  - [IMPROVEMENT] Fixed USA B-52 bomber plane engine sound
- - [NOTRELEVANT] New model and cameo for Spy Drone
+ - [MAYBE] New model and cameo for Spy Drone
  - [NOTRELEVANT] Spy Drone can be moved and no longer immobile after deployed!
 
  USA COMMAND CENTER:
@@ -415,7 +415,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  PATRIOT MISSILE:
  - [IMPROVEMENT] Fixed all Patriot Missile weapon that sometimes only fires less missiles after not firing for a long time
  - [IMPROVEMENT] Improved Patriot Missile assist ability to make them work better together
- - [MAYBE] Patriot Missile no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Patriot Missile no longer block unit sights, allowing other units to attack enemies behind
  - [IMPROVEMENT] Fixed Patriot Missile scaffolding that was off-centered
  - [NOTRELEVANT] Changed the Patriot Missile attack sound to use the proper (unused) sound set
 
@@ -433,7 +433,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Firebase armor received damage from SMALL_ARMS reduced from 40% to 35% to match the other base defenses
  - [NOTRELEVANT] Firebase armor received damage from GATTLING reduced from 30% to 25% to match the other base defenses
  - [MAYBE] Now the garrisoned units will not get lethal damage when the Firebase is destroyed
- - [MAYBE] Firebase no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Firebase no longer block unit sights, allowing other units to attack enemies behind
 
  STRATEGY CENTER:
  - [NOTRELEVANT] Now you cannot build multiple Strategy Centers from different subfactions that allowing you to deploy multiple
@@ -444,7 +444,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  SUPPLY DROP ZONE:
  - [IMPROVEMENT] Supply Drop Zone Cargo Plane are no longer attackable, prevent the annoying "unit lost" report from EVA
- - [NOTRELEVANT] Supply Drop Zone money now delivered in one crate and will show the money amount upon landing!
+ - [MAYBE] Supply Drop Zone money now delivered in one crate and will show the money amount upon landing!
  - [MAYBE] Fixed the bug where Supply Drop Zone crates did not delivered properly
    > No more stray supply crates that missed their landing spot
    > No more crate stealing from your enemies
@@ -488,7 +488,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] AirForce General Supply Center refund value changed from 400 to 450 due to the Chinook price change
  - [NOTRELEVANT] AirForce General Avenger build cost increased from 1600 to 1700
  - [NOTRELEVANT] AirForce General Microwave Tank build cost increased from 800 to 900
- - [NOTRELEVANT] Fixed Airforce General Firebase that use wrong model at snowy-reallydamaged condition
+ - [IMPROVEMENT] Fixed Airforce General Firebase that use wrong model at snowy-reallydamaged condition
  - [NOTRELEVANT] Emergency Repair no longer available for AirForce General
 
  AIRFORCE GENERAL AIRCRAFTS:
@@ -606,7 +606,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Superweapon General no longer have 3-level Spectre Gunship (now it's AirForce General exclusive)
 
  AURORA ALPHA:
- - [NOTRELEVANT] Aurora Alpha now use the white skin with gray patterns (like in early version of Zero Hour) instead using the black
+ - [DONE] Aurora Alpha now use the white skin with gray patterns (like in early version of Zero Hour) instead using the black
    Hypersonic Aurora skin.
  - [NOTRELEVANT] Aurora Alpha weapon damage sightly reduced, but still more powerful than normal Aurora
  - [IMPROVEMENT] Fixed Aurora Alpha kill veterancy problem. Now they will be properly promoted when destroying enemies.
@@ -772,7 +772,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT] Fixed Chinese Command Center radar upgrading animation that was cut off midway
 
  NUCLEAR REACTOR:
- - [NOTRELEVANT] All Nuclear Reactors will not die because of their Overcharge ability. Overcharge ability will automatically turned off
+ - [MAYBE] All Nuclear Reactors will not die because of their Overcharge ability. Overcharge ability will automatically turned off
    on reactor's low healthpoint
  - [IMPROVEMENT] Optimized all Nuclear Reactor model codes. Damaged states smokes and fires appears at right positions
  - [MAYBE] Additional details for Nuclear Reactor to match its footprint
@@ -785,16 +785,16 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT] Added door animation for the old Supply Center (used for Boss General), matching the new Chinese Supply Center model
 
  BUNKER:
- - [IMPROVEMENT] Fixed the issue of Chinese Bunkers that not appeared on the radar
+ - [DONE] Fixed the issue of Chinese Bunkers that not appeared on the radar
  - [IMPROVEMENT] Fixed Chinese Bunker fireport issue where garrisons sometimes attacking from the center bottom of the Bunker
  - [NOTRELEVANT] Chinese Bunker build time increased from 5 to 10 seconds
  - [NOTRELEVANT] Chinese Bunker now more vulnerable to Nighthawk weapon like other defenses
- - [MAYBE] Chinese Bunker no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Chinese Bunker no longer block unit sights, allowing other units to attack enemies behind
 
  GATTLING CANNON:
  - [NOTRELEVANT] Gattling Cannon build cost reduced from 1200 to 1000. Finally!
  - [MAYBE] Gattling Cannon now can purchase mines upgrades even when low-powered
- - [MAYBE] Gattling Cannon no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Gattling Cannon no longer block unit sights, allowing other units to attack enemies behind
 
  CHINESE WAR FACTORY:
  - [IMPROVEMENT] Fixed the shadow bug on Chinese War Factory model (the repair dock crane)
@@ -807,7 +807,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [MAYBE] Chinese Airfield hangar door opening time reduced from 2000 to 1500 miliseconds
 
  PROPAGANDA CENTER:
- - [IMPROVEMENT] Fixed the issue of Propaganda Center that not appeared on the radar
+ - [DONE] Fixed the issue of Propaganda Center that not appeared on the radar
  - [NOTRELEVANT] Propaganda Center equipped with a Speaker Tower and can build units
  - [NOTRELEVANT] Propaganda Center healthpoint increased from 1000 to 2000 to match the other factions tech center buildings
  - [NOTRELEVANT] Nationalism upgrade cost reduced from 1500 to 1000
@@ -816,10 +816,10 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  SPEAKER TOWER:
  - [MAYBE] Completely new and improved model for Speaker Tower!
  - [NOTRELEVANT] Speaker Tower healthpoint increased from 300 to 500
- - [IMPROVEMENT] Speaker Tower now counted as base defenses, not base buildings. Fixing the bug that makes a player still not defeated
+ - [REJECTED] Speaker Tower now counted as base defenses, not base buildings. Fixing the bug that makes a player still not defeated
    when only have Speaker Tower as remaining building.
  - [IMPROVEMENT] Speaker Tower now also upgradable with Mines like the other Chinese structures
- - [MAYBE] Speaker Tower no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Speaker Tower no longer block unit sights, allowing other units to attack enemies behind
 
  INTERNET CENTER:
  - [NOTRELEVANT] You require a Propaganda Center instead a War Factory to build the Internet Center
@@ -1120,7 +1120,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > [MAYBE] Molotov flying speed increased
    > [IMPROVEMENT] Molotov inflicts fire damage
  - [IMPROVEMENT] Mob's rock bounces when hit the ground/target
- - [NOTRELEVANT] Fixed the issue where Angry Mobs pistol weapon (before Arm The Mobs upgrade) didn't get benefit from AP Bullets upgrade
+ - [MAYBE] Fixed the issue where Angry Mobs pistol weapon (before Arm The Mobs upgrade) didn't get benefit from AP Bullets upgrade
  - [IMPROVEMENT] Fixed the bug where the mobs trying to move closer into the target when attacks instead firing from distance (hopefully)
  - [IMPROVEMENT] Mob members movement speed increased a bit and will not reduced when injured, so they can catch the squad leader faster
 
@@ -1246,13 +1246,13 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT] Tunnel Network weapon no longer make the whole building flashes when firing
  - [IMPROVEMENT] Added Hold Fire mode to camo-netted Tunnel Network because sometimes they need to NOT attract any attentions when
    camouflaged
- - [MAYBE] Tunnel Network no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Tunnel Network no longer block unit sights, allowing other units to attack enemies behind
 
  STINGER SITE:
  - [MAYBE] Stinger Site can be attacked by Ranger Flash Bangs again
  - [NOTRELEVANT] Stinger Site soldiers respawn delay reduced from 30 to 18 seconds
  - [MAYBE] Stinger Site can have Fortified Structures upgrade
- - [MAYBE] Stinger Site no longer block unit sights, allowing other units to attack enemies behind
+ - [NOTRELEVANT] Stinger Site no longer block unit sights, allowing other units to attack enemies behind
  - [MAYBE] Stinger Soldiers now can properly take damage from radiations like the other normal infantry
  - [MAYBE] Individual Stinger Soldier can't be targeted by Burton knife attacks anymore
  - [IMPROVEMENT] Stinger Soldiers no longer able to attack when the building is being sold, like the other defense buildings
@@ -1561,21 +1561,21 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  Starting from version 2.6 computer player can play Boss General, but only in Official Maps and NProject Mod maps
 
  Balances and Fixes (based on Generals Challenge Boss):
- - [NOTRELEVANT] Boss General have a new faction logo at the Command Center!
+ - [IMPROVEMENT] Boss General have a new faction logo at the Command Center!
  - [NOTRELEVANT] Some original Boss General upgrades may not available in this mod, like no Nationalism for Boss General
- - [NOTRELEVANT] Advanced units now requires corresponding faction's superweapon. For example, you cannot build Overlord without a Nuclear
-   [NOTRELEVANT] Missile Silo
- - [NOTRELEVANT] Boss Dozer use USA Dozer voices, not the Chinese one
+ - [MAYBE] Advanced units now requires corresponding faction's superweapon. For example, you cannot build Overlord without a Nuclear
+   Missile Silo
+ - [IMPROVEMENT] Boss Dozer use USA Dozer voices, not the Chinese one
  - [NOTRELEVANT] No horde bonuses for Boss General Tank Hunter
  - [NOTRELEVANT] No drones and Pilots for Boss General USA vehicles
- - [NOTRELEVANT] Fixing Boss General Avenger that have double air turret
+ - [IMPROVEMENT] Fixing Boss General Avenger that have double air turret
  - [NOTRELEVANT] Boss General King Raptor build cost increased from 1100 to 1600
- - [NOTRELEVANT] All Boss General buldings can auto-repair like USA buildings
+ - [MAYBE] All Boss General buldings can auto-repair like USA buildings
  - [NOTRELEVANT] All Boss General buldings (except SCUD Storm, Nuclear Missile, and base defenses) spawn Rangers when destroyed
  - [NOTRELEVANT] Boss General superweapons build cost increased from 5000 to 6000
- - [NOTRELEVANT] Boss General only can build one kind of his/her superweapon when superweapon restriction is turned on, so choose your
-   [NOTRELEVANT] advanced tech carefully!
- - [NOTRELEVANT] Fixed all Boss General superweapon buildings that cannot purchase several upgrades when low-powered
+ - [IMPROVEMENT] Boss General only can build one kind of his/her superweapon when superweapon restriction is turned on, so choose your
+   advanced tech carefully!
+ - [IMPROVEMENT] Fixed all Boss General superweapon buildings that cannot purchase several upgrades when low-powered
  - [NOTRELEVANT] Now you also require Boss General War Factory to build Boss General King Raptor
  - [NOTRELEVANT] Boss General Patriot Missile no longer spawn Rangers when destroyed
  - [NOTRELEVANT] Boss General Tunnel Network comes with Tank Hunters, not RPG Troopers
@@ -2470,12 +2470,12 @@ Cameos:
 - [IMPROVEMENT] Improved and new ECM Tank cameo
 - [IMPROVEMENT] Fixed Listening Outpost cameo that have wrong radar dish, also missing deploy stand and front small radar dish
 - [IMPROVEMENT] Fixed Minigunner cameo that the Red Guard holds a machinegun instead a minigun
-- [NOTRELEVANT] New cameos for Nuke General MiG and Helix
+- [IMPROVEMENT] New cameos for Nuke General MiG and Helix
 - [IMPROVEMENT] Nuclear Battlemaster cameo no longer use normal Battlemaster on the picture
-- [NOTRELEVANT] New cameo for Super Hacker
+- [IMPROVEMENT] New cameo for Super Hacker
 - [IMPROVEMENT] Fixed the broken Chinese and GLA POW Truck cameos
-- [NOTRELEVANT] New cameos for Tactical Nuke MiG and Patriotism upgrades
-- [NOTRELEVANT] New cameo for Toxin Terrorist
+- [IMPROVEMENT] New cameos for Tactical Nuke MiG and Patriotism upgrades
+- [IMPROVEMENT] New cameo for Toxin Terrorist
 - [IMPROVEMENT] Fixed GLA Barracks cameo that missing the logo on the center ground
 - [IMPROVEMENT] Tunnel Network cameo no longer use Generals Beta version of Tunnel Network (that have smaller door and no defense gun)
 - [IMPROVEMENT] Fixed small error on Rebel cameo where the gun barrel was cropped
@@ -2554,13 +2554,13 @@ Here are non-gameplay changes that were implemented in this mod
 
  - [NOTRELEVANT] The GUI menu color changed from blue to red
  - [IMPROVEMENT] OPTIONS menu expanded (thanks to DeeZire). Here is the contents:
-    > [NOTRELEVANT] Clock display
+    > [MAYBE] Clock display
        Don't play computer games too long! This will note you 'what time is it' on the match without return to the desktop
     > [IMPROVEMENT] Anti-Aliasing setting
        It already describe much. To set the level of anti-aliasing
     > [IMPROVEMENT] Replay Camera settings
        If the replays too annoying because it always follow the camera movement, try to turn it off here ;)
-    > [NOTRELEVANT] Scroll Anchor settings
+    > [MAYBE] Scroll Anchor settings
        Just show/hide the mouse when scrolling the monitor
     > [IMPROVEMENT] Language Filter setting
        Turn on/off the language filter on the online
