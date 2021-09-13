@@ -36,7 +36,7 @@ https://github.com/commy2/zerohour/issues/194 [DONE][NPROJECT]        Patriot Ba
 https://github.com/commy2/zerohour/issues/193 [IMPROVEMENT][NPROJECT] Laser Turret Uses Different Laser Model And Sound When Assisting Or Engaging Airborne Targets
 https://github.com/commy2/zerohour/issues/192 [IMPROVEMENT][NPROJECT] Laser Turret Has 1 Extra Shot When Assisting Or Engaging Airborne Targets Than Intended
 https://github.com/commy2/zerohour/issues/191 [IMPROVEMENT]           Patriot Battery And Laser Turret Extended Range Exploit
-https://github.com/commy2/zerohour/issues/190 [IMPROVEMENT]           Black Lotus Seleced By Q-Shortcut
+https://github.com/commy2/zerohour/issues/190 [DONE]                  Black Lotus Seleced By Q-Shortcut
 https://github.com/commy2/zerohour/issues/189 [DONE][NPROJECT]        China Dozer Movement Behavior
 https://github.com/commy2/zerohour/issues/188 [MAYBE][NPROJECT]       Upgrading Mig Weapons Reduces Reload Time
 https://github.com/commy2/zerohour/issues/187 [IMPROVEMENT][NPROJECT] Nuke Mig Tooltip Claims Unit Can Create Firestorms
