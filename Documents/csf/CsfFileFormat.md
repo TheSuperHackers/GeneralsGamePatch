@@ -1,13 +1,18 @@
-#### Supplied by xezon
+# Compiled String File Format
 
-HEADER:
+## Supplied by xezon
+
+### HEADER
+```
 4 bytes: ' FSC': file type identifier
 4 bytes: 3: unknown value, maybe file type version
 4 bytes: 0x1916: 6422, could be number of string table entries
 4 bytes: 0x1915: 6421, similar to number above, not clear what the difference is
 8 bytes: all 0: unknown
+```
 
-BODY (repeats):
+### BODY (repeats)
+```
 4 bytes: ' LBL': keyword identifier
 4 bytes: 1: unknown value, maybe number of keywords? seems to be 1 always.
 4 bytes: length of ascii string (N)
@@ -15,18 +20,17 @@ N bytes: ascii string
 4 bytes: ' RTS': locale string identifier
 4 bytes: length of unicode string (N)
 N bytes: unicode string: XOR'ed by 0xFF
+```
 
+## Supplied by Thyme Wiki
 
-#### Supplied by Thyme Wiki
-
+Source
 https://github.com/TheAssemblyArmada/Thyme/wiki/Compiled-String-File-Format
-
-Compiled String File Format
 
 This file format holds most of the game strings in an encoded format that decodes to USC2 Unicode strings. The file consists of a header followed by a series of ASCII label strings and encoded Unicode strings.
 
-__Header__
-
+### Header
+```
 enum LanguageID : int32_t
 {
     LANGUAGE_ID_US,
@@ -54,6 +58,7 @@ struct CSFHeader
     int32_t skip;
     LanguageID langid;
 };
+```
 
 The "id" is a FourCC code that translates to the ASCII string " FSC", essentially "CSF " in little endian format.
 
@@ -66,8 +71,8 @@ The "id" is a FourCC code that translates to the ASCII string " FSC", essentiall
 "langid" corresponds to an internal enum which enumerates which language the file is intended to provide text for, though the SAGE engine games don't appear to make use of it. The provided enum is valid for Generals and Zero Hour, but not the Battle for Middle Earth games based on examination of the string files from different translations.
 
 
-__Labels__
-
+### Labels
+```
 struct Label
 {
     uint32_t id;
@@ -75,12 +80,13 @@ struct Label
     int32_t length;
     char label[length]
 };
+```
 
 Each label entry begins with a FourCC "id" equivalent to the string " LBL", again likely a little endian "LBL ". This is followed by the number of strings the label can refer to, then the length of the label ASCII string followed by the string itself. The "label" string is not null terminated and must match the given "length". The engine code refers only to the label when requesting a string for display so that localisation can be done separately.
 
 
-__Strings__
-
+### Strings
+```
 struct String
 {
     uint32_t id;
@@ -89,12 +95,15 @@ struct String
     int32_t ex_length;         // Only present when id matches 'WRTS'
     char ex_string[ex_length]; // Only present when id matches 'WRTS'
 };
+```
 
 The FourCC "id" for the string must be either " RTS" or "WRTS" (little endian "STR " and "STRW"), with "WRTS" indicating an additional ASCII string appended on. The values for the string are little endian and are encoded using a binary NOT on the value. The following is an example of how it might be decoded in C:
 
+```
 for (int i = 0; i < length; ++i) {
     string[i] = ~string[i];
 }
+```
 
 Debug information left in certain executables suggests that the "ex_string" was related to audio files in some way, possibly as a file name for an audio file containing a reading of the string text. However it appears such a feature is not used in any SAGE game.
 
