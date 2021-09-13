@@ -3332,196 +3332,196 @@ stealth
 	- Common Changes For all armies and the game play
 		- increased the standard camera height
 		- The 3 and 4 star promotions will give you 2 extra points instead of 1
-		- All small cameos that had no border effect in ZH now do have the border effect
-		- All tanks have a slightly large explosions effect as they used to have
-		- Infantry's will bleed when hit by weapons
-		- Capturing buildings now goes 25% faster as originally
-		- Added Trail effects for all artillery weapons
-		- Added shockwaves to all nuclear and fuel air bomb type weapons
-		- Added new sound effect when choosing a generals power
-		- Laser based weapons now set infantry on fire
-		- All Recoil and muzzle flash bugs have been fixed for vehicles that had more than 1 weapon
-		- Several Unused voices are now enabled
-		- New Carpet-bomb bomb model
-		- Start units all armies will now start with 3 basic tanks 2 basic scout units and 4 basic infantry
+		- [IMPROVEMENT] All small cameos that had no border effect in ZH now do have the border effect
+		- [NOTRELEVANT] All tanks have a slightly large explosions effect as they used to have
+		- [NOTRELEVANT] Infantry's will bleed when hit by weapons
+		- [NOTRELEVANT] Capturing buildings now goes 25% faster as originally
+		- [NOTRELEVANT] Added Trail effects for all artillery weapons
+		- [NOTRELEVANT] Added shockwaves to all nuclear and fuel air bomb type weapons
+		- [MAYBE] Added new sound effect when choosing a generals power
+		- [NOTRELEVANT] Laser based weapons now set infantry on fire
+		- [IMPROVEMENT] All Recoil and muzzle flash bugs have been fixed for vehicles that had more than 1 weapon
+		- [IMPROVEMENT] Several Unused voices are now enabled
+		- [IMPROVEMENT] New Carpet-bomb bomb model
+		- [NOTRELEVANT] Start units all armies will now start with 3 basic tanks 2 basic scout units and 4 basic infantry
 
 	-All USA Armies
-		- Normal Avenger replaced by rocket avenger (only the laser general has the old one)
-		- New Laser Sounds for the point defence laser of the avenger
-		- New model for the tomahawk launcher
-		- New detonation and fire sounds for tomahawk missiles
-		- New fire and detonation sounds for the fire base
-		- New fire and detonation effects for the fire bas
-		- Aurora's now need a level 1 general’s point to be build
-		- Spectre gun ship now comes in 3 levels instead of 1
-		- Stealth fighters no long need a general’s point to be build
-		- Microwave beam color changed to blue
-		- Added Upgrade for Col. Burton OICW Rifle (allows him to fire long range grenades)
-		- Added Next generation patriot upgrade for patriot batteries (15% bonus range, ROF and damage)
-		- Added new weapon sound for the spectre gunship
-		- When a building is destroyed it will now spawn the correct rangers of the USA army you’re playing
-		- Fixed the sentry drone model so that the skins now match with the other USA units and improved the animation
-		- New Fire sound for the paladin
-		- New Patriot Missile trail
-		- New Cameo for the spy drone generals power
-		- New Supply Lines cameo
-		- New Cameo when selecting a spectre gunship
-		- New Raptor Cameo
-		- New Chinook Cameo
-		- New tomahawk cameo
-		- New Comanche Cameo
-		- New Cameo for the paladin
-		- New Crusader Cameo
-		- New Barracks Cameo
-		- New War factory Cameo
-		- New Microwave Cameo
-		- New Cameo for the hellfire drone
+		- [NOTRELEVANT] Normal Avenger replaced by rocket avenger (only the laser general has the old one)
+		- [MAYBE] New Laser Sounds for the point defence laser of the avenger
+		- [MAYBE] New model for the tomahawk launcher
+		- [MAYBE] New detonation and fire sounds for tomahawk missiles
+		- [MAYBE] New fire and detonation sounds for the fire base
+		- [MAYBE] New fire and detonation effects for the fire bas
+		- [NOTRELEVANT] Aurora's now need a level 1 general’s point to be build
+		- [NOTRELEVANT] Spectre gun ship now comes in 3 levels instead of 1
+		- [NOTRELEVANT] Stealth fighters no long need a general’s point to be build
+		- [NOTRELEVANT] Microwave beam color changed to blue
+		- [NOTRELEVANT] Added Upgrade for Col. Burton OICW Rifle (allows him to fire long range grenades)
+		- [NOTRELEVANT] Added Next generation patriot upgrade for patriot batteries (15% bonus range, ROF and damage)
+		- [MAYBE] Added new weapon sound for the spectre gunship
+		- [IMPROVEMENT] When a building is destroyed it will now spawn the correct rangers of the USA army you’re playing
+		- [MAYBE] Fixed the sentry drone model so that the skins now match with the other USA units and improved the animation
+		- [MAYBE] New Fire sound for the paladin
+		- [NOTRELEVANT] New Patriot Missile trail
+		- [MAYBE] New Cameo for the spy drone generals power
+		- [MAYBE] New Supply Lines cameo
+		- [MAYBE] New Cameo when selecting a spectre gunship
+		- [MAYBE] New Raptor Cameo
+		- [MAYBE] New Chinook Cameo
+		- [MAYBE] New tomahawk cameo
+		- [MAYBE] New Comanche Cameo
+		- [MAYBE] New Cameo for the paladin
+		- [MAYBE] New Crusader Cameo
+		- [MAYBE] New Barracks Cameo
+		- [MAYBE] New War factory Cameo
+		- [MAYBE] New Microwave Cameo
+		- [MAYBE] New Cameo for the hellfire drone
 
 	-Normal USA
-		- Added new unit the Hover MRLS (fast hovering and fires 2 anti armor missiles)
-		- Added New unit the Marine (strong infantry and able to place explosive charges)
-		- Added New upgrade Tomahawk waypoint targeting (allows tomahawks to share coordinates of the target with other tomahawks)
+		- [NOTRELEVANT] Added new unit the Hover MRLS (fast hovering and fires 2 anti armor missiles)
+		- [NOTRELEVANT] Added New unit the Marine (strong infantry and able to place explosive charges)
+		- [NOTRELEVANT] Added New upgrade Tomahawk waypoint targeting (allows tomahawks to share coordinates of the target with other tomahawks)
 
 	-USA Air force General
-		- King Raptor ammo decreased to 4 by default
-		- New Airplane Ammo Upgrade (give the Comanche, raptor and stealth 2 extra missiles)
-		- Lasers defences removed from all planes
-		- Now starts with counter measures
-		- New King Stealth Fighter (more armor)
-		- New Hyper sonic aurora (faster and more armor)
-		- New Stealth Comanche (no longer needs upgrade for stealth)
-		- Added new unit B1 Lancer (drops a cluster bomb and needs a lvl1 generals point)
-		- Starts with aurora's
-		- New sound effects for the Comanche machinegun
-		- New afterburner upgrade (gives the raptor and stealth fighter a speed boost)
-		- Added new generals power pilot veteran training (all planes will be build as veteran) 
-		- The b3 Carpet bombing is now a lvl3 general’s power
-		- Can now build crusader tanks (costs more and no armor upgrades available)
-		- New Advanced patriots (have 50% faster missiles making them more effective vs. airborne targets)
+		- [NOTRELEVANT] King Raptor ammo decreased to 4 by default
+		- [NOTRELEVANT] New Airplane Ammo Upgrade (give the Comanche, raptor and stealth 2 extra missiles)
+		- [NOTRELEVANT] Lasers defences removed from all planes
+		- [NOTRELEVANT] Now starts with counter measures
+		- [NOTRELEVANT] New King Stealth Fighter (more armor)
+		- [NOTRELEVANT] New Hyper sonic aurora (faster and more armor)
+		- [NOTRELEVANT] New Stealth Comanche (no longer needs upgrade for stealth)
+		- [NOTRELEVANT] Added new unit B1 Lancer (drops a cluster bomb and needs a lvl1 generals point)
+		- [NOTRELEVANT] Starts with aurora's
+		- [MAYBE] New sound effects for the Comanche machinegun
+		- [NOTRELEVANT] New afterburner upgrade (gives the raptor and stealth fighter a speed boost)
+		- [NOTRELEVANT] Added new generals power pilot veteran training (all planes will be build as veteran) 
+		- [NOTRELEVANT] The b3 Carpet bombing is now a lvl3 general’s power
+		- [NOTRELEVANT] Can now build crusader tanks (costs more and no armor upgrades available)
+		- [NOTRELEVANT] New Advanced patriots (have 50% faster missiles making them more effective vs. airborne targets)
 
 	-USA Laser General
-		- Removed Aurora
-		- Removed Stealth fighter
-		- Removed Bunker buster upgrade
-		- Removed Rocket Pod upgrade
-		- Removed Counter measures upgrade
-		- Added Airplane laser defences upgrade
-		- New Laser Comanche (fires 8 laser shots)
-		- Added Laser Paladin (stronger than the laser tank needs lvl1 generals point)
-		- Added Railgun artillery (fires a railgun needs a lvl1 generals point)
-		- New Laser Ranger
-		- New Laser Defender
-		- New Laser Burton
-		- New Laser Turret Sound
-		- New Laser Particle Beam (has a Red beam and does a little more damage)
-		- Added Laser upgrade for the Humvee
-		- Added Laser Upgrade for the sentry drone
-		- All laser weapons have there own sound effects
+		- [NOTRELEVANT] Removed Aurora
+		- [NOTRELEVANT] Removed Stealth fighter
+		- [NOTRELEVANT] Removed Bunker buster upgrade
+		- [NOTRELEVANT] Removed Rocket Pod upgrade
+		- [NOTRELEVANT] Removed Counter measures upgrade
+		- [NOTRELEVANT] Added Airplane laser defences upgrade
+		- [NOTRELEVANT] New Laser Comanche (fires 8 laser shots)
+		- [NOTRELEVANT] Added Laser Paladin (stronger than the laser tank needs lvl1 generals point)
+		- [NOTRELEVANT] Added Railgun artillery (fires a railgun needs a lvl1 generals point)
+		- [NOTRELEVANT] New Laser Ranger
+		- [NOTRELEVANT] New Laser Defender
+		- [NOTRELEVANT] New Laser Burton
+		- [MAYBE] New Laser Turret Sound
+		- [NOTRELEVANT] New Laser Particle Beam (has a Red beam and does a little more damage)
+		- [NOTRELEVANT] Added Laser upgrade for the Humvee
+		- [NOTRELEVANT] Added Laser Upgrade for the sentry drone
+		- [NOTRELEVANT] All laser weapons have there own sound effects
 
 	-USA Super Weapon General 
-		- New Mortar Humvee
-		- Added Robot tank (hovers fast and fires a small tank cannon)
-		- Added EMP MRLS (fires a barrage of 6 unguided EMP missiles)
-		- New sound effects for the EMP missile
-		- New EMP Missile Defender (can fire EMP and normal missiles)
-		- Added Combat Vest Upgrade (25% extra Armor for all infantry)
-		- Decreased the destructive power of the alpha aurora
-		- Added New unit the Marine (strong infantry and able to place explosive charges)
-		- New skin for the alpha aurora
-		- Added Bio Hazard Technician (cleans toxins)
-		- Advanced Particle Cannon (has a pink beam and does a little more damage)
-		- Starts with Next Generation Patriot Missiles
+		- [NOTRELEVANT] New Mortar Humvee
+		- [NOTRELEVANT] Added Robot tank (hovers fast and fires a small tank cannon)
+		- [NOTRELEVANT] Added EMP MRLS (fires a barrage of 6 unguided EMP missiles)
+		- [MAYBE] New sound effects for the EMP missile
+		- [NOTRELEVANT] New EMP Missile Defender (can fire EMP and normal missiles)
+		- [NOTRELEVANT] Added Combat Vest Upgrade (25% extra Armor for all infantry)
+		- [NOTRELEVANT] Decreased the destructive power of the alpha aurora
+		- [NOTRELEVANT] Added New unit the Marine (strong infantry and able to place explosive charges)
+		- [MAYBE] New skin for the alpha aurora
+		- [NOTRELEVANT] Added Bio Hazard Technician (cleans toxins)
+		- [DONE] Advanced Particle Cannon (has a pink beam and does a little more damage)
+		- [NOTRELEVANT] Starts with Next Generation Patriot Missiles
 
 	-All Chinese Armies 
-		- Added Helix Armor upgrade (adds 25% extra armor)
-		- Added Mig Afterburner upgrade (Adds 25% extra speed)
-		- Added Siege Soldier (powerful artillery unit fires a mortar needs a lvl1 generals point)
-		- Added Hack Van (4 hackers can hack inside this van like a internet center needs a lvl3 generals point)
-		- Added Inferno Cannon AP Shells (very effective vs. enemy armor less vs. infantry and buildings)
-		- Remove Satellite Hack 2 (only available to the infantry general now)
-		- Added hacked spy satellite (becomes available after satellite hack 1 works like the spy satellite)
-		- Helix Gatling cannons do more damage than regular Gatling weapons
-		- Gatling cannons now cost 900$
-		- Red Guard Training renamed to Red Army Training and now effects all combat type infantry
-		- Nuclear missiles will now do there damage in a wave and not in a single blow
-		- Nuclear missiles will now make all objects around them fly away from the area of impact
-		- New Carpet Bomber Model
-		- New ECM Tank cameo
-		- New Internet Center Cameo
-		- New Supply Center model
-		- New Helix Cameo
-		- New Battle Master Cameo
-		- New Dragon Tank Flame Effect
-		- New Gatling cannon model when upgraded with Chain guns
-		- New Gatling cannon sounds for both upgraded and not upgraded
-		- New Gatling tank sound when upgraded
-		- New Helix Weapons sound
-		- New Helix Upgrade cameos
+		- [NOTRELEVANT] Added Helix Armor upgrade (adds 25% extra armor)
+		- [NOTRELEVANT] Added Mig Afterburner upgrade (Adds 25% extra speed)
+		- [NOTRELEVANT] Added Siege Soldier (powerful artillery unit fires a mortar needs a lvl1 generals point)
+		- [NOTRELEVANT] Added Hack Van (4 hackers can hack inside this van like a internet center needs a lvl3 generals point)
+		- [NOTRELEVANT] Added Inferno Cannon AP Shells (very effective vs. enemy armor less vs. infantry and buildings)
+		- [NOTRELEVANT] Remove Satellite Hack 2 (only available to the infantry general now)
+		- [NOTRELEVANT] Added hacked spy satellite (becomes available after satellite hack 1 works like the spy satellite)
+		- [NOTRELEVANT] Helix Gatling cannons do more damage than regular Gatling weapons
+		- [NOTRELEVANT] Gatling cannons now cost 900$
+		- [NOTRELEVANT] Red Guard Training renamed to Red Army Training and now effects all combat type infantry
+		- [MAYBE] Nuclear missiles will now do there damage in a wave and not in a single blow
+		- [MAYBE] Nuclear missiles will now make all objects around them fly away from the area of impact
+		- [MAYBE] New Carpet Bomber Model
+		- [MAYBE] New ECM Tank cameo
+		- [MAYBE] New Internet Center Cameo
+		- [MAYBE] New Supply Center model
+		- [MAYBE] New Helix Cameo
+		- [MAYBE] New Battle Master Cameo
+		- [MAYBE] New Dragon Tank Flame Effect
+		- [IMPROVEMENT] New Gatling cannon model when upgraded with Chain guns
+		- [MAYBE] New Gatling cannon sounds for both upgraded and not upgraded
+		- [IMPROVEMENT] New Gatling tank sound when upgraded
+		- [MAYBE] New Helix Weapons sound
+		- [MAYBE] New Helix Upgrade cameos
 
 	-Normal China only 
-		- Battle Master Autoloaders (2 shell burst not 3 like the tank general has)
+		- [NOTRELEVANT] Battle Master Autoloaders (2 shell burst not 3 like the tank general has)
 
 	- China Tank General
-		- New Battle master model
-		- Battle masters now have a stronger weapon and armor as other battle masters
-		- Added Warmaster Tank (needs a lvl1 generals point can be upgraded with missiles)
-		- Added Armor upgrade (gives the emperor, battlemaster and warmaster 25% more armor)
-		- New Emperor fire sounds
-		- New Advanced ECM tank (longer range and can disable buildings)
-		- New Gatling Tank (more armor)
-		- Changed Battle master training into tank training (emperors and warmasters are now also effected)
-		- New Transport Helix (has speaker tower by default and can transport more tanks can also be upgraded with gatling cannon)
-		- Hacker cost decreased to 625$
+		- [MAYBE] New Battle master model
+		- [NOTRELEVANT] Battle masters now have a stronger weapon and armor as other battle masters
+		- [NOTRELEVANT] Added Warmaster Tank (needs a lvl1 generals point can be upgraded with missiles)
+		- [NOTRELEVANT] Added Armor upgrade (gives the emperor, battlemaster and warmaster 25% more armor)
+		- [MAYBE] New Emperor fire sounds
+		- [NOTRELEVANT] New Advanced ECM tank (longer range and can disable buildings)
+		- [NOTRELEVANT] New Gatling Tank (more armor)
+		- [NOTRELEVANT] Changed Battle master training into tank training (emperors and warmasters are now also effected)
+		- [NOTRELEVANT] New Transport Helix (has speaker tower by default and can transport more tanks can also be upgraded with gatling cannon)
+		- [NOTRELEVANT] Hacker cost decreased to 625$
 
 
 	- China Infantry General
-		- Added Tank hunter barrage upgrade (fires the missiles unguided in all directions on a target location)
-		- Added new units Road Grinder (like a humvee but with only 4 slots and a small gatling cannon)
-		- Added New unit Light tank (faster and but weaker than a normal battle master)
-		- Minigunners now gain a damage increase from the chain gun upgrade
-		- Fortified bunkers can no longer hold 10 infantry but only 5 but have twice the armor normal bunkers have
-		- New Double barreled tank hunters
-		- New Super Hacker Model
-		- New Super Lotus Model
-		- New Assault Troop Crawler model
-		- New Attack Outpost model
-		- Attack outpost no longer has any propaganda effects and only has 6 slots and starts with 4 tank hunters
-		- Removed emergency repair and replaced it with Cash Hack
-		- New Assault Helix Cameo 
-		- Assault Helix can now be upgraded with propaganda tower and napalm bomb
-		- Siege Soldier does more damage
+		- [NOTRELEVANT] Added Tank hunter barrage upgrade (fires the missiles unguided in all directions on a target location)
+		- [NOTRELEVANT] Added new units Road Grinder (like a humvee but with only 4 slots and a small gatling cannon)
+		- [NOTRELEVANT] Added New unit Light tank (faster and but weaker than a normal battle master)
+		- [NOTRELEVANT] Minigunners now gain a damage increase from the chain gun upgrade
+		- [NOTRELEVANT] Fortified bunkers can no longer hold 10 infantry but only 5 but have twice the armor normal bunkers have
+		- [NOTRELEVANT] New Double barreled tank hunters
+		- [MAYBE] New Super Hacker Model
+		- [MAYBE] New Super Lotus Model
+		- [MAYBE] New Assault Troop Crawler model
+		- [MAYBE] New Attack Outpost model
+		- [NOTRELEVANT] Attack outpost no longer has any propaganda effects and only has 6 slots and starts with 4 tank hunters
+		- [NOTRELEVANT] Removed emergency repair and replaced it with Cash Hack
+		- [MAYBE] New Assault Helix Cameo 
+		- [NOTRELEVANT] Assault Helix can now be upgraded with propaganda tower and napalm bomb
+		- [NOTRELEVANT] Siege Soldier does more damage
 
 	- China Nuke General
-		- Added Elite Artillery Training
-		- Added New Nuke helix model
-		- Added New Nuke Cannon model
-		- Added New Nuke Overlord model
-		- Overlords can no longer get any object upgrades (gatling cannon etc.)
-		- Fusion Reactor upgrade (Tanks gain a 25% speed increase)
-		- Weapons Grade Uranium shells (Tanks gain a 25% increase of damage)
-		- New Nuke Tank Hunter
-		- New Nuke Hacker (can place nuclear charge and loses the building hack ability)
-		- New Nuke Lotus (can place nuclear charge)
-		- New Nuke Battle Master Cameo
-		- New Nuke Mig cameo
-		- Added new unit Mig Nuke Bomber
-		- Added New Unit Siege cannon (fires a explosive shell with radiation and replaces the inferno cannon)
-		- Tanks now have smaller radiation fields and get bigger field when upgraded with Weapons Grade Uranium shells
+		- [NOTRELEVANT] Added Elite Artillery Training
+		- [MAYBE] Added New Nuke helix model
+		- [MAYBE] Added New Nuke Cannon model
+		- [MAYBE] Added New Nuke Overlord model
+		- [NOTRELEVANT] Overlords can no longer get any object upgrades (gatling cannon etc.)
+		- [NOTRELEVANT] Fusion Reactor upgrade (Tanks gain a 25% speed increase)
+		- [NOTRELEVANT] Weapons Grade Uranium shells (Tanks gain a 25% increase of damage)
+		- [NOTRELEVANT] New Nuke Tank Hunter
+		- [NOTRELEVANT] New Nuke Hacker (can place nuclear charge and loses the building hack ability)
+		- [NOTRELEVANT] New Nuke Lotus (can place nuclear charge)
+		- [MAYBE] New Nuke Battle Master Cameo
+		- [MAYBE] New Nuke Mig cameo
+		- [NOTRELEVANT] Added new unit Mig Nuke Bomber
+		- [NOTRELEVANT] Added New Unit Siege cannon (fires a explosive shell with radiation and replaces the inferno cannon)
+		- [NOTRELEVANT] Tanks now have smaller radiation fields and get bigger field when upgraded with Weapons Grade Uranium shells
 
 	- All GLA Armies
-		- Tunnel Networks and Stinger Sites now gain profit of the fortified structure upgrade
-		- Tunnel Networks now have a new firing sound
-		- Technical now has new firing sound for all 3 salvage states
-		- All GLA Cameos now show the green Team Color instead of red or white which some had
-		- New Cameo for the Rebel
-		- New Cameo for the RPG Trooper
-		- Saboteurs now have a climbing animation when climbing a cliff rather than walking into the cliff
-		- Stinger Sites now do more damage to grind target (damage for air targets unaltered)
-		- Scud Storm Missiles now make flyby sounds when diving to the target
-		- New Cameo's for the Booby Trap
-		- GPS Scramble now comes in 3 levels at lvl3 instead of one at lvl5
-		- Added New lvl3 Generals Ability Salvage drop a plane comes by and drops 6 salvage crates
-		- [MAYBE] Rocket Buggies can now be upgraded with salvage crates
+		- [NOTRELEVANT] Tunnel Networks and Stinger Sites now gain profit of the fortified structure upgrade
+		- [MAYBE] Tunnel Networks now have a new firing sound
+		- [MAYBE] Technical now has new firing sound for all 3 salvage states
+		- [IMPROVEMENT] All GLA Cameos now show the green Team Color instead of red or white which some had
+		- [MAYBE] New Cameo for the Rebel
+		- [MAYBE] New Cameo for the RPG Trooper
+		- [IMPROVEMENT] Saboteurs now have a climbing animation when climbing a cliff rather than walking into the cliff
+		- [NOTRELEVANT] Stinger Sites now do more damage to grind target (damage for air targets unaltered)
+		- [MAYBE] Scud Storm Missiles now make flyby sounds when diving to the target
+		- [MAYBE] New Cameo's for the Booby Trap
+		- [NOTRELEVANT] GPS Scramble now comes in 3 levels at lvl3 instead of one at lvl5
+		- [NOTRELEVANT] Added New lvl3 Generals Ability Salvage drop a plane comes by and drops 6 salvage crates
+		- [NOTRELEVANT] Rocket Buggies can now be upgraded with salvage crates
 		- [NOTRELEVANT] Rocket Buggies now have the old rocket trail and effect they used to have on the pre release screenshots and movies
 		- [NOTRELEVANT] RPG Troopers have a new rocket trailer
 		- [MAYBE] New Worker shoes cameo
