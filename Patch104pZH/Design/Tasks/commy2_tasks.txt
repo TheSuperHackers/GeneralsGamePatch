@@ -123,7 +123,7 @@ https://github.com/commy2/zerohour/issues/99  [MAYBE][NPROJECT]       Emperor Ov
 https://github.com/commy2/zerohour/issues/98  [MAYBE][NPROJECT]       Nuke Cannon Animation Inconsistency
 https://github.com/commy2/zerohour/issues/97  [NOTRELEVANT][NPROJECT] Infantry General Gattling Tank Starts As Veteran
 https://github.com/commy2/zerohour/issues/96  [IMPROVEMENT][NPROJECT] Vanilla China Troop Crawlers Missing Detection Effect
-https://github.com/commy2/zerohour/issues/95  [DONE][NPROJECT] 		  Inconsistent Outpost Geometry
+https://github.com/commy2/zerohour/issues/95  [DONE][NPROJECT]        Inconsistent Outpost Geometry
 https://github.com/commy2/zerohour/issues/94  [DONE][NPROJECT]        Tank And Nuke Outposts Fail To Attack Buildings
 https://github.com/commy2/zerohour/issues/93  [IMPROVEMENT][NPROJECT] Vanilla China Outposts Missing Detection Effect
 https://github.com/commy2/zerohour/issues/92  [REJECTED][NPROJECT]    Speaker Tower Sufficient For Player Survival
