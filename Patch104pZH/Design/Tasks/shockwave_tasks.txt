@@ -1,0 +1,3582 @@
+
+ShockWave 1.201 change log
+
+
+---Bug Fixes---
+- Nuke Overlord now correctly fire their shells from their barrels and not the ground
+- Nuke Overlord now correctly engage infantry units
+- Nuclear missile for the nuke general can now be properly launched from the its ability button when selected
+- Decoy Drones can now be properly targeted when disguised
+- Terrorist units and variants should no longer cause issues with the German censored version of the game
+- Vanilla USA Missile defenders no longer incorrectly use the Laser Missile Defender weapon
+- Armor Strategy center now uses the bombardment cannon properly
+- Armor Dozer will no longer get stuck in path finding as often as it used to
+- Armor Burton now properly reveals himself when when instantly killing a unit with his rifle
+- Laser Burton now properly reveals himself when when instantly killing a unit with his rifle
+- Victory Valley now properly appears again in the official map list
+- AI for Armor, Special Weapons and Salvage Generals now works properly on Mountain Guns [ZH]
+- Fortified Gattling Cannons will now properly show their sandbag and metal reinforcements on Night and Night Snow maps
+- Supply Drop Zones no longer crash the game if any parachutes are mid air when exiting the game to the score screen
+- Repair Pad flag now properly changes colour when captured
+- Laser General Hellfire Drone can no longer be attacked and properly shoots now
+- China structure mines (of all variations) no longer get stuck on elevated terrain
+- The Laser General's Colonel Burton now properly gains a firepower buff (rather than a nerf)
+- Tank Hunter squads no longer gain Elite veterancy from the marksman training unlock
+- Female toxin death sounds now use their own proper sound
+- Overlord and Emperor tanks now fire properly at infantry
+- Siege Soldiers can no longer enter littlebirds or combat chinooks
+
+---Global Changes---
+- All anti-air capable units can now use a special air guard mode to focus on aircraft
+- All Tooltips updated to more accurately reflect what each unit, structure, generals power and ability does
+- Infantry emerging from a destroyed transport are now untargettable for 1 second 
+- New Radiation death effect added for infantry
+- New Microwave death effect added for infantry
+- New Gorey death explosion effect added for infantry
+- Aura decals for all units this applies to things like Propaganda, ECM tanks or even Microwave Tanks
+- Heavy machine-guns and auto-cannons now have visually improved tracers effects
+- Tank Shells now all have a unique tracer effect
+- Countermeasure Flares updated to look better
+- Added new impact effects for super-heavy tanks
+- Implemented Supply Yard Variants
+- Implemented Oil Derrick Variants
+
+---Vanilla USA Changes---
+- Decoy Drone can no longer crush infantry
+- Decoy Drone machine-gun damage per shot decreased from 8.0 to 5.0
+- Decoy Drone machine-gun damage type changed from "COMANCHE_VULCAN" to "GATTLING"
+- Decoy Drone cost decreased from 600 to 300
+- Decoy Drone build time decreased from 10.0 to 6.0 second
+
+---Airforce General Changes---
+- Combat Chinook no longer requires a War Factory
+- Hypersonic Aurora price changed from 2000 to 2500
+- Hypersonic Aurora health changed from 130 to 160
+- Medivac Blackhawk has a new idle sound
+- Pave Low has a new idle sound
+- Airborne infantry medical kits no longer interrupt actions
+- Airborne infantry medical kits now heal 120 health instead of 60 health
+- Airborne infantry medical kits now heal gradually (over three seconds) rather than instantly
+- Airborne infantry medical kits require a warmup time of 30 seconds before using
+- Acolyte drone price increased from 350 to 400
+
+---Super Weapon General Changes---
+- Enforcer can no longer teleport across the map (the ability was to buggy and couldn't be fixed)
+- Enforcer can no longer be upgraded with drones
+- Enforcer is now a fast and agile hover drone
+- Enforcer can no longer be upgraded with Scout, Battle or Hellfire Drones
+- Enforcer health decreased from 380 to 300
+- Enforcer now auto repairs over time
+- Enforcer now benefits from Drone Armor
+- Enforcer Pulse weapon delay between shots decreased from 1.8 to 1.3 seconds
+- Enforcer Pulse weapon range increased from 165.0 to 220.0
+- Enforcer Stream weapon primary damage increased from 9.0 to 12.0
+- Enforcer Stream weapon secondary damage increased from 1.0 to 5.0
+- Enforcer Stream weapon range increased from 110.0 to 175.0
+- Aurora Alpha no longer requires a General's Point
+- Shatterer now requires a General's Point
+- EMP Missile Defenders can now choose between EMP missiles and AP Missiles (Rather than it being a special ability)
+
+---Laser General Changes---
+- Battle Drone PDL upgrade no longer allows them to target infantry with their lasers.
+- Laser Hellfire Drone removed (Now same as vUSA version)
+- Chinook Now benefits from the Point Laser Defense upgrade
+- Stealth Fighter now requires a strategy center
+- Railgun Artillery now has a minimum range of 150.0
+- Railgun Artillery firing effect updated
+- Colonel Burton now has new effects with Special Equipment
+
+---Armor General Changes---
+- Burton High Explosive Shot is now instant hit (this also prevents it from hitting elevated terrain)
+- Vaporizer Vulcan Turret cooldown removed and now fires constantly
+- Supply trucks are no longer required to go through the supply center to drop their payload
+- Blue Arrow Defender cost decreased from 200 to 150
+- Blue Arrow Defender weapon range against aircraft increased from 235 to 250
+- Blue Arrow Defender laser lock weapon range increased from 250 to 280
+- Vulcan Tank cooldown removed and now fires constantly
+- Vulcan Tank damage against infantry increased from 4.0 to 6.0
+- Vulcan Tank weapon range increased from 150.0 to 160.0
+- Bradley armor changed from "HumveeArmor" to "TruckArmor" (makes them more vulnerable to aircraft)
+- Bradley health reduced from 400.0 to 350.0
+- Supply Trucks now carry 5 crates instead of 6 (meaning from 450 credits to 375 credits per drop)
+- Supply Centers no longer require the Supply Trucks to drive through them
+- Strykers now heal infantry instead of vehicles
+- Strykers require the "Stryker Repair Crews" upgrade to heal vehicles
+
+---Vanilla China Changes---
+- Flame Tower cost decreased from 1000 to 900
+- Flame Tower Build time reduced from 15 seconds to 10 seconds
+- Bullfrog max speed increased from 40 to 70
+- Bullfrog model and cameo updated
+- Bullfrog can now perform an area scan to reveal a huge area around its self
+- Bullfrog no longer has the capture building ability
+- Bullfrog renamed to Scout Car
+
+---Infantry General Changes---
+- Hacker cost increased from 600 to 700
+- Hack Van cost increased from 1600 to 1800
+
+---Nuke General Changes---
+- Artillery Training cameo updated
+- Gattling Tank Model and Cameo updated
+- Gattling Tank now benefits from the fusion reactor upgrade
+- Gattling Tank now explodes violently if the fusion reactor upgrade is purchased
+- Gattling Tank now needs 2 shots less to spin up to max firing speed.
+- Chemical Suits now gives an icon to all infantry
+- Tactical Nuke Missiles (for the Overlord) damage type changed from "FLAME" to "EXPLOSION"
+- Tactical Nuke Missiles (for the Overlord) now give an additional 40.0 damage of "GATTLING" type weapon damage
+
+---Tank General Changes---
+- Battlemaster Build time reduced from 12 seconds to 10 seconds
+- Gattling tank hitpoints increased from 320 to 350
+- Warmaster now benefits from Horde bonus
+- Warmaster Speed upped from 22 to 25 (Nuclear from 32 to 34)
+- Reaper tank range increased from 160 to 175
+- Reaper tank damage received from "SUBDUAL_VEHICLE" damage decreased from 100% to 50%
+- Advanced ECM tank cost increased from 900 to 1000
+- Advanced ECM tank range increased from 240 to 300
+- Advanced ECM tank damage decreased from 30.0 to 24.0
+- Advanced ECM tank now has a damage radius of 15.0
+- Troop Crawler gets an autocannon (requires an upgrade)
+
+---SpecialWeapons General Changes---
+
+---Vanilla GLA Changes---
+- Rocket buggies will no longer require a clear line of sight to engage enemies
+- Saboteur cost decreased from 1000 to 700
+- Saboteur now requires an Arms Dealer instead of a Palace before they can be trained.
+- Mobile Anti-Tank Gun Replaced by new Recoilless Rifleman
+- RPD Machinegun upgrade no longer reduces the moment speed of rebels
+- RPD Machinegun damage increased from 3.0 to 5.0
+- Quad Cannon Salvage 1 damage against ground decreased from 15.0 to 12.5
+- Quad Cannon Salvage 2 damage against ground decreased from 20.0 to 15.0
+- Quad Cannon Salvage 3 damage against ground decreased from 25.0 to 17.5
+- Quad Cannon Salvage 1 damage against aircraft decreased from 10.0 to 7.0
+- Quad Cannon Salvage 2 damage against aircraft decreased from 15.0 to 9.0
+- Quad Cannon Salvage 3 damage against aircraft decreased from 20.0 to 11.0
+
+---Toxin General Changes---
+- Rocket buggies will no longer require a clear line of sight to engage enemies
+- Scorpion renamed to Tarantula APC
+- Toxin Grenadier damage decreased from 50 to 40
+- Toxin Grenadier damage type changed from "EXPLOSION" to "AURORA_BOMB"
+- Python damage against ground decreased from 30.0 to 25.0
+- Python Salvage 1 damage against ground decreased from 45.0 to 31.25
+- Python Salvage 2 damage against ground decreased from 30.0 to 25.0
+- Python damage against aircraft decreased from 26.25 to 20.0
+- Python Salvage 1 damage against aircraft decreased from 33.75 to 25.0
+- Python Salvage 2 damage against aircraft decreased from 26.25 to 20.0
+- Jarmen Kell no longer leaves small toxin field when firing his rifle
+- Jarmen Kell now spawns toxic clouds on any infantry that he kills (these can kill other victims to spawn even more clouds)
+- Jarmen Kell has a new weapon sound
+- Toxin Grenadier has a new voice set
+
+---Demo General Changes---
+- Rocket buggies will no longer require a clear line of sight to engage enemies
+- ZSU health decreased from 380 to 300 (same as quad cannons)
+- ZSU damage against ground decreased from 16.0 to 15.0
+- ZSU Salvage 1 damage against ground decreased from 20.0 to 18.75
+- ZSU Salvage 2 damage against ground decreased from 25.0 to 22.5
+- ZSU damage against aircraft decreased from 10.0 to 8.0
+- ZSU Salvage 1 damage against aircraft decreased from 14.0 to 10.0
+- ZSU Salvage 2 damage against aircraft decreased from 20.0 to 12.0
+- ZSU renamed to Sparka
+- BRDM-1 Renamed to Roach
+- Demo Saboteur cost decreased from 1000 to 800
+- Saboteur now requires an Arms Dealer instead of a Palace before they can be trained.
+- Topol Missile is now completely invincible and can thus no longer be intercepted
+- Topol Missile maximum speed decreased from 700 to 500
+
+---Stealth General Changes---
+- Rocket buggies will no longer require a clear line of sight to engage enemies
+- Saboteur cost decreased from 1000 to 700
+- Saboteur now requires an Arms Dealer instead of a Palace before they can be trained.
+- Hijacker now requires an Arms Dealer before they can be trained.
+- Combat Bike cost increased from 350 to 450
+- Mobile Supply stash now requires both a Command Center and Supply Stash to be built.
+- Sniper Quad Cannon Salvage 1 damage against ground decreased from 15.0 to 12.5
+- Sniper Quad Cannon Salvage 2 damage against ground decreased from 20.0 to 15.0
+- Sniper Quad Cannon Salvage 1 damage against aircraft decreased from 10.0 to 7.0
+- Sniper Quad Cannon Salvage 2 damage against aircraft decreased from 15.0 to 9.0
+- Stinger Missiles now boost range of RPG troopers by 25%
+- Frog-7 HE missiles no longer leave toxic clouds when shot down by lasers
+- Rebel Bike damage changed from 12.0 to 10.0
+
+---Salvage General Changes---
+- BRDM-2 renamed to Badger
+- Krait no longer has a toxin spray gun
+- Krait is now armed with a toxin-tipped auto cannon
+- Quad Cannon Tank health decreased from 410 to 350
+- Quad Cannon Tank damage against ground decreased from 15.0 to 12.5
+- Quad Cannon Tank Salvage 1 damage against ground decreased from 20.0 to 15.0
+- Quad Cannon Tank Salvage 2 damage against ground decreased from 25.0 to 17.5
+- Quad Cannon Tank damage against aircraft decreased from 10.0 to 7.0
+- Quad Cannon Tank Salvage 1 damage against aircraft decreased from 15.0 to 9.0
+- Quad Cannon Tank Salvage 2 damage against aircraft decreased from 20.0 to 11.0
+- Scarab smoke grenades no longer require the Scarab to face the turret forward
+- Scarab smoke grenades are now always fired directly in front of the vehicle
+- Scarab smoke grenades no longer require the scarab to stop in order to use them
+- Scarab smoke grenades now make the scarab untargettable for 0.1 seconds after the grenades activate
+- Scavenged Salvage upgrade removed from all vehicles
+- Scavenged Salvage now grants an area effect generals power that upgrades all vehicles within the area of effect with salvage
+- Desert Fly minimum speed decreased from 120 to 80
+- Desert Fly turn rate increased from 70 to 120 (damaged from 70 to 90)
+- Desert Fly can now target air units with its main guns
+- Desert Fly secondary machine gun now has a new sound
+- Desert Fly now gains experience from its secondary machine gun
+
+
+
+ShockWave 1.1 change log
+
+
+---------GENERIC CHANGES AND FIXES---------
+
+- ShockWave Code has been drasticly optimised and should reduce both lag, load times and random crashes (THIS IS NO GUARANTEE THAT YOUR GAME WILL RUN SMOOTH IF IT LAGGED PREVIOUSLY!)
+- All maps that went missing from the jump between 0.951 to 1.0 have been added.
+- Added Special Map Tags to indicate which maps are from Zerohour and which are new/modified Shockwave maps.
+- All classic edition maps from Generals now included
+- Emergency Aid wil now properly repair/heal ground units
+- Infantry killed by terrorirst will use their "explosion" death animation rather than the normal death animation.
+- Demo rebels now properly display the camoflauge upgrade which they gan gain through cross teching.
+- Demo Bikes now properly show the terrorist model when paradropped on a reinforcements pad.
+- Demo workers, Rebels and RPG troopers will no longer show a terrorist explosion after beeing by explosive weapons
+- Devastator no longer shows "this upgrade has allready been purchased" on the self destruct.
+- Chinese mines now properly show their detonation effect when triggered.
+- Infantry General Warfactory now properly displays the repair crane again.
+- Topol Missiles now properly show red smoke when heroic.
+- Shatterer now properly show a red sonic wave when heroic.
+- Shatterer now properly gains a damage bonus when heroic.
+- Rocket Sniper Missiles now properly show red smoke when heroic.
+- BRDM1 Missiles now properly show red smoke when heroic.
+- MI8 Hip Rockets now properly show red smoke when heroic.
+- Enforcers now properly show a different colored weapon effects when heroic.
+- Completely new launcher software which should be compatible with windows 7.
+- ShockWave Launcher included for desktop shortcut.
+- Toxin Anti Tank Guns now display the Anthrax Gamma upgrade icon on the commandbar.
+- Old GUI Bleep sound restored from generals whenever a unit or upgrade is purchased.
+- Unique "cancel building" button added for when canceling a building instead of using the generic stop cameo.
+- Toxin Technicals will no longer show their gunners when killed with one or two salvage upgrades.
+- Grenadier Terrorists will no longer lose veterancy when switching between bomb vest or grenades.
+- Migs ground attack hotkey changed to "B" (bombard) to resolve the hotkey conflict with air guard.
+- AI Controlled Missile Defenders will no longer use their laser lock to snipe buildings.
+- Sneak Attack Tunnels will now properly show their emerging effects on night maps.
+- Desert Fly will no longer attempt to land on airfields when ordered to do so.
+- Gazer Turrets will no longer force our garrisoned troops when reaching critical damage.
+- Cargo planes delivering units to a reinforcements pad can no longer be shot down or targeted.
+- Workers killed on combat bikes will only show their shoes when the upgrade has been purchased.
+- Black lotus will no longer use an attack cursor on buildings and units but use her hacks instead.
+- Battle Drones will no longer go into a killing frenzy that would occur at random.
+- New Tech airport added.
+- Challenge Mission for General Leang Added.
+- Challenge Mission form Thrax has been optimised and improved.
+- Challenge Mission form Townes has been optimised and improved.
+- Taunting From a command center will now display a large "!" icon above the command center.
+- All artillery units that are required to deploy before firing will not automaticly engage enemy targets.
+
+
+---------BALANCE, GAMEPLAY AND GRAPHICAL CHANGES---------
+
+***All USA Generals***
+- Vehicle drones can no longer be targeted by an AA fire.
+- All Generals receive faction specific designs for their Construction Dozers.
+- When using an offensive generals power or superweapon EVA will report "Select Target" when activating the power.
+- Chinook model and cameo replaced with a higher detailed ones.
+- Chinooks now have smoke exhaust effects.
+- Battle drones will now properly use their machinegun weapon
+- Tomahawks will now show a laser from their turret when firing a waypoint guided missile.
+- All Raptors and varriants now have ground attack buttons like all other aircraft.
+- Rangers can now taunt which couses them to laugh and play a unique animation.
+- Spy Drones will no longer be selected when pressing the select all keys W,E or Q
+- All American jets equiped with laser guided weapons will now show a targeting laser while using these weapons.
+- Enabeled 4 previously dissabled selection voices for pilots.
+- Enabeled 1 previously dissabled flash bang voice for rangers when ordered to clear out garrisons.
+- Avenger (both laser and normal) get a new Cameo.
+
+
+***USA (Base faction)***
+- New Decoy Drone added (buildable at warfactory)
+- Tomahawk model and cameo replaced with a higher detailed onse.
+- Stealth Fighter model and cameo replaced with a higher detailed one.
+
+USA Laser General***
+- Advanced Microwave Tank model and cameo replaced with a higher detailed ones.
+- Stealth Fighter model and cameo replaced with completly new design.
+- Stealth Fighter no longer uses missiles but has a pair of auto cannons and acts like a gunship.
+- F/B-22 Airstrike Replaced by UAV Airstrike.
+- Aurora replaced by F/B-22 Bomber
+- Firebase Replaced by Laser Base.
+- Laser Turret has a new Cameo.
+- Col. Burton will no longer reveal himself while taking damage. (all other burtons also have this)
+- Col. Burton now has unique weapon selection icons for his grenades and laser rifle.
+- Laser Paladin will now have to recharge it's weapon for damage bonuses whenever it targets a new unit or structure.
+- Laser Paladin will no longer gain a much higher bonus from focusing crystals than actualy is indicated from the upgrade description.
+- Laser Paladin Beam will look much more intense as it gains damage bonus by firing on the same object for a certain time.
+- Laser Paladin Animation will now speed up depending on how much damage the beam is doing.
+
+***USA Superweapon General***
+- Plasma Tomahawk model and cameo replaced with a higher detailed ones.
+- Plasma Tomahawk Ground Attack cameo replaced with a higher detailed one.
+- When a reinforcements pad is captured you will now receive 2 Robot Tanks instead of a single Plasma Tomahawk.
+- Popup Patriot model and cameo replaced with a higher detailed ones.
+- Popup Patriot will now become stealthed after construction and not durring construction.
+- Hyper Sonic Cruise Missile will now enter the map from a much higher altitude (this decreases the chances of it hitting obstacles)
+- Hyper Sonic Cruise Missile will now reveal a small area around themselfs all the time and not after a while.
+- Hyper Sonic Cruise Missile Damage type changes from "EXPLOSION" to "AURORA_BOMB" (this will increase the damage it does against buildings but not units)
+- Support Stealth Fighter model and cameo replaced with a higher detailed one.
+- Alpha Aurora initial bomb impact damage reduced by 75%
+- Alpha Aurora Will now gain veterancy from the kills coused by the fuel air explosion.
+- Alpha Aurora Fuel air explosion will now occur one second after the initial impact.
+- Alpha Aurora Fuel air explosion Primary damage decreased from 430 to 350
+- Alpha Aurora Fuel air explosion Secondary Damage radius increased from 50 to 70
+- Alpha Aurora Fuel air explosion Damage type changed from "EXPLOSION" to "JET_MISSILES" (Means it does less damage to structures and AA units)
+
+***USA Airforce General***
+- Combat Chinook model and cameo replaced with a higher detailed ones.
+- combat Chinook speakers will now stop playing after 1 mimute and 20 seconds.
+- Gathering Chinook Replaced by Pave low. (purely graphical no stats changed)
+- B1 Lancer renamed to Tornado Bomber
+- Tornado model and Cameo Replaced.
+- Tornado Bomber Will now gain veterancy from the kills coused by the clusters from it's bomb.
+- Huricane Missile Launcher Will now gain veterancy from the kills coused by the clusters.
+- Acolyte Drone model and cameo replaced with a higher detailed one.
+- King Stealth Fighter model and cameo replaced with a higher detailed one.
+- Burton Airstrike time before the Nighthawks arrive increased by 2 seconds.
+- Burton Airstrike Nighthawks can no longer be shot down
+- Burton Airstrike Nighthawks no longer arrived from the edge of the map but from above making a spectaculair dive.
+- Burton Airstrike Nighthawks will now only drop a single bomb (damage unaltered).
+- Burton Airstrike Will now make 3 Nighthawk preform a boming run instead of 2.
+
+***USA Armor General***
+- Concrete Slab model and cameo replaced with a higher detailed ones.
+- Guardian Turret model and cameo replaced with a higher detailed ones.
+- Vulcan Turret model and cameo replaced with a higher detailed ones.
+- Gazer Turret model and cameo replaced with a higher detailed ones.
+- Tank Destroyer model and cameo replaced with a higher detailed one.
+- Tank Destroyer's main cannon is now turreted.
+- Col. Burton will no longer reveal himself while taking damage. (all other burtons also have this)
+- New Vulcan Tank cameo added.
+
+
+
+***All China Generals***
+- All Generals receive faction specific designs for their Construction Dozers.
+- When using an offensive generals power or superweapon EVA will report "Select Target" when activating the power
+- Standard Gattling Cannon model and cameo replaced with a higher detailed ones.
+- Overlord and Helix Gattling Cannons will now use the same fire sounds as their building varriants.
+- Standard Bunker model and cameo replaced with a higher detailed ones.
+- When a structure is captured mines will now transfer to the other player "after" they have been cleared and respawned.
+- Helix will no longer instantly die when beeing beeing "Heli Sniped" by Jarmen kell.
+- Gattling cannons will now play a barrel spinup sound when firing.
+- Red Guard can now taunt which couses them to laugh and play a unique animation.
+- Overlord can now taunt using it's speaker tower.
+- Hackvans will no longer be selected when pressing the select all keys W,E or Q
+- Black lotus system hack abbility now needs to be deployed dirrectly onto a vehicle or structure.
+- Black lotus system hack cooldown reduced to 30 seconds.
+- Airfield Cameo now properly displays the helipad and control tower on the correct locations as they are shown on the model.
+- Barracks Cameo now properly shows windows one of the roofs
+- Warfactory cameo now properly shows the tranparancy on the fencing around the roof.
+- Helix Napal bombs now use the same radius cursor as the Napalm strike.
+- Cluster Mines may now be upgraded to neutron mines at cost of an additional generals point.
+- Bullfrog can now capture buildings after the capture building upgrade at the barracks is purchased.
+
+***China (base faction)***
+- Added Mine Dispensers (stealthed structure that creates mine fields)
+- Mig Bombers now properly receive veterancy from the kills they make with their bombs
+- Mig Bombers Received a new Texture and Cameo.
+
+***China Infantry General***
+- Added Mortar Pit.
+- Fortified Bunker model and cameo replaced with a higher detailed ones.
+- Fortified Gattling Cannon model and cameo replaced with a higher detailed ones.
+- Fortified Gattling Cannon collosion box adjusted to match the foot print of the added fortifications.
+
+***China Tank General***
+- Watch Tower Replaced by Ramjet Turret.
+- Ramjet Turret (old Watch Tower) secondary damage from weapon removed.(reduces splash damage)
+- Ramjet Turret (old Watch Tower) Projectiles can no longer be jammed or lasered.(their shells now after all)
+- Ramjet Turret (old Watch Tower) Cost increased from 1000 to 1200.
+- AP Gattling cannon model and cameo replaced with a higher detailed ones.
+- AP Gattling cannon now has a slower rate of fire.(damage has been adjusted to match previous DPS values)
+- AP Gattling cannon Cost decreased from 1200 to 1000
+- Gattling Tank model and cameo replaced with a higher detailed ones.
+- New Supply Truck cameo added.
+
+***China Nuke General***
+- Bunker Repaced by Fallout Bunker
+- Fallout Bunker has 20% resistance to "EXPLOSION" damage weapons.
+- Gattling cannon model and cameo replaced with a higher detailed ones.
+- Gattling cannon now properly fire 1 shot every 0.06 seconds instead of 0.03.
+- Tank Hunter TNT attack Renamed to "Plant Nuclear Bomb".
+- Tank Hunter TNT attack receives a new Cameo.
+- Tank Hunter no longer use the TNT specific voice when placing Nuclear Bombs.
+- Nuke Cannons no longer gain SSNR Shells.
+- Mig Received a new Cameo.
+- Mig Bombers now properly receive veterancy from the kills they make with their bombs
+- Mig Bombers Received a new Texture and Cameo.
+- Helix Nuclear bombs now use the same radius cursor as the Nuclear Missile.
+
+***China Specialweapons General***
+- New unit "Grinder Cannon artillery" added.
+- New Anvil Tank cameo added.
+- Hammer Cannon no longer start as veterans.
+- TOS-1 Buratino model and cameo replaced with a higher detailed one.
+- TOS-1 Buratino no longer start as veterans.
+- Artillery Elite Traning Replaced with Artillery Veteran Training.
+- Repair Station radius increased by 25%
+- Earthshaker initial impact damage increased.
+- Earthshaker erruptions now couses slightly more damage (this should make them able to destroy fortified scudstorms properly)
+
+
+
+***All GLA Generals***
+- When using an offensive generals power or superweapon EVA will report "where shall we strike" when activating the power
+- New Cameo for Booby Trap abbility added.
+- Anti Tank Guns will now die differently depending on what weapon they were killed by.
+- Anti Tank Guns will now properly gain veterancy.
+- Anti Tank Guns will no longer display shoes after the upgraded. (they didn't benefit from it anyway)
+- New deploy and undeploy cameos added for Anti Tank Guns.
+- Terrorists now have a much more drastic explosion effect. (purely vissual)
+- Combat Cycles with Terrorists now have a much more drastic explosion effect. (purely vissual)
+- Combat Cycle now apears as Snow Bike while playing a snow/winter themed map.
+- Bomb Trucks will now explode much more violently when destroyed. (purely vissual)
+- Exploded Demotraps will now play a metalic bounce sound as they bounce on the ground.
+- Marauder Tank now emits smoke from it's engine exhaust pipe.
+- New sound effect added when a building is beeing sabotaged by a Saboteur.
+- Sneak attack tunnels will now show building rubble after beeing destroyed and sink away a few seconds later.
+- Rebels can now taunt which couses them to laugh and play a unique animation.
+- Hijackers will now emerge from previously hijacked vehicles when destroyed. (only exceptions beeing suicide units)
+- Stinger soldiers will no longer display healing icons when healing themselfs. (this does not affect the healing they get)
+- Quad Cannons no longer gain ROF bonuses from salvage, They do however gain damage bonuses to keep the same DPS. (does not include the ZSU and Python)
+- Workers now have their own unique mine clearing cameo.
+- All Workers now have their own unique cameo.
+- All gla buildings have their own unique sell button.
+- Bomb Truck bio bomb upgrade cost reduced from 500 to 200.
+
+***GLA (Base faction)***
+- Rebels may now be upgraded with an RPD machine gun upgrade.
+- Mobile Demotraps will now show a burned up barrel when detonated.
+- Worker Quad now availible from the supply stash. (after the arms dealer is build)
+- Worker Dozer removed.
+- Quad Cannon model and cameo replaced with a higher detailed one.
+- Bomb Truck costs reduced from 1200 to 1000 per truck.
+- Combat Bike costs reduced from 500 to 300 per bike.
+
+***GLA Demo General***
+- ZSU Cannon model and cameo replaced with a higher detailed one.(vissable gunners)
+- HE Rpg explosion effect improved and new sound effect added.
+- Demo Terrorist model and cameo replaced.
+- Demo Rebel cost increased from 150 to 180
+- Demo Rebel model and cameo replaced.
+- Demo Saboteur model and cameo replaced.
+- Demo RPG Trooper model replaced.
+- Demo Jarmen Kell model replaced.
+- Demo Jarmen Kell now displays a bomb planting animation when using his timed demo charge.
+- Demo Rebel may now place Demo/TNT charges on vehicles and structures.
+- Demo Bike now has a new Cameo.
+- Topol-M will no longer deploy before using the suicide abbility.
+- Topol-M ground attack now uses a unique radius cursor.
+- Demo Scud Storms now uses a unique radius cursor.
+- Bomb Truck costs reduced from 1500 to 1200 per truck.
+- Fanatics now have a new button that couses them to run into a unit or structure to detonate themselfs.
+
+***GLA Toxin General***
+- Demo Trap model and cameo replaced with a higher detailed ones.
+- Toxin Technical now has it's own unique cameo.
+- Mobile Anti Tank gun cost increased from 600 to 650.
+- Bomb Truck costs reduced from 1200 to 1000 per truck.
+- Combat Bike costs reduced from 550 to 350 per bike.
+ 
+***GLA Stealh General***
+- New Radar Truck cameo added.
+- Assasin model replaced.
+- Tunnel Network will now become stealthed after construction and not durring construction.
+- Machinegun Site will now become stealthed after construction and not durring construction. 
+- Stinger Site will now become stealthed after construction and not durring construction.
+- Quad Sniper model and cameo replaced with a higher detailed one.
+- Mobile Anti Tank gun cost increased from 600 to 700.
+- Combat Bike costs reduced from 550 to 350 per bike.
+
+***GLA Salvage General***
+- New Scrap Car cameo added.
+- New Latrun cameo added.
+- Desert Flies can now all be selected from a button from the generals power bar. (only when playing deathstrike)
+- Desert Fly cost reduced from 1200 to 1000.
+- Desert Fly now benefits frmo the Junk Armor upgrade.
+- Booby Traps now availible for purchase at the barracks.
+- Scavanged salvage upgrade is now instantly granted when purchased.
+- Scavanged salvage upgrade will no longer grant veterancy when fully upgrade but will dirrectly provide a refund.
+- Usable salvage (from the Scrap Yard) production time reduced by 50%.
+- Scrap Yards can now place rally points.
+- Airpad can now set rally points.
+- Airpads now gain a button to select all Desert Flies owned by a player.
+- V1 Rockets will now enter the map from a much higher altitude (this decreases the chances of them hitting obstacles)
+- V1 Rockets will now reveal a small area around themselfs all the time and not after a while.
+- Combat Buggys can now taunt. (same as rocket buggy)
+- Basilisk now has it's own unique tread marks texture.
+- Quad Tank model and cameo replaced with a higher detailed one.
+
+
+
+ShockWave 1.0 change log
+
+AI
+
+- Air Force General utilises the Stealth Comanche upgrade.
+- Base factions no longer hear loss music when they lose or sell a vital structure.
+- Retaliation settings returned to ZH defaults.
+- Some of the AI opponents were using only 6 of their 7 Generals Points. Now they use their points to the maximum.
+- Superweapon General AI now uses the correct Spectre Gunship science.
+- AI has been added for the new generals (Leang, Ironside and Deathstrike)
+
+
+New voices
+
+
+- Added four new attack voices to the Air Force General's Stealth Fighter.
+- Added new ambient loops to the Shatterer.
+- Added new attack voice to the Ravage Tank.
+- Added new create voice to the Laser General's Stealth Fighter.
+- Added new unique create voice to the Air Force General's Stealth Fighter.
+- Added new movement voice to the F16XL Bomber.
+- Added new movement voice to the Support Stealth Fighter.
+- Added new selection voice to the Alpha Aurora Bomber.
+- Added new selection voice to the Machine Gun Red Guard.
+- Added new selection voice to the Support Stealth Fighter.
+- Added new voices to the Rocket Sniper.
+- Added new voices to the Shatterer Tank.
+- Added new voices to the Tank Destroyer.
+- Added new voices to the Tiger. 
+- Added new voice set to the blue arrow defender. 
+
+New effects/features
+
+- Added new particle effect to a destroyed Helix when it impacts. 
+- Added new sound effect when radiation is present on screen. 
+- Added new Suicide infantry (Terrorists and Fundamentalists) receive a new gore death animation when exploding
+- Added new quickstart background
+- Removed Start units (often coused confusion and missmatch errors)
+
+
+
+Bugs and general fixes
+
+
+- Added a Guard Command to the Support Crawler. 
+- Demolitions Ability cameo removed from the Terrorist.
+- GLA Hijacker now has uncloaking sounds when he moves and pauses.
+- GLA Demo General Terrorist explodes when it is run over.
+- Laser Lock StartAbilityRange decreased from 230.0 to 200.0.
+- Projectile Armor resistance to JET_MISSILES increased from 100% to 0%. 
+- Restored the missing Gattling Tank voice.
+- Restored the missing Spectre Gunship voices.
+- Support Crawler can gain experience. 
+- Infantry burning death animation now looks alot more convincing
+- Workers now Correctly play their crate pickup and drop animations
+- Chinese Warfactories will now properly emit smoke from their chimney
+- Balistic missile Weapons now get 50% less damage for avenger lasers. (essentialy just doubeling their strength against them)
+- Any Object in the game will now properly play stealth and unstealh sounds as it switches between these phases.
+- Fixed the bug that allowed Rangers to target SA-2 Sites with their Flash Bangs
+- Fixed the bug that allowed the Armor General's Colonel Burton to fire and remain stealthed.
+- Fixed the bug that allowed the Tank General's ECM Tank to shut down air units when the weapon was switched back from the hold fire mode.
+- Fixed the bug that allowed the Stealth General's Palace to remain cloaked while its occupants fired from the inside.
+- Fixed the bug that caused the Cluster Missile radar animation to play 3 times as fast as it's supposed to.
+- Fixed the bug that caused the Battlefortress's chaingun to stop firing before it reached the maximum revolutions.
+- Fixed the bug that caused the Comanche's tail section to "bleed" a shadow. 
+- Fixed the bug that caused the Demo General's BRDM1 to be immune to ECM Tanks when it reached heroic veterancy.
+- Fixed the bug that caused the Demo General's ZSU to be immune to ECM Tanks when it reached heroic veterancy.
+- Fixed the bug that caused the Reaper Tank to be immune to ECM Tanks.
+- Fixed the bug that caused the Salvage General's Soyuz Missile to be invulnerable to Microwave and Advanced ECM Tanks after it was upgraded with the Fortified Structures upgrade.
+- Fixed the bug that caused the Scout Drone to prevent its parent vehicle from firing when it was directly above an enemy unit.
+- Fixed the bug that caused the Special Weapons General's TOS-1 to be immune to ECM Tanks when it reached heroic veterancy.
+- Fixed the bug that caused the Special Weapons General's Support Crawler to not give away experience when it was destroyed.
+- Fixed the bug that caused Laser and Armor burton to remain stealthed even while attacking
+- Fixed the bug that caused the generals challenge to crash at a certain point.
+- Fixed the bug that caused Humvee turrets to malfunction on night and night snow maps
+- Fixed the errors with the Support Stealth Fighter using wrongly named voice sets.
+- Fixed Issue that coused TOPOL's to play the deploy animation twice after beeing deployed in their damaged state.
+- Fixed Issue where Blacksharks and Sentinel gattling weapons had their shells ejected from incorrect coordinate.
+
+
+Maps
+
+
+- Added new map Coastal Conflict (2 player).
+- Added new map Desert Combat (4 player).
+- Added new map Fallen Empire Classic. (The original Generals version of Fallen Empire.)
+- Added new map Hard Winter (2 player).
+- Added new map Homeland Rocks (2 player).
+- Added new map Lagoon (2 player).
+- Added new map Maguso (4 player).
+- Added new map Melting Snow (2 player).
+- Added new map Natural Threats (2 player).
+- Added new map The Path (2 player). 
+- Added new map Tournament Desert Classic. (The original Generals version of Tournament Desert.)
+- Added new map Unity A (4 player).
+- Added new map Unity B (6 player).
+- Deactivated the civilian cars on Tournament Desert.
+- Fixed the right side of Fallen Empire. It is now possible for units to pass under the arch on that side.
+- Removed the Tech Machine Gun Bunkers from Barren Badlands.
+
+
+-BALANCE AND GAMEPLAY CHANGES-
+
+
+
+Global armour changes
+
+- Avenger damage taken by RADIATION increased from 20% to 100%. [ZH settings]
+- Tanks damage taken from INFANTRY_MISSILE decreased from 100% to 80%.
+- Tanks damage taken by POISON decreased from 25% to 15%.
+- Gattling Tank damage taken by RADIATION increased from 50% to 100%. [ZH settings]
+- Infantry damage taken by POISON decreased from 100% to 60%.
+- Humvee damage taken by RADIATION increased from 50% to 100%. [ZH settings]
+- LOSAT damage taken by RADIATION increased from 20% to 100%.
+- Microwave Tank armour resistance to INFANTRY_MISSILE decreased from 30% to 50%. [ZH settings]
+- Nuke Chem Suit damage taken by RADIATION increased from 0% to 5%.
+- Quad Cannon and its variants damage taken by RADIATION increased from 50% to 100%. [ZH settings]
+
+
+Rank
+
+Levels modified:
+- Points needed to gain a new Generals Promotion decreased from 1000 to 800.
+- Points needed to gain a new Generals Promotion decreased from 1700 to 1500.
+- Points needed to gain a new Generals Promotion decreased from 2700 to 2500.
+- Points needed to gain a new Generals Promotion decreased from 5200 to 5000. (Restored to ZH 1.04 settings at all levels.)
+
+
+Tech buildings
+
+- Tech Flak Bunker requires line of sight before it can fire.
+- Tech Machine Gun Bunker requires line of sight before it can fire.
+- Tech Machine Gun Bunker weapon damage decreased from 20.0 to 10.0.
+- Tech Machine Gun Bunker weapon range decreased from 260.0 to 225.0.
+- Tech Radio Jam weapon decreased from 40 seconds to 20 seconds.
+
+
+All USA Generals
+
+- All generals now have unique Command Center models
+- All generals now have unique construction Dozer models
+- Added new cameo for the Leaflet Drop.
+- Added new Field Repairs upgrade (requires Strategy Center).
+- Added new Spectre gunship model
+- Added new raptor model and cameo (including king raptors)
+- Avenger is available without the prerequisite of a Strategy Center.
+- Avenger missile weapon damage increased from 25.0 to 30.0.
+- All Humvees will now pitch their Tow (or varriant) up while shooting at aircraft.
+- Chinook health increased from 225.0 to 300.0.
+- Chinook resource gathering rate decreased from 2300 to 3000.
+- Chinook supply warehouse gathering rate decreased from 1200 to 1250.
+- Chinook will appear to move in the air when it is stationary instead of looking like it is rooted (includes AFG's Combat Chinook).
+- Colonel Burton OICW weapon grenade range decreased from 300.0 to 275.0.
+- Comanche Hellfire missile weapon damage decreased from 65.0 to 50.0.
+- Comanche unupgraded armour damage taken from INFANTRY_MISSILE decreased from 120% to 100%.
+- Comanche unupgraded armour damage taken from SMALL_ARMS decreased from 120% to 100%.
+- Comanche unupgraded armour damage taken from GATTLING decreased from 120% to 100%.
+- Comanche Rocket Pod minimum fire range decreased from 40.0 to 0.
+- Comanche Rocket Pod weapon range decreased from 280.0 to 200.
+- Comanche will appear to move in the air when it is stationary instead of looking like it is rooted.
+- Firebase healing amount decreased from 50 to 1.
+- Firebase projectile speed increased from 350.0 to 500.0.
+- Firebase shells will track any target that moves below a speed of 40.
+- Firebase weapon range decreased from 300.0 to 275.0.
+- Flash Bang secondary weapon damage decreased from 40.0 to 20.0.
+- Global Hawk minimum movement speed decreased from 50 to 30.
+- Global Hawk movement speed decreased from 70 to 30.
+- Global Hawk movement speed when damaged reduced from 100 to 25.
+- Hellfire Drone weapon range decreased from 190.0 to 150.0.
+- Leaflet Drop delivery plane changed from a B52 to a Cargo Plane
+- Marine C4 weapon damage decreased from 1200.0 to 300.0.
+- Marine experience levels increased from 0 | 30 | 50 | 80 to 0 | 50 | 100 | 200.
+- Marine weapon range decreased from 160.0 to 150.0.
+- Microwave Tank primary damage radius decreased from 160.0 to 130.0.
+- Missile Defender Laser Lock weapon damage type changed from INFANTRY_MISSILE to ARMOR_PIERCING.
+- Missile Defender Laser Lock weapon range decreased from 330 to 300.
+- Missile Defender weapon range decreased from 190.0 to 175.0.
+- Paradrop Generals Reinforcement Power Ranks modified:
+  1: 5 Rangers, 2 Missile Defenders decreased to 3 Rangers, 2 Missile Defenders.
+  2: 10 Rangers, 4 Missile Defenders decreased to 6 Rangers, 4 Missile Defenders.
+  3: 20 Rangers, 8 Missile Defenders decreased to 9 Rangers, 6 Missile Defenders.
+- Pathfinder no longer requires the Strategy Center as a prerequisite.
+- Pathfinder weapon damage decreased from 100.0 to 25.0.
+- Ranger Capture Building ability delay increased from 10 seconds to 15 seconds. 
+- Ranger weapon range decreased from 120.0. to 110.0.
+- Raptor build time decreased from 20.0 to 15.0. (Does not include the Air Force King Raptor.)
+- Sentry Drone weapon damage type changed from SMALL_ARMS to COMANCHE_VULCAN. 
+- Spectre Gunship health decreased from 1000.0 to 600.0.
+- Stealth Fighter build time decreased from 25.0 to 20.0. (Does not unclude the Air Force General's Stealth Fighter.)
+- Stealth Fighter Laser-Guided Missile damage decreased from 156.25 to 100.0.
+- Strategy Center Hold the Line Battleplan increased from 15% to 20%.
+- Paradrop delay decreased from 05:00 to 04:00.
+
+
+
+USA (Base faction)
+
+- Aurora Bomber cost decreased from $2500 to $2000.
+- Colonel Burton recloak time decreased from 2500 to 2000. (Equalised with the Colonel Burtons of the Generals.)
+- Crusader Tank Hover Drive upgrade cost decreased from $300 to $250.
+- Crusader Tank Hover Drive upgrade research time decreased from 15 seconds to 12 seconds.
+- Crusader Tank Hover Drive speed decreased from 60.0 to 45.0.
+- Crusader Tank speed decreased from 35.0 to 30.0.
+- Crusader Tank weapon range decreased from 165.0 to 150.0.
+- Hornet Strike jet bomb primary weapon damage decreased from 55.0 to 40.0. (The goal of these changes was to ensure that the Hornet Strike can no longer one-shot China Airfields and bring it into line with the first level Thunderbolt strike.)
+- Hornet Strike jet health decreased from 400.0 to 200.0.
+- Hornet Strike jet missile primary weapon damage decreased from 35.0 to 30.0.
+- Little Bird cost increased from $800 to $900.
+- Little Bird gains fireports.
+- LOSAT missile can be PDLed.
+- Paladin Tank Composite Armor health decreased from 250.0 to 150.0.
+- Paladin Tank cost increased from $1200 to $1400. 
+- Paladin Tank health decreased from 520.0 to 500.0.
+- Paladin Tank PDL range decreased from 100.0 to 65.0.
+- Paladin Tank PDL turret rate of turn speed increased from 360 to 2160.
+- Paladin Tank PDL turret pitch rate increased from 360 to 2160.
+- Paladin Tank PDL weapon damage against infantry increased from 35.0 to 100.0. 
+- Paladin Tank weapon damage decreased from 80.0 to 70.0.
+- Paladin Tank weapon range decreased from 170.0 to 160.0.
+- Patriot Missile System weapon delay between shots against ground increased from 150 to 250.
+- Patriot Missile System weapon range against ground decreased from 275.0 to 225.0.
+- Patriot Missile System weapon damage against air decreased from 32.0 to 30.0.
+- Patriot Missile System weapon delay between shots against air increased from 150 to 250.
+- Patriot Missile System Assist weapon range decreased from 500.0 to 450.0.
+- Patriot Missile System Assist weapon delay between shots increased from 150 to 250.
+- Pillbox build time increased from 8.0 to 10.0.
+- Pillbox cost increased from $200 to $300.
+- Pillbox experience levels decreased from 200 | 200 | 200 | 200 to 75 | 75 | 75 | 75.
+- Pillbox requires a Barracks before it can be built.
+- Spectre Gunship Level 3 moved to Rank 5.
+- Tomahawk Waypoint Targetting assist weapon damage increased from 150.0 to 250.0.
+- EXO Suit can no longer self heal
+- EXo Suit may now purchase drones
+
+
+
+USA Armor General
+
+- Armor Burton's upgraded weapon special ability gains a small shockwave. 
+- Armor Ranger weapon range decreased from 150.0 to 130.0.
+- B52 Cruise Missile Strike weapon damage changed from EXPLOSION to AURORA_BOMB.
+- B52 Cruise Missile Strike weapon damage decreased from 300.0 to 80.0.
+- Black Widow weapon damage decreased from 100.0 to 75.0.
+- Black Widow Laser-Guided Missiles upgrade damage decreased from 125.0 to 100.0.
+- Black Widow Laser-Guided Missiles upgrade range decreased from 420.0 to 380.0.
+- Bradley Paradrop Generals Reinforment Promotion Power payload modified:
+  1: 3 Armor Rangers, 2 Javelin Soldiers decreased to 2 Armor Rangers, 1 Bradley.
+  2: 6 Armor Rangers, 4 Javelin Soldiers decreased to 4 Armor Rangers, 2 Bradleys.
+  3: 9 Armor Rangers, 6 Javelin Soldiers decreased to 6 Armor Rangers, 3 Bradleys.
+- Bradley armour type changed from TankArmor to HumveeArmor.
+- Bradley experience levels increased from 0 | 100 | 150 | 300 to 0 | 200 | 300 | 600.
+- Bradley passengers emerge with 50% of their original health when it is destroyed.
+- Bradley weapon damage decreased from 22.0 to 15.0.
+- Blue Arrow Defender can now laser lock air units.
+- Destroyed Command Center Armor Ranger count decreased from 10 to 6.
+- Destroyed War Factory Armor Ranger count decreased from 5 to 4. 
+- F16XL weapon damage decreased from 210.0 to 200.0.
+- Gladiator ground weapon damage decreased from 4.0 to 3.0.
+- Gladiator ground weapon range decreased from 200.0 to 160.0.
+- Gladiator AA weapon projectile minimum speed increased to 750.0.
+- Guardian Defense Turret clip reload time increased from 1600 to 2000.
+- Guardian Defense Turret weapon damage decreased from 100.0 to 80.0.
+- Guardian Defense Vulcan Turret weapon range decreased from 260.0 to 225.0.
+- Guardian Defense Vulcan weapon damage decreased from 15.0 to 10.0.
+- Howitzer experience levels increased from 0 | 100 | 200 | 400 to 0 | 200 | 400 | 800.
+- Sabre Missiles upgrade moved from the Strategy Center to the War Factory.
+- Sabre Missiles upgrade research time increased from 30.0 to 45.0.
+- Spectre Gunship Level 3 moved to Rank 5.
+- Starlifter armour equalised with the Spectre Gunship's.
+- Starlifter armour resistance to ARMOR_PIERCING increased from 100% to 60%.
+- Starlifter health increased from 400.0 to 500.0.
+- Starlifter is immune to EMP.
+- Starlifter experience value increased from 50.0 to 100.0.
+- Stryker can no longer self repair. (other strikers may still repair each other)
+- Supply Truck cost decreased from $900 to $700.
+- Supply Truck maximum number of boxes carried per load decreased from 6 to 5.
+- Vulcan Tank resistance to INFANTRY_MISSILE increased from 50% to 30%.
+- Vulcan Tank resistance to SMALL_ARMS, Gattling and COMANCHE_VULCAN equalised with TankArmor:
+  1. SMALL_ARMS increased from 50% to 25%.
+  2. Gattling increased from 50% to 10%.
+  3. COMANCHE_VULCAN increased from 50% to 25%.
+- Vulcan Tank weapon damage decreased from 10.0 to 4.0.
+- Vulcan Tank weapon damage type against vehicles changed from SMALL_ARMS to Gattling.
+- Vulcan Tank weapon damage type against structures changed from SMALL_ARMS to Gattling.
+- Vulcan Tank weapon damage type changed from SMALL_ARMS to SNIPER.
+- Wraith Tank speed decreased from 35.0 to 30.0.
+- Wraith Tank weapon damage decreased from 70.0 to 60.0.
+- Wraith Tank weapon delay increased from 1800 to 2000. (Equalised with the Crusader Tank.)
+
+
+
+USA Air Force General
+
+- Added new medivac model
+- Acoylte Drone auto heal rate decreased from 8 to 1.
+- Acoylte build time decreased from 10 to 8.
+- Acoylte Drone cost decreased from 650 to 350.
+- Acoylte Drone weapon damage changed from 6.5 to 6.0.
+- Acoylte Drone weapon damage type changed from SMALL_ARMS to COMANCHE_VULCAN.
+- Acoylte Drone weapon range decreased from 225.0 to 200.0.
+- Airborne Missile Defender Laser Lock weapon damage type changed from INFANTRY_MISSILE to ARMOR_PIERCING.
+- Airborne Missile Defender weapon range decreased from 190.0 to 175.0.
+- Airborne Ranger grenade launcher weapon range decreased from 230.0 to 175.0.
+- Aircraft Ammo upgrade cost decreased from $1800 to $1400.
+- Advanced Patriot Missile System anti-air weapon damage decreased from 32.0 to 30.0.
+- Advanced Patriot Missile System weapon delay between shots against ground increased from 150 to 250.
+- B1 Lancer has a ground attack icon.
+- Combat Chinook build time increased from 20.0 to 25.0. 
+- Combat Chinook health increased from 260 to 300.
+- Combat Chinook requires a War Factory and Helipad before it can be built.
+- Combat Chinook resource gathering rate decreased from 2300 to 3000.
+- Hurricane Missile Launcher cluster weapon damage decreased from 30.0 to 15.0.
+- Hurricane Missile Launcher weapon damage decreased from 175.0 to 150.0.
+- Hypersonic Aurora cost decreased from $2200 to $2000.
+- King Raptor cost decreased from $1200 to $1100.
+- King Raptor Laser-Guided Missiles weapon upgrade damage decreased from 125% to 112%.
+- King Raptor unupgraded payload damage increased from 125.0 to 156.25.
+- Medivac health increased from 200.0 to 300.0.
+- Pilot Veteran Training Generals Promotion Power no longer confers veterancy to the Comanche and Combat Chinook.
+- Sheridan Tank speed decreased from 43 to 35.
+- Sky Crane health increased from 150.0 to 300.0.
+- Sky Crane speed increased from 60.0 to 70.0. 
+- Stealth Comanche upgrade cost decreased from $1800 to $1000. 
+- Stealth Comanche upgrade is available at the Airfield.
+- Stealth Fighter Aircraft Ammo upgrade damage decreased from 156.25 to 75.0.
+- Stealth Fighter cost decreased from $1600 to $1500.
+
+
+
+USA Laser General
+
+- Added new Laser Paladin Model
+- Added new Laser Comanche Model
+- Added new Railgun Model Model
+- Added new Laser Burton Model
+- Battledrone PDL upgrade build time decreased from 50.0 to 45.0.
+- Hellfire Drone range decreased from 190.0 to 150.0.
+- Hellfire Drone targetting laser range decreased from 190.0 to 150.0.
+- Humvee Laser weapon range decreased from 170.0 to 150.0. Equalised with the TOW Missile.
+- Humvee Laser weapon now has a small reload/recharge animation after firing.
+- Laser Comanche pitches forward slightly as it accelerates. 
+- Laser Comanche now receives a vissual update after the Focusing Crystal upgrade
+- Laser Crusader speed equalises with the base USA Crusader.
+- Laser Crusader now receives a vissual update after the Focusing Crystal upgrade
+- Laser Crusader now has a small reload/recharge animation after firing
+- Laser Paladin cost decreased from $1200 to $1100. 
+- Laser Paladin now receives a vissual update after the Focusing Crystal upgrade
+- Laser Turret anti-air weapon damage decreased from 140.0 to 35.0.
+- Laser Turret can shoot down ballistic missiles.
+- Laser Turret clip increased from 1 to 3.
+- Laser Turret weapon damage decreased from 140.0 to 40.0.
+- Laser Turret weapon range decreased from 230.0 to 225.0.
+- Laser Turret Focusing Crystal upgrade anti-air weapon damage decreased from 140.0 to 40.0.
+- Laser Turret Focusing Crystal upgrade weapon damage decreased from 140.0 to 45.0.
+- Laser Turret Focusing Crystal upgrade weapon range against ground decreased from 270.0 to 250.0.
+- Laser Turret now receives a vissual update after the Focusing Crystal upgrade.
+- Laser Turret now has a small reload/recharge animation after firing.
+- Railgun now uses a laser based weapon instead of a projectile based one.
+- Laser Avenger now receives a vissual update after the Focusing Crystal upgrade.
+- Missile Defender build time decreased from 6.0 to 5.0.
+- Missile Defender cost decreased from $350 to $325.
+- Missile Defender damage decreased from 50.0 to 45.0.
+- Missile Defender laser targetting weapon range decreased from 190.0 to 175.0.
+- Missile Defender weapon range decreased from 190.0 to 175.0.
+- Paladin Tank health decreased from 520.0 to 500.0.
+- Point Defense Laser upgrade cost decreased from $2000 to $1200.
+- Point Defense Laser upgrade research time decreased from 60.0 to 45.0.
+- Spectre Gunship Level 3 moved to Rank 5.
+- Removed Laser Sentry Drone. 
+
+
+
+USA Superweapon General
+
+- Added new downdraft effect to the Shatterer Hover Tank. 
+- Added new Enforcer Tank model.
+- Alpha Aurora Bomber build time increased from 20.0 to 30.0.
+- Alpha Aurora Bomber bomb damage increased from 40.0 to 400.0.
+- Alpha Aurora Bomber fuel bomb weapon damage type changed from JET_MISSILES to EXPLOSION.
+- Alpha Aurora Bomber bomb primary weapon damage radius decreased from 20.0 to 5.0. 
+- Alpha Aurora Bomber explosion primary damage radius decreased from 60.0 to 30.0.
+- Alpha Aurora Bomber explosion secondary damage radius decreased from 100.0 to 50.0. 
+- Combat Vest upgrade is available at the Barracks.
+- Enforcer Tank Cost increased from $1200 to $1500. 
+- Enforcer Tank Gains a teleport abbility
+- Enforcer now requires a 1 star unlock
+- Humvee Mini-Gun ground weapon damage type changed from SMALL_ARMS to COMANCHE_VULCAN. 
+- Humvee Mortar weapon range decreased from 190.0 to 175.0.
+- Hypersonic Cruise Missile moved from Rank 3 to Rank 5.
+- Leaflet Drop moved from Rank 5 to Rank 3.
+- Lockdown MRLS Comet missile weapon preferred height damping increased from 0.0 to 0.7.
+- Lockdown MRLS EMP missile effect duration increased from 0 to 3 seconds.
+- Medic Drone crusher level increased from 0 to 1. (It can crush infantry.)
+- Medic Drone heal radius decreased from 100.0 to 75.0.
+- Medic Drone heal rate decreased from 4 to 1.
+- Medic Drone healing delay decreased from 1000 to 33.
+- Medic Drone health decreased from 300.0 to 240.0.
+- Missile Defender EMP attack ability weapon damage type changed from SUBDUAL_UNRESISTABLE to SUBDUAL_VEHICLE. (This means it can no longer be used to shut down structures or aircraft.)
+- Missile Defender EMP attack ability weapon range decreased from 220.0 to 175.0.
+- Missile Defender Laser Lock ability restored.
+- Particle Cannon cost increased from $2500 to $4000.
+- Patriot Missile System anti-air weapon damage decreased from 32.0 to 30.0.
+- Patriot Missle System anti-air weapon delay decreased from 180 to 100.
+- Patriot Missile System can request assistance from nearby Patriots.
+- Patriot Missle System weapon uses EMP.
+- Patriot Missile System weapon damage decreased from 20.0 to 15.0.
+- Plasma Tomahawk Waypoint Targetting assist weapon damage increased from 150.0 to 250.0.
+- Repair Drone requires a Strategy Center before it can be produced. 
+- Repair Drone self-healing decreased from 6 to 1.
+- Rods from God orbital strike has a new announcement/warning sound.
+- Rods from God orbital strike will appear from the map's edge at the furthest distance from the target. 
+- Shatterer cost decreased from $1800 to $1600.
+- Shatterer speed decreased from 70 to 40.
+- Shatterer transport slot count increased from 3 to 6. (This means it takes up more slots in a Chinook.)
+- Shatterer No longer require a generals point
+- Stealth Fighter infantry healing amount decreased from 6 to 1.
+- Stealth Fighter infantry healing delay decreased from 1000 to 33.
+
+
+
+All China Generals
+
+- All generals now have unique Command Center models
+- All generals now have unique construction Dozer models
+- Chinese Mines have been updated with model based art rather than particle art
+- Added new armour type for Listening Outposts to decrease their resistance to INFANTRY_MISSILE and POISON.
+- Added new Bullfrog scout unit. 
+- Added new Helix model.
+- Dragon Tank attack range decreased from 110.0 to 75.0.
+- Dragon Tank health decreased from 320.0 to 280.0.
+- Flare Mortar delay decreased from 30000 to 15000.
+- Frenzy Generals Promotion Power can no longer be used to reveal shroud.
+- Hack Vans are stealthed while not moving.
+- Hack Van build time increased from 15.0 to 30.0.
+- Hack Van cost increased from $1000 to $1600. (Excludes the Infantry and Tank Generals.)
+- Hack Van requires a Barracks, Internet Center, and Propaganda Center before it can be built.
+- Hack Van starts with two Hackers. (Excludes the Infantry General.)
+- Helix Bomb delay removed. When a Helix Bomb is upgraded, it will be available for use instantly. 
+- Helix Gattling Cannon shot delay increased from 125 to 250.
+- Helix Gattling Cannon upgrade range decreased from 250.0 to 225.0.
+- Helix Gattling Cannon upgrade weapon damage type changed from SMALL_ARMS to Gattling.
+- Helix rate of turn increased from 160 to 180.
+- Helix weapon damage decreased from 10.0 to 6.0.
+- Napalm Blob pre-fire delay decreased from 2 seconds to 1 second.
+- Nationalism cost increased from $1000 to $1500.
+- Nuclear Tanks upgrade research time decreased from 60.0 to 45.0.
+- Overlord Gattling Cannon can detect stealth. 
+- Overlord Radar removed. 
+- Red Guard Capture Building ability delay increased from 10 seconds to 15 seconds. 
+- Red Guard weapon range decreased from 120.0 to 110.0.
+- Speaker Tower is available without the prerequisite of a Propaganda Center.
+- Subliminal Messaging upgrade cost increased from $1000 to $1500.
+- Tank Hunter weapon range decreased from 190.0 to 175.0.
+- Siege Soldiers start with Flare Mortars. 
+- Siege Soldiers may now enter none-fireported transports
+- System Hack Demo Traps replaced by Phosphorus Strike. 
+- Detonation of a nuclear missile now couses a distant explosion sound that can be heard all accros the map
+
+
+China (base faction)
+
+- Autoloader damage increased from 45.0 to 50.0.
+- Autoloader research time increased from 40.0 to 60.0.
+- Autoloader upgrade cost increased from $1500 to $2000.
+- Battlemaster Tank experience value decreased from 100 | 100 | 200 | 400 to 80 | 80 | 150 | 300. 
+- Battlemaster Tank health decreased from 420.0 to 400.0.
+- Battlemaster Tank Mass Production upgrade cost decreased from $2000 to $1500.
+- Battlemaster Tank Mass Production upgrade research time decreased from 60.0 to 45.0.
+- Flame Tower build time increased from 10.0 to 15.0.
+- Flame Tower cost increased from $700 to $1000.
+- Flame Tower power consumption decreased from 1 to 0.
+- Gattling Cannon building construction time increased from 15.0 to 20.0.
+- Gattling Cannon building cost increased from $900 to $1000.
+- Listening Post Tower cost increased from $800 to $1000.
+- MiG cost increased from $1200 to $1400.
+- MiG Bomber EMP disable duration decreased from 15000 to 8000.
+- MiG Bomber EMP field duration decreased from 20000 to 5000.
+- MiG Bomber experience value increased from 50 | 50 | 100 | 150 to 50 | 50 | 100 | 200.
+- MiG Bomber weapon damage increased from 80.0 to 100.0.
+- Propaganda Truck cost decreased from $600 to $500. 
+- Tiger Gunship armour damage taken from INFANTRY_MISSILE decreased from 110% to 100%.
+- Troopcrawler Autocannon cost decreased from $400 to $250.
+
+
+
+China Infantry General
+
+- Assault Helix construction time increased from 20.0 to 30.0.
+- Assault Troopcrawler cost increased from $2000 to $2300.
+- Assault Troopcrawler health decreased from 390 to 240.
+- Attack Outpost cost increased from $1000 to $1150.
+- Attack Outpost health increased from 240 to 280.
+- Attack Outpost passenger capacity increased from 4 to 6.
+- Attack Outpost starts with three Tank Hunters.
+- Battlefortress experience levels decreased from 0 | 400 | 600 | 1200 to 0 | 300 | 600 | 900.
+- Berzerker MLRS rapid fire weapon damage increased from 40.0 to 50.0.
+- Berzerker MLRS weapon damage increased from 50.0 to 75.0.
+- Frenzy Level 1 moved to Rank 1.
+- Gattling APC anti-air weapon damage decreased from 12.0 to 8.0.
+- Gattling APC anti-air weapon range decreased from 350.0 to 230.0. 
+- Gattling APC cost increased from $700 to $800.
+- Gattling APC ground weapon damage decreased from 15.0 to 10.0.
+- Gattling Cannon building construction time increased from 15.0 to 20.0.
+- Gattling Cannon building cost increased from $900 to $1100.
+- Hack Van passenger capacity increased from 4 to 6. 
+- MiG cost increased from $1200 to $1400.
+- Mini-Gunner cost increased from $450 to $550.
+- Paradrop Generals Reinforcement Power payload modified:
+  1: 5 Mini-Gunners, 2 Tank Hunters decreased to 3 Mini-Gunners, 2 Tank Hunters.
+  2: 10 Mini-Gunners, 4 Tank Hunters decreased to 6 Mini-Gunners, 4 Tank Hunters.
+  3: 20 Mini-Gunners, 8 Tank Hunters decreased to 9 Mini-Gunners, 6 Tank Hunters.
+- Red Guard build time increased from 10.0 to 14.0.
+- Tank Hunter Barrage weapon damage decreased from 35.0 to 20.0.
+- Tank Hunter Barrage weapon damage type changed from INFANTRY_MISSILE to ARMOR_PIERCING.
+- Tank Hunter Barrage weapon range decreased from 190.0 to 175.0.
+- Tank Hunter Elite Training removed.
+- Tank Hunter gains TNT ability.
+- Tiger Shark Propaganda radius increased from 60.0 to 90.0.
+
+
+
+China Nuke General
+
+- Added new Nuke Cannon model and cameo
+- Added new R.A.D. Tank Model
+- Battlemaster Tank build time increased from 7.0 to 12.0.
+- Battlemaster Tank cost increased from $700 to $800.
+- Battlemaster Tank Fusion Reactors speed increased from 45.0 to 50.0.
+- Battlemaster Tank health decreased from 420.0 to 400.0.
+- Battlemaster Tank speed increased from 37.0 to 45.0.
+- Cluster Nuke Strike delay decreased from 500000 to 210000. (It is now 3 1/2 minutes). 
+- Devastator Tank armour increased against EXPLOSION from 100% to 80%.
+- Devastator Tank build time increased from 16.0 to 18.0.
+- Devastator Tank cost increased from $1500.0 to $1600.0.
+- Devastator Tank shells create a medium-sized radiation field. (Equalised with the Nuke Cannon.)
+- Devastator Tank death weapon damage increased from 110.0 to 150.0.
+- Devastator Tank unupgraded weapon damage decreased from 64.0 to 60.0.
+- Devastator Tank weapon range decreased from 150.0 to 130.0.
+- Devastator Tank Self Destruct will no longer spawn a single red guard.
+- Isotope Stability research time increased from 20.0 to 60.0.
+- Gattling Cannon building construction time increased from 15.0 to 20.0.
+- Gattling Cannon building cost increased from $900 to $1100.
+- Gattling Cannon energy consumption increased from -3 to -4.
+- Listening Outpost cost increased from $800 to $900. 
+- MiG Bomber build time decreased from 25.0 to 20.0.
+- MiG Bomber cost decreased from $1700 to $1600.
+- MiG Bomber experience levels increased from 0 | 100 | 200 | 400 to 0 | 125 | 250 | 500.
+- MiG Bomber experience value increased from 50 | 50 | 100 | 150 to 50 | 50 | 100 | 200.
+- Nuclear Reactor cost increased from $1000 to $1200.
+- Nuclear Reactor energy bonus increased from 8 to 9. (When the Nuclear Reactor is overcharged.)
+- Nuclear Reactor energy production increased from 16.0 to 18.0.
+- Nuke Cannon SSNR ball damage decreased from 100.0 to 70.0.
+- Nuke Cannon SSNR weapon range decreased from 410.0 to 350.0.
+- Nuke Cannon Secondary Damage increased from 20 to 80
+- Nuke Cannon Receive a new detonation effect for nuclear shells
+- Nuke MiG unupgraded weapon damage type changed from EXPLOSION to JET_MISSILES.
+- Overlord Tank Fusion Reactors speed increased from 40.0 to 45.0.
+- Overlord Tank speed increased from 30.0 to 40.0.
+- R.A.D. Tank build time increased from 8.0 to 10.0.
+- R.A.D. Tank cost increased from $700 to $800.
+- R.A.D. Tank gains from the Fusion Reactors upgrade. 
+- R.A.D. Tank health decreased from 420.0 to 280.0.
+- R.A.D. Tank Spray Weapon Replaced with a beam based weapon
+- R.A.D. Tank weapon range decreased from 140.0 to 100.0
+- R.A.D. Tank Core Expose abbillity replaced with eject radation waste barrel abbility
+- R.A.D. Tank Core eject abbillity wil no longer stop the rad tank from using other weapons
+- R.A.D. Tank Core eject abbillity now has a pre-attack of 1 second.
+- Red Guard cost decreased from 350 to 300.
+- Red Guard Radiation Grenade weapon damage increased from 15.0 to 25.0.
+- Red Guard Radiation Grenade weapon range decreased from 220.0 to 175.0.
+- Red Guard rifle weapon damage decreased from 22.0 to 20.0.
+- Siege Cannon cost increased from $900 to $1000.
+- Siege Cannon SSNR ball weapon damage decreased from 80.0 to 40.0.
+- Siege Cannon historic bonus count decreased from 4 to 3. (This means three Siege Cannons can create an SSNR.)
+- Siege Soldier upgraded weapon radiation field changed from RadiationFieldVerySmall to RadiationFieldSmall. 
+- Tank Hunter cost increased from $300 to $350.
+
+
+China Special Weapons General
+
+- Added New Supply Center Model
+- Added New Pyro Model
+- Propaganda Center replaced by Weapons Research Plant
+- Anvil Seismic Tank acceleration decreased from 60.0 to 30.0.
+- Anvil Seismic Tank crushable level increased from 2 to 3. (It cannot be crushed.)
+- Anvil Seismic Tank crusher level increased from 2 to 3. (It can crush other vehicles.)
+- Anvil Seismic Tank cost increased from $1200 to $1600.
+- Anvil Seismic Tank earthquake changed from earthquake large to earthquake medium.
+- Anvil Seismic Tank health increased from 500.0 to 1100.0.
+- Anvil Seismic Tank rate of turn decreased from 90.0 to 30.0. 
+- Anvil Seismic Tank resistance to EXPLOSION damage increased from 100% to 80%.
+- Anvil Seismic Tank speed increased from 30.0 to 55.0.
+- Badger Bomber health decreased from 400.0 to 300.0.
+- Beetle Targetting Computer upgrade moved to the Propaganda Center.
+- Black Shark Autocannon upgrade research time increased from 10.0 to 15.0.
+- Black Shark experience levels increased from 0 | 250 | 400 | 600 to 0 | 300 | 600 | 900.
+- Black Shark is available without the prerequisite of a Propaganda Center.
+- Dragon Tank experience levels increased from 0 | 100 | 150 | 300 to 0 | 150 | 300 | 600.
+- Dragon Tank health decreased from 350.0 to 320.0.
+- Dragon Tank Fireball weapon range decreased from 170.0 to 150.0.
+- Earthshaker reload time increased from 05:00 to 06:00.
+- Gattling Cannon building construction time increased from 15.0 to 20.0.
+- Gattling Cannon building cost increased from $900 to $1200.
+- Grenadier Tank Hunter gains TNT ability. 
+- Grenadier Tank Hunter weapon range decreased from 190.0 to 175.0.
+- Hellstorm Cannon construction time increased from 18.0 to 20.0.
+- Hellstorm Cannon is available after a Coal Power Plant is produced.
+- Hellstorm Cannon weapon range decreased from 300.0 to 275.0.
+- Machine Gun Red Guard cost increased from $300 to $325.
+- Machine Gun Red Guard weapon range decreased from 180.0 to 130.0.
+- MiG cost increased from $1200 to $1500.
+- Phoenix Bomber experience value increased from 50 | 50 | 100 | 150 to 50 | 50 | 100 | 200. 
+- Phoenix Bomber cost increased from $1600 to $1800.
+- Phoenix Bomber unupgraded weapon damage increased from 100.0 to 120.0.
+- Phoenix Bomber Stingray Missiles upgrade damage increased from 110.0 to 130.0.
+- Phoenix Bomber Stingray Missiles upgrade range decreased from 600.0 to 500.0.
+- Pyro requires a War Factory before he can be built.
+- Ravage Armor cost decreased from $2500 to $2000. 
+- Ravage Tank cost increased from $800 to $900.
+- Ravage Tank machine gun weapon damage type changed from GATTLING to MELEE. 
+- Sentinel Gattling Cannon build time increased from 15.0 to 25.0. 
+- Supply Helicopter passenger capacity increased from 4 to 5. (It can transport Dozers but not Advanced Dragon Tanks or Anvils.)
+- Support Crawler can no longer self repair.
+- Support Crawler cost decreased from $800 to $700.
+- TOS-1 minimum attack range increased from 110.0 to 140.0.
+- White Napalm upgrade moved to the Propaganda Center.
+- White Napalm upgrade research time increased from 45.0 to 60.0.
+
+
+
+China Tank General
+
+- Added new Advanced ECM Tank model.
+- Added new Troopcrawler model. 
+- Added new Watch Tower
+- Removed Tank Bunker
+- Advanced ECM Tank cost increased from $800 to $900. 
+- Advanced ECM Tank weapon damage decreased from 30.0 to 24.0.
+- Advanced ECM Tank weapon range decreased from 310.0 to 225.0.
+- Advanced ECM Tank starts as veteran.
+- Autoloader upgrade restored to Zero Hour 1.04 defaults.
+- Battlemaster Tank build time increased from 9.0 to 10.0.
+- Battlemaster Tank damage decreased from 70.0 to 60.0.
+- Battlemaster Tank experience value inceased from 50 | 80 | 140 | 250 to 100 | 100 | 200 | 400. 
+- Dragon Tank cost decreased from $800 to $700.
+- Elite Tank Training General's Promotion Point changed to Battlemaster Elite Training.
+- Emperor Overlord Tank experience levels increased from 0 | 400 | 600 | 1200 to 0 | 400 | 800 | 1400. 
+- Gattling Cannon building construction time increased from 15.0 to 25.0.
+- Gattling Cannon building cost increased from $1200 to $1300.
+- Gattling Tank build time decreased from 15.0 to 10.0.
+- Hack Van cost increased from $1000 to $1800.
+- Hacker cost increased from $600 to $625.
+- Industrial Plant vehicle cost reduction decreased from 15% to 10%.
+- Large Supply Truck cost decreased from $900 to $800.
+- Large Supply Truck health increased from 300.0 to 350.0.
+- Large Supply Truck maximum number of boxes carried per load decreased from 6 to 5.
+- Listening Outpost cost increased from $900 to $950.
+- Razor Bomber requires 6 bombs to create a firestorm after it has been upgraded with Black Napalm.
+- Reaper Tank damage taken by EXPLOSION decreased from 100% to 80%.
+- Reaper Tank damage taken by SUBDUAL_UNRESISTABLE increased from 0% to 100%.
+- Reaper Tank experience value increased from 200 | 200 | 350 | 450 to 200 | 200 | 400 | 500. 
+- Reaper Tank is no longer "EMP" hardened.
+- Reaper Tank weapon range decreased from 200.0 to 175.0.
+- Red Guard cost increased from $200 to $400.
+- Red Guard number increased from 1 to 2.
+- Tank Drop Generals Reinforcement Power modified: It no longer drops Gattling Tanks.
+- Tank Hunter cost increased from $350 to $375.
+- Warmaster Tank cost decreased from $1400 to $1250. 
+- Warmaster Tank experience value increased from 50 | 100 | 150 | 250 to 100 | 100 | 200 | 400.
+- Warmaster Tank experience levels increased from 0 | 20 | 300 | 600 to 0 | 150 | 300 | 600.
+- Warmaster Tank no longer gains Horde Bonus when surrounded by other Warmaster Tanks or units that confer it.
+- Warmaster Tank no longer gains veterancy from the Elite Tank Training General's Promotion Point.
+
+
+
+All GLA Generals
+
+- All generals now have unique Command Center models
+- All generals now have unique worker models
+- All Building Holes now have new door opening animation
+- Added new cameo for the Combat Cycle (excludes the GLA Demo General).
+- Angry Mob AK47 weapon range decreased from 160.0 to 130.0.
+- Angry Mob Molotov Cocktail weapon range decreased from 160.0 to 140.0.
+- Angry Mob nexus number decreased from 15 to 10.
+- Angry Mob pistol weapon range decreased from 105.0 to 100.0.
+- Angry Mob rock weapon range decreased from 125.0 to 120.0.
+- Jarmen Kell Kill Vehicle Pilot weapon range ability when upgraded with the KSVK Rifle upgrade increased from 225.0 to 250.0.
+- Jarmen Kell KVSK Rifle upgrade can no longer snipe airplanes.
+- Marauder Tank second salvage level delay between shots increased from 100 to 1000.
+- Marauder Tank second salvage level clip reload time decreased from 750 to 100.
+- Marauder Tank third level clip reload time increased from 500 to 1000. 
+- Marauder Tank third salvage level clip reload time decreased from 750 to 100.
+- Mobile AT Gun speed increased from 13 to 20.
+- Rebel Ambush Strike Power:
+  1: Rank 1 4 Rebels, 1 RPG Trooper
+  2: Rank 2 6 Rebels, 2 RPG Troopers
+  3: Rank 3 8 Rebels, 4 RPG Troopers
+- Rebel Ambush delay decreased from 05:00 to 04:00. 
+- Rebel weapon range decreased from 120.0 to 110.0.
+- RPG Trooper weapon range decreased from 190.0 to 175.0.
+- Technical first salvage level weapon damage type changed from GATTLING to COMANCHE_VULCAN. 
+- Technical RPG weapon damage increased from 35.0 to 50.0.
+- Terrorist movement speed decreased from 35.0 to 25.0.
+- Terrorist may now use attack move
+- Toxin Tractor health decreased from 350.0 to 240.0. (Does not include the Toxin General's Toxin Tractor.)
+- Tunnel Network weapon range decreased from 190.0 to 175.0.
+- Tunnel Network rate of fire decreased from 180 to 250.
+- Stinger Site soldiers will now heal themselfs over time (previously they didn't regain health untill they were killed and respawned)
+- Scorpion Missile Upgrade time reduced to 25 seconds from 30.
+- Saboteurs now have their own unique animation set rather than using the worker animations.
+- DemoTraps now raise a small building scafold after beeing placed for construction.
+- Anthras Bomb will now contain Alpha, Beta or Gamma anthrax depending on what upgrades are purchased.
+- Anthrax Bomb Icon will now change color depending on what upgrades are purchased.
+- GLA Anti Tank Guns will now automaticly fire on enemy targets when stealthed by the GPS scrambler.
+
+
+GLA (Base faction)
+
+- Air Demo Trap can be moved.
+- Balloon cost increased from $600 to $625.
+- Balloon speed increased from 25 to 30.
+- Battlebus speed decreased from 75 to 70. (As per the Zero Hour 1.03 patch notes.) 
+- Battlebus will appear to move from side to side as it drives along.
+- Camouflage upgrade cost decreased from $1000 to $800.
+- Chameleon rate of turn movement speed increased from 100 to 180.
+- Chameleon requires a Palace before it can be constructed.
+- Dozer movement speed increased from 30 to 45.
+- Extra Salvage cost increased from $1500 to $2000.
+- Extra Salvage research time increased from 40 to 55. 
+- GPS Scrambler is a one point power available at the maximum level.
+- GPS Scrambler moved from Rank 3 to Rank 5.
+- Hijacker requires an Arms Dealer before he can be produced.
+- Junk Bunker build time decreased from 20.0 to 15.0.
+- Junk Bunker infantry heal rate decreased from 50 to 1.
+- Quad Cannon ground weapon damage increased from 8.0 to 10.0.
+- Quad Cannon weapon delay decreased from 110 to 100.
+- Rebel Capture Building ability delay increased from 10 seconds to 15 seconds. 
+- RPG Trooper no longer gains stealth from the Camouflage upgrade.
+- Stinger Site weapon damage against ground based targets decreased from 35.0 to 30.0.
+- Stinger Site weapon range against ground based targets decreased from 250.0 to 225.0.
+- Stinger Site clip reload increased from 1900 to 2000.
+- Technical Anti-Tank Gun weapon damage increased from 35.0 to 50.0.
+- Technical experience levels increased from 0 | 50 | 75 | 150 to 0 | 60 | 120 | 240
+
+
+
+GLA Demo General
+
+- Combat Cycles no longer gain from the Demolitions Ability. 
+- BDRM1 build time decreased from 20.0 to 15.0.
+- Demo Saboteur Demo Charge weapon damage increased from 600 to 800. 
+- Demolitions Ability restored to the Rebel, RPG Trooper and Worker (they will explode only when run over). 
+- HE RPG upgrade weapon damage decreased from 150.0 to 60.0.
+- HE RPG upgrade weapon primary damage radius increased from 10.0 to 20.0.
+- HE Shells upgrade cost increased from $1000 to $1500. 
+- Marauder Tank calliope weapon damage at salvage level one decreased from 10.0 to 5.0.
+- Marauder Tank calliope weapon damage at salvage level two decreased from 20.0 to 10.0.
+- Marauder Tank calliope weapon delay at salvage level two increased from 200 to 300.
+- Marauder Tank weapon damage equalised with the base faction's Marauder Tank.
+- Stinger Site displays Demolitions Ability cameo.
+- Stinger Site weapon range decreased from 250.0 to 225.0.
+- Tunnel Network displays Demolitions Ability cameo.
+- Tunnel Network weapon range decreased from 190.0 to 175.0.
+- Tunnel Network weapon damage against vehicles decreased from 40.0 to 35.0.
+- Angry Mobs now receive RPG's and Dynamite instead of AK's and Molotovs
+- Topol-M Missile maximum speed increased by 180% 
+- Topol-M No longer has a 0.5 second delay before firing
+- Scud Storm has its own buildup animation rather than using the one from the normal Scud Storm.
+
+
+
+GLA Salvage General
+
+- Added New Desert Fly.
+- Added New Grenadier Terrorist.
+- Added New Scrap Yard (replaced black market)
+- Added New Scrap Cars (build from scrap yard)
+- Removed Black Market.
+- Removed Terrorist.
+- Removed Smoke Grenade Upgrade (Scarabs simple start with this abbility now)
+- Basilisk Tank Generals Promotion Point Upgrade decreased from Rank 3 to Rank 1.
+- Basilisk Tank cost decreased from $2000 to $1800.
+- Basilisk Tank production time decreased from 20.0 to 15.0.
+- Basilisk Tank Machine Gun Rance increased to match the main cannon.
+- Basilisk Tank Machine Gun Damage reduced to 2 from 10.
+- BDM1 health decreased from 300.0 to 250.0.
+- BDM1 phosphorus missile weapon range decreased from 190.0 to 150.0.
+- BRDM2 experience value increased from 25 | 25 | 50 | 100 to 30 | 30 | 60 | 120.
+- BRDM2 experience levels increased from 0 | 50 | 75 | 150 to 0 | 70 | 140 | 280.
+- BRDM2 weapon damage decreased from 15.0 to 12.0.
+- BRDM2 weapon damage type changed from SMALL_ARMS to COMANCHE_VULCAN.
+- Combat Buggy speed when damaged decreased from 80.0 to 30.0.
+- Combat Buggy rocket weapon range decreased from 220.0 to 175.0.
+- Combat Buggy now gain grenade launchers when mounted by a Grenadier Terrorist
+- Hornet Nest Fortified Structures health upgrade decreased from 500.0 to 200.0.
+- Hornet Nest soldier weapon damage decreased from 35.0 to 30.0.
+- Hornet Launcher weapon range decreased from 290.0 to 275.0.
+- Jarmen Kell Buggy weapon rate of fire decreased from 500 to 750.
+- Junk Armor resistance to INFANTRY_MISSILE increased from 80% to 78% at Salvage Level One.
+- Junk Armor resistance to INFANTRY_MISSILE increased from 80% to 76% at Salvage Level Two.
+- Junk Armor resistance to POISON increased from 15% to 10% at Salvage Level Two.
+- Katyusha projectile minimum speed increased from 75.0 to 150.0.
+- Katyusha projectile speed increased from 275.0 to 350.0.
+- Katyusha reload time decreased from 5.8 seconds to 4 seconds.
+- Latrun Artillery shell speed decreased from 250 to 200. 
+- Marauder Tank health increased from 430.0 to 500.0. (This equalises it with the health of the Marauder Tanks from the other GLA factions.) 
+- Mi8 Hip experience value decreased from 300 | 400 | 600 | 900 to 100 | 150 | 200 | 250.
+- Mi8 Hip is available without the prerequisite of a Palace.
+- Quad Tank experience value increased from 50 | 50 | 100 | 150 to 50 | 50 | 100 | 200.
+- Quad Tank experience levels increased from 0 | 100 | 150 | 300 to 0 | 100 | 200 | 400.
+- Quad Tank speed decreased from 42.0 to 35.0.
+- SA-2 Site Fortified Structures upgrade health increased from 400.0 to 500.0.
+- SA-2 Site health increased from 750.0 to 1000.0.
+- Salvage Drop is no longer a three level power.
+- Scavenged Salvage Generals Promotion Point upgrade increased from Rank 1 to Rank 3.
+- Scavenged Salvage upgrade cost decreased from $500 to $300.
+- Scavenged Salvage upgrade research time decreased from 15.0 to 5.0.
+- Scavenged Salvage makes the scrap yard able to produce salvage crates for $300.
+- Tunnel Network cost decreased from $1000 to $800.
+
+
+
+GLA Stealth General
+
+- Assassin speed increased from 30.0 to 35.0.
+- Assassin weapon damage decreased from 100.0 to 50.0.
+- Battlebus camo-net ability removed.
+- Demo Trap cost decreased from $500 to $350.
+- Fundamentalist Uzi weapon damage decreased from 4.0 to 2.0.
+- Fundamentalist AK47 weapon damage increased from 7.0 to 8.75.
+- Fundamentalists can now be transported in none-fireported units
+- GPS Scrambler is a one point power available at the maximum level.
+- Hijacker build time decreased from 15.0 to 10.0.
+- Hijacker requires an Arms Dealer before he can be trained.
+- Mobile Supply Stash no longer requires a Palace before it can be built.
+- Radar Jammer upgrade moved from Black Market to Palace.
+- Radar Jammer upgrade research time increased from 20.0 to 25.0.
+- Machine Gun Nest health decreased from 1500.0 to 1000.0.
+- Machine Gun Nest build time increased from 10.0 to 15.0.
+- Machine Gun Nest experience value decreased from 200.0 to 150.0.
+- Rebel weapon range decreased from 130.0 to 120.0.
+- Rocket Sniper cost increased from $500 to $600.
+- Rocket Sniper is available without the prerequisite of a Palace.
+- Rocket Sniper Can now be transported in none-fireported units
+- RPG Trooper no longer starts with stealth.
+- RPG Trooper Stinger Missile upgrade weapon range decreased from 190.0 to 175.0.
+- Sniper Quad Cannon cost decreased from $780 to $750.
+- Sniper Quad Cannon weapon range decreased from 210.0 to 155.0.
+- Sniper Quad Cannon weapon range at Salvage Level One decreased from 210.0 to 160.0.
+- Sniper Quad Cannon weapon range at Salvage Level Two decreased from 210.0 to 165.0.
+- Tunnel Network cost decreased from $1000 to $800.
+- Mobile AT Gun becomes stealthed when deployed
+- Frog 7 Launcher Turn Rate increased by 15%.
+- Radar Jammer Upgrade is now bought per Radar Truck for 400$.
+
+
+
+GLA Toxin General
+
+- Added New Toxin Terrorist Model.
+- Added New Toxin Jarmen Kell.
+- Jarmen Kell resistance to Toxins decreased from 5% to 20%.
+- Marauder Tank weapon damage equalised with the base faction's Marauder Tank.
+- ME-262 health decreased from 600.0 to 500.0.
+- Nerve Gas duration decreased from 30000 to 15000.
+- Python attack range decreased from 200.0 to 160.0.
+- Python cost decreased from $800 to $725.
+- Scorpion Tank transport slots restored. 
+- Stinger Site cost decreased from $1100 to $1000.
+- Stinger Site weapon range decreased from 250.0 to 225.0.
+- Stinger Site weapon damage decreased from 35.0 to 30.0.
+- Stinger Site Anthrax Gamma weapon damage against ground increased from 35.0 to 40.0.
+- Toxin Grenadier resistance to Toxins decreased from 5% to 20%.
+- Toxin May now switch between antrhax and nerve gas payload after the nerve gas upgrade
+- Toxin Jarmen Kell poison field weapon damage type changed from POISON to SURRENDER.
+- Toxin Jarmen Kell poison field weapon duration decreased from 10000 to 5000.
+- Toxin Jarmen Kell poison field weapon upgraded damage type changed from POISON to SURRENDER.
+- Toxin Jarmen Kell poison field weapon upgraded duration decreased from 10000 to 5000.
+- Toxin Rebel Nerve Gas grenade weapon range decreased from 190.0 to 175.0.
+- Toxin Rebel Nerve Gas grenade garrison clear count increased from 1 to 10.
+- Toxin RPG Trooper cost decreased from $350 to $325.
+- Toxin RPG Trooper Anthrax Gamma weapon damage against air increased from 40.0 to 45.0.
+- Toxin RPG Trooper Anthrax Gamma weapon damage against ground increased from 40.0 to 45.0.
+- Toxin RPG Trooper poison field weapon damage type changed from POISON to SURRENDER.
+- Toxin RPG Trooper poison field weapon upgraded damage type changed from POISON to SURRENDER.
+- Toxin RPG Trooper resistance to Toxins decreased from 5% to 20%.
+- Toxin Tractor health decreased from 550.0 to 450.0.
+- Toxin Tunnel Network Anthrax Beta weapon damage decreased from 10.0 to 8.0.
+- Toxin Tunnel Network Anthrax Beta weapon range decreased from 190.0 to 160.0.
+- Toxin Tunnel Network Anthrax Gamma weapon damage decreased from 12.5 to 10.0.
+- Toxin Tunnel Network Anthrax Gamma weapon range decreased from 190.0 to 160.0.
+- Toxin Tunnel Network cost decreased from $1000 to $850.
+- Viral Strike is no longer a three level power.
+- Viral Strike plane health decreased from 500.0 to 400.0.
+- Viral Strike plane number increased from 1 to 3.
+- Mobile AT Gun gains toxin shells
+
+
+
+Version 0.951 – April, 2008
+
+ADDED NEW MAPS FOR SKIRMISH/OFFLINE PLAY-
+
+i. Keep off the Grass (2 Players)
+ii. Training Ground (2 Players)
+iii. Sand Island (2 Players)
+iv. Cold Territory (2 Players)
+v. Raining Blood (2 Players)
+vi. Tournament Blizzard (2 Players)
+vii. Neuen Kirchen (2 Players)
+viii. Frozen Front (2 Players)
+ix. Frozen Front (2 Players)
+x. Cold Territory (2 Players)
+xi. Islands (3 Players)
+xii.  Eye of the Restless Souls (4 Players)
+xiii. Lion's Den (4 Players)
+xiv. Lost Highway (4 Players)
+xv. North Coast (4 Players)
+xvi. Paradise Lost (4 Players)
+xvii. Oasis (4 Players)
+xviii. Texas Tea (4 Players)
+xix. Town Country (4 Players)
+xx. Arctic Base (6 Players)
+xxi. Company Town (6 Players)
+xxii. Tournament Graveyard (6 Players)
+xxiii. Tournament Valley (6 Players)
+xxiv. Rock Bottom (8 Players)
+xxv. Timberline (8 Players)
+
+BUG FIXES-
+
+AI MISSILE DEFENDERS- fixed the bug that would cause the AI's Missile Defenders to use the Laser Lock ability on structures. 
+
+ANGRY MOB- fixed the bug that would cause an Angry Mob to exit the rear of the Barracks. 
+
+ASSAULT TROOPCRAWLER- fixed the bug that would cause the Assault Troopcrawler to idle outside the weapon range of the Minigunners inside. 
+
+AT GUN- fixed the bug that would cause the AT-Gun to disappear after it received a promotion.
+
+BEAR TOWN BEATDOWN- removed Warfortresses. 
+
+BIOHAZARD TECHNICIAN- fixed the bug that caused him to not clean up Toxins and Radiation when given a command.
+
+CHAMELEON- fixed the bug that caused the Chameleon tank to inflict massive damage when force firing close to beside a structure. 
+
+COLONEL BURTON- guard radius decreased. 
+
+ECM Tank- fixed the bug that caused ECM Tanks to not divert Toxin Stinger Missiles. 
+
+ENERGY SHIELDS- fixed the bug that caused the Energy Shields to not function correctly. 
+
+F18 HORNET GENERALS POWER STRIKE- fixed the bug that caused the incorrect house colour to display on their missiles. 
+
+FACTION LOGOS- fixed the issue that caused the base factions' logos to display in replays or when observing a game. 
+
+FLYING DEMO TRAP- removed the Turn Into Flying Demo Trap button from its commandset. 
+
+HOWITZER- fixed the bug that caused it to not eject a shell when it reached heroic veterency.
+
+JARMEN KELL- guard radius decreased. 
+
+MOBILE DEMO TRAP- fixed the bug that caused Mobile Demo Traps to turn into Flying Demo Traps when they were ordered to detonate. 
+
+PILLBOX- fixed the bug that caused a Pillbox to gain full health when sold. 
+
+PROPAGANDA TOWER- fixed the bug that caused the China Nuke General's Speaker Towers to upgrade with EMP Mines instead of Neutron Mines. 
+
+POWER- 
+i. Fixed issue were all USA and China factions built as if they had existing power.
+ii. Fixed issue were GLA built as if they had existing power.
+
+SA2- fixed bug that caused it to damage vehicles when it targetted USA drones. 
+
+SPECIAL WEAPONS GENERAL- fixed the audio transmission that used the Ranger's voice whenever a building was captured.
+
+TANK DESTROYER- fixed the bug that caused the Tank Destroyer to inflict massive damage when force firing close to beside a structure. 
+
+VAPORISER VULCAN TURRETS- fixed the bug that caused its bullets to behave erratically when it targetted units in an elevated position. 
+
+
+--ALL USA GENERALS--
+
+FLASH BANGS-
+i. Damage increased by 40%.
+ii. They travel in a lower arc. (This is purely an aesthetic change and in no way effects the speed of the projectile.)
+iii. New visual effect. 
+
+MISSILE DEFENDER- his laser lock ability will continue to fire at a target until it exceeds a distance of 330.
+
+HUMVEE- Battledrone repair rate reduced.
+
+SENTRY DRONE- increased the range of the scan ability by 15%. (This means the Sentry Drone will be able to detect stealthed units and structures [Stinger Sites] without endangering itself.)
+
+TOW MISSILE- damage decreased by 50% against ground targets to 20 (was 40).
+
+
+--USA (BASE FACTION)--
+
+CRUSADER- weapon range increased by 10%. 
+
+CRUSADER HOVER DRIVE-
+i. Reduced cost to $300 (was $500). 
+ii. Research time decreased to 15 seconds (was 20). 
+iii. Changed the locomotor. ( The Crusader will appear to articulate over terrain as it moves along.)
+iv. It can be reversed when a movement order is given a distance behind the unit. 
+
+PALADIN- PDL damage against infantry decreased by 65%. (It takes three shots from the PDL to dispatch missile infantry.) 
+
+PILLBOX- 
+i  Range decreased by 20%.
+ii. Production time increased to 8 seconds (was 6). 
+
+
+--USA AIR FORCE GENERAL--
+
+AIRCRAFT AMMO-
+i. Reduced cost to $1800 (was $2000).
+ii. Research time decreased to 30 seconds (was 45)
+
+HALO DROP GENERALS POWER-
+i. Added new Airborne Ranger cameo and skin. He has a HE Grenade Launcher and Personal Medipack.
+ii. Added new Airborne Missile Defender cameo and skin. He has an improved Missile Launcher and Personal Medipack. 
+iii. It is more accurate.
+iv. Added new plane fly by sound effect.  
+
+MEDIVAC- 
+i. Added new effect when a Health Crate is picked up. 
+ii. Reduced Health Crate drop delay to 15 seconds (was 30).
+iii. Health Crates have a 50% greater area of effect. 
+iv. Health Crates heal units by 50%. 
+
+SHERIDAN- reduced cost to $850.
+
+SHERIDAN MISSILE- reduced cost to $1000.
+
+SKYCRANE- 
+i. It no longer requires a Strategy Centre.  
+ii. Reduced cost to $1500. 
+
+
+--USA ARMOR GENERAL--
+
+ARMOR RANGER- reduced cost to $280. (This makes capturing buildings and garrisoning more viable.)
+
+BLACK WIDOW-
+i. Health increased by 25%.
+ii. Damage increased by 35%.
+iii. Reduced reload time to 6 seconds (was 8). (The Black Widow is more useful against ground targets and has increased survivability. These changes encourage, and reward, usage of the unit.)
+
+CONCRETE SLAB- health decreased by 25%.
+
+GAZER-
+i. Cost increased to $400 (was $200)
+ii. Production time increased to 10 seconds (was 8).
+
+GLADIATOR- they no longer gain rate of fire bonuses when they are promoted. (This means Gazers will be able to confer rate of fire bonuses to promoted Gladiators, whereas previously they had no effect. This is a design decision which eliminates Gazer redundancy.) 
+
+GUARDIAN CANNON-
+i. Cost increased to $1000 (was $700).
+ii. Production time increased to 25 seconds (was 20). 
+iii. Weapon range decreased by 10%. 
+iv. Added a dead zone in which the turret cannot attack.
+
+MAMMOTH TANK
+i. Reduced cost to $1600.
+ii. No longer requires a Strategy Centre as a prerequisite before it can be produced.
+iii. Health decreased by 20%.
+iv. Health increased by 20% when upgraded with Mammoth Tank Shields. 
+
+PHALANX-
+i. Health decreased by 20%.
+ii. Damage decreased by 25%. 
+iii. Gains 35% damage when assisted by a Gazer. (This means the Phalanx's rate of fire is increased. Previously no bonuses were conferred.)
+
+SUPPLY TRUCK- 
+i. Armour changed to tank armour. (This change compensates for the Supply Trucks' vulnerability against missile infantry, alleviating the replacement cost per Truck.)
+ii. Resource gathering rate increased by 10%. 
+
+TANK DESTROYER-
+i. Production time increased to 15 seconds (was 12).
+ii. Cost increased to $1500 (was $1200).
+
+VAPORISER VULCAN TURRET- 
+i. Added new sound effect. 
+ii. Cost increased to $800 (was $500).
+iii. Production time increased to 18 seconds (was 10). 
+
+VULCAN TANK-
+i. Veterency levels increased by 100%.(This means the Vulcan tank requires 100% the amount of experience to gain a new rank at each level.)
+ii. Increased the amount of experience it gives away by 100%. (This means when you destroy a Vulcan tank experience is acquired. Previously this was so small that it was not noticeable.)
+iii. Damage taken by bullet based weapons increased by 100%.
+iv. Damage taken by infantry missiles increased by 33%.
+v. Weapon range decreased by 25%.
+vi. Health decreased by 25%. 
+
+
+--USA LASER GENERAL--
+
+HUMVEE LASER- damage decreased by 50%. 
+
+LASER BURTON- rate of fire increased by 30%. 
+
+LASER MISSILE DEFENDER-
+i. His rate of fire is standardised with the base faction's Missile Defender.
+ii. Weapon damage increased by 25%. 
+iii. He has a Laser Guided Missile attack. 
+
+LASER PALADIN-
+i. Initial damage decreased by 50%.
+ii. Damage increased by 25% after 1 second and 50% after 2 seconds. (This means the Laser Paladin is more effective when it is firing over a duration. This is a design decision which eliminates Laser Crusader tank redundancy.)
+iii. Health decreased by 15%. (Health standardised with the base faction's Paladin.)
+iv. Gains 15% weapon damage from the Focusing Crystals upgrade (was 33%). 
+
+LASER RANGER- weapon damage decreased by 5%. 
+
+
+--USA SUPERWEAPON GENERAL--
+
+ADDED M163 VULCAN UPGRADE- anti-personnel and air weapon (replaces mortar). 
+
+ALPHA AURORA BOMBER- 
+i. Increased the inner blast radius by 25%. 
+ii. Decreased the detonation time of the fuel air weapon.
+
+EMP MISSILE DEFENDER-
+i. EMP missile attack locks on target.
+ii. He can fire his EMP missile at helicopters.
+iii. EMP weapon damage reduced by 45%. (This means a target can take more hits from EMP Missile Defenders before it is shut down.)
+
+HUMVEE- mortar weapon requires line of sight. 
+
+REPAIR DRONE- health standardised with Ambulance. 
+
+ROBOT TANK- 
+i. Changed the locomotor. (The Robot tank will appear to articulate over terrain as it moves along.)
+ii. It can be  reversed when a movement order is given a distance behind the unit. 
+
+SHATTERER- 
+i. Increased rate of turn by 25%.
+ii. Changed the locomotor. (The Shatterer will appear to articulate over terrain as it moves along.)
+iii. Increased speed by 10%. 
+iv. It can be reversed when a movement order is given a distance behind the unit. 
+
+
+--ALL CHINA GENERALS--
+
+ADDED NEW UNIGNITED NAPALM ABILITY- Dragon tanks can create a raging bonfire. 
+
+BLACK LOTUS- experience levels to gain rank decreased by 50%.
+
+DOZER- increased resistance to missile infantry by 20%.
+
+MIG-
+i. Reload time standardised to 4 seconds. 
+ii. Damage type changed from JET_MISSILES to EXPLOSION when MiGs are upgraded with Black Napalm. (This means MiGs upgraded with Black Napalm will be able to dispatch Humvees and other AA units more effectively.) 
+
+NUKE CANNON- can no longer be transported by Helix (the Transport Helix and Starlifter are exceptions being heavy lift transports).
+
+RED GUARD- weapon damage decreased by 5%.
+
+SIEGE SOLDIER- added a dead zone in which he cannot attack. 
+
+
+--CHINA (BASE FACTION)--
+
+FLAME TOWER-
+i. Reduced cost to $700 (was $900). 
+ii. Production time decreased to 10 seconds (was 12). 
+
+GATTLING TANK- production time decreased to 8 (was 10).
+
+INFERNO CANNON- health increased by 35%. 
+
+TROOPCRAWLER AUTOCANNON- 
+i. Cost increased to $400 (was $200). 
+ii. Research time increased to 10 seconds (was 8). 
+
+
+--CHINA INFANTRY GENERAL--
+
+ADDED NEW GATTLING APC- replaces Road Grinder. Carries two passengers. 
+
+ASSAULT HELIX- can transport Dozers. 
+
+ATTACK OUTPOST-
+i. Cost increased to $1000 (was $900).
+ii. Health decreased to 320 (was 350).
+
+BATTLE FORTRESS-
+i. Reduced cost to $1500. 
+ii. Increased acceleration and speed by 33%. 
+iii. Infantry emerge with 10% of their original health when it is destroyed. 
+
+FORTIFIED BUNKER- armour changed from StructureArmorTough to StructureArmor. (This change was made because Fortified Bunkers were extremely resistant to Particle Cannons.)
+
+INFANTRY SQUADS- 
+i. Cost increased to $2200 (was $2000).
+ii. Production time increased to 25 seconds (was 20). 
+
+RED GUARD SQUAD- weapon damage decreased by 5%.
+
+INFERNO CANNON- health increased by 35%. 
+
+REMOVED- Road Grinder. 
+
+TIGER SHARK PROPAGANDA-
+i. Reduced cost to $1500 (was $2500). (This change makes the upgrade affordable, id est slightly more viable.) 
+ii. Research time decreased to 45 seconds (was 1 minute).
+
+
+--CHINA NUKE GENERAL--
+
+BATTLEMASTER- starts with Radiation Shells. 
+
+DEVASTATOR- 
+i. New visuals when tank specific upgrades are researched.
+ii. Increased speed by 5%. 
+iii. Health increased by 15%. 
+iv. Damage increased by 25%. 
+v. Reduced fire delay to 3 seconds (was 3.4). 
+
+GATTLING TANK- production time decreased to 8 (was 10).
+
+MiG- damage type changed from JET_MISSILES to EXPLOSION. (This means Nuke MiGs are better against a wider variety of targets. For example, two unupgraded Nuke MiGs can kill a Humvee.)
+
+MiG BOMBER- requires a Nuclear Research Facility before it can be produced. (It was deemed too powerful pre-tech.) 
+
+OVERLORD- starts with Radiation Shells. 
+
+R.A.D. TANK-
+i. New model.
+ii. Increased speed by 50%.
+iii. Decreased the time it takes for an ejected reactor core to explode to 8 seconds (was 16).
+
+RADIATION WARHEADS- reduced cost to $800 (was $1000). 
+
+TACTICAL NUKE MIG UPGRADE- damage type changed from JET_MISSILES to EXPLOSION. 
+
+
+--CHINA SPECIAL WEAPONS--
+
+ADDED NEW RAMJET SHELL UPGRADE- 
+i. New Ravage tank barrel visuals when upgrade is researched. 
+ii. Ravage tanks can fire over greater distances.
+
+BLACK SHARK ASSAULT UPGRADE- damage increased by 35% when the Beetle Targetting Computer is researched.  
+
+DRAGON TANK-
+i. Damage decreased by 25%. 
+ii. It takes 30% more damage from ARMOR_PIERCING and EXPLOSION weapons. (These changes should ensure the Dragon tank is good only against the targets it is designed to destroy and counter - infantry, light vehicles and structures.)
+iii. It is classed as HUGE_VEHICLE and cannot be transported by Chinook, Hip and Supply Helicopters.  
+
+HAMMER CANNON- 
+i. Reduced cost to $1800 (was $2200).
+ii. It is 50% more accurate.
+iii. Shells create a greater splash. 
+
+INTERNET CENTRE- consumes 4 units of power (standardised with the Internet Centre of other China factions).
+
+MiG- damage type changed from JET_MISSILES to EXPLOSION when MiGs are upgraded with White Napalm.
+
+RAVAGE ARMOR- 
+i. Cost increased to $2500 (was $2000).
+ii. Research time increased to 60 seconds (was 50). 
+
+RAVAGE TANK- reduced cost to $800 (was $1000). (This change was made to give the China Special Weapons General an affordable tank platform early game.)
+
+PHOENIX BOMBER- cost reduced to $1600 (was $2000). 
+
+SUPPORT TROOPCRAWLER- can detect stealthed units. 
+
+TOS-1 BURATINO- 
+i. Added a dead zone in which it cannot attack. 
+ii. Rocket damage reduced by 20%.
+iii. Rocket scatter range reduced to 80 (was 100).
+iv. Damage type changed from EXPLOSION to FLAME.
+
+
+
+--CHINA TANK GENERAL--
+
+ADVANCED ECM- weapon range decreased by 15%. 
+
+GATTLING TANK- it takes 6.25% more damage from JET_MISSILES and STEALTHJET_MISSILES. (This equalises the Tank General's Gattling tank with the Gattling tanks from the other China factions.)
+
+WARMASTER- 
+i. Cost increased to $1400. 
+ii. Requires an Industrial Plant before it can be produced. 
+iii. Napalm Rocket Pods can be negated by ECM tanks and Avengers. 
+
+
+--ALL GLA GENERALS--
+
+ANGRY MOB-
+i. Respawn time of squad members increased to 20 seconds (was 15).
+ii. Range decreased by 15%.
+iii. Cost increased to $1000 (was $800).
+
+AT-GUN- removed veterency levels.
+
+CARBOMB- speed reduced by 33%. 
+
+COMBAT CYCLE- 
+i. Changed armour type to truck. (This means the Combat Cycle is less resistant to tank and missile weapons.)
+ii. Weapon range increased for all non Terrorist riders. 
+
+MARAUDER- reduced cost to $800 (was $1000). (This change excludes the GLA Salvage General's Marauder, which does not cost a Generals Promotion Point and starts scrapped up.) 
+
+WORKER- 
+i. Cannot enter the Tech Machinegun Bunker.
+ii. Cannot enter the Tech Flak Bunker.
+
+
+--GLA (BASE FACTION)--
+
+CHAMELEON-
+i. Machinegun damage decreased by 50%. 
+ii. Rate of turn speed reduced by 35%. 
+
+MINE TRAP- reduced delay to 02:30 (was 04:00). 
+
+
+--GLA DEMO GENERAL--
+
+TOXIN TRACTOR- standardised its health with the Toxin Tractors from the base faction and Stealth. 
+
+TUNNEL NETWORK- anti-vehicle missile changed from EXPLOSION to INFANTRY_MISSILE damage. (This means Demo Tunnel Networks are less effective against Dragon tanks while still retaining their overall effectiveness against infantry.) 
+
+ZSU-
+i. Veterency levels increased by 66%. 
+ii. Increased the amount of experience it gives away by 50%. 
+iii. Health decreased by 10%.
+iv. Production time increased to 7.5 seconds (was 6). 
+
+
+--GLA STEALTH GENERAL--
+
+FUNDAMENTALISTS-
+i. Reduced cost to $800 (was $1000).
+ii. Can no longer enter transports or garrisonable structures (they can still be transported via Tunnel Networks). 
+
+REMOVED- Combat Technical. 
+
+ROCKET SNIPER- 
+i. He is stealthed while moving. 
+ii. Damage increased by 33%.
+
+TECHNICAL-
+i. Replaces Combat Technical.
+ii. Can camouflage itself when not moving. 
+
+TUNNEL NETWORK- increased cost to $1000.
+
+
+--GLA SALVAGE GENERAL--
+
+ADDED NEW COMBAT BUGGY- replaces Combat Cycle. 
+
+ADDED NEW SCAVENGING UPGRADE GENERALS PROMOTION POINT- vehicles can be upgraded with a single level of salvage.  
+
+FLASH TROOPER- reduced cost to $300. 
+
+GADFLY-
+i. It no longer requires a General's Promotion Point.
+ii. It requires a Palace before it can be produced. 
+
+QUAD TANK- removed Junk Armor. 
+
+RADAR TANK- can jam a single ballistic missile, deviating the missile off course. 
+
+SCARAB SMOKE GRENADES-
+i. Reduced cost to $750.
+ii. Research time decreased to 20 seconds (was 40). 
+
+
+--GLA TOXIN GENERAL--
+ 
+ADDED NEW NERVE GAS UPGRADE-
+i. Toxin Terrorists are upgraded with Nerve Gas.
+ii. Toxin Rebels can clear garrisoned buildings with Nerve Gas grenades. 
+
+PYTHON- 
+i. Damage decreased by 25% against air and ground targets.
+ii. Damage increased by 25% after Anthrax Gamma is researched.
+iii. Damage increased by 25% after AP Bullets are researched. (Previously Pythons did not receive additional bonuses from Anthrax Gamma and AP Bullets.)
+
+MARAUDER- starts with Toxin Shells. 
+
+NERVE GAS GENERALS POWER- delay before vehicle, Tunnel Network and Internet Centre clearing effect increased by 5 seconds.
+
+REMOVED- Nerve Gas Pack upgrade. 
+
+RPG TROOPER- 
+i. Reduced cost to $350 (was $400).  
+ii. Toxin field lasts 0.6 seconds (was 10). (Toxin RPG Troopers were good against everything, even their hard counter: rifle infantry. This change should make them more manageable.)
+
+ROCKET BUGGY- Toxin field lasts 0.6 seconds (was 10). 
+
+SCORPION- starts with Toxin Shells. 
+
+MARAUDER- starts with Toxin Shells
+
+STINGER SITE-
+i. Increased cost to $1100 (was $900). 
+ii. Toxin field lasts 0.6 seconds (was 10). (This increases the survivability of infantry units and Quad Cannons in GLA match ups against the Stinger Site, making it easier to counter.)
+
+TOXIN GRENADIER- experience levels standardised with Toxin RPG Troopers. (This means they gain rank at the same rate as Toxin RPG Troopers.)
+
+TOXIN TRACTOR- damage taken by ARMOR_PIERCING increased by 30%.
+
+
+
+Version 0.95 – December, 2007
+
+. ADDED NEW GENERALS- USA Armor, China Special Weapons and GLA Salvage.
+
+. ADDED COSTUMIZE STATS ICONS- All generals and sides now have their own stats icon which is shown after completing a skirmish or multiplayer game.
+
+. ADDED NEW LAUNCHER OPTION- allows players to disable starting units in the game. 
+
+. ADDED NEW MAPS- Shockwaves at Central Station (2 Player), Airport Assault (4 Players), Tournament Oasis (6 Players), and Lone Star State (6 Players).
+
+. ANGRY MOB- fixed bugs where group members would straggle behind and die off.
+
+. AVENGER- fixed the delay of the point defense laser. 
+
+. BASE BUILDING- 
+i. Added new sound effect when placing a structure. 
+ii. Added new Placement Cursor (for ease of use when rotating buildings). 
+
+. BURNING INFANTRY MODEL- added new effect. 
+
+. CAPTURE BUILDING- fixed issue where infantry used a different model when capturing buildings.
+
+. COMBAT CHINOOK- fixed issue where they did not drop a Pilot when destroyed. 
+
+. DECREASED GENERALS POINTS- reduced the number of Generals Promotion Points available to 7 (was 9).
+
+. DISABLED ZERO HOUR CAMPAIGNS- for more information about this change, please visit our website. 
+
+. EMERGENCY REPAIR- heals vehicles at a steady rate.
+
+. EXPLOITS- 
+i. Fixed an exploit that allowed players to garrison R.A.D. tank Reactor Cores.
+ii. Fixed an exploit that allowed players to create instant cash drops from Supply Drop Zones.
+iii. Fixed an exploit that allowed players to purchase more than a single upgrade for the Helix. 
+
+. FAKE COMMAND CENTRES- fixed issue where Fake Command Centres did not have a faction specific emblem. 
+
+. GENERALS CHALLENGE- improved the AI. 
+
+. GLA DEMO GENERAL SCUD STORM- fixed the mismatch/desync error that would occur when a Demo Scud Storm was launched on an Online/LAN game. 
+
+. GLA DEMO GENERAL BATTLEBUS- fixed the bug that caused the Bus to explode when laying a Demo Trap in the vicinity of another Demo Battlebus. 
+
+. HEROES- only one faction specific Hero can exist. (This means you cannot have more than one of any Black Lotus, Colonel Burton, or Jarmen Kell when cross-teching.) 
+
+. HOTKEYS- fixed all known hotkey conflicts. 
+
+. HURRICANE MISSILE LAUNCHER- 
+i. Fixed the bug where missiles detonated all clusters on the spot when targeted on a structure.
+ii. Fixed the bug where Hurricane missiles could not be shot down by missile-based defenses.
+
+. OPTIMISED AI- Infantry General no longer trains Squads. 
+
+. REAPER TANK- fixed all known bugs. 
+
+. RESTORED GENERALS COLOUR SCHEME- the game loads in the classic orange C&C Generals colour scheme. 
+
+. ROBOT TANKS-
+i. Fixed the bug where they could not be damaged by an Emperor Overlord's cannon.
+ii. Fixed the bug where they could not be damaged by an Alpha Aurora Bomber's Fuel Air Bomb. 
+
+. SCORCHED EARTH- fixed AI for Offline/Skirmish play. 
+
+. SCUD STORM- fixed the issue where the lights did not show on night models. 
+
+. SUPERWEAPON GENERAL'S LEAFLET DROP- it has now been standardised so it appears in the correct order on the General's Power/Promotion Menu.
+
+. SUPPLY DROP ZONE- fixed an issue where crates would sometimes miss Supply Drop Zones. 
+
+. SUPPLY DROP ZONE CARGO PLANE- fixed a bug where Cargo Planes would fall to the ground when a new Battleplan was initiated.
+
+. TECH FLAK BUNKER-
+i. Added new cameo.
+ii. Fixed issue where they had resistance to superweapon strikes.
+
+. TECH MACHINE GUN BUNKER- added new cameo. 
+
+. TECH REPAIR PAD- 
+i. Added new model.
+ii. Health increased by 100%. 
+
+. TIGER SHARK- removed a Battlemaster specific voice report.
+
+. TREES- fixed a bug where trees could obstruct the toxin stream from Toxin Tractors and similar weapons. 
+
+. TYPOGRAPHICAL- fixed all known spelling errors. 
+
+
+
+--ALL USA GENERALS--
+
+. ADDED NEW BURTON'S SPECIAL EQUIPMENT- grants special abilities to faction specific Colonel Burtons. 
+
+. ADVANCED TRAINING- 
+i. Reduced cost to $1000.
+ii. Research time decreased to 50 seconds. 
+
+. AMBULANCE- added dummy weapon. (This means Ambulances, Microwave tanks, and other repair vehicles will follow a group that has been given an attack order.)
+
+. B52 BOMBER-
+i. New model.
+ii. New skin.
+iii. New bomb release sound effects. 
+
+. BATTLEDRONE- they start repairing their parent vehicle when its health is reduced by 10% (was 40)
+
+. CHINOOK/COMBAT CHINOOK- 
+i. Gathers resources at a 10% faster rate. 
+ii. Takes 5% more damage from missile-based infantry.
+iii. Health decreased by 25%. 
+
+. COLONEL BURTON-
+i. Added new attack/movement command voices.
+ii. Increased the damage of his C4 charges. 
+
+. COMANCHE- veterency level is increased to 0, 200, 400, 600. 
+(This means Comanches require twice the amount of experience to gain a new rank at each level.)
+
+. DOZERS- 
+i. They can no longer be hijacked.
+ii. They no longer drop Salvage Crates when destroyed.
+
+. FIREBASE-
+i. Added new models.
+ii. Garrisoned infantry are auto-healed when wounded.
+iii. Shells have more splash damage, travel slower, and are fired at a lower trajectory.
+iv. Increased its dead zone. (This means it cannot fire at units within a certain range.) 
+
+. GLOBAL HAWK.
+i. Is unable to restealth when under fire.
+ii. Increased restealth delay to 1 second. 
+
+. LEAFLET DROP- timer reduced to 4 minutes (was 6).
+
+. MICROWAVE TANK- 
+i. Reduced cost to $700.
+ii. Added dummy weapon.
+
+. NEXT GENERATION PATRIOTS- removed from the Strategy Centre commandset (removed from the game). 
+
+. PATHFINDER- 
+i. Requires a Strategy Centre before he can be trained.
+ii. He can attack Combat Cycles. 
+
+. RANGER- added new attack/movement command voices. 
+
+. STRATEGY CENTRE-
+i. Health increased by 100%.
+ii. Increased the dead zone of the Bombardment Cannon.
+iii. Bombardment Cannon shells no longer home on targets.
+iv. Hold the Line bonus increased to 15% (was 10).
+
+. SUPPLY DROP ZONE- power requirement reduced to 3 units (was 4).
+
+. TOW MISSILE- reduced cost to $500. 
+
+. USA (BASE FACTION), LASER, AND SUPERWEAPON RAPTOR- 
+i. Reduced cost to $1200.
+ii. Reduced fire delay. 
+iii. Reduced reload time to 2 seconds.
+iv. Increased damage against airplanes by 25%.
+
+. USA, LASER, AND SUPERWEAPON STEALTH FIGHTER-
+i. Reduced cost to $1400.
+ii. Reduced reload time to 4 seconds.
+iii. Health increased by 15%.
+iv. Increased the damage of its missiles by 25%.
+
+
+
+--USA (BASE FACTION)--
+
+. ADDED NEW CRUSADER HOVERDRIVE UPGRADE- increases speed and allows Crusaders to travel over water. 
+
+. ADDED NEW EXO-SUIT- fully customisable combat armour which grants infantry special abilities.
+
+. ADDED NEW LITTLE BIRD- very fast, light scout helicopter.
+
+. ADDED NEW LOSAT HUMVEE- fast, line-of-sight anti-tank Humvee. Replaces Rage Hover MLRS.
+
+. ADDED NEW HORNET STRIKE GENERAL'S POWER- calls in a squadron of Hornets to saturate the target area. 
+
+. MARINE- 
+i. Increased the damage of his C4 charge. 
+ii. Requires a Strategy Centre before he can be trained. 
+
+. PALADIN- 
+i. New cameo. 
+ii. Added new point defense laser node to the model.
+iii. Increased the damage of its cannon. 
+iv. Health increased by 100 after the Composite Armor Upgrade is researched. 
+v. Can no longer use its point defense laser to shoot down ballistic missiles. 
+
+. PATRIOT MISSILE SYSTEM- 
+i. Increased weapon damage by 15%. 
+ii. Increased weapon range by 15%. 
+
+. RAGE HOVER MLRS- removed from the War Factory commandset (removed from the game). 
+
+. STALKER TANK- removed from the War Factory commandset (removed from the game). 
+
+. TOMAHAWK RELAY UPGRADE- is activated as a select ability in the Tomahawk Missile Launcher's commandset.
+
+
+
+--USA AIR FORCE GENERAL--
+
+. ADDED NEW HELIPAD STRUCTURE- produces exclusive units. Allows a Strategy Centre to be built. 
+
+. ADDED NEW MEDIVAC CHINOOK- clears toxins and drops first-aid crates. Produced at the Helipad. Replaces Ambulance. 
+
+. ADDED NEW SHERIDAN ANTI-TANK MISSILE UPGRADE- all Sheridan tanks gain an anti-tank missile. 
+
+. ADDED NEW STEALTH COMANCHE UPGRADE- all King Comanches become stealthed. Researched at the Helipad. 
+
+. ADVANCED PATRIOT MISSILE SYSTEM- 
+i. Increased power consumption to 4 units (was 3).
+ii. Increased weapon damage by 15%.
+iii. Increased weapon range by 15%. 
+
+. ACOYLTE DRONE- produced at the Helipad. 
+
+. B1 LANCER- 
+i. Cost increased to $1500. 
+ii. Armour increased. 
+iii. Explosion damage to structures decreased.
+
+. CARPET BOMBER- delay increased to 4 minutes (was 3). 
+
+. COLONEL BURTON-
+i. New minigun.
+ii. New movement animations. 
+iii. Can be upgraded to gain the ability to signal airstrikes. 
+
+. COMBAT CHINOOK
+i. Gains the Rocket Pod Upgrade when it is researched at the Airfield/Helipad. 
+ii. Added new taunt.
+iii. Produced at the Helipad.
+
+. COMANCHE- 
+i. Cost increased to $1500.
+ii. No longer starts out stealthed. 
+
+. COMANCHE ROCKET PODS- they can now be researched at the Airfield/Helipad. 
+
+. HURRICANE MISSILE LAUNCHER- 
+i. New skin and cameo.
+ii. Cost increased to $1400.
+
+. HYPERSONIC AURORA- cost increased to $2200. 
+
+. KING RAPTOR- cost increased to $1200.
+
+. KING STEALTH FIGHTER- cost increased to $1600.
+
+. SHERIDAN- cost increased to $1000.
+
+. SKYCRANE- produced at the Helipad.
+
+
+
+--USA LASER GENERAL--
+
+. ADDED NEW LASER HELLFIRE DRONE- fires laser-guided missiles (replaces Mantra Drone). 
+
+. ADDED NEW LASER MISSILE DEFENDER- fires laser-guided missiles. 
+
+. ADDED NEW POINT DEFENSE LASER DRONE UPGRADE- Battle Drones gain point defense lasers.
+
+. CHINOOK- gains a Point Defense Laser when the upgrade is researched at the Airfield. 
+
+. FOCUSING CRYSTAL-
+i. Cost increased to $2500.
+ii. Research time increased to 1 minute and 30 seconds.
+
+. HORNET STRIKE GENERAL'S POWER- calls in a squadron of Hornets to saturate the target area. 
+
+. HUMVEE LASER- reduced cost to $800. 
+
+. LASER DEFENSE TURRET- reduced rate of fire by 25%. 
+
+. LASER BURTON
+i. New cameo.
+ii. Fires his laser rifle in single shots. 
+
+. LASER COMANCHE
+i. New unique model.
+ii. No longer uses lasers to engage infantry. 
+
+. LASER PALADIN
+i. Fires a concentrated laser. 
+ii. Can no longer use its point defense laser to shoot down ballistic missiles.
+
+. LASER RANGER
+i. New cameo. 
+i. Fires his laser rifle in single shots.
+
+. LOADING SCREEN- restored the Laser General's uniform where green discolouration appeared. 
+
+
+
+--USA SUPERWEAPON GENERAL--
+
+. ADDED NEW HYPERSONIC CRUISE MISSILE GENERAL'S POWER- calls in a Fuel Air Hypersonic Cruise Missile to strike anywhere on the map.
+
+. ADDED NEW MICROWAVE HUMVEE- fast, lightly armoured anti-infantry vehicle. 
+
+. ADDED NEW MEDIC DRONE- heals infantry.
+
+. ADDED NEW POP-UP PATRIOT MISSILE SYSTEM- stealthed base defense. 
+
+. ADDED NEW REPAIR DRONE- heals vehicles and clears mines. Replaces Ambulance.
+
+. ADDED NEW SHATTERER- fires a sonic pulse.
+
+. ALPHA AURORA BOMBER- weapon type changed from EXPLOSION to JET MISSILES (significantly reduces damage to anti-air units).
+
+. COLONEL BURTON- cost increased to $1500 (was $1200). 
+
+. COMANCHE- reduced cost to $1500. 
+
+. EMP MISSILE DEFENDER- Electro-magnetic Pulse is activated as a select ability in the EMP Missile Defender's commandset. 
+
+. EMP PATRIOT MISSILE SYSTEM- no longer relays to nearby EMP Patriots. 
+
+. ENFORCER-
+i. Cost decreased to $1200 (was $1500).
+ii. Health increased. 
+iii. Speed increased. 
+
+. LOCKDOWN M.L.R.S.-
+i. New model.
+ii. Reduced cost to $1500.
+iii. New missile attack.
+iv. No longer requires a General's Promotion Point. 
+
+. MARINE- 
+i. Increased the damage of his C4 charge. 
+ii. Requires a Strategy Centre before he can be trained. 
+
+. MORTAR HUMVEE- new explosion effect. 
+
+. PLASMA TOMAHAWK- its range has been standardised with the base USA faction's Tomahawk (reduced its range).
+
+. ROBOT TANK- reduced rate of turn by 50%. 
+
+. RODS FROM GOD GENERAL'S POWER-
+i. Splash damage decreased by 15%.
+ii. They no longer appear on the Radar/Minimap. 
+
+
+
+--ALL CHINA GENERALS--
+
+. ADDED NEW CLUSTER MINES GENERAL'S POWER MODEL- creates a minefield. 
+
+. ARTILLERY BARRAGE GENERAL'S POWER
+i. Added new explosion sound effect.
+ii. They are immune to damage. (This means when a Nuclear Missile is launched after an Artillery Barrage is fired in the same locale the raining shells will not be destroyed by Nuclear Fallout.)
+
+. BEAR- new bomb release sound effects. 
+
+. BLACK LOTUS- added new voices. 
+
+. DEPLETED/WEAPONS GRADE URANIUM SHELLS- reduced cost to $2000 (was $2500)
+
+. DOZERS-
+i. They can no longer be hijacked.
+ii. They no longer drop Salvage Crates when destroyed.
+
+. ECM TANK- added Hold-Fire mode to its commandset.
+
+. FLARE MORTARS
+i. Reduced cost to $500. 
+ii. Researched at the Barracks. 
+
+. FRENZY- increased the duration at Levels 1, 2, and 3. 
+
+. HACK VAN- 
+i. Cost increased to $1000.
+ii. Removed Virus Hack ability (it was overpowered). 
+iii. Standardised the bonus Hackers gain when stationed inside a Hack Van with the Internet Centre.
+
+. HELIX- health reduced to 280 (was 300). 
+
+. MINES- 
+i. Research time decreased to 10 seconds (was 20).
+ii. EMP/Neutron mines research time decreased to 15 seconds (was 25). 
+
+. NATIONALISM- reduced cost to $1000 (was $2000).
+
+. NUCLEAR TANKS/FUSION REACTORS- reduced cost to $1500 (was $2000).
+
+. NUKE CANNON- can be transported by Helix. 
+
+. OVERLORD TANK- added new voices. 
+
+. OVERLORD TANK RADAR- standardised the effect when it detects stealthed units.
+
+. PROPAGANDA CENTRE- 
+i. Build limit decreased to 1. 
+ii. Health increased by 100%.
+
+. PROPAGANDA TOWER- no longer count as base structures. Instead they are classed as defenses. (This means sole surviving Propaganda Towers will perish when the last base structure is destroyed.) 
+
+. SIEGE SOLDIER- 
+i. New model. 
+ii. No longer requires a General's Promotion Point.
+iii. Standardised cost to $600. 
+
+. SUBLIMINAL MESSAGING- cost increased to $1000 (was $500).
+
+. SUPPLY TRUCKS- they no longer drop Salvage Crates when destroyed.
+
+
+
+--CHINA (BASE FACTION)--
+
+. ADDED NEW BATTLEMASTER MASS PRODUCTION UPGRADE- 
+i. Decreases the cost of the Battlemaster to $500.
+ii. Decreases production time to 5 seconds.
+
+. ADDED NEW PROPAGANDA TRUCK- heals and increases the rate of fire of friendly units. Produced at the Propaganda Centre. 
+
+. AUTOLOADERS-
+i. Reduced cost to $1500 (was $2500).
+ii. Production time decreased to 40 seconds (was 1 minute). 
+
+. BATTLEMASTER-
+i. Reduced cost to $700.
+ii. Speed increased to 28 (was 25)
+iii. Production time decreased to 8 seconds (was 10).
+iv. Health increased to 420 (was 400).
+v. Added new randomised model variations. 
+
+. FLAME TOWER- cost decreased to $900 (was $1100). 
+
+. HELICOPTER ARMOR- decreased the amount of health Helixes received to 75 (was 100). 
+
+. TIGER- significantly increased the damage taken by jet missiles.
+
+
+
+--CHINA INFANTRY GENERAL--
+
+. ADDED NEW BATTLEFORTRESS- heavy assault transport.
+
+. SQUADS- they no longer require a General's Promotion Point.
+
+. ADDED NEW RED GUARD-
+i. New unique cameo.
+ii. New unique model.
+iii. Trained in groups of three. 
+
+. ADDED NEW RED GUARD SQUAD- 13 Red Guards led by an Officer.
+
+. ADDED NEW TIGER SHARK PROPAGANDA UPGRADE- Tiger Sharks gain a Propaganda Speaker. 
+
+. ASSAULT HELIX- 
+i. Increased cost to $1800.
+ii. Reduced transport capacity to 6 (was 8).
+
+. BERSERKER MLRS-
+i. Added new model.
+ii. Cost increased to $1800. 
+iii. Weapon reload time reduced.
+iv. Decreased weapon explosion damage. 
+
+. FORTIFIED OUTPOST-
+i. Included Tank Hunters decreased from 4 to 2. 
+ii. Reduced cost to $900. 
+
+. MINIGUNNER- reduced damage against air units by 50%.
+
+. OFFICER- removed from the Barracks commandset. 
+
+. PATRIOTISM- reduced cost to $1500 (was $2000). 
+
+. TANK HUNTER- starts with Barrage Fire ability in his commandset. 
+
+
+
+--CHINA NUKE GENERAL--
+
+. ADDED NEW CLUSTER NUKE GENERAL'S POWER- Cluster Nuke delivered by a bomber. 
+
+. ADDED NEW DEVASTATOR- heavy, nuclear-powered tank. Requires a Nuclear Research Facility. 
+
+. ADDED NEW NUCLEAR RESEARCH FACILITY STRUCTURE- 
+i. Researches important Chinese upgrades. 
+ii. Allows a Nuclear Missile Silo to be built. 
+
+. ADDED NEW RADIATION WARHEADS UPGRADE- Battlemaster, Overlord, Red Guard, Tank Hunter and Siege Soldiers weapons gain radiation.
+
+. ADDED NEW SELF-SUSTAINED NUCLEAR REACTION (SSNR) UPGRADE- effective against buildings and infantry. 
+
+. ARTILLERY ELITE TRAINING- removed. Veteran Artillery Training replaces it. 
+
+. BUNKER- build time standardised with all other China factions. 
+
+. FUSION REACTORS- is researched at the Nuclear Research Facility.
+
+. NUCLEAR BATTLEMASTER-
+i. No longer starts out with Radiation Shells. 
+ii. Health increased to 420 (was 400).
+iii. Production time decreased to 8 seconds (was 12). 
+
+. NUCLEAR RED GUARD- 
+i. New cameo.
+ii. New unique weapon model and select ability in his commandset. 
+
+. NUCLEAR SIEGE SOLDIER- no longer starts out with Radiation Tipped shells. 
+
+. NUCLEAR TANK HUNTER- 
+i. New model.
+ii. Cost decreased to $300. 
+iii. No longer starts out with Radiation Tipped missiles.
+
+. NUKE CANNON- gains SSNR Upgrade. 
+
+. NUKE MIG UPGRADE- weapon type changed from EXPLOSION to JET MISSILES (significantly reduces damage to anti-air units). 
+
+. R.A.D. TANK-
+i. Primary weapon type changed from RADIATION to POISON (increases the amount of damage taken by certain vehicle types and allows it to attack structures).
+ii. Increased health by 30%.
+iii. Increased rate of fire by 25%.
+iv. Decreased the size of the Radiation field created by the Eject Reactor Core ability and when it explodes. 
+v. Decreased the size of the Radiation field created by the Expose Reactor Core ability. 
+
+. SIEGE CANNON-
+i. Cost decreased to $900.
+ii. Chain reaction effect requires SSNR Upgrade.
+iii. Requires a Nuclear Research Facility before it can be produced.
+
+. WEAPONS GRADE URANIUM- is researched at the Nuclear Research Facility.
+
+
+
+--CHINA TANK GENERAL--
+
+. ADDED NEW INDUSTRIAL PLANT- 
+i. Researches important Chinese upgrades.
+ii. Reduces the cost of vehicles and airplanes by 15%. 
+iii. Allows a Nuclear Missile Silo to be built.
+
+. AUTOLOADERS-
+i. Cost decreased to $2000 (was $2500).
+ii. Research time decreased to 45 seconds (was 1 minute).
+iii. Researched at the Industrial Plant.
+
+. ECM TANK- increased the primary weapon range. 
+
+. GATTLING TANK- increased cost to $800 (was $700).
+
+. LARGE SUPPLY TRUCK-
+i. Cost increased to $900.
+ii. Maximum load decreased to $450 (was $600).
+
+. RAZOR BOMBER- it now takes two Razor Bombers to create a Firestorm when Black Napalm is researched. 
+
+. REACTIVE ARMOR- researched at the Industrial Plant.
+
+. REAPER TANK- requires an Industrial Plant before it can be produced. 
+
+. SUPPLY CENTRE- cost increased to $1600 (was $1500).
+
+. TANK BUNKER-
+i. Cost decreased to $200 (starts without a Battlemaster).
+ii. Health increased by 50%. 
+iii. They repair vehicles stationed inside.
+iv. They confer bonuses to vehicles stationed inside. 
+
+. TRANSPORT HELIX-
+i. Cost increased to $2200 (was $2000).
+ii. Production time increased to 35 seconds (was 30).
+
+. WARMASTER- 
+i. New model.
+ii. Starts with Napalm Rocket Pods.
+iii. Cost increased to $1200.
+iv. Production time increased to 15 seconds (was 10).
+
+
+
+--ALL GLA GENERALS--
+
+. GLA (BASE FACTION), TOXIN AND STEALTH GENERAL BATTLEBUS- the Bus hull no longer perishes when all passengers evacuate. 
+
+. COMBAT CYCLES- they are more resistant to cannon fire but less resistant to GATTLING and SMALL ARMS. (This means all bullet-based weapons, including 
+SNIPER, have a significantly greater effect making Combat Cycles more viable against tanks.) 
+
+. DEMO TRAP- 
+i. New explosion effects.
+ii. Explosion radius increased by 50%. 
+
+. FAKE STRCUTURES-
+i. They can no longer be upgraded to become real buildings. 
+ii. Explosion damage and area of effect increased. 
+
+. GLA, DEMO, AND STEALTH TOXIN TRACTOR- health increased by 15%.
+
+. GLA BASE DEFENSE HOLES- no longer count as base structures. Instead they are classed as defenses. (This means sole surviving base defense Holes will 
+perish when the last base structure is destroyed.) 
+
+. KVSK SNIPER RIFLE- Jarmen Kell can snipe airplanes. 
+
+. MARAUDER TANK- cost increased to $1000 (was $800). 
+
+. RADAR VAN-
+i. Stealth detection range increased. 
+ii. Added dummy weapon. (This means Radar Vans will follow a group that has been given an attack order.)
+
+. SABOTEUR- he steals $2000 from enemy Supply Centres/Stashes. 
+
+. ANGRY MOBS- 
+i. Now have 15 members max but start out with 10 members
+ii. Cost increased to $1000.
+iii. Fixed All animation Bugs
+iv. Fixed Bug where members would fall behind and die
+
+. SALVAGE CRATES GENERAL'S POWER- they remain on the ground the duration the power is recharging.
+
+. PALACE- build limit decreased to 1. 
+
+. ROCKET BUGGY- added new taunt.
+
+. STINGER SITES- added new missile contrail effect.
+
+. TERRORIST- 
+i. Increased movement speed by 25%.
+ii. Added new voices.
+
+
+
+--GLA (BASE FACTION)--
+
+. ADDED NEW CHAMELEON TANK DESTROYER- fast, fires ranged anti-tank shells.
+
+. ADDED NEW FLYING DEMO TRAP- Mobile Demo Traps become airborne. 
+
+. ADDED NEW JUNK BUNKER- garrison with infantry. 
+
+. ADDED NEW MINE TRAP- stealthy, explosive device.
+
+. ADDED NEW MOBILE ANTI-TANK GUN- fires anti-tank shells. 
+
+. BATTLEBUS- gains Extra Salvage. 
+
+. BOOBY TRAP UPGRADE- cost decreased to $500 (was $1000).
+
+. CAMOUFLAGE UPGRADE- cost decreased to $1000 (was $2000).
+
+. HIJACKER- no longer requires a General's Promotion Point. 
+
+. MOBILE DEMO TRAP- is produced at the Barracks. 
+
+. ROCKET BUGGY- gains Extra Salvage.
+
+. SCUD LAUNCHER-
+i. New explosion effect.
+ii. New fire/explosion sound effects.
+iii. Gains Extra Salvage.
+
+. SCORPION TANK- new skins.
+
+. TECHNICAL- gains Extra Salvage. 
+
+. TOXIN TRACTOR- gains Extra Salvage.
+
+
+
+--GLA DEMO GENERAL---
+
+. ADDED NEW BRDM1- fires heat-seeking anti-infantry and tank missiles. 
+
+. ADVANCED DEMO TRAP- new unique model.
+
+. DEMO BATTLEBUS- passengers emerge when the bus is destroyed. 
+
+. DEMO MARAUDER-
+i. New unique model.
+ii. Calliope Missile attack. 
+
+. DEMO SABOTEUR-
+1. Cost increased to $1000 (was $800).
+ii. No longer requires a General's Promotion Point.
+
+. HIGH EXPLOSIVE SHELLS- increases splash damage of ZSU-57 weapon by 100%. 
+
+. ZSU-57- increased rate of fire by 25%.
+
+
+
+--GLA TOXIN GENERAL--
+
+. ADDED NEW MOBILE ANTI-TANK GUN- fires anti-tank shells. 
+
+. ADDED NEW PYTHON FLAK TANK- fires a burst of explosive shells. Replaces Quad Cannon. 
+
+. ADDED NEW SCOURGE MISSILE LAUNCHER- fires Anthrax missiles. Replaces Smerch MLRS.
+
+. COMBAT CYCLE- no longer clears garrisoned buildings with its toxic sprayer. 
+
+. NERVE GAS GENERAL'S POWER- is delivered by a Tu-2 Bomber. 
+
+. SCORPION TANK- 
+i. No longer starts out with Toxin Shells.
+ii. Gains Toxin Shells when a Palace is built.
+iii. Removed transport slots. 
+
+. SMERCH MLRS- removed from the Arms Dealer commandset (removed from the game). 
+
+. TOXIN TUNNEL NETWORK
+
+i. Cost increased to $900 (was $800). 
+ii. Build time standardised with all other GLA factions.
+
+
+. TOXIN MARAUDER-
+i. Added new model.
+ii. Starts with Anthrax Blob shooter.
+
+. TOXIN REBEL-
+i. No longer clears garrisoned buildings with his toxin sprayer. 
+ii. Reduced splash damage. (This means the toxin sprayer will only damage the targeted unit.)
+
+. TOXIN TRACTOR- weapon range increased by 25%.
+
+. TOXIN TECHNICAL- 
+i. Added new models.
+ii. It no longer clears garrisoned buildings with its toxin sprayer. 
+iii. Reduced splash damage. (This means the toxin sprayer will only damage the targeted unit.)
+
+. TOXIN RPG TROOPER-
+i. Updated his cameo.
+ii. Cost increased to $450. 
+
+
+
+--GLA STEALTH GENERAL--
+
+. ADDED NEW COBRA- fast, lightly-armoured tank (replaces Wheeled Scorpion). 
+
+. ADDED NEW MOBILE ANTI-TANK GUN- fires anti-tank shells. 
+
+. ADDED NEW ROCKET SNIPER- long range anti-tank infantry. 
+
+. ARMS DEALER- cost increased to $2500 (was $2000). 
+
+. COMBAT TECHNICAL-
+i. Added new models.
+ii. Passenger capacity decreased to 4 (was 5) 
+iii. Health decreased by 25%.
+iv. Reduced rate of turn by 10%. 
+
+. FUNDAMENTALISTS- 
+i. They no longer require a General's Promotion Point.
+ii. They are classed as one infantry type. (This means when the select all units of one type command is issued Fundamentalists are not sorted
+according to class as individual units - Uzi, Shotgun, and Machinegun. Instead they are all selected.)
+
+
+. FROG-7 MISSILE LAUNCHER-
+i. Missile trajectory increased to 30 degrees (was 20). (This means missiles will fly slightly higher.) 
+ii. Production time increased to 20 seconds (was 15).
+iii. Added new HE/Anthrax attack. 
+
+. LOADING SCREEN- removed the name Taylor from the Stealth General's uniform. 
+
+. RPG TROOPER- added new cameo. 
+
+. STINGER MISSILE UPGRADE-
+i. Is researched at the Black Market.
+ii. Research time increased to 45 seconds (was 30). 
+
+. TUNNEL NETWORK- build time standardised with all other GLA factions.
+	
+
+**List of Changes for Shockwave Beta Release 0.93 Since 0.92**
+
+Below is a full change log of all things that were modified,added,removed and fixed for this new release
+
+- Added New Rotor Sound for combat chinooks
+- Added New chinese Flame Tower
+- Added New upgrade for laser general "focusing crystal" which increase both the damage and range by 15%
+- Added Vissual Change when any GLA building is upgraded with camonetting
+- Added New Laser Defender Model
+- Added New Huricane Missile Launcher for the airforce general (replaces tomahawk)
+- Added New Infantry general Tiger Shark amphibious tank (replaces light battle master)
+- Added New Reaper Tank for general kwai (requires gen point)
+- Added Sheridan tank for general granger (replaces leopard)
+- Added New Tiger Helicopter for vannila china
+- Added F/B 22 Laser guided bombing run for general townes (replaces A10 Strike)
+- Added New Models,skins and icons for all stealth figthers
+- Added New generals power Rods From God Strike for the superweapons general
+- Added New models and icons for all comanche helicopters
+- Added Rods From god Generals power for the Superweapons general (replaced A-10 strike)
+- Added Chinese Dozer engine sound
+- Added New global hawk spydrone genpower (replaces regulair spydrone gen power difference is the drone can be relocated)
+- Added New GLA Airpad which produces balloons and other units.
+- Added New GLA Dozer Tool (used by workers)
+- Added New GLA Quad bike Supply Collector Tool (used by workers)
+- Added New sound to chinese hacked spy satalite
+- Added Abblility to dissable buildings by hacking for Black Lotus (all teams and generals.)
+- Added Holdfire and Freefire modes fore pop turrets
+- Added New Minigunner Model
+- Added Burst Fire mode for Berserker (launches 3 missiles every 6 seconds)
+- Added New models for demolition generals scud storm
+- Added New ATACMS launch sound (the missile that is fired by the hurricane and Lockdown(emp) MRLS)
+- Added New sounds for emp bomb explosions (of the mig emp bomber)
+- Added New sounds for the emp explosions of the missile defender
+- Added New tech building "Tech Radio Station"
+- Added New tech building "Tech Flak Bunker"
+- Added New abbility for hackvans "Virus Attack" (will dissable all vehicles and buildings in the area of effect)
+- Added New detonate now button for all terrorist (can also be used when on a combat bike)
+- Added Ammo pip and ground attack button to railgun
+- Added New sounds for the mortar humvee weapon
+- Added New viral attack for thrax's toxin tractor
+- Added New Models,skins and icons for the dragon tank
+- Added New Models,skins and icons for all rocket buggies
+- Added New Models,skins and icons for all Inferno Cannon
+- Added New chinese listening post
+- Added scroll down and up buttons to regulair chinese dozer (becouse of the New building additions)
+- Added New (worker) vioce when gla structures are upgraded with the fortified structure upgrade
+- Added New title screen image for the main menu (when using quick launch) Special thanks goes to Flyerfye for this one
+- Added New Ramjet Anti tank shell upgrade for inferno (launches normaly but ignites shortly after and then acts like a rocket assited shell)
+- Added New title screen image for the main menu when using quick launch
+- Added New lasting EMP effect for MiG EMP Bombers
+- Added New impact effects for the troopcrawler auto cannon
+- Added New Movement sounds for Enforcer Tanks
+- Added New sounds to both the Lockdown and EMP Patriot missile detonation
+- Added New sounds for the EMP Pulse Bomb
+- Added New sounds for the Neutron Bomb
+- Added New Mobile Demotrap model
+- Added New Abbillity for sentry drones to focus their scanners on a location
+- Added New Cameos for the Comanche rocket pods upgrade and launch button
+- Added New beam effects for all microwave tanks
+- Added New Version of the 4 Player Map Tournament Flat Pack
+- Added New 4 Player Map Winter River
+- Added New 6 Player Map Armored Fury (restored from generals)
+- Added New 2 Player Map Scorched Earth (restored from generals)
+
+- Modified rocket trails of certain gla units (they now have a little fire on the rocket and not just exhaust smoke)
+- Modified Dragon Tank Attack range increased
+- Modified the Blacknapalm firestream and it looks much better now
+- Modified GLA parachute dropped abbillities (demotrap drop and salvage drop) they now have a GLA logo on the parachute
+- Modified Laser weapon effects the beams are now white in the center of the beam and red on the outside
+- Modified Stealth Scuds storm it now starts with camo netting
+- Modified Tech Reinforcements pad it now takes only 1 Minute for each drop
+- Modified Tech Reinforcements pad for the airforce general it now drops a sheridan rather than a humvee
+- Modified Tank general tank drop it now also drops 1 gattling tank in the first and second level and 2 in the final
+- Modified Cash hack for infantry general first level now steals $2000, second $4000 and the third $8000
+- Modified B1 Lancer Cluster bomb clusters now drop faster and spread slightly more
+- Modified Chinook Crashing effect (some unused voices are now used when they are crashing)
+- Modified Hacker Death effect (some unused voices are now used when they are killed)
+- Modified key for waypoints back to ALT (was Z)
+- Modified Gattling tank Elite Training it now also effects reaper tanks
+- Modified siege cannon it now gets vissual upgrades like the tanks do from WG uranium shells and Fusion reactors
+- Modified A-10 Strike Missiles they can no longer be shot down by point defence lasers
+- Modified A-10 strike for airforce general the A-10's are now faster have more hitpoints and a silver paint job
+- Modified worker shoes upgrade the workers now get a new model with shoes when upgraded
+- Modified Technical Training it now affects rocket buggies too and is renamed to recon vehicle training
+- Modified stealth generals technical and rocket buggy both now start as veterans
+- Modified stealth generals tehcnical/recon vehicle training it now gives you elite units
+- Modified Next Generation Patriot Upgrade Cameo
+- Modified Comanche rocket pods trail effect they now have a trail of there own rather than using the one from the patriot
+- Modified Spy Drone reload time from 1:20 minutes to 3:00 minutes (to ballance them out becouse they can be moved now)
+- Modified Pop turrets they can now fire through other pop turrets
+- Modified Warmaster tank it now no longer requires a generals point to be constructed
+- Modified Helix gattling cannons they can no longer detect stealthed units
+- Modified MiG Afterburner upgrade it's now only availible to the regulair chinese side and not the generals
+- Modified MiG Afterburner gives MiGs a 15% chance of missile evasion
+- Modified Camoflage Upgrade it now also effects RPG Troopers if they are not moving or attacking
+- Modified Sentry drone they are now $200 cheaper and do nolonger have a delay before they can fire and move.
+- Modified Sentry drone gun upgrade it now costs $500 and only needs 15 seconds to be researched.
+- Modified Toxin Tractor armor it can take slightly more hits now and is 10% more risistant to infantry weapons
+- Modified Dragon Tank armor it can take slightly more hits now
+- Modified Artillery platforms they can now be dissabled by microwave tanks
+- Modified Mobile Supply Stash it now becomes stealthed when it's not moving
+- Modified Stealth Combatbikes (they now become stealthed after the driver has left gone off the bike)
+- Modified Global Hawk it now moves slower
+- Modified the EMP sphere effect for missile defenders (sphere is slightly smaller)
+- Modified Redguard Bayonet attack it can now switched to as default weapon rather as a abbility
+- Modified Hackvans they now cost 800$ each and have better protection against toxin and radiation weapons
+- Modified Infantry general hack van they no longer have 2 tank hunters inside but are stealthed when not moving
+- Modified supplydrop zone cargo planes they can now no longer be shot down (to prevent the annoying unit lost reports)
+- Modified Start units they are now better ballanced
+- Modified Weapon of mortar humvees it now has a slightly bigger range
+- Modified Helix it's now renamed to helicopter armor (becouse it also affects the tiger helicopter)
+- Modified Viral strike the virus fields from the strike now stay for 2 minutes before they dissapear
+- Modified All dozers to have a active animation while constructing a building
+- Modified Infantry generals hack van it now becomes stealthed if not moving
+- Modified Laser defenders the range is now slightly smaller
+- Modified All Auroras they now have a new effect when going on a super sonic attackrun
+- Modified Paladin Point Defence Laser it can now no longer shoot down balistic missiles like scuds and tomahawks
+- Modified Mobile Demotrap Speed it's alot faster now
+- Modified Mobile Demotrap costs it now costs 500$ instead of 800
+- Modified Bunkers for all chinese teams they now require a bit more time to be constructed
+- Modified Tunnel Networks for all GLA teams they now require a bit more time to be constructed
+- Modified Robot Tank & Sentry drone both now have auto repair features when damaged
+- Modified Machinegun Sites they are now renamed to Machinegun Nest
+- Modified Mobile Demotraps they now remain unstealthed for one second after they stop moving
+- Modified all ingame Jets increased the guard range of all jets ingame
+- Modified Blacklotus's system hack binary trail ( now also has "1"s instead fied Frog 7 Rocket Flight path
+- Modified The frog 7 rocket flight path it now spins while traveling and the arch is different
+- Modified Particle Cannons they now explode violently when destroyed and do nolonger create rangers when detroyed (with exception of the laser particle cannon
+- Modified Burtons Attacks they can now be used as switchable weapons rather than abbilities (with exception of the explosive charges)
+- Modified Redguard rifle weapon when garrisoned they now get a 53% range bonus rather than 33% like other infantry (does not effect minigunners)
+- Modified all battlemasters they now use the gun on top against infantry (except for nuke becouse radiation shells are more effective than the MG is)
+- Modified Laser gen. Specter gunship gen power to gain extra armor when the laser defence upgrade has been finnished (to ballance out the countermeasures of other usa sides)
+- Modified Mobile Demotraps they are now a Regulair GLA exclusive unit
+- Modified Stealth Battle Bus it will now deploy stealth camo nets while not moving
+- Modified Mantis Costs it now costs 750 (was 730)
+- Modified Smerch MRLS it now costs 1400 (was 1200)
+- Modified Laser point defence drone it now costs 350 (was 300)
+- Modified Internet Center it now costs 2000 (was 2500)
+- Modified Internet Center it now has more health and is capable of resisting a single superweapon strike
+- Modified Satalite Hack 2 it now costs 1500 to upgrade (was 2500)
+- Modified Propaganda center armor it can now resist the 1 aurora bomb
+- Modified Smerch Missiles their ammount of hits each missile can take is less
+- Modified Smerch Missiles they now have less splash damage
+- Modified Razor Bombers the bombs now scatter less and are their for mor accurate
+- Modified Comanche Rocket pod trails
+- Modified Comanche Rocket pod rockets they now travel slightly faster
+- Modified Comanche Rocket pod weapon it now shoots 24 missiles at a random location instead of 20 on fixed locations (damage unchanged)
+- Modified Plasma Tank impact and fire sounds
+- Modified Plasma Tanks weapon range (for both weapons)
+- Modified Plasma Tanks Armor it's now slightly stronger
+
+- Fixed the Launcher, it now works correctly with the wordlbuilder
+- Fixed Several tooltip and hotkey errors
+- Fixed Error where razor bombers could be ordered to attack air units
+- Fixed Issue where chinese bunkers coused the infantry inside to damage the bunker
+- Fixed Battlmasters not getting hordebonus bug
+- Fixed Railguns no longer fire 2 or more shots rapidly at certain times
+- Fixed SuperWeapons General pathfinders now gain the body armor upgrade (they did not in previous versions)
+- Fixed DemoTrap drop the traps now no longer dodge/fly away from the buildings if they are dropped on top of them
+- Fixed Rad Tank animations the closing hatches animation now plays when given a move order after exposing the core
+- Fixed Rad tank reactor cores wiill no longer get damaged by the radiation
+- Fixed Error When the troop crawler would show the gun when really damaged even if it's not upgraded
+- Fixed the error where rangers couldn't use flash bangs on stingersites
+- Fixed error where nuclear missile silos would lose the nuke mig upgrade after upgrading them with mines
+- Fixed error where laser comanche's didn't spawn pilots when destroyed
+- Fixed error where plasma pulses would get affected by ECM jammers
+- Fixed error where nerve gas bombs sometimes did zero effect
+- Fixed issue where nerve gass clouds dissapeared after an anthrax weapon was fired on it or near it
+- Fixed issue where unit could not shoot over small supply piles
+- Fixed error where players would be able to call in a B52 carpet bomber when captured certain usa command centers
+- Fixed issue where the stealth general radar jamming upgrade coused gen powers and stop buttons to become unselectable
+- Fixed commandset error where the helixes had no evacuate button on them if aren't upgraded(speakr, gattling ect.)
+- Fixed issue where players could select the armor and salvage general in the challange
+- Fixed issue where units could not buy drones when you had one EMP MRLS selected and other vehicles
+- Fixed bug where fuel airbomb aurora's blew up each other on bombing runs
+- Fixed Street lights and signs so that they can be run over again (they always could in gen but not in ZH)
+- Fixed bug where smaller trees and bushes where not burnable or runoverable
+- Fixed error where gla mission 2 got stuck in the intro
+- Fixed Issue nuke cannons could enter tank bunkers
+- Fixed issue Stealth Fighters uses the Aurora's report to tell you its "fuel gauges are in the red"
+- Fixed Issue where Demo General's Rocket Buggies did not gain the Demolitions Ability.
+- Fixed Issue where jarmen kell could snipe powerlines on buildings with out the KVSK Upgrade
+- Fixed error where viral strikes and weapons affected drone units (they are not humans who get sick of that stuff)
+- Fixed issue with Chinese supply depots cousing supply truck to drive around it before unloading supplies
+- Fixed Frog Errors with the wheels (they sometimes spinned very fast and some of then turned when they should not)
+- Fixed error where AP gattling cannons would show up right after placing them on night maps
+- Fixed issue that coused lisening outposts to kick out the tank hunters when orderd to attack at random times
+- Fixed Issue where advanced ECM tanks sometimes gave a false range with the attack cursor
+- Fixed Issue where crashing combat Chinooks didn't have the newly added guns and rockets on them vissualy
+- Fixed Issue where toxin technicals had the AP bullets upgrade cameo
+- Fixed Issue where demo battlebusses did not scatter demo traps when destroyed after the demolition upgrade
+- Fixed issue where stealth rebels died standing and captured standing on night and snow maps
+- Fixed Issue where B1 Lancer bomb did not inflict the ammount of damage as it should
+- Fixed Issue that made it possible for none combat units to enter tank bunkers
+- Fixes Issue where infantry could enter a tank bunker
+- Fixed issue where nuke gen gattling tanks could fire through structure
+- Fixed Issue where some techbuildings did not have autohealing
+- Fixed Issue where road grinders would sometimes use gattling tank specific voice reports
+- Fixed Issue where terrorist and terror bikes sometimes didn't do damage when they should
+- Fixed Issue where stealth battlebusses remained stealthed if riders started shooting
+- Fixed Issue where stealth jarmen kell didn't have the new KVSK Snipe sounds when upgraded
+- Fixed Issue where gattling tanks had the empty shell case droping from the front of the barrel when they reach the herioc state of vertancy
+- Fixed Issue where regulair battlemasters with autoloaders did more damage than tank general battlemasters with autoloaders
+- Fixed issue where the ruble left from a demo scud storm looked like the ruble from a normal scud storm
+- Fixed Issue where the infantry flying off a combat bike when destroyed did not look the same as the ones driving them
+- Fixed Issue where Fortified Firebases could not be shutdown by microwaves or advanced ECM tanks
+- Fixed Issue where Battlebus demotraps could not be placed on bridges
+- Fixed Issue were Troop Crawlers with a autocannon did not gain experince
+- Fixed Issue where one could drive vehicles and other units "inside" a warfortress
+- Fixed Issue where some GLA structures could not be shutdown by microwaves (and tank gen ECM Tanks)
+- Fixed Issue that coused the nerve gas bomb to be unavailible for 10 minutes rather than 5 as the tooltip says
+- Fixed Issue where the red detection grid didn't showup on some troopcrawlers and on none of the listening ouposts of any chinese team
+- Fixed issue where stinger site would sometimes not fire at a target even if there is nothing there to prevent them from doing so
+- Fixed Issue where the explosions of nuclear/fusion upgraded tanks would apear on the barrel tip rather than the center of the vehicle
+- Fixed Issue that coused the droping dirt and sand from a all dozer to apear from a wrong angle are not cover the entire part they should
+- Fixed Issue that made the falling shell of the road grinder to apear on the tip of the gun rather than on the back
+- Fixed Issue where some GLA structures could not be shutdown by microwaves (and tank gen ECM Tanks) after the fortified structure upgrade
+- Fixed Issue where there was a invissable indestuctable stealh object on the laser generals challenge map
+
+- Removed Battlebus Disguise from stealth battlebus it was to powerfull and to buggy and sometimes even coused crashes
+- Removed HE Shell upgrade for inferno Cannons  (replaced by new and better upgrade)
+- Removed Fanaticsm Upgrade for stealth general (it changed almost nothing to the infantry so it was just using up a upgrade slot)
+- Removed Molotov Upgrade from stealth genereal (rebels get them by default now)
+- Removed Bunker and tank hunters from infantry generals Hackvan (are now stealthed when not moving which is much more usefull)
+
+
+
+**List of Changes for Shockwave Beta Release 0.93 Since 0.92**
+
+Below is a full change log of all things that were modified and improved about the AI scripts (computer controlled enemies)
+
+- Computer tries to capture the Warfortress.
+- AI cheats to get cash. (main effects are seen in late games)
+- Computer tries to capture the Radio Station (They dont use it but)
+
+USA
+- Uses next gen patriot upgrade
+- USA now uses the Stalker Tank
+- Uses chem suits against nuke gen (All USA sides)
+
+China
+- Uses Mig Afterburner upgrade
+- Uses Helicopter Armour upgrade
+- AI uses tigers
+- AI uses napalm strike
+
+GLA
+- Builds the Airpad
+- Uses the extra salvage upgrade
+- Uses the Ballon
+- Gla uses the Scorpian rocket upgrade
+
+Airforce
+- AI uses Aicraft Ammo Upgrade
+- Drone Armour upgrade is now used
+- Airgen uses chem suit
+- Uses next gen patriot upgrade
+- Uses tow missile upgrade
+- Airforce uses the strategy center on normal mode (previously it didnt)
+- AI uses skycrane
+
+Laser
+- Ai builds Humvee laser
+- AI build all its drone variants
+- AI switch between flashbangs and machine guns
+- AI builds PDL for aircrafts
+- AI garrasions the Firebase more often
+- builds focusing crystals upgrade
+- Builds the control rod upgrade
+- AI builds sentry drone laser gun
+- Uses the F/B-22 strike gen power
+- uses the paradrop again
+- Now buys the Advance training upgrade
+
+Superweapon
+- Uses Alpha Auroras
+- Uses empmrls
+- Upgrades to combat vest
+- Upgrades to advance training
+- Upgrades Drone armour
+- upgrades laser missiles
+- Ai builds bunkerbusters upgrade
+- Uses the rod from god
+
+Tank
+- Mass Production upgrade is now used
+- Reactive Armour upgrade is now used
+- AI builds Reaper
+- AI Builds Airfield
+- AI uses Razor Bombers
+- AI uses Helix
+- Napalmstrike is now used by the AI
+
+Nuke
+- Uses the artillery barrage
+- uses the nuke drop
+- uses the nuke carpet bombing
+- upgrades to chem suits
+- upgrades weapons grade uranium shell
+- upgrades fusion reactor
+- upgrades helix armour
+
+Infantry
+- Uses beserks
+- uses helix
+- Gave infernos a more prominent role
+- Deactivated the Nuetron shell upgrade
+- deactivated irrelavent scripts
+
+Demo
+- builds the scorpian rockets upgrade properly
+- builds HE shell upgrade
+- Bombtruck upgrades to high explosive
+- Terrorist ambush works
+- Streamelined some stuff because the scripts were recalling some redundant stuff.
+
+Toxin
+- Builds Gamma toxin upgrade
+- Builds Scorpian rocket upgrades
+- Builds Virus upgrade (will make the smerch and other units use this power later on)
+- Deactivated a few redundant scripts
+
+stealth
+- Builds the Frog-7
+- Builds stinger soldier upgrade
+- Builds scorpian rockets upgrade
+- Builds machine gunner site
+- Deactivated some redundant scripts
+
+
+
+**List of Changes for Shockwave Beta Release 0.92 Since 0.91**
+
+	**New Features in 0.92** 
+		- New Tech Buildings
+		- Perfect Balancing (at least, according to the test results)
+		- All bugs of previous Versions Fixed
+		- New units, sounds, and effects
+
+	-Bugs Fixed since 0.91
+		- All Bugs Reported in the Public forums
+		- Jarmen Kell can no longer snipe flying vehicles (with the kill vehicle crew abbility)
+		- Fixed issue where stealth battlebusses didn't reveal themselves while attacking with a dissguise
+		- Removed the emp sphere effect from emp mines (which should solve certain game crashes)
+		- Infantry squads bugs reduced (they can't be fixed completly but they happen alot less now :) )
+		- Fixed the Airforce Generals Comanche so that the rocket pods show up correctly after the pilot training generals power has be selected
+		- Terrorists now die properly when killed by toxins (instead of standing there like Jesus H. Christ)
+		- Tweaked Laser Comanches, which should solve the instant death problem
+		- Firebases can now be targeted by toxin tractors and other toxin weapons
+		- Hover MRLS now shows a proper wreckage when crushed instead of a crushed tank
+		- Vannila China Propaganda Centers no longer have auto rallypoints
+		- Fixed Animation errors with machinegun site soldiers
+		- Herioc (3 stripes)Pilots are now no longer slower than veteran and elite pilots
+		- Edited Combat Chinooks wreckage it's now larger to match the size of the combat chinook
+		- Fixed Missing name error for King Stealths
+
+	- All USA Armies
+		- Microwave now has more range and damage (for the frying weapon)
+		- Firebases will now be able to fire over other defences and buildings
+		- Raptors have a new missile model
+		- Rocket Avengers now fire 4 rockets and the rockets are no longer affected by lasers or countermeasures
+		- All USA paradrops now also have missile defenders (and laser defenders for laser gen)
+		- Increased the paradrop reload times from 4 minutes to 5 minutes
+		- Comanches now land for pilots that want to enter them
+		- Microwave Tanks are now more resistant to infantry rockets (just like toxin tractors and dragon tanks are)
+		- All Ambulances now heal vehicles (in that other versions only the vannila one did this)
+
+	- Normal USA
+		- Added Pillbox defence
+		- Added Stalker Tank
+
+	- USA Air force General
+		- HALO troopers fall down faster
+		- Added rocket pods and chaingun to combat chinook and decreased the amount of infantry it can carry from 8 to 6, upped the cost from 			1200 to 1600, Build time increased from 16 to 20 seconds, speed reduced (is now 15% slower as normal chinooks)
+		- Renamed King Comanche to Stealth Comanche
+		- King Raptors don't detect stealth units anymore
+
+	- USA Laser General
+		- Laser Defenders can no longer shoot down Auroras while doing their super sonic attack run
+		- Laser Paladin now costs 1200 instead of 900
+
+	- USA Super Weapon General 
+		- EMP MLRS can now also fire HE Missiles as alternative attack mode
+
+    - All China Armies
+		- hack vans now cost 1000 for all teams
+		- both the mig nuke and emp bomber have more armor and bombs fall down faster
+		- Beefed up the chinese nuclear explosion of the nuclear missle
+		- Migs now have a new sounds when crashing (was ingame but never implanted)
+
+	- Normal China only 
+		- Troop Crawlers can now be upgraded with a autocannon.
+
+	- China Tank General
+		- Warmaster tanks now cost 1000
+		- Warmaster rocket pods now cost 200
+		- all tank gen tanks gain a new visual look when upgraded with armor
+		- Tank Gen armor upgrade renamed to "Reactive Armor Upgrade"
+
+	- China Infantry General
+		- paradrop now also has tank hunters (otherwise it would be unfair towards the other paradrops)
+		- Tank hunter barrage missiles for the infantry general now do 16.6% more damage and have 50% larger splash damage
+
+	- China Nuke General
+		- Isotope stability now costs 1000 instead of 2000 and is researched faster
+		- Nuke overlords can now gain speakers and radars
+		- Now has a new gattling cannon with no prespin and a higher rate of fire
+		- Added R.A.D. Tank For nuke general (replaces dragon tank)
+		- Tacticle Nuke MiG upgrade no longer availible from airfield and must now be bought at the nuclear silo
+
+	- All GLA Armies
+		- Rebel ambush now also spawns rpg troopers along with the rebels
+		- Increased the ambush reload times from 4 minutes to 5 minutes
+		- Tunnel Networks with camo netting can now be set to hold and free fire modes
+
+	- Normal GLA Only
+		- Scorpion wheeled upgrade now costs 50
+		- Added GLA Balloon for reg. GLA (build at blackmarket)
+
+	- GLA Demolition General
+		- Terrorist ambush now spawns 2 terrorists with level 1, 4 with level 2, and 8 with level 3
+		- ZSUs now have splash damage on ground targets
+
+	- GLA Toxin General
+		- Toxin marauders now have a new look and better weapons and also special salvage upgraded turrets
+		- Toxin scorpions can now transport 2 soldiers and the scorpion no longer needs to turn the entire chassis to fire a scorpion rocket
+		- Toxin RPG Troopers now properly play the firing animation when firing at airborn targets
+
+	- GLA Stealth General
+		- RPG Troopers of the stealth general are now stealthed if they are not attacking or moving
+		- Radar Jammers now show a radius cursor for the players to see which areas are jammed
+		- Added Combat Technical
+		- Added Frog-7 Rocket Launchers (replaces Scud Truck)
+		- Added Radar Truck (replaces Radar Van
+
+
+
+**List of Changes for Shockwave Beta Release 0.9 Since 0.8**
+
+
+	**New Features in 0.9** 
+
+	- More new sound effects
+	- Many bug fixes since the last version
+	- Many Improved,Tweaked and new Particle Effects
+	- New Skrimish AI For all sides and generals
+	- Grenerals Challange has been remade and all generals now use there new units and upgrades and General Juhziz
+	  is now in the generals challenge
+	- New Shellmap
+
+	-Bugs Fixed since 0.8
+		-Purple Scud Truck for the stealth general 
+		-GLA Toxin general: SCUD Launcher should be renamed to Smerch Launcher.
+		-Raptor ammo upgrade - it is incorrect. It should be named "Aircraft ammo" 
+		-Nuke general Artillery barrage available at rank 1 
+		-Stealth general Scorpions should not have "Scorpion Wheels" upgrade button. 
+		-Rocket Buggy and Toxin scud have bugs with there head lights 
+		-Inferno Cannons do not recoil when firing there napalm shells 
+		-Tank Generals Battle Master Barrel does not recoil 
+		-Robot Tanks do not gain effect from the drone armor while they should
+		-Robot Tanks have drone upgrades in there commandset which they should not 
+		-Robot tanks love to get on the head of each other 
+		-Only the demo saboteur uses the fixed climbing anims all saboteurs should 
+		-Only Toxin jarmen kell uses a fixed fire animation while all jarmen kell's should 
+		-Emp MRLS genpoint button does not make the new sound when clicking it 
+		-Railgun artillery show a different name on the gen power button 
+		-Nuke Generals troopcrawler is filled with vannila china redguards 
+		-The ZSU-57 does not gain the demolition upgrade 
+		-Siege soldiers sometimes walk to close to a defence before they attack 
+		-Units fire at burning or poisned infantry which are actualy allready dead 
+		-Nuke Siege soldiers can fire a small nuke while they should not be able too 
+		-Defences fire at overlords scrap peices 
+		-Overlord Gattling cannon does not show muzzleflashes 
+		-ZSU-57's don't have a red explosion effect when upgraded with HE shell's 
+		-Sentry Drones & Gattling tanks have a bug with there headlights
+		-Humvee laser have wrong point it fires from. 
+		-Tank generals ECM does not aim with the dish when attacking buildings 
+		-Battle master do not gain anything from the autoloader upgrade for normal china 
+		-Small cannons such as Robot tank gun should not shake the screen 
+		-Stealth Rebels show a huge muzzle flash sometimes in night/snow missions 
+		-Railgun artillery makes infantry fly insane high and vehicles only a bit
+		-Toxin grenadier explosion FX should be blue (purple when upgraded)
+		-Some artillery units do not have ground attack buttons or have wrong images 
+		-Robot Tanks can be dissabled with the jarmen kell sniper abbility 
+		-EMP Missile Defenders missiles played the dissable sound when ever a emp missile hits something 
+		-EMP Missile Defenders cannot dissalble robot tanks or Hover MRLS's 
+		-Nerve gass based weapons can dissable drone units 
+		-Scud Trucks have a anthrax and HE warhead button while they cannot switch 
+		-Wrong Toxin Tractor Cameo for all toxin tracktors 
+		-Using alot of toxin rocket buggies couses a major lag problem 
+		-Dragon Tank showing a wrong name on the build button for the nuke general 
+		-Missing Text errors & spelling, grammar mistakes  
+		-Neutron Shell back fire bug 
+		-Some 1.03 Changes are not implanted 
+		-Upgrade Cameos which have no function (red guard & Raptor) 
+		-Super Lotus not as good select able as other units 
+		-Scud Storms do not gain profit of the fortified structures upgrade 
+		-GLA bikes get destroyed if no passenger is on them 
+		-Demo gens ZSU does not kickup dirt when moving 
+		-Siege cannons and nuke cannons of the nuke gen should start as veterans
+		-EMP MRLS fire fx does not match correctly with the vehicle 
+		-Kassad's Toxin Tractor doesn't get the commandset upgrade to show the Anthrax Beta contamination cameo 
+		-The Humvee model problem the tow missile was always fired from the same location
+		-Machine Gun site does not gain fortified armor 
+		-Radius Cursor of the nuclear strike does not match with the one after selecting a target 
+		-Siege Soldiers have the problem that they move to targets while they actualy are in weapons range 
+		-Siege Soldiers had a problem with the shell coming from there feet and not the mortar barrel 
+		-Nuke MiG/MiG bomber instant reload bug 
+
+	-All USA Armies
+		- tomahawk missiles now have rocket engine sounds
+		- New Weapon Sound for the pathfinder
+		- New Firebase model
+		- Stealth Fighters no longer created a bunker buster explosion with every singel missile only the last
+		  missile that is fired will create a bunker busting explosion
+		- Comanche Rocket Pods now have a new missile trail and explosion effect
+		- All wheeled Vehicles now have suspensions on the wheels
+		- All wheeled Vehicles now have snow treads on snow maps
+		- Avengers now have a small turret for the target laser
+
+	-Normal USA
+		- no changes since 0.8
+
+
+	-USA Air force General
+		- Counter measures are more effective for this general
+		- Removed Afterburner Upgrade
+		- New Advanced Patriot Model
+		- New Acolyte Drone
+		- Crusader Replaced by leopard light tank
+		- Ranger Para Drop Replace with HALO (High altutide low opening) Ranger drop
+
+	-USA Laser General
+		- New Laser Comanche Model
+		- New Laser paladin model & fire sounds
+		- New Railgun artillery Model & weapon effects
+		- New model for the Humvee when upgraded with laser
+		- New Particle Cannon uplink renamed to Laser Cannon uplink
+
+	-USA Super Weapon General 
+		- New Enforcer Plasma Tank
+		- New Fortified Firebase
+		- New Generals Power "Pop Turret Drop"
+		- New Particle Cannon Model
+		- Particle Cannon uplink renamed to Advanced Particle Cannon uplink
+
+	-All Chinese Armies 
+		- New Flare Mortar Upgrade for siege soldiers
+		- Neutron Mines replaced by EMP Mines
+		- Neutron Bomb Upgrade for the EMP Bomb
+		- New Napalm Strike Generals power
+		- New Black lotus System hack upgrade (calls in a random enemy superweapon)
+		- Overlord/Helix Gattling Cannons nolonger detect stealth units
+		- New Overlord Radar Station upgrade (makes Overlords able to detect stealth units also functions as a 			  radar
+		- New Siege Soldier Cameo
+		- Troop Crawlers can now travel over land and water
+
+	-Normal China only 
+		- New MiG EMP Bomber
+
+	- China Tank General
+		- New AP Gattling Cannon
+		- New Tank Bunker
+		- New Emperor Model
+		- New Gattling Tank Training Generals power		
+		- Warmaster rockets now contain napalm
+
+	- China Infantry General
+		- New Infantry Squads (groups of tankhunters and minigunners led by a officer)
+		- New Officer (heals nearby infantry and is armed with a small hand gun)
+		- New Road Grinder model
+		- New Berserk MLRS
+		- New Fortified Gattling Cannon
+
+	- China Nuke General
+		- New Nuke Red Guard Model 		- New Nuke Hacker Model
+		- New Nuke Black Lotus Model
+		- New Nuke MiG Bomber Model
+		- Siege cannons now also benefit from Fusion Reactors and WG Uranium Shells
+
+	- All GLA Armies
+		- Combat bikes will no longer be destroyed when no infantry is on the bike
+
+	- Normal GLA Only
+		- no changes since 0.8
+
+	- GLA Demolition General
+		- New Topol M mobile ICBM
+		- New Mantis Tank
+		- New Demolition Battle Bus (can lay down small demo traps)
+
+	- GLA Toxin General
+		- New Toxin Tractor with more armor
+		- New Tocin Technical
+		- New Toxin Bomb truck model
+		- New Toxin Grenadier Model
+		- Toxin Bomb truck now scatters toxin barrels after exploding
+		- Combat bikes with toxin rebels now fire a toxin stream
+		- Smerch MLRS now fires Faster
+		- New viral Strike gen power (Demoralizes Enemy troops and slowly kills infantry)
+		- New Viral Warhead upgrade (enables the smerch to fire viral tipped rockets)
+
+	- GLA Stealth General
+		- New Sniper Quad Cannon (does not kill infantry instantly but is a normal quad cannon with 30% more range and does not need a upgrade)
+		- New Machinegun Site Model
+		- Machingun site now has 4 gunners instead of 3
+
+
+
+**Full List of Changes for Shockwave Beta Release 0.8**
+
+
+	**Features** 
+
+	- Over 300 new sound effects
+	- New voices for units and upgrade
+	- Reimplementation of some alpha / beta units
+	- Many enhancements in particle effects and weapon effects
+	- All generals now have there own unique armies and more special units and powers
+	- Many Bug Fixes that where present in the original game
+	- Many Graphical problems fixed of the in game models and cameos
+
+	- Common Changes For all armies and the game play
+		- increased the standard camera height
+		- The 3 and 4 star promotions will give you 2 extra points instead of 1
+		- All small cameos that had no border effect in ZH now do have the border effect
+		- All tanks have a slightly large explosions effect as they used to have
+		- Infantry's will bleed when hit by weapons
+		- Capturing buildings now goes 25% faster as originally
+		- Added Trail effects for all artillery weapons
+		- Added shockwaves to all nuclear and fuel air bomb type weapons
+		- Added new sound effect when choosing a generals power
+		- Laser based weapons now set infantry on fire
+		- All Recoil and muzzle flash bugs have been fixed for vehicles that had more than 1 weapon
+		- Several Unused voices are now enabled
+		- New Carpet-bomb bomb model
+		- Start units all armies will now start with 3 basic tanks 2 basic scout units and 4 basic infantry
+
+	-All USA Armies
+		- Normal Avenger replaced by rocket avenger (only the laser general has the old one)
+		- New Laser Sounds for the point defence laser of the avenger
+		- New model for the tomahawk launcher
+		- New detonation and fire sounds for tomahawk missiles
+		- New fire and detonation sounds for the fire base
+		- New fire and detonation effects for the fire bas
+		- Aurora's now need a level 1 general’s point to be build
+		- Spectre gun ship now comes in 3 levels instead of 1
+		- Stealth fighters no long need a general’s point to be build
+		- Microwave beam color changed to blue
+		- Added Upgrade for Col. Burton OICW Rifle (allows him to fire long range grenades)
+		- Added Next generation patriot upgrade for patriot batteries (15% bonus range, ROF and damage)
+		- Added new weapon sound for the spectre gunship
+		- When a building is destroyed it will now spawn the correct rangers of the USA army you’re playing
+		- Fixed the sentry drone model so that the skins now match with the other USA units and improved the animation
+		- New Fire sound for the paladin
+		- New Patriot Missile trail
+		- New Cameo for the spy drone generals power
+		- New Supply Lines cameo
+		- New Cameo when selecting a spectre gunship
+		- New Raptor Cameo
+		- New Chinook Cameo
+		- New tomahawk cameo
+		- New Comanche Cameo
+		- New Cameo for the paladin
+		- New Crusader Cameo
+		- New Barracks Cameo
+		- New War factory Cameo
+		- New Microwave Cameo
+		- New Cameo for the hellfire drone
+
+	-Normal USA
+		- Added new unit the Hover MRLS (fast hovering and fires 2 anti armor missiles)
+		- Added New unit the Marine (strong infantry and able to place explosive charges)
+		- Added New upgrade Tomahawk waypoint targeting (allows tomahawks to share coordinates of the target with other tomahawks)
+
+	-USA Air force General
+		- King Raptor ammo decreased to 4 by default
+		- New Airplane Ammo Upgrade (give the Comanche, raptor and stealth 2 extra missiles)
+		- Lasers defences removed from all planes
+		- Now starts with counter measures
+		- New King Stealth Fighter (more armor)
+		- New Hyper sonic aurora (faster and more armor)
+		- New Stealth Comanche (no longer needs upgrade for stealth)
+		- Added new unit B1 Lancer (drops a cluster bomb and needs a lvl1 generals point)
+		- Starts with aurora's
+		- New sound effects for the Comanche machinegun
+		- New afterburner upgrade (gives the raptor and stealth fighter a speed boost)
+		- Added new generals power pilot veteran training (all planes will be build as veteran) 
+		- The b3 Carpet bombing is now a lvl3 general’s power
+		- Can now build crusader tanks (costs more and no armor upgrades available)
+		- New Advanced patriots (have 50% faster missiles making them more effective vs. airborne targets)
+
+	-USA Laser General
+		- Removed Aurora
+		- Removed Stealth fighter
+		- Removed Bunker buster upgrade
+		- Removed Rocket Pod upgrade
+		- Removed Counter measures upgrade
+		- Added Airplane laser defences upgrade
+		- New Laser Comanche (fires 8 laser shots)
+		- Added Laser Paladin (stronger than the laser tank needs lvl1 generals point)
+		- Added Railgun artillery (fires a railgun needs a lvl1 generals point)
+		- New Laser Ranger
+		- New Laser Defender
+		- New Laser Burton
+		- New Laser Turret Sound
+		- New Laser Particle Beam (has a Red beam and does a little more damage)
+		- Added Laser upgrade for the Humvee
+		- Added Laser Upgrade for the sentry drone
+		- All laser weapons have there own sound effects
+
+	-USA Super Weapon General 
+		- New Mortar Humvee
+		- Added Robot tank (hovers fast and fires a small tank cannon)
+		- Added EMP MRLS (fires a barrage of 6 unguided EMP missiles)
+		- New sound effects for the EMP missile
+		- New EMP Missile Defender (can fire EMP and normal missiles)
+		- Added Combat Vest Upgrade (25% extra Armor for all infantry)
+		- Decreased the destructive power of the alpha aurora
+		- Added New unit the Marine (strong infantry and able to place explosive charges)
+		- New skin for the alpha aurora
+		- Added Bio Hazard Technician (cleans toxins)
+		- Advanced Particle Cannon (has a pink beam and does a little more damage)
+		- Starts with Next Generation Patriot Missiles
+
+	-All Chinese Armies 
+		- Added Helix Armor upgrade (adds 25% extra armor)
+		- Added Mig Afterburner upgrade (Adds 25% extra speed)
+		- Added Siege Soldier (powerful artillery unit fires a mortar needs a lvl1 generals point)
+		- Added Hack Van (4 hackers can hack inside this van like a internet center needs a lvl3 generals point)
+		- Added Inferno Cannon AP Shells (very effective vs. enemy armor less vs. infantry and buildings)
+		- Remove Satellite Hack 2 (only available to the infantry general now)
+		- Added hacked spy satellite (becomes available after satellite hack 1 works like the spy satellite)
+		- Helix Gatling cannons do more damage than regular Gatling weapons
+		- Gatling cannons now cost 900$
+		- Red Guard Training renamed to Red Army Training and now effects all combat type infantry
+		- Nuclear missiles will now do there damage in a wave and not in a single blow
+		- Nuclear missiles will now make all objects around them fly away from the area of impact
+		- New Carpet Bomber Model
+		- New ECM Tank cameo
+		- New Internet Center Cameo
+		- New Supply Center model
+		- New Helix Cameo
+		- New Battle Master Cameo
+		- New Dragon Tank Flame Effect
+		- New Gatling cannon model when upgraded with Chain guns
+		- New Gatling cannon sounds for both upgraded and not upgraded
+		- New Gatling tank sound when upgraded
+		- New Helix Weapons sound
+		- New Helix Upgrade cameos
+
+	-Normal China only 
+		- Battle Master Autoloaders (2 shell burst not 3 like the tank general has)
+
+	- China Tank General
+		- New Battle master model
+		- Battle masters now have a stronger weapon and armor as other battle masters
+		- Added Warmaster Tank (needs a lvl1 generals point can be upgraded with missiles)
+		- Added Armor upgrade (gives the emperor, battlemaster and warmaster 25% more armor)
+		- New Emperor fire sounds
+		- New Advanced ECM tank (longer range and can disable buildings)
+		- New Gatling Tank (more armor)
+		- Changed Battle master training into tank training (emperors and warmasters are now also effected)
+		- New Transport Helix (has speaker tower by default and can transport more tanks can also be upgraded with gatling cannon)
+		- Hacker cost decreased to 625$
+
+
+	- China Infantry General
+		- Added Tank hunter barrage upgrade (fires the missiles unguided in all directions on a target location)
+		- Added new units Road Grinder (like a humvee but with only 4 slots and a small gatling cannon)
+		- Added New unit Light tank (faster and but weaker than a normal battle master)
+		- Minigunners now gain a damage increase from the chain gun upgrade
+		- Fortified bunkers can no longer hold 10 infantry but only 5 but have twice the armor normal bunkers have
+		- New Double barreled tank hunters
+		- New Super Hacker Model
+		- New Super Lotus Model
+		- New Assault Troop Crawler model
+		- New Attack Outpost model
+		- Attack outpost no longer has any propaganda effects and only has 6 slots and starts with 4 tank hunters
+		- Removed emergency repair and replaced it with Cash Hack
+		- New Assault Helix Cameo 
+		- Assault Helix can now be upgraded with propaganda tower and napalm bomb
+		- Siege Soldier does more damage
+
+	- China Nuke General
+		- Added Elite Artillery Training
+		- Added New Nuke helix model
+		- Added New Nuke Cannon model
+		- Added New Nuke Overlord model
+		- Overlords can no longer get any object upgrades (gatling cannon etc.)
+		- Fusion Reactor upgrade (Tanks gain a 25% speed increase)
+		- Weapons Grade Uranium shells (Tanks gain a 25% increase of damage)
+		- New Nuke Tank Hunter
+		- New Nuke Hacker (can place nuclear charge and loses the building hack ability)
+		- New Nuke Lotus (can place nuclear charge)
+		- New Nuke Battle Master Cameo
+		- New Nuke Mig cameo
+		- Added new unit Mig Nuke Bomber
+		- Added New Unit Siege cannon (fires a explosive shell with radiation and replaces the inferno cannon)
+		- Tanks now have smaller radiation fields and get bigger field when upgraded with Weapons Grade Uranium shells
+
+	- All GLA Armies
+		- Tunnel Networks and Stinger Sites now gain profit of the fortified structure upgrade
+		- Tunnel Networks now have a new firing sound
+		- Technical now has new firing sound for all 3 salvage states
+		- All GLA Cameos now show the green Team Color instead of red or white which some had
+		- New Cameo for the Rebel
+		- New Cameo for the RPG Trooper
+		- Saboteurs now have a climbing animation when climbing a cliff rather than walking into the cliff
+		- Stinger Sites now do more damage to grind target (damage for air targets unaltered)
+		- Scud Storm Missiles now make flyby sounds when diving to the target
+		- New Cameo's for the Booby Trap
+		- GPS Scramble now comes in 3 levels at lvl3 instead of one at lvl5
+		- Added New lvl3 Generals Ability Salvage drop a plane comes by and drops 6 salvage crates
+		- Rocket Buggies can now be upgraded with salvage crates
+		- Rocket Buggies now have the old rocket trail and effect they used to have on the pre release screenshots and movies
+		- RPG Troopers have a new rocket trailer
+		- New Worker shoes cameo
+
+	- Normal GLA Only
+		- Scorpion Tanks Can be upgraded with wheels (upgrade per scorpion increases the speed and decreases the armor)
+
+	- GLA Demolition General
+		- Added new unit mobile demo trap (stealthed when not moving and will detonate when a vehicle drives over it)
+		- Added New lvl3 Generals Power Demotrap parabombing (comes in 3 levels)
+		- Added New lvl3 Generals Power Terror cell (spawns terrorists at a target location replaced the rebel ambush comes in 3 levels)
+		- Added New upgrade HE RPG rockets (enable the RPG trooper to fire a single destructive RPG rocket)
+		- New ZSU-57 Flak Tank (replaced the quad cannon)
+		- Added New upgrade for bombtruck (nuclear warhead increases the damage 25% and leaves radiations)
+		- Replaced the Anthrax bomb with the black-market nuke
+		- New cameo for combat bike (showing a terrorist instead of a rebel)
+		- New Demolition RPG Trooper
+		- New Rocket Tunnel Network
+		- New Demolition Rebel
+		- New Demolition Saboteur (need a lvl3 general’s point)
+		- New Demolition Terrorist
+		- New Demolition Scud Storm model
+		- New Marauder (can get a scorpion rocket and loses the 2 barreled turret salvage upgrade)
+		- Added HE shell upgrade (tanks get 25% more damage)
+
+	- GLA Toxin General
+		- New Toxin Scorpion tank (get a toxin scorpion rocket)
+		- New Toxin Rocket Buggy
+		- New Toxin Marauder (2 barreled turret salvage upgrade)
+		- New Toxin Tractor (more armor as the normal ones)
+		- New Toxin RPG Trooper
+		- New Toxin rebel cameo
+		- New Toxin Stinger site
+		- New Toxin Terrorist cameo
+		- Toxin terrorists now spread more toxins
+		- Added New upgrade for toxin terrorist nerve gas pack (nerve gas kills vehicle pilots most be upgraded per terrorist)
+		- Added new lvl3 generals power nerve gas bomb (kills infantry and vehicle pilots)
+		- New Chemical Scud launcher fires 16 smaller scud missiles with toxins
+		- Toxin Grenadier (fires a toxin grenade at a large range)
+
+	- GLA Stealth General
+		- Starts with wheeled Scorpions
+		- New Scud Truck (faster as normal scud launcher but weaker and they are slower as a rocket buggies, needs a lvl1 generals point)
+		- Added new Fundamentalists (Cheap and weak but armed with ak47, shotguns and Uzi’s very effective vs. anything)
+		- Added new unit assassin (Sniper units stealthed when not attacking needs lvl3 generals point)
+		- Battle busses can disguise them selves like bombtrucks
+		- Added new building machinegun site (like stinger site but with machine gunners)
+		- Added new unit mobile supply stash (work like supply stash and comes with 4 workers)
+		- New RPG Trooper (can be upgraded with stinger)
+		- Added new upgrade stinger (all RPG troopers receive e stinger launcher making there missiles faster)
+		- Added new upgrade Quad Sniper (allows quad cannons to kill infantry very fast)
+		- New Stealth Rebels (armed with a stronger weapon)
+		- Added new upgrade Molotov cocktails (rebels will be able to use Molotovs)
+		- Added New Fanaticism Upgrade (all infantry become more aggressive)
+
+
+
+
