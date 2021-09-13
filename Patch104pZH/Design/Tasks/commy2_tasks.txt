@@ -9,7 +9,7 @@ https://github.com/commy2/zerohour/issues/225 [DONE][NPROJECT]        Spectre Lo
 https://github.com/commy2/zerohour/issues/224 [DONE][NPROJECT]        Mixing Battle Masters From Different Sub-Factions Does Not Grant Horde Bonus
 https://github.com/commy2/zerohour/issues/223 [DONE][NPROJECT]        Sentry Drone Lacks Voice Line When Leaving Factory
 https://github.com/commy2/zerohour/issues/222 [MAYBE]                 Poison Fields Can Clear Poison Fields
-https://github.com/commy2/zerohour/issues/221 [IMPROVEMENT][NPROJECT] Units Sometimes Waste Shots On Overlord Debris
+https://github.com/commy2/zerohour/issues/221 [DONE][NPROJECT]        Units Sometimes Waste Shots On Overlord Debris
 https://github.com/commy2/zerohour/issues/220 [DONE][NPROJECT]        Units Sometimes Waste Shots On Poisoned Or Burned Infantry
 https://github.com/commy2/zerohour/issues/219 [MAYBE][NPROJECT]       Stinger Site Does Not Benefit From AP Rockets When Engaging Airborne Targets
 https://github.com/commy2/zerohour/issues/218 [NOTRELEVANT]           Hackers Are Bad Late Game Eco
