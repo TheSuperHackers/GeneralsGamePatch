@@ -1,15 +1,43 @@
 # GeneralsGamePatch
-Generals Game Patch to fix most bugs and balancing issues in Zero Hour 1.04
+Welcome to the Generals Game Patch project that aims to fix and improve the original Generals Zero Hour 1.04 version.
 
-Community Survey 1: https://bit.ly/zh_survey_1ben
+### Core objectives
+- Fix game crashes, exploits and bugs
+- Fix severe faction balancing issues for Multiplayer
+- Stay true to the original content, design and art direction of Generals Zero Hour 1.04
 
-External Forum Discussion Topic: https://bit.ly/zhpatch
+### Additional objectives
+- Build new tools to simplify access and use of Mods, Addons and other optional game content
+- Retain best compatibility and accessibility to Original Game version(s), Mods, Addons and Custom Maps
+- Improve Game AI
+- Improve Menu operability and visuals
+- Improve Control Bar operability and visuals
+- Fix and improve some models, textures and audio
+- Fix and improve Official Maps
+- Add new Language(s)
 
-Issues & Tasks:
+### Community Survey
+1: https://bit.ly/zh_survey_1ben
+
+### External Discussions
+https://bit.ly/zhpatch
+
+### Issues & Tasks
 - https://github.com/xezon/GeneralsGamePatch/issues
 - https://github.com/xezon/GeneralsGamePatch/tree/main/Patch104pZH/Design/Tasks
 
-Bug fixes and improvements applied so far, in no particular order:
+### How to contribute
+If you are new to Git, you will need to learn how to use it. Search the web to find resources and git client apps to help you. Fork this repository, clone the fork, commit your changes and create a pull request that we can review.
+
+### How we approach core objectives
+In our first survey we asked community how they feel about addressing bugs that affect gameplay: More than 90% of players want bugs to be fixed. Based on this result and also our discussions and experiences in the developer team, we decided to tackle changes and fixes with the following approach:
+
+1. Changes and fixes are decided and created in isolated development branches. If a change has severe controversial, but potentially positive effects on gameplay, then it will be reviewed and tweaked before it goes into the main branch.
+2. Changes and fixes are merged into the main development branch, so that they can be tested in a combined setting. No changes are cemented: Tests, reviews and tweaks may be necessary to adjust changes further to fit them together well. If a change causes negative consequences that cannot be tweaked away in a good way, then it may be reverted entirely to the original state.
+3. Changes and fixes may require input from pro players for accurate evaluation. Ideally changes are looked at in test environments and real matches to gather accurate data and impressions of a given change. It is worthwhile to know and consider which other controversial changes exist within the same game setting, as they can influence each other.
+4. Changes and fixes may be subject to a matter of preference that requires the whole community to give input on. In such cases we will include related questions in new surveys and evaluate and apply the results accordingly.
+
+### Bug fixes and improvements applied so far, in no particular order
 - Fixed issue that showed wrong model of GLA Battle Bus in bunkered state
 - Fixed exploit that granted USA a significant amount of cash after building a Drop Zone
 - Fixed issue that would permanently reduce the power level of a faction
