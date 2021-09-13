@@ -108,7 +108,7 @@ https://github.com/commy2/zerohour/issues/114 [DONE][NPROJECT]        Hitting Ba
 https://github.com/commy2/zerohour/issues/113 [MAYBE][NPROJECT]       Flashbangs Cannot Target Stinger Sites
 https://github.com/commy2/zerohour/issues/112 [IMPROVEMENT][NPROJECT] Stealth Fake Arms Dealer Missing Camo Netting Upgrade Icon
 https://github.com/commy2/zerohour/issues/111 [DONE][NPROJECT]        Stealth General Saboteur Uses Rebel Death Scream
-https://github.com/commy2/zerohour/issues/110 [IMPROVEMENT][NPROJECT] Anthrax Beta And Gamma Upgrade Icons Missing From Many Objects
+https://github.com/commy2/zerohour/issues/110 [DONE][NPROJECT]        Anthrax Beta And Gamma Upgrade Icons Missing From Many Objects
 https://github.com/commy2/zerohour/issues/109 [IMPROVEMENT][NPROJECT] Some Helixes Missing Napalm Bomb Upgrade Icon
 https://github.com/commy2/zerohour/issues/108 [IMPROVEMENT][NPROJECT] Chinook and Supply Center Upgrade Icons
 https://github.com/commy2/zerohour/issues/107 [IMPROVEMENT][NPROJECT] Pilots Have Misleading Upgrade Icons
