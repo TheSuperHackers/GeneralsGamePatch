@@ -125,7 +125,7 @@ https://github.com/commy2/zerohour/issues/97  [NOTRELEVANT][NPROJECT] Infantry G
 https://github.com/commy2/zerohour/issues/96  [IMPROVEMENT][NPROJECT] Vanilla China Troop Crawlers Missing Detection Effect
 https://github.com/commy2/zerohour/issues/95  [IMPROVEMENT][NPROJECT] Inconsistent Outpost Geometry
 https://github.com/commy2/zerohour/issues/94  [DONE][NPROJECT]        Tank And Nuke Outposts Fail To Attack Buildings
-https://github.com/commy2/zerohour/issues/93  [IMPROVEMENT][NPROJECT] Vanilla China Outposts Missing Detection Effect
+https://github.com/commy2/zerohour/issues/93  [DONE][NPROJECT]        Vanilla China Outposts Missing Detection Effect
 https://github.com/commy2/zerohour/issues/92  [REJECTED][NPROJECT]    Speaker Tower Sufficient For Player Survival
 https://github.com/commy2/zerohour/issues/91  [MAYBE]                 Flashbangs Can Clear Mines
 https://github.com/commy2/zerohour/issues/90  [NOTRELEVANT][NPROJECT] Jarmen Kell Can Snipe Landed Chinooks And Helixes
