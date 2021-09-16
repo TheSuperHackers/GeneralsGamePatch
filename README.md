@@ -164,14 +164,14 @@ In our first survey we asked community how they feel about addressing bugs that 
 
 ### Global Changes
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Emergency Repair | | | 240 | 120 |
 
 ### Global China
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Cash Hack                |      |      | 240 | 180 |
 | Frenzy                   |      |      | 240 | 150 |
 | Nuclear Missile          |      |      | 360 | 300 |
@@ -192,8 +192,8 @@ In our first survey we asked community how they feel about addressing bugs that 
 
 ### China
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Red Guard         |      |      | 10 |  9   |
 | Tank Hunter       |      |      |  5 |  4.5 |
 | Hacker            |  625 |  550 | 20 | 15   |
@@ -210,8 +210,8 @@ In our first survey we asked community how they feel about addressing bugs that 
 
 ### Infantry China
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Para Drop        |      |      | 240 | 210   |
 | Hacker           |  625 |  600 |  20 |  17.5 |
 | Mig              | 1200 | 1350 |     |       |
@@ -222,8 +222,8 @@ In our first survey we asked community how they feel about addressing bugs that 
 
 ### Nuke China
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Nuclear Missile   | 4500 | 5000 |    |    |
 | Power Plant       | 1200 | 1100 |    |    |
 | Isotope Stability |      |        60 | 40 |
@@ -239,8 +239,8 @@ In our first survey we asked community how they feel about addressing bugs that 
 
 ### Tank China
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Tank Drop         |      |      | 240 | 180 |
 | Red Guard         |  375 |  300 |  12 |  10 |
 | Tank Hunter       |  375 |  350 |   7 |   6 |
@@ -254,8 +254,8 @@ In our first survey we asked community how they feel about addressing bugs that 
 
 Composite Armour now gives 25% HP (fixed for all units)
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Composite Armour    | 2000 | 1750 |     |     |
 | Paradrop            |      |      | 240 | 150 |
 | AirField            | 1000 |  800 |     |     |
@@ -270,8 +270,8 @@ Composite Armour now gives 25% HP (fixed for all units)
 
 ### USA
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Patriot Battery | 1000 |  700 | 25 | 30 |
 | Crusader        |  900 |  850 |    |    |
 | Paladin         | 1100 | 1000 | 12 | 10 |
@@ -284,8 +284,8 @@ Composite Armour now gives 25% HP (fixed for all units)
 
 ### Airforce USA
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Early Emergency Repair |      |      | 240 | 120 |
 | Carpet Bomb            |      |      | 240 | 360 |
 | Patriot                | 1000 |  700 |  25 |  30 |
@@ -296,20 +296,20 @@ Composite Armour now gives 25% HP (fixed for all units)
 
 ### Laser USA
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
-| Laser Crusader   900 |  850 |    |    |
-| Ambulance        600 |  700 |    |    |
-| Sentry Drone     800 |  500 | 10 |  8 |
-| Raptor          1400 |  900 |    |    |
-| Comanche        1500 | 1350 |    |    |
-| Stealth Fighter 1600 |  900 |    |    |
-| Aurora          2500 | 2000 |    |    |
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
+| Laser Crusader  |  900 |  850 |    |    |
+| Ambulance       |  600 |  700 |    |    |
+| Sentry Drone    |  800 |  500 | 10 |  8 |
+| Raptor          | 1400 |  900 |    |    |
+| Comanche        | 1500 | 1350 |    |    |
+| Stealth Fighter | 1600 |  900 |    |    |
+| Aurora          | 2500 | 2000 |    |    |
 
 ### Superweapon USA
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Particle Uplink Cannon | 2500 | 3000 |    |    |
 | Cold Fusion Reaction   |  900 |  800 |    |    |
 | Advanced Control Rods  |  500 |  600 | 30 | 25 |
@@ -323,8 +323,8 @@ Composite Armour now gives 25% HP (fixed for all units)
 
 ### Global GLA
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Anthrax Beta        | 2500 | 1500 |  30 |  40 |
 | BioBomb             |  500 |  300 |     |     |
 | HighExplosiveBomb   |  500 |  400 |     |     |
@@ -334,8 +334,8 @@ Composite Armour now gives 25% HP (fixed for all units)
 
 ### GLA
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Booby Trap   | 1000 |  400 | 40 | 15 |
 | Camouflage   | 2000 | 1000 | 60 | 30 |
 | Hijacker     |      |      | 10 |  5 |
@@ -345,8 +345,8 @@ Composite Armour now gives 25% HP (fixed for all units)
 
 ### Toxin GLA
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Anthrax Gamma | 1500 | 2000 |     |     |
 | Rebel Ambush  |      |      | 240 | 300 |
 | Demo Trap     |  600 |  400 |   8 |   5 |
@@ -359,8 +359,8 @@ Composite Armour now gives 25% HP (fixed for all units)
 
 ### Demo GLA
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Rebel Ambush        |     |      | 240 | 300   |
 | Demolitions Ability |     |      |  30 |  45   |
 | Demo Trap           | 200 |  300 |     |       |
@@ -372,8 +372,8 @@ Composite Armour now gives 25% HP (fixed for all units)
 
 ### Stealth GLA
 
-| - - - - - - - Object - - - - - - - | Old price ($) | New price ($) | Old time (s) | New time (s) |
-|------------------------------------|--------------:|--------------:|-------------:|-------------:|
+| ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
+|--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Saboteur     |      |      | 15 | 10 |
 | Bomb Truck   | 1200 | 1100 | 15 | 12 |
 | Combat Cycle |  550 |  450 |    |    |
