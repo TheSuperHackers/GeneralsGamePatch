@@ -1,48 +1,57 @@
 
-ren !PromotionsUSA\!PromotionsUSA.map SkirmishTestPromotionsUSA.map
-ren !PromotionsUSA\!PromotionsUSA.tga SkirmishTestPromotionsUSA.tga
-ren !PromotionsUSA SkirmishTestPromotionsUSA
+ren SkirmishTestAllFactionsMuseum\SkirmishTestAllFactionsMuseum.map !SkirmishTestAllFactionsMuseum.map
+ren SkirmishTestAllFactionsMuseum\SkirmishTestAllFactionsMuseum.tga !SkirmishTestAllFactionsMuseum.tga
+ren SkirmishTestAllFactionsMuseum                                   !SkirmishTestAllFactionsMuseum
 
-ren !PromotionsAIR\!PromotionsAIR.map SkirmishTestPromotionsAIR.map
-ren !PromotionsAIR\!PromotionsAIR.tga SkirmishTestPromotionsAIR.tga
-ren !PromotionsAIR SkirmishTestPromotionsAIR
+ren SkirmishTestPatriotBinaryDataStream\SkirmishTestPatriotBinaryDataStream.map !SkirmishTestPatriotBinaryDataStream.map
+ren SkirmishTestPatriotBinaryDataStream\SkirmishTestPatriotBinaryDataStream.tga !SkirmishTestPatriotBinaryDataStream.tga
+ren SkirmishTestPatriotBinaryDataStream                                         !SkirmishTestPatriotBinaryDataStream
 
-ren !PromotionsLASER\!PromotionsLASER.map SkirmishTestPromotionsLASER.map
-ren !PromotionsLASER\!PromotionsLASER.tga SkirmishTestPromotionsLASER.tga
-ren !PromotionsLASER SkirmishTestPromotionsLASER
 
-ren !PromotionsSW\!PromotionsSW.map SkirmishTestPromotionsSW.map
-ren !PromotionsSW\!PromotionsSW.tga SkirmishTestPromotionsSW.tga
-ren !PromotionsSW SkirmishTestPromotionsSW
+ren SkirmishTestPromotionsUSA\SkirmishTestPromotionsUSA.map !SkirmishTestPromotionsUSA.map
+ren SkirmishTestPromotionsUSA\SkirmishTestPromotionsUSA.tga !SkirmishTestPromotionsUSA.tga
+ren SkirmishTestPromotionsUSA                               !SkirmishTestPromotionsUSA
 
-ren !PromotionsCHINA\!PromotionsCHINA.map SkirmishTestPromotionsCHINA.map
-ren !PromotionsCHINA\!PromotionsCHINA.tga SkirmishTestPromotionsCHINA.tga
-ren !PromotionsCHINA SkirmishTestPromotionsCHINA
+ren SkirmishTestPromotionsAIR\SkirmishTestPromotionsAIR.map !SkirmishTestPromotionsAIR.map
+ren SkirmishTestPromotionsAIR\SkirmishTestPromotionsAIR.tga !SkirmishTestPromotionsAIR.tga
+ren SkirmishTestPromotionsAIR                               !SkirmishTestPromotionsAIR
 
-ren !PromotionsINF\!PromotionsINF.map SkirmishTestPromotionsINF.map
-ren !PromotionsINF\!PromotionsINF.tga SkirmishTestPromotionsINF.tga
-ren !PromotionsINF SkirmishTestPromotionsINF
+ren SkirmishTestPromotionsLASER\SkirmishTestPromotionsLASER.map !SkirmishTestPromotionsLASER.map
+ren SkirmishTestPromotionsLASER\SkirmishTestPromotionsLASER.tga !SkirmishTestPromotionsLASER.tga
+ren SkirmishTestPromotionsLASER                                 !SkirmishTestPromotionsLASER
 
-ren !PromotionsTANK\!PromotionsTANK.map SkirmishTestPromotionsTANK.map
-ren !PromotionsTANK\!PromotionsTANK.tga SkirmishTestPromotionsTANK.tga
-ren !PromotionsTANK SkirmishTestPromotionsTANK
+ren SkirmishTestPromotionsSW\SkirmishTestPromotionsSW.map !SkirmishTestPromotionsSW.map
+ren SkirmishTestPromotionsSW\SkirmishTestPromotionsSW.tga !SkirmishTestPromotionsSW.tga
+ren SkirmishTestPromotionsSW                              !SkirmishTestPromotionsSW
 
-ren !PromotionsNUKE\!PromotionsNUKE.map SkirmishTestPromotionsNUKE.map
-ren !PromotionsNUKE\!PromotionsNUKE.tga SkirmishTestPromotionsNUKE.tga
-ren !PromotionsNUKE SkirmishTestPromotionsNUKE
+ren SkirmishTestPromotionsCHINA\SkirmishTestPromotionsCHINA.map !SkirmishTestPromotionsCHINA.map
+ren SkirmishTestPromotionsCHINA\SkirmishTestPromotionsCHINA.tga !SkirmishTestPromotionsCHINA.tga
+ren SkirmishTestPromotionsCHINA                                 !SkirmishTestPromotionsCHINA
 
-ren !PromotionsGLA\!PromotionsGLA.map SkirmishTestPromotionsGLA.map
-ren !PromotionsGLA\!PromotionsGLA.tga SkirmishTestPromotionsGLA.tga
-ren !PromotionsGLA SkirmishTestPromotionsGLA
+ren SkirmishTestPromotionsINF\SkirmishTestPromotionsINF.map !SkirmishTestPromotionsINF.map
+ren SkirmishTestPromotionsINF\SkirmishTestPromotionsINF.tga !SkirmishTestPromotionsINF.tga
+ren SkirmishTestPromotionsINF                               !SkirmishTestPromotionsINF
 
-ren !PromotionsSTEALTH\!PromotionsSTEALTH.map SkirmishTestPromotionsSTEALTH.map
-ren !PromotionsSTEALTH\!PromotionsSTEALTH.tga SkirmishTestPromotionsSTEALTH.tga
-ren !PromotionsSTEALTH SkirmishTestPromotionsSTEALTH
+ren SkirmishTestPromotionsTANK\SkirmishTestPromotionsTANK.map !SkirmishTestPromotionsTANK.map
+ren SkirmishTestPromotionsTANK\SkirmishTestPromotionsTANK.tga !SkirmishTestPromotionsTANK.tga
+ren SkirmishTestPromotionsTANK                                !SkirmishTestPromotionsTANK
 
-ren !PromotionsTOX\!PromotionsTOX.map SkirmishTestPromotionsTOX.map
-ren !PromotionsTOX\!PromotionsTOX.tga SkirmishTestPromotionsTOX.tga
-ren !PromotionsTOX SkirmishTestPromotionsTOX
+ren SkirmishTestPromotionsNUKE\SkirmishTestPromotionsNUKE.map !SkirmishTestPromotionsNUKE.map
+ren SkirmishTestPromotionsNUKE\SkirmishTestPromotionsNUKE.tga !SkirmishTestPromotionsNUKE.tga
+ren SkirmishTestPromotionsNUKE                                !SkirmishTestPromotionsNUKE
 
-ren !PromotionsDEMO\!PromotionsDEMO.map SkirmishTestPromotionsDEMO.map
-ren !PromotionsDEMO\!PromotionsDEMO.tga SkirmishTestPromotionsDEMO.tga
-ren !PromotionsDEMO SkirmishTestPromotionsDEMO
+ren SkirmishTestPromotionsGLA\SkirmishTestPromotionsGLA.map !SkirmishTestPromotionsGLA.map
+ren SkirmishTestPromotionsGLA\SkirmishTestPromotionsGLA.tga !SkirmishTestPromotionsGLA.tga
+ren SkirmishTestPromotionsGLA                               !SkirmishTestPromotionsGLA
+
+ren SkirmishTestPromotionsSTEALTH\SkirmishTestPromotionsSTEALTH.map !SkirmishTestPromotionsSTEALTH.map
+ren SkirmishTestPromotionsSTEALTH\SkirmishTestPromotionsSTEALTH.tga !SkirmishTestPromotionsSTEALTH.tga
+ren SkirmishTestPromotionsSTEALTH                                   !SkirmishTestPromotionsSTEALTH
+
+ren SkirmishTestPromotionsTOX\SkirmishTestPromotionsTOX.map !SkirmishTestPromotionsTOX.map
+ren SkirmishTestPromotionsTOX\SkirmishTestPromotionsTOX.tga !SkirmishTestPromotionsTOX.tga
+ren SkirmishTestPromotionsTOX                               !SkirmishTestPromotionsTOX
+
+ren SkirmishTestPromotionsDEMO\SkirmishTestPromotionsDEMO.map !SkirmishTestPromotionsDEMO.map
+ren SkirmishTestPromotionsDEMO\SkirmishTestPromotionsDEMO.tga !SkirmishTestPromotionsDEMO.tga
+ren SkirmishTestPromotionsDEMO                                !SkirmishTestPromotionsDEMO
