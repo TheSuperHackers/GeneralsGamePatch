@@ -9,7 +9,7 @@ https://github.com/commy2/zerohour/issues/225 [DONE][NPROJECT]        Spectre Lo
 https://github.com/commy2/zerohour/issues/224 [DONE][NPROJECT]        Mixing Battle Masters From Different Sub-Factions Does Not Grant Horde Bonus
 https://github.com/commy2/zerohour/issues/223 [DONE][NPROJECT]        Sentry Drone Lacks Voice Line When Leaving Factory
 https://github.com/commy2/zerohour/issues/222 [MAYBE]                 Poison Fields Can Clear Poison Fields
-https://github.com/commy2/zerohour/issues/221 [IMPROVEMENT][NPROJECT] Units Sometimes Waste Shots On Overlord Debris
+https://github.com/commy2/zerohour/issues/221 [DONE][NPROJECT]        Units Sometimes Waste Shots On Overlord Debris
 https://github.com/commy2/zerohour/issues/220 [DONE][NPROJECT]        Units Sometimes Waste Shots On Poisoned Or Burned Infantry
 https://github.com/commy2/zerohour/issues/219 [MAYBE][NPROJECT]       Stinger Site Does Not Benefit From AP Rockets When Engaging Airborne Targets
 https://github.com/commy2/zerohour/issues/218 [NOTRELEVANT]           Hackers Are Bad Late Game Eco
@@ -106,15 +106,15 @@ https://github.com/commy2/zerohour/issues/116 [MAYBE][NPROJECT]       Tactical N
 https://github.com/commy2/zerohour/issues/115 [DONE][NPROJECT]        Early And Nuke Carpet Bomber Unavailable While Controlling Mixed Sub Faction Command Centers
 https://github.com/commy2/zerohour/issues/114 [DONE][NPROJECT]        Hitting Battle Bus In Hull Mode Causes Screen Shake
 https://github.com/commy2/zerohour/issues/113 [MAYBE][NPROJECT]       Flashbangs Cannot Target Stinger Sites
-https://github.com/commy2/zerohour/issues/112 [IMPROVEMENT][NPROJECT] Stealth Fake Arms Dealer Missing Camo Netting Upgrade Icon
+https://github.com/commy2/zerohour/issues/112 [DONE][NPROJECT]        Stealth Fake Arms Dealer Missing Camo Netting Upgrade Icon
 https://github.com/commy2/zerohour/issues/111 [DONE][NPROJECT]        Stealth General Saboteur Uses Rebel Death Scream
-https://github.com/commy2/zerohour/issues/110 [IMPROVEMENT][NPROJECT] Anthrax Beta And Gamma Upgrade Icons Missing From Many Objects
+https://github.com/commy2/zerohour/issues/110 [DONE][NPROJECT]        Anthrax Beta And Gamma Upgrade Icons Missing From Many Objects
 https://github.com/commy2/zerohour/issues/109 [IMPROVEMENT][NPROJECT] Some Helixes Missing Napalm Bomb Upgrade Icon
-https://github.com/commy2/zerohour/issues/108 [IMPROVEMENT][NPROJECT] Chinook and Supply Center Upgrade Icons
+https://github.com/commy2/zerohour/issues/108 [DONE][NPROJECT]        Chinook and Supply Center Upgrade Icons
 https://github.com/commy2/zerohour/issues/107 [IMPROVEMENT][NPROJECT] Pilots Have Misleading Upgrade Icons
 https://github.com/commy2/zerohour/issues/106 [DONE][NPROJECT]        Cargo Planes With Countermeasures Are Missing Hit Effects
 https://github.com/commy2/zerohour/issues/105 [DONE][NPROJECT]        Some American And Chinese Units Use GLA Death Scream When Gamma Poisoned
-https://github.com/commy2/zerohour/issues/104 [IMPROVEMENT][NPROJECT] China Command Center Missing Radar Upgrade Icon
+https://github.com/commy2/zerohour/issues/104 [DONE][NPROJECT]        China Command Center Missing Radar Upgrade Icon
 https://github.com/commy2/zerohour/issues/103 [DONE][NPROJECT]        Some Special Power Buttons Disappear From Command Center After Mines Upgrade
 https://github.com/commy2/zerohour/issues/102 [DONE][NPROJECT]        Tank Hunter Missing Patriotism Upgrade Icon
 https://github.com/commy2/zerohour/issues/101 [DONE][NPROJECT]        Speaker Tower Lacks Mine Upgrade
@@ -172,7 +172,7 @@ https://github.com/commy2/zerohour/issues/49  [DONE][NPROJECT]        Demo Gener
 https://github.com/commy2/zerohour/issues/48  [MAYBE][NPROJECT]       Demo General Scud Launcher With Demolitions Upgrade Deals Full Damage When Destroyed
 https://github.com/commy2/zerohour/issues/47  [DONE]                  Demo General Battle Bus Is Deleted Without Dealing Damage When Suicided
 https://github.com/commy2/zerohour/issues/46  [DONE][NPROJECT]        Technical Has To Recenter Turret To Suicide
-https://github.com/commy2/zerohour/issues/45  [IMPROVEMENT]           Combat Bike Has Disabled Suicide Ability Button
+https://github.com/commy2/zerohour/issues/45  [DONE]   	              Combat Bike Has Disabled Suicide Ability Button
 https://github.com/commy2/zerohour/issues/44  [MAYBE][NPROJECT]       Terrorist And Bomb Truck Missing Suicide Ability
 https://github.com/commy2/zerohour/issues/43  [DONE][NPROJECT]        Suicide Ability Button Is Placed Inconsistently
 https://github.com/commy2/zerohour/issues/42  [DONE]                  Worker Has Disabled Suicide Button Before Demolitions Upgrade
