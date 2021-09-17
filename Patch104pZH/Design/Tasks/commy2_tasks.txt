@@ -59,7 +59,7 @@ https://github.com/commy2/zerohour/issues/163 [DONE][NPROJECT]        Destroyed 
 https://github.com/commy2/zerohour/issues/162 [IMPROVEMENT][NPROJECT] Boss General Has Some Conflicting Hotkeys
 https://github.com/commy2/zerohour/issues/161 [MAYBE][NPROJECT]       Terrorist And Terror Bike Have To Force-Fire Ground To Detonate
 https://github.com/commy2/zerohour/issues/160 [MAYBE]                 Slow Units Can Outrun Comanche Missiles
-https://github.com/commy2/zerohour/issues/159 [IMPROVEMENT][NPROJECT] Boss Nationalism Upgrade Changes Tooltip After Land Mines Upgrade
+https://github.com/commy2/zerohour/issues/159 [DONE][NPROJECT]        Boss Nationalism Upgrade Changes Tooltip After Land Mines Upgrade
 https://github.com/commy2/zerohour/issues/158 [IMPROVEMENT][NPROJECT] Boss Patriot Battery Has Unique Stop Button Position
 https://github.com/commy2/zerohour/issues/157 [MAYBE][NPROJECT]       Boss General Has Strange Selection Of Available Upgrades
 https://github.com/commy2/zerohour/issues/156 [IMPROVEMENT][NPROJECT] Some Boss Infantry Units Lack Chemical Suits Upgrade Icon
