@@ -60,7 +60,7 @@ https://github.com/commy2/zerohour/issues/162 [IMPROVEMENT][NPROJECT] Boss Gener
 https://github.com/commy2/zerohour/issues/161 [MAYBE][NPROJECT]       Terrorist And Terror Bike Have To Force-Fire Ground To Detonate
 https://github.com/commy2/zerohour/issues/160 [MAYBE]                 Slow Units Can Outrun Comanche Missiles
 https://github.com/commy2/zerohour/issues/159 [DONE][NPROJECT]        Boss Nationalism Upgrade Changes Tooltip After Land Mines Upgrade
-https://github.com/commy2/zerohour/issues/158 [IMPROVEMENT][NPROJECT] Boss Patriot Battery Has Unique Stop Button Position
+https://github.com/commy2/zerohour/issues/158 [DONE][NPROJECT]        Boss Patriot Battery Has Unique Stop Button Position
 https://github.com/commy2/zerohour/issues/157 [MAYBE][NPROJECT]       Boss General Has Strange Selection Of Available Upgrades
 https://github.com/commy2/zerohour/issues/156 [IMPROVEMENT][NPROJECT] Some Boss Infantry Units Lack Chemical Suits Upgrade Icon
 https://github.com/commy2/zerohour/issues/155 [IMPROVEMENT][NPROJECT] Boss General Scud Storm Cannot Upgrade Neutron Mines
@@ -77,7 +77,7 @@ https://github.com/commy2/zerohour/issues/145 [DONE][NPROJECT]        Toxin Gene
 https://github.com/commy2/zerohour/issues/144 [IMPROVEMENT]           Overlord Does Not Fit Into Chinook But Only Takes 3 Slots Inside Helix
 https://github.com/commy2/zerohour/issues/143 [IMPROVEMENT]           GPS Scrambled Rangers And Red Guards Remain Stealthed While Capturing Buildings
 https://github.com/commy2/zerohour/issues/142 [IMPROVEMENT][NPROJECT] Fire Base Shoots At Awkward Angle
-https://github.com/commy2/zerohour/issues/141 [IMPROVEMENT][NPROJECT] Toxin General RPG-Trooper Shoots Stinger Missiles
+https://github.com/commy2/zerohour/issues/141 [DONE][NPROJECT]        Toxin General RPG-Trooper Shoots Stinger Missiles
 https://github.com/commy2/zerohour/issues/140 [DONE][NPROJECT]        Gattling Helix Sometimes Fires At Airborne Units
 https://github.com/commy2/zerohour/issues/139 [DONE][NPROJECT]        Dummy Weapons Cause Notifications And Hit Effects
 https://github.com/commy2/zerohour/issues/138 [IMPROVEMENT][NPROJECT] Nuke Battlemaster Uses Normal Battlemaster Button
@@ -123,7 +123,7 @@ https://github.com/commy2/zerohour/issues/99  [MAYBE][NPROJECT]       Emperor Ov
 https://github.com/commy2/zerohour/issues/98  [MAYBE][NPROJECT]       Nuke Cannon Animation Inconsistency
 https://github.com/commy2/zerohour/issues/97  [NOTRELEVANT][NPROJECT] Infantry General Gattling Tank Starts As Veteran
 https://github.com/commy2/zerohour/issues/96  [DONE][NPROJECT]        Vanilla China Troop Crawlers Missing Detection Effect
-https://github.com/commy2/zerohour/issues/95  [IMPROVEMENT][NPROJECT] Inconsistent Outpost Geometry
+https://github.com/commy2/zerohour/issues/95  [DONE][NPROJECT]        Inconsistent Outpost Geometry
 https://github.com/commy2/zerohour/issues/94  [DONE][NPROJECT]        Tank And Nuke Outposts Fail To Attack Buildings
 https://github.com/commy2/zerohour/issues/93  [DONE][NPROJECT]        Vanilla China Outposts Missing Detection Effect
 https://github.com/commy2/zerohour/issues/92  [REJECTED][NPROJECT]    Speaker Tower Sufficient For Player Survival
@@ -172,7 +172,7 @@ https://github.com/commy2/zerohour/issues/49  [DONE][NPROJECT]        Demo Gener
 https://github.com/commy2/zerohour/issues/48  [MAYBE][NPROJECT]       Demo General Scud Launcher With Demolitions Upgrade Deals Full Damage When Destroyed
 https://github.com/commy2/zerohour/issues/47  [DONE]                  Demo General Battle Bus Is Deleted Without Dealing Damage When Suicided
 https://github.com/commy2/zerohour/issues/46  [DONE][NPROJECT]        Technical Has To Recenter Turret To Suicide
-https://github.com/commy2/zerohour/issues/45  [DONE]   	              Combat Bike Has Disabled Suicide Ability Button
+https://github.com/commy2/zerohour/issues/45  [DONE]                  Combat Bike Has Disabled Suicide Ability Button
 https://github.com/commy2/zerohour/issues/44  [MAYBE][NPROJECT]       Terrorist And Bomb Truck Missing Suicide Ability
 https://github.com/commy2/zerohour/issues/43  [DONE][NPROJECT]        Suicide Ability Button Is Placed Inconsistently
 https://github.com/commy2/zerohour/issues/42  [DONE]                  Worker Has Disabled Suicide Button Before Demolitions Upgrade
