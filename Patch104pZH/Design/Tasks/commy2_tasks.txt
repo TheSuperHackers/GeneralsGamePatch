@@ -62,7 +62,7 @@ https://github.com/commy2/zerohour/issues/160 [MAYBE]                 Slow Units
 https://github.com/commy2/zerohour/issues/159 [DONE][NPROJECT]        Boss Nationalism Upgrade Changes Tooltip After Land Mines Upgrade
 https://github.com/commy2/zerohour/issues/158 [DONE][NPROJECT]        Boss Patriot Battery Has Unique Stop Button Position
 https://github.com/commy2/zerohour/issues/157 [MAYBE][NPROJECT]       Boss General Has Strange Selection Of Available Upgrades
-https://github.com/commy2/zerohour/issues/156 [IMPROVEMENT][NPROJECT] Some Boss Infantry Units Lack Chemical Suits Upgrade Icon
+https://github.com/commy2/zerohour/issues/156 [DONE][NPROJECT]        Some Boss Infantry Units Lack Chemical Suits Upgrade Icon
 https://github.com/commy2/zerohour/issues/155 [DONE][NPROJECT]        Boss General Scud Storm Cannot Upgrade Neutron Mines
 https://github.com/commy2/zerohour/issues/154 [DONE][NPROJECT]        Fake Command Centers Lose Sub-Faction Decal After Fortified Structures Upgrade
 https://github.com/commy2/zerohour/issues/153 [DONE][NPROJECT]        Base Defense Scaffolds Set Off Demo Traps
