@@ -26,30 +26,13 @@ if '%errorlevel%' NEQ '0' (
 
 echo on
 set ThisDir0=%~dp0
+
+:: Install
 call %ThisDir0%MAKE_Install.bat
 
-@echo off
-:: Rename files as per setup in SETUP_UserSettings.bat
-for %%f in (%GameFilesToDisable%) do (
-	if exist %GameRootDir%\%%f (
-		ren %GameRootDir%\%%f %%f.PATCH104P
-		echo on
-		echo Rename %%f to %%f.PATCH104P
-		@echo off
-	)
-)
-
+:: Run game
 set GameExeArgs0=%GameExeArgs:"=%
-
-::Run game
 %GameRootDir%\%GameExeFile% %GameExeArgs0%
 
-:: Restore files as per setup in SETUP_UserSettings.bat
-for %%f in (%GameFilesToDisable%) do (
-	if exist %GameRootDir%\%%f.PATCH104P (
-		ren %GameRootDir%\%%f.PATCH104P %%f
-		echo on
-		echo Rename %%f.PATCH104P to %%f
-		@echo off
-	)
-)
+:: Uninstall
+call %ThisDir0%MAKE_Uninstall.bat
