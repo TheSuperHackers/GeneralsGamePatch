@@ -22,6 +22,7 @@ Welcome to the Generals Game Patch project that aims to fix and improve the orig
 
 ### Community Surveys
 - [Survey 1 (General)](https://bit.ly/zh_survey_1ben)
+- [Survey 2 (AI)](https://bit.ly/zh_survey_2en)
 
 ### External Discussions
 - [GameReplays.org](https://bit.ly/zhpatch)
