@@ -77,7 +77,7 @@ https://github.com/commy2/zerohour/issues/145 [DONE][NPROJECT]        Toxin Gene
 https://github.com/commy2/zerohour/issues/144 [IMPROVEMENT]           Overlord Does Not Fit Into Chinook But Only Takes 3 Slots Inside Helix
 https://github.com/commy2/zerohour/issues/143 [IMPROVEMENT]           GPS Scrambled Rangers And Red Guards Remain Stealthed While Capturing Buildings
 https://github.com/commy2/zerohour/issues/142 [IMPROVEMENT][NPROJECT] Fire Base Shoots At Awkward Angle
-https://github.com/commy2/zerohour/issues/141 [IMPROVEMENT][NPROJECT] Toxin General RPG-Trooper Shoots Stinger Missiles
+https://github.com/commy2/zerohour/issues/141 [DONE][NPROJECT] 		  Toxin General RPG-Trooper Shoots Stinger Missiles
 https://github.com/commy2/zerohour/issues/140 [DONE][NPROJECT]        Gattling Helix Sometimes Fires At Airborne Units
 https://github.com/commy2/zerohour/issues/139 [DONE][NPROJECT]        Dummy Weapons Cause Notifications And Hit Effects
 https://github.com/commy2/zerohour/issues/138 [IMPROVEMENT][NPROJECT] Nuke Battlemaster Uses Normal Battlemaster Button
