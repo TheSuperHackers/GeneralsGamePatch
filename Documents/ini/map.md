@@ -10,7 +10,6 @@ PlayerTemplate FactionAmerica
 End
 ```
 
-Map.ini Basics Tutorial
-http://www.cnclabs.com/forums/cnc_postst10478_Map-ini-basics.aspx
-How to make ai dont sell their captured faction buildings in a specific map
-http://www.cnclabs.com/forums/cnc_postsm148967_-Tutorial--How-to-make-ai-dont-sell-their-captured-faction-buildings-in-a-specific-map.aspx#post148967
+[Map.ini Basics Tutorial](http://www.cnclabs.com/forums/cnc_postst10478_Map-ini-basics.aspx)
+
+[How to make ai dont sell their captured faction buildings in a specific map](http://www.cnclabs.com/forums/cnc_postsm148967_-Tutorial--How-to-make-ai-dont-sell-their-captured-faction-buildings-in-a-specific-map.aspx#post148967)
