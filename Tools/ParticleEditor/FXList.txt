@@ -1,0 +1,6 @@
+FXList FX_NLS
+  ParticleSystem
+   Name = NLSLogoParticle
+   Height = 20 20 UNIFORM
+  End
+End
