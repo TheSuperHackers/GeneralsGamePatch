@@ -156,7 +156,7 @@ https://github.com/commy2/zerohour/issues/65  [DONE][NPROJECT]        Laser Gene
 https://github.com/commy2/zerohour/issues/64  [MAYBE][NPROJECT]       Battle Drone Gains Double The Intended Bonus From Drone Armor
 https://github.com/commy2/zerohour/issues/63  [MAYBE][NPROJECT]       Paladins And Microwaves Gain Slightly Less Than Intended From Composite Armor
 https://github.com/commy2/zerohour/issues/62  [MAYBE][NPROJECT]       Crusader And Laser Tanks Receive Composite Armor Health Bonus Twice
-https://github.com/commy2/zerohour/issues/61  [IMPROVEMENT][NPROJECT] Destroyed American Boss Buildings Spawn Wrong Ranger Type
+https://github.com/commy2/zerohour/issues/61  [DONE][NPROJECT]        Destroyed American Boss Buildings Spawn Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/60  [DONE][NPROJECT]        Destroyed Particle Cannons Spawn Wrong Ranger Type
 https://github.com/commy2/zerohour/issues/59  [IMPROVEMENT]           Air Force General Name Misspelling
 https://github.com/commy2/zerohour/issues/58  [IMPROVEMENT][NPROJECT] Some Combat Bikes Missing DoorOpenTime Entry
