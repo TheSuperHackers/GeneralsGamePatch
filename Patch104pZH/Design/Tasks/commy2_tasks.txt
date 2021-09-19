@@ -24,7 +24,7 @@ https://github.com/commy2/zerohour/issues/206 [MAYBE]                 Combat Chi
 https://github.com/commy2/zerohour/issues/205 [DONE]                  Listening Outpost Damaged Smoke Effect Sticks After Repair
 https://github.com/commy2/zerohour/issues/204 [MAYBE]                 Fire Base Cannot Order Passengers To Attack Airborne Targets
 https://github.com/commy2/zerohour/issues/203 [MAYBE][NPROJECT]       Overlord With Bunker Cannot Order Passengers To Attack Airborne Targets
-https://github.com/commy2/zerohour/issues/202 [MAYBE][NPROJECT]       Helix With Bunker Cannot Order Passengers To Attack Airborne Targets
+https://github.com/commy2/zerohour/issues/202 [DONE][NPROJECT]        Helix With Bunker Cannot Order Passengers To Attack Airborne Targets
 https://github.com/commy2/zerohour/issues/201 [NOTRELEVANT][NPROJECT] Fire Bases Require A Power Plant Despite Not Requiring Power
 https://github.com/commy2/zerohour/issues/200 [NOTRELEVANT][NPROJECT] Air Force General Gets Carpet Bomber At Rank 1
 https://github.com/commy2/zerohour/issues/199 [IMPROVEMENT]           Countermeasures Reduce AA Gun Damage By 37.5% Instead Of The Intended 25% (Adjust text or damage)
