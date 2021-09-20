@@ -190,7 +190,7 @@ https://github.com/commy2/zerohour/issues/29  [DONE][NPROJECT]        GLA Base D
 https://github.com/commy2/zerohour/issues/28  [MAYBE][NPROJECT]       Demo General Terrorist Does Not Explode When Crushed, Burned Or Blown Up
 https://github.com/commy2/zerohour/issues/27  [DONE][NPROJECT]        Scud Storm Does Not Damage Itself
 https://github.com/commy2/zerohour/issues/26  [DONE][NPROJECT]        Saboteur Uses Wrong Art For Sabotage Building-Ability
-https://github.com/commy2/zerohour/issues/25  [IMPROVEMENT][NPROJECT] Boss Tomahawk Launcher Never Drops Scrap
+https://github.com/commy2/zerohour/issues/25  [DONE][NPROJECT]        Boss Tomahawk Launcher Never Drops Scrap
 https://github.com/commy2/zerohour/issues/24  [IMPROVEMENT][NPROJECT] GLA Buildings Don't Create Scrap
 https://github.com/commy2/zerohour/issues/23  [DONE][NPROJECT]        Demo General Jarmen Kell Repeats Voice Line When Planting Timed Demo Charge
 https://github.com/commy2/zerohour/issues/22  [IMPROVEMENT]           Build Scorpion Tank-Button Misspelling
