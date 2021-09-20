@@ -83,7 +83,7 @@ https://github.com/commy2/zerohour/issues/139 [DONE][NPROJECT]        Dummy Weap
 https://github.com/commy2/zerohour/issues/138 [IMPROVEMENT][NPROJECT] Nuke Battlemaster Uses Normal Battlemaster Button
 https://github.com/commy2/zerohour/issues/137 [DONE][NPROJECT]        Tracer Emerges Below Jarmen Kell When Using Sniper Attack
 https://github.com/commy2/zerohour/issues/136 [DONE][NPROJECT]        Demo Charge Buttons Are Placed Differently On Jarmen Kell Than On Colonel Burton
-https://github.com/commy2/zerohour/issues/135 [IMPROVEMENT][NPROJECT] Tunnel And Palace Lack Stop Button
+https://github.com/commy2/zerohour/issues/135 [DONE][NPROJECT]        Tunnel And Palace Lack Stop Button
 https://github.com/commy2/zerohour/issues/134 [IMPROVEMENT][NPROJECT] Air Force Carpet Bomber Tooltip Claims 2:30 Cooldown Instead Of True 4:00
 https://github.com/commy2/zerohour/issues/133 [MAYBE][NPROJECT]       Fire Base Command Button Order Misaligned With Other Buildings
 https://github.com/commy2/zerohour/issues/132 [MAYBE][NPROJECT]       Raptor Guard Air Button Misplaced
