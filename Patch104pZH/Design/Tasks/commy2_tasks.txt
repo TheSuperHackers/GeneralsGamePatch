@@ -197,7 +197,7 @@ https://github.com/commy2/zerohour/issues/22  [IMPROVEMENT]           Build Scor
 https://github.com/commy2/zerohour/issues/21  [IMPROVEMENT][NPROJECT] Demo And Tox Rebel Ambush Tooltips Are Wrong
 https://github.com/commy2/zerohour/issues/20  [DONE][NPROJECT]        Demo Rocket Buggy Loses Red Missile Detonation Effect After Buggy Ammo Upgrade
 https://github.com/commy2/zerohour/issues/19  [DONE][NPROJECT]        Emerging Sneak Attack Uses Tunnel Network Portrait
-https://github.com/commy2/zerohour/issues/18  [MAYBE][NPROJECT]       Toxin General Terrorist Without Anthrax Beta Upgrade Creates No Poison Cloud
+https://github.com/commy2/zerohour/issues/18  [DONE][NPROJECT]        Toxin General Terrorist Without Anthrax Beta Upgrade Creates No Poison Cloud
 https://github.com/commy2/zerohour/issues/17  [MAYBE][NPROJECT]       Toxin General Terrorist Does Extra Damage Before Anthrax Gamma Upgrade
 https://github.com/commy2/zerohour/issues/16  [DONE][NPROJECT]        Toxin Demo Trap Creates Poison Cloud Before It Explodes
 https://github.com/commy2/zerohour/issues/15  [DONE][NPROJECT]        Gamma Toxin Streams Create Green Particles When Clearing Buildings
