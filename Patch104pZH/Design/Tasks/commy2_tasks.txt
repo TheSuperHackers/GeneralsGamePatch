@@ -182,7 +182,7 @@ https://github.com/commy2/zerohour/issues/37  [DONE][NPROJECT]        Tomahawk L
 https://github.com/commy2/zerohour/issues/36  [MAYBE][NPROJECT]       Boss Helix Inconsistencies
 https://github.com/commy2/zerohour/issues/35  [MAYBE][NPROJECT]       Boss Infantry Inconsistencies
 https://github.com/commy2/zerohour/issues/34  [MAYBE][NPROJECT]       Boss Avenger Inconsistencies
-https://github.com/commy2/zerohour/issues/33  [MAYBE][NPROJECT]       Air Force General Avenger Receives 30% More Damage From Jet Missiles
+https://github.com/commy2/zerohour/issues/33  [DONE][NPROJECT]        Air Force General Avenger Receives 30% More Damage From Jet Missiles
 https://github.com/commy2/zerohour/issues/32  [MAYBE][NPROJECT]       Non-vanilla USA Avengers Benefit From Composite Armor
 https://github.com/commy2/zerohour/issues/31  [DONE]                  Some Avengers Can Retaliate
 https://github.com/commy2/zerohour/issues/30  [DONE][NPROJECT]        Crushing Marauder With Overlord Creates Indestructible Wreck
