@@ -111,7 +111,7 @@ https://github.com/commy2/zerohour/issues/111 [DONE][NPROJECT]        Stealth Ge
 https://github.com/commy2/zerohour/issues/110 [DONE][NPROJECT]        Anthrax Beta And Gamma Upgrade Icons Missing From Many Objects
 https://github.com/commy2/zerohour/issues/109 [DONE][NPROJECT]        Some Helixes Missing Napalm Bomb Upgrade Icon
 https://github.com/commy2/zerohour/issues/108 [DONE][NPROJECT]        Chinook and Supply Center Upgrade Icons
-https://github.com/commy2/zerohour/issues/107 [DONE][NPROJECT] 		  Pilots Have Misleading Upgrade Icons
+https://github.com/commy2/zerohour/issues/107 [DONE][NPROJECT]        Pilots Have Misleading Upgrade Icons
 https://github.com/commy2/zerohour/issues/106 [DONE][NPROJECT]        Cargo Planes With Countermeasures Are Missing Hit Effects
 https://github.com/commy2/zerohour/issues/105 [DONE][NPROJECT]        Some American And Chinese Units Use GLA Death Scream When Gamma Poisoned
 https://github.com/commy2/zerohour/issues/104 [DONE][NPROJECT]        China Command Center Missing Radar Upgrade Icon
@@ -172,7 +172,7 @@ https://github.com/commy2/zerohour/issues/49  [DONE][NPROJECT]        Demo Gener
 https://github.com/commy2/zerohour/issues/48  [MAYBE][NPROJECT]       Demo General Scud Launcher With Demolitions Upgrade Deals Full Damage When Destroyed
 https://github.com/commy2/zerohour/issues/47  [DONE]                  Demo General Battle Bus Is Deleted Without Dealing Damage When Suicided
 https://github.com/commy2/zerohour/issues/46  [DONE][NPROJECT]        Technical Has To Recenter Turret To Suicide
-https://github.com/commy2/zerohour/issues/45  [DONE]   	              Combat Bike Has Disabled Suicide Ability Button
+https://github.com/commy2/zerohour/issues/45  [DONE]                  Combat Bike Has Disabled Suicide Ability Button
 https://github.com/commy2/zerohour/issues/44  [MAYBE][NPROJECT]       Terrorist And Bomb Truck Missing Suicide Ability
 https://github.com/commy2/zerohour/issues/43  [DONE][NPROJECT]        Suicide Ability Button Is Placed Inconsistently
 https://github.com/commy2/zerohour/issues/42  [DONE]                  Worker Has Disabled Suicide Button Before Demolitions Upgrade
@@ -191,7 +191,7 @@ https://github.com/commy2/zerohour/issues/28  [MAYBE][NPROJECT]       Demo Gener
 https://github.com/commy2/zerohour/issues/27  [DONE][NPROJECT]        Scud Storm Does Not Damage Itself
 https://github.com/commy2/zerohour/issues/26  [DONE][NPROJECT]        Saboteur Uses Wrong Art For Sabotage Building-Ability
 https://github.com/commy2/zerohour/issues/25  [DONE][NPROJECT]        Boss Tomahawk Launcher Never Drops Scrap
-https://github.com/commy2/zerohour/issues/24  [REJECTED][NPROJECT] 	  GLA Buildings Don't Create Scrap
+https://github.com/commy2/zerohour/issues/24  [REJECTED][NPROJECT]    GLA Buildings Don't Create Scrap
 https://github.com/commy2/zerohour/issues/23  [DONE][NPROJECT]        Demo General Jarmen Kell Repeats Voice Line When Planting Timed Demo Charge
 https://github.com/commy2/zerohour/issues/22  [IMPROVEMENT]           Build Scorpion Tank-Button Misspelling
 https://github.com/commy2/zerohour/issues/21  [IMPROVEMENT][NPROJECT] Demo And Tox Rebel Ambush Tooltips Are Wrong
@@ -284,7 +284,7 @@ https://github.com/commy2/zerohour/issues/167                         GLA02 Stea
                                               []                        The GLA02 Stealth General's Stinger Site is build in 50 seconds.
                                               []                        The GLA02 Stealth General's Tunnel Network is immune to Microwave Tanks.
                                               []                        The GLA02 Stealth General's Demo Trap plays an effect when damaged.
-https://github.com/commy2/zerohour/issues/166                         GLA02 Stealth General Building Inconsistencies														
+https://github.com/commy2/zerohour/issues/166                         GLA02 Stealth General Building Inconsistencies
                                               []                        GLA02 Stealth General buildings generally behaves inconsistently when stealthed.
                                               []                        Some GLA02 Stealth General's Buildings are incompatible with Fortified Structures.
                                               []                        The GLA02 Stealth General's Buildings are immune to Microwave tanks.
@@ -295,7 +295,7 @@ https://github.com/commy2/zerohour/issues/166                         GLA02 Stea
                                               []                        The GLA02 Stealth General's Black Market has an un-usable button to upgrade Camo-Netting, despite already being camouflaged.
                                               []                        The GLA02 Stealth General's Supply Stash is classified as power plant instead of as supply dock.
                                               []                        The GLA02 Stealth General's Palace does use its day model during the night.
-https://github.com/commy2/zerohour/issues/165                         USA05 Tox General Building Inconsistencies														    
+https://github.com/commy2/zerohour/issues/165                         USA05 Tox General Building Inconsistencies
                                               []                        The USA05 Toxin General's Buildings are incompatible with Fortified Structures.
                                               []                        The USA05 Toxin General's Buildings are immune to Microwave tanks.
                                               []                        The USA05 Toxin General's Barracks, Supply Stash, Black Market has half the health of the regular versions.
