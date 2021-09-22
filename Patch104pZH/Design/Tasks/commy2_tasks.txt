@@ -86,7 +86,7 @@ https://github.com/commy2/zerohour/issues/136 [DONE][NPROJEC!]        Demo Charg
 https://github.com/commy2/zerohour/issues/135 [DONE][NPROJECT]        Tunnel And Palace Lack Stop Button
 https://github.com/commy2/zerohour/issues/134 [IMPROVEMENT][NPROJECT] Air Force Carpet Bomber Tooltip Claims 2:30 Cooldown Instead Of True 4:00
 https://github.com/commy2/zerohour/issues/133 [DONE][NPROJECT]        Fire Base Command Button Order Misaligned With Other Buildings
-https://github.com/commy2/zerohour/issues/132 [MAYBE][NPROJECT]       Raptor Guard Air Button Misplaced
+https://github.com/commy2/zerohour/issues/132 [DONE][NPROJECT]        Raptor Guard Air Button Misplaced
 https://github.com/commy2/zerohour/issues/131 [DONE][NPROJEC!]        Demo General Combat Bike With Demolitions Upgrade Deals No Damage When Destroyed By Gamma Poison
 https://github.com/commy2/zerohour/issues/130 [DONE][NPROJEC!]        Demo Combat Bike Uses Portrait As Button
 https://github.com/commy2/zerohour/issues/129 [MAYBE][NPROJECT]       Selling Air Force Supply Center Does Refund Less Than Half Of Build Value
@@ -197,7 +197,7 @@ https://github.com/commy2/zerohour/issues/22  [IMPROVEMENT]           Build Scor
 https://github.com/commy2/zerohour/issues/21  [IMPROVEMENT][NPROJECT] Demo And Tox Rebel Ambush Tooltips Are Wrong
 https://github.com/commy2/zerohour/issues/20  [DONE][NPROJEC!]        Demo Rocket Buggy Loses Red Missile Detonation Effect After Buggy Ammo Upgrade
 https://github.com/commy2/zerohour/issues/19  [DONE][NPROJEC!]        Emerging Sneak Attack Uses Tunnel Network Portrait
-https://github.com/commy2/zerohour/issues/18  [MAYBE][NPROJECT]       Toxin General Terrorist Without Anthrax Beta Upgrade Creates No Poison Cloud
+https://github.com/commy2/zerohour/issues/18  [DONE][NPROJECT]        Toxin General Terrorist Without Anthrax Beta Upgrade Creates No Poison Cloud
 https://github.com/commy2/zerohour/issues/17  [MAYBE][NPROJECT]       Toxin General Terrorist Does Extra Damage Before Anthrax Gamma Upgrade
 https://github.com/commy2/zerohour/issues/16  [DONE][NPROJEC!]        Toxin Demo Trap Creates Poison Cloud Before It Explodes
 https://github.com/commy2/zerohour/issues/15  [DONE][NPROJEC!]        Gamma Toxin Streams Create Green Particles When Clearing Buildings
