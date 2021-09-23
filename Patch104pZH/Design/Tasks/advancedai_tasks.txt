@@ -1,0 +1,536 @@
+                       August 22  2015   AEI
+        =======================================================
+        Generals Zero Hour AdvancedAIMod - Improved by AEI v2.8
+                  
+        =======================================================
+
+
+
+Hello.
+
+This is the AdvancedAIMod0.98 /by Lion & r42/, updated and improved by AEI /version 2.8/.
+The aim of the mod and my improvements is to create the greatest AI available for ZH.
+There are a lot of new fixes and improvements added by me, and the AI will use more humanlike tactics as well. 
+
+This mod was also made because the AI in ZH is too easy.
+It uses stupid tactics, builds mediocre bases and normally has $50k in bank that it will never use.
+Beating 7 AIs on hard shouldn't be possible but it is, this mod is to change that, giving the AI a better tactical awareness, faster expansion, more viciousness and better economy management.
+
+So what's new in the latest version?
+
+- [IMPROVEMENT] Comanches will finally learn to use rocket pods. They are now the deadly flying machines they deserve to be.
+- [IMPROVEMENT] AI can keep its planes in the air even without an airfield, just like human players can do.
+
+- [IMPROVEMENT] Lotus will use the cash hack ability to steal money from lightly guarded supply centers.
+- [IMPROVEMENT] US generals will send Comanches to support supply centers under attack.
+
+- [IMPROVEMENT] AI will move its helicopters away from the main base when the enemy is ready to fire a SuperWeapon.
+- [IMPROVEMENT] Stealthed Garrisons - USA Snipers will garrison civilian buildings.
+
+- [IMPROVEMENT] Capture teams will retaliate if attacked by infantry, so putting a single soldier to guard an oil derrick will no longer work.
+- [IMPROVEMENT] Further improved the use of laser lock for all US generals.
+- [IMPROVEMENT] No more empty Internet Centers: Hackers will move back to the Internet Center if it is destroyed and then built again.
+
+- [IMPROVEMENT] Toxin General will use less Demo Traps, as his demo traps are expensive, yet not very effective.
+- [?] Added Neutron Artillery priority for China and Nuke.
+- [IMPROVEMENT] Better utilization of units for Tank and Nuke (will use more tanks/gats, and less tank hunters, who are more expensive for those generals).
+
+- [IMPROVEMENT] Improved Stealth Detection for China factions - will use more Listening Outposts instead of Troop Crawlers. In the vanilla game, AI preffered to use Troop Crawlers for stealth detection purposes.
+- [IMPROVEMENT] Faster initial expansion/base building for GLA factions.
+
+- [IMPROVEMENT] Additional Helix attacks added for China and Infantry, and more Tech Terror attacks added for Toxin.
+- [IMPROVEMENT] Improved early gameplay for most factions (better rush and defence, will  react against the human  player building turrets near AI supply centers).
+- [IMPROVEMENT] Fixed vanilla issue with Demo , where he will be unable to clear garrisoned buildings due to never using the Toxin tractor.
+
+- [IMPROVEMENT] Fixed vanilla game bug, that could cause nuclear vehicle launchers to stop attacking the enemy.
+- [IMPROVEMENT] Fixed a problem, where the Toxin Rebel Ambush team will attack Internet Centers, even if there are better targets nearby.
+- [IMPROVEMENT] Fixed issue with afg supply guards.
+- [IMPROVEMENT] Other small fixes and improvements
+
+
+
+The mod Supports both 1.04 and 1.06 Generals Zero Hour patches.
+To install, backup your INI folder and SkirmishScripts.scb file, then replace them with those from the mod.
+
+C:\Program Files\EA Games\Command & Conquer Generals Zero Hour\Data\INI
+C:\Program Files\EA Games\Command & Conquer Generals Zero Hour\Data\Scripts
+
+AdvancedAIMod thread at C&C Labs:         
+http://www.cnclabs.com/forums/default.aspx?g=topics&f=77
+
+Moddb link:
+http://www.moddb.com/mods/advanced-ai-mod-for-zero-hour-improved-by-aei
+
+Have a nice play.
+
+
+
+========================
+Changelog
+
+/v2.7 by AEI/      April 23  2014
+- [IMPROVEMENT] Demo's rebel ambush is now very dangerous - rebels will blow themselves up.
+- [IMPROVEMENT] GLA factions will utilize even more car bombs (if cars are available on the map).
+- [IMPROVEMENT] China and Nuke will be able to put tank hunters in Overlord tanks (mainly to counter tank spam).
+- [IMPROVEMENT] GLA factions will be able to evacuate damaged Battle Buses.
+
+- [IMPROVEMENT] Comanche backdoor attacks added for the AF General.
+- [IMPROVEMENT] USA factions may Chinook drop the enemy in late game.
+- [IMPROVEMENT] Finally fixed the famous vanilla AI bug, where missile defenders will attack buildings with laser lock. This bug also caused inadequate behaviour among other units as well.
+- [IMPROVEMENT] Improved late game economy by adding more hackers/black markets etc.
+- [IMPROVEMENT] Stealth Fighter teams for all USA factions will consist of two planes to make them more effective against base defences.
+
+- [MAYBE] USA factions will send units to pick up supply crates that fell outside the supply drop zones.
+- [IMPROVEMENT] GLA Sneak attack teams will be able to attack targets far away from the tunnel.
+- [IMPROVEMENT] Toxin's rebel ambush team will no longer try to attack buildings.
+- [IMPROVEMENT] Stealth's rebel ambush team may attempt to remain hidden and capture buildings later.
+- [IMPROVEMENT] GLA and Stealth will use the GPS scrambler for more units (before it was only used for 1 - 2 units).
+- [IMPROVEMENT] Nuke General will increase priority for Migs after the Tactical Nuke Upgrade is purchased.
+
+- [IMPROVEMENT] Demo's Jarmen Kell may attempt to blow up buildings (in case the enemy doesn't have many base defences).
+- [IMPROVEMENT] Soldiers will attempt to load into transports more often.
+- [IMPROVEMENT] The heavy bomber planes are now added to the attack priorities, so now the AI will be more agressive towards them, able to chase them, attack the bombers with planes, etc.
+- [IMPROVEMENT] Early anti-air teams added for GLA and China factions to better counter helicopter rushes.
+- [IMPROVEMENT] Some combat zone teams (those that guard the center of the map) may suddenly attack the enemy base if it has no power.
+
+- [IMPROVEMENT] Fixed a rare problem, where China factions planes will not attack the enemy and stay on the airfield.
+- [IMPROVEMENT] Fixed a problem, where AFG rangers will not use flashbangs.
+- [IMPROVEMENT] Fixed angry mobs that will not attack the enemy.
+- [IMPROVEMENT] Fixed several other GLA teams that will not attack the enemy.
+- [IMPROVEMENT] Several other small fixes and improvements.
+
+
+/v2.6 by AEI/      December 9  2010
+ - [IMPROVEMENT] Improved behaviour for Colonel Burton and Black Lotus:
+   > [MAYBE] Burton will retaliate if attacked by ground units. Lotus will defend herself with the vehicle hack ability if attacked by vehicles.
+   > [IMPROVEMENT] Burton and Lotus will attack from different directions. They will no longer stay in their base for a minute before starting their attack. The EA bug where Burton will try to place charges on Chinooks is fixed. The state of Burton teams is set to normal to help them plant charges properly. Fixed a problem for AFG, where Burton will not attack the enemy.
+
+ - [IMPROVEMENT] GLA workers will finally be able to repair buildings located away from them.
+ - [IMPROVEMENT] Improved the use of laser lock, also added more teams that use it, USA's will counter early Helix/Combat Chinook rushes with laser lock as well.
+ - [IMPROVEMENT] Stealth General will now be able to build a barracks when he hijack a dozer and will attack with missile defenders.
+ - [IMPROVEMENT] Added supply guards for Toxin and Demo, now all factions use supply guards.
+
+ - [IMPROVEMENT] The AI will activate dozer hunt teams if some of its dozers are hijacked.
+ - [IMPROVEMENT] Bigger garrison teams, so that there is no more situations with only one soldier in building.
+ - [IMPROVEMENT] Fixed a problem, which could prevent the AI from using Combat Chinooks and Helixes loaded with rocket guys later in game.
+ - [IMPROVEMENT] Added additional Combat Chinook, Helix, Tech Terror/RPG and Rockvee attacks for late game, they will start if the enemy doesn't have many base defences.
+
+ - [IMPROVEMENT] USA's will guard their bases with microwave tanks against Sneak Attacks.
+ - [IMPROVEMENT] USA's Strategy Centers will now initiate Bombardment battle plan if the main base is invaded and there is no power or there is just a few remaining base defences.
+ - [IMPROVEMENT] The AI will be able to garrison bunkers and firebases at expansions /it depends on the map though/.
+
+ - [IMPROVEMENT] Completely revamped attack priorities for all units and factions:
+ - [IMPROVEMENT] Added Burton attack priority and included Tech buildings in it, so the colonel will now be able to place charges on Tech buildings, and will no longer try to place charges on base defences /except firebases/.
+ - [IMPROVEMENT] Added Gat priority /higher for aircraft and infantry/,  Dragon tank priority /higher for buildings and infantry/,  Comanche priority /this was already done but only for AFG in the previous versions of the mod/, and missing terrorist priority for the Demo General. Improved attack priorities for Migs and rocketguys.
+ - [IMPROVEMENT] Added Holes for the terrorist priorities, so now they will attack GLA buildings more effectively.
+ - [IMPROVEMENT] Added Tech buildings in several priorities, so now units will be a bit more aggressive towards them.
+
+ - [IMPROVEMENT] Each USA will now have unique priorities for its Auroras, also fixed a problem where changing the Aurora priority for one faction will affect Auroras from other factions.
+ - [IMPROVEMENT] Auroras for all USA's will have four different priorities for Tech Centers:
+   > One for Palaces /high/, second for Strategy Centers /a bit higher/, third for Propaganda Centers /very high/, and fourth when the enemy /China's or USA's/ has no power /highest/.
+ - [MAYBE] Auroras from AFG and SWG will be more aggressive towards Tech Centers than those from Laser and USA.
+ - [MAYBE] AFG Auroras will start to attack American Strategy Centers when there is at least two Auroras available.
+
+ - [IMPROVEMENT] The AI will now recognize the type of the following units that wasn't recognizing before: the AFG Chinook, the Laser General's Aurora, Raptor, Microwave Tank and Sentry Drone, the terrorists for all GLA factions, and the technicals with different chassis, so now it will be more aggressive towards them.
+ - [IMPROVEMENT] Gats and Avengers are no longer recognized as tanks, but as Anti Air vehicles.
+ - [IMPROVEMENT] Dozers are now unique type of units. 
+ - [IMPROVEMENT] The SneakAttack TunnelNetwork is now added in the priorities, so now the AI will be more aggressive towards it.
+
+ - [IMPROVEMENT] Implemented timer for the saboteur technicals, so that the attack doesnt start right after the enemy's SuperWeapon is built.
+ - [IMPROVEMENT] Fixed the EA bug, where GLA's will not rebuild Sneak Atack teams and sometimes will not place units in the tunnels at all. Now older teams will exit tunnels and disband, so that the new team can move in.
+ - [IMPROVEMENT] Fixed another EA bug, where the Tunnel teams will be unable to get back to the tunnels if they try to enter into Tunnel Scaffold.
+
+ - [IMPROVEMENT] Fixed a problem, where Stealth and vanilla GLA will not build additional Arms Dealers.
+ - [IMPROVEMENT] A bit bigger expansions for China factions, and additional barracks for Demo.
+ - [IMPROVEMENT] Fixed a problem, where Stealth for no reason will send technicals and hijacked vehicles near the down-left corner of the map.
+ - [IMPROVEMENT] Stealth General will be able to manage more types of hijacked vehicles.
+ - [IMPROVEMENT] Fixed again uncrushable (by vehicle) minigunners for the ZH 1.04 version of the mod. /This was already fixed by r42 but only for the 1.06 patch version of the mod/
+
+ - [IMPROVEMENT] Fixed teams which will not attack the enemy for all GLA and China factions.
+ - [IMPROVEMENT] Fixed a situation, where dragon tanks for all China factions will attack with the firewall ability only once.
+ - [IMPROVEMENT] China factions will rush from multiple directions at the same time.
+ - [IMPROVEMENT] Added Dragon tank rushes using the firewall ability for all China factions.
+ - [IMPROVEMENT] Fixed a problem, where GLA will not attempt to capture Tech buildings near the enemy base.
+
+ - [IMPROVEMENT] Fixed a problem, where China's will not replace destroyed /by stealth fighters for example/ bunker teams, in case the bunker is intact.
+ - [IMPROVEMENT] Fixed a problem, where SWG will not upgrade Advanced Control Rods before building its superweapons.
+ - [IMPROVEMENT] China's will spread their additional hackers around the base /this was already done for the Infantry general in the previous versions of the mod/.
+
+ - [IMPROVEMENT] Fixed a problem, where some USA's will upgrade Control Rods only when they have no power, now all USA's will upgrade their power plants if the power supply ratio is below 130 %.
+ - [IMPROVEMENT] Laser general will build Laser Crusaders only when he has power.
+ - [IMPROVEMENT] The AI will build powerplants near safer places /expansions/ if its main base is invaded and there is no power.
+ - [IMPROVEMENT] Fixed an EA bug, where China's will not build additional powerplants in very late game.
+
+ - [IMPROVEMENT] Fixed several bugged comanche antitank teams for most USA factions.
+ - [IMPROVEMENT] Decreased the threshold for creating anti tank teams for all factions from 15 to 8 enemy tanks.
+ - [IMPROVEMENT] Fixed a problem, where AFG will not rebuild his Chinooks if they are destroyed.
+ - [IMPROVEMENT] Fixed a situation, where AFG will build Combat Chinooks for harvesting instead of his regular /and cheaper/ Chinooks.
+
+ - [IMPROVEMENT] Factions which do not posses tanks will now create Anti-Air Vehicle teams to better counter Quad/Gat spam.
+ - [IMPROVEMENT] Fixed a problem, where infantry will be unable to load into transports, if its pushed away by vehicle when trying to load into the transport.
+ - [IMPROVEMENT] Improved scripts for tech terror attacks and fixed a problem where the terrorists will not unload from the technical.
+ - [IMPROVEMENT] Other minor fixes and improvements.
+
+
+
+
+/v2.5 by AEI/       June 5  2010
+
+ - [NOTRELEVANT] Support for the 1.06 unofficial patch.
+ - [IMPROVEMENT] China factions will now target with cluster mines enemy units/tunnels, instead of mindlessly droping them in their own base, even if it has mines.
+ - [MAYBE] USA's Auroras will attack enemy powerplants with primary priority if they see that the enemy is low on excess power. They will also have high priority for GLA powerplants /built with stolen dozers/.
+ 
+ - [IMPROVEMENT] Fixed a problem, where China's do not deploy ECM tanks near gatling turrets, also their behaviour is now changed - they will deploy near bunkers instead.
+ - [IMPROVEMENT] USA's will deploy Avengers to protect firebases /it was already done for vanilla USA/.
+ - [IMPROVEMENT] Tank general will finally be able to build his "hidden" airfield and will attack with aircraft as well. Initial Helix rush is also added for the general.
+
+ - [IMPROVEMENT] Fixed a problem, where GLA vanilla do not use GPS scrambler.
+ - [IMPROVEMENT] Fixed AFG ground teams that refuse to attack, as well as ground teams for AFG and SWG that do not load into transports.
+ - [IMPROVEMENT] Fixed a situation, where AFG do not capture sniped /unmanned/ vehicles.
+ - [IMPROVEMENT] Added missing drone gun upgrade for AFG.
+ 
+ - [IMPROVEMENT] The AI will now consider having enemy patriots and tunnels in its base a base invasion, and it will build high priority base defence teams to deal with the threat. The AI will also have initial defence team to guard its base against early patdrops and tunnelbuilders.
+ - [IMPROVEMENT] Fixed base defence teams - added missing attack priorities and build conditions, and fixed teams consisting of wrong faction vehicles.
+ 
+ - [IMPROVEMENT] Measures taken to ensure that China's will fill their bunkers with tankhunters and do this fast - lowered the money requirement for the teams, increased their priority, and improved their scripts.
+ - [IMPROVEMENT] Lowered the priority for the hackers a bit, so that the AI does not produce them when  the base is attacked and needs base def teams or when it is building bunker teams.
+ 
+ - [IMPROVEMENT] Additional firebase teams added for the Laser general.
+ - [IMPROVEMENT] Additional garrison teams added for all GLA factions, they were not having many of them.
+ - [IMPROVEMENT] Fixed a bug, where vanilla USA does not garrison predetermined civilian buildings.
+ - [IMPROVEMENT] Improved scripts for the carbombs and some dozerhunt teams. 
+ - [IMPROVEMENT] Fixed early teams that do not attack the enemy for all China's, and the Laser general.
+
+ - [IMPROVEMENT] Fixed a situation, where the AI considered gla holes to be superweapons, which resulted in unadequate behaviour and messed up AI internal clock /counter escalation/.
+ - [IMPROVEMENT] Fixed a problem, which prevented sequential scripts from executing properly for AF and SW generals, a lot of things are done via them /transports, filling firebases, Burton planting charges, etc/
+
+1.06 patch note
+ - [NOTRELEVANT] USA's Stealth fighters will have higher priority for ECM tanks in this version of the mod.
+ - [NOTRELEVANT] The AI will take advantage of the new general points system, so now some generals will purchase more and different general powers than before.
+ - [NOTRELEVANT] Fixed an issue with the 1.06 patch, where Demo was unable to use General Power Rebel Ambush, due to its changed name in the patch /now Demo Rebel Ambush/.
+ - [NOTRELEVANT] The speed of the carbombs is the same as in the 1.04 patch, so that the AI can take advantage of them.
+ - [NOTRELEVANT] Be aware that some of the maps that come with the 1.06 patch are not AI optimized, so playing against the AI on them is not recommended.
+
+
+
+/v2.2 by AEI/      March 29  2010
+
+[IMPROVEMENT] GLA factions will finally use carbombs!
+They will now be able to utilize the 50+ types of cars, trucks and buses available on the battlefield. 
+Beware of the cars. Sometimes they may attack in packs.
+
+
+/v2.0 by AEI/      March 22   2010
+
+ - [IMPROVEMENT] Helixes! China's finally will use their choppers, loaded with Tank Hunters, to rush the enemy. These attacks will come from different directions.
+ - [IMPROVEMENT] Stealth General will now build a powerplant when he hijack a dozer, so that he can build and produce faster. He will bring the dozer in his base, and will rebuild the powerplant, in case it is destroyed.
+
+ - [IMPROVEMENT] Supply guards added for all China factions.
+ - [IMPROVEMENT] GLA factions will use more demo traps - in vanilla they weren't making more than one.
+ - [IMPROVEMENT] Better scripts for drops, terror technicals, Helixes and Combat Chinooks, so that they can attack from different and harder to counter directions, flank if antiair defences are present, etc.
+ - [IMPROVEMENT] Optimized some AI expansion defences, to eliminate situations where the expansion have 12+ defences or no defences at all.
+
+ - [IMPROVEMENT] Fixed the problem, where the Helixes that guard China factions bases do not upgrade their speaker tower.
+ - [IMPROVEMENT] Added missing drone gun upgrade for Laser General.
+ - [IMPROVEMENT] Fixed potential problems with vanilla GLA terror technicals, and vanilla and Stealth GLA saboteur loaded technicals.
+ - [MAYBE] Added initial flanking Gat rush for all China factions /except Infantry/.
+
+ - [IMPROVEMENT] Fixed a problem, which prevented most of the China factions from upgrading their radar.
+ - [IMPROVEMENT] Added combat zone teams /those that guard the center of the map/ for Lazer ,SW, and all GLA generals, some of them were missing.
+ - [IMPROVEMENT] Fixed a problem with unresponsive supply guards for Laser general.
+ - [IMPROVEMENT] Fixed a problem, that could prevent most GLA factions from upgrading to AP bullets.
+ - [IMPROVEMENT] Other minor improvements.
+
+
+/v1.0 by AEI/   January 6  2010
+
+ - [IMPROVEMENT] USA factions will use Chinook MD drops behind enemy lines.
+ - [IMPROVEMENT] AIRF will now use the Combat Chinook. These attacks will come from different directions.
+ - [MAYBE] AI Dozer hunting - the AI will hunt down the remaining dozers if it sees that the enemy has no Command Center, using Terror Bikes, Tech Terror attacks, or its planes.
+ - [IMPROVEMENT] All USA factions now enabled to use MOAB /until now only AIRF was using it for me/.
+
+ - [IMPROVEMENT] All China factions now enabled to use Carpet Bombing, including the Nuke Carpet Bombing for the Nuke General /these bombers were disabled due to EA mistakes, and originaly only Tank was using them/.
+ - [IMPROVEMENT] Toxin General will use Tech RPG attacks.
+ - [IMPROVEMENT] Stealth and vanilla GLA's will send technicals loaded with saboteurs to try to reset the enemy's SuperWeapon, when such is built.
+
+ - [IMPROVEMENT] China and Nuke will now upgrade the Neutron Shells, and scripts are added to allow their nuke launchers to use the Neutron Warheads, so now they can clear every garrisoned building, including Palaces, Tunnels, Bunkers, and Internet Centers.
+ - [IMPROVEMENT] USA's planes will attack targets behind enemy lines, if they see that the enemy has no power.
+ - [IMPROVEMENT] Fixed the Tech Terror rushes which were again not working correctly due to wrong scripting /for example to launch attack on a Tech Center, the AI will look for itself if it has such building, instead of the enemy/. They now also use a bit different scripts, and Supply Buildings are added for the Suicide priority, so that the terrorists are able to attack them after they unload the technical, in case it attacks a Supply center.
+
+ - [IMPROVEMENT] The Tech terror rushes will come from different directions.
+ - [IMPROVEMENT] Added Tech terror attack for Demo.
+ - [IMPROVEMENT] Fixed the Battle buses, which were again not working /except for Vanilla GLA/ , because no sequential scripts were used.
+ - [IMPROVEMENT] Fixed a Battle bus issue, where the buses will not load their teams, and proceed to attack empty, if their base is attacked when the team is trying to load into the bus.
+ - [IMPROVEMENT] Stealth and Demo will continue to use Battle buses throughout the whole game, instead of only once /like the other GLA's/.
+
+ - [IMPROVEMENT] Fixed the issue, where the Bomb trucks will try to disguise for ages /Stealth and Toxin/. This was because the AI will try to disguise only those that are built at the base, but not those that are built at expansions.
+ - [IMPROVEMENT] Fixed the USA bug, where the faction does not try to capture Tech Buildings.
+ - [IMPROVEMENT] Countermeasures upgrade added for vanilla USA, and the drone armor and chem suits upgrades added for AIRF, they were not using them.
+ - [IMPROVEMENT] Reenabled the Flashbang upgrade for SW USA, because it was not working, at least for me.
+
+ - [IMPROVEMENT] Laser and vanilla USA will use their Auroras more efficiently /it is already done for the other USA's/ - they will start to attack immediately, instead of waiting for the rest of their team to be built. This is done by making every team to consist of a single plane.
+ - [IMPROVEMENT] USA's Stealth Fighters will now attack Palaces /because they can clear them with their Bunker Busters/.
+ - [IMPROVEMENT] USA's Stealth Fighters will have higher priority for artillery, instead of tanks, since it is one shot - one kill.
+
+ - [IMPROVEMENT] USA's will have separate priorities for GLA workers, and the rest of the Supply Lines, such as Chinooks and Supply trucks. This is because their planes are ineffective against the workers, so now they will continue to attack the Chinooks and the Trucks, but will rarely waste time and ammo for the workers and instead will prefer more juicy targets.
+
+ - [IMPROVEMENT] Fixed an issue, where all GLA factions tanks again will refuse to attack AntiAir defences, in case the enemy has no power and then the power is back, it was due to wrongly selected China Prio Back scripts, instead of the GLA ones.
+ - [IMPROVEMENT] Fixed Supply Lines priorities for Nuke and Infantry generals, some of them were missing.
+ - [IMPROVEMENT] Added supply guards for Laser and SW USA factions. /The other USA's already have/.
+
+ - [IMPROVEMENT] Fixed the supply guards for Stealth and vanilla GLA, they were not working due to missing stuff. They will now consist of stealthed combat bikes, instead of rebels, since the bikes deploy and react alot faster.
+ - [IMPROVEMENT] Measures taken to ensure that GLA's will expand. This is because they are the most resourceful factions, so they will have higher money requirement to refuse to expand /10 000 $/ instead of 6000$ like the other non GLA factions.
+
+ - [IMPROVEMENT] Fixed a situation, where AIRF will not expand, because the requirement to refuse to expand was to have more than 5 supply buildings /this means Supply drop zones as well as Supply centers/ . So now the requirement to refuse to expand will be to have more than 5 supply centers, instead of supply buildings.
+ - [IMPROVEMENT] General Power Frenzy replaced with Artilery strikes for Tank and Nuke generals.
+
+ - [IMPROVEMENT] USA's Medic teams will hide at the back of the base, since the SuperWeapon attacks generaly attack the center of the base, so that they can survive and clean up the mess. The medics will have a battle drone, since they cannot heal themselves.
+ - [IMPROVEMENT] Added Sniper team for Laser's Firebases, the faction was not using them for their firebases.
+ - [IMPROVEMENT] Added Terror bikes teams for Stealth, the faction was not using them.
+ - [IMPROVEMENT] Fixed a situation, where Demo will build 20 + defences at a single supply source.
+ - [IMPROVEMENT] A lot of other small fixes.
+
+
+========================
+Features of the original mod:   /v0.98 by r42/    
+
+
+ - [MAYBE] Normal AI is the same as Hard but without 50000 additional money. Easy is practically unchanged.
+ - [MAYBE] All factions are now balanced regarding the amount of cheat money that they have.
+ - [IMPROVEMENT] Removed Aggressive state for dozer team to resolve 0% building progress bug.
+ - [IMPROVEMENT] AI can now re-enable important unfinished upgrades.
+ - [IMPROVEMENT] More base building, attack teams and other general AI improvements.
+ - [IMPROVEMENT] Added scripts that change the attack priority for power-related base defenses to 1 if the AI sees that its enemy has no power.
+
+All USA Factions:
+ - [IMPROVEMENT] Can now attack with abandoned rangers.
+ - [IMPROVEMENT] Now reuse their strategies if the Strategy Center is destroyed and then rebuilt.
+ - [IMPROVEMENT] Use the Drone Armor upgrade.
+ - [IMPROVEMENT] Missile Defenders now properly use the Laser Guided Missiles ability.
+
+Vanilla USA:
+ - [IMPROVEMENT] Now uses the MOAB upgrade.
+
+USA Airforce General:
+ - [IMPROVEMENT] Air Force General now uses the Carpet Bomb from Strategy Center.
+
+All GLA Factions:
+ - [IMPROVEMENT] Now use Bomb Trucks and Battle Buses.
+ - [IMPROVEMENT] They will disguise their Bomb Trucks.
+ - [IMPROVEMENT] Improved behavior for Bunker and Palace teams.
+
+Vanilla GLA:
+ - [IMPROVEMENT] Fixed Vanilla GLA bug where it used GPS Scrambler every 40 seconds never used the Sneak Attack at all.
+
+All China Factions:
+ - [IMPROVEMENT] Now use the Dragon Tank's firewall ability.
+
+China Nuke General:
+ - [IMPROVEMENT] Fixed a problem preventing the China Nuke General from building a barracks.
+
+Stealth General:
+ - [IMPROVEMENT] Stealth General can now manage Hijackers' captured tanks and vehicles -- will merge them into an attack team and build upgrades (Battle Drones and the Overlord's upgrades).
+
+ - [IMPROVEMENT] Reduced lag.
+ - [IMPROVEMENT] Fixed uncrushable (by vehicle) minigunners.
+ - [MAYBE] Additional Black Market for the Toxin general.
+ - [MAYBE] Additional Scud Storm and 2 Black Markets for the Stealth general.
+ - [IMPROVEMENT] Changed team state from Aggressive to Normal for all Black Lotus teams for all China factions (helps them hack properly).
+
+ - [IMPROVEMENT] Vanilla GLA camouflage upgrade
+ - [IMPROVEMENT] Added supply guard teams to Vanilla USA and Airforce for experimental purposes
+ - [IMPROVEMENT] My & EA lame script improvements and tuning.
+ - [IMPROVEMENT] Added more factories to the AI's build list
+ - [MAYBE] Added a little more base defenses
+
+ - [MAYBE] Behavior changes; mostly USA factions.
+ - [MAYBE] Particle Cannon now draws its 'S' sign a little wider.
+ - [IMPROVEMENT] General improvements, as usual.
+ - [IMPROVEMENT] Supply Priority changes for all USA factions.
+ - [IMPROVEMENT] Medic team for USA and it works! (clean up the base)
+ - [IMPROVEMENT] Improved script for GLA technical rush. If there is no Tech Center it will surprise you! (The first time, of course.)
+ - [IMPROVEMENT] Fixed tank priorities for "GLA Prior Change Back" scripts.
+ - [IMPROVEMENT] Fixed a battle buses issue.
+ - [IMPROVEMENT] All USA tank/vehicle teams will now attack infantry with hellfire drones.
+
+
+
+---------------------------------------------------
+Features of the original mod:   /v0.95 by Lion/
+
+***Beta 0.95***
+WAY to many to mention...
+- [IMPROVEMENT] upgraded the toxin, tank, stealth and laser generals considerably and fixed bugs on most of the other generals
+- [IMPROVEMENT] Smarter planes, they will no longer attack by waypoints, which caused them to fly over the enemy's base or expansions.
+- [IMPROVEMENT] Most planes will start to attack immediately, instead of waiting for the rest of their team to be built. 
+- [IMPROVEMENT] AF and SW generals will now research Advanced Training properly.
+- [IMPROVEMENT] The AI will capture Tech buildings in its base immediately.
+- [IMPROVEMENT] Additional Particle Cannon for the Laser General, Nuke Silo for the Nuke General, and Scud Storm for the Demo General.
+
+
+***Beta 0.70***
+ALL USA GENERALS:
+- [IMPROVEMENT] Fixed stuck on 0% building bug which slowed the whole basebuilding process
+AF GENERAL
+- [IMPROVEMENT] GREATLY Reduced cheating amount while retaining most of the challenge factor
+- [IMPROVEMENT] Tweaked once more Aircraft priorities
+- [IMPROVEMENT] Added priority sets to other teams like comanches and humvees
+- [IMPROVEMENT] Improved general's powers aquisition
+- [IMPROVEMENT] Revamped Teams for playing with less cheat money
+- [IMPROVEMENT] Added smarter money management which improves rebuilding times and ensures it plays well with the money it has
+- [MAYBE] Auroras will once again blow your tech center up pretty much everytime
+- [IMPROVEMENT] It will stick men into humvees in order to make them more effective
+- [IMPROVEMENT] Fixed attack route bug causing unnecessary loss of raptors
+- [IMPROVEMENT] Reduced base defense build speed to compensate for lack of late game cheats
+- [MAYBE] Increased agressivity twofold for some teams
+- [IMPROVEMENT] Improved Tech building capture handling (can get 2 at same time)
+- [IMPROVEMENT] Changed ObjectLists for more accurate target picking
+- [MAYBE] More comanche defenses
+- [IMPROVEMENT] Now picks pathfinders and uses them
+
+***Beta 0.65***
+- [IMPROVEMENT] Done nuke gen and fixed some bugs!
+- [IMPROVEMENT] Revamped buildlist
+- [IMPROVEMENT] Changed teams
+- [IMPROVEMENT] Added agressiveness
+- [IMPROVEMENT] Streamlined basebuilding
+- [IMPROVEMENT] Added missing upgrades like mines
+- [IMPROVEMENT] Changed attack groups
+
+***Beta 0.61***
+- [IMPROVEMENT] Although not a major update, it features an improved
+- [IMPROVEMENT] plane AI and some bug fixes while i work on the stealth general.
+- [IMPROVEMENT] Improved Aircraft AI greatly especially for aurora bombers
+- [IMPROVEMENT] fixed bug where the SWG would run out of money very quickly
+- [IMPROVEMENT] reduced number of infantry the SWG makes (it was making too many)
+- [IMPROVEMENT] Steamlined the USA generals base build order
+- [IMPROVEMENT] Added priorities for the planes
+- [IMPROVEMENT] reduced cheating of AF general (it doesnt need it as much as other gens)
+- [IMPROVEMENT] Tweaked attack groups for both generals
+- [IMPROVEMENT] added tow missiles for AF general
+- [MAYBE] AF gen will build less stealth fighters, more auroras
+- [IMPROVEMENT] Planes have a nice priority choosing logic so they wont be hitting infantry when theres a juicy tank nearby
+
+***Beta 0.6***
+- [IMPROVEMENT] Fixed Major bugs, improved AF general some more:
+- [IMPROVEMENT] FIXED bug where AI wouldnt build base up if having more than 10 starting money
+- [IMPROVEMENT] FIXED AF gen building millions of dozers
+- [IMPROVEMENT] Added firebase logic to AF general (will fill mutiple firebases)
+- [IMPROVEMENT] improved base building and expansion to supplies for AF general
+- [IMPROVEMENT] Demo general now doesnt have 16 bikes sitting around in his base
+- [IMPROVEMENT] AIs have improved base designs
+- [IMPROVEMENT] AIs will build more concentric all around defenses (back a little exposed but much more effective)
+- [IMPROVEMENT] Added smarter plane and demo bike priority for targets
+- [IMPROVEMENT] made the AI build less construction units by late game that just sit there
+- [IMPROVEMENT] Improved aurora behaviour to make it more agressive and smarted for both the USA generals (they will go for defenses/strategy center more)
+- [IMPROVEMENT] Added random Tech Center Timer to slow down building a bit and make it more random
+- [MAYBE] Tweaked AI units attacking AI (more agressive but smarter in its agression)
+- [IMPROVEMENT] Added random Attack wave timer for demo general (no more timed 40 seconds between attacks)
+- [IMPROVEMENT] AI will rebuild more important structures more often
+- [IMPROVEMENT] Other improvements, especially for the AF general (upgrades, attack group tweaks etc)
+
+
+***Beta 0.5***
+Did only a bit of work on AF general (not yet a proper update just a little faster to build up)
+i concentrated mainly on the other generals to improve them:
+
+- [IMPROVEMENT] All generals get less cheat money in late game (less than the original AIs already)
+- [IMPROVEMENT] Infantry general will build a lot more hackers and spread them around (a bit buggy as they sometimes send them too far lol)
+- [IMPROVEMENT] demo gen will build black markets if it runs low on money
+- [IMPROVEMENT] USA generals will only have 2 chinooks (3 provides little advantage and clogs up when they all move to another pile)
+- [IMPROVEMENT] AF general builds base faster (no other improvements yet)
+- [IMPROVEMENT] SWG will buy the pathfinder science properly
+- [IMPROVEMENT] Fixed SWG not building units bug
+- [IMPROVEMENT] Improved Infatry general's bunkering logic
+- [IMPROVEMENT] Tweaked Demo general's sneak attack group
+- [IMPROVEMENT] Removed frenzy picking for now as the AI didnt use it (will pick barrage instead)
+- [IMPROVEMENT] Demo general will use more balanced attack groups
+- [MAYBE] Demo general might launch a 3 way attack with artillery and tanks right after a scud storm, sneak attack and anthrax bomb if it feels mean
+- [IMPROVEMENT] Improved base repairing for all generals
+- [MAYBE] Made AI units more agressive
+- [IMPROVEMENT] Improved general point picking (minor changes)
+- [IMPROVEMENT] Infantry general will build and upgrade mines provided it had the funds
+- [IMPROVEMENT] Better firebase filling for the SWG (will start earlier and upgrade to pathfinder once obtained)
+- [IMPROVEMENT] Improved logic for expanding to other supply piles
+- [IMPROVEMENT] Fixed demo general slow motion tunnel guards
+- [IMPROVEMENT] Improved tunnel guard/sneak assault group
+
+
+***Beta 0.4***
+Done Demo general. Some minor updates for other generals too
+
+- [IMPROVEMENT] Same updates as other generals, builds faster, better attack groups etc
+- [IMPROVEMENT] Demo gen will use sneak attack properly now (still a bit buggy)
+- [IMPROVEMENT] Smart Resource Management System (Builds more factories if excess money, more stashes if money is low)
+- [IMPROVEMENT] Combined Weapons Assault Combos (will try to combine Gen powers, superweapons and attacks in a coordinated way)
+- [IMPROVEMENT] Infantry general will now research patriotism properly
+- [IMPROVEMENT] Infantry general will defend supply centers a bit better
+Other gens:
+- [IMPROVEMENT] Added better SWG pathfinder usage
+- [IMPROVEMENT] Infantry general might attempt to create firestorms when using infernos
+
+
+***Beta 0.3***
+Improved The infantry general
+
+- [IMPROVEMENT] will expand faster
+- [IMPROVEMENT] will build more units
+- [MAYBE] will attack more often
+- [MAYBE] will hold nuke until it goes for attacking
+- [IMPROVEMENT] quick resource expansion
+- [IMPROVEMENT] builds more hackers
+- [IMPROVEMENT] better upgrade logic
+- [IMPROVEMENT] better defenses
+- [IMPROVEMENT] will garrison a lot more buildings
+- [IMPROVEMENT] better urban combat
+- [IMPROVEMENT] more vehicles will be built
+- [IMPROVEMENT] uses artillery and ECM tanks
+Improvements over SWG
+- [IMPROVEMENT] still better Alpha code
+- [IMPROVEMENT] it will fill in those firebases!!
+- [IMPROVEMENT] uses pathfinders if enemy is massing on infantry
+
+
+***Beta 0.2***
+Vast improvements on the SWG.. ill move on to other generals now
+
+- [IMPROVEMENT] It will expand to other supply zones faster
+- [IMPROVEMENT] It will build mini bases near the supply piles
+- [IMPROVEMENT] Fixed suicide Alphas bug
+- [IMPROVEMENT] Added more attack groups
+- [IMPROVEMENT] Made it use the extra money it makes from expansion/mini bases
+- [IMPROVEMENT] Better defense response
+- [IMPROVEMENT] It *might* fill firebases (ive been working hard at that)
+- [IMPROVEMENT] Improved tech capture logic
+- [MAYBE] Increased the size of attack groups
+- [IMPROVEMENT] It will try to rebuild command center if destroyed
+- [IMPROVEMENT] Better active base defenses
+
+
+***Beta 0.1***
+First release. Has an upgraded HARD Super Weapons General. 
+It should be 2-4 times harder to beat than the normal one.
+
+Improvements on SWG:
+- [IMPROVEMENT] Builds base up much faster
+- [IMPROVEMENT] More efficient resource management
+- [IMPROVEMENT] Builds bigger assault groups
+- [IMPROVEMENT] Uses a LOT more aurora alphas and uses them more effectively (not 100% yet)
+- [IMPROVEMENT] Builds less defenses where not needed (eg half the patriots by supply piles)
+- [IMPROVEMENT] Builds more defenses by base entrances
+- [IMPROVEMENT] Uses better tactics (S&D to make tomahawks/EMP patriots more effective)
+- [MAYBE] More agressive
+- [IMPROVEMENT] Rebuilds base faster
+- [IMPROVEMENT] Expands to resource areas more often
+- [IMPROVEMENT] Better late-game resource aquiring and survival
+
+
+
+
+Credits and special thanks to:
+Lion
+r42
+C&C Labs community
+
+Do not distribute this improved version of the mod without contacting me first.
+Contact: aei_@abv.bg
