@@ -1,0 +1,27 @@
+ParticleSystem NLSLogoParticle
+Priority = WEAPON_EXPLOSION
+IsOneShot = Yes
+Shader = ADDITIVE
+ParticleName = EXNLS.tga
+VelocityDamping = 0.88 0.9
+Gravity = 0.2
+Lifetime = 27 29
+SystemLifetime = 0
+Size = 1.0 2.0
+SizeRate = 1.0 2.0
+SizeRateDamping = 0.93 0.95
+Alpha1 = 0 0 0
+Color1 = R:0 G:0 B:0 0
+Color2 = R:255 G:255 B:255 5
+Color3 = R:255 G:255 B:255 25
+Color4 = R:0 G:0 B:0 30
+BurstDelay = 3 6
+BurstCount = 1 4
+DriftVelocty = X:0 Y:0 Z:0.25
+VelocityType = HEMISPHERICAL
+VelHemispherical = 2 8
+VolumeType = CYLINDER
+VolCylinderRadius = 25
+VolCylinderLength = 5
+IsHollow = Yes
+End

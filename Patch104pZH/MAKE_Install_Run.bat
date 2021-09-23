@@ -23,25 +23,16 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------
+
 echo on
+set ThisDir0=%~dp0
 
-call MAKE_Install.bat
+:: Install
+call %ThisDir0%MAKE_Install.bat
 
-:: Rename files as per setup in SETUP_UserSettings.bat
-for %%f in (%GameFilesToDisable%) do (
-	if exist %GameRootDir%\%%f (
-		ren %GameRootDir%\%%f %%f.PATCH104P
-	)
-)
-
+:: Run game
 set GameExeArgs0=%GameExeArgs:"=%
-
-::Run game
 %GameRootDir%\%GameExeFile% %GameExeArgs0%
 
-:: Restore files as per setup in SETUP_UserSettings.bat
-for %%f in (%GameFilesToDisable%) do (
-	if exist %GameRootDir%\%%f.PATCH104P (
-		ren %GameRootDir%\%%f.PATCH104P %%f
-	)
-)
+:: Uninstall
+call %ThisDir0%MAKE_Uninstall.bat
