@@ -25,12 +25,12 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 
 echo on
-set ThisDir0=%~dp0
+set ThisDir0="%~dp0."
 set GeneratedReleaseUnpackedFiles=
 
-call %ThisDir0%Scripts\MAKE_Patch104pZH.bat build
-call %ThisDir0%Scripts\MAKE_Patch104pArtZH.bat build
-call %ThisDir0%SETUP_UserSettings.bat
+call %ThisDir0%\Scripts\MAKE_Patch104pZH.bat build
+call %ThisDir0%\Scripts\MAKE_Patch104pArtZH.bat build
+call %ThisDir0%\SETUP_UserSettings.bat
 
 :: Rename files as per setup in SETUP_UserSettings.bat
 for %%f in (%GameFilesToDisable%) do (
