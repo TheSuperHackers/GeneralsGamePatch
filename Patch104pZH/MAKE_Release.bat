@@ -1,6 +1,6 @@
-set ThisDir0=%~dp0
-call %ThisDir0%Scripts\MAKE_Patch104pZH.bat
-call %ThisDir0%Scripts\MAKE_Patch104pArtZH.bat
+set ThisDir0="%~dp0."
+call %ThisDir0%\Scripts\MAKE_Patch104pZH.bat build
+call %ThisDir0%\Scripts\MAKE_Patch104pArtZH.bat build
 
 :: Copy base release files
 xcopy /y /s %ReleaseUnpackedDir%\* %GeneratedReleaseUnpackedDir%\*
