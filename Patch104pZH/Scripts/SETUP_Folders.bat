@@ -1,5 +1,5 @@
 :: Setup work folders
-set ProjectDir=%~dp0..
+set ProjectDir="%~dp0.."
 set ToolsDir=%ProjectDir%\..\Tools
 set GameFilesDir=%ProjectDir%\GameFilesEdited
 set ReleaseUnpackedDir=%ProjectDir%\ReleaseUnpacked

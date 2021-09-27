@@ -25,14 +25,14 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 
 echo on
-set ThisDir0=%~dp0
+set ThisDir0="%~dp0."
 
 :: Install
-call %ThisDir0%MAKE_Install.bat
+call %ThisDir0%\MAKE_Install.bat
 
 :: Run game
 set GameExeArgs0=%GameExeArgs:"=%
 %GameRootDir%\%GameExeFile% %GameExeArgs0%
 
 :: Uninstall
-call %ThisDir0%MAKE_Uninstall.bat
+call %ThisDir0%\MAKE_Uninstall.bat
