@@ -35,7 +35,7 @@
 | Red Guard         |      |      | 10 |  9   |
 | Tank Hunter       |      |      |  5 |  4.5 |
 | Hacker            |  625 |  550 | 20 | 15   |
-| Battlemaster      |  800 |  650 |    |      |
+| Battlemaster      |  800 |  700 |    |      |
 | Gattling Tank     |  800 |  700 |    |      |
 | Dragon Tank       |  800 |  700 |    |      |
 | ECM Tank          |  800 |  750 |    |      |
@@ -56,7 +56,6 @@
 | Helix            |      |      |  20 |  25   |
 | Inferno Cannon   | 1100 | 1000 |  15 |  14   |
 | Nuke Cannon      | 1600 | 1400 |  20 |  18   |
-| Fortified Bunker |  700 |  750 |   8 |   9   |
 
 ### Nuke China
 
@@ -110,13 +109,12 @@ Composite Armour now gives 25% HP (fixed for all units)
 
 | ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
 |--------------------------------|--------------:|--------------:|-------------:|-------------:|
-| Patriot Battery | 1000 |  700 | 25 | 30 |
-| Crusader        |  900 |  850 |    |    |
-| Paladin         | 1100 | 1000 | 12 | 10 |
+| Patriot Battery | 1000 |  750 |    |    |
+| Paladin         | 1100 | 1000 |    |    |
 | Ambulance       |  600 |  700 |    |    |
-| Raptor          | 1400 |  900 |    |    |
+| Raptor          | 1400 | 1100 |    |    |
 | Comanche        | 1500 | 1350 |    |    |
-| Stealth Fighter | 1600 |  900 |    |    |
+| Stealth Fighter | 1600 | 1250 |    |    |
 | Aurora          | 2500 | 2000 |    |    |
 | Sentry Drone    |  800 |  500 | 10 |  8 |
 
@@ -126,22 +124,20 @@ Composite Armour now gives 25% HP (fixed for all units)
 |--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Early Emergency Repair |      |      | 240 | 120 |
 | Carpet Bomb            |      |      | 240 | 360 |
-| Patriot                | 1000 |  700 |  25 |  30 |
+| Patriot                | 1000 |  750 |     |     |
 | Chinook                |  950 | 1200 |     |     |
 | Combat Chinook         |      |      |  25 |  30 |
 | Sentry Drone           |  850 |  500 |  10 |   8 |
-| Stealth Fighter        | 1250 |  950 |     |     |
 
 ### Laser USA
 
 | ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
 |--------------------------------|--------------:|--------------:|-------------:|-------------:|
-| Laser Crusader  |  900 |  850 |    |    |
 | Ambulance       |  600 |  700 |    |    |
 | Sentry Drone    |  800 |  500 | 10 |  8 |
-| Raptor          | 1400 |  900 |    |    |
+| Raptor          | 1400 | 1100 |    |    |
 | Comanche        | 1500 | 1350 |    |    |
-| Stealth Fighter | 1600 |  900 |    |    |
+| Stealth Fighter | 1600 | 1250 |    |    |
 | Aurora          | 2500 | 2000 |    |    |
 
 ### Superweapon USA
@@ -154,8 +150,8 @@ Composite Armour now gives 25% HP (fixed for all units)
 | Humvee                 |  850 |  800 |    |    |
 | Sentry Drone           | 1000 |  500 | 10 |  8 |
 | Tomahawk               | 1400 | 1200 |    |    |
-| Raptor                 | 1400 |  900 |    |    |
-| Stealth Fighter        | 1600 |  900 |    |    |
+| Raptor                 | 1400 | 1100 |    |    |
+| Stealth Fighter        | 1600 | 1250 |    |    |
 | Comanche               | 1800 | 1350 |    |    |
 | Alpha Aurora Bomber    | 2000 | 2500 |    |    |
 
@@ -167,7 +163,6 @@ Composite Armour now gives 25% HP (fixed for all units)
 | BioBomb             |  500 |  300 |     |     |
 | HighExplosiveBomb   |  500 |  400 |     |     |
 | FortifiedStructures | 1000 | 1500 |     |     |
-| Scud Storm          |      |      | 300 | 360 |
 | Scud Launcher       |      |      |  15 |  14 |
 
 ### GLA
@@ -175,7 +170,7 @@ Composite Armour now gives 25% HP (fixed for all units)
 | ___________ Object ___________ | Old price ($) | New price ($) | Old time (s) | New time (s) |
 |--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Booby Trap   | 1000 |  400 | 40 | 15 |
-| Camouflage   | 2000 | 1000 | 60 | 30 |
+| Camouflage   | 2000 |  800 | 60 | 30 |
 | Hijacker     |      |      | 10 |  5 |
 | Saboteur     |      |      | 15 | 10 |
 | Bomb Truck   | 1200 | 1100 | 15 | 12 |
