@@ -9,8 +9,8 @@
 |---|---|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 |   |   | [#2](https://github.com/xezon/GeneralsGamePatch/pull/2)     | Fixed issue that showed wrong model of GLA Battle Bus in bunkered state                                               |
 |   |   | [#3](https://github.com/xezon/GeneralsGamePatch/pull/3)     | Fixed exploit that granted USA a significant amount of cash after building a Drop Zone                                |
-|   |   | [#7](https://github.com/xezon/GeneralsGamePatch/pull/7)     | Fixed issue that would permanently reduce the power level of a faction                                                |
-|   |   |                                                             | Improved the performance of USA Patriot missile assist effect by around 60%                                           |
+|   |   | [#7](https://github.com/xezon/GeneralsGamePatch/pull/7)     | Fixed issue that would permanently reduce the power level of a player                                                 |
+|   |   |                                                             | Reduced lag of USA Patriot missile assist effect by around 60%                                                        |
 |   |   | [#4](https://github.com/xezon/GeneralsGamePatch/pull/4)     | Fixed issue that prevented China Tank and China Nuke Outposts to attack buildings and terrain                         |
 |   |   | [#6](https://github.com/xezon/GeneralsGamePatch/pull/6)     | Improved the mobility of the China Dozer to avoid scenarios where it gets stuck unnecessarily                         |
 | C |   |                                                             | Removed Heat Haze effect from Microwave Tank and GPS Scrambler to avoid critical rendering glitches                   |
@@ -19,7 +19,7 @@
 |   |   |                                                             | Fixed issue that spawned wrong USA Ranger types on Particle Cannon kills                                              |
 |   |   |                                                             | Fixed issue that prevented a stealthed and attacking GLA Palace to reveal itself                                      |
 |   |   | [#75](https://github.com/xezon/GeneralsGamePatch/pull/75)   | Fixed issue where a player would not be defeated by just owning a GLA Tunnel/Stinger hole                             |
-|   |   | [#76](https://github.com/xezon/GeneralsGamePatch/pull/76)   | Added red bullet tracers to heroic USA Pathfinders and GLA JarmenKell                                                 |
+|   |   | [#76](https://github.com/xezon/GeneralsGamePatch/pull/76)   | Added red bullet tracers to heroic USA Pathfinders and GLA Jarmen Kell                                                |
 |   |   | [#67](https://github.com/xezon/GeneralsGamePatch/pull/67)   | Fixed wrong Anthrax effect colors on SCUD Storm missiles                                                              |
 |   |   | [#72](https://github.com/xezon/GeneralsGamePatch/pull/72)   | Fixed exploit that allowed to shoot with the GLA Scud Storm at any time                                               |
 |   |   | [#77](https://github.com/xezon/GeneralsGamePatch/pull/77)   | Fixed wrong Anthrax effect colors on Toxin Tractor puddles                                                            |
@@ -29,11 +29,11 @@
 |   |   | [#95](https://github.com/xezon/GeneralsGamePatch/pull/95)   | Fixed GLA Stealth Saboteur death voice                                                                                |
 |   |   | [#96](https://github.com/xezon/GeneralsGamePatch/pull/96)   | Fixed issue that sent the China Supply Truck flying high in the sky when shot                                         |
 | C |   | [#97](https://github.com/xezon/GeneralsGamePatch/pull/97)   | Fixed issue that made it difficult to drive over the China Infantry Minigunner                                        |
-|   |   | [#83](https://github.com/xezon/GeneralsGamePatch/pull/83)   | Fixed issue that had Toxin Shells lose Projectile effect after acquiring Anthrax Beta                                 |
+|   |   | [#83](https://github.com/xezon/GeneralsGamePatch/pull/83)   | Fixed issue that had Toxin Shells lose projectile effect after acquiring Anthrax Beta                                 |
 |   |   | [#84](https://github.com/xezon/GeneralsGamePatch/pull/84)   | Fixed issue that made Gamma Toxin Streams have green particles when clearing buildings                                |
 |   |   | [#86](https://github.com/xezon/GeneralsGamePatch/pull/86)   | Fixed wrong UI portrait image of GLA Sneak attack                                                                     |
 |   |   | [#91](https://github.com/xezon/GeneralsGamePatch/pull/91)   | Fixed wrong UI ability image of GLA Saboteur                                                                          |
-|   |   | [#87](https://github.com/xezon/GeneralsGamePatch/pull/87)   | Fixed issue that made Demo GLA Rocket Buggy lose red missile effect after acquiring Rocket Upgrade                    |
+|   |   | [#87](https://github.com/xezon/GeneralsGamePatch/pull/87)   | Fixed issue that made Demo GLA Rocket Buggy lose red missile effect after acquiring Buggy Ammo Upgrade                |
 |   |   | [#88](https://github.com/xezon/GeneralsGamePatch/pull/88)   | Fixed wrong demo charge voice effect for Demo GLA Jarmen Kell                                                         |
 |   |   | [#92](https://github.com/xezon/GeneralsGamePatch/pull/92)   | Fixed wrong poison death voice effects for USA and China infantry units                                               |
 |   |   | [#101](https://github.com/xezon/GeneralsGamePatch/pull/101) | Fixed wrong death voice effects for Demo GLA infantry                                                                 |
@@ -78,7 +78,7 @@
 |   |   | [#224](https://github.com/xezon/GeneralsGamePatch/pull/224) | Added missing Patriotism Upgrade icon to Infantry China Tank Hunter                                                   |
 |   |   | [#225](https://github.com/xezon/GeneralsGamePatch/pull/225) | Added missing Upgrade icons to GLA Rebels                                                                             |
 |   |   | [#205](https://github.com/xezon/GeneralsGamePatch/pull/205) | Fixed wrong upgrade icon placements on USA Tomahawk                                                                   |
-|   |   | [#209](https://github.com/xezon/GeneralsGamePatch/pull/209) | Fixed China Nuklear Missile exploit                                                                                   |
+|   |   | [#209](https://github.com/xezon/GeneralsGamePatch/pull/209) | Fixed China Nuclear Missile exploit                                                                                   |
 |   |   | [#254](https://github.com/xezon/GeneralsGamePatch/pull/254) | Fixed issue that had USA Spectre Gunship lose its player color when shot down                                         |
 |   |   | [#255](https://github.com/xezon/GeneralsGamePatch/pull/255) | Fixed issue where China Battlemasters from different sub faction did not benefit from Horde Bonus                     |
 |   |   | [#258](https://github.com/xezon/GeneralsGamePatch/pull/258) | Fixed broken weapons and animations on GLA HiDef Scud Launcher (cut)                                                  |
@@ -95,7 +95,7 @@
 |   |   | [#273](https://github.com/xezon/GeneralsGamePatch/pull/273) | Fixed issue where Demo GLA Rocket Soldier on Combat Cycle did not shoot with correct rocket type                      |
 |   |   | [#271](https://github.com/xezon/GeneralsGamePatch/pull/271) | Fixed issue where GLA Fake Command Center did look different to real Command Center after Fortified Structure upgrade |
 |   |   | [#269](https://github.com/xezon/GeneralsGamePatch/pull/269) | Fixed issue where China Nuke Cannon will attack wrong target after deployment completion                              |
-|   |   | [#277](https://github.com/xezon/GeneralsGamePatch/pull/277) | Fixed inconsistent Demo Charge button placement on GLA Jarmen Jell and USA Colonel Burton                             |
+|   |   | [#277](https://github.com/xezon/GeneralsGamePatch/pull/277) | Fixed inconsistent Demo Charge button placement on GLA Jarmen Kell and USA Colonel Burton                             |
 |   |   | [#278](https://github.com/xezon/GeneralsGamePatch/pull/278) | Fixed wrong suicide ability icon on Demo GLA Combat Cycle                                                             |
 |   |   | [#268](https://github.com/xezon/GeneralsGamePatch/pull/268) | Fixed issue where GLA Battle Bus would turn chassis when aiming at air units                                          |
 | C |   | [#104](https://github.com/xezon/GeneralsGamePatch/pull/104) | Fixed issue where Demo GLA Combat Cycle would deal no damage when killed by Gamma Anthrax                             |
