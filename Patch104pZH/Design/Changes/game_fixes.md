@@ -5,7 +5,7 @@
 | C = Controversial |
 | A = Accepted      |
 
-| C | A | Change                                                                                                           |
+| C | A | Change                                                                                                                |
 |---|---|-----------------------------------------------------------------------------------------------------------------------|
 |   |   | Fixed issue that showed wrong model of GLA Battle Bus in bunkered state                                               |
 |   |   | Fixed exploit that granted USA a significant amount of cash after building a Drop Zone                                |
@@ -20,8 +20,10 @@
 |   |   | Fixed issue that prevented a stealthed and attacking GLA Palace to reveal itself                                      |
 |   |   | Fixed issue where a player would not be defeated by just owning a GLA Tunnel/Stinger hole                             |
 |   |   | Added red bullet tracers to heroic USA Pathfinders and GLA JarmenKell                                                 |
+|   |   | Fixed wrong Anthrax effect colors on SCUD Storm missiles                                                              |
 |   |   | Fixed exploit that allowed to shoot with the GLA Scud Storm at any time                                               |
-|   |   | Added correct anthrax particle effect colors to Toxin Tractor puddles                                                 |
+|   |   | Fixed wrong Anthrax effect colors on Toxin Tractor puddles                                                            |
+|   |   | Fixed wrong Anthrax effect colors on Toxin Tractor puddles                                                            |
 |   |   | Fixed issue that allowed to trigger demo traps by placing scaffolds nearby                                            |
 |   |   | Fixed issue that caused Toxin demo trap to prematurely create toxin puddle before explosion                           |
 |   |   | Fixed GLA Stealth Saboteur death voice                                                                                |
@@ -39,7 +41,7 @@
 |   |   | Expanded army selection drop down box in Menu Game Room to see all factions at once without scrolling                 |
 |   |   | Fixed Demo GLA vehicle destruction effect glitches                                                                    |
 |   |   | Fixed issue that made Demo GLA Combat Bike used by GLA Worker miss the vehicle destruction effect                     |
-|   |   | Fixed issue that made Demo GLA Battle Bus vanish after demo suicide without applying any damage                       |
+| C |   | Fixed issue that made Demo GLA Battle Bus vanish after demo suicide without applying any damage                       |
 |   |   | Added missing faction colors to Snow China Speaker Tower building model                                               |
 |   |   | Fixed issue that allowed GLA Toxin Tractor to attack units standing too close to it                                   |
 |   |   | Fixed issue that hid China Bunkers and China Propaganda Center from radar minimap                                     |
@@ -65,10 +67,13 @@
 |   |   | USA Spectre Gunship is no longer selectable with Select All key(s) (Q W)                                              |
 |   |   | Fixed issue where hits on bunkered GLA Battle Bus would cause screen shake effects                                    |
 |   |   | Added missing sounds to USA Sentry Drone movement command                                                             |
+|   |   | Fixed wrong movement sounds of USA Microwave Tank                                                                     |
 |   |   | Added missing sounds to USA Pilot enter building command                                                              |
 |   |   | Added missing sounds to VGLA Battle Bus                                                                               |
 |   |   | Fixed wrong sounds on USA Fire Base selection                                                                         |
 |   |   | Fixed wrong unit tooltip on Laser USA Aurora                                                                          |
+|   |   | Fixed misaligned propaganda effect on China Assault Troopcrawler                                                      |
+|   |   | Fixed misaligned propaganda effect on China Attack Outpost                                                            |
 |   |   | Added missing AP Rocket Upgrade icon to GLA SCUD Launcher cameo                                                       |
 |   |   | Added missing Patriotism Upgrade icon to Infantry China Tank Hunter                                                   |
 |   |   | Added missing Upgrade icons to GLA Rebels                                                                             |
@@ -84,12 +89,16 @@
 |   |   | Fixed issue where some USA Chinooks collected 100 milliseconds slower than others                                     |
 |   |   | Fixed issue where damage smoke effects on China Outpost would not disappear after repair                              |
 | C |   | Fixed issue where damage smoke effects on China Outpost would show for enemy player when stealthed                    |
-|   |   | Fixed issue where GLA Battle Bus would turn chassis after targeting air unit                                          |
-|   |   | Fixed issue where GLA Battle Bus would stop moving after targeting air unit                                           |
+|   |   | Fixed issue where GLA Battle Bus would stop moving when targeting air unit                                            |
 |   |   | Fixed issue where USA Humvee without TOW missile would stop moving after targeting air unit                           |
 |   |   | Fixed issue where Toxin GLA Rocket Soldier on Combat Cycle did not shoot with correct rocket type                     |
 |   |   | Fixed issue where Demo GLA Rocket Soldier on Combat Cycle did not shoot with correct rocket type                      |
 |   |   | Fixed issue where GLA Fake Command Center did look different to real Command Center after Fortified Structure upgrade |
+|   |   | Fixed issue where China Nuke Cannon will attack wrong target after deployment completion                              |
+|   |   | Fixed inconsistent Demo Charge button placement on GLA Jarmen Jell and USA Colonel Burton                             |
+|   |   | Fixed wrong suicide ability icon on Demo GLA Combat Cycle                                                             |
+|   |   | Fixed issue where GLA Battle Bus would turn chassis when aiming at air units                                          |
+| C |   | Fixed issue where Demo GLA Combat Cycle would deal no damage when killed by Gamma Anthrax                             |
 |   |   | Fixed issue where several dummy weapons caused confusing attack notifications                                         |
 |   |   | Fixed issue where China Helix with Gattling Gun could attack air units                                                |
 |   |   | Fixed wrong USA Ranger spawn type of Paradrop ability                                                                 |
@@ -99,7 +108,7 @@
 |   |   | Fixed wrong particle effect colors on Superweapon USA Particle Cannon                                                 |
 |   |   | Fixed issue where China Carpet Bomber could not be used with the Command Center of another China sub faction          |
 |   |   | Added missing air attack voices for various units                                                                     |
-|   |   | Added missing air attack effects and animations for GLA Stringer                                                      |
+|   |   | Added missing air attack effects and animations for GLA Stinger                                                       |
 |   |   | Fixed issue where Generals Powers would disappear from Infantry China Command Center after Mines upgrade              |
 |   |   | Fixed issue where Generals Powers would disappear from Nuke China Command Center after Mines upgrade                  |
 | C |   | Fixed issue where a Terrorist Car Bomb would stop working after attacking a moving vehicle                            |
@@ -113,7 +122,8 @@
 |   |   | Fixed wrong muzzle flash location of Infantry China Minigunner                                                        |
 |   |   | Fixed broken recoil animation of Infantry China Minigunner                                                            |
 | C |   | Fixed incorrect air attack sound of Infantry China Minigunner                                                         |
-|   |   | Fixed issue where China Overlord would turn chassis while Gattling Cannon aims on air units                           |
+|   |   | Fixed issue where China Overlord would turn chassis when aiming at air units                                          |
+|   |   | Fixed issue where USA Avenger would turn chassis when aiming at air units                                             |
 |   |   | Fixed issue where GLA Scud Storm could not damage itself                                                              |
 |   |   | Added missing hit effects to USA Cargo Planes with Countermeasures upgrade                                            |
 |   |   | Added missing hit effects to USA Rangers after Chemical Suits upgrade                                                 |
@@ -131,7 +141,8 @@
 |   |   | Removed Supply Lines Upgrade icon from USA Supply Center                                                              |
 |   |   | Added missing Camo Netting Upgrade icon to GLA Fake Arms Dealer                                                       |
 |   |   | Added missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units                                       |
-|   |   | Fixed issue where units attacked the spawned wrecks and debris of destroyed enemy units                               |
+|   |   | Fixed issue where units attacked the spawned wrecks and debris of destroyed enemy units 1                             |
+|   |   | Fixed issue where units attacked the spawned wrecks and debris of destroyed enemy units 2                             |
 |   |   | Added missing stealth detection effects and sounds to China Outposts                                                  |
 |   |   | Added missing stealth detection effects to China Troop Crawler                                                        |
 |   |   | Fixed wrong damage model of GLA Quad Cannon with level 1 Scrap                                                        |
@@ -150,4 +161,13 @@
 |   |   | Added missing Napalm Bomb upgrade icon to China Helix and China Tank Helix                                            |
 |   |   | Fixed wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade                      |
 |   |   | Fixed wrong Ranger types spawned from destroyed Boss buildings                                                        |
-
+|   |   | Fixed inconsistent Air Guard button placement on USA Raptors                                                         |
+|   |   | Fixed missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction                  |
+|   |   | Fixed errors of Single Player GLA Combat Cycle Animations, Models and Sounds                                          |
+|   |   | Added missing kill XP (10) to USA Hellfire Drone                                                                      |
+| C |   | Fixed issue where Anthrax and Radiation puddles would trigger GLA Demo Traps immediately                              |
+|   |   | Fixed issue where GPS Scrambled USA Rangers and China Redguards would remain stealthed while capturing buildings      |
+|   |   | Fixed issue where GPS Scrambled China Hackers would remain stealthed when attacking buildings                         |
+|   |   | Fixed issue where units would attack Fuel Air Bombs for a short moment                                                |
+|   |   | Fixed issue where China ECM Tank could not disable a Heroic (Vet3) GLA Quad Cannon                                    |
+| C |   | Money Crates no longer vanish when a building scaffold is placed on top                                               |
