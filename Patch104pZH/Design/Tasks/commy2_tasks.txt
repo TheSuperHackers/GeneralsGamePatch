@@ -181,7 +181,7 @@ https://github.com/commy2/zerohour/issues/38  [DONE][NPROJEC!]        Detached F
 https://github.com/commy2/zerohour/issues/37  [DONE][NPROJEC!]        Tomahawk Launchers Have Reversed Order For Battle And Scout Drone Upgrade
 https://github.com/commy2/zerohour/issues/36  [MAYBE][NPROJECT]       Boss Helix Inconsistencies
 https://github.com/commy2/zerohour/issues/35  [MAYBE][NPROJECT]       Boss Infantry Inconsistencies
-https://github.com/commy2/zerohour/issues/34  [MAYBE][NPROJECT]       Boss Avenger Inconsistencies
+https://github.com/commy2/zerohour/issues/34  [DONE][NPROJECT]        Boss Avenger Inconsistencies
 https://github.com/commy2/zerohour/issues/33  [MAYBE][NPROJECT]       Air Force General Avenger Receives 30% More Damage From Jet Missiles
 https://github.com/commy2/zerohour/issues/32  [MAYBE][NPROJECT]       Non-vanilla USA Avengers Benefit From Composite Armor
 https://github.com/commy2/zerohour/issues/31  [DONE]                  Some Avengers Can Retaliate
