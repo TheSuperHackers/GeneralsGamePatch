@@ -147,7 +147,7 @@ https://github.com/commy2/zerohour/issues/74  [DONE][NPROJEC!]        Avenger Tu
 https://github.com/commy2/zerohour/issues/73  [DONE][NPROJECT]        Avenger Turret Guard Range
 https://github.com/commy2/zerohour/issues/72  [DONE][NPROJEC!]        Non-Vanilla USA Microwave Tanks Use Humvee Move Start Sounds
 https://github.com/commy2/zerohour/issues/71  [DONE][NPROJEC!]        Some Paladins Missing Hellfire Drone Upgrade Icon
-https://github.com/commy2/zerohour/issues/70  [MAYBE][NPROJECT]       Boss Sentry Drone Inconsistencies
+https://github.com/commy2/zerohour/issues/70  [DONE][NPROJECT]        Boss Sentry Drone Inconsistencies
 https://github.com/commy2/zerohour/issues/69  [DONE][NPROJEC!]        Damaged And Non-Vanilla USA Sentry Drones Missing Their Move Start Sounds
 https://github.com/commy2/zerohour/issues/68  [DONE]                  Spy Drone Seleced By Q-Shortcut
 https://github.com/commy2/zerohour/issues/67  [DONE][NPROJEC!]        Super Weapon And Laser General Vehicle Drone Upgrade Incompatibility
