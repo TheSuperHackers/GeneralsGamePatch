@@ -2822,7 +2822,7 @@ Below is a full change log of all things that were modified,added,removed and fi
 - [NOTRELEVANT] Modified All dozers to have a active animation while constructing a building
 - [NOTRELEVANT] Modified Infantry generals hack van it now becomes stealthed if not moving
 - [NOTRELEVANT] Modified Laser defenders the range is now slightly smaller
-- [NOTRELEVANT] Modified All Auroras they now have a new effect when going on a super sonic attackrun
+- [IMPROVEMENT] Modified All Auroras they now have a new effect when going on a super sonic attackrun
 - [NOTRELEVANT] Modified Paladin Point Defence Laser it can now no longer shoot down balistic missiles like scuds and tomahawks
 - [NOTRELEVANT] Modified Mobile Demotrap Speed it's alot faster now
 - [NOTRELEVANT] Modified Mobile Demotrap costs it now costs 500$ instead of 800
