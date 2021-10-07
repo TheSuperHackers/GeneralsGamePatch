@@ -132,7 +132,7 @@ https://github.com/commy2/zerohour/issues/90  [NOTRELEVANT][NPROJECT] Jarmen Kel
 https://github.com/commy2/zerohour/issues/89  [DONE][NPROJEC!]        Non-Vanilla USA Fire Bases Use Patriot Sound Effect
 https://github.com/commy2/zerohour/issues/88  [MAYBE][NPROJECT]       Air Force General Chinook And Combat Chinook Have Different PDL Scan Ranges
 https://github.com/commy2/zerohour/issues/87  [DONE][NPROJEC!]        Some Chinooks Collect Slower Than Others
-https://github.com/commy2/zerohour/issues/86  [MAYBE][NPROJECT]       Boss King Raptor Inconsistencies
+https://github.com/commy2/zerohour/issues/86  [DONE][NPROJECT]        Boss King Raptor Inconsistencies
 https://github.com/commy2/zerohour/issues/85  [MAYBE][NPROJECT]       King Raptor Missing Armor Bonus From Countermeasures Upgrade
 https://github.com/commy2/zerohour/issues/84  [MAYBE]                 Air Force General MOAB B2-Bomber Lacks Point Defense Laser
 https://github.com/commy2/zerohour/issues/83  [MAYBE]                 Some Airplane Countermeasures Evasion Rates Are 50% Instead Of 30%
@@ -147,7 +147,7 @@ https://github.com/commy2/zerohour/issues/74  [DONE][NPROJEC!]        Avenger Tu
 https://github.com/commy2/zerohour/issues/73  [DONE][NPROJECT]        Avenger Turret Guard Range
 https://github.com/commy2/zerohour/issues/72  [DONE][NPROJEC!]        Non-Vanilla USA Microwave Tanks Use Humvee Move Start Sounds
 https://github.com/commy2/zerohour/issues/71  [DONE][NPROJEC!]        Some Paladins Missing Hellfire Drone Upgrade Icon
-https://github.com/commy2/zerohour/issues/70  [MAYBE][NPROJECT]       Boss Sentry Drone Inconsistencies
+https://github.com/commy2/zerohour/issues/70  [DONE][NPROJECT]        Boss Sentry Drone Inconsistencies
 https://github.com/commy2/zerohour/issues/69  [DONE][NPROJEC!]        Damaged And Non-Vanilla USA Sentry Drones Missing Their Move Start Sounds
 https://github.com/commy2/zerohour/issues/68  [DONE]                  Spy Drone Seleced By Q-Shortcut
 https://github.com/commy2/zerohour/issues/67  [DONE][NPROJEC!]        Super Weapon And Laser General Vehicle Drone Upgrade Incompatibility
@@ -165,7 +165,7 @@ https://github.com/commy2/zerohour/issues/56  [DONE][NPROJEC!]        Saboteur B
 https://github.com/commy2/zerohour/issues/55  [DONE][NPROJEC!]        Vanilla GLA Combat Bike Has Duplicated Death Scream
 https://github.com/commy2/zerohour/issues/54  [DONE][NPROJEC!]        Vanilla GLA Hijacker And Saboteur Can Ride Toxin Generals Combat Bike
 https://github.com/commy2/zerohour/issues/53  [MAYBE]                 Veteran Quad Cannons Deal Less Damage When Scrapped
-https://github.com/commy2/zerohour/issues/52  [MAYBE][NPROJECT]       Boss Base Defense Inconsistencies
+https://github.com/commy2/zerohour/issues/52  [DONE][NPROJECT]        Boss Base Defense Inconsistencies
 https://github.com/commy2/zerohour/issues/51  [DONE][NPROJEC!]        Demo General Worker On Bike Missing Demo Generals Bike Destruction Effect
 https://github.com/commy2/zerohour/issues/50  [DONE][NPROJEC!]        Demo General Vehicle Destruction Effect Glitches
 https://github.com/commy2/zerohour/issues/49  [DONE][NPROJEC!]        Demo General Infantry Play Terrorist Sound Effect When Killed
@@ -180,8 +180,8 @@ https://github.com/commy2/zerohour/issues/41  [DONE]                  Base Defen
 https://github.com/commy2/zerohour/issues/38  [DONE][NPROJEC!]        Detached Floating Object Orbits Avenger Model When Moving
 https://github.com/commy2/zerohour/issues/37  [DONE][NPROJEC!]        Tomahawk Launchers Have Reversed Order For Battle And Scout Drone Upgrade
 https://github.com/commy2/zerohour/issues/36  [MAYBE][NPROJECT]       Boss Helix Inconsistencies
-https://github.com/commy2/zerohour/issues/35  [MAYBE][NPROJECT]       Boss Infantry Inconsistencies
-https://github.com/commy2/zerohour/issues/34  [MAYBE][NPROJECT]       Boss Avenger Inconsistencies
+https://github.com/commy2/zerohour/issues/35  [DONE][NPROJECT]        Boss Infantry Inconsistencies
+https://github.com/commy2/zerohour/issues/34  [DONE][NPROJECT]        Boss Avenger Inconsistencies
 https://github.com/commy2/zerohour/issues/33  [MAYBE][NPROJECT]       Air Force General Avenger Receives 30% More Damage From Jet Missiles
 https://github.com/commy2/zerohour/issues/32  [MAYBE][NPROJECT]       Non-vanilla USA Avengers Benefit From Composite Armor
 https://github.com/commy2/zerohour/issues/31  [DONE]                  Some Avengers Can Retaliate
