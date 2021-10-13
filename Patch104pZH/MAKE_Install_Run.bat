@@ -25,14 +25,19 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 
 echo on
-set ThisDir0="%~dp0."
+
+setlocal
+
+set ThisDir0=%~dp0.
 
 :: Install
-call %ThisDir0%\MAKE_Install.bat
+call "%ThisDir0%\MAKE_Install.bat"
 
 :: Run game
-set GameExeArgs0=%GameExeArgs:"=%
-%GameRootDir%\%GameExeFile% %GameExeArgs0%
+call "%ThisDir0%\SETUP_UserSettings.bat"
+"%GameRootDir:"=%\%GameExeFile:"=%" %GameExeArgs:"=%
 
 :: Uninstall
-call %ThisDir0%\MAKE_Uninstall.bat
+call "%ThisDir0%\MAKE_Uninstall.bat"
+
+endlocal
