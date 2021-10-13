@@ -25,21 +25,26 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 
 echo on
-set ThisDir0="%~dp0."
+
+setlocal
+
+set ThisDir0=%~dp0.
 set GeneratedReleaseUnpackedFiles=
 
-call %ThisDir0%\Scripts\MAKE_Patch104pZH.bat build
-call %ThisDir0%\Scripts\MAKE_Patch104pArtZH.bat build
-call %ThisDir0%\SETUP_UserSettings.bat
+call "%ThisDir0%\Scripts\MAKE_Patch104pZH.bat" build
+call "%ThisDir0%\Scripts\MAKE_Patch104pArtZH.bat" build
+call "%ThisDir0%\SETUP_UserSettings.bat"
 
 :: Rename files as per setup in SETUP_UserSettings.bat
 for %%f in (%GameFilesToDisable%) do (
-	if exist %GameRootDir%\%%f (
-		ren %GameRootDir%\%%f %%f.PATCH104P
-	)
+    if exist "%GameRootDir:"=%\%%f" (
+        ren "%GameRootDir:"=%\%%f" %%f.PATCH104P
+    )
 )
 
 :: Copy release files to game
 for %%f in (%GeneratedReleaseUnpackedFiles%) do (
-	xcopy /y %GeneratedReleaseUnpackedDir%\%%f %GameRootDir%\%%f*
+    xcopy /y "%GeneratedReleaseUnpackedDir%\%%f" "%GameRootDir:"=%\"
 )
+
+endlocal
