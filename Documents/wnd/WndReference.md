@@ -26,6 +26,21 @@ Window elements with `WINDOWTYPE = SCROLLLISTBOX` cannot render large text rows 
  Avoid using long texts and/or large fonts. Standard HeaderTemplate.ini configuration
  displayed at 1920x1080 Resolution is almost as high as it can go without breaking.
 
+Window transitions styles can be added to `Data\INI\WindowTransitions.ini` file. Styles are
+| Keyword               | Description                                         |
+|-----------------------|-----------------------------------------------------|
+| FLASH                 | Fine White Flash                                    |
+| BUTTONFLASH           | Bright FLASH, emits fade sound                      |
+| FULLFADE              | Black Fade                                          |
+| TEXTONFRAME           | used on static text with delay                      |
+| COUNTUP               | used in static numbers with delay                   |
+| SCORESCALEUP          | Used in Images on Scorescreen, emits ticks sounds   |
+| CONTROLBARARROW       | Doesnt work with screens                            |
+| SCREENFADE            | Used by all screen                                  |
+| WINSCALEUP            | Same as SCORESCALEUP but emits Shwoosh sound        |
+| MAINMENUMEDIUMSCALEUP |                                                     |
+| REVERSESOUND          | used in borders, acts like FULLFADE                 |
+
 
 ## Window element attributes
 
