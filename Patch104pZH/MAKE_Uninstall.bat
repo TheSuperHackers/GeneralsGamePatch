@@ -24,22 +24,27 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 :--------------------------------------
 
+setlocal
+
 echo on
-set ThisDir0=%~dp0
+
+set ThisDir0=%~dp0.
 set GeneratedReleaseUnpackedFiles=
 
-call %ThisDir0%Scripts\MAKE_Patch104pZH.bat
-call %ThisDir0%Scripts\MAKE_Patch104pArtZH.bat
-call %ThisDir0%SETUP_UserSettings.bat
+call "%ThisDir0%\Scripts\MAKE_Patch104pZH.bat"
+call "%ThisDir0%\Scripts\MAKE_Patch104pArtZH.bat"
+call "%ThisDir0%\SETUP_UserSettings.bat"
 
 :: Remove release files from game
 for %%f in (%GeneratedReleaseUnpackedFiles%) do (
-	del /f /q %GameRootDir%\%%f
+    del /f /q "%GameRootDir:"=%\%%f"
 )
 
 :: Restore files as per setup in SETUP_UserSettings.bat
 for %%f in (%GameFilesToDisable%) do (
-	if exist %GameRootDir%\%%f.PATCH104P (
-		ren %GameRootDir%\%%f.PATCH104P %%f
-	)
+    if exist "%GameRootDir:"=%\%%f.PATCH104P" (
+        ren "%GameRootDir:"=%\%%f.PATCH104P" %%f
+    )
 )
+
+endlocal
