@@ -51,6 +51,55 @@ WINDOW
                    IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
   CHILD
   WINDOW
+    WINDOWTYPE = STATICTEXT;
+    SCREENRECT = UPPERLEFT: 50 500,
+                 BOTTOMRIGHT: 750 520,
+                 CREATIONRESOLUTION: 800 600;
+    NAME = "MainMenu.wnd:Patch104pTestVersion";
+    STATUS = ENABLED+IMAGE;
+    STYLE = STATICTEXT+MOUSETRACK;
+    SYSTEMCALLBACK = "[None]";
+    INPUTCALLBACK = "[None]";
+    TOOLTIPCALLBACK = "[None]";
+    DRAWCALLBACK = "[None]";
+    FONT = NAME: "Arial", SIZE: 10, BOLD: 1;
+    HEADERTEMPLATE = "LabelRegular";
+    TOOLTIPDELAY = 0;
+    TEXT = "Patch104p: Work In Progress. For test purposes only.";
+    TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 0,
+                DISABLED: 192 192 192 255, DISABLEDBORDER: 0 0 0 0,
+                HILITE:   128 128 255 255, HILITEBORDER:   0 0 0 0;
+    ENABLEDDRAWDATA = IMAGE: BlackSquare, COLOR: 0 0 0 0, BORDERCOLOR: 0 0 0 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                      IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    DISABLEDDRAWDATA = IMAGE: NoImage, COLOR: 64 64 64 255, BORDERCOLOR: 192 192 192 255,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                       IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    HILITEDRAWDATA = IMAGE: NoImage, COLOR: 0 128 0 255, BORDERCOLOR: 128 255 128 255,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
+                     IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
+    STATICTEXTDATA = CENTERED: 1;
+  END
+  CHILD
+  WINDOW
     WINDOWTYPE = USER;
     SCREENRECT = UPPERLEFT: 0 0,
                  BOTTOMRIGHT: 800 600,
