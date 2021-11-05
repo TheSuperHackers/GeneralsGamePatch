@@ -24,6 +24,8 @@ if "%ThisArg1%"=="build" (
     xcopy /y    "%GameFilesDir%\Art\W3D\ABSWGLink_L.W3D"          "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\AVAvnger.W3D"             "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\AVAvnger_D.W3D"           "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
+    xcopy /y    "%GameFilesDir%\Art\W3D\AVRepairDr.W3D"           "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
+    xcopy /y    "%GameFilesDir%\Art\W3D\AVRepairDr_D.W3D"         "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\EXCarptBmb2.W3D"          "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\NVLOutpost.W3D"           "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\NVLOutpost_D.W3D"         "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
