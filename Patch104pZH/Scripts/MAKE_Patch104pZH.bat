@@ -21,6 +21,8 @@ if "%ThisArg1%"=="build" (
     xcopy /y    "%GameFilesDir%\Art\Textures\exlaser3.dds"        "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\Textures\"
     xcopy /y    "%GameFilesDir%\Art\Textures\gxmammoth_co.tga"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\Textures\"
     xcopy /y    "%GameFilesDir%\Art\Textures\gxmammothalt_HI.tga" "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\Textures\"
+    xcopy /y    "%GameFilesDir%\Art\Textures\SARepairDrone.tga"   "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\Textures\"
+    xcopy /y    "%GameFilesDir%\Art\Textures\SARepairDrone_L.tga" "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\Textures\"
     xcopy /y    "%GameFilesDir%\Art\W3D\ABSWGLink_L.W3D"          "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\AVAvnger.W3D"             "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\AVAvnger_D.W3D"           "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
