@@ -1,0 +1,322 @@
+Autorun:Error
+US: ""
+DE: "Fehler"
+FR: "Erreur"
+ES: ""
+IT: ""
+KO: "오류"
+ZH: "錯誤"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Cancel
+US: ""
+DE: "Abbrechen"
+FR: "Annuler"
+ES: ""
+IT: ""
+KO: "취소"
+ZH: "取消"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Uninstall
+US: ""
+DE: "Deinstallieren"
+FR: "Désinstaller"
+ES: ""
+IT: ""
+KO: "제거"
+ZH: "移除"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Website
+US: ""
+DE: "Generäle-Website"
+FR: "Site de Generals"
+ES: ""
+IT: ""
+KO: "제너럴 웹사이트"
+ZH: "將軍網站"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:ExploreCD
+US: ""
+DE: "CD Inhalt"
+FR: "Explorer le CD"
+ES: ""
+IT: ""
+KO: "CD 탐색"
+ZH: "開啟光碟內容"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Install
+US: ""
+DE: "Installieren"
+FR: "Installer"
+ES: ""
+IT: ""
+KO: "설치"
+ZH: "安裝"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:CheckForUpdates
+US: ""
+DE: "Updates suchen"
+FR: "Vérification des MAJ"
+ES: ""
+IT: ""
+KO: "업데이트 검색"
+ZH: "檢查更新"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Worldbuilder
+US: ""
+DE: "Worldbuilder"
+FR: "Editeur de cartes"
+ES: ""
+IT: ""
+KO: "월드빌더"
+ZH: "世界編輯器"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Play
+US: ""
+DE: "Spielen"
+FR: "Jouer"
+ES: ""
+IT: ""
+KO: "시작하기"
+ZH: "執行"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Title
+US: ""
+DE: "%s Autorun"
+FR: "Autorun de %s"
+ES: ""
+IT: ""
+KO: "%s 자동실행"
+ZH: "%s 自動執行程式"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:WestwoodComMsg
+US: ""
+DE: "Aktuelle Informationen zu C&C Generäle gibt es bei www.electronicarts.de."
+FR: "Retrouvez les dernières stratégies, les tournois et les évènements à l'adresse suivante : generals.ea.com"
+ES: ""
+IT: ""
+KO: "최신 전략, 토너먼트 그리고 이벤트를 확인하시려면 generals.ea.co.kr을 방문해 주십시오."
+ZH: "參觀 generals.ea.com 網站， 來獲取最新的戰略、比賽和活動資訊。"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:InsertCDROMWithVolume1
+US: ""
+DE: "Generäle-CD 1 einlegen."
+FR: "Insérez le disque 1 de Generals."
+ES: ""
+IT: ""
+KO: "1번 디스크를 넣어주십시오."
+ZH: "放入第一片將軍光碟。"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:InsertCDROMWithVolume2
+US: ""
+DE: "Generäle-CD 2 einlegen."
+FR: "Insérez le disque 2 de Generals."
+ES: ""
+IT: ""
+KO: "2번 디스크를 넣어주십시오."
+ZH: "放入第二片將軍光碟。"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:ExitMessage2
+US: ""
+DE: "Auf Abbrechen klicken, um das Spiel zu verlassen."
+FR: "Cliquez sur Annuler pour quitter"
+ES: ""
+IT: ""
+KO: "취소를 클릭하면 나갈 수 있습니다."
+ZH: "點選取消並離開"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:CantFindExplorer
+US: ""
+DE: "Explorer kann nicht gefunden werden."
+FR: "Impossible de trouver Explorer"
+ES: ""
+IT: ""
+KO: "Explorer를 검색할 수 없습니다."
+ZH: "無法發現瀏覽器"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:AutorunTitle
+US: ""
+DE: "C&C Generäle-Autorun"
+FR: "Autorun de C&C Generals"
+ES: ""
+IT: ""
+KO: "커맨드 & 컨커: 제너럴 제로 아워 자동실행"
+ZH: "終極動員令將軍自動執行程式"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:CantFind
+US: ""
+DE: "%s konnte nicht gefunden werden."
+FR: "Impossible de trouver %s"
+ES: ""
+IT: ""
+KO: "%s을(를) 검색할 수 없습니다."
+ZH: "無法發現 %s"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Command&ConquerGenerals
+US: ""
+DE: "Command & Conquer Generäle Die Stunde Null"
+FR: "Command & Conquer Generals - Heure H"
+ES: ""
+IT: ""
+KO: "커맨드 & 컨커: 제너럴 제로 아워"
+ZH: "終極動員令：將軍"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Generals
+US: ""
+DE: "Generäle Die Stunde Null"
+FR: "Generals - Heure H"
+ES: ""
+IT: ""
+KO: "제너럴"
+ZH: "將軍"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Previews
+US: ""
+DE: "Vorschau"
+FR: "Bande-annonce"
+ES: ""
+IT: ""
+KO: "프리뷰"
+ZH: "先睹為快"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:CantRunAVIs
+US: ""
+DE: "Vorschau-Movies können nicht dargestellt werden. Für dieses AVI-Format ist kein Programm vorhanden."
+FR: "Impossible de lancer les cinématiques de bande-annonce, aucun programme n'est associé au format AVI"
+ES: ""
+IT: ""
+KO: "프리뷰 동영상을 실행시킬 수 없습니다. AVI 포맷과 연결된 프로그램이 없습니다."
+ZH: "無法執行先睹為快影片， 因為沒有可執行AVI格式的播放程式"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+Autorun:Help
+US: ""
+DE: "Hilfe"
+FR: "Aide"
+ES: ""
+IT: ""
+KO: "도움말"
+ZH: "說明"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
+HELP:FILENAME
+US: ""
+DE: "Support\\en-uk_eahelp.hlp"
+FR: "Support\\fr-fr_eahelp.hlp"
+ES: ""
+IT: ""
+KO: "Support\\kr_eahelp.hlp"
+ZH: "Support\\tw_eahelp.hlp"
+BP: ""
+PL: ""
+RU: ""
+AR: ""
+END
+
