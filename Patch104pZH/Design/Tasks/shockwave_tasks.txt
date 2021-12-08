@@ -4,8 +4,8 @@ ShockWave 1.201 change log
 
 ---Bug Fixes---
 - [IMPROVEMENT][MINOR] Nuke Overlord now correctly fire their shells from their barrels and not the ground
-- [IMPROVEMENT][MINOR] Nuke Overlord now correctly engage infantry units
-- [IMPROVEMENT][MAJOR] Nuclear missile for the nuke general can now be properly launched from the its ability button when selected
+- [NOTRELEVANT] Nuke Overlord now correctly engage infantry units
+- [NOTRELEVANT] Nuclear missile for the nuke general can now be properly launched from the its ability button when selected
 - [NOTRELEVANT] Decoy Drones can now be properly targeted when disguised
 - [IMPROVEMENT][CRITICAL] Terrorist units and variants should no longer cause issues with the German censored version of the game
 - [NOTRELEVANT] Vanilla USA Missile defenders no longer incorrectly use the Laser Missile Defender weapon
@@ -238,8 +238,8 @@ ShockWave 1.1 change log
 - [MAYBE] All classic edition maps from Generals now included
 - [NOTRELEVANT] Emergency Aid wil now properly repair/heal ground units
 - [MAYBE] Infantry killed by terrorirst will use their "explosion" death animation rather than the normal death animation.
-- [IMPROVEMENT][MINOR] Demo rebels now properly display the camoflauge upgrade which they gan gain through cross teching.
-- [IMPROVEMENT][MINOR] Demo Bikes now properly show the terrorist model when paradropped on a reinforcements pad.
+- [DONE][MINOR] Demo rebels now properly display the camoflauge upgrade which they gan gain through cross teching.
+- [DONE][MINOR] Demo Bikes now properly show the terrorist model when paradropped on a reinforcements pad.
 - [NOTRELEVANT] Demo workers, Rebels and RPG troopers will no longer show a terrorist explosion after beeing by explosive weapons
 - [NOTRELEVANT] Devastator no longer shows "this upgrade has allready been purchased" on the self destruct.
 - [NOTRELEVANT] Chinese mines now properly show their detonation effect when triggered.
@@ -526,7 +526,7 @@ AI
 - [IMPROVEMENT][MAJOR] Base factions no longer hear loss music when they lose or sell a vital structure.
 - [NOTRELEVANT] Retaliation settings returned to ZH defaults.
 - [IMPROVEMENT][MAJOR] Some of the AI opponents were using only 6 of their 7 Generals Points. Now they use their points to the maximum.
-- [IMPROVEMENT][MINOR] Superweapon General AI now uses the correct Spectre Gunship science.
+- [IMPROVEMENT][MAJOR] Superweapon General AI now uses the correct Spectre Gunship science.
 - [NOTRELEVANT] AI has been added for the new generals (Leang, Ironside and Deathstrike)
 
 
@@ -3133,7 +3133,7 @@ stealth
 	- GLA Toxin General
 		- [NOTRELEVANT] Toxin marauders now have a new look and better weapons and also special salvage upgraded turrets
 		- [NOTRELEVANT] Toxin scorpions can now transport 2 soldiers and the scorpion no longer needs to turn the entire chassis to fire a scorpion rocket
-		- [IMPROVEMENT][MINOR] Toxin RPG Troopers now properly play the firing animation when firing at airborn targets
+		- [DONE] Toxin RPG Troopers now properly play the firing animation when firing at airborn targets
 
 	- GLA Stealth General
 		- [NOTRELEVANT] RPG Troopers of the stealth general are now stealthed if they are not attacking or moving
@@ -3173,7 +3173,7 @@ stealth
 		- [IMPROVEMENT][MINOR] Only Toxin jarmen kell uses a fixed fire animation while all jarmen kell's should 
 		- [NOTRELEVANT] Emp MRLS genpoint button does not make the new sound when clicking it 
 		- [NOTRELEVANT] Railgun artillery show a different name on the gen power button 
-		- [IMPROVEMENT][MINOR] Nuke Generals troopcrawler is filled with vannila china redguards 
+		- [NOTRELEVANT] Nuke Generals troopcrawler is filled with vannila china redguards 
 		- [NOTRELEVANT] The ZSU-57 does not gain the demolition upgrade 
 		- [NOTRELEVANT] Siege soldiers sometimes walk to close to a defence before they attack 
 		- [DONE] Units fire at burning or poisned infantry which are actualy allready dead 
