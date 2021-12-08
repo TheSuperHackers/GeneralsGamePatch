@@ -3,11 +3,11 @@ ShockWave 1.201 change log
 
 
 ---Bug Fixes---
-- [IMPROVEMENT] Nuke Overlord now correctly fire their shells from their barrels and not the ground
-- [IMPROVEMENT] Nuke Overlord now correctly engage infantry units
-- [IMPROVEMENT] Nuclear missile for the nuke general can now be properly launched from the its ability button when selected
+- [IMPROVEMENT][MINOR] Nuke Overlord now correctly fire their shells from their barrels and not the ground
+- [NOTRELEVANT] Nuke Overlord now correctly engage infantry units
+- [NOTRELEVANT] Nuclear missile for the nuke general can now be properly launched from the its ability button when selected
 - [NOTRELEVANT] Decoy Drones can now be properly targeted when disguised
-- [IMPROVEMENT] Terrorist units and variants should no longer cause issues with the German censored version of the game
+- [IMPROVEMENT][CRITICAL] Terrorist units and variants should no longer cause issues with the German censored version of the game
 - [NOTRELEVANT] Vanilla USA Missile defenders no longer incorrectly use the Laser Missile Defender weapon
 - [NOTRELEVANT] Armor Strategy center now uses the bombardment cannon properly
 - [NOTRELEVANT] Armor Dozer will no longer get stuck in path finding as often as it used to
@@ -16,13 +16,13 @@ ShockWave 1.201 change log
 - [NOTRELEVANT] Victory Valley now properly appears again in the official map list
 - [NOTRELEVANT] AI for Armor, Special Weapons and Salvage Generals now works properly on Mountain Guns [ZH]
 - [NOTRELEVANT] Fortified Gattling Cannons will now properly show their sandbag and metal reinforcements on Night and Night Snow maps
-- [IMPROVEMENT] Supply Drop Zones no longer crash the game if any parachutes are mid air when exiting the game to the score screen
-- [IMPROVEMENT] Repair Pad flag now properly changes colour when captured
+- [IMPROVEMENT][CRITICAL] Supply Drop Zones no longer crash the game if any parachutes are mid air when exiting the game to the score screen
+- [IMPROVEMENT][MINOR] Repair Pad flag now properly changes colour when captured
 - [NOTRELEVANT] Laser General Hellfire Drone can no longer be attacked and properly shoots now
 - [NOTRELEVANT] China structure mines (of all variations) no longer get stuck on elevated terrain
 - [NOTRELEVANT] The Laser General's Colonel Burton now properly gains a firepower buff (rather than a nerf)
 - [NOTRELEVANT] Tank Hunter squads no longer gain Elite veterancy from the marksman training unlock
-- [IMPROVEMENT] Female toxin death sounds now use their own proper sound
+- [IMPROVEMENT][MINOR] Female toxin death sounds now use their own proper sound
 - [MAYBE] Overlord and Emperor tanks now fire properly at infantry
 - [NOTRELEVANT] Siege Soldiers can no longer enter littlebirds or combat chinooks
 
@@ -238,8 +238,8 @@ ShockWave 1.1 change log
 - [MAYBE] All classic edition maps from Generals now included
 - [NOTRELEVANT] Emergency Aid wil now properly repair/heal ground units
 - [MAYBE] Infantry killed by terrorirst will use their "explosion" death animation rather than the normal death animation.
-- [IMPROVEMENT] Demo rebels now properly display the camoflauge upgrade which they gan gain through cross teching.
-- [IMPROVEMENT] Demo Bikes now properly show the terrorist model when paradropped on a reinforcements pad.
+- [DONE][MINOR] Demo rebels now properly display the camoflauge upgrade which they gan gain through cross teching.
+- [DONE][MINOR] Demo Bikes now properly show the terrorist model when paradropped on a reinforcements pad.
 - [NOTRELEVANT] Demo workers, Rebels and RPG troopers will no longer show a terrorist explosion after beeing by explosive weapons
 - [NOTRELEVANT] Devastator no longer shows "this upgrade has allready been purchased" on the self destruct.
 - [NOTRELEVANT] Chinese mines now properly show their detonation effect when triggered.
@@ -255,11 +255,11 @@ ShockWave 1.1 change log
 - [NOTRELEVANT] ShockWave Launcher included for desktop shortcut.
 - [NOTRELEVANT] Toxin Anti Tank Guns now display the Anthrax Gamma upgrade icon on the commandbar.
 - [MAYBE] Old GUI Bleep sound restored from generals whenever a unit or upgrade is purchased.
-- [IMPROVEMENT] Unique "cancel building" button added for when canceling a building instead of using the generic stop cameo.
+- [IMPROVEMENT][MINOR] Unique "cancel building" button added for when canceling a building instead of using the generic stop cameo.
 - [NOTRELEVANT] Toxin Technicals will no longer show their gunners when killed with one or two salvage upgrades.
 - [NOTRELEVANT] Grenadier Terrorists will no longer lose veterancy when switching between bomb vest or grenades.
 - [NOTRELEVANT] Migs ground attack hotkey changed to "B" (bombard) to resolve the hotkey conflict with air guard.
-- [IMPROVEMENT] AI Controlled Missile Defenders will no longer use their laser lock to snipe buildings.
+- [IMPROVEMENT][MAJOR] AI Controlled Missile Defenders will no longer use their laser lock to snipe buildings.
 - [MAYBE] Sneak Attack Tunnels will now properly show their emerging effects on night maps.
 - [NOTRELEVANT] Desert Fly will no longer attempt to land on airfields when ordered to do so.
 - [NOTRELEVANT] Gazer Turrets will no longer force our garrisoned troops when reaching critical damage.
@@ -268,9 +268,9 @@ ShockWave 1.1 change log
 - [NOTRELEVANT] Black lotus will no longer use an attack cursor on buildings and units but use her hacks instead.
 - [MAYBE] Battle Drones will no longer go into a killing frenzy that would occur at random.
 - [NOTRELEVANT] New Tech airport added.
-- [IMPROVEMENT] Challenge Mission for General Leang Added.
-- [IMPROVEMENT] Challenge Mission form Thrax has been optimised and improved.
-- [IMPROVEMENT] Challenge Mission form Townes has been optimised and improved.
+- [IMPROVEMENT][MAJOR] Challenge Mission for General Leang Added.
+- [IMPROVEMENT][MINOR] Challenge Mission form Thrax has been optimised and improved.
+- [IMPROVEMENT][MINOR] Challenge Mission form Townes has been optimised and improved.
 - [NOTRELEVANT] Taunting From a command center will now display a large "!" icon above the command center.
 - [MAYBE] All artillery units that are required to deploy before firing will not automaticly engage enemy targets.
 
@@ -283,14 +283,14 @@ ShockWave 1.1 change log
 - [MAYBE] When using an offensive generals power or superweapon EVA will report "Select Target" when activating the power.
 - [MAYBE] Chinook model and cameo replaced with a higher detailed ones.
 - [MAYBE] Chinooks now have smoke exhaust effects.
-- [IMPROVEMENT] Battle drones will now properly use their machinegun weapon
+- [IMPROVEMENT][MINOR] Battle drones will now properly use their machinegun weapon
 - [NOTRELEVANT] Tomahawks will now show a laser from their turret when firing a waypoint guided missile.
 - [NOTRELEVANT] All Raptors and varriants now have ground attack buttons like all other aircraft.
 - [NOTRELEVANT] Rangers can now taunt which couses them to laugh and play a unique animation.
 - [DONE] Spy Drones will no longer be selected when pressing the select all keys W,E or Q
 - [MAYBE] All American jets equiped with laser guided weapons will now show a targeting laser while using these weapons.
-- [IMPROVEMENT] Enabeled 4 previously dissabled selection voices for pilots.
-- [IMPROVEMENT] Enabeled 1 previously dissabled flash bang voice for rangers when ordered to clear out garrisons.
+- [IMPROVEMENT][MINOR] Enabeled 4 previously dissabled selection voices for pilots.
+- [IMPROVEMENT][MINOR] Enabeled 1 previously dissabled flash bang voice for rangers when ordered to clear out garrisons.
 - [MAYBE] Avenger (both laser and normal) get a new Cameo.
 
 
@@ -373,9 +373,9 @@ USA Laser General***
 - [NOTRELEVANT] Hackvans will no longer be selected when pressing the select all keys W,E or Q
 - [NOTRELEVANT] Black lotus system hack abbility now needs to be deployed dirrectly onto a vehicle or structure.
 - [NOTRELEVANT] Black lotus system hack cooldown reduced to 30 seconds.
-- [IMPROVEMENT]  Airfield Cameo now properly displays the helipad and control tower on the correct locations as they are shown on the model.
-- [IMPROVEMENT]  Barracks Cameo now properly shows windows one of the roofs
-- [IMPROVEMENT]  Warfactory cameo now properly shows the tranparancy on the fencing around the roof.
+- [IMPROVEMENT][MINOR] Airfield Cameo now properly displays the helipad and control tower on the correct locations as they are shown on the model.
+- [IMPROVEMENT][MINOR] Barracks Cameo now properly shows windows one of the roofs
+- [IMPROVEMENT][MINOR] Warfactory cameo now properly shows the tranparancy on the fencing around the roof.
 - [NOTRELEVANT] Helix Napal bombs now use the same radius cursor as the Napalm strike.
 - [NOTRELEVANT] Cluster Mines may now be upgraded to neutron mines at cost of an additional generals point.
 - [NOTRELEVANT] Bullfrog can now capture buildings after the capture building upgrade at the barracks is purchased.
@@ -443,7 +443,7 @@ USA Laser General***
 - [NOTRELEVANT] Exploded Demotraps will now play a metalic bounce sound as they bounce on the ground.
 - [MAYBE] Marauder Tank now emits smoke from it's engine exhaust pipe.
 - [MAYBE] New sound effect added when a building is beeing sabotaged by a Saboteur.
-- [IMPROVEMENT] Sneak attack tunnels will now show building rubble after beeing destroyed and sink away a few seconds later.
+- [IMPROVEMENT][MINOR] Sneak attack tunnels will now show building rubble after beeing destroyed and sink away a few seconds later.
 - [NOTRELEVANT] Rebels can now taunt which couses them to laugh and play a unique animation.
 - [NOTRELEVANT] Hijackers will now emerge from previously hijacked vehicles when destroyed. (only exceptions beeing suicide units)
 - [NOTRELEVANT] Stinger soldiers will no longer display healing icons when healing themselfs. (this does not affect the healing they get)
@@ -471,7 +471,7 @@ USA Laser General***
 - [MAYBE] Demo Saboteur model and cameo replaced.
 - [MAYBE] Demo RPG Trooper model replaced.
 - [MAYBE] Demo Jarmen Kell model replaced.
-- [IMPROVEMENT] Demo Jarmen Kell now displays a bomb planting animation when using his timed demo charge.
+- [IMPROVEMENT][MINOR] Demo Jarmen Kell now displays a bomb planting animation when using his timed demo charge.
 - [MAYBE] Demo Rebel may now place Demo/TNT charges on vehicles and structures.
 - [MAYBE] Demo Bike now has a new Cameo.
 - [NOTRELEVANT] Topol-M will no longer deploy before using the suicide abbility.
@@ -522,11 +522,11 @@ ShockWave 1.0 change log
 
 AI
 
-- [IMPROVEMENT] Air Force General utilises the Stealth Comanche upgrade.
-- [IMPROVEMENT] Base factions no longer hear loss music when they lose or sell a vital structure.
+- [IMPROVEMENT][MINOR] Air Force General utilises the Stealth Comanche upgrade.
+- [IMPROVEMENT][MAJOR] Base factions no longer hear loss music when they lose or sell a vital structure.
 - [NOTRELEVANT] Retaliation settings returned to ZH defaults.
-- [IMPROVEMENT] Some of the AI opponents were using only 6 of their 7 Generals Points. Now they use their points to the maximum.
-- [IMPROVEMENT] Superweapon General AI now uses the correct Spectre Gunship science.
+- [IMPROVEMENT][MAJOR] Some of the AI opponents were using only 6 of their 7 Generals Points. Now they use their points to the maximum.
+- [IMPROVEMENT][MAJOR] Superweapon General AI now uses the correct Spectre Gunship science.
 - [NOTRELEVANT] AI has been added for the new generals (Leang, Ironside and Deathstrike)
 
 
@@ -564,18 +564,18 @@ Bugs and general fixes
 
 - [NOTRELEVANT] Added a Guard Command to the Support Crawler. 
 - [MAYBE] Demolitions Ability cameo removed from the Terrorist.
-- [IMPROVEMENT] GLA Hijacker now has uncloaking sounds when he moves and pauses.
+- [IMPROVEMENT][MINOR] GLA Hijacker now has uncloaking sounds when he moves and pauses.
 - [MAYBE] GLA Demo General Terrorist explodes when it is run over.
 - [NOTRELEVANT] Laser Lock StartAbilityRange decreased from 230.0 to 200.0.
 - [NOTRELEVANT] Projectile Armor resistance to JET_MISSILES increased from 100% to 0%. 
-- [IMPROVEMENT] Restored the missing Gattling Tank voice.
-- [IMPROVEMENT] Restored the missing Spectre Gunship voices.
+- [IMPROVEMENT][MINOR] Restored the missing Gattling Tank voice.
+- [IMPROVEMENT][MINOR] Restored the missing Spectre Gunship voices.
 - [NOTRELEVANT] Support Crawler can gain experience. 
-- [IMPROVEMENT] Infantry burning death animation now looks alot more convincing
-- [IMPROVEMENT] Workers now Correctly play their crate pickup and drop animations
-- [IMPROVEMENT] Chinese Warfactories will now properly emit smoke from their chimney
+- [IMPROVEMENT][MINOR] Infantry burning death animation now looks alot more convincing
+- [IMPROVEMENT][MINOR] Workers now Correctly play their crate pickup and drop animations
+- [IMPROVEMENT][MINOR] Chinese Warfactories will now properly emit smoke from their chimney
 - [NOTRELEVANT] Balistic missile Weapons now get 50% less damage for avenger lasers. (essentialy just doubeling their strength against them)
-- [IMPROVEMENT] Any Object in the game will now properly play stealth and unstealh sounds as it switches between these phases.
+- [IMPROVEMENT][MINOR] Any Object in the game will now properly play stealth and unstealh sounds as it switches between these phases.
 - [NOTRELEVANT] Fixed the bug that allowed Rangers to target SA-2 Sites with their Flash Bangs
 - [NOTRELEVANT] Fixed the bug that allowed the Armor General's Colonel Burton to fire and remain stealthed.
 - [NOTRELEVANT] Fixed the bug that allowed the Tank General's ECM Tank to shut down air units when the weapon was switched back from the hold fire mode.
@@ -587,12 +587,12 @@ Bugs and general fixes
 - [NOTRELEVANT] Fixed the bug that caused the Demo General's ZSU to be immune to ECM Tanks when it reached heroic veterancy.
 - [NOTRELEVANT] Fixed the bug that caused the Reaper Tank to be immune to ECM Tanks.
 - [NOTRELEVANT] Fixed the bug that caused the Salvage General's Soyuz Missile to be invulnerable to Microwave and Advanced ECM Tanks after it was upgraded with the Fortified Structures upgrade.
-- [IMPROVEMENT] Fixed the bug that caused the Scout Drone to prevent its parent vehicle from firing when it was directly above an enemy unit.
+- [IMPROVEMENT][MAJOR] Fixed the bug that caused the Scout Drone to prevent its parent vehicle from firing when it was directly above an enemy unit.
 - [NOTRELEVANT] Fixed the bug that caused the Special Weapons General's TOS-1 to be immune to ECM Tanks when it reached heroic veterancy.
 - [NOTRELEVANT] Fixed the bug that caused the Special Weapons General's Support Crawler to not give away experience when it was destroyed.
 - [NOTRELEVANT] Fixed the bug that caused Laser and Armor burton to remain stealthed even while attacking
-- [IMPROVEMENT] Fixed the bug that caused the generals challenge to crash at a certain point.
-- [IMPROVEMENT] Fixed the bug that caused Humvee turrets to malfunction on night and night snow maps
+- [IMPROVEMENT][CRITICAL] Fixed the bug that caused the generals challenge to crash at a certain point.
+- [IMPROVEMENT][MAJOR] Fixed the bug that caused Humvee turrets to malfunction on night and night snow maps
 - [NOTRELEVANT] Fixed the errors with the Support Stealth Fighter using wrongly named voice sets.
 - [NOTRELEVANT] Fixed Issue that coused TOPOL's to play the deploy animation twice after beeing deployed in their damaged state.
 - [NOTRELEVANT] Fixed Issue where Blacksharks and Sentinel gattling weapons had their shells ejected from incorrect coordinate.
@@ -658,14 +658,14 @@ Tech buildings
 All USA Generals
 
 - [MAYBE] All generals now have unique Command Center models
-- [IMPROVEMENT] All generals now have unique construction Dozer models
-- [IMPROVEMENT] Added new cameo for the Leaflet Drop.
+- [IMPROVEMENT][MINOR] All generals now have unique construction Dozer models
+- [IMPROVEMENT][MINOR] Added new cameo for the Leaflet Drop.
 - [NOTRELEVANT] Added new Field Repairs upgrade (requires Strategy Center).
-- [IMPROVEMENT] Added new Spectre gunship model
+- [IMPROVEMENT][MINOR] Added new Spectre gunship model
 - [NOTRELEVANT] Added new raptor model and cameo (including king raptors)
 - [NOTRELEVANT] Avenger is available without the prerequisite of a Strategy Center.
 - [NOTRELEVANT] Avenger missile weapon damage increased from 25.0 to 30.0.
-- [IMPROVEMENT] All Humvees will now pitch their Tow (or varriant) up while shooting at aircraft.
+- [IMPROVEMENT][MINOR] All Humvees will now pitch their Tow (or varriant) up while shooting at aircraft.
 - [NOTRELEVANT] Chinook health increased from 225.0 to 300.0.
 - [NOTRELEVANT] Chinook resource gathering rate decreased from 2300 to 3000.
 - [NOTRELEVANT] Chinook supply warehouse gathering rate decreased from 1200 to 1250.
@@ -941,7 +941,7 @@ USA Superweapon General
 All China Generals
 
 - [MAYBE] All generals now have unique Command Center models
-- [IMPROVEMENT] All generals now have unique construction Dozer models
+- [IMPROVEMENT][MINOR] All generals now have unique construction Dozer models
 - [NOTRELEVANT] Chinese Mines have been updated with model based art rather than particle art
 - [NOTRELEVANT] Added new armour type for Listening Outposts to decrease their resistance to INFANTRY_MISSILE and POISON.
 - [NOTRELEVANT] Added new Bullfrog scout unit. 
@@ -1196,7 +1196,7 @@ China Tank General
 All GLA Generals
 
 - [MAYBE] All generals now have unique Command Center models
-- [IMPROVEMENT] All generals now have unique worker models
+- [IMPROVEMENT][MINOR] All generals now have unique worker models
 - [NOTRELEVANT] All Building Holes now have new door opening animation
 - [NOTRELEVANT] Added new cameo for the Combat Cycle (excludes the GLA Demo General).
 - [NOTRELEVANT] Angry Mob AK47 weapon range decreased from 160.0 to 130.0.
@@ -1227,10 +1227,10 @@ All GLA Generals
 - [NOTRELEVANT] Tunnel Network rate of fire decreased from 180 to 250.
 - [MAYBE] Stinger Site soldiers will now heal themselfs over time (previously they didn't regain health untill they were killed and respawned)
 - [NOTRELEVANT] Scorpion Missile Upgrade time reduced to 25 seconds from 30.
-- [IMPROVEMENT] Saboteurs now have their own unique animation set rather than using the worker animations.
-- [IMPROVEMENT] DemoTraps now raise a small building scafold after beeing placed for construction.
-- [IMPROVEMENT] Anthras Bomb will now contain Alpha, Beta or Gamma anthrax depending on what upgrades are purchased.
-- [IMPROVEMENT] Anthrax Bomb Icon will now change color depending on what upgrades are purchased.
+- [IMPROVEMENT][MINOR] Saboteurs now have their own unique animation set rather than using the worker animations.
+- [IMPROVEMENT][MINOR] DemoTraps now raise a small building scafold after beeing placed for construction.
+- [IMPROVEMENT][MINOR] Anthras Bomb will now contain Alpha, Beta or Gamma anthrax depending on what upgrades are purchased.
+- [IMPROVEMENT][MINOR] Anthrax Bomb Icon will now change color depending on what upgrades are purchased.
 - [NOTRELEVANT] GLA Anti Tank Guns will now automaticly fire on enemy targets when stealthed by the GPS scrambler.
 
 
@@ -1449,11 +1449,11 @@ Version 0.951 – April, 2008
 
 BUG FIXES-
 
-[IMPROVEMENT] AI MISSILE DEFENDERS- fixed the bug that would cause the AI's Missile Defenders to use the Laser Lock ability on structures. 
+[IMPROVEMENT][MAJOR] AI MISSILE DEFENDERS- fixed the bug that would cause the AI's Missile Defenders to use the Laser Lock ability on structures. 
 
-[IMPROVEMENT] ANGRY MOB- fixed the bug that would cause an Angry Mob to exit the rear of the Barracks. 
+[IMPROVEMENT][MINOR] ANGRY MOB- fixed the bug that would cause an Angry Mob to exit the rear of the Barracks. 
 
-[IMPROVEMENT] ASSAULT TROOPCRAWLER- fixed the bug that would cause the Assault Troopcrawler to idle outside the weapon range of the Minigunners inside. 
+[IMPROVEMENT][MINOR] ASSAULT TROOPCRAWLER- fixed the bug that would cause the Assault Troopcrawler to idle outside the weapon range of the Minigunners inside. 
 
 [NOTRELEVANT] AT GUN- fixed the bug that would cause the AT-Gun to disappear after it received a promotion.
 
@@ -1485,9 +1485,9 @@ BUG FIXES-
 
 [NOTRELEVANT] PROPAGANDA TOWER- fixed the bug that caused the China Nuke General's Speaker Towers to upgrade with EMP Mines instead of Neutron Mines. 
 
-[IMPROVEMENT] POWER- 
-[IMPROVEMENT] i. Fixed issue were all USA and China factions built as if they had existing power.
-[IMPROVEMENT] ii. Fixed issue were GLA built as if they had existing power.
+[IMPROVEMENT][CRITICAL] POWER- 
+[IMPROVEMENT][CRITICAL] i. Fixed issue were all USA and China factions built as if they had existing power.
+[IMPROVEMENT][CRITICAL] ii. Fixed issue were GLA built as if they had existing power.
 
 [NOTRELEVANT] SA2- fixed bug that caused it to damage vehicles when it targetted USA drones. 
 
@@ -1934,13 +1934,13 @@ Version 0.95 – December, 2007
 
 [NOTRELEVANT] . ADDED NEW GENERALS- USA Armor, China Special Weapons and GLA Salvage.
 
-[IMPROVEMENT] . ADDED COSTUMIZE STATS ICONS- All generals and sides now have their own stats icon which is shown after completing a skirmish or multiplayer game.
+[IMPROVEMENT][MINOR] . ADDED COSTUMIZE STATS ICONS- All generals and sides now have their own stats icon which is shown after completing a skirmish or multiplayer game.
 
 [NOTRELEVANT] . ADDED NEW LAUNCHER OPTION- allows players to disable starting units in the game. 
 
 [NOTRELEVANT] . ADDED NEW MAPS- Shockwaves at Central Station (2 Player), Airport Assault (4 Players), Tournament Oasis (6 Players), and Lone Star State (6 Players).
 
-[IMPROVEMENT] . ANGRY MOB- fixed bugs where group members would straggle behind and die off.
+[IMPROVEMENT][MAJOR] . ANGRY MOB- fixed bugs where group members would straggle behind and die off.
 
 [MAYBE] . AVENGER- fixed the delay of the point defense laser. 
 
@@ -1950,7 +1950,7 @@ Version 0.95 – December, 2007
 
 [MAYBE] . BURNING INFANTRY MODEL- added new effect. 
 
-[IMPROVEMENT] . CAPTURE BUILDING- fixed issue where infantry used a different model when capturing buildings.
+[IMPROVEMENT][MINOR] . CAPTURE BUILDING- fixed issue where infantry used a different model when capturing buildings.
 
 [NOTRELEVANT] . COMBAT CHINOOK- fixed issue where they did not drop a Pilot when destroyed. 
 
@@ -1960,22 +1960,22 @@ Version 0.95 – December, 2007
 
 [NOTRELEVANT] . EMERGENCY REPAIR- heals vehicles at a steady rate.
 
-[IMPROVEMENT] . EXPLOITS- 
+[IMPROVEMENT][CRITICAL] . EXPLOITS- 
 [NOTRELEVANT] i. Fixed an exploit that allowed players to garrison R.A.D. tank Reactor Cores.
 [DONE] ii. Fixed an exploit that allowed players to create instant cash drops from Supply Drop Zones.
-[IMPROVEMENT] iii. Fixed an exploit that allowed players to purchase more than a single upgrade for the Helix. 
+[IMPROVEMENT][CRITICAL] iii. Fixed an exploit that allowed players to purchase more than a single upgrade for the Helix. 
 
 [DONE] . FAKE COMMAND CENTRES- fixed issue where Fake Command Centres did not have a faction specific emblem. 
 
-[IMPROVEMENT] . GENERALS CHALLENGE- improved the AI. 
+[IMPROVEMENT][MINOR] . GENERALS CHALLENGE- improved the AI. 
 
 [NOTRELEVANT] . GLA DEMO GENERAL SCUD STORM- fixed the mismatch/desync error that would occur when a Demo Scud Storm was launched on an Online/LAN game. 
 
-[IMPROVEMENT] . GLA DEMO GENERAL BATTLEBUS- fixed the bug that caused the Bus to explode when laying a Demo Trap in the vicinity of another Demo Battlebus. 
+[IMPROVEMENT][MINOR] . GLA DEMO GENERAL BATTLEBUS- fixed the bug that caused the Bus to explode when laying a Demo Trap in the vicinity of another Demo Battlebus. 
 
 [MAYBE] . HEROES- only one faction specific Hero can exist. (This means you cannot have more than one of any Black Lotus, Colonel Burton, or Jarmen Kell when cross-teching.) 
 
-[IMPROVEMENT] . HOTKEYS- fixed all known hotkey conflicts. 
+[IMPROVEMENT][MINOR] . HOTKEYS- fixed all known hotkey conflicts. 
 
 [NOTRELEVANT] . HURRICANE MISSILE LAUNCHER- 
 [NOTRELEVANT] i. Fixed the bug where missiles detonated all clusters on the spot when targeted on a structure.
@@ -1991,15 +1991,15 @@ Version 0.95 – December, 2007
 [NOTRELEVANT] i. Fixed the bug where they could not be damaged by an Emperor Overlord's cannon.
 [NOTRELEVANT] ii. Fixed the bug where they could not be damaged by an Alpha Aurora Bomber's Fuel Air Bomb. 
 
-[IMPROVEMENT] . SCORCHED EARTH- fixed AI for Offline/Skirmish play. 
+[IMPROVEMENT][MAJOR] . SCORCHED EARTH- fixed AI for Offline/Skirmish play. 
 
 [NOTRELEVANT] . SCUD STORM- fixed the issue where the lights did not show on night models. 
 
-[IMPROVEMENT] . SUPERWEAPON GENERAL'S LEAFLET DROP- it has now been standardised so it appears in the correct order on the General's Power/Promotion Menu.
+[IMPROVEMENT][MINOR] . SUPERWEAPON GENERAL'S LEAFLET DROP- it has now been standardised so it appears in the correct order on the General's Power/Promotion Menu.
 
 [MAYBE] . SUPPLY DROP ZONE- fixed an issue where crates would sometimes miss Supply Drop Zones. 
 
-[IMPROVEMENT] . SUPPLY DROP ZONE CARGO PLANE- fixed a bug where Cargo Planes would fall to the ground when a new Battleplan was initiated.
+[IMPROVEMENT][MINOR] . SUPPLY DROP ZONE CARGO PLANE- fixed a bug where Cargo Planes would fall to the ground when a new Battleplan was initiated.
 
 [NOTRELEVANT] . TECH FLAK BUNKER-
 [NOTRELEVANT] i. Added new cameo.
@@ -2013,9 +2013,9 @@ ii. Health increased by 100%.
 
 [NOTRELEVANT] . TIGER SHARK- removed a Battlemaster specific voice report.
 
-[IMPROVEMENT] . TREES- fixed a bug where trees could obstruct the toxin stream from Toxin Tractors and similar weapons. 
+[IMPROVEMENT][MINOR] . TREES- fixed a bug where trees could obstruct the toxin stream from Toxin Tractors and similar weapons. 
 
-[IMPROVEMENT] . TYPOGRAPHICAL- fixed all known spelling errors. 
+[IMPROVEMENT][MINOR] . TYPOGRAPHICAL- fixed all known spelling errors. 
 
 
 
@@ -2027,7 +2027,7 @@ ii. Health increased by 100%.
 [NOTRELEVANT] i. Reduced cost to $1000.
 [NOTRELEVANT] ii. Research time decreased to 50 seconds. 
 
-[IMPROVEMENT] . AMBULANCE- added dummy weapon. (This means Ambulances, Microwave tanks, and other repair vehicles will follow a group that has been given an attack order.)
+[IMPROVEMENT][MINOR] . AMBULANCE- added dummy weapon. (This means Ambulances, Microwave tanks, and other repair vehicles will follow a group that has been given an attack order.)
 
 [NOTRELEVANT] . B52 BOMBER-
 [NOTRELEVANT] i. New model.
@@ -2064,9 +2064,9 @@ ii. Health increased by 100%.
 
 [NOTRELEVANT] . LEAFLET DROP- timer reduced to 4 minutes (was 6).
 
-[IMPROVEMENT] . MICROWAVE TANK- 
+[IMPROVEMENT][MINOR] . MICROWAVE TANK- 
 [NOTRELEVANT] i. Reduced cost to $700.
-[IMPROVEMENT] ii. Added dummy weapon.
+[IMPROVEMENT][MINOR] ii. Added dummy weapon.
 
 [NOTRELEVANT] . NEXT GENERATION PATRIOTS- removed from the Strategy Centre commandset (removed from the game). 
 
@@ -2227,7 +2227,7 @@ ii. Health increased by 100%.
 [NOTRELEVANT] i. New cameo. 
 [NOTRELEVANT] i. Fires his laser rifle in single shots.
 
-[IMPROVEMENT] . LOADING SCREEN- restored the Laser General's uniform where green discolouration appeared. 
+[IMPROVEMENT][MINOR] . LOADING SCREEN- restored the Laser General's uniform where green discolouration appeared. 
 
 
 
@@ -2428,7 +2428,7 @@ ii. Health increased by 100%.
 
 [NOTRELEVANT] . ARTILLERY ELITE TRAINING- removed. Veteran Artillery Training replaces it. 
 
-[IMPROVEMENT] . BUNKER- build time standardised with all other China factions. 
+[IMPROVEMENT][MINOR] . BUNKER- build time standardised with all other China factions. 
 
 [NOTRELEVANT] . FUSION REACTORS- is researched at the Nuclear Research Facility.
 
@@ -2538,17 +2538,17 @@ perish when the last base structure is destroyed.)
 
 [NOTRELEVANT] . MARAUDER TANK- cost increased to $1000 (was $800). 
 
-[IMPROVEMENT] . RADAR VAN-
+[IMPROVEMENT][MINOR] . RADAR VAN-
 [NOTRELEVANT] i. Stealth detection range increased. 
-[IMPROVEMENT] ii. Added dummy weapon. (This means Radar Vans will follow a group that has been given an attack order.)
+[IMPROVEMENT][MINOR] ii. Added dummy weapon. (This means Radar Vans will follow a group that has been given an attack order.)
 
 [NOTRELEVANT] . SABOTEUR- he steals $2000 from enemy Supply Centres/Stashes. 
 
-[IMPROVEMENT] . ANGRY MOBS- 
+[IMPROVEMENT][MINOR] . ANGRY MOBS- 
 [NOTRELEVANT] i. Now have 15 members max but start out with 10 members
 [NOTRELEVANT] ii. Cost increased to $1000.
-[IMPROVEMENT] iii. Fixed All animation Bugs
-[IMPROVEMENT] iv. Fixed Bug where members would fall behind and die
+[IMPROVEMENT][MINOR] iii. Fixed All animation Bugs
+[IMPROVEMENT][MAJOR] iv. Fixed Bug where members would fall behind and die
 
 [NOTRELEVANT] . SALVAGE CRATES GENERAL'S POWER- they remain on the ground the duration the power is recharging.
 
@@ -2645,7 +2645,7 @@ perish when the last base structure is destroyed.)
 [NOTRELEVANT] . TOXIN TUNNEL NETWORK
 
 [NOTRELEVANT] i. Cost increased to $900 (was $800). 
-[IMPROVEMENT] ii. Build time standardised with all other GLA factions.
+[IMPROVEMENT][MINOR] ii. Build time standardised with all other GLA factions.
 
 
 [MAYBE] . TOXIN MARAUDER-
@@ -2696,7 +2696,7 @@ according to class as individual units - Uzi, Shotgun, and Machinegun. Instead t
 [NOTRELEVANT] ii. Production time increased to 20 seconds (was 15).
 [NOTRELEVANT] iii. Added new HE/Anthrax attack. 
 
-[IMPROVEMENT] . LOADING SCREEN- removed the name Taylor from the Stealth General's uniform. 
+[IMPROVEMENT][MINOR] . LOADING SCREEN- removed the name Taylor from the Stealth General's uniform. 
 
 [MAYBE] . RPG TROOPER- added new cameo. 
 
@@ -2704,7 +2704,7 @@ according to class as individual units - Uzi, Shotgun, and Machinegun. Instead t
 [NOTRELEVANT] i. Is researched at the Black Market.
 [NOTRELEVANT] ii. Research time increased to 45 seconds (was 30). 
 
-[IMPROVEMENT] . TUNNEL NETWORK- build time standardised with all other GLA factions.
+[IMPROVEMENT][MINOR] . TUNNEL NETWORK- build time standardised with all other GLA factions.
 	
 
 **List of Changes for Shockwave Beta Release 0.93 Since 0.92**
@@ -2736,7 +2736,7 @@ Below is a full change log of all things that were modified,added,removed and fi
 - [NOTRELEVANT] Added Holdfire and Freefire modes fore pop turrets
 - [MAYBE] Added New Minigunner Model
 - [NOTRELEVANT] Added Burst Fire mode for Berserker (launches 3 missiles every 6 seconds)
-- [IMPROVEMENT] Added New models for demolition generals scud storm
+- [IMPROVEMENT][MINOR] Added New models for demolition generals scud storm
 - [NOTRELEVANT] Added New ATACMS launch sound (the missile that is fired by the hurricane and Lockdown(emp) MRLS)
 - [NOTRELEVANT] Added New sounds for emp bomb explosions (of the mig emp bomber)
 - [NOTRELEVANT] Added New sounds for the emp explosions of the missile defender
@@ -2859,9 +2859,9 @@ Below is a full change log of all things that were modified,added,removed and fi
 - [NOTRELEVANT] Modified Plasma Tanks Armor it's now slightly stronger
 
 - [NOTRELEVANT] Fixed the Launcher, it now works correctly with the wordlbuilder
-- [IMPROVEMENT] Fixed Several tooltip and hotkey errors
+- [IMPROVEMENT][MINOR] Fixed Several tooltip and hotkey errors
 - [NOTRELEVANT] Fixed Error where razor bombers could be ordered to attack air units
-- [IMPROVEMENT] Fixed Issue where chinese bunkers coused the infantry inside to damage the bunker
+- [IMPROVEMENT][MAJOR] Fixed Issue where chinese bunkers coused the infantry inside to damage the bunker
 - [DONE] Fixed Battlmasters not getting hordebonus bug
 - [NOTRELEVANT] Fixed Railguns no longer fire 2 or more shots rapidly at certain times
 - [NOTRELEVANT] Fixed SuperWeapons General pathfinders now gain the body armor upgrade (they did not in previous versions)
@@ -2870,7 +2870,7 @@ Below is a full change log of all things that were modified,added,removed and fi
 - [NOTRELEVANT] Fixed Rad tank reactor cores wiill no longer get damaged by the radiation
 - [NOTRELEVANT] Fixed Error When the troop crawler would show the gun when really damaged even if it's not upgraded
 - [MAYBE] Fixed the error where rangers couldn't use flash bangs on stingersites
-- [IMPROVEMENT] Fixed error where nuclear missile silos would lose the nuke mig upgrade after upgrading them with mines
+- [IMPROVEMENT][MAJOR] Fixed error where nuclear missile silos would lose the nuke mig upgrade after upgrading them with mines
 - [NOTRELEVANT] Fixed error where laser comanche's didn't spawn pilots when destroyed
 - [NOTRELEVANT] Fixed error where plasma pulses would get affected by ECM jammers
 - [NOTRELEVANT] Fixed error where nerve gas bombs sometimes did zero effect
@@ -2878,53 +2878,53 @@ Below is a full change log of all things that were modified,added,removed and fi
 - [NOTRELEVANT] Fixed issue where unit could not shoot over small supply piles
 - [NOTRELEVANT] Fixed error where players would be able to call in a B52 carpet bomber when captured certain usa command centers
 - [NOTRELEVANT] Fixed issue where the stealth general radar jamming upgrade coused gen powers and stop buttons to become unselectable
-- [IMPROVEMENT] Fixed commandset error where the helixes had no evacuate button on them if aren't upgraded(speakr, gattling ect.)
+- [IMPROVEMENT][MAJOR] Fixed commandset error where the helixes had no evacuate button on them if aren't upgraded(speakr, gattling ect.)
 - [NOTRELEVANT] Fixed issue where players could select the armor and salvage general in the challange
 - [NOTRELEVANT] Fixed issue where units could not buy drones when you had one EMP MRLS selected and other vehicles
-- [IMPROVEMENT] Fixed bug where fuel airbomb aurora's blew up each other on bombing runs
-- [IMPROVEMENT] Fixed Street lights and signs so that they can be run over again (they always could in gen but not in ZH)
-- [IMPROVEMENT] Fixed bug where smaller trees and bushes where not burnable or runoverable
-- [IMPROVEMENT] Fixed error where gla mission 2 got stuck in the intro
+- [IMPROVEMENT][MINOR] Fixed bug where fuel airbomb aurora's blew up each other on bombing runs
+- [IMPROVEMENT][MINOR] Fixed Street lights and signs so that they can be run over again (they always could in gen but not in ZH)
+- [IMPROVEMENT][MAJOR] Fixed bug where smaller trees and bushes where not burnable or runoverable
+- [IMPROVEMENT][MAJOR] Fixed error where gla mission 2 got stuck in the intro
 - [NOTRELEVANT] Fixed Issue nuke cannons could enter tank bunkers
-- [IMPROVEMENT] Fixed issue Stealth Fighters uses the Aurora's report to tell you its "fuel gauges are in the red"
-- [IMPROVEMENT] Fixed Issue where Demo General's Rocket Buggies did not gain the Demolitions Ability.
+- [IMPROVEMENT][MINOR] Fixed issue Stealth Fighters uses the Aurora's report to tell you its "fuel gauges are in the red"
+- [IMPROVEMENT][MAJOR] Fixed Issue where Demo General's Rocket Buggies did not gain the Demolitions Ability.
 - [NOTRELEVANT] Fixed Issue where jarmen kell could snipe powerlines on buildings with out the KVSK Upgrade
 - [NOTRELEVANT] Fixed error where viral strikes and weapons affected drone units (they are not humans who get sick of that stuff)
-- [IMPROVEMENT] Fixed issue with Chinese supply depots cousing supply truck to drive around it before unloading supplies
+- [IMPROVEMENT][MAJOR] Fixed issue with Chinese supply depots cousing supply truck to drive around it before unloading supplies
 - [NOTRELEVANT] Fixed Frog Errors with the wheels (they sometimes spinned very fast and some of then turned when they should not)
-- [IMPROVEMENT] Fixed error where AP gattling cannons would show up right after placing them on night maps
+- [NOTRELEVANT] Fixed error where AP gattling cannons would show up right after placing them on night maps
 - [NOTRELEVANT] Fixed issue that coused lisening outposts to kick out the tank hunters when orderd to attack at random times
 - [NOTRELEVANT] Fixed Issue where advanced ECM tanks sometimes gave a false range with the attack cursor
 - [NOTRELEVANT] Fixed Issue where crashing combat Chinooks didn't have the newly added guns and rockets on them vissualy
-- [IMPROVEMENT] Fixed Issue where toxin technicals had the AP bullets upgrade cameo
-- [IMPROVEMENT] Fixed Issue where demo battlebusses did not scatter demo traps when destroyed after the demolition upgrade
-- [IMPROVEMENT] Fixed issue where stealth rebels died standing and captured standing on night and snow maps
+- [IMPROVEMENT][MINOR] Fixed Issue where toxin technicals had the AP bullets upgrade cameo
+- [IMPROVEMENT][MINOR] Fixed Issue where demo battlebusses did not scatter demo traps when destroyed after the demolition upgrade
+- [IMPROVEMENT][MAJOR] Fixed issue where stealth rebels died standing and captured standing on night and snow maps
 - [NOTRELEVANT] Fixed Issue where B1 Lancer bomb did not inflict the ammount of damage as it should
 - [NOTRELEVANT] Fixed Issue that made it possible for none combat units to enter tank bunkers
 - [NOTRELEVANT] Fixes Issue where infantry could enter a tank bunker
-- [IMPROVEMENT] Fixed issue where nuke gen gattling tanks could fire through structure
-- [IMPROVEMENT] Fixed Issue where some techbuildings did not have autohealing
+- [IMPROVEMENT][MAJOR] Fixed issue where nuke gen gattling tanks could fire through structure
+- [IMPROVEMENT][MINOR] Fixed Issue where some techbuildings did not have autohealing
 - [NOTRELEVANT] Fixed Issue where road grinders would sometimes use gattling tank specific voice reports
-- [IMPROVEMENT] Fixed Issue where terrorist and terror bikes sometimes didn't do damage when they should
-- [IMPROVEMENT] Fixed Issue where stealth battlebusses remained stealthed if riders started shooting
+- [IMPROVEMENT][MAJOR] Fixed Issue where terrorist and terror bikes sometimes didn't do damage when they should
+- [IMPROVEMENT][MAJOR] Fixed Issue where stealth battlebusses remained stealthed if riders started shooting
 - [NOTRELEVANT] Fixed Issue where stealth jarmen kell didn't have the new KVSK Snipe sounds when upgraded
-- [IMPROVEMENT] Fixed Issue where gattling tanks had the empty shell case droping from the front of the barrel when they reach the herioc state of vertancy
+- [IMPROVEMENT][MINOR] Fixed Issue where gattling tanks had the empty shell case droping from the front of the barrel when they reach the herioc state of vertancy
 - [NOTRELEVANT] Fixed Issue where regulair battlemasters with autoloaders did more damage than tank general battlemasters with autoloaders
-- [IMPROVEMENT] Fixed issue where the ruble left from a demo scud storm looked like the ruble from a normal scud storm
-- [IMPROVEMENT] Fixed Issue where the infantry flying off a combat bike when destroyed did not look the same as the ones driving them
+- [IMPROVEMENT][MINOR] Fixed issue where the ruble left from a demo scud storm looked like the ruble from a normal scud storm
+- [IMPROVEMENT][MINOR] Fixed Issue where the infantry flying off a combat bike when destroyed did not look the same as the ones driving them
 - [NOTRELEVANT] Fixed Issue where Fortified Firebases could not be shutdown by microwaves or advanced ECM tanks
 - [NOTRELEVANT] Fixed Issue where Battlebus demotraps could not be placed on bridges
 - [NOTRELEVANT] Fixed Issue were Troop Crawlers with a autocannon did not gain experince
 - [NOTRELEVANT] Fixed Issue where one could drive vehicles and other units "inside" a warfortress
-- [IMPROVEMENT] Fixed Issue where some GLA structures could not be shutdown by microwaves (and tank gen ECM Tanks)
 - [NOTRELEVANT] Fixed Issue that coused the nerve gas bomb to be unavailible for 10 minutes rather than 5 as the tooltip says
 - [DONE] Fixed Issue where the red detection grid didn't showup on some troopcrawlers and on none of the listening ouposts of any chinese team
-- [IMPROVEMENT] Fixed issue where stinger site would sometimes not fire at a target even if there is nothing there to prevent them from doing so
-- [IMPROVEMENT] Fixed Issue where the explosions of nuclear/fusion upgraded tanks would apear on the barrel tip rather than the center of the vehicle
-- [IMPROVEMENT] Fixed Issue that coused the droping dirt and sand from a all dozer to apear from a wrong angle are not cover the entire part they should
+- [IMPROVEMENT][MAJOR] Fixed issue where stinger site would sometimes not fire at a target even if there is nothing there to prevent them from doing so
+- [IMPROVEMENT][MINOR] Fixed Issue where the explosions of nuclear/fusion upgraded tanks would apear on the barrel tip rather than the center of the vehicle
+- [IMPROVEMENT][MINOR] Fixed Issue that coused the droping dirt and sand from a all dozer to apear from a wrong angle are not cover the entire part they should
 - [NOTRELEVANT] Fixed Issue that made the falling shell of the road grinder to apear on the tip of the gun rather than on the back
-- [IMPROVEMENT] Fixed Issue where some GLA structures could not be shutdown by microwaves (and tank gen ECM Tanks) after the fortified structure upgrade
-- [IMPROVEMENT] Fixed Issue where there was a invissable indestuctable stealh object on the laser generals challenge map
+- [IMPROVEMENT][MAJOR] Fixed Issue where some GLA structures could not be shutdown by microwaves (and tank gen ECM Tanks)
+- [IMPROVEMENT][MAJOR] Fixed Issue where some GLA structures could not be shutdown by microwaves (and tank gen ECM Tanks) after the fortified structure upgrade
+- [IMPROVEMENT][MAJOR] Fixed Issue where there was a invissable indestuctable stealh object on the laser generals challenge map
 
 - [NOTRELEVANT] Removed Battlebus Disguise from stealth battlebus it was to powerfull and to buggy and sometimes even coused crashes
 - [NOTRELEVANT] Removed HE Shell upgrade for inferno Cannons  (replaced by new and better upgrade)
@@ -2945,7 +2945,7 @@ Below is a full change log of all things that were modified and improved about t
 USA
 - [NOTRELEVANT] Uses next gen patriot upgrade
 - [NOTRELEVANT] USA now uses the Stalker Tank
-- [IMPROVEMENT] Uses chem suits against nuke gen (All USA sides)
+- [IMPROVEMENT][MINOR] Uses chem suits against nuke gen (All USA sides)
 
 China
 - [NOTRELEVANT] Uses Mig Afterburner upgrade
@@ -2957,53 +2957,53 @@ GLA
 - [NOTRELEVANT] Builds the Airpad
 - [NOTRELEVANT] Uses the extra salvage upgrade
 - [NOTRELEVANT] Uses the Ballon
-- [IMPROVEMENT] Gla uses the Scorpian rocket upgrade
+- [IMPROVEMENT][MAJOR] Gla uses the Scorpian rocket upgrade
 
 Airforce
 - [NOTRELEVANT] AI uses Aicraft Ammo Upgrade
-- [IMPROVEMENT] Drone Armour upgrade is now used
-- [IMPROVEMENT] Airgen uses chem suit
+- [IMPROVEMENT][MINOR] Drone Armour upgrade is now used
+- [IMPROVEMENT][MINOR] Airgen uses chem suit
 - [NOTRELEVANT] Uses next gen patriot upgrade
-- [IMPROVEMENT] Uses tow missile upgrade
-- [IMPROVEMENT] Airforce uses the strategy center on normal mode (previously it didnt)
+- [IMPROVEMENT][MAJOR] Uses tow missile upgrade
+- [IMPROVEMENT][MAJOR] Airforce uses the strategy center on normal mode (previously it didnt)
 - [NOTRELEVANT] AI uses skycrane
 
 Laser
 - [NOTRELEVANT] Ai builds Humvee laser
-- [IMPROVEMENT] AI build all its drone variants
-- [IMPROVEMENT] AI switch between flashbangs and machine guns
+- [IMPROVEMENT][MAJOR] AI build all its drone variants
+- [IMPROVEMENT][MINOR] AI switch between flashbangs and machine guns
 - [NOTRELEVANT] AI builds PDL for aircrafts
-- [IMPROVEMENT] AI garrasions the Firebase more often
+- [IMPROVEMENT][MINOR] AI garrasions the Firebase more often
 - [NOTRELEVANT] builds focusing crystals upgrade
-- [IMPROVEMENT] Builds the control rod upgrade
+- [IMPROVEMENT][MINOR] Builds the control rod upgrade
 - [NOTRELEVANT] AI builds sentry drone laser gun
 - [NOTRELEVANT] Uses the F/B-22 strike gen power
-- [IMPROVEMENT] uses the paradrop again
-- [IMPROVEMENT] Now buys the Advance training upgrade
+- [IMPROVEMENT][MAJOR] uses the paradrop again
+- [IMPROVEMENT][MINOR] Now buys the Advance training upgrade
 
 Superweapon
-- [IMPROVEMENT] Uses Alpha Auroras
+- [IMPROVEMENT][MAJOR] Uses Alpha Auroras
 - [NOTRELEVANT] Uses empmrls
 - [NOTRELEVANT] Upgrades to combat vest
-- [IMPROVEMENT] Upgrades to advance training
-- [IMPROVEMENT] Upgrades Drone armour
-- [IMPROVEMENT] upgrades laser missiles
-- [IMPROVEMENT] Ai builds bunkerbusters upgrade
+- [IMPROVEMENT][MINOR] Upgrades to advance training
+- [IMPROVEMENT][MINOR] Upgrades Drone armour
+- [IMPROVEMENT][MINOR] upgrades laser missiles
+- [IMPROVEMENT][MINOR] Ai builds bunkerbusters upgrade
 - [NOTRELEVANT] Uses the rod from god
 
 Tank
 - [NOTRELEVANT] Mass Production upgrade is now used
 - [NOTRELEVANT] Reactive Armour upgrade is now used
 - [NOTRELEVANT] AI builds Reaper
-- [IMPROVEMENT] AI Builds Airfield
+- [IMPROVEMENT][MAJOR] AI Builds Airfield
 - [NOTRELEVANT] AI uses Razor Bombers
-- [IMPROVEMENT] AI uses Helix
+- [IMPROVEMENT][MAJOR] AI uses Helix
 - [NOTRELEVANT] Napalmstrike is now used by the AI
 
 Nuke
-- [IMPROVEMENT] Uses the artillery barrage
+- [IMPROVEMENT][MAJOR] Uses the artillery barrage
 - [NOTRELEVANT] uses the nuke drop
-- [IMPROVEMENT] uses the nuke carpet bombing
+- [IMPROVEMENT][MAJOR] uses the nuke carpet bombing
 - [NOTRELEVANT] upgrades to chem suits
 - [NOTRELEVANT] upgrades weapons grade uranium shell
 - [NOTRELEVANT] upgrades fusion reactor
@@ -3011,7 +3011,7 @@ Nuke
 
 Infantry
 - [NOTRELEVANT] Uses beserks
-- [IMPROVEMENT] uses helix
+- [IMPROVEMENT][MAJOR] uses helix
 - [MAYBE] Gave infernos a more prominent role
 - [NOTRELEVANT] Deactivated the Nuetron shell upgrade
 - [NOTRELEVANT] deactivated irrelavent scripts
@@ -3053,14 +3053,14 @@ stealth
 		- [NOTRELEVANT] Removed the emp sphere effect from emp mines (which should solve certain game crashes)
 		- [NOTRELEVANT] Infantry squads bugs reduced (they can't be fixed completly but they happen alot less now :) )
 		- [IMPROVEMENT] Fixed the Airforce Generals Comanche so that the rocket pods show up correctly after the pilot training generals power has be selected
-		- [IMPROVEMENT] Terrorists now die properly when killed by toxins (instead of standing there like Jesus H. Christ)
+		- [IMPROVEMENT][MINOR] Terrorists now die properly when killed by toxins (instead of standing there like Jesus H. Christ)
 		- [NOTRELEVANT] Tweaked Laser Comanches, which should solve the instant death problem
-		- [IMPROVEMENT] Firebases can now be targeted by toxin tractors and other toxin weapons
+		- [IMPROVEMENT][MINOR] Firebases can now be targeted by toxin tractors and other toxin weapons
 		- [NOTRELEVANT] Hover MRLS now shows a proper wreckage when crushed instead of a crushed tank
-		- [IMPROVEMENT] Vannila China Propaganda Centers no longer have auto rallypoints
+		- [IMPROVEMENT][MINOR] Vannila China Propaganda Centers no longer have auto rallypoints
 		- [NOTRELEVANT] Fixed Animation errors with machinegun site soldiers
 		- [DONE] Herioc (3 stripes)Pilots are now no longer slower than veteran and elite pilots
-		- [IMPROVEMENT] Edited Combat Chinooks wreckage it's now larger to match the size of the combat chinook
+		- [IMPROVEMENT][MINOR] Edited Combat Chinooks wreckage it's now larger to match the size of the combat chinook
 		- [NOTRELEVANT] Fixed Missing name error for King Stealths
 
 	- All USA Armies
@@ -3070,7 +3070,7 @@ stealth
 		- [NOTRELEVANT] Rocket Avengers now fire 4 rockets and the rockets are no longer affected by lasers or countermeasures
 		- [NOTRELEVANT] All USA paradrops now also have missile defenders (and laser defenders for laser gen)
 		- [NOTRELEVANT] Increased the paradrop reload times from 4 minutes to 5 minutes
-		- [IMPROVEMENT] Comanches now land for pilots that want to enter them
+		- [IMPROVEMENT][MINOR] Comanches now land for pilots that want to enter them
 		- [MAYBE] Microwave Tanks are now more resistant to infantry rockets (just like toxin tractors and dragon tanks are)
 		- [NOTRELEVANT] All Ambulances now heal vehicles (in that other versions only the vannila one did this)
 
@@ -3095,7 +3095,7 @@ stealth
 		- [NOTRELEVANT] hack vans now cost 1000 for all teams
 		- [NOTRELEVANT] both the mig nuke and emp bomber have more armor and bombs fall down faster
 		- [MAYBE] Beefed up the chinese nuclear explosion of the nuclear missle
-		- [IMPROVEMENT] Migs now have a new sounds when crashing (was ingame but never implanted)
+		- [IMPROVEMENT][MINOR] Migs now have a new sounds when crashing (was ingame but never implanted)
 
 	- Normal China only 
 		- [NOTRELEVANT] Troop Crawlers can now be upgraded with a autocannon.
@@ -3133,7 +3133,7 @@ stealth
 	- GLA Toxin General
 		- [NOTRELEVANT] Toxin marauders now have a new look and better weapons and also special salvage upgraded turrets
 		- [NOTRELEVANT] Toxin scorpions can now transport 2 soldiers and the scorpion no longer needs to turn the entire chassis to fire a scorpion rocket
-		- [IMPROVEMENT] Toxin RPG Troopers now properly play the firing animation when firing at airborn targets
+		- [DONE] Toxin RPG Troopers now properly play the firing animation when firing at airborn targets
 
 	- GLA Stealth General
 		- [NOTRELEVANT] RPG Troopers of the stealth general are now stealthed if they are not attacking or moving
@@ -3150,10 +3150,10 @@ stealth
 	**New Features in 0.9** 
 
 	- [MAYBE] More new sound effects
-	- [IMPROVEMENT] Many bug fixes since the last version
+	- [NOTRELEVANT] Many bug fixes since the last version
 	- [MAYBE] Many Improved,Tweaked and new Particle Effects
-	- [IMPROVEMENT] New Skrimish AI For all sides and generals
-	- [IMPROVEMENT] Grenerals Challange has been remade and all generals now use there new units and upgrades and General Juhziz
+	- [NOTRELEVANT] New Skrimish AI For all sides and generals
+	- [NOTRELEVANT] Grenerals Challange has been remade and all generals now use there new units and upgrades and General Juhziz
 	  is now in the generals challenge
 	- [NOTRELEVANT] New Shellmap
 
@@ -3163,53 +3163,53 @@ stealth
 		- [NOTRELEVANT] Raptor ammo upgrade - it is incorrect. It should be named "Aircraft ammo" 
 		- [NOTRELEVANT] Nuke general Artillery barrage available at rank 1 
 		- [NOTRELEVANT] Stealth general Scorpions should not have "Scorpion Wheels" upgrade button. 
-		- [IMPROVEMENT] Rocket Buggy and Toxin scud have bugs with there head lights 
-		- [IMPROVEMENT] Inferno Cannons do not recoil when firing there napalm shells 
-		- [IMPROVEMENT] Tank Generals Battle Master Barrel does not recoil 
+		- [IMPROVEMENT][MINOR] Rocket Buggy and Toxin scud have bugs with there head lights 
+		- [IMPROVEMENT][MINOR] Inferno Cannons do not recoil when firing there napalm shells 
+		- [IMPROVEMENT][MINOR] Tank Generals Battle Master Barrel does not recoil 
 		- [NOTRELEVANT] Robot Tanks do not gain effect from the drone armor while they should
 		- [NOTRELEVANT] Robot Tanks have drone upgrades in there commandset which they should not 
 		- [NOTRELEVANT] Robot tanks love to get on the head of each other 
-		- [IMPROVEMENT] Only the demo saboteur uses the fixed climbing anims all saboteurs should 
-		- [IMPROVEMENT] Only Toxin jarmen kell uses a fixed fire animation while all jarmen kell's should 
+		- [IMPROVEMENT][MINOR] Only the demo saboteur uses the fixed climbing anims all saboteurs should 
+		- [IMPROVEMENT][MINOR] Only Toxin jarmen kell uses a fixed fire animation while all jarmen kell's should 
 		- [NOTRELEVANT] Emp MRLS genpoint button does not make the new sound when clicking it 
 		- [NOTRELEVANT] Railgun artillery show a different name on the gen power button 
-		- [IMPROVEMENT] Nuke Generals troopcrawler is filled with vannila china redguards 
+		- [NOTRELEVANT] Nuke Generals troopcrawler is filled with vannila china redguards 
 		- [NOTRELEVANT] The ZSU-57 does not gain the demolition upgrade 
 		- [NOTRELEVANT] Siege soldiers sometimes walk to close to a defence before they attack 
 		- [DONE] Units fire at burning or poisned infantry which are actualy allready dead 
 		- [NOTRELEVANT] Nuke Siege soldiers can fire a small nuke while they should not be able too 
 		- [DONE] Defences fire at overlords scrap peices 
-		- [IMPROVEMENT] Overlord Gattling cannon does not show muzzleflashes 
+		- [IMPROVEMENT][MINOR] Overlord Gattling cannon does not show muzzleflashes 
 		- [NOTRELEVANT] ZSU-57's don't have a red explosion effect when upgraded with HE shell's 
-		- [IMPROVEMENT] Sentry Drones & Gattling tanks have a bug with there headlights
+		- [IMPROVEMENT][MINOR] Sentry Drones & Gattling tanks have a bug with there headlights
 		- [NOTRELEVANT] Humvee laser have wrong point it fires from. 
 		- [NOTRELEVANT] Tank generals ECM does not aim with the dish when attacking buildings 
 		- [NOTRELEVANT] Battle master do not gain anything from the autoloader upgrade for normal china 
 		- [NOTRELEVANT] Small cannons such as Robot tank gun should not shake the screen 
-		- [IMPROVEMENT] Stealth Rebels show a huge muzzle flash sometimes in night/snow missions 
+		- [IMPROVEMENT][MINOR] Stealth Rebels show a huge muzzle flash sometimes in night/snow missions 
 		- [NOTRELEVANT] Railgun artillery makes infantry fly insane high and vehicles only a bit
 		- [NOTRELEVANT] Toxin grenadier explosion FX should be blue (purple when upgraded)
-		- [IMPROVEMENT] Some artillery units do not have ground attack buttons or have wrong images 
+		- [NOTRELEVANT] Some artillery units do not have ground attack buttons or have wrong images 
 		- [NOTRELEVANT] Robot Tanks can be dissabled with the jarmen kell sniper abbility 
 		- [NOTRELEVANT] EMP Missile Defenders missiles played the dissable sound when ever a emp missile hits something 
 		- [NOTRELEVANT] EMP Missile Defenders cannot dissalble robot tanks or Hover MRLS's 
 		- [NOTRELEVANT] Nerve gass based weapons can dissable drone units 
 		- [NOTRELEVANT] Scud Trucks have a anthrax and HE warhead button while they cannot switch 
-		- [IMPROVEMENT] Wrong Toxin Tractor Cameo for all toxin tracktors 
-		- [IMPROVEMENT] Using alot of toxin rocket buggies couses a major lag problem 
-		- [IMPROVEMENT] Dragon Tank showing a wrong name on the build button for the nuke general 
-		- [IMPROVEMENT] Missing Text errors & spelling, grammar mistakes  
-		- [IMPROVEMENT] Neutron Shell back fire bug 
+		- [IMPROVEMENT][MINOR] Wrong Toxin Tractor Cameo for all toxin tracktors 
+		- [NOTRELEVANT] Using alot of toxin rocket buggies couses a major lag problem 
+		- [IMPROVEMENT][MINOR] Dragon Tank showing a wrong name on the build button for the nuke general 
+		- [IMPROVEMENT][MINOR] Missing Text errors & spelling, grammar mistakes  
+		- [IMPROVEMENT][MAJOR] Neutron Shell back fire bug 
 		- [NOTRELEVANT] Some 1.03 Changes are not implanted 
-		- [IMPROVEMENT] Upgrade Cameos which have no function (red guard & Raptor) 
-		- [IMPROVEMENT] Super Lotus not as good select able as other units 
+		- [IMPROVEMENT][MINOR] Upgrade Cameos which have no function (red guard & Raptor) 
+		- [IMPROVEMENT][MAJOR] Super Lotus not as good select able as other units 
 		- [NOTRELEVANT] Scud Storms do not gain profit of the fortified structures upgrade 
 		- [NOTRELEVANT] GLA bikes get destroyed if no passenger is on them 
 		- [NOTRELEVANT] Demo gens ZSU does not kickup dirt when moving 
 		- [NOTRELEVANT] Siege cannons and nuke cannons of the nuke gen should start as veterans
 		- [NOTRELEVANT] EMP MRLS fire fx does not match correctly with the vehicle 
-		- [IMPROVEMENT] Kassad's Toxin Tractor doesn't get the commandset upgrade to show the Anthrax Beta contamination cameo 
-		- [IMPROVEMENT] The Humvee model problem the tow missile was always fired from the same location
+		- [IMPROVEMENT][MINOR] Kassad's Toxin Tractor doesn't get the commandset upgrade to show the Anthrax Beta contamination cameo 
+		- [IMPROVEMENT][MINOR] The Humvee model problem the tow missile was always fired from the same location
 		- [NOTRELEVANT] Machine Gun site does not gain fortified armor 
 		- [NOTRELEVANT] Radius Cursor of the nuclear strike does not match with the one after selecting a target 
 		- [NOTRELEVANT] Siege Soldiers have the problem that they move to targets while they actualy are in weapons range 
@@ -3223,8 +3223,8 @@ stealth
 		- [NOTRELEVANT] Stealth Fighters no longer created a bunker buster explosion with every singel missile only the last
 		  missile that is fired will create a bunker busting explosion
 		- [NOTRELEVANT] Comanche Rocket Pods now have a new missile trail and explosion effect
-		- [IMPROVEMENT] All wheeled Vehicles now have suspensions on the wheels
-		- [IMPROVEMENT] All wheeled Vehicles now have snow treads on snow maps
+		- [IMPROVEMENT][MINOR] All wheeled Vehicles now have suspensions on the wheels
+		- [IMPROVEMENT][MINOR] All wheeled Vehicles now have snow treads on snow maps
 		- [NOTRELEVANT] Avengers now have a small turret for the target laser
 
 	-Normal USA
@@ -3251,7 +3251,7 @@ stealth
 		- [NOTRELEVANT] New Fortified Firebase
 		- [NOTRELEVANT] New Generals Power "Pop Turret Drop"
 		- [MAYBE] New Particle Cannon Model
-		- [IMPROVEMENT] Particle Cannon uplink renamed to Advanced Particle Cannon uplink
+		- [IMPROVEMENT][MINOR] Particle Cannon uplink renamed to Advanced Particle Cannon uplink
 
 	-All Chinese Armies 
 		- [NOTRELEVANT] New Flare Mortar Upgrade for siege soldiers
@@ -3327,13 +3327,13 @@ stealth
 	- [NOTRELEVANT] Reimplementation of some alpha / beta units
 	- [MAYBE] Many enhancements in particle effects and weapon effects
 	- [NOTRELEVANT] All generals now have there own unique armies and more special units and powers
-	- [IMPROVEMENT] Many Bug Fixes that where present in the original game
-	- [IMPROVEMENT] Many Graphical problems fixed of the in game models and cameos
+	- [IMPROVEMENT][MAJOR] Many Bug Fixes that where present in the original game
+	- [IMPROVEMENT][MINOR] Many Graphical problems fixed of the in game models and cameos
 
 	- Common Changes For all armies and the game play
 		- [MAYBE] increased the standard camera height
 		- [NOTRELEVANT] The 3 and 4 star promotions will give you 2 extra points instead of 1
-		- [IMPROVEMENT] All small cameos that had no border effect in ZH now do have the border effect
+		- [IMPROVEMENT][MINOR] All small cameos that had no border effect in ZH now do have the border effect
 		- [NOTRELEVANT] All tanks have a slightly large explosions effect as they used to have
 		- [NOTRELEVANT] Infantry's will bleed when hit by weapons
 		- [NOTRELEVANT] Capturing buildings now goes 25% faster as originally
@@ -3341,9 +3341,9 @@ stealth
 		- [NOTRELEVANT] Added shockwaves to all nuclear and fuel air bomb type weapons
 		- [MAYBE] Added new sound effect when choosing a generals power
 		- [NOTRELEVANT] Laser based weapons now set infantry on fire
-		- [IMPROVEMENT] All Recoil and muzzle flash bugs have been fixed for vehicles that had more than 1 weapon
-		- [IMPROVEMENT] Several Unused voices are now enabled
-		- [IMPROVEMENT] New Carpet-bomb bomb model
+		- [IMPROVEMENT][MINOR] All Recoil and muzzle flash bugs have been fixed for vehicles that had more than 1 weapon
+		- [IMPROVEMENT][MINOR] Several Unused voices are now enabled
+		- [IMPROVEMENT][MINOR] New Carpet-bomb bomb model
 		- [NOTRELEVANT] Start units all armies will now start with 3 basic tanks 2 basic scout units and 4 basic infantry
 
 	-All USA Armies
@@ -3360,7 +3360,7 @@ stealth
 		- [NOTRELEVANT] Added Upgrade for Col. Burton OICW Rifle (allows him to fire long range grenades)
 		- [NOTRELEVANT] Added Next generation patriot upgrade for patriot batteries (15% bonus range, ROF and damage)
 		- [MAYBE] Added new weapon sound for the spectre gunship
-		- [IMPROVEMENT] When a building is destroyed it will now spawn the correct rangers of the USA army you’re playing
+		- [DONE] When a building is destroyed it will now spawn the correct rangers of the USA army you’re playing
 		- [MAYBE] Fixed the sentry drone model so that the skins now match with the other USA units and improved the animation
 		- [MAYBE] New Fire sound for the paladin
 		- [NOTRELEVANT] New Patriot Missile trail
@@ -3453,9 +3453,9 @@ stealth
 		- [MAYBE] New Helix Cameo
 		- [MAYBE] New Battle Master Cameo
 		- [MAYBE] New Dragon Tank Flame Effect
-		- [IMPROVEMENT] New Gatling cannon model when upgraded with Chain guns
+		- [IMPROVEMENT][MINOR] New Gatling cannon model when upgraded with Chain guns
 		- [MAYBE] New Gatling cannon sounds for both upgraded and not upgraded
-		- [IMPROVEMENT] New Gatling tank sound when upgraded
+		- [IMPROVEMENT][MINOR] New Gatling tank sound when upgraded
 		- [MAYBE] New Helix Weapons sound
 		- [MAYBE] New Helix Upgrade cameos
 
@@ -3513,10 +3513,10 @@ stealth
 		- [NOTRELEVANT] Tunnel Networks and Stinger Sites now gain profit of the fortified structure upgrade
 		- [MAYBE] Tunnel Networks now have a new firing sound
 		- [MAYBE] Technical now has new firing sound for all 3 salvage states
-		- [IMPROVEMENT] All GLA Cameos now show the green Team Color instead of red or white which some had
+		- [IMPROVEMENT][MINOR] All GLA Cameos now show the green Team Color instead of red or white which some had
 		- [MAYBE] New Cameo for the Rebel
 		- [MAYBE] New Cameo for the RPG Trooper
-		- [IMPROVEMENT] Saboteurs now have a climbing animation when climbing a cliff rather than walking into the cliff
+		- [IMPROVEMENT][MINOR] Saboteurs now have a climbing animation when climbing a cliff rather than walking into the cliff
 		- [NOTRELEVANT] Stinger Sites now do more damage to grind target (damage for air targets unaltered)
 		- [MAYBE] Scud Storm Missiles now make flyby sounds when diving to the target
 		- [MAYBE] New Cameo's for the Booby Trap
@@ -3538,7 +3538,7 @@ stealth
 		- [NOTRELEVANT] New ZSU-57 Flak Tank (replaced the quad cannon)
 		- [NOTRELEVANT] Added New upgrade for bombtruck (nuclear warhead increases the damage 25% and leaves radiations)
 		- [NOTRELEVANT] Replaced the Anthrax bomb with the black-market nuke
-		- [IMPROVEMENT] New cameo for combat bike (showing a terrorist instead of a rebel)
+		- [IMPROVEMENT][MINOR] New cameo for combat bike (showing a terrorist instead of a rebel)
 		- [NOTRELEVANT] New Demolition RPG Trooper
 		- [NOTRELEVANT] New Rocket Tunnel Network
 		- [NOTRELEVANT] New Demolition Rebel
