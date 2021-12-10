@@ -27,7 +27,8 @@ if "%ThisArg1%"=="build" (
     xcopy /y    "%GameFilesDir%\Art\W3D\EXCarptBmb2.W3D"          "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\NVLOutpost.W3D"           "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\NVLOutpost_D.W3D"         "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
-    
+    xcopy /y    "%GameFilesDir%\Art\W3D\UIWRKR_CLMUP.W3D"         "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
+
     :: Generate .big file(s)
     "%ToolsDir%\GeneralsBigCreator\GeneralsBigCreator.exe" -source "%GeneratedBigFilesUnpackedDir%\%BigName%" -dest "%GeneratedBigFilesDir%\%BigName%.big"
     
