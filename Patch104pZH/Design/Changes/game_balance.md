@@ -16,6 +16,7 @@
 | Land Mines                     |               |               |       20.000 |       16.000 |
 | Neutron Mines                  |          500  |           400 |       25.000 |       16.000 |
 | Overlord Gattling Cannon       |          1200 |          1000 |              |              |
+| Helix Gattling Cannon          |          1200 |          1000 |              |              |
 | Internet Centre                |          2500 |          1750 |              |              |
 | Satellite Hack One             |          1000 |           800 |              |              |
 | Satellite Hack Two             |          2500 |          1200 |              |              |
@@ -43,8 +44,7 @@
 | Listening Outpost              |               |               |       15.000 |       14.000 |
 | Troop Crawler                  |          1400 |          1200 |              |              |
 | Inferno Cannon                 |           900 |           800 |              |              |
-| Nuke Cannon                    |          1600 |          1400 |       20.000 |       18.000 |
-| Helix                          |          1500 |          1400 |              |              |
+| Helix                          |          1500 |          1450 |              |              |
 
 ### Infantry China
 
@@ -52,10 +52,11 @@
 |--------------------------------|--------------:|--------------:|-------------:|-------------:|
 | Para Drop                      |               |               |      240.000 |      210.000 |
 | Hacker                         |           625 |           600 |       20.000 |       17.500 |
-| Mig                            |          1200 |          1350 |              |              |
+| Mig                            |          1200 |          1300 |              |              |
 | Helix                          |               |               |       20.000 |       25.000 |
 | Inferno Cannon                 |          1100 |          1000 |       15.000 |       14.000 |
-| Nuke Cannon                    |          1600 |          1400 |       20.000 |       18.000 |
+| ECM Tank                       |           900 |           850 |              |              |
+| Assault Troop Crawler          |               |               |       25.000 |       26.000 |
 
 ### Nuke China
 
@@ -84,6 +85,7 @@
 | Black Lotus                    |          1875 |          1500 |              |              |
 | Hacker                         |           780 |           550 |       20.000 |       15.000 |
 | Listening Outpost              |           950 |           900 |       15.000 |       14.000 |
+| ECM Tank                       |           800 |           750 |              |              |
 | Mig                            |          1600 |          1500 |       12.000 |       10.000 |
 | Helix                          |               |               |       25.000 |       20.000 |
 
@@ -96,7 +98,7 @@ Composite Armour now gives 25% HP (fixed for all units)
 | Composite Armour               |          2000 |          1750 |              |              |
 | Paradrop                       |               |               |      240.000 |      150.000 |
 | AirField                       |          1000 |           800 |              |              |
-| Pathfinder                     |           600 |           900 |       10.000 |       15.000 |
+| Pathfinder                     |           600 |          1500 |       10.000 |       20.000 |
 | Flashbang                      |               |               |       30.000 |       25.000 |
 | TOW Missile                    |           800 |          1000 |              |              |
 | Sentry Drone Gun               |          1000 |           500 |       30.000 |       10.000 |
@@ -126,7 +128,8 @@ Composite Armour now gives 25% HP (fixed for all units)
 | Carpet Bomb                    |               |               |      240.000 |      360.000 |
 | Patriot                        |          1000 |           750 |              |              |
 | Chinook                        |           950 |          1200 |              |              |
-| Combat Chinook                 |               |               |       25.000 |       30.000 |
+| Combat Chinook                 |          1200 |          1800 |       25.000 |       30.000 |
+| King Raptor                    |          1100 |          1200 |       20.000 |       23.000 |
 | Sentry Drone                   |           850 |           500 |       10.000 |        8.000 |
 
 ### Laser USA
@@ -148,6 +151,7 @@ Composite Armour now gives 25% HP (fixed for all units)
 | Cold Fusion Reaction           |           900 |           800 |              |              |
 | Advanced Control Rods          |           500 |           600 |       30.000 |       25.000 |
 | Humvee                         |           850 |           800 |              |              |
+| Avenger                        |          2000 |          1750 |              |              |
 | Sentry Drone                   |          1000 |           500 |       10.000 |        8.000 |
 | Tomahawk                       |          1400 |          1200 |              |              |
 | Raptor                         |          1400 |          1100 |              |              |
@@ -163,7 +167,6 @@ Composite Armour now gives 25% HP (fixed for all units)
 | BioBomb                        |           500 |           300 |              |              |
 | HighExplosiveBomb              |           500 |           400 |              |              |
 | FortifiedStructures            |          1000 |          1500 |              |              |
-| Scud Launcher                  |               |               |       15.000 |       14.000 |
 
 ### GLA
 
@@ -183,10 +186,15 @@ Composite Armour now gives 25% HP (fixed for all units)
 | Anthrax Gamma                  |          1500 |          2000 |              |              |
 | Rebel Ambush                   |               |               |      240.000 |      300.000 |
 | Demo Trap                      |           600 |           400 |        8.000 |        5.000 |
+| Tunnel Network                 |               |               |       30.000 |       33.000 |
+| Tunnel Network Sell Price      |           100 |            50 |              |              |
 | Angry Mob                      |           800 |          1000 |              |              |
+| Rebel                          |           200 |           300 |              |              |
+| RPG                            |           300 |           350 |       10.000 |       11.000 |
 | Technical                      |           500 |           600 |              |              |
 | Bomb Truck                     |          1200 |          1100 |       15.000 |       12.000 |
 | Scud Launcher                  |          1200 |          1000 |              |              |
+| Battle Bus                     |          1100 |          1200 |              |              |
 | Radar Van                      |           550 |           500 |              |              |
 | Combat Cycle                   |           550 |           450 |              |              |
 
