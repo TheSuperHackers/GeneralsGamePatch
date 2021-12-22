@@ -8,6 +8,7 @@
 | C | A | ID                                                          | Change                                                                                                                |
 |---|---|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 |   |   | [#2](https://github.com/xezon/GeneralsGamePatch/pull/2)     | Fixed issue that showed wrong model of GLA Battle Bus in bunkered state                                               |
+|   |   | [#553](https://github.com/xezon/GeneralsGamePatch/pull/553) | Fixed issue that showed wrong model of GLA Battle Bus in bunkered state (Single Player)                               |
 |   |   | [#3](https://github.com/xezon/GeneralsGamePatch/pull/3)     | Fixed exploit that granted USA a significant amount of cash after building a Drop Zone                                |
 |   |   | [#7](https://github.com/xezon/GeneralsGamePatch/pull/7)     | Fixed issue that would permanently reduce the power level of a player                                                 |
 |   |   |                                                             | Reduced lag of USA Patriot missile assist effect by around 60%                                                        |
@@ -26,7 +27,8 @@
 |   |   | [#78](https://github.com/xezon/GeneralsGamePatch/pull/78)   | Fixed wrong Anthrax effect colors on Toxin Tractor puddles                                                            |
 |   |   | [#94](https://github.com/xezon/GeneralsGamePatch/pull/94)   | Fixed issue that allowed to trigger demo traps by placing scaffolds nearby                                            |
 |   |   | [#85](https://github.com/xezon/GeneralsGamePatch/pull/85)   | Fixed issue that caused Toxin demo trap to prematurely create toxin puddle before explosion                           |
-|   |   | [#95](https://github.com/xezon/GeneralsGamePatch/pull/95)   | Fixed GLA Stealth Saboteur death voice                                                                                |
+|   |   | [#95](https://github.com/xezon/GeneralsGamePatch/pull/95)   | Fixed GLA Saboteur death voice                                                                                        |
+|   |   | [#555](https://github.com/xezon/GeneralsGamePatch/pull/555) | Fixed Demo GLA Saboteur death voice                                                                                   |
 |   |   | [#96](https://github.com/xezon/GeneralsGamePatch/pull/96)   | Fixed issue that sent the China Supply Truck flying high in the sky when shot                                         |
 | C |   | [#97](https://github.com/xezon/GeneralsGamePatch/pull/97)   | Fixed issue that made it difficult to drive over the China Infantry Minigunner                                        |
 |   |   | [#83](https://github.com/xezon/GeneralsGamePatch/pull/83)   | Fixed issue that had Toxin Shells lose projectile effect after acquiring Anthrax Beta                                 |
@@ -171,3 +173,40 @@
 |   |   | [#441](https://github.com/xezon/GeneralsGamePatch/pull/441) | Fixed issue where units would attack Fuel Air Bombs for a short moment                                                |
 |   |   | [#442](https://github.com/xezon/GeneralsGamePatch/pull/442) | Fixed issue where China ECM Tank could not disable a Heroic (Vet3) GLA Quad Cannon                                    |
 | C |   | [#443](https://github.com/xezon/GeneralsGamePatch/pull/443) | Money Crates no longer vanish when a building scaffold is placed on top                                               |
+|   |   | [#484](https://github.com/xezon/GeneralsGamePatch/pull/484) | Empty Outposts can no longer attack things                                                                            |
+|   |   | [#451](https://github.com/xezon/GeneralsGamePatch/pull/451) | Added missing Subliminal Messaging upgrade icon to Boss Propaganda Tower                                              |
+|   |   | [#451](https://github.com/xezon/GeneralsGamePatch/pull/451) | Fixed fast build time of Boss Tunnel Network                                                                          |
+|   |   | [#451](https://github.com/xezon/GeneralsGamePatch/pull/451) | Fixed issue where Boss Bunker is immune to USA Microwave Tank                                                         |
+|   |   | [#450](https://github.com/xezon/GeneralsGamePatch/pull/450) | Fixed issue where Boss Pathfinders would retaliate                                                                    |
+|   |   | [#450](https://github.com/xezon/GeneralsGamePatch/pull/450) | Fixed low health value of Boss Black Lotus                                                                            |
+|   |   | [#450](https://github.com/xezon/GeneralsGamePatch/pull/450) | Fixed low vision range of Boss Jarmen Kell                                                                            |
+|   |   | [#453](https://github.com/xezon/GeneralsGamePatch/pull/453) | Fixed several issues of Boss Sentry Drone                                                                             |
+|   |   | [#457](https://github.com/xezon/GeneralsGamePatch/pull/457) | Fixed several issues of Boss Helix                                                                                    |
+|   |   | [#453](https://github.com/xezon/GeneralsGamePatch/pull/453) | Fixed several issues of Boss King Raptor                                                                              |
+|   |   | [#454](https://github.com/xezon/GeneralsGamePatch/pull/454) | Fixed several issues of Boss Avenger                                                                                  |
+|   |   | [#512](https://github.com/xezon/GeneralsGamePatch/pull/512) | Fixed several issues with Stealth GLA Base Defenses in GLA02 Campaign                                                 |
+|   |   | [#514](https://github.com/xezon/GeneralsGamePatch/pull/514) | Fixed several issues with Stealth GLA Buildings in GLA02 Campaign                                                     |
+|   |   | [#519](https://github.com/xezon/GeneralsGamePatch/pull/519) | Fixed several issues with Stealth GLA Infantry in GLA02 Campaign                                                      |
+|   |   | [#521](https://github.com/xezon/GeneralsGamePatch/pull/521) | Fixed several issues with Stealth GLA Vehicles in GLA02 Campaign                                                      |
+|   |   | [#513](https://github.com/xezon/GeneralsGamePatch/pull/513) | Fixed several issues with Toxin GLA Base Defenses in USA05 Campaign                                                   |
+|   |   | [#515](https://github.com/xezon/GeneralsGamePatch/pull/515) | Fixed several issues with Toxin GLA Buildings in USA05 Campaign                                                       |
+|   |   | [#520](https://github.com/xezon/GeneralsGamePatch/pull/520) | Fixed several issues with Toxin GLA Infantry in USA05 Campaign                                                        |
+|   |   | [#522](https://github.com/xezon/GeneralsGamePatch/pull/522) | Fixed several issues with Toxin GLA Vehicles in USA05 Campaign                                                        |
+|   |   | [#542](https://github.com/xezon/GeneralsGamePatch/pull/542) | Fixed issue where GLA Black Markets and GLA Fake Black Markets showed different particle effects                      |
+|   |   | [#541](https://github.com/xezon/GeneralsGamePatch/pull/541) | Fixed wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on snowy night maps                    |
+|   |   | [#559](https://github.com/xezon/GeneralsGamePatch/pull/559) | Fixed invisible Civilian buildings on snowy maps                                                                      |
+|   |   | [#563](https://github.com/xezon/GeneralsGamePatch/pull/563) | Fixed issue where Demo GLA Advanced Demo Trap showed wrong model when being sold                                      |
+|   |   | [#567](https://github.com/xezon/GeneralsGamePatch/pull/567) | Fixed issue where Demo GLA Combat Cycle was manned by a Worker while being dropped from air                           |
+| C |   | [#547](https://github.com/xezon/GeneralsGamePatch/pull/547) | Added GLA Saboteur ability to enter USA Supply Drop Zone and GLA Black Market                                         |
+| C |   | [#544](https://github.com/xezon/GeneralsGamePatch/pull/544) | Added Stealth GLA Saboteur ability to enter China Internet Center and GLA Fake Buildings                              |
+|   |   | [#538](https://github.com/xezon/GeneralsGamePatch/pull/538) | Fixed issue where GLA Arms Dealer with Power would close doors too slowly for the production                          |
+|   |   | [#568](https://github.com/xezon/GeneralsGamePatch/pull/568) | Added ruin model for destroyed Reinforcement Pad Tech Building                                                        |
+|   |   | [#568](https://github.com/xezon/GeneralsGamePatch/pull/568) | Added ruin model for destroyed Repair Bay Tech Building                                                               |
+|   |   | [#571](https://github.com/xezon/GeneralsGamePatch/pull/571) | Added Radar Station Tech Building (optional content)                                                                  |
+|   |   | [#572](https://github.com/xezon/GeneralsGamePatch/pull/572) | Added Generals Mammoth Tank (optional content)                                                                        |
+| C |   | [#403](https://github.com/xezon/GeneralsGamePatch/pull/403) | Fixed issue where Airforce USA Avenger has 30% more armor against Jet Missiles                                        |
+| C |   | [#410](https://github.com/xezon/GeneralsGamePatch/pull/410) | Fixed issue where China Nuke Missile was unable to destroy entire GLA structure                                       |
+|   |   | [#575](https://github.com/xezon/GeneralsGamePatch/pull/575) | Added Tank China Nuke Cannon and Tank China Inferno Cannon (optional content)                                         |
+|   |   | [#606](https://github.com/xezon/GeneralsGamePatch/pull/606) | Added mountain climb animation for GLA Saboteur                                                                       |
+| C |   | [#236](https://github.com/xezon/GeneralsGamePatch/pull/236) | Added missing Subliminal Messaging bonus to Tank China Emperor                                                        |
+
