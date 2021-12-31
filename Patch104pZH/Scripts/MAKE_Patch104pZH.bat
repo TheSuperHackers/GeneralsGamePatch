@@ -1,4 +1,3 @@
-echo on
 set ThisDir1=%~dp0.
 set ThisArg1=%~1
 call "%ThisDir1%\SETUP_Folders.bat"
@@ -16,8 +15,8 @@ if "%ThisArg1%"=="build" (
     :: All files listed here become part of the core of Patch104p and are meant
     :: to be critical for client compatibility and essential for functionality.
     :: Optional files should be moved into one of the other scripts.
-    xcopy /y /s "%GameFilesDir%\*.ini"                            "%GeneratedBigFilesUnpackedDir%\%BigName%\"
-    xcopy /y /s "%GameFilesDir%\*.wnd"                            "%GeneratedBigFilesUnpackedDir%\%BigName%\"
+    xcopy /y /s "%GameFilesDir%\Data\INI\*.ini"                   "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\INI\"
+    xcopy /y /s "%GameFilesDir%\Window\*.wnd"                     "%GeneratedBigFilesUnpackedDir%\%BigName%\Window\"
     xcopy /y    "%GameFilesDir%\Art\Textures\exlaser3.dds"        "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\Textures\"
     xcopy /y    "%GameFilesDir%\Art\Textures\gxmammoth_co.tga"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\Textures\"
     xcopy /y    "%GameFilesDir%\Art\Textures\gxmammothalt_HI.tga" "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\Textures\"
@@ -28,7 +27,25 @@ if "%ThisArg1%"=="build" (
     xcopy /y    "%GameFilesDir%\Art\W3D\NVLOutpost.W3D"           "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\NVLOutpost_D.W3D"         "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\UIWRKR_CLMUP.W3D"         "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
-
+    
+    :: TODO Move language files into separate .big file(s) later
+    :: Copies language files into language folders and compiles generals.csf
+    for %%l in (Arabic,Brazilian,Chinese,English,French,German,Italian,Korean,Polish,Russian,Spanish) do (
+        xcopy /y /s "%GameFilesDir%\Data\%%l\*.*" "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\%%l\"
+        "%ToolsDir%\gametextcompiler\gametextcompiler.exe" ^
+            -LOAD_STR "%GameFilesDir%\Data\generals.str" ^
+            -LOAD_STR_LANGUAGES %%l ^
+            -SAVE_CSF "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\%%l\generals.csf"
+    )
+    
+    :: Compiles Autorun.csf for supported languages
+    for %%l in (Chinese,French,German,Korean) do (
+        "%ToolsDir%\gametextcompiler\gametextcompiler.exe" ^
+            -LOAD_STR "%GameFilesDir%\Data\Autorun.str" ^
+            -LOAD_STR_LANGUAGES %%l ^
+            -SAVE_CSF "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\%%l\Autorun.csf"
+    )
+    
     :: Generate .big file(s)
     "%ToolsDir%\GeneralsBigCreator\GeneralsBigCreator.exe" -source "%GeneratedBigFilesUnpackedDir%\%BigName%" -dest "%GeneratedBigFilesDir%\%BigName%.big"
     
