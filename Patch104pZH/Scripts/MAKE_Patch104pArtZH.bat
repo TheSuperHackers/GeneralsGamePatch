@@ -1,4 +1,3 @@
-echo on
 set ThisDir1=%~dp0.
 set ThisArg1=%~1
 call "%ThisDir1%\SETUP_Folders.bat"
