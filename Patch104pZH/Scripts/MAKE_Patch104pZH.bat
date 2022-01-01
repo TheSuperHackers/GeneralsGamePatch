@@ -36,6 +36,16 @@ if "%ThisArg1%"=="build" (
     xcopy /y    "%GameFilesDir%\Art\W3D\EXCarptBmb2.W3D"          "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\NVLOutpost.W3D"           "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
     xcopy /y    "%GameFilesDir%\Art\W3D\NVLOutpost_D.W3D"         "%GeneratedBigFilesUnpackedDir%\%BigName%\Art\W3D\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampmoa.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampmob.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampmoc.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampmod.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampmoe.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampsea.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampseb.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampsec.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampsed.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
+    xcopy /y    "%GameFilesDir%\Data\Audio\Sounds\vampsee.wav"    "%GeneratedBigFilesUnpackedDir%\%BigName%\Data\Audio\Sounds\"
     
     :: Generate .big file(s)
     "%ToolsDir%\GeneralsBigCreator\GeneralsBigCreator.exe" -source "%GeneratedBigFilesUnpackedDir%\%BigName%" -dest "%GeneratedBigFilesDir%\%BigName%.big"
