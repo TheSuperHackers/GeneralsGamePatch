@@ -212,7 +212,7 @@ https://github.com/commy2/zerohour/issues/7   [DONE][NPROJEC!]        Mini-Gunne
 https://github.com/commy2/zerohour/issues/6   [DONE][NPROJEC!]        Mini-Gunner Has Broken Sound And Fire Animation When Aiming At Airborne Targets
 https://github.com/commy2/zerohour/issues/5   [DONE][NPROJEC!]        Heroic Pathfinders And Jarmen Kell Don't Use Red Tracers
 https://github.com/commy2/zerohour/issues/4   [DONE][NPROJEC!]        Vet 3 Jarmen Kell Has Tracer For Sniper Attack But Not For Normal Attack
-https://github.com/commy2/zerohour/issues/3   [MAYBE]                 Frenzy-Scan Bug
+https://github.com/commy2/zerohour/issues/3   [DONE]                  Frenzy-Scan Bug
 https://github.com/commy2/zerohour/issues/2   [DONE][NPROJEC!]        Microwave-Supply Drop Zone-Bug
 https://github.com/commy2/zerohour/issues/1   [DONE][NPROJEC!]        Scud-Bug
 
