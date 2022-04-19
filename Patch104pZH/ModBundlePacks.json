@@ -1,0 +1,120 @@
+{
+    "bundles": {
+        "version": 1,
+        "packsPrefix": "",
+        "packsSuffix": "_Test",
+        "packs": [
+            {
+                "name": "GamePatchFullArabic",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocArabic",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "name": "GamePatchFullBrazilian",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocBrazilian",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "name": "GamePatchFullChinese",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocChinese",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "install": true,
+                "name": "GamePatchFullEnglish",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocEnglish",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "name": "GamePatchFullFrench",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocFrench",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "name": "GamePatchFullGerman",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocGerman",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "name": "GamePatchFullItalian",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocItalian",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "name": "GamePatchFullKorean",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocKorean",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "name": "GamePatchFullPolish",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocPolish",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "name": "GamePatchFullRussian",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocRussian",
+                    "GamePatchOptionalArt"
+                ]
+            },
+            {
+                "name": "GamePatchFullSpanish",
+                "itemNames": [
+                    "GamePatchCoreArt",
+                    "GamePatchCoreINI",
+                    "GamePatchCoreWindow",
+                    "GamePatchLocSpanish",
+                    "GamePatchOptionalArt"
+                ]
+            }
+        ]
+    }
+}

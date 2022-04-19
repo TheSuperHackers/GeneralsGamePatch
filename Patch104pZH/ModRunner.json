@@ -1,0 +1,11 @@
+{
+    "runner": {
+        "version": 1,
+        "gameRootDir": "REGISTRY:SOFTWARE\\WOW6432Node\\Electronic Arts\\EA Games\\Command and Conquer Generals Zero Hour:InstallPath",
+        "gameExeFile": "generals.exe",
+        "gameExeArgs": {
+            "-win": "",
+            "-quickstart": ""
+        }
+    }
+}
