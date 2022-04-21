@@ -5,33 +5,6 @@
         "itemsSuffix": "",
         "items": [
             {
-                "name": "GamePatchCoreINI",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/INI/Default/*.ini",
-                            "Data/INI/Object/*.ini",
-                            "Data/INI/*.ini"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "GamePatchCoreWindow",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Window/Menus/*.wnd",
-                            "Window/*.wnd"
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "GamePatchCoreArt",
                 "big": true,
                 "files": [
@@ -65,6 +38,43 @@
                 ]
             },
             {
+                "name": "GamePatchCoreAudio",
+                "big": true,
+                "files": []
+            },
+            {
+                "name": "GamePatchCoreINI",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/INI/Default/*.ini",
+                            "Data/INI/Object/*.ini",
+                            "Data/INI/*.ini"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "GamePatchCoreMaps",
+                "big": true,
+                "files": []
+            },
+            {
+                "name": "GamePatchCoreWindow",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Window/Menus/*.wnd",
+                            "Window/*.wnd"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "GamePatchOptionalArt",
                 "big": true,
                 "files": [
@@ -84,6 +94,7 @@
             {
                 "name": "GamePatchLocArabic",
                 "big": true,
+                "setGameLanguageOnInstall": "Arabic",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -108,6 +119,7 @@
             {
                 "name": "GamePatchLocBrazilian",
                 "big": true,
+                "setGameLanguageOnInstall": "Brazilian",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -132,6 +144,7 @@
             {
                 "name": "GamePatchLocChinese",
                 "big": true,
+                "setGameLanguageOnInstall": "Chinese",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -160,6 +173,7 @@
             {
                 "name": "GamePatchLocEnglish",
                 "big": true,
+                "setGameLanguageOnInstall": "English",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -184,6 +198,7 @@
             {
                 "name": "GamePatchLocFrench",
                 "big": true,
+                "setGameLanguageOnInstall": "French",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -212,6 +227,7 @@
             {
                 "name": "GamePatchLocGerman",
                 "big": true,
+                "setGameLanguageOnInstall": "German",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -240,6 +256,7 @@
             {
                 "name": "GamePatchLocItalian",
                 "big": true,
+                "setGameLanguageOnInstall": "Italian",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -264,6 +281,7 @@
             {
                 "name": "GamePatchLocKorean",
                 "big": true,
+                "setGameLanguageOnInstall": "Korean",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -292,6 +310,7 @@
             {
                 "name": "GamePatchLocPolish",
                 "big": true,
+                "setGameLanguageOnInstall": "Polish",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -316,6 +335,7 @@
             {
                 "name": "GamePatchLocRussian",
                 "big": true,
+                "setGameLanguageOnInstall": "Russian",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
@@ -340,6 +360,7 @@
             {
                 "name": "GamePatchLocSpanish",
                 "big": true,
+                "setGameLanguageOnInstall": "Spanish",
                 "files": [
                     {
                         "parent": "GameFilesEdited",

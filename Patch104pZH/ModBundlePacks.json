@@ -8,7 +8,9 @@
                 "name": "GamePatchFullArabic",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocArabic",
                     "GamePatchOptionalArt"
@@ -18,7 +20,9 @@
                 "name": "GamePatchFullBrazilian",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocBrazilian",
                     "GamePatchOptionalArt"
@@ -28,7 +32,9 @@
                 "name": "GamePatchFullChinese",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocChinese",
                     "GamePatchOptionalArt"
@@ -39,7 +45,9 @@
                 "name": "GamePatchFullEnglish",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocEnglish",
                     "GamePatchOptionalArt"
@@ -49,7 +57,9 @@
                 "name": "GamePatchFullFrench",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocFrench",
                     "GamePatchOptionalArt"
@@ -59,7 +69,9 @@
                 "name": "GamePatchFullGerman",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocGerman",
                     "GamePatchOptionalArt"
@@ -69,7 +81,9 @@
                 "name": "GamePatchFullItalian",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocItalian",
                     "GamePatchOptionalArt"
@@ -79,7 +93,9 @@
                 "name": "GamePatchFullKorean",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocKorean",
                     "GamePatchOptionalArt"
@@ -89,7 +105,9 @@
                 "name": "GamePatchFullPolish",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocPolish",
                     "GamePatchOptionalArt"
@@ -99,7 +117,9 @@
                 "name": "GamePatchFullRussian",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocRussian",
                     "GamePatchOptionalArt"
@@ -109,7 +129,9 @@
                 "name": "GamePatchFullSpanish",
                 "itemNames": [
                     "GamePatchCoreArt",
+                    "GamePatchCoreAudio",
                     "GamePatchCoreINI",
+                    "GamePatchCoreMaps",
                     "GamePatchCoreWindow",
                     "GamePatchLocSpanish",
                     "GamePatchOptionalArt"
