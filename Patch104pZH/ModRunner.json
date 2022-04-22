@@ -1,0 +1,13 @@
+{
+    "runner": {
+        "version": 1,
+        "gameLanguageRegKey": "SOFTWARE\\WOW6432Node\\Electronic Arts\\EA Games\\Command and Conquer Generals Zero Hour:Language",
+        "gameInstallRegKey": "SOFTWARE\\WOW6432Node\\Electronic Arts\\EA Games\\Command and Conquer Generals Zero Hour:InstallPath",
+        "gameInstallPath": "",
+        "gameExeFile": "generals.exe",
+        "gameExeArgs": {
+            "-win": "",
+            "-quickstart": ""
+        }
+    }
+}

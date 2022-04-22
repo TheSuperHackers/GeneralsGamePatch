@@ -1,0 +1,142 @@
+{
+    "bundles": {
+        "version": 1,
+        "packsPrefix": "GamePatch",
+        "packsSuffix": "_v0.0",
+        "packs": [
+            {
+                "name": "FullArabic",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageArabic",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "name": "FullBrazilian",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageBrazilian",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "name": "FullChinese",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageChinese",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "install": true,
+                "name": "FullEnglish",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageEnglish",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "name": "FullFrench",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageFrench",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "name": "FullGerman",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageGerman",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "name": "FullItalian",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageItalian",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "name": "FullKorean",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageKorean",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "name": "FullPolish",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguagePolish",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "name": "FullRussian",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageRussian",
+                    "OptionalArt"
+                ]
+            },
+            {
+                "name": "FullSpanish",
+                "itemNames": [
+                    "CoreArt",
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreMaps",
+                    "CoreWindow",
+                    "LanguageSpanish",
+                    "OptionalArt"
+                ]
+            }
+        ]
+    }
+}
