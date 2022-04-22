@@ -1,1 +1,3 @@
-Write something beautiful here.
+Generals Game Patch mockup ReadMe.txt
+
+By TheSuperHackers
