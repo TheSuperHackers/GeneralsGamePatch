@@ -1,11 +1,11 @@
 {
     "bundles": {
         "version": 1,
-        "itemsPrefix": "600_",
+        "itemsPrefix": "600_GamePatch",
         "itemsSuffix": "",
         "items": [
             {
-                "name": "GamePatchCoreArt",
+                "name": "CoreArt",
                 "big": true,
                 "files": [
                     {
@@ -38,12 +38,12 @@
                 ]
             },
             {
-                "name": "GamePatchCoreAudio",
+                "name": "CoreAudio",
                 "big": true,
                 "files": []
             },
             {
-                "name": "GamePatchCoreINI",
+                "name": "CoreINI",
                 "big": true,
                 "files": [
                     {
@@ -57,12 +57,12 @@
                 ]
             },
             {
-                "name": "GamePatchCoreMaps",
+                "name": "CoreMaps",
                 "big": true,
                 "files": []
             },
             {
-                "name": "GamePatchCoreWindow",
+                "name": "CoreWindow",
                 "big": true,
                 "files": [
                     {
@@ -75,7 +75,7 @@
                 ]
             },
             {
-                "name": "GamePatchOptionalArt",
+                "name": "OptionalArt",
                 "big": true,
                 "files": [
                     {
@@ -92,7 +92,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocArabic",
+                "name": "LanguageArabic",
                 "big": true,
                 "setGameLanguageOnInstall": "Arabic",
                 "files": [
@@ -117,7 +117,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocBrazilian",
+                "name": "LanguageBrazilian",
                 "big": true,
                 "setGameLanguageOnInstall": "Brazilian",
                 "files": [
@@ -142,7 +142,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocChinese",
+                "name": "LanguageChinese",
                 "big": true,
                 "setGameLanguageOnInstall": "Chinese",
                 "files": [
@@ -171,7 +171,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocEnglish",
+                "name": "LanguageEnglish",
                 "big": true,
                 "setGameLanguageOnInstall": "English",
                 "files": [
@@ -196,7 +196,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocFrench",
+                "name": "LanguageFrench",
                 "big": true,
                 "setGameLanguageOnInstall": "French",
                 "files": [
@@ -225,7 +225,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocGerman",
+                "name": "LanguageGerman",
                 "big": true,
                 "setGameLanguageOnInstall": "German",
                 "files": [
@@ -254,7 +254,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocItalian",
+                "name": "LanguageItalian",
                 "big": true,
                 "setGameLanguageOnInstall": "Italian",
                 "files": [
@@ -279,7 +279,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocKorean",
+                "name": "LanguageKorean",
                 "big": true,
                 "setGameLanguageOnInstall": "Korean",
                 "files": [
@@ -308,7 +308,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocPolish",
+                "name": "LanguagePolish",
                 "big": true,
                 "setGameLanguageOnInstall": "Polish",
                 "files": [
@@ -333,7 +333,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocRussian",
+                "name": "LanguageRussian",
                 "big": true,
                 "setGameLanguageOnInstall": "Russian",
                 "files": [
@@ -358,7 +358,7 @@
                 ]
             },
             {
-                "name": "GamePatchLocSpanish",
+                "name": "LanguageSpanish",
                 "big": true,
                 "setGameLanguageOnInstall": "Spanish",
                 "files": [
