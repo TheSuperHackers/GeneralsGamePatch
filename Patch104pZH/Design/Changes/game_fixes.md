@@ -137,7 +137,8 @@
 |   |   | [#331](https://github.com/xezon/GeneralsGamePatch/pull/331) | Fixed issue where Stealth GLA could not build Hijacker with VGLA Barracks                                             |
 |   |   | [#331](https://github.com/xezon/GeneralsGamePatch/pull/331) | Fixed issue where Nuke China could not build Nuke Cannon in VChina and Infantry China Warfactories                    |
 |   |   | [#331](https://github.com/xezon/GeneralsGamePatch/pull/331) | Fixed issue where Airforce USA could not build Stealth Fighters in non-Airforce Airfields                             |
-| C |   | [#345](https://github.com/xezon/GeneralsGamePatch/pull/345) | Fixed non-functional suicide button on Demo GLA Demo Combat Cycle                                                     |
+|   |   | [#345](https://github.com/xezon/GeneralsGamePatch/pull/345) | Fixed wrong suicide button on Demo GLA Demo Combat Cycle                                                              |
+|   |   | [#680](https://github.com/xezon/GeneralsGamePatch/pull/680) | Disabled suicide button on Demo GLA Combat Cycle                                                                      |
 |   |   | [#351](https://github.com/xezon/GeneralsGamePatch/pull/351) | Fixed missing Radar icon on China Command Center                                                                      |
 |   |   | [#352](https://github.com/xezon/GeneralsGamePatch/pull/352) | Added Supply Lines Upgrade icon to USA Chinooks                                                                       |
 |   |   | [#352](https://github.com/xezon/GeneralsGamePatch/pull/352) | Removed Supply Lines Upgrade icon from USA Supply Center                                                              |
