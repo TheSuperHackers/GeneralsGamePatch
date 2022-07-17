@@ -215,3 +215,11 @@
 | C |   | [#631](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/631) | Removed auto engage behaviour from ECM Tank of China Tank, China Nuke and China Infantry                              |
 | C |   | [#636](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/636) | Removed GLA Stinger vulnerability against USA Flashbang                                                               |
 | C |   | [#593](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/593) | Removed ability to scan terrain with China Frenzy power                                                               |
+|   |   | [#634](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/634) | Fixed text setup errors and inconsistencies for all native game languages                                             |
+| C |   | [#407](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/407) | Removed secret Composite Armor bonus from non-vanilla USA Avengers                                                    |
+| C |   | [#316](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/316) | Fixed issue where Demo GLA Terrorist could be crushed without applying any damage                                     |
+| C |   | [#316](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/316) | Fixed issue where Demo GLA Terrorist could die on China Mines without applying any damage                             |
+| C |   | [#699](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/699) | Fixed issue where Toxin GLA Terrorist would deal same damage as Demo GLA Terrorist before Toxin Gamma Upgrade         |
+|   |   | [#699](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/699) | Fixed issue where Toxin GLA Terrorist would crash the game                                                            |
+| C |   | [#695](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/695) | Fixed incorrect death types on Toxin GLA Terrorist to avoid glitching and behaviour inconsistencies                   |
+| C |   | [#697](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/697) | Added new crushable weapon type with lower damage output to all GLA Terrorist variants                                |
