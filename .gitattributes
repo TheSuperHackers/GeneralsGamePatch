@@ -1,4 +1,49 @@
-*.bat text
+# Set the default behavior, in case core.autocrlf is not set.
+* text=auto
+
+# Text files to always be normalized and converted to native line endings on checkout.
+*.css text
+*.csv text
+*.html text
+*.ini text
+*.json text
 *.md text
+*.py text
+*.str text
+*.txt text
+*.wnd text
 LICENSE text
-* -text
+
+# Text files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+
+# All files that are truly binary and should not be modified.
+*.7z binary
+*.ani binary
+*.big binary
+*.bik binary
+*.bmp binary
+*.csf binary
+*.dds binary
+*.dll binary
+*.exe binary
+*.gz binary
+*.jpg binary
+*.map binary
+*.mp3 binary
+*.ods binary
+*.png binary
+*.psd binary
+*.pso binary
+*.pyd binary
+*.rar binary
+*.scb binary
+*.tar binary
+*.tga binary
+*.wak binary
+*.w3d binary
+*.wav binary
+*.vso binary
+*.xls binary
+*.xlxs binary
+*.zip binary
