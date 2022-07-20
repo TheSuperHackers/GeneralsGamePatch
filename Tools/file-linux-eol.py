@@ -2,6 +2,7 @@ import itertools
 from pathlib import Path
 
 paths = itertools.chain(
+    Path("..").rglob("*.bat"),
     Path("..").rglob("*.css"),
     Path("..").rglob("*.csv"),
     Path("..").rglob("*.html"),
