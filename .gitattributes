@@ -1,5 +1,5 @@
 # Set the default behavior, in case core.autocrlf is not set.
-* text=auto
+#* text=auto
 
 # Text files to always be normalized and converted to native line endings on checkout.
 *.css text
@@ -15,7 +15,7 @@
 LICENSE text
 
 # Text files that will always have CRLF line endings on checkout.
-*.bat text eol=crlf
+#*.bat text eol=crlf
 
 # All files that are truly binary and should not be modified.
 *.7z binary
