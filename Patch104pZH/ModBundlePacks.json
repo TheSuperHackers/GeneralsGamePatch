@@ -13,7 +13,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageArabic",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -25,7 +26,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageBrazilian",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -37,7 +39,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageChinese",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -50,7 +53,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageEnglish",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -62,7 +66,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageFrench",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -74,7 +79,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageGerman",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -86,7 +92,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageItalian",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -98,7 +105,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageKorean",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -110,7 +118,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguagePolish",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -122,7 +131,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageRussian",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             },
             {
@@ -134,7 +144,8 @@
                     "CoreMaps",
                     "CoreWindow",
                     "LanguageSpanish",
-                    "OptionalArt"
+                    "OptionalArt",
+                    "RecoveredArt"
                 ]
             }
         ]
