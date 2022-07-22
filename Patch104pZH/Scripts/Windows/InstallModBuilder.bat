@@ -7,48 +7,48 @@ set WasInstalled=0
 call "%ThisDir%\Setup.bat"
 
 if not exist %ModBuilderExe% (
-    echo Installing Generals Mod Builder at '%ModBuilderDir%' ...
+    if not exist %ModBuilderArc% (
+        echo Installing Generals Mod Builder at '%ModBuilderDir%' ...
 
-    if not exist "%ModBuilderDir%" (
-        mkdir "%ModBuilderDir%"
+        if not exist "%ModBuilderDir%" (
+            mkdir "%ModBuilderDir%"
+        )
+
+        echo Download '%ModBuilderArcUrl%' ...
+        curl --location "%ModBuilderArcUrl%" --output "%ModBuilderArc%" --max-filesize %ModBuilderArcSize%
     )
-
-    echo Download '%ModBuilderZipUrl%' ...
-
-    curl --location "%ModBuilderZipUrl%" --output "%ModBuilderZip%" --max-filesize %ModBuilderZipSize%
-
     set WasDownloaded=1
 ) else (
     echo Generals Mod Builder is installed
 )
 
 if %WasDownloaded% NEQ 0 (
-    if exist "%ModBuilderZip%" (
+    if exist "%ModBuilderArc%" (
         echo Check Generals Mod Builder archive ...
-        for /F %%I in ("%ModBuilderZip%") do (
-            if %%~zI NEQ %ModBuilderZipSize% (
-                echo File '%ModBuilderZip%' does not have expected size %ModBuilderZipSize%
+        for /F %%I in ("%ModBuilderArc%") do (
+            if %%~zI NEQ %ModBuilderArcSize% (
+                echo File '%ModBuilderArc%' does not have expected size %ModBuilderArcSize%
                 exit /B 222
             )
         )
 
         echo Hash Generals Mod Builder archive ...
-        Certutil -hashfile "%ModBuilderZip%" SHA256 | findstr /c:%ModBuilderZipSha256%
+        Certutil -hashfile "%ModBuilderArc%" SHA256 | findstr /c:%ModBuilderArcSha256%
 
         if %errorlevel% EQU 0 (
-            echo Extract archive '%ModBuilderZip%' ...
-            tar.exe -x -k -f "%ModBuilderZip%" -C "%ModBuilderDir%" --strip-components=1
+            echo Extract archive '%ModBuilderArc%' ...
+            "%ThisDir%\7z.exe" x "%ModBuilderArc%" -y -o"%ModBuilderDir%"
 
-            echo Delete archive '%ModBuilderZip%' ...
-            del /q "%ModBuilderZip%"
+            echo Delete archive '%ModBuilderArc%' ...
+            del /q "%ModBuilderArc%"
 
             set WasInstalled=1
         ) else (
-            echo File '%ModBuilderZip%' does not have expected hash '%ModBuilderZipSha256%'
+            echo File '%ModBuilderArc%' does not have expected hash '%ModBuilderArcSha256%'
             exit /B 222
         )
     ) else (
-        echo File '%ModBuilderZip%' failed to download
+        echo File '%ModBuilderArc%' failed to download
         exit /B 222
     )
 )

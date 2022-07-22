@@ -16,7 +16,7 @@ if %errorlevel% EQU 222 (
     exit /B %errorlevel%
 )
 
-call "%ThisDir%\Windows\Setup.bat" print
+call "%ThisDir%\Windows\Setup.bat"
 
 call "%ModBuilderExe%" --build --install --run --uninstall --config-list %ConfigFiles% %*
 
