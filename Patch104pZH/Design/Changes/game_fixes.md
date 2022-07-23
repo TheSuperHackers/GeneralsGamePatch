@@ -43,7 +43,7 @@
 |   |   | [#122](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/122) | Expanded army selection drop down box in Menu Game Room to see all factions at once without scrolling                 |
 |   |   | [#99](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/99)   | Fixed Demo GLA vehicle destruction effect glitches                                                                    |
 |   |   | [#103](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/103) | Fixed issue that made Demo GLA Combat Bike used by GLA Worker miss the vehicle destruction effect                     |
-| C |   | [#102](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/102) | Fixed issue that made Demo GLA Battle Bus vanish after demo suicide without applying any damage                       |
+| C | A | [#102](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/102) | Fixed issue that made Demo GLA Battle Bus vanish after demo suicide without applying any damage                       |
 |   |   | [#133](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/133) | Added missing faction colors to Snow China Speaker Tower building model                                               |
 |   |   | [#135](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/135) | Fixed issue that allowed GLA Toxin Tractor to attack units standing too close to it                                   |
 |   |   | [#134](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/134) | Fixed issue that hid China Bunkers and China Propaganda Center from radar minimap                                     |
@@ -51,7 +51,7 @@
 |   |   | [#144](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/144) | Expanded menu map selection lists to 1200 entries                                                                     |
 |   |   | [#145](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/145) | Fixed wrong cameo image of USA Alpha Aurora                                                                           |
 |   |   | [#166](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/166) | Fixed issue that prevented to build Drones on multi sub-faction USA Humvee group selection                            |
-| C |   | [#164](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/164) | Fixed issue that delayed Demo GLA Technical suicide by up to 0.75 seconds                                             |
+| C | A | [#164](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/164) | Fixed issue that delayed Demo GLA Technical suicide by up to 0.75 seconds                                             |
 |   |   | [#161](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/161) | Removed obsolete suicide button from Demo GLA Worker when Demo Upgrade is not yet owned                               |
 |   |   | [#163](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/163) | Fixed issue that prevented executing demo suicide with different unit types in a group selection                      |
 |   |   | [#165](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/165) | Fixed issue that prevented evacuating units with different unit types in a group selection                            |
@@ -113,7 +113,7 @@
 |   |   | [#295](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/295) | Added missing air attack effects and animations for GLA Stinger                                                       |
 |   |   | [#301](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/301) | Fixed issue where Generals Powers would disappear from Infantry China Command Center after Mines upgrade              |
 |   |   | [#301](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/301) | Fixed issue where Generals Powers would disappear from Nuke China Command Center after Mines upgrade                  |
-| C |   | [#307](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/307) | Fixed issue where a Terrorist Car Bomb would stop working after attacking a moving vehicle                            |
+| C | A | [#307](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/307) | Fixed issue where a Terrorist Car Bomb would stop working after attacking a moving vehicle                            |
 |   |   | [#308](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/308) | Removed EXP bonus from destroying a civilian Repair Pad (cut)                                                         |
 |   |   | [#308](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/308) | Removed EXP bonus from destroying a civilian Reinforcement Pad                                                        |
 |   |   | [#309](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/309) | Added missing muzzle flash for Vehicle Snipe ability of GLA Jarmen Kell on Combat Cycle                               |
@@ -168,12 +168,12 @@
 |   |   | [#401](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/401) | Fixed missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction                  |
 |   |   | [#186](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/186) | Fixed errors of Single Player GLA Combat Cycle Animations, Models and Sounds                                          |
 |   |   | [#414](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/414) | Added missing kill XP (10) to USA Hellfire Drone                                                                      |
-| C |   | [#440](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/440) | Fixed issue where Anthrax and Radiation puddles would trigger GLA Demo Traps immediately                              |
+| C | A | [#440](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/440) | Fixed issue where Anthrax and Radiation puddles would trigger GLA Demo Traps immediately                              |
 |   |   | [#276](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/276) | Fixed issue where GPS Scrambled USA Rangers and China Redguards would remain stealthed while capturing buildings      |
 |   |   | [#276](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/276) | Fixed issue where GPS Scrambled China Hackers would remain stealthed when attacking buildings                         |
 |   |   | [#441](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/441) | Fixed issue where units would attack Fuel Air Bombs for a short moment                                                |
 |   |   | [#442](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/442) | Fixed issue where China ECM Tank could not disable a Heroic (Vet3) GLA Quad Cannon                                    |
-| C |   | [#443](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/443) | Money Crates no longer vanish when a building scaffold is placed on top                                               |
+| C | A | [#443](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/443) | Money Crates no longer vanish when a building scaffold is placed on top                                               |
 |   |   | [#484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/484) | Empty Outposts can no longer attack things                                                                            |
 |   |   | [#451](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/451) | Added missing Subliminal Messaging upgrade icon to Boss Propaganda Tower                                              |
 |   |   | [#451](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/451) | Fixed fast build time of Boss Tunnel Network                                                                          |
@@ -198,15 +198,15 @@
 |   |   | [#559](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/559) | Fixed invisible Civilian buildings on snowy maps                                                                      |
 |   |   | [#563](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/563) | Fixed issue where Demo GLA Advanced Demo Trap showed wrong model when being sold                                      |
 |   |   | [#567](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/567) | Fixed issue where Demo GLA Combat Cycle was manned by a Worker while being dropped from air                           |
-| C |   | [#547](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/547) | Added GLA Saboteur ability to enter USA Supply Drop Zone and GLA Black Market                                         |
-| C |   | [#544](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/544) | Added Stealth GLA Saboteur ability to enter China Internet Center and GLA Fake Buildings                              |
+| C | A | [#547](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/547) | Added GLA Saboteur ability to enter USA Supply Drop Zone and GLA Black Market                                         |
+| C | A | [#544](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/544) | Added Stealth GLA Saboteur ability to enter China Internet Center and GLA Fake Buildings                              |
 |   |   | [#538](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/538) | Fixed issue where GLA Arms Dealer with Power would close doors too slowly for the production                          |
 |   |   | [#568](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/568) | Added ruin model for destroyed Reinforcement Pad Tech Building                                                        |
 |   |   | [#568](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/568) | Added ruin model for destroyed Repair Bay Tech Building                                                               |
 |   |   | [#571](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/571) | Added Radar Station Tech Building (optional content)                                                                  |
 |   |   | [#572](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/572) | Added Generals Mammoth Tank (optional content)                                                                        |
-| C |   | [#403](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/403) | Fixed issue where Airforce USA Avenger has 30% more armor against Jet Missiles                                        |
-| C |   | [#410](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/410) | Fixed issue where China Nuke Missile was unable to destroy entire GLA structure                                       |
+| C | A | [#403](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/403) | Fixed issue where Airforce USA Avenger has 30% more armor against Jet Missiles                                        |
+| C | A | [#410](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/410) | Fixed issue where China Nuke Missile was unable to destroy entire GLA structure                                       |
 |   |   | [#575](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/575) | Added Tank China Nuke Cannon and Tank China Inferno Cannon (optional content)                                         |
 |   |   | [#606](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/606) | Added mountain climb animation for GLA Saboteur                                                                       |
 | C |   | [#236](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/236) | Added missing Subliminal Messaging bonus to Tank China Emperor                                                        |
