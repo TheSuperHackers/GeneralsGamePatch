@@ -34,7 +34,7 @@ https://github.com/commy2/zerohour/issues/196 [DONE][NPROJEC!]        Sub-Factio
 https://github.com/commy2/zerohour/issues/195 [DONE]                  Nuke Cannons Start With Neutron Shells
 https://github.com/commy2/zerohour/issues/194 [DONE][NPROJEC!]        Patriot Batteries And Laser Turrets Lag When Assisting
 https://github.com/commy2/zerohour/issues/193 [DONE][NPROJEC!]        Laser Turret Uses Different Laser Model And Sound When Assisting Or Engaging Airborne Targets
-https://github.com/commy2/zerohour/issues/192 [IMPROVEMENT][NPROJECT] Laser Turret Has 1 Extra Shot When Assisting Or Engaging Airborne Targets Than Intended
+https://github.com/commy2/zerohour/issues/192 [DONE][NPROJECT]        Laser Turret Has 1 Extra Shot When Assisting Or Engaging Airborne Targets Than Intended
 https://github.com/commy2/zerohour/issues/191 [IMPROVEMENT]           Patriot Battery And Laser Turret Extended Range Exploit
 https://github.com/commy2/zerohour/issues/190 [IMPROVEMENT]           Black Lotus Seleced By Q-Shortcut
 https://github.com/commy2/zerohour/issues/189 [DONE][NPROJEC!]        China Dozer Movement Behavior
