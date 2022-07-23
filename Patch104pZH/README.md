@@ -16,7 +16,7 @@ Contains edited game files that will be used for generating the release files.
 Contains original and unedited game files from **Command and Conquer Generals Zero Hour 1.04**. Files are the basis of changes in **GameFilesEdited** and may or may not be used for generating release files.
 
 ### 📁 GameFilesOriginalCCG
-Contains original and unedited game files from **Command and Conquer Generals 1.08**. Files are for reference purposes only.
+Contains original and unedited game files from **Command and Conquer Generals 1.08**. Files may or may not be used for generating release files.
 
 ### 📁 Scripts
 Contains build scripts to build and test game file changes.
