@@ -9,30 +9,23 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "parent": "GameFilesArt/Civilian",
+                        "sourceList": []
+                    },
+                    {
+                        "parent": "GameFilesArt/Environment",
+                        "sourceList": []
+                    },
+                    {
+                        "parent": "GameFilesArt/Faction",
                         "sourceList": [
-                            "Art/Textures/exlaser3.dds",
-                            "Art/Textures/gxmammoth_co.tga",
-                            "Art/Textures/gxmammothalt_HI.tga",
-                            "Art/W3D/ABSWGLink_L.W3D",
-                            "Art/W3D/AVAvnger.W3D",
-                            "Art/W3D/AVAvnger_D.W3D",
-                            "Art/W3D/EXCarptBmb2.W3D",
-                            "Art/W3D/NVLOutpost.W3D",
-                            "Art/W3D/NVLOutpost_D.W3D",
-                            "Art/W3D/UIWRKR_CLMUP.W3D"
+                            "Art/W3D/*.w3d"
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "parent": "GameFilesArt/Misc",
                         "sourceList": [
-                            "Art/W3D/ABSWGLink_L.W3D",
-                            "Art/W3D/AVAvnger.W3D",
-                            "Art/W3D/AVAvnger_D.W3D",
-                            "Art/W3D/EXCarptBmb2.W3D",
-                            "Art/W3D/NVLOutpost.W3D",
-                            "Art/W3D/NVLOutpost_D.W3D",
-                            "Art/W3D/UIWRKR_CLMUP.W3D"
+                            "Art/Textures/*"
                         ]
                     }
                 ]
@@ -80,14 +73,7 @@
                 "files": [
                     {
                         "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Art/W3D/NBPTower_DNS.W3D",
-                            "Art/W3D/NBPTower_DS.W3D",
-                            "Art/W3D/NBPTower_ENS.W3D",
-                            "Art/W3D/NBPTower_ES.W3D",
-                            "Art/W3D/NBPTower_NS.W3D",
-                            "Art/W3D/NBPTower_S.W3D"
-                        ]
+                        "sourceList": []
                     }
                 ]
             },
