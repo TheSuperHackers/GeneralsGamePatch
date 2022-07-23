@@ -12,7 +12,7 @@ Contains design documents and references relevant to this project.
 ### 📁 GameFilesEdited
 Contains edited game files that will be used for generating the release files.
 
-### 📁 GameFilesOriginal
+### 📁 GameFilesOriginalZH
 Contains original and unedited game files from **Command and Conquer Generals Zero Hour 1.04**. Files are the basis of changes in **GameFilesEdited** and may or may not be used for generating release files.
 
 ### 📁 GameFilesOriginalCCG
