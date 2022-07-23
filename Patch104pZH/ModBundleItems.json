@@ -92,6 +92,18 @@
                 ]
             },
             {
+                "name": "RecoveredArt",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOriginalCCG",
+                        "sourceList": [
+                            "Art/Textures/*"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "LanguageArabic",
                 "big": true,
                 "setGameLanguageOnInstall": "Arabic",
