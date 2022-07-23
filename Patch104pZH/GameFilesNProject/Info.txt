@@ -1,1 +1,1 @@
-This folder contains NProject v2101 asset files. All game files under 'Added' are absent in the original. All files under 'Modified' do exist in the original, but have been modified.
+This folder contains NProject v2101 asset files. All files under 'Added' are absent in the original. All files under 'Modified' do exist in the original, but have been modified. All files in 'Moved' have just been moved from a localization folder to a global one.
