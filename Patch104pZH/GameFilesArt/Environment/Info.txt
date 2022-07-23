@@ -1,0 +1,1 @@
+This folder contains edited environment assets, such as foliage and rocks.
