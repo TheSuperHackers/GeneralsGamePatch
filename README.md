@@ -18,7 +18,6 @@ Welcome to the Generals Game Patch project that aims to fix and improve the orig
 
 ### Change Lists
 - [Game Fixes and Improvements](Patch104pZH/Design/Changes/game_fixes.md)
-- [Game Core Balance Changes](Patch104pZH/Design/Changes/game_balance.md)
 
 ### Community Surveys
 - [Survey 1 (General)](https://bit.ly/zh_survey_1ben)
