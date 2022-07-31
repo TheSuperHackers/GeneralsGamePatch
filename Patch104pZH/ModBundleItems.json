@@ -33,7 +33,14 @@
             {
                 "name": "CoreAudio",
                 "big": true,
-                "files": []
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/*.wav"
+                        ]
+                    }
+                ]
             },
             {
                 "name": "CoreINI",
