@@ -383,7 +383,7 @@ WINDOW
                      BOTTOMRIGHT: 308 568,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonDeleteBeacon";
-        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED;
+        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -533,7 +533,7 @@ WINDOW
                      BOTTOMRIGHT: 600 568,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonClearBeaconText";
-        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED;
+        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -629,7 +629,7 @@ WINDOW
                      BOTTOMRIGHT: 603 589,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:ButtonCommand14";
-        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED;
+        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
@@ -2921,7 +2921,7 @@ WINDOW
                      BOTTOMRIGHT: 602 587,
                      CREATIONRESOLUTION: 800 600;
         NAME = "ControlBar.wnd:OCLTimerSellButton";
-        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED;
+        STATUS = ENABLED+IMAGE+NOFOCUS+WRAP_CENTERED+ON_MOUSE_DOWN;
         STYLE = PUSHBUTTON+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
