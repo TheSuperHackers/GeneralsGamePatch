@@ -173,7 +173,7 @@ https://github.com/commy2/zerohour/issues/48  [DONE][NPROJECT]        Demo Gener
 https://github.com/commy2/zerohour/issues/47  [DONE]                  Demo General Battle Bus Is Deleted Without Dealing Damage When Suicided
 https://github.com/commy2/zerohour/issues/46  [DONE][NPROJEC!]        Technical Has To Recenter Turret To Suicide
 https://github.com/commy2/zerohour/issues/45  [DONE]                  Combat Bike Has Disabled Suicide Ability Button
-https://github.com/commy2/zerohour/issues/44  [WONTFIX][NPROJECT]     Terrorist And Bomb Truck Missing Suicide Ability
+https://github.com/commy2/zerohour/issues/44  [REJECTED][NPROJECT]    Terrorist And Bomb Truck Missing Suicide Ability
 https://github.com/commy2/zerohour/issues/43  [DONE][NPROJEC!]        Suicide Ability Button Is Placed Inconsistently
 https://github.com/commy2/zerohour/issues/42  [DONE]                  Worker Has Disabled Suicide Button Before Demolitions Upgrade
 https://github.com/commy2/zerohour/issues/41  [DONE]                  Base Defenses Missing Demoliton Upgrade Icon
