@@ -392,7 +392,7 @@ WINDOW
                  BOTTOMRIGHT: 303 134,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank1Number0";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -439,7 +439,7 @@ WINDOW
                  BOTTOMRIGHT: 371 134,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank1Number1";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -486,7 +486,7 @@ WINDOW
                  BOTTOMRIGHT: 439 134,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank1Number2";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -533,7 +533,7 @@ WINDOW
                  BOTTOMRIGHT: 507 134,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank1Number3";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -580,7 +580,7 @@ WINDOW
                  BOTTOMRIGHT: 303 221,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number0";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -627,7 +627,7 @@ WINDOW
                  BOTTOMRIGHT: 303 273,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number1";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -674,7 +674,7 @@ WINDOW
                  BOTTOMRIGHT: 303 325,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number2";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -721,7 +721,7 @@ WINDOW
                  BOTTOMRIGHT: 371 221,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number3";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -768,7 +768,7 @@ WINDOW
                  BOTTOMRIGHT: 371 273,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number4";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -815,7 +815,7 @@ WINDOW
                  BOTTOMRIGHT: 371 325,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number5";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -862,7 +862,7 @@ WINDOW
                  BOTTOMRIGHT: 439 221,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number6";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -909,7 +909,7 @@ WINDOW
                  BOTTOMRIGHT: 439 273,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number7";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -956,7 +956,7 @@ WINDOW
                  BOTTOMRIGHT: 439 325,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number8";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1003,7 +1003,7 @@ WINDOW
                  BOTTOMRIGHT: 507 221,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number9";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1050,7 +1050,7 @@ WINDOW
                  BOTTOMRIGHT: 507 273,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number10";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1097,7 +1097,7 @@ WINDOW
                  BOTTOMRIGHT: 507 326,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number11";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1144,7 +1144,7 @@ WINDOW
                  BOTTOMRIGHT: 576 221,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number12";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1191,7 +1191,7 @@ WINDOW
                  BOTTOMRIGHT: 576 273,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number13";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1238,7 +1238,7 @@ WINDOW
                  BOTTOMRIGHT: 576 326,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank3Number14";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1285,7 +1285,7 @@ WINDOW
                  BOTTOMRIGHT: 303 408,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank8Number0";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1332,7 +1332,7 @@ WINDOW
                  BOTTOMRIGHT: 371 408,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank8Number1";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1379,7 +1379,7 @@ WINDOW
                  BOTTOMRIGHT: 439 408,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank8Number2";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
@@ -1426,7 +1426,7 @@ WINDOW
                  BOTTOMRIGHT: 503 413,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GeneralsExpPoints.wnd:ButtonRank8Number3";
-    STATUS = ENABLED+IMAGE;
+    STATUS = ENABLED+IMAGE+ON_MOUSE_DOWN;
     STYLE = PUSHBUTTON+MOUSETRACK;
     SYSTEMCALLBACK = "[None]";
     INPUTCALLBACK = "[None]";
