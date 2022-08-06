@@ -52,8 +52,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 50 500,
-                 BOTTOMRIGHT: 750 520,
+    SCREENRECT = UPPERLEFT: 41 530,
+                 BOTTOMRIGHT: 759 560,
                  CREATIONRESOLUTION: 800 600;
     NAME = "MainMenu.wnd:Patch104pTestVersion";
     STATUS = ENABLED+IMAGE;
@@ -63,9 +63,9 @@ WINDOW
     TOOLTIPCALLBACK = "[None]";
     DRAWCALLBACK = "[None]";
     FONT = NAME: "Arial", SIZE: 10, BOLD: 1;
-    HEADERTEMPLATE = "LabelRegular";
+    HEADERTEMPLATE = "MainButton";
     TOOLTIPDELAY = 0;
-    TEXT = "Patch104p: Work In Progress. For test purposes only.";
+    TEXT = "GUI:Patch104p";
     TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 0,
                 DISABLED: 192 192 192 255, DISABLEDBORDER: 0 0 0 0,
                 HILITE:   128 128 255 255, HILITEBORDER:   0 0 0 0;
