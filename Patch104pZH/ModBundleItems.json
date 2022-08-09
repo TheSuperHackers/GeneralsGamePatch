@@ -45,7 +45,12 @@
                             "Data/INI/Default/*.ini",
                             "Data/INI/Object/*.ini",
                             "Data/INI/*.ini"
-                        ]
+                        ],
+                        "params": {
+                            "forceEOL": "\r\n",
+                            "deleteComments": ";",
+                            "deleteWhitespace": 1
+                        }
                     }
                 ]
             },
@@ -63,7 +68,11 @@
                         "sourceList": [
                             "Window/Menus/*.wnd",
                             "Window/*.wnd"
-                        ]
+                        ],
+                        "params": {
+                            "forceEOL": "\r\n",
+                            "deleteWhitespace": 1
+                        }
                     }
                 ]
             },
