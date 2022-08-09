@@ -6,8 +6,8 @@ set WasInstalled=0
 
 call "%ThisDir%\Setup.bat"
 
-if not exist %ModBuilderExe% (
-    if not exist %ModBuilderArc% (
+if not exist "%ModBuilderExe%" (
+    if not exist "%ModBuilderArc%" (
         echo Installing Generals Mod Builder at '%ModBuilderDir%' ...
 
         if not exist "%ModBuilderDir%" (
@@ -27,7 +27,7 @@ if %WasDownloaded% NEQ 0 (
         echo Check Generals Mod Builder archive ...
         for /F %%I in ("%ModBuilderArc%") do (
             if %%~zI NEQ %ModBuilderArcSize% (
-                echo File '%ModBuilderArc%' does not have expected size %ModBuilderArcSize%
+                echo File '%ModBuilderArc%' with size %%~zI does not match expected size %ModBuilderArcSize%
                 exit /B 222
             )
         )
