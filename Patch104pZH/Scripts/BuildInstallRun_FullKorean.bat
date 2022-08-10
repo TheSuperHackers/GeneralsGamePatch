@@ -20,7 +20,9 @@ call "%ThisDir%\Windows\Setup.bat"
 
 call "%ModBuilderExe%" ^
   --build ^
-  --install FullEnglish ^
+  --install FullKorean ^
+  --run ^
+  --uninstall ^
   --config-list %ConfigFiles% %*
 
 endlocal
