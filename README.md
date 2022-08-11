@@ -31,12 +31,12 @@ Welcome to the Generals Game Patch project that aims to fix and improve the orig
 - [Issues](https://github.com/xezon/GeneralsGamePatch/issues)
 
 ### How to contribute
-If you are new to Git, you will need to learn how to use it. Search the web to find resources and git client apps to help you. Fork this repository, clone the fork, commit your changes and create a pull request that we can review.
+You can take part in our Issue reports and Pull Request section by commenting. Please keep it professional at all times. We prefer to work with data and evidence. You can also make contributions to the Project by creating Pull Request(s). You can find information on how to use Git effectively with web search.
 
 ### How we approach core objectives
-In our first survey we asked community how they feel about addressing bugs that affect gameplay: More than 90% of players want bugs to be fixed. Based on this result and also our discussions and experiences in the developer team, we decided to tackle changes and fixes with the following approach:
+In our first survey we asked community what they think about addressing bugs that affect gameplay: More than 90% of players want bugs to be fixed. Based on this result and also our discussions and experiences in the developer team, we decided to tackle changes and fixes with the following approach:
 
-1. Changes and fixes are decided and created in isolated development branches. If a change has severe controversial, but potentially positive effects on gameplay, then it will be reviewed and tweaked before it goes into the main branch.
-2. Changes and fixes are merged into the main development branch, so that they can be tested in a combined setting. No changes are cemented: Tests, reviews and tweaks may be necessary to adjust changes further to fit them together well. If a change causes negative consequences that cannot be tweaked away in a good way, then it may be reverted entirely to the original state.
+1. Changes and fixes are created and tested in isolated development branches. If a change has severe controversial, but potentially positive effects on gameplay, then it will be reviewed and tweaked before it goes into the main branch.
+2. Changes and fixes are merged into the main development branch, so they can be tested in a combined setting. No changes are cemented: Tests, reviews and tweaks may be necessary to adjust changes further to fit them together well. If a change causes negative consequences that cannot be tweaked away in a good way, then it may be reverted entirely to the original state.
 3. Changes and fixes may require input from pro players for accurate evaluation. Ideally changes are looked at in test environments and real matches to gather accurate data and impressions of a given change. It is worthwhile to know and consider which other controversial changes exist within the same game setting, as they can influence each other.
 4. Changes and fixes may be subject to a matter of preference that requires the whole community to give input on. In such cases we will include related questions in new surveys and evaluate and apply the results accordingly.
