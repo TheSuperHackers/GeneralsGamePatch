@@ -1,0 +1,1 @@
+All optional game files belong into this folder.
