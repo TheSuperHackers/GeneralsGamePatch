@@ -25,7 +25,8 @@ if not exist "%ModBuilderExe%" (
 if %WasDownloaded% NEQ 0 (
     if exist "%ModBuilderArc%" (
         echo Check Generals Mod Builder archive ...
-        for /F %%I in ("%ModBuilderArc%") do (
+        set ModBuilderArcPath="%ModBuilderArc%"
+        for /F %%I in (%ModBuilderArcPath%) do (
             if %%~zI NEQ %ModBuilderArcSize% (
                 echo File '%ModBuilderArc%' with size %%~zI does not match expected size %ModBuilderArcSize%
                 exit /B 222
