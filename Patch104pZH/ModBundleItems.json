@@ -9,23 +9,16 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesArt/Civilian",
-                        "sourceList": []
-                    },
-                    {
-                        "parent": "GameFilesArt/Environment",
-                        "sourceList": []
-                    },
-                    {
-                        "parent": "GameFilesArt/Faction",
+                        "parent": "GameFilesEdited",
                         "sourceList": [
                             "Art/W3D/*.w3d"
                         ]
                     },
                     {
-                        "parent": "GameFilesArt/Misc",
+                        "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Art/Textures/*"
+                            "Art/Textures/*.tga",
+                            "Art/Textures/*.dds"
                         ]
                     }
                 ]
@@ -81,7 +74,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "parent": "GameFilesOptional",
                         "sourceList": []
                     }
                 ]
