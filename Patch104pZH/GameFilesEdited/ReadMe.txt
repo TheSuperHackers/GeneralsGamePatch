@@ -1,0 +1,1 @@
+All core game data files belong into this folder.
