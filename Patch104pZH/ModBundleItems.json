@@ -20,6 +20,15 @@
                             "Art/Textures/*.tga",
                             "Art/Textures/*.dds"
                         ]
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "source": "Art/Textures/GenerateMip/*.psd",
+                        "target": "Art/Textures/*.dds",
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "Generate"
+                        }
                     }
                 ]
             },
