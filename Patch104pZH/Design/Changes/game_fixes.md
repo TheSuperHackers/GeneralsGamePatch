@@ -269,3 +269,22 @@
 | C |   | [#839](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/839) | Added functional Speaker Tower to China Propaganda Center                                                             |
 | C | A | [#836](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/836) | Changed USA Supply Drop Zone Cargo Planes to be unattackable                                                          |
 |   |   | [#826](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/826) | Changed GLA Toxin Bomb colors to match the factions Toxin upgrade color                                               |
+| C |   | [#437](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/437) | Added experience reward of 5 for China Black Lotus on Vehicle Hack                                                    |
+|   |   | [#873](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/873) | Removed Supply Depot to Supply Stash build distance restriction                                                       |
+|   |   | [#883](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/883) | Removed damage effects from immortal civilian structures                                                              |
+|   |   | [#867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/867) | Fixed rough edges and pink color cast in infantry decal shadows                                                       |
+|   |   | [#851](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851) | Changed toxin puddle sizes of Toxin Shells and Toxin Tractor to match damage radius better                            |
+|   |   | [#851](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851) | Fixed errors and inconsistencies in all green, blue and pink toxin puddles                                            |
+|   |   | [#851](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851) | Improved visual quality of green and blue toxin puddles                                                               |
+|   |   | [#903](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/903) | Fixed issue where chemical civilian buildings would spawn mismatching toxin colors in different states                |
+|   |   | [#885](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/885) | Fixed issue where GLA buildings would not show Fortified Structures upgrade on sell                                   |
+| C |   | [#879](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/879) | Removed GLA Hijacker ability to steal any Combat Bike                                                                 |
+| C |   | [#889](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/889) | Fixed and redistributed GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max                            |
+| C |   | [#882](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/882) | Reduced GLA Toxin Stinger Anthrax Gamma ground bonus damage from 100% to 50% and air bonus damage from 66% to 50%     |
+| C |   | [#871](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/871) | Increased China Nuke Missile damage by 20% and blasts radii by 2%, 3.3%, 4%, 4.4%, 4.7%, 20%                          |
+| C |   | [#880](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/880) | Changed China Nuke Missile blast delays: Hits max 880 milliseconds earlier                                            |
+| C |   | [#837](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/837) | Changed China Satellite Hack II upgrade into manually activated spy ability                                           |
+|   |   | [#904](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/904) | Fixed an issue where female GLA Angry Mob members would scream with male voices when poisoned                         |
+|   |   | [#905](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/905) | Fixed an issue where male GLA Angry Mob members would scream with female voices when poisoned or burned               |
+|   |   | [#906](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/906) | Fixed an issue where some GLA Angry Mob members would not scream when burned                                          |
+
