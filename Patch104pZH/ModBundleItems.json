@@ -11,7 +11,10 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Art/W3D/*.w3d"
+                            "Art/W3D/*.W3D"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -19,6 +22,9 @@
                         "sourceList": [
                             "Art/Textures/*.tga",
                             "Art/Textures/*.dds"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -44,9 +50,10 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/INI/Default/*.ini",
-                            "Data/INI/Object/*.ini",
-                            "Data/INI/*.ini"
+                            "Data/INI/**/*.ini"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ],
                         "params": {
                             "forceEOL": "\r\n",
@@ -68,8 +75,10 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Window/Menus/*.wnd",
-                            "Window/*.wnd"
+                            "Window/**/*.wnd"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ],
                         "params": {
                             "forceEOL": "\r\n",
