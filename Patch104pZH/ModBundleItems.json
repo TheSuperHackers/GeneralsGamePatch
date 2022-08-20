@@ -29,6 +29,15 @@
                             "-quality": 255,
                             "-mipmode": "Generate"
                         }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "source": "Art/Textures/NoMip/*.psd",
+                        "target": "Art/Textures/*.dds",
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "None"
+                        }
                     }
                 ]
             },
