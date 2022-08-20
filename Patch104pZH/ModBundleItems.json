@@ -46,6 +46,8 @@
                         "sourceList": [
                             "Data/INI/Default/*.ini",
                             "Data/INI/Object/*.ini",
+                            "Data/INI/MappedImages/HandCreated/*.ini",
+                            "Data/INI/MappedImages/TextureSize_512/*.ini",
                             "Data/INI/*.ini"
                         ],
                         "params": {
