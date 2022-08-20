@@ -233,6 +233,9 @@
                                 "source": "Data/Audio/Sounds/English/*.wav",
                                 "target": "Data/Audio/Sounds/Brazilian/*.wav"
                             }
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -257,13 +260,17 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Chinese/*.ini"
+                            "Data/Chinese/*.ini",
+                            "Data/Chinese/Art/W3D/*.W3D"
                         ],
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/English/*.wav",
                                 "target": "Data/Audio/Sounds/Chinese/*.wav"
                             }
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -294,6 +301,9 @@
                         "sourceList": [
                             "Data/Audio/Sounds/English/*.wav",
                             "Data/English/*.ini"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -319,7 +329,11 @@
                         "parent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Audio/Sounds/French/*.wav",
-                            "Data/French/*.ini"
+                            "Data/French/*.ini",
+                            "Data/French/Art/W3D/*.W3D"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -350,6 +364,9 @@
                         "sourceList": [
                             "Data/Audio/Sounds/German/*.wav",
                             "Data/German/*.ini"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -385,6 +402,9 @@
                                 "source": "Data/Audio/Sounds/English/*.wav",
                                 "target": "Data/Audio/Sounds/Italian/*.wav"
                             }
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -409,13 +429,17 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Korean/*.ini"
+                            "Data/Korean/*.ini",
+                            "Data/Korean/Art/W3D/*.W3D"
                         ],
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/English/*.wav",
                                 "target": "Data/Audio/Sounds/Korean/*.wav"
                             }
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -451,6 +475,9 @@
                                 "source": "Data/Audio/Sounds/English/*.wav",
                                 "target": "Data/Audio/Sounds/Polish/*.wav"
                             }
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -508,6 +535,9 @@
                                 "source": "Data/Audio/Sounds/English/*.wav",
                                 "target": "Data/Audio/Sounds/Spanish/*.wav"
                             }
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
