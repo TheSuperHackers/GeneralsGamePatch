@@ -117,6 +117,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/Arabic/*.wav",
                             "Data/Arabic/*.ini"
                         ]
                     },
@@ -142,6 +143,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/Brazilian/*.wav",
                             "Data/Brazilian/*.ini"
                         ]
                     },
@@ -167,6 +169,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/Chinese/*.wav",
                             "Data/Chinese/*.ini"
                         ]
                     },
@@ -196,6 +199,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/English/*.wav",
                             "Data/English/*.ini"
                         ]
                     },
@@ -221,6 +225,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/French/*.wav",
                             "Data/French/*.ini"
                         ]
                     },
@@ -250,6 +255,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/German/*.wav",
                             "Data/German/*.ini"
                         ]
                     },
@@ -279,6 +285,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/Italian/*.wav",
                             "Data/Italian/*.ini"
                         ]
                     },
@@ -304,6 +311,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/Korean/*.wav",
                             "Data/Korean/*.ini"
                         ]
                     },
@@ -333,6 +341,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/Polish/*.wav",
                             "Data/Polish/*.ini"
                         ]
                     },
@@ -358,6 +367,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/Russian/*.wav",
                             "Data/Russian/*.ini"
                         ]
                     },
@@ -383,6 +393,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
+                            "Data/Audio/Sounds/Spanish/*.wav",
                             "Data/Spanish/*.ini"
                         ]
                     },
