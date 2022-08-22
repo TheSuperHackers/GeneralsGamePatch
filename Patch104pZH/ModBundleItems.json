@@ -19,7 +19,8 @@
                     {
                         "parent": "GameFilesArt/Faction",
                         "sourceList": [
-                            "Art/W3D/*.w3d"
+                            "Art/W3D/*.w3d",
+                            "Art/Textures/*"
                         ]
                     },
                     {
