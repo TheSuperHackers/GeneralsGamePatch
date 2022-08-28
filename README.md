@@ -31,7 +31,10 @@ Welcome to the Generals Game Patch project that aims to fix and improve the orig
 - [Issues](https://github.com/xezon/GeneralsGamePatch/issues)
 
 ### How to contribute
-You can take part in our Issue reports and Pull Request section by commenting. Please keep it professional at all times. We prefer to work with data and evidence. You can also make contributions to the Project by creating Pull Request(s). You can find information on how to use Git effectively with web search.
+You can take part in our Issue reports and Pull Request section by commenting. Please keep it professional. You can also make contributions to the Project by creating Pull Request(s).
+
+On top of Git, this repository requires Git LFS. It can be installed from here:
+- https://git-lfs.github.com/
 
 ### How we approach core objectives
 In our first survey we asked community what they think about addressing bugs that affect gameplay: More than 90% of players want bugs to be fixed. Based on this result and also our discussions and experiences in the developer team, we decided to tackle changes and fixes with the following approach:

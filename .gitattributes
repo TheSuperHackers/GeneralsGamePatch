@@ -14,38 +14,11 @@
 *.txt text
 *.wnd text
 LICENSE text
+
 # Text files that will always have CRLF line endings on checkout. (Does not work properly. Do not use it.)
 #*.bat text eol=crlf
+
 # All files that are truly binary and should not be modified.
-*.7z binary
-*.ani binary
-*.big binary
-*.bik binary
-*.bmp binary
-*.csf binary
-*.dds binary
-*.dll binary
-*.exe binary
-*.gz binary
-*.jpg binary
-*.map binary
-*.mp3 binary
-*.ods binary
-*.png binary
-*.psd binary
-*.pso binary
-*.pyd binary
-*.rar binary
-*.scb binary
-*.tar binary
-*.tga binary
-*.wak binary
-*.w3d binary
-*.wav binary
-*.vso binary
-*.xls binary
-*.xlxs binary
-*.zip binary
 *.7z filter=lfs diff=lfs merge=lfs -text
 *.ani filter=lfs diff=lfs merge=lfs -text
 *.big filter=lfs diff=lfs merge=lfs -text
