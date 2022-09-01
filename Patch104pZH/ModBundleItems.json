@@ -110,7 +110,7 @@
                 ]
             },
             {
-                "name": "LanguageArabic",
+                "name": "CoreLangArabic",
                 "big": true,
                 "setGameLanguageOnInstall": "Arabic",
                 "files": [
@@ -136,7 +136,7 @@
                 ]
             },
             {
-                "name": "LanguageBrazilian",
+                "name": "CoreLangBrazilian",
                 "big": true,
                 "setGameLanguageOnInstall": "Brazilian",
                 "files": [
@@ -162,7 +162,7 @@
                 ]
             },
             {
-                "name": "LanguageChinese",
+                "name": "CoreLangChinese",
                 "big": true,
                 "setGameLanguageOnInstall": "Chinese",
                 "files": [
@@ -192,7 +192,7 @@
                 ]
             },
             {
-                "name": "LanguageEnglish",
+                "name": "CoreLangEnglish",
                 "big": true,
                 "setGameLanguageOnInstall": "English",
                 "files": [
@@ -218,7 +218,7 @@
                 ]
             },
             {
-                "name": "LanguageFrench",
+                "name": "CoreLangFrench",
                 "big": true,
                 "setGameLanguageOnInstall": "French",
                 "files": [
@@ -248,7 +248,7 @@
                 ]
             },
             {
-                "name": "LanguageGerman",
+                "name": "CoreLangGerman",
                 "big": true,
                 "setGameLanguageOnInstall": "German",
                 "files": [
@@ -278,7 +278,7 @@
                 ]
             },
             {
-                "name": "LanguageItalian",
+                "name": "CoreLangItalian",
                 "big": true,
                 "setGameLanguageOnInstall": "Italian",
                 "files": [
@@ -304,7 +304,7 @@
                 ]
             },
             {
-                "name": "LanguageKorean",
+                "name": "CoreLangKorean",
                 "big": true,
                 "setGameLanguageOnInstall": "Korean",
                 "files": [
@@ -334,7 +334,7 @@
                 ]
             },
             {
-                "name": "LanguagePolish",
+                "name": "CoreLangPolish",
                 "big": true,
                 "setGameLanguageOnInstall": "Polish",
                 "files": [
@@ -360,7 +360,7 @@
                 ]
             },
             {
-                "name": "LanguageRussian",
+                "name": "CoreLangRussian",
                 "big": true,
                 "setGameLanguageOnInstall": "Russian",
                 "files": [
@@ -386,7 +386,7 @@
                 ]
             },
             {
-                "name": "LanguageSpanish",
+                "name": "CoreLangSpanish",
                 "big": true,
                 "setGameLanguageOnInstall": "Spanish",
                 "files": [

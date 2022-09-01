@@ -12,7 +12,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageArabic",
+                    "CoreLangArabic",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -25,7 +25,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageBrazilian",
+                    "CoreLangBrazilian",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -38,7 +38,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageChinese",
+                    "CoreLangChinese",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -51,7 +51,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageEnglish",
+                    "CoreLangEnglish",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -64,7 +64,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageFrench",
+                    "CoreLangFrench",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -77,7 +77,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageGerman",
+                    "CoreLangGerman",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -90,7 +90,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageItalian",
+                    "CoreLangItalian",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -103,7 +103,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageKorean",
+                    "CoreLangKorean",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -116,7 +116,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguagePolish",
+                    "CoreLangPolish",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -129,7 +129,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageRussian",
+                    "CoreLangRussian",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
@@ -142,7 +142,7 @@
                     "CoreINI",
                     "CoreMaps",
                     "CoreWindow",
-                    "LanguageSpanish",
+                    "CoreLangSpanish",
                     "OptionalArt",
                     "RecoveredArt"
                 ]
