@@ -75,7 +75,18 @@
             {
                 "name": "CoreMaps",
                 "big": true,
-                "files": []
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Maps/**/*.ini",
+                            "Maps/**/*.str"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ]
+                    }
+                ]
             },
             {
                 "name": "CoreWindow",
