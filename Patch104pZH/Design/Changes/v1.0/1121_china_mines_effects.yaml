@@ -1,0 +1,20 @@
+---
+date: 2022-09-04
+
+title: Fixes and improves the look of China Mine explosion effects
+
+changes:
+  - fix: Fixes fadeout of white flash effect for China Mines explosion.
+  - tweak: Decreases size of yellow flash effect for China Neutron Mines explosion.
+
+labels:
+  - art
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1121
+
+authors:
+  - xezon
