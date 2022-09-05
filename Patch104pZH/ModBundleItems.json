@@ -108,7 +108,17 @@
                 ]
             },
             {
-                "name": "OptionalArt",
+                "name": "AxOptionalArt",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceList": []
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudio",
                 "big": true,
                 "files": [
                     {
