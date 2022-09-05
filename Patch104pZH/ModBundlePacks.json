@@ -7,143 +7,154 @@
             {
                 "name": "FullArabic",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangArabic",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangArabic",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullBrazilian",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangBrazilian",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangBrazilian",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullChinese",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangChinese",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangChinese",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullEnglish",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangEnglish",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangEnglish",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullFrench",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangFrench",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangFrench",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullGerman",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangGerman",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangGerman",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullItalian",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangItalian",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangItalian",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullKorean",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangKorean",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangKorean",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullPolish",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangPolish",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangPolish",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullRussian",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangRussian",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangRussian",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             },
             {
                 "name": "FullSpanish",
                 "itemNames": [
+                    "AxOptionalArt",
+                    "AxOptionalAudio",
                     "CoreArt",
                     "CoreAudio",
                     "CoreINI",
+                    "CoreLangSpanish",
                     "CoreMaps",
                     "CoreWindow",
-                    "CoreLangSpanish",
-                    "OptionalArt",
                     "RecoveredArt"
                 ]
             }
