@@ -10,6 +10,7 @@
 *.json text
 *.md text
 *.py text
+*.sesx text
 *.str text
 *.txt text
 *.wnd text
