@@ -113,7 +113,9 @@
                 "files": [
                     {
                         "parent": "GameFilesOptional",
-                        "sourceList": []
+                        "sourceList": [
+                            "Art/W3D/*.W3D"
+                        ]
                     }
                 ]
             },
