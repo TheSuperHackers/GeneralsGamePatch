@@ -118,21 +118,21 @@
                 "files": [
                     {
                         "parent": "GameFilesOptional",
-                        "sourceList": []
+                        "sourceList": [
+                            "Art/Textures/*.tga"
+                        ]
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "source": "Art/Textures/GenerateTga/*.psd",
+                        "target": "Art/Textures/*.tga"
                     }
                 ]
             },
             {
                 "name": "AxOptionalAudio",
                 "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesOptional",
-                        "sourceList": [
-                            "Art/Textures/*.tga"
-                        ]
-                    }
-                ]
+                "files": []
             },
             {
                 "name": "RecoveredArt",
