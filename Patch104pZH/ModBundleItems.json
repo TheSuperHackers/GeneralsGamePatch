@@ -44,6 +44,11 @@
                             "-quality": 255,
                             "-mipmode": "None"
                         }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "source": "Art/Textures/GenerateTga/*.psd",
+                        "target": "Art/Textures/*.tga"
                     }
                 ]
             },
