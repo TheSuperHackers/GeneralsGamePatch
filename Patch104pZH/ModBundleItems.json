@@ -113,7 +113,9 @@
                 "files": [
                     {
                         "parent": "GameFilesOptional",
-                        "sourceList": []
+                        "sourceList": [
+                            "Art/Textures/*.tga"
+                        ]
                     }
                 ]
             },
@@ -124,7 +126,7 @@
                     {
                         "parent": "GameFilesOriginalCCG",
                         "sourceList": [
-                            "Art/Textures/*"
+                            "Art/Textures/*.dds"
                         ]
                     }
                 ]
