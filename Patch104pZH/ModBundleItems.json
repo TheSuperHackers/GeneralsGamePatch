@@ -152,6 +152,15 @@
                         "sourceList": [
                             "Art/Textures/*.dds"
                         ]
+                    },
+                    {
+                        "parent": "GameFilesOriginalCCG",
+                        "source": "Art/Textures/GenerateMip/*.psd",
+                        "target": "Art/Textures/*.dds",
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "Generate"
+                        }
                     }
                 ]
             },
