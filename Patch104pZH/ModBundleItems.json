@@ -163,8 +163,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/Arabic/*.wav",
                             "Data/Arabic/*.ini"
+                        ],
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Arabic/*.wav"
+                            }
                         ]
                     },
                     {
@@ -189,8 +194,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/Brazilian/*.wav",
                             "Data/Brazilian/*.ini"
+                        ],
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
+                            }
                         ]
                     },
                     {
@@ -215,8 +225,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/Chinese/*.wav",
                             "Data/Chinese/*.ini"
+                        ],
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Chinese/*.wav"
+                            }
                         ]
                     },
                     {
@@ -331,8 +346,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/Italian/*.wav",
                             "Data/Italian/*.ini"
+                        ],
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Italian/*.wav"
+                            }
                         ]
                     },
                     {
@@ -357,8 +377,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/Korean/*.wav",
                             "Data/Korean/*.ini"
+                        ],
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Korean/*.wav"
+                            }
                         ]
                     },
                     {
@@ -387,8 +412,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/Polish/*.wav",
                             "Data/Polish/*.ini"
+                        ],
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Polish/*.wav"
+                            }
                         ]
                     },
                     {
@@ -439,8 +469,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/Spanish/*.wav",
                             "Data/Spanish/*.ini"
+                        ],
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Spanish/*.wav"
+                            }
                         ]
                     },
                     {
