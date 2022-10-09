@@ -49,6 +49,28 @@
                         "parent": "GameFilesEdited",
                         "source": "Art/Textures/GenerateTga/*.psd",
                         "target": "Art/Textures/*.tga"
+                    },
+                    {
+                        "parent": "GameFilesOriginalCCG",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/GenerateMip/ztrefinery01_s.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/ztrefinery01_ds.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/ztrefinery01_es.psd",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
+                        "params": {
+                            "rescale": 0.5,
+                            "-quality": 255,
+                            "-mipmode": "Generate"
+                        }
                     }
                 ]
             },
