@@ -124,8 +124,16 @@
                     },
                     {
                         "parent": "GameFilesOptional",
-                        "source": "Art/Textures/GenerateMip/*.psd",
-                        "target": "Art/Textures/*.dds",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/GenerateMip/*.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/*.tga",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
                         "params": {
                             "-quality": 255,
                             "-mipmode": "Generate"
