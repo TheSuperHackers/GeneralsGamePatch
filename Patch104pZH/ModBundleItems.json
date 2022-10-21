@@ -5,6 +5,21 @@
         "itemsSuffix": "",
         "items": [
             {
+                "name": "CoreLoose",
+                "big": false,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Splash/Install_1.psd",
+                                "target": "Install_Final.bmp"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "CoreArt",
                 "big": true,
                 "files": [
