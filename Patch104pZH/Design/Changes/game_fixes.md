@@ -290,7 +290,7 @@
 | C |   | [#807](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/807) | Decreased China Black Lotus required experience to level up by 82%                                                    |
 |   |   | [#938](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/938) | Fixed issue where muzzle flash effect shows incorrectly on infantry weapons                                           |
 |   |   | [#939](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/939) | Added new recoil animation to China Minigunner to match its fire rate increase over time                              |
-|   |   | [#937](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/937) | Fixed issue where weapon bones were visible on scrapped Quad Cannon                                                   |
+|   |   | [#937](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/937) | Removed cubes (bones) on gun barrels of scrapped Quad Cannon                                                          |
 |   |   | [#967](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/967) | Fixed up unused USA Laser Superweapon                                                                                 |
 |   |   | [#1060](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1060) | Fixed up unused China Empty Troopcrawler                                                                            |
 |   |   | [#975](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/975) | Reduced huge Guard Mode range of China Listening Outpost to match other China vehicles                                |
@@ -371,4 +371,64 @@
 |   |   | [#1288](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1288) | Fixed missing interaction audio of Level 3 Spectre Gunship                                                            |
 |   |   | [#1288](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1288) | Fixed wrong weapon audio of Level 3 Spectre Gunship                                                                   |
 |   |   | [#1289](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1289) | Fixed animation issues on damaged Sprectre Gunship                                                                    |
-
+|   |   | [#1325](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1325) | Fixed issue where SCUD Storm structure lights are turned off at night                                                 |
+|   |   | [#1326](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1326) | Fixed issue where SCUD Storm snow disappeared when damaged                                                            |
+|   |   | [#1334](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1334) | Fixed issue where Toxin GLA Tunnel Defender can shoot on ground and air targets simultaneously                        |
+|   |   | [#1345](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1345) | Fixed issue where winter day really damaged China Gattling Cannon barrels would spin at incorrect speeds              |
+|   |   | [#1347](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1347) | Fixed issue where winder day fast firing damaged China Gattling Cannon would show undamaged model                     |
+|   |   | [#1348](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1348) | Removed obsolete smoke clouds on summer night fast firing China Gattling Cannon                                       |
+|   |   | [#1342](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1342) | Removed white cubes (bones) on headlights of summer night China Gattling Tank                                         |
+|   |   | [#1346](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1346) | Removed green cubes (bones) on damaged China Emperor Tank                                                             |
+|   |   | [#1346](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1346) | Removed black cube (bone) infront of damaged USA Microwave Tank                                                       |
+|   |   | [#1344](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1344) | Fixed missing muzzle flashes on China Gattling Cannon when firing at ground targets                                   |
+|   |   | [#1343](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1343) | Fixed missing muzzle flashes on China Overlord Gattling Cannon when firing at ground targets                          |
+|   |   | [#1341](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1341) | Fixed missing muzzle flash on China Gattling Tank when firing at ground targets                                       |
+|   |   | [#1340](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1340) | Fixed missing muzzle flashes and recoil animations on GLA Quad Cannon when firing at ground targets                   |
+|   |   | [#1349](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1349) | Fixed issue where China Overlord Gattling Cannon barrels would keep spinning forever after firing once                |
+|   |   | [#1350](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1350) | Fixed issue where China Helix Gattling Cannon barrels would keep spinning forever after firing once                   |
+|   |   | [#1351](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1351) | Fixed issue where damaged China Helix used wreck texture instead of damaged texture                                   |
+|   |   | [#1236](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1236) | Fixed missing pieces in trcobbroad texture for cobble road                                                            |
+|   |   | [#1229](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1229) | Added upscaled utplates textures for GLA SCUD Storm (optional content)                                                |
+|   |   | [#1232](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1232) | Fixed and improved utscudparts02, utsilotop01 textures for GLA SCUD Storm                                             |
+|   |   | [#1215](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1215) | Fixed utscudslab snow textures for GLA SCUD Storm                                                                     |
+|   |   | [#1328](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1328) | Added upscaled utscudslab textures for GLA SCUD Storm (optional content)                                              |
+|   |   | [#1320](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1320) | Fixed utconcroof textures for GLA structures                                                                          |
+|   |   | [#1311](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1311) | Fixed utcloth textures for GLA structures                                                                             |
+|   |   | [#1312](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1312) | Fixed utcloth2 textures for GLA structures                                                                            |
+|   |   | [#1223](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1223) | Fixed ungraceful particle effect fadeout from Bomb Truck, Nuke Cannon, SCUD Missile, Flash Bang                       |
+|   |   | [#1304](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1304) | Fixed ntsuppbase snow textures for China Supply Center                                                                |
+|   |   | [#1300](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1300) | Fixed ntdrive02 textures for China Supply Center                                                                      |
+|   |   | [#1305](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1305) | Fixed ntwalls01, ntwalls04 snow textures for China structures                                                         |
+|   |   | [#1301](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1301) | Fixed ntentry snow textures for China structures                                                                      |
+|   |   | [#1298](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1298) | Fixed ntcement textures for China structures (minor, optional content)                                                |
+|   |   | [#1280](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1280) | Fixed atroofparts01 textures for USA structures                                                                       |
+|   |   | [#1275](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1275) | Fixed atwarfactslab textures for USA War Factory                                                                      |
+|   |   | [#1268](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1268) | Fixed atprisslab snow textures for USA Prison                                                                         |
+|   |   | [#1264](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1264) | Fixed atmetal03 snow textures for USA structures                                                                      |
+|   |   | [#1277](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1277) | Fixed and improved atventwall01 textures for USA structures                                                           |
+|   |   | [#1266](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1266) | Fixed atpanelroof textures for USA structures                                                                         |
+|   |   | [#1267](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1267) | Fixed atpanelroof03 snow textures for USA structures                                                                  |
+|   |   | [#1366](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1366) | Removed superfluous particle effects from USA Supply Center                                                           |
+|   |   | [#1369](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1369) | Removed superfluous particle effects from USA Airfield                                                                |
+|   |   | [#1379](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1379) | Removed superfluous particle effects from China War Factory                                                           |
+|   |   | [#1395](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1395) | Removed superfluous particle effects from China Power Plant                                                           |
+|   |   | [#1395](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1395) | Fixed inconsistent particle effects on different damage states of China Power Plant                                   |
+|   |   | [#1367](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1367) | Fixed broken Fan animation on summer night undamaged USA Strategy Center                                              |
+|   |   | [#1370](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1370) | Fixed wrong helipad texture on summer day really damaged USA Airfield                                                 |
+|   |   | [#1372](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1372) | Fixed missing Control Rods upgrade icon on Boss Reactor                                                               |
+|   |   | [#1382](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1382) | Fixed issue where War Factory and Arms Dealer door animations would reset on damage state changes                     |
+|   |   | [#1398](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1398) | Fixed issue where Command Center door and radar animations would reset on damage state changes                        |
+|   |   | [#1380](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1380) | Removed floating basket from winter night undamaged China War Factory                                                 |
+|   |   | [#1381](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1381) | Fixed animation issues on conveyor belt of China War Factory                                                          |
+|   |   | [#1387](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1387) | Fixed multiple smoke effect issues on USA War Factory                                                                 |
+|   |   | [#1171](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1171) | Fixed issue where USA Particle cannon deploy animation would keep looping forever                                     |
+|   |   | [#1394](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1394) | Changed crane of USA War Factory to animate on vehicle repair instead of vehicle construction                         |
+|   |   | [#1393](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1393) | Changed crane of China War Factory to animate on vehicle repair instead of vehicle construction                       |
+|   |   | [#1386](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1386) | Fixed missing and inconsistent explosion and debris effects on destruction of all faction buildings                   |
+| C |   | [#1138](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1138) | Improved locomotor of GLA Bomb Truck                                                                                  |
+|   |   | [#1359](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1359) | Fixed missing barrel spin animation on first shot of China Overlord Gattling Cannon                                   |
+|   |   | [#1359](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1359) | Fixed missing barrel spin animation on first shot of China Helix Gattling Cannon                                      |
+|   |   | [#1359](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1359) | Changed barrel spin animation of China Gattling Cannon to match actual fire rate                                      |
+|   |   | [#1359](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1359) | Changed barrel spin animation of China Overlord Gattling Cannon to match actual fire rate                             |
+|   |   | [#1359](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1359) | Changed barrel spin animation of China Helix Gattling Cannon to match actual fire rate                                |
+|   |   | [#1359](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1359) | Changed barrel spin animation of China Gattling Tank to match actual fire rate                                        |
