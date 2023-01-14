@@ -1,0 +1,21 @@
+---
+date: 2023-01-14
+
+title: Improves guided missile laser beam and muzzle flare visuals of USA Missile Defender
+
+changes:
+  - tweak: The guided missile laser beam of the USA Missile Defender has a warmer red color now.
+  - tweak: The guided missile muzzle and target flares of the USA Missile Defender have red colors with a hot white dot at its center now, matching the visuals of the red laser beam. Originally the flares are green.
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552
+
+authors:
+  - xezon
