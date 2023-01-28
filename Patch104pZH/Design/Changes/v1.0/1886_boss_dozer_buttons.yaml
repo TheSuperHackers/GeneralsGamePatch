@@ -1,0 +1,20 @@
+---
+date: 2023-04-30
+
+title: Optimizes button placements of Boss Dozer
+
+changes:
+  - tweak: Optimizes button placements of Boss Dozer. The buttons are now placed at more familiar China button positions. This makes it easier to locate the buttons when one is familiar with the China button positions.
+
+labels:
+  - boss
+  - gui
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1886
+
+authors:
+  - xezon
