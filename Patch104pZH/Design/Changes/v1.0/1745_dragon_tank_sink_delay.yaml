@@ -1,0 +1,19 @@
+---
+date: 2023-01-29
+
+title: Reduces sink delay of China Dragon Tank wreck
+
+changes:
+  - fix: The wreck of the China Dragon Tank now sinks after 12 seconds instead of 14 seconds, right after the rubble flames ended.
+
+labels:
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1745
+
+authors:
+  - xezon
