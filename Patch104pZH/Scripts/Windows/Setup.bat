@@ -12,7 +12,8 @@ set ConfigFiles=^
     "%SetupDir%\..\..\ModBundleItems.json" ^
     "%SetupDir%\..\..\ModBundlePacks.json" ^
     "%SetupDir%\..\..\ModFolders.json" ^
-    "%SetupDir%\..\..\ModRunner.json"
+    "%SetupDir%\..\..\ModRunner.json" ^
+    "%SetupDir%\ModTools.json" ^
 
 :: Misc path setup.
 set ModBuilderDir=%SetupDir%\.modbuilder\v%ModBuilderVer%
