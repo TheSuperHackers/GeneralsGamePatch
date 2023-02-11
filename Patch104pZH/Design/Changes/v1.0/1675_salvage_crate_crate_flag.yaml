@@ -1,0 +1,18 @@
+---
+date: 2023-02-11
+
+title: Adds missing CRATE flag to SalvageCrate
+
+changes:
+  - fix: Adds missing CRATE flag to SalvageCrate.
+
+labels:
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1675
+
+authors:
+  - xezon
