@@ -1,0 +1,21 @@
+---
+date: 2023-02-12
+
+title: Decreases XP reward of China Supply Truck from 50 to 25
+
+changes:
+  - tweak: The China Supply Truck now gives 25 XP instead of 50 XP on kill. This takes a bit of pressure off of China when losing Supply Trucks to the opposition by not promoting enemy units as much.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1680
+
+authors:
+  - Stubbjax
