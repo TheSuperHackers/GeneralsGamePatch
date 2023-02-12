@@ -1,0 +1,20 @@
+---
+date: 2023-02-12
+
+title: Sets despawn time of Salvage Crate to 32500 ms
+
+changes:
+  - tweak: The despawn time of the Salvage Crate is now set deterministically to 32500 ms from previously somewhere random between 30000 ms and 35000 ms.
+
+labels:
+  - controversial
+  - design
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1688
+
+authors:
+  - xezon
