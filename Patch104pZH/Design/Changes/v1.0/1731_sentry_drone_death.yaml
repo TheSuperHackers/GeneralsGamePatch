@@ -1,0 +1,21 @@
+---
+date: 2023-02-18
+
+title: Fixes death setup of USA Sentry Drone
+
+changes:
+  - fix: The USA Sentry Drone no longer shows its wreck model before the final death explosion.
+  - fix: The USA Sentry Drone wreck no longer looks oddly shaped.
+  - fix: The USA Sentry Drone now spawns the correct amount of debris pieces at appropriate positions on death.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731
+
+authors:
+  - xezon
