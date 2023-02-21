@@ -1,0 +1,20 @@
+---
+date: 2023-02-07
+
+title: Fixes death and crush effects of Civilian Limousines
+
+changes:
+  - fix: Adds death and crush particles and debris to Civilian CarLimo1, CarLimo2, CarLimo3, Shiek Limo.
+  - fix: Adds wreck model to Civilian Shiek Limo.
+
+labels:
+  - civilian
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1743
+
+authors:
+  - xezon
