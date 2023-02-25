@@ -24,6 +24,7 @@ LICENSE text
 *.ani binary
 *.big binary
 *.bik binary
+*.blend binary
 *.bmp binary
 *.csf binary
 *.dds binary
