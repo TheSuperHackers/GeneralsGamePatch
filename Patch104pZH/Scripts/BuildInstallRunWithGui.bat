@@ -21,7 +21,10 @@ call "%ThisDir%\Windows\Setup.bat"
 call "%ModBuilderExe%" ^
   --load-default-runner ^
   --build ^
-  --release ^
+  --install FullEnglish ^
+  --run ^
+  --uninstall ^
+  --gui ^
   --config-list %ConfigFiles% %*
 
 endlocal
