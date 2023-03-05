@@ -46,8 +46,16 @@
                     },
                     {
                         "parent": "GameFilesEdited",
-                        "source": "Art/Textures/NoMip/*.psd",
-                        "target": "Art/Textures/*.dds",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/NoMip/*.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/NoMip/*.tga",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
                         "params": {
                             "-quality": 255,
                             "-mipmode": "None"
@@ -134,7 +142,20 @@
                     {
                         "parent": "GameFilesOptional",
                         "sourceList": [
-                            "Art/Textures/*.tga"
+                            "Art/W3D/*.W3D"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ]
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceList": [
+                            "Art/Textures/*.tga",
+                            "Art/Textures/*.dds"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
                     {
@@ -156,6 +177,23 @@
                     },
                     {
                         "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/NoMip/*.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/NoMip/*.tga",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "None"
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
                         "source": "Art/Textures/GenerateTga/*.psd",
                         "target": "Art/Textures/*.tga"
                     }
@@ -173,13 +211,22 @@
                     {
                         "parent": "GameFilesOriginalCCG",
                         "sourceList": [
-                            "Art/Textures/*.dds"
+                            "Art/Textures/*.dds",
+                            "Art/Textures/*.tga"
                         ]
                     },
                     {
                         "parent": "GameFilesOriginalCCG",
-                        "source": "Art/Textures/GenerateMip/*.psd",
-                        "target": "Art/Textures/*.dds",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/GenerateMip/*.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/*.tga",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
                         "params": {
                             "-quality": 255,
                             "-mipmode": "Generate"
