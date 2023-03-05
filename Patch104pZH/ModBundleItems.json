@@ -69,73 +69,6 @@
                 ]
             },
             {
-                "name": "CoreAudio",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/*.wav"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreINI",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/INI/**/*.ini"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ],
-                        "params": {
-                            "forceEOL": "\r\n",
-                            "deleteComments": ";",
-                            "deleteWhitespace": 1
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "CoreMaps",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Maps/**/*.ini",
-                            "Maps/**/*.str"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreWindow",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Window/**/*.wnd"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ],
-                        "params": {
-                            "forceEOL": "\r\n",
-                            "deleteWhitespace": 1
-                        }
-                    }
-                ]
-            },
-            {
                 "name": "AxOptionalArt",
                 "big": true,
                 "files": [
@@ -200,11 +133,6 @@
                 ]
             },
             {
-                "name": "AxOptionalAudio",
-                "big": true,
-                "files": []
-            },
-            {
                 "name": "RecoveredArt",
                 "big": true,
                 "files": [
@@ -230,6 +158,78 @@
                         "params": {
                             "-quality": 255,
                             "-mipmode": "Generate"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudio",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudio",
+                "big": true,
+                "files": []
+            },
+            {
+                "name": "CoreINI",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/INI/**/*.ini"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ],
+                        "params": {
+                            "forceEOL": "\r\n",
+                            "deleteComments": ";",
+                            "deleteWhitespace": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "CoreMaps",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Maps/**/*.ini",
+                            "Maps/**/*.str"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreWindow",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Window/**/*.wnd"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ],
+                        "params": {
+                            "forceEOL": "\r\n",
+                            "deleteWhitespace": 1
                         }
                     }
                 ]
