@@ -5,18 +5,9 @@
         "itemsSuffix": "",
         "items": [
             {
-                "name": "CoreArt",
+                "name": "CoreTextures",
                 "big": true,
                 "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Art/W3D/*.W3D"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ]
-                    },
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
@@ -69,11 +60,11 @@
                 ]
             },
             {
-                "name": "AxOptionalArt",
+                "name": "CoreW3D",
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesOptional",
+                        "parent": "GameFilesEdited",
                         "sourceList": [
                             "Art/W3D/*.W3D"
                         ],
@@ -81,6 +72,85 @@
                             "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
                     },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Animation/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": true,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Hierarchy/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": false
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/HierarchyAnimationMesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": true,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/HierarchyMesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Mesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": false,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": true
+                        }
+                    }
+                ],
+                "onFinishBuildRawBundleItem": {
+                    "script": "Scripts/Python/OnBuildItemWithBlender3-4-1.py"
+                }
+            },
+            {
+                "name": "AxOptionalTextures",
+                "big": true,
+                "files": [
                     {
                         "parent": "GameFilesOptional",
                         "sourceList": [
@@ -133,7 +203,95 @@
                 ]
             },
             {
-                "name": "RecoveredArt",
+                "name": "AxOptionalW3D",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceList": [
+                            "Art/W3D/*.W3D"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ]
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Animation/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": true,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Hierarchy/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": false
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/HierarchyAnimationMesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": true,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/HierarchyMesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Mesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": false,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": true
+                        }
+                    }
+                ],
+                "onFinishBuildRawBundleItem": {
+                    "script": "Scripts/Python/OnBuildItemWithBlender3-4-1.py"
+                }
+            },
+            {
+                "name": "RecoveredTextures",
                 "big": true,
                 "files": [
                     {
