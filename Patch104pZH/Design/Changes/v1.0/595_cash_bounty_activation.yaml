@@ -5,6 +5,7 @@ title: Fixes GLA Cash Bounty activation with an unfinished Command Center scaffo
 
 changes:
   - fix: The GLA Cash Bounty is no longer activated with an unfinished Command Center. The Command Center construction must finish to complete the activation process. After activation is completed, the Command Center can be demolished and the Cash Bounty will stay active. A new Cash Bounty level will require a new Command Center for activation however.
+  - optimization: The GLA Cash Bounty dummy object spawn interval is set to 1000 ms.
 
 labels:
   - bug
@@ -17,6 +18,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764
 
 authors:
   - commy2
