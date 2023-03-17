@@ -68,7 +68,7 @@
 |   |   | [#181](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/181) | USA Spectre Gunship is no longer selectable with Select All key(s) (Q W)                                              |
 |   |   | [#187](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/187) | Fixed issue where hits on bunkered GLA Battle Bus would cause screen shake effects                                    |
 |   |   | [#188](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/188) | Added missing sounds to USA Sentry Drone movement command                                                             |
-|   |   | [#190](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/190) | Fixed wrong movement sounds of USA Microwave Tank                                                                     |
+|   |   | [#189](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/189) | Fixed wrong movement sounds of USA Microwave Tank                                                                     |
 |   |   | [#191](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/191) | Added missing sounds to USA Pilot enter building command                                                              |
 |   |   | [#192](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/192) | Added missing sounds to VGLA Battle Bus                                                                               |
 |   |   | [#190](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/190) | Fixed wrong sounds on USA Fire Base selection                                                                         |
@@ -89,7 +89,6 @@
 |   |   | [#263](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/263) | Added missing booby trap sound effect for Demo GLA Rebel                                                              |
 |   |   | [#193](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/193) | Fixed issue where some USA Chinooks collected 100 milliseconds slower than others                                     |
 |   |   | [#261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261) | Fixed issue where damage smoke effects on China Outpost would not disappear after repair                              |
-| C |   | [#261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261) | Fixed issue where damage smoke effects on China Outpost would show for enemy player when stealthed                    |
 |   |   | [#267](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/267) | Fixed issue where GLA Battle Bus would stop moving when targeting air unit                                            |
 |   |   | [#270](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/270) | Fixed issue where USA Humvee without TOW missile would stop moving after targeting air unit                           |
 |   |   | [#274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/274) | Fixed issue where Toxin GLA Rocket Soldier on Combat Cycle did not shoot with correct rocket type                     |
@@ -117,8 +116,6 @@
 |   |   | [#308](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/308) | Removed EXP bonus from destroying a civilian Reinforcement Pad                                                        |
 |   |   | [#309](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/309) | Added missing muzzle flash for Vehicle Snipe ability of GLA Jarmen Kell on Combat Cycle                               |
 |   |   | [#310](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/310) | Fixed wrong muzzle flash location for Vehicle Snipe ability of GLA Jarmen Kell                                        |
-|   |   | [#311](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/311) | Added red bullet tracer effect to heroic GLA Jarmen Kell                                                              |
-|   |   | [#311](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/311) | Added red bullet tracer effect to heroic USA Pathfinder                                                               |
 |   |   | [#292](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/292) | Fixed issue where Fuel Bomb of USA Alpha Aurora would detonate before the bomb hit the ground                         |
 |   |   | [#312](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/312) | Fixed wrong muzzle flash location of Infantry China Minigunner                                                        |
 |   |   | [#312](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/312) | Fixed broken recoil animation of Infantry China Minigunner                                                            |
@@ -182,7 +179,7 @@
 |   |   | [#450](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/450) | Fixed low vision range of Boss Jarmen Kell                                                                            |
 |   |   | [#453](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/453) | Fixed several issues of Boss Sentry Drone                                                                             |
 |   |   | [#457](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/457) | Fixed several issues of Boss Helix                                                                                    |
-|   |   | [#453](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/453) | Fixed several issues of Boss King Raptor                                                                              |
+|   |   | [#456](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/456) | Fixed several issues of Boss King Raptor                                                                              |
 |   |   | [#454](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/454) | Fixed several issues of Boss Avenger                                                                                  |
 |   |   | [#512](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/512) | Fixed several issues with Stealth GLA Base Defenses in GLA02 Campaign                                                 |
 |   |   | [#514](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/514) | Fixed several issues with Stealth GLA Buildings in GLA02 Campaign                                                     |
@@ -266,7 +263,6 @@
 | C |   | [#834](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/834) | Added China Propaganda Center OR Airfield OR Warfactory to prerequisites of Speaker Tower                             |
 | C |   | [#839](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/839) | Added functional Speaker Tower to China Propaganda Center                                                             |
 | C | A | [#836](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/836) | Changed USA Supply Drop Zone Cargo Planes to be unattackable                                                          |
-|   |   | [#826](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/826) | Changed GLA Toxin Bomb colors to match the factions Toxin upgrade color                                               |
 | C |   | [#437](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/437) | Added experience reward of 5 for China Black Lotus on Vehicle Hack                                                    |
 |   |   | [#873](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/873) | Removed Supply Depot to Supply Stash build distance restriction                                                       |
 |   |   | [#883](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/883) | Removed damage effects from immortal civilian structures                                                              |
@@ -305,11 +301,11 @@
 |   |   | [#1020](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1020) | Replaced Regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image   |
 |   |   | [#1021](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1021) | Replaced Regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image          |
 |   |   | [#1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023) | Replaced Generic Stars with Nuklear Symbols on Nuke China Helix helicopter                                            |
-|   |   | [#1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026) | Added Upgrade Voice for USA MOAB in all languages                                                                     |
-|   |   | [#1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026) | Added Upgrade Voice for USA Sentry Drone Gun in all languages                                                         |
-|   |   | [#1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026) | Added Upgrade Voice for China Neutron Shells in all languages                                                         |
-|   |   | [#1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026) | Added Upgrade Voice for GLA Fortified Structure in all languages                                                      |
-|   |   | [#1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1031) | Fixed issue where USA AI can order Fuel Air Bomb and Para Drop with Supply Drop Zone Planes                           |
+|   |   | [#1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026) | Added Upgrade Voice for USA MOAB in all languages                                                                     |
+|   |   | [#1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026) | Added Upgrade Voice for USA Sentry Drone Gun in all languages                                                         |
+|   |   | [#1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026) | Added Upgrade Voice for China Neutron Shells in all languages                                                         |
+|   |   | [#1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026) | Added Upgrade Voice for GLA Fortified Structure in all languages                                                      |
+|   |   | [#1031](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1031) | Fixed issue where USA AI can order Fuel Air Bomb and Para Drop with Supply Drop Zone Planes                           |
 |   |   | [#1037](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1037) | Fixed several animation issues of GLA Angry Mob                                                                       |
 |   |   | [#1041](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1041) | Fixed issue where GLA SCUD Launcher Missile would disappear before reaching far hit target                            |
 |   |   | [#1070](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1070) | Improved visuals of binary data stream from China Lotus and USA Patriot Battery                                       |
@@ -374,11 +370,11 @@
 |   |   | [#1326](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1326) | Fixed issue where SCUD Storm snow disappeared when damaged                                                            |
 |   |   | [#1334](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1334) | Fixed issue where Toxin GLA Tunnel Defender can shoot on ground and air targets simultaneously                        |
 |   |   | [#1345](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1345) | Fixed issue where winter day really damaged China Gattling Cannon barrels would spin at incorrect speeds              |
-|   |   | [#1347](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1347) | Fixed issue where winder day fast firing damaged China Gattling Cannon would show undamaged model                     |
+|   |   | [#1347](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1347) | Fixed issue where winter day fast firing damaged China Gattling Cannon would show undamaged model                     |
 |   |   | [#1348](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1348) | Removed obsolete smoke clouds on summer night fast firing China Gattling Cannon                                       |
 |   |   | [#1342](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1342) | Removed white cubes (bones) on headlights of summer night China Gattling Tank                                         |
 |   |   | [#1346](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1346) | Removed green cubes (bones) on damaged China Emperor Tank                                                             |
-|   |   | [#1346](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1346) | Removed black cube (bone) infront of damaged USA Microwave Tank                                                       |
+|   |   | [#1283](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1283) | Removed black cube (bone) infront of damaged USA Microwave Tank                                                       |
 |   |   | [#1344](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1344) | Fixed missing muzzle flashes on China Gattling Cannon when firing at ground targets                                   |
 |   |   | [#1343](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1343) | Fixed missing muzzle flashes on China Overlord Gattling Cannon when firing at ground targets                          |
 |   |   | [#1341](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1341) | Fixed missing muzzle flash on China Gattling Tank when firing at ground targets                                       |
@@ -445,7 +441,7 @@
 |   |   | [#1402](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1402) | Streamlined drift velocity of prominent smoke and steam particles                                                     |
 |   |   | [#1071](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1071) | Fixed broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales                            |
 |   |   | [#1071](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1071) | Fixed broken voice line of China Battlemaster in French, German locales                                               |
-|   |   | [#1071](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1071) | Fixed inaccurate tool tip text of USA Countermeasures Upgrade for all latin languages                                 |
+|   |   | [#1225](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1225) | Fixed inaccurate tool tip text of USA Countermeasures Upgrade for all latin languages                                 |
 |   |   | [#1455](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1455) | Fixed wrong death scream sounds of China Hacker                                                                       |
 |   |   | [#1452](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1452) | Fixed wrong exploded death animation of China Tank Hunter                                                             |
 | C |   | [#1449](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1449) | Increased poison damage resistance of China Dragon Tank by 20%                                                        |
@@ -509,10 +505,10 @@
 |   |   | [#1504](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504) | Decreased terrain scorch size of Nuke Missile hit, Fire Storm burn                                                    |
 |   |   | [#1504](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504) | Removed duplicate shockwave from explosion effect of China Mig nuke missile, Helix nuke bomb                          |
 |   |   | [#1495](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1495) | Improved scorch textures quality (optional content)                                                                   |
-| C |   | [#1495](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1141) | Increased shroud clearing range of USA Battle Drone from 150 to 300                                                   |
-| C |   | [#1495](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1141) | Decreased shroud clearing range of USA Hellfire Drone from 500 to 400                                                 |
-| C |   | [#1495](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1514) | Fixed placement view angle of GLA Tunnel Networks                                                                     |
-| C |   | [#1495](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1514) | Changed placement view angle of all faction base defenses to be consistent                                            |
+| C |   | [#1141](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1141) | Increased shroud clearing range of USA Battle Drone from 150 to 300                                                   |
+| C |   | [#1141](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1141) | Decreased shroud clearing range of USA Hellfire Drone from 500 to 400                                                 |
+| C |   | [#1514](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1514) | Fixed placement view angle of GLA Tunnel Networks                                                                     |
+| C |   | [#1514](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1514) | Changed placement view angle of all faction base defenses to be consistent                                            |
 |   |   | [#1390](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1390) | Decreased USA Supply Drop Zone crate count from 6 to 3: avoids crates falling next to drop zone                       |
 |   |   | [#1526](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1526) | Fixed issue where GLA Booby Trap could be pushed away by physic weapon hits                                           |
 |   |   | [#1525](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1525) | Fixed jet engine sound of China Carpet Bomber                                                                         |
