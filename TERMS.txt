@@ -1,0 +1,69 @@
+                           Electronic Arts (EA) terms
+
+  Not for commercial profit: Derivatives of this Product cannot be sold,
+licensed, rented for a fee, cannot contain features that would support monetary
+transactions of any type, nor can be used to advertise any goods or services.
+
+  Respect the rights of others: Derivatives of this Product must not infringe
+any copyright, trademark, patent, trade secret or other intellectual property
+right of any third party and will not include content that is unlawful,
+tortious, defamatory, obscene, invasive of the privacy of another person,
+threatening, harassing, abusive, hateful, racist or otherwise objectionable or
+inappropriate. Electronic Arts (EA) requires that derivative products do not
+include any material that would not be allowed under the age ratings for any
+applicable C&C game(s). The C&C franchise usually has an age rating of
+ESRB T (Teen) and PEGI 16+, and similar ratings from other ratings boards around
+the world.
+
+  No EA affiliation: You must include the following statement prominently at the
+top of your website and in at least one root-level license file in any
+source-code repositories for your project (e.g., a README file or equivalent):
+"EA has not endorsed and does not support this product."
+Do not promote your derivative Product in a way that suggests that it is
+endorsed or approved by or affiliated with EA in any manner. Do not use EA
+artwork, logos or trademarks (including game logo treatments, the names
+Electronic Arts, EA or "Command & Conquer" or the logos or names) to promote
+your derivative Product. However, you may state that your derivative Product is
+for Command & Conquer and/or for a specific C&C game or expansion pack in the
+franchise (e.g., "Command & Conquer", "Tiberian Dawn", "Red Alert", "Renegade",
+"Generals", and/or "Kane's Wrath", as applicable).
+
+  Safety & integrity: Derivatives of this Product must not jeopardize the
+integrity of the gameplay or harm the experience of others and must not
+interfere with or disrupt any of EA's services, servers or networks, such as by
+introducing malware or by circumventing any of EA's content protection measures
+for its services. To maintain the integrity of C&C and ensure the best possible
+gaming experience for our players, EA reserves the right, in its sole
+discretion, to revoke permission to use, distribute or make derivatives of this
+Product at any time and to take disciplinary action against players who take
+part in any of these activities.
+
+Intellectual property ownership; license from EA: C&C Assets, including game
+code, art, music, and all other content, are and shall remain the sole and
+exclusive property of EA (the "C&C Assets"). To the extent any C&C Assets are
+used in derivatives of this Product, EA grants the content creator a revocable,
+limited, non-exclusive, non-commercial license to use the C&C Assets solely in
+connection with, and as a part of, the derivates of this Product and subject to
+the terms of this Policy. Derivatives of this Product must not include any music
+files from any C&C games. EA reserves the right, in its sole discretion, to
+revoke this license at any time.
+
+  Abide by all other EA rules: These guidelines supplement and do not supersede
+any other EA rules that apply to derivatives of this Product, including the
+GPL license <LICENSE> terms and conditions and the EA User Agreement
+<https://terms.ea.com>, which are specifically incorporated into this Policy.
+In the event that the terms of this Policy are in conflict with the terms of
+these other EA rules, the terms of this Policy will supersede and govern. For
+clarity, Mods constitute "UGC" (User Generated Content) as that term is defined
+in the EA User Agreement.
+
+
+                            The Super Hackers terms
+
+  This product is free software: You can redistribute it and/or modify it under
+the terms of the GPL license <LICENSE.txt>. If you do not wish to publish your
+derivative Product under this license, then you must not use any work of this
+Product in your distribution.
+
+  Not for commercial profit: Derivatives of this Product cannot solicit
+donations.
