@@ -42,7 +42,7 @@
 |   |   | [#122](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/122) | Expanded army selection drop down box in Menu Game Room to see all factions at once without scrolling                 |
 |   |   | [#99](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/99)   | Fixed Demo GLA vehicle destruction effect glitches                                                                    |
 |   |   | [#103](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/103) | Fixed issue that made Demo GLA Combat Bike used by GLA Worker miss the vehicle destruction effect                     |
-| C | A | [#102](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/102) | Fixed issue that made Demo GLA Battle Bus vanish after demo suicide without applying any damage                       |
+|   |   | [#102](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/102) | Fixed issue that made Demo GLA Battle Bus vanish after demo suicide without applying any damage                       |
 |   |   | [#133](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/133) | Added missing faction colors to Snow China Speaker Tower building model                                               |
 |   |   | [#135](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/135) | Fixed issue that allowed GLA Toxin Tractor to attack units standing too close to it                                   |
 |   |   | [#134](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/134) | Fixed issue that hid China Bunkers and China Propaganda Center from radar minimap                                     |
@@ -233,7 +233,7 @@
 |   |   | [#774](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/774) | Decreased all China Hackers cash hack audio limit                                                                     |
 | C |   | [#785](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/785) | Decreased all China Command Center door times from 3000 to 1500 ms                                                    |
 | C |   | [#786](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/786) | Decreased all China War Factory door times from 4000 to 3300 ms                                                       |
-| C |   | [#787](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/787) | Adjusted all USA War Factory door times from 3250 to 3300 ms                                                          |
+|   |   | [#787](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/787) | Adjusted all USA War Factory door times from 3250 to 3300 ms                                                          |
 |   |   | [#826](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/826) | Changed Anthrax Bomb poison colors to respective Anthrax Upgrades of controlling player                               |
 |   |   | [#791](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/791) | Fixed issue where China Satellite Hack 1 would never see newly built enemy Command Centers                            |
 | C |   | [#777](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777) | Increased USA Paladin Composite Armor bonus by 100 to match Crusader Composite Armor bonus                            |
@@ -311,8 +311,8 @@
 |   |   | [#1070](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1070) | Improved visuals of binary data stream from China Lotus and USA Patriot Battery                                       |
 |   |   | [#1087](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1087) | Fixed issue where invisible objects draw fire above Townes base in Generals Challenge                                 |
 |   |   | [#1085](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1085) | Fixed issue where Granger cannot call in Carpet Bomber in Generals Challenge                                          |
-|   |   | [#1086](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1086) | Fixed issue where bare Stringer Trooper is unselectable in Kassad Generals Challenge                                  |
-|   |   | [#1088](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1088) | Fixed issue where bare Stringer Trooper is sliding with improper animation                                            |
+|   |   | [#1086](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1086) | Fixed issue where bare Stinger Trooper is unselectable in Kassad Generals Challenge                                   |
+|   |   | [#1088](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1088) | Fixed issue where bare Stinger Trooper is sliding with improper animation                                             |
 |   |   | [#1078](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1078) | Fixed issue where muzzle flash is visible on object before placing first USA Fire Base                                |
 |   |   | [#1084](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1084) | Fixed issue where B2 Bomber would take sharp turn when flying in diagonally                                           |
 |   |   | [#1080](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1080) | Fixed issue where radar dish of China Listening Outpost would spawn and fly high up in the sky on destruction         |
@@ -385,7 +385,7 @@
 |   |   | [#1236](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1236) | Fixed missing pieces in trcobbroad texture for cobble road                                                            |
 |   |   | [#1229](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1229) | Added upscaled utplates textures for GLA SCUD Storm (optional content)                                                |
 |   |   | [#1232](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1232) | Fixed and improved utscudparts02, utsilotop01 textures for GLA SCUD Storm                                             |
-|   |   | [#1215](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1215) | Fixed utscudslab snow textures for GLA SCUD Storm                                                                     |
+|   |   | [#1315](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1315) | Fixed utscudslab snow textures for GLA SCUD Storm                                                                     |
 |   |   | [#1328](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1328) | Added upscaled utscudslab textures for GLA SCUD Storm (optional content)                                              |
 |   |   | [#1320](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1320) | Fixed utconcroof textures for GLA structures                                                                          |
 |   |   | [#1311](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1311) | Fixed utcloth textures for GLA structures                                                                             |
@@ -460,7 +460,7 @@
 |   |   | [#1248](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1248) | Fixed avambulance textures for USA Ambulance                                                                          |
 |   |   | [#1251](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1251) | Fixed and improved avavnger textures for USA Avenger                                                                  |
 |   |   | [#1253](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1253) | Fixed atconvey01 snow textures for USA War Factory                                                                    |
-|   |   | [#1254](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1254) | Fixed atconvey02 textures for USA War Factory                                                                         |
+|   |   | [#1474](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1474) | Fixed atconvey02 textures for USA War Factory                                                                         |
 |   |   | [#1256](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1256) | Fixed and improved avcomanche textures for USA Comanche                                                               |
 |   |   | [#1258](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1258) | Fixed and improved avthunderbolt textures for USA Microwave Tank                                                      |
 |   |   | [#1263](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1263) | Fixed athqslab textures for USA Command Center                                                                        |
@@ -507,18 +507,18 @@
 |   |   | [#1495](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1495) | Improved scorch textures quality (optional content)                                                                   |
 | C |   | [#1141](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1141) | Increased shroud clearing range of USA Battle Drone from 150 to 300                                                   |
 | C |   | [#1141](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1141) | Decreased shroud clearing range of USA Hellfire Drone from 500 to 400                                                 |
-| C |   | [#1514](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1514) | Fixed placement view angle of GLA Tunnel Networks                                                                     |
-| C |   | [#1514](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1514) | Changed placement view angle of all faction base defenses to be consistent                                            |
+|   |   | [#1514](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1514) | Fixed placement view angle of GLA Tunnel Networks                                                                     |
+|   |   | [#1514](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1514) | Changed placement view angle of all faction base defenses to be consistent                                            |
 |   |   | [#1390](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1390) | Decreased USA Supply Drop Zone crate count from 6 to 3: avoids crates falling next to drop zone                       |
 |   |   | [#1526](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1526) | Fixed issue where GLA Booby Trap could be pushed away by physic weapon hits                                           |
 |   |   | [#1525](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1525) | Fixed jet engine sound of China Carpet Bomber                                                                         |
 |   |   | [#1524](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1524) | Fixed issue where USA Strategy Center Gun would not attack selected targets                                           |
 |   |   | [#1528](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1528) | Fixed wrong exploded death animation of GLA Worker equipped with supply box                                           |
 |   |   | [#1531](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1531) | Fixed excontrail texture                                                                                              |
-| C |   | [#1532](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1532) | Fixed issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched                     |
+|   |   | [#1532](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1532) | Fixed issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched                     |
 | C |   | [#1523](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1523) | Decrease build cost of China Neutron Mines from 500 to 400                                                            |
 | C |   | [#1533](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1533) | Decrease build time of China Mines from 20 to 18                                                                      |
-| C |   | [#1533](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1533) | Decrease build time of China Neutron Mines from 20 to 18                                                              |
+| C |   | [#1533](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1533) | Decrease build time of China Neutron Mines from 25 to 18                                                              |
 |   |   | [#1535](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1535) | Fixed duplicate terrain scorch spawn on death of China Listening Outpost                                              |
 |   |   | [#1535](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1535) | Fixed duplicate terrain scorch spawn on death of China Dragon Tank                                                    |
 |   |   | [#1539](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1539) | Optimized USA vehicle drone spawn positions                                                                           |
@@ -584,7 +584,7 @@
 |   |   | [#1662](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1662) | Fixed turret animation and effect issues on death of GLA Marauder                                                     |
 |   |   | [#1663](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1663) | Fixed turret animation and effect issues on death of GLA Scorpion                                                     |
 |   |   | [#1663](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1663) | Fixed issue where GLA Scorpion model would not show its salvage upgrades on death                                     |
-| C |   | [#1672](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1672) | Fixed issue where GLA Marauder with double gun scrap would start its firing sequence with a single shot only          |
+|   |   | [#1672](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1672) | Fixed issue where GLA Marauder with double gun scrap would start its firing sequence with a single shot only          |
 | C |   | [#1674](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1674) | Added idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade                                  |
 | C |   | [#1670](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1670) | Added idle auto reload after 2100 ms for China Overlord, Emperor                                                      |
 | C |   | [#1699](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1699) | Added idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade                             |
@@ -609,7 +609,7 @@
 |   |   | [#1710](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1710) | Set consistently long lifetimes for wreck of USA Comanche                                                             |
 |   |   | [#1711](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1711) | Increased destruction delays for various wrecks to avoid deletion before object is sunk into terrain                  |
 |   |   | [#1712](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1712) | Decreased destruction delays for various wrecks to delete objects earlier after they sunk into terrain                |
-| C |   | [#1706](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1706) | Changed Stealth General Rebels to no longer become revealed when taking damage                                        |
+|   |   | [#1706](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1706) | Changed Stealth General Rebels to no longer become revealed when taking damage                                        |
 |   |   | [#1707](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1707) | Fixed duplicate crush death effects of China Listening Outpost                                                        |
 |   |   | [#1713](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1713) | Fixed issue where wrong USA Super Weapon Command Center model was shown during construction and deconstruction        |
 |   |   | [#1714](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1714) | Fixed issue where GLA Scud Launcher model would not show its salvage upgrades on death                                |
