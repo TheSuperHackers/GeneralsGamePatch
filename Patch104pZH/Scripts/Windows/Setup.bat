@@ -12,6 +12,7 @@ set ConfigFiles=^
     "%SetupDir%\..\..\ModBundleItems.json" ^
     "%SetupDir%\..\..\ModBundleLanguageItems.json" ^
     "%SetupDir%\..\..\ModBundlePacks.json" ^
+    "%SetupDir%\..\..\ModChangeLog.json" ^
     "%SetupDir%\..\..\ModFolders.json" ^
     "%SetupDir%\..\..\ModRunner.json" ^
     "%SetupDir%\ModTools.json"
