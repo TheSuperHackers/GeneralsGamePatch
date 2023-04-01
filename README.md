@@ -23,10 +23,6 @@ Note: **EA has not endorsed and does not support this product.**
 - Fix and improve Official Maps
 - Add new Language(s)
 
-## Change Lists
-
-- [Game Fixes and Improvements](Patch104pZH/Design/Changes/game_fixes.md)
-
 ## Community Surveys
 
 - [Survey 1 (General)](https://bit.ly/zh_survey_1ben)
