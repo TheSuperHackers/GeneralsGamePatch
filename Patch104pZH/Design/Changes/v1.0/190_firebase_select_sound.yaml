@@ -1,0 +1,20 @@
+---
+date: 2021-09-04
+
+title: Fixes wrong selection sounds of USA Firebase
+
+changes:
+  - fix: The Airforce, Super Weapon and Laser General's Firebases now use their unique sound effect of the regular USA Firebase, instead of the sound effect of the Patriot Battery.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/190
+
+authors:
+  - commy2

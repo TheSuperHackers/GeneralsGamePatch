@@ -1,0 +1,20 @@
+---
+date: 2021-09-10
+
+title: Fixes wrong suicide ability icon on GLA Demo Combat Bike
+
+changes:
+  - fix: The Demo General's GLA Combat Bike no longer uses its portrait as a button in the control bar and the production queue.
+
+labels:
+  - bug
+  - gla
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/278
+
+authors:
+  - commy2

@@ -1,0 +1,18 @@
+---
+date: 2022-08-08
+
+title: Fixes the issue of inherent faction upgrades being granted upon constructing respective faction structures.
+
+changes:
+  - fix: Fixes the issue of inherent faction upgrades being granted upon constructing respective faction structures.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/827
+
+authors:
+  - commy2

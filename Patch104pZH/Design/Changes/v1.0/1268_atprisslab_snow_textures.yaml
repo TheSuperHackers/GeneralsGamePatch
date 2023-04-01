@@ -1,0 +1,29 @@
+---
+date: 2022-09-23
+
+title: Fixes atprisslab snow textures for USA Prison
+
+changes:
+  - fix: Fixes atprisslab snow textures for USA Prison
+
+subchanges:
+  - fix: |
+      atprisslab_s
+        - Fixes strong contrasts on snow
+  - fix: |
+      atpanelroof_ds, atpanelroof_es
+        - Fixes snow to look equal to atprisslab_s
+        - Fixes snow to not draw over damages, scorches and burns
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1268
+
+authors:
+  - xezon

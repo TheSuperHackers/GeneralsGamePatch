@@ -1,0 +1,20 @@
+---
+date: 2023-02-15
+
+title: Fixes missing hit damage effects on the China and GLA cargo planes
+
+changes:
+  - fix: Adds damage effects to the China and GLA cargo planes. This effect already exists for the USA cargo planes.
+
+labels:
+  - china
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1718
+
+authors:
+  - Stubbjax

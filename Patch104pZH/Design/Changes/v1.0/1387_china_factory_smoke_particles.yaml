@@ -1,0 +1,25 @@
+---
+date: 2022-10-16
+
+title: Fixes smoke effect issues on USA War Factory
+
+changes:
+  - fix: Chimney smoke effects are active during unit construction only and damage smoke effects are properly setup for all damage states of the USA War Factory.
+
+subchanges:
+  - fix: Removes smoke effect from the center of the 0% USA War Factory scaffold.
+  - fix: Removes floating smoke effect during construction of USA War Factory.
+  - fix: Removes obsolete smoke effect from the center of badly damaged USA War Factory.
+
+labels:
+  - bug
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1387
+
+authors:
+  - commy2

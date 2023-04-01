@@ -1,0 +1,25 @@
+---
+date: 2021-09-12
+
+title: Fixes wrong object categories in World Builder
+
+changes:
+  - fix: The Air Force General's normal Chinook is no longer listed as a vanilla USA unit in the World Builder.
+  - fix: The Tank General's Airfield is no longer listed under "China" in the World Builder.
+  - fix: The Laser General's Hellfire Drone no longer appears as a Super Weapon General unit in the World Builder.
+  - fix: The China Carpet Bomber and the Aurora Alpha bombs are no longer listed under vanilla USA in the World Builder, but under the appropriate (sub-)faction.
+  - fix: The Infantry General's Gattling Tank is no longer listed under "ChinaTankGeneral" in the World Builder.
+  - fix: The wreck and blown-off rotor blade props of the Helix are no longer listed under the American faction in the World Builder.
+  - fix: The Spectre Gattling Cannon and Howitzer are no longer listed under the China faction, but under the American faction in the World Builder.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+  - worldbuilder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/332
+
+authors:
+  - commy2

@@ -1,0 +1,20 @@
+---
+date: 2022-08-12
+
+title: Removes GLA Hijacker ability to steal Combat Bike
+
+changes:
+  - tweak: The GLA Combat Bike is now immune to being hijacked.
+
+labels:
+  - bug
+  - controversial
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/879
+
+authors:
+  - commy2

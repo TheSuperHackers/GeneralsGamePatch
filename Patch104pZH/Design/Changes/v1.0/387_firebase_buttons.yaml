@@ -1,0 +1,20 @@
+---
+date: 2021-09-20
+
+title: Fixes wrong button placements of USA Firebase
+
+changes:
+  - fix: Fixes the wrong button placements of the USA Firebase. They are now consistent with those of other base defenses.
+
+labels:
+  - design
+  - gui
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/387
+
+authors:
+  - commy2

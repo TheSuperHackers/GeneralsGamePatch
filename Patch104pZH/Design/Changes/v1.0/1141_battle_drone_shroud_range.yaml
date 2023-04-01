@@ -1,0 +1,21 @@
+---
+date: 2022-09-06
+
+title: Increases shroud clearing range of USA Battle Drone from 150 to 300
+
+changes:
+  - tweak: Increases the shroud clearing range of USA Battle Drone from 150 to 300.
+
+labels:
+  - controversial
+  - design
+  - minor
+  - nerf
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1141
+
+authors:
+  - xezon

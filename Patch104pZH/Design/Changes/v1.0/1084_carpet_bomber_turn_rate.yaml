@@ -1,0 +1,20 @@
+---
+date: 2022-09-03
+
+title: Fixes sharp turn movements of USA B2 Bomber
+
+changes:
+  - fix: The USA B2 Bomber no longer takes sharp turns when flying in diagonally.
+
+labels:
+  - bug
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1084
+
+authors:
+  - commy2

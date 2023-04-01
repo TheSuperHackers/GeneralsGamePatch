@@ -1,0 +1,32 @@
+---
+date: 2023-01-20
+
+title: Removes border colors from all Special Power Shortcut command buttons
+
+changes:
+  - fix: All special Power Shortcut command buttons now look pristine without odd border colors.
+
+subchanges:
+  - fix: Removes shortcut button border from USA Particle Cannon(s).
+  - fix: Removes shortcut button border from USA Spectre.
+  - fix: Removes shortcut button border from China Nuke Missile(s).
+  - fix: Removes shortcut button border from GLA Scud Storm.
+  - fix: Removes shortcut button border from Communications Download.
+  - fix: Removes shortcut button border from GLA Radar Van scan.
+  - fix: Removes shortcut button border from CIA Intelligence.
+  - fix: Removes shortcut button border from China Satellite Hack II.
+  - fix: Removes shortcut button border from USA Aircraft Carrier.
+  - fix: Removes shortcut button border from USA Battleship.
+  - fix: Removes shortcut button border from GLA Sneak Attack.
+
+labels:
+  - design
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1573
+
+authors:
+  - xezon

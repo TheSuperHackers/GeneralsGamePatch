@@ -1,0 +1,19 @@
+---
+date: 2021-09-03
+
+title: Fixes USA Avenger model
+
+changes:
+  - fix: Removes a small piece of misplaced geometry from the wheels.
+
+labels:
+  - art
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/158
+
+authors:
+  - commy2

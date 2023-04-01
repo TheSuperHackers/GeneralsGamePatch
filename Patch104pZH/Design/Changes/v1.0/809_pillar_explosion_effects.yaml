@@ -1,0 +1,32 @@
+---
+date: 2022-08-02
+
+title: Fixes 13 broken particle effects
+
+changes:
+  - fix: |
+      Fixes 13 broken particle effects, including
+        - airCarrierExplosion2
+        - airCarrierHotPillarArms
+        - airCarrierJet01Explosion
+        - airCarrierJetExplosion1
+        - airCarrierJetExplosion2
+        - airCarrierJetExplosion3
+        - ArmExplosionSmall01
+        - BarrelExplosion
+        - BuggyNewExplosionArms
+        - FireBaseHowitzerPillarArms
+        - HotPillarArms
+        - MammothTankExplosionArms
+        - SpectreHotPillarArms
+
+labels:
+  - bug
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/809
+
+authors:
+  - xezon

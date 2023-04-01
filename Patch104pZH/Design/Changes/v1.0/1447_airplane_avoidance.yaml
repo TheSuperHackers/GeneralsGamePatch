@@ -1,0 +1,26 @@
+---
+date: 2022-11-06
+
+title: Removes airplane avoidance setup from some small structures
+
+changes:
+  - tweak: |
+      Removes AIRCRAFT_PATH_AROUND from small non cinematic structures:
+        - BaghdadVictoryMemorial01
+        - BaghdadVictoryMemorial02
+        - EnglishTVStatio
+        - StanWatchTowerTall
+        - WaterPlant
+
+labels:
+  - civilian
+  - design
+  - minor
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1447
+
+authors:
+  - xezon

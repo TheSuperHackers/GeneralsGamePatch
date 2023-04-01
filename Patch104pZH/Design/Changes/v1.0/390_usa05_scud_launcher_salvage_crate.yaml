@@ -1,0 +1,18 @@
+---
+date: 2021-09-19
+
+title: Adds missing Scrap Salvage to GLA Scud Launcher of USA05 Campaign
+
+changes:
+  - fix: The GLA Scud Launcher in the USA05 Campaign now leaves a Scrap Salvage crate when killed.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/390
+
+authors:
+  - commy2

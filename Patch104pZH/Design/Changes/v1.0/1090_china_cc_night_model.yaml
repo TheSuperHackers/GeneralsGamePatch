@@ -1,0 +1,20 @@
+---
+date: 2022-09-03
+
+title: Fixes duplicated structure parts on damaged China Command Center on Night maps
+
+changes:
+  - fix: Fixes the duplicated structure parts on the damaged China Command Center on Night maps
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1090
+
+authors:
+  - commy2

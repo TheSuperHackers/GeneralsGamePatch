@@ -1,0 +1,20 @@
+---
+date: 2022-09-21
+
+title: Adds missing China Propaganda Tower damage texture
+
+changes:
+  - fix: Adds missing nbptower_e texture. nbptower_es (snow) does already exist. Originally NBPTower_E.W3D references nbptower_d texture.
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1239
+
+authors:
+  - xezon

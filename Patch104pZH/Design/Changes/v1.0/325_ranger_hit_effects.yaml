@@ -1,0 +1,19 @@
+---
+date: 2021-09-12
+
+title: Adds missing hit effects to USA Rangers after Chemical Suits upgrade
+
+changes:
+  - fix: After upgrading the Ranger with Chemical Suits, they now display hit effects when damaged.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/325
+
+authors:
+  - commy2

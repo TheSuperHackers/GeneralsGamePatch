@@ -1,0 +1,18 @@
+---
+date: 2021-09-02
+
+title: Expands menu map selection lists to 1200 entries
+
+changes:
+  - fix: Expands menu map selection lists to 1200 entries.
+
+labels:
+  - gui
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/144
+
+authors:
+  - xamorish

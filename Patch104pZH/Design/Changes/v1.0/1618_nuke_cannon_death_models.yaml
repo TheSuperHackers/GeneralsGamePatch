@@ -1,0 +1,19 @@
+---
+date: 2023-02-04
+
+title: Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death
+
+changes:
+  - fix: Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1618
+
+authors:
+  - xezon

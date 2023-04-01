@@ -1,0 +1,22 @@
+---
+date: 2021-08-29
+
+title: Fixes GLA Demo Battle Bus vanishing without applying damage on suicide
+
+changes:
+  - fix: Using the suicide ability with the GLA Battle Bus now deals damage and leaves a wreck after the vehicle explodes.
+
+labels:
+  - buff
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/102
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504
+
+authors:
+  - commy2
+  - xezon

@@ -1,0 +1,31 @@
+---
+date: 2022-09-21
+
+title: Fixes atstratslab snow textures for USA Strategy Center
+
+changes:
+  - fix: Fixes atstratslab snow textures for USA Strategy Center. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
+
+subchanges:
+  - fix: |
+      atstratslab_s
+        - Fixes deep shadows in snow
+        - Adds missing snow at wall edges
+  - fix: |
+      atstratslab_ds, atstratslab_es
+        - Fixes deep shadows in snow
+        - Adds missing snow at wall edges
+        - Fixes snow positions
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1246
+
+authors:
+  - xezon

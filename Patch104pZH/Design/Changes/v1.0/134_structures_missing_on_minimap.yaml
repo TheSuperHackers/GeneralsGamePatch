@@ -1,0 +1,19 @@
+---
+date: 2021-09-01
+
+title: Fixes missing radar dots for China Bunkers and Propaganda Center
+
+changes:
+  - fix: The China Bunkers and Propaganda Center are now shown on the radar.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/134
+
+authors:
+  - hanfield

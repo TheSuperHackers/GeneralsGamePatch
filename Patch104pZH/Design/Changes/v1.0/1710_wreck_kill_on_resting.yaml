@@ -1,0 +1,18 @@
+---
+date: 2023-01-29
+
+title: Sets kill on resting for vehicle wrecks
+
+changes:
+  - tweak: Sets KillWhenRestingOnGround on all vehicle wrecks where it was originally missing. This means a wreck object is set dead either after its lifetime has expired or when it is resting on ground.
+
+labels:
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1710
+
+authors:
+  - xezon

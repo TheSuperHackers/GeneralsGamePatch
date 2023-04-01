@@ -1,0 +1,19 @@
+---
+date: 2021-09-22
+
+title: Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction
+
+changes:
+  - fix: Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/401
+
+authors:
+  - commy2

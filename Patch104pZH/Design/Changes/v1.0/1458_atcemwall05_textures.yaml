@@ -1,0 +1,38 @@
+---
+date: 2022-11-08
+
+title: Fixes and improves atcemwall05 textures for USA structures
+
+changes:
+  - fix: Fixes and improves atcemwall05 textures for USA structures.
+
+subchanges:
+  - fix: |
+      atcemwall05, atcemwall05_d
+        - Fixes wall sharpness mismatch with atcemwall01
+  - fix: |
+      atcemwall05_e
+        - Fixes bullet holes drawing over burns
+  - fix: |
+      atcemwall05_s
+        - Fixes small artifacts on snow
+        - Fixes wall sharpness mismatch with atcemwall01
+  - fix: |
+      atcemwall05_ds, atcemwall05_es
+        - Fixes small artifacts on snow
+        - Fixes snow drawing over burns
+        - Fixes wall sharpness mismatch with atcemwall01
+        - Fixes bullet holes drawing over burns
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1458
+
+authors:
+  - xezon

@@ -1,0 +1,26 @@
+---
+date: 2023-01-01
+
+title: Improves placement view angle of faction base defenses
+
+changes:
+  - tweak: Streamlines placement view angle of faction base defenses.
+  - fix: Fixes small placement view angle error of GLA Tunnel Network(s).
+
+subchanges:
+  - tweak: Sets placement view angle of USA Patriot Battery from -45 to -135.
+  - tweak: Sets placement view angle of USA Firebase from -45 to -135.
+  - tweak: Sets placement view angle of China Gattling Cannon from -45 to -135.
+  - tweak: Sets placement view angle of GLA Stinger Site from -45 to -135.
+  - fix: Sets placement view angle of GLA Tunnel Network(s) from -44 to -45.
+
+labels:
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1514
+
+authors:
+  - xezon

@@ -1,0 +1,20 @@
+---
+date: 2021-09-03
+
+title: Removes obsolete Advanced Training icon from USA Pilots
+
+changes:
+  - fix: The USA Pilot no longer shows an icon for Advanced Training.
+
+labels:
+  - bug
+  - gui
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/160
+
+authors:
+  - hanfield

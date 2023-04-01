@@ -1,0 +1,20 @@
+---
+date: 2022-09-13
+
+title: Fixes zhca_aihero2 texture for USA Colonel Burton
+
+changes:
+  - fix: Fixes texture error on pants of USA Colonel Burton.
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1189
+
+authors:
+  - xezon

@@ -1,0 +1,22 @@
+---
+date: 2022-08-06
+
+title: Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade
+
+changes:
+  - fix: The tooltip text of the USA Countermeasures upgrade now states the correct upgrade bonuses.
+
+labels:
+  - bug
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/843
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1225
+
+authors:
+  - commy2
+  - xezon

@@ -1,0 +1,21 @@
+---
+date: 2022-09-08
+
+title: Increases sight range of USA Sentry Drone by 30%
+
+changes:
+  - tweak: Increases the sight range of USA Sentry Drone by 30%, from 350 to 400.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1162
+
+authors:
+  - xezon

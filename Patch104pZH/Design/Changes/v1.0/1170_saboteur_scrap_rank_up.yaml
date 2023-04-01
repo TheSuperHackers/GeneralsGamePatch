@@ -1,0 +1,19 @@
+---
+date: 2022-09-09
+
+title: Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates
+
+changes:
+  - fix: The GLA Stealth Saboteur can no longer level up by collecting scrap crates. Instead it will just collect money. This is now consistent with the regular GLA Saboteur.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1170
+
+authors:
+  - commy2

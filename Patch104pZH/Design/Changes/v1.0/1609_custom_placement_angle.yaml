@@ -1,0 +1,24 @@
+---
+date: 2023-01-28
+
+title: Removes custom placement view angle from vehicles
+
+changes:
+  - tweak: Removes custom placement view angle from vehicles. This way, placement view angle is consistent when placing vehicles in World Builder.
+
+subchanges:
+  - tweak: Removes placement view angle from GLA Battle Bus objects
+  - tweak: Removes placement view angle from USA Avenger Laser Turret objects
+  - tweak: Removes placement view angle from China Helix Propaganda, Bunker attachment objects
+  - tweak: Removes placement view angle from China Overlord Propaganda, Bunker attachment objects
+
+labels:
+  - minor
+  - v1.0
+  - worldbuilder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1609
+
+authors:
+  - xezon

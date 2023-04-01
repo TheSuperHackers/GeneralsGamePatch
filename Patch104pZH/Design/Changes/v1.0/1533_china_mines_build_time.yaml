@@ -1,0 +1,22 @@
+---
+date: 2023-01-08
+
+title: Decreases build time of China Mines
+
+changes:
+  - fix: Decreases build time of regular China Mines from 20 to 18.
+  - fix: Decreases build time of China Neutron Mines from 25 to 18.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1533
+
+authors:
+  - xezon

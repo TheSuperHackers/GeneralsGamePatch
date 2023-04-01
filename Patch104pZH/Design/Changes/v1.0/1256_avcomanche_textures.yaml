@@ -1,0 +1,42 @@
+---
+date: 2022-09-22
+
+title: Fixes and improves avcomanche textures for USA Comanche
+
+changes:
+  - fix: Fixes inconsistencies on avcomanche textures for USA Comanche.
+
+subchanges:
+  - fix: |
+      avcomanche
+        - Removes silver thing from wings
+        - Fixes chassis nose
+        - Fixes details in small panels
+        - Fixes rocket pod gradient
+        - Fixes rocket pod border
+        - Fixes bolts
+        - Increases overall brightness
+  - fix: |
+      avcomanche_d, avcomanche_e
+        - Fixes wings looking different than avcomanche
+        - Fixes chassis nose
+        - Fixes details in small panels
+        - Fixes rocket pod gradient
+        - Fixes rocket pod border
+        - Fixes details in side panels
+        - Decreases window cracks strength
+        - Removes all bullet holes
+
+labels:
+  - art
+  - bug
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1256
+
+authors:
+  - xezon

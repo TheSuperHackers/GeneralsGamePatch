@@ -1,0 +1,32 @@
+---
+date: 2022-09-24
+
+title: Fixed avpowtruck textures for USA POW Truck
+
+changes:
+  - fix: Fixes avpowtruck textures for USA POW Truck.
+
+subchanges:
+  - fix: |
+      avpowtruck_d (Optional)
+        - Fixes mis-positioned drivers roof texture
+        - Fixes sharp edges of burns
+  - fix: |
+      avpowtruck_d1 (Optional)
+        - Fixes mis-positioned drivers roof texture
+        - Fixes strong contrast on drivers roof texture
+        - Fixes sharp edges of burns
+
+labels:
+  - art
+  - bug
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1279
+
+authors:
+  - xezon

@@ -1,0 +1,19 @@
+---
+date: 2023-02-07
+
+title: Adds suicide car bomb ability to Civilian Crop Duster
+
+changes:
+  - fix: Adds suicide car bomb ability to Civilian AircraftCropDuster.
+
+labels:
+  - civilian
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1647
+
+authors:
+  - xezon

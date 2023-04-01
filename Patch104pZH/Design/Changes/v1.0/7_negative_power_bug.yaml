@@ -1,0 +1,22 @@
+---
+date: 2021-08-23
+
+title: Fixes issue that permanently reduces the power level of a player
+
+changes:
+  - fix: USA and China Power Plants, if disabled by a Microwave Tank, will suppress their power production until the Microwave Tank stops. However, if they are disabled while being built, then they will lose power that they never produced. Once construction is complete, the power plant will produce net zero power, upgrades and overcharge notwithstanding. And if that structure or any other Power Plant is sold, the player will have permanent negative power. With this fix it is no longer possible to disable Power Plants while they are being built.
+
+labels:
+  - bug
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/7
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/831
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/832
+
+authors:
+  - hanfield
+  - commy2

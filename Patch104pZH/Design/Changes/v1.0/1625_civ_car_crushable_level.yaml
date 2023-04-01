@@ -1,0 +1,32 @@
+---
+date: 2023-02-04
+
+title: Fixes crushable levels of Civilian cars
+
+changes:
+  - fix: Civilian cars can now be crushed by appropriate larger vehicles.
+
+subchanges:
+  - fix: Civilian Tractor (small) can now be crushed by vehicles.
+  - fix: Civilian ForkliftSmall can now be crushed by vehicles.
+  - fix: Civilian FarmerChickenTruck can no longer be crushed by vehicles.
+  - fix: Civilian SupplyTruck can no longer be crushed by vehicles.
+  - fix: Civilian FarmerTruck can no longer be crushed by vehicles.
+  - fix: Civilian TruckWork can no longer be crushed by vehicles.
+  - fix: Civilian TruckWork2 can no longer be crushed by vehicles.
+  - fix: Civilian TruckFarmer can no longer be crushed by vehicles.
+  - fix: Civilian ForkliftLarge can now be crushed by Overlord and similar.
+  - fix: USA AmericaVehicleRepairDrone can now be crushed by Overlord and similar.
+
+labels:
+  - bug
+  - civilian
+  - controversial
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1625
+
+authors:
+  - xezon

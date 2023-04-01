@@ -1,0 +1,20 @@
+---
+date: 2022-08-14
+
+title: Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius
+
+changes:
+  - fix: Matches the toxin puddle size of Toxin Tractor with its actual damage radius.
+  - fix: Matches the toxin puddle size of Toxin Shell with its actual damage radius.
+
+labels:
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851
+
+authors:
+  - xezon

@@ -1,0 +1,40 @@
+---
+date: 2022-09-24
+
+title: Fixes atroofparts01 textures for USA structures
+
+changes:
+  - fix: Fixes atroofparts01 textures for USA structures.
+
+subchanges:
+  - fix: |
+      atroofparts01_d
+        - Fixes most bullet holes positions mismatching with atroofparts01_e
+        - Fixes bullet holes drawing over burns
+  - fix: |
+      atroofparts01_e
+        - Fixes bullet holes drawing over burns
+        - Repaints some of the burns to look better
+  - fix: |
+      atroofparts01_ds
+        - Fixes most bullet holes positions mismatching with atroofparts01_e
+        - Fixes bullet holes drawing over burns
+        - Fixes snow drawing over burns
+  - fix: |
+      atroofparts01_es
+        - Fixes bullet holes drawing over burns
+        - Fixes snow drawing over burns
+        - Repaints some of the burns to look better
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1280
+
+authors:
+  - xezon

@@ -1,0 +1,20 @@
+---
+date: 2022-10-16
+
+title: Fixes wrong helipad texture of USA Airfield
+
+changes:
+  - fix: Helipad of badly damaged USA Airfield on Summer Day maps now uses the correct texture.
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1370
+
+authors:
+  - commy2

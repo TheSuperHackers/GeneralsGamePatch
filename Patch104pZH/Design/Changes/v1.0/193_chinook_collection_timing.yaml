@@ -1,0 +1,20 @@
+---
+date: 2021-09-04
+
+title: Fixes some USA Chinooks collecting 100 ms slower than others
+
+changes:
+  - fix: The Super Weapon and Laser General's Chinook, as well as the Combat Chinook, now collect and drop a supply load in the expected time, without any additional delay.
+
+labels:
+  - buff
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/193
+
+authors:
+  - commy2

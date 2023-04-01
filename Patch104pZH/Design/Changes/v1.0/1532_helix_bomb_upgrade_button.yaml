@@ -1,0 +1,21 @@
+---
+date: 2023-01-08
+
+title: Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched
+
+changes:
+  - fix: The Helix Bomb Upgrade is now greyed out while another upgrade is in production.
+
+labels:
+  - bug
+  - china
+  - design
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1532
+
+authors:
+  - xezon

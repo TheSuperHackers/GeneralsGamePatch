@@ -1,0 +1,22 @@
+---
+date: 2021-10-10
+
+title: Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings
+
+changes:
+  - fix: The GLA Stealth Saboteur can now enter the China Internet Center. This will disable the structure for 15 seconds. This is consistent with the behaviour of the regular GLA Saboteur.
+  - fix: The GLA Stealth Saboteur can now enter GLA Fake Buildings. This will destroy the Fake Building. This is consistent with the behaviour of the regular GLA Saboteur.
+
+labels:
+  - buff
+  - bug
+  - controversial
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/544
+
+authors:
+  - commy2

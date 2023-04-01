@@ -1,0 +1,19 @@
+---
+date: 2022-09-01
+
+title: Fixes setup issues of China Empty Troopcrawler (cut content)
+
+changes:
+  - fix: Fixes setup issues of China Empty Troopcrawler.
+
+labels:
+  - china
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1060
+
+authors:
+  - xezon

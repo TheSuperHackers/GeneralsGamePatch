@@ -1,0 +1,19 @@
+---
+date: 2021-08-22
+
+title: Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone
+
+changes:
+  - fix: The USA Supply Drop Zone, while being built, is now immune to the Microwave Tank disable beam. When completed, it is possible to disable them as usual.
+
+labels:
+  - bug
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/3
+
+authors:
+  - hanfield

@@ -1,0 +1,20 @@
+---
+date: 2021-09-10
+
+title: Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings
+
+changes:
+  - fix: All stealthed China Hackers are now revealed when hacking buildings.
+
+labels:
+  - bug
+  - china
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/276
+
+authors:
+  - commy2

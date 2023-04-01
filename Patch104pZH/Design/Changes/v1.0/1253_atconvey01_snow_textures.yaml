@@ -1,0 +1,30 @@
+---
+date: 2022-09-22
+
+title: Fixes atconvey01 snow textures for USA War Factory
+
+changes:
+  - fix: Fixes atconvey01 snow textures for USA War Factory. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
+
+subchanges:
+  - fix: |
+      atconvey01_s
+        - Fixes blue color cast on snow
+  - fix: |
+      atconvey01_ds, atconvey01_es
+        - Fixes mispositioned snow
+        - Fixes snow drawing over burns
+        - Fixes bullet holes drawing over burns
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1253
+
+authors:
+  - xezon

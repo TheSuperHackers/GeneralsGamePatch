@@ -1,0 +1,27 @@
+---
+date: 2022-09-27
+
+title: Fixes pmtorch textures
+
+changes:
+  - fix: Fixes pmtorch textures.
+
+subchanges:
+  - fix: |
+      pmtorch_d, pmtorch_n
+        - Reduces texture size from 256x256 to 64x64 like pmtorch
+  - fix: |
+      pmtorch_ds
+        - Fixes grey snow
+
+labels:
+  - art
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1306
+
+authors:
+  - xezon

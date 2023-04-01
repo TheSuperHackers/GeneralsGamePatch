@@ -1,0 +1,18 @@
+---
+date: 2022-08-26
+
+title: Adds better 3D model for classic carpet bomb model
+
+changes:
+  - fix: Adds better 3D model for classic carpet bomb model.
+
+labels:
+  - art
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/949
+
+authors:
+  - commy2

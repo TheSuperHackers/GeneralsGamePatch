@@ -1,0 +1,20 @@
+---
+date: 2021-09-22
+
+title: Fixes inconsistent Air Guard button placement on USA Raptor
+
+changes:
+  - fix: The Guard Air button of the USA Raptor is now placed in the free corner slot. This is consistent with the button placement of China Mig.
+
+labels:
+  - design
+  - gui
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/402
+
+authors:
+  - commy2

@@ -1,0 +1,19 @@
+---
+date: 2021-10-10
+
+title: Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps
+
+changes:
+  - fix: Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/541
+
+authors:
+  - commy2

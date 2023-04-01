@@ -1,0 +1,19 @@
+---
+date: 2021-09-11
+
+title: Fixes Fuel Bomb of USA Alpha Aurora detonating before hitting the ground
+
+changes:
+  - fix: The Aurora Alpha secondary fuel air explosion is now created where the bomb actually hits, instead of where it first collides with a building.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/292
+
+authors:
+  - commy2

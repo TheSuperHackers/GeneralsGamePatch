@@ -1,0 +1,20 @@
+---
+date: 2022-11-30
+
+title: Fixes USA Supply Center model issues
+
+changes:
+  - fix: Cable no longer clips through the claw of the crane.
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1491
+
+authors:
+  - Stubbjax

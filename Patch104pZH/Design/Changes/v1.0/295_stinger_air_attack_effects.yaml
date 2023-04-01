@@ -1,0 +1,20 @@
+---
+date: 2021-09-11
+
+title: Adds missing air attack effects and animations for GLA Stinger Site
+
+changes:
+  - fix: The GLA Stinger Soldiers now use the muzzle flash and recoil animation when engaging airborne targets, instead of just standing there while the missile spawns.
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/295
+
+authors:
+  - commy2

@@ -1,0 +1,15 @@
+---
+date: 2021-08-22
+
+title: Fixes critical issue that crashes all clients in a match
+
+changes:
+  - fix: Game no longer crashes all clients in a specific match scenario.
+
+labels:
+  - bug
+  - critical
+  - v1.0
+
+authors:
+  - xezon

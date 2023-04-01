@@ -1,0 +1,21 @@
+---
+date: 2021-09-13
+
+title: Moves Supply Lines upgrade icon from USA Supply Center to USA Chinook
+
+changes:
+  - fix: Removes Supply Lines upgrade icon from the USA Supply Center, because the cash bonus is linked to the Chinook and not the Supply Center.
+  - fix: Adds Supply Lines upgrade icon to the USA Chinook, because the cash bonus is linked to the Chinook and not the Supply Center.
+
+labels:
+  - bug
+  - gui
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/352
+
+authors:
+  - commy2

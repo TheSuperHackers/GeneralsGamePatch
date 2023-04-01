@@ -1,0 +1,20 @@
+---
+date: 2021-08-28
+
+title: Fixes wrong ability image of GLA Saboteur
+
+changes:
+  - fix: The Sabotage Building ability now shows the intended icon image instead of being a duplicate of the Saboteur's portrait.
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/91
+
+authors:
+  - commy2

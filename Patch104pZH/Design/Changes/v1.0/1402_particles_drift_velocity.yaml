@@ -1,0 +1,31 @@
+---
+date: 2022-10-22
+
+title: Streamlines drift velocity of prominent smoke and steam particles
+
+changes:
+  - fix: |
+      The drift velocity of prominent smoke and steam particles is now consistent. It drifts into a similar direction like the clouds do. Affects
+        - DozerSmokeHeavy
+        - DozerSmokeLight
+        - SmolderingSmoke
+        - SmolderingSmokeHuge
+        - SmolderingSmokeLarge
+        - SmolderingSmokeTower
+        - Steam
+        - SteamBurst
+        - SteamLarge
+        - SteamMedium
+        - SteamSmall
+        - SteamVentNight
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1402
+
+authors:
+  - xezon

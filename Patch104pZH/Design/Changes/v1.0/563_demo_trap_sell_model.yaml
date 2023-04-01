@@ -1,0 +1,19 @@
+---
+date: 2021-10-15
+
+title: Fixes wrong model during deconstruction of GLA Advanced Demo Trap
+
+changes:
+  - fix: The correct model is now shown during the deconstruction of the GLA Advanced Demo Trap.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/563
+
+authors:
+  - commy2

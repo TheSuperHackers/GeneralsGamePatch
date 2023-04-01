@@ -1,0 +1,19 @@
+---
+date: 2023-02-11
+
+title: Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped
+
+changes:
+  - fix: The GLA Scud Storm will now always fully reload after pressing S button during a firing sequence.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1703
+
+authors:
+  - xezon

@@ -1,0 +1,20 @@
+---
+date: 2021-09-19
+
+title: Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix
+
+changes:
+  - fix: Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix.
+
+labels:
+  - bug
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/391
+
+authors:
+  - commy2

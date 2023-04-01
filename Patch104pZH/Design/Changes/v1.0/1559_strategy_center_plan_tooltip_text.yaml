@@ -1,0 +1,19 @@
+---
+date: 2023-01-17
+
+title: Improves tool tip text of USA Strategy Center Battle Plans
+
+changes:
+  - fix: Fixes wrong and inaccurate information in USA Battle Plan tool tip texts for all latin languages.
+
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1559
+
+authors:
+  - xezon

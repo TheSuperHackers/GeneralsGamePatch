@@ -1,0 +1,19 @@
+---
+date: 2021-09-12
+
+title: Fixes Stealth General unable to build Hijacker from regular GLA Barracks
+
+changes:
+  - fix: The Stealth General can now build Hijackers in a regular GLA Barracks.
+
+labels:
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/331
+
+authors:
+  - commy2

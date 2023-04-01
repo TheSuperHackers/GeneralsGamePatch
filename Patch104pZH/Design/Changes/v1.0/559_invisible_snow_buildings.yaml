@@ -1,0 +1,22 @@
+---
+date: 2021-10-13
+
+title: Fixes invisible Civilian buildings on Winter maps
+
+changes:
+  - fix: |
+      Fixes invisible Civilian buildings on Winter maps. Affects
+        - CivilianHighrise01
+        - CivilianHighrise02
+
+labels:
+  - bug
+  - civilian
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/559
+
+authors:
+  - commy2

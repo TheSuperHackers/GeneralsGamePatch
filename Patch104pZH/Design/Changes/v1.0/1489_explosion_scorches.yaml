@@ -1,0 +1,37 @@
+---
+date: 2022-12-01
+
+title: Adds new terrain scorches for explosion effects
+
+changes:
+  - feature: Adds scorch to Helicopter ground crashes.
+  - feature: Adds scorch to Carpet Bomb explosions.
+  - feature: Adds scorch to USA Tomahawk missile hits.
+  - feature: Adds scorch to USA Aurora Bomb explosions.
+  - feature: Adds scorch to USA Alpha Aurora gas explosions.
+  - feature: Adds scorch to USA A10 missile hits.
+  - feature: Adds scorch to USA Fuel Bomb explosions.
+  - feature: Adds scorch to China Nuke Cannon shell explosions.
+  - feature: Adds scorch to China Power Plant death explosions.
+  - feature: Adds scorch to China Nuke Silo death explosions.
+  - feature: Adds scorch to GLA Technical death explosions.
+  - feature: Adds scorch to GLA Bomb Truck detonations.
+  - feature: Adds scorch to GLA Scud Launcher missile hits.
+  - feature: Adds scorch to GLA Scud Storm missile hits.
+  - feature: Adds scorches to death explosions of all GLA Demo suicide units.
+
+labels:
+  - art
+  - bug
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1489
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1536
+
+authors:
+  - Stubbjax
+  - xezon

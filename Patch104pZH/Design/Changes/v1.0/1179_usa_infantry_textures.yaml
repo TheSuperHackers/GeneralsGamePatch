@@ -1,0 +1,26 @@
+---
+date: 2022-09-10
+
+title: Adds blue texture variants for USA Infantry units
+
+changes:
+  - feature: |
+      Adds blue texture for
+        - USA Missile Defender
+        - USA Colonel Burton
+        - General Griffon
+        - General Bradly
+
+labels:
+  - art
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1179
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1189
+
+authors:
+  - commy2

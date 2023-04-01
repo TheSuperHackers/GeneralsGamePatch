@@ -1,0 +1,20 @@
+---
+date: 2022-08-06
+
+title: Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber
+
+changes:
+  - fix: The tooltip texts of the USA Airforce Carpet Bomber now state the correct countdown values.
+
+labels:
+  - bug
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/841
+
+authors:
+  - commy2

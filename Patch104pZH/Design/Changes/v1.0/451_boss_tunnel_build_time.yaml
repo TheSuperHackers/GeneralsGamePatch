@@ -1,0 +1,19 @@
+---
+date: 2021-10-03
+
+title: Fixes fast build time of Boss Tunnel Network
+
+changes:
+  - fix: The Boss Tunnel Network is now constructed at the same speed as GLA Tunnels.
+
+labels:
+  - boss
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/451
+
+authors:
+  - commy2

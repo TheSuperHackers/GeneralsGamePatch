@@ -1,0 +1,19 @@
+---
+date: 2021-08-28
+
+title: Fixes wrong portrait image of GLA Sneak attack
+
+changes:
+  - fix: The emerging GLA Sneak Attack now uses the correct portrait of a Sneak Attack instead of the Tunnel Network.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/86
+
+authors:
+  - commy2

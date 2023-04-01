@@ -1,0 +1,18 @@
+---
+date: 2022-08-13
+
+title: Removes damage effects from immortal civilian structures
+
+changes:
+  - fix: Removes damage effects from immortal civilian structures.
+
+labels:
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/883
+
+authors:
+  - commy2

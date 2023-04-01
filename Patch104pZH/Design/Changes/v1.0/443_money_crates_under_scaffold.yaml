@@ -1,0 +1,20 @@
+---
+date: 2021-10-01
+
+title: Money Crates no longer vanish when a building scaffold is placed on top
+
+changes:
+  - fix: Money Crates no longer vanish when a building scaffold is placed on top.
+
+labels:
+  - civilian
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/443
+
+authors:
+  - commy2

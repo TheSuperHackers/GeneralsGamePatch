@@ -1,0 +1,19 @@
+---
+date: 2021-09-18
+
+title: Adds missing Neutron Mines to Boss Scud Storm
+
+changes:
+  - fix: Adds missing Neutron Mines to Boss Scud Storm.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/380
+
+authors:
+  - commy2

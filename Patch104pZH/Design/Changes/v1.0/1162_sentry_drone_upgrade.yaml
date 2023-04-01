@@ -1,0 +1,22 @@
+---
+date: 2022-09-08
+
+title: Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20%
+
+changes:
+  - tweak: Decreases USA Sentry Drone gun upgrade time by 66%, from 30 to 10 seconds.
+  - tweak: Decreases USA Sentry Drone gun upgrade cost by 20%, from 1000 to 800.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1162
+
+authors:
+  - xezon

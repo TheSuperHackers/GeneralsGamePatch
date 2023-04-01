@@ -1,0 +1,20 @@
+---
+date: 2021-09-13
+
+title: Fixes inconsistent clip sizes of USA Laser Turret
+
+changes:
+  - fix: The Laser Turret now fires only 3 shots, both when engaging airborne units and assisting other Laser Turrets.
+
+labels:
+  - bug
+  - controversial
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/373
+
+authors:
+  - commy2

@@ -1,0 +1,21 @@
+---
+date: 2022-09-07
+
+title: Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400
+
+changes:
+  - tweak: Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400. This matches the required experience of GLA Jarmen Kell.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1153
+
+authors:
+  - xezon

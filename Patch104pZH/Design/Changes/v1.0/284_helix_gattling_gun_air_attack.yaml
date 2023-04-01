@@ -1,0 +1,19 @@
+---
+date: 2021-09-11
+
+title: Fixes China Helix with Gattling Cannon being able to unreliably attack air units
+
+changes:
+  - fix: The China Helix with the Gattling Cannon upgrade will no longer be able to fire at airborne units if they are right in front of it.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/284
+
+authors:
+  - commy2

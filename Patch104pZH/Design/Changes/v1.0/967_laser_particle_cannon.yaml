@@ -1,0 +1,23 @@
+---
+date: 2022-08-23
+
+title: Fixes issues of the USA Laser Superweapon (cut content)
+
+changes:
+  - fix: Fixes the GUI:Lazr_LaserCannon countdown timer text.
+  - fix: Fixes text references to the "Particle Cannon".
+  - fix: Fixes text countdown timer of 4:00 to 2:00 minutes.
+  - fix: Makes the Laser Cannon reveal itself like other superweapons.
+  - tweak: Replaces all blue particle effects with red particle effects.
+
+labels:
+  - enhancement
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/967
+
+authors:
+  - commy2

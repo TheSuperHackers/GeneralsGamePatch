@@ -1,0 +1,20 @@
+---
+date: 2022-09-23
+
+title: Fixes wrong select audio of China Internet Centers
+
+changes:
+  - fix: Internet Centers of China Nuke, China Tank and China Infantry now play the correct selection audio.
+
+labels:
+  - audio
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1260
+
+authors:
+  - xezon

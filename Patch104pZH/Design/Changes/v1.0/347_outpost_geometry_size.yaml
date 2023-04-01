@@ -1,0 +1,19 @@
+---
+date: 2021-09-13
+
+title: Fixes inconsistent geometry sizes of China Outpost models
+
+changes:
+  - fix: Fixes inconsistent geometry sizes of China Outpost models.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/347
+
+authors:
+  - commy2

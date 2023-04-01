@@ -1,0 +1,24 @@
+---
+date: 2022-09-04
+
+title: Fixes mispositioned explosion effects
+
+changes:
+  - fix: Fixes improperly positioned China Nuke Cannon shell detonation effect.
+  - fix: Fixes improperly positioned China Nuke Battlemaster and Nuke Overlord death explosion effect.
+  - fix: Fixes improperly positioned China Nuklear Tank death explosion effect.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1122
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1493
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504
+
+authors:
+  - commy2
+  - xezon

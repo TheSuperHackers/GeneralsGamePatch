@@ -1,0 +1,29 @@
+---
+date: 2023-02-09
+
+title: Fixes turret animation and effect issues on death of tanks
+
+changes:
+  - fix: Fixes turret glitches on death of several tanks. Muzzle flashes no longer show on death. And turret barrel no longer recoils on death.
+
+subchanges:
+  - fix: Fixes turret death glitches of China Battlemaster.
+  - fix: Fixes turret death glitches of China Overlord.
+  - fix: Fixes turret death glitches of China Emperor.
+  - fix: Fixes turret death glitches of (Demo) GLA Marauder.
+  - fix: Fixes turret death glitches of (Demo) GLA Scorpion.
+
+labels:
+  - bug
+  - china
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1657
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1662
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1663
+
+authors:
+  - xezon

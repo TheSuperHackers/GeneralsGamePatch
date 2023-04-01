@@ -1,0 +1,20 @@
+---
+date: 2021-09-07
+
+title: Fixes USA Spectre Gunship losing its house color when shot down
+
+changes:
+  - fix: The house color of the USA Spectre Gunship now remains when shot down.
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/254
+
+authors:
+  - commy2

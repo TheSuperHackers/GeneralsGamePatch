@@ -1,0 +1,19 @@
+---
+date: 2021-08-28
+
+title: Fixes crushed GLA Marauder becoming an indestructible unit
+
+changes:
+  - fix: The GLA Marauder no longer lingers indefinitely on the map after getting crushed by a China Overlord Tank.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/90
+
+authors:
+  - commy2

@@ -1,0 +1,19 @@
+---
+date: 2021-09-04
+
+title: Fixes animations, models and sounds of GLA Combat Bike in Singleplayer
+
+changes:
+  - fix: All GLA Combat Bikes now look and behave the same, except for their rider on top.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/186
+
+authors:
+  - commy2

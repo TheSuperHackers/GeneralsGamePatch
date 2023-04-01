@@ -1,0 +1,21 @@
+---
+date: 2022-10-15
+
+title: Fixes particle effects of USA Power Plant
+
+changes:
+  - fix: Removes superfluous particle effects from damaged USA Power Plant.
+  - fix: Fixes chimney smoke position of damaged USA Power Plant.
+
+labels:
+  - bug
+  - minor
+  - performance
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1371
+
+authors:
+  - commy2

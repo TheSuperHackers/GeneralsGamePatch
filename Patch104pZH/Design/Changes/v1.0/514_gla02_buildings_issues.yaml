@@ -1,0 +1,27 @@
+---
+date: 2021-10-07
+
+title: Fixes issues with GLA Stealth buildings in GLA02 campaign
+
+changes:
+  - fix: The GLA02 Stealth General buildings no longer behave inconsistently when stealthed.
+  - fix: The GLA02 Stealth General's Buildings are now compatible with Fortified Structures.
+  - fix: The GLA02 Stealth General's Buildings are no longer immune to Microwave tanks.
+  - fix: The GLA02 Stealth General's Barracks, Supply Stash, and Black Market now have the same health as the regular versions.
+  - fix: The GLA02 Stealth General's Supply Stash is no longer built in 30 seconds.
+  - fix: The GLA02 Stealth General's Arms Dealer is no longer built in 50 seconds.
+  - fix: The GLA02 Stealth General's Black Market is no longer built in 90 seconds.
+  - fix: The GLA02 Stealth General's Black Market now has a usable button to upgrade Camo-Netting, and it is not already camouflaged.
+  - fix: The GLA02 Stealth General's Supply Stash is now classified as a supply dock instead of a power plant.
+  - fix: The GLA02 Stealth General's Palace now uses its night model during the night.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/514
+
+authors:
+  - commy2

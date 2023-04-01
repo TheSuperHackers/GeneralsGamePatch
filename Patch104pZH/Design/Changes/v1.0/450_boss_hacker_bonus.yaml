@@ -1,0 +1,19 @@
+---
+date: 2021-10-03
+
+title: Fixes hacking speed of Boss Hacker inside Internet Center
+
+changes:
+  - fix: The Boss Hacker no longer hacks 25% faster inside Internet Centers instead of 10% faster as other (non-Super Hacker) Hackers.
+
+labels:
+  - boss
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/450
+
+authors:
+  - commy2

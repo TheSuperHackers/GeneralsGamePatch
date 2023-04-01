@@ -1,0 +1,19 @@
+---
+date: 2022-09-04
+
+title: Fixed misplaced fire ports on GLA Palace
+
+changes:
+  - fix: Occupants of the GLA Palace no longer shoot from the center of the building.
+
+labels:
+  - bug
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1097
+
+authors:
+  - commy2

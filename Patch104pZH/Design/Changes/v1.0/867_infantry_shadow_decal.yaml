@@ -1,0 +1,18 @@
+---
+date: 2022-08-14
+
+title: Fixes rough edges and pink color cast in Infantry decal shadows
+
+changes:
+  - fix: Fixes the rough edges and the pink color cast in Infantry decal shadows.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/867
+
+authors:
+  - xezon

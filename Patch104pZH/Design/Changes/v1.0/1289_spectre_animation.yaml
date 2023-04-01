@@ -1,0 +1,19 @@
+---
+date: 2022-09-25
+
+title: Fixes animation issues on damaged USA Spectre Gunship
+
+changes:
+  - fix: The level 2 and level 3 USA Spectre Gunship no longer resets its animation state when transitioning between damage states.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1289
+
+authors:
+  - Stubbjax

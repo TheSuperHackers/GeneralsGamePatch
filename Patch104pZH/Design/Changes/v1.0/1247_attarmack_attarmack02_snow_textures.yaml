@@ -1,0 +1,36 @@
+---
+date: 2022-09-21
+
+title: Fixes attarmack, attarmack02 snow textures for USA Airfield
+
+changes:
+  - fix: Fixes attarmack, attarmack02 snow textures for USA Airfield.
+
+subchanges:
+  - fix: |
+      attarmack_s
+        - Blends snow with some snow of attarmack_ds
+        - Reduces blue color in snow
+  - fix: |
+      attarmack_ds, attarmack_es
+        - Fixes snow looking different than attarmack_s
+        - Fixes snow shifting positions
+        - Fixes snow drawing over burns
+  - fix: |
+      attarmack02_ds, attarmack02_es
+        - Fixes snow shifting positions on Helipad
+        - Fixes snow drawing over burns
+
+labels:
+  - art
+  - bug
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1247
+
+authors:
+  - xezon

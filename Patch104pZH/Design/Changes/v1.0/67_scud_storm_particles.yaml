@@ -1,0 +1,24 @@
+---
+date: 2021-08-27
+
+title: Fixes wrong Anthrax effect colors of GLA Scud Storm missiles
+
+changes:
+  - fix: The particle effects of a firing a Scud Storm are no longer always green and instead spawn with the respective Anthrax type color.
+
+subchanges:
+  - fix: Anthrax Beta Scud missile creates blue particle effects.
+  - fix: Anthrax Gamma Scud missile creates pink particle effects.
+  - fix: Scud missile of Demo General creates no particle effects.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/67
+
+authors:
+  - commy2

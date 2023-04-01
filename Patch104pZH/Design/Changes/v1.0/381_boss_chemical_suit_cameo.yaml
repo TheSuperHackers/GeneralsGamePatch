@@ -1,0 +1,20 @@
+---
+date: 2021-09-18
+
+title: Adds missing Chemical Suits upgrade icon to Boss Infantry units
+
+changes:
+  - fix: Adds missing Chemical Suits upgrade icon to Boss Infantry units.
+
+labels:
+  - boss
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/381
+
+authors:
+  - commy2
