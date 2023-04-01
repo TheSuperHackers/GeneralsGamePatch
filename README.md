@@ -1,4 +1,4 @@
-# Generals Game Patch
+# Super Aurora - Generals Game Patch
 
 This project aims to fix and improve the original video game title "Command and Conquer Generals: Zero Hour" from Electronic Arts (EA).
 
@@ -22,6 +22,18 @@ Note: **EA has not endorsed and does not support this product.**
 - Fix and improve models, textures and audio
 - Fix and improve Official Maps
 - Add new Language(s)
+
+## Change Logs
+
+Version 1.0 (work in progress)
+
+- [v1.0 all changes sorted by date](Patch104pZH/ReleaseUnpacked/Changes/v1.0/AllSortedByDate.md)
+- [v1.0 all changes sorted by severity](Patch104pZH/ReleaseUnpacked/Changes/v1.0/AllSortedBySeverity.md)
+- [v1.0 controversial changes sorted by faction](Patch104pZH/ReleaseUnpacked/Changes/v1.0/ControversialOnlySortedByFaction.md)
+- [v1.0 USA changes sorted by date](Patch104pZH/ReleaseUnpacked/Changes/v1.0/UsaOnlySortedByDate.md)
+- [v1.0 China changes sorted by date](Patch104pZH/ReleaseUnpacked/Changes/v1.0/ChinaOnlySortedByDate.md)
+- [v1.0 GLA changes sorted by date](Patch104pZH/ReleaseUnpacked/Changes/v1.0/GlaOnlySortedByDate.md)
+- [v1.0 art changes sorted by faction](Patch104pZH/ReleaseUnpacked/Changes/v1.0/ArtOnlySortedByFaction.md)
 
 ## Community Surveys
 
