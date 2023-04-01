@@ -1,0 +1,19 @@
+---
+date: 2022-10-20
+
+title: Adds steam particles to all chimneys of China Nuke Power Plant
+
+changes:
+  - fix: China Nuke Power Plant now emits steam particles from all its chimneys. This is consistent with the portrait image.
+
+labels:
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1396
+
+authors:
+  - commy2

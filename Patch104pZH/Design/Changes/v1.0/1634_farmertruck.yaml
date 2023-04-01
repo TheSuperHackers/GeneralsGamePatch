@@ -1,0 +1,19 @@
+---
+date: 2023-02-05
+
+title: Removes non-functional Civilian FarmerTruck object
+
+changes:
+  - fix: Removes the non-functional Civilian FarmerTruck object from the game. It can no longer be placed in World Builder.
+
+labels:
+  - bug
+  - minor
+  - worldbuilder
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1634
+
+authors:
+  - xezon

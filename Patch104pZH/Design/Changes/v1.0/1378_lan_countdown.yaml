@@ -1,0 +1,19 @@
+---
+date: 2022-10-16
+
+title: Decreases LAN Match Countdown from 5 to 3 seconds
+
+changes:
+  - fix: gogogogo
+
+labels:
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1378
+
+authors:
+  - commy2

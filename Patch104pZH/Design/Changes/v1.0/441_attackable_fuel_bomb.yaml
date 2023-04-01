@@ -1,0 +1,19 @@
+---
+date: 2021-10-01
+
+title: Fixes attackable Fuel Air Bomb
+
+changes:
+  - fix: The Fuel Air Bomb is no longer attackable.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/441
+
+authors:
+  - commy2

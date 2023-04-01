@@ -1,0 +1,19 @@
+---
+date: 2021-09-11
+
+title: Adds missing muzzle flash for Snipe Attack ability of GLA Jarmen Kell on Combat Bike
+
+changes:
+  - fix: The GLA Combat Bike now shows a muzzle effect for the Jarmen Kell Snipe Attack.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/309
+
+authors:
+  - commy2

@@ -1,0 +1,19 @@
+---
+date: 2022-09-06
+
+title: Fixes ungraceful fade out of GLA Demo Trap particle effect
+
+changes:
+  - fix: Fixes the ungraceful fade out of the GLA Demo Trap flare.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1130
+
+authors:
+  - xezon

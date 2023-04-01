@@ -1,0 +1,19 @@
+---
+date: 2021-09-11
+
+title: Fixes wrong USA Ranger spawn type of Paradrop ability
+
+changes:
+  - fix: The USA Paradrop ability now correctly spawns the corresponding Ranger type for each USA sub faction, instead of always spawning the Rangers of the normal USA faction. This way they can be selected by double clicking when mixed with built Rangers from the Barracks or Rangers spawned by destroyed buildings.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/286
+
+authors:
+  - commy2

@@ -1,0 +1,20 @@
+---
+date: 2022-11-07
+
+title: Fixes wrong death sounds of China Hacker
+
+changes:
+  - fix: China Hacker no longer uses death sounds of Red Guard when killed.
+
+labels:
+  - audio
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1455
+
+authors:
+  - commy2

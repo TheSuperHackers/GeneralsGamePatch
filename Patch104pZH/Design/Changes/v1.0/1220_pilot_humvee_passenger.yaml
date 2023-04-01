@@ -1,0 +1,20 @@
+---
+date: 2022-09-18
+
+title: Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead
+
+changes:
+  - tweak: Forbids NO_GARRISON flag objects from entering Humvee. NO_GARRISON is unique to Pilot and makes it unable to enter civilian buildings, Tunnels and Bunkers. Cursor still appears and it promotes the Humvee when entered. Therefore a Vet 3 Humvee can no longer transport Pilots.
+
+labels:
+  - bug
+  - controversial
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1220
+
+authors:
+  - commy2

@@ -1,0 +1,20 @@
+---
+date: 2022-08-14
+
+title: Improves visual quality of green and blue toxin puddles
+
+changes:
+  - tweak: Improves the visual quality of green toxin puddles. It now has more of a yellow tint, matching the toxin color palette of the original Toxin Tractor portrait image.
+  - tweak: Improves the visual quality of blue toxin puddles. It now has a lighter tone, matching more closely the bright and vibrant tones of green and purple toxins.
+
+labels:
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851
+
+authors:
+  - xezon

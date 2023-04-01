@@ -1,0 +1,19 @@
+---
+date: 2022-08-20
+
+title: Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image
+
+changes:
+  - fix: Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image.
+
+labels:
+  - gui
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1020
+
+authors:
+  - commy2

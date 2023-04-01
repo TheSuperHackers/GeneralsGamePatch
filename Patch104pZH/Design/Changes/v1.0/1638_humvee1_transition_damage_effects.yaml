@@ -1,0 +1,19 @@
+---
+date: 2023-02-05
+
+title: Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees
+
+changes:
+  - fix: All Humvees now use the same transition damage effects.
+
+labels:
+  - art
+  - civilian
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1638
+
+authors:
+  - xezon

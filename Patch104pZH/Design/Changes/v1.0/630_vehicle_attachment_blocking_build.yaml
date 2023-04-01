@@ -1,0 +1,24 @@
+---
+date: 2021-12-24
+
+title: Fixes units with attachments blocking scaffold placements
+
+changes:
+  - fix: |
+      Units with attachments no longer prevent scaffold placements on top of them. Units with attachments are
+        - USA Avenger
+        - China Overlord Tank
+        - China Helix
+
+labels:
+  - bug
+  - china
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/630
+
+authors:
+  - hanfield

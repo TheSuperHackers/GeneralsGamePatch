@@ -1,0 +1,20 @@
+---
+date: 2023-01-07
+
+title: Fixes USA Strategy Center Gun attack issues
+
+changes:
+  - fix: USA Strategy Center Gun now correctly attacks selected targets always.
+
+labels:
+  - buff
+  - bug
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1524
+
+authors:
+  - xezon

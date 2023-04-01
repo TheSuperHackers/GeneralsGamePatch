@@ -1,0 +1,19 @@
+---
+date: 2022-09-02
+
+title: Fixes ghost muzzle flash before placing first USA Fire Base
+
+changes:
+  - fix: The USA Fire Base no longer shows a ghost muzzle flash before placing the first instance in a match.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1078
+
+authors:
+  - commy2

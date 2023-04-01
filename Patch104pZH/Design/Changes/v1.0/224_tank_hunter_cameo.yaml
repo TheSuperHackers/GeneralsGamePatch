@@ -1,0 +1,21 @@
+---
+date: 2021-09-05
+
+title: Adds missing Patriotism upgrade icon to China Infantry Tank Hunter
+
+changes:
+  - fix: The Infantry General's Tank Hunter now shows the upgrade icon for Patriotism.
+  - fix: The Infantry General's Mingunner and Tank Hunter now shows the upgrade icon for Nationalism.
+
+labels:
+  - bug
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/224
+
+authors:
+  - commy2

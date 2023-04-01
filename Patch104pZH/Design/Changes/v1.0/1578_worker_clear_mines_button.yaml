@@ -1,0 +1,20 @@
+---
+date: 2023-01-21
+
+title: Adds missing Clear Mines command button to the fake structures command set of GLA Worker
+
+changes:
+  - fix: GLA Worker can now use the Clear Mines command when the fake structures command set is selected.
+
+labels:
+  - enhancement
+  - gla
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1578
+
+authors:
+  - xezon

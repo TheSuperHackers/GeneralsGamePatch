@@ -1,0 +1,20 @@
+---
+date: 2021-09-11
+
+title: Fixes GLA Scud Storm not being able to damage itself
+
+changes:
+  - fix: The GLA Scud Storm now damages itself when firing at its own position. This behaviour is consistent with the USA Particle Cannon and China Nuke Silo.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/328
+
+authors:
+  - commy2

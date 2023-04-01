@@ -1,0 +1,19 @@
+---
+date: 2021-08-29
+
+title: Fixes wrong death sounds of GLA Demo infantry units
+
+changes:
+  - fix: The Demo General's Infantry units will no longer play the blown-up Terrorist sound effect when killed with an explosive. This will prevent confusion among players, as the sound effect is typically associated with the Suicide/Demolitions ability.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/101
+
+authors:
+  - commy2

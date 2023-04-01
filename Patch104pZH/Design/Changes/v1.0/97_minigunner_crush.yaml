@@ -1,0 +1,21 @@
+---
+date: 2021-08-28
+
+title: Fixes China Infantry Minigunner being difficult to crush with vehicles
+
+changes:
+  - fix: The China Infantry Minigunner can now be properly crushed with vehicles like any other infantry unit.
+
+labels:
+  - bug
+  - china
+  - controversial
+  - minor
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/97
+
+authors:
+  - hanfield

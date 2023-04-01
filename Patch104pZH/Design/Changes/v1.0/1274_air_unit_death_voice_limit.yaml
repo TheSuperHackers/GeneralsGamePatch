@@ -1,0 +1,22 @@
+---
+date: 2022-09-24
+
+title: Adds missing audio limits to air unit voices
+
+changes:
+  - fix: Sets audio limit 1 on all low fuel voices of airplanes.
+  - fix: Sets audio limit 3 on all death voices of airplanes.
+
+labels:
+  - audio
+  - bug
+  - china
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274
+
+authors:
+  - xezon

@@ -1,0 +1,20 @@
+---
+date: 2023-01-09
+
+title: Optimizes USA vehicle drone spawn positions
+
+changes:
+  - tweak: Scout drone now spawns at the vehicle center like the other drones.
+  - tweak: All drones spawn a bit higher to clip less with the host vehicle.
+
+labels:
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1539
+
+authors:
+  - xezon

@@ -1,0 +1,19 @@
+---
+date: 2022-08-20
+
+title: Adds USA Supply Lines upgrade icon to Oil Derrick
+
+changes:
+  - fix: Adds the USA Supply Lines upgrade icon to the Oil Derrick. Reason being, the Supply Lines upgrade does reward the player with more cash from the Oil Derrick.
+
+labels:
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/945
+
+authors:
+  - commy2

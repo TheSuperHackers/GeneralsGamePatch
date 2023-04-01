@@ -1,0 +1,21 @@
+---
+date: 2021-08-22
+
+title: Fixes wrong model of GLA Battle Bus in bunkered state
+
+changes:
+  - fix: The GLA Battle Bus, when reduced to bunker state and ordered to move, no longer shows the undamaged model for a split second.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/553
+
+authors:
+  - commy2
+  - hanfield

@@ -1,0 +1,19 @@
+---
+date: 2021-09-12
+
+title: Fixes issue where Demo GLA Terrorist can die on China Mines without applying any damage
+
+changes:
+  - fix: The GLA Demo Terrorist will now always explode and apply damage when dying on mines.
+
+labels:
+  - bug
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/316
+
+authors:
+  - Generalcamo

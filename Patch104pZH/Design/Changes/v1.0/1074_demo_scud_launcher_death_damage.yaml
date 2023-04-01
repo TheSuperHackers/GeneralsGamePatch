@@ -1,0 +1,20 @@
+---
+date: 2022-09-02
+
+title: Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade
+
+changes:
+  - fix: The Demo GLA Scud Launcher with Demo Upgrade now deals just 50 instead of 500 damage on death. This is consistent with other Demo GLA vehicles, except Terror Bike and Bomb Truck.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1074
+
+authors:
+  - commy2

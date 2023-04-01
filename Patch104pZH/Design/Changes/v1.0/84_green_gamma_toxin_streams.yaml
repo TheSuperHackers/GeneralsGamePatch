@@ -1,0 +1,18 @@
+---
+date: 2021-08-28
+
+title: Fixes Anthrax Gamma streams showing with green particles when clearing buildings
+
+changes:
+  - fix: Anthrax Gamma streams no longer show with green particles when clearing buildings.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/84
+
+authors:
+  - commy2

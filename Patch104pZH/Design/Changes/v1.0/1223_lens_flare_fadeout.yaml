@@ -1,0 +1,24 @@
+---
+date: 2022-09-19
+
+title: Fixes particle effect fadeout issues
+
+changes:
+  - fix: |
+      Fixes particle effect fadeout issues for
+        - Bomb Truck explosions
+        - Nuke Cannon shell hits
+        - Scud Missile hits
+        - Flash Bang hits
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1223
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504
+
+authors:
+  - xezon

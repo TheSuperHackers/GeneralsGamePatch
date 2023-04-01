@@ -1,0 +1,19 @@
+---
+date: 2022-10-08
+
+title: Fixes missing muzzle flash and recoil animation on GLA Quad Cannon
+
+changes:
+  - fix: Fixes missing muzzle flash and recoil animation on GLA Quad Cannon when firing at ground targets.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1340
+
+authors:
+  - commy2

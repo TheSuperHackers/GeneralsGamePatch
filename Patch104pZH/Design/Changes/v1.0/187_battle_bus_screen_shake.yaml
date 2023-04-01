@@ -1,0 +1,19 @@
+---
+date: 2021-09-04
+
+title: Fixes unexpected hit screen shake effects on bunkered GLA Battle Bus
+
+changes:
+  - fix: The screen no longer shakes when hitting a GLA Battle Bus in its second life bunker mode.
+
+labels:
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/187
+
+authors:
+  - commy2

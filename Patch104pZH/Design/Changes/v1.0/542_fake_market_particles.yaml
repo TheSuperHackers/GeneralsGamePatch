@@ -1,0 +1,20 @@
+---
+date: 2021-10-10
+
+title: Fixes mismatching particle effects of GLA Black Market and Fake Market
+
+changes:
+  - fix: The particle effects of the GLA Black Market and Fake Market no look identical. This way it is no longer possible to tell these structures apart by their core visuals.
+
+labels:
+  - buff
+  - bug
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/542
+
+authors:
+  - commy2

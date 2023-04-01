@@ -1,0 +1,18 @@
+---
+date: 2022-09-03
+
+title: Removes invisible attackable object above Townes base in Generals Challenge
+
+changes:
+  - fix: The invisible object in Townes base is now removed and no longer draws fire.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1087
+
+authors:
+  - commy2

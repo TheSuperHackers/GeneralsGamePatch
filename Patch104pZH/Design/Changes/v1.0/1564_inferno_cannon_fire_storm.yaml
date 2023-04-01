@@ -1,0 +1,20 @@
+---
+date: 2023-01-18
+
+title: Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds
+
+changes:
+  - fix: Inferno Cannon shell hits now trigger sounds and fire storms reliably.
+
+labels:
+  - buff
+  - bug
+  - china
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1564
+
+authors:
+  - xezon

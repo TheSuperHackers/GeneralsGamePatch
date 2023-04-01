@@ -1,0 +1,19 @@
+---
+date: 2021-09-13
+
+title: Adds missing stealth detection effects to China Troop Crawler
+
+changes:
+  - fix: The regular China Troop Crawler now displays the red grid below a detected object and the red ring around the unit, just like the other Troop Crawlers.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/350
+
+authors:
+  - commy2

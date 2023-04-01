@@ -1,0 +1,20 @@
+---
+date: 2022-11-03
+
+title: Removes the minimum attack range of China Dragon Tank with Napalm Upgrade
+
+changes:
+  - fix: Decreases the minimum attack range of China Dragon Tank with Napalm Upgrade from 10 to 0. This range matches the unupgraded Dragon Tank attack range.
+
+labels:
+  - buff
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1588
+
+authors:
+  - Stubbjax

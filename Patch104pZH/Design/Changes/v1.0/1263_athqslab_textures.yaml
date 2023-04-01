@@ -1,0 +1,41 @@
+---
+date: 2022-09-23
+
+title: Fixes athqslab textures for USA Command Center
+
+changes:
+  - fix: Fixes athqslab textures for USA Command Center.
+
+subchanges:
+  - fix: |
+      athqslab_d
+        - Fixes some burns looking different to athqslab_e
+        - Fixes ground not blending well with dust and damages on walls
+  - fix: |
+      athqslab_e
+        - Removes all bullet holes
+        - Fixes some artifacts
+        - Fixes ground not blending well with dust and damages on walls
+  - fix: |
+      athqslab_ds
+        - Fixes snow position inconsistencies
+        - Fixes ground not blending well with dust and damages on walls
+  - fix: |
+      athqslab_es
+        - Removes all bullet holes
+        - Fixes snow position inconsistencies
+        - Fixes some artifacts
+        - Fixes ground not blending well with dust and damages on walls
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1263
+
+authors:
+  - xezon

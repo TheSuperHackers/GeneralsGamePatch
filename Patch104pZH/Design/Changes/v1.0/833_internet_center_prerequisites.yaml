@@ -1,0 +1,21 @@
+---
+date: 2022-08-06
+
+title: Adds War Factory or Propaganda Center to prerequisites of China Internet Center
+
+changes:
+  - tweak: The China Internet Center can now be built after a War Factory or Propaganda Center has been built.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/833
+
+authors:
+  - xezon

@@ -1,0 +1,20 @@
+---
+date: 2021-09-10
+
+title: Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade
+
+changes:
+  - fix: When upgraded with Fortified Structures, the Fake GLA Command Centers of the Stealth, Tox and Demo General will no longer lose their sub-faction decal. They will have the correct appearance with the decal even with the upgrade.
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/271
+
+authors:
+  - commy2

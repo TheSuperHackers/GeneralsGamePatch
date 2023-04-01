@@ -1,0 +1,19 @@
+---
+date: 2022-08-20
+
+title: Adds new recoil animation to China Minigunner to match its fire rate increase over time
+
+changes:
+  - fix: Adds new recoil animation to China Minigunner to match its fire rate increase over time.
+
+labels:
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/939
+
+authors:
+  - commy2

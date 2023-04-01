@@ -1,0 +1,19 @@
+---
+date: 2021-08-29
+
+title: Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker
+
+changes:
+  - fix: The Demo General's Combat Bike with a Worker now produces the same red explosion effect as any other rider does when blown up.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/103
+
+authors:
+  - commy2

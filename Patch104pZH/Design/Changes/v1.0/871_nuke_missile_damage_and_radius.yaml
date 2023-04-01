@@ -1,0 +1,27 @@
+---
+date: 2022-08-14
+
+title: Increases damage and radius of China Nuke Missile
+
+changes:
+  - tweak: Increases China Nuke Missile damage by 20%.
+  - tweak: Increases China Nuke Missile blasts radius 1 by 2%.
+  - tweak: Increases China Nuke Missile blasts radius 2 by 3.3%.
+  - tweak: Increases China Nuke Missile blasts radius 3 by 4%.
+  - tweak: Increases China Nuke Missile blasts radius 4 by 4.4%.
+  - tweak: Increases China Nuke Missile blasts radius 5 by 4.7%.
+  - tweak: Increases China Nuke Missile blasts radius 6 by 20%.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/871
+
+authors:
+  - xezon

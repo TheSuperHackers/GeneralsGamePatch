@@ -1,0 +1,33 @@
+---
+date: 2022-11-05
+
+title: Fixes and improves atwarfactslab textures for USA War Factory
+
+changes:
+  - fix: Fixes and improves atwarfactslab textures for USA War Factory.
+
+subchanges:
+  - fix: |
+      atwarfactslab_d, atwarfactslab_e
+        - Repaints some burns
+  - fix: |
+      atwarfactslab_s
+        - Fixes strong shadows in snow
+        - Brightens snow to better match other USA snow
+  - fix: |
+      atwarfactslab_ds, atwarfactslab_es
+        - Inherits all fixes of atwarfactslab_s
+        - Repaints some burns
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1427
+
+authors:
+  - xezon

@@ -1,0 +1,19 @@
+---
+date: 2021-09-11
+
+title: Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction
+
+changes:
+  - fix: The Rank 3 and Nuke Carpet Bombers are now available even if the player controls a Nuke Command Center as well as either a normal China or an Infantry General Command Center at the same time.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/299
+
+authors:
+  - commy2

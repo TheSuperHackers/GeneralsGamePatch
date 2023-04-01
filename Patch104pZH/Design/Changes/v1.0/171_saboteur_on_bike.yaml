@@ -1,0 +1,19 @@
+---
+date: 2021-09-03
+
+title: Fixes GLA Saboteur simply disappearing when killed on Combat Bike
+
+changes:
+  - fix: When a GLA Saboteur on a Combat Bike is destroyed, the Saboteur is now properly thrown off the bike like every other unit.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/171
+
+authors:
+  - commy2

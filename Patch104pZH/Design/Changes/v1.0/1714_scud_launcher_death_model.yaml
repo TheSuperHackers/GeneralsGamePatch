@@ -1,0 +1,19 @@
+---
+date: 2023-02-15
+
+title: Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death
+
+changes:
+  - fix: All Scud Launcher variants now correctly show their salvage upgrades during their rubble state. In 1.04, only the regular GLA Scud Launcher shows its salvage upgrades during its rubble state.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1714
+
+authors:
+  - Stubbjax

@@ -1,0 +1,38 @@
+---
+date: 2022-11-05
+
+title: Fixes and improves atrepairbay textures for USA War Factory
+
+changes:
+  - fix: Fixes and improves atrepairbay textures for USA War Factory.
+
+subchanges:
+  - fix: |
+      atrepairbay_d, atrepairbay_e
+        - Removes all bullet holes
+        - Adds dust to match look of nearby atwarfactslab_d, atwarfactslab_e
+        - Repaints some burns
+  - fix: |
+      atrepairbay_s
+        - Fixes strong shadows in snow
+        - Brightens snow to better match other USA snow
+        - Reduces amount of snow on the drive way
+  - fix: |
+      atrepairbay_ds, atrepairbay_es
+        - Inherits all fixes of atrepairbay_s
+        - Removes all bullet holes
+        - Adds dust to match look of nearby atwarfactslab_ds, atwarfactslab_es
+        - Repaints some burns
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1427
+
+authors:
+  - xezon

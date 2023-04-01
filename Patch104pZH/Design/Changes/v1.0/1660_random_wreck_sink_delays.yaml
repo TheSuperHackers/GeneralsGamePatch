@@ -1,0 +1,20 @@
+---
+date: 2023-01-29
+
+title: Removes random sink delays from all vehicle wrecks
+
+changes:
+  - tweak: Removes random sink delays from wrecks of USA Ambulance, China Gattling, ECM.
+
+labels:
+  - china
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1660
+
+authors:
+  - xezon

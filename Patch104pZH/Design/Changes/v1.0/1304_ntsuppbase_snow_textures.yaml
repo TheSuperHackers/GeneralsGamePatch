@@ -1,0 +1,34 @@
+---
+date: 2022-09-26
+
+title: Fixes ntsuppbase snow textures for China Supply Center
+
+changes:
+  - fix: Fixes ntsuppbase snow textures for China Supply Center.
+
+subchanges:
+  - fix: |
+      ntsuppbase_s
+        - Fixes strong contrast in snow
+  - fix: |
+      ntsuppbase_ds
+        - Fixes strong contrast in snow
+        - Fixes snow drawing over rubble, scorch marks
+  - fix: |
+      ntsuppbase_es
+        - Fixes strong contrast in snow
+        - Fixes snow drawing over rubble, scorch marks
+        - Fixes mispositioned snow
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1304
+
+authors:
+  - xezon

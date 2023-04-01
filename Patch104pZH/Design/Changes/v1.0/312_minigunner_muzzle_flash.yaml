@@ -1,0 +1,19 @@
+---
+date: 2021-09-11
+
+title: Fixes wrong muzzle flash location of China Minigunner
+
+changes:
+  - fix: The tracer from the China Minigunner now emerges from the muzzle, even when aiming at air units.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/312
+
+authors:
+  - commy2

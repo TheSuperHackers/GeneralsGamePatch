@@ -1,0 +1,19 @@
+---
+date: 2021-08-28
+
+title: Fixes miniscule mass of China Supply Truck
+
+changes:
+  - fix: The Supply Truck now has more mass so that it no longer flings high up in the air when hit by a physics weapon such as Nuke missiles.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/96
+
+authors:
+  - hanfield

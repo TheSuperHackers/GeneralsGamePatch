@@ -1,0 +1,19 @@
+---
+date: 2021-08-28
+
+title: Fixes premature GLA Toxin Demo Trap explosion effects
+
+changes:
+  - fix: The GLA Toxin Demo Trap now explodes properly after the beeping sounds like every other Demo Trap.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/85
+
+authors:
+  - commy2

@@ -1,0 +1,20 @@
+---
+date: 2022-07-16
+
+title: Fixes random chain reaction kills of GLA Toxin Terrorist
+
+changes:
+  - fix: Toxin Terrorists no longer kill each other with chain reactions at random events.
+
+labels:
+  - bug
+  - controversial
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/695
+
+authors:
+  - xezon

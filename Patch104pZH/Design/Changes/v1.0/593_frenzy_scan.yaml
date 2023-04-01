@@ -1,0 +1,22 @@
+---
+date: 2021-10-23
+
+title: Removes ability to reveal shroud with China Frenzy power
+
+changes:
+  - fix: China Frenzy will no longer reveal shroud. Meaning it no longer acts as a scan to scout unknown terrain.
+
+labels:
+  - bug
+  - china
+  - controversial
+  - design
+  - minor
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/593
+
+authors:
+  - commy2

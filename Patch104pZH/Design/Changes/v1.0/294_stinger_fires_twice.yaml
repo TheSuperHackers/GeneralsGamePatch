@@ -1,0 +1,20 @@
+---
+date: 2021-09-11
+
+title: Fixes GLA Stinger Site being able to shoot twice without any delay
+
+changes:
+  - fix: The GLA Stinger Site no longer has separate reload times for engaging ground and airborne targets, and it is no longer able to double the rate of fire by switching targets during reload.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/294
+
+authors:
+  - commy2

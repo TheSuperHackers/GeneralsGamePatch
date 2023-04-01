@@ -1,0 +1,21 @@
+---
+date: 2022-09-08
+
+title: Decreases acceleration time of USA Sentry Drone by 70%
+
+changes:
+  - tweak: Decreases the acceleration time of USA Sentry Drone by 70%, from 1000 to 300 ms.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1162
+
+authors:
+  - xezon

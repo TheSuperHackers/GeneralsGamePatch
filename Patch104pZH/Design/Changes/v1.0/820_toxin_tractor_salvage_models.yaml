@@ -1,0 +1,20 @@
+---
+date: 2022-08-05
+
+title: Fixes models of scrapped up GLA Toxin Tractor
+
+changes:
+  - fix: The GLA Toxin Tractor receives bigger side barrels when scrapping up once.
+  - fix: The GLA Toxin Tractor receives a barrel on its back when scrapping up twice.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/820
+
+authors:
+  - commy2

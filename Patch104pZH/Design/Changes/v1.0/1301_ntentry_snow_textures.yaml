@@ -1,0 +1,29 @@
+---
+date: 2022-09-26
+
+title: Fixes ntentry snow textures for China structures
+
+changes:
+  - fix: Fixes ntentry snow textures.
+
+subchanges:
+  - fix: |
+      ntentry_s
+        - Fixes strong snow shadow on the left side of the door
+  - fix: |
+      ntentry_ds, ntentry_es
+        - Fixes mispositioned snow
+        - Fixes snow drawing over burns
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1301
+
+authors:
+  - xezon

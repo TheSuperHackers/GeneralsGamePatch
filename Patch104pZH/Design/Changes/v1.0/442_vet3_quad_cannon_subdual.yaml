@@ -1,0 +1,19 @@
+---
+date: 2021-10-01
+
+title: Fixes the ECM immunity of Heroic GLA Quad Cannon
+
+changes:
+  - fix: The Heroic (Vet3) GLA Quad Cannon can now be disabled by the China ECM Tank.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/442
+
+authors:
+  - commy2

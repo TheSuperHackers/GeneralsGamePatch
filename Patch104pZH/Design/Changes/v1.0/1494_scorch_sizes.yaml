@@ -1,0 +1,47 @@
+---
+date: 2022-12-04
+
+title: Tweaks terrain scorch sizes of explosion effects
+
+changes:
+  - tweak: Increases oversized terrain scorches of explosion effects.
+  - tweak: Decreases undersized terrain scorches of explosion effects.
+
+subchanges:
+  - tweak: Increases death scorch size of regular tanks from 15 to 18.
+  - tweak: Increases death scorch size of USA Tomahawk from 15 to 18.
+  - tweak: Increases death scorch size of China Supply Truck from 15 to 18.
+  - tweak: Increases death scorch size of China Gattling Tank from 15 to 18.
+  - tweak: Increases death scorch size of China Battle Master from 15 to 18.
+  - tweak: Increases death scorch size of China Dragon Tank from 15 to 18.
+  - tweak: Increases death scorch size of China Overlord Tank from 15 to 25.
+  - tweak: Increases death scorch size of GLA crushed Combat Bike from 15 to 20.
+  - tweak: Increases death scorch size of GLA suicided Combat Bike from 15 to 25.
+  - tweak: Increases death scorch size of GLA Toxin Truck from 15 to 18.
+  - tweak: Increases death scorch size of GLA Battle Bus from 15 to 18.
+  - tweak: Increases death scorch size of GLA Scud Launcher from 15 to 22.
+  - tweak: Decreases weapon scorch size of USA Alpha Aurora bomb from 75 to 30.
+  - tweak: Increases weapon scorch size of USA Strategy Center Gun from 15 to 30.
+  - tweak: Decreases weapon scorch size of USA Spectre Gun from 50 to 40.
+  - tweak: Decreases weapon scorch size of USA MOAB from 250 to 150.
+  - tweak: Decreases weapon scorch size of China TNT Bomb from 50 to 30.
+  - tweak: Decreases weapon scorch size of China Neutron shell from 50 to 40.
+  - tweak: Decreases weapon scorch size of China Fire Storm from 100 to 80.
+  - tweak: Increases weapon scorch size of China Artillery Barrage from 15 to 22.
+  - tweak: Decreases weapon scorch size of China Nuke missile from 320 to 200.
+  - tweak: Decreases weapon scorch size of GLA Molotov from 18 to 12.
+  - tweak: Increases weapon scorch size of GLA Demo Trap from 15 to 30.
+  - tweak: Decreases particle effect size of China TNT Bomb.
+
+labels:
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1494
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1536
+
+authors:
+  - xezon

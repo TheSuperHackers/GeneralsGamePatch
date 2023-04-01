@@ -1,0 +1,22 @@
+---
+date: 2021-08-29
+
+title: Fixes GLA Demo vehicle destruction effect glitches
+
+changes:
+  - fix: Demo General's vehicles now correctly produce wrecks when destroyed, and are no longer flung around randomly on death like a Terrorist.
+  - fix: Fixes Demo GLA vehicle suicide disposition issues by removing FlingForce and FlingPitch settings.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/99
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1722
+
+authors:
+  - commy2
+  - xezon

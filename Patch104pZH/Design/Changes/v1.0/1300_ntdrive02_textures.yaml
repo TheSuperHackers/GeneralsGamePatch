@@ -1,0 +1,30 @@
+---
+date: 2022-09-26
+
+title: Fixes ntdrive02 textures for China Supply Center
+
+changes:
+  - fix: Fixes ntdrive02 textures for China Supply Center.
+
+subchanges:
+  - fix: |
+      ntdrive02, ntdrive02_d, ntdrive02_e
+        - Reduces sharpness a bit
+        - Repaints some burns to support the tiling on China Supply Center
+  - fix: |
+      ntdrive02_s, ntdrive02_ds, ntdrive02_es
+        - Fixes mismatching positions of driveway, snow and burns
+        - Repaints some burns to support the tiling on China Supply Center
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1300
+
+authors:
+  - xezon

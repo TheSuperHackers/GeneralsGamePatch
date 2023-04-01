@@ -1,0 +1,22 @@
+---
+date: 2022-07-30
+
+title: Decreases China War Factory door times from 4000 to 3300 ms
+
+changes:
+  - tweak: Decreases the China War Factory door times from 4000 to 3300 ms. This equals the door times of the USA War Factory. It enables China to build all vehicles 700 ms quicker.
+
+labels:
+  - buff
+  - bug
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/786
+
+authors:
+  - xezon

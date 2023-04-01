@@ -1,0 +1,21 @@
+---
+date: 2023-01-08
+
+title: Fixes wrong exploded death animation of GLA Worker
+
+changes:
+  - fix: GLA Worker with supply box now shows proper death animation when exploded.
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1528
+
+authors:
+  - RedMeow2
+  - xezon

@@ -1,0 +1,19 @@
+---
+date: 2021-08-22
+
+title: Fixes GLA Stealth Palace remaining stealhed while its passengers shoot
+
+changes:
+  - fix: Firing infantry units inside the stealthed GLA Palace now reveal the structure.
+
+labels:
+  - bug
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/75
+
+authors:
+  - hanfield

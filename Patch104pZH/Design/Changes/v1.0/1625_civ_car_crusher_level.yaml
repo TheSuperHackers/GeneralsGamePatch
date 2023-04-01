@@ -1,0 +1,32 @@
+---
+date: 2023-02-04
+
+title: Fixes crusher levels of Civilian cars
+
+changes:
+  - fix: Civilian cars can now crush things appropriate to their own sizes.
+
+subchanges:
+  - fix: Civilian Humvee1 can now crush trees.
+  - fix: Civilian MilitiaTank can now crush trees.
+  - fix: Civilian ForkliftSmall can no longer crush trees.
+  - fix: Civilian TruckChicken can now crush trees.
+  - fix: Civilian FarmerChickenTruck can now crush trees.
+  - fix: Civilian SupplyTruck can now crush trees.
+  - fix: Civilian FarmerTruck can now crush trees.
+  - fix: Civilian TruckWork can now crush trees.
+  - fix: Civilian TruckWork2 can now crush trees.
+  - fix: Civilian TruckFarmer can now crush trees.
+
+labels:
+  - bug
+  - civilian
+  - controversial
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1625
+
+authors:
+  - xezon

@@ -1,0 +1,39 @@
+---
+date: 2022-09-20
+
+title: Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm
+
+changes:
+  - fix: Fixes utscudparts02, silotop01 textures. They are used at the very core of the GLA Scud Storm.
+
+subchanges:
+  - fix: |
+      utscudparts02
+        - Fixes blackness level to match utscudparts02_s
+  - fix: |
+      utscudparts02_s
+        - Adds missing Alpha Channel from utscudparts02
+        - Fixes gradients to match utscudparts02
+  - fix: |
+      utscudparts02_d, utscudparts02_ds
+        - Adds missing Alpha Channel from utscudparts02
+        - Fixes blackness level to match utscudparts02_s
+        - Uses 2x upscale (custom, from Generals)
+        - Repaints damages and dirt, removes bullet holes
+  - fix: |
+      utsilotop01, utsilotop01_d, utsilotop01_s, utsilotop01_ds
+        - Repaints texture from scratch with 128x128 resolution instead of 64x64
+        - Fixes green grass color mismatch with utscudparts02
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1232
+
+authors:
+  - xezon

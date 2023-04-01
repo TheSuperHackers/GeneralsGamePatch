@@ -1,0 +1,18 @@
+---
+date: 2021-08-30
+
+title: Expands army selection drop down box in Menu Game Room to see all factions at once
+
+changes:
+  - fix: Expands army selection drop down box in Menu Game Room to see all factions at once without scrolling.
+
+labels:
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/122
+
+authors:
+  - xezon

@@ -1,0 +1,21 @@
+---
+date: 2022-10-02
+
+title: Adds upscaled utscudslab textures for GLA Scud Storm
+
+changes:
+  - fix: Adds 2x AI upscaled versions of the utscudslab textures. Originally they are 256x256, which is too small for a building that large.
+
+labels:
+  - art
+  - enhancement
+  - gla
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1328
+
+authors:
+  - xezon

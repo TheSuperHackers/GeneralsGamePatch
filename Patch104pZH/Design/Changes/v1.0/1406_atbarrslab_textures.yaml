@@ -1,0 +1,39 @@
+---
+date: 2022-10-23
+
+title: Fixes atbarrslab textures for USA Barracks
+
+changes:
+  - fix: Fixes atbarrslab textures for USA Barracks.
+
+subchanges:
+  - tweak: |
+      atbarrslab_d
+        - Reduces amount of burns to look more distinct to atbarrslab_e
+  - fix: |
+      atbarrslab_e
+        - Fixes errors on burns
+        - Reduces amount of burns near the flag pole to avoid high contrast edges
+  - fix: |
+      atbarrslab_s
+        - Fixes all blue snow to look like regular snow
+        - Fixes missing snow on edges of some walls
+  - fix: |
+      atbarrslab_ds
+        - Fixes snow drawing over burns, based on new atbarrslab_s, atbarrslab_d
+  - fix: |
+      atbarrslab_es
+        - Fixes snow drawing over burns, based on new atbarrslab_s, atbarrslab_e
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1406
+
+authors:
+  - xezon

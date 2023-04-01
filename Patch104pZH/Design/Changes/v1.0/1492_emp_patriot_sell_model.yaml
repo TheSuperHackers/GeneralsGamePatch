@@ -1,0 +1,18 @@
+---
+date: 2022-12-01
+
+title: Fixes wrong USA EMP Patriot model during construction and deconstruction
+
+changes:
+  - fix: The USA EMP Patriot now always renders the correct model during construction and deconstruction.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1492
+
+authors:
+  - Stubbjax

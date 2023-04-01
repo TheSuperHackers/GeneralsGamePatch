@@ -1,0 +1,21 @@
+---
+date: 2022-10-08
+
+title: Fixes infinite Gattling barrel spin animation issues
+
+changes:
+  - fix: China Overlord Gattling no longer spins forever after firing once.
+  - fix: China Helix Gattling no longer spins forever after firing once.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1349
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1350
+
+authors:
+  - commy2

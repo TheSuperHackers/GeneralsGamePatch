@@ -1,0 +1,20 @@
+---
+date: 2021-09-04
+
+title: Adds missing sound to GLA Battle Bus
+
+changes:
+  - fix: The regular GLA Battle Bus now has the sound effect when power sliding that all other buses have.
+
+labels:
+  - audio
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/192
+
+authors:
+  - commy2

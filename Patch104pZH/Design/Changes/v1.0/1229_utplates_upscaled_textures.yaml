@@ -1,0 +1,25 @@
+---
+date: 2022-09-20
+
+title: Adds upscaled utplates textures for GLA Scud Storm
+
+changes:
+  - feature: Increases texture size of utplates snow textures by merging other variants of this texture. It is not AI generated. It is part of the Recovered Art pack which contains 2x upscaled textures from Generals.
+
+subchanges:
+  - feature: |
+      utplates_ds, utplates_es
+        - Creates 2x upscale to 256x256
+
+labels:
+  - art
+  - gla
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1229
+
+authors:
+  - xezon

@@ -1,0 +1,22 @@
+---
+date: 2021-10-03
+
+title: Fixes issues of Boss King Raptor
+
+changes:
+  - fix: The Boss King Raptor now uses voice lines for King Raptor.
+  - fix: The Boss King Raptor now emits flare effects with the Countermeasures upgrade.
+  - fix: The Boss King Raptor now has the same vision range and the same Guard Mode area as other (King) Raptors.
+
+labels:
+  - boss
+  - bug
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/456
+
+authors:
+  - commy2

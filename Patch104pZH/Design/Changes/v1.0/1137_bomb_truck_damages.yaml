@@ -1,0 +1,22 @@
+---
+date: 2022-09-06
+
+title: Increases damage range bonus of GLA Bomb Truck upgrades
+
+changes:
+  - tweak: Increases damage range bonus of GLA Bomb Truck Bio Bomb by +28%.
+  - tweak: Increases damage range bonus of GLA Bomb Truck Bio Bomb + High Explosive by +16%.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1137
+
+authors:
+  - xezon

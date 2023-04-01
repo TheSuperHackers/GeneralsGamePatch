@@ -1,0 +1,21 @@
+---
+date: 2022-09-11
+
+title: Adds missing radio sounds to Helix voices
+
+changes:
+  - fix: Adds missing radio sounds to Helix voices.
+
+labels:
+  - audio
+  - bug
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1181
+
+authors:
+  - Stubbjax

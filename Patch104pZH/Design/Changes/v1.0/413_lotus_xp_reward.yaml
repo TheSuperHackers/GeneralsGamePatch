@@ -1,0 +1,21 @@
+---
+date: 2021-09-25
+
+title: Decreases kill experience reward of China Black Lotus by up to 62%
+
+changes:
+  - tweak: Decreases the kill XP reward of China Black Lotus from 50 100 150 400 to 50 50 100 150. These levels are consistent with those of other Hero units.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/413
+
+authors:
+  - commy2

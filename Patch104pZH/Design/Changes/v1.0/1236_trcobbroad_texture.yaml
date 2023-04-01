@@ -1,0 +1,19 @@
+---
+date: 2022-09-21
+
+title: Fixes missing pieces in trcobbroad texture for cobble road
+
+changes:
+  - fix: Fixes missing pieces in trcobbroad texture for cobble road.
+
+labels:
+  - art
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1236
+
+authors:
+  - xezon

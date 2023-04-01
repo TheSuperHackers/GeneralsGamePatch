@@ -1,0 +1,25 @@
+---
+date: 2022-09-26
+
+title: Fixes ntwalls01 snow textures for China structures
+
+changes:
+  - fix: Fixes ntwalls01 snow textures. The snow is no longer upside-down on specific walls, most notably the China Airfield.
+
+subchanges:
+  - fix: |
+      ntwalls01_ds, ntwalls01_es
+        - Fixes upside-down snow
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1305
+
+authors:
+  - xezon

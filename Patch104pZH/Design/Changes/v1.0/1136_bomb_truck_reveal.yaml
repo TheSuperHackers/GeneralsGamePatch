@@ -1,0 +1,21 @@
+---
+date: 2022-09-06
+
+title: Removes decloak functionality of GLA Bomb Truck when approaching selected target
+
+changes:
+  - tweak: The GLA Bomb Truck no longer reveals itself when moving close to its target.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1136
+
+authors:
+  - xezon

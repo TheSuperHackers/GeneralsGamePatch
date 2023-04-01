@@ -1,0 +1,19 @@
+---
+date: 2022-08-13
+
+title: Replaces generic China stars with nuklear symbols on China Nuke Helix
+
+changes:
+  - fix: The China Nuke Helix now displays nuklear symbols instead of stars on its wings. This is consistent with nuke symbols on Mig Jet and Nuke Cannon.
+
+labels:
+  - art
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023
+
+authors:
+  - commy2

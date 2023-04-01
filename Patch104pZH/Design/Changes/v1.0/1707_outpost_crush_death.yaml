@@ -1,0 +1,20 @@
+---
+date: 2023-02-14
+
+title: Fixes duplicate crush death effects of China Listening Outpost
+
+changes:
+  - fix: Removes duplicate crush effects from all variants of the Listening Outpost.
+
+labels:
+  - bug
+  - china
+  - minor
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1707
+
+authors:
+  - Stubbjax

@@ -1,0 +1,21 @@
+---
+date: 2022-09-06
+
+title: Increases General Promotion reward from China Black Lotus by 100%
+
+changes:
+  - tweak: Doubles the General Promotion rewards gained from Black Lotus attacks. The rewards are still inferior to those gained from using other Hero units.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1134
+
+authors:
+  - xezon

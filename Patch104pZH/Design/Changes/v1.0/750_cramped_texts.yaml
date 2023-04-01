@@ -1,0 +1,18 @@
+---
+date: 2022-07-24
+
+title: Fixes some cramped language strings in Options and Replay menu
+
+changes:
+  - fix: Fixes some cramped language strings in Options and Replay menu.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/750
+
+authors:
+  - xezon

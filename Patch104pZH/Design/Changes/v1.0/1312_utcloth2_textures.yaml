@@ -1,0 +1,31 @@
+---
+date: 2022-09-28
+
+title: Fixes utcloth2 textures for GLA structures
+
+changes:
+  - fix: Fixes utcloth2 textures for GLA structures.
+
+subchanges:
+  - fix: |
+      utcloth2, utcloth2_d, utcloth2_e (optional)
+        - Fixes minor seams at the sides
+  - fix: |
+      utcloth2_r
+        - Repaints rubble to remove green tint on brown cloth
+  - fix: |
+      utcloth2_s, utcloth2_ds, utcloth2_es
+        - Repaints snow to get rid of strong contrast and color cast
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1312
+
+authors:
+  - xezon

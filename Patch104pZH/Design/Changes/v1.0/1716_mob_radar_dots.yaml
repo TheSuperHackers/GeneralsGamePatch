@@ -1,0 +1,19 @@
+---
+date: 2023-02-15
+
+title: Fixes issue where GLA Angry Mob always shows one extra dot on radar
+
+changes:
+  - fix: The Angry Mob Nexus no longer appears on the radar. This is most noticeable in 1.04 when only a single Angry Mob member remains, and yet two units show on the radar.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1716
+
+authors:
+  - Stubbjax

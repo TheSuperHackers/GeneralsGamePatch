@@ -1,0 +1,21 @@
+---
+date: 2021-09-05
+
+title: Fixes inability of China Nuke Missile to destroy GLA structures entirely
+
+changes:
+  - fix: The China Nuke Missile can now destroy GLA structures in one shot without leaving the GLA hole to repair.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/410
+
+authors:
+  - commy2

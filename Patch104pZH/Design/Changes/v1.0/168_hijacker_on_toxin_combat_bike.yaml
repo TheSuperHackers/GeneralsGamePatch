@@ -1,0 +1,19 @@
+---
+date: 2021-09-03
+
+title: Fixes GLA Hijacker and Saboteur being able to ride the GLA Toxin Combat Bike
+
+changes:
+  - fix: All non-Toxin units, including the Hijacker and Saboteur from the regular GLA faction, can no longer ride the bike of the Toxin General.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/168
+
+authors:
+  - commy2

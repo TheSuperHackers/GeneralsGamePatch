@@ -1,0 +1,36 @@
+---
+date: 2022-11-10
+
+title: Fixes silver roof textures for USA structures
+
+changes:
+  - fix: Fixes silver roof textures for USA structures.
+
+subchanges:
+  - fix: |
+      atsilverroof:
+        - Fixes some oversharpened roof parts
+  - fix: |
+      atsilverroof_d, atsilverroof_e
+        - Paints proper damage, dirt, burns
+  - fix: |
+      atsilverroof_s
+        - Fixes some oversharpened roof parts
+        - Fixes grey snow
+  - fix: |
+      atsilverroof_ds, atsilverroof_es
+        - Fixes grey snow
+        - Paints proper damage, dirt, burns
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1461
+
+authors:
+  - xezon

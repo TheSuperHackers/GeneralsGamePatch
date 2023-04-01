@@ -1,0 +1,26 @@
+---
+date: 2022-12-05
+
+title: Improves scorch texture quality
+
+changes:
+  - feature: Fixes and enhances exscorch01 texture.
+
+subchanges:
+  - feature: Uses 2x AI upscale.
+  - fix: Fixes alpha channel to match opacity of 4 scorches.
+  - fix: Fixes shape of scorch number 4.
+
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1495
+
+authors:
+  - xezon

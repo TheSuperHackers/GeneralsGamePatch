@@ -1,0 +1,16 @@
+---
+date: 2021-08-22
+
+title: Fixes lags caused by the USA Patriot assist beam
+
+changes:
+  - optimization: Decreases the lag of USA Patriot missile assist effect by around 60%.
+
+labels:
+  - major
+  - performance
+  - usa
+  - v1.0
+
+authors:
+  - xezon

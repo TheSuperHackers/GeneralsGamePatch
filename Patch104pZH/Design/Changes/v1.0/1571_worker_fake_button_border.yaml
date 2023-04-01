@@ -1,0 +1,19 @@
+---
+date: 2023-01-20
+
+title: Changes border color of GLA Worker Fake Structure command button from orange to green
+
+changes:
+  - fix: The GLA Worker Fake Structure command button is now green to represent an ACTION button. Technically it is an UPGRADE button, but it does not act like an upgrade user facing. Instead it acts like an action button, such as the Machine Gun, Flash Bang weapon toggle of the USA Ranger.
+
+labels:
+  - design
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1571
+
+authors:
+  - xezon

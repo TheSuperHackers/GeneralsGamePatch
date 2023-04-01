@@ -1,0 +1,20 @@
+---
+date: 2022-10-05
+
+title: Fixes Toxin GLA Tunnel Defender double firing against ground and air targets
+
+changes:
+  - fix: Fixes issue where the Toxin GLA Tunnel Defender can shoot on ground and air targets simultaneously. Tunnel Defenders from other factions do not have this issue because they have just one gun type against ground and air.
+
+labels:
+  - bug
+  - gla
+  - major
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1334
+
+authors:
+  - xezon
