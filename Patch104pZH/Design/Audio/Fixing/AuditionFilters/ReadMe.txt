@@ -1,0 +1,1 @@
+Filters for Adobe Audition to fix up sounds with.
