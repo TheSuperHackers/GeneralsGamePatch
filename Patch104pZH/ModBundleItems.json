@@ -321,23 +321,6 @@
                 ]
             },
             {
-                "name": "CoreAudio",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/*.wav"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "AxOptionalAudio",
-                "big": true,
-                "files": []
-            },
-            {
                 "name": "CoreINI",
                 "big": true,
                 "files": [

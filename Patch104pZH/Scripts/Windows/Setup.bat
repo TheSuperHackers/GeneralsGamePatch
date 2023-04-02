@@ -10,6 +10,7 @@ set ModBuilderArcSha256=352f2b3d30abbde1976f0ed8d7b3f624a2a4317630d74e64fe5305ea
 :: The mod config files. Relative to this setup file.
 set ConfigFiles=^
     "%SetupDir%\..\..\ModBundleItems.json" ^
+    "%SetupDir%\..\..\ModBundleAudioItems.json" ^
     "%SetupDir%\..\..\ModBundleLanguageItems.json" ^
     "%SetupDir%\..\..\ModBundlePacks.json" ^
     "%SetupDir%\..\..\ModChangeLog.json" ^
