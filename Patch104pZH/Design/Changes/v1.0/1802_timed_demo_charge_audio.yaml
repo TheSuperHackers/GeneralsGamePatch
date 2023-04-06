@@ -1,0 +1,23 @@
+---
+date: 2023-04-06
+
+title: Reduces audio range of Timed Demo Charge
+
+changes:
+  - tweak: Reduces the Timed Demo Charge's maximum audio range from 800 to 500. This makes the presence of a demo charge and its instigator much less obvious as it has its audible area reduced by 61%.
+
+labels:
+  - audio
+  - china
+  - controversial
+  - design
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802
+
+authors:
+  - xezon
