@@ -58,6 +58,10 @@ In our first survey we asked the community what they think about addressing bugs
 - Changes require input from players for accurate evaluation. Ideally changes are looked at in test environments and real matches to gather accurate data and impressions. It is worthwhile to know and consider which other controversial changes exist within the same game setting, as they can influence each other.
 - Changes may be subject to a matter of preference that require the community to give input on. In such cases we will include related questions in new surveys and evaluate and apply the results accordingly.
 
+## CONTRIBUTE
+
+[How to contribute](CONTRIBUTE.md)
+
 ## LICENSE
 
 [GPL v3 License](LICENSE.txt)
