@@ -1,0 +1,19 @@
+---
+date: 2023-04-07
+
+title: Fixes inaccurate tooltip text of GLA Booby Trap upgrade
+
+changes:
+  - fix: Fixes the inaccurate tooltip text of the GLA Booby Trap upgrade. It no longer claims it can be placed on neutral units.
+
+labels:
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1804
+
+authors:
+  - xezon
