@@ -176,6 +176,34 @@
                 "files": [
                     {
                         "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/German/Art/Models/Animation/*.blend",
+                                "target": "Data/German/Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": false,
+                            "w3dExportAnimation": true,
+                            "w3dExportMesh": false
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/German/Art/Models/Hierarchy/*.blend",
+                                "target": "Data/German/Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": false
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Audio/Sounds/German/*.wav",
                             "Data/German/*.ini"
