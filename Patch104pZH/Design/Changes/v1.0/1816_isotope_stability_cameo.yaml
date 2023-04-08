@@ -1,0 +1,21 @@
+---
+date: 2023-04-08
+
+title: Fixes Isotope Stability upgrade icon placements
+
+changes:
+  - fix: Adds the missing Isotope Stability upgrade icon to the China Nuke Overlord tank.
+  - tweak: Moves the Isotope Stability upgrade icon to a different cameo position on the China Nuke Battlemaster tank.
+
+labels:
+  - bug
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1816
+
+authors:
+  - xezon
