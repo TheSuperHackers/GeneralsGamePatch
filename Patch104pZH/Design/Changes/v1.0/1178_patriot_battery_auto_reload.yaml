@@ -1,13 +1,14 @@
 ---
 date: 2022-09-10
 
-title: Adds idle auto reload after 2100 ms for USA Patriot Battery.
+title: Adds idle auto reload after 2100 ms for USA Patriot Battery
 
 changes:
-  - fix: The USA Patriot Patriot will now reload the entire clip after being idle for around 2 seconds.
+  - fix: All weapons of the USA Patriot Battery will now reload the entire clip after being idle for around 2 seconds.
 
 labels:
   - buff
+  - controversial
   - design
   - minor
   - usa
@@ -15,6 +16,8 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1178
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1755
 
 authors:
   - commy2
+  - xezon
