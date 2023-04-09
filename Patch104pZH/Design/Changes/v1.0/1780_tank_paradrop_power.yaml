@@ -7,9 +7,10 @@ changes:
   - fix: Fixes China Tank Paradrop delivers to wrong location. It no longer paradrops behind the decal.
 
 labels:
+  - bug
   - china
   - minor
-  - bug
+  - v1.0
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1780
