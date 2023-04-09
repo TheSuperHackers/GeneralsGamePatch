@@ -1,0 +1,19 @@
+---
+date: 2023-04-09
+
+title: Fixes China Battlemaster Paradrop delivers to wrong location
+
+changes:
+  - fix: Fixes China Tank Paradrop delivers to wrong location. It no longer paradrops behind the decal.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1780
+
+authors:
+  - RedMeow2
