@@ -1,0 +1,20 @@
+---
+date: 2021-09-09
+
+title: Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus
+
+changes:
+  - fix: Any 5 China Battlemasters now form a horde, no matter what sub faction they are. from.
+
+labels:
+  - buff
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/255
+
+authors:
+  - commy2

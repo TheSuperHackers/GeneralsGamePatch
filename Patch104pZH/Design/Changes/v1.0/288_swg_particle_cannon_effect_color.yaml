@@ -1,0 +1,20 @@
+---
+date: 2021-09-11
+
+title: Fixes wrong particle effect colors on Superweapon USA Particle Cannon
+
+changes:
+  - fix: The Super Weapon General's Particle Cannon no longer has blue colored effects mixed in with the pink effects when ready to fire and when getting destroyed.
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/288
+
+authors:
+  - commy2

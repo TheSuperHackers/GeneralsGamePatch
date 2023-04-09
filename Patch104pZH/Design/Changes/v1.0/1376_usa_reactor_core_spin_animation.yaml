@@ -1,0 +1,19 @@
+---
+date: 2022-10-15
+
+title: Fixes broken reactor core spin animation of USA Power Plant
+
+changes:
+  - fix: The reactor cylinders of the damaged USA Power Plant are now properly animated on Summer and Winter Day maps.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1376
+
+authors:
+  - commy2

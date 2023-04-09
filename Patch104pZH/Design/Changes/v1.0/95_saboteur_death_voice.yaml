@@ -1,0 +1,26 @@
+---
+date: 2021-08-28
+
+title: Fixes wrong death voices of GLA Saboteur
+
+changes:
+  - fix: All GLA Saboteurs now use the Saboteur death voice instead of the Rebel death voice.
+
+subchanges:
+  - fix: The GLA Stealth Saboteur now uses correct voices.
+  - fix: The GLA Demo Saboteur now uses correct voices.
+
+labels:
+  - audio
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/95
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/555
+
+authors:
+  - commy2
+  - hanfield

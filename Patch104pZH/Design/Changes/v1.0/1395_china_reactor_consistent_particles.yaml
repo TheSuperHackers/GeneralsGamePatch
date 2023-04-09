@@ -1,0 +1,22 @@
+---
+date: 2022-10-10
+
+title: Fixes inconsistent particle effects on different damage states of China Power Plant
+
+changes:
+  - fix: Removes overcharge spark particles of badly damaged China Power Plant on day maps.
+  - fix: Fixes mismatching chimney smoke particle of damaged China Power Plant.
+  - fix: Fixes missing fire particles of damaged China Power Plant on night maps.
+
+labels:
+  - bug
+  - china
+  - minor
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1395
+
+authors:
+  - commy2

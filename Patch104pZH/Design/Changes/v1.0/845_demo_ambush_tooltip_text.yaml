@@ -1,0 +1,20 @@
+---
+date: 2022-08-06
+
+title: Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush
+
+changes:
+  - fix: The tooltip texts of the Demo GLA Rebel Ambush now reflect the correct amount of spawned rebels for each of its levels.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/845
+
+authors:
+  - commy2

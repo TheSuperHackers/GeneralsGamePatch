@@ -1,0 +1,28 @@
+---
+date: 2022-10-23
+
+title: Fixes abbarracks models for USA Barracks
+
+changes:
+  - fix: Fixes texture errors in abbarracks w3d for USA Barracks.
+
+subchanges:
+  - fix: |
+      ABBarracks_D, ABBarracks_DN
+        - Now uses ATBarrSlab_D.tga instead of ATBarrSlab_E.tga
+  - fix: |
+      ABBarracks_DS, ABBarracks_DNS
+        - Now uses ATBarrSlab_DS.tga instead of ATBarrSlab_ES.tga
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1405
+
+authors:
+  - xezon

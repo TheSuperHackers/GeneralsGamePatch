@@ -1,0 +1,20 @@
+---
+date: 2022-08-26
+
+title: Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler
+
+changes:
+  - fix: Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler
+
+labels:
+  - bug
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/974
+
+authors:
+  - commy2

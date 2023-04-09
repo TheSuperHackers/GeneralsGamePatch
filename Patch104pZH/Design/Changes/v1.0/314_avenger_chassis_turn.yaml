@@ -1,0 +1,19 @@
+---
+date: 2021-09-10
+
+title: Fixes USA Avenger turning its chassis when aiming at air units
+
+changes:
+  - fix: The USA Avenger no longer turns its chassis to the targeted air unit. Only the anti-air laser turret will aim towards the air unit, while the USA Avenger either stays as is or aims with the blue laser marker at ground targets.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/314
+
+authors:
+  - commy2

@@ -1,0 +1,19 @@
+---
+date: 2023-03-05
+
+title: Removes move voices from USA Spectre Gunship
+
+changes:
+  - fix: The USA Spectre Gunship no longer plays voices on move, because it does not actually move anywhere when instructed to move.
+
+labels:
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1759
+
+authors:
+  - xezon

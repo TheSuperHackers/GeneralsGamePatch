@@ -1,0 +1,21 @@
+---
+date: 2022-08-06
+
+title: Changes China Satellite Hack II upgrade into manually activated spy ability
+
+changes:
+  - feature: Changes the China Satellite Hack II upgrade into a manually activated spy ability. It keeps the same duration and cooldown, but instead of being automatically activated, it is now an ability similar to the Strategy Center Intelligence.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/837
+
+authors:
+  - commy2

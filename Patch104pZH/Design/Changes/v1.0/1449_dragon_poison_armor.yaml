@@ -1,0 +1,21 @@
+---
+date: 2022-11-06
+
+title: Increases poison damage resistance of China Dragon Tank by 20%
+
+changes:
+  - fix: Originally Dragon Tanks take 25% damage from POISON. Reducing this to 20% is a subtle and effective way to take some of the edge off of Toxin Tunnel Networks for all China factions.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1449
+
+authors:
+  - Stubbjax

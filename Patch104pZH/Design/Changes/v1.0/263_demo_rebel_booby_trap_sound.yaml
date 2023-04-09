@@ -1,0 +1,20 @@
+---
+date: 2021-09-09
+
+title: Adds missing booby trap sound effect to GLA Demo Rebel
+
+changes:
+  - fix: The Demo General's Rebel now says his line when the target is chosen for the Booby Trap ability, just like the normal GLA Rebel.
+
+labels:
+  - audio
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/263
+
+authors:
+  - commy2

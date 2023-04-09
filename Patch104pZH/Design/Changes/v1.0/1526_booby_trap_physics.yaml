@@ -1,0 +1,19 @@
+---
+date: 2023-01-08
+
+title: Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits
+
+changes:
+  - fix: Removes physics from BoobyTrap object to prevent pushing by weapons. Objects RemoteC4Charge and TimedC4Charge also do not have physics.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1526
+
+authors:
+  - xezon

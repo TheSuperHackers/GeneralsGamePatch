@@ -1,0 +1,20 @@
+---
+date: 2023-02-14
+
+title: Fixes GLA Stealth Rebels becoming revealed when taking damage
+
+changes:
+  - fix: The GLA Stealth Rebels no longer become revealed when taking damage. Originally the Stealth Rebel variant is the only Rebel to reveal itself when receiving damage. Moreover, no other stealth-capable unit in the game exhibits this behaviour.
+
+labels:
+  - buff
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1706
+
+authors:
+  - Stubbjax

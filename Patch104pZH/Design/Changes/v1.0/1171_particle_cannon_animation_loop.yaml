@@ -1,0 +1,19 @@
+---
+date: 2022-09-09
+
+title: Fixes infinite deploy animation loop of USA Particle cannon
+
+changes:
+  - fix: The USA Particle cannon no longer gets stuck in an infinite deploy animation loop after finishing construction while it was disabled by a Microwave weapon.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1171
+
+authors:
+  - commy2

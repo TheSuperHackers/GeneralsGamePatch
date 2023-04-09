@@ -1,0 +1,20 @@
+---
+date: 2021-09-18
+
+title: Fixes wrong Stop button icon location of Boss Patriot Battery
+
+changes:
+  - fix: The Boss General's Patriot Battery now has the Stop command button placed above the Sell button, like every other base defense building.
+
+labels:
+  - boss
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/377
+
+authors:
+  - commy2

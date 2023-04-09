@@ -1,0 +1,20 @@
+---
+date: 2022-08-15
+
+title: Fixes GLA Stinger Troopers not dying individually by USA Microwave Tank damage
+
+changes:
+  - fix: GLA Stinger Troopers are now damaged individually by the Microwave. This way they no longer die all at once after a longer duration.
+  - fix: Removes an odd Microwave hit effect on the Stinger Site.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/913
+
+authors:
+  - commy2

@@ -1,0 +1,41 @@
+---
+date: 2022-09-23
+
+title: Fixes and improves avthunderbolt textures for USA Microwave Tank
+
+changes:
+  - fix: Fixes and improves avthunderbolt textures for USA Microwave Tank.
+
+subchanges:
+  - fix: |
+      avthunderbold
+        - Fixes inconsistent wheel positions between damaged states
+        - Fixes misaligned bolts
+        - Fixes missing gaps in metal plates
+        - Fixes top plate layout near top vents
+        - Adds small vents on black rectangles of front top plate
+        - Removes burns on microwave door
+  - fix: |
+      avthunderbold_d, avthunderbold_d1
+        - Fixes inconsistent wheel positions between damaged states
+        - Fixes misaligned bolts
+        - Fixes missing gaps in metal plates
+        - Fixes top plate layout near top vents
+        - Adds small vents on black rectangles of front top plate
+        - Improves burn texture transitions at the chassis sides
+        - Replaces all bullet holes with dust and burns
+        - Repaints lazy burns
+
+labels:
+  - art
+  - bug
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1258
+
+authors:
+  - xezon

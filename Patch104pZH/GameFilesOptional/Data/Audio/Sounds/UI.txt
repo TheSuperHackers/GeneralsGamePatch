@@ -1,0 +1,6 @@
+Fixes clicking, fadein, fadeout in
+
+uboarder.wav
+ulogosel.wav
+uradarpi.wav
+uwarning.wav

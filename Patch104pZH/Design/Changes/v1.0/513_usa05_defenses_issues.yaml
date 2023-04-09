@@ -1,0 +1,27 @@
+---
+date: 2021-10-07
+
+title: Fixes issues with GLA Toxin base defenses in USA05 campaign
+
+changes:
+  - fix: The USA05 Toxin General's Tunnel Network no longer has the button of a normal Tunnel Network.
+  - fix: The USA05 Toxin General's Tunnel Network no longer has the name and tooltips of a normal Tunnel Network.
+  - fix: The USA05 Toxin General's Tunnel Network is no longer built in 10 seconds.
+  - fix: The USA05 Toxin General's Stinger Site is no longer built in 50 seconds.
+  - fix: The USA05 Toxin General's Stinger Site missiles can now be deflected by an ECM.
+  - fix: The USA05 Toxin General's Tunnel Network and Stinger Site now have buttons to upgrade Camo-Netting.
+  - fix: The USA05 Toxin General's Tunnel Network is no longer immune to Microwave Tanks.
+  - fix: The USA05 Toxin General's Demo Trap no longer explodes twice.
+  - fix: The USA05 Toxin General's Demo Trap now has an upgrade icon for Anthrax Gamma.
+  - fix: The USA05 Toxin General's Demo Trap no longer plays an effect when damaged.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/513
+
+authors:
+  - commy2

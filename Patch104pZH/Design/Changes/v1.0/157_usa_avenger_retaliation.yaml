@@ -1,0 +1,19 @@
+---
+date: 2021-09-03
+
+title: Removes retaliation from non-vUSA Avengers
+
+changes:
+  - fix: Non-vUSA Avengers now no longer retaliate with their blue target laser. This way it no longer drives into dangerous situations on its own.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/157
+
+authors:
+  - commy2

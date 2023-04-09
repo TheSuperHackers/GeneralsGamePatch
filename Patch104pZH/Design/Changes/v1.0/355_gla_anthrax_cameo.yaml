@@ -1,0 +1,21 @@
+---
+date: 2021-09-13
+
+title: Adds missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units
+
+changes:
+  - fix: All GLA units and buildings that benefit from the Anthrax Beta and Anthrax Gamma upgrade now display the respective upgrade icon.
+  - fix: The GLA upgrade icon order is now consistent with other units or the same unit of another sub-faction.
+
+labels:
+  - bug
+  - gla
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/355
+
+authors:
+  - commy2

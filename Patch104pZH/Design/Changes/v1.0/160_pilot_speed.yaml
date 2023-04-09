@@ -1,0 +1,20 @@
+---
+date: 2021-09-03
+
+title: Fixes slow movement speed of Vet 3 USA Pilot
+
+changes:
+  - fix: The heroic USA Pilot no longer walks slower than usual.
+
+labels:
+  - buff
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/160
+
+authors:
+  - hanfield

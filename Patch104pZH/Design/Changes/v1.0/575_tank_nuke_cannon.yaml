@@ -1,0 +1,19 @@
+---
+date: 2021-10-17
+
+title: Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps)
+
+changes:
+  - feature: Adds Nuke Cannon and Inferno Cannon to Tank General. These are not available in regular matches, but can be used for custom maps.
+
+labels:
+  - china
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/575
+
+authors:
+  - Jundiyy

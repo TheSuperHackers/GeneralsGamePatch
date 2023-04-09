@@ -1,0 +1,20 @@
+---
+date: 2021-10-03
+
+title: Adds missing Subliminal Messaging upgrade icon to Boss Propaganda Tower
+
+changes:
+  - fix: The Boss Propaganda Tower now has an upgrade icon for Subliminal Messaging.
+
+labels:
+  - boss
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/451
+
+authors:
+  - commy2

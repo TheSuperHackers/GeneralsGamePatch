@@ -1,0 +1,21 @@
+---
+date: 2022-09-06
+
+title: Decreases shroud clearing range of USA Hellfire Drone from 500 to 400
+
+changes:
+  - tweak: Decreases the shroud clearing range of USA Hellfire Drone from 500 to 400.
+
+labels:
+  - controversial
+  - design
+  - minor
+  - nerf
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1141
+
+authors:
+  - xezon

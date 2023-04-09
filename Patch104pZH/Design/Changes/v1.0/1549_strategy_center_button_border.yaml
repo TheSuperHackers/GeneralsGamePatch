@@ -1,0 +1,19 @@
+---
+date: 2023-01-14
+
+title: Adds missing border colors to USA Battle Plan command buttons
+
+changes:
+  - fix: Adds missing border types to the USA Strategy Center's Battle Plan command buttons.
+
+labels:
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1549
+
+authors:
+  - Stubbjax

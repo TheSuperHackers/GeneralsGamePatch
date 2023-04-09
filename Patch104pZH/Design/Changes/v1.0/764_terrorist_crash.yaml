@@ -1,0 +1,22 @@
+---
+date: 2022-07-27
+
+title: Fixes game crash upon the use of a GLA Terrorist
+
+changes:
+  - fix: Game no longer crashes when using Toxin GLA Terrorist (1)
+  - fix: Game no longer crashes when using any GLA Terrorist (2)
+
+labels:
+  - bug
+  - critical
+  - gla
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/699
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/764
+
+authors:
+  - hanfield
+  - xezon

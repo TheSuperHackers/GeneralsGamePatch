@@ -1,0 +1,19 @@
+---
+date: 2023-02-11
+
+title: Removes duplicate radiation field spawn on Nuke Cannon death
+
+changes:
+  - fix: Removes the duplicate RadiationFieldSmall before the Nuke Cannon explodes. This means the small radiation field no longer spawns before the Nuclear Explosion.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1619
+
+authors:
+  - xezon

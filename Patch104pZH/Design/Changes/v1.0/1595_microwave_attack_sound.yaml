@@ -1,0 +1,19 @@
+---
+date: 2023-01-23
+
+title: Adds missing fire sound for building attack of USA Microwave Tank
+
+changes:
+  - fix: USA Microwave Tank now emits a weapon beam sound when targeting bunkers for clearance. Originally it emits the same sound when attacking buildings for disabling.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1595
+
+authors:
+  - xezon

@@ -1,0 +1,19 @@
+---
+date: 2022-08-14
+
+title: Fixes missing Fortified Structures visuals on sell of GLA buildings
+
+changes:
+  - fix: GLA buildings with the Fortified Structures upgrade will now show the fortified visuals on sell. This does not change the amount of damage taken.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/885
+
+authors:
+  - commy2

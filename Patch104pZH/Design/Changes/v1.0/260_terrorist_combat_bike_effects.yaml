@@ -1,0 +1,19 @@
+---
+date: 2021-09-09
+
+title: Adds missing red smoke effect for GLA Demo Terrorist on Combat Bike after Demo Upgrade
+
+changes:
+  - fix: The Demo General's Terrorist now uses the correct red explosion effects when destroyed or suicided while riding a Bike after being upgraded with Demolitions, instead of the explosion effects of a normal Terrorist.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/260
+
+authors:
+  - commy2

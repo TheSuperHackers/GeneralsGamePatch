@@ -1,0 +1,21 @@
+---
+date: 2022-07-30
+
+title: Decreases build time of China Hackers from 20 to 15 seconds
+
+changes:
+  - tweak: Decreases the build time of China Hackers from 20 to 15 seconds. 4 Hackers will build as fast as a GLA Black Market of identical value in 1 minute accordingly.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/769
+
+authors:
+  - xezon

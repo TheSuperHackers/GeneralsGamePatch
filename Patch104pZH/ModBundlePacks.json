@@ -8,6 +8,7 @@
                 "name": "FullArabic",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioArabic",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -24,6 +25,7 @@
                 "name": "FullBrazilian",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioBrazilian",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -40,6 +42,7 @@
                 "name": "FullChinese",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioChinese",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -56,6 +59,7 @@
                 "name": "FullEnglish",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioEnglish",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -72,6 +76,7 @@
                 "name": "FullFrench",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioFrench",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -104,6 +109,7 @@
                 "name": "FullItalian",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioItalian",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -120,6 +126,7 @@
                 "name": "FullKorean",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioKorean",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -136,6 +143,7 @@
                 "name": "FullPolish",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioPolish",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -168,6 +176,7 @@
                 "name": "FullSpanish",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioSpanish",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",

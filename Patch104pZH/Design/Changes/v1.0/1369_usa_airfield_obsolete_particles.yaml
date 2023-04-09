@@ -1,0 +1,20 @@
+---
+date: 2022-10-15
+
+title: Removes superfluous particle effects from USA Airfield
+
+changes:
+  - fix: Removes superfluous particle effects from USA Airfield on Day maps.
+
+labels:
+  - bug
+  - minor
+  - performance
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1369
+
+authors:
+  - commy2

@@ -1,0 +1,18 @@
+---
+date: 2022-09-03
+
+title: Fixes sliding animation issue of bare Stinger Trooper in Kassads Generals Challenge
+
+changes:
+  - fix: The bare Stinger Trooper no longer has sliding animation in Kassads Generals Challenge.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1088
+
+authors:
+  - commy2

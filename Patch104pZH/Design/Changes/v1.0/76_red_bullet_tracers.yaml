@@ -1,0 +1,19 @@
+---
+date: 2021-08-27
+
+title: Fixes heroic tracers of GLA Jarmen and USA Pathfinder
+
+changes:
+  - fix: Heroic Jarmen Kell and Pathfinder now shoot with red tracer effects.
+
+labels:
+  - art
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/76
+
+authors:
+  - hanfield

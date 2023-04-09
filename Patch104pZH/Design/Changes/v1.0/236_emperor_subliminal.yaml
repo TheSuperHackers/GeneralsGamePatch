@@ -1,0 +1,22 @@
+---
+date: 2021-09-07
+
+title: Adds missing Subliminal Messaging bonus to China Emperor
+
+changes:
+  - fix: The China Emperor Tank now benefits from Subliminal Messaging, meaning the healing rate can be upgraded from 1% per second to 2% per second. With Subliminal Messaging, the unit will grant the SUBLIMINAL status to nearby units, which means an additional +25% Rate of Fire.
+
+labels:
+  - buff
+  - bug
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/236
+
+authors:
+  - commy2

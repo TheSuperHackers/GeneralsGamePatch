@@ -1,0 +1,20 @@
+---
+date: 2023-02-24
+
+title: Removes destruction delay variance from USA Alpha Aurora bomb
+
+changes:
+  - fix: Removes the 100 ms destruction delay variance from the USA Alpha Aurora bomb. The delay is now a fixed 1000 ms and is deterministic.
+
+labels:
+  - buff
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1752
+
+authors:
+  - Stubbjax

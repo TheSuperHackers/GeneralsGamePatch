@@ -1,0 +1,35 @@
+---
+date: 2022-12-04
+
+title: Fixes invisible desert shrub bush objects
+
+changes:
+  - fix: All desert shrub objects can now be seen on maps when used.
+
+subchanges:
+  - fix: Fixes DesertShrub01 object.
+  - fix: Fixes DesertShrub02 object.
+  - fix: Fixes DesertShrub03 object.
+  - fix: Fixes DesertShrub04 object.
+  - fix: Fixes DesertShrub05 object.
+  - fix: Fixes DesertShrub06 object.
+  - fix: Fixes DesertShrub07 object.
+  - fix: Fixes DesertShrub08 object.
+  - fix: Fixes DesertShrub10 object.
+  - fix: Fixes DesertShrub11 object.
+  - fix: Fixes DesertShrub12 object.
+  - fix: Fixes DesertShrub13 object.
+
+labels:
+  - art
+  - bug
+  - minor
+  - v1.0
+  - worldbuilder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1488
+
+authors:
+  - Newgate
+  - xezon

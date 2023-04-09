@@ -1,0 +1,19 @@
+---
+date: 2023-02-09
+
+title: Fixes issue where GLA Scorpion model does not show its salvage upgrades on death
+
+changes:
+  - fix: The GLA Scorpion model no longer loses upgrades on death.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1663
+
+authors:
+  - xezon

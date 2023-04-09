@@ -1,0 +1,23 @@
+---
+date: 2022-10-08
+
+title: Fixes missing muzzle flash on Gattling weapons
+
+changes:
+  - fix: Fixes missing muzzle flash on China Gattling Tank when firing at ground targets.
+  - fix: Fixes missing muzzle flash on China Overlord Gattling when firing at ground targets.
+  - fix: Fixes missing muzzle flash on China Gattling Cannon when firing at ground targets.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1341
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1343
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1344
+
+authors:
+  - commy2

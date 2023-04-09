@@ -1,0 +1,19 @@
+---
+date: 2022-09-01
+
+title: Fixes broken voice line of China Battlemaster in French, German locales
+
+changes:
+  - fix: The China Battlemaster now has all voice lines working correctly in French and German locales.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1071
+
+authors:
+  - xezon

@@ -1,0 +1,20 @@
+---
+date: 2022-07-22
+
+title: Recoveres 483 high quality textures from Generals
+
+changes:
+  - fix: Recoveres 483 high quality textures from Generals. In Zero Hour they were downscaled, either by mistake or as a way to reduce the video memory requirements. The textures are related to civilian and faction buildings for the most part.
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/734
+
+authors:
+  - xezon

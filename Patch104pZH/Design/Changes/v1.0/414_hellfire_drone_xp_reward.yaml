@@ -1,0 +1,20 @@
+---
+date: 2021-09-25
+
+title: Adds kill experience reward to USA Hellfire Drone
+
+changes:
+  - tweak: Destroying the USA Hellfire Drone now rewards 10 experience points.
+
+labels:
+  - controversial
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/414
+
+authors:
+  - commy2

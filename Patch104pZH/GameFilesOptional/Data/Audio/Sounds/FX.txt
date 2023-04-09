@@ -1,0 +1,9 @@
+Fixes clicking, fadeout in
+
+iranflaa.wav
+iranflab.wav
+isabsabo.wav
+santexpl.wav
+sscrambl.wav
+sshel01a.wav
+sshel01b.wav

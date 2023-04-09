@@ -1,0 +1,20 @@
+---
+date: 2022-10-20
+
+title: Fixes USA and China Command Center door and radar animations reset on damage state changes
+
+changes:
+  - fix: Fixes door and radar animations resetting when transitioning between damage states for the China and USA Command Centers.
+
+labels:
+  - bug
+  - china
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1398
+
+authors:
+  - Stubbjax

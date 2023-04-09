@@ -1,0 +1,26 @@
+---
+date: 2022-09-23
+
+title: Fixes atpanelroof03 snow textures for USA structures
+
+changes:
+  - fix: Fixes atpanelroof3 texture.
+
+subchanges:
+  - fix: |
+      atpanelroof3_ds
+        - Fixes snow having different offset than atpanelroof3_s
+        - Fixes snow drawing over burns
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1267
+
+authors:
+  - xezon

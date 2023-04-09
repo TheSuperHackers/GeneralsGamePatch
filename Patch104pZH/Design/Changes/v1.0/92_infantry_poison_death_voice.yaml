@@ -1,0 +1,21 @@
+---
+date: 2021-08-28
+
+title: Fixes wrong poison death voice effects of USA and China infantry units
+
+changes:
+  - fix: USA and China infantry units no longer use the GLA death scream when poisoned with Anthrax Gamma (pink puddles). Instead they use the respective USA or China death scream.
+
+labels:
+  - audio
+  - bug
+  - china
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/92
+
+authors:
+  - commy2

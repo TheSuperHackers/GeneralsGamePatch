@@ -1,0 +1,19 @@
+---
+date: 2023-01-08
+
+title: Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion
+
+changes:
+  - fix: The China Nuke Cannon death scorch now spawns on the secondary big explosion instead of the first small one, like other China tanks.
+
+labels:
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1536
+
+authors:
+  - xezon

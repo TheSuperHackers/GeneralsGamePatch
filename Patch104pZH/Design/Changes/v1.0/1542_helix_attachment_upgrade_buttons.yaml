@@ -1,0 +1,20 @@
+---
+date: 2023-01-11
+
+title: Fixes issue where China Helix attachment upgrade buttons disappear after research
+
+changes:
+  - fix: China Helix upgrade buttons will no longer disappear after research. This means the shortcut key can be used on multi Helix selections to build an upgrade at any time. This behavior is consistent with USA vehicle drone upgrade buttons.
+
+labels:
+  - bug
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1542
+
+authors:
+  - xezon

@@ -1,0 +1,32 @@
+---
+date: 2022-09-29
+
+title: Fixes utconcroof textures for GLA structures
+
+changes:
+  - fix: Fixes utconcroof textures for GLA structures.
+
+subchanges:
+  - fix: |
+      utconcroof_d
+        - Adds soft black borders from utconcroof
+        - Replaces damages with utconcroof_ds to look different than utconcroof_e
+  - fix: |
+      utconcroof_e
+        - Adds soft black borders from utconcroof
+  - fix: |
+      utconcroof_es
+        - Removes obsolete alpha channel
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1320
+
+authors:
+  - xezon

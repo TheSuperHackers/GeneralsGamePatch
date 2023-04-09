@@ -1,0 +1,20 @@
+---
+date: 2022-10-08
+
+title: Removes green cubes from the damaged China Emperor Tank
+
+changes:
+  - fix: Removes green cubes (bones) from the damaged China Emperor Tank.
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1346
+
+authors:
+  - commy2

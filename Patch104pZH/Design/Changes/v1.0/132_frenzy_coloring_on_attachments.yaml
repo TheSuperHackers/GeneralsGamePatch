@@ -1,0 +1,19 @@
+---
+date: 2021-09-01
+
+title: Fixes China unit attachments not showing the red tint from the Frenzy Power
+
+changes:
+  - fix: The China Helix and Overlord attachments are now properly tinted red when their parent unit is affected by the Frenzy Power.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/132
+
+authors:
+  - hanfield

@@ -1,0 +1,20 @@
+---
+date: 2022-09-24
+
+title: Enables all death voice variants for USA Raptor and USA Aurora
+
+changes:
+  - fix: Enables all death voice variants for USA Raptor and USA Aurora.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274
+
+authors:
+  - xezon

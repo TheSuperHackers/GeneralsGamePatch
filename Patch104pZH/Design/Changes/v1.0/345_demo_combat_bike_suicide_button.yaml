@@ -1,0 +1,22 @@
+---
+date: 2021-09-13
+
+title: Fixes button errors on GLA Demo Combat Bike
+
+changes:
+  - fix: GLA Demo Combat Bike no longer shows the deactivated suicide button before acquiring the Demolition Upgrade.
+  - fix: Jarmen Kell on GLA Demo Combat Bike no longers loses its Sniper Attack button after acquiring the Demolition Upgrade.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/345
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/680
+
+authors:
+  - commy2
+  - xezon

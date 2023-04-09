@@ -1,0 +1,20 @@
+---
+date: 2021-09-11
+
+title: Adds missing Mines upgrade to China Speaker Tower
+
+changes:
+  - fix: The China Speaker Tower can now upgrade Mines.
+
+labels:
+  - buff
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/317
+
+authors:
+  - commy2

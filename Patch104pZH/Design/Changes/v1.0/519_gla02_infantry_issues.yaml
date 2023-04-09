@@ -1,0 +1,28 @@
+---
+date: 2021-10-07
+
+title: Fixes issues with GLA Stealth infantry in GLA02 campaign
+
+changes:
+  - fix: The GLA02 Stealth General Infantry now behaves consistently when stealthed.
+  - fix: The GLA02 Stealth General's Worker now builds in the intended time of 6 seconds.
+  - fix: The GLA02 Stealth General's Rebel Booby Trap attack is now functional.
+  - fix: The GLA02 Stealth General's Hijacker now enters vehicles in guard mode as intended.
+  - fix: The GLA02 Stealth General's Sniper no longer benefits from Advanced Training.
+  - fix: The GLA02 Stealth General's Sniper now benefits from AP Bullets as intended.
+  - fix: The GLA02 Stealth General's Sniper will no longer retaliate if the option is disabled.
+  - fix: The GLA02 Stealth General's Sniper now screams like a GLA unit when poisoned.
+  - fix: The GLA02 Stealth General's Jarmen Kell now has the intended vision range.
+  - fix: The GLA02 Stealth General's Jarmen Kell will no longer automatically engage enemies when stealthed.
+  - fix: The GLA02 Stealth General's Jarmen Kell will no longer retaliate if the option is disabled.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/519
+
+authors:
+  - commy2

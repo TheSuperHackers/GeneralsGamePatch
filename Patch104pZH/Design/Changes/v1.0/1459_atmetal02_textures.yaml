@@ -1,0 +1,34 @@
+---
+date: 2022-11-08
+
+title: Fixes and improves atmetal02 textures for USA Particle Cannon
+
+changes:
+  - fix: Fixes and improves atmetal02 textures for USA Particle Cannon.
+
+subchanges:
+  - fix: |
+      atmetal02_d, atmetal02_e
+        - Repaints some burns
+  - fix: |
+      atmetal02_s
+        - Fixes semi-transparent snow
+  - fix: |
+      atmetal02_ds, atmetal02_es
+        - Fixes semi-transparent snow
+        - Fixes semi-transparent burns
+        - Repaints some burns
+
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1459
+
+authors:
+  - xezon

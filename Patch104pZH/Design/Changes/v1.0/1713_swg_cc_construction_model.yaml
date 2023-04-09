@@ -1,0 +1,19 @@
+---
+date: 2023-02-15
+
+title: Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction
+
+changes:
+  - fix: Super Weapon General now uses the correct Command Center model during construction and deconstruction states. This is only noticeable when construction nears 100% or for the first ~44 frames when sold (the faction logo is now visible during these times).
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1713
+
+authors:
+  - Stubbjax

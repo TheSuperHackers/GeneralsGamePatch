@@ -1,0 +1,19 @@
+---
+date: 2022-08-05
+
+title: Fixes inconsistent press styles on Idle Worker and Place Beacon buttons
+
+changes:
+  - fix: The Idle Worker and Place Beacon buttons on the Control Bar now trigger after mouse button release only. This behaviour is consistent with the other Control Bar buttons nearby.
+
+labels:
+  - design
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/825
+
+authors:
+  - xezon

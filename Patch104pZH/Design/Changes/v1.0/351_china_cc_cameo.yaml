@@ -1,0 +1,20 @@
+---
+date: 2021-09-13
+
+title: Fixes missing Radar icon on China Command Center
+
+changes:
+  - fix: The China Command Center now has an icon for the Radar upgrade.
+
+labels:
+  - bug
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/351
+
+authors:
+  - commy2

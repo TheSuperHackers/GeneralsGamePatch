@@ -1,0 +1,20 @@
+---
+date: 2021-09-12
+
+title: Fixes issue where GLA Demo Terrorist can be crushed without applying any damage
+
+changes:
+  - fix: The GLA Demo Terrorist will now explode when crushed, burned, or exploded like other GLA Terrorists.
+
+labels:
+  - bug
+  - controversial
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/316
+
+authors:
+  - Generalcamo

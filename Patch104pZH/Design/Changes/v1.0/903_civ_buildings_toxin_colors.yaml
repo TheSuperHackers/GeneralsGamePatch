@@ -1,0 +1,19 @@
+---
+date: 2022-08-14
+
+title: Fixes mismatching toxin puddle colors from destroyed chemical civilian buildings.
+
+changes:
+  - fix: All destroyed chemical civilian buildings now spawn blue Anthrax Beta. This does not change the damage of the toxin puddles.
+
+labels:
+  - bug
+  - civilian
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/903
+
+authors:
+  - commy2

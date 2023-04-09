@@ -1,0 +1,19 @@
+---
+date: 2023-02-04
+
+title: Improves tool tip text of China Nationalism and Fanatism upgrades
+
+changes:
+  - fix: Improves tool tip text of China Nationalism and Fanatism upgrades for all latin languages
+
+labels:
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1624
+
+authors:
+  - xezon

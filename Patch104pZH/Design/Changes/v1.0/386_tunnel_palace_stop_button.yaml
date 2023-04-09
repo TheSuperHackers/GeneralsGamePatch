@@ -1,0 +1,22 @@
+---
+date: 2021-09-20
+
+title: Adds missing Stop button to GLA Tunnel and GLA Palace
+
+changes:
+  - fix: The Palace now has a Stop button, which can be used to make passengers stop firing.
+  - fix: The Demo General's Tunnel Network now has a Stop button, like other Tunnels.
+  - fix: The Stop buttons of the non-Demo General Tunnels are placed similarly to other Base Defenses and have a dedicated button for Rallypoint. Other Base Defenses like the Fire Base and Bunker also have a dedicated button for Stop. The Rallypoint button is no longer superfluous and can be used to set a Rallypoint.
+
+labels:
+  - design
+  - gla
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/386
+
+authors:
+  - commy2

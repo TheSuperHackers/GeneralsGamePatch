@@ -1,0 +1,22 @@
+---
+date: 2021-09-11
+
+title: Fixes Generals Powers disappearing from Command Centers after Mines upgrade
+
+changes:
+  - fix: The Frenzy Power button no longer disappears after upgrading Mines on the Infantry and Nuke General's Command Centers.
+  - fix: The Carpet Bomb Power button no longer disappears after upgrading Mines on the Infantry General Command Center.
+  - fix: The Paradrop Power button no longer moves position to the right after upgrading Mines on the Infantry General Command Center.
+
+labels:
+  - bug
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/301
+
+authors:
+  - commy2

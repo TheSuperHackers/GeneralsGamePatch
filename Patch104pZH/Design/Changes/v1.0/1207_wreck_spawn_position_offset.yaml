@@ -1,0 +1,21 @@
+---
+date: 2022-09-15
+
+title: Fixes vehicle wreck spawn position errors
+
+changes:
+  - fix: Fixes wreck position error of China ECM Tank.
+  - fix: Fixes wreck position error of China Gattling Tank.
+  - fix: Fixes wreck position error of GLA Battle Bus.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1207
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1585
+
+authors:
+  - xezon

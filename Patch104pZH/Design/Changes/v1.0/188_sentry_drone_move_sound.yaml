@@ -1,0 +1,21 @@
+---
+date: 2021-09-04
+
+title: Adds missing movement command sounds to USA Sentry Drone
+
+changes:
+  - fix: The Airforce, Super Weapon, Laser and Boss General's Sentry Drones now uses the Move Start sounds of the regular USA Sentry Drone
+  - fix: The regular USA Sentry Drone now keeps its sound effects even when damaged.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/188
+
+authors:
+  - commy2

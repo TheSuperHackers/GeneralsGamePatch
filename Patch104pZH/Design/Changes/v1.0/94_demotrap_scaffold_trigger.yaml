@@ -1,0 +1,20 @@
+---
+date: 2021-08-28
+
+title: Fixes GLA Demo Trap getting triggered by nearby enemy scaffold
+
+changes:
+  - fix: Demo Traps can no longer be triggered by enemy scaffolds.
+
+labels:
+  - buff
+  - bug
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/94
+
+authors:
+  - hanfield

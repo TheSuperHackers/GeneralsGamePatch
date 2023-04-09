@@ -1,0 +1,20 @@
+---
+date: 2021-09-06
+
+title: Fixes misaligned propaganda effect on China Vehicles
+
+changes:
+  - fix: Fixes misaligned propaganda effect on China Assault Troopcrawler.
+  - fix: Fixes misaligned propaganda effect on China Attack Outpost.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/231
+
+authors:
+  - Stubbjax

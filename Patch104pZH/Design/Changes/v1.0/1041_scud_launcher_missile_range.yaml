@@ -1,0 +1,20 @@
+---
+date: 2022-08-22
+
+title: Fixes insufficient range of GLA Scud Launcher missile
+
+changes:
+  - fix: The missile of the GLA Scud Launcher now has more range to properly hit its target in cases where it owns the salvage upgrade for extended firing range, has the SEARCH AND DESTROY Battle Plan bonus and fires from an elevated position. Originally, the Scud missile would time out before hitting the target under these conditions.
+
+labels:
+  - buff
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1041
+
+authors:
+  - Stubbjax
