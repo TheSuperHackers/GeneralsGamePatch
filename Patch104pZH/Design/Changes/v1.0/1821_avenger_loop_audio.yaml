@@ -1,0 +1,20 @@
+---
+date: 2023-04-09
+
+title: Fixes audible gaps in audio loop of USA Avenger Target Designator
+
+changes:
+  - fix: The USA Avenger Target Designator beam sound loop now sounds harmonic without gaps.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1820
+
+authors:
+  - xezon
