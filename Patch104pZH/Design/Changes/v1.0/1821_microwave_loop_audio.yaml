@@ -1,0 +1,19 @@
+---
+date: 2023-04-09
+
+title: Fixes weapon audio loop interval and frequency irregularities of USA Microwave Tank
+
+changes:
+  - fix: The USA Microwave Tank beam sound loop now sounds harmonic. Interval and frequency loop is consistent without mismatching cuts.
+
+labels:
+  - audio
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1821
+
+authors:
+  - xezon
