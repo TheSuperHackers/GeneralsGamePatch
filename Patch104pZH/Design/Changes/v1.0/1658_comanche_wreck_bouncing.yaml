@@ -1,0 +1,19 @@
+---
+date: 2023-01-28
+
+title: Removes bouncing from wreck of USA Comanche
+
+changes:
+  - fix: USA Comanche wreck can no longer bounce. Other helicopter wrecks cannot bounce either.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1658
+
+authors:
+  - xezon

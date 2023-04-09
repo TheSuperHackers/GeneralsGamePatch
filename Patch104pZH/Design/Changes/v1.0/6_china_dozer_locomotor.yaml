@@ -1,0 +1,20 @@
+---
+date: 2021-08-22
+
+title: Improves mobility of China Dozer
+
+changes:
+  - tweak: Improves the mobility of the China Dozer to avoid scenarios where it gets stuck unnecessarily. This is implemented by changing the locomotor appearance from TREADS to FOUR_WHEELS.
+
+labels:
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/6
+
+authors:
+  - hanfield

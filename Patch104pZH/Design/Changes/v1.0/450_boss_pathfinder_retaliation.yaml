@@ -1,0 +1,19 @@
+---
+date: 2021-10-03
+
+title: Fixes retaliation behaviour of Boss Pathfinder
+
+changes:
+  - fix: The Boss Pathfinder no longer retaliates if the option is enabled. This is consistent with every other Pathfinder.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/450
+
+authors:
+  - commy2

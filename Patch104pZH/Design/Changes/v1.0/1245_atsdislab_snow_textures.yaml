@@ -1,0 +1,26 @@
+---
+date: 2022-09-21
+
+title: Fixes atsdislab snow textures for USA Particle Cannon
+
+changes:
+  - fix: Fixes atsdislab snow textures for USA Particle Cannon. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
+
+subchanges:
+  - fix: |
+      atsdislab_ds, atsdislab_es
+        - Fix mispositioned snow
+        - Fix snow drawing over burns
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1245
+
+authors:
+  - xezon

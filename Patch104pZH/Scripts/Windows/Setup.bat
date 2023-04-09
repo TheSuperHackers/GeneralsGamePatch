@@ -3,18 +3,20 @@
 set SetupDir=%~dp0.
 
 :: Version, size and hash. Sets which Mod Builder is used.
-set ModBuilderVer=1.8
-set ModBuilderArcSize=31851356
-set ModBuilderArcSha256=279047dfbf318f438f5876bcf67e6f8baeea440dfc21e7b862c58f75e9055432
+set ModBuilderVer=1.9
+set ModBuilderArcSize=31297553
+set ModBuilderArcSha256=352f2b3d30abbde1976f0ed8d7b3f624a2a4317630d74e64fe5305eabfd5f2e1
 
 :: The mod config files. Relative to this setup file.
 set ConfigFiles=^
     "%SetupDir%\..\..\ModBundleItems.json" ^
+    "%SetupDir%\..\..\ModBundleAudioItems.json" ^
     "%SetupDir%\..\..\ModBundleLanguageItems.json" ^
     "%SetupDir%\..\..\ModBundlePacks.json" ^
+    "%SetupDir%\..\..\ModChangeLog.json" ^
     "%SetupDir%\..\..\ModFolders.json" ^
     "%SetupDir%\..\..\ModRunner.json" ^
-    "%SetupDir%\ModTools.json" ^
+    "%SetupDir%\ModTools.json"
 
 :: Misc path setup.
 set ModBuilderDir=%SetupDir%\.modbuilder\v%ModBuilderVer%

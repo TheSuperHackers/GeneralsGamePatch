@@ -1,0 +1,28 @@
+---
+date: 2021-09-11
+
+title: Adds missing air attack voices to various units
+
+changes:
+  - fix: |
+      All units now play a voice line when targeting airborne units. This includes
+        - China Mini Gunner
+        - China Assault Troop Crawler
+        - China Listening Outpost
+        - China Gattling Tank
+        - China Overlord with Gattling Turret
+        - GLA RPG-Trooper
+        - GLA Combat Bike
+        - GLA Battle Bus
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/293
+
+authors:
+  - commy2

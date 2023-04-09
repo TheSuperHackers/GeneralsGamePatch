@@ -1,0 +1,35 @@
+---
+date: 2022-09-24
+
+title: Fixes and improves atventwall01 textures for USA structures
+
+changes:
+  - fix: Fixes and improves atventwall01 textures.
+
+subchanges:
+  - fix: |
+      atventwall01_e
+        - Fixes bullet holes drawing over burns
+        - Repaints burns
+  - fix: |
+      atventwall01_ds
+        - Fixes snow drawing over burns
+  - fix: |
+      atventwall01_es
+        - Fixes snow drawing over burns
+        - Fixes bullet holes drawing over burns
+        - Repaints burns
+
+labels:
+  - art
+  - bug
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1277
+
+authors:
+  - xezon

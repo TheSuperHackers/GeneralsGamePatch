@@ -1,0 +1,20 @@
+---
+date: 2021-09-11
+
+title: Fixes incorrect air attack sound of China Minigunner
+
+changes:
+  - fix: When firing at airborne targets, the China Minigunner no longer uses the weapon sound effect of the Gattling Tank.
+
+labels:
+  - audio
+  - bug
+  - controversial
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/315
+
+authors:
+  - commy2

@@ -1,0 +1,22 @@
+---
+date: 2022-08-14
+
+title: Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max
+
+changes:
+  - tweak: Decreases GLA Toxin Stinger Anthrax Gamma ground bonus damage from 100% to 50%.
+  - tweak: Decreases GLA Toxin Stinger Anthrax Gamma air bonus damage from 66% to 50%.
+
+labels:
+  - controversial
+  - design
+  - gla
+  - major
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/882
+
+authors:
+  - xezon

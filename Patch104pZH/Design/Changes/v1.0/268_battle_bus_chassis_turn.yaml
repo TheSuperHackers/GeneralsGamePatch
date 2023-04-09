@@ -1,0 +1,19 @@
+---
+date: 2021-09-10
+
+title: Fixes GLA Battle Bus turning its chassis when aiming at air units
+
+changes:
+  - fix: The GLA Battle Bus with infantry inside will no longer turn towards a flying unit when ordered to attack it, thus reducing unnecessary movement.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/268
+
+authors:
+  - commy2

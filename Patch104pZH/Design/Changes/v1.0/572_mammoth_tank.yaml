@@ -1,0 +1,19 @@
+---
+date: 2021-10-17
+
+title: Adds Generals Mammoth Tank (for custom maps)
+
+changes:
+  - fix: Adds the Generals Mammoth Tank. It can be used for custom maps.
+
+labels:
+  - civilian
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/572
+
+authors:
+  - commy2

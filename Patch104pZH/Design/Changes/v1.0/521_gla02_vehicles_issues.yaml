@@ -1,0 +1,33 @@
+---
+date: 2021-10-07
+
+title: Fixes issues with GLA Stealth vehicles in GLA02 campaign
+
+changes:
+  - fix: The GLA02 Stealth General's vehicles now behave consistently when stealthed.
+  - fix: The GLA02 Stealth General's vehicles are no longer immune to ECM tanks.
+  - fix: The GLA02 Stealth General's Quad Cannon now builds in the intended time.
+  - fix: The GLA02 Stealth General's Quad Cannon now has the intended health and fire resistance.
+  - fix: The GLA02 Stealth General's Quad Cannon now engages when stealthed.
+  - fix: The GLA02 Stealth General's Quad Cannon now fires tracers from the correct position when sniping infantry while scrapped up.
+  - fix: The GLA02 Stealth General's Technical now engages when stealthed.
+  - fix: The GLA02 Stealth General's Radar Van now has the intended scan range.
+  - fix: The GLA02 Stealth General's Battle Bus now has the intended buttons to drop held infantry.
+  - fix: The GLA02 Stealth General's Battle Bus now has the intended functionality for disguiser ability.
+  - fix: The GLA02 Stealth General's Battle Bus now has the intended health compared to other Battle Buses.
+  - fix: The GLA02 Stealth General's Battle Bus can now be ordered to target enemies.
+  - fix: The GLA02 Stealth General's Battle Bus now has the intended effect when transitioning damaged states.
+  - fix: The GLA02 Stealth General's Battle Bus now has the intended sound effects for entering or leaving infantry and power sliding.
+  - fix: The GLA02 Stealth General's Battle Bus is now classified as TRANSPORTER.
+  - fix: The GLA02 Stealth General's Jarmen Kell on a Bike now has the intended reload time for Sniper Attack compared to on foot.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/521
+
+authors:
+  - commy2

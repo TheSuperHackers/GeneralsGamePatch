@@ -1,0 +1,20 @@
+---
+date: 2021-09-03
+
+title: Fixes issue that prevents to build Drones for different USA vehicles in a group selection
+
+changes:
+  - fix: The Drone upgrade buttons for USA vehicles of the Super Weapon General, Laser General and the Airforce General are now at the same positions. This allows the player to upgrade Drones for all vehicles at once when a group of different vehicles is selected.
+
+labels:
+  - bug
+  - gui
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/166
+
+authors:
+  - commy2

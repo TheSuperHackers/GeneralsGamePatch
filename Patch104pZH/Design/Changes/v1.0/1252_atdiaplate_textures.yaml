@@ -1,0 +1,41 @@
+---
+date: 2022-09-22
+
+title: Fixes and improves atdiaplate textures for USA War Factory
+
+changes:
+  - fix: Fixes and improves atdiaplate textures for USA War Factory.
+
+subchanges:
+  - fix: |
+      atdiaplate, atdiaplate_d
+        -  Flips texture horizontally to better blend with nearby texture on USA Warfactory
+  - fix: |
+      atdiaplate_e
+        -  Flips texture horizontally
+        -  Removes bullet holes
+        -  Adds more dust
+  - fix: |
+      atdiaplate_s, atdiaplate_ds
+        -  Flips texture horizontally
+        -  Repaints snow (inherently fixes snow position mismatches)
+  - fix: |
+      atdiaplate_es
+        - Flips texture horizontally
+        - Repaints snow (inherently fixes snow position mismatches)
+        - Removes bullet holes
+        - Adds more dust
+
+labels:
+  - art
+  - bug
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1252
+
+authors:
+  - xezon

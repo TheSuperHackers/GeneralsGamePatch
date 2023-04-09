@@ -1,0 +1,19 @@
+---
+date: 2021-08-28
+
+title: Fixes Toxin Shells losing their projectile effect after acquiring Anthrax Beta
+
+changes:
+  - fix: Toxin Shells now show the explosion particle effect when upgraded to Anthrax Beta and Anthrax Gamma.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/83
+
+authors:
+  - commy2

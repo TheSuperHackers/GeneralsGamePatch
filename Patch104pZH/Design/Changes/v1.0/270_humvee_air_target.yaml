@@ -1,0 +1,20 @@
+---
+date: 2021-09-10
+
+title: Fixes USA Humvee without TOW missile stopping moving after targeting air unit
+
+changes:
+  - fix: The USA Humvee no longer stops moving when attack moving into a group of units with airborne targets, such as other Humvees with Scout Drones.
+
+labels:
+  - buff
+  - bug
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/270
+
+authors:
+  - commy2

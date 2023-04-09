@@ -1,0 +1,20 @@
+---
+date: 2021-09-02
+
+title: Fixes wrong portrait image of USA Alpha Aurora
+
+changes:
+  - fix: Fixes the wrong portrait image of the USA Alpha Aurora.
+
+labels:
+  - art
+  - gui
+  - usa
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/145
+
+authors:
+  - xamorish

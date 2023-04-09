@@ -1,0 +1,19 @@
+---
+date: 2021-09-04
+
+title: Fixes tooltip text of USA Laser Aurora
+
+changes:
+  - fix: The Laser General's Aurora now uses the generic Aurora tooltip instead of the tooltip of the Microwave tank.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/194
+
+authors:
+  - commy2

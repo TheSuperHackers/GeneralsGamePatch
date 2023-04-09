@@ -1,0 +1,21 @@
+---
+date: 2022-10-16
+
+title: Fixes War Factory door animations reset on damage state changes
+
+changes:
+  - fix: Fixes door animations resetting when transitioning between damage states for the China, USA and GLA War Factories.
+
+labels:
+  - bug
+  - china
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1382
+
+authors:
+  - Stubbjax

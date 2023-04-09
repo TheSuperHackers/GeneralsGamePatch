@@ -1,0 +1,21 @@
+---
+date: 2022-09-08
+
+title: Increases USA Sentry Drone gun damage by 20%
+
+changes:
+  - tweak: Increases USA Sentry Drone gun damage by 20%, from 40 to 50. This makes the Machine Gun damage output identical with the Vet 0 Humvee.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1162
+
+authors:
+  - xezon

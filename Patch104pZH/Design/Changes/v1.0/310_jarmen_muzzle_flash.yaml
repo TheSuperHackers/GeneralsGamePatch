@@ -1,0 +1,19 @@
+---
+date: 2021-09-11
+
+title: Fixes wrong muzzle flash location for Snipe Attack ability of GLA Jarmen Kell
+
+changes:
+  - fix: The Snipe Attack tracer from the GLA Jarmen Kell now emerges from the muzzle instead of his feet.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/310
+
+authors:
+  - commy2

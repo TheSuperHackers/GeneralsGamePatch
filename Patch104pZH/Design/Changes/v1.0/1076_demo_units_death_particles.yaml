@@ -1,0 +1,19 @@
+---
+date: 2022-09-02
+
+title: Improves explosion effect of destroyed Demo GLA units with Demo Upgrade
+
+changes:
+  - feature: Destroyed Demo GLA units with Demo Upgrade now have a dedicated explosion effect that looks different to the original suicide explosion effect.
+
+labels:
+  - design
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1076
+
+authors:
+  - commy2

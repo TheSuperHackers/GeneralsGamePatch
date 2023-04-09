@@ -1,0 +1,19 @@
+---
+date: 2022-12-15
+
+title: Removes duplicate shockwave effects from aircraft explosions
+
+changes:
+  - fix: Removes Buggy Shockwave effect from explosion of Mig Nuke Missile and Helix Nuke Bomb.
+
+labels:
+  - art
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504
+
+authors:
+  - xezon

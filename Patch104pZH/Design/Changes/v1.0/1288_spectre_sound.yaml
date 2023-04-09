@@ -1,0 +1,21 @@
+---
+date: 2022-09-25
+
+title: Fixes USA Spectre Gunship audio issues
+
+changes:
+  - fix: Fixes missing interaction audio of the level 3 Spectre Gunship.
+  - fix: Fixes wrong weapon audio of the level 3 Spectre Gunship.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1288
+
+authors:
+  - Stubbjax

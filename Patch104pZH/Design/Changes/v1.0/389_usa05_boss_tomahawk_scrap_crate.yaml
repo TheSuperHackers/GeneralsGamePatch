@@ -1,0 +1,18 @@
+---
+date: 2021-09-19
+
+title: Adds missing Scrap Salvage to Boss Tomahawk
+
+changes:
+  - fix: The Boss Tomahawk now leaves a Scrap Salvage crate when killed.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/389
+
+authors:
+  - commy2

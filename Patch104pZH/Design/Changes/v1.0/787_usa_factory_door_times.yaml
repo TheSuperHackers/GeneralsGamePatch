@@ -1,0 +1,19 @@
+---
+date: 2022-07-30
+
+title: Decreases USA War Factory close door time from 4000 to 3300 ms
+
+changes:
+  - tweak: Decreases the USA War Factory close door time from 4000 to 3300 ms. This change is inconsequential for gameplay, because it does not affect unit interactions.
+
+labels:
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/787
+
+authors:
+  - xezon

@@ -1,0 +1,20 @@
+---
+date: 2021-09-04
+
+title: Fixes wrong movement sounds of USA Microwave Tank
+
+changes:
+  - fix: The Airforce, Super Weapon, and Laser General's Microwave tanks no longer use the Humvee's Move Start sounds, and instead, they use the move sounds from the regular USA Microwave Tank.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/189
+
+authors:
+  - commy2

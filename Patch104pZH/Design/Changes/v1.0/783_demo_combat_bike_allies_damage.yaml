@@ -1,0 +1,20 @@
+---
+date: 2022-07-29
+
+title: Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies
+
+changes:
+  - tweak: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
+
+labels:
+  - bug
+  - controversial
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/783
+
+authors:
+  - xezon

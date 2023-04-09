@@ -1,0 +1,20 @@
+---
+date: 2021-09-18
+
+title: Fixes wrong tooltip text of Boss Nationalism Upgrade after Mines upgrade
+
+changes:
+  - fix: The Boss Nationalism upgrade no longer changes its tooltip text after the Landmines upgrade.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/378
+
+authors:
+  - commy2

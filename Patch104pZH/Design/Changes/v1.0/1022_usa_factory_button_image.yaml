@@ -1,0 +1,19 @@
+---
+date: 2022-08-20
+
+title: Replaces Generic Tank with Crusader Tank on USA War Factory button image
+
+changes:
+  - fix: Replaces Generic Tank with Crusader Tank on USA War Factory button image.
+
+labels:
+  - gui
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1022
+
+authors:
+  - commy2

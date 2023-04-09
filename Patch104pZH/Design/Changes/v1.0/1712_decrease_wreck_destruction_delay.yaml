@@ -1,0 +1,35 @@
+---
+date: 2023-01-29
+
+title: Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain
+
+changes:
+  - tweak: Decreases destruction delays of several hulks to delete them earlier. By the time of deletion they are already sunk into terrain.
+
+subchanges:
+  - tweak: Decreases destruction delay of China Gattling Tank by 2000 ms.
+  - tweak: Decreases destruction delay of China ECM Tank by 2000 ms.
+  - tweak: Decreases destruction delay of USA Ambulance by 4500 ms.
+  - tweak: Decreases destruction delay of GLA Toxin Tractor by 6000 ms.
+  - tweak: Decreases destruction delay of GLA Quad Cannon by 8000 ms.
+  - tweak: Decreases destruction delay of GLA Bomb Truck by 5500 ms.
+  - tweak: Decreases destruction delay of GLA Technical by 9500 ms.
+  - tweak: Decreases destruction delay of GLA Rocket Buggy by 9500 ms.
+  - tweak: Decreases destruction delay of GLA Scorpion Tank by 8000 ms.
+  - tweak: Decreases destruction delay of GLA Radar Van by 4000 ms.
+  - tweak: Decreases destruction delay of USA Scout Drone by 2000 ms.
+  - tweak: Decreases destruction delay of USA Battle Drone by 2000 ms.
+
+labels:
+  - china
+  - gla
+  - minor
+  - performance
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1712
+
+authors:
+  - xezon

@@ -1,0 +1,20 @@
+---
+date: 2022-10-02
+
+title: Fixes missing lights of damaged GLA Scud Storm on Night maps
+
+changes:
+  - fix: The damaged GLA Scud Storm now shows its lights on Night maps.
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1325
+
+authors:
+  - commy2

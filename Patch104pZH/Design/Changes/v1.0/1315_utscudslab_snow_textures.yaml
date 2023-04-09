@@ -1,0 +1,28 @@
+---
+date: 2022-09-28
+
+title: Fixes utscudslab snow textures for GLA Scud Storm
+
+changes:
+  - fix: Fixes utscudslab snow textures for GLA Scud Storm.
+
+subchanges:
+  - fix: |
+      utscudslab_s
+        - Fixes strong shadows in snow
+  - fix: |
+      utscudslab_ds, utscudslab_es
+        - Fixes strong shadows in snow
+        - Fixes snow drawing over burns
+
+labels:
+  - art
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1315
+
+authors:
+  - xezon

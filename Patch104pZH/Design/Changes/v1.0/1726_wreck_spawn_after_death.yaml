@@ -1,0 +1,19 @@
+---
+date: 2023-02-16
+
+title: Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion
+
+changes:
+  - fix: There is a random 200 ms destruction delay on death of GLA Bomb Truck. This means that the hulk and effects spawns a bit later than the death explosion. With this fix the wreck of the GLA Bomb Truck will always spawn right on death.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1726
+
+authors:
+  - xezon

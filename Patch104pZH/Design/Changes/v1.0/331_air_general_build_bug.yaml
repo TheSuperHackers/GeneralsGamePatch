@@ -1,0 +1,19 @@
+---
+date: 2021-09-12
+
+title: Fixes Airforce General unable to build Stealth Fighters from non-AFG Airfields
+
+changes:
+  - fix: The Airforce General can now build Stealth Fighters in non-AFG Airfields.
+
+labels:
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/331
+
+authors:
+  - commy2

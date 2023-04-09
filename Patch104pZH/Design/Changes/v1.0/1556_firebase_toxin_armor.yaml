@@ -1,0 +1,19 @@
+---
+date: 2023-01-15
+
+title: Enables toxin weapons to shoot at USA Fire Base
+
+changes:
+  - fix: Enables toxin weapons to shoot at USA Fire Base. This way it behaves like all other faction structures.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1556
+
+authors:
+  - xezon

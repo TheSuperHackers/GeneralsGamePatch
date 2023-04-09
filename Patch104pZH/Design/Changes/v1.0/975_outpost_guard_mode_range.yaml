@@ -1,0 +1,19 @@
+---
+date: 2022-08-26
+
+title: Decreases large Guard Mode range of China Listening Outpost
+
+changes:
+  - fix: Decreases the large Guard Mode range of China Listening Outpost from 250 to 150. This range matches those of many other China units. It does not change the stealth detection range and shroud clearing range.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/975
+
+authors:
+  - commy2

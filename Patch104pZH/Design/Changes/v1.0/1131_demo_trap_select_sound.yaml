@@ -1,0 +1,19 @@
+---
+date: 2022-09-05
+
+title: Adds better fitting select sound for GLA Demo Trap
+
+changes:
+  - tweak: Adds a better fitting select sound for the GLA Demo Trap.
+
+labels:
+  - audio
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1131
+
+authors:
+  - xezon

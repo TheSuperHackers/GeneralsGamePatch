@@ -1,0 +1,21 @@
+---
+date: 2022-07-28
+
+title: Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler
+
+changes:
+  - tweak: Destroying the China Outpost now rewards 5 experience points.
+  - tweak: Destroying the China Troopcrawler now rewards 5 experience points.
+
+labels:
+  - china
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/778
+
+authors:
+  - xezon

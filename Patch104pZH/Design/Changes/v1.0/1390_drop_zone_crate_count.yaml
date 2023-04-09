@@ -1,0 +1,22 @@
+---
+date: 2022-10-18
+
+title: Decreases USA Supply Drop Zone crate count from 6 to 3
+
+changes:
+  - fix: Decreases the USA Supply Drop Zone crate count from 6 to 3. This change avoids or reduces crates falling next to the Drop Zone. The cash value per crate increases from 250 to 500. Gameplay wise this makes no difference, because the Supply Drop is no player controlled event. The first crate of 3 will fall down a bit later than the first crate of 6, but the last crate of 3 drops earlier than the last crate of 6.
+
+labels:
+  - buff
+  - bug
+  - design
+  - minor
+  - performance
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1390
+
+authors:
+  - xezon

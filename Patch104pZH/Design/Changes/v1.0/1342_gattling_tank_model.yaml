@@ -1,0 +1,20 @@
+---
+date: 2022-10-08
+
+title: Removes white cubes on headlamps from China Gattling Tank
+
+changes:
+  - fix: Removes white cubes (bones) on headlamps from China Gattling Tank on Summer Night maps.
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1342
+
+authors:
+  - commy2

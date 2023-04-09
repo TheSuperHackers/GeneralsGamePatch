@@ -1,0 +1,31 @@
+---
+date: 2022-09-24
+
+title: Fixes atwarfactslab textures for USA War Factory
+
+changes:
+  - fix: Fixes atwarfactslab textures for USA War Factory.
+
+subchanges:
+  - fix: |
+      atwarfactslab_e
+        - Fixes incorrectly positioned scorch marks compared to atwarfactslab_d
+        - Removes bullet holes
+  - fix: |
+      atwarfactslab_es
+        - Fixes incorrectly positioned scorch marks compared to atwarfactslab_ds
+        - Fixes snow covering fresh scorch marks
+        - Removes bullet holes
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1275
+
+authors:
+  - xezon

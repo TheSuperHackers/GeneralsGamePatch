@@ -1,0 +1,30 @@
+---
+date: 2022-10-23
+
+title: Fixes and improves atdoor textures
+
+changes:
+  - fix: Fixes atdoor textures.
+
+subchanges:
+  - tweak: |
+      atdoor_s
+        - Lowers height of snow on door a bit
+  - fix: |
+      atdoor_ds
+        - Fixes snow drawing over burns
+        - Fixes door looking different than atdoor_s
+
+labels:
+  - art
+  - bug
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1407
+
+authors:
+  - xezon

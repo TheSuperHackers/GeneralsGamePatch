@@ -1,0 +1,28 @@
+---
+date: 2022-10-05
+
+title: Adds slightly pitched sounds for some air weapons
+
+changes:
+  - fix: |
+      Adds slightly pitched sounds to all non-rocket anti air weapons. The default weapons against ground targets use the original sound effects. Affects
+        - USA Laser Turret
+        - China Minigunner
+        - China Gattling Tank
+        - China Gattling Cannon
+        - GLA Quad Cannon
+
+labels:
+  - audio
+  - china
+  - design
+  - enhancement
+  - gla
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1335
+
+authors:
+  - xezon

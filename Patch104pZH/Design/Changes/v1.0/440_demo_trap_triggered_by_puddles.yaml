@@ -1,0 +1,21 @@
+---
+date: 2021-10-01
+
+title: Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles
+
+changes:
+  - fix: The GLA Demo Trap can no longer be triggered by nearby Anthrax and Radiation puddles.
+
+labels:
+  - buff
+  - bug
+  - controversial
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/440
+
+authors:
+  - commy2

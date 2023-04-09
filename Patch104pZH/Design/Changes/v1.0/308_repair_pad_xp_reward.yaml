@@ -1,0 +1,20 @@
+---
+date: 2021-09-11
+
+title: Removes kill experience reward of Civilian Repair Pad
+
+changes:
+  - fix: The Civilian Repair Pad no longer rewards XP on kill. The Repair Pad can be used in custom maps only.
+
+labels:
+  - bug
+  - civilian
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/308
+
+authors:
+  - commy2

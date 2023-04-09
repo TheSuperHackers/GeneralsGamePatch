@@ -1,0 +1,34 @@
+---
+date: 2023-02-04
+
+title: Fixes issue where the wreck of vehicles spawns before final death explosion
+
+changes:
+  - fix: Wreck and debris of vehicles no longer spawn before damaged vehicle model despawns.
+
+subchanges:
+  - fix: Fixes premature wreck spawn of USA Crusader Tank.
+  - fix: Fixes premature wreck spawn of USA Microwave Tank.
+  - fix: Fixes premature wreck spawn of USA Laser Tank.
+  - fix: Fixes premature wreck spawn of USA Sentry Drone.
+  - fix: Fixes premature wreck spawn of China Nuke Cannon.
+  - fix: Fixes premature wreck spawn of Civilian Militia Tank.
+  - fix: Fixes premature wreck spawn of GLA Toxin Tractor.
+
+labels:
+  - bug
+  - china
+  - civilian
+  - gla
+  - minor
+  - usa
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1163
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1618
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1648
+
+authors:
+  - xezon

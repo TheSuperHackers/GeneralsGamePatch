@@ -1,0 +1,27 @@
+---
+date: 2021-10-03
+
+title: Fixes issues of Boss Avenger
+
+changes:
+  - fix: The Boss Avenger now displays the correct team color.
+  - fix: A Bomb Truck disguised as the Boss Avenger will now show the correct appearance.
+  - fix: The Boss Avenger now has the upgrade icon for Hellfire Drones.
+  - fix: The Boss Avenger now uses the correct armor type, health values, and vulnerability to air units.
+  - fix: The Boss Avenger can now be promoted.
+  - fix: The Boss Avenger can now be ordered to target air units.
+  - fix: The Boss Avenger's second PDL now uses a different scan rate to avoid attempting to zap the same missiles as the first PDL.
+  - fix: The Boss Avenger now uses the correct move sounds instead of Paladin's.
+
+labels:
+  - boss
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/454
+
+authors:
+  - commy2

@@ -1,0 +1,19 @@
+---
+date: 2022-10-19
+
+title: Changes crane of China War Factory to animate on vehicle repair instead of vehicle construction
+
+changes:
+  - tweak: The repair pad crane of the China War Factory no longer moves while constructing a unit. Instead it now moves while repairing a unit. It is still possible to tell if a unit is being built, because the factory produces smoke from the chimney during construction.
+
+labels:
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1393
+
+authors:
+  - commy2

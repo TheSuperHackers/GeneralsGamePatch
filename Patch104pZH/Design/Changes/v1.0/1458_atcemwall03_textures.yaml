@@ -1,0 +1,26 @@
+---
+date: 2022-11-08
+
+title: Fixes and improves atcemwall03 textures for USA structures
+
+changes:
+  - fix: Fixes and improves atcemwall03 textures for USA structures.
+
+subchanges:
+  - fix: |
+      atcemwall03_d, atcemwall03_e
+        - Fixes bullet holes drawing over burns
+        - Fixes tiling
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1458
+
+authors:
+  - xezon

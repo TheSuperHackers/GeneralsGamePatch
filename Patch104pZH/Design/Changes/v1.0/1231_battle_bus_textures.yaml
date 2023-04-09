@@ -1,0 +1,20 @@
+---
+date: 2022-09-20
+
+title: Fixes uvbattbus textures for GLA Battle Bus
+
+changes:
+  - fix: Fixes the front window on the uvbattbus_d texture of GLA Battle Bus.
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1231
+
+authors:
+  - xezon

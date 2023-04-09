@@ -1,0 +1,19 @@
+---
+date: 2022-09-09
+
+title: Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade
+
+changes:
+  - fix: The GLA Technical with Rocket Launcher upgrade now has the correct muzzle flash effect.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1176
+
+authors:
+  - commy2

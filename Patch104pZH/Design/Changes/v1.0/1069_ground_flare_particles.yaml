@@ -1,0 +1,26 @@
+---
+date: 2022-09-01
+
+title: Fixes ugly artifacts in ground aligned flare effects
+
+changes:
+  - fix: |
+      Fixes the ugly artifacts in ground aligned flare effects of
+        - USA EMP Patriot missile hit effect
+        - China Mines flash effect
+        - China Battlemaster damage transition effect
+        - China Inferno Cannon fire effect
+        - China Overlord damage transition effect
+        - GLA Scud Launcher damage transition effect
+
+labels:
+  - art
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1069
+
+authors:
+  - xezon

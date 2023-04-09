@@ -1,0 +1,20 @@
+---
+date: 2021-09-10
+
+title: Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings
+
+changes:
+  - fix: Stealthed USA Rangers, China Red Guards and Minigunners are now revealed when capturing buildings. This behaviour is consistent with GLA Rebels.
+
+labels:
+  - bug
+  - china
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/276
+
+authors:
+  - commy2

@@ -1,0 +1,20 @@
+---
+date: 2021-09-04
+
+title: Fixes wrong upgrade icon placements on USA Tomahawk
+
+changes:
+  - fix: All USA Tomahawk Launchers now show the upgrade icons for Scout Drone and Battle Drone in the correct positions, like any other USA vehicle.
+  - fix: The Boss General's Tomahawk Launcher now has the upgrade icons for Hellfire Drone and Advanced Training in the correct positions.
+
+labels:
+  - gui
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/205
+
+authors:
+  - commy2

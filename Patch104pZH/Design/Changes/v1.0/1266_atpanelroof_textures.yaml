@@ -1,0 +1,35 @@
+---
+date: 2022-09-23
+
+title: Fixes atpanelroof snow textures for USA structures
+
+changes:
+  - fix: Fixes atpanelroof snow textures.
+
+subchanges:
+  - fix: |
+      atpanelroof_d, atpanelroof_e
+        - Fixes bullet holes drawing over burns
+        - Repaints burns
+  - fix: |
+      atpanelroof_s
+        - Fixes strong contrasts on some snows
+  - fix: |
+      atpanelroof_ds, atpanelroof_es
+        - Fixes snow to look equal to atpanelroof_s
+        - Fixes snow drawing over burns
+        - Fixes bullet holes drawing over burns
+        - Repaints burns
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1266
+
+authors:
+  - xezon

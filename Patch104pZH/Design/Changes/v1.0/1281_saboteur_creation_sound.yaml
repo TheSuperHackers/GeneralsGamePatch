@@ -1,0 +1,19 @@
+---
+date: 2022-09-24
+
+title: Fixes wrong creation audio setup of GLA Saboteur
+
+changes:
+  - fix: Fixes type of SaboteurVoiceCreate to be consistent with all other VoiceCreate audio events, except Unit Upgrades.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1282
+
+authors:
+  - xezon

@@ -1,0 +1,19 @@
+---
+date: 2021-10-03
+
+title: Fixes low health value of Boss Black Lotus
+
+changes:
+  - fix: The Boss Black Lotus no longer has 25% less health than other Black Lotuses.
+
+labels:
+  - boss
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/450
+
+authors:
+  - commy2

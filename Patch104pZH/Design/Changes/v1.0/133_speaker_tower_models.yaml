@@ -1,0 +1,20 @@
+---
+date: 2021-09-01
+
+title: Adds missing house colors to China Speaker Tower on Winter maps
+
+changes:
+  - fix: Adds missing house colors to China Speaker Tower on Winter maps.
+
+labels:
+  - art
+  - china
+  - minor
+  - v1.0
+  - wip
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/133
+
+authors:
+  - xamorish

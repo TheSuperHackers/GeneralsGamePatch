@@ -1,0 +1,20 @@
+---
+date: 2022-08-06
+
+title: Fixes description error in tooltip text of China Nuke Mig
+
+changes:
+  - fix: The tooltip text of the China Nuke Mig no longer claims that it creates a fire storm.
+
+labels:
+  - bug
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/840
+
+authors:
+  - commy2

@@ -1,0 +1,19 @@
+---
+date: 2021-09-03
+
+title: Fixes issue that prevents suiciding different GLA Demo units in a group selection
+
+changes:
+  - fix: The suicide buttons of all GLA Demo units are now at the same position. This allows the player to suicide all units at once when a group of different units is selected.
+
+labels:
+  - bug
+  - gui
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/163
+
+authors:
+  - commy2

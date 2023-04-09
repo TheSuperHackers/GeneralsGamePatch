@@ -1,0 +1,19 @@
+---
+date: 2022-10-08
+
+title: Fixes incorrect model setups of China Gattling Cannon
+
+changes:
+  - fix: Fixes the wrong model of the fast firing damaged China Gattling Cannon on Winter Day maps.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1347
+
+authors:
+  - commy2

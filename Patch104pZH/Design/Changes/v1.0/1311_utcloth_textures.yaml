@@ -1,0 +1,34 @@
+---
+date: 2022-09-28
+
+title: Fixes utcloth textures for GLA structures
+
+changes:
+  - fix: Fixes utcloth textures for GLA structures.
+
+subchanges:
+  - fix: |
+      utcloth_e
+        - Reduces bright seam on burns
+  - fix: |
+      utcloth_s
+        - Fixes snow visual mismatching with utcloth_ds, utcloth_es
+  - fix: |
+      utcloth_ds
+        - Fixes minor artifacts
+  - fix: |
+      utcloth_es
+        - Adds alpha channel of utcloth_e and same burn in corner
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1311
+
+authors:
+  - xezon

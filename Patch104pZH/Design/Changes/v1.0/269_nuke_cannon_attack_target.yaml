@@ -1,0 +1,20 @@
+---
+date: 2021-09-10
+
+title: Fixes China Nuke Cannon attacking a wrong target after deployment
+
+changes:
+  - fix: The China Nuke Cannon will no longer target the nearest enemy while ordered to attack any enemy in range. Instead, it will prioritize the enemy that was directly ordered to be attacked, preventing it from wasting its first shot on an auto-selected target.
+
+labels:
+  - buff
+  - bug
+  - china
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/269
+
+authors:
+  - commy2

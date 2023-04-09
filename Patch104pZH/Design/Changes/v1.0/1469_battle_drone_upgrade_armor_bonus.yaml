@@ -1,0 +1,21 @@
+---
+date: 2022-11-16
+
+title: Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25%
+
+changes:
+  - fix: Decreases the Drone Armor Upgrade bonus of the USA Battle Drone from 50% to 25%. This makes the armor bonus consistent with the other vehicle drones.
+
+labels:
+  - bug
+  - controversial
+  - minor
+  - nerf
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1469
+
+authors:
+  - Stubbjax

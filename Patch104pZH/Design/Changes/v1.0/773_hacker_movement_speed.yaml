@@ -1,0 +1,21 @@
+---
+date: 2022-07-30
+
+title: Increases movement speed of China Hackers by 25%
+
+changes:
+  - tweak: All China Hackers now move as quick as the Red Guard. Black Lotus walks quicker than Hackers. Tank Hunter walks slower than Hackers.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/773
+
+authors:
+  - xezon

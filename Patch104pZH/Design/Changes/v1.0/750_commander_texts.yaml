@@ -1,0 +1,18 @@
+---
+date: 2022-07-24
+
+title: Replaces 'Commander' with 'General' in all language strings
+
+changes:
+  - fix: Replaces 'Commander' with 'General' in all language strings.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/750
+
+authors:
+  - xezon

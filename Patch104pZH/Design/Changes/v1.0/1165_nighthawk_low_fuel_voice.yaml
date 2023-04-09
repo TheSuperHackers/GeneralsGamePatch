@@ -1,0 +1,20 @@
+---
+date: 2022-09-08
+
+title: Fixes wrong low fuel audio of USA Stealth Fighter Jet
+
+changes:
+  - fix: The USA Stealth Fighter now plays its correct low fuel audio lines instead of the ones for the Aurora Jet.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1165
+
+authors:
+  - commy2

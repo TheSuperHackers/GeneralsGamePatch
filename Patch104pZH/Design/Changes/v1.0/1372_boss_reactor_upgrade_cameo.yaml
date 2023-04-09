@@ -1,0 +1,20 @@
+---
+date: 2022-10-15
+
+title: Fixes missing Control Rods upgrade icon on Boss Power Plant
+
+changes:
+  - fix: The Boss Power Plant now has an upgrade icon like all the USA Power Plants have.
+
+labels:
+  - boss
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1372
+
+authors:
+  - commy2

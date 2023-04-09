@@ -1,0 +1,19 @@
+---
+date: 2021-09-04
+
+title: Adds missing AP Rocket upgrade icon to GLA Scud Launcher
+
+changes:
+  - fix: The GLA Scud Launchers now show the upgrade icon for AP Rockets, reflecting their damage bonus for high explosive warheads.
+
+labels:
+  - gla
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/207
+
+authors:
+  - commy2

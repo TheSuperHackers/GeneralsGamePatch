@@ -1,0 +1,46 @@
+---
+date: 2022-11-08
+
+title: Fixes and improves atcemwall02 textures for USA structures
+
+changes:
+  - fix: Fixes and improves atcemwall02 textures for USA structures.
+
+subchanges:
+  - fix: |
+      atcemwall02
+        - Fixes wall sharpness mismatch with atcemwall01
+        - Fixes tiling
+  - fix: |
+      atcemwall02_d, atcemwall02_e
+        - Uses 2x upscale from Generals
+        - Fixes bullet holes drawing over burns
+        - Fixes wall sharpness mismatch with atcemwall01
+        - Fixes tiling
+  - fix: |
+      atcemwall02_s
+        - Fixes blurry snow
+        - Fixes wall sharpness mismatch with atcemwall01
+        - Fixes tiling
+  - fix: |
+      atcemwall02_ds, atcemwall02_es
+        - Uses 2x upscale from Generals, Custom
+        - Fixes blurry snow
+        - Fixes snow drawing over burns
+        - Fixes bullet holes drawing over burns
+        - Fixes wall sharpness mismatch with atcemwall01
+        - Repaints some burns
+        - Fixes tiling
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1458
+
+authors:
+  - xezon

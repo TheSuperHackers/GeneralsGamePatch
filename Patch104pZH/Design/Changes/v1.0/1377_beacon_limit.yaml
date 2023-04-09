@@ -1,0 +1,19 @@
+---
+date: 2022-10-16
+
+title: Increases Player Beacon limit from 3 to 5
+
+changes:
+  - fix: Increases Player Beacon limit from 3 to 5.
+
+labels:
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1377
+
+authors:
+  - commy2

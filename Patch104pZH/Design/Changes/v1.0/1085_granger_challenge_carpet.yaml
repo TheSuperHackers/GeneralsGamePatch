@@ -1,0 +1,20 @@
+---
+date: 2022-08-13
+
+title: Fixes missing Carpet Bomber in Grangers Generals Challenge
+
+changes:
+  - fix: General Granger can now call the Carpet Bomber in the Generals Challenge.
+
+labels:
+  - ai
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1085
+
+authors:
+  - commy2

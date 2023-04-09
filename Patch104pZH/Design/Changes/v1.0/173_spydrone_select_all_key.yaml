@@ -1,0 +1,19 @@
+---
+date: 2021-09-03
+
+title: Removes Select All key bindings from USA Spy Drone
+
+changes:
+  - fix: The USA Spy Drone can no longer be selected by using the Select Aircraft (W) and Select All (Q) keys.
+
+labels:
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/173
+
+authors:
+  - commy2

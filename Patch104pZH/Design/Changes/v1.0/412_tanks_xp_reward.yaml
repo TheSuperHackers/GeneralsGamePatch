@@ -1,0 +1,23 @@
+---
+date: 2022-08-02
+
+title: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%
+
+changes:
+  - tweak: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - gla
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/412
+
+authors:
+  - commy2

@@ -1,0 +1,22 @@
+---
+date: 2021-09-22
+
+title: Fixes extra armor of USA Airforce Avenger against Jet Missiles
+
+changes:
+  - fix: The USA Airforce Avenger no longer has 30% more armor against Jet Missiles.
+
+labels:
+  - buff
+  - bug
+  - controversial
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/403
+
+authors:
+  - commy2

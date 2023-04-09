@@ -1,0 +1,20 @@
+---
+date: 2022-11-06
+
+title: Fixes wrong exploded death animation of China Tank Hunter
+
+changes:
+  - fix: The China Tank Hunter no longer plays the normal death animation when killed by explosions. Instead it plays a blow up animation fitting for the exploded death. This is consistent with other infantry units.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1452
+
+authors:
+  - commy2
+  - RedMeow2

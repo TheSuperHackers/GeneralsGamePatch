@@ -1,0 +1,20 @@
+---
+date: 2021-09-13
+
+title: Adds missing Camo Netting Upgrade icon to GLA Fake Arms Dealer
+
+changes:
+  - fix: Adds upgrade icon for Camo Netting to the Stealth General's Fake Arms Dealer, making it consistent with the real Arms Dealer.
+
+labels:
+  - bug
+  - gla
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/353
+
+authors:
+  - commy2

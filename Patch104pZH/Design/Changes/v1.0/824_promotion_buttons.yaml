@@ -1,0 +1,19 @@
+---
+date: 2022-08-05
+
+title: Fixes potential unresponsive Control Bar buttons
+
+changes:
+  - fix: Fixes potential unresponsive buttons in Generals Promotion and Control Bar.
+
+labels:
+  - bug
+  - critical
+  - gui
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/824
+
+authors:
+  - xezon

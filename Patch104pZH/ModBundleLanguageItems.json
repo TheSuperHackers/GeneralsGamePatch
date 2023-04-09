@@ -1,8 +1,6 @@
 {
     "bundles": {
         "version": 1,
-        "itemsPrefix": "600_GamePatch",
-        "itemsSuffix": "",
         "items": [
             {
                 "name": "CoreLangArabic",

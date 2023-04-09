@@ -1,0 +1,19 @@
+---
+date: 2021-09-16
+
+title: Adds missing unit drop to Reinforcement Pad for Boss General
+
+changes:
+  - fix: The Reinforcement Pad now drops a Boss Dragon Tank for the Boss General.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/375
+
+authors:
+  - commy2

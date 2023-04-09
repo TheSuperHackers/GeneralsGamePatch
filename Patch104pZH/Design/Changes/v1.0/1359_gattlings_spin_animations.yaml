@@ -1,0 +1,28 @@
+---
+date: 2022-10-08
+
+title: Fixes Gattling barrel spin animation issues
+
+changes:
+  - fix: Fixes incorrect barrel spin speeds of damaged China Gattling Cannon on Winter Day maps.
+  - fix: Fixes missing barrel spin on first shot of China Overlord Gattling Cannon.
+  - fix: Fixes missing barrel spin on first shot of China Helix Gattling Cannon.
+  - fix: Matches barrel spin speed of China Gattling Cannon with the actual fire rate.
+  - fix: Matches barrel spin speed of China Overlord Gattling with the actual fire rate.
+  - fix: Matches barrel spin speed of China Helix Gattling with the actual fire rate.
+  - fix: Matches barrel spin speed of China Gattling Tank with the actual fire rate.
+
+labels:
+  - bug
+  - china
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1345
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1359
+
+authors:
+  - commy2
+  - xezon

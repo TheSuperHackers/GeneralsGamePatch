@@ -1,0 +1,29 @@
+---
+date: 2021-10-07
+
+title: Fixes issues with GLA Toxin vehicle in USA05 campaign
+
+changes:
+  - fix: The USA05 Toxin General's vehicles no longer have bugged out turret models.
+  - fix: The USA05 Toxin General's vehicles are no longer immune to ECM tanks.
+  - fix: The USA05 Toxin General's Scorpion tank now shows the upgrade icon for Anthrax Gamma.
+  - fix: The USA05 Toxin General's Quad Cannon now builds in the intended time.
+  - fix: The USA05 Toxin General's Quad Cannon now has the intended health and fire resistance.
+  - fix: The USA05 Toxin General's Quad Cannon now fires when stealthed.
+  - fix: The USA05 Toxin General's Toxin Truck no longer has a low mass.
+  - fix: The USA05 Toxin General's Radar Van now has the intended scan range.
+  - fix: The USA05 Toxin General's Bomb Truck now has a working button for upgrading High Explosive bomb.
+  - fix: The USA05 Toxin General's Bomb Truck no longer plays audio on power sliding.
+  - fix: The USA05 Toxin General's Bomb Truck can no longer retaliate.
+  - fix: The USA05 Toxin General's Scud Launcher now builds in the intended time.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/522
+
+authors:
+  - commy2

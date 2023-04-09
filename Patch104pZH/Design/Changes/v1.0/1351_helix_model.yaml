@@ -1,0 +1,20 @@
+---
+date: 2022-10-08
+
+title: Fixes China Helix model issues
+
+changes:
+  - fix: Damaged China Helix now uses damaged texture instead of wreck texture.
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1351
+
+authors:
+  - commy2

@@ -1,0 +1,30 @@
+---
+date: 2022-09-03
+
+title: Fixes terrain clipping of particle effects
+
+changes:
+  - fix: |
+      Fixes terrain clipping of
+        - Tank muzzle wave effect
+        - USA EMP detonation effect
+        - China Gattling Tank explosion effect
+        - China Nuke Cannon muzzle wave effect
+        - China Nuke Cannon shell detonation effect
+        - China EMP impact effect
+        - GLA Demo Trap detonation effect
+        - GLA Demo Bike suicide effects
+        - GLA viral outbreak effect
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1089
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1120
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1144
+
+authors:
+  - xezon

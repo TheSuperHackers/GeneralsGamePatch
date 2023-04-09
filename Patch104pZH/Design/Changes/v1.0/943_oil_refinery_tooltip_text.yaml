@@ -1,0 +1,18 @@
+---
+date: 2022-08-26
+
+title: Improves Oil Refinery tooltip text
+
+changes:
+  - fix: Clarifies the inaccuracies of the original Oil Refinery tooltip text for all latin languages.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/943
+
+authors:
+  - commy2

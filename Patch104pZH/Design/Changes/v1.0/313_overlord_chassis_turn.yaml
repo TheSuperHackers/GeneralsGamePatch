@@ -1,0 +1,19 @@
+---
+date: 2021-09-10
+
+title: Fixes China Overlord turning its chassis when aiming at air units
+
+changes:
+  - fix: The China Overlord no longer turns its chassis to the targeted air unit. Only the Gattling turret will aim towards the air unit, while the Overlord either stays as is or aims and shoots at ground targets.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/313
+
+authors:
+  - commy2

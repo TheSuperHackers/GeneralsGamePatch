@@ -1,0 +1,20 @@
+---
+date: 2023-02-11
+
+title: Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only
+
+changes:
+  - fix: Sets correct firing sequence on GLA Marauder with double barrel. It will now always start by firing 2 clips instead of just 1 clip. This gives the unit an inconsequential buff.
+
+labels:
+  - buff
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1672
+
+authors:
+  - xezon

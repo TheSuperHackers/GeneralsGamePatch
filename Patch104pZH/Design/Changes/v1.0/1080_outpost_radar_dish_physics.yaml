@@ -1,0 +1,19 @@
+---
+date: 2022-09-02
+
+title: Fixes physics of radar dish wreck of China Listening Outpost
+
+changes:
+  - fix: The radar dish of the China Listening Outpost no longer flies high up in the sky after destruction.
+
+labels:
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1080
+
+authors:
+  - commy2

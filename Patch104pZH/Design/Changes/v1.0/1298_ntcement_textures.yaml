@@ -1,0 +1,26 @@
+---
+date: 2022-09-26
+
+title: Fixes ntcement textures for China structures
+
+changes:
+  - fix: Fixes ntcement textures. There is a slight color mismatch on some rubble between _d and _e variants.
+
+subchanges:
+  - fix: |
+      ntcement_e, ntcement_es
+        - Fixes rubble color mismatch
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1298
+
+authors:
+  - xezon

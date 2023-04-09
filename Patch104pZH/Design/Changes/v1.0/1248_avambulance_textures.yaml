@@ -1,0 +1,45 @@
+---
+date: 2022-09-21
+
+title: Fixes avambulance textures for USA Ambulance
+
+changes:
+  - fix: Fixes avambulance textures for USA Ambulance.
+
+subchanges:
+  - fix: |
+      avambulance
+        - Fixes black seams on hood
+        - Fixes black seams on chassis back
+        - Fixes black seams on chassis side
+  - fix: |
+      avambulance_d
+        - Fixes black seams on hood
+        - Fixes black seams on chassis back
+        - Fixes oddly shaped tire
+        - Fixes tire profile brightness mismatch
+        - Fixes wrong position of big red cross
+  - fix: |
+      avambulance_d1
+        - Fixes black seams on hood
+        - Fixes black seams on chassis back
+        - Fixes oddly shaped tire
+        - Fixes tire profile brightness mismatch
+        - Fixes wrong position of big red cross
+        - Fixes missing dark border of big red cross
+        - Fixes transparency of small red cross
+        - Fixes missing dark border of small red cross
+        - Fixes burn mismatches on chassis roof
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1248
+
+authors:
+  - xezon

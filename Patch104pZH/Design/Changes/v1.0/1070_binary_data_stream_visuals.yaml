@@ -1,0 +1,19 @@
+---
+date: 2022-09-01
+
+title: Improves visuals of binary data stream
+
+changes:
+  - fix: The binary data stream used by China Lotus, China Super Hacker and USA Patriot Battery now shows a properly sized texture with crisp numbers
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1070
+
+authors:
+  - xezon

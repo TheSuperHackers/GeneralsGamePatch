@@ -1,0 +1,20 @@
+---
+date: 2021-09-17
+
+title: Fixes China Nuke Mig upgrade not being buildable when on low power
+
+changes:
+  - fix: The China Nuke Mig upgrade now behaves like every other upgrade and can be built when on low power.
+
+labels:
+  - bug
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/376
+
+authors:
+  - commy2

@@ -1,0 +1,19 @@
+---
+date: 2022-10-15
+
+title: Fixes broken fan animation of USA Strategy Center
+
+changes:
+  - fix: Fixes the broken fan animation of undamaged USA Strategy Center on Night maps.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1367
+
+authors:
+  - commy2

@@ -1,0 +1,25 @@
+Fixes clicking in
+
+vbmastab.wav
+vbmastac.wav
+vbshweaa.wav
+vbshweab.wav
+vcarstaa.wav
+vcomdi2a.wav
+vtrostae.wav
+
+Fixes looping amplitudes in
+
+vb52lo2b.wav
+vb52lo2c.wav
+vcomlo5b.wav
+vcomlo5c.wav
+vcomlo5d.wav
+vcomlo6a.wav
+vdralo1a.wav
+vdralo3a.wav
+vhello1a.wav
+vhello2a.wav
+vhello2b.wav
+vhello2c.wav
+vhello3a.wav

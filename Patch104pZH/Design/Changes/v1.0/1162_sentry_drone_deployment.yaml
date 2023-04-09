@@ -1,0 +1,21 @@
+---
+date: 2022-09-08
+
+title: Removes gun deployment mechanic from USA Sentry Drone
+
+changes:
+  - tweak: Removes the gun deployment mechanic from USA Sentry Drone. It no longer requires 1 second to acquire a fresh target, and 2 seconds to engage a consecutive target if it needs to move to a new position. This is a time and performance boost. It will also make the unit feel more responsive in combat situations.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1162
+
+authors:
+  - xezon

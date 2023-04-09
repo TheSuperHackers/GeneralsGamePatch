@@ -1,0 +1,22 @@
+---
+date: 2021-10-03
+
+title: Fixes issues of Boss Helix
+
+changes:
+  - fix: The Boss Helix no longer speaks like a Dragon Tank when dropping Napalm Bombs.
+  - fix: The Boss Helix no longer uses Chinook rotor blade effect when crashing, and instead uses its own effect like the other Helixes.
+  - fix: The Boss Helix no longer uses build cost and build time from the Chinook.
+  - fix: The Boss Helix no longer has 50% more guard mode range.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/457
+
+authors:
+  - commy2

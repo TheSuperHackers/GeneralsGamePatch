@@ -14,6 +14,7 @@
 *.str text
 *.txt text
 *.wnd text
+*.yaml text
 LICENSE text
 
 # Text files that will always have CRLF line endings on checkout. (Does not work properly. Do not use it.)
@@ -30,6 +31,7 @@ LICENSE text
 *.dds binary
 *.dll binary
 *.exe binary
+*.fft binary
 *.gz binary
 *.jpg binary
 *.map binary
