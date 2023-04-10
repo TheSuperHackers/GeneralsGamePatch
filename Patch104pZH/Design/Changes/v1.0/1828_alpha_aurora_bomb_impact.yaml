@@ -1,0 +1,19 @@
+---
+date: 2023-04-10
+
+title: Fixes USA Alpha Aurora bomb freezing for 1 or 2 frames near ground before hit
+
+changes:
+  - fix: The bomb of the USA Alpha Aurora no longer freezes for 1 or 2 frames near the ground before hit. This issue does not happen with the bomb of the regular Aurora.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1828
+
+authors:
+  - xezon
