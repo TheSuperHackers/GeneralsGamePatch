@@ -1,0 +1,20 @@
+---
+date: 2023-02-24
+
+title: Fixes Alpha Aurora bomb movement discrepancies
+
+changes:
+  - tweak: The Alpha Aurora bomb now travels as quickly as the original regular Aurora Bomb. Effectively it hits the ground around 5 frames slower than before.
+
+labels:
+  - controversial
+  - design
+  - nerf
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1753
+
+authors:
+  - Stubbjax
