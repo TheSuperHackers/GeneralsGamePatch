@@ -1,0 +1,18 @@
+---
+date: 2023-04-10
+
+title: Fixes Disintegration Sound Effect on Missiles
+
+changes:
+  - fix: Disintegration sound effect on missile is added which is unused in original game.
+
+labels:
+  - audio
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1778
+
+authors:
+  - RedMeow2
