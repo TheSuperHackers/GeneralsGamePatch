@@ -1,18 +1,21 @@
 ---
 date: 2023-02-11
 
-title: Adds missing CRATE flag to SalvageCrate
+title: Fixes object flags of SalvageCrate
 
 changes:
   - fix: Adds missing CRATE flag to SalvageCrate.
+  - fix: Removes obsolete SELECTABLE flag from SalvageCrate.
 
 labels:
+  - design
   - gla
   - minor
   - v1.0
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1675
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1836
 
 authors:
   - xezon
