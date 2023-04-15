@@ -1,0 +1,20 @@
+---
+date: 2023-03-26
+
+title: Adds Guard Mode and Attack Move buttons to USA Airforce Combat Chinook
+
+changes:
+  - feature: The USA Airforce Combat Chinook now has buttons for Guard Mode and Attack Move. This is consistent with other units, like the China Helix.
+
+labels:
+  - enhancement
+  - gui
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1787
+
+authors:
+  - xezon
