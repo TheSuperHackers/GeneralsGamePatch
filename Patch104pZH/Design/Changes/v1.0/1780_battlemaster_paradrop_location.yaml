@@ -1,0 +1,22 @@
+---
+date: 2023-04-09
+
+title: Fixes drop location of China Battlemaster Paradrop
+
+changes:
+  - fix: The China Battlemaster Paradrop no longer drops its tanks too far infront the selected drop location.
+  - fix: The China Battlemaster Paradrop no longer drops its tanks close to each other.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1780
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825
+
+authors:
+  - RedMeow2
+  - xezon
