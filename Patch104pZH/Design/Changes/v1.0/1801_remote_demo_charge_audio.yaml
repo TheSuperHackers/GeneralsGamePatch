@@ -1,0 +1,23 @@
+---
+date: 2023-04-06
+
+title: Reduces audio range and volume of Remote Demo Charge
+
+changes:
+  - tweak: Reduces the Remote Demo Charge's maximum audio range from 800 to 250, minimum audio range from 175 to 100. This makes the presence of a demo charge much less obvious as it has its audible area reduced by 90%.
+  - tweak: Reduces the Remote Demo Charge's maximum volume from 65 to 40, minimum volume from 40 to 20. This makes the bomb beep sound much quieter.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801
+
+authors:
+  - xezon
