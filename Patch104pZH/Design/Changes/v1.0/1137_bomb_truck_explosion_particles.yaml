@@ -10,8 +10,6 @@ changes:
   - tweak: Matches all shockwave and explosion colors with the actual Anthrax or weapon type of GLA Bomb Truck.
 
 labels:
-  - buff
-  - controversial
   - design
   - gla
   - minor

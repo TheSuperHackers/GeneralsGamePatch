@@ -1,7 +1,7 @@
 ---
 date: 2021-08-29
 
-title: Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme
+title: Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma
 
 changes:
   - fix: The Demo General's Combat Bike with a Terrorist and the Demolitions upgrade now deals damage to enemies when destroyed by an Anthrax Gamma weapon. This is consistent with other Demo units.
