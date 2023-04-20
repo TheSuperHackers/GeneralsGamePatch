@@ -1,0 +1,23 @@
+---
+date: 2022-07-22
+
+title: Fixes damage downgrade issues of scrapped GLA Quad Cannon
+
+changes:
+  - fix: The ground weapon of the promoted GLA Quad Cannon no longer downgrades to less damage output after picking up scrap crates. Instead the damage output increases after picking up scrap crates. The overall damage output across all scrap and promotion levels is identical to the original setup.
+  - fix: The ground weapon of the Hard AI controlled GLA Quad Cannon no longer downgrades to less damage output after picking up scrap crates.
+  - fix: The ground weapon of the GLA Quad Cannon no longer downgrades to less damage output after picking up scrap crates while under the influence of Subliminal Messaging and/or Faerie targeting.
+  
+labels:
+  - bug
+  - controversial
+  - design
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1055
+
+authors:
+  - xezon
