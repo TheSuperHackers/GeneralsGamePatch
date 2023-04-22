@@ -1,0 +1,18 @@
+---
+date: 2023-04-22
+
+title: Adds Starting Money options for 30000 and 40000
+
+changes:
+  - feature: Adds Starting Money options for 30000 and 40000, because the original gap between 20000 and 50000 is quite wide.
+
+labels:
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1862
+
+authors:
+  - xezon
