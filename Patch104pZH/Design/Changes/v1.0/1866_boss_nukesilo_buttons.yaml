@@ -1,0 +1,19 @@
+---
+date: 2023-04-22
+
+title: Optimizes button placements of Boss Nuke Silo
+
+changes:
+  - tweak: Optimizes button placements of Boss Nuke Silo. The Nuke upgrade buttons now take the same position as they do on the native China Nuke Silo. And the Propaganda buttons now have the same order as they do on the native China Propaganda Center.
+
+labels:
+  - boss
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1866
+
+authors:
+  - xezon
