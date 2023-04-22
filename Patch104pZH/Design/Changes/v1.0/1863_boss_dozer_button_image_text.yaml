@@ -1,0 +1,21 @@
+---
+date: 2023-04-22
+
+title: Fixes button image and text of Boss Dozer
+
+changes:
+  - fix: The production button of the Boss Dozer now shows the correct USA Dozer image instead of the China Dozer image.
+  - fix: The production tooltip of the Boss Dozer now shows an appropriate description for the Boss General.
+
+labels:
+  - boss
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1863
+
+authors:
+  - xezon
