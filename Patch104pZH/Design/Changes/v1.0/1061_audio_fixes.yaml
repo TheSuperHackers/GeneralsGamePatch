@@ -8,7 +8,7 @@ changes:
   - fix: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout in 221 English eva voices
   - fix: Fixes noises, humming, crackling, clicking, popping in 38 common voices
   - fix: Fixes clicking, fadein, fadeout in 123 vehicle sounds
-  - fix: Fixes clicking, fadeout in 7 fx sounds
+  - fix: Fixes clicking, fadeout in 44 fx sounds
   - fix: Fixes clicking, fadein, fadeout in 4 ui sounds
 
 labels:
@@ -22,6 +22,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1061
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822
 
 authors:
