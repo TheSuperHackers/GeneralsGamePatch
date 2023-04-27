@@ -41,147 +41,147 @@ Contains 136 entries with
   - TWEAK (20)
 
 ## Index
-1. [2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings](#index__0__4_listening_outpost_attack_bug)
-2. [2021-08-22 - Improves mobility of China Dozer](#index__1__6_china_dozer_locomotor)
-3. [2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units](#index__2__92_infantry_poison_death_voice)
-4. [2021-08-28 - Fixes miniscule mass of China Supply Truck](#index__3__96_supply_truck_mass)
-5. [2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles](#index__4__97_minigunner_crush)
-6. [2021-09-01 - Fixes China unit attachments not showing the red tint from the Frenzy Power](#index__5__132_frenzy_coloring_on_attachments)
-7. [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#index__6__133_speaker_tower_models)
-8. [2021-09-01 - Fixes missing radar dots for China Bunkers and Propaganda Center](#index__7__134_structures_missing_on_minimap)
-9. [2021-09-05 - Adds missing Patriotism upgrade icon to China Infantry Tank Hunter](#index__8__224_tank_hunter_cameo)
-10. [2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely](#index__9__410_nuke_missile_blasts)
-11. [2021-09-06 - Fixes misaligned propaganda effect on China Vehicles](#index__10__231_misaligned_propaganda_effect)
-12. [2021-09-07 - Fixes China Nuke Missile exploit](#index__11__209_nuke_missile_exploit)
-13. [2021-09-07 - Adds missing Subliminal Messaging bonus to China Emperor](#index__12__236_emperor_subliminal)
-14. [2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus](#index__13__255_battlemaster_horde_bonus)
-15. [2021-09-09 - Fixes attackable wrecks and debris](#index__14__257_attackable_wreck)
-16. [2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair](#index__15__261_outpost_smoke_effect)
-17. [2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit](#index__16__262_neutron_shell_exploit)
-18. [2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment](#index__17__269_nuke_cannon_attack_target)
-19. [2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings](#index__18__276_gps_scrambled_infantry_attacking)
-20. [2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings](#index__19__276_gps_scrambled_infantry_capturing)
-21. [2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units](#index__20__313_overlord_chassis_turn)
-22. [2021-09-11 - Fixes China Helix with Gattling Cannon being able to unreliably attack air units](#index__21__284_helix_gattling_gun_air_attack)
-23. [2021-09-11 - Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction](#index__22__299_china_cc_carpet_bomber)
-24. [2021-09-11 - Fixes Generals Powers disappearing from Command Centers after Mines upgrade](#index__23__301_china_cc_powers_commandset)
-25. [2021-09-11 - Fixes wrong muzzle flash location of China Minigunner](#index__24__312_minigunner_muzzle_flash)
-26. [2021-09-11 - Fixes broken recoil animation of China Minigunner](#index__25__312_minigunner_recoil_animation)
-27. [2021-09-11 - Adds missing Mines upgrade to China Speaker Tower](#index__26__317_speaker_tower_mines)
-28. [2021-09-12 - Fixes Nuke General unable to build Nuke Cannons from regular China and Infantry General War Factories](#index__27__331_nuke_general_build_bug)
-29. [2021-09-13 - Fixes inconsistent geometry sizes of China Outpost models](#index__28__347_outpost_geometry_size)
-30. [2021-09-13 - Adds missing stealth detection effects and sounds to China Outposts](#index__29__349_outpost_stealth_effects)
-31. [2021-09-13 - Adds missing stealth detection effects to China Troop Crawler](#index__30__350_troopcrawler_stealth_effects)
-32. [2021-09-13 - Fixes missing Radar icon on China Command Center](#index__31__351_china_cc_cameo)
-33. [2021-09-17 - Fixes China Nuke Mig upgrade not being buildable when on low power](#index__32__376_nuke_mig_upgrade_button)
-34. [2021-09-19 - Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix](#index__33__391_helix_napalm_bomb_cameo)
-35. [2021-09-25 - Decreases required level up experience of China Black Lotus by 82%](#index__34__413_lotus_required_xp)
-36. [2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62%](#index__35__413_lotus_xp_reward)
-37. [2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus](#index__36__437_lotus_vehicle_hack_xp_reward)
-38. [2021-10-17 - Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps)](#index__37__575_tank_nuke_cannon)
-39. [2021-10-23 - Removes ability to reveal shroud with China Frenzy power](#index__38__593_frenzy_scan)
-40. [2021-12-24 - Fixes units with attachments blocking scaffold placements](#index__39__630_vehicle_attachment_blocking_build)
-41. [2021-12-24 - Removes auto engage behaviour from China ECM Tank](#index__40__631_ecm_auto_attack)
-42. [2022-07-24 - Decreases reload time of China Mig before Upgrade by 50%](#index__41__751_mig_reload_time)
-43. [2022-07-27 - Decreases audible distance of China Helix helicopter by 30%](#index__42__765_helix_sound_range)
-44. [2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler](#index__43__778_outpost_troopcrawler_xp_reward)
-45. [2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms](#index__44__785_china_cc_door_times)
-46. [2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625](#index__45__768_hacker_build_cost)
-47. [2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds](#index__46__769_hacker_build_time)
-48. [2022-07-30 - Decreases kill experience reward of China Hackers](#index__47__770_hacker_xp_reward)
-49. [2022-07-30 - Decreases the required level up experience of China Hackers](#index__48__771_hacker_xp_requirement)
-50. [2022-07-30 - Increases movement speed of China Hackers by 25%](#index__49__773_hacker_movement_speed)
-51. [2022-07-30 - Decreases cash hack audio limit of China Hackers](#index__50__774_hacker_hack_audio_limit)
-52. [2022-07-30 - Decreases pack and unpack times of China Hackers](#index__51__774_hacker_pack_unpack_times)
-53. [2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms](#index__52__786_china_factory_door_times)
-54. [2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers](#index__53__791_satellite_hack_issue)
-55. [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#index__54__412_tanks_xp_reward)
-56. [2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center](#index__55__833_internet_center_prerequisites)
-57. [2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability](#index__56__837_satellite_hack_ii_ability)
-58. [2022-08-06 - Adds functional Speaker Tower to China Propaganda Center](#index__57__839_propaganda_center_speaker_tower)
-59. [2022-08-06 - Fixes description error in tooltip text of China Nuke Mig](#index__58__840_nuke_mig_tooltip_text)
-60. [2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower](#index__59__834_speaker_tower_prerequisites)
-61. [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#index__60__1023_nuke_helix_model)
-62. [2022-08-14 - Increases damage and radius of China Nuke Missile](#index__61__871_nuke_missile_damage_and_radius)
-63. [2022-08-14 - Decreases China Nuke Missile blast delays](#index__62__880_nuke_missile_blast_delays)
-64. [2022-08-20 - Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image](#index__63__1021_nuke_battlemaster_portrait_image)
-65. [2022-08-20 - Adds upgrade voice for China Neutron shells](#index__64__1026_neutron_shells_upgrade_voice)
-66. [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#index__65__938_infantry_muzzle_flash)
-67. [2022-08-20 - Adds new recoil animation to China Minigunner to match its fire rate increase over time](#index__66__939_minigunner_recoil_animation)
-68. [2022-08-26 - Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler](#index__67__974_troopcrawler_guard_mode_buttons)
-69. [2022-08-26 - Decreases large Guard Mode range of China Listening Outpost](#index__68__975_outpost_guard_mode_range)
-70. [2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content)](#index__69__1060_empty_troopcrawler)
-71. [2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost](#index__70__1080_outpost_radar_dish_physics)
-72. [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#index__71__1090_china_cc_night_model)
-73. [2022-09-04 - Fixes mispositioned explosion effects](#index__72__1122_detonation_effect_position_offset)
-74. [2022-09-06 - Increases General Promotion reward from China Black Lotus by 100%](#index__73__1134_lotus_promotion_reward)
-75. [2022-09-07 - Fixes muzzle particle effects of tanks](#index__74__1149_tank_muzzle_particles)
-76. [2022-09-10 - Enables low fuel voices for China Mig Jet](#index__75__1180_mig_low_fuel_voice)
-77. [2022-09-11 - Adds missing radio sounds to Helix voices](#index__76__1181_helix_radio_sounds)
-78. [2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms](#index__77__1199_gattling_spin_timeout)
-79. [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#index__78__1226_overlord_textures)
-80. [2022-09-21 - Adds missing China Propaganda Tower damage texture](#index__79__1239_propaganda_tower_textures)
-81. [2022-09-23 - Fixes wrong select audio of China Internet Centers](#index__80__1260_internet_center_select_sound)
-82. [2022-09-24 - Adds missing audio limits to air unit voices](#index__81__1274_air_unit_death_voice_limit)
-83. [2022-09-25 - Fixes nvinferno textures for China Inferno Cannon](#index__82__1285_nvinferno_textures)
-84. [2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank](#index__83__1290_nvgatttank_textures)
-85. [2022-09-26 - Fixes ntcement textures for China structures](#index__84__1298_ntcement_textures)
-86. [2022-09-26 - Fixes ntdrive02 textures for China Supply Center](#index__85__1300_ntdrive02_textures)
-87. [2022-09-26 - Fixes ntentry snow textures for China structures](#index__86__1301_ntentry_snow_textures)
-88. [2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant](#index__87__1302_ntpwrplantslab_textures)
-89. [2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center](#index__88__1304_ntsuppbase_snow_textures)
-90. [2022-09-26 - Fixes ntwalls01 snow textures for China structures](#index__89__1305_ntwalls01_snow_textures)
-91. [2022-09-26 - Fixes ntwalls04 snow textures for China structures](#index__90__1305_ntwalls04_snow_textures)
-92. [2022-10-05 - Adds slightly pitched sounds for some air weapons](#index__91__1335_pitched_air_weapon_sounds)
-93. [2022-10-08 - Fixes missing muzzle flash on Gattling weapons](#index__92__1341_gattling_muzzle_flash)
-94. [2022-10-08 - Removes white cubes on headlamps from China Gattling Tank](#index__93__1342_gattling_tank_model)
-95. [2022-10-08 - Removes green cubes from the damaged China Emperor Tank](#index__94__1346_emperor_model)
-96. [2022-10-08 - Fixes incorrect model setups of China Gattling Cannon](#index__95__1347_winter_day_damaged_gattling_cannon_model)
-97. [2022-10-08 - Fixes smoke effects on China Gattling Cannon](#index__96__1348_summer_night_gattling_cannon_particles)
-98. [2022-10-08 - Fixes infinite Gattling barrel spin animation issues](#index__97__1349_gattling_spin_issues)
-99. [2022-10-08 - Fixes China Helix model issues](#index__98__1351_helix_model)
-100. [2022-10-08 - Fixes Gattling barrel spin animation issues](#index__99__1359_gattlings_spin_animations)
-101. [2022-10-10 - Fixes inconsistent particle effects on different damage states of China Power Plant](#index__100__1395_china_reactor_consistent_particles)
-102. [2022-10-16 - Removes superfluous particle effects from China War Factory](#index__101__1379_china_factory_obsolete_particles)
-103. [2022-10-16 - Removes floating basket from China War Factory](#index__102__1380_winter_night_china_factory_basket)
-104. [2022-10-16 - Fixes animation issues on conveyor belt of China War Factory](#index__103__1381_china_factory_conveyor_belt)
-105. [2022-10-16 - Fixes War Factory door animations reset on damage state changes](#index__104__1382_door_animation_reset)
-106. [2022-10-19 - Changes crane of China War Factory to animate on vehicle repair instead of vehicle construction](#index__105__1393_china_factory_crane)
-107. [2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings](#index__106__1386_buildings_explosion_effects)
-108. [2022-10-20 - Removes superfluous particle effects from China Power Plant](#index__107__1395_china_reactor_obsolete_particles)
-109. [2022-10-20 - Adds steam particles to all chimneys of China Nuke Power Plant](#index__108__1396_nuke_reactor_steam_particles)
-110. [2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes](#index__109__1398_radar_animation_reset)
-111. [2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade](#index__110__1588_dragon_min_attack_range)
-112. [2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20%](#index__111__1449_dragon_poison_armor)
-113. [2022-11-06 - Fixes wrong exploded death animation of China Tank Hunter](#index__112__1452_tank_hunter_exploded_death_animation)
-114. [2022-11-07 - Fixes wrong death sounds of China Hacker](#index__113__1455_hacker_death_voice)
-115. [2022-11-30 - Increases death explosion damage and radius of China Nuke Silo](#index__114__1490_nuke_silo_death_damage_radius)
-116. [2023-01-07 - Decreases build cost of China Neutron Mines](#index__115__1523_china_mines_build_cost)
-117. [2023-01-08 - Fixes jet engine sound of China Carpet Bomber](#index__116__1525_china_bomber_sound)
-118. [2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched](#index__117__1532_helix_bomb_upgrade_button)
-119. [2023-01-08 - Decreases build time of China Mines](#index__118__1533_china_mines_build_time)
-120. [2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion](#index__119__1536_nuke_cannon_scorch)
-121. [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#index__120__1540_helix_nuke_bomb_damage)
-122. [2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research](#index__121__1542_helix_attachment_upgrade_buttons)
-123. [2023-01-13 - Fixes the evacuation command button art of various vehicles](#index__122__1545_vehicle_evacuation_button_image)
-124. [2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds](#index__123__1564_inferno_cannon_fire_storm)
-125. [2023-01-29 - Removes random sink delays from all vehicle wrecks](#index__124__1660_random_wreck_sink_delays)
-126. [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#index__125__1711_increase_wreck_destruction_delay)
-127. [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#index__126__1712_decrease_wreck_destruction_delay)
-128. [2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death](#index__127__1618_nuke_cannon_death_models)
-129. [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#index__128__1618_wreck_spawn_before_death)
-130. [2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades](#index__129__1624_nationalism_fanatism_tooltip_text)
-131. [2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack](#index__130__1653_nuke_cannon_animation_jump)
-132. [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#index__131__1657_tank_turret_deatheffects)
-133. [2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death](#index__132__1619_nuke_cannon_duplicate_radiation)
-134. [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#index__133__1670_overlord_emperor_idle_reload)
-135. [2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost](#index__134__1707_outpost_crush_death)
-136. [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#index__135__1718_cargo_plane_hit_effects)
+- [2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings](#link__20210822__4_listening_outpost_attack_bug)
+- [2021-08-22 - Improves mobility of China Dozer](#link__20210822__6_china_dozer_locomotor)
+- [2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units](#link__20210828__92_infantry_poison_death_voice)
+- [2021-08-28 - Fixes miniscule mass of China Supply Truck](#link__20210828__96_supply_truck_mass)
+- [2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles](#link__20210828__97_minigunner_crush)
+- [2021-09-01 - Fixes China unit attachments not showing the red tint from the Frenzy Power](#link__20210901__132_frenzy_coloring_on_attachments)
+- [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#link__20210901__133_speaker_tower_models)
+- [2021-09-01 - Fixes missing radar dots for China Bunkers and Propaganda Center](#link__20210901__134_structures_missing_on_minimap)
+- [2021-09-05 - Adds missing Patriotism upgrade icon to China Infantry Tank Hunter](#link__20210905__224_tank_hunter_cameo)
+- [2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely](#link__20210905__410_nuke_missile_blasts)
+- [2021-09-06 - Fixes misaligned propaganda effect on China Vehicles](#link__20210906__231_misaligned_propaganda_effect)
+- [2021-09-07 - Fixes China Nuke Missile exploit](#link__20210907__209_nuke_missile_exploit)
+- [2021-09-07 - Adds missing Subliminal Messaging bonus to China Emperor](#link__20210907__236_emperor_subliminal)
+- [2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus](#link__20210909__255_battlemaster_horde_bonus)
+- [2021-09-09 - Fixes attackable wrecks and debris](#link__20210909__257_attackable_wreck)
+- [2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair](#link__20210909__261_outpost_smoke_effect)
+- [2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit](#link__20210909__262_neutron_shell_exploit)
+- [2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment](#link__20210910__269_nuke_cannon_attack_target)
+- [2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings](#link__20210910__276_gps_scrambled_infantry_attacking)
+- [2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings](#link__20210910__276_gps_scrambled_infantry_capturing)
+- [2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units](#link__20210910__313_overlord_chassis_turn)
+- [2021-09-11 - Fixes China Helix with Gattling Cannon being able to unreliably attack air units](#link__20210911__284_helix_gattling_gun_air_attack)
+- [2021-09-11 - Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction](#link__20210911__299_china_cc_carpet_bomber)
+- [2021-09-11 - Fixes Generals Powers disappearing from Command Centers after Mines upgrade](#link__20210911__301_china_cc_powers_commandset)
+- [2021-09-11 - Fixes wrong muzzle flash location of China Minigunner](#link__20210911__312_minigunner_muzzle_flash)
+- [2021-09-11 - Fixes broken recoil animation of China Minigunner](#link__20210911__312_minigunner_recoil_animation)
+- [2021-09-11 - Adds missing Mines upgrade to China Speaker Tower](#link__20210911__317_speaker_tower_mines)
+- [2021-09-12 - Fixes Nuke General unable to build Nuke Cannons from regular China and Infantry General War Factories](#link__20210912__331_nuke_general_build_bug)
+- [2021-09-13 - Fixes inconsistent geometry sizes of China Outpost models](#link__20210913__347_outpost_geometry_size)
+- [2021-09-13 - Adds missing stealth detection effects and sounds to China Outposts](#link__20210913__349_outpost_stealth_effects)
+- [2021-09-13 - Adds missing stealth detection effects to China Troop Crawler](#link__20210913__350_troopcrawler_stealth_effects)
+- [2021-09-13 - Fixes missing Radar icon on China Command Center](#link__20210913__351_china_cc_cameo)
+- [2021-09-17 - Fixes China Nuke Mig upgrade not being buildable when on low power](#link__20210917__376_nuke_mig_upgrade_button)
+- [2021-09-19 - Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix](#link__20210919__391_helix_napalm_bomb_cameo)
+- [2021-09-25 - Decreases required level up experience of China Black Lotus by 82%](#link__20210925__413_lotus_required_xp)
+- [2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62%](#link__20210925__413_lotus_xp_reward)
+- [2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus](#link__20211001__437_lotus_vehicle_hack_xp_reward)
+- [2021-10-17 - Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps)](#link__20211017__575_tank_nuke_cannon)
+- [2021-10-23 - Removes ability to reveal shroud with China Frenzy power](#link__20211023__593_frenzy_scan)
+- [2021-12-24 - Fixes units with attachments blocking scaffold placements](#link__20211224__630_vehicle_attachment_blocking_build)
+- [2021-12-24 - Removes auto engage behaviour from China ECM Tank](#link__20211224__631_ecm_auto_attack)
+- [2022-07-24 - Decreases reload time of China Mig before Upgrade by 50%](#link__20220724__751_mig_reload_time)
+- [2022-07-27 - Decreases audible distance of China Helix helicopter by 30%](#link__20220727__765_helix_sound_range)
+- [2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler](#link__20220728__778_outpost_troopcrawler_xp_reward)
+- [2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms](#link__20220729__785_china_cc_door_times)
+- [2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625](#link__20220730__768_hacker_build_cost)
+- [2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds](#link__20220730__769_hacker_build_time)
+- [2022-07-30 - Decreases kill experience reward of China Hackers](#link__20220730__770_hacker_xp_reward)
+- [2022-07-30 - Decreases the required level up experience of China Hackers](#link__20220730__771_hacker_xp_requirement)
+- [2022-07-30 - Increases movement speed of China Hackers by 25%](#link__20220730__773_hacker_movement_speed)
+- [2022-07-30 - Decreases cash hack audio limit of China Hackers](#link__20220730__774_hacker_hack_audio_limit)
+- [2022-07-30 - Decreases pack and unpack times of China Hackers](#link__20220730__774_hacker_pack_unpack_times)
+- [2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms](#link__20220730__786_china_factory_door_times)
+- [2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers](#link__20220731__791_satellite_hack_issue)
+- [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
+- [2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center](#link__20220806__833_internet_center_prerequisites)
+- [2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability](#link__20220806__837_satellite_hack_ii_ability)
+- [2022-08-06 - Adds functional Speaker Tower to China Propaganda Center](#link__20220806__839_propaganda_center_speaker_tower)
+- [2022-08-06 - Fixes description error in tooltip text of China Nuke Mig](#link__20220806__840_nuke_mig_tooltip_text)
+- [2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower](#link__20220807__834_speaker_tower_prerequisites)
+- [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
+- [2022-08-14 - Increases damage and radius of China Nuke Missile](#link__20220814__871_nuke_missile_damage_and_radius)
+- [2022-08-14 - Decreases China Nuke Missile blast delays](#link__20220814__880_nuke_missile_blast_delays)
+- [2022-08-20 - Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image](#link__20220820__1021_nuke_battlemaster_portrait_image)
+- [2022-08-20 - Adds upgrade voice for China Neutron shells](#link__20220820__1026_neutron_shells_upgrade_voice)
+- [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#link__20220820__938_infantry_muzzle_flash)
+- [2022-08-20 - Adds new recoil animation to China Minigunner to match its fire rate increase over time](#link__20220820__939_minigunner_recoil_animation)
+- [2022-08-26 - Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler](#link__20220826__974_troopcrawler_guard_mode_buttons)
+- [2022-08-26 - Decreases large Guard Mode range of China Listening Outpost](#link__20220826__975_outpost_guard_mode_range)
+- [2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content)](#link__20220901__1060_empty_troopcrawler)
+- [2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost](#link__20220902__1080_outpost_radar_dish_physics)
+- [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#link__20220903__1090_china_cc_night_model)
+- [2022-09-04 - Fixes mispositioned explosion effects](#link__20220904__1122_detonation_effect_position_offset)
+- [2022-09-06 - Increases General Promotion reward from China Black Lotus by 100%](#link__20220906__1134_lotus_promotion_reward)
+- [2022-09-07 - Fixes muzzle particle effects of tanks](#link__20220907__1149_tank_muzzle_particles)
+- [2022-09-10 - Enables low fuel voices for China Mig Jet](#link__20220910__1180_mig_low_fuel_voice)
+- [2022-09-11 - Adds missing radio sounds to Helix voices](#link__20220911__1181_helix_radio_sounds)
+- [2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms](#link__20220914__1199_gattling_spin_timeout)
+- [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#link__20220920__1226_overlord_textures)
+- [2022-09-21 - Adds missing China Propaganda Tower damage texture](#link__20220921__1239_propaganda_tower_textures)
+- [2022-09-23 - Fixes wrong select audio of China Internet Centers](#link__20220923__1260_internet_center_select_sound)
+- [2022-09-24 - Adds missing audio limits to air unit voices](#link__20220924__1274_air_unit_death_voice_limit)
+- [2022-09-25 - Fixes nvinferno textures for China Inferno Cannon](#link__20220925__1285_nvinferno_textures)
+- [2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank](#link__20220925__1290_nvgatttank_textures)
+- [2022-09-26 - Fixes ntcement textures for China structures](#link__20220926__1298_ntcement_textures)
+- [2022-09-26 - Fixes ntdrive02 textures for China Supply Center](#link__20220926__1300_ntdrive02_textures)
+- [2022-09-26 - Fixes ntentry snow textures for China structures](#link__20220926__1301_ntentry_snow_textures)
+- [2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant](#link__20220926__1302_ntpwrplantslab_textures)
+- [2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center](#link__20220926__1304_ntsuppbase_snow_textures)
+- [2022-09-26 - Fixes ntwalls01 snow textures for China structures](#link__20220926__1305_ntwalls01_snow_textures)
+- [2022-09-26 - Fixes ntwalls04 snow textures for China structures](#link__20220926__1305_ntwalls04_snow_textures)
+- [2022-10-05 - Adds slightly pitched sounds for some air weapons](#link__20221005__1335_pitched_air_weapon_sounds)
+- [2022-10-08 - Fixes missing muzzle flash on Gattling weapons](#link__20221008__1341_gattling_muzzle_flash)
+- [2022-10-08 - Removes white cubes on headlamps from China Gattling Tank](#link__20221008__1342_gattling_tank_model)
+- [2022-10-08 - Removes green cubes from the damaged China Emperor Tank](#link__20221008__1346_emperor_model)
+- [2022-10-08 - Fixes incorrect model setups of China Gattling Cannon](#link__20221008__1347_winter_day_damaged_gattling_cannon_model)
+- [2022-10-08 - Fixes smoke effects on China Gattling Cannon](#link__20221008__1348_summer_night_gattling_cannon_particles)
+- [2022-10-08 - Fixes infinite Gattling barrel spin animation issues](#link__20221008__1349_gattling_spin_issues)
+- [2022-10-08 - Fixes China Helix model issues](#link__20221008__1351_helix_model)
+- [2022-10-08 - Fixes Gattling barrel spin animation issues](#link__20221008__1359_gattlings_spin_animations)
+- [2022-10-10 - Fixes inconsistent particle effects on different damage states of China Power Plant](#link__20221010__1395_china_reactor_consistent_particles)
+- [2022-10-16 - Removes superfluous particle effects from China War Factory](#link__20221016__1379_china_factory_obsolete_particles)
+- [2022-10-16 - Removes floating basket from China War Factory](#link__20221016__1380_winter_night_china_factory_basket)
+- [2022-10-16 - Fixes animation issues on conveyor belt of China War Factory](#link__20221016__1381_china_factory_conveyor_belt)
+- [2022-10-16 - Fixes War Factory door animations reset on damage state changes](#link__20221016__1382_door_animation_reset)
+- [2022-10-19 - Changes crane of China War Factory to animate on vehicle repair instead of vehicle construction](#link__20221019__1393_china_factory_crane)
+- [2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings](#link__20221020__1386_buildings_explosion_effects)
+- [2022-10-20 - Removes superfluous particle effects from China Power Plant](#link__20221020__1395_china_reactor_obsolete_particles)
+- [2022-10-20 - Adds steam particles to all chimneys of China Nuke Power Plant](#link__20221020__1396_nuke_reactor_steam_particles)
+- [2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes](#link__20221020__1398_radar_animation_reset)
+- [2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade](#link__20221103__1588_dragon_min_attack_range)
+- [2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20%](#link__20221106__1449_dragon_poison_armor)
+- [2022-11-06 - Fixes wrong exploded death animation of China Tank Hunter](#link__20221106__1452_tank_hunter_exploded_death_animation)
+- [2022-11-07 - Fixes wrong death sounds of China Hacker](#link__20221107__1455_hacker_death_voice)
+- [2022-11-30 - Increases death explosion damage and radius of China Nuke Silo](#link__20221130__1490_nuke_silo_death_damage_radius)
+- [2023-01-07 - Decreases build cost of China Neutron Mines](#link__20230107__1523_china_mines_build_cost)
+- [2023-01-08 - Fixes jet engine sound of China Carpet Bomber](#link__20230108__1525_china_bomber_sound)
+- [2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched](#link__20230108__1532_helix_bomb_upgrade_button)
+- [2023-01-08 - Decreases build time of China Mines](#link__20230108__1533_china_mines_build_time)
+- [2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion](#link__20230108__1536_nuke_cannon_scorch)
+- [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
+- [2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research](#link__20230111__1542_helix_attachment_upgrade_buttons)
+- [2023-01-13 - Fixes the evacuation command button art of various vehicles](#link__20230113__1545_vehicle_evacuation_button_image)
+- [2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds](#link__20230118__1564_inferno_cannon_fire_storm)
+- [2023-01-29 - Removes random sink delays from all vehicle wrecks](#link__20230129__1660_random_wreck_sink_delays)
+- [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#link__20230129__1711_increase_wreck_destruction_delay)
+- [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
+- [2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death](#link__20230204__1618_nuke_cannon_death_models)
+- [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
+- [2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades](#link__20230204__1624_nationalism_fanatism_tooltip_text)
+- [2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack](#link__20230209__1653_nuke_cannon_animation_jump)
+- [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
+- [2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death](#link__20230211__1619_nuke_cannon_duplicate_radiation)
+- [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
+- [2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost](#link__20230214__1707_outpost_crush_death)
+- [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
 
 
 
 ---
-### 2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings <a name='index__0__4_listening_outpost_attack_bug'></a>
+### 2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings <a name='link__20210822__4_listening_outpost_attack_bug'></a>
 **Changes**
 
 - **FIX**: All Listening Outposts can now attack all targets properly.
@@ -198,7 +198,7 @@ Contains 136 entries with
 **Source:** 4_listening_outpost_attack_bug.yaml
 
 ---
-### 2021-08-22 - Improves mobility of China Dozer <a name='index__1__6_china_dozer_locomotor'></a>
+### 2021-08-22 - Improves mobility of China Dozer <a name='link__20210822__6_china_dozer_locomotor'></a>
 **Changes**
 
 - **TWEAK**: Improves the mobility of the China Dozer to avoid scenarios where it gets stuck unnecessarily. This is implemented by changing the locomotor appearance from TREADS to FOUR_WHEELS.
@@ -214,7 +214,7 @@ Contains 136 entries with
 **Source:** 6_china_dozer_locomotor.yaml
 
 ---
-### 2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units <a name='index__2__92_infantry_poison_death_voice'></a>
+### 2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units <a name='link__20210828__92_infantry_poison_death_voice'></a>
 **Changes**
 
 - **FIX**: USA and China infantry units no longer use the GLA death scream when poisoned with Anthrax Gamma (pink puddles). Instead they use the respective USA or China death scream.
@@ -230,7 +230,7 @@ Contains 136 entries with
 **Source:** 92_infantry_poison_death_voice.yaml
 
 ---
-### 2021-08-28 - Fixes miniscule mass of China Supply Truck <a name='index__3__96_supply_truck_mass'></a>
+### 2021-08-28 - Fixes miniscule mass of China Supply Truck <a name='link__20210828__96_supply_truck_mass'></a>
 **Changes**
 
 - **FIX**: The Supply Truck now has more mass so that it no longer flings high up in the air when hit by a physics weapon such as Nuke missiles.
@@ -246,7 +246,7 @@ Contains 136 entries with
 **Source:** 96_supply_truck_mass.yaml
 
 ---
-### 2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles <a name='index__4__97_minigunner_crush'></a>
+### 2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles <a name='link__20210828__97_minigunner_crush'></a>
 **Changes**
 
 - **FIX**: The China Infantry Minigunner can now be properly crushed with vehicles like any other infantry unit.
@@ -262,7 +262,7 @@ Contains 136 entries with
 **Source:** 97_minigunner_crush.yaml
 
 ---
-### 2021-09-01 - Fixes China unit attachments not showing the red tint from the Frenzy Power <a name='index__5__132_frenzy_coloring_on_attachments'></a>
+### 2021-09-01 - Fixes China unit attachments not showing the red tint from the Frenzy Power <a name='link__20210901__132_frenzy_coloring_on_attachments'></a>
 **Changes**
 
 - **FIX**: The China Helix and Overlord attachments are now properly tinted red when their parent unit is affected by the Frenzy Power.
@@ -278,7 +278,7 @@ Contains 136 entries with
 **Source:** 132_frenzy_coloring_on_attachments.yaml
 
 ---
-### 2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps <a name='index__6__133_speaker_tower_models'></a>
+### 2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps <a name='link__20210901__133_speaker_tower_models'></a>
 **Changes**
 
 - **FIX**: Adds missing house colors to China Speaker Tower on Winter maps.
@@ -294,7 +294,7 @@ Contains 136 entries with
 **Source:** 133_speaker_tower_models.yaml
 
 ---
-### 2021-09-01 - Fixes missing radar dots for China Bunkers and Propaganda Center <a name='index__7__134_structures_missing_on_minimap'></a>
+### 2021-09-01 - Fixes missing radar dots for China Bunkers and Propaganda Center <a name='link__20210901__134_structures_missing_on_minimap'></a>
 **Changes**
 
 - **FIX**: The China Bunkers and Propaganda Center are now shown on the radar.
@@ -310,7 +310,7 @@ Contains 136 entries with
 **Source:** 134_structures_missing_on_minimap.yaml
 
 ---
-### 2021-09-05 - Adds missing Patriotism upgrade icon to China Infantry Tank Hunter <a name='index__8__224_tank_hunter_cameo'></a>
+### 2021-09-05 - Adds missing Patriotism upgrade icon to China Infantry Tank Hunter <a name='link__20210905__224_tank_hunter_cameo'></a>
 **Changes**
 
 - **FIX**: The Infantry General's Tank Hunter now shows the upgrade icon for Patriotism.
@@ -327,7 +327,7 @@ Contains 136 entries with
 **Source:** 224_tank_hunter_cameo.yaml
 
 ---
-### 2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely <a name='index__9__410_nuke_missile_blasts'></a>
+### 2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely <a name='link__20210905__410_nuke_missile_blasts'></a>
 **Changes**
 
 - **FIX**: The China Nuke Missile can now destroy GLA structures in one shot without leaving the GLA hole to repair.
@@ -343,7 +343,7 @@ Contains 136 entries with
 **Source:** 410_nuke_missile_blasts.yaml
 
 ---
-### 2021-09-06 - Fixes misaligned propaganda effect on China Vehicles <a name='index__10__231_misaligned_propaganda_effect'></a>
+### 2021-09-06 - Fixes misaligned propaganda effect on China Vehicles <a name='link__20210906__231_misaligned_propaganda_effect'></a>
 **Changes**
 
 - **FIX**: Fixes misaligned propaganda effect on China Assault Troopcrawler.
@@ -360,7 +360,7 @@ Contains 136 entries with
 **Source:** 231_misaligned_propaganda_effect.yaml
 
 ---
-### 2021-09-07 - Fixes China Nuke Missile exploit <a name='index__11__209_nuke_missile_exploit'></a>
+### 2021-09-07 - Fixes China Nuke Missile exploit <a name='link__20210907__209_nuke_missile_exploit'></a>
 **Changes**
 
 - **FIX**: Fixes the China Nuke Missile exploit.
@@ -376,7 +376,7 @@ Contains 136 entries with
 **Source:** 209_nuke_missile_exploit.yaml
 
 ---
-### 2021-09-07 - Adds missing Subliminal Messaging bonus to China Emperor <a name='index__12__236_emperor_subliminal'></a>
+### 2021-09-07 - Adds missing Subliminal Messaging bonus to China Emperor <a name='link__20210907__236_emperor_subliminal'></a>
 **Changes**
 
 - **FIX**: The China Emperor Tank now benefits from Subliminal Messaging, meaning the healing rate can be upgraded from 1% per second to 2% per second. With Subliminal Messaging, the unit will grant the SUBLIMINAL status to nearby units, which means an additional +25% Rate of Fire.
@@ -392,7 +392,7 @@ Contains 136 entries with
 **Source:** 236_emperor_subliminal.yaml
 
 ---
-### 2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus <a name='index__13__255_battlemaster_horde_bonus'></a>
+### 2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus <a name='link__20210909__255_battlemaster_horde_bonus'></a>
 **Changes**
 
 - **FIX**: Any 5 China Battlemasters now form a horde, no matter what sub faction they are. from.
@@ -408,7 +408,7 @@ Contains 136 entries with
 **Source:** 255_battlemaster_horde_bonus.yaml
 
 ---
-### 2021-09-09 - Fixes attackable wrecks and debris <a name='index__14__257_attackable_wreck'></a>
+### 2021-09-09 - Fixes attackable wrecks and debris <a name='link__20210909__257_attackable_wreck'></a>
 **Changes**
 
 - **FIX**: Units will not longer attack wrecks for a brief moment.
@@ -425,7 +425,7 @@ Contains 136 entries with
 **Source:** 257_attackable_wreck.yaml
 
 ---
-### 2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair <a name='index__15__261_outpost_smoke_effect'></a>
+### 2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair <a name='link__20210909__261_outpost_smoke_effect'></a>
 **Changes**
 
 - **FIX**: After being fully repaired, the China Listening Outpost will no longer show its damage smoke particles. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
@@ -441,7 +441,7 @@ Contains 136 entries with
 **Source:** 261_outpost_smoke_effect.yaml
 
 ---
-### 2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit <a name='index__16__262_neutron_shell_exploit'></a>
+### 2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit <a name='link__20210909__262_neutron_shell_exploit'></a>
 **Changes**
 
 - **FIX**: The China Nuke Cannon Neutron Shells can no longer be exploited.
@@ -457,7 +457,7 @@ Contains 136 entries with
 **Source:** 262_neutron_shell_exploit.yaml
 
 ---
-### 2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment <a name='index__17__269_nuke_cannon_attack_target'></a>
+### 2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment <a name='link__20210910__269_nuke_cannon_attack_target'></a>
 **Changes**
 
 - **FIX**: The China Nuke Cannon will no longer target the nearest enemy while ordered to attack any enemy in range. Instead, it will prioritize the enemy that was directly ordered to be attacked, preventing it from wasting its first shot on an auto-selected target.
@@ -473,7 +473,7 @@ Contains 136 entries with
 **Source:** 269_nuke_cannon_attack_target.yaml
 
 ---
-### 2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings <a name='index__18__276_gps_scrambled_infantry_attacking'></a>
+### 2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings <a name='link__20210910__276_gps_scrambled_infantry_attacking'></a>
 **Changes**
 
 - **FIX**: All stealthed China Hackers are now revealed when hacking buildings.
@@ -489,7 +489,7 @@ Contains 136 entries with
 **Source:** 276_gps_scrambled_infantry_attacking.yaml
 
 ---
-### 2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings <a name='index__19__276_gps_scrambled_infantry_capturing'></a>
+### 2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings <a name='link__20210910__276_gps_scrambled_infantry_capturing'></a>
 **Changes**
 
 - **FIX**: Stealthed USA Rangers, China Red Guards and Minigunners are now revealed when capturing buildings. This behaviour is consistent with GLA Rebels.
@@ -505,7 +505,7 @@ Contains 136 entries with
 **Source:** 276_gps_scrambled_infantry_capturing.yaml
 
 ---
-### 2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units <a name='index__20__313_overlord_chassis_turn'></a>
+### 2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units <a name='link__20210910__313_overlord_chassis_turn'></a>
 **Changes**
 
 - **FIX**: The China Overlord no longer turns its chassis to the targeted air unit. Only the Gattling turret will aim towards the air unit, while the Overlord either stays as is or aims and shoots at ground targets.
@@ -521,7 +521,7 @@ Contains 136 entries with
 **Source:** 313_overlord_chassis_turn.yaml
 
 ---
-### 2021-09-11 - Fixes China Helix with Gattling Cannon being able to unreliably attack air units <a name='index__21__284_helix_gattling_gun_air_attack'></a>
+### 2021-09-11 - Fixes China Helix with Gattling Cannon being able to unreliably attack air units <a name='link__20210911__284_helix_gattling_gun_air_attack'></a>
 **Changes**
 
 - **FIX**: The China Helix with the Gattling Cannon upgrade will no longer be able to fire at airborne units if they are right in front of it.
@@ -537,7 +537,7 @@ Contains 136 entries with
 **Source:** 284_helix_gattling_gun_air_attack.yaml
 
 ---
-### 2021-09-11 - Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction <a name='index__22__299_china_cc_carpet_bomber'></a>
+### 2021-09-11 - Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction <a name='link__20210911__299_china_cc_carpet_bomber'></a>
 **Changes**
 
 - **FIX**: The Rank 3 and Nuke Carpet Bombers are now available even if the player controls a Nuke Command Center as well as either a normal China or an Infantry General Command Center at the same time.
@@ -553,7 +553,7 @@ Contains 136 entries with
 **Source:** 299_china_cc_carpet_bomber.yaml
 
 ---
-### 2021-09-11 - Fixes Generals Powers disappearing from Command Centers after Mines upgrade <a name='index__23__301_china_cc_powers_commandset'></a>
+### 2021-09-11 - Fixes Generals Powers disappearing from Command Centers after Mines upgrade <a name='link__20210911__301_china_cc_powers_commandset'></a>
 **Changes**
 
 - **FIX**: The Frenzy Power button no longer disappears after upgrading Mines on the Infantry and Nuke General's Command Centers.
@@ -571,7 +571,7 @@ Contains 136 entries with
 **Source:** 301_china_cc_powers_commandset.yaml
 
 ---
-### 2021-09-11 - Fixes wrong muzzle flash location of China Minigunner <a name='index__24__312_minigunner_muzzle_flash'></a>
+### 2021-09-11 - Fixes wrong muzzle flash location of China Minigunner <a name='link__20210911__312_minigunner_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The tracer from the China Minigunner now emerges from the muzzle, even when aiming at air units.
@@ -587,7 +587,7 @@ Contains 136 entries with
 **Source:** 312_minigunner_muzzle_flash.yaml
 
 ---
-### 2021-09-11 - Fixes broken recoil animation of China Minigunner <a name='index__25__312_minigunner_recoil_animation'></a>
+### 2021-09-11 - Fixes broken recoil animation of China Minigunner <a name='link__20210911__312_minigunner_recoil_animation'></a>
 **Changes**
 
 - **FIX**: The recoil animation of the China Minigunner now matches its fire rate more closely.
@@ -603,7 +603,7 @@ Contains 136 entries with
 **Source:** 312_minigunner_recoil_animation.yaml
 
 ---
-### 2021-09-11 - Adds missing Mines upgrade to China Speaker Tower <a name='index__26__317_speaker_tower_mines'></a>
+### 2021-09-11 - Adds missing Mines upgrade to China Speaker Tower <a name='link__20210911__317_speaker_tower_mines'></a>
 **Changes**
 
 - **FIX**: The China Speaker Tower can now upgrade Mines.
@@ -619,7 +619,7 @@ Contains 136 entries with
 **Source:** 317_speaker_tower_mines.yaml
 
 ---
-### 2021-09-12 - Fixes Nuke General unable to build Nuke Cannons from regular China and Infantry General War Factories <a name='index__27__331_nuke_general_build_bug'></a>
+### 2021-09-12 - Fixes Nuke General unable to build Nuke Cannons from regular China and Infantry General War Factories <a name='link__20210912__331_nuke_general_build_bug'></a>
 **Changes**
 
 - **FIX**: The Nuke General can now build Nuke Cannons in regular China and Infantry General War Factories.
@@ -635,7 +635,7 @@ Contains 136 entries with
 **Source:** 331_nuke_general_build_bug.yaml
 
 ---
-### 2021-09-13 - Fixes inconsistent geometry sizes of China Outpost models <a name='index__28__347_outpost_geometry_size'></a>
+### 2021-09-13 - Fixes inconsistent geometry sizes of China Outpost models <a name='link__20210913__347_outpost_geometry_size'></a>
 **Changes**
 
 - **FIX**: Fixes inconsistent geometry sizes of China Outpost models.
@@ -651,7 +651,7 @@ Contains 136 entries with
 **Source:** 347_outpost_geometry_size.yaml
 
 ---
-### 2021-09-13 - Adds missing stealth detection effects and sounds to China Outposts <a name='index__29__349_outpost_stealth_effects'></a>
+### 2021-09-13 - Adds missing stealth detection effects and sounds to China Outposts <a name='link__20210913__349_outpost_stealth_effects'></a>
 **Changes**
 
 - **FIX**: The regular China Listening Outpost now displays the red grid below a detected object and the red ring around the unit, just like the other Listening Outposts.
@@ -667,7 +667,7 @@ Contains 136 entries with
 **Source:** 349_outpost_stealth_effects.yaml
 
 ---
-### 2021-09-13 - Adds missing stealth detection effects to China Troop Crawler <a name='index__30__350_troopcrawler_stealth_effects'></a>
+### 2021-09-13 - Adds missing stealth detection effects to China Troop Crawler <a name='link__20210913__350_troopcrawler_stealth_effects'></a>
 **Changes**
 
 - **FIX**: The regular China Troop Crawler now displays the red grid below a detected object and the red ring around the unit, just like the other Troop Crawlers.
@@ -683,7 +683,7 @@ Contains 136 entries with
 **Source:** 350_troopcrawler_stealth_effects.yaml
 
 ---
-### 2021-09-13 - Fixes missing Radar icon on China Command Center <a name='index__31__351_china_cc_cameo'></a>
+### 2021-09-13 - Fixes missing Radar icon on China Command Center <a name='link__20210913__351_china_cc_cameo'></a>
 **Changes**
 
 - **FIX**: The China Command Center now has an icon for the Radar upgrade.
@@ -699,7 +699,7 @@ Contains 136 entries with
 **Source:** 351_china_cc_cameo.yaml
 
 ---
-### 2021-09-17 - Fixes China Nuke Mig upgrade not being buildable when on low power <a name='index__32__376_nuke_mig_upgrade_button'></a>
+### 2021-09-17 - Fixes China Nuke Mig upgrade not being buildable when on low power <a name='link__20210917__376_nuke_mig_upgrade_button'></a>
 **Changes**
 
 - **FIX**: The China Nuke Mig upgrade now behaves like every other upgrade and can be built when on low power.
@@ -715,7 +715,7 @@ Contains 136 entries with
 **Source:** 376_nuke_mig_upgrade_button.yaml
 
 ---
-### 2021-09-19 - Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix <a name='index__33__391_helix_napalm_bomb_cameo'></a>
+### 2021-09-19 - Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix <a name='link__20210919__391_helix_napalm_bomb_cameo'></a>
 **Changes**
 
 - **FIX**: Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix.
@@ -731,7 +731,7 @@ Contains 136 entries with
 **Source:** 391_helix_napalm_bomb_cameo.yaml
 
 ---
-### 2021-09-25 - Decreases required level up experience of China Black Lotus by 82% <a name='index__34__413_lotus_required_xp'></a>
+### 2021-09-25 - Decreases required level up experience of China Black Lotus by 82% <a name='link__20210925__413_lotus_required_xp'></a>
 **Changes**
 
 - **TWEAK**: Decreases the required level up experience of China Black Lotus from 100 200 400 to 40 80 160. This allows Black Lotus to level up quicker, but on average still requires more time than USA Colonel Burton and GLA Jarmen Kell do.
@@ -749,7 +749,7 @@ Contains 136 entries with
 **Source:** 413_lotus_required_xp.yaml
 
 ---
-### 2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62% <a name='index__35__413_lotus_xp_reward'></a>
+### 2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62% <a name='link__20210925__413_lotus_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Decreases the kill XP reward of China Black Lotus from 50 100 150 400 to 50 50 100 150. These levels are consistent with those of other Hero units.
@@ -765,7 +765,7 @@ Contains 136 entries with
 **Source:** 413_lotus_xp_reward.yaml
 
 ---
-### 2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus <a name='index__36__437_lotus_vehicle_hack_xp_reward'></a>
+### 2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus <a name='link__20211001__437_lotus_vehicle_hack_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: China Black Lotus now receives 10 XP for hacking vehicles.
@@ -782,7 +782,7 @@ Contains 136 entries with
 **Source:** 437_lotus_vehicle_hack_xp_reward.yaml
 
 ---
-### 2021-10-17 - Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps) <a name='index__37__575_tank_nuke_cannon'></a>
+### 2021-10-17 - Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps) <a name='link__20211017__575_tank_nuke_cannon'></a>
 **Changes**
 
 - **FEATURE**: Adds Nuke Cannon and Inferno Cannon to Tank General. These are not available in regular matches, but can be used for custom maps.
@@ -798,7 +798,7 @@ Contains 136 entries with
 **Source:** 575_tank_nuke_cannon.yaml
 
 ---
-### 2021-10-23 - Removes ability to reveal shroud with China Frenzy power <a name='index__38__593_frenzy_scan'></a>
+### 2021-10-23 - Removes ability to reveal shroud with China Frenzy power <a name='link__20211023__593_frenzy_scan'></a>
 **Changes**
 
 - **FIX**: China Frenzy will no longer reveal shroud. Meaning it no longer acts as a scan to scout unknown terrain.
@@ -814,7 +814,7 @@ Contains 136 entries with
 **Source:** 593_frenzy_scan.yaml
 
 ---
-### 2021-12-24 - Fixes units with attachments blocking scaffold placements <a name='index__39__630_vehicle_attachment_blocking_build'></a>
+### 2021-12-24 - Fixes units with attachments blocking scaffold placements <a name='link__20211224__630_vehicle_attachment_blocking_build'></a>
 **Changes**
 
 - **FIX**: Units with attachments no longer prevent scaffold placements on top of them. Units with attachments are
@@ -834,7 +834,7 @@ Contains 136 entries with
 **Source:** 630_vehicle_attachment_blocking_build.yaml
 
 ---
-### 2021-12-24 - Removes auto engage behaviour from China ECM Tank <a name='index__40__631_ecm_auto_attack'></a>
+### 2021-12-24 - Removes auto engage behaviour from China ECM Tank <a name='link__20211224__631_ecm_auto_attack'></a>
 **Changes**
 
 - **FIX**: Removes the auto engage behaviour from China ECM Tanks. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same.
@@ -850,7 +850,7 @@ Contains 136 entries with
 **Source:** 631_ecm_auto_attack.yaml
 
 ---
-### 2022-07-24 - Decreases reload time of China Mig before Upgrade by 50% <a name='index__41__751_mig_reload_time'></a>
+### 2022-07-24 - Decreases reload time of China Mig before Upgrade by 50% <a name='link__20220724__751_mig_reload_time'></a>
 **Changes**
 
 - **FIX**: Decreases the reload time of non-Black Napalm Migs from 8 to 4 seconds. This also applies to Nuke Migs before the Nuke Mig Upgrade. The reload time after both upgrades remains unchanged at 2 seconds.
@@ -866,7 +866,7 @@ Contains 136 entries with
 **Source:** 751_mig_reload_time.yaml
 
 ---
-### 2022-07-27 - Decreases audible distance of China Helix helicopter by 30% <a name='index__42__765_helix_sound_range'></a>
+### 2022-07-27 - Decreases audible distance of China Helix helicopter by 30% <a name='link__20220727__765_helix_sound_range'></a>
 **Changes**
 
 - **FIX**: Decreases the audible distance of China Helix helicopter by 30%, from 1000 to 700. This is in line with the sound distances of other aircraft.
@@ -882,7 +882,7 @@ Contains 136 entries with
 **Source:** 765_helix_sound_range.yaml
 
 ---
-### 2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler <a name='index__43__778_outpost_troopcrawler_xp_reward'></a>
+### 2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler <a name='link__20220728__778_outpost_troopcrawler_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Destroying the China Outpost now rewards 5 experience points.
@@ -899,7 +899,7 @@ Contains 136 entries with
 **Source:** 778_outpost_troopcrawler_xp_reward.yaml
 
 ---
-### 2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms <a name='index__44__785_china_cc_door_times'></a>
+### 2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms <a name='link__20220729__785_china_cc_door_times'></a>
 **Changes**
 
 - **TWEAK**: Decreases the China Command Center door times from 3000 to 1500 ms. This equals the door times of the USA Command Center. It enables China to build the second Dozer 1500 ms quicker.
@@ -915,7 +915,7 @@ Contains 136 entries with
 **Source:** 785_china_cc_door_times.yaml
 
 ---
-### 2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625 <a name='index__45__768_hacker_build_cost'></a>
+### 2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625 <a name='link__20220730__768_hacker_build_cost'></a>
 **Changes**
 
 - **TWEAK**: Decreases the build cost of Tank China Hacker from 780 to 625. All China Hackers now cost the same. 4 Regular Hackers valued at 2500 cash generate as much income as as a GLA Black Market of identical value.
@@ -931,7 +931,7 @@ Contains 136 entries with
 **Source:** 768_hacker_build_cost.yaml
 
 ---
-### 2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds <a name='index__46__769_hacker_build_time'></a>
+### 2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds <a name='link__20220730__769_hacker_build_time'></a>
 **Changes**
 
 - **TWEAK**: Decreases the build time of China Hackers from 20 to 15 seconds. 4 Hackers will build as fast as a GLA Black Market of identical value in 1 minute accordingly.
@@ -947,7 +947,7 @@ Contains 136 entries with
 **Source:** 769_hacker_build_time.yaml
 
 ---
-### 2022-07-30 - Decreases kill experience reward of China Hackers <a name='index__47__770_hacker_xp_reward'></a>
+### 2022-07-30 - Decreases kill experience reward of China Hackers <a name='link__20220730__770_hacker_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Decreases the kill experience reward of China Hackers from 50 100 150 400 to 50 60 80 100. This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
@@ -963,7 +963,7 @@ Contains 136 entries with
 **Source:** 770_hacker_xp_reward.yaml
 
 ---
-### 2022-07-30 - Decreases the required level up experience of China Hackers <a name='index__48__771_hacker_xp_requirement'></a>
+### 2022-07-30 - Decreases the required level up experience of China Hackers <a name='link__20220730__771_hacker_xp_requirement'></a>
 **Changes**
 
 - **TWEAK**: Decreases the required level up experience of China Hackers from 100 300 500 to 100 250 400. Affects all Hackers expept Super Hackers from Infantry General. This means the regular Hacker now takes 500 seconds instead of 600 seconds to reach Vet 2. And 800 seconds instead of 1000 seconds to reach Vet 3.
@@ -979,7 +979,7 @@ Contains 136 entries with
 **Source:** 771_hacker_xp_requirement.yaml
 
 ---
-### 2022-07-30 - Increases movement speed of China Hackers by 25% <a name='index__49__773_hacker_movement_speed'></a>
+### 2022-07-30 - Increases movement speed of China Hackers by 25% <a name='link__20220730__773_hacker_movement_speed'></a>
 **Changes**
 
 - **TWEAK**: All China Hackers now move as quick as the Red Guard. Black Lotus walks quicker than Hackers. Tank Hunter walks slower than Hackers.
@@ -995,7 +995,7 @@ Contains 136 entries with
 **Source:** 773_hacker_movement_speed.yaml
 
 ---
-### 2022-07-30 - Decreases cash hack audio limit of China Hackers <a name='index__50__774_hacker_hack_audio_limit'></a>
+### 2022-07-30 - Decreases cash hack audio limit of China Hackers <a name='link__20220730__774_hacker_hack_audio_limit'></a>
 **Changes**
 
 - **TWEAK**: No more than 1 cash hack audio effect is now played simultaneously. This avoids accumulated audio spam.
@@ -1011,7 +1011,7 @@ Contains 136 entries with
 **Source:** 774_hacker_hack_audio_limit.yaml
 
 ---
-### 2022-07-30 - Decreases pack and unpack times of China Hackers <a name='index__51__774_hacker_pack_unpack_times'></a>
+### 2022-07-30 - Decreases pack and unpack times of China Hackers <a name='link__20220730__774_hacker_pack_unpack_times'></a>
 **Changes**
 
 - **TWEAK**: All China Hackers now unpack and pack their laptops quicker. The packing time variation is decreased significantly from 100% to 20%. This adds more time consistency when packing and unpacking. The unpack base time is just marginally tweaked to accommodate the pack variation for improved animation optics. The pack time is decreased to 75%, allowing Hackers to flee the scene a bit quicker.
@@ -1027,7 +1027,7 @@ Contains 136 entries with
 **Source:** 774_hacker_pack_unpack_times.yaml
 
 ---
-### 2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms <a name='index__52__786_china_factory_door_times'></a>
+### 2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms <a name='link__20220730__786_china_factory_door_times'></a>
 **Changes**
 
 - **TWEAK**: Decreases the China War Factory door times from 4000 to 3300 ms. This equals the door times of the USA War Factory. It enables China to build all vehicles 700 ms quicker.
@@ -1043,7 +1043,7 @@ Contains 136 entries with
 **Source:** 786_china_factory_door_times.yaml
 
 ---
-### 2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers <a name='index__53__791_satellite_hack_issue'></a>
+### 2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers <a name='link__20220731__791_satellite_hack_issue'></a>
 **Changes**
 
 - **FIX**: China Satellite Hack 1 can now see newly build enemy Command Centers when activated.
@@ -1059,7 +1059,7 @@ Contains 136 entries with
 **Source:** 791_satellite_hack_issue.yaml
 
 ---
-### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='index__54__412_tanks_xp_reward'></a>
+### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
@@ -1075,7 +1075,7 @@ Contains 136 entries with
 **Source:** 412_tanks_xp_reward.yaml
 
 ---
-### 2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center <a name='index__55__833_internet_center_prerequisites'></a>
+### 2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center <a name='link__20220806__833_internet_center_prerequisites'></a>
 **Changes**
 
 - **TWEAK**: The China Internet Center can now be built after a War Factory or Propaganda Center has been built.
@@ -1091,7 +1091,7 @@ Contains 136 entries with
 **Source:** 833_internet_center_prerequisites.yaml
 
 ---
-### 2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability <a name='index__56__837_satellite_hack_ii_ability'></a>
+### 2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability <a name='link__20220806__837_satellite_hack_ii_ability'></a>
 **Changes**
 
 - **FEATURE**: Changes the China Satellite Hack II upgrade into a manually activated spy ability. It keeps the same duration and cooldown, but instead of being automatically activated, it is now an ability similar to the Strategy Center Intelligence.
@@ -1107,7 +1107,7 @@ Contains 136 entries with
 **Source:** 837_satellite_hack_ii_ability.yaml
 
 ---
-### 2022-08-06 - Adds functional Speaker Tower to China Propaganda Center <a name='index__57__839_propaganda_center_speaker_tower'></a>
+### 2022-08-06 - Adds functional Speaker Tower to China Propaganda Center <a name='link__20220806__839_propaganda_center_speaker_tower'></a>
 **Changes**
 
 - **FEATURE**: Adds a functional Speaker Tower to the China Propaganda Center. The model of the structure is unchanged, because it already has the tower. It works identical to the regular Speaker Tower.
@@ -1123,7 +1123,7 @@ Contains 136 entries with
 **Source:** 839_propaganda_center_speaker_tower.yaml
 
 ---
-### 2022-08-06 - Fixes description error in tooltip text of China Nuke Mig <a name='index__58__840_nuke_mig_tooltip_text'></a>
+### 2022-08-06 - Fixes description error in tooltip text of China Nuke Mig <a name='link__20220806__840_nuke_mig_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip text of the China Nuke Mig no longer claims that it creates a fire storm.
@@ -1139,7 +1139,7 @@ Contains 136 entries with
 **Source:** 840_nuke_mig_tooltip_text.yaml
 
 ---
-### 2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower <a name='index__59__834_speaker_tower_prerequisites'></a>
+### 2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower <a name='link__20220807__834_speaker_tower_prerequisites'></a>
 **Changes**
 
 - **TWEAK**: The China Speaker Tower can now be built earlier after a War Factory or Airfield or Propaganda Center has been built.
@@ -1155,7 +1155,7 @@ Contains 136 entries with
 **Source:** 834_speaker_tower_prerequisites.yaml
 
 ---
-### 2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix <a name='index__60__1023_nuke_helix_model'></a>
+### 2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix <a name='link__20220813__1023_nuke_helix_model'></a>
 **Changes**
 
 - **FIX**: The China Nuke Helix now displays nuklear symbols instead of stars on its wings. This is consistent with nuke symbols on Mig Jet and Nuke Cannon.
@@ -1171,7 +1171,7 @@ Contains 136 entries with
 **Source:** 1023_nuke_helix_model.yaml
 
 ---
-### 2022-08-14 - Increases damage and radius of China Nuke Missile <a name='index__61__871_nuke_missile_damage_and_radius'></a>
+### 2022-08-14 - Increases damage and radius of China Nuke Missile <a name='link__20220814__871_nuke_missile_damage_and_radius'></a>
 **Changes**
 
 - **TWEAK**: Increases China Nuke Missile damage by 20%.
@@ -1193,7 +1193,7 @@ Contains 136 entries with
 **Source:** 871_nuke_missile_damage_and_radius.yaml
 
 ---
-### 2022-08-14 - Decreases China Nuke Missile blast delays <a name='index__62__880_nuke_missile_blast_delays'></a>
+### 2022-08-14 - Decreases China Nuke Missile blast delays <a name='link__20220814__880_nuke_missile_blast_delays'></a>
 **Changes**
 
 - **TWEAK**: Decreases the China Nuke Missile blast delays to accomodate the explosion effect more appropriately. The Patched Nuke Missile now hits max 880 milliseconds earlier than originally.
@@ -1209,7 +1209,7 @@ Contains 136 entries with
 **Source:** 880_nuke_missile_blast_delays.yaml
 
 ---
-### 2022-08-20 - Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image <a name='index__63__1021_nuke_battlemaster_portrait_image'></a>
+### 2022-08-20 - Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image <a name='link__20220820__1021_nuke_battlemaster_portrait_image'></a>
 **Changes**
 
 - **FIX**: Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image
@@ -1225,7 +1225,7 @@ Contains 136 entries with
 **Source:** 1021_nuke_battlemaster_portrait_image.yaml
 
 ---
-### 2022-08-20 - Adds upgrade voice for China Neutron shells <a name='index__64__1026_neutron_shells_upgrade_voice'></a>
+### 2022-08-20 - Adds upgrade voice for China Neutron shells <a name='link__20220820__1026_neutron_shells_upgrade_voice'></a>
 **Changes**
 
 - **FEATURE**: Acquiring the China Neutron shells upgrade now plays a dedicated voice line in all languages.
@@ -1241,7 +1241,7 @@ Contains 136 entries with
 **Source:** 1026_neutron_shells_upgrade_voice.yaml
 
 ---
-### 2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons <a name='index__65__938_infantry_muzzle_flash'></a>
+### 2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons <a name='link__20220820__938_infantry_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: Muzzle flash effects no longer shows persistently during transition animations on
@@ -1263,7 +1263,7 @@ Contains 136 entries with
 **Source:** 938_infantry_muzzle_flash.yaml
 
 ---
-### 2022-08-20 - Adds new recoil animation to China Minigunner to match its fire rate increase over time <a name='index__66__939_minigunner_recoil_animation'></a>
+### 2022-08-20 - Adds new recoil animation to China Minigunner to match its fire rate increase over time <a name='link__20220820__939_minigunner_recoil_animation'></a>
 **Changes**
 
 - **FIX**: Adds new recoil animation to China Minigunner to match its fire rate increase over time.
@@ -1279,7 +1279,7 @@ Contains 136 entries with
 **Source:** 939_minigunner_recoil_animation.yaml
 
 ---
-### 2022-08-26 - Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler <a name='index__67__974_troopcrawler_guard_mode_buttons'></a>
+### 2022-08-26 - Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler <a name='link__20220826__974_troopcrawler_guard_mode_buttons'></a>
 **Changes**
 
 - **FIX**: Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler
@@ -1295,7 +1295,7 @@ Contains 136 entries with
 **Source:** 974_troopcrawler_guard_mode_buttons.yaml
 
 ---
-### 2022-08-26 - Decreases large Guard Mode range of China Listening Outpost <a name='index__68__975_outpost_guard_mode_range'></a>
+### 2022-08-26 - Decreases large Guard Mode range of China Listening Outpost <a name='link__20220826__975_outpost_guard_mode_range'></a>
 **Changes**
 
 - **FIX**: Decreases the large Guard Mode range of China Listening Outpost from 250 to 150. This range matches those of many other China units. It does not change the stealth detection range and shroud clearing range.
@@ -1311,7 +1311,7 @@ Contains 136 entries with
 **Source:** 975_outpost_guard_mode_range.yaml
 
 ---
-### 2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content) <a name='index__69__1060_empty_troopcrawler'></a>
+### 2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content) <a name='link__20220901__1060_empty_troopcrawler'></a>
 **Changes**
 
 - **FIX**: Fixes setup issues of China Empty Troopcrawler.
@@ -1327,7 +1327,7 @@ Contains 136 entries with
 **Source:** 1060_empty_troopcrawler.yaml
 
 ---
-### 2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost <a name='index__70__1080_outpost_radar_dish_physics'></a>
+### 2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost <a name='link__20220902__1080_outpost_radar_dish_physics'></a>
 **Changes**
 
 - **FIX**: The radar dish of the China Listening Outpost no longer flies high up in the sky after destruction.
@@ -1343,7 +1343,7 @@ Contains 136 entries with
 **Source:** 1080_outpost_radar_dish_physics.yaml
 
 ---
-### 2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps <a name='index__71__1090_china_cc_night_model'></a>
+### 2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps <a name='link__20220903__1090_china_cc_night_model'></a>
 **Changes**
 
 - **FIX**: Fixes the duplicated structure parts on the damaged China Command Center on Night maps
@@ -1359,7 +1359,7 @@ Contains 136 entries with
 **Source:** 1090_china_cc_night_model.yaml
 
 ---
-### 2022-09-04 - Fixes mispositioned explosion effects <a name='index__72__1122_detonation_effect_position_offset'></a>
+### 2022-09-04 - Fixes mispositioned explosion effects <a name='link__20220904__1122_detonation_effect_position_offset'></a>
 **Changes**
 
 - **FIX**: Fixes improperly positioned China Nuke Cannon shell detonation effect.
@@ -1379,7 +1379,7 @@ Contains 136 entries with
 **Source:** 1122_detonation_effect_position_offset.yaml
 
 ---
-### 2022-09-06 - Increases General Promotion reward from China Black Lotus by 100% <a name='index__73__1134_lotus_promotion_reward'></a>
+### 2022-09-06 - Increases General Promotion reward from China Black Lotus by 100% <a name='link__20220906__1134_lotus_promotion_reward'></a>
 **Changes**
 
 - **TWEAK**: Doubles the General Promotion rewards gained from Black Lotus attacks. The rewards are still inferior to those gained from using other Hero units.
@@ -1395,7 +1395,7 @@ Contains 136 entries with
 **Source:** 1134_lotus_promotion_reward.yaml
 
 ---
-### 2022-09-07 - Fixes muzzle particle effects of tanks <a name='index__74__1149_tank_muzzle_particles'></a>
+### 2022-09-07 - Fixes muzzle particle effects of tanks <a name='link__20220907__1149_tank_muzzle_particles'></a>
 **Changes**
 
 - **FIX**: Fixes poor fadeouts of tank muzzle flare effects.
@@ -1413,7 +1413,7 @@ Contains 136 entries with
 **Source:** 1149_tank_muzzle_particles.yaml
 
 ---
-### 2022-09-10 - Enables low fuel voices for China Mig Jet <a name='index__75__1180_mig_low_fuel_voice'></a>
+### 2022-09-10 - Enables low fuel voices for China Mig Jet <a name='link__20220910__1180_mig_low_fuel_voice'></a>
 **Changes**
 
 - **FIX**: Adds the China Mig's unused low fuel voice event. Like all other planes, it will play when returning to a missing airfield.
@@ -1429,7 +1429,7 @@ Contains 136 entries with
 **Source:** 1180_mig_low_fuel_voice.yaml
 
 ---
-### 2022-09-11 - Adds missing radio sounds to Helix voices <a name='index__76__1181_helix_radio_sounds'></a>
+### 2022-09-11 - Adds missing radio sounds to Helix voices <a name='link__20220911__1181_helix_radio_sounds'></a>
 **Changes**
 
 - **FIX**: Adds missing radio sounds to Helix voices.
@@ -1445,7 +1445,7 @@ Contains 136 entries with
 **Source:** 1181_helix_radio_sounds.yaml
 
 ---
-### 2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms <a name='index__77__1199_gattling_spin_timeout'></a>
+### 2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms <a name='link__20220914__1199_gattling_spin_timeout'></a>
 **Changes**
 
 - **TWEAK**: Increases GattlingTankGun ContinuousFireCoast from 1000 to 2000 ms. This matches the setup from Generals (CCG) and also the setting from the Zero Hour (ZH) GattlingTankGunAir. With this change the Gattling Tank gun can be microed more generously to squeeze out the most damage potential.
@@ -1461,7 +1461,7 @@ Contains 136 entries with
 **Source:** 1199_gattling_spin_timeout.yaml
 
 ---
-### 2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank <a name='index__78__1226_overlord_textures'></a>
+### 2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank <a name='link__20220920__1226_overlord_textures'></a>
 **Changes**
 
 - **FIX**: Removes the wheel(s) on the chassis of the China Overlord Tank.
@@ -1477,7 +1477,7 @@ Contains 136 entries with
 **Source:** 1226_overlord_textures.yaml
 
 ---
-### 2022-09-21 - Adds missing China Propaganda Tower damage texture <a name='index__79__1239_propaganda_tower_textures'></a>
+### 2022-09-21 - Adds missing China Propaganda Tower damage texture <a name='link__20220921__1239_propaganda_tower_textures'></a>
 **Changes**
 
 - **FIX**: Adds missing nbptower_e texture. nbptower_es (snow) does already exist. Originally NBPTower_E.W3D references nbptower_d texture.
@@ -1493,7 +1493,7 @@ Contains 136 entries with
 **Source:** 1239_propaganda_tower_textures.yaml
 
 ---
-### 2022-09-23 - Fixes wrong select audio of China Internet Centers <a name='index__80__1260_internet_center_select_sound'></a>
+### 2022-09-23 - Fixes wrong select audio of China Internet Centers <a name='link__20220923__1260_internet_center_select_sound'></a>
 **Changes**
 
 - **FIX**: Internet Centers of China Nuke, China Tank and China Infantry now play the correct selection audio.
@@ -1509,7 +1509,7 @@ Contains 136 entries with
 **Source:** 1260_internet_center_select_sound.yaml
 
 ---
-### 2022-09-24 - Adds missing audio limits to air unit voices <a name='index__81__1274_air_unit_death_voice_limit'></a>
+### 2022-09-24 - Adds missing audio limits to air unit voices <a name='link__20220924__1274_air_unit_death_voice_limit'></a>
 **Changes**
 
 - **FIX**: Sets audio limit 1 on all low fuel voices of airplanes.
@@ -1526,7 +1526,7 @@ Contains 136 entries with
 **Source:** 1274_air_unit_death_voice_limit.yaml
 
 ---
-### 2022-09-25 - Fixes nvinferno textures for China Inferno Cannon <a name='index__82__1285_nvinferno_textures'></a>
+### 2022-09-25 - Fixes nvinferno textures for China Inferno Cannon <a name='link__20220925__1285_nvinferno_textures'></a>
 **Changes**
 
 - **FIX**: Fixes nvinferno textures for China Inferno Cannon.
@@ -1552,7 +1552,7 @@ Contains 136 entries with
 **Source:** 1285_nvinferno_textures.yaml
 
 ---
-### 2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank <a name='index__83__1290_nvgatttank_textures'></a>
+### 2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank <a name='link__20220925__1290_nvgatttank_textures'></a>
 **Changes**
 
 - **FIX**: Fixes nvgatttank textures. The chassis wheels have been replaced with proper headlamps in the same style as Outpost and Nuke Cannon. The headlamp piece is mapped to both front and back. The Gattling barrels now look shiny by borrowing the same texture from other Gattling Cannons.
@@ -1586,7 +1586,7 @@ Contains 136 entries with
 **Source:** 1290_nvgatttank_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntcement textures for China structures <a name='index__84__1298_ntcement_textures'></a>
+### 2022-09-26 - Fixes ntcement textures for China structures <a name='link__20220926__1298_ntcement_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntcement textures. There is a slight color mismatch on some rubble between _d and _e variants.
@@ -1608,7 +1608,7 @@ Contains 136 entries with
 **Source:** 1298_ntcement_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntdrive02 textures for China Supply Center <a name='index__85__1300_ntdrive02_textures'></a>
+### 2022-09-26 - Fixes ntdrive02 textures for China Supply Center <a name='link__20220926__1300_ntdrive02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntdrive02 textures for China Supply Center.
@@ -1635,7 +1635,7 @@ Contains 136 entries with
 **Source:** 1300_ntdrive02_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntentry snow textures for China structures <a name='index__86__1301_ntentry_snow_textures'></a>
+### 2022-09-26 - Fixes ntentry snow textures for China structures <a name='link__20220926__1301_ntentry_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntentry snow textures.
@@ -1661,7 +1661,7 @@ Contains 136 entries with
 **Source:** 1301_ntentry_snow_textures.yaml
 
 ---
-### 2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant <a name='index__87__1302_ntpwrplantslab_textures'></a>
+### 2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant <a name='link__20220926__1302_ntpwrplantslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves ntpwrplantslab textures for China Power Plant.
@@ -1696,7 +1696,7 @@ Contains 136 entries with
 **Source:** 1302_ntpwrplantslab_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center <a name='index__88__1304_ntsuppbase_snow_textures'></a>
+### 2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center <a name='link__20220926__1304_ntsuppbase_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntsuppbase snow textures for China Supply Center.
@@ -1727,7 +1727,7 @@ Contains 136 entries with
 **Source:** 1304_ntsuppbase_snow_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntwalls01 snow textures for China structures <a name='index__89__1305_ntwalls01_snow_textures'></a>
+### 2022-09-26 - Fixes ntwalls01 snow textures for China structures <a name='link__20220926__1305_ntwalls01_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntwalls01 snow textures. The snow is no longer upside-down on specific walls, most notably the China Airfield.
@@ -1749,7 +1749,7 @@ Contains 136 entries with
 **Source:** 1305_ntwalls01_snow_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntwalls04 snow textures for China structures <a name='index__90__1305_ntwalls04_snow_textures'></a>
+### 2022-09-26 - Fixes ntwalls04 snow textures for China structures <a name='link__20220926__1305_ntwalls04_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntwalls04 snow textures. The snow is no longer upside-down on specific walls, most notably the China Airfield.
@@ -1777,7 +1777,7 @@ Contains 136 entries with
 **Source:** 1305_ntwalls04_snow_textures.yaml
 
 ---
-### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='index__91__1335_pitched_air_weapon_sounds'></a>
+### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='link__20221005__1335_pitched_air_weapon_sounds'></a>
 **Changes**
 
 - **FIX**: Adds slightly pitched sounds to all non-rocket anti air weapons. The default weapons against ground targets use the original sound effects. Affects
@@ -1799,7 +1799,7 @@ Contains 136 entries with
 **Source:** 1335_pitched_air_weapon_sounds.yaml
 
 ---
-### 2022-10-08 - Fixes missing muzzle flash on Gattling weapons <a name='index__92__1341_gattling_muzzle_flash'></a>
+### 2022-10-08 - Fixes missing muzzle flash on Gattling weapons <a name='link__20221008__1341_gattling_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: Fixes missing muzzle flash on China Gattling Tank when firing at ground targets.
@@ -1819,7 +1819,7 @@ Contains 136 entries with
 **Source:** 1341_gattling_muzzle_flash.yaml
 
 ---
-### 2022-10-08 - Removes white cubes on headlamps from China Gattling Tank <a name='index__93__1342_gattling_tank_model'></a>
+### 2022-10-08 - Removes white cubes on headlamps from China Gattling Tank <a name='link__20221008__1342_gattling_tank_model'></a>
 **Changes**
 
 - **FIX**: Removes white cubes (bones) on headlamps from China Gattling Tank on Summer Night maps.
@@ -1835,7 +1835,7 @@ Contains 136 entries with
 **Source:** 1342_gattling_tank_model.yaml
 
 ---
-### 2022-10-08 - Removes green cubes from the damaged China Emperor Tank <a name='index__94__1346_emperor_model'></a>
+### 2022-10-08 - Removes green cubes from the damaged China Emperor Tank <a name='link__20221008__1346_emperor_model'></a>
 **Changes**
 
 - **FIX**: Removes green cubes (bones) from the damaged China Emperor Tank.
@@ -1851,7 +1851,7 @@ Contains 136 entries with
 **Source:** 1346_emperor_model.yaml
 
 ---
-### 2022-10-08 - Fixes incorrect model setups of China Gattling Cannon <a name='index__95__1347_winter_day_damaged_gattling_cannon_model'></a>
+### 2022-10-08 - Fixes incorrect model setups of China Gattling Cannon <a name='link__20221008__1347_winter_day_damaged_gattling_cannon_model'></a>
 **Changes**
 
 - **FIX**: Fixes the wrong model of the fast firing damaged China Gattling Cannon on Winter Day maps.
@@ -1867,7 +1867,7 @@ Contains 136 entries with
 **Source:** 1347_winter_day_damaged_gattling_cannon_model.yaml
 
 ---
-### 2022-10-08 - Fixes smoke effects on China Gattling Cannon <a name='index__96__1348_summer_night_gattling_cannon_particles'></a>
+### 2022-10-08 - Fixes smoke effects on China Gattling Cannon <a name='link__20221008__1348_summer_night_gattling_cannon_particles'></a>
 **Changes**
 
 - **FIX**: Fixes smoke effects with medium and fast firing badly damaged China Gattling Cannon on Summer Night maps.
@@ -1883,7 +1883,7 @@ Contains 136 entries with
 **Source:** 1348_summer_night_gattling_cannon_particles.yaml
 
 ---
-### 2022-10-08 - Fixes infinite Gattling barrel spin animation issues <a name='index__97__1349_gattling_spin_issues'></a>
+### 2022-10-08 - Fixes infinite Gattling barrel spin animation issues <a name='link__20221008__1349_gattling_spin_issues'></a>
 **Changes**
 
 - **FIX**: China Overlord Gattling no longer spins forever after firing once.
@@ -1901,7 +1901,7 @@ Contains 136 entries with
 **Source:** 1349_gattling_spin_issues.yaml
 
 ---
-### 2022-10-08 - Fixes China Helix model issues <a name='index__98__1351_helix_model'></a>
+### 2022-10-08 - Fixes China Helix model issues <a name='link__20221008__1351_helix_model'></a>
 **Changes**
 
 - **FIX**: Damaged China Helix now uses damaged texture instead of wreck texture.
@@ -1917,7 +1917,7 @@ Contains 136 entries with
 **Source:** 1351_helix_model.yaml
 
 ---
-### 2022-10-08 - Fixes Gattling barrel spin animation issues <a name='index__99__1359_gattlings_spin_animations'></a>
+### 2022-10-08 - Fixes Gattling barrel spin animation issues <a name='link__20221008__1359_gattlings_spin_animations'></a>
 **Changes**
 
 - **FIX**: Fixes incorrect barrel spin speeds of damaged China Gattling Cannon on Winter Day maps.
@@ -1940,7 +1940,7 @@ Contains 136 entries with
 **Source:** 1359_gattlings_spin_animations.yaml
 
 ---
-### 2022-10-10 - Fixes inconsistent particle effects on different damage states of China Power Plant <a name='index__100__1395_china_reactor_consistent_particles'></a>
+### 2022-10-10 - Fixes inconsistent particle effects on different damage states of China Power Plant <a name='link__20221010__1395_china_reactor_consistent_particles'></a>
 **Changes**
 
 - **FIX**: Removes overcharge spark particles of badly damaged China Power Plant on day maps.
@@ -1958,7 +1958,7 @@ Contains 136 entries with
 **Source:** 1395_china_reactor_consistent_particles.yaml
 
 ---
-### 2022-10-16 - Removes superfluous particle effects from China War Factory <a name='index__101__1379_china_factory_obsolete_particles'></a>
+### 2022-10-16 - Removes superfluous particle effects from China War Factory <a name='link__20221016__1379_china_factory_obsolete_particles'></a>
 **Changes**
 
 - **FIX**: Boneless fire and smoke effects are no longer emerging from the center of the damaged China War Factory. Originally these effects are covered by the mesh and therefore not visible anyway.
@@ -1974,7 +1974,7 @@ Contains 136 entries with
 **Source:** 1379_china_factory_obsolete_particles.yaml
 
 ---
-### 2022-10-16 - Removes floating basket from China War Factory <a name='index__102__1380_winter_night_china_factory_basket'></a>
+### 2022-10-16 - Removes floating basket from China War Factory <a name='link__20221016__1380_winter_night_china_factory_basket'></a>
 **Changes**
 
 - **FIX**: Removes the floating basket from the undamaged China War Factory on snow night maps.
@@ -1990,7 +1990,7 @@ Contains 136 entries with
 **Source:** 1380_winter_night_china_factory_basket.yaml
 
 ---
-### 2022-10-16 - Fixes animation issues on conveyor belt of China War Factory <a name='index__103__1381_china_factory_conveyor_belt'></a>
+### 2022-10-16 - Fixes animation issues on conveyor belt of China War Factory <a name='link__20221016__1381_china_factory_conveyor_belt'></a>
 **Changes**
 
 - **FIX**: Removes the China War Factory conveyor belt animation from badly damaged states on Winter and Night maps, which solves problems with floating baskets above the deformed pole and baskets colliding with a stuck basket inside the furnace.
@@ -2008,7 +2008,7 @@ Contains 136 entries with
 **Source:** 1381_china_factory_conveyor_belt.yaml
 
 ---
-### 2022-10-16 - Fixes War Factory door animations reset on damage state changes <a name='index__104__1382_door_animation_reset'></a>
+### 2022-10-16 - Fixes War Factory door animations reset on damage state changes <a name='link__20221016__1382_door_animation_reset'></a>
 **Changes**
 
 - **FIX**: Fixes door animations resetting when transitioning between damage states for the China, USA and GLA War Factories.
@@ -2024,7 +2024,7 @@ Contains 136 entries with
 **Source:** 1382_door_animation_reset.yaml
 
 ---
-### 2022-10-19 - Changes crane of China War Factory to animate on vehicle repair instead of vehicle construction <a name='index__105__1393_china_factory_crane'></a>
+### 2022-10-19 - Changes crane of China War Factory to animate on vehicle repair instead of vehicle construction <a name='link__20221019__1393_china_factory_crane'></a>
 **Changes**
 
 - **TWEAK**: The repair pad crane of the China War Factory no longer moves while constructing a unit. Instead it now moves while repairing a unit. It is still possible to tell if a unit is being built, because the factory produces smoke from the chimney during construction.
@@ -2040,7 +2040,7 @@ Contains 136 entries with
 **Source:** 1393_china_factory_crane.yaml
 
 ---
-### 2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings <a name='index__106__1386_buildings_explosion_effects'></a>
+### 2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings <a name='link__20221020__1386_buildings_explosion_effects'></a>
 **Changes**
 
 - **FIX**: Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings.
@@ -2073,7 +2073,7 @@ Contains 136 entries with
 **Source:** 1386_buildings_explosion_effects.yaml
 
 ---
-### 2022-10-20 - Removes superfluous particle effects from China Power Plant <a name='index__107__1395_china_reactor_obsolete_particles'></a>
+### 2022-10-20 - Removes superfluous particle effects from China Power Plant <a name='link__20221020__1395_china_reactor_obsolete_particles'></a>
 **Changes**
 
 - **FIX**: China Power Plant no longer emits superfluous particles from the center of the structure.
@@ -2089,7 +2089,7 @@ Contains 136 entries with
 **Source:** 1395_china_reactor_obsolete_particles.yaml
 
 ---
-### 2022-10-20 - Adds steam particles to all chimneys of China Nuke Power Plant <a name='index__108__1396_nuke_reactor_steam_particles'></a>
+### 2022-10-20 - Adds steam particles to all chimneys of China Nuke Power Plant <a name='link__20221020__1396_nuke_reactor_steam_particles'></a>
 **Changes**
 
 - **FIX**: China Nuke Power Plant now emits steam particles from all its chimneys. This is consistent with the portrait image.
@@ -2105,7 +2105,7 @@ Contains 136 entries with
 **Source:** 1396_nuke_reactor_steam_particles.yaml
 
 ---
-### 2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes <a name='index__109__1398_radar_animation_reset'></a>
+### 2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes <a name='link__20221020__1398_radar_animation_reset'></a>
 **Changes**
 
 - **FIX**: Fixes door and radar animations resetting when transitioning between damage states for the China and USA Command Centers.
@@ -2121,7 +2121,7 @@ Contains 136 entries with
 **Source:** 1398_radar_animation_reset.yaml
 
 ---
-### 2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade <a name='index__110__1588_dragon_min_attack_range'></a>
+### 2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade <a name='link__20221103__1588_dragon_min_attack_range'></a>
 **Changes**
 
 - **FIX**: Decreases the minimum attack range of China Dragon Tank with Napalm Upgrade from 10 to 0. This range matches the unupgraded Dragon Tank attack range.
@@ -2137,7 +2137,7 @@ Contains 136 entries with
 **Source:** 1588_dragon_min_attack_range.yaml
 
 ---
-### 2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20% <a name='index__111__1449_dragon_poison_armor'></a>
+### 2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20% <a name='link__20221106__1449_dragon_poison_armor'></a>
 **Changes**
 
 - **FIX**: Originally Dragon Tanks take 25% damage from POISON. Reducing this to 20% is a subtle and effective way to take some of the edge off of Toxin Tunnel Networks for all China factions.
@@ -2153,7 +2153,7 @@ Contains 136 entries with
 **Source:** 1449_dragon_poison_armor.yaml
 
 ---
-### 2022-11-06 - Fixes wrong exploded death animation of China Tank Hunter <a name='index__112__1452_tank_hunter_exploded_death_animation'></a>
+### 2022-11-06 - Fixes wrong exploded death animation of China Tank Hunter <a name='link__20221106__1452_tank_hunter_exploded_death_animation'></a>
 **Changes**
 
 - **FIX**: The China Tank Hunter no longer plays the normal death animation when killed by explosions. Instead it plays a blow up animation fitting for the exploded death. This is consistent with other infantry units.
@@ -2169,7 +2169,7 @@ Contains 136 entries with
 **Source:** 1452_tank_hunter_exploded_death_animation.yaml
 
 ---
-### 2022-11-07 - Fixes wrong death sounds of China Hacker <a name='index__113__1455_hacker_death_voice'></a>
+### 2022-11-07 - Fixes wrong death sounds of China Hacker <a name='link__20221107__1455_hacker_death_voice'></a>
 **Changes**
 
 - **FIX**: China Hacker no longer uses death sounds of Red Guard when killed.
@@ -2185,7 +2185,7 @@ Contains 136 entries with
 **Source:** 1455_hacker_death_voice.yaml
 
 ---
-### 2022-11-30 - Increases death explosion damage and radius of China Nuke Silo <a name='index__114__1490_nuke_silo_death_damage_radius'></a>
+### 2022-11-30 - Increases death explosion damage and radius of China Nuke Silo <a name='link__20221130__1490_nuke_silo_death_damage_radius'></a>
 **Changes**
 
 - **TWEAK**: Increases primary death explosion damage of China Nuke Silo from 400 to 600.
@@ -2204,7 +2204,7 @@ Contains 136 entries with
 **Source:** 1490_nuke_silo_death_damage_radius.yaml
 
 ---
-### 2023-01-07 - Decreases build cost of China Neutron Mines <a name='index__115__1523_china_mines_build_cost'></a>
+### 2023-01-07 - Decreases build cost of China Neutron Mines <a name='link__20230107__1523_china_mines_build_cost'></a>
 **Changes**
 
 - **FIX**: Decreases build cost of rarely used China Neutron Mines from 500 to 400. This cost reduction makes them a bit more attractive for occasional investment.
@@ -2220,7 +2220,7 @@ Contains 136 entries with
 **Source:** 1523_china_mines_build_cost.yaml
 
 ---
-### 2023-01-08 - Fixes jet engine sound of China Carpet Bomber <a name='index__116__1525_china_bomber_sound'></a>
+### 2023-01-08 - Fixes jet engine sound of China Carpet Bomber <a name='link__20230108__1525_china_bomber_sound'></a>
 **Changes**
 
 - **FIX**: Replaces propeller engine sound with jet engine sound for China Carpet Bomber.
@@ -2236,7 +2236,7 @@ Contains 136 entries with
 **Source:** 1525_china_bomber_sound.yaml
 
 ---
-### 2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched <a name='index__117__1532_helix_bomb_upgrade_button'></a>
+### 2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched <a name='link__20230108__1532_helix_bomb_upgrade_button'></a>
 **Changes**
 
 - **FIX**: The Helix Bomb Upgrade is now greyed out while another upgrade is in production.
@@ -2252,7 +2252,7 @@ Contains 136 entries with
 **Source:** 1532_helix_bomb_upgrade_button.yaml
 
 ---
-### 2023-01-08 - Decreases build time of China Mines <a name='index__118__1533_china_mines_build_time'></a>
+### 2023-01-08 - Decreases build time of China Mines <a name='link__20230108__1533_china_mines_build_time'></a>
 **Changes**
 
 - **FIX**: Decreases build time of regular China Mines from 20 to 18.
@@ -2269,7 +2269,7 @@ Contains 136 entries with
 **Source:** 1533_china_mines_build_time.yaml
 
 ---
-### 2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion <a name='index__119__1536_nuke_cannon_scorch'></a>
+### 2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion <a name='link__20230108__1536_nuke_cannon_scorch'></a>
 **Changes**
 
 - **FIX**: The China Nuke Cannon death scorch now spawns on the secondary big explosion instead of the first small one, like other China tanks.
@@ -2285,7 +2285,7 @@ Contains 136 entries with
 **Source:** 1536_nuke_cannon_scorch.yaml
 
 ---
-### 2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33% <a name='index__120__1540_helix_nuke_bomb_damage'></a>
+### 2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
 **Changes**
 
 - **TWEAK**: Increased primary damage of China Helix Nuke Bomb from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as Nuke Cannon does, the damages are easier to anticipate.
@@ -2302,7 +2302,7 @@ Contains 136 entries with
 **Source:** 1540_helix_nuke_bomb_damage.yaml
 
 ---
-### 2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research <a name='index__121__1542_helix_attachment_upgrade_buttons'></a>
+### 2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research <a name='link__20230111__1542_helix_attachment_upgrade_buttons'></a>
 **Changes**
 
 - **FIX**: China Helix upgrade buttons will no longer disappear after research. This means the shortcut key can be used on multi Helix selections to build an upgrade at any time. This behavior is consistent with USA vehicle drone upgrade buttons.
@@ -2318,7 +2318,7 @@ Contains 136 entries with
 **Source:** 1542_helix_attachment_upgrade_buttons.yaml
 
 ---
-### 2023-01-13 - Fixes the evacuation command button art of various vehicles <a name='index__122__1545_vehicle_evacuation_button_image'></a>
+### 2023-01-13 - Fixes the evacuation command button art of various vehicles <a name='link__20230113__1545_vehicle_evacuation_button_image'></a>
 **Changes**
 
 - **FIX**: Most vehicles now use the Evacuate button art for vehicles. Buildings use the Evacuate button art for structures as usual.
@@ -2344,7 +2344,7 @@ Contains 136 entries with
 **Source:** 1545_vehicle_evacuation_button_image.yaml
 
 ---
-### 2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds <a name='index__123__1564_inferno_cannon_fire_storm'></a>
+### 2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds <a name='link__20230118__1564_inferno_cannon_fire_storm'></a>
 **Changes**
 
 - **FIX**: Inferno Cannon shell hits now trigger sounds and fire storms reliably.
@@ -2360,7 +2360,7 @@ Contains 136 entries with
 **Source:** 1564_inferno_cannon_fire_storm.yaml
 
 ---
-### 2023-01-29 - Removes random sink delays from all vehicle wrecks <a name='index__124__1660_random_wreck_sink_delays'></a>
+### 2023-01-29 - Removes random sink delays from all vehicle wrecks <a name='link__20230129__1660_random_wreck_sink_delays'></a>
 **Changes**
 
 - **TWEAK**: Removes random sink delays from wrecks of USA Ambulance, China Gattling, ECM.
@@ -2376,7 +2376,7 @@ Contains 136 entries with
 **Source:** 1660_random_wreck_sink_delays.yaml
 
 ---
-### 2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain <a name='index__125__1711_increase_wreck_destruction_delay'></a>
+### 2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain <a name='link__20230129__1711_increase_wreck_destruction_delay'></a>
 **Changes**
 
 - **FIX**: Increases destruction delays of various wrecks to avoid deletion before object is sunk into terrain.
@@ -2406,7 +2406,7 @@ Contains 136 entries with
 **Source:** 1711_increase_wreck_destruction_delay.yaml
 
 ---
-### 2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain <a name='index__126__1712_decrease_wreck_destruction_delay'></a>
+### 2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain <a name='link__20230129__1712_decrease_wreck_destruction_delay'></a>
 **Changes**
 
 - **TWEAK**: Decreases destruction delays of several hulks to delete them earlier. By the time of deletion they are already sunk into terrain.
@@ -2437,7 +2437,7 @@ Contains 136 entries with
 **Source:** 1712_decrease_wreck_destruction_delay.yaml
 
 ---
-### 2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death <a name='index__127__1618_nuke_cannon_death_models'></a>
+### 2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death <a name='link__20230204__1618_nuke_cannon_death_models'></a>
 **Changes**
 
 - **FIX**: Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death.
@@ -2453,7 +2453,7 @@ Contains 136 entries with
 **Source:** 1618_nuke_cannon_death_models.yaml
 
 ---
-### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='index__128__1618_wreck_spawn_before_death'></a>
+### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='link__20230204__1618_wreck_spawn_before_death'></a>
 **Changes**
 
 - **FIX**: Wreck and debris of vehicles no longer spawn before damaged vehicle model despawns.
@@ -2481,7 +2481,7 @@ Contains 136 entries with
 **Source:** 1618_wreck_spawn_before_death.yaml
 
 ---
-### 2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades <a name='index__129__1624_nationalism_fanatism_tooltip_text'></a>
+### 2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades <a name='link__20230204__1624_nationalism_fanatism_tooltip_text'></a>
 **Changes**
 
 - **FIX**: Improves tool tip text of China Nationalism and Fanatism upgrades for all latin languages
@@ -2497,7 +2497,7 @@ Contains 136 entries with
 **Source:** 1624_nationalism_fanatism_tooltip_text.yaml
 
 ---
-### 2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack <a name='index__130__1653_nuke_cannon_animation_jump'></a>
+### 2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack <a name='link__20230209__1653_nuke_cannon_animation_jump'></a>
 **Changes**
 
 - **FIX**: Fixes China Nuke Cannon animation glitch while vehicle creeps forward after firing.
@@ -2513,7 +2513,7 @@ Contains 136 entries with
 **Source:** 1653_nuke_cannon_animation_jump.yaml
 
 ---
-### 2023-02-09 - Fixes turret animation and effect issues on death of tanks <a name='index__131__1657_tank_turret_deatheffects'></a>
+### 2023-02-09 - Fixes turret animation and effect issues on death of tanks <a name='link__20230209__1657_tank_turret_deatheffects'></a>
 **Changes**
 
 - **FIX**: Fixes turret glitches on death of several tanks. Muzzle flashes no longer show on death. And turret barrel no longer recoils on death.
@@ -2539,7 +2539,7 @@ Contains 136 entries with
 **Source:** 1657_tank_turret_death effects.yaml
 
 ---
-### 2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death <a name='index__132__1619_nuke_cannon_duplicate_radiation'></a>
+### 2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death <a name='link__20230211__1619_nuke_cannon_duplicate_radiation'></a>
 **Changes**
 
 - **FIX**: Removes the duplicate RadiationFieldSmall before the Nuke Cannon explodes. This means the small radiation field no longer spawns before the Nuclear Explosion.
@@ -2555,7 +2555,7 @@ Contains 136 entries with
 **Source:** 1619_nuke_cannon_duplicate_radiation.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor <a name='index__133__1670_overlord_emperor_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
 **Changes**
 
 - **FIX**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
@@ -2571,7 +2571,7 @@ Contains 136 entries with
 **Source:** 1670_overlord_emperor_idle_reload.yaml
 
 ---
-### 2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost <a name='index__134__1707_outpost_crush_death'></a>
+### 2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost <a name='link__20230214__1707_outpost_crush_death'></a>
 **Changes**
 
 - **FIX**: Removes duplicate crush effects from all variants of the Listening Outpost.
@@ -2587,7 +2587,7 @@ Contains 136 entries with
 **Source:** 1707_outpost_crush_death.yaml
 
 ---
-### 2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes <a name='index__135__1718_cargo_plane_hit_effects'></a>
+### 2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes <a name='link__20230215__1718_cargo_plane_hit_effects'></a>
 **Changes**
 
 - **FIX**: Adds damage effects to the China and GLA cargo planes. This effect already exists for the USA cargo planes.

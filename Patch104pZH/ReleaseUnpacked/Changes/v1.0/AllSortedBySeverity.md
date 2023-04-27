@@ -45,548 +45,548 @@ Contains 537 entries with
   - FEATURE (28)
 
 ## Index
-1. [2021-09-07 - Fixes China Nuke Missile exploit](#index__0__209_nuke_missile_exploit)
-2. [2021-08-27 - Fixes GLA Scud Storm exploit](#index__1__72_scud_bug)
-3. [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist](#index__2__764_terrorist_crash)
-4. [2021-08-22 - Fixes critical issue that crashes all clients in a match](#index__3__0_crash_bug)
-5. [2022-08-05 - Fixes potential unresponsive Control Bar buttons](#index__4__824_promotion_buttons)
-6. [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#index__5__412_tanks_xp_reward)
-7. [2021-08-22 - Fixes lags caused by the USA Patriot assist beam](#index__6__0_patriot_beam_lag)
-8. [2021-08-22 - Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone](#index__7__3_supply_drop_zone_bug)
-9. [2021-08-23 - Fixes issue that permanently reduces the power level of a player](#index__8__7_negative_power_bug)
-10. [2021-09-10 - Fixes USA Humvee without TOW missile stopping moving after targeting air unit](#index__9__270_humvee_air_target)
-11. [2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers](#index__10__407_avenger_composite_armor)
-12. [2022-08-06 - Makes USA Supply Drop Zone Cargo Planes unattackable](#index__11__836_unattackable_drop_zone_cargo_planes)
-13. [2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee](#index__12__1162_sentry_drone_build_cost)
-14. [2022-09-08 - Increases USA Sentry Drone gun damage by 20%](#index__13__1162_sentry_drone_damage)
-15. [2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone](#index__14__1162_sentry_drone_deployment)
-16. [2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70%](#index__15__1162_sentry_drone_movement)
-17. [2022-09-08 - Increases sight range of USA Sentry Drone by 30%](#index__16__1162_sentry_drone_sight_range)
-18. [2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones](#index__17__1162_sentry_drone_tracks)
-19. [2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20%](#index__18__1162_sentry_drone_upgrade)
-20. [2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead](#index__19__1220_pilot_humvee_passenger)
-21. [2023-01-07 - Fixes USA Strategy Center Gun attack issues](#index__20__1524_strategy_center_gun_attack)
-22. [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#index__21__1554_hold_line_plan_armor_bonus)
-23. [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#index__22__1705_comanche_idle_reload)
-24. [2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings](#index__23__4_listening_outpost_attack_bug)
-25. [2021-08-22 - Improves mobility of China Dozer](#index__24__6_china_dozer_locomotor)
-26. [2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely](#index__25__410_nuke_missile_blasts)
-27. [2021-09-07 - Adds missing Subliminal Messaging bonus to China Emperor](#index__26__236_emperor_subliminal)
-28. [2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit](#index__27__262_neutron_shell_exploit)
-29. [2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment](#index__28__269_nuke_cannon_attack_target)
-30. [2021-09-25 - Decreases required level up experience of China Black Lotus by 82%](#index__29__413_lotus_required_xp)
-31. [2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62%](#index__30__413_lotus_xp_reward)
-32. [2021-12-24 - Removes auto engage behaviour from China ECM Tank](#index__31__631_ecm_auto_attack)
-33. [2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms](#index__32__785_china_cc_door_times)
-34. [2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms](#index__33__786_china_factory_door_times)
-35. [2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability](#index__34__837_satellite_hack_ii_ability)
-36. [2022-08-06 - Adds functional Speaker Tower to China Propaganda Center](#index__35__839_propaganda_center_speaker_tower)
-37. [2022-08-14 - Increases damage and radius of China Nuke Missile](#index__36__871_nuke_missile_damage_and_radius)
-38. [2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms](#index__37__1199_gattling_spin_timeout)
-39. [2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds](#index__38__1564_inferno_cannon_fire_storm)
-40. [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#index__39__1670_overlord_emperor_idle_reload)
-41. [2021-08-22 - Fixes GLA Stealth Palace remaining stealhed while its passengers shoot](#index__40__75_stealthed_palace_bug)
-42. [2021-08-28 - Fixes GLA Demo Trap getting triggered by nearby enemy scaffold](#index__41__94_demotrap_scaffold_trigger)
-43. [2021-09-11 - Fixes GLA Car Bomb unable to attack target](#index__42__307_car_bomb_attack_bug)
-44. [2021-09-12 - Fixes issue where GLA Demo Terrorist can be crushed without applying any damage](#index__43__316_demo_terrorist_damage)
-45. [2021-09-12 - Fixes issue where Demo GLA Terrorist can die on China Mines without applying any damage](#index__44__316_demo_terrorist_mines_damage)
-46. [2021-10-10 - Fixes mismatching particle effects of GLA Black Market and Fake Market](#index__45__542_fake_market_particles)
-47. [2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold](#index__46__595_cash_bounty_activation)
-48. [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#index__47__695_toxin_terrorist_death)
-49. [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#index__48__697_all_terrorist_crush_damage)
-50. [2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade](#index__49__699_toxin_terrorist_damage)
-51. [2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max](#index__50__882_stinger_anthrax_gamma_damage)
-52. [2022-08-15 - Fixes Demo General infantry units getting stuck near structures when ordered to suicide](#index__51__914_demo_infantry_suicide_stuck)
-53. [2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade](#index__52__1076_demo_units_death_particles)
-54. [2022-09-04 - Fixed misplaced fire ports on GLA Palace](#index__53__1097_palace_fire_ports)
-55. [2022-10-05 - Fixes Toxin GLA Tunnel Defender double firing against ground and air targets](#index__54__1334_tunnel_defender_shoots_twice)
-56. [2021-10-13 - Fixes invisible Civilian buildings on Winter maps](#index__55__559_invisible_snow_buildings)
-57. [2021-09-02 - Expands menu map selection lists to 1200 entries](#index__56__144_ui_map_list_size)
-58. [2021-09-03 - Fixes issue that prevents suiciding different GLA Demo units in a group selection](#index__57__163_demo_suicide_button_placement)
-59. [2021-09-11 - Fixes exploit that allows to shoot on ground units from very far away](#index__58__285_range_exploit)
-60. [2022-08-02 - Fixes 13 broken particle effects](#index__59__809_pillar_explosion_effects)
-61. [2022-10-16 - Increases Player Beacon limit from 3 to 5](#index__60__1377_beacon_limit)
-62. [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#index__61__1618_wreck_spawn_before_death)
-63. [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#index__62__938_infantry_muzzle_flash)
-64. [2022-09-07 - Fixes muzzle particle effects of tanks](#index__63__1149_tank_muzzle_particles)
-65. [2022-10-16 - Fixes War Factory door animations reset on damage state changes](#index__64__1382_door_animation_reset)
-66. [2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings](#index__65__1386_buildings_explosion_effects)
-67. [2023-01-13 - Fixes the evacuation command button art of various vehicles](#index__66__1545_vehicle_evacuation_button_image)
-68. [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#index__67__1711_increase_wreck_destruction_delay)
-69. [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#index__68__1712_decrease_wreck_destruction_delay)
-70. [2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units](#index__69__92_infantry_poison_death_voice)
-71. [2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings](#index__70__276_gps_scrambled_infantry_attacking)
-72. [2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings](#index__71__276_gps_scrambled_infantry_capturing)
-73. [2021-12-24 - Fixes units with attachments blocking scaffold placements](#index__72__630_vehicle_attachment_blocking_build)
-74. [2022-09-24 - Adds missing audio limits to air unit voices](#index__73__1274_air_unit_death_voice_limit)
-75. [2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes](#index__74__1398_radar_animation_reset)
-76. [2023-01-29 - Removes random sink delays from all vehicle wrecks](#index__75__1660_random_wreck_sink_delays)
-77. [2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton](#index__76__277_demo_charge_button_placement)
-78. [2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang](#index__77__636_stinger_flashbang_damage)
-79. [2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon](#index__78__75_particlecannon_rangers)
-80. [2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora](#index__79__145_alpha_aurora_cameo)
-81. [2021-09-03 - Removes retaliation from non-vUSA Avengers](#index__80__157_usa_avenger_retaliation)
-82. [2021-09-03 - Fixes USA Avenger model](#index__81__158_avenger_model)
-83. [2021-09-03 - Removes obsolete Advanced Training icon from USA Pilots](#index__82__160_pilot_advanced_training)
-84. [2021-09-03 - Removes obsolete Chemical Suits icon from USA Pilots](#index__83__160_pilot_chemical_suit)
-85. [2021-09-03 - Fixes slow movement speed of Vet 3 USA Pilot](#index__84__160_pilot_speed)
-86. [2021-09-03 - Fixes issue that prevents to build Drones for different USA vehicles in a group selection](#index__85__166_humvee_drones_build)
-87. [2021-09-03 - Fixes duplicate embark sounds of USA Laser Humvee](#index__86__172_humvee_enter_sounds)
-88. [2021-09-03 - Removes Select All key bindings from USA Spy Drone](#index__87__173_spydrone_select_all_key)
-89. [2021-09-04 - Removes Select All key bindings from USA Spectre Gunship](#index__88__181_spectre_select_all_keys)
-90. [2021-09-04 - Adds missing movement command sounds to USA Sentry Drone](#index__89__188_sentry_drone_move_sound)
-91. [2021-09-04 - Fixes wrong movement sounds of USA Microwave Tank](#index__90__189_microwave_move_sound)
-92. [2021-09-04 - Fixes wrong selection sounds of USA Firebase](#index__91__190_firebase_select_sound)
-93. [2021-09-04 - Adds missing sound to USA Pilot](#index__92__191_pilot_enter_sound)
-94. [2021-09-04 - Fixes some USA Chinooks collecting 100 ms slower than others](#index__93__193_chinook_collection_timing)
-95. [2021-09-04 - Fixes tooltip text of USA Laser Aurora](#index__94__194_laser_aurora_tooltip)
-96. [2021-09-04 - Fixes wrong upgrade icon placements on USA Tomahawk](#index__95__205_tomahawk_cameo)
-97. [2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down](#index__96__254_spectre_housecolor)
-98. [2021-09-09 - Adds missing construction sound effect for USA Sentry Drone](#index__97__256_sentry_drone_construction_sound)
-99. [2021-09-10 - Fixes USA Avenger turning its chassis when aiming at air units](#index__98__314_avenger_chassis_turn)
-100. [2021-09-11 - Fixes wrong USA Ranger spawn type of Paradrop ability](#index__99__286_paradrop_ranger_type)
-101. [2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon](#index__100__288_swg_particle_cannon_effect_color)
-102. [2021-09-11 - Fixes Fuel Bomb of USA Alpha Aurora detonating before hitting the ground](#index__101__292_alpha_aurora_premature_explosion)
-103. [2021-09-12 - Adds missing hit effects to USA Rangers after Chemical Suits upgrade](#index__102__325_ranger_hit_effects)
-104. [2021-09-12 - Adds missing hit effects to USA Cargo Planes with Countermeasures upgrade](#index__103__326_usa_cargo_plane_hit_effects)
-105. [2021-09-12 - Fixes Airforce General unable to build Stealth Fighters from non-AFG Airfields](#index__104__331_air_general_build_bug)
-106. [2021-09-13 - Moves Supply Lines upgrade icon from USA Supply Center to USA Chinook](#index__105__352_usa_supply_cameo)
-107. [2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret](#index__106__373_laser_turret_clip_size)
-108. [2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets](#index__107__374_laser_turret_air_model_sound)
-109. [2021-09-20 - Fixes wrong button placements of USA Firebase](#index__108__387_firebase_buttons)
-110. [2021-09-22 - Fixes inconsistent Air Guard button placement on USA Raptor](#index__109__402_raptor_guard_button_position)
-111. [2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles](#index__110__403_afg_avenger_armor)
-112. [2021-09-25 - Adds kill experience reward to USA Hellfire Drone](#index__111__414_hellfire_drone_xp_reward)
-113. [2021-10-01 - Fixes attackable Fuel Air Bomb](#index__112__441_attackable_fuel_bomb)
-114. [2022-07-28 - Increases USA Paladin Composite Armor bonus by 100%](#index__113__777_paladin_composite_armor_bonus)
-115. [2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms](#index__114__787_usa_factory_door_times)
-116. [2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber](#index__115__841_afg_carpet_tooltip_text)
-117. [2022-08-06 - Fixes wrong countdown value in tooltip texts of USA Spectre Gunship](#index__116__842_afg_spectre_tooltip_text)
-118. [2022-08-06 - Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade](#index__117__843_countermeasures_tooltip_text)
-119. [2022-08-06 - Fixes misspelled Airforce General name in texts](#index__118__848_misspelled_granger_text)
-120. [2022-08-13 - Fixes missing Carpet Bomber in Grangers Generals Challenge](#index__119__1085_granger_challenge_carpet)
-121. [2022-08-20 - Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image](#index__120__1020_swg_particle_cannon_portrait_image)
-122. [2022-08-20 - Replaces Generic Tank with Crusader Tank on USA War Factory button image](#index__121__1022_usa_factory_button_image)
-123. [2022-08-20 - Adds upgrade voice for USA MOAB](#index__122__1026_moab_upgrade_voice)
-124. [2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages](#index__123__1026_sentry_gun_upgrade_voice)
-125. [2022-08-27 - Fixes immortal presence of circling USA Aurora wreck](#index__124__1018_dead_aurora_bug)
-126. [2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber](#index__125__953_afg_carpet_pdl)
-127. [2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes](#index__126__1031_usa_ai_powers_planes)
-128. [2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base](#index__127__1078_firebase_ghost_muzzle_flash)
-129. [2022-09-03 - Fixes sharp turn movements of USA B2 Bomber](#index__128__1084_carpet_bomber_turn_rate)
-130. [2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300](#index__129__1141_battle_drone_shroud_range)
-131. [2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400](#index__130__1141_hellfire_drone_shroud_range)
-132. [2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400](#index__131__1155_burton_sight_range)
-133. [2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet](#index__132__1165_nighthawk_low_fuel_voice)
-134. [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#index__133__1171_particle_cannon_animation_loop)
-135. [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#index__134__1177_afg_firebase_snow_damaged)
-136. [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery.](#index__135__1178_patriot_battery_auto_reload)
-137. [2022-09-10 - Adds blue texture variants for USA Infantry units](#index__136__1179_usa_infantry_textures)
-138. [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#index__137__1189_burton_texture_errors)
-139. [2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon](#index__138__1245_atsdislab_snow_textures)
-140. [2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center](#index__139__1246_atstratslab_snow_textures)
-141. [2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield](#index__140__1247_attarmack_attarmack02_snow_textures)
-142. [2022-09-21 - Fixes avambulance textures for USA Ambulance](#index__141__1248_avambulance_textures)
-143. [2022-09-22 - Fixes and improves avavnger textures for USA Avenger](#index__142__1251_avavnger_textures)
-144. [2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory](#index__143__1252_atdiaplate_textures)
-145. [2022-09-22 - Fixes atconvey01 snow textures for USA War Factory](#index__144__1253_atconvey01_snow_textures)
-146. [2022-09-22 - Fixes and improves avcomanche textures for USA Comanche](#index__145__1256_avcomanche_textures)
-147. [2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank](#index__146__1258_avthunderbolt_textures)
-148. [2022-09-23 - Fixes athqslab textures for USA Command Center](#index__147__1263_athqslab_textures)
-149. [2022-09-23 - Fixes atmetal03 snow textures for USA structures](#index__148__1264_atmetal03_snow_textures)
-150. [2022-09-23 - Fixes atpanelroof snow textures for USA structures](#index__149__1266_atpanelroof_textures)
-151. [2022-09-23 - Fixes atpanelroof03 snow textures for USA structures](#index__150__1267_atpanelroof03_snow_textures)
-152. [2022-09-23 - Fixes atprisslab snow textures for USA Prison](#index__151__1268_atprisslab_snow_textures)
-153. [2022-09-23 - Fixes avpaladin textures for USA Paladin Tank](#index__152__1270_avpaladin_textures)
-154. [2022-09-24 - Fixes and improves avraptor textures for USA Raptor](#index__153__1271_avraptor_textures)
-155. [2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora](#index__154__1274_raptor_aurora_death_voice)
-156. [2022-09-24 - Fixes atwarfactslab textures for USA War Factory](#index__155__1275_atwarfactslab_textures)
-157. [2022-09-24 - Fixes and improves atventwall01 textures for USA structures](#index__156__1277_atventwall01_textures)
-158. [2022-09-24 - Fixed avpowtruck textures for USA POW Truck](#index__157__1279_avpowtruck_textures)
-159. [2022-09-24 - Fixes atroofparts01 textures for USA structures](#index__158__1280_atroofparts01_textures)
-160. [2022-09-25 - Fixes USA Spectre Gunship audio issues](#index__159__1288_spectre_sound)
-161. [2022-09-25 - Fixes animation issues on damaged USA Spectre Gunship](#index__160__1289_spectre_animation)
-162. [2022-10-15 - Removes superfluous particle effects from USA Supply Center](#index__161__1366_usa_supply_obsolete_particles)
-163. [2022-10-15 - Fixes broken fan animation of USA Strategy Center](#index__162__1367_summer_night_strategy_center_fan_animation)
-164. [2022-10-15 - Removes superfluous particle effects from USA Airfield](#index__163__1369_usa_airfield_obsolete_particles)
-165. [2022-10-15 - Fixes particle effects of USA Power Plant](#index__164__1371_usa_reactor_particles)
-166. [2022-10-15 - Fixes construction fence texture of USA Power Plant](#index__165__1375_snow_night_usa_reactor_fence)
-167. [2022-10-15 - Fixes broken reactor core spin animation of USA Power Plant](#index__166__1376_usa_reactor_core_spin_animation)
-168. [2022-10-16 - Fixes wrong helipad texture of USA Airfield](#index__167__1370_summer_day_damaged_usa_airfield_texture)
-169. [2022-10-16 - Fixes smoke effect issues on USA War Factory](#index__168__1387_china_factory_smoke_particles)
-170. [2022-10-18 - Decreases USA Supply Drop Zone crate count from 6 to 3](#index__169__1390_drop_zone_crate_count)
-171. [2022-10-19 - Changes crane of USA War Factory to animate on vehicle repair instead of vehicle construction](#index__170__1394_usa_factory_crane)
-172. [2022-10-23 - Fixes abbarracks models for USA Barracks](#index__171__1405_abbarracks_models)
-173. [2022-10-23 - Fixes atbarrslab textures for USA Barracks](#index__172__1406_atbarrslab_textures)
-174. [2022-10-23 - Fixes and improves atdoor textures](#index__173__1407_atdoor_textures)
-175. [2022-11-05 - Fixes and improves atdriveway textures for USA War Factory](#index__174__1427_atdriveway_textures)
-176. [2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory](#index__175__1427_atrepairbay_textures)
-177. [2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory](#index__176__1427_atwarfactslab_textures)
-178. [2022-11-05 - Fixes atventwall02 textures for USA structures](#index__177__1445_atventwall02_textures)
-179. [2022-11-05 - Fixes atventwall03 textures for USA structures](#index__178__1445_atventwall03_textures)
-180. [2022-11-05 - Fixes atventwall04 textures for USA structures](#index__179__1445_atventwall04_textures)
-181. [2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks](#index__180__1413_battle_drone_repair_sound)
-182. [2022-11-06 - Fixes and improves atcemblock02 textures for USA structures](#index__181__1450_atcemblock02_textures)
-183. [2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300](#index__182__1457_strategy_center_detection_range)
-184. [2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600](#index__183__1457_strategy_center_snd_vision_range)
-185. [2022-11-08 - Fixes and improves atcemwall01 textures for USA structures](#index__184__1458_atcemwall01_textures)
-186. [2022-11-08 - Fixes and improves atcemwall02 textures for USA structures](#index__185__1458_atcemwall02_textures)
-187. [2022-11-08 - Fixes and improves atcemwall03 textures for USA structures](#index__186__1458_atcemwall03_textures)
-188. [2022-11-08 - Fixes and improves atcemwall04 textures for USA structures](#index__187__1458_atcemwall04_textures)
-189. [2022-11-08 - Fixes and improves atcemwall05 textures for USA structures](#index__188__1458_atcemwall05_textures)
-190. [2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon](#index__189__1459_atmetal02_textures)
-191. [2022-11-10 - Fixes silver roof textures for USA structures](#index__190__1461_atsilverroof02_textures)
-192. [2022-11-10 - Fixes silver roof textures for USA structures](#index__191__1461_atsilverroof_textures)
-193. [2022-11-16 - Adds small idle movement sway to USA Chinook and Comanche](#index__192__1467_helicopter_idle_sway)
-194. [2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25%](#index__193__1469_battle_drone_upgrade_armor_bonus)
-195. [2022-11-19 - Fixes conveyor belt textures of USA War Factory](#index__194__1474_atconvey02_textures)
-196. [2022-11-25 - Removes final death explosion delay of USA Comanche](#index__195__1481_comanche_final_death_delay)
-197. [2022-11-27 - Adds damage state transition effect to USA A10](#index__196__1487_a10_damage_transition_effect)
-198. [2022-11-30 - Fixes USA Supply Center model issues](#index__197__1491_usa_supply_model)
-199. [2023-01-09 - Optimizes USA vehicle drone spawn positions](#index__198__1539_vehicle_drone_spawn_position)
-200. [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#index__199__1556_firebase_toxin_armor)
-201. [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#index__200__1559_strategy_center_plan_tooltip_text)
-202. [2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit](#index__201__1581_tomahawk_missile_angle_jump)
-203. [2023-01-28 - Removes bouncing from wreck of USA Comanche](#index__202__1658_comanche_wreck_bouncing)
-204. [2023-01-29 - Decreases fast sink rate of helicopter wrecks](#index__203__1659_chinook_helix_wreck_sink_rate)
-205. [2023-01-29 - Increases slow sink rate of helicopter wrecks](#index__204__1659_comanche_wreck_sink_rate)
-206. [2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction](#index__205__1713_swg_cc_construction_model)
-207. [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#index__206__1657_tank_turret_deatheffects)
-208. [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#index__207__1718_cargo_plane_hit_effects)
-209. [2021-08-28 - Fixes miniscule mass of China Supply Truck](#index__208__96_supply_truck_mass)
-210. [2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles](#index__209__97_minigunner_crush)
-211. [2021-09-01 - Fixes China unit attachments not showing the red tint from the Frenzy Power](#index__210__132_frenzy_coloring_on_attachments)
-212. [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#index__211__133_speaker_tower_models)
-213. [2021-09-01 - Fixes missing radar dots for China Bunkers and Propaganda Center](#index__212__134_structures_missing_on_minimap)
-214. [2021-09-05 - Adds missing Patriotism upgrade icon to China Infantry Tank Hunter](#index__213__224_tank_hunter_cameo)
-215. [2021-09-06 - Fixes misaligned propaganda effect on China Vehicles](#index__214__231_misaligned_propaganda_effect)
-216. [2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus](#index__215__255_battlemaster_horde_bonus)
-217. [2021-09-09 - Fixes attackable wrecks and debris](#index__216__257_attackable_wreck)
-218. [2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair](#index__217__261_outpost_smoke_effect)
-219. [2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units](#index__218__313_overlord_chassis_turn)
-220. [2021-09-11 - Fixes China Helix with Gattling Cannon being able to unreliably attack air units](#index__219__284_helix_gattling_gun_air_attack)
-221. [2021-09-11 - Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction](#index__220__299_china_cc_carpet_bomber)
-222. [2021-09-11 - Fixes Generals Powers disappearing from Command Centers after Mines upgrade](#index__221__301_china_cc_powers_commandset)
-223. [2021-09-11 - Fixes wrong muzzle flash location of China Minigunner](#index__222__312_minigunner_muzzle_flash)
-224. [2021-09-11 - Fixes broken recoil animation of China Minigunner](#index__223__312_minigunner_recoil_animation)
-225. [2021-09-11 - Adds missing Mines upgrade to China Speaker Tower](#index__224__317_speaker_tower_mines)
-226. [2021-09-12 - Fixes Nuke General unable to build Nuke Cannons from regular China and Infantry General War Factories](#index__225__331_nuke_general_build_bug)
-227. [2021-09-13 - Fixes inconsistent geometry sizes of China Outpost models](#index__226__347_outpost_geometry_size)
-228. [2021-09-13 - Adds missing stealth detection effects and sounds to China Outposts](#index__227__349_outpost_stealth_effects)
-229. [2021-09-13 - Adds missing stealth detection effects to China Troop Crawler](#index__228__350_troopcrawler_stealth_effects)
-230. [2021-09-13 - Fixes missing Radar icon on China Command Center](#index__229__351_china_cc_cameo)
-231. [2021-09-17 - Fixes China Nuke Mig upgrade not being buildable when on low power](#index__230__376_nuke_mig_upgrade_button)
-232. [2021-09-19 - Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix](#index__231__391_helix_napalm_bomb_cameo)
-233. [2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus](#index__232__437_lotus_vehicle_hack_xp_reward)
-234. [2021-10-17 - Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps)](#index__233__575_tank_nuke_cannon)
-235. [2021-10-23 - Removes ability to reveal shroud with China Frenzy power](#index__234__593_frenzy_scan)
-236. [2022-07-24 - Decreases reload time of China Mig before Upgrade by 50%](#index__235__751_mig_reload_time)
-237. [2022-07-27 - Decreases audible distance of China Helix helicopter by 30%](#index__236__765_helix_sound_range)
-238. [2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler](#index__237__778_outpost_troopcrawler_xp_reward)
-239. [2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625](#index__238__768_hacker_build_cost)
-240. [2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds](#index__239__769_hacker_build_time)
-241. [2022-07-30 - Decreases kill experience reward of China Hackers](#index__240__770_hacker_xp_reward)
-242. [2022-07-30 - Decreases the required level up experience of China Hackers](#index__241__771_hacker_xp_requirement)
-243. [2022-07-30 - Increases movement speed of China Hackers by 25%](#index__242__773_hacker_movement_speed)
-244. [2022-07-30 - Decreases cash hack audio limit of China Hackers](#index__243__774_hacker_hack_audio_limit)
-245. [2022-07-30 - Decreases pack and unpack times of China Hackers](#index__244__774_hacker_pack_unpack_times)
-246. [2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers](#index__245__791_satellite_hack_issue)
-247. [2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center](#index__246__833_internet_center_prerequisites)
-248. [2022-08-06 - Fixes description error in tooltip text of China Nuke Mig](#index__247__840_nuke_mig_tooltip_text)
-249. [2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower](#index__248__834_speaker_tower_prerequisites)
-250. [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#index__249__1023_nuke_helix_model)
-251. [2022-08-14 - Decreases China Nuke Missile blast delays](#index__250__880_nuke_missile_blast_delays)
-252. [2022-08-20 - Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image](#index__251__1021_nuke_battlemaster_portrait_image)
-253. [2022-08-20 - Adds upgrade voice for China Neutron shells](#index__252__1026_neutron_shells_upgrade_voice)
-254. [2022-08-20 - Adds new recoil animation to China Minigunner to match its fire rate increase over time](#index__253__939_minigunner_recoil_animation)
-255. [2022-08-26 - Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler](#index__254__974_troopcrawler_guard_mode_buttons)
-256. [2022-08-26 - Decreases large Guard Mode range of China Listening Outpost](#index__255__975_outpost_guard_mode_range)
-257. [2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content)](#index__256__1060_empty_troopcrawler)
-258. [2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost](#index__257__1080_outpost_radar_dish_physics)
-259. [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#index__258__1090_china_cc_night_model)
-260. [2022-09-04 - Fixes mispositioned explosion effects](#index__259__1122_detonation_effect_position_offset)
-261. [2022-09-06 - Increases General Promotion reward from China Black Lotus by 100%](#index__260__1134_lotus_promotion_reward)
-262. [2022-09-10 - Enables low fuel voices for China Mig Jet](#index__261__1180_mig_low_fuel_voice)
-263. [2022-09-11 - Adds missing radio sounds to Helix voices](#index__262__1181_helix_radio_sounds)
-264. [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#index__263__1226_overlord_textures)
-265. [2022-09-21 - Adds missing China Propaganda Tower damage texture](#index__264__1239_propaganda_tower_textures)
-266. [2022-09-23 - Fixes wrong select audio of China Internet Centers](#index__265__1260_internet_center_select_sound)
-267. [2022-09-25 - Fixes nvinferno textures for China Inferno Cannon](#index__266__1285_nvinferno_textures)
-268. [2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank](#index__267__1290_nvgatttank_textures)
-269. [2022-09-26 - Fixes ntcement textures for China structures](#index__268__1298_ntcement_textures)
-270. [2022-09-26 - Fixes ntdrive02 textures for China Supply Center](#index__269__1300_ntdrive02_textures)
-271. [2022-09-26 - Fixes ntentry snow textures for China structures](#index__270__1301_ntentry_snow_textures)
-272. [2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant](#index__271__1302_ntpwrplantslab_textures)
-273. [2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center](#index__272__1304_ntsuppbase_snow_textures)
-274. [2022-09-26 - Fixes ntwalls01 snow textures for China structures](#index__273__1305_ntwalls01_snow_textures)
-275. [2022-09-26 - Fixes ntwalls04 snow textures for China structures](#index__274__1305_ntwalls04_snow_textures)
-276. [2022-10-08 - Fixes missing muzzle flash on Gattling weapons](#index__275__1341_gattling_muzzle_flash)
-277. [2022-10-08 - Removes white cubes on headlamps from China Gattling Tank](#index__276__1342_gattling_tank_model)
-278. [2022-10-08 - Removes green cubes from the damaged China Emperor Tank](#index__277__1346_emperor_model)
-279. [2022-10-08 - Fixes incorrect model setups of China Gattling Cannon](#index__278__1347_winter_day_damaged_gattling_cannon_model)
-280. [2022-10-08 - Fixes smoke effects on China Gattling Cannon](#index__279__1348_summer_night_gattling_cannon_particles)
-281. [2022-10-08 - Fixes infinite Gattling barrel spin animation issues](#index__280__1349_gattling_spin_issues)
-282. [2022-10-08 - Fixes China Helix model issues](#index__281__1351_helix_model)
-283. [2022-10-08 - Fixes Gattling barrel spin animation issues](#index__282__1359_gattlings_spin_animations)
-284. [2022-10-10 - Fixes inconsistent particle effects on different damage states of China Power Plant](#index__283__1395_china_reactor_consistent_particles)
-285. [2022-10-16 - Removes superfluous particle effects from China War Factory](#index__284__1379_china_factory_obsolete_particles)
-286. [2022-10-16 - Removes floating basket from China War Factory](#index__285__1380_winter_night_china_factory_basket)
-287. [2022-10-16 - Fixes animation issues on conveyor belt of China War Factory](#index__286__1381_china_factory_conveyor_belt)
-288. [2022-10-19 - Changes crane of China War Factory to animate on vehicle repair instead of vehicle construction](#index__287__1393_china_factory_crane)
-289. [2022-10-20 - Removes superfluous particle effects from China Power Plant](#index__288__1395_china_reactor_obsolete_particles)
-290. [2022-10-20 - Adds steam particles to all chimneys of China Nuke Power Plant](#index__289__1396_nuke_reactor_steam_particles)
-291. [2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade](#index__290__1588_dragon_min_attack_range)
-292. [2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20%](#index__291__1449_dragon_poison_armor)
-293. [2022-11-06 - Fixes wrong exploded death animation of China Tank Hunter](#index__292__1452_tank_hunter_exploded_death_animation)
-294. [2022-11-07 - Fixes wrong death sounds of China Hacker](#index__293__1455_hacker_death_voice)
-295. [2022-11-30 - Increases death explosion damage and radius of China Nuke Silo](#index__294__1490_nuke_silo_death_damage_radius)
-296. [2023-01-07 - Decreases build cost of China Neutron Mines](#index__295__1523_china_mines_build_cost)
-297. [2023-01-08 - Fixes jet engine sound of China Carpet Bomber](#index__296__1525_china_bomber_sound)
-298. [2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched](#index__297__1532_helix_bomb_upgrade_button)
-299. [2023-01-08 - Decreases build time of China Mines](#index__298__1533_china_mines_build_time)
-300. [2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion](#index__299__1536_nuke_cannon_scorch)
-301. [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#index__300__1540_helix_nuke_bomb_damage)
-302. [2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research](#index__301__1542_helix_attachment_upgrade_buttons)
-303. [2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death](#index__302__1618_nuke_cannon_death_models)
-304. [2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades](#index__303__1624_nationalism_fanatism_tooltip_text)
-305. [2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack](#index__304__1653_nuke_cannon_animation_jump)
-306. [2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death](#index__305__1619_nuke_cannon_duplicate_radiation)
-307. [2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost](#index__306__1707_outpost_crush_death)
-308. [2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state](#index__307__2_battle_bus_damage_transition)
-309. [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles](#index__308__67_scud_storm_particles)
-310. [2021-08-27 - Fixes units shooting at already killed infantry units](#index__309__75_dead_target_bug)
-311. [2021-08-27 - Fixes GLA defense hole keeping the controlling player alive](#index__310__75_gla_hole_survival)
-312. [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#index__311__76_red_bullet_tracers)
-313. [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Toxin Tractor death puddles](#index__312__77_toxin_tractor_anthrax_color)
-314. [2021-08-28 - Fixes Toxin Shells losing their projectile effect after acquiring Anthrax Beta](#index__313__83_toxin_shell_anthrax)
-315. [2021-08-28 - Fixes premature GLA Toxin Demo Trap explosion effects](#index__314__85_toxin_demo_trap)
-316. [2021-08-28 - Fixes wrong portrait image of GLA Sneak attack](#index__315__86_sneak_attack_portrait)
-317. [2021-08-28 - Fixes GLA Demo Rocket Buggy losing its red missile effect after acquiring Buggy Ammo upgrade](#index__316__87_rocket_buggy_red_missiles)
-318. [2021-08-28 - Fixes wrong demo charge voice of GLA Demo Jarmen Kell](#index__317__88_demo_jarmen_voice)
-319. [2021-08-28 - Fixes crushed GLA Marauder becoming an indestructible unit](#index__318__90_indestructible_marauder)
-320. [2021-08-28 - Fixes wrong ability image of GLA Saboteur](#index__319__91_saboteur_ability_image)
-321. [2021-08-28 - Fixes wrong death voices of GLA Saboteur](#index__320__95_saboteur_death_voice)
-322. [2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units](#index__321__101_demo_infantry_death_voice)
-323. [2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide](#index__322__102_demo_battle_bus_suicide_damage)
-324. [2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker](#index__323__103_worker_combat_bike_destruction)
-325. [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme](#index__324__104_demo_combat_bike_gamme_anthrax_death_damage)
-326. [2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches](#index__325__99_demo_vehicle_destruction)
-327. [2021-09-01 - Fixes inconsistent minimum attack ranges of GLA Toxin Tractor](#index__326__135_toxin_tractor_attack_range)
-328. [2021-09-03 - Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger](#index__327__159_demo_tunnel_stinger_suicide_cameo)
-329. [2021-09-03 - Removes obsolete suicide button from GLA Demo Worker before Demo Upgrade](#index__328__161_demo_worker_suicide_button)
-330. [2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds](#index__329__164_demo_technical_suicide_delay)
-331. [2021-09-03 - Fixes GLA Hijacker and Saboteur being able to ride the GLA Toxin Combat Bike](#index__330__168_hijacker_on_toxin_combat_bike)
-332. [2021-09-03 - Fixes duplicate death sounds of GLA Combat Bike](#index__331__169_combat_bike_death_sounds)
-333. [2021-09-03 - Fixes GLA Saboteur simply disappearing when killed on Combat Bike](#index__332__171_saboteur_on_bike)
-334. [2021-09-04 - Fixes animations, models and sounds of GLA Combat Bike in Singleplayer](#index__333__186_sp_combat_bike_errors)
-335. [2021-09-04 - Fixes unexpected hit screen shake effects on bunkered GLA Battle Bus](#index__334__187_battle_bus_screen_shake)
-336. [2021-09-04 - Adds missing sound to GLA Battle Bus](#index__335__192_battlebus_sounds)
-337. [2021-09-04 - Adds missing AP Rocket upgrade icon to GLA Scud Launcher](#index__336__207_scud_launcher_cameo)
-338. [2021-09-05 - Adds missing upgrade icons to GLA Rebels](#index__337__225_rebel_cameo)
-339. [2021-09-09 - Adds missing red smoke effect for GLA Demo Terrorist on Combat Bike after Demo Upgrade](#index__338__260_terrorist_combat_bike_effects)
-340. [2021-09-09 - Adds missing booby trap sound effect to GLA Demo Rebel](#index__339__263_demo_rebel_booby_trap_sound)
-341. [2021-09-10 - Fixes GLA Battle Bus stopping moving when targeting air unit](#index__340__267_battle_bus_air_target)
-342. [2021-09-10 - Fixes GLA Battle Bus turning its chassis when aiming at air units](#index__341__268_battle_bus_chassis_turn)
-343. [2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade](#index__342__271_gla_fake_cc_look_mismatch)
-344. [2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type](#index__343__273_combat_bike_rocket_type)
-345. [2021-09-10 - Fixes wrong suicide ability icon on GLA Demo Combat Bike](#index__344__278_demo_combat_bike_suicide_button)
-346. [2021-09-11 - Fixes GLA Stinger Site being able to shoot twice without any delay](#index__345__294_stinger_fires_twice)
-347. [2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site](#index__346__295_stinger_air_attack_effects)
-348. [2021-09-11 - Fixes GLA Stinger Site automatically attacking enemy buildings](#index__347__296_stinger_attacks_structures)
-349. [2021-09-11 - Adds missing muzzle flash for Snipe Attack ability of GLA Jarmen Kell on Combat Bike](#index__348__309_jarmen_combat_bike_muzzle_flash)
-350. [2021-09-11 - Fixes wrong muzzle flash location for Snipe Attack ability of GLA Jarmen Kell](#index__349__310_jarmen_muzzle_flash)
-351. [2021-09-11 - Fixes GLA Scud Storm not being able to damage itself](#index__350__328_scud_storm_self_damage)
-352. [2021-09-12 - Fixes Stealth General unable to build Hijacker from regular GLA Barracks](#index__351__331_stealth_general_build_bug)
-353. [2021-09-13 - Fixes button errors on GLA Demo Combat Bike](#index__352__345_demo_combat_bike_suicide_button)
-354. [2021-09-13 - Adds missing Camo Netting Upgrade icon to GLA Fake Arms Dealer](#index__353__353_fake_armsdealer_cameo)
-355. [2021-09-13 - Adds missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units](#index__354__355_gla_anthrax_cameo)
-356. [2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap](#index__355__370_quad_damage_model)
-357. [2021-09-19 - Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade](#index__356__392_marauder_anthrax_type)
-358. [2021-09-20 - Adds missing Stop button to GLA Tunnel and GLA Palace](#index__357__386_tunnel_palace_stop_button)
-359. [2021-09-22 - Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction](#index__358__401_terrorist_poison_puddle)
-360. [2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles](#index__359__440_demo_trap_triggered_by_puddles)
-361. [2021-10-01 - Fixes the ECM immunity of Heroic GLA Quad Cannon](#index__360__442_vet3_quad_cannon_subdual)
-362. [2021-10-09 - Fixes door times of powered GLA Arms Dealer to accomodate correct GLA Technical production](#index__361__538_armsdealer_power_doors)
-363. [2021-10-10 - Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps](#index__362__541_fake_supply_animation)
-364. [2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings](#index__363__544_stealth_saboteur_ability)
-365. [2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market](#index__364__547_regular_saboteur_ability)
-366. [2021-10-15 - Fixes wrong model during deconstruction of GLA Advanced Demo Trap](#index__365__563_demo_trap_sell_model)
-367. [2021-10-31 - Adds climb animation for GLA Saboteur](#index__366__606_saboteur_climb_animation)
-368. [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#index__367__727_buggy_required_xp)
-369. [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#index__368__727_scud_launcher_required_xp)
-370. [2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies](#index__369__783_demo_combat_bike_allies_damage)
-371. [2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor](#index__370__820_toxin_tractor_salvage_models)
-372. [2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player](#index__371__826_anthrax_bomb_poison_colors)
-373. [2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush](#index__372__845_demo_ambush_tooltip_text)
-374. [2022-08-12 - Removes GLA Hijacker ability to steal Combat Bike](#index__373__879_hijacker_bike_theft)
-375. [2022-08-14 - Fixes toxin color errors](#index__374__851_toxin_color_errors)
-376. [2022-08-14 - Improves visual quality of green and blue toxin puddles](#index__375__851_toxin_color_tweaks)
-377. [2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius](#index__376__851_toxin_puddle_size)
-378. [2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings](#index__377__885_fortified_structure_sell)
-379. [2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max](#index__378__889_anthrax_gamma_damage_bonuses)
-380. [2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members](#index__379__904_female_mob_death_voice)
-381. [2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members](#index__380__905_male_mob_death_voice)
-382. [2022-08-14 - Fixes missing death scream of some GLA Angry Mob members](#index__381__906_some_mob_death_voice)
-383. [2022-08-15 - Fixes GLA Stinger Troopers not dying individually by USA Microwave Tank damage](#index__382__913_stinger_microwave_death)
-384. [2022-08-20 - Adds upgrade voice for GLA Fortified Structure](#index__383__1026_fortified_structure_upgrade_voice)
-385. [2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon](#index__384__937_quad_cannon_bones)
-386. [2022-08-22 - Fixes insufficient range of GLA Scud Launcher missile](#index__385__1041_scud_launcher_missile_range)
-387. [2022-08-29 - Fixes animation issues of GLA Angry Mob](#index__386__1037_mob_animation_issues)
-388. [2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade](#index__387__1074_demo_scud_launcher_death_damage)
-389. [2022-09-02 - Improves explosion effect of crushed GLA terror units](#index__388__1082_demo_units_crushed_death_particles)
-390. [2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge](#index__389__1086_kassad_challenge_stinger_selection)
-391. [2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds](#index__390__1096_scud_storm_worker_spawn_delay)
-392. [2022-09-05 - Adds better fitting select sound for GLA Demo Trap](#index__391__1131_demo_trap_select_sound)
-393. [2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect](#index__392__1130_demo_trap_flare_fadeout)
-394. [2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target](#index__393__1136_bomb_truck_reveal)
-395. [2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades](#index__394__1137_bomb_truck_damages)
-396. [2022-09-06 - Improves particle effects of GLA Bomb Truck](#index__395__1137_bomb_truck_explosion_particles)
-397. [2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200](#index__396__1137_bomb_truck_upgrade_cost)
-398. [2022-09-06 - Improves locomotor of GLA Bomb Truck](#index__397__1138_bomb_truck_locomotor)
-399. [2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400](#index__398__1153_combat_bike_required_xp)
-400. [2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike](#index__399__1164_combat_bike_pilot_promotion)
-401. [2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates](#index__400__1170_saboteur_scrap_rank_up)
-402. [2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade](#index__401__1176_technical_muzzle_flash)
-403. [2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank](#index__402__1228_scorpion_textures)
-404. [2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm](#index__403__1229_utplates_upscaled_textures)
-405. [2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus](#index__404__1231_battle_bus_textures)
-406. [2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm](#index__405__1232_utscudparts02_utsilotop01_textures)
-407. [2022-09-28 - Fixes utcloth textures for GLA structures](#index__406__1311_utcloth_textures)
-408. [2022-09-28 - Fixes utcloth2 textures for GLA structures](#index__407__1312_utcloth2_textures)
-409. [2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm](#index__408__1315_utscudslab_snow_textures)
-410. [2022-09-29 - Fixes utconcroof textures for GLA structures](#index__409__1320_utconcroof_textures)
-411. [2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps](#index__410__1325_scud_storm_night_lights)
-412. [2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps](#index__411__1326_scud_storm_snow_damage)
-413. [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#index__412__1328_utscudslab_upscaled_textures)
-414. [2022-10-08 - Fixes missing muzzle flash and recoil animation on GLA Quad Cannon](#index__413__1340_quad_muzzle_flash_recoil)
-415. [2023-01-08 - Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits](#index__414__1526_booby_trap_physics)
-416. [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#index__415__1528_worker_death_animation)
-417. [2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker](#index__416__1578_worker_clear_mines_button)
-418. [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#index__417__1663_scorpion_death_model)
-419. [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#index__418__1672_marauder_double_barrel_firing_sequence)
-420. [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#index__419__1674_marauder_idle_reload)
-421. [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#index__420__1699_scorpion_idle_reload)
-422. [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#index__421__1703_scud_storm_idle_reload)
-423. [2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage](#index__422__1706_stealth_rebel_reveal)
-424. [2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death](#index__423__1714_scud_launcher_death_model)
-425. [2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar](#index__424__1716_mob_radar_dots)
-426. [2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion](#index__425__1726_wreck_spawn_after_death)
-427. [2021-09-11 - Adds missing Hellfire Drone icon to Boss Paladin](#index__426__319_boss_paladin_cameo)
-428. [2021-09-16 - Adds missing unit drop to Reinforcement Pad for Boss General](#index__427__375_boss_reinforcement_pad)
-429. [2021-09-18 - Fixes wrong Stop button icon location of Boss Patriot Battery](#index__428__377_boss_patriot_stop_button)
-430. [2021-09-18 - Fixes wrong tooltip text of Boss Nationalism Upgrade after Mines upgrade](#index__429__378_boss_nationalism_tooltip)
-431. [2021-09-18 - Adds missing Neutron Mines to Boss Scud Storm](#index__430__380_boss_scud_storm_neutron_mines)
-432. [2021-09-18 - Adds missing Chemical Suits upgrade icon to Boss Infantry units](#index__431__381_boss_chemical_suit_cameo)
-433. [2021-09-19 - Fixes wrong Ranger types spawned from destroyed Boss buildings](#index__432__388_boss_ranger_types)
-434. [2021-10-03 - Fixes hacking speed of Boss Hacker inside Internet Center](#index__433__450_boss_hacker_bonus)
-435. [2021-10-03 - Fixes low vision range of Boss Jarmen Kell](#index__434__450_boss_jarmen_sight_range)
-436. [2021-10-03 - Fixes low health value of Boss Black Lotus](#index__435__450_boss_lotus_health)
-437. [2021-10-03 - Fixes retaliation behaviour of Boss Pathfinder](#index__436__450_boss_pathfinder_retaliation)
-438. [2021-10-03 - Fixes the microwave immunity of Boss Bunker](#index__437__451_boss_bunker_microwave_damage)
-439. [2021-10-03 - Adds missing Subliminal Messaging upgrade icon to Boss Propaganda Tower](#index__438__451_boss_propaganda_tower_cameo)
-440. [2021-10-03 - Fixes fast build time of Boss Tunnel Network](#index__439__451_boss_tunnel_build_time)
-441. [2021-10-03 - Fixes issues of Boss Sentry Drone](#index__440__453_boss_sentry_issues)
-442. [2021-10-03 - Fixes issues of Boss Avenger](#index__441__454_boss_avenger_issues)
-443. [2021-10-03 - Fixes issues of Boss King Raptor](#index__442__456_boss_raptor_issues)
-444. [2021-10-03 - Fixes issues of Boss Helix](#index__443__457_boss_helix_issues)
-445. [2022-10-15 - Fixes missing Control Rods upgrade icon on Boss Power Plant](#index__444__1372_boss_reactor_upgrade_cameo)
-446. [2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad](#index__445__308_reinforcement_pad_xp_reward)
-447. [2021-09-11 - Removes kill experience reward of Civilian Repair Pad](#index__446__308_repair_pad_xp_reward)
-448. [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#index__447__443_money_crates_under_scaffold)
-449. [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#index__448__568_repair_bay_ruin_model)
-450. [2021-10-17 - Adds Radar Station Tech building (for custom maps)](#index__449__571_radar_station_tech)
-451. [2021-10-17 - Adds Generals Mammoth Tank (for custom maps)](#index__450__572_mammoth_tank)
-452. [2022-08-14 - Fixes mismatching toxin puddle colors from destroyed chemical civilian buildings.](#index__451__903_civ_buildings_toxin_colors)
-453. [2022-11-06 - Removes airplane avoidance setup from some small structures](#index__452__1447_airplane_avoidance)
-454. [2023-02-04 - Fixes crushable levels of Civilian cars](#index__453__1625_civ_car_crushable_level)
-455. [2023-02-04 - Fixes crusher levels of Civilian cars](#index__454__1625_civ_car_crusher_level)
-456. [2023-02-04 - Fixes proper display names to Civilian vehicles.](#index__455__1626_cars_name_text)
-457. [2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees](#index__456__1638_humvee1_transition_damage_effects)
-458. [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#index__457__1639_civ_damaged_state_models)
-459. [2023-02-05 - Adds transition damage effects to Civilian vehicles](#index__458__1639_civ_transition_damage_effects)
-460. [2023-02-07 - Fixes wrecks of Civilian vehicles to be no longer pushable and attackable](#index__459__1646_civilian_cars_flags)
-461. [2023-02-07 - Adds suicide car bomb ability to Civilian Crop Duster](#index__460__1647_aircraft_carbomb_ability)
-462. [2021-08-28 - Fixes Anthrax Gamma streams showing with green particles when clearing buildings](#index__461__84_green_gamma_toxin_streams)
-463. [2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once](#index__462__122_ui_faction_list_size)
-464. [2021-09-03 - Fixes issue that prevents evacuating different vehicles in a group selection](#index__463__165_vehicle_evacuation_button_placement)
-465. [2021-09-09 - Fixes broken weapons and animations of GLA HiDef Scud Launcher](#index__464__258_hidef_scud_launcher)
-466. [2021-09-10 - Fixes dummy weapons invoking confusing attack effects and notifications](#index__465__279_dummy_weapon_attack_notification)
-467. [2021-09-11 - Adds missing air attack voices to various units](#index__466__293_air_attack_voices)
-468. [2021-09-11 - Fixes incorrect air attack sound of China Minigunner](#index__467__315_minigunner_air_attack_sound)
-469. [2021-09-11 - Fixes USA Spectre button, portrait and upgrade icons](#index__468__323_spectre_button_cameo)
-470. [2021-09-12 - Fixes wrong object categories in World Builder](#index__469__332_worldbuilder_object_categories)
-471. [2021-09-19 - Adds missing Scrap Salvage to Boss Tomahawk](#index__470__389_usa05_boss_tomahawk_scrap_crate)
-472. [2021-09-19 - Adds missing Scrap Salvage to GLA Scud Launcher of USA05 Campaign](#index__471__390_usa05_scud_launcher_salvage_crate)
-473. [2021-10-07 - Fixes issues with GLA Stealth base defenses in GLA02 campaign](#index__472__512_gla02_defenses_issues)
-474. [2021-10-07 - Fixes issues with GLA Toxin base defenses in USA05 campaign](#index__473__513_usa05_defenses_issues)
-475. [2021-10-07 - Fixes issues with GLA Stealth buildings in GLA02 campaign](#index__474__514_gla02_buildings_issues)
-476. [2021-10-07 - Fixes issues with GLA Toxin buildings in USA05 campaign](#index__475__515_usa05_buildings_issues)
-477. [2021-10-07 - Fixes issues with GLA Stealth infantry in GLA02 campaign](#index__476__519_gla02_infantry_issues)
-478. [2021-10-07 - Fixes issues with GLA Toxin infantry in USA05 campaign](#index__477__520_usa05_infantry_issues)
-479. [2021-10-07 - Fixes issues with GLA Stealth vehicles in GLA02 campaign](#index__478__521_gla02_vehicles_issues)
-480. [2021-10-07 - Fixes issues with GLA Toxin vehicle in USA05 campaign](#index__479__522_usa05_vehicles_issues)
-481. [2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air](#index__480__567_demo_combat_bike_drop)
-482. [2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building](#index__481__568_reinforcement_pad_ruin_model)
-483. [2022-01-01 - Fixes text setup errors and inconsistencies for all native game languages](#index__482__634_text_errors)
-484. [2022-07-22 - Recoveres 483 high quality textures from Generals](#index__483__734_high_res_textures)
-485. [2022-07-24 - Replaces 'Commander' with 'General' in all language strings](#index__484__750_commander_texts)
-486. [2022-07-24 - Fixes some cramped language strings in Options and Replay menu](#index__485__750_cramped_texts)
-487. [2022-07-24 - Fixes some errors in German language strings](#index__486__750_german_text_errors)
-488. [2022-07-24 - Replaces STS and CCH characters with quotes in all language strings](#index__487__750_quote_text_errors)
-489. [2022-07-24 - Replaces NEL characters with three dots in all language strings](#index__488__750_three_dot_text_errors)
-490. [2022-08-05 - Fixes inconsistent press styles on Idle Worker and Place Beacon buttons](#index__489__825_idle_worker_place_beacon_buttons)
-491. [2022-08-08 - Fixes the issue of inherent faction upgrades being granted upon constructing respective faction structures.](#index__490__827_inherent_faction_upgrades)
-492. [2022-08-12 - Removes Supply Center to supply stash build distance restriction](#index__491__873_supply_stash_build_distance)
-493. [2022-08-13 - Removes damage effects from immortal civilian structures](#index__492__883_immortal_effects)
-494. [2022-08-14 - Fixes rough edges and pink color cast in Infantry decal shadows](#index__493__867_infantry_shadow_decal)
-495. [2022-08-20 - Adds USA Supply Lines upgrade icon to Oil Derrick](#index__494__945_oil_derrick_upgrades_cameo)
-496. [2022-08-23 - Fixes issues of the USA Laser Superweapon (cut content)](#index__495__967_laser_particle_cannon)
-497. [2022-08-26 - Fixes misplaced and missing shovel dirt particles on USA Dozer when clearing mines](#index__496__1019_usa_dozer_clear_mines_particles)
-498. [2022-08-26 - Improves Oil Refinery tooltip text](#index__497__943_oil_refinery_tooltip_text)
-499. [2022-08-26 - Adds better 3D model for classic carpet bomb model](#index__498__949_carpet_bomb_model)
-500. [2022-09-01 - Fixes ugly artifacts in ground aligned flare effects](#index__499__1069_ground_flare_particles)
-501. [2022-09-01 - Improves visuals of binary data stream](#index__500__1070_binary_data_stream_visuals)
-502. [2022-09-01 - Fixes broken voice line of China Battlemaster in French, German locales](#index__501__1071_battlemaster_voice)
-503. [2022-09-01 - Fixes broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales](#index__502__1071_gamma_terrorist_death)
-504. [2022-09-03 - Removes invisible attackable object above Townes base in Generals Challenge](#index__503__1087_townes_challenge_attackable_objects)
-505. [2022-09-03 - Fixes sliding animation issue of bare Stinger Trooper in Kassads Generals Challenge](#index__504__1088_kassad_challenge_stinger_slide)
-506. [2022-09-03 - Fixes terrain clipping of particle effects](#index__505__1089_z_clipping_particles)
-507. [2022-09-07 - Fixes small size of muzzle flash effects of China Battlemaster](#index__506__1154_battlemaster_muzzle_flash_size)
-508. [2022-09-15 - Fixes vehicle wreck spawn position errors](#index__507__1207_wreck_spawn_position_offset)
-509. [2022-09-19 - Fixes particle effect fadeout issues](#index__508__1223_lens_flare_fadeout)
-510. [2022-09-21 - Fixes missing pieces in trcobbroad texture for cobble road](#index__509__1236_trcobbroad_texture)
-511. [2022-09-24 - Fixes wrong creation audio setup of GLA Saboteur](#index__510__1281_saboteur_creation_sound)
-512. [2022-09-24 - Fixes wrong death audio setup of GLA Technical](#index__511__1282_technical_death_sound)
-513. [2022-09-27 - Fixes pmtorch textures](#index__512__1306_pmtorch_textures)
-514. [2022-10-16 - Decreases LAN Match Countdown from 5 to 3 seconds](#index__513__1378_lan_countdown)
-515. [2022-10-22 - Streamlines drift velocity of prominent smoke and steam particles](#index__514__1402_particles_drift_velocity)
-516. [2022-11-04 - Fixes missing construction ambient sounds of several structures](#index__515__1419_construction_ambient_sound)
-517. [2022-11-05 - Adds sounds to infantry units entering and exiting a Barracks for healing](#index__516__1426_barracks_healing_enter_sound)
-518. [2022-12-01 - Adds new terrain scorches for explosion effects](#index__517__1489_explosion_scorches)
-519. [2022-12-01 - Fixes wrong USA EMP Patriot model during construction and deconstruction](#index__518__1492_emp_patriot_sell_model)
-520. [2022-12-04 - Fixes invisible desert shrub bush objects](#index__519__1488_invisible_desert_shrub_bushes)
-521. [2022-12-04 - Tweaks terrain scorch sizes of explosion effects](#index__520__1494_scorch_sizes)
-522. [2022-12-05 - Improves scorch texture quality](#index__521__1495_scorch_textures)
-523. [2022-12-15 - Removes duplicate shockwave effects from aircraft explosions](#index__522__1504_duplicate_explosion_shockwave)
-524. [2023-01-01 - Improves placement view angle of faction base defenses](#index__523__1514_defenses_placement_angle)
-525. [2023-01-06 - Fixes infantry missile particle effects](#index__524__1520_missile_particles)
-526. [2023-01-08 - Fixes excontrail texture](#index__525__1531_excontrail_texture)
-527. [2023-01-08 - Fixes duplicate terrain scorches on vehicle deaths](#index__526__1535_duplicate_scorch_spawn)
-528. [2023-01-14 - Fixes wrong border colors of GLA Bomb Truck upgrade command buttons](#index__527__1548_bomb_truck_button_border)
-529. [2023-01-14 - Adds missing border colors to USA Battle Plan command buttons](#index__528__1549_strategy_center_button_border)
-530. [2023-01-20 - Changes border color of GLA Worker Fake Structure command button from orange to green](#index__529__1571_worker_fake_button_border)
-531. [2023-01-20 - Removes border colors from all Special Power Shortcut command buttons](#index__530__1573_special_power_shortcut_button_border)
-532. [2023-01-23 - Adds missing fire sound for building attack of USA Microwave Tank](#index__531__1595_microwave_attack_sound)
-533. [2023-01-28 - Removes custom placement view angle from vehicles](#index__532__1609_custom_placement_angle)
-534. [2023-01-29 - Sets kill on resting for vehicle wrecks](#index__533__1710_wreck_kill_on_resting)
-535. [2023-01-29 - Sets consistent lifetimes for vehicle wrecks](#index__534__1710_wreck_lifetime)
-536. [2023-02-05 - Removes non-functional Civilian FarmerTruck object](#index__535__1634_farmertruck)
-537. [2022-10-05 - Adds slightly pitched sounds for some air weapons](#index__536__1335_pitched_air_weapon_sounds)
+- [2021-09-07 - Fixes China Nuke Missile exploit](#link__20210907__209_nuke_missile_exploit)
+- [2021-08-27 - Fixes GLA Scud Storm exploit](#link__20210827__72_scud_bug)
+- [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist](#link__20220727__764_terrorist_crash)
+- [2021-08-22 - Fixes critical issue that crashes all clients in a match](#link__20210822__0_crash_bug)
+- [2022-08-05 - Fixes potential unresponsive Control Bar buttons](#link__20220805__824_promotion_buttons)
+- [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
+- [2021-08-22 - Fixes lags caused by the USA Patriot assist beam](#link__20210822__0_patriot_beam_lag)
+- [2021-08-22 - Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone](#link__20210822__3_supply_drop_zone_bug)
+- [2021-08-23 - Fixes issue that permanently reduces the power level of a player](#link__20210823__7_negative_power_bug)
+- [2021-09-10 - Fixes USA Humvee without TOW missile stopping moving after targeting air unit](#link__20210910__270_humvee_air_target)
+- [2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers](#link__20210923__407_avenger_composite_armor)
+- [2022-08-06 - Makes USA Supply Drop Zone Cargo Planes unattackable](#link__20220806__836_unattackable_drop_zone_cargo_planes)
+- [2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee](#link__20220908__1162_sentry_drone_build_cost)
+- [2022-09-08 - Increases USA Sentry Drone gun damage by 20%](#link__20220908__1162_sentry_drone_damage)
+- [2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone](#link__20220908__1162_sentry_drone_deployment)
+- [2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70%](#link__20220908__1162_sentry_drone_movement)
+- [2022-09-08 - Increases sight range of USA Sentry Drone by 30%](#link__20220908__1162_sentry_drone_sight_range)
+- [2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones](#link__20220908__1162_sentry_drone_tracks)
+- [2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20%](#link__20220908__1162_sentry_drone_upgrade)
+- [2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead](#link__20220918__1220_pilot_humvee_passenger)
+- [2023-01-07 - Fixes USA Strategy Center Gun attack issues](#link__20230107__1524_strategy_center_gun_attack)
+- [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
+- [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
+- [2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings](#link__20210822__4_listening_outpost_attack_bug)
+- [2021-08-22 - Improves mobility of China Dozer](#link__20210822__6_china_dozer_locomotor)
+- [2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely](#link__20210905__410_nuke_missile_blasts)
+- [2021-09-07 - Adds missing Subliminal Messaging bonus to China Emperor](#link__20210907__236_emperor_subliminal)
+- [2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit](#link__20210909__262_neutron_shell_exploit)
+- [2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment](#link__20210910__269_nuke_cannon_attack_target)
+- [2021-09-25 - Decreases required level up experience of China Black Lotus by 82%](#link__20210925__413_lotus_required_xp)
+- [2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62%](#link__20210925__413_lotus_xp_reward)
+- [2021-12-24 - Removes auto engage behaviour from China ECM Tank](#link__20211224__631_ecm_auto_attack)
+- [2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms](#link__20220729__785_china_cc_door_times)
+- [2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms](#link__20220730__786_china_factory_door_times)
+- [2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability](#link__20220806__837_satellite_hack_ii_ability)
+- [2022-08-06 - Adds functional Speaker Tower to China Propaganda Center](#link__20220806__839_propaganda_center_speaker_tower)
+- [2022-08-14 - Increases damage and radius of China Nuke Missile](#link__20220814__871_nuke_missile_damage_and_radius)
+- [2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms](#link__20220914__1199_gattling_spin_timeout)
+- [2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds](#link__20230118__1564_inferno_cannon_fire_storm)
+- [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
+- [2021-08-22 - Fixes GLA Stealth Palace remaining stealhed while its passengers shoot](#link__20210822__75_stealthed_palace_bug)
+- [2021-08-28 - Fixes GLA Demo Trap getting triggered by nearby enemy scaffold](#link__20210828__94_demotrap_scaffold_trigger)
+- [2021-09-11 - Fixes GLA Car Bomb unable to attack target](#link__20210911__307_car_bomb_attack_bug)
+- [2021-09-12 - Fixes issue where GLA Demo Terrorist can be crushed without applying any damage](#link__20210912__316_demo_terrorist_damage)
+- [2021-09-12 - Fixes issue where Demo GLA Terrorist can die on China Mines without applying any damage](#link__20210912__316_demo_terrorist_mines_damage)
+- [2021-10-10 - Fixes mismatching particle effects of GLA Black Market and Fake Market](#link__20211010__542_fake_market_particles)
+- [2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold](#link__20211024__595_cash_bounty_activation)
+- [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#link__20220716__695_toxin_terrorist_death)
+- [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#link__20220716__697_all_terrorist_crush_damage)
+- [2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade](#link__20220716__699_toxin_terrorist_damage)
+- [2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max](#link__20220814__882_stinger_anthrax_gamma_damage)
+- [2022-08-15 - Fixes Demo General infantry units getting stuck near structures when ordered to suicide](#link__20220815__914_demo_infantry_suicide_stuck)
+- [2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade](#link__20220902__1076_demo_units_death_particles)
+- [2022-09-04 - Fixed misplaced fire ports on GLA Palace](#link__20220904__1097_palace_fire_ports)
+- [2022-10-05 - Fixes Toxin GLA Tunnel Defender double firing against ground and air targets](#link__20221005__1334_tunnel_defender_shoots_twice)
+- [2021-10-13 - Fixes invisible Civilian buildings on Winter maps](#link__20211013__559_invisible_snow_buildings)
+- [2021-09-02 - Expands menu map selection lists to 1200 entries](#link__20210902__144_ui_map_list_size)
+- [2021-09-03 - Fixes issue that prevents suiciding different GLA Demo units in a group selection](#link__20210903__163_demo_suicide_button_placement)
+- [2021-09-11 - Fixes exploit that allows to shoot on ground units from very far away](#link__20210911__285_range_exploit)
+- [2022-08-02 - Fixes 13 broken particle effects](#link__20220802__809_pillar_explosion_effects)
+- [2022-10-16 - Increases Player Beacon limit from 3 to 5](#link__20221016__1377_beacon_limit)
+- [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
+- [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#link__20220820__938_infantry_muzzle_flash)
+- [2022-09-07 - Fixes muzzle particle effects of tanks](#link__20220907__1149_tank_muzzle_particles)
+- [2022-10-16 - Fixes War Factory door animations reset on damage state changes](#link__20221016__1382_door_animation_reset)
+- [2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings](#link__20221020__1386_buildings_explosion_effects)
+- [2023-01-13 - Fixes the evacuation command button art of various vehicles](#link__20230113__1545_vehicle_evacuation_button_image)
+- [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#link__20230129__1711_increase_wreck_destruction_delay)
+- [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
+- [2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units](#link__20210828__92_infantry_poison_death_voice)
+- [2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings](#link__20210910__276_gps_scrambled_infantry_attacking)
+- [2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings](#link__20210910__276_gps_scrambled_infantry_capturing)
+- [2021-12-24 - Fixes units with attachments blocking scaffold placements](#link__20211224__630_vehicle_attachment_blocking_build)
+- [2022-09-24 - Adds missing audio limits to air unit voices](#link__20220924__1274_air_unit_death_voice_limit)
+- [2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes](#link__20221020__1398_radar_animation_reset)
+- [2023-01-29 - Removes random sink delays from all vehicle wrecks](#link__20230129__1660_random_wreck_sink_delays)
+- [2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton](#link__20210910__277_demo_charge_button_placement)
+- [2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang](#link__20220101__636_stinger_flashbang_damage)
+- [2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon](#link__20210827__75_particlecannon_rangers)
+- [2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora](#link__20210902__145_alpha_aurora_cameo)
+- [2021-09-03 - Removes retaliation from non-vUSA Avengers](#link__20210903__157_usa_avenger_retaliation)
+- [2021-09-03 - Fixes USA Avenger model](#link__20210903__158_avenger_model)
+- [2021-09-03 - Removes obsolete Advanced Training icon from USA Pilots](#link__20210903__160_pilot_advanced_training)
+- [2021-09-03 - Removes obsolete Chemical Suits icon from USA Pilots](#link__20210903__160_pilot_chemical_suit)
+- [2021-09-03 - Fixes slow movement speed of Vet 3 USA Pilot](#link__20210903__160_pilot_speed)
+- [2021-09-03 - Fixes issue that prevents to build Drones for different USA vehicles in a group selection](#link__20210903__166_humvee_drones_build)
+- [2021-09-03 - Fixes duplicate embark sounds of USA Laser Humvee](#link__20210903__172_humvee_enter_sounds)
+- [2021-09-03 - Removes Select All key bindings from USA Spy Drone](#link__20210903__173_spydrone_select_all_key)
+- [2021-09-04 - Removes Select All key bindings from USA Spectre Gunship](#link__20210904__181_spectre_select_all_keys)
+- [2021-09-04 - Adds missing movement command sounds to USA Sentry Drone](#link__20210904__188_sentry_drone_move_sound)
+- [2021-09-04 - Fixes wrong movement sounds of USA Microwave Tank](#link__20210904__189_microwave_move_sound)
+- [2021-09-04 - Fixes wrong selection sounds of USA Firebase](#link__20210904__190_firebase_select_sound)
+- [2021-09-04 - Adds missing sound to USA Pilot](#link__20210904__191_pilot_enter_sound)
+- [2021-09-04 - Fixes some USA Chinooks collecting 100 ms slower than others](#link__20210904__193_chinook_collection_timing)
+- [2021-09-04 - Fixes tooltip text of USA Laser Aurora](#link__20210904__194_laser_aurora_tooltip)
+- [2021-09-04 - Fixes wrong upgrade icon placements on USA Tomahawk](#link__20210904__205_tomahawk_cameo)
+- [2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down](#link__20210907__254_spectre_housecolor)
+- [2021-09-09 - Adds missing construction sound effect for USA Sentry Drone](#link__20210909__256_sentry_drone_construction_sound)
+- [2021-09-10 - Fixes USA Avenger turning its chassis when aiming at air units](#link__20210910__314_avenger_chassis_turn)
+- [2021-09-11 - Fixes wrong USA Ranger spawn type of Paradrop ability](#link__20210911__286_paradrop_ranger_type)
+- [2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon](#link__20210911__288_swg_particle_cannon_effect_color)
+- [2021-09-11 - Fixes Fuel Bomb of USA Alpha Aurora detonating before hitting the ground](#link__20210911__292_alpha_aurora_premature_explosion)
+- [2021-09-12 - Adds missing hit effects to USA Rangers after Chemical Suits upgrade](#link__20210912__325_ranger_hit_effects)
+- [2021-09-12 - Adds missing hit effects to USA Cargo Planes with Countermeasures upgrade](#link__20210912__326_usa_cargo_plane_hit_effects)
+- [2021-09-12 - Fixes Airforce General unable to build Stealth Fighters from non-AFG Airfields](#link__20210912__331_air_general_build_bug)
+- [2021-09-13 - Moves Supply Lines upgrade icon from USA Supply Center to USA Chinook](#link__20210913__352_usa_supply_cameo)
+- [2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret](#link__20210913__373_laser_turret_clip_size)
+- [2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets](#link__20210913__374_laser_turret_air_model_sound)
+- [2021-09-20 - Fixes wrong button placements of USA Firebase](#link__20210920__387_firebase_buttons)
+- [2021-09-22 - Fixes inconsistent Air Guard button placement on USA Raptor](#link__20210922__402_raptor_guard_button_position)
+- [2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles](#link__20210922__403_afg_avenger_armor)
+- [2021-09-25 - Adds kill experience reward to USA Hellfire Drone](#link__20210925__414_hellfire_drone_xp_reward)
+- [2021-10-01 - Fixes attackable Fuel Air Bomb](#link__20211001__441_attackable_fuel_bomb)
+- [2022-07-28 - Increases USA Paladin Composite Armor bonus by 100%](#link__20220728__777_paladin_composite_armor_bonus)
+- [2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms](#link__20220730__787_usa_factory_door_times)
+- [2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber](#link__20220806__841_afg_carpet_tooltip_text)
+- [2022-08-06 - Fixes wrong countdown value in tooltip texts of USA Spectre Gunship](#link__20220806__842_afg_spectre_tooltip_text)
+- [2022-08-06 - Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade](#link__20220806__843_countermeasures_tooltip_text)
+- [2022-08-06 - Fixes misspelled Airforce General name in texts](#link__20220806__848_misspelled_granger_text)
+- [2022-08-13 - Fixes missing Carpet Bomber in Grangers Generals Challenge](#link__20220813__1085_granger_challenge_carpet)
+- [2022-08-20 - Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image](#link__20220820__1020_swg_particle_cannon_portrait_image)
+- [2022-08-20 - Replaces Generic Tank with Crusader Tank on USA War Factory button image](#link__20220820__1022_usa_factory_button_image)
+- [2022-08-20 - Adds upgrade voice for USA MOAB](#link__20220820__1026_moab_upgrade_voice)
+- [2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages](#link__20220820__1026_sentry_gun_upgrade_voice)
+- [2022-08-27 - Fixes immortal presence of circling USA Aurora wreck](#link__20220827__1018_dead_aurora_bug)
+- [2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber](#link__20220827__953_afg_carpet_pdl)
+- [2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes](#link__20220829__1031_usa_ai_powers_planes)
+- [2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base](#link__20220902__1078_firebase_ghost_muzzle_flash)
+- [2022-09-03 - Fixes sharp turn movements of USA B2 Bomber](#link__20220903__1084_carpet_bomber_turn_rate)
+- [2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300](#link__20220906__1141_battle_drone_shroud_range)
+- [2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400](#link__20220906__1141_hellfire_drone_shroud_range)
+- [2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400](#link__20220907__1155_burton_sight_range)
+- [2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet](#link__20220908__1165_nighthawk_low_fuel_voice)
+- [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#link__20220909__1171_particle_cannon_animation_loop)
+- [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#link__20220910__1177_afg_firebase_snow_damaged)
+- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery.](#link__20220910__1178_patriot_battery_auto_reload)
+- [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
+- [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#link__20220913__1189_burton_texture_errors)
+- [2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon](#link__20220921__1245_atsdislab_snow_textures)
+- [2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center](#link__20220921__1246_atstratslab_snow_textures)
+- [2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield](#link__20220921__1247_attarmack_attarmack02_snow_textures)
+- [2022-09-21 - Fixes avambulance textures for USA Ambulance](#link__20220921__1248_avambulance_textures)
+- [2022-09-22 - Fixes and improves avavnger textures for USA Avenger](#link__20220922__1251_avavnger_textures)
+- [2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory](#link__20220922__1252_atdiaplate_textures)
+- [2022-09-22 - Fixes atconvey01 snow textures for USA War Factory](#link__20220922__1253_atconvey01_snow_textures)
+- [2022-09-22 - Fixes and improves avcomanche textures for USA Comanche](#link__20220922__1256_avcomanche_textures)
+- [2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank](#link__20220923__1258_avthunderbolt_textures)
+- [2022-09-23 - Fixes athqslab textures for USA Command Center](#link__20220923__1263_athqslab_textures)
+- [2022-09-23 - Fixes atmetal03 snow textures for USA structures](#link__20220923__1264_atmetal03_snow_textures)
+- [2022-09-23 - Fixes atpanelroof snow textures for USA structures](#link__20220923__1266_atpanelroof_textures)
+- [2022-09-23 - Fixes atpanelroof03 snow textures for USA structures](#link__20220923__1267_atpanelroof03_snow_textures)
+- [2022-09-23 - Fixes atprisslab snow textures for USA Prison](#link__20220923__1268_atprisslab_snow_textures)
+- [2022-09-23 - Fixes avpaladin textures for USA Paladin Tank](#link__20220923__1270_avpaladin_textures)
+- [2022-09-24 - Fixes and improves avraptor textures for USA Raptor](#link__20220924__1271_avraptor_textures)
+- [2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora](#link__20220924__1274_raptor_aurora_death_voice)
+- [2022-09-24 - Fixes atwarfactslab textures for USA War Factory](#link__20220924__1275_atwarfactslab_textures)
+- [2022-09-24 - Fixes and improves atventwall01 textures for USA structures](#link__20220924__1277_atventwall01_textures)
+- [2022-09-24 - Fixed avpowtruck textures for USA POW Truck](#link__20220924__1279_avpowtruck_textures)
+- [2022-09-24 - Fixes atroofparts01 textures for USA structures](#link__20220924__1280_atroofparts01_textures)
+- [2022-09-25 - Fixes USA Spectre Gunship audio issues](#link__20220925__1288_spectre_sound)
+- [2022-09-25 - Fixes animation issues on damaged USA Spectre Gunship](#link__20220925__1289_spectre_animation)
+- [2022-10-15 - Removes superfluous particle effects from USA Supply Center](#link__20221015__1366_usa_supply_obsolete_particles)
+- [2022-10-15 - Fixes broken fan animation of USA Strategy Center](#link__20221015__1367_summer_night_strategy_center_fan_animation)
+- [2022-10-15 - Removes superfluous particle effects from USA Airfield](#link__20221015__1369_usa_airfield_obsolete_particles)
+- [2022-10-15 - Fixes particle effects of USA Power Plant](#link__20221015__1371_usa_reactor_particles)
+- [2022-10-15 - Fixes construction fence texture of USA Power Plant](#link__20221015__1375_snow_night_usa_reactor_fence)
+- [2022-10-15 - Fixes broken reactor core spin animation of USA Power Plant](#link__20221015__1376_usa_reactor_core_spin_animation)
+- [2022-10-16 - Fixes wrong helipad texture of USA Airfield](#link__20221016__1370_summer_day_damaged_usa_airfield_texture)
+- [2022-10-16 - Fixes smoke effect issues on USA War Factory](#link__20221016__1387_china_factory_smoke_particles)
+- [2022-10-18 - Decreases USA Supply Drop Zone crate count from 6 to 3](#link__20221018__1390_drop_zone_crate_count)
+- [2022-10-19 - Changes crane of USA War Factory to animate on vehicle repair instead of vehicle construction](#link__20221019__1394_usa_factory_crane)
+- [2022-10-23 - Fixes abbarracks models for USA Barracks](#link__20221023__1405_abbarracks_models)
+- [2022-10-23 - Fixes atbarrslab textures for USA Barracks](#link__20221023__1406_atbarrslab_textures)
+- [2022-10-23 - Fixes and improves atdoor textures](#link__20221023__1407_atdoor_textures)
+- [2022-11-05 - Fixes and improves atdriveway textures for USA War Factory](#link__20221105__1427_atdriveway_textures)
+- [2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory](#link__20221105__1427_atrepairbay_textures)
+- [2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory](#link__20221105__1427_atwarfactslab_textures)
+- [2022-11-05 - Fixes atventwall02 textures for USA structures](#link__20221105__1445_atventwall02_textures)
+- [2022-11-05 - Fixes atventwall03 textures for USA structures](#link__20221105__1445_atventwall03_textures)
+- [2022-11-05 - Fixes atventwall04 textures for USA structures](#link__20221105__1445_atventwall04_textures)
+- [2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks](#link__20221106__1413_battle_drone_repair_sound)
+- [2022-11-06 - Fixes and improves atcemblock02 textures for USA structures](#link__20221106__1450_atcemblock02_textures)
+- [2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300](#link__20221108__1457_strategy_center_detection_range)
+- [2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600](#link__20221108__1457_strategy_center_snd_vision_range)
+- [2022-11-08 - Fixes and improves atcemwall01 textures for USA structures](#link__20221108__1458_atcemwall01_textures)
+- [2022-11-08 - Fixes and improves atcemwall02 textures for USA structures](#link__20221108__1458_atcemwall02_textures)
+- [2022-11-08 - Fixes and improves atcemwall03 textures for USA structures](#link__20221108__1458_atcemwall03_textures)
+- [2022-11-08 - Fixes and improves atcemwall04 textures for USA structures](#link__20221108__1458_atcemwall04_textures)
+- [2022-11-08 - Fixes and improves atcemwall05 textures for USA structures](#link__20221108__1458_atcemwall05_textures)
+- [2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon](#link__20221108__1459_atmetal02_textures)
+- [2022-11-10 - Fixes silver roof textures for USA structures](#link__20221110__1461_atsilverroof02_textures)
+- [2022-11-10 - Fixes silver roof textures for USA structures](#link__20221110__1461_atsilverroof_textures)
+- [2022-11-16 - Adds small idle movement sway to USA Chinook and Comanche](#link__20221116__1467_helicopter_idle_sway)
+- [2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25%](#link__20221116__1469_battle_drone_upgrade_armor_bonus)
+- [2022-11-19 - Fixes conveyor belt textures of USA War Factory](#link__20221119__1474_atconvey02_textures)
+- [2022-11-25 - Removes final death explosion delay of USA Comanche](#link__20221125__1481_comanche_final_death_delay)
+- [2022-11-27 - Adds damage state transition effect to USA A10](#link__20221127__1487_a10_damage_transition_effect)
+- [2022-11-30 - Fixes USA Supply Center model issues](#link__20221130__1491_usa_supply_model)
+- [2023-01-09 - Optimizes USA vehicle drone spawn positions](#link__20230109__1539_vehicle_drone_spawn_position)
+- [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
+- [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
+- [2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit](#link__20230121__1581_tomahawk_missile_angle_jump)
+- [2023-01-28 - Removes bouncing from wreck of USA Comanche](#link__20230128__1658_comanche_wreck_bouncing)
+- [2023-01-29 - Decreases fast sink rate of helicopter wrecks](#link__20230129__1659_chinook_helix_wreck_sink_rate)
+- [2023-01-29 - Increases slow sink rate of helicopter wrecks](#link__20230129__1659_comanche_wreck_sink_rate)
+- [2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction](#link__20230215__1713_swg_cc_construction_model)
+- [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
+- [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
+- [2021-08-28 - Fixes miniscule mass of China Supply Truck](#link__20210828__96_supply_truck_mass)
+- [2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles](#link__20210828__97_minigunner_crush)
+- [2021-09-01 - Fixes China unit attachments not showing the red tint from the Frenzy Power](#link__20210901__132_frenzy_coloring_on_attachments)
+- [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#link__20210901__133_speaker_tower_models)
+- [2021-09-01 - Fixes missing radar dots for China Bunkers and Propaganda Center](#link__20210901__134_structures_missing_on_minimap)
+- [2021-09-05 - Adds missing Patriotism upgrade icon to China Infantry Tank Hunter](#link__20210905__224_tank_hunter_cameo)
+- [2021-09-06 - Fixes misaligned propaganda effect on China Vehicles](#link__20210906__231_misaligned_propaganda_effect)
+- [2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus](#link__20210909__255_battlemaster_horde_bonus)
+- [2021-09-09 - Fixes attackable wrecks and debris](#link__20210909__257_attackable_wreck)
+- [2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair](#link__20210909__261_outpost_smoke_effect)
+- [2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units](#link__20210910__313_overlord_chassis_turn)
+- [2021-09-11 - Fixes China Helix with Gattling Cannon being able to unreliably attack air units](#link__20210911__284_helix_gattling_gun_air_attack)
+- [2021-09-11 - Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction](#link__20210911__299_china_cc_carpet_bomber)
+- [2021-09-11 - Fixes Generals Powers disappearing from Command Centers after Mines upgrade](#link__20210911__301_china_cc_powers_commandset)
+- [2021-09-11 - Fixes wrong muzzle flash location of China Minigunner](#link__20210911__312_minigunner_muzzle_flash)
+- [2021-09-11 - Fixes broken recoil animation of China Minigunner](#link__20210911__312_minigunner_recoil_animation)
+- [2021-09-11 - Adds missing Mines upgrade to China Speaker Tower](#link__20210911__317_speaker_tower_mines)
+- [2021-09-12 - Fixes Nuke General unable to build Nuke Cannons from regular China and Infantry General War Factories](#link__20210912__331_nuke_general_build_bug)
+- [2021-09-13 - Fixes inconsistent geometry sizes of China Outpost models](#link__20210913__347_outpost_geometry_size)
+- [2021-09-13 - Adds missing stealth detection effects and sounds to China Outposts](#link__20210913__349_outpost_stealth_effects)
+- [2021-09-13 - Adds missing stealth detection effects to China Troop Crawler](#link__20210913__350_troopcrawler_stealth_effects)
+- [2021-09-13 - Fixes missing Radar icon on China Command Center](#link__20210913__351_china_cc_cameo)
+- [2021-09-17 - Fixes China Nuke Mig upgrade not being buildable when on low power](#link__20210917__376_nuke_mig_upgrade_button)
+- [2021-09-19 - Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix](#link__20210919__391_helix_napalm_bomb_cameo)
+- [2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus](#link__20211001__437_lotus_vehicle_hack_xp_reward)
+- [2021-10-17 - Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps)](#link__20211017__575_tank_nuke_cannon)
+- [2021-10-23 - Removes ability to reveal shroud with China Frenzy power](#link__20211023__593_frenzy_scan)
+- [2022-07-24 - Decreases reload time of China Mig before Upgrade by 50%](#link__20220724__751_mig_reload_time)
+- [2022-07-27 - Decreases audible distance of China Helix helicopter by 30%](#link__20220727__765_helix_sound_range)
+- [2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler](#link__20220728__778_outpost_troopcrawler_xp_reward)
+- [2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625](#link__20220730__768_hacker_build_cost)
+- [2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds](#link__20220730__769_hacker_build_time)
+- [2022-07-30 - Decreases kill experience reward of China Hackers](#link__20220730__770_hacker_xp_reward)
+- [2022-07-30 - Decreases the required level up experience of China Hackers](#link__20220730__771_hacker_xp_requirement)
+- [2022-07-30 - Increases movement speed of China Hackers by 25%](#link__20220730__773_hacker_movement_speed)
+- [2022-07-30 - Decreases cash hack audio limit of China Hackers](#link__20220730__774_hacker_hack_audio_limit)
+- [2022-07-30 - Decreases pack and unpack times of China Hackers](#link__20220730__774_hacker_pack_unpack_times)
+- [2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers](#link__20220731__791_satellite_hack_issue)
+- [2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center](#link__20220806__833_internet_center_prerequisites)
+- [2022-08-06 - Fixes description error in tooltip text of China Nuke Mig](#link__20220806__840_nuke_mig_tooltip_text)
+- [2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower](#link__20220807__834_speaker_tower_prerequisites)
+- [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
+- [2022-08-14 - Decreases China Nuke Missile blast delays](#link__20220814__880_nuke_missile_blast_delays)
+- [2022-08-20 - Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image](#link__20220820__1021_nuke_battlemaster_portrait_image)
+- [2022-08-20 - Adds upgrade voice for China Neutron shells](#link__20220820__1026_neutron_shells_upgrade_voice)
+- [2022-08-20 - Adds new recoil animation to China Minigunner to match its fire rate increase over time](#link__20220820__939_minigunner_recoil_animation)
+- [2022-08-26 - Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler](#link__20220826__974_troopcrawler_guard_mode_buttons)
+- [2022-08-26 - Decreases large Guard Mode range of China Listening Outpost](#link__20220826__975_outpost_guard_mode_range)
+- [2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content)](#link__20220901__1060_empty_troopcrawler)
+- [2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost](#link__20220902__1080_outpost_radar_dish_physics)
+- [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#link__20220903__1090_china_cc_night_model)
+- [2022-09-04 - Fixes mispositioned explosion effects](#link__20220904__1122_detonation_effect_position_offset)
+- [2022-09-06 - Increases General Promotion reward from China Black Lotus by 100%](#link__20220906__1134_lotus_promotion_reward)
+- [2022-09-10 - Enables low fuel voices for China Mig Jet](#link__20220910__1180_mig_low_fuel_voice)
+- [2022-09-11 - Adds missing radio sounds to Helix voices](#link__20220911__1181_helix_radio_sounds)
+- [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#link__20220920__1226_overlord_textures)
+- [2022-09-21 - Adds missing China Propaganda Tower damage texture](#link__20220921__1239_propaganda_tower_textures)
+- [2022-09-23 - Fixes wrong select audio of China Internet Centers](#link__20220923__1260_internet_center_select_sound)
+- [2022-09-25 - Fixes nvinferno textures for China Inferno Cannon](#link__20220925__1285_nvinferno_textures)
+- [2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank](#link__20220925__1290_nvgatttank_textures)
+- [2022-09-26 - Fixes ntcement textures for China structures](#link__20220926__1298_ntcement_textures)
+- [2022-09-26 - Fixes ntdrive02 textures for China Supply Center](#link__20220926__1300_ntdrive02_textures)
+- [2022-09-26 - Fixes ntentry snow textures for China structures](#link__20220926__1301_ntentry_snow_textures)
+- [2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant](#link__20220926__1302_ntpwrplantslab_textures)
+- [2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center](#link__20220926__1304_ntsuppbase_snow_textures)
+- [2022-09-26 - Fixes ntwalls01 snow textures for China structures](#link__20220926__1305_ntwalls01_snow_textures)
+- [2022-09-26 - Fixes ntwalls04 snow textures for China structures](#link__20220926__1305_ntwalls04_snow_textures)
+- [2022-10-08 - Fixes missing muzzle flash on Gattling weapons](#link__20221008__1341_gattling_muzzle_flash)
+- [2022-10-08 - Removes white cubes on headlamps from China Gattling Tank](#link__20221008__1342_gattling_tank_model)
+- [2022-10-08 - Removes green cubes from the damaged China Emperor Tank](#link__20221008__1346_emperor_model)
+- [2022-10-08 - Fixes incorrect model setups of China Gattling Cannon](#link__20221008__1347_winter_day_damaged_gattling_cannon_model)
+- [2022-10-08 - Fixes smoke effects on China Gattling Cannon](#link__20221008__1348_summer_night_gattling_cannon_particles)
+- [2022-10-08 - Fixes infinite Gattling barrel spin animation issues](#link__20221008__1349_gattling_spin_issues)
+- [2022-10-08 - Fixes China Helix model issues](#link__20221008__1351_helix_model)
+- [2022-10-08 - Fixes Gattling barrel spin animation issues](#link__20221008__1359_gattlings_spin_animations)
+- [2022-10-10 - Fixes inconsistent particle effects on different damage states of China Power Plant](#link__20221010__1395_china_reactor_consistent_particles)
+- [2022-10-16 - Removes superfluous particle effects from China War Factory](#link__20221016__1379_china_factory_obsolete_particles)
+- [2022-10-16 - Removes floating basket from China War Factory](#link__20221016__1380_winter_night_china_factory_basket)
+- [2022-10-16 - Fixes animation issues on conveyor belt of China War Factory](#link__20221016__1381_china_factory_conveyor_belt)
+- [2022-10-19 - Changes crane of China War Factory to animate on vehicle repair instead of vehicle construction](#link__20221019__1393_china_factory_crane)
+- [2022-10-20 - Removes superfluous particle effects from China Power Plant](#link__20221020__1395_china_reactor_obsolete_particles)
+- [2022-10-20 - Adds steam particles to all chimneys of China Nuke Power Plant](#link__20221020__1396_nuke_reactor_steam_particles)
+- [2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade](#link__20221103__1588_dragon_min_attack_range)
+- [2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20%](#link__20221106__1449_dragon_poison_armor)
+- [2022-11-06 - Fixes wrong exploded death animation of China Tank Hunter](#link__20221106__1452_tank_hunter_exploded_death_animation)
+- [2022-11-07 - Fixes wrong death sounds of China Hacker](#link__20221107__1455_hacker_death_voice)
+- [2022-11-30 - Increases death explosion damage and radius of China Nuke Silo](#link__20221130__1490_nuke_silo_death_damage_radius)
+- [2023-01-07 - Decreases build cost of China Neutron Mines](#link__20230107__1523_china_mines_build_cost)
+- [2023-01-08 - Fixes jet engine sound of China Carpet Bomber](#link__20230108__1525_china_bomber_sound)
+- [2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched](#link__20230108__1532_helix_bomb_upgrade_button)
+- [2023-01-08 - Decreases build time of China Mines](#link__20230108__1533_china_mines_build_time)
+- [2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion](#link__20230108__1536_nuke_cannon_scorch)
+- [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
+- [2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research](#link__20230111__1542_helix_attachment_upgrade_buttons)
+- [2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death](#link__20230204__1618_nuke_cannon_death_models)
+- [2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades](#link__20230204__1624_nationalism_fanatism_tooltip_text)
+- [2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack](#link__20230209__1653_nuke_cannon_animation_jump)
+- [2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death](#link__20230211__1619_nuke_cannon_duplicate_radiation)
+- [2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost](#link__20230214__1707_outpost_crush_death)
+- [2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state](#link__20210822__2_battle_bus_damage_transition)
+- [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles](#link__20210827__67_scud_storm_particles)
+- [2021-08-27 - Fixes units shooting at already killed infantry units](#link__20210827__75_dead_target_bug)
+- [2021-08-27 - Fixes GLA defense hole keeping the controlling player alive](#link__20210827__75_gla_hole_survival)
+- [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#link__20210827__76_red_bullet_tracers)
+- [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Toxin Tractor death puddles](#link__20210827__77_toxin_tractor_anthrax_color)
+- [2021-08-28 - Fixes Toxin Shells losing their projectile effect after acquiring Anthrax Beta](#link__20210828__83_toxin_shell_anthrax)
+- [2021-08-28 - Fixes premature GLA Toxin Demo Trap explosion effects](#link__20210828__85_toxin_demo_trap)
+- [2021-08-28 - Fixes wrong portrait image of GLA Sneak attack](#link__20210828__86_sneak_attack_portrait)
+- [2021-08-28 - Fixes GLA Demo Rocket Buggy losing its red missile effect after acquiring Buggy Ammo upgrade](#link__20210828__87_rocket_buggy_red_missiles)
+- [2021-08-28 - Fixes wrong demo charge voice of GLA Demo Jarmen Kell](#link__20210828__88_demo_jarmen_voice)
+- [2021-08-28 - Fixes crushed GLA Marauder becoming an indestructible unit](#link__20210828__90_indestructible_marauder)
+- [2021-08-28 - Fixes wrong ability image of GLA Saboteur](#link__20210828__91_saboteur_ability_image)
+- [2021-08-28 - Fixes wrong death voices of GLA Saboteur](#link__20210828__95_saboteur_death_voice)
+- [2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units](#link__20210829__101_demo_infantry_death_voice)
+- [2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide](#link__20210829__102_demo_battle_bus_suicide_damage)
+- [2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker](#link__20210829__103_worker_combat_bike_destruction)
+- [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
+- [2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches](#link__20210829__99_demo_vehicle_destruction)
+- [2021-09-01 - Fixes inconsistent minimum attack ranges of GLA Toxin Tractor](#link__20210901__135_toxin_tractor_attack_range)
+- [2021-09-03 - Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger](#link__20210903__159_demo_tunnel_stinger_suicide_cameo)
+- [2021-09-03 - Removes obsolete suicide button from GLA Demo Worker before Demo Upgrade](#link__20210903__161_demo_worker_suicide_button)
+- [2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds](#link__20210903__164_demo_technical_suicide_delay)
+- [2021-09-03 - Fixes GLA Hijacker and Saboteur being able to ride the GLA Toxin Combat Bike](#link__20210903__168_hijacker_on_toxin_combat_bike)
+- [2021-09-03 - Fixes duplicate death sounds of GLA Combat Bike](#link__20210903__169_combat_bike_death_sounds)
+- [2021-09-03 - Fixes GLA Saboteur simply disappearing when killed on Combat Bike](#link__20210903__171_saboteur_on_bike)
+- [2021-09-04 - Fixes animations, models and sounds of GLA Combat Bike in Singleplayer](#link__20210904__186_sp_combat_bike_errors)
+- [2021-09-04 - Fixes unexpected hit screen shake effects on bunkered GLA Battle Bus](#link__20210904__187_battle_bus_screen_shake)
+- [2021-09-04 - Adds missing sound to GLA Battle Bus](#link__20210904__192_battlebus_sounds)
+- [2021-09-04 - Adds missing AP Rocket upgrade icon to GLA Scud Launcher](#link__20210904__207_scud_launcher_cameo)
+- [2021-09-05 - Adds missing upgrade icons to GLA Rebels](#link__20210905__225_rebel_cameo)
+- [2021-09-09 - Adds missing red smoke effect for GLA Demo Terrorist on Combat Bike after Demo Upgrade](#link__20210909__260_terrorist_combat_bike_effects)
+- [2021-09-09 - Adds missing booby trap sound effect to GLA Demo Rebel](#link__20210909__263_demo_rebel_booby_trap_sound)
+- [2021-09-10 - Fixes GLA Battle Bus stopping moving when targeting air unit](#link__20210910__267_battle_bus_air_target)
+- [2021-09-10 - Fixes GLA Battle Bus turning its chassis when aiming at air units](#link__20210910__268_battle_bus_chassis_turn)
+- [2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade](#link__20210910__271_gla_fake_cc_look_mismatch)
+- [2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type](#link__20210910__273_combat_bike_rocket_type)
+- [2021-09-10 - Fixes wrong suicide ability icon on GLA Demo Combat Bike](#link__20210910__278_demo_combat_bike_suicide_button)
+- [2021-09-11 - Fixes GLA Stinger Site being able to shoot twice without any delay](#link__20210911__294_stinger_fires_twice)
+- [2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site](#link__20210911__295_stinger_air_attack_effects)
+- [2021-09-11 - Fixes GLA Stinger Site automatically attacking enemy buildings](#link__20210911__296_stinger_attacks_structures)
+- [2021-09-11 - Adds missing muzzle flash for Snipe Attack ability of GLA Jarmen Kell on Combat Bike](#link__20210911__309_jarmen_combat_bike_muzzle_flash)
+- [2021-09-11 - Fixes wrong muzzle flash location for Snipe Attack ability of GLA Jarmen Kell](#link__20210911__310_jarmen_muzzle_flash)
+- [2021-09-11 - Fixes GLA Scud Storm not being able to damage itself](#link__20210911__328_scud_storm_self_damage)
+- [2021-09-12 - Fixes Stealth General unable to build Hijacker from regular GLA Barracks](#link__20210912__331_stealth_general_build_bug)
+- [2021-09-13 - Fixes button errors on GLA Demo Combat Bike](#link__20210913__345_demo_combat_bike_suicide_button)
+- [2021-09-13 - Adds missing Camo Netting Upgrade icon to GLA Fake Arms Dealer](#link__20210913__353_fake_armsdealer_cameo)
+- [2021-09-13 - Adds missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units](#link__20210913__355_gla_anthrax_cameo)
+- [2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap](#link__20210916__370_quad_damage_model)
+- [2021-09-19 - Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade](#link__20210919__392_marauder_anthrax_type)
+- [2021-09-20 - Adds missing Stop button to GLA Tunnel and GLA Palace](#link__20210920__386_tunnel_palace_stop_button)
+- [2021-09-22 - Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction](#link__20210922__401_terrorist_poison_puddle)
+- [2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles](#link__20211001__440_demo_trap_triggered_by_puddles)
+- [2021-10-01 - Fixes the ECM immunity of Heroic GLA Quad Cannon](#link__20211001__442_vet3_quad_cannon_subdual)
+- [2021-10-09 - Fixes door times of powered GLA Arms Dealer to accomodate correct GLA Technical production](#link__20211009__538_armsdealer_power_doors)
+- [2021-10-10 - Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps](#link__20211010__541_fake_supply_animation)
+- [2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings](#link__20211010__544_stealth_saboteur_ability)
+- [2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market](#link__20211010__547_regular_saboteur_ability)
+- [2021-10-15 - Fixes wrong model during deconstruction of GLA Advanced Demo Trap](#link__20211015__563_demo_trap_sell_model)
+- [2021-10-31 - Adds climb animation for GLA Saboteur](#link__20211031__606_saboteur_climb_animation)
+- [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#link__20220722__727_buggy_required_xp)
+- [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#link__20220722__727_scud_launcher_required_xp)
+- [2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies](#link__20220729__783_demo_combat_bike_allies_damage)
+- [2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor](#link__20220805__820_toxin_tractor_salvage_models)
+- [2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player](#link__20220805__826_anthrax_bomb_poison_colors)
+- [2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush](#link__20220806__845_demo_ambush_tooltip_text)
+- [2022-08-12 - Removes GLA Hijacker ability to steal Combat Bike](#link__20220812__879_hijacker_bike_theft)
+- [2022-08-14 - Fixes toxin color errors](#link__20220814__851_toxin_color_errors)
+- [2022-08-14 - Improves visual quality of green and blue toxin puddles](#link__20220814__851_toxin_color_tweaks)
+- [2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius](#link__20220814__851_toxin_puddle_size)
+- [2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings](#link__20220814__885_fortified_structure_sell)
+- [2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max](#link__20220814__889_anthrax_gamma_damage_bonuses)
+- [2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members](#link__20220814__904_female_mob_death_voice)
+- [2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members](#link__20220814__905_male_mob_death_voice)
+- [2022-08-14 - Fixes missing death scream of some GLA Angry Mob members](#link__20220814__906_some_mob_death_voice)
+- [2022-08-15 - Fixes GLA Stinger Troopers not dying individually by USA Microwave Tank damage](#link__20220815__913_stinger_microwave_death)
+- [2022-08-20 - Adds upgrade voice for GLA Fortified Structure](#link__20220820__1026_fortified_structure_upgrade_voice)
+- [2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon](#link__20220820__937_quad_cannon_bones)
+- [2022-08-22 - Fixes insufficient range of GLA Scud Launcher missile](#link__20220822__1041_scud_launcher_missile_range)
+- [2022-08-29 - Fixes animation issues of GLA Angry Mob](#link__20220829__1037_mob_animation_issues)
+- [2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade](#link__20220902__1074_demo_scud_launcher_death_damage)
+- [2022-09-02 - Improves explosion effect of crushed GLA terror units](#link__20220902__1082_demo_units_crushed_death_particles)
+- [2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge](#link__20220903__1086_kassad_challenge_stinger_selection)
+- [2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds](#link__20220904__1096_scud_storm_worker_spawn_delay)
+- [2022-09-05 - Adds better fitting select sound for GLA Demo Trap](#link__20220905__1131_demo_trap_select_sound)
+- [2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect](#link__20220906__1130_demo_trap_flare_fadeout)
+- [2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target](#link__20220906__1136_bomb_truck_reveal)
+- [2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades](#link__20220906__1137_bomb_truck_damages)
+- [2022-09-06 - Improves particle effects of GLA Bomb Truck](#link__20220906__1137_bomb_truck_explosion_particles)
+- [2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200](#link__20220906__1137_bomb_truck_upgrade_cost)
+- [2022-09-06 - Improves locomotor of GLA Bomb Truck](#link__20220906__1138_bomb_truck_locomotor)
+- [2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400](#link__20220907__1153_combat_bike_required_xp)
+- [2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike](#link__20220908__1164_combat_bike_pilot_promotion)
+- [2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates](#link__20220909__1170_saboteur_scrap_rank_up)
+- [2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade](#link__20220909__1176_technical_muzzle_flash)
+- [2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank](#link__20220920__1228_scorpion_textures)
+- [2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm](#link__20220920__1229_utplates_upscaled_textures)
+- [2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus](#link__20220920__1231_battle_bus_textures)
+- [2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm](#link__20220920__1232_utscudparts02_utsilotop01_textures)
+- [2022-09-28 - Fixes utcloth textures for GLA structures](#link__20220928__1311_utcloth_textures)
+- [2022-09-28 - Fixes utcloth2 textures for GLA structures](#link__20220928__1312_utcloth2_textures)
+- [2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm](#link__20220928__1315_utscudslab_snow_textures)
+- [2022-09-29 - Fixes utconcroof textures for GLA structures](#link__20220929__1320_utconcroof_textures)
+- [2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps](#link__20221002__1325_scud_storm_night_lights)
+- [2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps](#link__20221002__1326_scud_storm_snow_damage)
+- [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#link__20221002__1328_utscudslab_upscaled_textures)
+- [2022-10-08 - Fixes missing muzzle flash and recoil animation on GLA Quad Cannon](#link__20221008__1340_quad_muzzle_flash_recoil)
+- [2023-01-08 - Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits](#link__20230108__1526_booby_trap_physics)
+- [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#link__20230108__1528_worker_death_animation)
+- [2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker](#link__20230121__1578_worker_clear_mines_button)
+- [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#link__20230209__1663_scorpion_death_model)
+- [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#link__20230211__1672_marauder_double_barrel_firing_sequence)
+- [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
+- [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#link__20230211__1703_scud_storm_idle_reload)
+- [2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage](#link__20230214__1706_stealth_rebel_reveal)
+- [2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death](#link__20230215__1714_scud_launcher_death_model)
+- [2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar](#link__20230215__1716_mob_radar_dots)
+- [2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion](#link__20230216__1726_wreck_spawn_after_death)
+- [2021-09-11 - Adds missing Hellfire Drone icon to Boss Paladin](#link__20210911__319_boss_paladin_cameo)
+- [2021-09-16 - Adds missing unit drop to Reinforcement Pad for Boss General](#link__20210916__375_boss_reinforcement_pad)
+- [2021-09-18 - Fixes wrong Stop button icon location of Boss Patriot Battery](#link__20210918__377_boss_patriot_stop_button)
+- [2021-09-18 - Fixes wrong tooltip text of Boss Nationalism Upgrade after Mines upgrade](#link__20210918__378_boss_nationalism_tooltip)
+- [2021-09-18 - Adds missing Neutron Mines to Boss Scud Storm](#link__20210918__380_boss_scud_storm_neutron_mines)
+- [2021-09-18 - Adds missing Chemical Suits upgrade icon to Boss Infantry units](#link__20210918__381_boss_chemical_suit_cameo)
+- [2021-09-19 - Fixes wrong Ranger types spawned from destroyed Boss buildings](#link__20210919__388_boss_ranger_types)
+- [2021-10-03 - Fixes hacking speed of Boss Hacker inside Internet Center](#link__20211003__450_boss_hacker_bonus)
+- [2021-10-03 - Fixes low vision range of Boss Jarmen Kell](#link__20211003__450_boss_jarmen_sight_range)
+- [2021-10-03 - Fixes low health value of Boss Black Lotus](#link__20211003__450_boss_lotus_health)
+- [2021-10-03 - Fixes retaliation behaviour of Boss Pathfinder](#link__20211003__450_boss_pathfinder_retaliation)
+- [2021-10-03 - Fixes the microwave immunity of Boss Bunker](#link__20211003__451_boss_bunker_microwave_damage)
+- [2021-10-03 - Adds missing Subliminal Messaging upgrade icon to Boss Propaganda Tower](#link__20211003__451_boss_propaganda_tower_cameo)
+- [2021-10-03 - Fixes fast build time of Boss Tunnel Network](#link__20211003__451_boss_tunnel_build_time)
+- [2021-10-03 - Fixes issues of Boss Sentry Drone](#link__20211003__453_boss_sentry_issues)
+- [2021-10-03 - Fixes issues of Boss Avenger](#link__20211003__454_boss_avenger_issues)
+- [2021-10-03 - Fixes issues of Boss King Raptor](#link__20211003__456_boss_raptor_issues)
+- [2021-10-03 - Fixes issues of Boss Helix](#link__20211003__457_boss_helix_issues)
+- [2022-10-15 - Fixes missing Control Rods upgrade icon on Boss Power Plant](#link__20221015__1372_boss_reactor_upgrade_cameo)
+- [2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad](#link__20210911__308_reinforcement_pad_xp_reward)
+- [2021-09-11 - Removes kill experience reward of Civilian Repair Pad](#link__20210911__308_repair_pad_xp_reward)
+- [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
+- [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#link__20211016__568_repair_bay_ruin_model)
+- [2021-10-17 - Adds Radar Station Tech building (for custom maps)](#link__20211017__571_radar_station_tech)
+- [2021-10-17 - Adds Generals Mammoth Tank (for custom maps)](#link__20211017__572_mammoth_tank)
+- [2022-08-14 - Fixes mismatching toxin puddle colors from destroyed chemical civilian buildings.](#link__20220814__903_civ_buildings_toxin_colors)
+- [2022-11-06 - Removes airplane avoidance setup from some small structures](#link__20221106__1447_airplane_avoidance)
+- [2023-02-04 - Fixes crushable levels of Civilian cars](#link__20230204__1625_civ_car_crushable_level)
+- [2023-02-04 - Fixes crusher levels of Civilian cars](#link__20230204__1625_civ_car_crusher_level)
+- [2023-02-04 - Fixes proper display names to Civilian vehicles.](#link__20230204__1626_cars_name_text)
+- [2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees](#link__20230205__1638_humvee1_transition_damage_effects)
+- [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#link__20230205__1639_civ_damaged_state_models)
+- [2023-02-05 - Adds transition damage effects to Civilian vehicles](#link__20230205__1639_civ_transition_damage_effects)
+- [2023-02-07 - Fixes wrecks of Civilian vehicles to be no longer pushable and attackable](#link__20230207__1646_civilian_cars_flags)
+- [2023-02-07 - Adds suicide car bomb ability to Civilian Crop Duster](#link__20230207__1647_aircraft_carbomb_ability)
+- [2021-08-28 - Fixes Anthrax Gamma streams showing with green particles when clearing buildings](#link__20210828__84_green_gamma_toxin_streams)
+- [2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once](#link__20210830__122_ui_faction_list_size)
+- [2021-09-03 - Fixes issue that prevents evacuating different vehicles in a group selection](#link__20210903__165_vehicle_evacuation_button_placement)
+- [2021-09-09 - Fixes broken weapons and animations of GLA HiDef Scud Launcher](#link__20210909__258_hidef_scud_launcher)
+- [2021-09-10 - Fixes dummy weapons invoking confusing attack effects and notifications](#link__20210910__279_dummy_weapon_attack_notification)
+- [2021-09-11 - Adds missing air attack voices to various units](#link__20210911__293_air_attack_voices)
+- [2021-09-11 - Fixes incorrect air attack sound of China Minigunner](#link__20210911__315_minigunner_air_attack_sound)
+- [2021-09-11 - Fixes USA Spectre button, portrait and upgrade icons](#link__20210911__323_spectre_button_cameo)
+- [2021-09-12 - Fixes wrong object categories in World Builder](#link__20210912__332_worldbuilder_object_categories)
+- [2021-09-19 - Adds missing Scrap Salvage to Boss Tomahawk](#link__20210919__389_usa05_boss_tomahawk_scrap_crate)
+- [2021-09-19 - Adds missing Scrap Salvage to GLA Scud Launcher of USA05 Campaign](#link__20210919__390_usa05_scud_launcher_salvage_crate)
+- [2021-10-07 - Fixes issues with GLA Stealth base defenses in GLA02 campaign](#link__20211007__512_gla02_defenses_issues)
+- [2021-10-07 - Fixes issues with GLA Toxin base defenses in USA05 campaign](#link__20211007__513_usa05_defenses_issues)
+- [2021-10-07 - Fixes issues with GLA Stealth buildings in GLA02 campaign](#link__20211007__514_gla02_buildings_issues)
+- [2021-10-07 - Fixes issues with GLA Toxin buildings in USA05 campaign](#link__20211007__515_usa05_buildings_issues)
+- [2021-10-07 - Fixes issues with GLA Stealth infantry in GLA02 campaign](#link__20211007__519_gla02_infantry_issues)
+- [2021-10-07 - Fixes issues with GLA Toxin infantry in USA05 campaign](#link__20211007__520_usa05_infantry_issues)
+- [2021-10-07 - Fixes issues with GLA Stealth vehicles in GLA02 campaign](#link__20211007__521_gla02_vehicles_issues)
+- [2021-10-07 - Fixes issues with GLA Toxin vehicle in USA05 campaign](#link__20211007__522_usa05_vehicles_issues)
+- [2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air](#link__20211016__567_demo_combat_bike_drop)
+- [2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building](#link__20211016__568_reinforcement_pad_ruin_model)
+- [2022-01-01 - Fixes text setup errors and inconsistencies for all native game languages](#link__20220101__634_text_errors)
+- [2022-07-22 - Recoveres 483 high quality textures from Generals](#link__20220722__734_high_res_textures)
+- [2022-07-24 - Replaces 'Commander' with 'General' in all language strings](#link__20220724__750_commander_texts)
+- [2022-07-24 - Fixes some cramped language strings in Options and Replay menu](#link__20220724__750_cramped_texts)
+- [2022-07-24 - Fixes some errors in German language strings](#link__20220724__750_german_text_errors)
+- [2022-07-24 - Replaces STS and CCH characters with quotes in all language strings](#link__20220724__750_quote_text_errors)
+- [2022-07-24 - Replaces NEL characters with three dots in all language strings](#link__20220724__750_three_dot_text_errors)
+- [2022-08-05 - Fixes inconsistent press styles on Idle Worker and Place Beacon buttons](#link__20220805__825_idle_worker_place_beacon_buttons)
+- [2022-08-08 - Fixes the issue of inherent faction upgrades being granted upon constructing respective faction structures.](#link__20220808__827_inherent_faction_upgrades)
+- [2022-08-12 - Removes Supply Center to supply stash build distance restriction](#link__20220812__873_supply_stash_build_distance)
+- [2022-08-13 - Removes damage effects from immortal civilian structures](#link__20220813__883_immortal_effects)
+- [2022-08-14 - Fixes rough edges and pink color cast in Infantry decal shadows](#link__20220814__867_infantry_shadow_decal)
+- [2022-08-20 - Adds USA Supply Lines upgrade icon to Oil Derrick](#link__20220820__945_oil_derrick_upgrades_cameo)
+- [2022-08-23 - Fixes issues of the USA Laser Superweapon (cut content)](#link__20220823__967_laser_particle_cannon)
+- [2022-08-26 - Fixes misplaced and missing shovel dirt particles on USA Dozer when clearing mines](#link__20220826__1019_usa_dozer_clear_mines_particles)
+- [2022-08-26 - Improves Oil Refinery tooltip text](#link__20220826__943_oil_refinery_tooltip_text)
+- [2022-08-26 - Adds better 3D model for classic carpet bomb model](#link__20220826__949_carpet_bomb_model)
+- [2022-09-01 - Fixes ugly artifacts in ground aligned flare effects](#link__20220901__1069_ground_flare_particles)
+- [2022-09-01 - Improves visuals of binary data stream](#link__20220901__1070_binary_data_stream_visuals)
+- [2022-09-01 - Fixes broken voice line of China Battlemaster in French, German locales](#link__20220901__1071_battlemaster_voice)
+- [2022-09-01 - Fixes broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales](#link__20220901__1071_gamma_terrorist_death)
+- [2022-09-03 - Removes invisible attackable object above Townes base in Generals Challenge](#link__20220903__1087_townes_challenge_attackable_objects)
+- [2022-09-03 - Fixes sliding animation issue of bare Stinger Trooper in Kassads Generals Challenge](#link__20220903__1088_kassad_challenge_stinger_slide)
+- [2022-09-03 - Fixes terrain clipping of particle effects](#link__20220903__1089_z_clipping_particles)
+- [2022-09-07 - Fixes small size of muzzle flash effects of China Battlemaster](#link__20220907__1154_battlemaster_muzzle_flash_size)
+- [2022-09-15 - Fixes vehicle wreck spawn position errors](#link__20220915__1207_wreck_spawn_position_offset)
+- [2022-09-19 - Fixes particle effect fadeout issues](#link__20220919__1223_lens_flare_fadeout)
+- [2022-09-21 - Fixes missing pieces in trcobbroad texture for cobble road](#link__20220921__1236_trcobbroad_texture)
+- [2022-09-24 - Fixes wrong creation audio setup of GLA Saboteur](#link__20220924__1281_saboteur_creation_sound)
+- [2022-09-24 - Fixes wrong death audio setup of GLA Technical](#link__20220924__1282_technical_death_sound)
+- [2022-09-27 - Fixes pmtorch textures](#link__20220927__1306_pmtorch_textures)
+- [2022-10-16 - Decreases LAN Match Countdown from 5 to 3 seconds](#link__20221016__1378_lan_countdown)
+- [2022-10-22 - Streamlines drift velocity of prominent smoke and steam particles](#link__20221022__1402_particles_drift_velocity)
+- [2022-11-04 - Fixes missing construction ambient sounds of several structures](#link__20221104__1419_construction_ambient_sound)
+- [2022-11-05 - Adds sounds to infantry units entering and exiting a Barracks for healing](#link__20221105__1426_barracks_healing_enter_sound)
+- [2022-12-01 - Adds new terrain scorches for explosion effects](#link__20221201__1489_explosion_scorches)
+- [2022-12-01 - Fixes wrong USA EMP Patriot model during construction and deconstruction](#link__20221201__1492_emp_patriot_sell_model)
+- [2022-12-04 - Fixes invisible desert shrub bush objects](#link__20221204__1488_invisible_desert_shrub_bushes)
+- [2022-12-04 - Tweaks terrain scorch sizes of explosion effects](#link__20221204__1494_scorch_sizes)
+- [2022-12-05 - Improves scorch texture quality](#link__20221205__1495_scorch_textures)
+- [2022-12-15 - Removes duplicate shockwave effects from aircraft explosions](#link__20221215__1504_duplicate_explosion_shockwave)
+- [2023-01-01 - Improves placement view angle of faction base defenses](#link__20230101__1514_defenses_placement_angle)
+- [2023-01-06 - Fixes infantry missile particle effects](#link__20230106__1520_missile_particles)
+- [2023-01-08 - Fixes excontrail texture](#link__20230108__1531_excontrail_texture)
+- [2023-01-08 - Fixes duplicate terrain scorches on vehicle deaths](#link__20230108__1535_duplicate_scorch_spawn)
+- [2023-01-14 - Fixes wrong border colors of GLA Bomb Truck upgrade command buttons](#link__20230114__1548_bomb_truck_button_border)
+- [2023-01-14 - Adds missing border colors to USA Battle Plan command buttons](#link__20230114__1549_strategy_center_button_border)
+- [2023-01-20 - Changes border color of GLA Worker Fake Structure command button from orange to green](#link__20230120__1571_worker_fake_button_border)
+- [2023-01-20 - Removes border colors from all Special Power Shortcut command buttons](#link__20230120__1573_special_power_shortcut_button_border)
+- [2023-01-23 - Adds missing fire sound for building attack of USA Microwave Tank](#link__20230123__1595_microwave_attack_sound)
+- [2023-01-28 - Removes custom placement view angle from vehicles](#link__20230128__1609_custom_placement_angle)
+- [2023-01-29 - Sets kill on resting for vehicle wrecks](#link__20230129__1710_wreck_kill_on_resting)
+- [2023-01-29 - Sets consistent lifetimes for vehicle wrecks](#link__20230129__1710_wreck_lifetime)
+- [2023-02-05 - Removes non-functional Civilian FarmerTruck object](#link__20230205__1634_farmertruck)
+- [2022-10-05 - Adds slightly pitched sounds for some air weapons](#link__20221005__1335_pitched_air_weapon_sounds)
 
 
 
 ---
-### 2021-09-07 - Fixes China Nuke Missile exploit <a name='index__0__209_nuke_missile_exploit'></a>
+### 2021-09-07 - Fixes China Nuke Missile exploit <a name='link__20210907__209_nuke_missile_exploit'></a>
 **Changes**
 
 - **FIX**: Fixes the China Nuke Missile exploit.
@@ -602,7 +602,7 @@ Contains 537 entries with
 **Source:** 209_nuke_missile_exploit.yaml
 
 ---
-### 2021-08-27 - Fixes GLA Scud Storm exploit <a name='index__1__72_scud_bug'></a>
+### 2021-08-27 - Fixes GLA Scud Storm exploit <a name='link__20210827__72_scud_bug'></a>
 **Changes**
 
 - **FIX**: Removes the ability to launch the GLA Scud Storm before its timer runs out.
@@ -618,7 +618,7 @@ Contains 537 entries with
 **Source:** 72_scud_bug.yaml
 
 ---
-### 2022-07-27 - Fixes game crash upon the use of a GLA Terrorist <a name='index__2__764_terrorist_crash'></a>
+### 2022-07-27 - Fixes game crash upon the use of a GLA Terrorist <a name='link__20220727__764_terrorist_crash'></a>
 **Changes**
 
 - **FIX**: Game no longer crashes when using Toxin GLA Terrorist (1)
@@ -636,7 +636,7 @@ Contains 537 entries with
 **Source:** 764_terrorist_crash.yaml
 
 ---
-### 2021-08-22 - Fixes critical issue that crashes all clients in a match <a name='index__3__0_crash_bug'></a>
+### 2021-08-22 - Fixes critical issue that crashes all clients in a match <a name='link__20210822__0_crash_bug'></a>
 **Changes**
 
 - **FIX**: Game no longer crashes all clients in a specific match scenario.
@@ -648,7 +648,7 @@ Contains 537 entries with
 **Source:** 0_crash_bug.yaml
 
 ---
-### 2022-08-05 - Fixes potential unresponsive Control Bar buttons <a name='index__4__824_promotion_buttons'></a>
+### 2022-08-05 - Fixes potential unresponsive Control Bar buttons <a name='link__20220805__824_promotion_buttons'></a>
 **Changes**
 
 - **FIX**: Fixes potential unresponsive buttons in Generals Promotion and Control Bar.
@@ -664,7 +664,7 @@ Contains 537 entries with
 **Source:** 824_promotion_buttons.yaml
 
 ---
-### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='index__5__412_tanks_xp_reward'></a>
+### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
@@ -680,7 +680,7 @@ Contains 537 entries with
 **Source:** 412_tanks_xp_reward.yaml
 
 ---
-### 2021-08-22 - Fixes lags caused by the USA Patriot assist beam <a name='index__6__0_patriot_beam_lag'></a>
+### 2021-08-22 - Fixes lags caused by the USA Patriot assist beam <a name='link__20210822__0_patriot_beam_lag'></a>
 **Changes**
 
 - **OPTIMIZATION**: Decreases the lag of USA Patriot missile assist effect by around 60%.
@@ -692,7 +692,7 @@ Contains 537 entries with
 **Source:** 0_patriot_beam_lag.yaml
 
 ---
-### 2021-08-22 - Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone <a name='index__7__3_supply_drop_zone_bug'></a>
+### 2021-08-22 - Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone <a name='link__20210822__3_supply_drop_zone_bug'></a>
 **Changes**
 
 - **FIX**: The USA Supply Drop Zone, while being built, is now immune to the Microwave Tank disable beam. When completed, it is possible to disable them as usual.
@@ -708,7 +708,7 @@ Contains 537 entries with
 **Source:** 3_supply_drop_zone_bug.yaml
 
 ---
-### 2021-08-23 - Fixes issue that permanently reduces the power level of a player <a name='index__8__7_negative_power_bug'></a>
+### 2021-08-23 - Fixes issue that permanently reduces the power level of a player <a name='link__20210823__7_negative_power_bug'></a>
 **Changes**
 
 - **FIX**: USA and China Power Plants, if disabled by a Microwave Tank, will suppress their power production until the Microwave Tank stops. However, if they are disabled while being built, then they will lose power that they never produced. Once construction is complete, the power plant will produce net zero power, upgrades and overcharge notwithstanding. And if that structure or any other Power Plant is sold, the player will have permanent negative power. With this fix it is no longer possible to disable Power Plants while they are being built.
@@ -726,7 +726,7 @@ Contains 537 entries with
 **Source:** 7_negative_power_bug.yaml
 
 ---
-### 2021-09-10 - Fixes USA Humvee without TOW missile stopping moving after targeting air unit <a name='index__9__270_humvee_air_target'></a>
+### 2021-09-10 - Fixes USA Humvee without TOW missile stopping moving after targeting air unit <a name='link__20210910__270_humvee_air_target'></a>
 **Changes**
 
 - **FIX**: The USA Humvee no longer stops moving when attack moving into a group of units with airborne targets, such as other Humvees with Scout Drones.
@@ -742,7 +742,7 @@ Contains 537 entries with
 **Source:** 270_humvee_air_target.yaml
 
 ---
-### 2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers <a name='index__10__407_avenger_composite_armor'></a>
+### 2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers <a name='link__20210923__407_avenger_composite_armor'></a>
 **Changes**
 
 - **TWEAK**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
@@ -758,7 +758,7 @@ Contains 537 entries with
 **Source:** 407_avenger_composite_armor.yaml
 
 ---
-### 2022-08-06 - Makes USA Supply Drop Zone Cargo Planes unattackable <a name='index__11__836_unattackable_drop_zone_cargo_planes'></a>
+### 2022-08-06 - Makes USA Supply Drop Zone Cargo Planes unattackable <a name='link__20220806__836_unattackable_drop_zone_cargo_planes'></a>
 **Changes**
 
 - **TWEAK**: The USA Supply Drop Zone Cargo Planes can not longer be attacked. This
@@ -781,7 +781,7 @@ Contains 537 entries with
 **Source:** 836_unattackable_drop_zone_cargo_planes.yaml
 
 ---
-### 2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee <a name='index__12__1162_sentry_drone_build_cost'></a>
+### 2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee <a name='link__20220908__1162_sentry_drone_build_cost'></a>
 **Changes**
 
 - **TWEAK**: Decreases cost of regular USA Sentry Drone from 800 to 700.
@@ -800,7 +800,7 @@ Contains 537 entries with
 **Source:** 1162_sentry_drone_build_cost.yaml
 
 ---
-### 2022-09-08 - Increases USA Sentry Drone gun damage by 20% <a name='index__13__1162_sentry_drone_damage'></a>
+### 2022-09-08 - Increases USA Sentry Drone gun damage by 20% <a name='link__20220908__1162_sentry_drone_damage'></a>
 **Changes**
 
 - **TWEAK**: Increases USA Sentry Drone gun damage by 20%, from 40 to 50. This makes the Machine Gun damage output identical with the Vet 0 Humvee.
@@ -816,7 +816,7 @@ Contains 537 entries with
 **Source:** 1162_sentry_drone_damage.yaml
 
 ---
-### 2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone <a name='index__14__1162_sentry_drone_deployment'></a>
+### 2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone <a name='link__20220908__1162_sentry_drone_deployment'></a>
 **Changes**
 
 - **TWEAK**: Removes the gun deployment mechanic from USA Sentry Drone. It no longer requires 1 second to acquire a fresh target, and 2 seconds to engage a consecutive target if it needs to move to a new position. This is a time and performance boost. It will also make the unit feel more responsive in combat situations.
@@ -832,7 +832,7 @@ Contains 537 entries with
 **Source:** 1162_sentry_drone_deployment.yaml
 
 ---
-### 2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70% <a name='index__15__1162_sentry_drone_movement'></a>
+### 2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70% <a name='link__20220908__1162_sentry_drone_movement'></a>
 **Changes**
 
 - **TWEAK**: Decreases the acceleration time of USA Sentry Drone by 70%, from 1000 to 300 ms.
@@ -848,7 +848,7 @@ Contains 537 entries with
 **Source:** 1162_sentry_drone_movement.yaml
 
 ---
-### 2022-09-08 - Increases sight range of USA Sentry Drone by 30% <a name='index__16__1162_sentry_drone_sight_range'></a>
+### 2022-09-08 - Increases sight range of USA Sentry Drone by 30% <a name='link__20220908__1162_sentry_drone_sight_range'></a>
 **Changes**
 
 - **TWEAK**: Increases the sight range of USA Sentry Drone by 30%, from 350 to 400.
@@ -864,7 +864,7 @@ Contains 537 entries with
 **Source:** 1162_sentry_drone_sight_range.yaml
 
 ---
-### 2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones <a name='index__17__1162_sentry_drone_tracks'></a>
+### 2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones <a name='link__20220908__1162_sentry_drone_tracks'></a>
 **Changes**
 
 - **TWEAK**: Replaces terrain tracks of USA Sentry Drone with less transparent ones. This makes the tracks less visible than those of tanks and China Outpost.
@@ -880,7 +880,7 @@ Contains 537 entries with
 **Source:** 1162_sentry_drone_tracks.yaml
 
 ---
-### 2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20% <a name='index__18__1162_sentry_drone_upgrade'></a>
+### 2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20% <a name='link__20220908__1162_sentry_drone_upgrade'></a>
 **Changes**
 
 - **TWEAK**: Decreases USA Sentry Drone gun upgrade time by 66%, from 30 to 10 seconds.
@@ -897,7 +897,7 @@ Contains 537 entries with
 **Source:** 1162_sentry_drone_upgrade.yaml
 
 ---
-### 2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead <a name='index__19__1220_pilot_humvee_passenger'></a>
+### 2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead <a name='link__20220918__1220_pilot_humvee_passenger'></a>
 **Changes**
 
 - **TWEAK**: Forbids NO_GARRISON flag objects from entering Humvee. NO_GARRISON is unique to Pilot and makes it unable to enter civilian buildings, Tunnels and Bunkers. Cursor still appears and it promotes the Humvee when entered. Therefore a Vet 3 Humvee can no longer transport Pilots.
@@ -913,7 +913,7 @@ Contains 537 entries with
 **Source:** 1220_pilot_humvee_passenger.yaml
 
 ---
-### 2023-01-07 - Fixes USA Strategy Center Gun attack issues <a name='index__20__1524_strategy_center_gun_attack'></a>
+### 2023-01-07 - Fixes USA Strategy Center Gun attack issues <a name='link__20230107__1524_strategy_center_gun_attack'></a>
 **Changes**
 
 - **FIX**: USA Strategy Center Gun now correctly attacks selected targets always.
@@ -929,7 +929,7 @@ Contains 537 entries with
 **Source:** 1524_strategy_center_gun_attack.yaml
 
 ---
-### 2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0% <a name='index__21__1554_hold_line_plan_armor_bonus'></a>
+### 2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0% <a name='link__20230115__1554_hold_line_plan_armor_bonus'></a>
 **Changes**
 
 - **FIX**: Increases the USA unit armor bonus of HOLD THE LINE Battle Plan from 11.1% to 20.0%. Armor bonus is synonymous for damage resistance. This makes the use of the HOLD THE LINE Battle Plan more attractive for all USA factions. Traditionally USA favors the SEARCH AND DESTROY Battle Plan above the others by a large margin.
@@ -945,7 +945,7 @@ Contains 537 entries with
 **Source:** 1554_hold_line_plan_armor_bonus.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade <a name='index__22__1705_comanche_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
 **Changes**
 
 - **FEATURE**: The USA Comanche Rocket Pod will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire a few of its rockets and at least 30 seconds pass until the next attack.
@@ -961,7 +961,7 @@ Contains 537 entries with
 **Source:** 1705_comanche_idle_reload.yaml
 
 ---
-### 2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings <a name='index__23__4_listening_outpost_attack_bug'></a>
+### 2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings <a name='link__20210822__4_listening_outpost_attack_bug'></a>
 **Changes**
 
 - **FIX**: All Listening Outposts can now attack all targets properly.
@@ -978,7 +978,7 @@ Contains 537 entries with
 **Source:** 4_listening_outpost_attack_bug.yaml
 
 ---
-### 2021-08-22 - Improves mobility of China Dozer <a name='index__24__6_china_dozer_locomotor'></a>
+### 2021-08-22 - Improves mobility of China Dozer <a name='link__20210822__6_china_dozer_locomotor'></a>
 **Changes**
 
 - **TWEAK**: Improves the mobility of the China Dozer to avoid scenarios where it gets stuck unnecessarily. This is implemented by changing the locomotor appearance from TREADS to FOUR_WHEELS.
@@ -994,7 +994,7 @@ Contains 537 entries with
 **Source:** 6_china_dozer_locomotor.yaml
 
 ---
-### 2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely <a name='index__25__410_nuke_missile_blasts'></a>
+### 2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely <a name='link__20210905__410_nuke_missile_blasts'></a>
 **Changes**
 
 - **FIX**: The China Nuke Missile can now destroy GLA structures in one shot without leaving the GLA hole to repair.
@@ -1010,7 +1010,7 @@ Contains 537 entries with
 **Source:** 410_nuke_missile_blasts.yaml
 
 ---
-### 2021-09-07 - Adds missing Subliminal Messaging bonus to China Emperor <a name='index__26__236_emperor_subliminal'></a>
+### 2021-09-07 - Adds missing Subliminal Messaging bonus to China Emperor <a name='link__20210907__236_emperor_subliminal'></a>
 **Changes**
 
 - **FIX**: The China Emperor Tank now benefits from Subliminal Messaging, meaning the healing rate can be upgraded from 1% per second to 2% per second. With Subliminal Messaging, the unit will grant the SUBLIMINAL status to nearby units, which means an additional +25% Rate of Fire.
@@ -1026,7 +1026,7 @@ Contains 537 entries with
 **Source:** 236_emperor_subliminal.yaml
 
 ---
-### 2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit <a name='index__27__262_neutron_shell_exploit'></a>
+### 2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit <a name='link__20210909__262_neutron_shell_exploit'></a>
 **Changes**
 
 - **FIX**: The China Nuke Cannon Neutron Shells can no longer be exploited.
@@ -1042,7 +1042,7 @@ Contains 537 entries with
 **Source:** 262_neutron_shell_exploit.yaml
 
 ---
-### 2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment <a name='index__28__269_nuke_cannon_attack_target'></a>
+### 2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment <a name='link__20210910__269_nuke_cannon_attack_target'></a>
 **Changes**
 
 - **FIX**: The China Nuke Cannon will no longer target the nearest enemy while ordered to attack any enemy in range. Instead, it will prioritize the enemy that was directly ordered to be attacked, preventing it from wasting its first shot on an auto-selected target.
@@ -1058,7 +1058,7 @@ Contains 537 entries with
 **Source:** 269_nuke_cannon_attack_target.yaml
 
 ---
-### 2021-09-25 - Decreases required level up experience of China Black Lotus by 82% <a name='index__29__413_lotus_required_xp'></a>
+### 2021-09-25 - Decreases required level up experience of China Black Lotus by 82% <a name='link__20210925__413_lotus_required_xp'></a>
 **Changes**
 
 - **TWEAK**: Decreases the required level up experience of China Black Lotus from 100 200 400 to 40 80 160. This allows Black Lotus to level up quicker, but on average still requires more time than USA Colonel Burton and GLA Jarmen Kell do.
@@ -1076,7 +1076,7 @@ Contains 537 entries with
 **Source:** 413_lotus_required_xp.yaml
 
 ---
-### 2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62% <a name='index__30__413_lotus_xp_reward'></a>
+### 2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62% <a name='link__20210925__413_lotus_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Decreases the kill XP reward of China Black Lotus from 50 100 150 400 to 50 50 100 150. These levels are consistent with those of other Hero units.
@@ -1092,7 +1092,7 @@ Contains 537 entries with
 **Source:** 413_lotus_xp_reward.yaml
 
 ---
-### 2021-12-24 - Removes auto engage behaviour from China ECM Tank <a name='index__31__631_ecm_auto_attack'></a>
+### 2021-12-24 - Removes auto engage behaviour from China ECM Tank <a name='link__20211224__631_ecm_auto_attack'></a>
 **Changes**
 
 - **FIX**: Removes the auto engage behaviour from China ECM Tanks. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same.
@@ -1108,7 +1108,7 @@ Contains 537 entries with
 **Source:** 631_ecm_auto_attack.yaml
 
 ---
-### 2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms <a name='index__32__785_china_cc_door_times'></a>
+### 2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms <a name='link__20220729__785_china_cc_door_times'></a>
 **Changes**
 
 - **TWEAK**: Decreases the China Command Center door times from 3000 to 1500 ms. This equals the door times of the USA Command Center. It enables China to build the second Dozer 1500 ms quicker.
@@ -1124,7 +1124,7 @@ Contains 537 entries with
 **Source:** 785_china_cc_door_times.yaml
 
 ---
-### 2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms <a name='index__33__786_china_factory_door_times'></a>
+### 2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms <a name='link__20220730__786_china_factory_door_times'></a>
 **Changes**
 
 - **TWEAK**: Decreases the China War Factory door times from 4000 to 3300 ms. This equals the door times of the USA War Factory. It enables China to build all vehicles 700 ms quicker.
@@ -1140,7 +1140,7 @@ Contains 537 entries with
 **Source:** 786_china_factory_door_times.yaml
 
 ---
-### 2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability <a name='index__34__837_satellite_hack_ii_ability'></a>
+### 2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability <a name='link__20220806__837_satellite_hack_ii_ability'></a>
 **Changes**
 
 - **FEATURE**: Changes the China Satellite Hack II upgrade into a manually activated spy ability. It keeps the same duration and cooldown, but instead of being automatically activated, it is now an ability similar to the Strategy Center Intelligence.
@@ -1156,7 +1156,7 @@ Contains 537 entries with
 **Source:** 837_satellite_hack_ii_ability.yaml
 
 ---
-### 2022-08-06 - Adds functional Speaker Tower to China Propaganda Center <a name='index__35__839_propaganda_center_speaker_tower'></a>
+### 2022-08-06 - Adds functional Speaker Tower to China Propaganda Center <a name='link__20220806__839_propaganda_center_speaker_tower'></a>
 **Changes**
 
 - **FEATURE**: Adds a functional Speaker Tower to the China Propaganda Center. The model of the structure is unchanged, because it already has the tower. It works identical to the regular Speaker Tower.
@@ -1172,7 +1172,7 @@ Contains 537 entries with
 **Source:** 839_propaganda_center_speaker_tower.yaml
 
 ---
-### 2022-08-14 - Increases damage and radius of China Nuke Missile <a name='index__36__871_nuke_missile_damage_and_radius'></a>
+### 2022-08-14 - Increases damage and radius of China Nuke Missile <a name='link__20220814__871_nuke_missile_damage_and_radius'></a>
 **Changes**
 
 - **TWEAK**: Increases China Nuke Missile damage by 20%.
@@ -1194,7 +1194,7 @@ Contains 537 entries with
 **Source:** 871_nuke_missile_damage_and_radius.yaml
 
 ---
-### 2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms <a name='index__37__1199_gattling_spin_timeout'></a>
+### 2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms <a name='link__20220914__1199_gattling_spin_timeout'></a>
 **Changes**
 
 - **TWEAK**: Increases GattlingTankGun ContinuousFireCoast from 1000 to 2000 ms. This matches the setup from Generals (CCG) and also the setting from the Zero Hour (ZH) GattlingTankGunAir. With this change the Gattling Tank gun can be microed more generously to squeeze out the most damage potential.
@@ -1210,7 +1210,7 @@ Contains 537 entries with
 **Source:** 1199_gattling_spin_timeout.yaml
 
 ---
-### 2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds <a name='index__38__1564_inferno_cannon_fire_storm'></a>
+### 2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds <a name='link__20230118__1564_inferno_cannon_fire_storm'></a>
 **Changes**
 
 - **FIX**: Inferno Cannon shell hits now trigger sounds and fire storms reliably.
@@ -1226,7 +1226,7 @@ Contains 537 entries with
 **Source:** 1564_inferno_cannon_fire_storm.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor <a name='index__39__1670_overlord_emperor_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
 **Changes**
 
 - **FIX**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
@@ -1242,7 +1242,7 @@ Contains 537 entries with
 **Source:** 1670_overlord_emperor_idle_reload.yaml
 
 ---
-### 2021-08-22 - Fixes GLA Stealth Palace remaining stealhed while its passengers shoot <a name='index__40__75_stealthed_palace_bug'></a>
+### 2021-08-22 - Fixes GLA Stealth Palace remaining stealhed while its passengers shoot <a name='link__20210822__75_stealthed_palace_bug'></a>
 **Changes**
 
 - **FIX**: Firing infantry units inside the stealthed GLA Palace now reveal the structure.
@@ -1258,7 +1258,7 @@ Contains 537 entries with
 **Source:** 75_stealthed_palace_bug.yaml
 
 ---
-### 2021-08-28 - Fixes GLA Demo Trap getting triggered by nearby enemy scaffold <a name='index__41__94_demotrap_scaffold_trigger'></a>
+### 2021-08-28 - Fixes GLA Demo Trap getting triggered by nearby enemy scaffold <a name='link__20210828__94_demotrap_scaffold_trigger'></a>
 **Changes**
 
 - **FIX**: Demo Traps can no longer be triggered by enemy scaffolds.
@@ -1274,7 +1274,7 @@ Contains 537 entries with
 **Source:** 94_demotrap_scaffold_trigger.yaml
 
 ---
-### 2021-09-11 - Fixes GLA Car Bomb unable to attack target <a name='index__42__307_car_bomb_attack_bug'></a>
+### 2021-09-11 - Fixes GLA Car Bomb unable to attack target <a name='link__20210911__307_car_bomb_attack_bug'></a>
 **Changes**
 
 - **FIX**: When aiming a GLA Car Bomb at a unit that is driving away, the Car Bomb will no longer stop moving all of a sudden. It keeps attacking until the target is hit or the car is destroyed.
@@ -1290,7 +1290,7 @@ Contains 537 entries with
 **Source:** 307_car_bomb_attack_bug.yaml
 
 ---
-### 2021-09-12 - Fixes issue where GLA Demo Terrorist can be crushed without applying any damage <a name='index__43__316_demo_terrorist_damage'></a>
+### 2021-09-12 - Fixes issue where GLA Demo Terrorist can be crushed without applying any damage <a name='link__20210912__316_demo_terrorist_damage'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Terrorist will now explode when crushed, burned, or exploded like other GLA Terrorists.
@@ -1306,7 +1306,7 @@ Contains 537 entries with
 **Source:** 316_demo_terrorist_damage.yaml
 
 ---
-### 2021-09-12 - Fixes issue where Demo GLA Terrorist can die on China Mines without applying any damage <a name='index__44__316_demo_terrorist_mines_damage'></a>
+### 2021-09-12 - Fixes issue where Demo GLA Terrorist can die on China Mines without applying any damage <a name='link__20210912__316_demo_terrorist_mines_damage'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Terrorist will now always explode and apply damage when dying on mines.
@@ -1322,7 +1322,7 @@ Contains 537 entries with
 **Source:** 316_demo_terrorist_mines_damage.yaml
 
 ---
-### 2021-10-10 - Fixes mismatching particle effects of GLA Black Market and Fake Market <a name='index__45__542_fake_market_particles'></a>
+### 2021-10-10 - Fixes mismatching particle effects of GLA Black Market and Fake Market <a name='link__20211010__542_fake_market_particles'></a>
 **Changes**
 
 - **FIX**: The particle effects of the GLA Black Market and Fake Market no look identical. This way it is no longer possible to tell these structures apart by their core visuals.
@@ -1338,7 +1338,7 @@ Contains 537 entries with
 **Source:** 542_fake_market_particles.yaml
 
 ---
-### 2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold <a name='index__46__595_cash_bounty_activation'></a>
+### 2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold <a name='link__20211024__595_cash_bounty_activation'></a>
 **Changes**
 
 - **FIX**: The GLA Cash Bounty is no longer activated with an unfinished Command Center. The Command Center construction must finish to complete the activation process. After activation is completed, the Command Center can be demolished and the Cash Bounty will stay active. A new Cash Bounty level will require a new Command Center for activation however.
@@ -1354,7 +1354,7 @@ Contains 537 entries with
 **Source:** 595_cash_bounty_activation.yaml
 
 ---
-### 2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist <a name='index__47__695_toxin_terrorist_death'></a>
+### 2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist <a name='link__20220716__695_toxin_terrorist_death'></a>
 **Changes**
 
 - **FIX**: Toxin Terrorists no longer kill each other with chain reactions at random events.
@@ -1370,7 +1370,7 @@ Contains 537 entries with
 **Source:** 695_toxin_terrorist_death.yaml
 
 ---
-### 2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists <a name='index__48__697_all_terrorist_crush_damage'></a>
+### 2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists <a name='link__20220716__697_all_terrorist_crush_damage'></a>
 **Changes**
 
 - **FEATURE**: All GLA Terrorists can now be crushed. Originally only the Demo Terrorist could be crushed, without dealing any damage. All other faction Terrorists applied full damage on crush. Now all Terrorists from all factions will apply a little bit of damage to surroundings when crushed.
@@ -1386,7 +1386,7 @@ Contains 537 entries with
 **Source:** 697_all_terrorist_crush_damage.yaml
 
 ---
-### 2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade <a name='index__49__699_toxin_terrorist_damage'></a>
+### 2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade <a name='link__20220716__699_toxin_terrorist_damage'></a>
 **Changes**
 
 - **FIX**: The Toxin GLA Terrorist now deals identical amount of damage before and after Toxin Gamma Upgrade, 500 instead of 700 damage.
@@ -1402,7 +1402,7 @@ Contains 537 entries with
 **Source:** 699_toxin_terrorist_damage.yaml
 
 ---
-### 2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max <a name='index__50__882_stinger_anthrax_gamma_damage'></a>
+### 2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max <a name='link__20220814__882_stinger_anthrax_gamma_damage'></a>
 **Changes**
 
 - **TWEAK**: Decreases GLA Toxin Stinger Anthrax Gamma ground bonus damage from 100% to 50%.
@@ -1419,7 +1419,7 @@ Contains 537 entries with
 **Source:** 882_stinger_anthrax_gamma_damage.yaml
 
 ---
-### 2022-08-15 - Fixes Demo General infantry units getting stuck near structures when ordered to suicide <a name='index__51__914_demo_infantry_suicide_stuck'></a>
+### 2022-08-15 - Fixes Demo General infantry units getting stuck near structures when ordered to suicide <a name='link__20220815__914_demo_infantry_suicide_stuck'></a>
 **Changes**
 
 - **FIX**: Fixes Demo General infantry units getting stuck near structures when ordered to suicide.
@@ -1435,7 +1435,7 @@ Contains 537 entries with
 **Source:** 914_demo_infantry_suicide_stuck.yaml
 
 ---
-### 2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade <a name='index__52__1076_demo_units_death_particles'></a>
+### 2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade <a name='link__20220902__1076_demo_units_death_particles'></a>
 **Changes**
 
 - **FEATURE**: Destroyed Demo GLA units with Demo Upgrade now have a dedicated explosion effect that looks different to the original suicide explosion effect.
@@ -1451,7 +1451,7 @@ Contains 537 entries with
 **Source:** 1076_demo_units_death_particles.yaml
 
 ---
-### 2022-09-04 - Fixed misplaced fire ports on GLA Palace <a name='index__53__1097_palace_fire_ports'></a>
+### 2022-09-04 - Fixed misplaced fire ports on GLA Palace <a name='link__20220904__1097_palace_fire_ports'></a>
 **Changes**
 
 - **FIX**: Occupants of the GLA Palace no longer shoot from the center of the building.
@@ -1467,7 +1467,7 @@ Contains 537 entries with
 **Source:** 1097_palace_fire_ports.yaml
 
 ---
-### 2022-10-05 - Fixes Toxin GLA Tunnel Defender double firing against ground and air targets <a name='index__54__1334_tunnel_defender_shoots_twice'></a>
+### 2022-10-05 - Fixes Toxin GLA Tunnel Defender double firing against ground and air targets <a name='link__20221005__1334_tunnel_defender_shoots_twice'></a>
 **Changes**
 
 - **FIX**: Fixes issue where the Toxin GLA Tunnel Defender can shoot on ground and air targets simultaneously. Tunnel Defenders from other factions do not have this issue because they have just one gun type against ground and air.
@@ -1483,7 +1483,7 @@ Contains 537 entries with
 **Source:** 1334_tunnel_defender_shoots_twice.yaml
 
 ---
-### 2021-10-13 - Fixes invisible Civilian buildings on Winter maps <a name='index__55__559_invisible_snow_buildings'></a>
+### 2021-10-13 - Fixes invisible Civilian buildings on Winter maps <a name='link__20211013__559_invisible_snow_buildings'></a>
 **Changes**
 
 - **FIX**: Fixes invisible Civilian buildings on Winter maps. Affects
@@ -1502,7 +1502,7 @@ Contains 537 entries with
 **Source:** 559_invisible_snow_buildings.yaml
 
 ---
-### 2021-09-02 - Expands menu map selection lists to 1200 entries <a name='index__56__144_ui_map_list_size'></a>
+### 2021-09-02 - Expands menu map selection lists to 1200 entries <a name='link__20210902__144_ui_map_list_size'></a>
 **Changes**
 
 - **FIX**: Expands menu map selection lists to 1200 entries.
@@ -1518,7 +1518,7 @@ Contains 537 entries with
 **Source:** 144_ui_map_list_size.yaml
 
 ---
-### 2021-09-03 - Fixes issue that prevents suiciding different GLA Demo units in a group selection <a name='index__57__163_demo_suicide_button_placement'></a>
+### 2021-09-03 - Fixes issue that prevents suiciding different GLA Demo units in a group selection <a name='link__20210903__163_demo_suicide_button_placement'></a>
 **Changes**
 
 - **FIX**: The suicide buttons of all GLA Demo units are now at the same position. This allows the player to suicide all units at once when a group of different units is selected.
@@ -1534,7 +1534,7 @@ Contains 537 entries with
 **Source:** 163_demo_suicide_button_placement.yaml
 
 ---
-### 2021-09-11 - Fixes exploit that allows to shoot on ground units from very far away <a name='index__58__285_range_exploit'></a>
+### 2021-09-11 - Fixes exploit that allows to shoot on ground units from very far away <a name='link__20210911__285_range_exploit'></a>
 **Changes**
 
 - **FIX**: The USA Tow Humvee, GLA Quad Cannon and China Gattling Tank can no longer shoot with extended range at ground units.
@@ -1550,7 +1550,7 @@ Contains 537 entries with
 **Source:** 285_range_exploit.yaml
 
 ---
-### 2022-08-02 - Fixes 13 broken particle effects <a name='index__59__809_pillar_explosion_effects'></a>
+### 2022-08-02 - Fixes 13 broken particle effects <a name='link__20220802__809_pillar_explosion_effects'></a>
 **Changes**
 
 - **FIX**: Fixes 13 broken particle effects, including
@@ -1580,7 +1580,7 @@ Contains 537 entries with
 **Source:** 809_pillar_explosion_effects.yaml
 
 ---
-### 2022-10-16 - Increases Player Beacon limit from 3 to 5 <a name='index__60__1377_beacon_limit'></a>
+### 2022-10-16 - Increases Player Beacon limit from 3 to 5 <a name='link__20221016__1377_beacon_limit'></a>
 **Changes**
 
 - **FIX**: Increases Player Beacon limit from 3 to 5.
@@ -1596,7 +1596,7 @@ Contains 537 entries with
 **Source:** 1377_beacon_limit.yaml
 
 ---
-### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='index__61__1618_wreck_spawn_before_death'></a>
+### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='link__20230204__1618_wreck_spawn_before_death'></a>
 **Changes**
 
 - **FIX**: Wreck and debris of vehicles no longer spawn before damaged vehicle model despawns.
@@ -1624,7 +1624,7 @@ Contains 537 entries with
 **Source:** 1618_wreck_spawn_before_death.yaml
 
 ---
-### 2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons <a name='index__62__938_infantry_muzzle_flash'></a>
+### 2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons <a name='link__20220820__938_infantry_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: Muzzle flash effects no longer shows persistently during transition animations on
@@ -1646,7 +1646,7 @@ Contains 537 entries with
 **Source:** 938_infantry_muzzle_flash.yaml
 
 ---
-### 2022-09-07 - Fixes muzzle particle effects of tanks <a name='index__63__1149_tank_muzzle_particles'></a>
+### 2022-09-07 - Fixes muzzle particle effects of tanks <a name='link__20220907__1149_tank_muzzle_particles'></a>
 **Changes**
 
 - **FIX**: Fixes poor fadeouts of tank muzzle flare effects.
@@ -1664,7 +1664,7 @@ Contains 537 entries with
 **Source:** 1149_tank_muzzle_particles.yaml
 
 ---
-### 2022-10-16 - Fixes War Factory door animations reset on damage state changes <a name='index__64__1382_door_animation_reset'></a>
+### 2022-10-16 - Fixes War Factory door animations reset on damage state changes <a name='link__20221016__1382_door_animation_reset'></a>
 **Changes**
 
 - **FIX**: Fixes door animations resetting when transitioning between damage states for the China, USA and GLA War Factories.
@@ -1680,7 +1680,7 @@ Contains 537 entries with
 **Source:** 1382_door_animation_reset.yaml
 
 ---
-### 2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings <a name='index__65__1386_buildings_explosion_effects'></a>
+### 2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings <a name='link__20221020__1386_buildings_explosion_effects'></a>
 **Changes**
 
 - **FIX**: Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings.
@@ -1713,7 +1713,7 @@ Contains 537 entries with
 **Source:** 1386_buildings_explosion_effects.yaml
 
 ---
-### 2023-01-13 - Fixes the evacuation command button art of various vehicles <a name='index__66__1545_vehicle_evacuation_button_image'></a>
+### 2023-01-13 - Fixes the evacuation command button art of various vehicles <a name='link__20230113__1545_vehicle_evacuation_button_image'></a>
 **Changes**
 
 - **FIX**: Most vehicles now use the Evacuate button art for vehicles. Buildings use the Evacuate button art for structures as usual.
@@ -1739,7 +1739,7 @@ Contains 537 entries with
 **Source:** 1545_vehicle_evacuation_button_image.yaml
 
 ---
-### 2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain <a name='index__67__1711_increase_wreck_destruction_delay'></a>
+### 2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain <a name='link__20230129__1711_increase_wreck_destruction_delay'></a>
 **Changes**
 
 - **FIX**: Increases destruction delays of various wrecks to avoid deletion before object is sunk into terrain.
@@ -1769,7 +1769,7 @@ Contains 537 entries with
 **Source:** 1711_increase_wreck_destruction_delay.yaml
 
 ---
-### 2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain <a name='index__68__1712_decrease_wreck_destruction_delay'></a>
+### 2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain <a name='link__20230129__1712_decrease_wreck_destruction_delay'></a>
 **Changes**
 
 - **TWEAK**: Decreases destruction delays of several hulks to delete them earlier. By the time of deletion they are already sunk into terrain.
@@ -1800,7 +1800,7 @@ Contains 537 entries with
 **Source:** 1712_decrease_wreck_destruction_delay.yaml
 
 ---
-### 2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units <a name='index__69__92_infantry_poison_death_voice'></a>
+### 2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units <a name='link__20210828__92_infantry_poison_death_voice'></a>
 **Changes**
 
 - **FIX**: USA and China infantry units no longer use the GLA death scream when poisoned with Anthrax Gamma (pink puddles). Instead they use the respective USA or China death scream.
@@ -1816,7 +1816,7 @@ Contains 537 entries with
 **Source:** 92_infantry_poison_death_voice.yaml
 
 ---
-### 2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings <a name='index__70__276_gps_scrambled_infantry_attacking'></a>
+### 2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings <a name='link__20210910__276_gps_scrambled_infantry_attacking'></a>
 **Changes**
 
 - **FIX**: All stealthed China Hackers are now revealed when hacking buildings.
@@ -1832,7 +1832,7 @@ Contains 537 entries with
 **Source:** 276_gps_scrambled_infantry_attacking.yaml
 
 ---
-### 2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings <a name='index__71__276_gps_scrambled_infantry_capturing'></a>
+### 2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings <a name='link__20210910__276_gps_scrambled_infantry_capturing'></a>
 **Changes**
 
 - **FIX**: Stealthed USA Rangers, China Red Guards and Minigunners are now revealed when capturing buildings. This behaviour is consistent with GLA Rebels.
@@ -1848,7 +1848,7 @@ Contains 537 entries with
 **Source:** 276_gps_scrambled_infantry_capturing.yaml
 
 ---
-### 2021-12-24 - Fixes units with attachments blocking scaffold placements <a name='index__72__630_vehicle_attachment_blocking_build'></a>
+### 2021-12-24 - Fixes units with attachments blocking scaffold placements <a name='link__20211224__630_vehicle_attachment_blocking_build'></a>
 **Changes**
 
 - **FIX**: Units with attachments no longer prevent scaffold placements on top of them. Units with attachments are
@@ -1868,7 +1868,7 @@ Contains 537 entries with
 **Source:** 630_vehicle_attachment_blocking_build.yaml
 
 ---
-### 2022-09-24 - Adds missing audio limits to air unit voices <a name='index__73__1274_air_unit_death_voice_limit'></a>
+### 2022-09-24 - Adds missing audio limits to air unit voices <a name='link__20220924__1274_air_unit_death_voice_limit'></a>
 **Changes**
 
 - **FIX**: Sets audio limit 1 on all low fuel voices of airplanes.
@@ -1885,7 +1885,7 @@ Contains 537 entries with
 **Source:** 1274_air_unit_death_voice_limit.yaml
 
 ---
-### 2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes <a name='index__74__1398_radar_animation_reset'></a>
+### 2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes <a name='link__20221020__1398_radar_animation_reset'></a>
 **Changes**
 
 - **FIX**: Fixes door and radar animations resetting when transitioning between damage states for the China and USA Command Centers.
@@ -1901,7 +1901,7 @@ Contains 537 entries with
 **Source:** 1398_radar_animation_reset.yaml
 
 ---
-### 2023-01-29 - Removes random sink delays from all vehicle wrecks <a name='index__75__1660_random_wreck_sink_delays'></a>
+### 2023-01-29 - Removes random sink delays from all vehicle wrecks <a name='link__20230129__1660_random_wreck_sink_delays'></a>
 **Changes**
 
 - **TWEAK**: Removes random sink delays from wrecks of USA Ambulance, China Gattling, ECM.
@@ -1917,7 +1917,7 @@ Contains 537 entries with
 **Source:** 1660_random_wreck_sink_delays.yaml
 
 ---
-### 2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton <a name='index__76__277_demo_charge_button_placement'></a>
+### 2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton <a name='link__20210910__277_demo_charge_button_placement'></a>
 **Changes**
 
 - **FIX**: Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton.
@@ -1933,7 +1933,7 @@ Contains 537 entries with
 **Source:** 277_demo_charge_button_placement.yaml
 
 ---
-### 2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang <a name='index__77__636_stinger_flashbang_damage'></a>
+### 2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang <a name='link__20220101__636_stinger_flashbang_damage'></a>
 **Changes**
 
 - **FIX**: Flashbang grenades from USA Rangers no longer damage GLA Stinger Soldiers.
@@ -1949,7 +1949,7 @@ Contains 537 entries with
 **Source:** 636_stinger_flashbang_damage.yaml
 
 ---
-### 2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon <a name='index__78__75_particlecannon_rangers'></a>
+### 2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon <a name='link__20210827__75_particlecannon_rangers'></a>
 **Changes**
 
 - **FIX**: All Particle Cannons now spawn the correct faction Ranger types.
@@ -1965,7 +1965,7 @@ Contains 537 entries with
 **Source:** 75_particlecannon_rangers.yaml
 
 ---
-### 2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora <a name='index__79__145_alpha_aurora_cameo'></a>
+### 2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora <a name='link__20210902__145_alpha_aurora_cameo'></a>
 **Changes**
 
 - **FIX**: Fixes the wrong portrait image of the USA Alpha Aurora.
@@ -1981,7 +1981,7 @@ Contains 537 entries with
 **Source:** 145_alpha_aurora_cameo.yaml
 
 ---
-### 2021-09-03 - Removes retaliation from non-vUSA Avengers <a name='index__80__157_usa_avenger_retaliation'></a>
+### 2021-09-03 - Removes retaliation from non-vUSA Avengers <a name='link__20210903__157_usa_avenger_retaliation'></a>
 **Changes**
 
 - **FIX**: Non-vUSA Avengers now no longer retaliate with their blue target laser. This way it no longer drives into dangerous situations on its own.
@@ -1997,7 +1997,7 @@ Contains 537 entries with
 **Source:** 157_usa_avenger_retaliation.yaml
 
 ---
-### 2021-09-03 - Fixes USA Avenger model <a name='index__81__158_avenger_model'></a>
+### 2021-09-03 - Fixes USA Avenger model <a name='link__20210903__158_avenger_model'></a>
 **Changes**
 
 - **FIX**: Removes a small piece of misplaced geometry from the wheels.
@@ -2013,7 +2013,7 @@ Contains 537 entries with
 **Source:** 158_avenger_model.yaml
 
 ---
-### 2021-09-03 - Removes obsolete Advanced Training icon from USA Pilots <a name='index__82__160_pilot_advanced_training'></a>
+### 2021-09-03 - Removes obsolete Advanced Training icon from USA Pilots <a name='link__20210903__160_pilot_advanced_training'></a>
 **Changes**
 
 - **FIX**: The USA Pilot no longer shows an icon for Advanced Training.
@@ -2029,7 +2029,7 @@ Contains 537 entries with
 **Source:** 160_pilot_advanced_training.yaml
 
 ---
-### 2021-09-03 - Removes obsolete Chemical Suits icon from USA Pilots <a name='index__83__160_pilot_chemical_suit'></a>
+### 2021-09-03 - Removes obsolete Chemical Suits icon from USA Pilots <a name='link__20210903__160_pilot_chemical_suit'></a>
 **Changes**
 
 - **FIX**: The USA Pilot no longer shows an icon for Chemical Suits.
@@ -2045,7 +2045,7 @@ Contains 537 entries with
 **Source:** 160_pilot_chemical_suit.yaml
 
 ---
-### 2021-09-03 - Fixes slow movement speed of Vet 3 USA Pilot <a name='index__84__160_pilot_speed'></a>
+### 2021-09-03 - Fixes slow movement speed of Vet 3 USA Pilot <a name='link__20210903__160_pilot_speed'></a>
 **Changes**
 
 - **FIX**: The heroic USA Pilot no longer walks slower than usual.
@@ -2061,7 +2061,7 @@ Contains 537 entries with
 **Source:** 160_pilot_speed.yaml
 
 ---
-### 2021-09-03 - Fixes issue that prevents to build Drones for different USA vehicles in a group selection <a name='index__85__166_humvee_drones_build'></a>
+### 2021-09-03 - Fixes issue that prevents to build Drones for different USA vehicles in a group selection <a name='link__20210903__166_humvee_drones_build'></a>
 **Changes**
 
 - **FIX**: The Drone upgrade buttons for USA vehicles of the Super Weapon General, Laser General and the Airforce General are now at the same positions. This allows the player to upgrade Drones for all vehicles at once when a group of different vehicles is selected.
@@ -2077,7 +2077,7 @@ Contains 537 entries with
 **Source:** 166_humvee_drones_build.yaml
 
 ---
-### 2021-09-03 - Fixes duplicate embark sounds of USA Laser Humvee <a name='index__86__172_humvee_enter_sounds'></a>
+### 2021-09-03 - Fixes duplicate embark sounds of USA Laser Humvee <a name='link__20210903__172_humvee_enter_sounds'></a>
 **Changes**
 
 - **FIX**: The Laser General's Humvee no longer uses the Humvee entering and leaving sound effects and the generic buildings entering and leaving sound effect at once.
@@ -2093,7 +2093,7 @@ Contains 537 entries with
 **Source:** 172_humvee_enter_sounds.yaml
 
 ---
-### 2021-09-03 - Removes Select All key bindings from USA Spy Drone <a name='index__87__173_spydrone_select_all_key'></a>
+### 2021-09-03 - Removes Select All key bindings from USA Spy Drone <a name='link__20210903__173_spydrone_select_all_key'></a>
 **Changes**
 
 - **FIX**: The USA Spy Drone can no longer be selected by using the Select Aircraft (W) and Select All (Q) keys.
@@ -2109,7 +2109,7 @@ Contains 537 entries with
 **Source:** 173_spydrone_select_all_key.yaml
 
 ---
-### 2021-09-04 - Removes Select All key bindings from USA Spectre Gunship <a name='index__88__181_spectre_select_all_keys'></a>
+### 2021-09-04 - Removes Select All key bindings from USA Spectre Gunship <a name='link__20210904__181_spectre_select_all_keys'></a>
 **Changes**
 
 - **FIX**: The USA Spectre Gunship can no longer be selected by using the Select Aircraft (W) and Select All (Q) keys.
@@ -2125,7 +2125,7 @@ Contains 537 entries with
 **Source:** 181_spectre_select_all_keys.yaml
 
 ---
-### 2021-09-04 - Adds missing movement command sounds to USA Sentry Drone <a name='index__89__188_sentry_drone_move_sound'></a>
+### 2021-09-04 - Adds missing movement command sounds to USA Sentry Drone <a name='link__20210904__188_sentry_drone_move_sound'></a>
 **Changes**
 
 - **FIX**: The Airforce, Super Weapon, Laser and Boss General's Sentry Drones now uses the Move Start sounds of the regular USA Sentry Drone
@@ -2142,7 +2142,7 @@ Contains 537 entries with
 **Source:** 188_sentry_drone_move_sound.yaml
 
 ---
-### 2021-09-04 - Fixes wrong movement sounds of USA Microwave Tank <a name='index__90__189_microwave_move_sound'></a>
+### 2021-09-04 - Fixes wrong movement sounds of USA Microwave Tank <a name='link__20210904__189_microwave_move_sound'></a>
 **Changes**
 
 - **FIX**: The Airforce, Super Weapon, and Laser General's Microwave tanks no longer use the Humvee's Move Start sounds, and instead, they use the move sounds from the regular USA Microwave Tank.
@@ -2158,7 +2158,7 @@ Contains 537 entries with
 **Source:** 189_microwave_move_sound.yaml
 
 ---
-### 2021-09-04 - Fixes wrong selection sounds of USA Firebase <a name='index__91__190_firebase_select_sound'></a>
+### 2021-09-04 - Fixes wrong selection sounds of USA Firebase <a name='link__20210904__190_firebase_select_sound'></a>
 **Changes**
 
 - **FIX**: The Airforce, Super Weapon and Laser General's Firebases now use their unique sound effect of the regular USA Firebase, instead of the sound effect of the Patriot Battery.
@@ -2174,7 +2174,7 @@ Contains 537 entries with
 **Source:** 190_firebase_select_sound.yaml
 
 ---
-### 2021-09-04 - Adds missing sound to USA Pilot <a name='index__92__191_pilot_enter_sound'></a>
+### 2021-09-04 - Adds missing sound to USA Pilot <a name='link__20210904__191_pilot_enter_sound'></a>
 **Changes**
 
 - **FIX**: The Airforce, Super Weapon and Laser General's Pilots now have voice lines for entering buildings.
@@ -2190,7 +2190,7 @@ Contains 537 entries with
 **Source:** 191_pilot_enter_sound.yaml
 
 ---
-### 2021-09-04 - Fixes some USA Chinooks collecting 100 ms slower than others <a name='index__93__193_chinook_collection_timing'></a>
+### 2021-09-04 - Fixes some USA Chinooks collecting 100 ms slower than others <a name='link__20210904__193_chinook_collection_timing'></a>
 **Changes**
 
 - **FIX**: The Super Weapon and Laser General's Chinook, as well as the Combat Chinook, now collect and drop a supply load in the expected time, without any additional delay.
@@ -2206,7 +2206,7 @@ Contains 537 entries with
 **Source:** 193_chinook_collection_timing.yaml
 
 ---
-### 2021-09-04 - Fixes tooltip text of USA Laser Aurora <a name='index__94__194_laser_aurora_tooltip'></a>
+### 2021-09-04 - Fixes tooltip text of USA Laser Aurora <a name='link__20210904__194_laser_aurora_tooltip'></a>
 **Changes**
 
 - **FIX**: The Laser General's Aurora now uses the generic Aurora tooltip instead of the tooltip of the Microwave tank.
@@ -2222,7 +2222,7 @@ Contains 537 entries with
 **Source:** 194_laser_aurora_tooltip.yaml
 
 ---
-### 2021-09-04 - Fixes wrong upgrade icon placements on USA Tomahawk <a name='index__95__205_tomahawk_cameo'></a>
+### 2021-09-04 - Fixes wrong upgrade icon placements on USA Tomahawk <a name='link__20210904__205_tomahawk_cameo'></a>
 **Changes**
 
 - **FIX**: All USA Tomahawk Launchers now show the upgrade icons for Scout Drone and Battle Drone in the correct positions, like any other USA vehicle.
@@ -2239,7 +2239,7 @@ Contains 537 entries with
 **Source:** 205_tomahawk_cameo.yaml
 
 ---
-### 2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down <a name='index__96__254_spectre_housecolor'></a>
+### 2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down <a name='link__20210907__254_spectre_housecolor'></a>
 **Changes**
 
 - **FIX**: The house color of the USA Spectre Gunship now remains when shot down.
@@ -2255,7 +2255,7 @@ Contains 537 entries with
 **Source:** 254_spectre_housecolor.yaml
 
 ---
-### 2021-09-09 - Adds missing construction sound effect for USA Sentry Drone <a name='index__97__256_sentry_drone_construction_sound'></a>
+### 2021-09-09 - Adds missing construction sound effect for USA Sentry Drone <a name='link__20210909__256_sentry_drone_construction_sound'></a>
 **Changes**
 
 - **FIX**: Beep beep beep boop.
@@ -2271,7 +2271,7 @@ Contains 537 entries with
 **Source:** 256_sentry_drone_construction_sound.yaml
 
 ---
-### 2021-09-10 - Fixes USA Avenger turning its chassis when aiming at air units <a name='index__98__314_avenger_chassis_turn'></a>
+### 2021-09-10 - Fixes USA Avenger turning its chassis when aiming at air units <a name='link__20210910__314_avenger_chassis_turn'></a>
 **Changes**
 
 - **FIX**: The USA Avenger no longer turns its chassis to the targeted air unit. Only the anti-air laser turret will aim towards the air unit, while the USA Avenger either stays as is or aims with the blue laser marker at ground targets.
@@ -2287,7 +2287,7 @@ Contains 537 entries with
 **Source:** 314_avenger_chassis_turn.yaml
 
 ---
-### 2021-09-11 - Fixes wrong USA Ranger spawn type of Paradrop ability <a name='index__99__286_paradrop_ranger_type'></a>
+### 2021-09-11 - Fixes wrong USA Ranger spawn type of Paradrop ability <a name='link__20210911__286_paradrop_ranger_type'></a>
 **Changes**
 
 - **FIX**: The USA Paradrop ability now correctly spawns the corresponding Ranger type for each USA sub faction, instead of always spawning the Rangers of the normal USA faction. This way they can be selected by double clicking when mixed with built Rangers from the Barracks or Rangers spawned by destroyed buildings.
@@ -2303,7 +2303,7 @@ Contains 537 entries with
 **Source:** 286_paradrop_ranger_type.yaml
 
 ---
-### 2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon <a name='index__100__288_swg_particle_cannon_effect_color'></a>
+### 2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon <a name='link__20210911__288_swg_particle_cannon_effect_color'></a>
 **Changes**
 
 - **FIX**: The Super Weapon General's Particle Cannon no longer has blue colored effects mixed in with the pink effects when ready to fire and when getting destroyed.
@@ -2319,7 +2319,7 @@ Contains 537 entries with
 **Source:** 288_swg_particle_cannon_effect_color.yaml
 
 ---
-### 2021-09-11 - Fixes Fuel Bomb of USA Alpha Aurora detonating before hitting the ground <a name='index__101__292_alpha_aurora_premature_explosion'></a>
+### 2021-09-11 - Fixes Fuel Bomb of USA Alpha Aurora detonating before hitting the ground <a name='link__20210911__292_alpha_aurora_premature_explosion'></a>
 **Changes**
 
 - **FIX**: The Aurora Alpha secondary fuel air explosion is now created where the bomb actually hits, instead of where it first collides with a building.
@@ -2335,7 +2335,7 @@ Contains 537 entries with
 **Source:** 292_alpha_aurora_premature_explosion.yaml
 
 ---
-### 2021-09-12 - Adds missing hit effects to USA Rangers after Chemical Suits upgrade <a name='index__102__325_ranger_hit_effects'></a>
+### 2021-09-12 - Adds missing hit effects to USA Rangers after Chemical Suits upgrade <a name='link__20210912__325_ranger_hit_effects'></a>
 **Changes**
 
 - **FIX**: After upgrading the Ranger with Chemical Suits, they now display hit effects when damaged.
@@ -2351,7 +2351,7 @@ Contains 537 entries with
 **Source:** 325_ranger_hit_effects.yaml
 
 ---
-### 2021-09-12 - Adds missing hit effects to USA Cargo Planes with Countermeasures upgrade <a name='index__103__326_usa_cargo_plane_hit_effects'></a>
+### 2021-09-12 - Adds missing hit effects to USA Cargo Planes with Countermeasures upgrade <a name='link__20210912__326_usa_cargo_plane_hit_effects'></a>
 **Changes**
 
 - **FIX**: After upgrading Countermeasures, the USA Cargo planes now show hit effects when damaged.
@@ -2367,7 +2367,7 @@ Contains 537 entries with
 **Source:** 326_usa_cargo_plane_hit_effects.yaml
 
 ---
-### 2021-09-12 - Fixes Airforce General unable to build Stealth Fighters from non-AFG Airfields <a name='index__104__331_air_general_build_bug'></a>
+### 2021-09-12 - Fixes Airforce General unable to build Stealth Fighters from non-AFG Airfields <a name='link__20210912__331_air_general_build_bug'></a>
 **Changes**
 
 - **FIX**: The Airforce General can now build Stealth Fighters in non-AFG Airfields.
@@ -2383,7 +2383,7 @@ Contains 537 entries with
 **Source:** 331_air_general_build_bug.yaml
 
 ---
-### 2021-09-13 - Moves Supply Lines upgrade icon from USA Supply Center to USA Chinook <a name='index__105__352_usa_supply_cameo'></a>
+### 2021-09-13 - Moves Supply Lines upgrade icon from USA Supply Center to USA Chinook <a name='link__20210913__352_usa_supply_cameo'></a>
 **Changes**
 
 - **FIX**: Removes Supply Lines upgrade icon from the USA Supply Center, because the cash bonus is linked to the Chinook and not the Supply Center.
@@ -2400,7 +2400,7 @@ Contains 537 entries with
 **Source:** 352_usa_supply_cameo.yaml
 
 ---
-### 2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret <a name='index__106__373_laser_turret_clip_size'></a>
+### 2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret <a name='link__20210913__373_laser_turret_clip_size'></a>
 **Changes**
 
 - **FIX**: The Laser Turret now fires only 3 shots, both when engaging airborne units and assisting other Laser Turrets.
@@ -2416,7 +2416,7 @@ Contains 537 entries with
 **Source:** 373_laser_turret_clip_size.yaml
 
 ---
-### 2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets <a name='index__107__374_laser_turret_air_model_sound'></a>
+### 2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets <a name='link__20210913__374_laser_turret_air_model_sound'></a>
 **Changes**
 
 - **FIX**: The USA Laser Turret now uses the correct laser effect and sound when attacking air targets.
@@ -2432,7 +2432,7 @@ Contains 537 entries with
 **Source:** 374_laser_turret_air_model_sound.yaml
 
 ---
-### 2021-09-20 - Fixes wrong button placements of USA Firebase <a name='index__108__387_firebase_buttons'></a>
+### 2021-09-20 - Fixes wrong button placements of USA Firebase <a name='link__20210920__387_firebase_buttons'></a>
 **Changes**
 
 - **FIX**: Fixes the wrong button placements of the USA Firebase. They are now consistent with those of other base defenses.
@@ -2448,7 +2448,7 @@ Contains 537 entries with
 **Source:** 387_firebase_buttons.yaml
 
 ---
-### 2021-09-22 - Fixes inconsistent Air Guard button placement on USA Raptor <a name='index__109__402_raptor_guard_button_position'></a>
+### 2021-09-22 - Fixes inconsistent Air Guard button placement on USA Raptor <a name='link__20210922__402_raptor_guard_button_position'></a>
 **Changes**
 
 - **FIX**: The Guard Air button of the USA Raptor is now placed in the free corner slot. This is consistent with the button placement of China Mig.
@@ -2464,7 +2464,7 @@ Contains 537 entries with
 **Source:** 402_raptor_guard_button_position.yaml
 
 ---
-### 2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles <a name='index__110__403_afg_avenger_armor'></a>
+### 2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles <a name='link__20210922__403_afg_avenger_armor'></a>
 **Changes**
 
 - **FIX**: The USA Airforce Avenger no longer has 30% more armor against Jet Missiles.
@@ -2480,7 +2480,7 @@ Contains 537 entries with
 **Source:** 403_afg_avenger_armor.yaml
 
 ---
-### 2021-09-25 - Adds kill experience reward to USA Hellfire Drone <a name='index__111__414_hellfire_drone_xp_reward'></a>
+### 2021-09-25 - Adds kill experience reward to USA Hellfire Drone <a name='link__20210925__414_hellfire_drone_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Destroying the USA Hellfire Drone now rewards 10 experience points.
@@ -2496,7 +2496,7 @@ Contains 537 entries with
 **Source:** 414_hellfire_drone_xp_reward.yaml
 
 ---
-### 2021-10-01 - Fixes attackable Fuel Air Bomb <a name='index__112__441_attackable_fuel_bomb'></a>
+### 2021-10-01 - Fixes attackable Fuel Air Bomb <a name='link__20211001__441_attackable_fuel_bomb'></a>
 **Changes**
 
 - **FIX**: The Fuel Air Bomb is no longer attackable.
@@ -2512,7 +2512,7 @@ Contains 537 entries with
 **Source:** 441_attackable_fuel_bomb.yaml
 
 ---
-### 2022-07-28 - Increases USA Paladin Composite Armor bonus by 100% <a name='index__113__777_paladin_composite_armor_bonus'></a>
+### 2022-07-28 - Increases USA Paladin Composite Armor bonus by 100% <a name='link__20220728__777_paladin_composite_armor_bonus'></a>
 **Changes**
 
 - **TWEAK**: Increases the USA Paladin Composite Armor bonus by 100%, from 100 to 200. This matches the Armor bonus for the Crusader Tank.
@@ -2528,7 +2528,7 @@ Contains 537 entries with
 **Source:** 777_paladin_composite_armor_bonus.yaml
 
 ---
-### 2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms <a name='index__114__787_usa_factory_door_times'></a>
+### 2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms <a name='link__20220730__787_usa_factory_door_times'></a>
 **Changes**
 
 - **TWEAK**: Decreases the USA War Factory close door time from 4000 to 3300 ms. This change is inconsequential for gameplay, because it does not affect unit interactions.
@@ -2544,7 +2544,7 @@ Contains 537 entries with
 **Source:** 787_usa_factory_door_times.yaml
 
 ---
-### 2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber <a name='index__115__841_afg_carpet_tooltip_text'></a>
+### 2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber <a name='link__20220806__841_afg_carpet_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip texts of the USA Airforce Carpet Bomber now state the correct countdown values.
@@ -2560,7 +2560,7 @@ Contains 537 entries with
 **Source:** 841_afg_carpet_tooltip_text.yaml
 
 ---
-### 2022-08-06 - Fixes wrong countdown value in tooltip texts of USA Spectre Gunship <a name='index__116__842_afg_spectre_tooltip_text'></a>
+### 2022-08-06 - Fixes wrong countdown value in tooltip texts of USA Spectre Gunship <a name='link__20220806__842_afg_spectre_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip texts of the USA Spectre Gunship now state the correct countdown values.
@@ -2576,7 +2576,7 @@ Contains 537 entries with
 **Source:** 842_afg_spectre_tooltip_text.yaml
 
 ---
-### 2022-08-06 - Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade <a name='index__117__843_countermeasures_tooltip_text'></a>
+### 2022-08-06 - Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade <a name='link__20220806__843_countermeasures_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip text of the USA Countermeasures upgrade now states the correct upgrade bonuses.
@@ -2593,7 +2593,7 @@ Contains 537 entries with
 **Source:** 843_countermeasures_tooltip_text.yaml
 
 ---
-### 2022-08-06 - Fixes misspelled Airforce General name in texts <a name='index__118__848_misspelled_granger_text'></a>
+### 2022-08-06 - Fixes misspelled Airforce General name in texts <a name='link__20220806__848_misspelled_granger_text'></a>
 **Changes**
 
 - **FIX**: Fixes misspelled Airforce General name in texts. Game is now playable.
@@ -2609,7 +2609,7 @@ Contains 537 entries with
 **Source:** 848_misspelled_granger_text.yaml
 
 ---
-### 2022-08-13 - Fixes missing Carpet Bomber in Grangers Generals Challenge <a name='index__119__1085_granger_challenge_carpet'></a>
+### 2022-08-13 - Fixes missing Carpet Bomber in Grangers Generals Challenge <a name='link__20220813__1085_granger_challenge_carpet'></a>
 **Changes**
 
 - **FIX**: General Granger can now call the Carpet Bomber in the Generals Challenge.
@@ -2625,7 +2625,7 @@ Contains 537 entries with
 **Source:** 1085_granger_challenge_carpet.yaml
 
 ---
-### 2022-08-20 - Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image <a name='index__120__1020_swg_particle_cannon_portrait_image'></a>
+### 2022-08-20 - Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image <a name='link__20220820__1020_swg_particle_cannon_portrait_image'></a>
 **Changes**
 
 - **FIX**: Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image.
@@ -2641,7 +2641,7 @@ Contains 537 entries with
 **Source:** 1020_swg_particle_cannon_portrait_image.yaml
 
 ---
-### 2022-08-20 - Replaces Generic Tank with Crusader Tank on USA War Factory button image <a name='index__121__1022_usa_factory_button_image'></a>
+### 2022-08-20 - Replaces Generic Tank with Crusader Tank on USA War Factory button image <a name='link__20220820__1022_usa_factory_button_image'></a>
 **Changes**
 
 - **FIX**: Replaces Generic Tank with Crusader Tank on USA War Factory button image.
@@ -2657,7 +2657,7 @@ Contains 537 entries with
 **Source:** 1022_usa_factory_button_image.yaml
 
 ---
-### 2022-08-20 - Adds upgrade voice for USA MOAB <a name='index__122__1026_moab_upgrade_voice'></a>
+### 2022-08-20 - Adds upgrade voice for USA MOAB <a name='link__20220820__1026_moab_upgrade_voice'></a>
 **Changes**
 
 - **FEATURE**: Acquiring the USA MOAB upgrade now plays a dedicated voice line in all languages.
@@ -2673,7 +2673,7 @@ Contains 537 entries with
 **Source:** 1026_moab_upgrade_voice.yaml
 
 ---
-### 2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages <a name='index__123__1026_sentry_gun_upgrade_voice'></a>
+### 2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages <a name='link__20220820__1026_sentry_gun_upgrade_voice'></a>
 **Changes**
 
 - **FEATURE**: Acquiring the USA Sentry Drone gun upgrade now plays a dedicated voice line in all languages.
@@ -2689,7 +2689,7 @@ Contains 537 entries with
 **Source:** 1026_sentry_gun_upgrade_voice.yaml
 
 ---
-### 2022-08-27 - Fixes immortal presence of circling USA Aurora wreck <a name='index__124__1018_dead_aurora_bug'></a>
+### 2022-08-27 - Fixes immortal presence of circling USA Aurora wreck <a name='link__20220827__1018_dead_aurora_bug'></a>
 **Changes**
 
 - **FIX**: The USA Aurora wreck now has a fixed despawn time of 10 seconds to make sure it disappears if the wreck is stuck circling in air.
@@ -2705,7 +2705,7 @@ Contains 537 entries with
 **Source:** 1018_dead_aurora_bug.yaml
 
 ---
-### 2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber <a name='index__125__953_afg_carpet_pdl'></a>
+### 2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber <a name='link__20220827__953_afg_carpet_pdl'></a>
 **Changes**
 
 - **TWEAK**: Removes the PointDefenseLaser from the USA Airforce Carpet Bomber. All other USA Airforce General Promotion planes have no PointDefenseLaser either, including the B52 bomber that delivers the MOAB and looks identical to the B52 Carpet Bomber. USA Airforce opponents will now be able to shoot down the Carpet Bomber more easily with Rockets.
@@ -2721,7 +2721,7 @@ Contains 537 entries with
 **Source:** 953_afg_carpet_pdl.yaml
 
 ---
-### 2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes <a name='index__126__1031_usa_ai_powers_planes'></a>
+### 2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes <a name='link__20220829__1031_usa_ai_powers_planes'></a>
 **Changes**
 
 - **FIX**: USA AI can no longer order Fuel Air Bomb and Para Drop with Supply Drop Zone planes.
@@ -2737,7 +2737,7 @@ Contains 537 entries with
 **Source:** 1031_usa_ai_powers_planes.yaml
 
 ---
-### 2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base <a name='index__127__1078_firebase_ghost_muzzle_flash'></a>
+### 2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base <a name='link__20220902__1078_firebase_ghost_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The USA Fire Base no longer shows a ghost muzzle flash before placing the first instance in a match.
@@ -2753,7 +2753,7 @@ Contains 537 entries with
 **Source:** 1078_firebase_ghost_muzzle_flash.yaml
 
 ---
-### 2022-09-03 - Fixes sharp turn movements of USA B2 Bomber <a name='index__128__1084_carpet_bomber_turn_rate'></a>
+### 2022-09-03 - Fixes sharp turn movements of USA B2 Bomber <a name='link__20220903__1084_carpet_bomber_turn_rate'></a>
 **Changes**
 
 - **FIX**: The USA B2 Bomber no longer takes sharp turns when flying in diagonally.
@@ -2769,7 +2769,7 @@ Contains 537 entries with
 **Source:** 1084_carpet_bomber_turn_rate.yaml
 
 ---
-### 2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300 <a name='index__129__1141_battle_drone_shroud_range'></a>
+### 2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300 <a name='link__20220906__1141_battle_drone_shroud_range'></a>
 **Changes**
 
 - **TWEAK**: Increases the shroud clearing range of USA Battle Drone from 150 to 300.
@@ -2785,7 +2785,7 @@ Contains 537 entries with
 **Source:** 1141_battle_drone_shroud_range.yaml
 
 ---
-### 2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400 <a name='index__130__1141_hellfire_drone_shroud_range'></a>
+### 2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400 <a name='link__20220906__1141_hellfire_drone_shroud_range'></a>
 **Changes**
 
 - **TWEAK**: Decreases the shroud clearing range of USA Hellfire Drone from 500 to 400.
@@ -2801,7 +2801,7 @@ Contains 537 entries with
 **Source:** 1141_hellfire_drone_shroud_range.yaml
 
 ---
-### 2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400 <a name='index__131__1155_burton_sight_range'></a>
+### 2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400 <a name='link__20220907__1155_burton_sight_range'></a>
 **Changes**
 
 - **TWEAK**: Decreases the USA Colonel Burton shroud range from 500 to 400. This matches the shroud range of the other Hero units. With the SEARCH AND DESTROY Battle Plan, Colonel Burton will have a shroud range of 480 instead of 600.
@@ -2817,7 +2817,7 @@ Contains 537 entries with
 **Source:** 1155_burton_sight_range.yaml
 
 ---
-### 2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet <a name='index__132__1165_nighthawk_low_fuel_voice'></a>
+### 2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet <a name='link__20220908__1165_nighthawk_low_fuel_voice'></a>
 **Changes**
 
 - **FIX**: The USA Stealth Fighter now plays its correct low fuel audio lines instead of the ones for the Aurora Jet.
@@ -2833,7 +2833,7 @@ Contains 537 entries with
 **Source:** 1165_nighthawk_low_fuel_voice.yaml
 
 ---
-### 2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon <a name='index__133__1171_particle_cannon_animation_loop'></a>
+### 2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon <a name='link__20220909__1171_particle_cannon_animation_loop'></a>
 **Changes**
 
 - **FIX**: The USA Particle cannon no longer gets stuck in an infinite deploy animation loop after finishing construction while it was disabled by a Microwave weapon.
@@ -2849,7 +2849,7 @@ Contains 537 entries with
 **Source:** 1171_particle_cannon_animation_loop.yaml
 
 ---
-### 2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps <a name='index__134__1177_afg_firebase_snow_damaged'></a>
+### 2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps <a name='link__20220910__1177_afg_firebase_snow_damaged'></a>
 **Changes**
 
 - **FIX**: USA Airforce Firebase now correctly shows badly damaged model on Winter maps.
@@ -2865,7 +2865,7 @@ Contains 537 entries with
 **Source:** 1177_afg_firebase_snow_damaged.yaml
 
 ---
-### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery. <a name='index__135__1178_patriot_battery_auto_reload'></a>
+### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery. <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
 **Changes**
 
 - **FIX**: The USA Patriot Patriot will now reload the entire clip after being idle for around 2 seconds.
@@ -2881,7 +2881,7 @@ Contains 537 entries with
 **Source:** 1178_patriot_battery_auto_reload.yaml
 
 ---
-### 2022-09-10 - Adds blue texture variants for USA Infantry units <a name='index__136__1179_usa_infantry_textures'></a>
+### 2022-09-10 - Adds blue texture variants for USA Infantry units <a name='link__20220910__1179_usa_infantry_textures'></a>
 **Changes**
 
 - **FEATURE**: Adds blue texture for
@@ -2903,7 +2903,7 @@ Contains 537 entries with
 **Source:** 1179_usa_infantry_textures.yaml
 
 ---
-### 2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton <a name='index__137__1189_burton_texture_errors'></a>
+### 2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton <a name='link__20220913__1189_burton_texture_errors'></a>
 **Changes**
 
 - **FIX**: Fixes texture error on pants of USA Colonel Burton.
@@ -2919,7 +2919,7 @@ Contains 537 entries with
 **Source:** 1189_burton_texture_errors.yaml
 
 ---
-### 2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon <a name='index__138__1245_atsdislab_snow_textures'></a>
+### 2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon <a name='link__20220921__1245_atsdislab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atsdislab snow textures for USA Particle Cannon. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
@@ -2942,7 +2942,7 @@ Contains 537 entries with
 **Source:** 1245_atsdislab_snow_textures.yaml
 
 ---
-### 2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center <a name='index__139__1246_atstratslab_snow_textures'></a>
+### 2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center <a name='link__20220921__1246_atstratslab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atstratslab snow textures for USA Strategy Center. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
@@ -2970,7 +2970,7 @@ Contains 537 entries with
 **Source:** 1246_atstratslab_snow_textures.yaml
 
 ---
-### 2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield <a name='index__140__1247_attarmack_attarmack02_snow_textures'></a>
+### 2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield <a name='link__20220921__1247_attarmack_attarmack02_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes attarmack, attarmack02 snow textures for USA Airfield.
@@ -3002,7 +3002,7 @@ Contains 537 entries with
 **Source:** 1247_attarmack_attarmack02_snow_textures.yaml
 
 ---
-### 2022-09-21 - Fixes avambulance textures for USA Ambulance <a name='index__141__1248_avambulance_textures'></a>
+### 2022-09-21 - Fixes avambulance textures for USA Ambulance <a name='link__20220921__1248_avambulance_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avambulance textures for USA Ambulance.
@@ -3044,7 +3044,7 @@ Contains 537 entries with
 **Source:** 1248_avambulance_textures.yaml
 
 ---
-### 2022-09-22 - Fixes and improves avavnger textures for USA Avenger <a name='index__142__1251_avavnger_textures'></a>
+### 2022-09-22 - Fixes and improves avavnger textures for USA Avenger <a name='link__20220922__1251_avavnger_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves avavnger textures for USA Avenger. The damaged textures are remade by borrowing pieces from original Humvee textures.
@@ -3085,7 +3085,7 @@ Contains 537 entries with
 **Source:** 1251_avavnger_textures.yaml
 
 ---
-### 2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory <a name='index__143__1252_atdiaplate_textures'></a>
+### 2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory <a name='link__20220922__1252_atdiaplate_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atdiaplate textures for USA War Factory.
@@ -3122,7 +3122,7 @@ Contains 537 entries with
 **Source:** 1252_atdiaplate_textures.yaml
 
 ---
-### 2022-09-22 - Fixes atconvey01 snow textures for USA War Factory <a name='index__144__1253_atconvey01_snow_textures'></a>
+### 2022-09-22 - Fixes atconvey01 snow textures for USA War Factory <a name='link__20220922__1253_atconvey01_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atconvey01 snow textures for USA War Factory. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
@@ -3149,7 +3149,7 @@ Contains 537 entries with
 **Source:** 1253_atconvey01_snow_textures.yaml
 
 ---
-### 2022-09-22 - Fixes and improves avcomanche textures for USA Comanche <a name='index__145__1256_avcomanche_textures'></a>
+### 2022-09-22 - Fixes and improves avcomanche textures for USA Comanche <a name='link__20220922__1256_avcomanche_textures'></a>
 **Changes**
 
 - **FIX**: Fixes inconsistencies on avcomanche textures for USA Comanche.
@@ -3187,7 +3187,7 @@ Contains 537 entries with
 **Source:** 1256_avcomanche_textures.yaml
 
 ---
-### 2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank <a name='index__146__1258_avthunderbolt_textures'></a>
+### 2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank <a name='link__20220923__1258_avthunderbolt_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves avthunderbolt textures for USA Microwave Tank.
@@ -3224,7 +3224,7 @@ Contains 537 entries with
 **Source:** 1258_avthunderbolt_textures.yaml
 
 ---
-### 2022-09-23 - Fixes athqslab textures for USA Command Center <a name='index__147__1263_athqslab_textures'></a>
+### 2022-09-23 - Fixes athqslab textures for USA Command Center <a name='link__20220923__1263_athqslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes athqslab textures for USA Command Center.
@@ -3262,7 +3262,7 @@ Contains 537 entries with
 **Source:** 1263_athqslab_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atmetal03 snow textures for USA structures <a name='index__148__1264_atmetal03_snow_textures'></a>
+### 2022-09-23 - Fixes atmetal03 snow textures for USA structures <a name='link__20220923__1264_atmetal03_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atmetal03_s texture.
@@ -3284,7 +3284,7 @@ Contains 537 entries with
 **Source:** 1264_atmetal03_snow_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atpanelroof snow textures for USA structures <a name='index__149__1266_atpanelroof_textures'></a>
+### 2022-09-23 - Fixes atpanelroof snow textures for USA structures <a name='link__20220923__1266_atpanelroof_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atpanelroof snow textures.
@@ -3316,7 +3316,7 @@ Contains 537 entries with
 **Source:** 1266_atpanelroof_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atpanelroof03 snow textures for USA structures <a name='index__150__1267_atpanelroof03_snow_textures'></a>
+### 2022-09-23 - Fixes atpanelroof03 snow textures for USA structures <a name='link__20220923__1267_atpanelroof03_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atpanelroof3 texture.
@@ -3339,7 +3339,7 @@ Contains 537 entries with
 **Source:** 1267_atpanelroof03_snow_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atprisslab snow textures for USA Prison <a name='index__151__1268_atprisslab_snow_textures'></a>
+### 2022-09-23 - Fixes atprisslab snow textures for USA Prison <a name='link__20220923__1268_atprisslab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atprisslab snow textures for USA Prison
@@ -3365,7 +3365,7 @@ Contains 537 entries with
 **Source:** 1268_atprisslab_snow_textures.yaml
 
 ---
-### 2022-09-23 - Fixes avpaladin textures for USA Paladin Tank <a name='index__152__1270_avpaladin_textures'></a>
+### 2022-09-23 - Fixes avpaladin textures for USA Paladin Tank <a name='link__20220923__1270_avpaladin_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avpaladin damaged textures. The fixes are very minor and therefore optional.
@@ -3390,7 +3390,7 @@ Contains 537 entries with
 **Source:** 1270_avpaladin_textures.yaml
 
 ---
-### 2022-09-24 - Fixes and improves avraptor textures for USA Raptor <a name='index__153__1271_avraptor_textures'></a>
+### 2022-09-24 - Fixes and improves avraptor textures for USA Raptor <a name='link__20220924__1271_avraptor_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avraptor textures. The damaged texture changes are very minor, therefore are optional.
@@ -3419,7 +3419,7 @@ Contains 537 entries with
 **Source:** 1271_avraptor_textures.yaml
 
 ---
-### 2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora <a name='index__154__1274_raptor_aurora_death_voice'></a>
+### 2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora <a name='link__20220924__1274_raptor_aurora_death_voice'></a>
 **Changes**
 
 - **FIX**: Enables all death voice variants for USA Raptor and USA Aurora.
@@ -3435,7 +3435,7 @@ Contains 537 entries with
 **Source:** 1274_raptor_aurora_death_voice.yaml
 
 ---
-### 2022-09-24 - Fixes atwarfactslab textures for USA War Factory <a name='index__155__1275_atwarfactslab_textures'></a>
+### 2022-09-24 - Fixes atwarfactslab textures for USA War Factory <a name='link__20220924__1275_atwarfactslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atwarfactslab textures for USA War Factory.
@@ -3463,7 +3463,7 @@ Contains 537 entries with
 **Source:** 1275_atwarfactslab_textures.yaml
 
 ---
-### 2022-09-24 - Fixes and improves atventwall01 textures for USA structures <a name='index__156__1277_atventwall01_textures'></a>
+### 2022-09-24 - Fixes and improves atventwall01 textures for USA structures <a name='link__20220924__1277_atventwall01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atventwall01 textures.
@@ -3494,7 +3494,7 @@ Contains 537 entries with
 **Source:** 1277_atventwall01_textures.yaml
 
 ---
-### 2022-09-24 - Fixed avpowtruck textures for USA POW Truck <a name='index__157__1279_avpowtruck_textures'></a>
+### 2022-09-24 - Fixed avpowtruck textures for USA POW Truck <a name='link__20220924__1279_avpowtruck_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avpowtruck textures for USA POW Truck.
@@ -3522,7 +3522,7 @@ Contains 537 entries with
 **Source:** 1279_avpowtruck_textures.yaml
 
 ---
-### 2022-09-24 - Fixes atroofparts01 textures for USA structures <a name='index__158__1280_atroofparts01_textures'></a>
+### 2022-09-24 - Fixes atroofparts01 textures for USA structures <a name='link__20220924__1280_atroofparts01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atroofparts01 textures for USA structures.
@@ -3559,7 +3559,7 @@ Contains 537 entries with
 **Source:** 1280_atroofparts01_textures.yaml
 
 ---
-### 2022-09-25 - Fixes USA Spectre Gunship audio issues <a name='index__159__1288_spectre_sound'></a>
+### 2022-09-25 - Fixes USA Spectre Gunship audio issues <a name='link__20220925__1288_spectre_sound'></a>
 **Changes**
 
 - **FIX**: Fixes missing interaction audio of the level 3 Spectre Gunship.
@@ -3576,7 +3576,7 @@ Contains 537 entries with
 **Source:** 1288_spectre_sound.yaml
 
 ---
-### 2022-09-25 - Fixes animation issues on damaged USA Spectre Gunship <a name='index__160__1289_spectre_animation'></a>
+### 2022-09-25 - Fixes animation issues on damaged USA Spectre Gunship <a name='link__20220925__1289_spectre_animation'></a>
 **Changes**
 
 - **FIX**: The level 2 and level 3 USA Spectre Gunship no longer resets its animation state when transitioning between damage states.
@@ -3592,7 +3592,7 @@ Contains 537 entries with
 **Source:** 1289_spectre_animation.yaml
 
 ---
-### 2022-10-15 - Removes superfluous particle effects from USA Supply Center <a name='index__161__1366_usa_supply_obsolete_particles'></a>
+### 2022-10-15 - Removes superfluous particle effects from USA Supply Center <a name='link__20221015__1366_usa_supply_obsolete_particles'></a>
 **Changes**
 
 - **FIX**: Removes superfluous particle effects from damaged and badly damaged USA Supply Center on Day maps.
@@ -3608,7 +3608,7 @@ Contains 537 entries with
 **Source:** 1366_usa_supply_obsolete_particles.yaml
 
 ---
-### 2022-10-15 - Fixes broken fan animation of USA Strategy Center <a name='index__162__1367_summer_night_strategy_center_fan_animation'></a>
+### 2022-10-15 - Fixes broken fan animation of USA Strategy Center <a name='link__20221015__1367_summer_night_strategy_center_fan_animation'></a>
 **Changes**
 
 - **FIX**: Fixes the broken fan animation of undamaged USA Strategy Center on Night maps.
@@ -3624,7 +3624,7 @@ Contains 537 entries with
 **Source:** 1367_summer_night_strategy_center_fan_animation.yaml
 
 ---
-### 2022-10-15 - Removes superfluous particle effects from USA Airfield <a name='index__163__1369_usa_airfield_obsolete_particles'></a>
+### 2022-10-15 - Removes superfluous particle effects from USA Airfield <a name='link__20221015__1369_usa_airfield_obsolete_particles'></a>
 **Changes**
 
 - **FIX**: Removes superfluous particle effects from USA Airfield on Day maps.
@@ -3640,7 +3640,7 @@ Contains 537 entries with
 **Source:** 1369_usa_airfield_obsolete_particles.yaml
 
 ---
-### 2022-10-15 - Fixes particle effects of USA Power Plant <a name='index__164__1371_usa_reactor_particles'></a>
+### 2022-10-15 - Fixes particle effects of USA Power Plant <a name='link__20221015__1371_usa_reactor_particles'></a>
 **Changes**
 
 - **FIX**: Removes superfluous particle effects from damaged USA Power Plant.
@@ -3657,7 +3657,7 @@ Contains 537 entries with
 **Source:** 1371_usa_reactor_particles.yaml
 
 ---
-### 2022-10-15 - Fixes construction fence texture of USA Power Plant <a name='index__165__1375_snow_night_usa_reactor_fence'></a>
+### 2022-10-15 - Fixes construction fence texture of USA Power Plant <a name='link__20221015__1375_snow_night_usa_reactor_fence'></a>
 **Changes**
 
 - **FIX**: The construction fence texture of the USA Power Plant on Winter Night maps now looks proper.
@@ -3673,7 +3673,7 @@ Contains 537 entries with
 **Source:** 1375_snow_night_usa_reactor_fence.yaml
 
 ---
-### 2022-10-15 - Fixes broken reactor core spin animation of USA Power Plant <a name='index__166__1376_usa_reactor_core_spin_animation'></a>
+### 2022-10-15 - Fixes broken reactor core spin animation of USA Power Plant <a name='link__20221015__1376_usa_reactor_core_spin_animation'></a>
 **Changes**
 
 - **FIX**: The reactor cylinders of the damaged USA Power Plant are now properly animated on Summer and Winter Day maps.
@@ -3689,7 +3689,7 @@ Contains 537 entries with
 **Source:** 1376_usa_reactor_core_spin_animation.yaml
 
 ---
-### 2022-10-16 - Fixes wrong helipad texture of USA Airfield <a name='index__167__1370_summer_day_damaged_usa_airfield_texture'></a>
+### 2022-10-16 - Fixes wrong helipad texture of USA Airfield <a name='link__20221016__1370_summer_day_damaged_usa_airfield_texture'></a>
 **Changes**
 
 - **FIX**: Helipad of badly damaged USA Airfield on Summer Day maps now uses the correct texture.
@@ -3705,7 +3705,7 @@ Contains 537 entries with
 **Source:** 1370_summer_day_damaged_usa_airfield_texture.yaml
 
 ---
-### 2022-10-16 - Fixes smoke effect issues on USA War Factory <a name='index__168__1387_china_factory_smoke_particles'></a>
+### 2022-10-16 - Fixes smoke effect issues on USA War Factory <a name='link__20221016__1387_china_factory_smoke_particles'></a>
 **Changes**
 
 - **FIX**: Chimney smoke effects are active during unit construction only and damage smoke effects are properly setup for all damage states of the USA War Factory.
@@ -3727,7 +3727,7 @@ Contains 537 entries with
 **Source:** 1387_china_factory_smoke_particles.yaml
 
 ---
-### 2022-10-18 - Decreases USA Supply Drop Zone crate count from 6 to 3 <a name='index__169__1390_drop_zone_crate_count'></a>
+### 2022-10-18 - Decreases USA Supply Drop Zone crate count from 6 to 3 <a name='link__20221018__1390_drop_zone_crate_count'></a>
 **Changes**
 
 - **FIX**: Decreases the USA Supply Drop Zone crate count from 6 to 3. This change avoids or reduces crates falling next to the Drop Zone. The cash value per crate increases from 250 to 500. Gameplay wise this makes no difference, because the Supply Drop is no player controlled event. The first crate of 3 will fall down a bit later than the first crate of 6, but the last crate of 3 drops earlier than the last crate of 6.
@@ -3743,7 +3743,7 @@ Contains 537 entries with
 **Source:** 1390_drop_zone_crate_count.yaml
 
 ---
-### 2022-10-19 - Changes crane of USA War Factory to animate on vehicle repair instead of vehicle construction <a name='index__170__1394_usa_factory_crane'></a>
+### 2022-10-19 - Changes crane of USA War Factory to animate on vehicle repair instead of vehicle construction <a name='link__20221019__1394_usa_factory_crane'></a>
 **Changes**
 
 - **TWEAK**: The repair pad crane of the USA War Factory no longer moves while constructing a unit. Instead it now moves while repairing a unit. It is still possible to tell if a unit is being built, because the factory produces smoke from the chimney during construction.
@@ -3759,7 +3759,7 @@ Contains 537 entries with
 **Source:** 1394_usa_factory_crane.yaml
 
 ---
-### 2022-10-23 - Fixes abbarracks models for USA Barracks <a name='index__171__1405_abbarracks_models'></a>
+### 2022-10-23 - Fixes abbarracks models for USA Barracks <a name='link__20221023__1405_abbarracks_models'></a>
 **Changes**
 
 - **FIX**: Fixes texture errors in abbarracks w3d for USA Barracks.
@@ -3784,7 +3784,7 @@ Contains 537 entries with
 **Source:** 1405_abbarracks_models.yaml
 
 ---
-### 2022-10-23 - Fixes atbarrslab textures for USA Barracks <a name='index__172__1406_atbarrslab_textures'></a>
+### 2022-10-23 - Fixes atbarrslab textures for USA Barracks <a name='link__20221023__1406_atbarrslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atbarrslab textures for USA Barracks.
@@ -3820,7 +3820,7 @@ Contains 537 entries with
 **Source:** 1406_atbarrslab_textures.yaml
 
 ---
-### 2022-10-23 - Fixes and improves atdoor textures <a name='index__173__1407_atdoor_textures'></a>
+### 2022-10-23 - Fixes and improves atdoor textures <a name='link__20221023__1407_atdoor_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atdoor textures.
@@ -3846,7 +3846,7 @@ Contains 537 entries with
 **Source:** 1407_atdoor_textures.yaml
 
 ---
-### 2022-11-05 - Fixes and improves atdriveway textures for USA War Factory <a name='index__174__1427_atdriveway_textures'></a>
+### 2022-11-05 - Fixes and improves atdriveway textures for USA War Factory <a name='link__20221105__1427_atdriveway_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atdriveway textures for USA War Factory.
@@ -3886,7 +3886,7 @@ Contains 537 entries with
 **Source:** 1427_atdriveway_textures.yaml
 
 ---
-### 2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory <a name='index__175__1427_atrepairbay_textures'></a>
+### 2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory <a name='link__20221105__1427_atrepairbay_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atrepairbay textures for USA War Factory.
@@ -3921,7 +3921,7 @@ Contains 537 entries with
 **Source:** 1427_atrepairbay_textures.yaml
 
 ---
-### 2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory <a name='index__176__1427_atwarfactslab_textures'></a>
+### 2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory <a name='link__20221105__1427_atwarfactslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atwarfactslab textures for USA War Factory.
@@ -3951,7 +3951,7 @@ Contains 537 entries with
 **Source:** 1427_atwarfactslab_textures.yaml
 
 ---
-### 2022-11-05 - Fixes atventwall02 textures for USA structures <a name='index__177__1445_atventwall02_textures'></a>
+### 2022-11-05 - Fixes atventwall02 textures for USA structures <a name='link__20221105__1445_atventwall02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atventwall02 textures for USA structures.
@@ -3975,7 +3975,7 @@ Contains 537 entries with
 **Source:** 1445_atventwall02_textures.yaml
 
 ---
-### 2022-11-05 - Fixes atventwall03 textures for USA structures <a name='index__178__1445_atventwall03_textures'></a>
+### 2022-11-05 - Fixes atventwall03 textures for USA structures <a name='link__20221105__1445_atventwall03_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atventwall03 textures for USA structures.
@@ -3999,7 +3999,7 @@ Contains 537 entries with
 **Source:** 1445_atventwall03_textures.yaml
 
 ---
-### 2022-11-05 - Fixes atventwall04 textures for USA structures <a name='index__179__1445_atventwall04_textures'></a>
+### 2022-11-05 - Fixes atventwall04 textures for USA structures <a name='link__20221105__1445_atventwall04_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atventwall04 textures for USA structures.
@@ -4023,7 +4023,7 @@ Contains 537 entries with
 **Source:** 1445_atventwall04_textures.yaml
 
 ---
-### 2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks <a name='index__180__1413_battle_drone_repair_sound'></a>
+### 2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks <a name='link__20221106__1413_battle_drone_repair_sound'></a>
 **Changes**
 
 - **FEATURE**: Enables and fixes audio for USA Battle Drone repairs. The spark sound files already existed originally, but contained some audible humming and quite 'crispy' sparks.
@@ -4039,7 +4039,7 @@ Contains 537 entries with
 **Source:** 1413_battle_drone_repair_sound.yaml
 
 ---
-### 2022-11-06 - Fixes and improves atcemblock02 textures for USA structures <a name='index__181__1450_atcemblock02_textures'></a>
+### 2022-11-06 - Fixes and improves atcemblock02 textures for USA structures <a name='link__20221106__1450_atcemblock02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atcemblock02 textures.
@@ -4067,7 +4067,7 @@ Contains 537 entries with
 **Source:** 1450_atcemblock02_textures.yaml
 
 ---
-### 2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300 <a name='index__182__1457_strategy_center_detection_range'></a>
+### 2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300 <a name='link__20221108__1457_strategy_center_detection_range'></a>
 **Changes**
 
 - **TWEAK**: Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300. As all heroes (now) have a sight range of 400, options for reacting to a Strategy Center's presence before being detected are incredibly limited. Not only this, but the structure's extensive stealth detection range over the owner's entire base effectively renders heroes useless - on top of the substantial range bonus that Search and Destroy provides. Reducing the stealth detection range is a reasonable way to counterbalance the incredible effectiveness of S&D without directly affecting the bonus itself.
@@ -4083,7 +4083,7 @@ Contains 537 entries with
 **Source:** 1457_strategy_center_detection_range.yaml
 
 ---
-### 2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600 <a name='index__183__1457_strategy_center_snd_vision_range'></a>
+### 2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600 <a name='link__20221108__1457_strategy_center_snd_vision_range'></a>
 **Changes**
 
 - **TWEAK**: Decreases the SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600. Accordingly, the Strategy Center no longer has an extreme shroud-clearing range of 800 under the effects of Search and Destroy. It was an unnecessary advantage for USA that discounts map awareness. The range has been reduced to a more palatable range of 600 - a 1.5x increase of the default vision range of 400. This was preferred over reducing the default vision of 400 to 300 due to the Bombardment cannon's weapon range of 400.
@@ -4099,7 +4099,7 @@ Contains 537 entries with
 **Source:** 1457_strategy_center_snd_vision_range.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall01 textures for USA structures <a name='index__184__1458_atcemwall01_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall01 textures for USA structures <a name='link__20221108__1458_atcemwall01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall01 textures for USA structures.
@@ -4133,7 +4133,7 @@ Contains 537 entries with
 **Source:** 1458_atcemwall01_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall02 textures for USA structures <a name='index__185__1458_atcemwall02_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall02 textures for USA structures <a name='link__20221108__1458_atcemwall02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall02 textures for USA structures.
@@ -4176,7 +4176,7 @@ Contains 537 entries with
 **Source:** 1458_atcemwall02_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall03 textures for USA structures <a name='index__186__1458_atcemwall03_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall03 textures for USA structures <a name='link__20221108__1458_atcemwall03_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall03 textures for USA structures.
@@ -4199,7 +4199,7 @@ Contains 537 entries with
 **Source:** 1458_atcemwall03_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall04 textures for USA structures <a name='index__187__1458_atcemwall04_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall04 textures for USA structures <a name='link__20221108__1458_atcemwall04_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall04 textures for USA structures.
@@ -4235,7 +4235,7 @@ Contains 537 entries with
 **Source:** 1458_atcemwall04_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall05 textures for USA structures <a name='index__188__1458_atcemwall05_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall05 textures for USA structures <a name='link__20221108__1458_atcemwall05_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall05 textures for USA structures.
@@ -4270,7 +4270,7 @@ Contains 537 entries with
 **Source:** 1458_atcemwall05_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon <a name='index__189__1459_atmetal02_textures'></a>
+### 2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon <a name='link__20221108__1459_atmetal02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atmetal02 textures for USA Particle Cannon.
@@ -4300,7 +4300,7 @@ Contains 537 entries with
 **Source:** 1459_atmetal02_textures.yaml
 
 ---
-### 2022-11-10 - Fixes silver roof textures for USA structures <a name='index__190__1461_atsilverroof02_textures'></a>
+### 2022-11-10 - Fixes silver roof textures for USA structures <a name='link__20221110__1461_atsilverroof02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes silver roof textures for USA structures.
@@ -4333,7 +4333,7 @@ Contains 537 entries with
 **Source:** 1461_atsilverroof02_textures.yaml
 
 ---
-### 2022-11-10 - Fixes silver roof textures for USA structures <a name='index__191__1461_atsilverroof_textures'></a>
+### 2022-11-10 - Fixes silver roof textures for USA structures <a name='link__20221110__1461_atsilverroof_textures'></a>
 **Changes**
 
 - **FIX**: Fixes silver roof textures for USA structures.
@@ -4361,7 +4361,7 @@ Contains 537 entries with
 **Source:** 1461_atsilverroof_textures.yaml
 
 ---
-### 2022-11-16 - Adds small idle movement sway to USA Chinook and Comanche <a name='index__192__1467_helicopter_idle_sway'></a>
+### 2022-11-16 - Adds small idle movement sway to USA Chinook and Comanche <a name='link__20221116__1467_helicopter_idle_sway'></a>
 **Changes**
 
 - **FIX**: Adds small idle movement sway to the USA Chinook and Comanche. The movement is just 33% of how much the Helix sways. Originally there is no sway movement.
@@ -4377,7 +4377,7 @@ Contains 537 entries with
 **Source:** 1467_helicopter_idle_sway.yaml
 
 ---
-### 2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25% <a name='index__193__1469_battle_drone_upgrade_armor_bonus'></a>
+### 2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25% <a name='link__20221116__1469_battle_drone_upgrade_armor_bonus'></a>
 **Changes**
 
 - **FIX**: Decreases the Drone Armor Upgrade bonus of the USA Battle Drone from 50% to 25%. This makes the armor bonus consistent with the other vehicle drones.
@@ -4393,7 +4393,7 @@ Contains 537 entries with
 **Source:** 1469_battle_drone_upgrade_armor_bonus.yaml
 
 ---
-### 2022-11-19 - Fixes conveyor belt textures of USA War Factory <a name='index__194__1474_atconvey02_textures'></a>
+### 2022-11-19 - Fixes conveyor belt textures of USA War Factory <a name='link__20221119__1474_atconvey02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes dust tiling on the atconvey02_e texture.
@@ -4409,7 +4409,7 @@ Contains 537 entries with
 **Source:** 1474_atconvey02_textures.yaml
 
 ---
-### 2022-11-25 - Removes final death explosion delay of USA Comanche <a name='index__195__1481_comanche_final_death_delay'></a>
+### 2022-11-25 - Removes final death explosion delay of USA Comanche <a name='link__20221125__1481_comanche_final_death_delay'></a>
 **Changes**
 
 - **FIX**: Effectively removes the 1500 ms final death explosion delay of the USA Comanche helicopter. This way it properly explodes right after ground impact like the other helicopters do.
@@ -4425,7 +4425,7 @@ Contains 537 entries with
 **Source:** 1481_comanche_final_death_delay.yaml
 
 ---
-### 2022-11-27 - Adds damage state transition effect to USA A10 <a name='index__196__1487_a10_damage_transition_effect'></a>
+### 2022-11-27 - Adds damage state transition effect to USA A10 <a name='link__20221127__1487_a10_damage_transition_effect'></a>
 **Changes**
 
 - **FIX**: Adds a damage transition effect to the A10. This way it is visually clear when it becomes critically damaged.
@@ -4441,7 +4441,7 @@ Contains 537 entries with
 **Source:** 1487_a10_damage_transition_effect.yaml
 
 ---
-### 2022-11-30 - Fixes USA Supply Center model issues <a name='index__197__1491_usa_supply_model'></a>
+### 2022-11-30 - Fixes USA Supply Center model issues <a name='link__20221130__1491_usa_supply_model'></a>
 **Changes**
 
 - **FIX**: Cable no longer clips through the claw of the crane.
@@ -4457,7 +4457,7 @@ Contains 537 entries with
 **Source:** 1491_usa_supply_model.yaml
 
 ---
-### 2023-01-09 - Optimizes USA vehicle drone spawn positions <a name='index__198__1539_vehicle_drone_spawn_position'></a>
+### 2023-01-09 - Optimizes USA vehicle drone spawn positions <a name='link__20230109__1539_vehicle_drone_spawn_position'></a>
 **Changes**
 
 - **TWEAK**: Scout drone now spawns at the vehicle center like the other drones.
@@ -4474,7 +4474,7 @@ Contains 537 entries with
 **Source:** 1539_vehicle_drone_spawn_position.yaml
 
 ---
-### 2023-01-15 - Enables toxin weapons to shoot at USA Fire Base <a name='index__199__1556_firebase_toxin_armor'></a>
+### 2023-01-15 - Enables toxin weapons to shoot at USA Fire Base <a name='link__20230115__1556_firebase_toxin_armor'></a>
 **Changes**
 
 - **FIX**: Enables toxin weapons to shoot at USA Fire Base. This way it behaves like all other faction structures.
@@ -4490,7 +4490,7 @@ Contains 537 entries with
 **Source:** 1556_firebase_toxin_armor.yaml
 
 ---
-### 2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans <a name='index__200__1559_strategy_center_plan_tooltip_text'></a>
+### 2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans <a name='link__20230117__1559_strategy_center_plan_tooltip_text'></a>
 **Changes**
 
 - **FIX**: Fixes wrong and inaccurate information in USA Battle Plan tool tip texts for all latin languages.
@@ -4506,7 +4506,7 @@ Contains 537 entries with
 **Source:** 1559_strategy_center_plan_tooltip_text.yaml
 
 ---
-### 2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit <a name='index__201__1581_tomahawk_missile_angle_jump'></a>
+### 2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit <a name='link__20230121__1581_tomahawk_missile_angle_jump'></a>
 **Changes**
 
 - **FIX**: The USA Tomahawk missile flight angle no longer glitches shortly before hitting a target.
@@ -4522,7 +4522,7 @@ Contains 537 entries with
 **Source:** 1581_tomahawk_missile_angle_jump.yaml
 
 ---
-### 2023-01-28 - Removes bouncing from wreck of USA Comanche <a name='index__202__1658_comanche_wreck_bouncing'></a>
+### 2023-01-28 - Removes bouncing from wreck of USA Comanche <a name='link__20230128__1658_comanche_wreck_bouncing'></a>
 **Changes**
 
 - **FIX**: USA Comanche wreck can no longer bounce. Other helicopter wrecks cannot bounce either.
@@ -4538,7 +4538,7 @@ Contains 537 entries with
 **Source:** 1658_comanche_wreck_bouncing.yaml
 
 ---
-### 2023-01-29 - Decreases fast sink rate of helicopter wrecks <a name='index__203__1659_chinook_helix_wreck_sink_rate'></a>
+### 2023-01-29 - Decreases fast sink rate of helicopter wrecks <a name='link__20230129__1659_chinook_helix_wreck_sink_rate'></a>
 **Changes**
 
 - **FIX**: Decreases the quick sink rate of the USA Comanche wreck. All vehicles, helicopters, planes, except GLA Combat Bike, now sink with the same speed.
@@ -4554,7 +4554,7 @@ Contains 537 entries with
 **Source:** 1659_chinook_helix_wreck_sink_rate.yaml
 
 ---
-### 2023-01-29 - Increases slow sink rate of helicopter wrecks <a name='index__204__1659_comanche_wreck_sink_rate'></a>
+### 2023-01-29 - Increases slow sink rate of helicopter wrecks <a name='link__20230129__1659_comanche_wreck_sink_rate'></a>
 **Changes**
 
 - **FIX**: Increases the slow sink rate of USA Chinook, China Helix wrecks. All vehicles, helicopters, planes, except GLA Combat Bike, now sink with the same speed.
@@ -4570,7 +4570,7 @@ Contains 537 entries with
 **Source:** 1659_comanche_wreck_sink_rate.yaml
 
 ---
-### 2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction <a name='index__205__1713_swg_cc_construction_model'></a>
+### 2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction <a name='link__20230215__1713_swg_cc_construction_model'></a>
 **Changes**
 
 - **FIX**: Super Weapon General now uses the correct Command Center model during construction and deconstruction states. This is only noticeable when construction nears 100% or for the first ~44 frames when sold (the faction logo is now visible during these times).
@@ -4586,7 +4586,7 @@ Contains 537 entries with
 **Source:** 1713_swg_cc_construction_model.yaml
 
 ---
-### 2023-02-09 - Fixes turret animation and effect issues on death of tanks <a name='index__206__1657_tank_turret_deatheffects'></a>
+### 2023-02-09 - Fixes turret animation and effect issues on death of tanks <a name='link__20230209__1657_tank_turret_deatheffects'></a>
 **Changes**
 
 - **FIX**: Fixes turret glitches on death of several tanks. Muzzle flashes no longer show on death. And turret barrel no longer recoils on death.
@@ -4612,7 +4612,7 @@ Contains 537 entries with
 **Source:** 1657_tank_turret_death effects.yaml
 
 ---
-### 2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes <a name='index__207__1718_cargo_plane_hit_effects'></a>
+### 2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes <a name='link__20230215__1718_cargo_plane_hit_effects'></a>
 **Changes**
 
 - **FIX**: Adds damage effects to the China and GLA cargo planes. This effect already exists for the USA cargo planes.
@@ -4628,7 +4628,7 @@ Contains 537 entries with
 **Source:** 1718_cargo_plane_hit_effects.yaml
 
 ---
-### 2021-08-28 - Fixes miniscule mass of China Supply Truck <a name='index__208__96_supply_truck_mass'></a>
+### 2021-08-28 - Fixes miniscule mass of China Supply Truck <a name='link__20210828__96_supply_truck_mass'></a>
 **Changes**
 
 - **FIX**: The Supply Truck now has more mass so that it no longer flings high up in the air when hit by a physics weapon such as Nuke missiles.
@@ -4644,7 +4644,7 @@ Contains 537 entries with
 **Source:** 96_supply_truck_mass.yaml
 
 ---
-### 2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles <a name='index__209__97_minigunner_crush'></a>
+### 2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles <a name='link__20210828__97_minigunner_crush'></a>
 **Changes**
 
 - **FIX**: The China Infantry Minigunner can now be properly crushed with vehicles like any other infantry unit.
@@ -4660,7 +4660,7 @@ Contains 537 entries with
 **Source:** 97_minigunner_crush.yaml
 
 ---
-### 2021-09-01 - Fixes China unit attachments not showing the red tint from the Frenzy Power <a name='index__210__132_frenzy_coloring_on_attachments'></a>
+### 2021-09-01 - Fixes China unit attachments not showing the red tint from the Frenzy Power <a name='link__20210901__132_frenzy_coloring_on_attachments'></a>
 **Changes**
 
 - **FIX**: The China Helix and Overlord attachments are now properly tinted red when their parent unit is affected by the Frenzy Power.
@@ -4676,7 +4676,7 @@ Contains 537 entries with
 **Source:** 132_frenzy_coloring_on_attachments.yaml
 
 ---
-### 2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps <a name='index__211__133_speaker_tower_models'></a>
+### 2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps <a name='link__20210901__133_speaker_tower_models'></a>
 **Changes**
 
 - **FIX**: Adds missing house colors to China Speaker Tower on Winter maps.
@@ -4692,7 +4692,7 @@ Contains 537 entries with
 **Source:** 133_speaker_tower_models.yaml
 
 ---
-### 2021-09-01 - Fixes missing radar dots for China Bunkers and Propaganda Center <a name='index__212__134_structures_missing_on_minimap'></a>
+### 2021-09-01 - Fixes missing radar dots for China Bunkers and Propaganda Center <a name='link__20210901__134_structures_missing_on_minimap'></a>
 **Changes**
 
 - **FIX**: The China Bunkers and Propaganda Center are now shown on the radar.
@@ -4708,7 +4708,7 @@ Contains 537 entries with
 **Source:** 134_structures_missing_on_minimap.yaml
 
 ---
-### 2021-09-05 - Adds missing Patriotism upgrade icon to China Infantry Tank Hunter <a name='index__213__224_tank_hunter_cameo'></a>
+### 2021-09-05 - Adds missing Patriotism upgrade icon to China Infantry Tank Hunter <a name='link__20210905__224_tank_hunter_cameo'></a>
 **Changes**
 
 - **FIX**: The Infantry General's Tank Hunter now shows the upgrade icon for Patriotism.
@@ -4725,7 +4725,7 @@ Contains 537 entries with
 **Source:** 224_tank_hunter_cameo.yaml
 
 ---
-### 2021-09-06 - Fixes misaligned propaganda effect on China Vehicles <a name='index__214__231_misaligned_propaganda_effect'></a>
+### 2021-09-06 - Fixes misaligned propaganda effect on China Vehicles <a name='link__20210906__231_misaligned_propaganda_effect'></a>
 **Changes**
 
 - **FIX**: Fixes misaligned propaganda effect on China Assault Troopcrawler.
@@ -4742,7 +4742,7 @@ Contains 537 entries with
 **Source:** 231_misaligned_propaganda_effect.yaml
 
 ---
-### 2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus <a name='index__215__255_battlemaster_horde_bonus'></a>
+### 2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus <a name='link__20210909__255_battlemaster_horde_bonus'></a>
 **Changes**
 
 - **FIX**: Any 5 China Battlemasters now form a horde, no matter what sub faction they are. from.
@@ -4758,7 +4758,7 @@ Contains 537 entries with
 **Source:** 255_battlemaster_horde_bonus.yaml
 
 ---
-### 2021-09-09 - Fixes attackable wrecks and debris <a name='index__216__257_attackable_wreck'></a>
+### 2021-09-09 - Fixes attackable wrecks and debris <a name='link__20210909__257_attackable_wreck'></a>
 **Changes**
 
 - **FIX**: Units will not longer attack wrecks for a brief moment.
@@ -4775,7 +4775,7 @@ Contains 537 entries with
 **Source:** 257_attackable_wreck.yaml
 
 ---
-### 2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair <a name='index__217__261_outpost_smoke_effect'></a>
+### 2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair <a name='link__20210909__261_outpost_smoke_effect'></a>
 **Changes**
 
 - **FIX**: After being fully repaired, the China Listening Outpost will no longer show its damage smoke particles. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
@@ -4791,7 +4791,7 @@ Contains 537 entries with
 **Source:** 261_outpost_smoke_effect.yaml
 
 ---
-### 2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units <a name='index__218__313_overlord_chassis_turn'></a>
+### 2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units <a name='link__20210910__313_overlord_chassis_turn'></a>
 **Changes**
 
 - **FIX**: The China Overlord no longer turns its chassis to the targeted air unit. Only the Gattling turret will aim towards the air unit, while the Overlord either stays as is or aims and shoots at ground targets.
@@ -4807,7 +4807,7 @@ Contains 537 entries with
 **Source:** 313_overlord_chassis_turn.yaml
 
 ---
-### 2021-09-11 - Fixes China Helix with Gattling Cannon being able to unreliably attack air units <a name='index__219__284_helix_gattling_gun_air_attack'></a>
+### 2021-09-11 - Fixes China Helix with Gattling Cannon being able to unreliably attack air units <a name='link__20210911__284_helix_gattling_gun_air_attack'></a>
 **Changes**
 
 - **FIX**: The China Helix with the Gattling Cannon upgrade will no longer be able to fire at airborne units if they are right in front of it.
@@ -4823,7 +4823,7 @@ Contains 537 entries with
 **Source:** 284_helix_gattling_gun_air_attack.yaml
 
 ---
-### 2021-09-11 - Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction <a name='index__220__299_china_cc_carpet_bomber'></a>
+### 2021-09-11 - Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction <a name='link__20210911__299_china_cc_carpet_bomber'></a>
 **Changes**
 
 - **FIX**: The Rank 3 and Nuke Carpet Bombers are now available even if the player controls a Nuke Command Center as well as either a normal China or an Infantry General Command Center at the same time.
@@ -4839,7 +4839,7 @@ Contains 537 entries with
 **Source:** 299_china_cc_carpet_bomber.yaml
 
 ---
-### 2021-09-11 - Fixes Generals Powers disappearing from Command Centers after Mines upgrade <a name='index__221__301_china_cc_powers_commandset'></a>
+### 2021-09-11 - Fixes Generals Powers disappearing from Command Centers after Mines upgrade <a name='link__20210911__301_china_cc_powers_commandset'></a>
 **Changes**
 
 - **FIX**: The Frenzy Power button no longer disappears after upgrading Mines on the Infantry and Nuke General's Command Centers.
@@ -4857,7 +4857,7 @@ Contains 537 entries with
 **Source:** 301_china_cc_powers_commandset.yaml
 
 ---
-### 2021-09-11 - Fixes wrong muzzle flash location of China Minigunner <a name='index__222__312_minigunner_muzzle_flash'></a>
+### 2021-09-11 - Fixes wrong muzzle flash location of China Minigunner <a name='link__20210911__312_minigunner_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The tracer from the China Minigunner now emerges from the muzzle, even when aiming at air units.
@@ -4873,7 +4873,7 @@ Contains 537 entries with
 **Source:** 312_minigunner_muzzle_flash.yaml
 
 ---
-### 2021-09-11 - Fixes broken recoil animation of China Minigunner <a name='index__223__312_minigunner_recoil_animation'></a>
+### 2021-09-11 - Fixes broken recoil animation of China Minigunner <a name='link__20210911__312_minigunner_recoil_animation'></a>
 **Changes**
 
 - **FIX**: The recoil animation of the China Minigunner now matches its fire rate more closely.
@@ -4889,7 +4889,7 @@ Contains 537 entries with
 **Source:** 312_minigunner_recoil_animation.yaml
 
 ---
-### 2021-09-11 - Adds missing Mines upgrade to China Speaker Tower <a name='index__224__317_speaker_tower_mines'></a>
+### 2021-09-11 - Adds missing Mines upgrade to China Speaker Tower <a name='link__20210911__317_speaker_tower_mines'></a>
 **Changes**
 
 - **FIX**: The China Speaker Tower can now upgrade Mines.
@@ -4905,7 +4905,7 @@ Contains 537 entries with
 **Source:** 317_speaker_tower_mines.yaml
 
 ---
-### 2021-09-12 - Fixes Nuke General unable to build Nuke Cannons from regular China and Infantry General War Factories <a name='index__225__331_nuke_general_build_bug'></a>
+### 2021-09-12 - Fixes Nuke General unable to build Nuke Cannons from regular China and Infantry General War Factories <a name='link__20210912__331_nuke_general_build_bug'></a>
 **Changes**
 
 - **FIX**: The Nuke General can now build Nuke Cannons in regular China and Infantry General War Factories.
@@ -4921,7 +4921,7 @@ Contains 537 entries with
 **Source:** 331_nuke_general_build_bug.yaml
 
 ---
-### 2021-09-13 - Fixes inconsistent geometry sizes of China Outpost models <a name='index__226__347_outpost_geometry_size'></a>
+### 2021-09-13 - Fixes inconsistent geometry sizes of China Outpost models <a name='link__20210913__347_outpost_geometry_size'></a>
 **Changes**
 
 - **FIX**: Fixes inconsistent geometry sizes of China Outpost models.
@@ -4937,7 +4937,7 @@ Contains 537 entries with
 **Source:** 347_outpost_geometry_size.yaml
 
 ---
-### 2021-09-13 - Adds missing stealth detection effects and sounds to China Outposts <a name='index__227__349_outpost_stealth_effects'></a>
+### 2021-09-13 - Adds missing stealth detection effects and sounds to China Outposts <a name='link__20210913__349_outpost_stealth_effects'></a>
 **Changes**
 
 - **FIX**: The regular China Listening Outpost now displays the red grid below a detected object and the red ring around the unit, just like the other Listening Outposts.
@@ -4953,7 +4953,7 @@ Contains 537 entries with
 **Source:** 349_outpost_stealth_effects.yaml
 
 ---
-### 2021-09-13 - Adds missing stealth detection effects to China Troop Crawler <a name='index__228__350_troopcrawler_stealth_effects'></a>
+### 2021-09-13 - Adds missing stealth detection effects to China Troop Crawler <a name='link__20210913__350_troopcrawler_stealth_effects'></a>
 **Changes**
 
 - **FIX**: The regular China Troop Crawler now displays the red grid below a detected object and the red ring around the unit, just like the other Troop Crawlers.
@@ -4969,7 +4969,7 @@ Contains 537 entries with
 **Source:** 350_troopcrawler_stealth_effects.yaml
 
 ---
-### 2021-09-13 - Fixes missing Radar icon on China Command Center <a name='index__229__351_china_cc_cameo'></a>
+### 2021-09-13 - Fixes missing Radar icon on China Command Center <a name='link__20210913__351_china_cc_cameo'></a>
 **Changes**
 
 - **FIX**: The China Command Center now has an icon for the Radar upgrade.
@@ -4985,7 +4985,7 @@ Contains 537 entries with
 **Source:** 351_china_cc_cameo.yaml
 
 ---
-### 2021-09-17 - Fixes China Nuke Mig upgrade not being buildable when on low power <a name='index__230__376_nuke_mig_upgrade_button'></a>
+### 2021-09-17 - Fixes China Nuke Mig upgrade not being buildable when on low power <a name='link__20210917__376_nuke_mig_upgrade_button'></a>
 **Changes**
 
 - **FIX**: The China Nuke Mig upgrade now behaves like every other upgrade and can be built when on low power.
@@ -5001,7 +5001,7 @@ Contains 537 entries with
 **Source:** 376_nuke_mig_upgrade_button.yaml
 
 ---
-### 2021-09-19 - Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix <a name='index__231__391_helix_napalm_bomb_cameo'></a>
+### 2021-09-19 - Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix <a name='link__20210919__391_helix_napalm_bomb_cameo'></a>
 **Changes**
 
 - **FIX**: Adds missing Napalm Bomb upgrade icon to China Helix and China Tank Helix.
@@ -5017,7 +5017,7 @@ Contains 537 entries with
 **Source:** 391_helix_napalm_bomb_cameo.yaml
 
 ---
-### 2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus <a name='index__232__437_lotus_vehicle_hack_xp_reward'></a>
+### 2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus <a name='link__20211001__437_lotus_vehicle_hack_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: China Black Lotus now receives 10 XP for hacking vehicles.
@@ -5034,7 +5034,7 @@ Contains 537 entries with
 **Source:** 437_lotus_vehicle_hack_xp_reward.yaml
 
 ---
-### 2021-10-17 - Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps) <a name='index__233__575_tank_nuke_cannon'></a>
+### 2021-10-17 - Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps) <a name='link__20211017__575_tank_nuke_cannon'></a>
 **Changes**
 
 - **FEATURE**: Adds Nuke Cannon and Inferno Cannon to Tank General. These are not available in regular matches, but can be used for custom maps.
@@ -5050,7 +5050,7 @@ Contains 537 entries with
 **Source:** 575_tank_nuke_cannon.yaml
 
 ---
-### 2021-10-23 - Removes ability to reveal shroud with China Frenzy power <a name='index__234__593_frenzy_scan'></a>
+### 2021-10-23 - Removes ability to reveal shroud with China Frenzy power <a name='link__20211023__593_frenzy_scan'></a>
 **Changes**
 
 - **FIX**: China Frenzy will no longer reveal shroud. Meaning it no longer acts as a scan to scout unknown terrain.
@@ -5066,7 +5066,7 @@ Contains 537 entries with
 **Source:** 593_frenzy_scan.yaml
 
 ---
-### 2022-07-24 - Decreases reload time of China Mig before Upgrade by 50% <a name='index__235__751_mig_reload_time'></a>
+### 2022-07-24 - Decreases reload time of China Mig before Upgrade by 50% <a name='link__20220724__751_mig_reload_time'></a>
 **Changes**
 
 - **FIX**: Decreases the reload time of non-Black Napalm Migs from 8 to 4 seconds. This also applies to Nuke Migs before the Nuke Mig Upgrade. The reload time after both upgrades remains unchanged at 2 seconds.
@@ -5082,7 +5082,7 @@ Contains 537 entries with
 **Source:** 751_mig_reload_time.yaml
 
 ---
-### 2022-07-27 - Decreases audible distance of China Helix helicopter by 30% <a name='index__236__765_helix_sound_range'></a>
+### 2022-07-27 - Decreases audible distance of China Helix helicopter by 30% <a name='link__20220727__765_helix_sound_range'></a>
 **Changes**
 
 - **FIX**: Decreases the audible distance of China Helix helicopter by 30%, from 1000 to 700. This is in line with the sound distances of other aircraft.
@@ -5098,7 +5098,7 @@ Contains 537 entries with
 **Source:** 765_helix_sound_range.yaml
 
 ---
-### 2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler <a name='index__237__778_outpost_troopcrawler_xp_reward'></a>
+### 2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler <a name='link__20220728__778_outpost_troopcrawler_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Destroying the China Outpost now rewards 5 experience points.
@@ -5115,7 +5115,7 @@ Contains 537 entries with
 **Source:** 778_outpost_troopcrawler_xp_reward.yaml
 
 ---
-### 2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625 <a name='index__238__768_hacker_build_cost'></a>
+### 2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625 <a name='link__20220730__768_hacker_build_cost'></a>
 **Changes**
 
 - **TWEAK**: Decreases the build cost of Tank China Hacker from 780 to 625. All China Hackers now cost the same. 4 Regular Hackers valued at 2500 cash generate as much income as as a GLA Black Market of identical value.
@@ -5131,7 +5131,7 @@ Contains 537 entries with
 **Source:** 768_hacker_build_cost.yaml
 
 ---
-### 2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds <a name='index__239__769_hacker_build_time'></a>
+### 2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds <a name='link__20220730__769_hacker_build_time'></a>
 **Changes**
 
 - **TWEAK**: Decreases the build time of China Hackers from 20 to 15 seconds. 4 Hackers will build as fast as a GLA Black Market of identical value in 1 minute accordingly.
@@ -5147,7 +5147,7 @@ Contains 537 entries with
 **Source:** 769_hacker_build_time.yaml
 
 ---
-### 2022-07-30 - Decreases kill experience reward of China Hackers <a name='index__240__770_hacker_xp_reward'></a>
+### 2022-07-30 - Decreases kill experience reward of China Hackers <a name='link__20220730__770_hacker_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Decreases the kill experience reward of China Hackers from 50 100 150 400 to 50 60 80 100. This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
@@ -5163,7 +5163,7 @@ Contains 537 entries with
 **Source:** 770_hacker_xp_reward.yaml
 
 ---
-### 2022-07-30 - Decreases the required level up experience of China Hackers <a name='index__241__771_hacker_xp_requirement'></a>
+### 2022-07-30 - Decreases the required level up experience of China Hackers <a name='link__20220730__771_hacker_xp_requirement'></a>
 **Changes**
 
 - **TWEAK**: Decreases the required level up experience of China Hackers from 100 300 500 to 100 250 400. Affects all Hackers expept Super Hackers from Infantry General. This means the regular Hacker now takes 500 seconds instead of 600 seconds to reach Vet 2. And 800 seconds instead of 1000 seconds to reach Vet 3.
@@ -5179,7 +5179,7 @@ Contains 537 entries with
 **Source:** 771_hacker_xp_requirement.yaml
 
 ---
-### 2022-07-30 - Increases movement speed of China Hackers by 25% <a name='index__242__773_hacker_movement_speed'></a>
+### 2022-07-30 - Increases movement speed of China Hackers by 25% <a name='link__20220730__773_hacker_movement_speed'></a>
 **Changes**
 
 - **TWEAK**: All China Hackers now move as quick as the Red Guard. Black Lotus walks quicker than Hackers. Tank Hunter walks slower than Hackers.
@@ -5195,7 +5195,7 @@ Contains 537 entries with
 **Source:** 773_hacker_movement_speed.yaml
 
 ---
-### 2022-07-30 - Decreases cash hack audio limit of China Hackers <a name='index__243__774_hacker_hack_audio_limit'></a>
+### 2022-07-30 - Decreases cash hack audio limit of China Hackers <a name='link__20220730__774_hacker_hack_audio_limit'></a>
 **Changes**
 
 - **TWEAK**: No more than 1 cash hack audio effect is now played simultaneously. This avoids accumulated audio spam.
@@ -5211,7 +5211,7 @@ Contains 537 entries with
 **Source:** 774_hacker_hack_audio_limit.yaml
 
 ---
-### 2022-07-30 - Decreases pack and unpack times of China Hackers <a name='index__244__774_hacker_pack_unpack_times'></a>
+### 2022-07-30 - Decreases pack and unpack times of China Hackers <a name='link__20220730__774_hacker_pack_unpack_times'></a>
 **Changes**
 
 - **TWEAK**: All China Hackers now unpack and pack their laptops quicker. The packing time variation is decreased significantly from 100% to 20%. This adds more time consistency when packing and unpacking. The unpack base time is just marginally tweaked to accommodate the pack variation for improved animation optics. The pack time is decreased to 75%, allowing Hackers to flee the scene a bit quicker.
@@ -5227,7 +5227,7 @@ Contains 537 entries with
 **Source:** 774_hacker_pack_unpack_times.yaml
 
 ---
-### 2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers <a name='index__245__791_satellite_hack_issue'></a>
+### 2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers <a name='link__20220731__791_satellite_hack_issue'></a>
 **Changes**
 
 - **FIX**: China Satellite Hack 1 can now see newly build enemy Command Centers when activated.
@@ -5243,7 +5243,7 @@ Contains 537 entries with
 **Source:** 791_satellite_hack_issue.yaml
 
 ---
-### 2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center <a name='index__246__833_internet_center_prerequisites'></a>
+### 2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center <a name='link__20220806__833_internet_center_prerequisites'></a>
 **Changes**
 
 - **TWEAK**: The China Internet Center can now be built after a War Factory or Propaganda Center has been built.
@@ -5259,7 +5259,7 @@ Contains 537 entries with
 **Source:** 833_internet_center_prerequisites.yaml
 
 ---
-### 2022-08-06 - Fixes description error in tooltip text of China Nuke Mig <a name='index__247__840_nuke_mig_tooltip_text'></a>
+### 2022-08-06 - Fixes description error in tooltip text of China Nuke Mig <a name='link__20220806__840_nuke_mig_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip text of the China Nuke Mig no longer claims that it creates a fire storm.
@@ -5275,7 +5275,7 @@ Contains 537 entries with
 **Source:** 840_nuke_mig_tooltip_text.yaml
 
 ---
-### 2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower <a name='index__248__834_speaker_tower_prerequisites'></a>
+### 2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower <a name='link__20220807__834_speaker_tower_prerequisites'></a>
 **Changes**
 
 - **TWEAK**: The China Speaker Tower can now be built earlier after a War Factory or Airfield or Propaganda Center has been built.
@@ -5291,7 +5291,7 @@ Contains 537 entries with
 **Source:** 834_speaker_tower_prerequisites.yaml
 
 ---
-### 2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix <a name='index__249__1023_nuke_helix_model'></a>
+### 2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix <a name='link__20220813__1023_nuke_helix_model'></a>
 **Changes**
 
 - **FIX**: The China Nuke Helix now displays nuklear symbols instead of stars on its wings. This is consistent with nuke symbols on Mig Jet and Nuke Cannon.
@@ -5307,7 +5307,7 @@ Contains 537 entries with
 **Source:** 1023_nuke_helix_model.yaml
 
 ---
-### 2022-08-14 - Decreases China Nuke Missile blast delays <a name='index__250__880_nuke_missile_blast_delays'></a>
+### 2022-08-14 - Decreases China Nuke Missile blast delays <a name='link__20220814__880_nuke_missile_blast_delays'></a>
 **Changes**
 
 - **TWEAK**: Decreases the China Nuke Missile blast delays to accomodate the explosion effect more appropriately. The Patched Nuke Missile now hits max 880 milliseconds earlier than originally.
@@ -5323,7 +5323,7 @@ Contains 537 entries with
 **Source:** 880_nuke_missile_blast_delays.yaml
 
 ---
-### 2022-08-20 - Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image <a name='index__251__1021_nuke_battlemaster_portrait_image'></a>
+### 2022-08-20 - Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image <a name='link__20220820__1021_nuke_battlemaster_portrait_image'></a>
 **Changes**
 
 - **FIX**: Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image
@@ -5339,7 +5339,7 @@ Contains 537 entries with
 **Source:** 1021_nuke_battlemaster_portrait_image.yaml
 
 ---
-### 2022-08-20 - Adds upgrade voice for China Neutron shells <a name='index__252__1026_neutron_shells_upgrade_voice'></a>
+### 2022-08-20 - Adds upgrade voice for China Neutron shells <a name='link__20220820__1026_neutron_shells_upgrade_voice'></a>
 **Changes**
 
 - **FEATURE**: Acquiring the China Neutron shells upgrade now plays a dedicated voice line in all languages.
@@ -5355,7 +5355,7 @@ Contains 537 entries with
 **Source:** 1026_neutron_shells_upgrade_voice.yaml
 
 ---
-### 2022-08-20 - Adds new recoil animation to China Minigunner to match its fire rate increase over time <a name='index__253__939_minigunner_recoil_animation'></a>
+### 2022-08-20 - Adds new recoil animation to China Minigunner to match its fire rate increase over time <a name='link__20220820__939_minigunner_recoil_animation'></a>
 **Changes**
 
 - **FIX**: Adds new recoil animation to China Minigunner to match its fire rate increase over time.
@@ -5371,7 +5371,7 @@ Contains 537 entries with
 **Source:** 939_minigunner_recoil_animation.yaml
 
 ---
-### 2022-08-26 - Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler <a name='index__254__974_troopcrawler_guard_mode_buttons'></a>
+### 2022-08-26 - Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler <a name='link__20220826__974_troopcrawler_guard_mode_buttons'></a>
 **Changes**
 
 - **FIX**: Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler
@@ -5387,7 +5387,7 @@ Contains 537 entries with
 **Source:** 974_troopcrawler_guard_mode_buttons.yaml
 
 ---
-### 2022-08-26 - Decreases large Guard Mode range of China Listening Outpost <a name='index__255__975_outpost_guard_mode_range'></a>
+### 2022-08-26 - Decreases large Guard Mode range of China Listening Outpost <a name='link__20220826__975_outpost_guard_mode_range'></a>
 **Changes**
 
 - **FIX**: Decreases the large Guard Mode range of China Listening Outpost from 250 to 150. This range matches those of many other China units. It does not change the stealth detection range and shroud clearing range.
@@ -5403,7 +5403,7 @@ Contains 537 entries with
 **Source:** 975_outpost_guard_mode_range.yaml
 
 ---
-### 2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content) <a name='index__256__1060_empty_troopcrawler'></a>
+### 2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content) <a name='link__20220901__1060_empty_troopcrawler'></a>
 **Changes**
 
 - **FIX**: Fixes setup issues of China Empty Troopcrawler.
@@ -5419,7 +5419,7 @@ Contains 537 entries with
 **Source:** 1060_empty_troopcrawler.yaml
 
 ---
-### 2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost <a name='index__257__1080_outpost_radar_dish_physics'></a>
+### 2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost <a name='link__20220902__1080_outpost_radar_dish_physics'></a>
 **Changes**
 
 - **FIX**: The radar dish of the China Listening Outpost no longer flies high up in the sky after destruction.
@@ -5435,7 +5435,7 @@ Contains 537 entries with
 **Source:** 1080_outpost_radar_dish_physics.yaml
 
 ---
-### 2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps <a name='index__258__1090_china_cc_night_model'></a>
+### 2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps <a name='link__20220903__1090_china_cc_night_model'></a>
 **Changes**
 
 - **FIX**: Fixes the duplicated structure parts on the damaged China Command Center on Night maps
@@ -5451,7 +5451,7 @@ Contains 537 entries with
 **Source:** 1090_china_cc_night_model.yaml
 
 ---
-### 2022-09-04 - Fixes mispositioned explosion effects <a name='index__259__1122_detonation_effect_position_offset'></a>
+### 2022-09-04 - Fixes mispositioned explosion effects <a name='link__20220904__1122_detonation_effect_position_offset'></a>
 **Changes**
 
 - **FIX**: Fixes improperly positioned China Nuke Cannon shell detonation effect.
@@ -5471,7 +5471,7 @@ Contains 537 entries with
 **Source:** 1122_detonation_effect_position_offset.yaml
 
 ---
-### 2022-09-06 - Increases General Promotion reward from China Black Lotus by 100% <a name='index__260__1134_lotus_promotion_reward'></a>
+### 2022-09-06 - Increases General Promotion reward from China Black Lotus by 100% <a name='link__20220906__1134_lotus_promotion_reward'></a>
 **Changes**
 
 - **TWEAK**: Doubles the General Promotion rewards gained from Black Lotus attacks. The rewards are still inferior to those gained from using other Hero units.
@@ -5487,7 +5487,7 @@ Contains 537 entries with
 **Source:** 1134_lotus_promotion_reward.yaml
 
 ---
-### 2022-09-10 - Enables low fuel voices for China Mig Jet <a name='index__261__1180_mig_low_fuel_voice'></a>
+### 2022-09-10 - Enables low fuel voices for China Mig Jet <a name='link__20220910__1180_mig_low_fuel_voice'></a>
 **Changes**
 
 - **FIX**: Adds the China Mig's unused low fuel voice event. Like all other planes, it will play when returning to a missing airfield.
@@ -5503,7 +5503,7 @@ Contains 537 entries with
 **Source:** 1180_mig_low_fuel_voice.yaml
 
 ---
-### 2022-09-11 - Adds missing radio sounds to Helix voices <a name='index__262__1181_helix_radio_sounds'></a>
+### 2022-09-11 - Adds missing radio sounds to Helix voices <a name='link__20220911__1181_helix_radio_sounds'></a>
 **Changes**
 
 - **FIX**: Adds missing radio sounds to Helix voices.
@@ -5519,7 +5519,7 @@ Contains 537 entries with
 **Source:** 1181_helix_radio_sounds.yaml
 
 ---
-### 2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank <a name='index__263__1226_overlord_textures'></a>
+### 2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank <a name='link__20220920__1226_overlord_textures'></a>
 **Changes**
 
 - **FIX**: Removes the wheel(s) on the chassis of the China Overlord Tank.
@@ -5535,7 +5535,7 @@ Contains 537 entries with
 **Source:** 1226_overlord_textures.yaml
 
 ---
-### 2022-09-21 - Adds missing China Propaganda Tower damage texture <a name='index__264__1239_propaganda_tower_textures'></a>
+### 2022-09-21 - Adds missing China Propaganda Tower damage texture <a name='link__20220921__1239_propaganda_tower_textures'></a>
 **Changes**
 
 - **FIX**: Adds missing nbptower_e texture. nbptower_es (snow) does already exist. Originally NBPTower_E.W3D references nbptower_d texture.
@@ -5551,7 +5551,7 @@ Contains 537 entries with
 **Source:** 1239_propaganda_tower_textures.yaml
 
 ---
-### 2022-09-23 - Fixes wrong select audio of China Internet Centers <a name='index__265__1260_internet_center_select_sound'></a>
+### 2022-09-23 - Fixes wrong select audio of China Internet Centers <a name='link__20220923__1260_internet_center_select_sound'></a>
 **Changes**
 
 - **FIX**: Internet Centers of China Nuke, China Tank and China Infantry now play the correct selection audio.
@@ -5567,7 +5567,7 @@ Contains 537 entries with
 **Source:** 1260_internet_center_select_sound.yaml
 
 ---
-### 2022-09-25 - Fixes nvinferno textures for China Inferno Cannon <a name='index__266__1285_nvinferno_textures'></a>
+### 2022-09-25 - Fixes nvinferno textures for China Inferno Cannon <a name='link__20220925__1285_nvinferno_textures'></a>
 **Changes**
 
 - **FIX**: Fixes nvinferno textures for China Inferno Cannon.
@@ -5593,7 +5593,7 @@ Contains 537 entries with
 **Source:** 1285_nvinferno_textures.yaml
 
 ---
-### 2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank <a name='index__267__1290_nvgatttank_textures'></a>
+### 2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank <a name='link__20220925__1290_nvgatttank_textures'></a>
 **Changes**
 
 - **FIX**: Fixes nvgatttank textures. The chassis wheels have been replaced with proper headlamps in the same style as Outpost and Nuke Cannon. The headlamp piece is mapped to both front and back. The Gattling barrels now look shiny by borrowing the same texture from other Gattling Cannons.
@@ -5627,7 +5627,7 @@ Contains 537 entries with
 **Source:** 1290_nvgatttank_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntcement textures for China structures <a name='index__268__1298_ntcement_textures'></a>
+### 2022-09-26 - Fixes ntcement textures for China structures <a name='link__20220926__1298_ntcement_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntcement textures. There is a slight color mismatch on some rubble between _d and _e variants.
@@ -5649,7 +5649,7 @@ Contains 537 entries with
 **Source:** 1298_ntcement_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntdrive02 textures for China Supply Center <a name='index__269__1300_ntdrive02_textures'></a>
+### 2022-09-26 - Fixes ntdrive02 textures for China Supply Center <a name='link__20220926__1300_ntdrive02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntdrive02 textures for China Supply Center.
@@ -5676,7 +5676,7 @@ Contains 537 entries with
 **Source:** 1300_ntdrive02_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntentry snow textures for China structures <a name='index__270__1301_ntentry_snow_textures'></a>
+### 2022-09-26 - Fixes ntentry snow textures for China structures <a name='link__20220926__1301_ntentry_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntentry snow textures.
@@ -5702,7 +5702,7 @@ Contains 537 entries with
 **Source:** 1301_ntentry_snow_textures.yaml
 
 ---
-### 2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant <a name='index__271__1302_ntpwrplantslab_textures'></a>
+### 2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant <a name='link__20220926__1302_ntpwrplantslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves ntpwrplantslab textures for China Power Plant.
@@ -5737,7 +5737,7 @@ Contains 537 entries with
 **Source:** 1302_ntpwrplantslab_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center <a name='index__272__1304_ntsuppbase_snow_textures'></a>
+### 2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center <a name='link__20220926__1304_ntsuppbase_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntsuppbase snow textures for China Supply Center.
@@ -5768,7 +5768,7 @@ Contains 537 entries with
 **Source:** 1304_ntsuppbase_snow_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntwalls01 snow textures for China structures <a name='index__273__1305_ntwalls01_snow_textures'></a>
+### 2022-09-26 - Fixes ntwalls01 snow textures for China structures <a name='link__20220926__1305_ntwalls01_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntwalls01 snow textures. The snow is no longer upside-down on specific walls, most notably the China Airfield.
@@ -5790,7 +5790,7 @@ Contains 537 entries with
 **Source:** 1305_ntwalls01_snow_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntwalls04 snow textures for China structures <a name='index__274__1305_ntwalls04_snow_textures'></a>
+### 2022-09-26 - Fixes ntwalls04 snow textures for China structures <a name='link__20220926__1305_ntwalls04_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntwalls04 snow textures. The snow is no longer upside-down on specific walls, most notably the China Airfield.
@@ -5818,7 +5818,7 @@ Contains 537 entries with
 **Source:** 1305_ntwalls04_snow_textures.yaml
 
 ---
-### 2022-10-08 - Fixes missing muzzle flash on Gattling weapons <a name='index__275__1341_gattling_muzzle_flash'></a>
+### 2022-10-08 - Fixes missing muzzle flash on Gattling weapons <a name='link__20221008__1341_gattling_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: Fixes missing muzzle flash on China Gattling Tank when firing at ground targets.
@@ -5838,7 +5838,7 @@ Contains 537 entries with
 **Source:** 1341_gattling_muzzle_flash.yaml
 
 ---
-### 2022-10-08 - Removes white cubes on headlamps from China Gattling Tank <a name='index__276__1342_gattling_tank_model'></a>
+### 2022-10-08 - Removes white cubes on headlamps from China Gattling Tank <a name='link__20221008__1342_gattling_tank_model'></a>
 **Changes**
 
 - **FIX**: Removes white cubes (bones) on headlamps from China Gattling Tank on Summer Night maps.
@@ -5854,7 +5854,7 @@ Contains 537 entries with
 **Source:** 1342_gattling_tank_model.yaml
 
 ---
-### 2022-10-08 - Removes green cubes from the damaged China Emperor Tank <a name='index__277__1346_emperor_model'></a>
+### 2022-10-08 - Removes green cubes from the damaged China Emperor Tank <a name='link__20221008__1346_emperor_model'></a>
 **Changes**
 
 - **FIX**: Removes green cubes (bones) from the damaged China Emperor Tank.
@@ -5870,7 +5870,7 @@ Contains 537 entries with
 **Source:** 1346_emperor_model.yaml
 
 ---
-### 2022-10-08 - Fixes incorrect model setups of China Gattling Cannon <a name='index__278__1347_winter_day_damaged_gattling_cannon_model'></a>
+### 2022-10-08 - Fixes incorrect model setups of China Gattling Cannon <a name='link__20221008__1347_winter_day_damaged_gattling_cannon_model'></a>
 **Changes**
 
 - **FIX**: Fixes the wrong model of the fast firing damaged China Gattling Cannon on Winter Day maps.
@@ -5886,7 +5886,7 @@ Contains 537 entries with
 **Source:** 1347_winter_day_damaged_gattling_cannon_model.yaml
 
 ---
-### 2022-10-08 - Fixes smoke effects on China Gattling Cannon <a name='index__279__1348_summer_night_gattling_cannon_particles'></a>
+### 2022-10-08 - Fixes smoke effects on China Gattling Cannon <a name='link__20221008__1348_summer_night_gattling_cannon_particles'></a>
 **Changes**
 
 - **FIX**: Fixes smoke effects with medium and fast firing badly damaged China Gattling Cannon on Summer Night maps.
@@ -5902,7 +5902,7 @@ Contains 537 entries with
 **Source:** 1348_summer_night_gattling_cannon_particles.yaml
 
 ---
-### 2022-10-08 - Fixes infinite Gattling barrel spin animation issues <a name='index__280__1349_gattling_spin_issues'></a>
+### 2022-10-08 - Fixes infinite Gattling barrel spin animation issues <a name='link__20221008__1349_gattling_spin_issues'></a>
 **Changes**
 
 - **FIX**: China Overlord Gattling no longer spins forever after firing once.
@@ -5920,7 +5920,7 @@ Contains 537 entries with
 **Source:** 1349_gattling_spin_issues.yaml
 
 ---
-### 2022-10-08 - Fixes China Helix model issues <a name='index__281__1351_helix_model'></a>
+### 2022-10-08 - Fixes China Helix model issues <a name='link__20221008__1351_helix_model'></a>
 **Changes**
 
 - **FIX**: Damaged China Helix now uses damaged texture instead of wreck texture.
@@ -5936,7 +5936,7 @@ Contains 537 entries with
 **Source:** 1351_helix_model.yaml
 
 ---
-### 2022-10-08 - Fixes Gattling barrel spin animation issues <a name='index__282__1359_gattlings_spin_animations'></a>
+### 2022-10-08 - Fixes Gattling barrel spin animation issues <a name='link__20221008__1359_gattlings_spin_animations'></a>
 **Changes**
 
 - **FIX**: Fixes incorrect barrel spin speeds of damaged China Gattling Cannon on Winter Day maps.
@@ -5959,7 +5959,7 @@ Contains 537 entries with
 **Source:** 1359_gattlings_spin_animations.yaml
 
 ---
-### 2022-10-10 - Fixes inconsistent particle effects on different damage states of China Power Plant <a name='index__283__1395_china_reactor_consistent_particles'></a>
+### 2022-10-10 - Fixes inconsistent particle effects on different damage states of China Power Plant <a name='link__20221010__1395_china_reactor_consistent_particles'></a>
 **Changes**
 
 - **FIX**: Removes overcharge spark particles of badly damaged China Power Plant on day maps.
@@ -5977,7 +5977,7 @@ Contains 537 entries with
 **Source:** 1395_china_reactor_consistent_particles.yaml
 
 ---
-### 2022-10-16 - Removes superfluous particle effects from China War Factory <a name='index__284__1379_china_factory_obsolete_particles'></a>
+### 2022-10-16 - Removes superfluous particle effects from China War Factory <a name='link__20221016__1379_china_factory_obsolete_particles'></a>
 **Changes**
 
 - **FIX**: Boneless fire and smoke effects are no longer emerging from the center of the damaged China War Factory. Originally these effects are covered by the mesh and therefore not visible anyway.
@@ -5993,7 +5993,7 @@ Contains 537 entries with
 **Source:** 1379_china_factory_obsolete_particles.yaml
 
 ---
-### 2022-10-16 - Removes floating basket from China War Factory <a name='index__285__1380_winter_night_china_factory_basket'></a>
+### 2022-10-16 - Removes floating basket from China War Factory <a name='link__20221016__1380_winter_night_china_factory_basket'></a>
 **Changes**
 
 - **FIX**: Removes the floating basket from the undamaged China War Factory on snow night maps.
@@ -6009,7 +6009,7 @@ Contains 537 entries with
 **Source:** 1380_winter_night_china_factory_basket.yaml
 
 ---
-### 2022-10-16 - Fixes animation issues on conveyor belt of China War Factory <a name='index__286__1381_china_factory_conveyor_belt'></a>
+### 2022-10-16 - Fixes animation issues on conveyor belt of China War Factory <a name='link__20221016__1381_china_factory_conveyor_belt'></a>
 **Changes**
 
 - **FIX**: Removes the China War Factory conveyor belt animation from badly damaged states on Winter and Night maps, which solves problems with floating baskets above the deformed pole and baskets colliding with a stuck basket inside the furnace.
@@ -6027,7 +6027,7 @@ Contains 537 entries with
 **Source:** 1381_china_factory_conveyor_belt.yaml
 
 ---
-### 2022-10-19 - Changes crane of China War Factory to animate on vehicle repair instead of vehicle construction <a name='index__287__1393_china_factory_crane'></a>
+### 2022-10-19 - Changes crane of China War Factory to animate on vehicle repair instead of vehicle construction <a name='link__20221019__1393_china_factory_crane'></a>
 **Changes**
 
 - **TWEAK**: The repair pad crane of the China War Factory no longer moves while constructing a unit. Instead it now moves while repairing a unit. It is still possible to tell if a unit is being built, because the factory produces smoke from the chimney during construction.
@@ -6043,7 +6043,7 @@ Contains 537 entries with
 **Source:** 1393_china_factory_crane.yaml
 
 ---
-### 2022-10-20 - Removes superfluous particle effects from China Power Plant <a name='index__288__1395_china_reactor_obsolete_particles'></a>
+### 2022-10-20 - Removes superfluous particle effects from China Power Plant <a name='link__20221020__1395_china_reactor_obsolete_particles'></a>
 **Changes**
 
 - **FIX**: China Power Plant no longer emits superfluous particles from the center of the structure.
@@ -6059,7 +6059,7 @@ Contains 537 entries with
 **Source:** 1395_china_reactor_obsolete_particles.yaml
 
 ---
-### 2022-10-20 - Adds steam particles to all chimneys of China Nuke Power Plant <a name='index__289__1396_nuke_reactor_steam_particles'></a>
+### 2022-10-20 - Adds steam particles to all chimneys of China Nuke Power Plant <a name='link__20221020__1396_nuke_reactor_steam_particles'></a>
 **Changes**
 
 - **FIX**: China Nuke Power Plant now emits steam particles from all its chimneys. This is consistent with the portrait image.
@@ -6075,7 +6075,7 @@ Contains 537 entries with
 **Source:** 1396_nuke_reactor_steam_particles.yaml
 
 ---
-### 2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade <a name='index__290__1588_dragon_min_attack_range'></a>
+### 2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade <a name='link__20221103__1588_dragon_min_attack_range'></a>
 **Changes**
 
 - **FIX**: Decreases the minimum attack range of China Dragon Tank with Napalm Upgrade from 10 to 0. This range matches the unupgraded Dragon Tank attack range.
@@ -6091,7 +6091,7 @@ Contains 537 entries with
 **Source:** 1588_dragon_min_attack_range.yaml
 
 ---
-### 2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20% <a name='index__291__1449_dragon_poison_armor'></a>
+### 2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20% <a name='link__20221106__1449_dragon_poison_armor'></a>
 **Changes**
 
 - **FIX**: Originally Dragon Tanks take 25% damage from POISON. Reducing this to 20% is a subtle and effective way to take some of the edge off of Toxin Tunnel Networks for all China factions.
@@ -6107,7 +6107,7 @@ Contains 537 entries with
 **Source:** 1449_dragon_poison_armor.yaml
 
 ---
-### 2022-11-06 - Fixes wrong exploded death animation of China Tank Hunter <a name='index__292__1452_tank_hunter_exploded_death_animation'></a>
+### 2022-11-06 - Fixes wrong exploded death animation of China Tank Hunter <a name='link__20221106__1452_tank_hunter_exploded_death_animation'></a>
 **Changes**
 
 - **FIX**: The China Tank Hunter no longer plays the normal death animation when killed by explosions. Instead it plays a blow up animation fitting for the exploded death. This is consistent with other infantry units.
@@ -6123,7 +6123,7 @@ Contains 537 entries with
 **Source:** 1452_tank_hunter_exploded_death_animation.yaml
 
 ---
-### 2022-11-07 - Fixes wrong death sounds of China Hacker <a name='index__293__1455_hacker_death_voice'></a>
+### 2022-11-07 - Fixes wrong death sounds of China Hacker <a name='link__20221107__1455_hacker_death_voice'></a>
 **Changes**
 
 - **FIX**: China Hacker no longer uses death sounds of Red Guard when killed.
@@ -6139,7 +6139,7 @@ Contains 537 entries with
 **Source:** 1455_hacker_death_voice.yaml
 
 ---
-### 2022-11-30 - Increases death explosion damage and radius of China Nuke Silo <a name='index__294__1490_nuke_silo_death_damage_radius'></a>
+### 2022-11-30 - Increases death explosion damage and radius of China Nuke Silo <a name='link__20221130__1490_nuke_silo_death_damage_radius'></a>
 **Changes**
 
 - **TWEAK**: Increases primary death explosion damage of China Nuke Silo from 400 to 600.
@@ -6158,7 +6158,7 @@ Contains 537 entries with
 **Source:** 1490_nuke_silo_death_damage_radius.yaml
 
 ---
-### 2023-01-07 - Decreases build cost of China Neutron Mines <a name='index__295__1523_china_mines_build_cost'></a>
+### 2023-01-07 - Decreases build cost of China Neutron Mines <a name='link__20230107__1523_china_mines_build_cost'></a>
 **Changes**
 
 - **FIX**: Decreases build cost of rarely used China Neutron Mines from 500 to 400. This cost reduction makes them a bit more attractive for occasional investment.
@@ -6174,7 +6174,7 @@ Contains 537 entries with
 **Source:** 1523_china_mines_build_cost.yaml
 
 ---
-### 2023-01-08 - Fixes jet engine sound of China Carpet Bomber <a name='index__296__1525_china_bomber_sound'></a>
+### 2023-01-08 - Fixes jet engine sound of China Carpet Bomber <a name='link__20230108__1525_china_bomber_sound'></a>
 **Changes**
 
 - **FIX**: Replaces propeller engine sound with jet engine sound for China Carpet Bomber.
@@ -6190,7 +6190,7 @@ Contains 537 entries with
 **Source:** 1525_china_bomber_sound.yaml
 
 ---
-### 2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched <a name='index__297__1532_helix_bomb_upgrade_button'></a>
+### 2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched <a name='link__20230108__1532_helix_bomb_upgrade_button'></a>
 **Changes**
 
 - **FIX**: The Helix Bomb Upgrade is now greyed out while another upgrade is in production.
@@ -6206,7 +6206,7 @@ Contains 537 entries with
 **Source:** 1532_helix_bomb_upgrade_button.yaml
 
 ---
-### 2023-01-08 - Decreases build time of China Mines <a name='index__298__1533_china_mines_build_time'></a>
+### 2023-01-08 - Decreases build time of China Mines <a name='link__20230108__1533_china_mines_build_time'></a>
 **Changes**
 
 - **FIX**: Decreases build time of regular China Mines from 20 to 18.
@@ -6223,7 +6223,7 @@ Contains 537 entries with
 **Source:** 1533_china_mines_build_time.yaml
 
 ---
-### 2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion <a name='index__299__1536_nuke_cannon_scorch'></a>
+### 2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion <a name='link__20230108__1536_nuke_cannon_scorch'></a>
 **Changes**
 
 - **FIX**: The China Nuke Cannon death scorch now spawns on the secondary big explosion instead of the first small one, like other China tanks.
@@ -6239,7 +6239,7 @@ Contains 537 entries with
 **Source:** 1536_nuke_cannon_scorch.yaml
 
 ---
-### 2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33% <a name='index__300__1540_helix_nuke_bomb_damage'></a>
+### 2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
 **Changes**
 
 - **TWEAK**: Increased primary damage of China Helix Nuke Bomb from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as Nuke Cannon does, the damages are easier to anticipate.
@@ -6256,7 +6256,7 @@ Contains 537 entries with
 **Source:** 1540_helix_nuke_bomb_damage.yaml
 
 ---
-### 2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research <a name='index__301__1542_helix_attachment_upgrade_buttons'></a>
+### 2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research <a name='link__20230111__1542_helix_attachment_upgrade_buttons'></a>
 **Changes**
 
 - **FIX**: China Helix upgrade buttons will no longer disappear after research. This means the shortcut key can be used on multi Helix selections to build an upgrade at any time. This behavior is consistent with USA vehicle drone upgrade buttons.
@@ -6272,7 +6272,7 @@ Contains 537 entries with
 **Source:** 1542_helix_attachment_upgrade_buttons.yaml
 
 ---
-### 2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death <a name='index__302__1618_nuke_cannon_death_models'></a>
+### 2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death <a name='link__20230204__1618_nuke_cannon_death_models'></a>
 **Changes**
 
 - **FIX**: Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death.
@@ -6288,7 +6288,7 @@ Contains 537 entries with
 **Source:** 1618_nuke_cannon_death_models.yaml
 
 ---
-### 2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades <a name='index__303__1624_nationalism_fanatism_tooltip_text'></a>
+### 2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades <a name='link__20230204__1624_nationalism_fanatism_tooltip_text'></a>
 **Changes**
 
 - **FIX**: Improves tool tip text of China Nationalism and Fanatism upgrades for all latin languages
@@ -6304,7 +6304,7 @@ Contains 537 entries with
 **Source:** 1624_nationalism_fanatism_tooltip_text.yaml
 
 ---
-### 2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack <a name='index__304__1653_nuke_cannon_animation_jump'></a>
+### 2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack <a name='link__20230209__1653_nuke_cannon_animation_jump'></a>
 **Changes**
 
 - **FIX**: Fixes China Nuke Cannon animation glitch while vehicle creeps forward after firing.
@@ -6320,7 +6320,7 @@ Contains 537 entries with
 **Source:** 1653_nuke_cannon_animation_jump.yaml
 
 ---
-### 2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death <a name='index__305__1619_nuke_cannon_duplicate_radiation'></a>
+### 2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death <a name='link__20230211__1619_nuke_cannon_duplicate_radiation'></a>
 **Changes**
 
 - **FIX**: Removes the duplicate RadiationFieldSmall before the Nuke Cannon explodes. This means the small radiation field no longer spawns before the Nuclear Explosion.
@@ -6336,7 +6336,7 @@ Contains 537 entries with
 **Source:** 1619_nuke_cannon_duplicate_radiation.yaml
 
 ---
-### 2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost <a name='index__306__1707_outpost_crush_death'></a>
+### 2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost <a name='link__20230214__1707_outpost_crush_death'></a>
 **Changes**
 
 - **FIX**: Removes duplicate crush effects from all variants of the Listening Outpost.
@@ -6352,7 +6352,7 @@ Contains 537 entries with
 **Source:** 1707_outpost_crush_death.yaml
 
 ---
-### 2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state <a name='index__307__2_battle_bus_damage_transition'></a>
+### 2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state <a name='link__20210822__2_battle_bus_damage_transition'></a>
 **Changes**
 
 - **FIX**: The GLA Battle Bus, when reduced to bunker state and ordered to move, no longer shows the undamaged model for a split second.
@@ -6369,7 +6369,7 @@ Contains 537 entries with
 **Source:** 2_battle_bus_damage_transition.yaml
 
 ---
-### 2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles <a name='index__308__67_scud_storm_particles'></a>
+### 2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles <a name='link__20210827__67_scud_storm_particles'></a>
 **Changes**
 
 - **FIX**: The particle effects of a firing a Scud Storm are no longer always green and instead spawn with the respective Anthrax type color.
@@ -6391,7 +6391,7 @@ Contains 537 entries with
 **Source:** 67_scud_storm_particles.yaml
 
 ---
-### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='index__309__75_dead_target_bug'></a>
+### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='link__20210827__75_dead_target_bug'></a>
 **Changes**
 
 - **FIX**: Units no longer shoot at killed infantry units.
@@ -6407,7 +6407,7 @@ Contains 537 entries with
 **Source:** 75_dead_target_bug.yaml
 
 ---
-### 2021-08-27 - Fixes GLA defense hole keeping the controlling player alive <a name='index__310__75_gla_hole_survival'></a>
+### 2021-08-27 - Fixes GLA defense hole keeping the controlling player alive <a name='link__20210827__75_gla_hole_survival'></a>
 **Changes**
 
 - **FIX**: GLA holes from the Tunnel and Stinger Site no longer count as structures that keep a player alive.
@@ -6423,7 +6423,7 @@ Contains 537 entries with
 **Source:** 75_gla_hole_survival.yaml
 
 ---
-### 2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder <a name='index__311__76_red_bullet_tracers'></a>
+### 2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder <a name='link__20210827__76_red_bullet_tracers'></a>
 **Changes**
 
 - **FIX**: Heroic Jarmen Kell and Pathfinder now shoot with red tracer effects.
@@ -6439,7 +6439,7 @@ Contains 537 entries with
 **Source:** 76_red_bullet_tracers.yaml
 
 ---
-### 2021-08-27 - Fixes wrong Anthrax effect colors of GLA Toxin Tractor death puddles <a name='index__312__77_toxin_tractor_anthrax_color'></a>
+### 2021-08-27 - Fixes wrong Anthrax effect colors of GLA Toxin Tractor death puddles <a name='link__20210827__77_toxin_tractor_anthrax_color'></a>
 **Changes**
 
 - **FIX**: When destroyed, each Toxin Tractor now spawns the correct poison puddle that matches the Anthrax upgrade used by the weapon.
@@ -6456,7 +6456,7 @@ Contains 537 entries with
 **Source:** 77_toxin_tractor_anthrax_color.yaml
 
 ---
-### 2021-08-28 - Fixes Toxin Shells losing their projectile effect after acquiring Anthrax Beta <a name='index__313__83_toxin_shell_anthrax'></a>
+### 2021-08-28 - Fixes Toxin Shells losing their projectile effect after acquiring Anthrax Beta <a name='link__20210828__83_toxin_shell_anthrax'></a>
 **Changes**
 
 - **FIX**: Toxin Shells now show the explosion particle effect when upgraded to Anthrax Beta and Anthrax Gamma.
@@ -6472,7 +6472,7 @@ Contains 537 entries with
 **Source:** 83_toxin_shell_anthrax.yaml
 
 ---
-### 2021-08-28 - Fixes premature GLA Toxin Demo Trap explosion effects <a name='index__314__85_toxin_demo_trap'></a>
+### 2021-08-28 - Fixes premature GLA Toxin Demo Trap explosion effects <a name='link__20210828__85_toxin_demo_trap'></a>
 **Changes**
 
 - **FIX**: The GLA Toxin Demo Trap now explodes properly after the beeping sounds like every other Demo Trap.
@@ -6488,7 +6488,7 @@ Contains 537 entries with
 **Source:** 85_toxin_demo_trap.yaml
 
 ---
-### 2021-08-28 - Fixes wrong portrait image of GLA Sneak attack <a name='index__315__86_sneak_attack_portrait'></a>
+### 2021-08-28 - Fixes wrong portrait image of GLA Sneak attack <a name='link__20210828__86_sneak_attack_portrait'></a>
 **Changes**
 
 - **FIX**: The emerging GLA Sneak Attack now uses the correct portrait of a Sneak Attack instead of the Tunnel Network.
@@ -6504,7 +6504,7 @@ Contains 537 entries with
 **Source:** 86_sneak_attack_portrait.yaml
 
 ---
-### 2021-08-28 - Fixes GLA Demo Rocket Buggy losing its red missile effect after acquiring Buggy Ammo upgrade <a name='index__316__87_rocket_buggy_red_missiles'></a>
+### 2021-08-28 - Fixes GLA Demo Rocket Buggy losing its red missile effect after acquiring Buggy Ammo upgrade <a name='link__20210828__87_rocket_buggy_red_missiles'></a>
 **Changes**
 
 - **FIX**: The Demo General's Rocket Buggy now retains the red missile explosion effect when upgraded with Buggy Ammo.
@@ -6520,7 +6520,7 @@ Contains 537 entries with
 **Source:** 87_rocket_buggy_red_missiles.yaml
 
 ---
-### 2021-08-28 - Fixes wrong demo charge voice of GLA Demo Jarmen Kell <a name='index__317__88_demo_jarmen_voice'></a>
+### 2021-08-28 - Fixes wrong demo charge voice of GLA Demo Jarmen Kell <a name='link__20210828__88_demo_jarmen_voice'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Jarmen Kell will no longer repeat a voice line when he arrives at the target while using the Timed Demo Charge. Instead of the repeated voice line, the "planting a demo charge beep" sound effect is played.
@@ -6536,7 +6536,7 @@ Contains 537 entries with
 **Source:** 88_demo_jarmen_voice.yaml
 
 ---
-### 2021-08-28 - Fixes crushed GLA Marauder becoming an indestructible unit <a name='index__318__90_indestructible_marauder'></a>
+### 2021-08-28 - Fixes crushed GLA Marauder becoming an indestructible unit <a name='link__20210828__90_indestructible_marauder'></a>
 **Changes**
 
 - **FIX**: The GLA Marauder no longer lingers indefinitely on the map after getting crushed by a China Overlord Tank.
@@ -6552,7 +6552,7 @@ Contains 537 entries with
 **Source:** 90_indestructible_marauder.yaml
 
 ---
-### 2021-08-28 - Fixes wrong ability image of GLA Saboteur <a name='index__319__91_saboteur_ability_image'></a>
+### 2021-08-28 - Fixes wrong ability image of GLA Saboteur <a name='link__20210828__91_saboteur_ability_image'></a>
 **Changes**
 
 - **FIX**: The Sabotage Building ability now shows the intended icon image instead of being a duplicate of the Saboteur's portrait.
@@ -6568,7 +6568,7 @@ Contains 537 entries with
 **Source:** 91_saboteur_ability_image.yaml
 
 ---
-### 2021-08-28 - Fixes wrong death voices of GLA Saboteur <a name='index__320__95_saboteur_death_voice'></a>
+### 2021-08-28 - Fixes wrong death voices of GLA Saboteur <a name='link__20210828__95_saboteur_death_voice'></a>
 **Changes**
 
 - **FIX**: All GLA Saboteurs now use the Saboteur death voice instead of the Rebel death voice.
@@ -6590,7 +6590,7 @@ Contains 537 entries with
 **Source:** 95_saboteur_death_voice.yaml
 
 ---
-### 2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units <a name='index__321__101_demo_infantry_death_voice'></a>
+### 2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units <a name='link__20210829__101_demo_infantry_death_voice'></a>
 **Changes**
 
 - **FIX**: The Demo General's Infantry units will no longer play the blown-up Terrorist sound effect when killed with an explosive. This will prevent confusion among players, as the sound effect is typically associated with the Suicide/Demolitions ability.
@@ -6606,7 +6606,7 @@ Contains 537 entries with
 **Source:** 101_demo_infantry_death_voice.yaml
 
 ---
-### 2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide <a name='index__322__102_demo_battle_bus_suicide_damage'></a>
+### 2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide <a name='link__20210829__102_demo_battle_bus_suicide_damage'></a>
 **Changes**
 
 - **FIX**: Using the suicide ability with the GLA Battle Bus now deals damage and leaves a wreck after the vehicle explodes.
@@ -6623,7 +6623,7 @@ Contains 537 entries with
 **Source:** 102_demo_battle_bus_suicide_damage.yaml
 
 ---
-### 2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker <a name='index__323__103_worker_combat_bike_destruction'></a>
+### 2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker <a name='link__20210829__103_worker_combat_bike_destruction'></a>
 **Changes**
 
 - **FIX**: The Demo General's Combat Bike with a Worker now produces the same red explosion effect as any other rider does when blown up.
@@ -6639,7 +6639,7 @@ Contains 537 entries with
 **Source:** 103_worker_combat_bike_destruction.yaml
 
 ---
-### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme <a name='index__324__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
+### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
 **Changes**
 
 - **FIX**: The Demo General's Combat Bike with a Terrorist and the Demolitions upgrade now deals damage to enemies when destroyed by an Anthrax Gamma weapon. This is consistent with other Demo units.
@@ -6655,7 +6655,7 @@ Contains 537 entries with
 **Source:** 104_demo_combat_bike_gamme_anthrax_death_damage.yaml
 
 ---
-### 2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches <a name='index__325__99_demo_vehicle_destruction'></a>
+### 2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches <a name='link__20210829__99_demo_vehicle_destruction'></a>
 **Changes**
 
 - **FIX**: Demo General's vehicles now correctly produce wrecks when destroyed, and are no longer flung around randomly on death like a Terrorist.
@@ -6673,7 +6673,7 @@ Contains 537 entries with
 **Source:** 99_demo_vehicle_destruction.yaml
 
 ---
-### 2021-09-01 - Fixes inconsistent minimum attack ranges of GLA Toxin Tractor <a name='index__326__135_toxin_tractor_attack_range'></a>
+### 2021-09-01 - Fixes inconsistent minimum attack ranges of GLA Toxin Tractor <a name='link__20210901__135_toxin_tractor_attack_range'></a>
 **Changes**
 
 - **FIX**: Increases the minimum attack range of the unupgraded green Toxin sprayer of the GLA Toxin Tractor from 0 to 10. This range is consistent with those of the Anthrax Beta and Anthrax Gamma sprayers.
@@ -6689,7 +6689,7 @@ Contains 537 entries with
 **Source:** 135_toxin_tractor_attack_range.yaml
 
 ---
-### 2021-09-03 - Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger <a name='index__327__159_demo_tunnel_stinger_suicide_cameo'></a>
+### 2021-09-03 - Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger <a name='link__20210903__159_demo_tunnel_stinger_suicide_cameo'></a>
 **Changes**
 
 - **FIX**: The upgrade icon for the Demolition upgrade is now present on the Demo General's Tunnel Networks and Stinger Sites.
@@ -6705,7 +6705,7 @@ Contains 537 entries with
 **Source:** 159_demo_tunnel_stinger_suicide_cameo.yaml
 
 ---
-### 2021-09-03 - Removes obsolete suicide button from GLA Demo Worker before Demo Upgrade <a name='index__328__161_demo_worker_suicide_button'></a>
+### 2021-09-03 - Removes obsolete suicide button from GLA Demo Worker before Demo Upgrade <a name='link__20210903__161_demo_worker_suicide_button'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Worker no longer shows a disabled suicide button before the Demo Upgrade is acquired.
@@ -6721,7 +6721,7 @@ Contains 537 entries with
 **Source:** 161_demo_worker_suicide_button.yaml
 
 ---
-### 2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds <a name='index__329__164_demo_technical_suicide_delay'></a>
+### 2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds <a name='link__20210903__164_demo_technical_suicide_delay'></a>
 **Changes**
 
 - **FIX**: The turret of the GLA Technical no longer has to realign up to 0.75 seconds to face directly forward before the vehicle explodes when ordered to suicide. It will explode immediately regardless of its previous orientation.
@@ -6737,7 +6737,7 @@ Contains 537 entries with
 **Source:** 164_demo_technical_suicide_delay.yaml
 
 ---
-### 2021-09-03 - Fixes GLA Hijacker and Saboteur being able to ride the GLA Toxin Combat Bike <a name='index__330__168_hijacker_on_toxin_combat_bike'></a>
+### 2021-09-03 - Fixes GLA Hijacker and Saboteur being able to ride the GLA Toxin Combat Bike <a name='link__20210903__168_hijacker_on_toxin_combat_bike'></a>
 **Changes**
 
 - **FIX**: All non-Toxin units, including the Hijacker and Saboteur from the regular GLA faction, can no longer ride the bike of the Toxin General.
@@ -6753,7 +6753,7 @@ Contains 537 entries with
 **Source:** 168_hijacker_on_toxin_combat_bike.yaml
 
 ---
-### 2021-09-03 - Fixes duplicate death sounds of GLA Combat Bike <a name='index__331__169_combat_bike_death_sounds'></a>
+### 2021-09-03 - Fixes duplicate death sounds of GLA Combat Bike <a name='link__20210903__169_combat_bike_death_sounds'></a>
 **Changes**
 
 - **FIX**: Only the rider-specific death scream can now be heard when a regular GLA Combat Bike is destroyed.
@@ -6769,7 +6769,7 @@ Contains 537 entries with
 **Source:** 169_combat_bike_death_sounds.yaml
 
 ---
-### 2021-09-03 - Fixes GLA Saboteur simply disappearing when killed on Combat Bike <a name='index__332__171_saboteur_on_bike'></a>
+### 2021-09-03 - Fixes GLA Saboteur simply disappearing when killed on Combat Bike <a name='link__20210903__171_saboteur_on_bike'></a>
 **Changes**
 
 - **FIX**: When a GLA Saboteur on a Combat Bike is destroyed, the Saboteur is now properly thrown off the bike like every other unit.
@@ -6785,7 +6785,7 @@ Contains 537 entries with
 **Source:** 171_saboteur_on_bike.yaml
 
 ---
-### 2021-09-04 - Fixes animations, models and sounds of GLA Combat Bike in Singleplayer <a name='index__333__186_sp_combat_bike_errors'></a>
+### 2021-09-04 - Fixes animations, models and sounds of GLA Combat Bike in Singleplayer <a name='link__20210904__186_sp_combat_bike_errors'></a>
 **Changes**
 
 - **FIX**: All GLA Combat Bikes now look and behave the same, except for their rider on top.
@@ -6801,7 +6801,7 @@ Contains 537 entries with
 **Source:** 186_sp_combat_bike_errors.yaml
 
 ---
-### 2021-09-04 - Fixes unexpected hit screen shake effects on bunkered GLA Battle Bus <a name='index__334__187_battle_bus_screen_shake'></a>
+### 2021-09-04 - Fixes unexpected hit screen shake effects on bunkered GLA Battle Bus <a name='link__20210904__187_battle_bus_screen_shake'></a>
 **Changes**
 
 - **FIX**: The screen no longer shakes when hitting a GLA Battle Bus in its second life bunker mode.
@@ -6817,7 +6817,7 @@ Contains 537 entries with
 **Source:** 187_battle_bus_screen_shake.yaml
 
 ---
-### 2021-09-04 - Adds missing sound to GLA Battle Bus <a name='index__335__192_battlebus_sounds'></a>
+### 2021-09-04 - Adds missing sound to GLA Battle Bus <a name='link__20210904__192_battlebus_sounds'></a>
 **Changes**
 
 - **FIX**: The regular GLA Battle Bus now has the sound effect when power sliding that all other buses have.
@@ -6833,7 +6833,7 @@ Contains 537 entries with
 **Source:** 192_battlebus_sounds.yaml
 
 ---
-### 2021-09-04 - Adds missing AP Rocket upgrade icon to GLA Scud Launcher <a name='index__336__207_scud_launcher_cameo'></a>
+### 2021-09-04 - Adds missing AP Rocket upgrade icon to GLA Scud Launcher <a name='link__20210904__207_scud_launcher_cameo'></a>
 **Changes**
 
 - **FIX**: The GLA Scud Launchers now show the upgrade icon for AP Rockets, reflecting their damage bonus for high explosive warheads.
@@ -6849,7 +6849,7 @@ Contains 537 entries with
 **Source:** 207_scud_launcher_cameo.yaml
 
 ---
-### 2021-09-05 - Adds missing upgrade icons to GLA Rebels <a name='index__337__225_rebel_cameo'></a>
+### 2021-09-05 - Adds missing upgrade icons to GLA Rebels <a name='link__20210905__225_rebel_cameo'></a>
 **Changes**
 
 - **FIX**: The Demo and Stealth General's Rebels now show the upgrade icon for Camouflage.
@@ -6866,7 +6866,7 @@ Contains 537 entries with
 **Source:** 225_rebel_cameo.yaml
 
 ---
-### 2021-09-09 - Adds missing red smoke effect for GLA Demo Terrorist on Combat Bike after Demo Upgrade <a name='index__338__260_terrorist_combat_bike_effects'></a>
+### 2021-09-09 - Adds missing red smoke effect for GLA Demo Terrorist on Combat Bike after Demo Upgrade <a name='link__20210909__260_terrorist_combat_bike_effects'></a>
 **Changes**
 
 - **FIX**: The Demo General's Terrorist now uses the correct red explosion effects when destroyed or suicided while riding a Bike after being upgraded with Demolitions, instead of the explosion effects of a normal Terrorist.
@@ -6882,7 +6882,7 @@ Contains 537 entries with
 **Source:** 260_terrorist_combat_bike_effects.yaml
 
 ---
-### 2021-09-09 - Adds missing booby trap sound effect to GLA Demo Rebel <a name='index__339__263_demo_rebel_booby_trap_sound'></a>
+### 2021-09-09 - Adds missing booby trap sound effect to GLA Demo Rebel <a name='link__20210909__263_demo_rebel_booby_trap_sound'></a>
 **Changes**
 
 - **FIX**: The Demo General's Rebel now says his line when the target is chosen for the Booby Trap ability, just like the normal GLA Rebel.
@@ -6898,7 +6898,7 @@ Contains 537 entries with
 **Source:** 263_demo_rebel_booby_trap_sound.yaml
 
 ---
-### 2021-09-10 - Fixes GLA Battle Bus stopping moving when targeting air unit <a name='index__340__267_battle_bus_air_target'></a>
+### 2021-09-10 - Fixes GLA Battle Bus stopping moving when targeting air unit <a name='link__20210910__267_battle_bus_air_target'></a>
 **Changes**
 
 - **FIX**: The GLA Battle Bus will no longer stop moving when targeting airborne units.
@@ -6914,7 +6914,7 @@ Contains 537 entries with
 **Source:** 267_battle_bus_air_target.yaml
 
 ---
-### 2021-09-10 - Fixes GLA Battle Bus turning its chassis when aiming at air units <a name='index__341__268_battle_bus_chassis_turn'></a>
+### 2021-09-10 - Fixes GLA Battle Bus turning its chassis when aiming at air units <a name='link__20210910__268_battle_bus_chassis_turn'></a>
 **Changes**
 
 - **FIX**: The GLA Battle Bus with infantry inside will no longer turn towards a flying unit when ordered to attack it, thus reducing unnecessary movement.
@@ -6930,7 +6930,7 @@ Contains 537 entries with
 **Source:** 268_battle_bus_chassis_turn.yaml
 
 ---
-### 2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade <a name='index__342__271_gla_fake_cc_look_mismatch'></a>
+### 2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade <a name='link__20210910__271_gla_fake_cc_look_mismatch'></a>
 **Changes**
 
 - **FIX**: When upgraded with Fortified Structures, the Fake GLA Command Centers of the Stealth, Tox and Demo General will no longer lose their sub-faction decal. They will have the correct appearance with the decal even with the upgrade.
@@ -6946,7 +6946,7 @@ Contains 537 entries with
 **Source:** 271_gla_fake_cc_look_mismatch.yaml
 
 ---
-### 2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type <a name='index__343__273_combat_bike_rocket_type'></a>
+### 2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type <a name='link__20210910__273_combat_bike_rocket_type'></a>
 **Changes**
 
 - **FIX**: The Demo General's RPG Troopers now fire missiles with the correct red explosion effect, just like the normal GLA RPG Troopers. This is a purely cosmetical change.
@@ -6964,7 +6964,7 @@ Contains 537 entries with
 **Source:** 273_combat_bike_rocket_type.yaml
 
 ---
-### 2021-09-10 - Fixes wrong suicide ability icon on GLA Demo Combat Bike <a name='index__344__278_demo_combat_bike_suicide_button'></a>
+### 2021-09-10 - Fixes wrong suicide ability icon on GLA Demo Combat Bike <a name='link__20210910__278_demo_combat_bike_suicide_button'></a>
 **Changes**
 
 - **FIX**: The Demo General's GLA Combat Bike no longer uses its portrait as a button in the control bar and the production queue.
@@ -6980,7 +6980,7 @@ Contains 537 entries with
 **Source:** 278_demo_combat_bike_suicide_button.yaml
 
 ---
-### 2021-09-11 - Fixes GLA Stinger Site being able to shoot twice without any delay <a name='index__345__294_stinger_fires_twice'></a>
+### 2021-09-11 - Fixes GLA Stinger Site being able to shoot twice without any delay <a name='link__20210911__294_stinger_fires_twice'></a>
 **Changes**
 
 - **FIX**: The GLA Stinger Site no longer has separate reload times for engaging ground and airborne targets, and it is no longer able to double the rate of fire by switching targets during reload.
@@ -6996,7 +6996,7 @@ Contains 537 entries with
 **Source:** 294_stinger_fires_twice.yaml
 
 ---
-### 2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site <a name='index__346__295_stinger_air_attack_effects'></a>
+### 2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site <a name='link__20210911__295_stinger_air_attack_effects'></a>
 **Changes**
 
 - **FIX**: The GLA Stinger Soldiers now use the muzzle flash and recoil animation when engaging airborne targets, instead of just standing there while the missile spawns.
@@ -7012,7 +7012,7 @@ Contains 537 entries with
 **Source:** 295_stinger_air_attack_effects.yaml
 
 ---
-### 2021-09-11 - Fixes GLA Stinger Site automatically attacking enemy buildings <a name='index__347__296_stinger_attacks_structures'></a>
+### 2021-09-11 - Fixes GLA Stinger Site automatically attacking enemy buildings <a name='link__20210911__296_stinger_attacks_structures'></a>
 **Changes**
 
 - **FIX**: The GLA Stinger Site no longer automatically attacks enemy buildings. This is consistent with how other base defenses and units work.
@@ -7028,7 +7028,7 @@ Contains 537 entries with
 **Source:** 296_stinger_attacks_structures.yaml
 
 ---
-### 2021-09-11 - Adds missing muzzle flash for Snipe Attack ability of GLA Jarmen Kell on Combat Bike <a name='index__348__309_jarmen_combat_bike_muzzle_flash'></a>
+### 2021-09-11 - Adds missing muzzle flash for Snipe Attack ability of GLA Jarmen Kell on Combat Bike <a name='link__20210911__309_jarmen_combat_bike_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The GLA Combat Bike now shows a muzzle effect for the Jarmen Kell Snipe Attack.
@@ -7044,7 +7044,7 @@ Contains 537 entries with
 **Source:** 309_jarmen_combat_bike_muzzle_flash.yaml
 
 ---
-### 2021-09-11 - Fixes wrong muzzle flash location for Snipe Attack ability of GLA Jarmen Kell <a name='index__349__310_jarmen_muzzle_flash'></a>
+### 2021-09-11 - Fixes wrong muzzle flash location for Snipe Attack ability of GLA Jarmen Kell <a name='link__20210911__310_jarmen_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The Snipe Attack tracer from the GLA Jarmen Kell now emerges from the muzzle instead of his feet.
@@ -7060,7 +7060,7 @@ Contains 537 entries with
 **Source:** 310_jarmen_muzzle_flash.yaml
 
 ---
-### 2021-09-11 - Fixes GLA Scud Storm not being able to damage itself <a name='index__350__328_scud_storm_self_damage'></a>
+### 2021-09-11 - Fixes GLA Scud Storm not being able to damage itself <a name='link__20210911__328_scud_storm_self_damage'></a>
 **Changes**
 
 - **FIX**: The GLA Scud Storm now damages itself when firing at its own position. This behaviour is consistent with the USA Particle Cannon and China Nuke Silo.
@@ -7076,7 +7076,7 @@ Contains 537 entries with
 **Source:** 328_scud_storm_self_damage.yaml
 
 ---
-### 2021-09-12 - Fixes Stealth General unable to build Hijacker from regular GLA Barracks <a name='index__351__331_stealth_general_build_bug'></a>
+### 2021-09-12 - Fixes Stealth General unable to build Hijacker from regular GLA Barracks <a name='link__20210912__331_stealth_general_build_bug'></a>
 **Changes**
 
 - **FIX**: The Stealth General can now build Hijackers in a regular GLA Barracks.
@@ -7092,7 +7092,7 @@ Contains 537 entries with
 **Source:** 331_stealth_general_build_bug.yaml
 
 ---
-### 2021-09-13 - Fixes button errors on GLA Demo Combat Bike <a name='index__352__345_demo_combat_bike_suicide_button'></a>
+### 2021-09-13 - Fixes button errors on GLA Demo Combat Bike <a name='link__20210913__345_demo_combat_bike_suicide_button'></a>
 **Changes**
 
 - **FIX**: GLA Demo Combat Bike no longer shows the deactivated suicide button before acquiring the Demolition Upgrade.
@@ -7110,7 +7110,7 @@ Contains 537 entries with
 **Source:** 345_demo_combat_bike_suicide_button.yaml
 
 ---
-### 2021-09-13 - Adds missing Camo Netting Upgrade icon to GLA Fake Arms Dealer <a name='index__353__353_fake_armsdealer_cameo'></a>
+### 2021-09-13 - Adds missing Camo Netting Upgrade icon to GLA Fake Arms Dealer <a name='link__20210913__353_fake_armsdealer_cameo'></a>
 **Changes**
 
 - **FIX**: Adds upgrade icon for Camo Netting to the Stealth General's Fake Arms Dealer, making it consistent with the real Arms Dealer.
@@ -7126,7 +7126,7 @@ Contains 537 entries with
 **Source:** 353_fake_armsdealer_cameo.yaml
 
 ---
-### 2021-09-13 - Adds missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units <a name='index__354__355_gla_anthrax_cameo'></a>
+### 2021-09-13 - Adds missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units <a name='link__20210913__355_gla_anthrax_cameo'></a>
 **Changes**
 
 - **FIX**: All GLA units and buildings that benefit from the Anthrax Beta and Anthrax Gamma upgrade now display the respective upgrade icon.
@@ -7143,7 +7143,7 @@ Contains 537 entries with
 **Source:** 355_gla_anthrax_cameo.yaml
 
 ---
-### 2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap <a name='index__355__370_quad_damage_model'></a>
+### 2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap <a name='link__20210916__370_quad_damage_model'></a>
 **Changes**
 
 - **FIX**: The GLA Quad Cannon now shows the damaged model when appropriate, no matter how many scraps it picked up.
@@ -7159,7 +7159,7 @@ Contains 537 entries with
 **Source:** 370_quad_damage_model.yaml
 
 ---
-### 2021-09-19 - Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade <a name='index__356__392_marauder_anthrax_type'></a>
+### 2021-09-19 - Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade <a name='link__20210919__392_marauder_anthrax_type'></a>
 **Changes**
 
 - **FIX**: Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade.
@@ -7175,7 +7175,7 @@ Contains 537 entries with
 **Source:** 392_marauder_anthrax_type.yaml
 
 ---
-### 2021-09-20 - Adds missing Stop button to GLA Tunnel and GLA Palace <a name='index__357__386_tunnel_palace_stop_button'></a>
+### 2021-09-20 - Adds missing Stop button to GLA Tunnel and GLA Palace <a name='link__20210920__386_tunnel_palace_stop_button'></a>
 **Changes**
 
 - **FIX**: The Palace now has a Stop button, which can be used to make passengers stop firing.
@@ -7193,7 +7193,7 @@ Contains 537 entries with
 **Source:** 386_tunnel_palace_stop_button.yaml
 
 ---
-### 2021-09-22 - Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction <a name='index__358__401_terrorist_poison_puddle'></a>
+### 2021-09-22 - Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction <a name='link__20210922__401_terrorist_poison_puddle'></a>
 **Changes**
 
 - **FIX**: Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction.
@@ -7209,7 +7209,7 @@ Contains 537 entries with
 **Source:** 401_terrorist_poison_puddle.yaml
 
 ---
-### 2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles <a name='index__359__440_demo_trap_triggered_by_puddles'></a>
+### 2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles <a name='link__20211001__440_demo_trap_triggered_by_puddles'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Trap can no longer be triggered by nearby Anthrax and Radiation puddles.
@@ -7225,7 +7225,7 @@ Contains 537 entries with
 **Source:** 440_demo_trap_triggered_by_puddles.yaml
 
 ---
-### 2021-10-01 - Fixes the ECM immunity of Heroic GLA Quad Cannon <a name='index__360__442_vet3_quad_cannon_subdual'></a>
+### 2021-10-01 - Fixes the ECM immunity of Heroic GLA Quad Cannon <a name='link__20211001__442_vet3_quad_cannon_subdual'></a>
 **Changes**
 
 - **FIX**: The Heroic (Vet3) GLA Quad Cannon can now be disabled by the China ECM Tank.
@@ -7241,7 +7241,7 @@ Contains 537 entries with
 **Source:** 442_vet3_quad_cannon_subdual.yaml
 
 ---
-### 2021-10-09 - Fixes door times of powered GLA Arms Dealer to accomodate correct GLA Technical production <a name='index__361__538_armsdealer_power_doors'></a>
+### 2021-10-09 - Fixes door times of powered GLA Arms Dealer to accomodate correct GLA Technical production <a name='link__20211009__538_armsdealer_power_doors'></a>
 **Changes**
 
 - **FIX**: The door times of the powered GLA Arms Dealer now accomodate correct GLA Technical production. This way the second produced Technical will no longer leave the factory after just 5 seconds, but after 7 seconds.
@@ -7257,7 +7257,7 @@ Contains 537 entries with
 **Source:** 538_armsdealer_power_doors.yaml
 
 ---
-### 2021-10-10 - Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps <a name='index__362__541_fake_supply_animation'></a>
+### 2021-10-10 - Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps <a name='link__20211010__541_fake_supply_animation'></a>
 **Changes**
 
 - **FIX**: Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps.
@@ -7273,7 +7273,7 @@ Contains 537 entries with
 **Source:** 541_fake_supply_animation.yaml
 
 ---
-### 2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings <a name='index__363__544_stealth_saboteur_ability'></a>
+### 2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings <a name='link__20211010__544_stealth_saboteur_ability'></a>
 **Changes**
 
 - **FIX**: The GLA Stealth Saboteur can now enter the China Internet Center. This will disable the structure for 15 seconds. This is consistent with the behaviour of the regular GLA Saboteur.
@@ -7290,7 +7290,7 @@ Contains 537 entries with
 **Source:** 544_stealth_saboteur_ability.yaml
 
 ---
-### 2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market <a name='index__364__547_regular_saboteur_ability'></a>
+### 2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market <a name='link__20211010__547_regular_saboteur_ability'></a>
 **Changes**
 
 - **FEATURE**: All GLA Saboteurs can now enter the USA Supply Drop Zone and GLA Black Market. They steal 1000 cash when doing so, same as when entering a Supply Center.
@@ -7306,7 +7306,7 @@ Contains 537 entries with
 **Source:** 547_regular_saboteur_ability.yaml
 
 ---
-### 2021-10-15 - Fixes wrong model during deconstruction of GLA Advanced Demo Trap <a name='index__365__563_demo_trap_sell_model'></a>
+### 2021-10-15 - Fixes wrong model during deconstruction of GLA Advanced Demo Trap <a name='link__20211015__563_demo_trap_sell_model'></a>
 **Changes**
 
 - **FIX**: The correct model is now shown during the deconstruction of the GLA Advanced Demo Trap.
@@ -7322,7 +7322,7 @@ Contains 537 entries with
 **Source:** 563_demo_trap_sell_model.yaml
 
 ---
-### 2021-10-31 - Adds climb animation for GLA Saboteur <a name='index__366__606_saboteur_climb_animation'></a>
+### 2021-10-31 - Adds climb animation for GLA Saboteur <a name='link__20211031__606_saboteur_climb_animation'></a>
 **Changes**
 
 - **FEATURE**: The GLA Saboteur now plays a climb animation when scaling mountains.
@@ -7338,7 +7338,7 @@ Contains 537 entries with
 **Source:** 606_saboteur_climb_animation.yaml
 
 ---
-### 2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25% <a name='index__367__727_buggy_required_xp'></a>
+### 2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25% <a name='link__20220722__727_buggy_required_xp'></a>
 **Changes**
 
 - **TWEAK**: Decreases the required level up experience of the GLA Rocket Buggy by 25%, from 200 400 800 to 150 300 600. This is more in line with other long range vehicles.
@@ -7354,7 +7354,7 @@ Contains 537 entries with
 **Source:** 727_buggy_required_xp.yaml
 
 ---
-### 2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50% <a name='index__368__727_scud_launcher_required_xp'></a>
+### 2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50% <a name='link__20220722__727_scud_launcher_required_xp'></a>
 **Changes**
 
 - **TWEAK**: Increases the required level up experience of the GLA Scud Launcher by 50%, from 100 200 400 to 150 300 600. This is more in line with other long range vehicles.
@@ -7370,7 +7370,7 @@ Contains 537 entries with
 **Source:** 727_scud_launcher_required_xp.yaml
 
 ---
-### 2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies <a name='index__369__783_demo_combat_bike_allies_damage'></a>
+### 2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies <a name='link__20220729__783_demo_combat_bike_allies_damage'></a>
 **Changes**
 
 - **TWEAK**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
@@ -7386,7 +7386,7 @@ Contains 537 entries with
 **Source:** 783_demo_combat_bike_allies_damage.yaml
 
 ---
-### 2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor <a name='index__370__820_toxin_tractor_salvage_models'></a>
+### 2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor <a name='link__20220805__820_toxin_tractor_salvage_models'></a>
 **Changes**
 
 - **FIX**: The GLA Toxin Tractor receives bigger side barrels when scrapping up once.
@@ -7403,7 +7403,7 @@ Contains 537 entries with
 **Source:** 820_toxin_tractor_salvage_models.yaml
 
 ---
-### 2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player <a name='index__371__826_anthrax_bomb_poison_colors'></a>
+### 2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player <a name='link__20220805__826_anthrax_bomb_poison_colors'></a>
 **Changes**
 
 - **FIX**: The colors of the Anthrax Bomb will now match the respective Anthrax upgrades of the controlling player. Regular Anthrax Bomb appears green, Anthrax Beta Bomb appears blue and Anthrax Gamma Bomb appears pink. This change is purely visual.
@@ -7419,7 +7419,7 @@ Contains 537 entries with
 **Source:** 826_anthrax_bomb_poison_colors.yaml
 
 ---
-### 2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush <a name='index__372__845_demo_ambush_tooltip_text'></a>
+### 2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush <a name='link__20220806__845_demo_ambush_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip texts of the Demo GLA Rebel Ambush now reflect the correct amount of spawned rebels for each of its levels.
@@ -7435,7 +7435,7 @@ Contains 537 entries with
 **Source:** 845_demo_ambush_tooltip_text.yaml
 
 ---
-### 2022-08-12 - Removes GLA Hijacker ability to steal Combat Bike <a name='index__373__879_hijacker_bike_theft'></a>
+### 2022-08-12 - Removes GLA Hijacker ability to steal Combat Bike <a name='link__20220812__879_hijacker_bike_theft'></a>
 **Changes**
 
 - **TWEAK**: The GLA Combat Bike is now immune to being hijacked.
@@ -7451,7 +7451,7 @@ Contains 537 entries with
 **Source:** 879_hijacker_bike_theft.yaml
 
 ---
-### 2022-08-14 - Fixes toxin color errors <a name='index__374__851_toxin_color_errors'></a>
+### 2022-08-14 - Fixes toxin color errors <a name='link__20220814__851_toxin_color_errors'></a>
 **Changes**
 
 - **FIX**: Fixes toxin color inconsistencies across all 3 variants.
@@ -7468,7 +7468,7 @@ Contains 537 entries with
 **Source:** 851_toxin_color_errors.yaml
 
 ---
-### 2022-08-14 - Improves visual quality of green and blue toxin puddles <a name='index__375__851_toxin_color_tweaks'></a>
+### 2022-08-14 - Improves visual quality of green and blue toxin puddles <a name='link__20220814__851_toxin_color_tweaks'></a>
 **Changes**
 
 - **TWEAK**: Improves the visual quality of green toxin puddles. It now has more of a yellow tint, matching the toxin color palette of the original Toxin Tractor portrait image.
@@ -7485,7 +7485,7 @@ Contains 537 entries with
 **Source:** 851_toxin_color_tweaks.yaml
 
 ---
-### 2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius <a name='index__376__851_toxin_puddle_size'></a>
+### 2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius <a name='link__20220814__851_toxin_puddle_size'></a>
 **Changes**
 
 - **FIX**: Matches the toxin puddle size of Toxin Tractor with its actual damage radius.
@@ -7502,7 +7502,7 @@ Contains 537 entries with
 **Source:** 851_toxin_puddle_size.yaml
 
 ---
-### 2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings <a name='index__377__885_fortified_structure_sell'></a>
+### 2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings <a name='link__20220814__885_fortified_structure_sell'></a>
 **Changes**
 
 - **FIX**: GLA buildings with the Fortified Structures upgrade will now show the fortified visuals on sell. This does not change the amount of damage taken.
@@ -7518,7 +7518,7 @@ Contains 537 entries with
 **Source:** 885_fortified_structure_sell.yaml
 
 ---
-### 2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max <a name='index__378__889_anthrax_gamma_damage_bonuses'></a>
+### 2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max <a name='link__20220814__889_anthrax_gamma_damage_bonuses'></a>
 **Changes**
 
 - **TWEAK**: Redistributes the GLA Toxin Tractor Gamma bonuses to be in line with the intended bonus from the Anthrax Gamma tooltip.
@@ -7535,7 +7535,7 @@ Contains 537 entries with
 **Source:** 889_anthrax_gamma_damage_bonuses.yaml
 
 ---
-### 2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members <a name='index__379__904_female_mob_death_voice'></a>
+### 2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members <a name='link__20220814__904_female_mob_death_voice'></a>
 **Changes**
 
 - **FIX**: Female GLA Angry Mob members no longer scream with male voices when poisoned.
@@ -7551,7 +7551,7 @@ Contains 537 entries with
 **Source:** 904_female_mob_death_voice.yaml
 
 ---
-### 2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members <a name='index__380__905_male_mob_death_voice'></a>
+### 2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members <a name='link__20220814__905_male_mob_death_voice'></a>
 **Changes**
 
 - **FIX**: Male GLA Angry Mob members no longer scream with female voices when poisoned or burned.
@@ -7567,7 +7567,7 @@ Contains 537 entries with
 **Source:** 905_male_mob_death_voice.yaml
 
 ---
-### 2022-08-14 - Fixes missing death scream of some GLA Angry Mob members <a name='index__381__906_some_mob_death_voice'></a>
+### 2022-08-14 - Fixes missing death scream of some GLA Angry Mob members <a name='link__20220814__906_some_mob_death_voice'></a>
 **Changes**
 
 - **FIX**: All GLA Angry Mob members now scream on death.
@@ -7583,7 +7583,7 @@ Contains 537 entries with
 **Source:** 906_some_mob_death_voice.yaml
 
 ---
-### 2022-08-15 - Fixes GLA Stinger Troopers not dying individually by USA Microwave Tank damage <a name='index__382__913_stinger_microwave_death'></a>
+### 2022-08-15 - Fixes GLA Stinger Troopers not dying individually by USA Microwave Tank damage <a name='link__20220815__913_stinger_microwave_death'></a>
 **Changes**
 
 - **FIX**: GLA Stinger Troopers are now damaged individually by the Microwave. This way they no longer die all at once after a longer duration.
@@ -7600,7 +7600,7 @@ Contains 537 entries with
 **Source:** 913_stinger_microwave_death.yaml
 
 ---
-### 2022-08-20 - Adds upgrade voice for GLA Fortified Structure <a name='index__383__1026_fortified_structure_upgrade_voice'></a>
+### 2022-08-20 - Adds upgrade voice for GLA Fortified Structure <a name='link__20220820__1026_fortified_structure_upgrade_voice'></a>
 **Changes**
 
 - **FEATURE**: Acquiring the GLA Fortified Structure upgrade now plays a dedicated voice line in all languages.
@@ -7616,7 +7616,7 @@ Contains 537 entries with
 **Source:** 1026_fortified_structure_upgrade_voice.yaml
 
 ---
-### 2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon <a name='index__384__937_quad_cannon_bones'></a>
+### 2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon <a name='link__20220820__937_quad_cannon_bones'></a>
 **Changes**
 
 - **FIX**: Removes the cubes (bones) from gun barrels of scrapped Quad Cannon.
@@ -7632,7 +7632,7 @@ Contains 537 entries with
 **Source:** 937_quad_cannon_bones.yaml
 
 ---
-### 2022-08-22 - Fixes insufficient range of GLA Scud Launcher missile <a name='index__385__1041_scud_launcher_missile_range'></a>
+### 2022-08-22 - Fixes insufficient range of GLA Scud Launcher missile <a name='link__20220822__1041_scud_launcher_missile_range'></a>
 **Changes**
 
 - **FIX**: The missile of the GLA Scud Launcher now has more range to properly hit its target in cases where it owns the salvage upgrade for extended firing range, has the SEARCH AND DESTROY Battle Plan bonus and fires from an elevated position. Originally, the Scud missile would time out before hitting the target under these conditions.
@@ -7648,7 +7648,7 @@ Contains 537 entries with
 **Source:** 1041_scud_launcher_missile_range.yaml
 
 ---
-### 2022-08-29 - Fixes animation issues of GLA Angry Mob <a name='index__386__1037_mob_animation_issues'></a>
+### 2022-08-29 - Fixes animation issues of GLA Angry Mob <a name='link__20220829__1037_mob_animation_issues'></a>
 **Changes**
 
 - **FIX**: The Angry Mob member with pistol now shows proper reload animation.
@@ -7669,7 +7669,7 @@ Contains 537 entries with
 **Source:** 1037_mob_animation_issues.yaml
 
 ---
-### 2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade <a name='index__387__1074_demo_scud_launcher_death_damage'></a>
+### 2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade <a name='link__20220902__1074_demo_scud_launcher_death_damage'></a>
 **Changes**
 
 - **FIX**: The Demo GLA Scud Launcher with Demo Upgrade now deals just 50 instead of 500 damage on death. This is consistent with other Demo GLA vehicles, except Terror Bike and Bomb Truck.
@@ -7685,7 +7685,7 @@ Contains 537 entries with
 **Source:** 1074_demo_scud_launcher_death_damage.yaml
 
 ---
-### 2022-09-02 - Improves explosion effect of crushed GLA terror units <a name='index__388__1082_demo_units_crushed_death_particles'></a>
+### 2022-09-02 - Improves explosion effect of crushed GLA terror units <a name='link__20220902__1082_demo_units_crushed_death_particles'></a>
 **Changes**
 
 - **FEATURE**: Crushed GLA terror units now have a dedicated explosion effect that looks different to the original suicide explosion effect.
@@ -7701,7 +7701,7 @@ Contains 537 entries with
 **Source:** 1082_demo_units_crushed_death_particles.yaml
 
 ---
-### 2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge <a name='index__389__1086_kassad_challenge_stinger_selection'></a>
+### 2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge <a name='link__20220903__1086_kassad_challenge_stinger_selection'></a>
 **Changes**
 
 - **FIX**: The bare GLA Stinger Trooper is now selectable in Kassads Generals Challenge.
@@ -7717,7 +7717,7 @@ Contains 537 entries with
 **Source:** 1086_kassad_challenge_stinger_selection.yaml
 
 ---
-### 2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds <a name='index__390__1096_scud_storm_worker_spawn_delay'></a>
+### 2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds <a name='link__20220904__1096_scud_storm_worker_spawn_delay'></a>
 **Changes**
 
 - **TWEAK**: The GLA Scud Storm hole worker now spawns in 30 seconds instead of 20 seconds intervals. This will prevent the first worker from dying in the poison puddle. No EVA event is triggered for damaging the spawned worker. Effectively a Scud Storm can now rebuild 10 seconds quicker than originally. The Toxin Field time has been adjusted to accommodate the Worker spawn time properly.
@@ -7733,7 +7733,7 @@ Contains 537 entries with
 **Source:** 1096_scud_storm_worker_spawn_delay.yaml
 
 ---
-### 2022-09-05 - Adds better fitting select sound for GLA Demo Trap <a name='index__391__1131_demo_trap_select_sound'></a>
+### 2022-09-05 - Adds better fitting select sound for GLA Demo Trap <a name='link__20220905__1131_demo_trap_select_sound'></a>
 **Changes**
 
 - **TWEAK**: Adds a better fitting select sound for the GLA Demo Trap.
@@ -7749,7 +7749,7 @@ Contains 537 entries with
 **Source:** 1131_demo_trap_select_sound.yaml
 
 ---
-### 2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect <a name='index__392__1130_demo_trap_flare_fadeout'></a>
+### 2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect <a name='link__20220906__1130_demo_trap_flare_fadeout'></a>
 **Changes**
 
 - **FIX**: Fixes the ungraceful fade out of the GLA Demo Trap flare.
@@ -7765,7 +7765,7 @@ Contains 537 entries with
 **Source:** 1130_demo_trap_flare_fadeout.yaml
 
 ---
-### 2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target <a name='index__393__1136_bomb_truck_reveal'></a>
+### 2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target <a name='link__20220906__1136_bomb_truck_reveal'></a>
 **Changes**
 
 - **TWEAK**: The GLA Bomb Truck no longer reveals itself when moving close to its target.
@@ -7781,7 +7781,7 @@ Contains 537 entries with
 **Source:** 1136_bomb_truck_reveal.yaml
 
 ---
-### 2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades <a name='index__394__1137_bomb_truck_damages'></a>
+### 2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades <a name='link__20220906__1137_bomb_truck_damages'></a>
 **Changes**
 
 - **TWEAK**: Increases damage range bonus of GLA Bomb Truck Bio Bomb by +28%.
@@ -7798,7 +7798,7 @@ Contains 537 entries with
 **Source:** 1137_bomb_truck_damages.yaml
 
 ---
-### 2022-09-06 - Improves particle effects of GLA Bomb Truck <a name='index__395__1137_bomb_truck_explosion_particles'></a>
+### 2022-09-06 - Improves particle effects of GLA Bomb Truck <a name='link__20220906__1137_bomb_truck_explosion_particles'></a>
 **Changes**
 
 - **TWEAK**: Adds shockwaves to all explosion variants of GLA Bomb Truck.
@@ -7817,7 +7817,7 @@ Contains 537 entries with
 **Source:** 1137_bomb_truck_explosion_particles.yaml
 
 ---
-### 2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200 <a name='index__396__1137_bomb_truck_upgrade_cost'></a>
+### 2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200 <a name='link__20220906__1137_bomb_truck_upgrade_cost'></a>
 **Changes**
 
 - **TWEAK**: Decreases the upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200.
@@ -7833,7 +7833,7 @@ Contains 537 entries with
 **Source:** 1137_bomb_truck_upgrade_cost.yaml
 
 ---
-### 2022-09-06 - Improves locomotor of GLA Bomb Truck <a name='index__397__1138_bomb_truck_locomotor'></a>
+### 2022-09-06 - Improves locomotor of GLA Bomb Truck <a name='link__20220906__1138_bomb_truck_locomotor'></a>
 **Changes**
 
 - **TWEAK**: Improves the locomotor of GLA Bomb Truck. In undamaged state, no tangible difference in driving performance is to be expected. In damaged state, the driving performance is now marginally better. Visually the driving now looks and feels smoother.
@@ -7849,7 +7849,7 @@ Contains 537 entries with
 **Source:** 1138_bomb_truck_locomotor.yaml
 
 ---
-### 2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400 <a name='index__398__1153_combat_bike_required_xp'></a>
+### 2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400 <a name='link__20220907__1153_combat_bike_required_xp'></a>
 **Changes**
 
 - **TWEAK**: Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400. This matches the required experience of GLA Jarmen Kell.
@@ -7865,7 +7865,7 @@ Contains 537 entries with
 **Source:** 1153_combat_bike_required_xp.yaml
 
 ---
-### 2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike <a name='index__399__1164_combat_bike_pilot_promotion'></a>
+### 2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike <a name='link__20220908__1164_combat_bike_pilot_promotion'></a>
 **Changes**
 
 - **TWEAK**: The USA Pilot can no longer promote the GLA Combat Bike.
@@ -7881,7 +7881,7 @@ Contains 537 entries with
 **Source:** 1164_combat_bike_pilot_promotion.yaml
 
 ---
-### 2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates <a name='index__400__1170_saboteur_scrap_rank_up'></a>
+### 2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates <a name='link__20220909__1170_saboteur_scrap_rank_up'></a>
 **Changes**
 
 - **FIX**: The GLA Stealth Saboteur can no longer level up by collecting scrap crates. Instead it will just collect money. This is now consistent with the regular GLA Saboteur.
@@ -7897,7 +7897,7 @@ Contains 537 entries with
 **Source:** 1170_saboteur_scrap_rank_up.yaml
 
 ---
-### 2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade <a name='index__401__1176_technical_muzzle_flash'></a>
+### 2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade <a name='link__20220909__1176_technical_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The GLA Technical with Rocket Launcher upgrade now has the correct muzzle flash effect.
@@ -7913,7 +7913,7 @@ Contains 537 entries with
 **Source:** 1176_technical_muzzle_flash.yaml
 
 ---
-### 2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank <a name='index__402__1228_scorpion_textures'></a>
+### 2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank <a name='link__20220920__1228_scorpion_textures'></a>
 **Changes**
 
 - **FIX**: Fixes the mismatching look of the GLA Scorpion Tank across different damage states. It now has the same look in undamaged, damaged and rubble.
@@ -7929,7 +7929,7 @@ Contains 537 entries with
 **Source:** 1228_scorpion_textures.yaml
 
 ---
-### 2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm <a name='index__403__1229_utplates_upscaled_textures'></a>
+### 2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm <a name='link__20220920__1229_utplates_upscaled_textures'></a>
 **Changes**
 
 - **FEATURE**: Increases texture size of utplates snow textures by merging other variants of this texture. It is not AI generated. It is part of the Recovered Art pack which contains 2x upscaled textures from Generals.
@@ -7951,7 +7951,7 @@ Contains 537 entries with
 **Source:** 1229_utplates_upscaled_textures.yaml
 
 ---
-### 2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus <a name='index__404__1231_battle_bus_textures'></a>
+### 2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus <a name='link__20220920__1231_battle_bus_textures'></a>
 **Changes**
 
 - **FIX**: Fixes the front window on the uvbattbus_d texture of GLA Battle Bus.
@@ -7967,7 +7967,7 @@ Contains 537 entries with
 **Source:** 1231_battle_bus_textures.yaml
 
 ---
-### 2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm <a name='index__405__1232_utscudparts02_utsilotop01_textures'></a>
+### 2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm <a name='link__20220920__1232_utscudparts02_utsilotop01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utscudparts02, silotop01 textures. They are used at the very core of the GLA Scud Storm.
@@ -8003,7 +8003,7 @@ Contains 537 entries with
 **Source:** 1232_utscudparts02_utsilotop01_textures.yaml
 
 ---
-### 2022-09-28 - Fixes utcloth textures for GLA structures <a name='index__406__1311_utcloth_textures'></a>
+### 2022-09-28 - Fixes utcloth textures for GLA structures <a name='link__20220928__1311_utcloth_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utcloth textures for GLA structures.
@@ -8034,7 +8034,7 @@ Contains 537 entries with
 **Source:** 1311_utcloth_textures.yaml
 
 ---
-### 2022-09-28 - Fixes utcloth2 textures for GLA structures <a name='index__407__1312_utcloth2_textures'></a>
+### 2022-09-28 - Fixes utcloth2 textures for GLA structures <a name='link__20220928__1312_utcloth2_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utcloth2 textures for GLA structures.
@@ -8062,7 +8062,7 @@ Contains 537 entries with
 **Source:** 1312_utcloth2_textures.yaml
 
 ---
-### 2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm <a name='index__408__1315_utscudslab_snow_textures'></a>
+### 2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm <a name='link__20220928__1315_utscudslab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utscudslab snow textures for GLA Scud Storm.
@@ -8088,7 +8088,7 @@ Contains 537 entries with
 **Source:** 1315_utscudslab_snow_textures.yaml
 
 ---
-### 2022-09-29 - Fixes utconcroof textures for GLA structures <a name='index__409__1320_utconcroof_textures'></a>
+### 2022-09-29 - Fixes utconcroof textures for GLA structures <a name='link__20220929__1320_utconcroof_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utconcroof textures for GLA structures.
@@ -8117,7 +8117,7 @@ Contains 537 entries with
 **Source:** 1320_utconcroof_textures.yaml
 
 ---
-### 2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps <a name='index__410__1325_scud_storm_night_lights'></a>
+### 2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps <a name='link__20221002__1325_scud_storm_night_lights'></a>
 **Changes**
 
 - **FIX**: The damaged GLA Scud Storm now shows its lights on Night maps.
@@ -8133,7 +8133,7 @@ Contains 537 entries with
 **Source:** 1325_scud_storm_night_lights.yaml
 
 ---
-### 2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps <a name='index__411__1326_scud_storm_snow_damage'></a>
+### 2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps <a name='link__20221002__1326_scud_storm_snow_damage'></a>
 **Changes**
 
 - **FIX**: The damaged GLA Scud Storm now renders with snow textures on Winter maps.
@@ -8149,7 +8149,7 @@ Contains 537 entries with
 **Source:** 1326_scud_storm_snow_damage.yaml
 
 ---
-### 2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm <a name='index__412__1328_utscudslab_upscaled_textures'></a>
+### 2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm <a name='link__20221002__1328_utscudslab_upscaled_textures'></a>
 **Changes**
 
 - **FIX**: Adds 2x AI upscaled versions of the utscudslab textures. Originally they are 256x256, which is too small for a building that large.
@@ -8165,7 +8165,7 @@ Contains 537 entries with
 **Source:** 1328_utscudslab_upscaled_textures.yaml
 
 ---
-### 2022-10-08 - Fixes missing muzzle flash and recoil animation on GLA Quad Cannon <a name='index__413__1340_quad_muzzle_flash_recoil'></a>
+### 2022-10-08 - Fixes missing muzzle flash and recoil animation on GLA Quad Cannon <a name='link__20221008__1340_quad_muzzle_flash_recoil'></a>
 **Changes**
 
 - **FIX**: Fixes missing muzzle flash and recoil animation on GLA Quad Cannon when firing at ground targets.
@@ -8181,7 +8181,7 @@ Contains 537 entries with
 **Source:** 1340_quad_muzzle_flash_recoil.yaml
 
 ---
-### 2023-01-08 - Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits <a name='index__414__1526_booby_trap_physics'></a>
+### 2023-01-08 - Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits <a name='link__20230108__1526_booby_trap_physics'></a>
 **Changes**
 
 - **FIX**: Removes physics from BoobyTrap object to prevent pushing by weapons. Objects RemoteC4Charge and TimedC4Charge also do not have physics.
@@ -8197,7 +8197,7 @@ Contains 537 entries with
 **Source:** 1526_booby_trap_physics.yaml
 
 ---
-### 2023-01-08 - Fixes wrong exploded death animation of GLA Worker <a name='index__415__1528_worker_death_animation'></a>
+### 2023-01-08 - Fixes wrong exploded death animation of GLA Worker <a name='link__20230108__1528_worker_death_animation'></a>
 **Changes**
 
 - **FIX**: GLA Worker with supply box now shows proper death animation when exploded.
@@ -8213,7 +8213,7 @@ Contains 537 entries with
 **Source:** 1528_worker_death_animation.yaml
 
 ---
-### 2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker <a name='index__416__1578_worker_clear_mines_button'></a>
+### 2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker <a name='link__20230121__1578_worker_clear_mines_button'></a>
 **Changes**
 
 - **FIX**: GLA Worker can now use the Clear Mines command when the fake structures command set is selected.
@@ -8229,7 +8229,7 @@ Contains 537 entries with
 **Source:** 1578_worker_clear_mines_button.yaml
 
 ---
-### 2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death <a name='index__417__1663_scorpion_death_model'></a>
+### 2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death <a name='link__20230209__1663_scorpion_death_model'></a>
 **Changes**
 
 - **FIX**: The GLA Scorpion model no longer loses upgrades on death.
@@ -8245,7 +8245,7 @@ Contains 537 entries with
 **Source:** 1663_scorpion_death_model.yaml
 
 ---
-### 2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only <a name='index__418__1672_marauder_double_barrel_firing_sequence'></a>
+### 2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only <a name='link__20230211__1672_marauder_double_barrel_firing_sequence'></a>
 **Changes**
 
 - **FIX**: Sets correct firing sequence on GLA Marauder with double barrel. It will now always start by firing 2 clips instead of just 1 clip. This gives the unit an inconsequential buff.
@@ -8261,7 +8261,7 @@ Contains 537 entries with
 **Source:** 1672_marauder_double_barrel_firing_sequence.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade <a name='index__419__1674_marauder_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
 - **FEATURE**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
@@ -8277,7 +8277,7 @@ Contains 537 entries with
 **Source:** 1674_marauder_idle_reload.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='index__420__1699_scorpion_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
 - **FEATURE**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
@@ -8293,7 +8293,7 @@ Contains 537 entries with
 **Source:** 1699_scorpion_idle_reload.yaml
 
 ---
-### 2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped <a name='index__421__1703_scud_storm_idle_reload'></a>
+### 2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped <a name='link__20230211__1703_scud_storm_idle_reload'></a>
 **Changes**
 
 - **FIX**: The GLA Scud Storm will now always fully reload after pressing S button during a firing sequence.
@@ -8309,7 +8309,7 @@ Contains 537 entries with
 **Source:** 1703_scud_storm_idle_reload.yaml
 
 ---
-### 2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage <a name='index__422__1706_stealth_rebel_reveal'></a>
+### 2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage <a name='link__20230214__1706_stealth_rebel_reveal'></a>
 **Changes**
 
 - **FIX**: The GLA Stealth Rebels no longer become revealed when taking damage. Originally the Stealth Rebel variant is the only Rebel to reveal itself when receiving damage. Moreover, no other stealth-capable unit in the game exhibits this behaviour.
@@ -8325,7 +8325,7 @@ Contains 537 entries with
 **Source:** 1706_stealth_rebel_reveal.yaml
 
 ---
-### 2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death <a name='index__423__1714_scud_launcher_death_model'></a>
+### 2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death <a name='link__20230215__1714_scud_launcher_death_model'></a>
 **Changes**
 
 - **FIX**: All Scud Launcher variants now correctly show their salvage upgrades during their rubble state. In 1.04, only the regular GLA Scud Launcher shows its salvage upgrades during its rubble state.
@@ -8341,7 +8341,7 @@ Contains 537 entries with
 **Source:** 1714_scud_launcher_death_model.yaml
 
 ---
-### 2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar <a name='index__424__1716_mob_radar_dots'></a>
+### 2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar <a name='link__20230215__1716_mob_radar_dots'></a>
 **Changes**
 
 - **FIX**: The Angry Mob Nexus no longer appears on the radar. This is most noticeable in 1.04 when only a single Angry Mob member remains, and yet two units show on the radar.
@@ -8357,7 +8357,7 @@ Contains 537 entries with
 **Source:** 1716_mob_radar_dots.yaml
 
 ---
-### 2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion <a name='index__425__1726_wreck_spawn_after_death'></a>
+### 2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion <a name='link__20230216__1726_wreck_spawn_after_death'></a>
 **Changes**
 
 - **FIX**: There is a random 200 ms destruction delay on death of GLA Bomb Truck. This means that the hulk and effects spawns a bit later than the death explosion. With this fix the wreck of the GLA Bomb Truck will always spawn right on death.
@@ -8373,7 +8373,7 @@ Contains 537 entries with
 **Source:** 1726_wreck_spawn_after_death.yaml
 
 ---
-### 2021-09-11 - Adds missing Hellfire Drone icon to Boss Paladin <a name='index__426__319_boss_paladin_cameo'></a>
+### 2021-09-11 - Adds missing Hellfire Drone icon to Boss Paladin <a name='link__20210911__319_boss_paladin_cameo'></a>
 **Changes**
 
 - **FIX**: The Boss General's Paladin Tank now shows the Hellfire Drone upgrade icon.
@@ -8390,7 +8390,7 @@ Contains 537 entries with
 **Source:** 319_boss_paladin_cameo.yaml
 
 ---
-### 2021-09-16 - Adds missing unit drop to Reinforcement Pad for Boss General <a name='index__427__375_boss_reinforcement_pad'></a>
+### 2021-09-16 - Adds missing unit drop to Reinforcement Pad for Boss General <a name='link__20210916__375_boss_reinforcement_pad'></a>
 **Changes**
 
 - **FIX**: The Reinforcement Pad now drops a Boss Dragon Tank for the Boss General.
@@ -8406,7 +8406,7 @@ Contains 537 entries with
 **Source:** 375_boss_reinforcement_pad.yaml
 
 ---
-### 2021-09-18 - Fixes wrong Stop button icon location of Boss Patriot Battery <a name='index__428__377_boss_patriot_stop_button'></a>
+### 2021-09-18 - Fixes wrong Stop button icon location of Boss Patriot Battery <a name='link__20210918__377_boss_patriot_stop_button'></a>
 **Changes**
 
 - **FIX**: The Boss General's Patriot Battery now has the Stop command button placed above the Sell button, like every other base defense building.
@@ -8422,7 +8422,7 @@ Contains 537 entries with
 **Source:** 377_boss_patriot_stop_button.yaml
 
 ---
-### 2021-09-18 - Fixes wrong tooltip text of Boss Nationalism Upgrade after Mines upgrade <a name='index__429__378_boss_nationalism_tooltip'></a>
+### 2021-09-18 - Fixes wrong tooltip text of Boss Nationalism Upgrade after Mines upgrade <a name='link__20210918__378_boss_nationalism_tooltip'></a>
 **Changes**
 
 - **FIX**: The Boss Nationalism upgrade no longer changes its tooltip text after the Landmines upgrade.
@@ -8438,7 +8438,7 @@ Contains 537 entries with
 **Source:** 378_boss_nationalism_tooltip.yaml
 
 ---
-### 2021-09-18 - Adds missing Neutron Mines to Boss Scud Storm <a name='index__430__380_boss_scud_storm_neutron_mines'></a>
+### 2021-09-18 - Adds missing Neutron Mines to Boss Scud Storm <a name='link__20210918__380_boss_scud_storm_neutron_mines'></a>
 **Changes**
 
 - **FIX**: Adds missing Neutron Mines to Boss Scud Storm.
@@ -8454,7 +8454,7 @@ Contains 537 entries with
 **Source:** 380_boss_scud_storm_neutron_mines.yaml
 
 ---
-### 2021-09-18 - Adds missing Chemical Suits upgrade icon to Boss Infantry units <a name='index__431__381_boss_chemical_suit_cameo'></a>
+### 2021-09-18 - Adds missing Chemical Suits upgrade icon to Boss Infantry units <a name='link__20210918__381_boss_chemical_suit_cameo'></a>
 **Changes**
 
 - **FIX**: Adds missing Chemical Suits upgrade icon to Boss Infantry units.
@@ -8470,7 +8470,7 @@ Contains 537 entries with
 **Source:** 381_boss_chemical_suit_cameo.yaml
 
 ---
-### 2021-09-19 - Fixes wrong Ranger types spawned from destroyed Boss buildings <a name='index__432__388_boss_ranger_types'></a>
+### 2021-09-19 - Fixes wrong Ranger types spawned from destroyed Boss buildings <a name='link__20210919__388_boss_ranger_types'></a>
 **Changes**
 
 - **FIX**: Destroyed Boss buildings now spawn the correct Boss Ranger types.
@@ -8486,7 +8486,7 @@ Contains 537 entries with
 **Source:** 388_boss_ranger_types.yaml
 
 ---
-### 2021-10-03 - Fixes hacking speed of Boss Hacker inside Internet Center <a name='index__433__450_boss_hacker_bonus'></a>
+### 2021-10-03 - Fixes hacking speed of Boss Hacker inside Internet Center <a name='link__20211003__450_boss_hacker_bonus'></a>
 **Changes**
 
 - **FIX**: The Boss Hacker no longer hacks 25% faster inside Internet Centers instead of 10% faster as other (non-Super Hacker) Hackers.
@@ -8502,7 +8502,7 @@ Contains 537 entries with
 **Source:** 450_boss_hacker_bonus.yaml
 
 ---
-### 2021-10-03 - Fixes low vision range of Boss Jarmen Kell <a name='index__434__450_boss_jarmen_sight_range'></a>
+### 2021-10-03 - Fixes low vision range of Boss Jarmen Kell <a name='link__20211003__450_boss_jarmen_sight_range'></a>
 **Changes**
 
 - **FIX**: The Boss Jarmen Kell no longer has 25% less fog vision than other Jarmen Kells.
@@ -8518,7 +8518,7 @@ Contains 537 entries with
 **Source:** 450_boss_jarmen_sight_range.yaml
 
 ---
-### 2021-10-03 - Fixes low health value of Boss Black Lotus <a name='index__435__450_boss_lotus_health'></a>
+### 2021-10-03 - Fixes low health value of Boss Black Lotus <a name='link__20211003__450_boss_lotus_health'></a>
 **Changes**
 
 - **FIX**: The Boss Black Lotus no longer has 25% less health than other Black Lotuses.
@@ -8534,7 +8534,7 @@ Contains 537 entries with
 **Source:** 450_boss_lotus_health.yaml
 
 ---
-### 2021-10-03 - Fixes retaliation behaviour of Boss Pathfinder <a name='index__436__450_boss_pathfinder_retaliation'></a>
+### 2021-10-03 - Fixes retaliation behaviour of Boss Pathfinder <a name='link__20211003__450_boss_pathfinder_retaliation'></a>
 **Changes**
 
 - **FIX**: The Boss Pathfinder no longer retaliates if the option is enabled. This is consistent with every other Pathfinder.
@@ -8550,7 +8550,7 @@ Contains 537 entries with
 **Source:** 450_boss_pathfinder_retaliation.yaml
 
 ---
-### 2021-10-03 - Fixes the microwave immunity of Boss Bunker <a name='index__437__451_boss_bunker_microwave_damage'></a>
+### 2021-10-03 - Fixes the microwave immunity of Boss Bunker <a name='link__20211003__451_boss_bunker_microwave_damage'></a>
 **Changes**
 
 - **FIX**: The Boss Bunker is no longer immune to Microwave tanks.
@@ -8566,7 +8566,7 @@ Contains 537 entries with
 **Source:** 451_boss_bunker_microwave_damage.yaml
 
 ---
-### 2021-10-03 - Adds missing Subliminal Messaging upgrade icon to Boss Propaganda Tower <a name='index__438__451_boss_propaganda_tower_cameo'></a>
+### 2021-10-03 - Adds missing Subliminal Messaging upgrade icon to Boss Propaganda Tower <a name='link__20211003__451_boss_propaganda_tower_cameo'></a>
 **Changes**
 
 - **FIX**: The Boss Propaganda Tower now has an upgrade icon for Subliminal Messaging.
@@ -8582,7 +8582,7 @@ Contains 537 entries with
 **Source:** 451_boss_propaganda_tower_cameo.yaml
 
 ---
-### 2021-10-03 - Fixes fast build time of Boss Tunnel Network <a name='index__439__451_boss_tunnel_build_time'></a>
+### 2021-10-03 - Fixes fast build time of Boss Tunnel Network <a name='link__20211003__451_boss_tunnel_build_time'></a>
 **Changes**
 
 - **FIX**: The Boss Tunnel Network is now constructed at the same speed as GLA Tunnels.
@@ -8598,7 +8598,7 @@ Contains 537 entries with
 **Source:** 451_boss_tunnel_build_time.yaml
 
 ---
-### 2021-10-03 - Fixes issues of Boss Sentry Drone <a name='index__440__453_boss_sentry_issues'></a>
+### 2021-10-03 - Fixes issues of Boss Sentry Drone <a name='link__20211003__453_boss_sentry_issues'></a>
 **Changes**
 
 - **FIX**: The Boss Sentry Drone now uses the SentryDroneArmor type instead of HumveeArmor type.
@@ -8619,7 +8619,7 @@ Contains 537 entries with
 **Source:** 453_boss_sentry_issues.yaml
 
 ---
-### 2021-10-03 - Fixes issues of Boss Avenger <a name='index__441__454_boss_avenger_issues'></a>
+### 2021-10-03 - Fixes issues of Boss Avenger <a name='link__20211003__454_boss_avenger_issues'></a>
 **Changes**
 
 - **FIX**: The Boss Avenger now displays the correct team color.
@@ -8642,7 +8642,7 @@ Contains 537 entries with
 **Source:** 454_boss_avenger_issues.yaml
 
 ---
-### 2021-10-03 - Fixes issues of Boss King Raptor <a name='index__442__456_boss_raptor_issues'></a>
+### 2021-10-03 - Fixes issues of Boss King Raptor <a name='link__20211003__456_boss_raptor_issues'></a>
 **Changes**
 
 - **FIX**: The Boss King Raptor now uses voice lines for King Raptor.
@@ -8660,7 +8660,7 @@ Contains 537 entries with
 **Source:** 456_boss_raptor_issues.yaml
 
 ---
-### 2021-10-03 - Fixes issues of Boss Helix <a name='index__443__457_boss_helix_issues'></a>
+### 2021-10-03 - Fixes issues of Boss Helix <a name='link__20211003__457_boss_helix_issues'></a>
 **Changes**
 
 - **FIX**: The Boss Helix no longer speaks like a Dragon Tank when dropping Napalm Bombs.
@@ -8679,7 +8679,7 @@ Contains 537 entries with
 **Source:** 457_boss_helix_issues.yaml
 
 ---
-### 2022-10-15 - Fixes missing Control Rods upgrade icon on Boss Power Plant <a name='index__444__1372_boss_reactor_upgrade_cameo'></a>
+### 2022-10-15 - Fixes missing Control Rods upgrade icon on Boss Power Plant <a name='link__20221015__1372_boss_reactor_upgrade_cameo'></a>
 **Changes**
 
 - **FIX**: The Boss Power Plant now has an upgrade icon like all the USA Power Plants have.
@@ -8695,7 +8695,7 @@ Contains 537 entries with
 **Source:** 1372_boss_reactor_upgrade_cameo.yaml
 
 ---
-### 2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad <a name='index__445__308_reinforcement_pad_xp_reward'></a>
+### 2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad <a name='link__20210911__308_reinforcement_pad_xp_reward'></a>
 **Changes**
 
 - **FIX**: The Civilian Reinforcement Pad no longer rewards XP on kill.
@@ -8711,7 +8711,7 @@ Contains 537 entries with
 **Source:** 308_reinforcement_pad_xp_reward.yaml
 
 ---
-### 2021-09-11 - Removes kill experience reward of Civilian Repair Pad <a name='index__446__308_repair_pad_xp_reward'></a>
+### 2021-09-11 - Removes kill experience reward of Civilian Repair Pad <a name='link__20210911__308_repair_pad_xp_reward'></a>
 **Changes**
 
 - **FIX**: The Civilian Repair Pad no longer rewards XP on kill. The Repair Pad can be used in custom maps only.
@@ -8727,7 +8727,7 @@ Contains 537 entries with
 **Source:** 308_repair_pad_xp_reward.yaml
 
 ---
-### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='index__447__443_money_crates_under_scaffold'></a>
+### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>
 **Changes**
 
 - **FIX**: Money Crates no longer vanish when a building scaffold is placed on top.
@@ -8743,7 +8743,7 @@ Contains 537 entries with
 **Source:** 443_money_crates_under_scaffold.yaml
 
 ---
-### 2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building. <a name='index__448__568_repair_bay_ruin_model'></a>
+### 2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building. <a name='link__20211016__568_repair_bay_ruin_model'></a>
 **Changes**
 
 - **FIX**: Adds ruin model for destroyed Repair Bay Tech building.
@@ -8759,7 +8759,7 @@ Contains 537 entries with
 **Source:** 568_repair_bay_ruin_model.yaml
 
 ---
-### 2021-10-17 - Adds Radar Station Tech building (for custom maps) <a name='index__449__571_radar_station_tech'></a>
+### 2021-10-17 - Adds Radar Station Tech building (for custom maps) <a name='link__20211017__571_radar_station_tech'></a>
 **Changes**
 
 - **FIX**: Adds Radar Station Tech building. It can be used for custom maps.
@@ -8775,7 +8775,7 @@ Contains 537 entries with
 **Source:** 571_radar_station_tech.yaml
 
 ---
-### 2021-10-17 - Adds Generals Mammoth Tank (for custom maps) <a name='index__450__572_mammoth_tank'></a>
+### 2021-10-17 - Adds Generals Mammoth Tank (for custom maps) <a name='link__20211017__572_mammoth_tank'></a>
 **Changes**
 
 - **FIX**: Adds the Generals Mammoth Tank. It can be used for custom maps.
@@ -8791,7 +8791,7 @@ Contains 537 entries with
 **Source:** 572_mammoth_tank.yaml
 
 ---
-### 2022-08-14 - Fixes mismatching toxin puddle colors from destroyed chemical civilian buildings. <a name='index__451__903_civ_buildings_toxin_colors'></a>
+### 2022-08-14 - Fixes mismatching toxin puddle colors from destroyed chemical civilian buildings. <a name='link__20220814__903_civ_buildings_toxin_colors'></a>
 **Changes**
 
 - **FIX**: All destroyed chemical civilian buildings now spawn blue Anthrax Beta. This does not change the damage of the toxin puddles.
@@ -8807,7 +8807,7 @@ Contains 537 entries with
 **Source:** 903_civ_buildings_toxin_colors.yaml
 
 ---
-### 2022-11-06 - Removes airplane avoidance setup from some small structures <a name='index__452__1447_airplane_avoidance'></a>
+### 2022-11-06 - Removes airplane avoidance setup from some small structures <a name='link__20221106__1447_airplane_avoidance'></a>
 **Changes**
 
 - **TWEAK**: Removes AIRCRAFT_PATH_AROUND from small non cinematic structures:
@@ -8829,7 +8829,7 @@ Contains 537 entries with
 **Source:** 1447_airplane_avoidance.yaml
 
 ---
-### 2023-02-04 - Fixes crushable levels of Civilian cars <a name='index__453__1625_civ_car_crushable_level'></a>
+### 2023-02-04 - Fixes crushable levels of Civilian cars <a name='link__20230204__1625_civ_car_crushable_level'></a>
 **Changes**
 
 - **FIX**: Civilian cars can now be crushed by appropriate larger vehicles.
@@ -8858,7 +8858,7 @@ Contains 537 entries with
 **Source:** 1625_civ_car_crushable_level.yaml
 
 ---
-### 2023-02-04 - Fixes crusher levels of Civilian cars <a name='index__454__1625_civ_car_crusher_level'></a>
+### 2023-02-04 - Fixes crusher levels of Civilian cars <a name='link__20230204__1625_civ_car_crusher_level'></a>
 **Changes**
 
 - **FIX**: Civilian cars can now crush things appropriate to their own sizes.
@@ -8887,7 +8887,7 @@ Contains 537 entries with
 **Source:** 1625_civ_car_crusher_level.yaml
 
 ---
-### 2023-02-04 - Fixes proper display names to Civilian vehicles. <a name='index__455__1626_cars_name_text'></a>
+### 2023-02-04 - Fixes proper display names to Civilian vehicles. <a name='link__20230204__1626_cars_name_text'></a>
 **Changes**
 
 - **FIX**: Adds proper display names to Civilian Tractor and FarmerChickenTruck.
@@ -8904,7 +8904,7 @@ Contains 537 entries with
 **Source:** 1626_cars_name_text.yaml
 
 ---
-### 2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees <a name='index__456__1638_humvee1_transition_damage_effects'></a>
+### 2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees <a name='link__20230205__1638_humvee1_transition_damage_effects'></a>
 **Changes**
 
 - **FIX**: All Humvees now use the same transition damage effects.
@@ -8920,7 +8920,7 @@ Contains 537 entries with
 **Source:** 1638_humvee1_transition_damage_effects.yaml
 
 ---
-### 2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles <a name='index__457__1639_civ_damaged_state_models'></a>
+### 2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles <a name='link__20230205__1639_civ_damaged_state_models'></a>
 **Changes**
 
 - **FIX**: Adds and fixes models for damaged states of Civilian vehicles.
@@ -8952,7 +8952,7 @@ Contains 537 entries with
 **Source:** 1639_civ_damaged_state_models.yaml
 
 ---
-### 2023-02-05 - Adds transition damage effects to Civilian vehicles <a name='index__458__1639_civ_transition_damage_effects'></a>
+### 2023-02-05 - Adds transition damage effects to Civilian vehicles <a name='link__20230205__1639_civ_transition_damage_effects'></a>
 **Changes**
 
 - **FEATURE**: Adds transition damage effects to Civilian vehicles.
@@ -8998,7 +8998,7 @@ Contains 537 entries with
 **Source:** 1639_civ_transition_damage_effects.yaml
 
 ---
-### 2023-02-07 - Fixes wrecks of Civilian vehicles to be no longer pushable and attackable <a name='index__459__1646_civilian_cars_flags'></a>
+### 2023-02-07 - Fixes wrecks of Civilian vehicles to be no longer pushable and attackable <a name='link__20230207__1646_civilian_cars_flags'></a>
 **Changes**
 
 - **FIX**: Wrecks of Civilian vehicles can no longer be attacked and collided with.
@@ -9020,7 +9020,7 @@ Contains 537 entries with
 **Source:** 1646_civilian_cars_flags.yaml
 
 ---
-### 2023-02-07 - Adds suicide car bomb ability to Civilian Crop Duster <a name='index__460__1647_aircraft_carbomb_ability'></a>
+### 2023-02-07 - Adds suicide car bomb ability to Civilian Crop Duster <a name='link__20230207__1647_aircraft_carbomb_ability'></a>
 **Changes**
 
 - **FIX**: Adds suicide car bomb ability to Civilian AircraftCropDuster.
@@ -9036,7 +9036,7 @@ Contains 537 entries with
 **Source:** 1647_aircraft_carbomb_ability.yaml
 
 ---
-### 2021-08-28 - Fixes Anthrax Gamma streams showing with green particles when clearing buildings <a name='index__461__84_green_gamma_toxin_streams'></a>
+### 2021-08-28 - Fixes Anthrax Gamma streams showing with green particles when clearing buildings <a name='link__20210828__84_green_gamma_toxin_streams'></a>
 **Changes**
 
 - **FIX**: Anthrax Gamma streams no longer show with green particles when clearing buildings.
@@ -9052,7 +9052,7 @@ Contains 537 entries with
 **Source:** 84_green_gamma_toxin_streams.yaml
 
 ---
-### 2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once <a name='index__462__122_ui_faction_list_size'></a>
+### 2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once <a name='link__20210830__122_ui_faction_list_size'></a>
 **Changes**
 
 - **FIX**: Expands army selection drop down box in Menu Game Room to see all factions at once without scrolling.
@@ -9068,7 +9068,7 @@ Contains 537 entries with
 **Source:** 122_ui_faction_list_size.yaml
 
 ---
-### 2021-09-03 - Fixes issue that prevents evacuating different vehicles in a group selection <a name='index__463__165_vehicle_evacuation_button_placement'></a>
+### 2021-09-03 - Fixes issue that prevents evacuating different vehicles in a group selection <a name='link__20210903__165_vehicle_evacuation_button_placement'></a>
 **Changes**
 
 - **FIX**: The evacuate buttons of the USA Humvee, Ambulance, China Troopcrawler, Outpost, GLA Technical and Battle Bus are now at the same position. This allows the player to evacuate all vehicles at once when a group of different vehicles is selected.
@@ -9084,7 +9084,7 @@ Contains 537 entries with
 **Source:** 165_vehicle_evacuation_button_placement.yaml
 
 ---
-### 2021-09-09 - Fixes broken weapons and animations of GLA HiDef Scud Launcher <a name='index__464__258_hidef_scud_launcher'></a>
+### 2021-09-09 - Fixes broken weapons and animations of GLA HiDef Scud Launcher <a name='link__20210909__258_hidef_scud_launcher'></a>
 **Changes**
 
 - **FIX**: Fixes broken weapons and animations of GLA HiDef Scud Launcher. This unit is a World Builder only Toxin General Scud Launcher variant that starts with salvage scrap 2.
@@ -9100,7 +9100,7 @@ Contains 537 entries with
 **Source:** 258_hidef_scud_launcher.yaml
 
 ---
-### 2021-09-10 - Fixes dummy weapons invoking confusing attack effects and notifications <a name='index__465__279_dummy_weapon_attack_notification'></a>
+### 2021-09-10 - Fixes dummy weapons invoking confusing attack effects and notifications <a name='link__20210910__279_dummy_weapon_attack_notification'></a>
 **Changes**
 
 - **FIX**: Objects with dummy weapons no longer do tiny amount of damages that trigger hit particle effects the "We're under attack!" notification.
@@ -9116,7 +9116,7 @@ Contains 537 entries with
 **Source:** 279_dummy_weapon_attack_notification.yaml
 
 ---
-### 2021-09-11 - Adds missing air attack voices to various units <a name='index__466__293_air_attack_voices'></a>
+### 2021-09-11 - Adds missing air attack voices to various units <a name='link__20210911__293_air_attack_voices'></a>
 **Changes**
 
 - **FIX**: All units now play a voice line when targeting airborne units. This includes
@@ -9141,7 +9141,7 @@ Contains 537 entries with
 **Source:** 293_air_attack_voices.yaml
 
 ---
-### 2021-09-11 - Fixes incorrect air attack sound of China Minigunner <a name='index__467__315_minigunner_air_attack_sound'></a>
+### 2021-09-11 - Fixes incorrect air attack sound of China Minigunner <a name='link__20210911__315_minigunner_air_attack_sound'></a>
 **Changes**
 
 - **FIX**: When firing at airborne targets, the China Minigunner no longer uses the weapon sound effect of the Gattling Tank.
@@ -9157,7 +9157,7 @@ Contains 537 entries with
 **Source:** 315_minigunner_air_attack_sound.yaml
 
 ---
-### 2021-09-11 - Fixes USA Spectre button, portrait and upgrade icons <a name='index__468__323_spectre_button_cameo'></a>
+### 2021-09-11 - Fixes USA Spectre button, portrait and upgrade icons <a name='link__20210911__323_spectre_button_cameo'></a>
 **Changes**
 
 - **FIX**: The Spectre now has a portrait when selected.
@@ -9175,7 +9175,7 @@ Contains 537 entries with
 **Source:** 323_spectre_button_cameo.yaml
 
 ---
-### 2021-09-12 - Fixes wrong object categories in World Builder <a name='index__469__332_worldbuilder_object_categories'></a>
+### 2021-09-12 - Fixes wrong object categories in World Builder <a name='link__20210912__332_worldbuilder_object_categories'></a>
 **Changes**
 
 - **FIX**: The Air Force General's normal Chinook is no longer listed as a vanilla USA unit in the World Builder.
@@ -9197,7 +9197,7 @@ Contains 537 entries with
 **Source:** 332_worldbuilder_object_categories.yaml
 
 ---
-### 2021-09-19 - Adds missing Scrap Salvage to Boss Tomahawk <a name='index__470__389_usa05_boss_tomahawk_scrap_crate'></a>
+### 2021-09-19 - Adds missing Scrap Salvage to Boss Tomahawk <a name='link__20210919__389_usa05_boss_tomahawk_scrap_crate'></a>
 **Changes**
 
 - **FIX**: The Boss Tomahawk now leaves a Scrap Salvage crate when killed.
@@ -9213,7 +9213,7 @@ Contains 537 entries with
 **Source:** 389_usa05_boss_tomahawk_scrap_crate.yaml
 
 ---
-### 2021-09-19 - Adds missing Scrap Salvage to GLA Scud Launcher of USA05 Campaign <a name='index__471__390_usa05_scud_launcher_salvage_crate'></a>
+### 2021-09-19 - Adds missing Scrap Salvage to GLA Scud Launcher of USA05 Campaign <a name='link__20210919__390_usa05_scud_launcher_salvage_crate'></a>
 **Changes**
 
 - **FIX**: The GLA Scud Launcher in the USA05 Campaign now leaves a Scrap Salvage crate when killed.
@@ -9229,7 +9229,7 @@ Contains 537 entries with
 **Source:** 390_usa05_scud_launcher_salvage_crate.yaml
 
 ---
-### 2021-10-07 - Fixes issues with GLA Stealth base defenses in GLA02 campaign <a name='index__472__512_gla02_defenses_issues'></a>
+### 2021-10-07 - Fixes issues with GLA Stealth base defenses in GLA02 campaign <a name='link__20211007__512_gla02_defenses_issues'></a>
 **Changes**
 
 - **FIX**: The GLA02 Stealth General's Tunnel Network no longer builds in 10 seconds.
@@ -9248,7 +9248,7 @@ Contains 537 entries with
 **Source:** 512_gla02_defenses_issues.yaml
 
 ---
-### 2021-10-07 - Fixes issues with GLA Toxin base defenses in USA05 campaign <a name='index__473__513_usa05_defenses_issues'></a>
+### 2021-10-07 - Fixes issues with GLA Toxin base defenses in USA05 campaign <a name='link__20211007__513_usa05_defenses_issues'></a>
 **Changes**
 
 - **FIX**: The USA05 Toxin General's Tunnel Network no longer has the button of a normal Tunnel Network.
@@ -9273,7 +9273,7 @@ Contains 537 entries with
 **Source:** 513_usa05_defenses_issues.yaml
 
 ---
-### 2021-10-07 - Fixes issues with GLA Stealth buildings in GLA02 campaign <a name='index__474__514_gla02_buildings_issues'></a>
+### 2021-10-07 - Fixes issues with GLA Stealth buildings in GLA02 campaign <a name='link__20211007__514_gla02_buildings_issues'></a>
 **Changes**
 
 - **FIX**: The GLA02 Stealth General buildings no longer behave inconsistently when stealthed.
@@ -9298,7 +9298,7 @@ Contains 537 entries with
 **Source:** 514_gla02_buildings_issues.yaml
 
 ---
-### 2021-10-07 - Fixes issues with GLA Toxin buildings in USA05 campaign <a name='index__475__515_usa05_buildings_issues'></a>
+### 2021-10-07 - Fixes issues with GLA Toxin buildings in USA05 campaign <a name='link__20211007__515_usa05_buildings_issues'></a>
 **Changes**
 
 - **FIX**: The USA05 Toxin General's Buildings are now compatible with Fortified Structures.
@@ -9324,7 +9324,7 @@ Contains 537 entries with
 **Source:** 515_usa05_buildings_issues.yaml
 
 ---
-### 2021-10-07 - Fixes issues with GLA Stealth infantry in GLA02 campaign <a name='index__476__519_gla02_infantry_issues'></a>
+### 2021-10-07 - Fixes issues with GLA Stealth infantry in GLA02 campaign <a name='link__20211007__519_gla02_infantry_issues'></a>
 **Changes**
 
 - **FIX**: The GLA02 Stealth General Infantry now behaves consistently when stealthed.
@@ -9350,7 +9350,7 @@ Contains 537 entries with
 **Source:** 519_gla02_infantry_issues.yaml
 
 ---
-### 2021-10-07 - Fixes issues with GLA Toxin infantry in USA05 campaign <a name='index__477__520_usa05_infantry_issues'></a>
+### 2021-10-07 - Fixes issues with GLA Toxin infantry in USA05 campaign <a name='link__20211007__520_usa05_infantry_issues'></a>
 **Changes**
 
 - **FIX**: The USA05 Toxin General's Worker now builds in the correct time of 15 seconds.
@@ -9382,7 +9382,7 @@ Contains 537 entries with
 **Source:** 520_usa05_infantry_issues.yaml
 
 ---
-### 2021-10-07 - Fixes issues with GLA Stealth vehicles in GLA02 campaign <a name='index__478__521_gla02_vehicles_issues'></a>
+### 2021-10-07 - Fixes issues with GLA Stealth vehicles in GLA02 campaign <a name='link__20211007__521_gla02_vehicles_issues'></a>
 **Changes**
 
 - **FIX**: The GLA02 Stealth General's vehicles now behave consistently when stealthed.
@@ -9413,7 +9413,7 @@ Contains 537 entries with
 **Source:** 521_gla02_vehicles_issues.yaml
 
 ---
-### 2021-10-07 - Fixes issues with GLA Toxin vehicle in USA05 campaign <a name='index__479__522_usa05_vehicles_issues'></a>
+### 2021-10-07 - Fixes issues with GLA Toxin vehicle in USA05 campaign <a name='link__20211007__522_usa05_vehicles_issues'></a>
 **Changes**
 
 - **FIX**: The USA05 Toxin General's vehicles no longer have bugged out turret models.
@@ -9440,7 +9440,7 @@ Contains 537 entries with
 **Source:** 522_usa05_vehicles_issues.yaml
 
 ---
-### 2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air <a name='index__480__567_demo_combat_bike_drop'></a>
+### 2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air <a name='link__20211016__567_demo_combat_bike_drop'></a>
 **Changes**
 
 - **FIX**: When the GLA Demo Combat Bike is dropped from air, there no longer sits a Worker inside it.
@@ -9456,7 +9456,7 @@ Contains 537 entries with
 **Source:** 567_demo_combat_bike_drop.yaml
 
 ---
-### 2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building <a name='index__481__568_reinforcement_pad_ruin_model'></a>
+### 2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building <a name='link__20211016__568_reinforcement_pad_ruin_model'></a>
 **Changes**
 
 - **FIX**: Adds ruin model for destroyed Reinforcement Pad Tech building.
@@ -9472,7 +9472,7 @@ Contains 537 entries with
 **Source:** 568_reinforcement_pad_ruin_model.yaml
 
 ---
-### 2022-01-01 - Fixes text setup errors and inconsistencies for all native game languages <a name='index__482__634_text_errors'></a>
+### 2022-01-01 - Fixes text setup errors and inconsistencies for all native game languages <a name='link__20220101__634_text_errors'></a>
 **Changes**
 
 - **FIX**: Fixes text setup errors and inconsistencies for all native game languages.
@@ -9488,7 +9488,7 @@ Contains 537 entries with
 **Source:** 634_text_errors.yaml
 
 ---
-### 2022-07-22 - Recoveres 483 high quality textures from Generals <a name='index__483__734_high_res_textures'></a>
+### 2022-07-22 - Recoveres 483 high quality textures from Generals <a name='link__20220722__734_high_res_textures'></a>
 **Changes**
 
 - **FIX**: Recoveres 483 high quality textures from Generals. In Zero Hour they were downscaled, either by mistake or as a way to reduce the video memory requirements. The textures are related to civilian and faction buildings for the most part.
@@ -9504,7 +9504,7 @@ Contains 537 entries with
 **Source:** 734_high_res_textures.yaml
 
 ---
-### 2022-07-24 - Replaces 'Commander' with 'General' in all language strings <a name='index__484__750_commander_texts'></a>
+### 2022-07-24 - Replaces 'Commander' with 'General' in all language strings <a name='link__20220724__750_commander_texts'></a>
 **Changes**
 
 - **FIX**: Replaces 'Commander' with 'General' in all language strings.
@@ -9520,7 +9520,7 @@ Contains 537 entries with
 **Source:** 750_commander_texts.yaml
 
 ---
-### 2022-07-24 - Fixes some cramped language strings in Options and Replay menu <a name='index__485__750_cramped_texts'></a>
+### 2022-07-24 - Fixes some cramped language strings in Options and Replay menu <a name='link__20220724__750_cramped_texts'></a>
 **Changes**
 
 - **FIX**: Fixes some cramped language strings in Options and Replay menu.
@@ -9536,7 +9536,7 @@ Contains 537 entries with
 **Source:** 750_cramped_texts.yaml
 
 ---
-### 2022-07-24 - Fixes some errors in German language strings <a name='index__486__750_german_text_errors'></a>
+### 2022-07-24 - Fixes some errors in German language strings <a name='link__20220724__750_german_text_errors'></a>
 **Changes**
 
 - **FIX**: Fixes some errors in German language strings.
@@ -9552,7 +9552,7 @@ Contains 537 entries with
 **Source:** 750_german_text_errors.yaml
 
 ---
-### 2022-07-24 - Replaces STS and CCH characters with quotes in all language strings <a name='index__487__750_quote_text_errors'></a>
+### 2022-07-24 - Replaces STS and CCH characters with quotes in all language strings <a name='link__20220724__750_quote_text_errors'></a>
 **Changes**
 
 - **FIX**: Replaces STS and CCH characters with quotes in all language strings.
@@ -9568,7 +9568,7 @@ Contains 537 entries with
 **Source:** 750_quote_text_errors.yaml
 
 ---
-### 2022-07-24 - Replaces NEL characters with three dots in all language strings <a name='index__488__750_three_dot_text_errors'></a>
+### 2022-07-24 - Replaces NEL characters with three dots in all language strings <a name='link__20220724__750_three_dot_text_errors'></a>
 **Changes**
 
 - **FIX**: Replaces NEL characters with three dots in all language strings.
@@ -9584,7 +9584,7 @@ Contains 537 entries with
 **Source:** 750_three_dot_text_errors.yaml
 
 ---
-### 2022-08-05 - Fixes inconsistent press styles on Idle Worker and Place Beacon buttons <a name='index__489__825_idle_worker_place_beacon_buttons'></a>
+### 2022-08-05 - Fixes inconsistent press styles on Idle Worker and Place Beacon buttons <a name='link__20220805__825_idle_worker_place_beacon_buttons'></a>
 **Changes**
 
 - **FIX**: The Idle Worker and Place Beacon buttons on the Control Bar now trigger after mouse button release only. This behaviour is consistent with the other Control Bar buttons nearby.
@@ -9600,7 +9600,7 @@ Contains 537 entries with
 **Source:** 825_idle_worker_place_beacon_buttons.yaml
 
 ---
-### 2022-08-08 - Fixes the issue of inherent faction upgrades being granted upon constructing respective faction structures. <a name='index__490__827_inherent_faction_upgrades'></a>
+### 2022-08-08 - Fixes the issue of inherent faction upgrades being granted upon constructing respective faction structures. <a name='link__20220808__827_inherent_faction_upgrades'></a>
 **Changes**
 
 - **FIX**: Fixes the issue of inherent faction upgrades being granted upon constructing respective faction structures.
@@ -9616,7 +9616,7 @@ Contains 537 entries with
 **Source:** 827_inherent_faction_upgrades.yaml
 
 ---
-### 2022-08-12 - Removes Supply Center to supply stash build distance restriction <a name='index__491__873_supply_stash_build_distance'></a>
+### 2022-08-12 - Removes Supply Center to supply stash build distance restriction <a name='link__20220812__873_supply_stash_build_distance'></a>
 **Changes**
 
 - **FIX**: Supply Centers can now be placed very close the supply stashes and supply depots.
@@ -9632,7 +9632,7 @@ Contains 537 entries with
 **Source:** 873_supply_stash_build_distance.yaml
 
 ---
-### 2022-08-13 - Removes damage effects from immortal civilian structures <a name='index__492__883_immortal_effects'></a>
+### 2022-08-13 - Removes damage effects from immortal civilian structures <a name='link__20220813__883_immortal_effects'></a>
 **Changes**
 
 - **FIX**: Removes damage effects from immortal civilian structures.
@@ -9648,7 +9648,7 @@ Contains 537 entries with
 **Source:** 883_immortal_effects.yaml
 
 ---
-### 2022-08-14 - Fixes rough edges and pink color cast in Infantry decal shadows <a name='index__493__867_infantry_shadow_decal'></a>
+### 2022-08-14 - Fixes rough edges and pink color cast in Infantry decal shadows <a name='link__20220814__867_infantry_shadow_decal'></a>
 **Changes**
 
 - **FIX**: Fixes the rough edges and the pink color cast in Infantry decal shadows.
@@ -9664,7 +9664,7 @@ Contains 537 entries with
 **Source:** 867_infantry_shadow_decal.yaml
 
 ---
-### 2022-08-20 - Adds USA Supply Lines upgrade icon to Oil Derrick <a name='index__494__945_oil_derrick_upgrades_cameo'></a>
+### 2022-08-20 - Adds USA Supply Lines upgrade icon to Oil Derrick <a name='link__20220820__945_oil_derrick_upgrades_cameo'></a>
 **Changes**
 
 - **FIX**: Adds the USA Supply Lines upgrade icon to the Oil Derrick. Reason being, the Supply Lines upgrade does reward the player with more cash from the Oil Derrick.
@@ -9680,7 +9680,7 @@ Contains 537 entries with
 **Source:** 945_oil_derrick_upgrades_cameo.yaml
 
 ---
-### 2022-08-23 - Fixes issues of the USA Laser Superweapon (cut content) <a name='index__495__967_laser_particle_cannon'></a>
+### 2022-08-23 - Fixes issues of the USA Laser Superweapon (cut content) <a name='link__20220823__967_laser_particle_cannon'></a>
 **Changes**
 
 - **FIX**: Fixes the GUI:Lazr_LaserCannon countdown timer text.
@@ -9700,7 +9700,7 @@ Contains 537 entries with
 **Source:** 967_laser_particle_cannon.yaml
 
 ---
-### 2022-08-26 - Fixes misplaced and missing shovel dirt particles on USA Dozer when clearing mines <a name='index__496__1019_usa_dozer_clear_mines_particles'></a>
+### 2022-08-26 - Fixes misplaced and missing shovel dirt particles on USA Dozer when clearing mines <a name='link__20220826__1019_usa_dozer_clear_mines_particles'></a>
 **Changes**
 
 - **FIX**: Shovel dirt particles on USA Dozer are now correctly positioned.
@@ -9717,7 +9717,7 @@ Contains 537 entries with
 **Source:** 1019_usa_dozer_clear_mines_particles.yaml
 
 ---
-### 2022-08-26 - Improves Oil Refinery tooltip text <a name='index__497__943_oil_refinery_tooltip_text'></a>
+### 2022-08-26 - Improves Oil Refinery tooltip text <a name='link__20220826__943_oil_refinery_tooltip_text'></a>
 **Changes**
 
 - **FIX**: Clarifies the inaccuracies of the original Oil Refinery tooltip text for all latin languages.
@@ -9733,7 +9733,7 @@ Contains 537 entries with
 **Source:** 943_oil_refinery_tooltip_text.yaml
 
 ---
-### 2022-08-26 - Adds better 3D model for classic carpet bomb model <a name='index__498__949_carpet_bomb_model'></a>
+### 2022-08-26 - Adds better 3D model for classic carpet bomb model <a name='link__20220826__949_carpet_bomb_model'></a>
 **Changes**
 
 - **FIX**: Adds better 3D model for classic carpet bomb model.
@@ -9749,7 +9749,7 @@ Contains 537 entries with
 **Source:** 949_carpet_bomb_model.yaml
 
 ---
-### 2022-09-01 - Fixes ugly artifacts in ground aligned flare effects <a name='index__499__1069_ground_flare_particles'></a>
+### 2022-09-01 - Fixes ugly artifacts in ground aligned flare effects <a name='link__20220901__1069_ground_flare_particles'></a>
 **Changes**
 
 - **FIX**: Fixes the ugly artifacts in ground aligned flare effects of
@@ -9772,7 +9772,7 @@ Contains 537 entries with
 **Source:** 1069_ground_flare_particles.yaml
 
 ---
-### 2022-09-01 - Improves visuals of binary data stream <a name='index__500__1070_binary_data_stream_visuals'></a>
+### 2022-09-01 - Improves visuals of binary data stream <a name='link__20220901__1070_binary_data_stream_visuals'></a>
 **Changes**
 
 - **FIX**: The binary data stream used by China Lotus, China Super Hacker and USA Patriot Battery now shows a properly sized texture with crisp numbers
@@ -9788,7 +9788,7 @@ Contains 537 entries with
 **Source:** 1070_binary_data_stream_visuals.yaml
 
 ---
-### 2022-09-01 - Fixes broken voice line of China Battlemaster in French, German locales <a name='index__501__1071_battlemaster_voice'></a>
+### 2022-09-01 - Fixes broken voice line of China Battlemaster in French, German locales <a name='link__20220901__1071_battlemaster_voice'></a>
 **Changes**
 
 - **FIX**: The China Battlemaster now has all voice lines working correctly in French and German locales.
@@ -9804,7 +9804,7 @@ Contains 537 entries with
 **Source:** 1071_battlemaster_voice.yaml
 
 ---
-### 2022-09-01 - Fixes broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales <a name='index__502__1071_gamma_terrorist_death'></a>
+### 2022-09-01 - Fixes broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales <a name='link__20220901__1071_gamma_terrorist_death'></a>
 **Changes**
 
 - **FIX**: The GLA Terrorist now renders correctly when killed by Gamma Toxin in Chinese, French and Korean locales.
@@ -9820,7 +9820,7 @@ Contains 537 entries with
 **Source:** 1071_gamma_terrorist_death.yaml
 
 ---
-### 2022-09-03 - Removes invisible attackable object above Townes base in Generals Challenge <a name='index__503__1087_townes_challenge_attackable_objects'></a>
+### 2022-09-03 - Removes invisible attackable object above Townes base in Generals Challenge <a name='link__20220903__1087_townes_challenge_attackable_objects'></a>
 **Changes**
 
 - **FIX**: The invisible object in Townes base is now removed and no longer draws fire.
@@ -9836,7 +9836,7 @@ Contains 537 entries with
 **Source:** 1087_townes_challenge_attackable_objects.yaml
 
 ---
-### 2022-09-03 - Fixes sliding animation issue of bare Stinger Trooper in Kassads Generals Challenge <a name='index__504__1088_kassad_challenge_stinger_slide'></a>
+### 2022-09-03 - Fixes sliding animation issue of bare Stinger Trooper in Kassads Generals Challenge <a name='link__20220903__1088_kassad_challenge_stinger_slide'></a>
 **Changes**
 
 - **FIX**: The bare Stinger Trooper no longer has sliding animation in Kassads Generals Challenge.
@@ -9852,7 +9852,7 @@ Contains 537 entries with
 **Source:** 1088_kassad_challenge_stinger_slide.yaml
 
 ---
-### 2022-09-03 - Fixes terrain clipping of particle effects <a name='index__505__1089_z_clipping_particles'></a>
+### 2022-09-03 - Fixes terrain clipping of particle effects <a name='link__20220903__1089_z_clipping_particles'></a>
 **Changes**
 
 - **FIX**: Fixes terrain clipping of
@@ -9880,7 +9880,7 @@ Contains 537 entries with
 **Source:** 1089_z_clipping_particles.yaml
 
 ---
-### 2022-09-07 - Fixes small size of muzzle flash effects of China Battlemaster <a name='index__506__1154_battlemaster_muzzle_flash_size'></a>
+### 2022-09-07 - Fixes small size of muzzle flash effects of China Battlemaster <a name='link__20220907__1154_battlemaster_muzzle_flash_size'></a>
 **Changes**
 
 - **TWEAK**: The China Battlemaster now uses the muzzle flash effects of regular tanks like the Crusader Tank and Overlord Tank, instead of the small effects for the Scorpion Tank.
@@ -9896,7 +9896,7 @@ Contains 537 entries with
 **Source:** 1154_battlemaster_muzzle_flash_size.yaml
 
 ---
-### 2022-09-15 - Fixes vehicle wreck spawn position errors <a name='index__507__1207_wreck_spawn_position_offset'></a>
+### 2022-09-15 - Fixes vehicle wreck spawn position errors <a name='link__20220915__1207_wreck_spawn_position_offset'></a>
 **Changes**
 
 - **FIX**: Fixes wreck position error of China ECM Tank.
@@ -9915,7 +9915,7 @@ Contains 537 entries with
 **Source:** 1207_wreck_spawn_position_offset.yaml
 
 ---
-### 2022-09-19 - Fixes particle effect fadeout issues <a name='index__508__1223_lens_flare_fadeout'></a>
+### 2022-09-19 - Fixes particle effect fadeout issues <a name='link__20220919__1223_lens_flare_fadeout'></a>
 **Changes**
 
 - **FIX**: Fixes particle effect fadeout issues for
@@ -9937,7 +9937,7 @@ Contains 537 entries with
 **Source:** 1223_lens_flare_fadeout.yaml
 
 ---
-### 2022-09-21 - Fixes missing pieces in trcobbroad texture for cobble road <a name='index__509__1236_trcobbroad_texture'></a>
+### 2022-09-21 - Fixes missing pieces in trcobbroad texture for cobble road <a name='link__20220921__1236_trcobbroad_texture'></a>
 **Changes**
 
 - **FIX**: Fixes missing pieces in trcobbroad texture for cobble road.
@@ -9953,7 +9953,7 @@ Contains 537 entries with
 **Source:** 1236_trcobbroad_texture.yaml
 
 ---
-### 2022-09-24 - Fixes wrong creation audio setup of GLA Saboteur <a name='index__510__1281_saboteur_creation_sound'></a>
+### 2022-09-24 - Fixes wrong creation audio setup of GLA Saboteur <a name='link__20220924__1281_saboteur_creation_sound'></a>
 **Changes**
 
 - **FIX**: Fixes type of SaboteurVoiceCreate to be consistent with all other VoiceCreate audio events, except Unit Upgrades.
@@ -9969,7 +9969,7 @@ Contains 537 entries with
 **Source:** 1281_saboteur_creation_sound.yaml
 
 ---
-### 2022-09-24 - Fixes wrong death audio setup of GLA Technical <a name='index__511__1282_technical_death_sound'></a>
+### 2022-09-24 - Fixes wrong death audio setup of GLA Technical <a name='link__20220924__1282_technical_death_sound'></a>
 **Changes**
 
 - **FIX**: Fixes limit and priority of TechnicalVoiceDie to be consistent with all other VoiceDie audio events.
@@ -9985,7 +9985,7 @@ Contains 537 entries with
 **Source:** 1282_technical_death_sound.yaml
 
 ---
-### 2022-09-27 - Fixes pmtorch textures <a name='index__512__1306_pmtorch_textures'></a>
+### 2022-09-27 - Fixes pmtorch textures <a name='link__20220927__1306_pmtorch_textures'></a>
 **Changes**
 
 - **FIX**: Fixes pmtorch textures.
@@ -10010,7 +10010,7 @@ Contains 537 entries with
 **Source:** 1306_pmtorch_textures.yaml
 
 ---
-### 2022-10-16 - Decreases LAN Match Countdown from 5 to 3 seconds <a name='index__513__1378_lan_countdown'></a>
+### 2022-10-16 - Decreases LAN Match Countdown from 5 to 3 seconds <a name='link__20221016__1378_lan_countdown'></a>
 **Changes**
 
 - **FIX**: gogogogo
@@ -10026,7 +10026,7 @@ Contains 537 entries with
 **Source:** 1378_lan_countdown.yaml
 
 ---
-### 2022-10-22 - Streamlines drift velocity of prominent smoke and steam particles <a name='index__514__1402_particles_drift_velocity'></a>
+### 2022-10-22 - Streamlines drift velocity of prominent smoke and steam particles <a name='link__20221022__1402_particles_drift_velocity'></a>
 **Changes**
 
 - **FIX**: The drift velocity of prominent smoke and steam particles is now consistent. It drifts into a similar direction like the clouds do. Affects
@@ -10055,7 +10055,7 @@ Contains 537 entries with
 **Source:** 1402_particles_drift_velocity.yaml
 
 ---
-### 2022-11-04 - Fixes missing construction ambient sounds of several structures <a name='index__515__1419_construction_ambient_sound'></a>
+### 2022-11-04 - Fixes missing construction ambient sounds of several structures <a name='link__20221104__1419_construction_ambient_sound'></a>
 **Changes**
 
 - **FIX**: Fixes missing construction ambient sounds of
@@ -10077,7 +10077,7 @@ Contains 537 entries with
 **Source:** 1419_construction_ambient_sound.yaml
 
 ---
-### 2022-11-05 - Adds sounds to infantry units entering and exiting a Barracks for healing <a name='index__516__1426_barracks_healing_enter_sound'></a>
+### 2022-11-05 - Adds sounds to infantry units entering and exiting a Barracks for healing <a name='link__20221105__1426_barracks_healing_enter_sound'></a>
 **Changes**
 
 - **FEATURE**: Adds Barracks enter and exit sound effects in order to provide feedback to the player and standardize the enter and exit feedback with other structures in the game.
@@ -10093,7 +10093,7 @@ Contains 537 entries with
 **Source:** 1426_barracks_healing_enter_sound.yaml
 
 ---
-### 2022-12-01 - Adds new terrain scorches for explosion effects <a name='index__517__1489_explosion_scorches'></a>
+### 2022-12-01 - Adds new terrain scorches for explosion effects <a name='link__20221201__1489_explosion_scorches'></a>
 **Changes**
 
 - **FEATURE**: Adds scorch to Helicopter ground crashes.
@@ -10125,7 +10125,7 @@ Contains 537 entries with
 **Source:** 1489_explosion_scorches.yaml
 
 ---
-### 2022-12-01 - Fixes wrong USA EMP Patriot model during construction and deconstruction <a name='index__518__1492_emp_patriot_sell_model'></a>
+### 2022-12-01 - Fixes wrong USA EMP Patriot model during construction and deconstruction <a name='link__20221201__1492_emp_patriot_sell_model'></a>
 **Changes**
 
 - **FIX**: The USA EMP Patriot now always renders the correct model during construction and deconstruction.
@@ -10141,7 +10141,7 @@ Contains 537 entries with
 **Source:** 1492_emp_patriot_sell_model.yaml
 
 ---
-### 2022-12-04 - Fixes invisible desert shrub bush objects <a name='index__519__1488_invisible_desert_shrub_bushes'></a>
+### 2022-12-04 - Fixes invisible desert shrub bush objects <a name='link__20221204__1488_invisible_desert_shrub_bushes'></a>
 **Changes**
 
 - **FIX**: All desert shrub objects can now be seen on maps when used.
@@ -10172,7 +10172,7 @@ Contains 537 entries with
 **Source:** 1488_invisible_desert_shrub_bushes.yaml
 
 ---
-### 2022-12-04 - Tweaks terrain scorch sizes of explosion effects <a name='index__520__1494_scorch_sizes'></a>
+### 2022-12-04 - Tweaks terrain scorch sizes of explosion effects <a name='link__20221204__1494_scorch_sizes'></a>
 **Changes**
 
 - **TWEAK**: Increases oversized terrain scorches of explosion effects.
@@ -10218,7 +10218,7 @@ Contains 537 entries with
 **Source:** 1494_scorch_sizes.yaml
 
 ---
-### 2022-12-05 - Improves scorch texture quality <a name='index__521__1495_scorch_textures'></a>
+### 2022-12-05 - Improves scorch texture quality <a name='link__20221205__1495_scorch_textures'></a>
 **Changes**
 
 - **FEATURE**: Fixes and enhances exscorch01 texture.
@@ -10240,7 +10240,7 @@ Contains 537 entries with
 **Source:** 1495_scorch_textures.yaml
 
 ---
-### 2022-12-15 - Removes duplicate shockwave effects from aircraft explosions <a name='index__522__1504_duplicate_explosion_shockwave'></a>
+### 2022-12-15 - Removes duplicate shockwave effects from aircraft explosions <a name='link__20221215__1504_duplicate_explosion_shockwave'></a>
 **Changes**
 
 - **FIX**: Removes Buggy Shockwave effect from explosion of Mig Nuke Missile and Helix Nuke Bomb.
@@ -10256,7 +10256,7 @@ Contains 537 entries with
 **Source:** 1504_duplicate_explosion_shockwave.yaml
 
 ---
-### 2023-01-01 - Improves placement view angle of faction base defenses <a name='index__523__1514_defenses_placement_angle'></a>
+### 2023-01-01 - Improves placement view angle of faction base defenses <a name='link__20230101__1514_defenses_placement_angle'></a>
 **Changes**
 
 - **TWEAK**: Streamlines placement view angle of faction base defenses.
@@ -10281,7 +10281,7 @@ Contains 537 entries with
 **Source:** 1514_defenses_placement_angle.yaml
 
 ---
-### 2023-01-06 - Fixes infantry missile particle effects <a name='index__524__1520_missile_particles'></a>
+### 2023-01-06 - Fixes infantry missile particle effects <a name='link__20230106__1520_missile_particles'></a>
 **Changes**
 
 - **FIX**: Fixes missile particles with stuttering trail effects.
@@ -10301,7 +10301,7 @@ Contains 537 entries with
 **Source:** 1520_missile_particles.yaml
 
 ---
-### 2023-01-08 - Fixes excontrail texture <a name='index__525__1531_excontrail_texture'></a>
+### 2023-01-08 - Fixes excontrail texture <a name='link__20230108__1531_excontrail_texture'></a>
 **Changes**
 
 - **FIX**: Fixes the alpha of the contrail effect texture so that the edges would not stretch over the entire trail plane.
@@ -10317,7 +10317,7 @@ Contains 537 entries with
 **Source:** 1531_excontrail_texture.yaml
 
 ---
-### 2023-01-08 - Fixes duplicate terrain scorches on vehicle deaths <a name='index__526__1535_duplicate_scorch_spawn'></a>
+### 2023-01-08 - Fixes duplicate terrain scorches on vehicle deaths <a name='link__20230108__1535_duplicate_scorch_spawn'></a>
 **Changes**
 
 - **FIX**: Vehicles no longer spawn more than one terrain scorch on death.
@@ -10341,7 +10341,7 @@ Contains 537 entries with
 **Source:** 1535_duplicate_scorch_spawn.yaml
 
 ---
-### 2023-01-14 - Fixes wrong border colors of GLA Bomb Truck upgrade command buttons <a name='index__527__1548_bomb_truck_button_border'></a>
+### 2023-01-14 - Fixes wrong border colors of GLA Bomb Truck upgrade command buttons <a name='link__20230114__1548_bomb_truck_button_border'></a>
 **Changes**
 
 - **FIX**: THE GLA Bomb Truck command buttons now use the correct border types.
@@ -10357,7 +10357,7 @@ Contains 537 entries with
 **Source:** 1548_bomb_truck_button_border.yaml
 
 ---
-### 2023-01-14 - Adds missing border colors to USA Battle Plan command buttons <a name='index__528__1549_strategy_center_button_border'></a>
+### 2023-01-14 - Adds missing border colors to USA Battle Plan command buttons <a name='link__20230114__1549_strategy_center_button_border'></a>
 **Changes**
 
 - **FIX**: Adds missing border types to the USA Strategy Center's Battle Plan command buttons.
@@ -10373,7 +10373,7 @@ Contains 537 entries with
 **Source:** 1549_strategy_center_button_border.yaml
 
 ---
-### 2023-01-20 - Changes border color of GLA Worker Fake Structure command button from orange to green <a name='index__529__1571_worker_fake_button_border'></a>
+### 2023-01-20 - Changes border color of GLA Worker Fake Structure command button from orange to green <a name='link__20230120__1571_worker_fake_button_border'></a>
 **Changes**
 
 - **FIX**: The GLA Worker Fake Structure command button is now green to represent an ACTION button. Technically it is an UPGRADE button, but it does not act like an upgrade user facing. Instead it acts like an action button, such as the Machine Gun, Flash Bang weapon toggle of the USA Ranger.
@@ -10389,7 +10389,7 @@ Contains 537 entries with
 **Source:** 1571_worker_fake_button_border.yaml
 
 ---
-### 2023-01-20 - Removes border colors from all Special Power Shortcut command buttons <a name='index__530__1573_special_power_shortcut_button_border'></a>
+### 2023-01-20 - Removes border colors from all Special Power Shortcut command buttons <a name='link__20230120__1573_special_power_shortcut_button_border'></a>
 **Changes**
 
 - **FIX**: All special Power Shortcut command buttons now look pristine without odd border colors.
@@ -10419,7 +10419,7 @@ Contains 537 entries with
 **Source:** 1573_special_power_shortcut_button_border.yaml
 
 ---
-### 2023-01-23 - Adds missing fire sound for building attack of USA Microwave Tank <a name='index__531__1595_microwave_attack_sound'></a>
+### 2023-01-23 - Adds missing fire sound for building attack of USA Microwave Tank <a name='link__20230123__1595_microwave_attack_sound'></a>
 **Changes**
 
 - **FIX**: USA Microwave Tank now emits a weapon beam sound when targeting bunkers for clearance. Originally it emits the same sound when attacking buildings for disabling.
@@ -10435,7 +10435,7 @@ Contains 537 entries with
 **Source:** 1595_microwave_attack_sound.yaml
 
 ---
-### 2023-01-28 - Removes custom placement view angle from vehicles <a name='index__532__1609_custom_placement_angle'></a>
+### 2023-01-28 - Removes custom placement view angle from vehicles <a name='link__20230128__1609_custom_placement_angle'></a>
 **Changes**
 
 - **TWEAK**: Removes custom placement view angle from vehicles. This way, placement view angle is consistent when placing vehicles in World Builder.
@@ -10458,7 +10458,7 @@ Contains 537 entries with
 **Source:** 1609_custom_placement_angle.yaml
 
 ---
-### 2023-01-29 - Sets kill on resting for vehicle wrecks <a name='index__533__1710_wreck_kill_on_resting'></a>
+### 2023-01-29 - Sets kill on resting for vehicle wrecks <a name='link__20230129__1710_wreck_kill_on_resting'></a>
 **Changes**
 
 - **TWEAK**: Sets KillWhenRestingOnGround on all vehicle wrecks where it was originally missing. This means a wreck object is set dead either after its lifetime has expired or when it is resting on ground.
@@ -10474,7 +10474,7 @@ Contains 537 entries with
 **Source:** 1710_wreck_kill_on_resting.yaml
 
 ---
-### 2023-01-29 - Sets consistent lifetimes for vehicle wrecks <a name='index__534__1710_wreck_lifetime'></a>
+### 2023-01-29 - Sets consistent lifetimes for vehicle wrecks <a name='link__20230129__1710_wreck_lifetime'></a>
 **Changes**
 
 - **FIX**: All ground vehicles and helicopters now have consistent life times. User facing this has no tangible effect, however it does affect when exactly wreck objects are pushed into dead state.
@@ -10490,7 +10490,7 @@ Contains 537 entries with
 **Source:** 1710_wreck_lifetime.yaml
 
 ---
-### 2023-02-05 - Removes non-functional Civilian FarmerTruck object <a name='index__535__1634_farmertruck'></a>
+### 2023-02-05 - Removes non-functional Civilian FarmerTruck object <a name='link__20230205__1634_farmertruck'></a>
 **Changes**
 
 - **FIX**: Removes the non-functional Civilian FarmerTruck object from the game. It can no longer be placed in World Builder.
@@ -10506,7 +10506,7 @@ Contains 537 entries with
 **Source:** 1634_farmertruck.yaml
 
 ---
-### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='index__536__1335_pitched_air_weapon_sounds'></a>
+### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='link__20221005__1335_pitched_air_weapon_sounds'></a>
 **Changes**
 
 - **FIX**: Adds slightly pitched sounds to all non-rocket anti air weapons. The default weapons against ground targets use the original sound effects. Affects

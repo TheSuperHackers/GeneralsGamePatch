@@ -40,175 +40,175 @@ Contains 164 entries with
   - TWEAK (22)
 
 ## Index
-1. [2021-08-22 - Fixes lags caused by the USA Patriot assist beam](#index__0__0_patriot_beam_lag)
-2. [2021-08-22 - Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone](#index__1__3_supply_drop_zone_bug)
-3. [2021-08-23 - Fixes issue that permanently reduces the power level of a player](#index__2__7_negative_power_bug)
-4. [2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon](#index__3__75_particlecannon_rangers)
-5. [2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units](#index__4__92_infantry_poison_death_voice)
-6. [2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora](#index__5__145_alpha_aurora_cameo)
-7. [2021-09-03 - Removes retaliation from non-vUSA Avengers](#index__6__157_usa_avenger_retaliation)
-8. [2021-09-03 - Fixes USA Avenger model](#index__7__158_avenger_model)
-9. [2021-09-03 - Removes obsolete Advanced Training icon from USA Pilots](#index__8__160_pilot_advanced_training)
-10. [2021-09-03 - Removes obsolete Chemical Suits icon from USA Pilots](#index__9__160_pilot_chemical_suit)
-11. [2021-09-03 - Fixes slow movement speed of Vet 3 USA Pilot](#index__10__160_pilot_speed)
-12. [2021-09-03 - Fixes issue that prevents to build Drones for different USA vehicles in a group selection](#index__11__166_humvee_drones_build)
-13. [2021-09-03 - Fixes duplicate embark sounds of USA Laser Humvee](#index__12__172_humvee_enter_sounds)
-14. [2021-09-03 - Removes Select All key bindings from USA Spy Drone](#index__13__173_spydrone_select_all_key)
-15. [2021-09-04 - Removes Select All key bindings from USA Spectre Gunship](#index__14__181_spectre_select_all_keys)
-16. [2021-09-04 - Adds missing movement command sounds to USA Sentry Drone](#index__15__188_sentry_drone_move_sound)
-17. [2021-09-04 - Fixes wrong movement sounds of USA Microwave Tank](#index__16__189_microwave_move_sound)
-18. [2021-09-04 - Fixes wrong selection sounds of USA Firebase](#index__17__190_firebase_select_sound)
-19. [2021-09-04 - Adds missing sound to USA Pilot](#index__18__191_pilot_enter_sound)
-20. [2021-09-04 - Fixes some USA Chinooks collecting 100 ms slower than others](#index__19__193_chinook_collection_timing)
-21. [2021-09-04 - Fixes tooltip text of USA Laser Aurora](#index__20__194_laser_aurora_tooltip)
-22. [2021-09-04 - Fixes wrong upgrade icon placements on USA Tomahawk](#index__21__205_tomahawk_cameo)
-23. [2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down](#index__22__254_spectre_housecolor)
-24. [2021-09-09 - Adds missing construction sound effect for USA Sentry Drone](#index__23__256_sentry_drone_construction_sound)
-25. [2021-09-10 - Fixes USA Humvee without TOW missile stopping moving after targeting air unit](#index__24__270_humvee_air_target)
-26. [2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings](#index__25__276_gps_scrambled_infantry_attacking)
-27. [2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings](#index__26__276_gps_scrambled_infantry_capturing)
-28. [2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton](#index__27__277_demo_charge_button_placement)
-29. [2021-09-10 - Fixes USA Avenger turning its chassis when aiming at air units](#index__28__314_avenger_chassis_turn)
-30. [2021-09-11 - Fixes wrong USA Ranger spawn type of Paradrop ability](#index__29__286_paradrop_ranger_type)
-31. [2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon](#index__30__288_swg_particle_cannon_effect_color)
-32. [2021-09-11 - Fixes Fuel Bomb of USA Alpha Aurora detonating before hitting the ground](#index__31__292_alpha_aurora_premature_explosion)
-33. [2021-09-12 - Adds missing hit effects to USA Rangers after Chemical Suits upgrade](#index__32__325_ranger_hit_effects)
-34. [2021-09-12 - Adds missing hit effects to USA Cargo Planes with Countermeasures upgrade](#index__33__326_usa_cargo_plane_hit_effects)
-35. [2021-09-12 - Fixes Airforce General unable to build Stealth Fighters from non-AFG Airfields](#index__34__331_air_general_build_bug)
-36. [2021-09-13 - Moves Supply Lines upgrade icon from USA Supply Center to USA Chinook](#index__35__352_usa_supply_cameo)
-37. [2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret](#index__36__373_laser_turret_clip_size)
-38. [2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets](#index__37__374_laser_turret_air_model_sound)
-39. [2021-09-20 - Fixes wrong button placements of USA Firebase](#index__38__387_firebase_buttons)
-40. [2021-09-22 - Fixes inconsistent Air Guard button placement on USA Raptor](#index__39__402_raptor_guard_button_position)
-41. [2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles](#index__40__403_afg_avenger_armor)
-42. [2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers](#index__41__407_avenger_composite_armor)
-43. [2021-09-25 - Adds kill experience reward to USA Hellfire Drone](#index__42__414_hellfire_drone_xp_reward)
-44. [2021-10-01 - Fixes attackable Fuel Air Bomb](#index__43__441_attackable_fuel_bomb)
-45. [2021-12-24 - Fixes units with attachments blocking scaffold placements](#index__44__630_vehicle_attachment_blocking_build)
-46. [2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang](#index__45__636_stinger_flashbang_damage)
-47. [2022-07-28 - Increases USA Paladin Composite Armor bonus by 100%](#index__46__777_paladin_composite_armor_bonus)
-48. [2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms](#index__47__787_usa_factory_door_times)
-49. [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#index__48__412_tanks_xp_reward)
-50. [2022-08-06 - Makes USA Supply Drop Zone Cargo Planes unattackable](#index__49__836_unattackable_drop_zone_cargo_planes)
-51. [2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber](#index__50__841_afg_carpet_tooltip_text)
-52. [2022-08-06 - Fixes wrong countdown value in tooltip texts of USA Spectre Gunship](#index__51__842_afg_spectre_tooltip_text)
-53. [2022-08-06 - Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade](#index__52__843_countermeasures_tooltip_text)
-54. [2022-08-06 - Fixes misspelled Airforce General name in texts](#index__53__848_misspelled_granger_text)
-55. [2022-08-13 - Fixes missing Carpet Bomber in Grangers Generals Challenge](#index__54__1085_granger_challenge_carpet)
-56. [2022-08-20 - Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image](#index__55__1020_swg_particle_cannon_portrait_image)
-57. [2022-08-20 - Replaces Generic Tank with Crusader Tank on USA War Factory button image](#index__56__1022_usa_factory_button_image)
-58. [2022-08-20 - Adds upgrade voice for USA MOAB](#index__57__1026_moab_upgrade_voice)
-59. [2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages](#index__58__1026_sentry_gun_upgrade_voice)
-60. [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#index__59__938_infantry_muzzle_flash)
-61. [2022-08-27 - Fixes immortal presence of circling USA Aurora wreck](#index__60__1018_dead_aurora_bug)
-62. [2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber](#index__61__953_afg_carpet_pdl)
-63. [2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes](#index__62__1031_usa_ai_powers_planes)
-64. [2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base](#index__63__1078_firebase_ghost_muzzle_flash)
-65. [2022-09-03 - Fixes sharp turn movements of USA B2 Bomber](#index__64__1084_carpet_bomber_turn_rate)
-66. [2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300](#index__65__1141_battle_drone_shroud_range)
-67. [2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400](#index__66__1141_hellfire_drone_shroud_range)
-68. [2022-09-07 - Fixes muzzle particle effects of tanks](#index__67__1149_tank_muzzle_particles)
-69. [2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400](#index__68__1155_burton_sight_range)
-70. [2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee](#index__69__1162_sentry_drone_build_cost)
-71. [2022-09-08 - Increases USA Sentry Drone gun damage by 20%](#index__70__1162_sentry_drone_damage)
-72. [2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone](#index__71__1162_sentry_drone_deployment)
-73. [2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70%](#index__72__1162_sentry_drone_movement)
-74. [2022-09-08 - Increases sight range of USA Sentry Drone by 30%](#index__73__1162_sentry_drone_sight_range)
-75. [2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones](#index__74__1162_sentry_drone_tracks)
-76. [2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20%](#index__75__1162_sentry_drone_upgrade)
-77. [2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet](#index__76__1165_nighthawk_low_fuel_voice)
-78. [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#index__77__1171_particle_cannon_animation_loop)
-79. [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#index__78__1177_afg_firebase_snow_damaged)
-80. [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery.](#index__79__1178_patriot_battery_auto_reload)
-81. [2022-09-10 - Adds blue texture variants for USA Infantry units](#index__80__1179_usa_infantry_textures)
-82. [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#index__81__1189_burton_texture_errors)
-83. [2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead](#index__82__1220_pilot_humvee_passenger)
-84. [2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon](#index__83__1245_atsdislab_snow_textures)
-85. [2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center](#index__84__1246_atstratslab_snow_textures)
-86. [2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield](#index__85__1247_attarmack_attarmack02_snow_textures)
-87. [2022-09-21 - Fixes avambulance textures for USA Ambulance](#index__86__1248_avambulance_textures)
-88. [2022-09-22 - Fixes and improves avavnger textures for USA Avenger](#index__87__1251_avavnger_textures)
-89. [2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory](#index__88__1252_atdiaplate_textures)
-90. [2022-09-22 - Fixes atconvey01 snow textures for USA War Factory](#index__89__1253_atconvey01_snow_textures)
-91. [2022-09-22 - Fixes and improves avcomanche textures for USA Comanche](#index__90__1256_avcomanche_textures)
-92. [2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank](#index__91__1258_avthunderbolt_textures)
-93. [2022-09-23 - Fixes athqslab textures for USA Command Center](#index__92__1263_athqslab_textures)
-94. [2022-09-23 - Fixes atmetal03 snow textures for USA structures](#index__93__1264_atmetal03_snow_textures)
-95. [2022-09-23 - Fixes atpanelroof snow textures for USA structures](#index__94__1266_atpanelroof_textures)
-96. [2022-09-23 - Fixes atpanelroof03 snow textures for USA structures](#index__95__1267_atpanelroof03_snow_textures)
-97. [2022-09-23 - Fixes atprisslab snow textures for USA Prison](#index__96__1268_atprisslab_snow_textures)
-98. [2022-09-23 - Fixes avpaladin textures for USA Paladin Tank](#index__97__1270_avpaladin_textures)
-99. [2022-09-24 - Fixes and improves avraptor textures for USA Raptor](#index__98__1271_avraptor_textures)
-100. [2022-09-24 - Adds missing audio limits to air unit voices](#index__99__1274_air_unit_death_voice_limit)
-101. [2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora](#index__100__1274_raptor_aurora_death_voice)
-102. [2022-09-24 - Fixes atwarfactslab textures for USA War Factory](#index__101__1275_atwarfactslab_textures)
-103. [2022-09-24 - Fixes and improves atventwall01 textures for USA structures](#index__102__1277_atventwall01_textures)
-104. [2022-09-24 - Fixed avpowtruck textures for USA POW Truck](#index__103__1279_avpowtruck_textures)
-105. [2022-09-24 - Fixes atroofparts01 textures for USA structures](#index__104__1280_atroofparts01_textures)
-106. [2022-09-25 - Fixes USA Spectre Gunship audio issues](#index__105__1288_spectre_sound)
-107. [2022-09-25 - Fixes animation issues on damaged USA Spectre Gunship](#index__106__1289_spectre_animation)
-108. [2022-10-05 - Adds slightly pitched sounds for some air weapons](#index__107__1335_pitched_air_weapon_sounds)
-109. [2022-10-15 - Removes superfluous particle effects from USA Supply Center](#index__108__1366_usa_supply_obsolete_particles)
-110. [2022-10-15 - Fixes broken fan animation of USA Strategy Center](#index__109__1367_summer_night_strategy_center_fan_animation)
-111. [2022-10-15 - Removes superfluous particle effects from USA Airfield](#index__110__1369_usa_airfield_obsolete_particles)
-112. [2022-10-15 - Fixes particle effects of USA Power Plant](#index__111__1371_usa_reactor_particles)
-113. [2022-10-15 - Fixes construction fence texture of USA Power Plant](#index__112__1375_snow_night_usa_reactor_fence)
-114. [2022-10-15 - Fixes broken reactor core spin animation of USA Power Plant](#index__113__1376_usa_reactor_core_spin_animation)
-115. [2022-10-16 - Fixes wrong helipad texture of USA Airfield](#index__114__1370_summer_day_damaged_usa_airfield_texture)
-116. [2022-10-16 - Fixes War Factory door animations reset on damage state changes](#index__115__1382_door_animation_reset)
-117. [2022-10-16 - Fixes smoke effect issues on USA War Factory](#index__116__1387_china_factory_smoke_particles)
-118. [2022-10-18 - Decreases USA Supply Drop Zone crate count from 6 to 3](#index__117__1390_drop_zone_crate_count)
-119. [2022-10-19 - Changes crane of USA War Factory to animate on vehicle repair instead of vehicle construction](#index__118__1394_usa_factory_crane)
-120. [2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings](#index__119__1386_buildings_explosion_effects)
-121. [2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes](#index__120__1398_radar_animation_reset)
-122. [2022-10-23 - Fixes abbarracks models for USA Barracks](#index__121__1405_abbarracks_models)
-123. [2022-10-23 - Fixes atbarrslab textures for USA Barracks](#index__122__1406_atbarrslab_textures)
-124. [2022-10-23 - Fixes and improves atdoor textures](#index__123__1407_atdoor_textures)
-125. [2022-11-05 - Fixes and improves atdriveway textures for USA War Factory](#index__124__1427_atdriveway_textures)
-126. [2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory](#index__125__1427_atrepairbay_textures)
-127. [2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory](#index__126__1427_atwarfactslab_textures)
-128. [2022-11-05 - Fixes atventwall02 textures for USA structures](#index__127__1445_atventwall02_textures)
-129. [2022-11-05 - Fixes atventwall03 textures for USA structures](#index__128__1445_atventwall03_textures)
-130. [2022-11-05 - Fixes atventwall04 textures for USA structures](#index__129__1445_atventwall04_textures)
-131. [2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks](#index__130__1413_battle_drone_repair_sound)
-132. [2022-11-06 - Fixes and improves atcemblock02 textures for USA structures](#index__131__1450_atcemblock02_textures)
-133. [2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300](#index__132__1457_strategy_center_detection_range)
-134. [2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600](#index__133__1457_strategy_center_snd_vision_range)
-135. [2022-11-08 - Fixes and improves atcemwall01 textures for USA structures](#index__134__1458_atcemwall01_textures)
-136. [2022-11-08 - Fixes and improves atcemwall02 textures for USA structures](#index__135__1458_atcemwall02_textures)
-137. [2022-11-08 - Fixes and improves atcemwall03 textures for USA structures](#index__136__1458_atcemwall03_textures)
-138. [2022-11-08 - Fixes and improves atcemwall04 textures for USA structures](#index__137__1458_atcemwall04_textures)
-139. [2022-11-08 - Fixes and improves atcemwall05 textures for USA structures](#index__138__1458_atcemwall05_textures)
-140. [2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon](#index__139__1459_atmetal02_textures)
-141. [2022-11-10 - Fixes silver roof textures for USA structures](#index__140__1461_atsilverroof02_textures)
-142. [2022-11-10 - Fixes silver roof textures for USA structures](#index__141__1461_atsilverroof_textures)
-143. [2022-11-16 - Adds small idle movement sway to USA Chinook and Comanche](#index__142__1467_helicopter_idle_sway)
-144. [2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25%](#index__143__1469_battle_drone_upgrade_armor_bonus)
-145. [2022-11-19 - Fixes conveyor belt textures of USA War Factory](#index__144__1474_atconvey02_textures)
-146. [2022-11-25 - Removes final death explosion delay of USA Comanche](#index__145__1481_comanche_final_death_delay)
-147. [2022-11-27 - Adds damage state transition effect to USA A10](#index__146__1487_a10_damage_transition_effect)
-148. [2022-11-30 - Fixes USA Supply Center model issues](#index__147__1491_usa_supply_model)
-149. [2023-01-07 - Fixes USA Strategy Center Gun attack issues](#index__148__1524_strategy_center_gun_attack)
-150. [2023-01-09 - Optimizes USA vehicle drone spawn positions](#index__149__1539_vehicle_drone_spawn_position)
-151. [2023-01-13 - Fixes the evacuation command button art of various vehicles](#index__150__1545_vehicle_evacuation_button_image)
-152. [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#index__151__1554_hold_line_plan_armor_bonus)
-153. [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#index__152__1556_firebase_toxin_armor)
-154. [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#index__153__1559_strategy_center_plan_tooltip_text)
-155. [2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit](#index__154__1581_tomahawk_missile_angle_jump)
-156. [2023-01-28 - Removes bouncing from wreck of USA Comanche](#index__155__1658_comanche_wreck_bouncing)
-157. [2023-01-29 - Decreases fast sink rate of helicopter wrecks](#index__156__1659_chinook_helix_wreck_sink_rate)
-158. [2023-01-29 - Increases slow sink rate of helicopter wrecks](#index__157__1659_comanche_wreck_sink_rate)
-159. [2023-01-29 - Removes random sink delays from all vehicle wrecks](#index__158__1660_random_wreck_sink_delays)
-160. [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#index__159__1711_increase_wreck_destruction_delay)
-161. [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#index__160__1712_decrease_wreck_destruction_delay)
-162. [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#index__161__1618_wreck_spawn_before_death)
-163. [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#index__162__1705_comanche_idle_reload)
-164. [2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction](#index__163__1713_swg_cc_construction_model)
+- [2021-08-22 - Fixes lags caused by the USA Patriot assist beam](#link__20210822__0_patriot_beam_lag)
+- [2021-08-22 - Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone](#link__20210822__3_supply_drop_zone_bug)
+- [2021-08-23 - Fixes issue that permanently reduces the power level of a player](#link__20210823__7_negative_power_bug)
+- [2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon](#link__20210827__75_particlecannon_rangers)
+- [2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units](#link__20210828__92_infantry_poison_death_voice)
+- [2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora](#link__20210902__145_alpha_aurora_cameo)
+- [2021-09-03 - Removes retaliation from non-vUSA Avengers](#link__20210903__157_usa_avenger_retaliation)
+- [2021-09-03 - Fixes USA Avenger model](#link__20210903__158_avenger_model)
+- [2021-09-03 - Removes obsolete Advanced Training icon from USA Pilots](#link__20210903__160_pilot_advanced_training)
+- [2021-09-03 - Removes obsolete Chemical Suits icon from USA Pilots](#link__20210903__160_pilot_chemical_suit)
+- [2021-09-03 - Fixes slow movement speed of Vet 3 USA Pilot](#link__20210903__160_pilot_speed)
+- [2021-09-03 - Fixes issue that prevents to build Drones for different USA vehicles in a group selection](#link__20210903__166_humvee_drones_build)
+- [2021-09-03 - Fixes duplicate embark sounds of USA Laser Humvee](#link__20210903__172_humvee_enter_sounds)
+- [2021-09-03 - Removes Select All key bindings from USA Spy Drone](#link__20210903__173_spydrone_select_all_key)
+- [2021-09-04 - Removes Select All key bindings from USA Spectre Gunship](#link__20210904__181_spectre_select_all_keys)
+- [2021-09-04 - Adds missing movement command sounds to USA Sentry Drone](#link__20210904__188_sentry_drone_move_sound)
+- [2021-09-04 - Fixes wrong movement sounds of USA Microwave Tank](#link__20210904__189_microwave_move_sound)
+- [2021-09-04 - Fixes wrong selection sounds of USA Firebase](#link__20210904__190_firebase_select_sound)
+- [2021-09-04 - Adds missing sound to USA Pilot](#link__20210904__191_pilot_enter_sound)
+- [2021-09-04 - Fixes some USA Chinooks collecting 100 ms slower than others](#link__20210904__193_chinook_collection_timing)
+- [2021-09-04 - Fixes tooltip text of USA Laser Aurora](#link__20210904__194_laser_aurora_tooltip)
+- [2021-09-04 - Fixes wrong upgrade icon placements on USA Tomahawk](#link__20210904__205_tomahawk_cameo)
+- [2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down](#link__20210907__254_spectre_housecolor)
+- [2021-09-09 - Adds missing construction sound effect for USA Sentry Drone](#link__20210909__256_sentry_drone_construction_sound)
+- [2021-09-10 - Fixes USA Humvee without TOW missile stopping moving after targeting air unit](#link__20210910__270_humvee_air_target)
+- [2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings](#link__20210910__276_gps_scrambled_infantry_attacking)
+- [2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings](#link__20210910__276_gps_scrambled_infantry_capturing)
+- [2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton](#link__20210910__277_demo_charge_button_placement)
+- [2021-09-10 - Fixes USA Avenger turning its chassis when aiming at air units](#link__20210910__314_avenger_chassis_turn)
+- [2021-09-11 - Fixes wrong USA Ranger spawn type of Paradrop ability](#link__20210911__286_paradrop_ranger_type)
+- [2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon](#link__20210911__288_swg_particle_cannon_effect_color)
+- [2021-09-11 - Fixes Fuel Bomb of USA Alpha Aurora detonating before hitting the ground](#link__20210911__292_alpha_aurora_premature_explosion)
+- [2021-09-12 - Adds missing hit effects to USA Rangers after Chemical Suits upgrade](#link__20210912__325_ranger_hit_effects)
+- [2021-09-12 - Adds missing hit effects to USA Cargo Planes with Countermeasures upgrade](#link__20210912__326_usa_cargo_plane_hit_effects)
+- [2021-09-12 - Fixes Airforce General unable to build Stealth Fighters from non-AFG Airfields](#link__20210912__331_air_general_build_bug)
+- [2021-09-13 - Moves Supply Lines upgrade icon from USA Supply Center to USA Chinook](#link__20210913__352_usa_supply_cameo)
+- [2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret](#link__20210913__373_laser_turret_clip_size)
+- [2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets](#link__20210913__374_laser_turret_air_model_sound)
+- [2021-09-20 - Fixes wrong button placements of USA Firebase](#link__20210920__387_firebase_buttons)
+- [2021-09-22 - Fixes inconsistent Air Guard button placement on USA Raptor](#link__20210922__402_raptor_guard_button_position)
+- [2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles](#link__20210922__403_afg_avenger_armor)
+- [2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers](#link__20210923__407_avenger_composite_armor)
+- [2021-09-25 - Adds kill experience reward to USA Hellfire Drone](#link__20210925__414_hellfire_drone_xp_reward)
+- [2021-10-01 - Fixes attackable Fuel Air Bomb](#link__20211001__441_attackable_fuel_bomb)
+- [2021-12-24 - Fixes units with attachments blocking scaffold placements](#link__20211224__630_vehicle_attachment_blocking_build)
+- [2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang](#link__20220101__636_stinger_flashbang_damage)
+- [2022-07-28 - Increases USA Paladin Composite Armor bonus by 100%](#link__20220728__777_paladin_composite_armor_bonus)
+- [2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms](#link__20220730__787_usa_factory_door_times)
+- [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
+- [2022-08-06 - Makes USA Supply Drop Zone Cargo Planes unattackable](#link__20220806__836_unattackable_drop_zone_cargo_planes)
+- [2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber](#link__20220806__841_afg_carpet_tooltip_text)
+- [2022-08-06 - Fixes wrong countdown value in tooltip texts of USA Spectre Gunship](#link__20220806__842_afg_spectre_tooltip_text)
+- [2022-08-06 - Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade](#link__20220806__843_countermeasures_tooltip_text)
+- [2022-08-06 - Fixes misspelled Airforce General name in texts](#link__20220806__848_misspelled_granger_text)
+- [2022-08-13 - Fixes missing Carpet Bomber in Grangers Generals Challenge](#link__20220813__1085_granger_challenge_carpet)
+- [2022-08-20 - Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image](#link__20220820__1020_swg_particle_cannon_portrait_image)
+- [2022-08-20 - Replaces Generic Tank with Crusader Tank on USA War Factory button image](#link__20220820__1022_usa_factory_button_image)
+- [2022-08-20 - Adds upgrade voice for USA MOAB](#link__20220820__1026_moab_upgrade_voice)
+- [2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages](#link__20220820__1026_sentry_gun_upgrade_voice)
+- [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#link__20220820__938_infantry_muzzle_flash)
+- [2022-08-27 - Fixes immortal presence of circling USA Aurora wreck](#link__20220827__1018_dead_aurora_bug)
+- [2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber](#link__20220827__953_afg_carpet_pdl)
+- [2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes](#link__20220829__1031_usa_ai_powers_planes)
+- [2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base](#link__20220902__1078_firebase_ghost_muzzle_flash)
+- [2022-09-03 - Fixes sharp turn movements of USA B2 Bomber](#link__20220903__1084_carpet_bomber_turn_rate)
+- [2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300](#link__20220906__1141_battle_drone_shroud_range)
+- [2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400](#link__20220906__1141_hellfire_drone_shroud_range)
+- [2022-09-07 - Fixes muzzle particle effects of tanks](#link__20220907__1149_tank_muzzle_particles)
+- [2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400](#link__20220907__1155_burton_sight_range)
+- [2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee](#link__20220908__1162_sentry_drone_build_cost)
+- [2022-09-08 - Increases USA Sentry Drone gun damage by 20%](#link__20220908__1162_sentry_drone_damage)
+- [2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone](#link__20220908__1162_sentry_drone_deployment)
+- [2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70%](#link__20220908__1162_sentry_drone_movement)
+- [2022-09-08 - Increases sight range of USA Sentry Drone by 30%](#link__20220908__1162_sentry_drone_sight_range)
+- [2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones](#link__20220908__1162_sentry_drone_tracks)
+- [2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20%](#link__20220908__1162_sentry_drone_upgrade)
+- [2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet](#link__20220908__1165_nighthawk_low_fuel_voice)
+- [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#link__20220909__1171_particle_cannon_animation_loop)
+- [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#link__20220910__1177_afg_firebase_snow_damaged)
+- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery.](#link__20220910__1178_patriot_battery_auto_reload)
+- [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
+- [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#link__20220913__1189_burton_texture_errors)
+- [2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead](#link__20220918__1220_pilot_humvee_passenger)
+- [2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon](#link__20220921__1245_atsdislab_snow_textures)
+- [2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center](#link__20220921__1246_atstratslab_snow_textures)
+- [2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield](#link__20220921__1247_attarmack_attarmack02_snow_textures)
+- [2022-09-21 - Fixes avambulance textures for USA Ambulance](#link__20220921__1248_avambulance_textures)
+- [2022-09-22 - Fixes and improves avavnger textures for USA Avenger](#link__20220922__1251_avavnger_textures)
+- [2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory](#link__20220922__1252_atdiaplate_textures)
+- [2022-09-22 - Fixes atconvey01 snow textures for USA War Factory](#link__20220922__1253_atconvey01_snow_textures)
+- [2022-09-22 - Fixes and improves avcomanche textures for USA Comanche](#link__20220922__1256_avcomanche_textures)
+- [2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank](#link__20220923__1258_avthunderbolt_textures)
+- [2022-09-23 - Fixes athqslab textures for USA Command Center](#link__20220923__1263_athqslab_textures)
+- [2022-09-23 - Fixes atmetal03 snow textures for USA structures](#link__20220923__1264_atmetal03_snow_textures)
+- [2022-09-23 - Fixes atpanelroof snow textures for USA structures](#link__20220923__1266_atpanelroof_textures)
+- [2022-09-23 - Fixes atpanelroof03 snow textures for USA structures](#link__20220923__1267_atpanelroof03_snow_textures)
+- [2022-09-23 - Fixes atprisslab snow textures for USA Prison](#link__20220923__1268_atprisslab_snow_textures)
+- [2022-09-23 - Fixes avpaladin textures for USA Paladin Tank](#link__20220923__1270_avpaladin_textures)
+- [2022-09-24 - Fixes and improves avraptor textures for USA Raptor](#link__20220924__1271_avraptor_textures)
+- [2022-09-24 - Adds missing audio limits to air unit voices](#link__20220924__1274_air_unit_death_voice_limit)
+- [2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora](#link__20220924__1274_raptor_aurora_death_voice)
+- [2022-09-24 - Fixes atwarfactslab textures for USA War Factory](#link__20220924__1275_atwarfactslab_textures)
+- [2022-09-24 - Fixes and improves atventwall01 textures for USA structures](#link__20220924__1277_atventwall01_textures)
+- [2022-09-24 - Fixed avpowtruck textures for USA POW Truck](#link__20220924__1279_avpowtruck_textures)
+- [2022-09-24 - Fixes atroofparts01 textures for USA structures](#link__20220924__1280_atroofparts01_textures)
+- [2022-09-25 - Fixes USA Spectre Gunship audio issues](#link__20220925__1288_spectre_sound)
+- [2022-09-25 - Fixes animation issues on damaged USA Spectre Gunship](#link__20220925__1289_spectre_animation)
+- [2022-10-05 - Adds slightly pitched sounds for some air weapons](#link__20221005__1335_pitched_air_weapon_sounds)
+- [2022-10-15 - Removes superfluous particle effects from USA Supply Center](#link__20221015__1366_usa_supply_obsolete_particles)
+- [2022-10-15 - Fixes broken fan animation of USA Strategy Center](#link__20221015__1367_summer_night_strategy_center_fan_animation)
+- [2022-10-15 - Removes superfluous particle effects from USA Airfield](#link__20221015__1369_usa_airfield_obsolete_particles)
+- [2022-10-15 - Fixes particle effects of USA Power Plant](#link__20221015__1371_usa_reactor_particles)
+- [2022-10-15 - Fixes construction fence texture of USA Power Plant](#link__20221015__1375_snow_night_usa_reactor_fence)
+- [2022-10-15 - Fixes broken reactor core spin animation of USA Power Plant](#link__20221015__1376_usa_reactor_core_spin_animation)
+- [2022-10-16 - Fixes wrong helipad texture of USA Airfield](#link__20221016__1370_summer_day_damaged_usa_airfield_texture)
+- [2022-10-16 - Fixes War Factory door animations reset on damage state changes](#link__20221016__1382_door_animation_reset)
+- [2022-10-16 - Fixes smoke effect issues on USA War Factory](#link__20221016__1387_china_factory_smoke_particles)
+- [2022-10-18 - Decreases USA Supply Drop Zone crate count from 6 to 3](#link__20221018__1390_drop_zone_crate_count)
+- [2022-10-19 - Changes crane of USA War Factory to animate on vehicle repair instead of vehicle construction](#link__20221019__1394_usa_factory_crane)
+- [2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings](#link__20221020__1386_buildings_explosion_effects)
+- [2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes](#link__20221020__1398_radar_animation_reset)
+- [2022-10-23 - Fixes abbarracks models for USA Barracks](#link__20221023__1405_abbarracks_models)
+- [2022-10-23 - Fixes atbarrslab textures for USA Barracks](#link__20221023__1406_atbarrslab_textures)
+- [2022-10-23 - Fixes and improves atdoor textures](#link__20221023__1407_atdoor_textures)
+- [2022-11-05 - Fixes and improves atdriveway textures for USA War Factory](#link__20221105__1427_atdriveway_textures)
+- [2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory](#link__20221105__1427_atrepairbay_textures)
+- [2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory](#link__20221105__1427_atwarfactslab_textures)
+- [2022-11-05 - Fixes atventwall02 textures for USA structures](#link__20221105__1445_atventwall02_textures)
+- [2022-11-05 - Fixes atventwall03 textures for USA structures](#link__20221105__1445_atventwall03_textures)
+- [2022-11-05 - Fixes atventwall04 textures for USA structures](#link__20221105__1445_atventwall04_textures)
+- [2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks](#link__20221106__1413_battle_drone_repair_sound)
+- [2022-11-06 - Fixes and improves atcemblock02 textures for USA structures](#link__20221106__1450_atcemblock02_textures)
+- [2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300](#link__20221108__1457_strategy_center_detection_range)
+- [2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600](#link__20221108__1457_strategy_center_snd_vision_range)
+- [2022-11-08 - Fixes and improves atcemwall01 textures for USA structures](#link__20221108__1458_atcemwall01_textures)
+- [2022-11-08 - Fixes and improves atcemwall02 textures for USA structures](#link__20221108__1458_atcemwall02_textures)
+- [2022-11-08 - Fixes and improves atcemwall03 textures for USA structures](#link__20221108__1458_atcemwall03_textures)
+- [2022-11-08 - Fixes and improves atcemwall04 textures for USA structures](#link__20221108__1458_atcemwall04_textures)
+- [2022-11-08 - Fixes and improves atcemwall05 textures for USA structures](#link__20221108__1458_atcemwall05_textures)
+- [2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon](#link__20221108__1459_atmetal02_textures)
+- [2022-11-10 - Fixes silver roof textures for USA structures](#link__20221110__1461_atsilverroof02_textures)
+- [2022-11-10 - Fixes silver roof textures for USA structures](#link__20221110__1461_atsilverroof_textures)
+- [2022-11-16 - Adds small idle movement sway to USA Chinook and Comanche](#link__20221116__1467_helicopter_idle_sway)
+- [2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25%](#link__20221116__1469_battle_drone_upgrade_armor_bonus)
+- [2022-11-19 - Fixes conveyor belt textures of USA War Factory](#link__20221119__1474_atconvey02_textures)
+- [2022-11-25 - Removes final death explosion delay of USA Comanche](#link__20221125__1481_comanche_final_death_delay)
+- [2022-11-27 - Adds damage state transition effect to USA A10](#link__20221127__1487_a10_damage_transition_effect)
+- [2022-11-30 - Fixes USA Supply Center model issues](#link__20221130__1491_usa_supply_model)
+- [2023-01-07 - Fixes USA Strategy Center Gun attack issues](#link__20230107__1524_strategy_center_gun_attack)
+- [2023-01-09 - Optimizes USA vehicle drone spawn positions](#link__20230109__1539_vehicle_drone_spawn_position)
+- [2023-01-13 - Fixes the evacuation command button art of various vehicles](#link__20230113__1545_vehicle_evacuation_button_image)
+- [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
+- [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
+- [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
+- [2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit](#link__20230121__1581_tomahawk_missile_angle_jump)
+- [2023-01-28 - Removes bouncing from wreck of USA Comanche](#link__20230128__1658_comanche_wreck_bouncing)
+- [2023-01-29 - Decreases fast sink rate of helicopter wrecks](#link__20230129__1659_chinook_helix_wreck_sink_rate)
+- [2023-01-29 - Increases slow sink rate of helicopter wrecks](#link__20230129__1659_comanche_wreck_sink_rate)
+- [2023-01-29 - Removes random sink delays from all vehicle wrecks](#link__20230129__1660_random_wreck_sink_delays)
+- [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#link__20230129__1711_increase_wreck_destruction_delay)
+- [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
+- [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
+- [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
+- [2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction](#link__20230215__1713_swg_cc_construction_model)
 
 
 
 ---
-### 2021-08-22 - Fixes lags caused by the USA Patriot assist beam <a name='index__0__0_patriot_beam_lag'></a>
+### 2021-08-22 - Fixes lags caused by the USA Patriot assist beam <a name='link__20210822__0_patriot_beam_lag'></a>
 **Changes**
 
 - **OPTIMIZATION**: Decreases the lag of USA Patriot missile assist effect by around 60%.
@@ -220,7 +220,7 @@ Contains 164 entries with
 **Source:** 0_patriot_beam_lag.yaml
 
 ---
-### 2021-08-22 - Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone <a name='index__1__3_supply_drop_zone_bug'></a>
+### 2021-08-22 - Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone <a name='link__20210822__3_supply_drop_zone_bug'></a>
 **Changes**
 
 - **FIX**: The USA Supply Drop Zone, while being built, is now immune to the Microwave Tank disable beam. When completed, it is possible to disable them as usual.
@@ -236,7 +236,7 @@ Contains 164 entries with
 **Source:** 3_supply_drop_zone_bug.yaml
 
 ---
-### 2021-08-23 - Fixes issue that permanently reduces the power level of a player <a name='index__2__7_negative_power_bug'></a>
+### 2021-08-23 - Fixes issue that permanently reduces the power level of a player <a name='link__20210823__7_negative_power_bug'></a>
 **Changes**
 
 - **FIX**: USA and China Power Plants, if disabled by a Microwave Tank, will suppress their power production until the Microwave Tank stops. However, if they are disabled while being built, then they will lose power that they never produced. Once construction is complete, the power plant will produce net zero power, upgrades and overcharge notwithstanding. And if that structure or any other Power Plant is sold, the player will have permanent negative power. With this fix it is no longer possible to disable Power Plants while they are being built.
@@ -254,7 +254,7 @@ Contains 164 entries with
 **Source:** 7_negative_power_bug.yaml
 
 ---
-### 2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon <a name='index__3__75_particlecannon_rangers'></a>
+### 2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon <a name='link__20210827__75_particlecannon_rangers'></a>
 **Changes**
 
 - **FIX**: All Particle Cannons now spawn the correct faction Ranger types.
@@ -270,7 +270,7 @@ Contains 164 entries with
 **Source:** 75_particlecannon_rangers.yaml
 
 ---
-### 2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units <a name='index__4__92_infantry_poison_death_voice'></a>
+### 2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units <a name='link__20210828__92_infantry_poison_death_voice'></a>
 **Changes**
 
 - **FIX**: USA and China infantry units no longer use the GLA death scream when poisoned with Anthrax Gamma (pink puddles). Instead they use the respective USA or China death scream.
@@ -286,7 +286,7 @@ Contains 164 entries with
 **Source:** 92_infantry_poison_death_voice.yaml
 
 ---
-### 2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora <a name='index__5__145_alpha_aurora_cameo'></a>
+### 2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora <a name='link__20210902__145_alpha_aurora_cameo'></a>
 **Changes**
 
 - **FIX**: Fixes the wrong portrait image of the USA Alpha Aurora.
@@ -302,7 +302,7 @@ Contains 164 entries with
 **Source:** 145_alpha_aurora_cameo.yaml
 
 ---
-### 2021-09-03 - Removes retaliation from non-vUSA Avengers <a name='index__6__157_usa_avenger_retaliation'></a>
+### 2021-09-03 - Removes retaliation from non-vUSA Avengers <a name='link__20210903__157_usa_avenger_retaliation'></a>
 **Changes**
 
 - **FIX**: Non-vUSA Avengers now no longer retaliate with their blue target laser. This way it no longer drives into dangerous situations on its own.
@@ -318,7 +318,7 @@ Contains 164 entries with
 **Source:** 157_usa_avenger_retaliation.yaml
 
 ---
-### 2021-09-03 - Fixes USA Avenger model <a name='index__7__158_avenger_model'></a>
+### 2021-09-03 - Fixes USA Avenger model <a name='link__20210903__158_avenger_model'></a>
 **Changes**
 
 - **FIX**: Removes a small piece of misplaced geometry from the wheels.
@@ -334,7 +334,7 @@ Contains 164 entries with
 **Source:** 158_avenger_model.yaml
 
 ---
-### 2021-09-03 - Removes obsolete Advanced Training icon from USA Pilots <a name='index__8__160_pilot_advanced_training'></a>
+### 2021-09-03 - Removes obsolete Advanced Training icon from USA Pilots <a name='link__20210903__160_pilot_advanced_training'></a>
 **Changes**
 
 - **FIX**: The USA Pilot no longer shows an icon for Advanced Training.
@@ -350,7 +350,7 @@ Contains 164 entries with
 **Source:** 160_pilot_advanced_training.yaml
 
 ---
-### 2021-09-03 - Removes obsolete Chemical Suits icon from USA Pilots <a name='index__9__160_pilot_chemical_suit'></a>
+### 2021-09-03 - Removes obsolete Chemical Suits icon from USA Pilots <a name='link__20210903__160_pilot_chemical_suit'></a>
 **Changes**
 
 - **FIX**: The USA Pilot no longer shows an icon for Chemical Suits.
@@ -366,7 +366,7 @@ Contains 164 entries with
 **Source:** 160_pilot_chemical_suit.yaml
 
 ---
-### 2021-09-03 - Fixes slow movement speed of Vet 3 USA Pilot <a name='index__10__160_pilot_speed'></a>
+### 2021-09-03 - Fixes slow movement speed of Vet 3 USA Pilot <a name='link__20210903__160_pilot_speed'></a>
 **Changes**
 
 - **FIX**: The heroic USA Pilot no longer walks slower than usual.
@@ -382,7 +382,7 @@ Contains 164 entries with
 **Source:** 160_pilot_speed.yaml
 
 ---
-### 2021-09-03 - Fixes issue that prevents to build Drones for different USA vehicles in a group selection <a name='index__11__166_humvee_drones_build'></a>
+### 2021-09-03 - Fixes issue that prevents to build Drones for different USA vehicles in a group selection <a name='link__20210903__166_humvee_drones_build'></a>
 **Changes**
 
 - **FIX**: The Drone upgrade buttons for USA vehicles of the Super Weapon General, Laser General and the Airforce General are now at the same positions. This allows the player to upgrade Drones for all vehicles at once when a group of different vehicles is selected.
@@ -398,7 +398,7 @@ Contains 164 entries with
 **Source:** 166_humvee_drones_build.yaml
 
 ---
-### 2021-09-03 - Fixes duplicate embark sounds of USA Laser Humvee <a name='index__12__172_humvee_enter_sounds'></a>
+### 2021-09-03 - Fixes duplicate embark sounds of USA Laser Humvee <a name='link__20210903__172_humvee_enter_sounds'></a>
 **Changes**
 
 - **FIX**: The Laser General's Humvee no longer uses the Humvee entering and leaving sound effects and the generic buildings entering and leaving sound effect at once.
@@ -414,7 +414,7 @@ Contains 164 entries with
 **Source:** 172_humvee_enter_sounds.yaml
 
 ---
-### 2021-09-03 - Removes Select All key bindings from USA Spy Drone <a name='index__13__173_spydrone_select_all_key'></a>
+### 2021-09-03 - Removes Select All key bindings from USA Spy Drone <a name='link__20210903__173_spydrone_select_all_key'></a>
 **Changes**
 
 - **FIX**: The USA Spy Drone can no longer be selected by using the Select Aircraft (W) and Select All (Q) keys.
@@ -430,7 +430,7 @@ Contains 164 entries with
 **Source:** 173_spydrone_select_all_key.yaml
 
 ---
-### 2021-09-04 - Removes Select All key bindings from USA Spectre Gunship <a name='index__14__181_spectre_select_all_keys'></a>
+### 2021-09-04 - Removes Select All key bindings from USA Spectre Gunship <a name='link__20210904__181_spectre_select_all_keys'></a>
 **Changes**
 
 - **FIX**: The USA Spectre Gunship can no longer be selected by using the Select Aircraft (W) and Select All (Q) keys.
@@ -446,7 +446,7 @@ Contains 164 entries with
 **Source:** 181_spectre_select_all_keys.yaml
 
 ---
-### 2021-09-04 - Adds missing movement command sounds to USA Sentry Drone <a name='index__15__188_sentry_drone_move_sound'></a>
+### 2021-09-04 - Adds missing movement command sounds to USA Sentry Drone <a name='link__20210904__188_sentry_drone_move_sound'></a>
 **Changes**
 
 - **FIX**: The Airforce, Super Weapon, Laser and Boss General's Sentry Drones now uses the Move Start sounds of the regular USA Sentry Drone
@@ -463,7 +463,7 @@ Contains 164 entries with
 **Source:** 188_sentry_drone_move_sound.yaml
 
 ---
-### 2021-09-04 - Fixes wrong movement sounds of USA Microwave Tank <a name='index__16__189_microwave_move_sound'></a>
+### 2021-09-04 - Fixes wrong movement sounds of USA Microwave Tank <a name='link__20210904__189_microwave_move_sound'></a>
 **Changes**
 
 - **FIX**: The Airforce, Super Weapon, and Laser General's Microwave tanks no longer use the Humvee's Move Start sounds, and instead, they use the move sounds from the regular USA Microwave Tank.
@@ -479,7 +479,7 @@ Contains 164 entries with
 **Source:** 189_microwave_move_sound.yaml
 
 ---
-### 2021-09-04 - Fixes wrong selection sounds of USA Firebase <a name='index__17__190_firebase_select_sound'></a>
+### 2021-09-04 - Fixes wrong selection sounds of USA Firebase <a name='link__20210904__190_firebase_select_sound'></a>
 **Changes**
 
 - **FIX**: The Airforce, Super Weapon and Laser General's Firebases now use their unique sound effect of the regular USA Firebase, instead of the sound effect of the Patriot Battery.
@@ -495,7 +495,7 @@ Contains 164 entries with
 **Source:** 190_firebase_select_sound.yaml
 
 ---
-### 2021-09-04 - Adds missing sound to USA Pilot <a name='index__18__191_pilot_enter_sound'></a>
+### 2021-09-04 - Adds missing sound to USA Pilot <a name='link__20210904__191_pilot_enter_sound'></a>
 **Changes**
 
 - **FIX**: The Airforce, Super Weapon and Laser General's Pilots now have voice lines for entering buildings.
@@ -511,7 +511,7 @@ Contains 164 entries with
 **Source:** 191_pilot_enter_sound.yaml
 
 ---
-### 2021-09-04 - Fixes some USA Chinooks collecting 100 ms slower than others <a name='index__19__193_chinook_collection_timing'></a>
+### 2021-09-04 - Fixes some USA Chinooks collecting 100 ms slower than others <a name='link__20210904__193_chinook_collection_timing'></a>
 **Changes**
 
 - **FIX**: The Super Weapon and Laser General's Chinook, as well as the Combat Chinook, now collect and drop a supply load in the expected time, without any additional delay.
@@ -527,7 +527,7 @@ Contains 164 entries with
 **Source:** 193_chinook_collection_timing.yaml
 
 ---
-### 2021-09-04 - Fixes tooltip text of USA Laser Aurora <a name='index__20__194_laser_aurora_tooltip'></a>
+### 2021-09-04 - Fixes tooltip text of USA Laser Aurora <a name='link__20210904__194_laser_aurora_tooltip'></a>
 **Changes**
 
 - **FIX**: The Laser General's Aurora now uses the generic Aurora tooltip instead of the tooltip of the Microwave tank.
@@ -543,7 +543,7 @@ Contains 164 entries with
 **Source:** 194_laser_aurora_tooltip.yaml
 
 ---
-### 2021-09-04 - Fixes wrong upgrade icon placements on USA Tomahawk <a name='index__21__205_tomahawk_cameo'></a>
+### 2021-09-04 - Fixes wrong upgrade icon placements on USA Tomahawk <a name='link__20210904__205_tomahawk_cameo'></a>
 **Changes**
 
 - **FIX**: All USA Tomahawk Launchers now show the upgrade icons for Scout Drone and Battle Drone in the correct positions, like any other USA vehicle.
@@ -560,7 +560,7 @@ Contains 164 entries with
 **Source:** 205_tomahawk_cameo.yaml
 
 ---
-### 2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down <a name='index__22__254_spectre_housecolor'></a>
+### 2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down <a name='link__20210907__254_spectre_housecolor'></a>
 **Changes**
 
 - **FIX**: The house color of the USA Spectre Gunship now remains when shot down.
@@ -576,7 +576,7 @@ Contains 164 entries with
 **Source:** 254_spectre_housecolor.yaml
 
 ---
-### 2021-09-09 - Adds missing construction sound effect for USA Sentry Drone <a name='index__23__256_sentry_drone_construction_sound'></a>
+### 2021-09-09 - Adds missing construction sound effect for USA Sentry Drone <a name='link__20210909__256_sentry_drone_construction_sound'></a>
 **Changes**
 
 - **FIX**: Beep beep beep boop.
@@ -592,7 +592,7 @@ Contains 164 entries with
 **Source:** 256_sentry_drone_construction_sound.yaml
 
 ---
-### 2021-09-10 - Fixes USA Humvee without TOW missile stopping moving after targeting air unit <a name='index__24__270_humvee_air_target'></a>
+### 2021-09-10 - Fixes USA Humvee without TOW missile stopping moving after targeting air unit <a name='link__20210910__270_humvee_air_target'></a>
 **Changes**
 
 - **FIX**: The USA Humvee no longer stops moving when attack moving into a group of units with airborne targets, such as other Humvees with Scout Drones.
@@ -608,7 +608,7 @@ Contains 164 entries with
 **Source:** 270_humvee_air_target.yaml
 
 ---
-### 2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings <a name='index__25__276_gps_scrambled_infantry_attacking'></a>
+### 2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings <a name='link__20210910__276_gps_scrambled_infantry_attacking'></a>
 **Changes**
 
 - **FIX**: All stealthed China Hackers are now revealed when hacking buildings.
@@ -624,7 +624,7 @@ Contains 164 entries with
 **Source:** 276_gps_scrambled_infantry_attacking.yaml
 
 ---
-### 2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings <a name='index__26__276_gps_scrambled_infantry_capturing'></a>
+### 2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings <a name='link__20210910__276_gps_scrambled_infantry_capturing'></a>
 **Changes**
 
 - **FIX**: Stealthed USA Rangers, China Red Guards and Minigunners are now revealed when capturing buildings. This behaviour is consistent with GLA Rebels.
@@ -640,7 +640,7 @@ Contains 164 entries with
 **Source:** 276_gps_scrambled_infantry_capturing.yaml
 
 ---
-### 2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton <a name='index__27__277_demo_charge_button_placement'></a>
+### 2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton <a name='link__20210910__277_demo_charge_button_placement'></a>
 **Changes**
 
 - **FIX**: Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton.
@@ -656,7 +656,7 @@ Contains 164 entries with
 **Source:** 277_demo_charge_button_placement.yaml
 
 ---
-### 2021-09-10 - Fixes USA Avenger turning its chassis when aiming at air units <a name='index__28__314_avenger_chassis_turn'></a>
+### 2021-09-10 - Fixes USA Avenger turning its chassis when aiming at air units <a name='link__20210910__314_avenger_chassis_turn'></a>
 **Changes**
 
 - **FIX**: The USA Avenger no longer turns its chassis to the targeted air unit. Only the anti-air laser turret will aim towards the air unit, while the USA Avenger either stays as is or aims with the blue laser marker at ground targets.
@@ -672,7 +672,7 @@ Contains 164 entries with
 **Source:** 314_avenger_chassis_turn.yaml
 
 ---
-### 2021-09-11 - Fixes wrong USA Ranger spawn type of Paradrop ability <a name='index__29__286_paradrop_ranger_type'></a>
+### 2021-09-11 - Fixes wrong USA Ranger spawn type of Paradrop ability <a name='link__20210911__286_paradrop_ranger_type'></a>
 **Changes**
 
 - **FIX**: The USA Paradrop ability now correctly spawns the corresponding Ranger type for each USA sub faction, instead of always spawning the Rangers of the normal USA faction. This way they can be selected by double clicking when mixed with built Rangers from the Barracks or Rangers spawned by destroyed buildings.
@@ -688,7 +688,7 @@ Contains 164 entries with
 **Source:** 286_paradrop_ranger_type.yaml
 
 ---
-### 2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon <a name='index__30__288_swg_particle_cannon_effect_color'></a>
+### 2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon <a name='link__20210911__288_swg_particle_cannon_effect_color'></a>
 **Changes**
 
 - **FIX**: The Super Weapon General's Particle Cannon no longer has blue colored effects mixed in with the pink effects when ready to fire and when getting destroyed.
@@ -704,7 +704,7 @@ Contains 164 entries with
 **Source:** 288_swg_particle_cannon_effect_color.yaml
 
 ---
-### 2021-09-11 - Fixes Fuel Bomb of USA Alpha Aurora detonating before hitting the ground <a name='index__31__292_alpha_aurora_premature_explosion'></a>
+### 2021-09-11 - Fixes Fuel Bomb of USA Alpha Aurora detonating before hitting the ground <a name='link__20210911__292_alpha_aurora_premature_explosion'></a>
 **Changes**
 
 - **FIX**: The Aurora Alpha secondary fuel air explosion is now created where the bomb actually hits, instead of where it first collides with a building.
@@ -720,7 +720,7 @@ Contains 164 entries with
 **Source:** 292_alpha_aurora_premature_explosion.yaml
 
 ---
-### 2021-09-12 - Adds missing hit effects to USA Rangers after Chemical Suits upgrade <a name='index__32__325_ranger_hit_effects'></a>
+### 2021-09-12 - Adds missing hit effects to USA Rangers after Chemical Suits upgrade <a name='link__20210912__325_ranger_hit_effects'></a>
 **Changes**
 
 - **FIX**: After upgrading the Ranger with Chemical Suits, they now display hit effects when damaged.
@@ -736,7 +736,7 @@ Contains 164 entries with
 **Source:** 325_ranger_hit_effects.yaml
 
 ---
-### 2021-09-12 - Adds missing hit effects to USA Cargo Planes with Countermeasures upgrade <a name='index__33__326_usa_cargo_plane_hit_effects'></a>
+### 2021-09-12 - Adds missing hit effects to USA Cargo Planes with Countermeasures upgrade <a name='link__20210912__326_usa_cargo_plane_hit_effects'></a>
 **Changes**
 
 - **FIX**: After upgrading Countermeasures, the USA Cargo planes now show hit effects when damaged.
@@ -752,7 +752,7 @@ Contains 164 entries with
 **Source:** 326_usa_cargo_plane_hit_effects.yaml
 
 ---
-### 2021-09-12 - Fixes Airforce General unable to build Stealth Fighters from non-AFG Airfields <a name='index__34__331_air_general_build_bug'></a>
+### 2021-09-12 - Fixes Airforce General unable to build Stealth Fighters from non-AFG Airfields <a name='link__20210912__331_air_general_build_bug'></a>
 **Changes**
 
 - **FIX**: The Airforce General can now build Stealth Fighters in non-AFG Airfields.
@@ -768,7 +768,7 @@ Contains 164 entries with
 **Source:** 331_air_general_build_bug.yaml
 
 ---
-### 2021-09-13 - Moves Supply Lines upgrade icon from USA Supply Center to USA Chinook <a name='index__35__352_usa_supply_cameo'></a>
+### 2021-09-13 - Moves Supply Lines upgrade icon from USA Supply Center to USA Chinook <a name='link__20210913__352_usa_supply_cameo'></a>
 **Changes**
 
 - **FIX**: Removes Supply Lines upgrade icon from the USA Supply Center, because the cash bonus is linked to the Chinook and not the Supply Center.
@@ -785,7 +785,7 @@ Contains 164 entries with
 **Source:** 352_usa_supply_cameo.yaml
 
 ---
-### 2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret <a name='index__36__373_laser_turret_clip_size'></a>
+### 2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret <a name='link__20210913__373_laser_turret_clip_size'></a>
 **Changes**
 
 - **FIX**: The Laser Turret now fires only 3 shots, both when engaging airborne units and assisting other Laser Turrets.
@@ -801,7 +801,7 @@ Contains 164 entries with
 **Source:** 373_laser_turret_clip_size.yaml
 
 ---
-### 2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets <a name='index__37__374_laser_turret_air_model_sound'></a>
+### 2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets <a name='link__20210913__374_laser_turret_air_model_sound'></a>
 **Changes**
 
 - **FIX**: The USA Laser Turret now uses the correct laser effect and sound when attacking air targets.
@@ -817,7 +817,7 @@ Contains 164 entries with
 **Source:** 374_laser_turret_air_model_sound.yaml
 
 ---
-### 2021-09-20 - Fixes wrong button placements of USA Firebase <a name='index__38__387_firebase_buttons'></a>
+### 2021-09-20 - Fixes wrong button placements of USA Firebase <a name='link__20210920__387_firebase_buttons'></a>
 **Changes**
 
 - **FIX**: Fixes the wrong button placements of the USA Firebase. They are now consistent with those of other base defenses.
@@ -833,7 +833,7 @@ Contains 164 entries with
 **Source:** 387_firebase_buttons.yaml
 
 ---
-### 2021-09-22 - Fixes inconsistent Air Guard button placement on USA Raptor <a name='index__39__402_raptor_guard_button_position'></a>
+### 2021-09-22 - Fixes inconsistent Air Guard button placement on USA Raptor <a name='link__20210922__402_raptor_guard_button_position'></a>
 **Changes**
 
 - **FIX**: The Guard Air button of the USA Raptor is now placed in the free corner slot. This is consistent with the button placement of China Mig.
@@ -849,7 +849,7 @@ Contains 164 entries with
 **Source:** 402_raptor_guard_button_position.yaml
 
 ---
-### 2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles <a name='index__40__403_afg_avenger_armor'></a>
+### 2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles <a name='link__20210922__403_afg_avenger_armor'></a>
 **Changes**
 
 - **FIX**: The USA Airforce Avenger no longer has 30% more armor against Jet Missiles.
@@ -865,7 +865,7 @@ Contains 164 entries with
 **Source:** 403_afg_avenger_armor.yaml
 
 ---
-### 2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers <a name='index__41__407_avenger_composite_armor'></a>
+### 2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers <a name='link__20210923__407_avenger_composite_armor'></a>
 **Changes**
 
 - **TWEAK**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
@@ -881,7 +881,7 @@ Contains 164 entries with
 **Source:** 407_avenger_composite_armor.yaml
 
 ---
-### 2021-09-25 - Adds kill experience reward to USA Hellfire Drone <a name='index__42__414_hellfire_drone_xp_reward'></a>
+### 2021-09-25 - Adds kill experience reward to USA Hellfire Drone <a name='link__20210925__414_hellfire_drone_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Destroying the USA Hellfire Drone now rewards 10 experience points.
@@ -897,7 +897,7 @@ Contains 164 entries with
 **Source:** 414_hellfire_drone_xp_reward.yaml
 
 ---
-### 2021-10-01 - Fixes attackable Fuel Air Bomb <a name='index__43__441_attackable_fuel_bomb'></a>
+### 2021-10-01 - Fixes attackable Fuel Air Bomb <a name='link__20211001__441_attackable_fuel_bomb'></a>
 **Changes**
 
 - **FIX**: The Fuel Air Bomb is no longer attackable.
@@ -913,7 +913,7 @@ Contains 164 entries with
 **Source:** 441_attackable_fuel_bomb.yaml
 
 ---
-### 2021-12-24 - Fixes units with attachments blocking scaffold placements <a name='index__44__630_vehicle_attachment_blocking_build'></a>
+### 2021-12-24 - Fixes units with attachments blocking scaffold placements <a name='link__20211224__630_vehicle_attachment_blocking_build'></a>
 **Changes**
 
 - **FIX**: Units with attachments no longer prevent scaffold placements on top of them. Units with attachments are
@@ -933,7 +933,7 @@ Contains 164 entries with
 **Source:** 630_vehicle_attachment_blocking_build.yaml
 
 ---
-### 2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang <a name='index__45__636_stinger_flashbang_damage'></a>
+### 2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang <a name='link__20220101__636_stinger_flashbang_damage'></a>
 **Changes**
 
 - **FIX**: Flashbang grenades from USA Rangers no longer damage GLA Stinger Soldiers.
@@ -949,7 +949,7 @@ Contains 164 entries with
 **Source:** 636_stinger_flashbang_damage.yaml
 
 ---
-### 2022-07-28 - Increases USA Paladin Composite Armor bonus by 100% <a name='index__46__777_paladin_composite_armor_bonus'></a>
+### 2022-07-28 - Increases USA Paladin Composite Armor bonus by 100% <a name='link__20220728__777_paladin_composite_armor_bonus'></a>
 **Changes**
 
 - **TWEAK**: Increases the USA Paladin Composite Armor bonus by 100%, from 100 to 200. This matches the Armor bonus for the Crusader Tank.
@@ -965,7 +965,7 @@ Contains 164 entries with
 **Source:** 777_paladin_composite_armor_bonus.yaml
 
 ---
-### 2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms <a name='index__47__787_usa_factory_door_times'></a>
+### 2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms <a name='link__20220730__787_usa_factory_door_times'></a>
 **Changes**
 
 - **TWEAK**: Decreases the USA War Factory close door time from 4000 to 3300 ms. This change is inconsequential for gameplay, because it does not affect unit interactions.
@@ -981,7 +981,7 @@ Contains 164 entries with
 **Source:** 787_usa_factory_door_times.yaml
 
 ---
-### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='index__48__412_tanks_xp_reward'></a>
+### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
@@ -997,7 +997,7 @@ Contains 164 entries with
 **Source:** 412_tanks_xp_reward.yaml
 
 ---
-### 2022-08-06 - Makes USA Supply Drop Zone Cargo Planes unattackable <a name='index__49__836_unattackable_drop_zone_cargo_planes'></a>
+### 2022-08-06 - Makes USA Supply Drop Zone Cargo Planes unattackable <a name='link__20220806__836_unattackable_drop_zone_cargo_planes'></a>
 **Changes**
 
 - **TWEAK**: The USA Supply Drop Zone Cargo Planes can not longer be attacked. This
@@ -1020,7 +1020,7 @@ Contains 164 entries with
 **Source:** 836_unattackable_drop_zone_cargo_planes.yaml
 
 ---
-### 2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber <a name='index__50__841_afg_carpet_tooltip_text'></a>
+### 2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber <a name='link__20220806__841_afg_carpet_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip texts of the USA Airforce Carpet Bomber now state the correct countdown values.
@@ -1036,7 +1036,7 @@ Contains 164 entries with
 **Source:** 841_afg_carpet_tooltip_text.yaml
 
 ---
-### 2022-08-06 - Fixes wrong countdown value in tooltip texts of USA Spectre Gunship <a name='index__51__842_afg_spectre_tooltip_text'></a>
+### 2022-08-06 - Fixes wrong countdown value in tooltip texts of USA Spectre Gunship <a name='link__20220806__842_afg_spectre_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip texts of the USA Spectre Gunship now state the correct countdown values.
@@ -1052,7 +1052,7 @@ Contains 164 entries with
 **Source:** 842_afg_spectre_tooltip_text.yaml
 
 ---
-### 2022-08-06 - Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade <a name='index__52__843_countermeasures_tooltip_text'></a>
+### 2022-08-06 - Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade <a name='link__20220806__843_countermeasures_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip text of the USA Countermeasures upgrade now states the correct upgrade bonuses.
@@ -1069,7 +1069,7 @@ Contains 164 entries with
 **Source:** 843_countermeasures_tooltip_text.yaml
 
 ---
-### 2022-08-06 - Fixes misspelled Airforce General name in texts <a name='index__53__848_misspelled_granger_text'></a>
+### 2022-08-06 - Fixes misspelled Airforce General name in texts <a name='link__20220806__848_misspelled_granger_text'></a>
 **Changes**
 
 - **FIX**: Fixes misspelled Airforce General name in texts. Game is now playable.
@@ -1085,7 +1085,7 @@ Contains 164 entries with
 **Source:** 848_misspelled_granger_text.yaml
 
 ---
-### 2022-08-13 - Fixes missing Carpet Bomber in Grangers Generals Challenge <a name='index__54__1085_granger_challenge_carpet'></a>
+### 2022-08-13 - Fixes missing Carpet Bomber in Grangers Generals Challenge <a name='link__20220813__1085_granger_challenge_carpet'></a>
 **Changes**
 
 - **FIX**: General Granger can now call the Carpet Bomber in the Generals Challenge.
@@ -1101,7 +1101,7 @@ Contains 164 entries with
 **Source:** 1085_granger_challenge_carpet.yaml
 
 ---
-### 2022-08-20 - Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image <a name='index__55__1020_swg_particle_cannon_portrait_image'></a>
+### 2022-08-20 - Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image <a name='link__20220820__1020_swg_particle_cannon_portrait_image'></a>
 **Changes**
 
 - **FIX**: Replaces regular Particle Cannon with Superweapon Particle Cannon on USA Superweapon Particle Cannon portrait image.
@@ -1117,7 +1117,7 @@ Contains 164 entries with
 **Source:** 1020_swg_particle_cannon_portrait_image.yaml
 
 ---
-### 2022-08-20 - Replaces Generic Tank with Crusader Tank on USA War Factory button image <a name='index__56__1022_usa_factory_button_image'></a>
+### 2022-08-20 - Replaces Generic Tank with Crusader Tank on USA War Factory button image <a name='link__20220820__1022_usa_factory_button_image'></a>
 **Changes**
 
 - **FIX**: Replaces Generic Tank with Crusader Tank on USA War Factory button image.
@@ -1133,7 +1133,7 @@ Contains 164 entries with
 **Source:** 1022_usa_factory_button_image.yaml
 
 ---
-### 2022-08-20 - Adds upgrade voice for USA MOAB <a name='index__57__1026_moab_upgrade_voice'></a>
+### 2022-08-20 - Adds upgrade voice for USA MOAB <a name='link__20220820__1026_moab_upgrade_voice'></a>
 **Changes**
 
 - **FEATURE**: Acquiring the USA MOAB upgrade now plays a dedicated voice line in all languages.
@@ -1149,7 +1149,7 @@ Contains 164 entries with
 **Source:** 1026_moab_upgrade_voice.yaml
 
 ---
-### 2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages <a name='index__58__1026_sentry_gun_upgrade_voice'></a>
+### 2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages <a name='link__20220820__1026_sentry_gun_upgrade_voice'></a>
 **Changes**
 
 - **FEATURE**: Acquiring the USA Sentry Drone gun upgrade now plays a dedicated voice line in all languages.
@@ -1165,7 +1165,7 @@ Contains 164 entries with
 **Source:** 1026_sentry_gun_upgrade_voice.yaml
 
 ---
-### 2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons <a name='index__59__938_infantry_muzzle_flash'></a>
+### 2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons <a name='link__20220820__938_infantry_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: Muzzle flash effects no longer shows persistently during transition animations on
@@ -1187,7 +1187,7 @@ Contains 164 entries with
 **Source:** 938_infantry_muzzle_flash.yaml
 
 ---
-### 2022-08-27 - Fixes immortal presence of circling USA Aurora wreck <a name='index__60__1018_dead_aurora_bug'></a>
+### 2022-08-27 - Fixes immortal presence of circling USA Aurora wreck <a name='link__20220827__1018_dead_aurora_bug'></a>
 **Changes**
 
 - **FIX**: The USA Aurora wreck now has a fixed despawn time of 10 seconds to make sure it disappears if the wreck is stuck circling in air.
@@ -1203,7 +1203,7 @@ Contains 164 entries with
 **Source:** 1018_dead_aurora_bug.yaml
 
 ---
-### 2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber <a name='index__61__953_afg_carpet_pdl'></a>
+### 2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber <a name='link__20220827__953_afg_carpet_pdl'></a>
 **Changes**
 
 - **TWEAK**: Removes the PointDefenseLaser from the USA Airforce Carpet Bomber. All other USA Airforce General Promotion planes have no PointDefenseLaser either, including the B52 bomber that delivers the MOAB and looks identical to the B52 Carpet Bomber. USA Airforce opponents will now be able to shoot down the Carpet Bomber more easily with Rockets.
@@ -1219,7 +1219,7 @@ Contains 164 entries with
 **Source:** 953_afg_carpet_pdl.yaml
 
 ---
-### 2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes <a name='index__62__1031_usa_ai_powers_planes'></a>
+### 2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes <a name='link__20220829__1031_usa_ai_powers_planes'></a>
 **Changes**
 
 - **FIX**: USA AI can no longer order Fuel Air Bomb and Para Drop with Supply Drop Zone planes.
@@ -1235,7 +1235,7 @@ Contains 164 entries with
 **Source:** 1031_usa_ai_powers_planes.yaml
 
 ---
-### 2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base <a name='index__63__1078_firebase_ghost_muzzle_flash'></a>
+### 2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base <a name='link__20220902__1078_firebase_ghost_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The USA Fire Base no longer shows a ghost muzzle flash before placing the first instance in a match.
@@ -1251,7 +1251,7 @@ Contains 164 entries with
 **Source:** 1078_firebase_ghost_muzzle_flash.yaml
 
 ---
-### 2022-09-03 - Fixes sharp turn movements of USA B2 Bomber <a name='index__64__1084_carpet_bomber_turn_rate'></a>
+### 2022-09-03 - Fixes sharp turn movements of USA B2 Bomber <a name='link__20220903__1084_carpet_bomber_turn_rate'></a>
 **Changes**
 
 - **FIX**: The USA B2 Bomber no longer takes sharp turns when flying in diagonally.
@@ -1267,7 +1267,7 @@ Contains 164 entries with
 **Source:** 1084_carpet_bomber_turn_rate.yaml
 
 ---
-### 2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300 <a name='index__65__1141_battle_drone_shroud_range'></a>
+### 2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300 <a name='link__20220906__1141_battle_drone_shroud_range'></a>
 **Changes**
 
 - **TWEAK**: Increases the shroud clearing range of USA Battle Drone from 150 to 300.
@@ -1283,7 +1283,7 @@ Contains 164 entries with
 **Source:** 1141_battle_drone_shroud_range.yaml
 
 ---
-### 2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400 <a name='index__66__1141_hellfire_drone_shroud_range'></a>
+### 2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400 <a name='link__20220906__1141_hellfire_drone_shroud_range'></a>
 **Changes**
 
 - **TWEAK**: Decreases the shroud clearing range of USA Hellfire Drone from 500 to 400.
@@ -1299,7 +1299,7 @@ Contains 164 entries with
 **Source:** 1141_hellfire_drone_shroud_range.yaml
 
 ---
-### 2022-09-07 - Fixes muzzle particle effects of tanks <a name='index__67__1149_tank_muzzle_particles'></a>
+### 2022-09-07 - Fixes muzzle particle effects of tanks <a name='link__20220907__1149_tank_muzzle_particles'></a>
 **Changes**
 
 - **FIX**: Fixes poor fadeouts of tank muzzle flare effects.
@@ -1317,7 +1317,7 @@ Contains 164 entries with
 **Source:** 1149_tank_muzzle_particles.yaml
 
 ---
-### 2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400 <a name='index__68__1155_burton_sight_range'></a>
+### 2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400 <a name='link__20220907__1155_burton_sight_range'></a>
 **Changes**
 
 - **TWEAK**: Decreases the USA Colonel Burton shroud range from 500 to 400. This matches the shroud range of the other Hero units. With the SEARCH AND DESTROY Battle Plan, Colonel Burton will have a shroud range of 480 instead of 600.
@@ -1333,7 +1333,7 @@ Contains 164 entries with
 **Source:** 1155_burton_sight_range.yaml
 
 ---
-### 2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee <a name='index__69__1162_sentry_drone_build_cost'></a>
+### 2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee <a name='link__20220908__1162_sentry_drone_build_cost'></a>
 **Changes**
 
 - **TWEAK**: Decreases cost of regular USA Sentry Drone from 800 to 700.
@@ -1352,7 +1352,7 @@ Contains 164 entries with
 **Source:** 1162_sentry_drone_build_cost.yaml
 
 ---
-### 2022-09-08 - Increases USA Sentry Drone gun damage by 20% <a name='index__70__1162_sentry_drone_damage'></a>
+### 2022-09-08 - Increases USA Sentry Drone gun damage by 20% <a name='link__20220908__1162_sentry_drone_damage'></a>
 **Changes**
 
 - **TWEAK**: Increases USA Sentry Drone gun damage by 20%, from 40 to 50. This makes the Machine Gun damage output identical with the Vet 0 Humvee.
@@ -1368,7 +1368,7 @@ Contains 164 entries with
 **Source:** 1162_sentry_drone_damage.yaml
 
 ---
-### 2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone <a name='index__71__1162_sentry_drone_deployment'></a>
+### 2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone <a name='link__20220908__1162_sentry_drone_deployment'></a>
 **Changes**
 
 - **TWEAK**: Removes the gun deployment mechanic from USA Sentry Drone. It no longer requires 1 second to acquire a fresh target, and 2 seconds to engage a consecutive target if it needs to move to a new position. This is a time and performance boost. It will also make the unit feel more responsive in combat situations.
@@ -1384,7 +1384,7 @@ Contains 164 entries with
 **Source:** 1162_sentry_drone_deployment.yaml
 
 ---
-### 2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70% <a name='index__72__1162_sentry_drone_movement'></a>
+### 2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70% <a name='link__20220908__1162_sentry_drone_movement'></a>
 **Changes**
 
 - **TWEAK**: Decreases the acceleration time of USA Sentry Drone by 70%, from 1000 to 300 ms.
@@ -1400,7 +1400,7 @@ Contains 164 entries with
 **Source:** 1162_sentry_drone_movement.yaml
 
 ---
-### 2022-09-08 - Increases sight range of USA Sentry Drone by 30% <a name='index__73__1162_sentry_drone_sight_range'></a>
+### 2022-09-08 - Increases sight range of USA Sentry Drone by 30% <a name='link__20220908__1162_sentry_drone_sight_range'></a>
 **Changes**
 
 - **TWEAK**: Increases the sight range of USA Sentry Drone by 30%, from 350 to 400.
@@ -1416,7 +1416,7 @@ Contains 164 entries with
 **Source:** 1162_sentry_drone_sight_range.yaml
 
 ---
-### 2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones <a name='index__74__1162_sentry_drone_tracks'></a>
+### 2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones <a name='link__20220908__1162_sentry_drone_tracks'></a>
 **Changes**
 
 - **TWEAK**: Replaces terrain tracks of USA Sentry Drone with less transparent ones. This makes the tracks less visible than those of tanks and China Outpost.
@@ -1432,7 +1432,7 @@ Contains 164 entries with
 **Source:** 1162_sentry_drone_tracks.yaml
 
 ---
-### 2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20% <a name='index__75__1162_sentry_drone_upgrade'></a>
+### 2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20% <a name='link__20220908__1162_sentry_drone_upgrade'></a>
 **Changes**
 
 - **TWEAK**: Decreases USA Sentry Drone gun upgrade time by 66%, from 30 to 10 seconds.
@@ -1449,7 +1449,7 @@ Contains 164 entries with
 **Source:** 1162_sentry_drone_upgrade.yaml
 
 ---
-### 2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet <a name='index__76__1165_nighthawk_low_fuel_voice'></a>
+### 2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet <a name='link__20220908__1165_nighthawk_low_fuel_voice'></a>
 **Changes**
 
 - **FIX**: The USA Stealth Fighter now plays its correct low fuel audio lines instead of the ones for the Aurora Jet.
@@ -1465,7 +1465,7 @@ Contains 164 entries with
 **Source:** 1165_nighthawk_low_fuel_voice.yaml
 
 ---
-### 2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon <a name='index__77__1171_particle_cannon_animation_loop'></a>
+### 2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon <a name='link__20220909__1171_particle_cannon_animation_loop'></a>
 **Changes**
 
 - **FIX**: The USA Particle cannon no longer gets stuck in an infinite deploy animation loop after finishing construction while it was disabled by a Microwave weapon.
@@ -1481,7 +1481,7 @@ Contains 164 entries with
 **Source:** 1171_particle_cannon_animation_loop.yaml
 
 ---
-### 2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps <a name='index__78__1177_afg_firebase_snow_damaged'></a>
+### 2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps <a name='link__20220910__1177_afg_firebase_snow_damaged'></a>
 **Changes**
 
 - **FIX**: USA Airforce Firebase now correctly shows badly damaged model on Winter maps.
@@ -1497,7 +1497,7 @@ Contains 164 entries with
 **Source:** 1177_afg_firebase_snow_damaged.yaml
 
 ---
-### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery. <a name='index__79__1178_patriot_battery_auto_reload'></a>
+### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery. <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
 **Changes**
 
 - **FIX**: The USA Patriot Patriot will now reload the entire clip after being idle for around 2 seconds.
@@ -1513,7 +1513,7 @@ Contains 164 entries with
 **Source:** 1178_patriot_battery_auto_reload.yaml
 
 ---
-### 2022-09-10 - Adds blue texture variants for USA Infantry units <a name='index__80__1179_usa_infantry_textures'></a>
+### 2022-09-10 - Adds blue texture variants for USA Infantry units <a name='link__20220910__1179_usa_infantry_textures'></a>
 **Changes**
 
 - **FEATURE**: Adds blue texture for
@@ -1535,7 +1535,7 @@ Contains 164 entries with
 **Source:** 1179_usa_infantry_textures.yaml
 
 ---
-### 2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton <a name='index__81__1189_burton_texture_errors'></a>
+### 2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton <a name='link__20220913__1189_burton_texture_errors'></a>
 **Changes**
 
 - **FIX**: Fixes texture error on pants of USA Colonel Burton.
@@ -1551,7 +1551,7 @@ Contains 164 entries with
 **Source:** 1189_burton_texture_errors.yaml
 
 ---
-### 2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead <a name='index__82__1220_pilot_humvee_passenger'></a>
+### 2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead <a name='link__20220918__1220_pilot_humvee_passenger'></a>
 **Changes**
 
 - **TWEAK**: Forbids NO_GARRISON flag objects from entering Humvee. NO_GARRISON is unique to Pilot and makes it unable to enter civilian buildings, Tunnels and Bunkers. Cursor still appears and it promotes the Humvee when entered. Therefore a Vet 3 Humvee can no longer transport Pilots.
@@ -1567,7 +1567,7 @@ Contains 164 entries with
 **Source:** 1220_pilot_humvee_passenger.yaml
 
 ---
-### 2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon <a name='index__83__1245_atsdislab_snow_textures'></a>
+### 2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon <a name='link__20220921__1245_atsdislab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atsdislab snow textures for USA Particle Cannon. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
@@ -1590,7 +1590,7 @@ Contains 164 entries with
 **Source:** 1245_atsdislab_snow_textures.yaml
 
 ---
-### 2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center <a name='index__84__1246_atstratslab_snow_textures'></a>
+### 2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center <a name='link__20220921__1246_atstratslab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atstratslab snow textures for USA Strategy Center. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
@@ -1618,7 +1618,7 @@ Contains 164 entries with
 **Source:** 1246_atstratslab_snow_textures.yaml
 
 ---
-### 2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield <a name='index__85__1247_attarmack_attarmack02_snow_textures'></a>
+### 2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield <a name='link__20220921__1247_attarmack_attarmack02_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes attarmack, attarmack02 snow textures for USA Airfield.
@@ -1650,7 +1650,7 @@ Contains 164 entries with
 **Source:** 1247_attarmack_attarmack02_snow_textures.yaml
 
 ---
-### 2022-09-21 - Fixes avambulance textures for USA Ambulance <a name='index__86__1248_avambulance_textures'></a>
+### 2022-09-21 - Fixes avambulance textures for USA Ambulance <a name='link__20220921__1248_avambulance_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avambulance textures for USA Ambulance.
@@ -1692,7 +1692,7 @@ Contains 164 entries with
 **Source:** 1248_avambulance_textures.yaml
 
 ---
-### 2022-09-22 - Fixes and improves avavnger textures for USA Avenger <a name='index__87__1251_avavnger_textures'></a>
+### 2022-09-22 - Fixes and improves avavnger textures for USA Avenger <a name='link__20220922__1251_avavnger_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves avavnger textures for USA Avenger. The damaged textures are remade by borrowing pieces from original Humvee textures.
@@ -1733,7 +1733,7 @@ Contains 164 entries with
 **Source:** 1251_avavnger_textures.yaml
 
 ---
-### 2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory <a name='index__88__1252_atdiaplate_textures'></a>
+### 2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory <a name='link__20220922__1252_atdiaplate_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atdiaplate textures for USA War Factory.
@@ -1770,7 +1770,7 @@ Contains 164 entries with
 **Source:** 1252_atdiaplate_textures.yaml
 
 ---
-### 2022-09-22 - Fixes atconvey01 snow textures for USA War Factory <a name='index__89__1253_atconvey01_snow_textures'></a>
+### 2022-09-22 - Fixes atconvey01 snow textures for USA War Factory <a name='link__20220922__1253_atconvey01_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atconvey01 snow textures for USA War Factory. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
@@ -1797,7 +1797,7 @@ Contains 164 entries with
 **Source:** 1253_atconvey01_snow_textures.yaml
 
 ---
-### 2022-09-22 - Fixes and improves avcomanche textures for USA Comanche <a name='index__90__1256_avcomanche_textures'></a>
+### 2022-09-22 - Fixes and improves avcomanche textures for USA Comanche <a name='link__20220922__1256_avcomanche_textures'></a>
 **Changes**
 
 - **FIX**: Fixes inconsistencies on avcomanche textures for USA Comanche.
@@ -1835,7 +1835,7 @@ Contains 164 entries with
 **Source:** 1256_avcomanche_textures.yaml
 
 ---
-### 2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank <a name='index__91__1258_avthunderbolt_textures'></a>
+### 2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank <a name='link__20220923__1258_avthunderbolt_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves avthunderbolt textures for USA Microwave Tank.
@@ -1872,7 +1872,7 @@ Contains 164 entries with
 **Source:** 1258_avthunderbolt_textures.yaml
 
 ---
-### 2022-09-23 - Fixes athqslab textures for USA Command Center <a name='index__92__1263_athqslab_textures'></a>
+### 2022-09-23 - Fixes athqslab textures for USA Command Center <a name='link__20220923__1263_athqslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes athqslab textures for USA Command Center.
@@ -1910,7 +1910,7 @@ Contains 164 entries with
 **Source:** 1263_athqslab_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atmetal03 snow textures for USA structures <a name='index__93__1264_atmetal03_snow_textures'></a>
+### 2022-09-23 - Fixes atmetal03 snow textures for USA structures <a name='link__20220923__1264_atmetal03_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atmetal03_s texture.
@@ -1932,7 +1932,7 @@ Contains 164 entries with
 **Source:** 1264_atmetal03_snow_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atpanelroof snow textures for USA structures <a name='index__94__1266_atpanelroof_textures'></a>
+### 2022-09-23 - Fixes atpanelroof snow textures for USA structures <a name='link__20220923__1266_atpanelroof_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atpanelroof snow textures.
@@ -1964,7 +1964,7 @@ Contains 164 entries with
 **Source:** 1266_atpanelroof_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atpanelroof03 snow textures for USA structures <a name='index__95__1267_atpanelroof03_snow_textures'></a>
+### 2022-09-23 - Fixes atpanelroof03 snow textures for USA structures <a name='link__20220923__1267_atpanelroof03_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atpanelroof3 texture.
@@ -1987,7 +1987,7 @@ Contains 164 entries with
 **Source:** 1267_atpanelroof03_snow_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atprisslab snow textures for USA Prison <a name='index__96__1268_atprisslab_snow_textures'></a>
+### 2022-09-23 - Fixes atprisslab snow textures for USA Prison <a name='link__20220923__1268_atprisslab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atprisslab snow textures for USA Prison
@@ -2013,7 +2013,7 @@ Contains 164 entries with
 **Source:** 1268_atprisslab_snow_textures.yaml
 
 ---
-### 2022-09-23 - Fixes avpaladin textures for USA Paladin Tank <a name='index__97__1270_avpaladin_textures'></a>
+### 2022-09-23 - Fixes avpaladin textures for USA Paladin Tank <a name='link__20220923__1270_avpaladin_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avpaladin damaged textures. The fixes are very minor and therefore optional.
@@ -2038,7 +2038,7 @@ Contains 164 entries with
 **Source:** 1270_avpaladin_textures.yaml
 
 ---
-### 2022-09-24 - Fixes and improves avraptor textures for USA Raptor <a name='index__98__1271_avraptor_textures'></a>
+### 2022-09-24 - Fixes and improves avraptor textures for USA Raptor <a name='link__20220924__1271_avraptor_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avraptor textures. The damaged texture changes are very minor, therefore are optional.
@@ -2067,7 +2067,7 @@ Contains 164 entries with
 **Source:** 1271_avraptor_textures.yaml
 
 ---
-### 2022-09-24 - Adds missing audio limits to air unit voices <a name='index__99__1274_air_unit_death_voice_limit'></a>
+### 2022-09-24 - Adds missing audio limits to air unit voices <a name='link__20220924__1274_air_unit_death_voice_limit'></a>
 **Changes**
 
 - **FIX**: Sets audio limit 1 on all low fuel voices of airplanes.
@@ -2084,7 +2084,7 @@ Contains 164 entries with
 **Source:** 1274_air_unit_death_voice_limit.yaml
 
 ---
-### 2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora <a name='index__100__1274_raptor_aurora_death_voice'></a>
+### 2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora <a name='link__20220924__1274_raptor_aurora_death_voice'></a>
 **Changes**
 
 - **FIX**: Enables all death voice variants for USA Raptor and USA Aurora.
@@ -2100,7 +2100,7 @@ Contains 164 entries with
 **Source:** 1274_raptor_aurora_death_voice.yaml
 
 ---
-### 2022-09-24 - Fixes atwarfactslab textures for USA War Factory <a name='index__101__1275_atwarfactslab_textures'></a>
+### 2022-09-24 - Fixes atwarfactslab textures for USA War Factory <a name='link__20220924__1275_atwarfactslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atwarfactslab textures for USA War Factory.
@@ -2128,7 +2128,7 @@ Contains 164 entries with
 **Source:** 1275_atwarfactslab_textures.yaml
 
 ---
-### 2022-09-24 - Fixes and improves atventwall01 textures for USA structures <a name='index__102__1277_atventwall01_textures'></a>
+### 2022-09-24 - Fixes and improves atventwall01 textures for USA structures <a name='link__20220924__1277_atventwall01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atventwall01 textures.
@@ -2159,7 +2159,7 @@ Contains 164 entries with
 **Source:** 1277_atventwall01_textures.yaml
 
 ---
-### 2022-09-24 - Fixed avpowtruck textures for USA POW Truck <a name='index__103__1279_avpowtruck_textures'></a>
+### 2022-09-24 - Fixed avpowtruck textures for USA POW Truck <a name='link__20220924__1279_avpowtruck_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avpowtruck textures for USA POW Truck.
@@ -2187,7 +2187,7 @@ Contains 164 entries with
 **Source:** 1279_avpowtruck_textures.yaml
 
 ---
-### 2022-09-24 - Fixes atroofparts01 textures for USA structures <a name='index__104__1280_atroofparts01_textures'></a>
+### 2022-09-24 - Fixes atroofparts01 textures for USA structures <a name='link__20220924__1280_atroofparts01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atroofparts01 textures for USA structures.
@@ -2224,7 +2224,7 @@ Contains 164 entries with
 **Source:** 1280_atroofparts01_textures.yaml
 
 ---
-### 2022-09-25 - Fixes USA Spectre Gunship audio issues <a name='index__105__1288_spectre_sound'></a>
+### 2022-09-25 - Fixes USA Spectre Gunship audio issues <a name='link__20220925__1288_spectre_sound'></a>
 **Changes**
 
 - **FIX**: Fixes missing interaction audio of the level 3 Spectre Gunship.
@@ -2241,7 +2241,7 @@ Contains 164 entries with
 **Source:** 1288_spectre_sound.yaml
 
 ---
-### 2022-09-25 - Fixes animation issues on damaged USA Spectre Gunship <a name='index__106__1289_spectre_animation'></a>
+### 2022-09-25 - Fixes animation issues on damaged USA Spectre Gunship <a name='link__20220925__1289_spectre_animation'></a>
 **Changes**
 
 - **FIX**: The level 2 and level 3 USA Spectre Gunship no longer resets its animation state when transitioning between damage states.
@@ -2257,7 +2257,7 @@ Contains 164 entries with
 **Source:** 1289_spectre_animation.yaml
 
 ---
-### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='index__107__1335_pitched_air_weapon_sounds'></a>
+### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='link__20221005__1335_pitched_air_weapon_sounds'></a>
 **Changes**
 
 - **FIX**: Adds slightly pitched sounds to all non-rocket anti air weapons. The default weapons against ground targets use the original sound effects. Affects
@@ -2279,7 +2279,7 @@ Contains 164 entries with
 **Source:** 1335_pitched_air_weapon_sounds.yaml
 
 ---
-### 2022-10-15 - Removes superfluous particle effects from USA Supply Center <a name='index__108__1366_usa_supply_obsolete_particles'></a>
+### 2022-10-15 - Removes superfluous particle effects from USA Supply Center <a name='link__20221015__1366_usa_supply_obsolete_particles'></a>
 **Changes**
 
 - **FIX**: Removes superfluous particle effects from damaged and badly damaged USA Supply Center on Day maps.
@@ -2295,7 +2295,7 @@ Contains 164 entries with
 **Source:** 1366_usa_supply_obsolete_particles.yaml
 
 ---
-### 2022-10-15 - Fixes broken fan animation of USA Strategy Center <a name='index__109__1367_summer_night_strategy_center_fan_animation'></a>
+### 2022-10-15 - Fixes broken fan animation of USA Strategy Center <a name='link__20221015__1367_summer_night_strategy_center_fan_animation'></a>
 **Changes**
 
 - **FIX**: Fixes the broken fan animation of undamaged USA Strategy Center on Night maps.
@@ -2311,7 +2311,7 @@ Contains 164 entries with
 **Source:** 1367_summer_night_strategy_center_fan_animation.yaml
 
 ---
-### 2022-10-15 - Removes superfluous particle effects from USA Airfield <a name='index__110__1369_usa_airfield_obsolete_particles'></a>
+### 2022-10-15 - Removes superfluous particle effects from USA Airfield <a name='link__20221015__1369_usa_airfield_obsolete_particles'></a>
 **Changes**
 
 - **FIX**: Removes superfluous particle effects from USA Airfield on Day maps.
@@ -2327,7 +2327,7 @@ Contains 164 entries with
 **Source:** 1369_usa_airfield_obsolete_particles.yaml
 
 ---
-### 2022-10-15 - Fixes particle effects of USA Power Plant <a name='index__111__1371_usa_reactor_particles'></a>
+### 2022-10-15 - Fixes particle effects of USA Power Plant <a name='link__20221015__1371_usa_reactor_particles'></a>
 **Changes**
 
 - **FIX**: Removes superfluous particle effects from damaged USA Power Plant.
@@ -2344,7 +2344,7 @@ Contains 164 entries with
 **Source:** 1371_usa_reactor_particles.yaml
 
 ---
-### 2022-10-15 - Fixes construction fence texture of USA Power Plant <a name='index__112__1375_snow_night_usa_reactor_fence'></a>
+### 2022-10-15 - Fixes construction fence texture of USA Power Plant <a name='link__20221015__1375_snow_night_usa_reactor_fence'></a>
 **Changes**
 
 - **FIX**: The construction fence texture of the USA Power Plant on Winter Night maps now looks proper.
@@ -2360,7 +2360,7 @@ Contains 164 entries with
 **Source:** 1375_snow_night_usa_reactor_fence.yaml
 
 ---
-### 2022-10-15 - Fixes broken reactor core spin animation of USA Power Plant <a name='index__113__1376_usa_reactor_core_spin_animation'></a>
+### 2022-10-15 - Fixes broken reactor core spin animation of USA Power Plant <a name='link__20221015__1376_usa_reactor_core_spin_animation'></a>
 **Changes**
 
 - **FIX**: The reactor cylinders of the damaged USA Power Plant are now properly animated on Summer and Winter Day maps.
@@ -2376,7 +2376,7 @@ Contains 164 entries with
 **Source:** 1376_usa_reactor_core_spin_animation.yaml
 
 ---
-### 2022-10-16 - Fixes wrong helipad texture of USA Airfield <a name='index__114__1370_summer_day_damaged_usa_airfield_texture'></a>
+### 2022-10-16 - Fixes wrong helipad texture of USA Airfield <a name='link__20221016__1370_summer_day_damaged_usa_airfield_texture'></a>
 **Changes**
 
 - **FIX**: Helipad of badly damaged USA Airfield on Summer Day maps now uses the correct texture.
@@ -2392,7 +2392,7 @@ Contains 164 entries with
 **Source:** 1370_summer_day_damaged_usa_airfield_texture.yaml
 
 ---
-### 2022-10-16 - Fixes War Factory door animations reset on damage state changes <a name='index__115__1382_door_animation_reset'></a>
+### 2022-10-16 - Fixes War Factory door animations reset on damage state changes <a name='link__20221016__1382_door_animation_reset'></a>
 **Changes**
 
 - **FIX**: Fixes door animations resetting when transitioning between damage states for the China, USA and GLA War Factories.
@@ -2408,7 +2408,7 @@ Contains 164 entries with
 **Source:** 1382_door_animation_reset.yaml
 
 ---
-### 2022-10-16 - Fixes smoke effect issues on USA War Factory <a name='index__116__1387_china_factory_smoke_particles'></a>
+### 2022-10-16 - Fixes smoke effect issues on USA War Factory <a name='link__20221016__1387_china_factory_smoke_particles'></a>
 **Changes**
 
 - **FIX**: Chimney smoke effects are active during unit construction only and damage smoke effects are properly setup for all damage states of the USA War Factory.
@@ -2430,7 +2430,7 @@ Contains 164 entries with
 **Source:** 1387_china_factory_smoke_particles.yaml
 
 ---
-### 2022-10-18 - Decreases USA Supply Drop Zone crate count from 6 to 3 <a name='index__117__1390_drop_zone_crate_count'></a>
+### 2022-10-18 - Decreases USA Supply Drop Zone crate count from 6 to 3 <a name='link__20221018__1390_drop_zone_crate_count'></a>
 **Changes**
 
 - **FIX**: Decreases the USA Supply Drop Zone crate count from 6 to 3. This change avoids or reduces crates falling next to the Drop Zone. The cash value per crate increases from 250 to 500. Gameplay wise this makes no difference, because the Supply Drop is no player controlled event. The first crate of 3 will fall down a bit later than the first crate of 6, but the last crate of 3 drops earlier than the last crate of 6.
@@ -2446,7 +2446,7 @@ Contains 164 entries with
 **Source:** 1390_drop_zone_crate_count.yaml
 
 ---
-### 2022-10-19 - Changes crane of USA War Factory to animate on vehicle repair instead of vehicle construction <a name='index__118__1394_usa_factory_crane'></a>
+### 2022-10-19 - Changes crane of USA War Factory to animate on vehicle repair instead of vehicle construction <a name='link__20221019__1394_usa_factory_crane'></a>
 **Changes**
 
 - **TWEAK**: The repair pad crane of the USA War Factory no longer moves while constructing a unit. Instead it now moves while repairing a unit. It is still possible to tell if a unit is being built, because the factory produces smoke from the chimney during construction.
@@ -2462,7 +2462,7 @@ Contains 164 entries with
 **Source:** 1394_usa_factory_crane.yaml
 
 ---
-### 2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings <a name='index__119__1386_buildings_explosion_effects'></a>
+### 2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings <a name='link__20221020__1386_buildings_explosion_effects'></a>
 **Changes**
 
 - **FIX**: Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings.
@@ -2495,7 +2495,7 @@ Contains 164 entries with
 **Source:** 1386_buildings_explosion_effects.yaml
 
 ---
-### 2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes <a name='index__120__1398_radar_animation_reset'></a>
+### 2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes <a name='link__20221020__1398_radar_animation_reset'></a>
 **Changes**
 
 - **FIX**: Fixes door and radar animations resetting when transitioning between damage states for the China and USA Command Centers.
@@ -2511,7 +2511,7 @@ Contains 164 entries with
 **Source:** 1398_radar_animation_reset.yaml
 
 ---
-### 2022-10-23 - Fixes abbarracks models for USA Barracks <a name='index__121__1405_abbarracks_models'></a>
+### 2022-10-23 - Fixes abbarracks models for USA Barracks <a name='link__20221023__1405_abbarracks_models'></a>
 **Changes**
 
 - **FIX**: Fixes texture errors in abbarracks w3d for USA Barracks.
@@ -2536,7 +2536,7 @@ Contains 164 entries with
 **Source:** 1405_abbarracks_models.yaml
 
 ---
-### 2022-10-23 - Fixes atbarrslab textures for USA Barracks <a name='index__122__1406_atbarrslab_textures'></a>
+### 2022-10-23 - Fixes atbarrslab textures for USA Barracks <a name='link__20221023__1406_atbarrslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atbarrslab textures for USA Barracks.
@@ -2572,7 +2572,7 @@ Contains 164 entries with
 **Source:** 1406_atbarrslab_textures.yaml
 
 ---
-### 2022-10-23 - Fixes and improves atdoor textures <a name='index__123__1407_atdoor_textures'></a>
+### 2022-10-23 - Fixes and improves atdoor textures <a name='link__20221023__1407_atdoor_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atdoor textures.
@@ -2598,7 +2598,7 @@ Contains 164 entries with
 **Source:** 1407_atdoor_textures.yaml
 
 ---
-### 2022-11-05 - Fixes and improves atdriveway textures for USA War Factory <a name='index__124__1427_atdriveway_textures'></a>
+### 2022-11-05 - Fixes and improves atdriveway textures for USA War Factory <a name='link__20221105__1427_atdriveway_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atdriveway textures for USA War Factory.
@@ -2638,7 +2638,7 @@ Contains 164 entries with
 **Source:** 1427_atdriveway_textures.yaml
 
 ---
-### 2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory <a name='index__125__1427_atrepairbay_textures'></a>
+### 2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory <a name='link__20221105__1427_atrepairbay_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atrepairbay textures for USA War Factory.
@@ -2673,7 +2673,7 @@ Contains 164 entries with
 **Source:** 1427_atrepairbay_textures.yaml
 
 ---
-### 2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory <a name='index__126__1427_atwarfactslab_textures'></a>
+### 2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory <a name='link__20221105__1427_atwarfactslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atwarfactslab textures for USA War Factory.
@@ -2703,7 +2703,7 @@ Contains 164 entries with
 **Source:** 1427_atwarfactslab_textures.yaml
 
 ---
-### 2022-11-05 - Fixes atventwall02 textures for USA structures <a name='index__127__1445_atventwall02_textures'></a>
+### 2022-11-05 - Fixes atventwall02 textures for USA structures <a name='link__20221105__1445_atventwall02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atventwall02 textures for USA structures.
@@ -2727,7 +2727,7 @@ Contains 164 entries with
 **Source:** 1445_atventwall02_textures.yaml
 
 ---
-### 2022-11-05 - Fixes atventwall03 textures for USA structures <a name='index__128__1445_atventwall03_textures'></a>
+### 2022-11-05 - Fixes atventwall03 textures for USA structures <a name='link__20221105__1445_atventwall03_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atventwall03 textures for USA structures.
@@ -2751,7 +2751,7 @@ Contains 164 entries with
 **Source:** 1445_atventwall03_textures.yaml
 
 ---
-### 2022-11-05 - Fixes atventwall04 textures for USA structures <a name='index__129__1445_atventwall04_textures'></a>
+### 2022-11-05 - Fixes atventwall04 textures for USA structures <a name='link__20221105__1445_atventwall04_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atventwall04 textures for USA structures.
@@ -2775,7 +2775,7 @@ Contains 164 entries with
 **Source:** 1445_atventwall04_textures.yaml
 
 ---
-### 2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks <a name='index__130__1413_battle_drone_repair_sound'></a>
+### 2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks <a name='link__20221106__1413_battle_drone_repair_sound'></a>
 **Changes**
 
 - **FEATURE**: Enables and fixes audio for USA Battle Drone repairs. The spark sound files already existed originally, but contained some audible humming and quite 'crispy' sparks.
@@ -2791,7 +2791,7 @@ Contains 164 entries with
 **Source:** 1413_battle_drone_repair_sound.yaml
 
 ---
-### 2022-11-06 - Fixes and improves atcemblock02 textures for USA structures <a name='index__131__1450_atcemblock02_textures'></a>
+### 2022-11-06 - Fixes and improves atcemblock02 textures for USA structures <a name='link__20221106__1450_atcemblock02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atcemblock02 textures.
@@ -2819,7 +2819,7 @@ Contains 164 entries with
 **Source:** 1450_atcemblock02_textures.yaml
 
 ---
-### 2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300 <a name='index__132__1457_strategy_center_detection_range'></a>
+### 2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300 <a name='link__20221108__1457_strategy_center_detection_range'></a>
 **Changes**
 
 - **TWEAK**: Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300. As all heroes (now) have a sight range of 400, options for reacting to a Strategy Center's presence before being detected are incredibly limited. Not only this, but the structure's extensive stealth detection range over the owner's entire base effectively renders heroes useless - on top of the substantial range bonus that Search and Destroy provides. Reducing the stealth detection range is a reasonable way to counterbalance the incredible effectiveness of S&D without directly affecting the bonus itself.
@@ -2835,7 +2835,7 @@ Contains 164 entries with
 **Source:** 1457_strategy_center_detection_range.yaml
 
 ---
-### 2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600 <a name='index__133__1457_strategy_center_snd_vision_range'></a>
+### 2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600 <a name='link__20221108__1457_strategy_center_snd_vision_range'></a>
 **Changes**
 
 - **TWEAK**: Decreases the SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600. Accordingly, the Strategy Center no longer has an extreme shroud-clearing range of 800 under the effects of Search and Destroy. It was an unnecessary advantage for USA that discounts map awareness. The range has been reduced to a more palatable range of 600 - a 1.5x increase of the default vision range of 400. This was preferred over reducing the default vision of 400 to 300 due to the Bombardment cannon's weapon range of 400.
@@ -2851,7 +2851,7 @@ Contains 164 entries with
 **Source:** 1457_strategy_center_snd_vision_range.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall01 textures for USA structures <a name='index__134__1458_atcemwall01_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall01 textures for USA structures <a name='link__20221108__1458_atcemwall01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall01 textures for USA structures.
@@ -2885,7 +2885,7 @@ Contains 164 entries with
 **Source:** 1458_atcemwall01_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall02 textures for USA structures <a name='index__135__1458_atcemwall02_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall02 textures for USA structures <a name='link__20221108__1458_atcemwall02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall02 textures for USA structures.
@@ -2928,7 +2928,7 @@ Contains 164 entries with
 **Source:** 1458_atcemwall02_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall03 textures for USA structures <a name='index__136__1458_atcemwall03_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall03 textures for USA structures <a name='link__20221108__1458_atcemwall03_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall03 textures for USA structures.
@@ -2951,7 +2951,7 @@ Contains 164 entries with
 **Source:** 1458_atcemwall03_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall04 textures for USA structures <a name='index__137__1458_atcemwall04_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall04 textures for USA structures <a name='link__20221108__1458_atcemwall04_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall04 textures for USA structures.
@@ -2987,7 +2987,7 @@ Contains 164 entries with
 **Source:** 1458_atcemwall04_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall05 textures for USA structures <a name='index__138__1458_atcemwall05_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall05 textures for USA structures <a name='link__20221108__1458_atcemwall05_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall05 textures for USA structures.
@@ -3022,7 +3022,7 @@ Contains 164 entries with
 **Source:** 1458_atcemwall05_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon <a name='index__139__1459_atmetal02_textures'></a>
+### 2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon <a name='link__20221108__1459_atmetal02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atmetal02 textures for USA Particle Cannon.
@@ -3052,7 +3052,7 @@ Contains 164 entries with
 **Source:** 1459_atmetal02_textures.yaml
 
 ---
-### 2022-11-10 - Fixes silver roof textures for USA structures <a name='index__140__1461_atsilverroof02_textures'></a>
+### 2022-11-10 - Fixes silver roof textures for USA structures <a name='link__20221110__1461_atsilverroof02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes silver roof textures for USA structures.
@@ -3085,7 +3085,7 @@ Contains 164 entries with
 **Source:** 1461_atsilverroof02_textures.yaml
 
 ---
-### 2022-11-10 - Fixes silver roof textures for USA structures <a name='index__141__1461_atsilverroof_textures'></a>
+### 2022-11-10 - Fixes silver roof textures for USA structures <a name='link__20221110__1461_atsilverroof_textures'></a>
 **Changes**
 
 - **FIX**: Fixes silver roof textures for USA structures.
@@ -3113,7 +3113,7 @@ Contains 164 entries with
 **Source:** 1461_atsilverroof_textures.yaml
 
 ---
-### 2022-11-16 - Adds small idle movement sway to USA Chinook and Comanche <a name='index__142__1467_helicopter_idle_sway'></a>
+### 2022-11-16 - Adds small idle movement sway to USA Chinook and Comanche <a name='link__20221116__1467_helicopter_idle_sway'></a>
 **Changes**
 
 - **FIX**: Adds small idle movement sway to the USA Chinook and Comanche. The movement is just 33% of how much the Helix sways. Originally there is no sway movement.
@@ -3129,7 +3129,7 @@ Contains 164 entries with
 **Source:** 1467_helicopter_idle_sway.yaml
 
 ---
-### 2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25% <a name='index__143__1469_battle_drone_upgrade_armor_bonus'></a>
+### 2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25% <a name='link__20221116__1469_battle_drone_upgrade_armor_bonus'></a>
 **Changes**
 
 - **FIX**: Decreases the Drone Armor Upgrade bonus of the USA Battle Drone from 50% to 25%. This makes the armor bonus consistent with the other vehicle drones.
@@ -3145,7 +3145,7 @@ Contains 164 entries with
 **Source:** 1469_battle_drone_upgrade_armor_bonus.yaml
 
 ---
-### 2022-11-19 - Fixes conveyor belt textures of USA War Factory <a name='index__144__1474_atconvey02_textures'></a>
+### 2022-11-19 - Fixes conveyor belt textures of USA War Factory <a name='link__20221119__1474_atconvey02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes dust tiling on the atconvey02_e texture.
@@ -3161,7 +3161,7 @@ Contains 164 entries with
 **Source:** 1474_atconvey02_textures.yaml
 
 ---
-### 2022-11-25 - Removes final death explosion delay of USA Comanche <a name='index__145__1481_comanche_final_death_delay'></a>
+### 2022-11-25 - Removes final death explosion delay of USA Comanche <a name='link__20221125__1481_comanche_final_death_delay'></a>
 **Changes**
 
 - **FIX**: Effectively removes the 1500 ms final death explosion delay of the USA Comanche helicopter. This way it properly explodes right after ground impact like the other helicopters do.
@@ -3177,7 +3177,7 @@ Contains 164 entries with
 **Source:** 1481_comanche_final_death_delay.yaml
 
 ---
-### 2022-11-27 - Adds damage state transition effect to USA A10 <a name='index__146__1487_a10_damage_transition_effect'></a>
+### 2022-11-27 - Adds damage state transition effect to USA A10 <a name='link__20221127__1487_a10_damage_transition_effect'></a>
 **Changes**
 
 - **FIX**: Adds a damage transition effect to the A10. This way it is visually clear when it becomes critically damaged.
@@ -3193,7 +3193,7 @@ Contains 164 entries with
 **Source:** 1487_a10_damage_transition_effect.yaml
 
 ---
-### 2022-11-30 - Fixes USA Supply Center model issues <a name='index__147__1491_usa_supply_model'></a>
+### 2022-11-30 - Fixes USA Supply Center model issues <a name='link__20221130__1491_usa_supply_model'></a>
 **Changes**
 
 - **FIX**: Cable no longer clips through the claw of the crane.
@@ -3209,7 +3209,7 @@ Contains 164 entries with
 **Source:** 1491_usa_supply_model.yaml
 
 ---
-### 2023-01-07 - Fixes USA Strategy Center Gun attack issues <a name='index__148__1524_strategy_center_gun_attack'></a>
+### 2023-01-07 - Fixes USA Strategy Center Gun attack issues <a name='link__20230107__1524_strategy_center_gun_attack'></a>
 **Changes**
 
 - **FIX**: USA Strategy Center Gun now correctly attacks selected targets always.
@@ -3225,7 +3225,7 @@ Contains 164 entries with
 **Source:** 1524_strategy_center_gun_attack.yaml
 
 ---
-### 2023-01-09 - Optimizes USA vehicle drone spawn positions <a name='index__149__1539_vehicle_drone_spawn_position'></a>
+### 2023-01-09 - Optimizes USA vehicle drone spawn positions <a name='link__20230109__1539_vehicle_drone_spawn_position'></a>
 **Changes**
 
 - **TWEAK**: Scout drone now spawns at the vehicle center like the other drones.
@@ -3242,7 +3242,7 @@ Contains 164 entries with
 **Source:** 1539_vehicle_drone_spawn_position.yaml
 
 ---
-### 2023-01-13 - Fixes the evacuation command button art of various vehicles <a name='index__150__1545_vehicle_evacuation_button_image'></a>
+### 2023-01-13 - Fixes the evacuation command button art of various vehicles <a name='link__20230113__1545_vehicle_evacuation_button_image'></a>
 **Changes**
 
 - **FIX**: Most vehicles now use the Evacuate button art for vehicles. Buildings use the Evacuate button art for structures as usual.
@@ -3268,7 +3268,7 @@ Contains 164 entries with
 **Source:** 1545_vehicle_evacuation_button_image.yaml
 
 ---
-### 2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0% <a name='index__151__1554_hold_line_plan_armor_bonus'></a>
+### 2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0% <a name='link__20230115__1554_hold_line_plan_armor_bonus'></a>
 **Changes**
 
 - **FIX**: Increases the USA unit armor bonus of HOLD THE LINE Battle Plan from 11.1% to 20.0%. Armor bonus is synonymous for damage resistance. This makes the use of the HOLD THE LINE Battle Plan more attractive for all USA factions. Traditionally USA favors the SEARCH AND DESTROY Battle Plan above the others by a large margin.
@@ -3284,7 +3284,7 @@ Contains 164 entries with
 **Source:** 1554_hold_line_plan_armor_bonus.yaml
 
 ---
-### 2023-01-15 - Enables toxin weapons to shoot at USA Fire Base <a name='index__152__1556_firebase_toxin_armor'></a>
+### 2023-01-15 - Enables toxin weapons to shoot at USA Fire Base <a name='link__20230115__1556_firebase_toxin_armor'></a>
 **Changes**
 
 - **FIX**: Enables toxin weapons to shoot at USA Fire Base. This way it behaves like all other faction structures.
@@ -3300,7 +3300,7 @@ Contains 164 entries with
 **Source:** 1556_firebase_toxin_armor.yaml
 
 ---
-### 2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans <a name='index__153__1559_strategy_center_plan_tooltip_text'></a>
+### 2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans <a name='link__20230117__1559_strategy_center_plan_tooltip_text'></a>
 **Changes**
 
 - **FIX**: Fixes wrong and inaccurate information in USA Battle Plan tool tip texts for all latin languages.
@@ -3316,7 +3316,7 @@ Contains 164 entries with
 **Source:** 1559_strategy_center_plan_tooltip_text.yaml
 
 ---
-### 2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit <a name='index__154__1581_tomahawk_missile_angle_jump'></a>
+### 2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit <a name='link__20230121__1581_tomahawk_missile_angle_jump'></a>
 **Changes**
 
 - **FIX**: The USA Tomahawk missile flight angle no longer glitches shortly before hitting a target.
@@ -3332,7 +3332,7 @@ Contains 164 entries with
 **Source:** 1581_tomahawk_missile_angle_jump.yaml
 
 ---
-### 2023-01-28 - Removes bouncing from wreck of USA Comanche <a name='index__155__1658_comanche_wreck_bouncing'></a>
+### 2023-01-28 - Removes bouncing from wreck of USA Comanche <a name='link__20230128__1658_comanche_wreck_bouncing'></a>
 **Changes**
 
 - **FIX**: USA Comanche wreck can no longer bounce. Other helicopter wrecks cannot bounce either.
@@ -3348,7 +3348,7 @@ Contains 164 entries with
 **Source:** 1658_comanche_wreck_bouncing.yaml
 
 ---
-### 2023-01-29 - Decreases fast sink rate of helicopter wrecks <a name='index__156__1659_chinook_helix_wreck_sink_rate'></a>
+### 2023-01-29 - Decreases fast sink rate of helicopter wrecks <a name='link__20230129__1659_chinook_helix_wreck_sink_rate'></a>
 **Changes**
 
 - **FIX**: Decreases the quick sink rate of the USA Comanche wreck. All vehicles, helicopters, planes, except GLA Combat Bike, now sink with the same speed.
@@ -3364,7 +3364,7 @@ Contains 164 entries with
 **Source:** 1659_chinook_helix_wreck_sink_rate.yaml
 
 ---
-### 2023-01-29 - Increases slow sink rate of helicopter wrecks <a name='index__157__1659_comanche_wreck_sink_rate'></a>
+### 2023-01-29 - Increases slow sink rate of helicopter wrecks <a name='link__20230129__1659_comanche_wreck_sink_rate'></a>
 **Changes**
 
 - **FIX**: Increases the slow sink rate of USA Chinook, China Helix wrecks. All vehicles, helicopters, planes, except GLA Combat Bike, now sink with the same speed.
@@ -3380,7 +3380,7 @@ Contains 164 entries with
 **Source:** 1659_comanche_wreck_sink_rate.yaml
 
 ---
-### 2023-01-29 - Removes random sink delays from all vehicle wrecks <a name='index__158__1660_random_wreck_sink_delays'></a>
+### 2023-01-29 - Removes random sink delays from all vehicle wrecks <a name='link__20230129__1660_random_wreck_sink_delays'></a>
 **Changes**
 
 - **TWEAK**: Removes random sink delays from wrecks of USA Ambulance, China Gattling, ECM.
@@ -3396,7 +3396,7 @@ Contains 164 entries with
 **Source:** 1660_random_wreck_sink_delays.yaml
 
 ---
-### 2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain <a name='index__159__1711_increase_wreck_destruction_delay'></a>
+### 2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain <a name='link__20230129__1711_increase_wreck_destruction_delay'></a>
 **Changes**
 
 - **FIX**: Increases destruction delays of various wrecks to avoid deletion before object is sunk into terrain.
@@ -3426,7 +3426,7 @@ Contains 164 entries with
 **Source:** 1711_increase_wreck_destruction_delay.yaml
 
 ---
-### 2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain <a name='index__160__1712_decrease_wreck_destruction_delay'></a>
+### 2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain <a name='link__20230129__1712_decrease_wreck_destruction_delay'></a>
 **Changes**
 
 - **TWEAK**: Decreases destruction delays of several hulks to delete them earlier. By the time of deletion they are already sunk into terrain.
@@ -3457,7 +3457,7 @@ Contains 164 entries with
 **Source:** 1712_decrease_wreck_destruction_delay.yaml
 
 ---
-### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='index__161__1618_wreck_spawn_before_death'></a>
+### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='link__20230204__1618_wreck_spawn_before_death'></a>
 **Changes**
 
 - **FIX**: Wreck and debris of vehicles no longer spawn before damaged vehicle model despawns.
@@ -3485,7 +3485,7 @@ Contains 164 entries with
 **Source:** 1618_wreck_spawn_before_death.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade <a name='index__162__1705_comanche_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
 **Changes**
 
 - **FEATURE**: The USA Comanche Rocket Pod will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire a few of its rockets and at least 30 seconds pass until the next attack.
@@ -3501,7 +3501,7 @@ Contains 164 entries with
 **Source:** 1705_comanche_idle_reload.yaml
 
 ---
-### 2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction <a name='index__163__1713_swg_cc_construction_model'></a>
+### 2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction <a name='link__20230215__1713_swg_cc_construction_model'></a>
 **Changes**
 
 - **FIX**: Super Weapon General now uses the correct Command Center model during construction and deconstruction states. This is only noticeable when construction nears 100% or for the first ~44 frames when sold (the faction logo is now visible during these times).

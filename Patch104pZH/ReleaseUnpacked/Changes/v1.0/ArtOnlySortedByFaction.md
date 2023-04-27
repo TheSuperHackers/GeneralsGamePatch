@@ -34,117 +34,117 @@ Contains 106 entries with
   - FEATURE (28)
 
 ## Index
-1. [2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora](#index__0__145_alpha_aurora_cameo)
-2. [2021-09-03 - Fixes USA Avenger model](#index__1__158_avenger_model)
-3. [2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down](#index__2__254_spectre_housecolor)
-4. [2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon](#index__3__288_swg_particle_cannon_effect_color)
-5. [2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets](#index__4__374_laser_turret_air_model_sound)
-6. [2022-09-10 - Adds blue texture variants for USA Infantry units](#index__5__1179_usa_infantry_textures)
-7. [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#index__6__1189_burton_texture_errors)
-8. [2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon](#index__7__1245_atsdislab_snow_textures)
-9. [2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center](#index__8__1246_atstratslab_snow_textures)
-10. [2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield](#index__9__1247_attarmack_attarmack02_snow_textures)
-11. [2022-09-21 - Fixes avambulance textures for USA Ambulance](#index__10__1248_avambulance_textures)
-12. [2022-09-22 - Fixes and improves avavnger textures for USA Avenger](#index__11__1251_avavnger_textures)
-13. [2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory](#index__12__1252_atdiaplate_textures)
-14. [2022-09-22 - Fixes atconvey01 snow textures for USA War Factory](#index__13__1253_atconvey01_snow_textures)
-15. [2022-09-22 - Fixes and improves avcomanche textures for USA Comanche](#index__14__1256_avcomanche_textures)
-16. [2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank](#index__15__1258_avthunderbolt_textures)
-17. [2022-09-23 - Fixes athqslab textures for USA Command Center](#index__16__1263_athqslab_textures)
-18. [2022-09-23 - Fixes atmetal03 snow textures for USA structures](#index__17__1264_atmetal03_snow_textures)
-19. [2022-09-23 - Fixes atpanelroof snow textures for USA structures](#index__18__1266_atpanelroof_textures)
-20. [2022-09-23 - Fixes atpanelroof03 snow textures for USA structures](#index__19__1267_atpanelroof03_snow_textures)
-21. [2022-09-23 - Fixes atprisslab snow textures for USA Prison](#index__20__1268_atprisslab_snow_textures)
-22. [2022-09-23 - Fixes avpaladin textures for USA Paladin Tank](#index__21__1270_avpaladin_textures)
-23. [2022-09-24 - Fixes and improves avraptor textures for USA Raptor](#index__22__1271_avraptor_textures)
-24. [2022-09-24 - Fixes atwarfactslab textures for USA War Factory](#index__23__1275_atwarfactslab_textures)
-25. [2022-09-24 - Fixes and improves atventwall01 textures for USA structures](#index__24__1277_atventwall01_textures)
-26. [2022-09-24 - Fixed avpowtruck textures for USA POW Truck](#index__25__1279_avpowtruck_textures)
-27. [2022-09-24 - Fixes atroofparts01 textures for USA structures](#index__26__1280_atroofparts01_textures)
-28. [2022-10-15 - Fixes construction fence texture of USA Power Plant](#index__27__1375_snow_night_usa_reactor_fence)
-29. [2022-10-16 - Fixes wrong helipad texture of USA Airfield](#index__28__1370_summer_day_damaged_usa_airfield_texture)
-30. [2022-10-23 - Fixes abbarracks models for USA Barracks](#index__29__1405_abbarracks_models)
-31. [2022-10-23 - Fixes atbarrslab textures for USA Barracks](#index__30__1406_atbarrslab_textures)
-32. [2022-10-23 - Fixes and improves atdoor textures](#index__31__1407_atdoor_textures)
-33. [2022-11-05 - Fixes and improves atdriveway textures for USA War Factory](#index__32__1427_atdriveway_textures)
-34. [2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory](#index__33__1427_atrepairbay_textures)
-35. [2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory](#index__34__1427_atwarfactslab_textures)
-36. [2022-11-05 - Fixes atventwall02 textures for USA structures](#index__35__1445_atventwall02_textures)
-37. [2022-11-05 - Fixes atventwall03 textures for USA structures](#index__36__1445_atventwall03_textures)
-38. [2022-11-05 - Fixes atventwall04 textures for USA structures](#index__37__1445_atventwall04_textures)
-39. [2022-11-06 - Fixes and improves atcemblock02 textures for USA structures](#index__38__1450_atcemblock02_textures)
-40. [2022-11-08 - Fixes and improves atcemwall01 textures for USA structures](#index__39__1458_atcemwall01_textures)
-41. [2022-11-08 - Fixes and improves atcemwall02 textures for USA structures](#index__40__1458_atcemwall02_textures)
-42. [2022-11-08 - Fixes and improves atcemwall03 textures for USA structures](#index__41__1458_atcemwall03_textures)
-43. [2022-11-08 - Fixes and improves atcemwall04 textures for USA structures](#index__42__1458_atcemwall04_textures)
-44. [2022-11-08 - Fixes and improves atcemwall05 textures for USA structures](#index__43__1458_atcemwall05_textures)
-45. [2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon](#index__44__1459_atmetal02_textures)
-46. [2022-11-10 - Fixes silver roof textures for USA structures](#index__45__1461_atsilverroof02_textures)
-47. [2022-11-10 - Fixes silver roof textures for USA structures](#index__46__1461_atsilverroof_textures)
-48. [2022-11-19 - Fixes conveyor belt textures of USA War Factory](#index__47__1474_atconvey02_textures)
-49. [2022-11-30 - Fixes USA Supply Center model issues](#index__48__1491_usa_supply_model)
-50. [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#index__49__133_speaker_tower_models)
-51. [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#index__50__1023_nuke_helix_model)
-52. [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#index__51__1090_china_cc_night_model)
-53. [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#index__52__1226_overlord_textures)
-54. [2022-09-21 - Adds missing China Propaganda Tower damage texture](#index__53__1239_propaganda_tower_textures)
-55. [2022-09-25 - Fixes nvinferno textures for China Inferno Cannon](#index__54__1285_nvinferno_textures)
-56. [2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank](#index__55__1290_nvgatttank_textures)
-57. [2022-09-26 - Fixes ntcement textures for China structures](#index__56__1298_ntcement_textures)
-58. [2022-09-26 - Fixes ntdrive02 textures for China Supply Center](#index__57__1300_ntdrive02_textures)
-59. [2022-09-26 - Fixes ntentry snow textures for China structures](#index__58__1301_ntentry_snow_textures)
-60. [2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant](#index__59__1302_ntpwrplantslab_textures)
-61. [2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center](#index__60__1304_ntsuppbase_snow_textures)
-62. [2022-09-26 - Fixes ntwalls01 snow textures for China structures](#index__61__1305_ntwalls01_snow_textures)
-63. [2022-09-26 - Fixes ntwalls04 snow textures for China structures](#index__62__1305_ntwalls04_snow_textures)
-64. [2022-10-08 - Removes white cubes on headlamps from China Gattling Tank](#index__63__1342_gattling_tank_model)
-65. [2022-10-08 - Removes green cubes from the damaged China Emperor Tank](#index__64__1346_emperor_model)
-66. [2022-10-08 - Fixes China Helix model issues](#index__65__1351_helix_model)
-67. [2022-10-16 - Removes floating basket from China War Factory](#index__66__1380_winter_night_china_factory_basket)
-68. [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#index__67__76_red_bullet_tracers)
-69. [2021-08-28 - Fixes wrong ability image of GLA Saboteur](#index__68__91_saboteur_ability_image)
-70. [2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade](#index__69__271_gla_fake_cc_look_mismatch)
-71. [2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type](#index__70__273_combat_bike_rocket_type)
-72. [2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site](#index__71__295_stinger_air_attack_effects)
-73. [2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap](#index__72__370_quad_damage_model)
-74. [2021-10-31 - Adds climb animation for GLA Saboteur](#index__73__606_saboteur_climb_animation)
-75. [2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon](#index__74__937_quad_cannon_bones)
-76. [2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank](#index__75__1228_scorpion_textures)
-77. [2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm](#index__76__1229_utplates_upscaled_textures)
-78. [2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus](#index__77__1231_battle_bus_textures)
-79. [2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm](#index__78__1232_utscudparts02_utsilotop01_textures)
-80. [2022-09-28 - Fixes utcloth textures for GLA structures](#index__79__1311_utcloth_textures)
-81. [2022-09-28 - Fixes utcloth2 textures for GLA structures](#index__80__1312_utcloth2_textures)
-82. [2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm](#index__81__1315_utscudslab_snow_textures)
-83. [2022-09-29 - Fixes utconcroof textures for GLA structures](#index__82__1320_utconcroof_textures)
-84. [2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps](#index__83__1325_scud_storm_night_lights)
-85. [2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps](#index__84__1326_scud_storm_snow_damage)
-86. [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#index__85__1328_utscudslab_upscaled_textures)
-87. [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#index__86__1528_worker_death_animation)
-88. [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#index__87__568_repair_bay_ruin_model)
-89. [2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees](#index__88__1638_humvee1_transition_damage_effects)
-90. [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#index__89__1639_civ_damaged_state_models)
-91. [2023-02-05 - Adds transition damage effects to Civilian vehicles](#index__90__1639_civ_transition_damage_effects)
-92. [2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air](#index__91__567_demo_combat_bike_drop)
-93. [2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building](#index__92__568_reinforcement_pad_ruin_model)
-94. [2022-07-22 - Recoveres 483 high quality textures from Generals](#index__93__734_high_res_textures)
-95. [2022-08-26 - Adds better 3D model for classic carpet bomb model](#index__94__949_carpet_bomb_model)
-96. [2022-09-01 - Fixes ugly artifacts in ground aligned flare effects](#index__95__1069_ground_flare_particles)
-97. [2022-09-01 - Improves visuals of binary data stream](#index__96__1070_binary_data_stream_visuals)
-98. [2022-09-01 - Fixes broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales](#index__97__1071_gamma_terrorist_death)
-99. [2022-09-21 - Fixes missing pieces in trcobbroad texture for cobble road](#index__98__1236_trcobbroad_texture)
-100. [2022-09-27 - Fixes pmtorch textures](#index__99__1306_pmtorch_textures)
-101. [2022-12-01 - Adds new terrain scorches for explosion effects](#index__100__1489_explosion_scorches)
-102. [2022-12-04 - Fixes invisible desert shrub bush objects](#index__101__1488_invisible_desert_shrub_bushes)
-103. [2022-12-05 - Improves scorch texture quality](#index__102__1495_scorch_textures)
-104. [2022-12-15 - Removes duplicate shockwave effects from aircraft explosions](#index__103__1504_duplicate_explosion_shockwave)
-105. [2023-01-06 - Fixes infantry missile particle effects](#index__104__1520_missile_particles)
-106. [2023-01-08 - Fixes excontrail texture](#index__105__1531_excontrail_texture)
+- [2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora](#link__20210902__145_alpha_aurora_cameo)
+- [2021-09-03 - Fixes USA Avenger model](#link__20210903__158_avenger_model)
+- [2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down](#link__20210907__254_spectre_housecolor)
+- [2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon](#link__20210911__288_swg_particle_cannon_effect_color)
+- [2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets](#link__20210913__374_laser_turret_air_model_sound)
+- [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
+- [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#link__20220913__1189_burton_texture_errors)
+- [2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon](#link__20220921__1245_atsdislab_snow_textures)
+- [2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center](#link__20220921__1246_atstratslab_snow_textures)
+- [2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield](#link__20220921__1247_attarmack_attarmack02_snow_textures)
+- [2022-09-21 - Fixes avambulance textures for USA Ambulance](#link__20220921__1248_avambulance_textures)
+- [2022-09-22 - Fixes and improves avavnger textures for USA Avenger](#link__20220922__1251_avavnger_textures)
+- [2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory](#link__20220922__1252_atdiaplate_textures)
+- [2022-09-22 - Fixes atconvey01 snow textures for USA War Factory](#link__20220922__1253_atconvey01_snow_textures)
+- [2022-09-22 - Fixes and improves avcomanche textures for USA Comanche](#link__20220922__1256_avcomanche_textures)
+- [2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank](#link__20220923__1258_avthunderbolt_textures)
+- [2022-09-23 - Fixes athqslab textures for USA Command Center](#link__20220923__1263_athqslab_textures)
+- [2022-09-23 - Fixes atmetal03 snow textures for USA structures](#link__20220923__1264_atmetal03_snow_textures)
+- [2022-09-23 - Fixes atpanelroof snow textures for USA structures](#link__20220923__1266_atpanelroof_textures)
+- [2022-09-23 - Fixes atpanelroof03 snow textures for USA structures](#link__20220923__1267_atpanelroof03_snow_textures)
+- [2022-09-23 - Fixes atprisslab snow textures for USA Prison](#link__20220923__1268_atprisslab_snow_textures)
+- [2022-09-23 - Fixes avpaladin textures for USA Paladin Tank](#link__20220923__1270_avpaladin_textures)
+- [2022-09-24 - Fixes and improves avraptor textures for USA Raptor](#link__20220924__1271_avraptor_textures)
+- [2022-09-24 - Fixes atwarfactslab textures for USA War Factory](#link__20220924__1275_atwarfactslab_textures)
+- [2022-09-24 - Fixes and improves atventwall01 textures for USA structures](#link__20220924__1277_atventwall01_textures)
+- [2022-09-24 - Fixed avpowtruck textures for USA POW Truck](#link__20220924__1279_avpowtruck_textures)
+- [2022-09-24 - Fixes atroofparts01 textures for USA structures](#link__20220924__1280_atroofparts01_textures)
+- [2022-10-15 - Fixes construction fence texture of USA Power Plant](#link__20221015__1375_snow_night_usa_reactor_fence)
+- [2022-10-16 - Fixes wrong helipad texture of USA Airfield](#link__20221016__1370_summer_day_damaged_usa_airfield_texture)
+- [2022-10-23 - Fixes abbarracks models for USA Barracks](#link__20221023__1405_abbarracks_models)
+- [2022-10-23 - Fixes atbarrslab textures for USA Barracks](#link__20221023__1406_atbarrslab_textures)
+- [2022-10-23 - Fixes and improves atdoor textures](#link__20221023__1407_atdoor_textures)
+- [2022-11-05 - Fixes and improves atdriveway textures for USA War Factory](#link__20221105__1427_atdriveway_textures)
+- [2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory](#link__20221105__1427_atrepairbay_textures)
+- [2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory](#link__20221105__1427_atwarfactslab_textures)
+- [2022-11-05 - Fixes atventwall02 textures for USA structures](#link__20221105__1445_atventwall02_textures)
+- [2022-11-05 - Fixes atventwall03 textures for USA structures](#link__20221105__1445_atventwall03_textures)
+- [2022-11-05 - Fixes atventwall04 textures for USA structures](#link__20221105__1445_atventwall04_textures)
+- [2022-11-06 - Fixes and improves atcemblock02 textures for USA structures](#link__20221106__1450_atcemblock02_textures)
+- [2022-11-08 - Fixes and improves atcemwall01 textures for USA structures](#link__20221108__1458_atcemwall01_textures)
+- [2022-11-08 - Fixes and improves atcemwall02 textures for USA structures](#link__20221108__1458_atcemwall02_textures)
+- [2022-11-08 - Fixes and improves atcemwall03 textures for USA structures](#link__20221108__1458_atcemwall03_textures)
+- [2022-11-08 - Fixes and improves atcemwall04 textures for USA structures](#link__20221108__1458_atcemwall04_textures)
+- [2022-11-08 - Fixes and improves atcemwall05 textures for USA structures](#link__20221108__1458_atcemwall05_textures)
+- [2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon](#link__20221108__1459_atmetal02_textures)
+- [2022-11-10 - Fixes silver roof textures for USA structures](#link__20221110__1461_atsilverroof02_textures)
+- [2022-11-10 - Fixes silver roof textures for USA structures](#link__20221110__1461_atsilverroof_textures)
+- [2022-11-19 - Fixes conveyor belt textures of USA War Factory](#link__20221119__1474_atconvey02_textures)
+- [2022-11-30 - Fixes USA Supply Center model issues](#link__20221130__1491_usa_supply_model)
+- [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#link__20210901__133_speaker_tower_models)
+- [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
+- [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#link__20220903__1090_china_cc_night_model)
+- [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#link__20220920__1226_overlord_textures)
+- [2022-09-21 - Adds missing China Propaganda Tower damage texture](#link__20220921__1239_propaganda_tower_textures)
+- [2022-09-25 - Fixes nvinferno textures for China Inferno Cannon](#link__20220925__1285_nvinferno_textures)
+- [2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank](#link__20220925__1290_nvgatttank_textures)
+- [2022-09-26 - Fixes ntcement textures for China structures](#link__20220926__1298_ntcement_textures)
+- [2022-09-26 - Fixes ntdrive02 textures for China Supply Center](#link__20220926__1300_ntdrive02_textures)
+- [2022-09-26 - Fixes ntentry snow textures for China structures](#link__20220926__1301_ntentry_snow_textures)
+- [2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant](#link__20220926__1302_ntpwrplantslab_textures)
+- [2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center](#link__20220926__1304_ntsuppbase_snow_textures)
+- [2022-09-26 - Fixes ntwalls01 snow textures for China structures](#link__20220926__1305_ntwalls01_snow_textures)
+- [2022-09-26 - Fixes ntwalls04 snow textures for China structures](#link__20220926__1305_ntwalls04_snow_textures)
+- [2022-10-08 - Removes white cubes on headlamps from China Gattling Tank](#link__20221008__1342_gattling_tank_model)
+- [2022-10-08 - Removes green cubes from the damaged China Emperor Tank](#link__20221008__1346_emperor_model)
+- [2022-10-08 - Fixes China Helix model issues](#link__20221008__1351_helix_model)
+- [2022-10-16 - Removes floating basket from China War Factory](#link__20221016__1380_winter_night_china_factory_basket)
+- [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#link__20210827__76_red_bullet_tracers)
+- [2021-08-28 - Fixes wrong ability image of GLA Saboteur](#link__20210828__91_saboteur_ability_image)
+- [2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade](#link__20210910__271_gla_fake_cc_look_mismatch)
+- [2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type](#link__20210910__273_combat_bike_rocket_type)
+- [2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site](#link__20210911__295_stinger_air_attack_effects)
+- [2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap](#link__20210916__370_quad_damage_model)
+- [2021-10-31 - Adds climb animation for GLA Saboteur](#link__20211031__606_saboteur_climb_animation)
+- [2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon](#link__20220820__937_quad_cannon_bones)
+- [2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank](#link__20220920__1228_scorpion_textures)
+- [2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm](#link__20220920__1229_utplates_upscaled_textures)
+- [2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus](#link__20220920__1231_battle_bus_textures)
+- [2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm](#link__20220920__1232_utscudparts02_utsilotop01_textures)
+- [2022-09-28 - Fixes utcloth textures for GLA structures](#link__20220928__1311_utcloth_textures)
+- [2022-09-28 - Fixes utcloth2 textures for GLA structures](#link__20220928__1312_utcloth2_textures)
+- [2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm](#link__20220928__1315_utscudslab_snow_textures)
+- [2022-09-29 - Fixes utconcroof textures for GLA structures](#link__20220929__1320_utconcroof_textures)
+- [2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps](#link__20221002__1325_scud_storm_night_lights)
+- [2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps](#link__20221002__1326_scud_storm_snow_damage)
+- [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#link__20221002__1328_utscudslab_upscaled_textures)
+- [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#link__20230108__1528_worker_death_animation)
+- [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#link__20211016__568_repair_bay_ruin_model)
+- [2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees](#link__20230205__1638_humvee1_transition_damage_effects)
+- [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#link__20230205__1639_civ_damaged_state_models)
+- [2023-02-05 - Adds transition damage effects to Civilian vehicles](#link__20230205__1639_civ_transition_damage_effects)
+- [2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air](#link__20211016__567_demo_combat_bike_drop)
+- [2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building](#link__20211016__568_reinforcement_pad_ruin_model)
+- [2022-07-22 - Recoveres 483 high quality textures from Generals](#link__20220722__734_high_res_textures)
+- [2022-08-26 - Adds better 3D model for classic carpet bomb model](#link__20220826__949_carpet_bomb_model)
+- [2022-09-01 - Fixes ugly artifacts in ground aligned flare effects](#link__20220901__1069_ground_flare_particles)
+- [2022-09-01 - Improves visuals of binary data stream](#link__20220901__1070_binary_data_stream_visuals)
+- [2022-09-01 - Fixes broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales](#link__20220901__1071_gamma_terrorist_death)
+- [2022-09-21 - Fixes missing pieces in trcobbroad texture for cobble road](#link__20220921__1236_trcobbroad_texture)
+- [2022-09-27 - Fixes pmtorch textures](#link__20220927__1306_pmtorch_textures)
+- [2022-12-01 - Adds new terrain scorches for explosion effects](#link__20221201__1489_explosion_scorches)
+- [2022-12-04 - Fixes invisible desert shrub bush objects](#link__20221204__1488_invisible_desert_shrub_bushes)
+- [2022-12-05 - Improves scorch texture quality](#link__20221205__1495_scorch_textures)
+- [2022-12-15 - Removes duplicate shockwave effects from aircraft explosions](#link__20221215__1504_duplicate_explosion_shockwave)
+- [2023-01-06 - Fixes infantry missile particle effects](#link__20230106__1520_missile_particles)
+- [2023-01-08 - Fixes excontrail texture](#link__20230108__1531_excontrail_texture)
 
 
 
 ---
-### 2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora <a name='index__0__145_alpha_aurora_cameo'></a>
+### 2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora <a name='link__20210902__145_alpha_aurora_cameo'></a>
 **Changes**
 
 - **FIX**: Fixes the wrong portrait image of the USA Alpha Aurora.
@@ -160,7 +160,7 @@ Contains 106 entries with
 **Source:** 145_alpha_aurora_cameo.yaml
 
 ---
-### 2021-09-03 - Fixes USA Avenger model <a name='index__1__158_avenger_model'></a>
+### 2021-09-03 - Fixes USA Avenger model <a name='link__20210903__158_avenger_model'></a>
 **Changes**
 
 - **FIX**: Removes a small piece of misplaced geometry from the wheels.
@@ -176,7 +176,7 @@ Contains 106 entries with
 **Source:** 158_avenger_model.yaml
 
 ---
-### 2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down <a name='index__2__254_spectre_housecolor'></a>
+### 2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down <a name='link__20210907__254_spectre_housecolor'></a>
 **Changes**
 
 - **FIX**: The house color of the USA Spectre Gunship now remains when shot down.
@@ -192,7 +192,7 @@ Contains 106 entries with
 **Source:** 254_spectre_housecolor.yaml
 
 ---
-### 2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon <a name='index__3__288_swg_particle_cannon_effect_color'></a>
+### 2021-09-11 - Fixes wrong particle effect colors on Superweapon USA Particle Cannon <a name='link__20210911__288_swg_particle_cannon_effect_color'></a>
 **Changes**
 
 - **FIX**: The Super Weapon General's Particle Cannon no longer has blue colored effects mixed in with the pink effects when ready to fire and when getting destroyed.
@@ -208,7 +208,7 @@ Contains 106 entries with
 **Source:** 288_swg_particle_cannon_effect_color.yaml
 
 ---
-### 2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets <a name='index__4__374_laser_turret_air_model_sound'></a>
+### 2021-09-13 - Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets <a name='link__20210913__374_laser_turret_air_model_sound'></a>
 **Changes**
 
 - **FIX**: The USA Laser Turret now uses the correct laser effect and sound when attacking air targets.
@@ -224,7 +224,7 @@ Contains 106 entries with
 **Source:** 374_laser_turret_air_model_sound.yaml
 
 ---
-### 2022-09-10 - Adds blue texture variants for USA Infantry units <a name='index__5__1179_usa_infantry_textures'></a>
+### 2022-09-10 - Adds blue texture variants for USA Infantry units <a name='link__20220910__1179_usa_infantry_textures'></a>
 **Changes**
 
 - **FEATURE**: Adds blue texture for
@@ -246,7 +246,7 @@ Contains 106 entries with
 **Source:** 1179_usa_infantry_textures.yaml
 
 ---
-### 2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton <a name='index__6__1189_burton_texture_errors'></a>
+### 2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton <a name='link__20220913__1189_burton_texture_errors'></a>
 **Changes**
 
 - **FIX**: Fixes texture error on pants of USA Colonel Burton.
@@ -262,7 +262,7 @@ Contains 106 entries with
 **Source:** 1189_burton_texture_errors.yaml
 
 ---
-### 2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon <a name='index__7__1245_atsdislab_snow_textures'></a>
+### 2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon <a name='link__20220921__1245_atsdislab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atsdislab snow textures for USA Particle Cannon. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
@@ -285,7 +285,7 @@ Contains 106 entries with
 **Source:** 1245_atsdislab_snow_textures.yaml
 
 ---
-### 2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center <a name='index__8__1246_atstratslab_snow_textures'></a>
+### 2022-09-21 - Fixes atstratslab snow textures for USA Strategy Center <a name='link__20220921__1246_atstratslab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atstratslab snow textures for USA Strategy Center. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
@@ -313,7 +313,7 @@ Contains 106 entries with
 **Source:** 1246_atstratslab_snow_textures.yaml
 
 ---
-### 2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield <a name='index__9__1247_attarmack_attarmack02_snow_textures'></a>
+### 2022-09-21 - Fixes attarmack, attarmack02 snow textures for USA Airfield <a name='link__20220921__1247_attarmack_attarmack02_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes attarmack, attarmack02 snow textures for USA Airfield.
@@ -345,7 +345,7 @@ Contains 106 entries with
 **Source:** 1247_attarmack_attarmack02_snow_textures.yaml
 
 ---
-### 2022-09-21 - Fixes avambulance textures for USA Ambulance <a name='index__10__1248_avambulance_textures'></a>
+### 2022-09-21 - Fixes avambulance textures for USA Ambulance <a name='link__20220921__1248_avambulance_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avambulance textures for USA Ambulance.
@@ -387,7 +387,7 @@ Contains 106 entries with
 **Source:** 1248_avambulance_textures.yaml
 
 ---
-### 2022-09-22 - Fixes and improves avavnger textures for USA Avenger <a name='index__11__1251_avavnger_textures'></a>
+### 2022-09-22 - Fixes and improves avavnger textures for USA Avenger <a name='link__20220922__1251_avavnger_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves avavnger textures for USA Avenger. The damaged textures are remade by borrowing pieces from original Humvee textures.
@@ -428,7 +428,7 @@ Contains 106 entries with
 **Source:** 1251_avavnger_textures.yaml
 
 ---
-### 2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory <a name='index__12__1252_atdiaplate_textures'></a>
+### 2022-09-22 - Fixes and improves atdiaplate textures for USA War Factory <a name='link__20220922__1252_atdiaplate_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atdiaplate textures for USA War Factory.
@@ -465,7 +465,7 @@ Contains 106 entries with
 **Source:** 1252_atdiaplate_textures.yaml
 
 ---
-### 2022-09-22 - Fixes atconvey01 snow textures for USA War Factory <a name='index__13__1253_atconvey01_snow_textures'></a>
+### 2022-09-22 - Fixes atconvey01 snow textures for USA War Factory <a name='link__20220922__1253_atconvey01_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atconvey01 snow textures for USA War Factory. Originally the snow does not overlap correctly from one stage to another, which will incur visible texture shifts during damage transition of the structure.
@@ -492,7 +492,7 @@ Contains 106 entries with
 **Source:** 1253_atconvey01_snow_textures.yaml
 
 ---
-### 2022-09-22 - Fixes and improves avcomanche textures for USA Comanche <a name='index__14__1256_avcomanche_textures'></a>
+### 2022-09-22 - Fixes and improves avcomanche textures for USA Comanche <a name='link__20220922__1256_avcomanche_textures'></a>
 **Changes**
 
 - **FIX**: Fixes inconsistencies on avcomanche textures for USA Comanche.
@@ -530,7 +530,7 @@ Contains 106 entries with
 **Source:** 1256_avcomanche_textures.yaml
 
 ---
-### 2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank <a name='index__15__1258_avthunderbolt_textures'></a>
+### 2022-09-23 - Fixes and improves avthunderbolt textures for USA Microwave Tank <a name='link__20220923__1258_avthunderbolt_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves avthunderbolt textures for USA Microwave Tank.
@@ -567,7 +567,7 @@ Contains 106 entries with
 **Source:** 1258_avthunderbolt_textures.yaml
 
 ---
-### 2022-09-23 - Fixes athqslab textures for USA Command Center <a name='index__16__1263_athqslab_textures'></a>
+### 2022-09-23 - Fixes athqslab textures for USA Command Center <a name='link__20220923__1263_athqslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes athqslab textures for USA Command Center.
@@ -605,7 +605,7 @@ Contains 106 entries with
 **Source:** 1263_athqslab_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atmetal03 snow textures for USA structures <a name='index__17__1264_atmetal03_snow_textures'></a>
+### 2022-09-23 - Fixes atmetal03 snow textures for USA structures <a name='link__20220923__1264_atmetal03_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atmetal03_s texture.
@@ -627,7 +627,7 @@ Contains 106 entries with
 **Source:** 1264_atmetal03_snow_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atpanelroof snow textures for USA structures <a name='index__18__1266_atpanelroof_textures'></a>
+### 2022-09-23 - Fixes atpanelroof snow textures for USA structures <a name='link__20220923__1266_atpanelroof_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atpanelroof snow textures.
@@ -659,7 +659,7 @@ Contains 106 entries with
 **Source:** 1266_atpanelroof_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atpanelroof03 snow textures for USA structures <a name='index__19__1267_atpanelroof03_snow_textures'></a>
+### 2022-09-23 - Fixes atpanelroof03 snow textures for USA structures <a name='link__20220923__1267_atpanelroof03_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atpanelroof3 texture.
@@ -682,7 +682,7 @@ Contains 106 entries with
 **Source:** 1267_atpanelroof03_snow_textures.yaml
 
 ---
-### 2022-09-23 - Fixes atprisslab snow textures for USA Prison <a name='index__20__1268_atprisslab_snow_textures'></a>
+### 2022-09-23 - Fixes atprisslab snow textures for USA Prison <a name='link__20220923__1268_atprisslab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atprisslab snow textures for USA Prison
@@ -708,7 +708,7 @@ Contains 106 entries with
 **Source:** 1268_atprisslab_snow_textures.yaml
 
 ---
-### 2022-09-23 - Fixes avpaladin textures for USA Paladin Tank <a name='index__21__1270_avpaladin_textures'></a>
+### 2022-09-23 - Fixes avpaladin textures for USA Paladin Tank <a name='link__20220923__1270_avpaladin_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avpaladin damaged textures. The fixes are very minor and therefore optional.
@@ -733,7 +733,7 @@ Contains 106 entries with
 **Source:** 1270_avpaladin_textures.yaml
 
 ---
-### 2022-09-24 - Fixes and improves avraptor textures for USA Raptor <a name='index__22__1271_avraptor_textures'></a>
+### 2022-09-24 - Fixes and improves avraptor textures for USA Raptor <a name='link__20220924__1271_avraptor_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avraptor textures. The damaged texture changes are very minor, therefore are optional.
@@ -762,7 +762,7 @@ Contains 106 entries with
 **Source:** 1271_avraptor_textures.yaml
 
 ---
-### 2022-09-24 - Fixes atwarfactslab textures for USA War Factory <a name='index__23__1275_atwarfactslab_textures'></a>
+### 2022-09-24 - Fixes atwarfactslab textures for USA War Factory <a name='link__20220924__1275_atwarfactslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atwarfactslab textures for USA War Factory.
@@ -790,7 +790,7 @@ Contains 106 entries with
 **Source:** 1275_atwarfactslab_textures.yaml
 
 ---
-### 2022-09-24 - Fixes and improves atventwall01 textures for USA structures <a name='index__24__1277_atventwall01_textures'></a>
+### 2022-09-24 - Fixes and improves atventwall01 textures for USA structures <a name='link__20220924__1277_atventwall01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atventwall01 textures.
@@ -821,7 +821,7 @@ Contains 106 entries with
 **Source:** 1277_atventwall01_textures.yaml
 
 ---
-### 2022-09-24 - Fixed avpowtruck textures for USA POW Truck <a name='index__25__1279_avpowtruck_textures'></a>
+### 2022-09-24 - Fixed avpowtruck textures for USA POW Truck <a name='link__20220924__1279_avpowtruck_textures'></a>
 **Changes**
 
 - **FIX**: Fixes avpowtruck textures for USA POW Truck.
@@ -849,7 +849,7 @@ Contains 106 entries with
 **Source:** 1279_avpowtruck_textures.yaml
 
 ---
-### 2022-09-24 - Fixes atroofparts01 textures for USA structures <a name='index__26__1280_atroofparts01_textures'></a>
+### 2022-09-24 - Fixes atroofparts01 textures for USA structures <a name='link__20220924__1280_atroofparts01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atroofparts01 textures for USA structures.
@@ -886,7 +886,7 @@ Contains 106 entries with
 **Source:** 1280_atroofparts01_textures.yaml
 
 ---
-### 2022-10-15 - Fixes construction fence texture of USA Power Plant <a name='index__27__1375_snow_night_usa_reactor_fence'></a>
+### 2022-10-15 - Fixes construction fence texture of USA Power Plant <a name='link__20221015__1375_snow_night_usa_reactor_fence'></a>
 **Changes**
 
 - **FIX**: The construction fence texture of the USA Power Plant on Winter Night maps now looks proper.
@@ -902,7 +902,7 @@ Contains 106 entries with
 **Source:** 1375_snow_night_usa_reactor_fence.yaml
 
 ---
-### 2022-10-16 - Fixes wrong helipad texture of USA Airfield <a name='index__28__1370_summer_day_damaged_usa_airfield_texture'></a>
+### 2022-10-16 - Fixes wrong helipad texture of USA Airfield <a name='link__20221016__1370_summer_day_damaged_usa_airfield_texture'></a>
 **Changes**
 
 - **FIX**: Helipad of badly damaged USA Airfield on Summer Day maps now uses the correct texture.
@@ -918,7 +918,7 @@ Contains 106 entries with
 **Source:** 1370_summer_day_damaged_usa_airfield_texture.yaml
 
 ---
-### 2022-10-23 - Fixes abbarracks models for USA Barracks <a name='index__29__1405_abbarracks_models'></a>
+### 2022-10-23 - Fixes abbarracks models for USA Barracks <a name='link__20221023__1405_abbarracks_models'></a>
 **Changes**
 
 - **FIX**: Fixes texture errors in abbarracks w3d for USA Barracks.
@@ -943,7 +943,7 @@ Contains 106 entries with
 **Source:** 1405_abbarracks_models.yaml
 
 ---
-### 2022-10-23 - Fixes atbarrslab textures for USA Barracks <a name='index__30__1406_atbarrslab_textures'></a>
+### 2022-10-23 - Fixes atbarrslab textures for USA Barracks <a name='link__20221023__1406_atbarrslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atbarrslab textures for USA Barracks.
@@ -979,7 +979,7 @@ Contains 106 entries with
 **Source:** 1406_atbarrslab_textures.yaml
 
 ---
-### 2022-10-23 - Fixes and improves atdoor textures <a name='index__31__1407_atdoor_textures'></a>
+### 2022-10-23 - Fixes and improves atdoor textures <a name='link__20221023__1407_atdoor_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atdoor textures.
@@ -1005,7 +1005,7 @@ Contains 106 entries with
 **Source:** 1407_atdoor_textures.yaml
 
 ---
-### 2022-11-05 - Fixes and improves atdriveway textures for USA War Factory <a name='index__32__1427_atdriveway_textures'></a>
+### 2022-11-05 - Fixes and improves atdriveway textures for USA War Factory <a name='link__20221105__1427_atdriveway_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atdriveway textures for USA War Factory.
@@ -1045,7 +1045,7 @@ Contains 106 entries with
 **Source:** 1427_atdriveway_textures.yaml
 
 ---
-### 2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory <a name='index__33__1427_atrepairbay_textures'></a>
+### 2022-11-05 - Fixes and improves atrepairbay textures for USA War Factory <a name='link__20221105__1427_atrepairbay_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atrepairbay textures for USA War Factory.
@@ -1080,7 +1080,7 @@ Contains 106 entries with
 **Source:** 1427_atrepairbay_textures.yaml
 
 ---
-### 2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory <a name='index__34__1427_atwarfactslab_textures'></a>
+### 2022-11-05 - Fixes and improves atwarfactslab textures for USA War Factory <a name='link__20221105__1427_atwarfactslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atwarfactslab textures for USA War Factory.
@@ -1110,7 +1110,7 @@ Contains 106 entries with
 **Source:** 1427_atwarfactslab_textures.yaml
 
 ---
-### 2022-11-05 - Fixes atventwall02 textures for USA structures <a name='index__35__1445_atventwall02_textures'></a>
+### 2022-11-05 - Fixes atventwall02 textures for USA structures <a name='link__20221105__1445_atventwall02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atventwall02 textures for USA structures.
@@ -1134,7 +1134,7 @@ Contains 106 entries with
 **Source:** 1445_atventwall02_textures.yaml
 
 ---
-### 2022-11-05 - Fixes atventwall03 textures for USA structures <a name='index__36__1445_atventwall03_textures'></a>
+### 2022-11-05 - Fixes atventwall03 textures for USA structures <a name='link__20221105__1445_atventwall03_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atventwall03 textures for USA structures.
@@ -1158,7 +1158,7 @@ Contains 106 entries with
 **Source:** 1445_atventwall03_textures.yaml
 
 ---
-### 2022-11-05 - Fixes atventwall04 textures for USA structures <a name='index__37__1445_atventwall04_textures'></a>
+### 2022-11-05 - Fixes atventwall04 textures for USA structures <a name='link__20221105__1445_atventwall04_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atventwall04 textures for USA structures.
@@ -1182,7 +1182,7 @@ Contains 106 entries with
 **Source:** 1445_atventwall04_textures.yaml
 
 ---
-### 2022-11-06 - Fixes and improves atcemblock02 textures for USA structures <a name='index__38__1450_atcemblock02_textures'></a>
+### 2022-11-06 - Fixes and improves atcemblock02 textures for USA structures <a name='link__20221106__1450_atcemblock02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes atcemblock02 textures.
@@ -1210,7 +1210,7 @@ Contains 106 entries with
 **Source:** 1450_atcemblock02_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall01 textures for USA structures <a name='index__39__1458_atcemwall01_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall01 textures for USA structures <a name='link__20221108__1458_atcemwall01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall01 textures for USA structures.
@@ -1244,7 +1244,7 @@ Contains 106 entries with
 **Source:** 1458_atcemwall01_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall02 textures for USA structures <a name='index__40__1458_atcemwall02_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall02 textures for USA structures <a name='link__20221108__1458_atcemwall02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall02 textures for USA structures.
@@ -1287,7 +1287,7 @@ Contains 106 entries with
 **Source:** 1458_atcemwall02_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall03 textures for USA structures <a name='index__41__1458_atcemwall03_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall03 textures for USA structures <a name='link__20221108__1458_atcemwall03_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall03 textures for USA structures.
@@ -1310,7 +1310,7 @@ Contains 106 entries with
 **Source:** 1458_atcemwall03_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall04 textures for USA structures <a name='index__42__1458_atcemwall04_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall04 textures for USA structures <a name='link__20221108__1458_atcemwall04_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall04 textures for USA structures.
@@ -1346,7 +1346,7 @@ Contains 106 entries with
 **Source:** 1458_atcemwall04_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atcemwall05 textures for USA structures <a name='index__43__1458_atcemwall05_textures'></a>
+### 2022-11-08 - Fixes and improves atcemwall05 textures for USA structures <a name='link__20221108__1458_atcemwall05_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atcemwall05 textures for USA structures.
@@ -1381,7 +1381,7 @@ Contains 106 entries with
 **Source:** 1458_atcemwall05_textures.yaml
 
 ---
-### 2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon <a name='index__44__1459_atmetal02_textures'></a>
+### 2022-11-08 - Fixes and improves atmetal02 textures for USA Particle Cannon <a name='link__20221108__1459_atmetal02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves atmetal02 textures for USA Particle Cannon.
@@ -1411,7 +1411,7 @@ Contains 106 entries with
 **Source:** 1459_atmetal02_textures.yaml
 
 ---
-### 2022-11-10 - Fixes silver roof textures for USA structures <a name='index__45__1461_atsilverroof02_textures'></a>
+### 2022-11-10 - Fixes silver roof textures for USA structures <a name='link__20221110__1461_atsilverroof02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes silver roof textures for USA structures.
@@ -1444,7 +1444,7 @@ Contains 106 entries with
 **Source:** 1461_atsilverroof02_textures.yaml
 
 ---
-### 2022-11-10 - Fixes silver roof textures for USA structures <a name='index__46__1461_atsilverroof_textures'></a>
+### 2022-11-10 - Fixes silver roof textures for USA structures <a name='link__20221110__1461_atsilverroof_textures'></a>
 **Changes**
 
 - **FIX**: Fixes silver roof textures for USA structures.
@@ -1472,7 +1472,7 @@ Contains 106 entries with
 **Source:** 1461_atsilverroof_textures.yaml
 
 ---
-### 2022-11-19 - Fixes conveyor belt textures of USA War Factory <a name='index__47__1474_atconvey02_textures'></a>
+### 2022-11-19 - Fixes conveyor belt textures of USA War Factory <a name='link__20221119__1474_atconvey02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes dust tiling on the atconvey02_e texture.
@@ -1488,7 +1488,7 @@ Contains 106 entries with
 **Source:** 1474_atconvey02_textures.yaml
 
 ---
-### 2022-11-30 - Fixes USA Supply Center model issues <a name='index__48__1491_usa_supply_model'></a>
+### 2022-11-30 - Fixes USA Supply Center model issues <a name='link__20221130__1491_usa_supply_model'></a>
 **Changes**
 
 - **FIX**: Cable no longer clips through the claw of the crane.
@@ -1504,7 +1504,7 @@ Contains 106 entries with
 **Source:** 1491_usa_supply_model.yaml
 
 ---
-### 2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps <a name='index__49__133_speaker_tower_models'></a>
+### 2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps <a name='link__20210901__133_speaker_tower_models'></a>
 **Changes**
 
 - **FIX**: Adds missing house colors to China Speaker Tower on Winter maps.
@@ -1520,7 +1520,7 @@ Contains 106 entries with
 **Source:** 133_speaker_tower_models.yaml
 
 ---
-### 2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix <a name='index__50__1023_nuke_helix_model'></a>
+### 2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix <a name='link__20220813__1023_nuke_helix_model'></a>
 **Changes**
 
 - **FIX**: The China Nuke Helix now displays nuklear symbols instead of stars on its wings. This is consistent with nuke symbols on Mig Jet and Nuke Cannon.
@@ -1536,7 +1536,7 @@ Contains 106 entries with
 **Source:** 1023_nuke_helix_model.yaml
 
 ---
-### 2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps <a name='index__51__1090_china_cc_night_model'></a>
+### 2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps <a name='link__20220903__1090_china_cc_night_model'></a>
 **Changes**
 
 - **FIX**: Fixes the duplicated structure parts on the damaged China Command Center on Night maps
@@ -1552,7 +1552,7 @@ Contains 106 entries with
 **Source:** 1090_china_cc_night_model.yaml
 
 ---
-### 2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank <a name='index__52__1226_overlord_textures'></a>
+### 2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank <a name='link__20220920__1226_overlord_textures'></a>
 **Changes**
 
 - **FIX**: Removes the wheel(s) on the chassis of the China Overlord Tank.
@@ -1568,7 +1568,7 @@ Contains 106 entries with
 **Source:** 1226_overlord_textures.yaml
 
 ---
-### 2022-09-21 - Adds missing China Propaganda Tower damage texture <a name='index__53__1239_propaganda_tower_textures'></a>
+### 2022-09-21 - Adds missing China Propaganda Tower damage texture <a name='link__20220921__1239_propaganda_tower_textures'></a>
 **Changes**
 
 - **FIX**: Adds missing nbptower_e texture. nbptower_es (snow) does already exist. Originally NBPTower_E.W3D references nbptower_d texture.
@@ -1584,7 +1584,7 @@ Contains 106 entries with
 **Source:** 1239_propaganda_tower_textures.yaml
 
 ---
-### 2022-09-25 - Fixes nvinferno textures for China Inferno Cannon <a name='index__54__1285_nvinferno_textures'></a>
+### 2022-09-25 - Fixes nvinferno textures for China Inferno Cannon <a name='link__20220925__1285_nvinferno_textures'></a>
 **Changes**
 
 - **FIX**: Fixes nvinferno textures for China Inferno Cannon.
@@ -1610,7 +1610,7 @@ Contains 106 entries with
 **Source:** 1285_nvinferno_textures.yaml
 
 ---
-### 2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank <a name='index__55__1290_nvgatttank_textures'></a>
+### 2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank <a name='link__20220925__1290_nvgatttank_textures'></a>
 **Changes**
 
 - **FIX**: Fixes nvgatttank textures. The chassis wheels have been replaced with proper headlamps in the same style as Outpost and Nuke Cannon. The headlamp piece is mapped to both front and back. The Gattling barrels now look shiny by borrowing the same texture from other Gattling Cannons.
@@ -1644,7 +1644,7 @@ Contains 106 entries with
 **Source:** 1290_nvgatttank_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntcement textures for China structures <a name='index__56__1298_ntcement_textures'></a>
+### 2022-09-26 - Fixes ntcement textures for China structures <a name='link__20220926__1298_ntcement_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntcement textures. There is a slight color mismatch on some rubble between _d and _e variants.
@@ -1666,7 +1666,7 @@ Contains 106 entries with
 **Source:** 1298_ntcement_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntdrive02 textures for China Supply Center <a name='index__57__1300_ntdrive02_textures'></a>
+### 2022-09-26 - Fixes ntdrive02 textures for China Supply Center <a name='link__20220926__1300_ntdrive02_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntdrive02 textures for China Supply Center.
@@ -1693,7 +1693,7 @@ Contains 106 entries with
 **Source:** 1300_ntdrive02_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntentry snow textures for China structures <a name='index__58__1301_ntentry_snow_textures'></a>
+### 2022-09-26 - Fixes ntentry snow textures for China structures <a name='link__20220926__1301_ntentry_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntentry snow textures.
@@ -1719,7 +1719,7 @@ Contains 106 entries with
 **Source:** 1301_ntentry_snow_textures.yaml
 
 ---
-### 2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant <a name='index__59__1302_ntpwrplantslab_textures'></a>
+### 2022-09-26 - Fixes and improves ntpwrplantslab textures for China Power Plant <a name='link__20220926__1302_ntpwrplantslab_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves ntpwrplantslab textures for China Power Plant.
@@ -1754,7 +1754,7 @@ Contains 106 entries with
 **Source:** 1302_ntpwrplantslab_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center <a name='index__60__1304_ntsuppbase_snow_textures'></a>
+### 2022-09-26 - Fixes ntsuppbase snow textures for China Supply Center <a name='link__20220926__1304_ntsuppbase_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntsuppbase snow textures for China Supply Center.
@@ -1785,7 +1785,7 @@ Contains 106 entries with
 **Source:** 1304_ntsuppbase_snow_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntwalls01 snow textures for China structures <a name='index__61__1305_ntwalls01_snow_textures'></a>
+### 2022-09-26 - Fixes ntwalls01 snow textures for China structures <a name='link__20220926__1305_ntwalls01_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntwalls01 snow textures. The snow is no longer upside-down on specific walls, most notably the China Airfield.
@@ -1807,7 +1807,7 @@ Contains 106 entries with
 **Source:** 1305_ntwalls01_snow_textures.yaml
 
 ---
-### 2022-09-26 - Fixes ntwalls04 snow textures for China structures <a name='index__62__1305_ntwalls04_snow_textures'></a>
+### 2022-09-26 - Fixes ntwalls04 snow textures for China structures <a name='link__20220926__1305_ntwalls04_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes ntwalls04 snow textures. The snow is no longer upside-down on specific walls, most notably the China Airfield.
@@ -1835,7 +1835,7 @@ Contains 106 entries with
 **Source:** 1305_ntwalls04_snow_textures.yaml
 
 ---
-### 2022-10-08 - Removes white cubes on headlamps from China Gattling Tank <a name='index__63__1342_gattling_tank_model'></a>
+### 2022-10-08 - Removes white cubes on headlamps from China Gattling Tank <a name='link__20221008__1342_gattling_tank_model'></a>
 **Changes**
 
 - **FIX**: Removes white cubes (bones) on headlamps from China Gattling Tank on Summer Night maps.
@@ -1851,7 +1851,7 @@ Contains 106 entries with
 **Source:** 1342_gattling_tank_model.yaml
 
 ---
-### 2022-10-08 - Removes green cubes from the damaged China Emperor Tank <a name='index__64__1346_emperor_model'></a>
+### 2022-10-08 - Removes green cubes from the damaged China Emperor Tank <a name='link__20221008__1346_emperor_model'></a>
 **Changes**
 
 - **FIX**: Removes green cubes (bones) from the damaged China Emperor Tank.
@@ -1867,7 +1867,7 @@ Contains 106 entries with
 **Source:** 1346_emperor_model.yaml
 
 ---
-### 2022-10-08 - Fixes China Helix model issues <a name='index__65__1351_helix_model'></a>
+### 2022-10-08 - Fixes China Helix model issues <a name='link__20221008__1351_helix_model'></a>
 **Changes**
 
 - **FIX**: Damaged China Helix now uses damaged texture instead of wreck texture.
@@ -1883,7 +1883,7 @@ Contains 106 entries with
 **Source:** 1351_helix_model.yaml
 
 ---
-### 2022-10-16 - Removes floating basket from China War Factory <a name='index__66__1380_winter_night_china_factory_basket'></a>
+### 2022-10-16 - Removes floating basket from China War Factory <a name='link__20221016__1380_winter_night_china_factory_basket'></a>
 **Changes**
 
 - **FIX**: Removes the floating basket from the undamaged China War Factory on snow night maps.
@@ -1899,7 +1899,7 @@ Contains 106 entries with
 **Source:** 1380_winter_night_china_factory_basket.yaml
 
 ---
-### 2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder <a name='index__67__76_red_bullet_tracers'></a>
+### 2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder <a name='link__20210827__76_red_bullet_tracers'></a>
 **Changes**
 
 - **FIX**: Heroic Jarmen Kell and Pathfinder now shoot with red tracer effects.
@@ -1915,7 +1915,7 @@ Contains 106 entries with
 **Source:** 76_red_bullet_tracers.yaml
 
 ---
-### 2021-08-28 - Fixes wrong ability image of GLA Saboteur <a name='index__68__91_saboteur_ability_image'></a>
+### 2021-08-28 - Fixes wrong ability image of GLA Saboteur <a name='link__20210828__91_saboteur_ability_image'></a>
 **Changes**
 
 - **FIX**: The Sabotage Building ability now shows the intended icon image instead of being a duplicate of the Saboteur's portrait.
@@ -1931,7 +1931,7 @@ Contains 106 entries with
 **Source:** 91_saboteur_ability_image.yaml
 
 ---
-### 2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade <a name='index__69__271_gla_fake_cc_look_mismatch'></a>
+### 2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade <a name='link__20210910__271_gla_fake_cc_look_mismatch'></a>
 **Changes**
 
 - **FIX**: When upgraded with Fortified Structures, the Fake GLA Command Centers of the Stealth, Tox and Demo General will no longer lose their sub-faction decal. They will have the correct appearance with the decal even with the upgrade.
@@ -1947,7 +1947,7 @@ Contains 106 entries with
 **Source:** 271_gla_fake_cc_look_mismatch.yaml
 
 ---
-### 2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type <a name='index__70__273_combat_bike_rocket_type'></a>
+### 2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type <a name='link__20210910__273_combat_bike_rocket_type'></a>
 **Changes**
 
 - **FIX**: The Demo General's RPG Troopers now fire missiles with the correct red explosion effect, just like the normal GLA RPG Troopers. This is a purely cosmetical change.
@@ -1965,7 +1965,7 @@ Contains 106 entries with
 **Source:** 273_combat_bike_rocket_type.yaml
 
 ---
-### 2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site <a name='index__71__295_stinger_air_attack_effects'></a>
+### 2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site <a name='link__20210911__295_stinger_air_attack_effects'></a>
 **Changes**
 
 - **FIX**: The GLA Stinger Soldiers now use the muzzle flash and recoil animation when engaging airborne targets, instead of just standing there while the missile spawns.
@@ -1981,7 +1981,7 @@ Contains 106 entries with
 **Source:** 295_stinger_air_attack_effects.yaml
 
 ---
-### 2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap <a name='index__72__370_quad_damage_model'></a>
+### 2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap <a name='link__20210916__370_quad_damage_model'></a>
 **Changes**
 
 - **FIX**: The GLA Quad Cannon now shows the damaged model when appropriate, no matter how many scraps it picked up.
@@ -1997,7 +1997,7 @@ Contains 106 entries with
 **Source:** 370_quad_damage_model.yaml
 
 ---
-### 2021-10-31 - Adds climb animation for GLA Saboteur <a name='index__73__606_saboteur_climb_animation'></a>
+### 2021-10-31 - Adds climb animation for GLA Saboteur <a name='link__20211031__606_saboteur_climb_animation'></a>
 **Changes**
 
 - **FEATURE**: The GLA Saboteur now plays a climb animation when scaling mountains.
@@ -2013,7 +2013,7 @@ Contains 106 entries with
 **Source:** 606_saboteur_climb_animation.yaml
 
 ---
-### 2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon <a name='index__74__937_quad_cannon_bones'></a>
+### 2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon <a name='link__20220820__937_quad_cannon_bones'></a>
 **Changes**
 
 - **FIX**: Removes the cubes (bones) from gun barrels of scrapped Quad Cannon.
@@ -2029,7 +2029,7 @@ Contains 106 entries with
 **Source:** 937_quad_cannon_bones.yaml
 
 ---
-### 2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank <a name='index__75__1228_scorpion_textures'></a>
+### 2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank <a name='link__20220920__1228_scorpion_textures'></a>
 **Changes**
 
 - **FIX**: Fixes the mismatching look of the GLA Scorpion Tank across different damage states. It now has the same look in undamaged, damaged and rubble.
@@ -2045,7 +2045,7 @@ Contains 106 entries with
 **Source:** 1228_scorpion_textures.yaml
 
 ---
-### 2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm <a name='index__76__1229_utplates_upscaled_textures'></a>
+### 2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm <a name='link__20220920__1229_utplates_upscaled_textures'></a>
 **Changes**
 
 - **FEATURE**: Increases texture size of utplates snow textures by merging other variants of this texture. It is not AI generated. It is part of the Recovered Art pack which contains 2x upscaled textures from Generals.
@@ -2067,7 +2067,7 @@ Contains 106 entries with
 **Source:** 1229_utplates_upscaled_textures.yaml
 
 ---
-### 2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus <a name='index__77__1231_battle_bus_textures'></a>
+### 2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus <a name='link__20220920__1231_battle_bus_textures'></a>
 **Changes**
 
 - **FIX**: Fixes the front window on the uvbattbus_d texture of GLA Battle Bus.
@@ -2083,7 +2083,7 @@ Contains 106 entries with
 **Source:** 1231_battle_bus_textures.yaml
 
 ---
-### 2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm <a name='index__78__1232_utscudparts02_utsilotop01_textures'></a>
+### 2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm <a name='link__20220920__1232_utscudparts02_utsilotop01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utscudparts02, silotop01 textures. They are used at the very core of the GLA Scud Storm.
@@ -2119,7 +2119,7 @@ Contains 106 entries with
 **Source:** 1232_utscudparts02_utsilotop01_textures.yaml
 
 ---
-### 2022-09-28 - Fixes utcloth textures for GLA structures <a name='index__79__1311_utcloth_textures'></a>
+### 2022-09-28 - Fixes utcloth textures for GLA structures <a name='link__20220928__1311_utcloth_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utcloth textures for GLA structures.
@@ -2150,7 +2150,7 @@ Contains 106 entries with
 **Source:** 1311_utcloth_textures.yaml
 
 ---
-### 2022-09-28 - Fixes utcloth2 textures for GLA structures <a name='index__80__1312_utcloth2_textures'></a>
+### 2022-09-28 - Fixes utcloth2 textures for GLA structures <a name='link__20220928__1312_utcloth2_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utcloth2 textures for GLA structures.
@@ -2178,7 +2178,7 @@ Contains 106 entries with
 **Source:** 1312_utcloth2_textures.yaml
 
 ---
-### 2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm <a name='index__81__1315_utscudslab_snow_textures'></a>
+### 2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm <a name='link__20220928__1315_utscudslab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utscudslab snow textures for GLA Scud Storm.
@@ -2204,7 +2204,7 @@ Contains 106 entries with
 **Source:** 1315_utscudslab_snow_textures.yaml
 
 ---
-### 2022-09-29 - Fixes utconcroof textures for GLA structures <a name='index__82__1320_utconcroof_textures'></a>
+### 2022-09-29 - Fixes utconcroof textures for GLA structures <a name='link__20220929__1320_utconcroof_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utconcroof textures for GLA structures.
@@ -2233,7 +2233,7 @@ Contains 106 entries with
 **Source:** 1320_utconcroof_textures.yaml
 
 ---
-### 2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps <a name='index__83__1325_scud_storm_night_lights'></a>
+### 2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps <a name='link__20221002__1325_scud_storm_night_lights'></a>
 **Changes**
 
 - **FIX**: The damaged GLA Scud Storm now shows its lights on Night maps.
@@ -2249,7 +2249,7 @@ Contains 106 entries with
 **Source:** 1325_scud_storm_night_lights.yaml
 
 ---
-### 2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps <a name='index__84__1326_scud_storm_snow_damage'></a>
+### 2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps <a name='link__20221002__1326_scud_storm_snow_damage'></a>
 **Changes**
 
 - **FIX**: The damaged GLA Scud Storm now renders with snow textures on Winter maps.
@@ -2265,7 +2265,7 @@ Contains 106 entries with
 **Source:** 1326_scud_storm_snow_damage.yaml
 
 ---
-### 2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm <a name='index__85__1328_utscudslab_upscaled_textures'></a>
+### 2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm <a name='link__20221002__1328_utscudslab_upscaled_textures'></a>
 **Changes**
 
 - **FIX**: Adds 2x AI upscaled versions of the utscudslab textures. Originally they are 256x256, which is too small for a building that large.
@@ -2281,7 +2281,7 @@ Contains 106 entries with
 **Source:** 1328_utscudslab_upscaled_textures.yaml
 
 ---
-### 2023-01-08 - Fixes wrong exploded death animation of GLA Worker <a name='index__86__1528_worker_death_animation'></a>
+### 2023-01-08 - Fixes wrong exploded death animation of GLA Worker <a name='link__20230108__1528_worker_death_animation'></a>
 **Changes**
 
 - **FIX**: GLA Worker with supply box now shows proper death animation when exploded.
@@ -2297,7 +2297,7 @@ Contains 106 entries with
 **Source:** 1528_worker_death_animation.yaml
 
 ---
-### 2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building. <a name='index__87__568_repair_bay_ruin_model'></a>
+### 2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building. <a name='link__20211016__568_repair_bay_ruin_model'></a>
 **Changes**
 
 - **FIX**: Adds ruin model for destroyed Repair Bay Tech building.
@@ -2313,7 +2313,7 @@ Contains 106 entries with
 **Source:** 568_repair_bay_ruin_model.yaml
 
 ---
-### 2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees <a name='index__88__1638_humvee1_transition_damage_effects'></a>
+### 2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees <a name='link__20230205__1638_humvee1_transition_damage_effects'></a>
 **Changes**
 
 - **FIX**: All Humvees now use the same transition damage effects.
@@ -2329,7 +2329,7 @@ Contains 106 entries with
 **Source:** 1638_humvee1_transition_damage_effects.yaml
 
 ---
-### 2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles <a name='index__89__1639_civ_damaged_state_models'></a>
+### 2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles <a name='link__20230205__1639_civ_damaged_state_models'></a>
 **Changes**
 
 - **FIX**: Adds and fixes models for damaged states of Civilian vehicles.
@@ -2361,7 +2361,7 @@ Contains 106 entries with
 **Source:** 1639_civ_damaged_state_models.yaml
 
 ---
-### 2023-02-05 - Adds transition damage effects to Civilian vehicles <a name='index__90__1639_civ_transition_damage_effects'></a>
+### 2023-02-05 - Adds transition damage effects to Civilian vehicles <a name='link__20230205__1639_civ_transition_damage_effects'></a>
 **Changes**
 
 - **FEATURE**: Adds transition damage effects to Civilian vehicles.
@@ -2407,7 +2407,7 @@ Contains 106 entries with
 **Source:** 1639_civ_transition_damage_effects.yaml
 
 ---
-### 2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air <a name='index__91__567_demo_combat_bike_drop'></a>
+### 2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air <a name='link__20211016__567_demo_combat_bike_drop'></a>
 **Changes**
 
 - **FIX**: When the GLA Demo Combat Bike is dropped from air, there no longer sits a Worker inside it.
@@ -2423,7 +2423,7 @@ Contains 106 entries with
 **Source:** 567_demo_combat_bike_drop.yaml
 
 ---
-### 2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building <a name='index__92__568_reinforcement_pad_ruin_model'></a>
+### 2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building <a name='link__20211016__568_reinforcement_pad_ruin_model'></a>
 **Changes**
 
 - **FIX**: Adds ruin model for destroyed Reinforcement Pad Tech building.
@@ -2439,7 +2439,7 @@ Contains 106 entries with
 **Source:** 568_reinforcement_pad_ruin_model.yaml
 
 ---
-### 2022-07-22 - Recoveres 483 high quality textures from Generals <a name='index__93__734_high_res_textures'></a>
+### 2022-07-22 - Recoveres 483 high quality textures from Generals <a name='link__20220722__734_high_res_textures'></a>
 **Changes**
 
 - **FIX**: Recoveres 483 high quality textures from Generals. In Zero Hour they were downscaled, either by mistake or as a way to reduce the video memory requirements. The textures are related to civilian and faction buildings for the most part.
@@ -2455,7 +2455,7 @@ Contains 106 entries with
 **Source:** 734_high_res_textures.yaml
 
 ---
-### 2022-08-26 - Adds better 3D model for classic carpet bomb model <a name='index__94__949_carpet_bomb_model'></a>
+### 2022-08-26 - Adds better 3D model for classic carpet bomb model <a name='link__20220826__949_carpet_bomb_model'></a>
 **Changes**
 
 - **FIX**: Adds better 3D model for classic carpet bomb model.
@@ -2471,7 +2471,7 @@ Contains 106 entries with
 **Source:** 949_carpet_bomb_model.yaml
 
 ---
-### 2022-09-01 - Fixes ugly artifacts in ground aligned flare effects <a name='index__95__1069_ground_flare_particles'></a>
+### 2022-09-01 - Fixes ugly artifacts in ground aligned flare effects <a name='link__20220901__1069_ground_flare_particles'></a>
 **Changes**
 
 - **FIX**: Fixes the ugly artifacts in ground aligned flare effects of
@@ -2494,7 +2494,7 @@ Contains 106 entries with
 **Source:** 1069_ground_flare_particles.yaml
 
 ---
-### 2022-09-01 - Improves visuals of binary data stream <a name='index__96__1070_binary_data_stream_visuals'></a>
+### 2022-09-01 - Improves visuals of binary data stream <a name='link__20220901__1070_binary_data_stream_visuals'></a>
 **Changes**
 
 - **FIX**: The binary data stream used by China Lotus, China Super Hacker and USA Patriot Battery now shows a properly sized texture with crisp numbers
@@ -2510,7 +2510,7 @@ Contains 106 entries with
 **Source:** 1070_binary_data_stream_visuals.yaml
 
 ---
-### 2022-09-01 - Fixes broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales <a name='index__97__1071_gamma_terrorist_death'></a>
+### 2022-09-01 - Fixes broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales <a name='link__20220901__1071_gamma_terrorist_death'></a>
 **Changes**
 
 - **FIX**: The GLA Terrorist now renders correctly when killed by Gamma Toxin in Chinese, French and Korean locales.
@@ -2526,7 +2526,7 @@ Contains 106 entries with
 **Source:** 1071_gamma_terrorist_death.yaml
 
 ---
-### 2022-09-21 - Fixes missing pieces in trcobbroad texture for cobble road <a name='index__98__1236_trcobbroad_texture'></a>
+### 2022-09-21 - Fixes missing pieces in trcobbroad texture for cobble road <a name='link__20220921__1236_trcobbroad_texture'></a>
 **Changes**
 
 - **FIX**: Fixes missing pieces in trcobbroad texture for cobble road.
@@ -2542,7 +2542,7 @@ Contains 106 entries with
 **Source:** 1236_trcobbroad_texture.yaml
 
 ---
-### 2022-09-27 - Fixes pmtorch textures <a name='index__99__1306_pmtorch_textures'></a>
+### 2022-09-27 - Fixes pmtorch textures <a name='link__20220927__1306_pmtorch_textures'></a>
 **Changes**
 
 - **FIX**: Fixes pmtorch textures.
@@ -2567,7 +2567,7 @@ Contains 106 entries with
 **Source:** 1306_pmtorch_textures.yaml
 
 ---
-### 2022-12-01 - Adds new terrain scorches for explosion effects <a name='index__100__1489_explosion_scorches'></a>
+### 2022-12-01 - Adds new terrain scorches for explosion effects <a name='link__20221201__1489_explosion_scorches'></a>
 **Changes**
 
 - **FEATURE**: Adds scorch to Helicopter ground crashes.
@@ -2599,7 +2599,7 @@ Contains 106 entries with
 **Source:** 1489_explosion_scorches.yaml
 
 ---
-### 2022-12-04 - Fixes invisible desert shrub bush objects <a name='index__101__1488_invisible_desert_shrub_bushes'></a>
+### 2022-12-04 - Fixes invisible desert shrub bush objects <a name='link__20221204__1488_invisible_desert_shrub_bushes'></a>
 **Changes**
 
 - **FIX**: All desert shrub objects can now be seen on maps when used.
@@ -2630,7 +2630,7 @@ Contains 106 entries with
 **Source:** 1488_invisible_desert_shrub_bushes.yaml
 
 ---
-### 2022-12-05 - Improves scorch texture quality <a name='index__102__1495_scorch_textures'></a>
+### 2022-12-05 - Improves scorch texture quality <a name='link__20221205__1495_scorch_textures'></a>
 **Changes**
 
 - **FEATURE**: Fixes and enhances exscorch01 texture.
@@ -2652,7 +2652,7 @@ Contains 106 entries with
 **Source:** 1495_scorch_textures.yaml
 
 ---
-### 2022-12-15 - Removes duplicate shockwave effects from aircraft explosions <a name='index__103__1504_duplicate_explosion_shockwave'></a>
+### 2022-12-15 - Removes duplicate shockwave effects from aircraft explosions <a name='link__20221215__1504_duplicate_explosion_shockwave'></a>
 **Changes**
 
 - **FIX**: Removes Buggy Shockwave effect from explosion of Mig Nuke Missile and Helix Nuke Bomb.
@@ -2668,7 +2668,7 @@ Contains 106 entries with
 **Source:** 1504_duplicate_explosion_shockwave.yaml
 
 ---
-### 2023-01-06 - Fixes infantry missile particle effects <a name='index__104__1520_missile_particles'></a>
+### 2023-01-06 - Fixes infantry missile particle effects <a name='link__20230106__1520_missile_particles'></a>
 **Changes**
 
 - **FIX**: Fixes missile particles with stuttering trail effects.
@@ -2688,7 +2688,7 @@ Contains 106 entries with
 **Source:** 1520_missile_particles.yaml
 
 ---
-### 2023-01-08 - Fixes excontrail texture <a name='index__105__1531_excontrail_texture'></a>
+### 2023-01-08 - Fixes excontrail texture <a name='link__20230108__1531_excontrail_texture'></a>
 **Changes**
 
 - **FIX**: Fixes the alpha of the contrail effect texture so that the edges would not stretch over the entire trail plane.

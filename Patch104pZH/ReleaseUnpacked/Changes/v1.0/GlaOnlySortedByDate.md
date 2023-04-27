@@ -40,161 +40,161 @@ Contains 150 entries with
   - TWEAK (20)
 
 ## Index
-1. [2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state](#index__0__2_battle_bus_damage_transition)
-2. [2021-08-22 - Fixes GLA Stealth Palace remaining stealhed while its passengers shoot](#index__1__75_stealthed_palace_bug)
-3. [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles](#index__2__67_scud_storm_particles)
-4. [2021-08-27 - Fixes GLA Scud Storm exploit](#index__3__72_scud_bug)
-5. [2021-08-27 - Fixes units shooting at already killed infantry units](#index__4__75_dead_target_bug)
-6. [2021-08-27 - Fixes GLA defense hole keeping the controlling player alive](#index__5__75_gla_hole_survival)
-7. [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#index__6__76_red_bullet_tracers)
-8. [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Toxin Tractor death puddles](#index__7__77_toxin_tractor_anthrax_color)
-9. [2021-08-28 - Fixes Toxin Shells losing their projectile effect after acquiring Anthrax Beta](#index__8__83_toxin_shell_anthrax)
-10. [2021-08-28 - Fixes premature GLA Toxin Demo Trap explosion effects](#index__9__85_toxin_demo_trap)
-11. [2021-08-28 - Fixes wrong portrait image of GLA Sneak attack](#index__10__86_sneak_attack_portrait)
-12. [2021-08-28 - Fixes GLA Demo Rocket Buggy losing its red missile effect after acquiring Buggy Ammo upgrade](#index__11__87_rocket_buggy_red_missiles)
-13. [2021-08-28 - Fixes wrong demo charge voice of GLA Demo Jarmen Kell](#index__12__88_demo_jarmen_voice)
-14. [2021-08-28 - Fixes crushed GLA Marauder becoming an indestructible unit](#index__13__90_indestructible_marauder)
-15. [2021-08-28 - Fixes wrong ability image of GLA Saboteur](#index__14__91_saboteur_ability_image)
-16. [2021-08-28 - Fixes GLA Demo Trap getting triggered by nearby enemy scaffold](#index__15__94_demotrap_scaffold_trigger)
-17. [2021-08-28 - Fixes wrong death voices of GLA Saboteur](#index__16__95_saboteur_death_voice)
-18. [2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units](#index__17__101_demo_infantry_death_voice)
-19. [2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide](#index__18__102_demo_battle_bus_suicide_damage)
-20. [2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker](#index__19__103_worker_combat_bike_destruction)
-21. [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme](#index__20__104_demo_combat_bike_gamme_anthrax_death_damage)
-22. [2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches](#index__21__99_demo_vehicle_destruction)
-23. [2021-09-01 - Fixes inconsistent minimum attack ranges of GLA Toxin Tractor](#index__22__135_toxin_tractor_attack_range)
-24. [2021-09-03 - Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger](#index__23__159_demo_tunnel_stinger_suicide_cameo)
-25. [2021-09-03 - Removes obsolete suicide button from GLA Demo Worker before Demo Upgrade](#index__24__161_demo_worker_suicide_button)
-26. [2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds](#index__25__164_demo_technical_suicide_delay)
-27. [2021-09-03 - Fixes GLA Hijacker and Saboteur being able to ride the GLA Toxin Combat Bike](#index__26__168_hijacker_on_toxin_combat_bike)
-28. [2021-09-03 - Fixes duplicate death sounds of GLA Combat Bike](#index__27__169_combat_bike_death_sounds)
-29. [2021-09-03 - Fixes GLA Saboteur simply disappearing when killed on Combat Bike](#index__28__171_saboteur_on_bike)
-30. [2021-09-04 - Fixes animations, models and sounds of GLA Combat Bike in Singleplayer](#index__29__186_sp_combat_bike_errors)
-31. [2021-09-04 - Fixes unexpected hit screen shake effects on bunkered GLA Battle Bus](#index__30__187_battle_bus_screen_shake)
-32. [2021-09-04 - Adds missing sound to GLA Battle Bus](#index__31__192_battlebus_sounds)
-33. [2021-09-04 - Adds missing AP Rocket upgrade icon to GLA Scud Launcher](#index__32__207_scud_launcher_cameo)
-34. [2021-09-05 - Adds missing upgrade icons to GLA Rebels](#index__33__225_rebel_cameo)
-35. [2021-09-09 - Adds missing red smoke effect for GLA Demo Terrorist on Combat Bike after Demo Upgrade](#index__34__260_terrorist_combat_bike_effects)
-36. [2021-09-09 - Adds missing booby trap sound effect to GLA Demo Rebel](#index__35__263_demo_rebel_booby_trap_sound)
-37. [2021-09-10 - Fixes GLA Battle Bus stopping moving when targeting air unit](#index__36__267_battle_bus_air_target)
-38. [2021-09-10 - Fixes GLA Battle Bus turning its chassis when aiming at air units](#index__37__268_battle_bus_chassis_turn)
-39. [2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade](#index__38__271_gla_fake_cc_look_mismatch)
-40. [2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type](#index__39__273_combat_bike_rocket_type)
-41. [2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton](#index__40__277_demo_charge_button_placement)
-42. [2021-09-10 - Fixes wrong suicide ability icon on GLA Demo Combat Bike](#index__41__278_demo_combat_bike_suicide_button)
-43. [2021-09-11 - Fixes GLA Stinger Site being able to shoot twice without any delay](#index__42__294_stinger_fires_twice)
-44. [2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site](#index__43__295_stinger_air_attack_effects)
-45. [2021-09-11 - Fixes GLA Stinger Site automatically attacking enemy buildings](#index__44__296_stinger_attacks_structures)
-46. [2021-09-11 - Fixes GLA Car Bomb unable to attack target](#index__45__307_car_bomb_attack_bug)
-47. [2021-09-11 - Adds missing muzzle flash for Snipe Attack ability of GLA Jarmen Kell on Combat Bike](#index__46__309_jarmen_combat_bike_muzzle_flash)
-48. [2021-09-11 - Fixes wrong muzzle flash location for Snipe Attack ability of GLA Jarmen Kell](#index__47__310_jarmen_muzzle_flash)
-49. [2021-09-11 - Fixes GLA Scud Storm not being able to damage itself](#index__48__328_scud_storm_self_damage)
-50. [2021-09-12 - Fixes issue where GLA Demo Terrorist can be crushed without applying any damage](#index__49__316_demo_terrorist_damage)
-51. [2021-09-12 - Fixes issue where Demo GLA Terrorist can die on China Mines without applying any damage](#index__50__316_demo_terrorist_mines_damage)
-52. [2021-09-12 - Fixes Stealth General unable to build Hijacker from regular GLA Barracks](#index__51__331_stealth_general_build_bug)
-53. [2021-09-13 - Fixes button errors on GLA Demo Combat Bike](#index__52__345_demo_combat_bike_suicide_button)
-54. [2021-09-13 - Adds missing Camo Netting Upgrade icon to GLA Fake Arms Dealer](#index__53__353_fake_armsdealer_cameo)
-55. [2021-09-13 - Adds missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units](#index__54__355_gla_anthrax_cameo)
-56. [2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap](#index__55__370_quad_damage_model)
-57. [2021-09-19 - Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade](#index__56__392_marauder_anthrax_type)
-58. [2021-09-20 - Adds missing Stop button to GLA Tunnel and GLA Palace](#index__57__386_tunnel_palace_stop_button)
-59. [2021-09-22 - Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction](#index__58__401_terrorist_poison_puddle)
-60. [2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles](#index__59__440_demo_trap_triggered_by_puddles)
-61. [2021-10-01 - Fixes the ECM immunity of Heroic GLA Quad Cannon](#index__60__442_vet3_quad_cannon_subdual)
-62. [2021-10-09 - Fixes door times of powered GLA Arms Dealer to accomodate correct GLA Technical production](#index__61__538_armsdealer_power_doors)
-63. [2021-10-10 - Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps](#index__62__541_fake_supply_animation)
-64. [2021-10-10 - Fixes mismatching particle effects of GLA Black Market and Fake Market](#index__63__542_fake_market_particles)
-65. [2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings](#index__64__544_stealth_saboteur_ability)
-66. [2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market](#index__65__547_regular_saboteur_ability)
-67. [2021-10-15 - Fixes wrong model during deconstruction of GLA Advanced Demo Trap](#index__66__563_demo_trap_sell_model)
-68. [2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold](#index__67__595_cash_bounty_activation)
-69. [2021-10-31 - Adds climb animation for GLA Saboteur](#index__68__606_saboteur_climb_animation)
-70. [2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang](#index__69__636_stinger_flashbang_damage)
-71. [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#index__70__695_toxin_terrorist_death)
-72. [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#index__71__697_all_terrorist_crush_damage)
-73. [2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade](#index__72__699_toxin_terrorist_damage)
-74. [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#index__73__727_buggy_required_xp)
-75. [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#index__74__727_scud_launcher_required_xp)
-76. [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist](#index__75__764_terrorist_crash)
-77. [2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies](#index__76__783_demo_combat_bike_allies_damage)
-78. [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#index__77__412_tanks_xp_reward)
-79. [2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor](#index__78__820_toxin_tractor_salvage_models)
-80. [2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player](#index__79__826_anthrax_bomb_poison_colors)
-81. [2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush](#index__80__845_demo_ambush_tooltip_text)
-82. [2022-08-12 - Removes GLA Hijacker ability to steal Combat Bike](#index__81__879_hijacker_bike_theft)
-83. [2022-08-14 - Fixes toxin color errors](#index__82__851_toxin_color_errors)
-84. [2022-08-14 - Improves visual quality of green and blue toxin puddles](#index__83__851_toxin_color_tweaks)
-85. [2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius](#index__84__851_toxin_puddle_size)
-86. [2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max](#index__85__882_stinger_anthrax_gamma_damage)
-87. [2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings](#index__86__885_fortified_structure_sell)
-88. [2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max](#index__87__889_anthrax_gamma_damage_bonuses)
-89. [2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members](#index__88__904_female_mob_death_voice)
-90. [2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members](#index__89__905_male_mob_death_voice)
-91. [2022-08-14 - Fixes missing death scream of some GLA Angry Mob members](#index__90__906_some_mob_death_voice)
-92. [2022-08-15 - Fixes GLA Stinger Troopers not dying individually by USA Microwave Tank damage](#index__91__913_stinger_microwave_death)
-93. [2022-08-15 - Fixes Demo General infantry units getting stuck near structures when ordered to suicide](#index__92__914_demo_infantry_suicide_stuck)
-94. [2022-08-20 - Adds upgrade voice for GLA Fortified Structure](#index__93__1026_fortified_structure_upgrade_voice)
-95. [2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon](#index__94__937_quad_cannon_bones)
-96. [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#index__95__938_infantry_muzzle_flash)
-97. [2022-08-22 - Fixes insufficient range of GLA Scud Launcher missile](#index__96__1041_scud_launcher_missile_range)
-98. [2022-08-29 - Fixes animation issues of GLA Angry Mob](#index__97__1037_mob_animation_issues)
-99. [2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade](#index__98__1074_demo_scud_launcher_death_damage)
-100. [2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade](#index__99__1076_demo_units_death_particles)
-101. [2022-09-02 - Improves explosion effect of crushed GLA terror units](#index__100__1082_demo_units_crushed_death_particles)
-102. [2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge](#index__101__1086_kassad_challenge_stinger_selection)
-103. [2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds](#index__102__1096_scud_storm_worker_spawn_delay)
-104. [2022-09-04 - Fixed misplaced fire ports on GLA Palace](#index__103__1097_palace_fire_ports)
-105. [2022-09-05 - Adds better fitting select sound for GLA Demo Trap](#index__104__1131_demo_trap_select_sound)
-106. [2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect](#index__105__1130_demo_trap_flare_fadeout)
-107. [2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target](#index__106__1136_bomb_truck_reveal)
-108. [2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades](#index__107__1137_bomb_truck_damages)
-109. [2022-09-06 - Improves particle effects of GLA Bomb Truck](#index__108__1137_bomb_truck_explosion_particles)
-110. [2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200](#index__109__1137_bomb_truck_upgrade_cost)
-111. [2022-09-06 - Improves locomotor of GLA Bomb Truck](#index__110__1138_bomb_truck_locomotor)
-112. [2022-09-07 - Fixes muzzle particle effects of tanks](#index__111__1149_tank_muzzle_particles)
-113. [2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400](#index__112__1153_combat_bike_required_xp)
-114. [2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike](#index__113__1164_combat_bike_pilot_promotion)
-115. [2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates](#index__114__1170_saboteur_scrap_rank_up)
-116. [2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade](#index__115__1176_technical_muzzle_flash)
-117. [2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank](#index__116__1228_scorpion_textures)
-118. [2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm](#index__117__1229_utplates_upscaled_textures)
-119. [2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus](#index__118__1231_battle_bus_textures)
-120. [2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm](#index__119__1232_utscudparts02_utsilotop01_textures)
-121. [2022-09-28 - Fixes utcloth textures for GLA structures](#index__120__1311_utcloth_textures)
-122. [2022-09-28 - Fixes utcloth2 textures for GLA structures](#index__121__1312_utcloth2_textures)
-123. [2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm](#index__122__1315_utscudslab_snow_textures)
-124. [2022-09-29 - Fixes utconcroof textures for GLA structures](#index__123__1320_utconcroof_textures)
-125. [2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps](#index__124__1325_scud_storm_night_lights)
-126. [2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps](#index__125__1326_scud_storm_snow_damage)
-127. [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#index__126__1328_utscudslab_upscaled_textures)
-128. [2022-10-05 - Fixes Toxin GLA Tunnel Defender double firing against ground and air targets](#index__127__1334_tunnel_defender_shoots_twice)
-129. [2022-10-05 - Adds slightly pitched sounds for some air weapons](#index__128__1335_pitched_air_weapon_sounds)
-130. [2022-10-08 - Fixes missing muzzle flash and recoil animation on GLA Quad Cannon](#index__129__1340_quad_muzzle_flash_recoil)
-131. [2022-10-16 - Fixes War Factory door animations reset on damage state changes](#index__130__1382_door_animation_reset)
-132. [2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings](#index__131__1386_buildings_explosion_effects)
-133. [2023-01-08 - Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits](#index__132__1526_booby_trap_physics)
-134. [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#index__133__1528_worker_death_animation)
-135. [2023-01-13 - Fixes the evacuation command button art of various vehicles](#index__134__1545_vehicle_evacuation_button_image)
-136. [2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker](#index__135__1578_worker_clear_mines_button)
-137. [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#index__136__1711_increase_wreck_destruction_delay)
-138. [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#index__137__1712_decrease_wreck_destruction_delay)
-139. [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#index__138__1618_wreck_spawn_before_death)
-140. [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#index__139__1657_tank_turret_deatheffects)
-141. [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#index__140__1663_scorpion_death_model)
-142. [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#index__141__1672_marauder_double_barrel_firing_sequence)
-143. [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#index__142__1674_marauder_idle_reload)
-144. [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#index__143__1699_scorpion_idle_reload)
-145. [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#index__144__1703_scud_storm_idle_reload)
-146. [2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage](#index__145__1706_stealth_rebel_reveal)
-147. [2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death](#index__146__1714_scud_launcher_death_model)
-148. [2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar](#index__147__1716_mob_radar_dots)
-149. [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#index__148__1718_cargo_plane_hit_effects)
-150. [2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion](#index__149__1726_wreck_spawn_after_death)
+- [2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state](#link__20210822__2_battle_bus_damage_transition)
+- [2021-08-22 - Fixes GLA Stealth Palace remaining stealhed while its passengers shoot](#link__20210822__75_stealthed_palace_bug)
+- [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles](#link__20210827__67_scud_storm_particles)
+- [2021-08-27 - Fixes GLA Scud Storm exploit](#link__20210827__72_scud_bug)
+- [2021-08-27 - Fixes units shooting at already killed infantry units](#link__20210827__75_dead_target_bug)
+- [2021-08-27 - Fixes GLA defense hole keeping the controlling player alive](#link__20210827__75_gla_hole_survival)
+- [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#link__20210827__76_red_bullet_tracers)
+- [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Toxin Tractor death puddles](#link__20210827__77_toxin_tractor_anthrax_color)
+- [2021-08-28 - Fixes Toxin Shells losing their projectile effect after acquiring Anthrax Beta](#link__20210828__83_toxin_shell_anthrax)
+- [2021-08-28 - Fixes premature GLA Toxin Demo Trap explosion effects](#link__20210828__85_toxin_demo_trap)
+- [2021-08-28 - Fixes wrong portrait image of GLA Sneak attack](#link__20210828__86_sneak_attack_portrait)
+- [2021-08-28 - Fixes GLA Demo Rocket Buggy losing its red missile effect after acquiring Buggy Ammo upgrade](#link__20210828__87_rocket_buggy_red_missiles)
+- [2021-08-28 - Fixes wrong demo charge voice of GLA Demo Jarmen Kell](#link__20210828__88_demo_jarmen_voice)
+- [2021-08-28 - Fixes crushed GLA Marauder becoming an indestructible unit](#link__20210828__90_indestructible_marauder)
+- [2021-08-28 - Fixes wrong ability image of GLA Saboteur](#link__20210828__91_saboteur_ability_image)
+- [2021-08-28 - Fixes GLA Demo Trap getting triggered by nearby enemy scaffold](#link__20210828__94_demotrap_scaffold_trigger)
+- [2021-08-28 - Fixes wrong death voices of GLA Saboteur](#link__20210828__95_saboteur_death_voice)
+- [2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units](#link__20210829__101_demo_infantry_death_voice)
+- [2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide](#link__20210829__102_demo_battle_bus_suicide_damage)
+- [2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker](#link__20210829__103_worker_combat_bike_destruction)
+- [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
+- [2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches](#link__20210829__99_demo_vehicle_destruction)
+- [2021-09-01 - Fixes inconsistent minimum attack ranges of GLA Toxin Tractor](#link__20210901__135_toxin_tractor_attack_range)
+- [2021-09-03 - Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger](#link__20210903__159_demo_tunnel_stinger_suicide_cameo)
+- [2021-09-03 - Removes obsolete suicide button from GLA Demo Worker before Demo Upgrade](#link__20210903__161_demo_worker_suicide_button)
+- [2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds](#link__20210903__164_demo_technical_suicide_delay)
+- [2021-09-03 - Fixes GLA Hijacker and Saboteur being able to ride the GLA Toxin Combat Bike](#link__20210903__168_hijacker_on_toxin_combat_bike)
+- [2021-09-03 - Fixes duplicate death sounds of GLA Combat Bike](#link__20210903__169_combat_bike_death_sounds)
+- [2021-09-03 - Fixes GLA Saboteur simply disappearing when killed on Combat Bike](#link__20210903__171_saboteur_on_bike)
+- [2021-09-04 - Fixes animations, models and sounds of GLA Combat Bike in Singleplayer](#link__20210904__186_sp_combat_bike_errors)
+- [2021-09-04 - Fixes unexpected hit screen shake effects on bunkered GLA Battle Bus](#link__20210904__187_battle_bus_screen_shake)
+- [2021-09-04 - Adds missing sound to GLA Battle Bus](#link__20210904__192_battlebus_sounds)
+- [2021-09-04 - Adds missing AP Rocket upgrade icon to GLA Scud Launcher](#link__20210904__207_scud_launcher_cameo)
+- [2021-09-05 - Adds missing upgrade icons to GLA Rebels](#link__20210905__225_rebel_cameo)
+- [2021-09-09 - Adds missing red smoke effect for GLA Demo Terrorist on Combat Bike after Demo Upgrade](#link__20210909__260_terrorist_combat_bike_effects)
+- [2021-09-09 - Adds missing booby trap sound effect to GLA Demo Rebel](#link__20210909__263_demo_rebel_booby_trap_sound)
+- [2021-09-10 - Fixes GLA Battle Bus stopping moving when targeting air unit](#link__20210910__267_battle_bus_air_target)
+- [2021-09-10 - Fixes GLA Battle Bus turning its chassis when aiming at air units](#link__20210910__268_battle_bus_chassis_turn)
+- [2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade](#link__20210910__271_gla_fake_cc_look_mismatch)
+- [2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type](#link__20210910__273_combat_bike_rocket_type)
+- [2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton](#link__20210910__277_demo_charge_button_placement)
+- [2021-09-10 - Fixes wrong suicide ability icon on GLA Demo Combat Bike](#link__20210910__278_demo_combat_bike_suicide_button)
+- [2021-09-11 - Fixes GLA Stinger Site being able to shoot twice without any delay](#link__20210911__294_stinger_fires_twice)
+- [2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site](#link__20210911__295_stinger_air_attack_effects)
+- [2021-09-11 - Fixes GLA Stinger Site automatically attacking enemy buildings](#link__20210911__296_stinger_attacks_structures)
+- [2021-09-11 - Fixes GLA Car Bomb unable to attack target](#link__20210911__307_car_bomb_attack_bug)
+- [2021-09-11 - Adds missing muzzle flash for Snipe Attack ability of GLA Jarmen Kell on Combat Bike](#link__20210911__309_jarmen_combat_bike_muzzle_flash)
+- [2021-09-11 - Fixes wrong muzzle flash location for Snipe Attack ability of GLA Jarmen Kell](#link__20210911__310_jarmen_muzzle_flash)
+- [2021-09-11 - Fixes GLA Scud Storm not being able to damage itself](#link__20210911__328_scud_storm_self_damage)
+- [2021-09-12 - Fixes issue where GLA Demo Terrorist can be crushed without applying any damage](#link__20210912__316_demo_terrorist_damage)
+- [2021-09-12 - Fixes issue where Demo GLA Terrorist can die on China Mines without applying any damage](#link__20210912__316_demo_terrorist_mines_damage)
+- [2021-09-12 - Fixes Stealth General unable to build Hijacker from regular GLA Barracks](#link__20210912__331_stealth_general_build_bug)
+- [2021-09-13 - Fixes button errors on GLA Demo Combat Bike](#link__20210913__345_demo_combat_bike_suicide_button)
+- [2021-09-13 - Adds missing Camo Netting Upgrade icon to GLA Fake Arms Dealer](#link__20210913__353_fake_armsdealer_cameo)
+- [2021-09-13 - Adds missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units](#link__20210913__355_gla_anthrax_cameo)
+- [2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap](#link__20210916__370_quad_damage_model)
+- [2021-09-19 - Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade](#link__20210919__392_marauder_anthrax_type)
+- [2021-09-20 - Adds missing Stop button to GLA Tunnel and GLA Palace](#link__20210920__386_tunnel_palace_stop_button)
+- [2021-09-22 - Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction](#link__20210922__401_terrorist_poison_puddle)
+- [2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles](#link__20211001__440_demo_trap_triggered_by_puddles)
+- [2021-10-01 - Fixes the ECM immunity of Heroic GLA Quad Cannon](#link__20211001__442_vet3_quad_cannon_subdual)
+- [2021-10-09 - Fixes door times of powered GLA Arms Dealer to accomodate correct GLA Technical production](#link__20211009__538_armsdealer_power_doors)
+- [2021-10-10 - Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps](#link__20211010__541_fake_supply_animation)
+- [2021-10-10 - Fixes mismatching particle effects of GLA Black Market and Fake Market](#link__20211010__542_fake_market_particles)
+- [2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings](#link__20211010__544_stealth_saboteur_ability)
+- [2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market](#link__20211010__547_regular_saboteur_ability)
+- [2021-10-15 - Fixes wrong model during deconstruction of GLA Advanced Demo Trap](#link__20211015__563_demo_trap_sell_model)
+- [2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold](#link__20211024__595_cash_bounty_activation)
+- [2021-10-31 - Adds climb animation for GLA Saboteur](#link__20211031__606_saboteur_climb_animation)
+- [2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang](#link__20220101__636_stinger_flashbang_damage)
+- [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#link__20220716__695_toxin_terrorist_death)
+- [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#link__20220716__697_all_terrorist_crush_damage)
+- [2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade](#link__20220716__699_toxin_terrorist_damage)
+- [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#link__20220722__727_buggy_required_xp)
+- [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#link__20220722__727_scud_launcher_required_xp)
+- [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist](#link__20220727__764_terrorist_crash)
+- [2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies](#link__20220729__783_demo_combat_bike_allies_damage)
+- [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
+- [2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor](#link__20220805__820_toxin_tractor_salvage_models)
+- [2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player](#link__20220805__826_anthrax_bomb_poison_colors)
+- [2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush](#link__20220806__845_demo_ambush_tooltip_text)
+- [2022-08-12 - Removes GLA Hijacker ability to steal Combat Bike](#link__20220812__879_hijacker_bike_theft)
+- [2022-08-14 - Fixes toxin color errors](#link__20220814__851_toxin_color_errors)
+- [2022-08-14 - Improves visual quality of green and blue toxin puddles](#link__20220814__851_toxin_color_tweaks)
+- [2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius](#link__20220814__851_toxin_puddle_size)
+- [2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max](#link__20220814__882_stinger_anthrax_gamma_damage)
+- [2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings](#link__20220814__885_fortified_structure_sell)
+- [2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max](#link__20220814__889_anthrax_gamma_damage_bonuses)
+- [2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members](#link__20220814__904_female_mob_death_voice)
+- [2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members](#link__20220814__905_male_mob_death_voice)
+- [2022-08-14 - Fixes missing death scream of some GLA Angry Mob members](#link__20220814__906_some_mob_death_voice)
+- [2022-08-15 - Fixes GLA Stinger Troopers not dying individually by USA Microwave Tank damage](#link__20220815__913_stinger_microwave_death)
+- [2022-08-15 - Fixes Demo General infantry units getting stuck near structures when ordered to suicide](#link__20220815__914_demo_infantry_suicide_stuck)
+- [2022-08-20 - Adds upgrade voice for GLA Fortified Structure](#link__20220820__1026_fortified_structure_upgrade_voice)
+- [2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon](#link__20220820__937_quad_cannon_bones)
+- [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#link__20220820__938_infantry_muzzle_flash)
+- [2022-08-22 - Fixes insufficient range of GLA Scud Launcher missile](#link__20220822__1041_scud_launcher_missile_range)
+- [2022-08-29 - Fixes animation issues of GLA Angry Mob](#link__20220829__1037_mob_animation_issues)
+- [2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade](#link__20220902__1074_demo_scud_launcher_death_damage)
+- [2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade](#link__20220902__1076_demo_units_death_particles)
+- [2022-09-02 - Improves explosion effect of crushed GLA terror units](#link__20220902__1082_demo_units_crushed_death_particles)
+- [2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge](#link__20220903__1086_kassad_challenge_stinger_selection)
+- [2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds](#link__20220904__1096_scud_storm_worker_spawn_delay)
+- [2022-09-04 - Fixed misplaced fire ports on GLA Palace](#link__20220904__1097_palace_fire_ports)
+- [2022-09-05 - Adds better fitting select sound for GLA Demo Trap](#link__20220905__1131_demo_trap_select_sound)
+- [2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect](#link__20220906__1130_demo_trap_flare_fadeout)
+- [2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target](#link__20220906__1136_bomb_truck_reveal)
+- [2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades](#link__20220906__1137_bomb_truck_damages)
+- [2022-09-06 - Improves particle effects of GLA Bomb Truck](#link__20220906__1137_bomb_truck_explosion_particles)
+- [2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200](#link__20220906__1137_bomb_truck_upgrade_cost)
+- [2022-09-06 - Improves locomotor of GLA Bomb Truck](#link__20220906__1138_bomb_truck_locomotor)
+- [2022-09-07 - Fixes muzzle particle effects of tanks](#link__20220907__1149_tank_muzzle_particles)
+- [2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400](#link__20220907__1153_combat_bike_required_xp)
+- [2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike](#link__20220908__1164_combat_bike_pilot_promotion)
+- [2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates](#link__20220909__1170_saboteur_scrap_rank_up)
+- [2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade](#link__20220909__1176_technical_muzzle_flash)
+- [2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank](#link__20220920__1228_scorpion_textures)
+- [2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm](#link__20220920__1229_utplates_upscaled_textures)
+- [2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus](#link__20220920__1231_battle_bus_textures)
+- [2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm](#link__20220920__1232_utscudparts02_utsilotop01_textures)
+- [2022-09-28 - Fixes utcloth textures for GLA structures](#link__20220928__1311_utcloth_textures)
+- [2022-09-28 - Fixes utcloth2 textures for GLA structures](#link__20220928__1312_utcloth2_textures)
+- [2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm](#link__20220928__1315_utscudslab_snow_textures)
+- [2022-09-29 - Fixes utconcroof textures for GLA structures](#link__20220929__1320_utconcroof_textures)
+- [2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps](#link__20221002__1325_scud_storm_night_lights)
+- [2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps](#link__20221002__1326_scud_storm_snow_damage)
+- [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#link__20221002__1328_utscudslab_upscaled_textures)
+- [2022-10-05 - Fixes Toxin GLA Tunnel Defender double firing against ground and air targets](#link__20221005__1334_tunnel_defender_shoots_twice)
+- [2022-10-05 - Adds slightly pitched sounds for some air weapons](#link__20221005__1335_pitched_air_weapon_sounds)
+- [2022-10-08 - Fixes missing muzzle flash and recoil animation on GLA Quad Cannon](#link__20221008__1340_quad_muzzle_flash_recoil)
+- [2022-10-16 - Fixes War Factory door animations reset on damage state changes](#link__20221016__1382_door_animation_reset)
+- [2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings](#link__20221020__1386_buildings_explosion_effects)
+- [2023-01-08 - Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits](#link__20230108__1526_booby_trap_physics)
+- [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#link__20230108__1528_worker_death_animation)
+- [2023-01-13 - Fixes the evacuation command button art of various vehicles](#link__20230113__1545_vehicle_evacuation_button_image)
+- [2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker](#link__20230121__1578_worker_clear_mines_button)
+- [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#link__20230129__1711_increase_wreck_destruction_delay)
+- [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
+- [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
+- [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
+- [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#link__20230209__1663_scorpion_death_model)
+- [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#link__20230211__1672_marauder_double_barrel_firing_sequence)
+- [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
+- [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#link__20230211__1703_scud_storm_idle_reload)
+- [2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage](#link__20230214__1706_stealth_rebel_reveal)
+- [2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death](#link__20230215__1714_scud_launcher_death_model)
+- [2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar](#link__20230215__1716_mob_radar_dots)
+- [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
+- [2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion](#link__20230216__1726_wreck_spawn_after_death)
 
 
 
 ---
-### 2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state <a name='index__0__2_battle_bus_damage_transition'></a>
+### 2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state <a name='link__20210822__2_battle_bus_damage_transition'></a>
 **Changes**
 
 - **FIX**: The GLA Battle Bus, when reduced to bunker state and ordered to move, no longer shows the undamaged model for a split second.
@@ -211,7 +211,7 @@ Contains 150 entries with
 **Source:** 2_battle_bus_damage_transition.yaml
 
 ---
-### 2021-08-22 - Fixes GLA Stealth Palace remaining stealhed while its passengers shoot <a name='index__1__75_stealthed_palace_bug'></a>
+### 2021-08-22 - Fixes GLA Stealth Palace remaining stealhed while its passengers shoot <a name='link__20210822__75_stealthed_palace_bug'></a>
 **Changes**
 
 - **FIX**: Firing infantry units inside the stealthed GLA Palace now reveal the structure.
@@ -227,7 +227,7 @@ Contains 150 entries with
 **Source:** 75_stealthed_palace_bug.yaml
 
 ---
-### 2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles <a name='index__2__67_scud_storm_particles'></a>
+### 2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles <a name='link__20210827__67_scud_storm_particles'></a>
 **Changes**
 
 - **FIX**: The particle effects of a firing a Scud Storm are no longer always green and instead spawn with the respective Anthrax type color.
@@ -249,7 +249,7 @@ Contains 150 entries with
 **Source:** 67_scud_storm_particles.yaml
 
 ---
-### 2021-08-27 - Fixes GLA Scud Storm exploit <a name='index__3__72_scud_bug'></a>
+### 2021-08-27 - Fixes GLA Scud Storm exploit <a name='link__20210827__72_scud_bug'></a>
 **Changes**
 
 - **FIX**: Removes the ability to launch the GLA Scud Storm before its timer runs out.
@@ -265,7 +265,7 @@ Contains 150 entries with
 **Source:** 72_scud_bug.yaml
 
 ---
-### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='index__4__75_dead_target_bug'></a>
+### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='link__20210827__75_dead_target_bug'></a>
 **Changes**
 
 - **FIX**: Units no longer shoot at killed infantry units.
@@ -281,7 +281,7 @@ Contains 150 entries with
 **Source:** 75_dead_target_bug.yaml
 
 ---
-### 2021-08-27 - Fixes GLA defense hole keeping the controlling player alive <a name='index__5__75_gla_hole_survival'></a>
+### 2021-08-27 - Fixes GLA defense hole keeping the controlling player alive <a name='link__20210827__75_gla_hole_survival'></a>
 **Changes**
 
 - **FIX**: GLA holes from the Tunnel and Stinger Site no longer count as structures that keep a player alive.
@@ -297,7 +297,7 @@ Contains 150 entries with
 **Source:** 75_gla_hole_survival.yaml
 
 ---
-### 2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder <a name='index__6__76_red_bullet_tracers'></a>
+### 2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder <a name='link__20210827__76_red_bullet_tracers'></a>
 **Changes**
 
 - **FIX**: Heroic Jarmen Kell and Pathfinder now shoot with red tracer effects.
@@ -313,7 +313,7 @@ Contains 150 entries with
 **Source:** 76_red_bullet_tracers.yaml
 
 ---
-### 2021-08-27 - Fixes wrong Anthrax effect colors of GLA Toxin Tractor death puddles <a name='index__7__77_toxin_tractor_anthrax_color'></a>
+### 2021-08-27 - Fixes wrong Anthrax effect colors of GLA Toxin Tractor death puddles <a name='link__20210827__77_toxin_tractor_anthrax_color'></a>
 **Changes**
 
 - **FIX**: When destroyed, each Toxin Tractor now spawns the correct poison puddle that matches the Anthrax upgrade used by the weapon.
@@ -330,7 +330,7 @@ Contains 150 entries with
 **Source:** 77_toxin_tractor_anthrax_color.yaml
 
 ---
-### 2021-08-28 - Fixes Toxin Shells losing their projectile effect after acquiring Anthrax Beta <a name='index__8__83_toxin_shell_anthrax'></a>
+### 2021-08-28 - Fixes Toxin Shells losing their projectile effect after acquiring Anthrax Beta <a name='link__20210828__83_toxin_shell_anthrax'></a>
 **Changes**
 
 - **FIX**: Toxin Shells now show the explosion particle effect when upgraded to Anthrax Beta and Anthrax Gamma.
@@ -346,7 +346,7 @@ Contains 150 entries with
 **Source:** 83_toxin_shell_anthrax.yaml
 
 ---
-### 2021-08-28 - Fixes premature GLA Toxin Demo Trap explosion effects <a name='index__9__85_toxin_demo_trap'></a>
+### 2021-08-28 - Fixes premature GLA Toxin Demo Trap explosion effects <a name='link__20210828__85_toxin_demo_trap'></a>
 **Changes**
 
 - **FIX**: The GLA Toxin Demo Trap now explodes properly after the beeping sounds like every other Demo Trap.
@@ -362,7 +362,7 @@ Contains 150 entries with
 **Source:** 85_toxin_demo_trap.yaml
 
 ---
-### 2021-08-28 - Fixes wrong portrait image of GLA Sneak attack <a name='index__10__86_sneak_attack_portrait'></a>
+### 2021-08-28 - Fixes wrong portrait image of GLA Sneak attack <a name='link__20210828__86_sneak_attack_portrait'></a>
 **Changes**
 
 - **FIX**: The emerging GLA Sneak Attack now uses the correct portrait of a Sneak Attack instead of the Tunnel Network.
@@ -378,7 +378,7 @@ Contains 150 entries with
 **Source:** 86_sneak_attack_portrait.yaml
 
 ---
-### 2021-08-28 - Fixes GLA Demo Rocket Buggy losing its red missile effect after acquiring Buggy Ammo upgrade <a name='index__11__87_rocket_buggy_red_missiles'></a>
+### 2021-08-28 - Fixes GLA Demo Rocket Buggy losing its red missile effect after acquiring Buggy Ammo upgrade <a name='link__20210828__87_rocket_buggy_red_missiles'></a>
 **Changes**
 
 - **FIX**: The Demo General's Rocket Buggy now retains the red missile explosion effect when upgraded with Buggy Ammo.
@@ -394,7 +394,7 @@ Contains 150 entries with
 **Source:** 87_rocket_buggy_red_missiles.yaml
 
 ---
-### 2021-08-28 - Fixes wrong demo charge voice of GLA Demo Jarmen Kell <a name='index__12__88_demo_jarmen_voice'></a>
+### 2021-08-28 - Fixes wrong demo charge voice of GLA Demo Jarmen Kell <a name='link__20210828__88_demo_jarmen_voice'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Jarmen Kell will no longer repeat a voice line when he arrives at the target while using the Timed Demo Charge. Instead of the repeated voice line, the "planting a demo charge beep" sound effect is played.
@@ -410,7 +410,7 @@ Contains 150 entries with
 **Source:** 88_demo_jarmen_voice.yaml
 
 ---
-### 2021-08-28 - Fixes crushed GLA Marauder becoming an indestructible unit <a name='index__13__90_indestructible_marauder'></a>
+### 2021-08-28 - Fixes crushed GLA Marauder becoming an indestructible unit <a name='link__20210828__90_indestructible_marauder'></a>
 **Changes**
 
 - **FIX**: The GLA Marauder no longer lingers indefinitely on the map after getting crushed by a China Overlord Tank.
@@ -426,7 +426,7 @@ Contains 150 entries with
 **Source:** 90_indestructible_marauder.yaml
 
 ---
-### 2021-08-28 - Fixes wrong ability image of GLA Saboteur <a name='index__14__91_saboteur_ability_image'></a>
+### 2021-08-28 - Fixes wrong ability image of GLA Saboteur <a name='link__20210828__91_saboteur_ability_image'></a>
 **Changes**
 
 - **FIX**: The Sabotage Building ability now shows the intended icon image instead of being a duplicate of the Saboteur's portrait.
@@ -442,7 +442,7 @@ Contains 150 entries with
 **Source:** 91_saboteur_ability_image.yaml
 
 ---
-### 2021-08-28 - Fixes GLA Demo Trap getting triggered by nearby enemy scaffold <a name='index__15__94_demotrap_scaffold_trigger'></a>
+### 2021-08-28 - Fixes GLA Demo Trap getting triggered by nearby enemy scaffold <a name='link__20210828__94_demotrap_scaffold_trigger'></a>
 **Changes**
 
 - **FIX**: Demo Traps can no longer be triggered by enemy scaffolds.
@@ -458,7 +458,7 @@ Contains 150 entries with
 **Source:** 94_demotrap_scaffold_trigger.yaml
 
 ---
-### 2021-08-28 - Fixes wrong death voices of GLA Saboteur <a name='index__16__95_saboteur_death_voice'></a>
+### 2021-08-28 - Fixes wrong death voices of GLA Saboteur <a name='link__20210828__95_saboteur_death_voice'></a>
 **Changes**
 
 - **FIX**: All GLA Saboteurs now use the Saboteur death voice instead of the Rebel death voice.
@@ -480,7 +480,7 @@ Contains 150 entries with
 **Source:** 95_saboteur_death_voice.yaml
 
 ---
-### 2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units <a name='index__17__101_demo_infantry_death_voice'></a>
+### 2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units <a name='link__20210829__101_demo_infantry_death_voice'></a>
 **Changes**
 
 - **FIX**: The Demo General's Infantry units will no longer play the blown-up Terrorist sound effect when killed with an explosive. This will prevent confusion among players, as the sound effect is typically associated with the Suicide/Demolitions ability.
@@ -496,7 +496,7 @@ Contains 150 entries with
 **Source:** 101_demo_infantry_death_voice.yaml
 
 ---
-### 2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide <a name='index__18__102_demo_battle_bus_suicide_damage'></a>
+### 2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide <a name='link__20210829__102_demo_battle_bus_suicide_damage'></a>
 **Changes**
 
 - **FIX**: Using the suicide ability with the GLA Battle Bus now deals damage and leaves a wreck after the vehicle explodes.
@@ -513,7 +513,7 @@ Contains 150 entries with
 **Source:** 102_demo_battle_bus_suicide_damage.yaml
 
 ---
-### 2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker <a name='index__19__103_worker_combat_bike_destruction'></a>
+### 2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker <a name='link__20210829__103_worker_combat_bike_destruction'></a>
 **Changes**
 
 - **FIX**: The Demo General's Combat Bike with a Worker now produces the same red explosion effect as any other rider does when blown up.
@@ -529,7 +529,7 @@ Contains 150 entries with
 **Source:** 103_worker_combat_bike_destruction.yaml
 
 ---
-### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme <a name='index__20__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
+### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
 **Changes**
 
 - **FIX**: The Demo General's Combat Bike with a Terrorist and the Demolitions upgrade now deals damage to enemies when destroyed by an Anthrax Gamma weapon. This is consistent with other Demo units.
@@ -545,7 +545,7 @@ Contains 150 entries with
 **Source:** 104_demo_combat_bike_gamme_anthrax_death_damage.yaml
 
 ---
-### 2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches <a name='index__21__99_demo_vehicle_destruction'></a>
+### 2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches <a name='link__20210829__99_demo_vehicle_destruction'></a>
 **Changes**
 
 - **FIX**: Demo General's vehicles now correctly produce wrecks when destroyed, and are no longer flung around randomly on death like a Terrorist.
@@ -563,7 +563,7 @@ Contains 150 entries with
 **Source:** 99_demo_vehicle_destruction.yaml
 
 ---
-### 2021-09-01 - Fixes inconsistent minimum attack ranges of GLA Toxin Tractor <a name='index__22__135_toxin_tractor_attack_range'></a>
+### 2021-09-01 - Fixes inconsistent minimum attack ranges of GLA Toxin Tractor <a name='link__20210901__135_toxin_tractor_attack_range'></a>
 **Changes**
 
 - **FIX**: Increases the minimum attack range of the unupgraded green Toxin sprayer of the GLA Toxin Tractor from 0 to 10. This range is consistent with those of the Anthrax Beta and Anthrax Gamma sprayers.
@@ -579,7 +579,7 @@ Contains 150 entries with
 **Source:** 135_toxin_tractor_attack_range.yaml
 
 ---
-### 2021-09-03 - Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger <a name='index__23__159_demo_tunnel_stinger_suicide_cameo'></a>
+### 2021-09-03 - Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger <a name='link__20210903__159_demo_tunnel_stinger_suicide_cameo'></a>
 **Changes**
 
 - **FIX**: The upgrade icon for the Demolition upgrade is now present on the Demo General's Tunnel Networks and Stinger Sites.
@@ -595,7 +595,7 @@ Contains 150 entries with
 **Source:** 159_demo_tunnel_stinger_suicide_cameo.yaml
 
 ---
-### 2021-09-03 - Removes obsolete suicide button from GLA Demo Worker before Demo Upgrade <a name='index__24__161_demo_worker_suicide_button'></a>
+### 2021-09-03 - Removes obsolete suicide button from GLA Demo Worker before Demo Upgrade <a name='link__20210903__161_demo_worker_suicide_button'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Worker no longer shows a disabled suicide button before the Demo Upgrade is acquired.
@@ -611,7 +611,7 @@ Contains 150 entries with
 **Source:** 161_demo_worker_suicide_button.yaml
 
 ---
-### 2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds <a name='index__25__164_demo_technical_suicide_delay'></a>
+### 2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds <a name='link__20210903__164_demo_technical_suicide_delay'></a>
 **Changes**
 
 - **FIX**: The turret of the GLA Technical no longer has to realign up to 0.75 seconds to face directly forward before the vehicle explodes when ordered to suicide. It will explode immediately regardless of its previous orientation.
@@ -627,7 +627,7 @@ Contains 150 entries with
 **Source:** 164_demo_technical_suicide_delay.yaml
 
 ---
-### 2021-09-03 - Fixes GLA Hijacker and Saboteur being able to ride the GLA Toxin Combat Bike <a name='index__26__168_hijacker_on_toxin_combat_bike'></a>
+### 2021-09-03 - Fixes GLA Hijacker and Saboteur being able to ride the GLA Toxin Combat Bike <a name='link__20210903__168_hijacker_on_toxin_combat_bike'></a>
 **Changes**
 
 - **FIX**: All non-Toxin units, including the Hijacker and Saboteur from the regular GLA faction, can no longer ride the bike of the Toxin General.
@@ -643,7 +643,7 @@ Contains 150 entries with
 **Source:** 168_hijacker_on_toxin_combat_bike.yaml
 
 ---
-### 2021-09-03 - Fixes duplicate death sounds of GLA Combat Bike <a name='index__27__169_combat_bike_death_sounds'></a>
+### 2021-09-03 - Fixes duplicate death sounds of GLA Combat Bike <a name='link__20210903__169_combat_bike_death_sounds'></a>
 **Changes**
 
 - **FIX**: Only the rider-specific death scream can now be heard when a regular GLA Combat Bike is destroyed.
@@ -659,7 +659,7 @@ Contains 150 entries with
 **Source:** 169_combat_bike_death_sounds.yaml
 
 ---
-### 2021-09-03 - Fixes GLA Saboteur simply disappearing when killed on Combat Bike <a name='index__28__171_saboteur_on_bike'></a>
+### 2021-09-03 - Fixes GLA Saboteur simply disappearing when killed on Combat Bike <a name='link__20210903__171_saboteur_on_bike'></a>
 **Changes**
 
 - **FIX**: When a GLA Saboteur on a Combat Bike is destroyed, the Saboteur is now properly thrown off the bike like every other unit.
@@ -675,7 +675,7 @@ Contains 150 entries with
 **Source:** 171_saboteur_on_bike.yaml
 
 ---
-### 2021-09-04 - Fixes animations, models and sounds of GLA Combat Bike in Singleplayer <a name='index__29__186_sp_combat_bike_errors'></a>
+### 2021-09-04 - Fixes animations, models and sounds of GLA Combat Bike in Singleplayer <a name='link__20210904__186_sp_combat_bike_errors'></a>
 **Changes**
 
 - **FIX**: All GLA Combat Bikes now look and behave the same, except for their rider on top.
@@ -691,7 +691,7 @@ Contains 150 entries with
 **Source:** 186_sp_combat_bike_errors.yaml
 
 ---
-### 2021-09-04 - Fixes unexpected hit screen shake effects on bunkered GLA Battle Bus <a name='index__30__187_battle_bus_screen_shake'></a>
+### 2021-09-04 - Fixes unexpected hit screen shake effects on bunkered GLA Battle Bus <a name='link__20210904__187_battle_bus_screen_shake'></a>
 **Changes**
 
 - **FIX**: The screen no longer shakes when hitting a GLA Battle Bus in its second life bunker mode.
@@ -707,7 +707,7 @@ Contains 150 entries with
 **Source:** 187_battle_bus_screen_shake.yaml
 
 ---
-### 2021-09-04 - Adds missing sound to GLA Battle Bus <a name='index__31__192_battlebus_sounds'></a>
+### 2021-09-04 - Adds missing sound to GLA Battle Bus <a name='link__20210904__192_battlebus_sounds'></a>
 **Changes**
 
 - **FIX**: The regular GLA Battle Bus now has the sound effect when power sliding that all other buses have.
@@ -723,7 +723,7 @@ Contains 150 entries with
 **Source:** 192_battlebus_sounds.yaml
 
 ---
-### 2021-09-04 - Adds missing AP Rocket upgrade icon to GLA Scud Launcher <a name='index__32__207_scud_launcher_cameo'></a>
+### 2021-09-04 - Adds missing AP Rocket upgrade icon to GLA Scud Launcher <a name='link__20210904__207_scud_launcher_cameo'></a>
 **Changes**
 
 - **FIX**: The GLA Scud Launchers now show the upgrade icon for AP Rockets, reflecting their damage bonus for high explosive warheads.
@@ -739,7 +739,7 @@ Contains 150 entries with
 **Source:** 207_scud_launcher_cameo.yaml
 
 ---
-### 2021-09-05 - Adds missing upgrade icons to GLA Rebels <a name='index__33__225_rebel_cameo'></a>
+### 2021-09-05 - Adds missing upgrade icons to GLA Rebels <a name='link__20210905__225_rebel_cameo'></a>
 **Changes**
 
 - **FIX**: The Demo and Stealth General's Rebels now show the upgrade icon for Camouflage.
@@ -756,7 +756,7 @@ Contains 150 entries with
 **Source:** 225_rebel_cameo.yaml
 
 ---
-### 2021-09-09 - Adds missing red smoke effect for GLA Demo Terrorist on Combat Bike after Demo Upgrade <a name='index__34__260_terrorist_combat_bike_effects'></a>
+### 2021-09-09 - Adds missing red smoke effect for GLA Demo Terrorist on Combat Bike after Demo Upgrade <a name='link__20210909__260_terrorist_combat_bike_effects'></a>
 **Changes**
 
 - **FIX**: The Demo General's Terrorist now uses the correct red explosion effects when destroyed or suicided while riding a Bike after being upgraded with Demolitions, instead of the explosion effects of a normal Terrorist.
@@ -772,7 +772,7 @@ Contains 150 entries with
 **Source:** 260_terrorist_combat_bike_effects.yaml
 
 ---
-### 2021-09-09 - Adds missing booby trap sound effect to GLA Demo Rebel <a name='index__35__263_demo_rebel_booby_trap_sound'></a>
+### 2021-09-09 - Adds missing booby trap sound effect to GLA Demo Rebel <a name='link__20210909__263_demo_rebel_booby_trap_sound'></a>
 **Changes**
 
 - **FIX**: The Demo General's Rebel now says his line when the target is chosen for the Booby Trap ability, just like the normal GLA Rebel.
@@ -788,7 +788,7 @@ Contains 150 entries with
 **Source:** 263_demo_rebel_booby_trap_sound.yaml
 
 ---
-### 2021-09-10 - Fixes GLA Battle Bus stopping moving when targeting air unit <a name='index__36__267_battle_bus_air_target'></a>
+### 2021-09-10 - Fixes GLA Battle Bus stopping moving when targeting air unit <a name='link__20210910__267_battle_bus_air_target'></a>
 **Changes**
 
 - **FIX**: The GLA Battle Bus will no longer stop moving when targeting airborne units.
@@ -804,7 +804,7 @@ Contains 150 entries with
 **Source:** 267_battle_bus_air_target.yaml
 
 ---
-### 2021-09-10 - Fixes GLA Battle Bus turning its chassis when aiming at air units <a name='index__37__268_battle_bus_chassis_turn'></a>
+### 2021-09-10 - Fixes GLA Battle Bus turning its chassis when aiming at air units <a name='link__20210910__268_battle_bus_chassis_turn'></a>
 **Changes**
 
 - **FIX**: The GLA Battle Bus with infantry inside will no longer turn towards a flying unit when ordered to attack it, thus reducing unnecessary movement.
@@ -820,7 +820,7 @@ Contains 150 entries with
 **Source:** 268_battle_bus_chassis_turn.yaml
 
 ---
-### 2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade <a name='index__38__271_gla_fake_cc_look_mismatch'></a>
+### 2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade <a name='link__20210910__271_gla_fake_cc_look_mismatch'></a>
 **Changes**
 
 - **FIX**: When upgraded with Fortified Structures, the Fake GLA Command Centers of the Stealth, Tox and Demo General will no longer lose their sub-faction decal. They will have the correct appearance with the decal even with the upgrade.
@@ -836,7 +836,7 @@ Contains 150 entries with
 **Source:** 271_gla_fake_cc_look_mismatch.yaml
 
 ---
-### 2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type <a name='index__39__273_combat_bike_rocket_type'></a>
+### 2021-09-10 - Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type <a name='link__20210910__273_combat_bike_rocket_type'></a>
 **Changes**
 
 - **FIX**: The Demo General's RPG Troopers now fire missiles with the correct red explosion effect, just like the normal GLA RPG Troopers. This is a purely cosmetical change.
@@ -854,7 +854,7 @@ Contains 150 entries with
 **Source:** 273_combat_bike_rocket_type.yaml
 
 ---
-### 2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton <a name='index__40__277_demo_charge_button_placement'></a>
+### 2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton <a name='link__20210910__277_demo_charge_button_placement'></a>
 **Changes**
 
 - **FIX**: Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton.
@@ -870,7 +870,7 @@ Contains 150 entries with
 **Source:** 277_demo_charge_button_placement.yaml
 
 ---
-### 2021-09-10 - Fixes wrong suicide ability icon on GLA Demo Combat Bike <a name='index__41__278_demo_combat_bike_suicide_button'></a>
+### 2021-09-10 - Fixes wrong suicide ability icon on GLA Demo Combat Bike <a name='link__20210910__278_demo_combat_bike_suicide_button'></a>
 **Changes**
 
 - **FIX**: The Demo General's GLA Combat Bike no longer uses its portrait as a button in the control bar and the production queue.
@@ -886,7 +886,7 @@ Contains 150 entries with
 **Source:** 278_demo_combat_bike_suicide_button.yaml
 
 ---
-### 2021-09-11 - Fixes GLA Stinger Site being able to shoot twice without any delay <a name='index__42__294_stinger_fires_twice'></a>
+### 2021-09-11 - Fixes GLA Stinger Site being able to shoot twice without any delay <a name='link__20210911__294_stinger_fires_twice'></a>
 **Changes**
 
 - **FIX**: The GLA Stinger Site no longer has separate reload times for engaging ground and airborne targets, and it is no longer able to double the rate of fire by switching targets during reload.
@@ -902,7 +902,7 @@ Contains 150 entries with
 **Source:** 294_stinger_fires_twice.yaml
 
 ---
-### 2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site <a name='index__43__295_stinger_air_attack_effects'></a>
+### 2021-09-11 - Adds missing air attack effects and animations for GLA Stinger Site <a name='link__20210911__295_stinger_air_attack_effects'></a>
 **Changes**
 
 - **FIX**: The GLA Stinger Soldiers now use the muzzle flash and recoil animation when engaging airborne targets, instead of just standing there while the missile spawns.
@@ -918,7 +918,7 @@ Contains 150 entries with
 **Source:** 295_stinger_air_attack_effects.yaml
 
 ---
-### 2021-09-11 - Fixes GLA Stinger Site automatically attacking enemy buildings <a name='index__44__296_stinger_attacks_structures'></a>
+### 2021-09-11 - Fixes GLA Stinger Site automatically attacking enemy buildings <a name='link__20210911__296_stinger_attacks_structures'></a>
 **Changes**
 
 - **FIX**: The GLA Stinger Site no longer automatically attacks enemy buildings. This is consistent with how other base defenses and units work.
@@ -934,7 +934,7 @@ Contains 150 entries with
 **Source:** 296_stinger_attacks_structures.yaml
 
 ---
-### 2021-09-11 - Fixes GLA Car Bomb unable to attack target <a name='index__45__307_car_bomb_attack_bug'></a>
+### 2021-09-11 - Fixes GLA Car Bomb unable to attack target <a name='link__20210911__307_car_bomb_attack_bug'></a>
 **Changes**
 
 - **FIX**: When aiming a GLA Car Bomb at a unit that is driving away, the Car Bomb will no longer stop moving all of a sudden. It keeps attacking until the target is hit or the car is destroyed.
@@ -950,7 +950,7 @@ Contains 150 entries with
 **Source:** 307_car_bomb_attack_bug.yaml
 
 ---
-### 2021-09-11 - Adds missing muzzle flash for Snipe Attack ability of GLA Jarmen Kell on Combat Bike <a name='index__46__309_jarmen_combat_bike_muzzle_flash'></a>
+### 2021-09-11 - Adds missing muzzle flash for Snipe Attack ability of GLA Jarmen Kell on Combat Bike <a name='link__20210911__309_jarmen_combat_bike_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The GLA Combat Bike now shows a muzzle effect for the Jarmen Kell Snipe Attack.
@@ -966,7 +966,7 @@ Contains 150 entries with
 **Source:** 309_jarmen_combat_bike_muzzle_flash.yaml
 
 ---
-### 2021-09-11 - Fixes wrong muzzle flash location for Snipe Attack ability of GLA Jarmen Kell <a name='index__47__310_jarmen_muzzle_flash'></a>
+### 2021-09-11 - Fixes wrong muzzle flash location for Snipe Attack ability of GLA Jarmen Kell <a name='link__20210911__310_jarmen_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The Snipe Attack tracer from the GLA Jarmen Kell now emerges from the muzzle instead of his feet.
@@ -982,7 +982,7 @@ Contains 150 entries with
 **Source:** 310_jarmen_muzzle_flash.yaml
 
 ---
-### 2021-09-11 - Fixes GLA Scud Storm not being able to damage itself <a name='index__48__328_scud_storm_self_damage'></a>
+### 2021-09-11 - Fixes GLA Scud Storm not being able to damage itself <a name='link__20210911__328_scud_storm_self_damage'></a>
 **Changes**
 
 - **FIX**: The GLA Scud Storm now damages itself when firing at its own position. This behaviour is consistent with the USA Particle Cannon and China Nuke Silo.
@@ -998,7 +998,7 @@ Contains 150 entries with
 **Source:** 328_scud_storm_self_damage.yaml
 
 ---
-### 2021-09-12 - Fixes issue where GLA Demo Terrorist can be crushed without applying any damage <a name='index__49__316_demo_terrorist_damage'></a>
+### 2021-09-12 - Fixes issue where GLA Demo Terrorist can be crushed without applying any damage <a name='link__20210912__316_demo_terrorist_damage'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Terrorist will now explode when crushed, burned, or exploded like other GLA Terrorists.
@@ -1014,7 +1014,7 @@ Contains 150 entries with
 **Source:** 316_demo_terrorist_damage.yaml
 
 ---
-### 2021-09-12 - Fixes issue where Demo GLA Terrorist can die on China Mines without applying any damage <a name='index__50__316_demo_terrorist_mines_damage'></a>
+### 2021-09-12 - Fixes issue where Demo GLA Terrorist can die on China Mines without applying any damage <a name='link__20210912__316_demo_terrorist_mines_damage'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Terrorist will now always explode and apply damage when dying on mines.
@@ -1030,7 +1030,7 @@ Contains 150 entries with
 **Source:** 316_demo_terrorist_mines_damage.yaml
 
 ---
-### 2021-09-12 - Fixes Stealth General unable to build Hijacker from regular GLA Barracks <a name='index__51__331_stealth_general_build_bug'></a>
+### 2021-09-12 - Fixes Stealth General unable to build Hijacker from regular GLA Barracks <a name='link__20210912__331_stealth_general_build_bug'></a>
 **Changes**
 
 - **FIX**: The Stealth General can now build Hijackers in a regular GLA Barracks.
@@ -1046,7 +1046,7 @@ Contains 150 entries with
 **Source:** 331_stealth_general_build_bug.yaml
 
 ---
-### 2021-09-13 - Fixes button errors on GLA Demo Combat Bike <a name='index__52__345_demo_combat_bike_suicide_button'></a>
+### 2021-09-13 - Fixes button errors on GLA Demo Combat Bike <a name='link__20210913__345_demo_combat_bike_suicide_button'></a>
 **Changes**
 
 - **FIX**: GLA Demo Combat Bike no longer shows the deactivated suicide button before acquiring the Demolition Upgrade.
@@ -1064,7 +1064,7 @@ Contains 150 entries with
 **Source:** 345_demo_combat_bike_suicide_button.yaml
 
 ---
-### 2021-09-13 - Adds missing Camo Netting Upgrade icon to GLA Fake Arms Dealer <a name='index__53__353_fake_armsdealer_cameo'></a>
+### 2021-09-13 - Adds missing Camo Netting Upgrade icon to GLA Fake Arms Dealer <a name='link__20210913__353_fake_armsdealer_cameo'></a>
 **Changes**
 
 - **FIX**: Adds upgrade icon for Camo Netting to the Stealth General's Fake Arms Dealer, making it consistent with the real Arms Dealer.
@@ -1080,7 +1080,7 @@ Contains 150 entries with
 **Source:** 353_fake_armsdealer_cameo.yaml
 
 ---
-### 2021-09-13 - Adds missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units <a name='index__54__355_gla_anthrax_cameo'></a>
+### 2021-09-13 - Adds missing Anthrax Beta and Anthrax Gamma Upgrade icons to various GLA units <a name='link__20210913__355_gla_anthrax_cameo'></a>
 **Changes**
 
 - **FIX**: All GLA units and buildings that benefit from the Anthrax Beta and Anthrax Gamma upgrade now display the respective upgrade icon.
@@ -1097,7 +1097,7 @@ Contains 150 entries with
 **Source:** 355_gla_anthrax_cameo.yaml
 
 ---
-### 2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap <a name='index__55__370_quad_damage_model'></a>
+### 2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap <a name='link__20210916__370_quad_damage_model'></a>
 **Changes**
 
 - **FIX**: The GLA Quad Cannon now shows the damaged model when appropriate, no matter how many scraps it picked up.
@@ -1113,7 +1113,7 @@ Contains 150 entries with
 **Source:** 370_quad_damage_model.yaml
 
 ---
-### 2021-09-19 - Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade <a name='index__56__392_marauder_anthrax_type'></a>
+### 2021-09-19 - Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade <a name='link__20210919__392_marauder_anthrax_type'></a>
 **Changes**
 
 - **FIX**: Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade.
@@ -1129,7 +1129,7 @@ Contains 150 entries with
 **Source:** 392_marauder_anthrax_type.yaml
 
 ---
-### 2021-09-20 - Adds missing Stop button to GLA Tunnel and GLA Palace <a name='index__57__386_tunnel_palace_stop_button'></a>
+### 2021-09-20 - Adds missing Stop button to GLA Tunnel and GLA Palace <a name='link__20210920__386_tunnel_palace_stop_button'></a>
 **Changes**
 
 - **FIX**: The Palace now has a Stop button, which can be used to make passengers stop firing.
@@ -1147,7 +1147,7 @@ Contains 150 entries with
 **Source:** 386_tunnel_palace_stop_button.yaml
 
 ---
-### 2021-09-22 - Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction <a name='index__58__401_terrorist_poison_puddle'></a>
+### 2021-09-22 - Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction <a name='link__20210922__401_terrorist_poison_puddle'></a>
 **Changes**
 
 - **FIX**: Fixes missing Anthrax Alpha poison cloud on Toxin GLA Terrorist when controlled by any other faction.
@@ -1163,7 +1163,7 @@ Contains 150 entries with
 **Source:** 401_terrorist_poison_puddle.yaml
 
 ---
-### 2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles <a name='index__59__440_demo_trap_triggered_by_puddles'></a>
+### 2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles <a name='link__20211001__440_demo_trap_triggered_by_puddles'></a>
 **Changes**
 
 - **FIX**: The GLA Demo Trap can no longer be triggered by nearby Anthrax and Radiation puddles.
@@ -1179,7 +1179,7 @@ Contains 150 entries with
 **Source:** 440_demo_trap_triggered_by_puddles.yaml
 
 ---
-### 2021-10-01 - Fixes the ECM immunity of Heroic GLA Quad Cannon <a name='index__60__442_vet3_quad_cannon_subdual'></a>
+### 2021-10-01 - Fixes the ECM immunity of Heroic GLA Quad Cannon <a name='link__20211001__442_vet3_quad_cannon_subdual'></a>
 **Changes**
 
 - **FIX**: The Heroic (Vet3) GLA Quad Cannon can now be disabled by the China ECM Tank.
@@ -1195,7 +1195,7 @@ Contains 150 entries with
 **Source:** 442_vet3_quad_cannon_subdual.yaml
 
 ---
-### 2021-10-09 - Fixes door times of powered GLA Arms Dealer to accomodate correct GLA Technical production <a name='index__61__538_armsdealer_power_doors'></a>
+### 2021-10-09 - Fixes door times of powered GLA Arms Dealer to accomodate correct GLA Technical production <a name='link__20211009__538_armsdealer_power_doors'></a>
 **Changes**
 
 - **FIX**: The door times of the powered GLA Arms Dealer now accomodate correct GLA Technical production. This way the second produced Technical will no longer leave the factory after just 5 seconds, but after 7 seconds.
@@ -1211,7 +1211,7 @@ Contains 150 entries with
 **Source:** 538_armsdealer_power_doors.yaml
 
 ---
-### 2021-10-10 - Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps <a name='index__62__541_fake_supply_animation'></a>
+### 2021-10-10 - Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps <a name='link__20211010__541_fake_supply_animation'></a>
 **Changes**
 
 - **FIX**: Fixes wrong GLA Fake Supply Stash animation after Fortified Structures upgrade on Winter Night maps.
@@ -1227,7 +1227,7 @@ Contains 150 entries with
 **Source:** 541_fake_supply_animation.yaml
 
 ---
-### 2021-10-10 - Fixes mismatching particle effects of GLA Black Market and Fake Market <a name='index__63__542_fake_market_particles'></a>
+### 2021-10-10 - Fixes mismatching particle effects of GLA Black Market and Fake Market <a name='link__20211010__542_fake_market_particles'></a>
 **Changes**
 
 - **FIX**: The particle effects of the GLA Black Market and Fake Market no look identical. This way it is no longer possible to tell these structures apart by their core visuals.
@@ -1243,7 +1243,7 @@ Contains 150 entries with
 **Source:** 542_fake_market_particles.yaml
 
 ---
-### 2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings <a name='index__64__544_stealth_saboteur_ability'></a>
+### 2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings <a name='link__20211010__544_stealth_saboteur_ability'></a>
 **Changes**
 
 - **FIX**: The GLA Stealth Saboteur can now enter the China Internet Center. This will disable the structure for 15 seconds. This is consistent with the behaviour of the regular GLA Saboteur.
@@ -1260,7 +1260,7 @@ Contains 150 entries with
 **Source:** 544_stealth_saboteur_ability.yaml
 
 ---
-### 2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market <a name='index__65__547_regular_saboteur_ability'></a>
+### 2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market <a name='link__20211010__547_regular_saboteur_ability'></a>
 **Changes**
 
 - **FEATURE**: All GLA Saboteurs can now enter the USA Supply Drop Zone and GLA Black Market. They steal 1000 cash when doing so, same as when entering a Supply Center.
@@ -1276,7 +1276,7 @@ Contains 150 entries with
 **Source:** 547_regular_saboteur_ability.yaml
 
 ---
-### 2021-10-15 - Fixes wrong model during deconstruction of GLA Advanced Demo Trap <a name='index__66__563_demo_trap_sell_model'></a>
+### 2021-10-15 - Fixes wrong model during deconstruction of GLA Advanced Demo Trap <a name='link__20211015__563_demo_trap_sell_model'></a>
 **Changes**
 
 - **FIX**: The correct model is now shown during the deconstruction of the GLA Advanced Demo Trap.
@@ -1292,7 +1292,7 @@ Contains 150 entries with
 **Source:** 563_demo_trap_sell_model.yaml
 
 ---
-### 2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold <a name='index__67__595_cash_bounty_activation'></a>
+### 2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold <a name='link__20211024__595_cash_bounty_activation'></a>
 **Changes**
 
 - **FIX**: The GLA Cash Bounty is no longer activated with an unfinished Command Center. The Command Center construction must finish to complete the activation process. After activation is completed, the Command Center can be demolished and the Cash Bounty will stay active. A new Cash Bounty level will require a new Command Center for activation however.
@@ -1308,7 +1308,7 @@ Contains 150 entries with
 **Source:** 595_cash_bounty_activation.yaml
 
 ---
-### 2021-10-31 - Adds climb animation for GLA Saboteur <a name='index__68__606_saboteur_climb_animation'></a>
+### 2021-10-31 - Adds climb animation for GLA Saboteur <a name='link__20211031__606_saboteur_climb_animation'></a>
 **Changes**
 
 - **FEATURE**: The GLA Saboteur now plays a climb animation when scaling mountains.
@@ -1324,7 +1324,7 @@ Contains 150 entries with
 **Source:** 606_saboteur_climb_animation.yaml
 
 ---
-### 2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang <a name='index__69__636_stinger_flashbang_damage'></a>
+### 2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang <a name='link__20220101__636_stinger_flashbang_damage'></a>
 **Changes**
 
 - **FIX**: Flashbang grenades from USA Rangers no longer damage GLA Stinger Soldiers.
@@ -1340,7 +1340,7 @@ Contains 150 entries with
 **Source:** 636_stinger_flashbang_damage.yaml
 
 ---
-### 2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist <a name='index__70__695_toxin_terrorist_death'></a>
+### 2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist <a name='link__20220716__695_toxin_terrorist_death'></a>
 **Changes**
 
 - **FIX**: Toxin Terrorists no longer kill each other with chain reactions at random events.
@@ -1356,7 +1356,7 @@ Contains 150 entries with
 **Source:** 695_toxin_terrorist_death.yaml
 
 ---
-### 2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists <a name='index__71__697_all_terrorist_crush_damage'></a>
+### 2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists <a name='link__20220716__697_all_terrorist_crush_damage'></a>
 **Changes**
 
 - **FEATURE**: All GLA Terrorists can now be crushed. Originally only the Demo Terrorist could be crushed, without dealing any damage. All other faction Terrorists applied full damage on crush. Now all Terrorists from all factions will apply a little bit of damage to surroundings when crushed.
@@ -1372,7 +1372,7 @@ Contains 150 entries with
 **Source:** 697_all_terrorist_crush_damage.yaml
 
 ---
-### 2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade <a name='index__72__699_toxin_terrorist_damage'></a>
+### 2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade <a name='link__20220716__699_toxin_terrorist_damage'></a>
 **Changes**
 
 - **FIX**: The Toxin GLA Terrorist now deals identical amount of damage before and after Toxin Gamma Upgrade, 500 instead of 700 damage.
@@ -1388,7 +1388,7 @@ Contains 150 entries with
 **Source:** 699_toxin_terrorist_damage.yaml
 
 ---
-### 2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25% <a name='index__73__727_buggy_required_xp'></a>
+### 2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25% <a name='link__20220722__727_buggy_required_xp'></a>
 **Changes**
 
 - **TWEAK**: Decreases the required level up experience of the GLA Rocket Buggy by 25%, from 200 400 800 to 150 300 600. This is more in line with other long range vehicles.
@@ -1404,7 +1404,7 @@ Contains 150 entries with
 **Source:** 727_buggy_required_xp.yaml
 
 ---
-### 2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50% <a name='index__74__727_scud_launcher_required_xp'></a>
+### 2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50% <a name='link__20220722__727_scud_launcher_required_xp'></a>
 **Changes**
 
 - **TWEAK**: Increases the required level up experience of the GLA Scud Launcher by 50%, from 100 200 400 to 150 300 600. This is more in line with other long range vehicles.
@@ -1420,7 +1420,7 @@ Contains 150 entries with
 **Source:** 727_scud_launcher_required_xp.yaml
 
 ---
-### 2022-07-27 - Fixes game crash upon the use of a GLA Terrorist <a name='index__75__764_terrorist_crash'></a>
+### 2022-07-27 - Fixes game crash upon the use of a GLA Terrorist <a name='link__20220727__764_terrorist_crash'></a>
 **Changes**
 
 - **FIX**: Game no longer crashes when using Toxin GLA Terrorist (1)
@@ -1438,7 +1438,7 @@ Contains 150 entries with
 **Source:** 764_terrorist_crash.yaml
 
 ---
-### 2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies <a name='index__76__783_demo_combat_bike_allies_damage'></a>
+### 2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies <a name='link__20220729__783_demo_combat_bike_allies_damage'></a>
 **Changes**
 
 - **TWEAK**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
@@ -1454,7 +1454,7 @@ Contains 150 entries with
 **Source:** 783_demo_combat_bike_allies_damage.yaml
 
 ---
-### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='index__77__412_tanks_xp_reward'></a>
+### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
 **Changes**
 
 - **TWEAK**: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
@@ -1470,7 +1470,7 @@ Contains 150 entries with
 **Source:** 412_tanks_xp_reward.yaml
 
 ---
-### 2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor <a name='index__78__820_toxin_tractor_salvage_models'></a>
+### 2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor <a name='link__20220805__820_toxin_tractor_salvage_models'></a>
 **Changes**
 
 - **FIX**: The GLA Toxin Tractor receives bigger side barrels when scrapping up once.
@@ -1487,7 +1487,7 @@ Contains 150 entries with
 **Source:** 820_toxin_tractor_salvage_models.yaml
 
 ---
-### 2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player <a name='index__79__826_anthrax_bomb_poison_colors'></a>
+### 2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player <a name='link__20220805__826_anthrax_bomb_poison_colors'></a>
 **Changes**
 
 - **FIX**: The colors of the Anthrax Bomb will now match the respective Anthrax upgrades of the controlling player. Regular Anthrax Bomb appears green, Anthrax Beta Bomb appears blue and Anthrax Gamma Bomb appears pink. This change is purely visual.
@@ -1503,7 +1503,7 @@ Contains 150 entries with
 **Source:** 826_anthrax_bomb_poison_colors.yaml
 
 ---
-### 2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush <a name='index__80__845_demo_ambush_tooltip_text'></a>
+### 2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush <a name='link__20220806__845_demo_ambush_tooltip_text'></a>
 **Changes**
 
 - **FIX**: The tooltip texts of the Demo GLA Rebel Ambush now reflect the correct amount of spawned rebels for each of its levels.
@@ -1519,7 +1519,7 @@ Contains 150 entries with
 **Source:** 845_demo_ambush_tooltip_text.yaml
 
 ---
-### 2022-08-12 - Removes GLA Hijacker ability to steal Combat Bike <a name='index__81__879_hijacker_bike_theft'></a>
+### 2022-08-12 - Removes GLA Hijacker ability to steal Combat Bike <a name='link__20220812__879_hijacker_bike_theft'></a>
 **Changes**
 
 - **TWEAK**: The GLA Combat Bike is now immune to being hijacked.
@@ -1535,7 +1535,7 @@ Contains 150 entries with
 **Source:** 879_hijacker_bike_theft.yaml
 
 ---
-### 2022-08-14 - Fixes toxin color errors <a name='index__82__851_toxin_color_errors'></a>
+### 2022-08-14 - Fixes toxin color errors <a name='link__20220814__851_toxin_color_errors'></a>
 **Changes**
 
 - **FIX**: Fixes toxin color inconsistencies across all 3 variants.
@@ -1552,7 +1552,7 @@ Contains 150 entries with
 **Source:** 851_toxin_color_errors.yaml
 
 ---
-### 2022-08-14 - Improves visual quality of green and blue toxin puddles <a name='index__83__851_toxin_color_tweaks'></a>
+### 2022-08-14 - Improves visual quality of green and blue toxin puddles <a name='link__20220814__851_toxin_color_tweaks'></a>
 **Changes**
 
 - **TWEAK**: Improves the visual quality of green toxin puddles. It now has more of a yellow tint, matching the toxin color palette of the original Toxin Tractor portrait image.
@@ -1569,7 +1569,7 @@ Contains 150 entries with
 **Source:** 851_toxin_color_tweaks.yaml
 
 ---
-### 2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius <a name='index__84__851_toxin_puddle_size'></a>
+### 2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius <a name='link__20220814__851_toxin_puddle_size'></a>
 **Changes**
 
 - **FIX**: Matches the toxin puddle size of Toxin Tractor with its actual damage radius.
@@ -1586,7 +1586,7 @@ Contains 150 entries with
 **Source:** 851_toxin_puddle_size.yaml
 
 ---
-### 2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max <a name='index__85__882_stinger_anthrax_gamma_damage'></a>
+### 2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max <a name='link__20220814__882_stinger_anthrax_gamma_damage'></a>
 **Changes**
 
 - **TWEAK**: Decreases GLA Toxin Stinger Anthrax Gamma ground bonus damage from 100% to 50%.
@@ -1603,7 +1603,7 @@ Contains 150 entries with
 **Source:** 882_stinger_anthrax_gamma_damage.yaml
 
 ---
-### 2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings <a name='index__86__885_fortified_structure_sell'></a>
+### 2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings <a name='link__20220814__885_fortified_structure_sell'></a>
 **Changes**
 
 - **FIX**: GLA buildings with the Fortified Structures upgrade will now show the fortified visuals on sell. This does not change the amount of damage taken.
@@ -1619,7 +1619,7 @@ Contains 150 entries with
 **Source:** 885_fortified_structure_sell.yaml
 
 ---
-### 2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max <a name='index__87__889_anthrax_gamma_damage_bonuses'></a>
+### 2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max <a name='link__20220814__889_anthrax_gamma_damage_bonuses'></a>
 **Changes**
 
 - **TWEAK**: Redistributes the GLA Toxin Tractor Gamma bonuses to be in line with the intended bonus from the Anthrax Gamma tooltip.
@@ -1636,7 +1636,7 @@ Contains 150 entries with
 **Source:** 889_anthrax_gamma_damage_bonuses.yaml
 
 ---
-### 2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members <a name='index__88__904_female_mob_death_voice'></a>
+### 2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members <a name='link__20220814__904_female_mob_death_voice'></a>
 **Changes**
 
 - **FIX**: Female GLA Angry Mob members no longer scream with male voices when poisoned.
@@ -1652,7 +1652,7 @@ Contains 150 entries with
 **Source:** 904_female_mob_death_voice.yaml
 
 ---
-### 2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members <a name='index__89__905_male_mob_death_voice'></a>
+### 2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members <a name='link__20220814__905_male_mob_death_voice'></a>
 **Changes**
 
 - **FIX**: Male GLA Angry Mob members no longer scream with female voices when poisoned or burned.
@@ -1668,7 +1668,7 @@ Contains 150 entries with
 **Source:** 905_male_mob_death_voice.yaml
 
 ---
-### 2022-08-14 - Fixes missing death scream of some GLA Angry Mob members <a name='index__90__906_some_mob_death_voice'></a>
+### 2022-08-14 - Fixes missing death scream of some GLA Angry Mob members <a name='link__20220814__906_some_mob_death_voice'></a>
 **Changes**
 
 - **FIX**: All GLA Angry Mob members now scream on death.
@@ -1684,7 +1684,7 @@ Contains 150 entries with
 **Source:** 906_some_mob_death_voice.yaml
 
 ---
-### 2022-08-15 - Fixes GLA Stinger Troopers not dying individually by USA Microwave Tank damage <a name='index__91__913_stinger_microwave_death'></a>
+### 2022-08-15 - Fixes GLA Stinger Troopers not dying individually by USA Microwave Tank damage <a name='link__20220815__913_stinger_microwave_death'></a>
 **Changes**
 
 - **FIX**: GLA Stinger Troopers are now damaged individually by the Microwave. This way they no longer die all at once after a longer duration.
@@ -1701,7 +1701,7 @@ Contains 150 entries with
 **Source:** 913_stinger_microwave_death.yaml
 
 ---
-### 2022-08-15 - Fixes Demo General infantry units getting stuck near structures when ordered to suicide <a name='index__92__914_demo_infantry_suicide_stuck'></a>
+### 2022-08-15 - Fixes Demo General infantry units getting stuck near structures when ordered to suicide <a name='link__20220815__914_demo_infantry_suicide_stuck'></a>
 **Changes**
 
 - **FIX**: Fixes Demo General infantry units getting stuck near structures when ordered to suicide.
@@ -1717,7 +1717,7 @@ Contains 150 entries with
 **Source:** 914_demo_infantry_suicide_stuck.yaml
 
 ---
-### 2022-08-20 - Adds upgrade voice for GLA Fortified Structure <a name='index__93__1026_fortified_structure_upgrade_voice'></a>
+### 2022-08-20 - Adds upgrade voice for GLA Fortified Structure <a name='link__20220820__1026_fortified_structure_upgrade_voice'></a>
 **Changes**
 
 - **FEATURE**: Acquiring the GLA Fortified Structure upgrade now plays a dedicated voice line in all languages.
@@ -1733,7 +1733,7 @@ Contains 150 entries with
 **Source:** 1026_fortified_structure_upgrade_voice.yaml
 
 ---
-### 2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon <a name='index__94__937_quad_cannon_bones'></a>
+### 2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon <a name='link__20220820__937_quad_cannon_bones'></a>
 **Changes**
 
 - **FIX**: Removes the cubes (bones) from gun barrels of scrapped Quad Cannon.
@@ -1749,7 +1749,7 @@ Contains 150 entries with
 **Source:** 937_quad_cannon_bones.yaml
 
 ---
-### 2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons <a name='index__95__938_infantry_muzzle_flash'></a>
+### 2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons <a name='link__20220820__938_infantry_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: Muzzle flash effects no longer shows persistently during transition animations on
@@ -1771,7 +1771,7 @@ Contains 150 entries with
 **Source:** 938_infantry_muzzle_flash.yaml
 
 ---
-### 2022-08-22 - Fixes insufficient range of GLA Scud Launcher missile <a name='index__96__1041_scud_launcher_missile_range'></a>
+### 2022-08-22 - Fixes insufficient range of GLA Scud Launcher missile <a name='link__20220822__1041_scud_launcher_missile_range'></a>
 **Changes**
 
 - **FIX**: The missile of the GLA Scud Launcher now has more range to properly hit its target in cases where it owns the salvage upgrade for extended firing range, has the SEARCH AND DESTROY Battle Plan bonus and fires from an elevated position. Originally, the Scud missile would time out before hitting the target under these conditions.
@@ -1787,7 +1787,7 @@ Contains 150 entries with
 **Source:** 1041_scud_launcher_missile_range.yaml
 
 ---
-### 2022-08-29 - Fixes animation issues of GLA Angry Mob <a name='index__97__1037_mob_animation_issues'></a>
+### 2022-08-29 - Fixes animation issues of GLA Angry Mob <a name='link__20220829__1037_mob_animation_issues'></a>
 **Changes**
 
 - **FIX**: The Angry Mob member with pistol now shows proper reload animation.
@@ -1808,7 +1808,7 @@ Contains 150 entries with
 **Source:** 1037_mob_animation_issues.yaml
 
 ---
-### 2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade <a name='index__98__1074_demo_scud_launcher_death_damage'></a>
+### 2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade <a name='link__20220902__1074_demo_scud_launcher_death_damage'></a>
 **Changes**
 
 - **FIX**: The Demo GLA Scud Launcher with Demo Upgrade now deals just 50 instead of 500 damage on death. This is consistent with other Demo GLA vehicles, except Terror Bike and Bomb Truck.
@@ -1824,7 +1824,7 @@ Contains 150 entries with
 **Source:** 1074_demo_scud_launcher_death_damage.yaml
 
 ---
-### 2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade <a name='index__99__1076_demo_units_death_particles'></a>
+### 2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade <a name='link__20220902__1076_demo_units_death_particles'></a>
 **Changes**
 
 - **FEATURE**: Destroyed Demo GLA units with Demo Upgrade now have a dedicated explosion effect that looks different to the original suicide explosion effect.
@@ -1840,7 +1840,7 @@ Contains 150 entries with
 **Source:** 1076_demo_units_death_particles.yaml
 
 ---
-### 2022-09-02 - Improves explosion effect of crushed GLA terror units <a name='index__100__1082_demo_units_crushed_death_particles'></a>
+### 2022-09-02 - Improves explosion effect of crushed GLA terror units <a name='link__20220902__1082_demo_units_crushed_death_particles'></a>
 **Changes**
 
 - **FEATURE**: Crushed GLA terror units now have a dedicated explosion effect that looks different to the original suicide explosion effect.
@@ -1856,7 +1856,7 @@ Contains 150 entries with
 **Source:** 1082_demo_units_crushed_death_particles.yaml
 
 ---
-### 2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge <a name='index__101__1086_kassad_challenge_stinger_selection'></a>
+### 2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge <a name='link__20220903__1086_kassad_challenge_stinger_selection'></a>
 **Changes**
 
 - **FIX**: The bare GLA Stinger Trooper is now selectable in Kassads Generals Challenge.
@@ -1872,7 +1872,7 @@ Contains 150 entries with
 **Source:** 1086_kassad_challenge_stinger_selection.yaml
 
 ---
-### 2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds <a name='index__102__1096_scud_storm_worker_spawn_delay'></a>
+### 2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds <a name='link__20220904__1096_scud_storm_worker_spawn_delay'></a>
 **Changes**
 
 - **TWEAK**: The GLA Scud Storm hole worker now spawns in 30 seconds instead of 20 seconds intervals. This will prevent the first worker from dying in the poison puddle. No EVA event is triggered for damaging the spawned worker. Effectively a Scud Storm can now rebuild 10 seconds quicker than originally. The Toxin Field time has been adjusted to accommodate the Worker spawn time properly.
@@ -1888,7 +1888,7 @@ Contains 150 entries with
 **Source:** 1096_scud_storm_worker_spawn_delay.yaml
 
 ---
-### 2022-09-04 - Fixed misplaced fire ports on GLA Palace <a name='index__103__1097_palace_fire_ports'></a>
+### 2022-09-04 - Fixed misplaced fire ports on GLA Palace <a name='link__20220904__1097_palace_fire_ports'></a>
 **Changes**
 
 - **FIX**: Occupants of the GLA Palace no longer shoot from the center of the building.
@@ -1904,7 +1904,7 @@ Contains 150 entries with
 **Source:** 1097_palace_fire_ports.yaml
 
 ---
-### 2022-09-05 - Adds better fitting select sound for GLA Demo Trap <a name='index__104__1131_demo_trap_select_sound'></a>
+### 2022-09-05 - Adds better fitting select sound for GLA Demo Trap <a name='link__20220905__1131_demo_trap_select_sound'></a>
 **Changes**
 
 - **TWEAK**: Adds a better fitting select sound for the GLA Demo Trap.
@@ -1920,7 +1920,7 @@ Contains 150 entries with
 **Source:** 1131_demo_trap_select_sound.yaml
 
 ---
-### 2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect <a name='index__105__1130_demo_trap_flare_fadeout'></a>
+### 2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect <a name='link__20220906__1130_demo_trap_flare_fadeout'></a>
 **Changes**
 
 - **FIX**: Fixes the ungraceful fade out of the GLA Demo Trap flare.
@@ -1936,7 +1936,7 @@ Contains 150 entries with
 **Source:** 1130_demo_trap_flare_fadeout.yaml
 
 ---
-### 2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target <a name='index__106__1136_bomb_truck_reveal'></a>
+### 2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target <a name='link__20220906__1136_bomb_truck_reveal'></a>
 **Changes**
 
 - **TWEAK**: The GLA Bomb Truck no longer reveals itself when moving close to its target.
@@ -1952,7 +1952,7 @@ Contains 150 entries with
 **Source:** 1136_bomb_truck_reveal.yaml
 
 ---
-### 2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades <a name='index__107__1137_bomb_truck_damages'></a>
+### 2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades <a name='link__20220906__1137_bomb_truck_damages'></a>
 **Changes**
 
 - **TWEAK**: Increases damage range bonus of GLA Bomb Truck Bio Bomb by +28%.
@@ -1969,7 +1969,7 @@ Contains 150 entries with
 **Source:** 1137_bomb_truck_damages.yaml
 
 ---
-### 2022-09-06 - Improves particle effects of GLA Bomb Truck <a name='index__108__1137_bomb_truck_explosion_particles'></a>
+### 2022-09-06 - Improves particle effects of GLA Bomb Truck <a name='link__20220906__1137_bomb_truck_explosion_particles'></a>
 **Changes**
 
 - **TWEAK**: Adds shockwaves to all explosion variants of GLA Bomb Truck.
@@ -1988,7 +1988,7 @@ Contains 150 entries with
 **Source:** 1137_bomb_truck_explosion_particles.yaml
 
 ---
-### 2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200 <a name='index__109__1137_bomb_truck_upgrade_cost'></a>
+### 2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200 <a name='link__20220906__1137_bomb_truck_upgrade_cost'></a>
 **Changes**
 
 - **TWEAK**: Decreases the upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200.
@@ -2004,7 +2004,7 @@ Contains 150 entries with
 **Source:** 1137_bomb_truck_upgrade_cost.yaml
 
 ---
-### 2022-09-06 - Improves locomotor of GLA Bomb Truck <a name='index__110__1138_bomb_truck_locomotor'></a>
+### 2022-09-06 - Improves locomotor of GLA Bomb Truck <a name='link__20220906__1138_bomb_truck_locomotor'></a>
 **Changes**
 
 - **TWEAK**: Improves the locomotor of GLA Bomb Truck. In undamaged state, no tangible difference in driving performance is to be expected. In damaged state, the driving performance is now marginally better. Visually the driving now looks and feels smoother.
@@ -2020,7 +2020,7 @@ Contains 150 entries with
 **Source:** 1138_bomb_truck_locomotor.yaml
 
 ---
-### 2022-09-07 - Fixes muzzle particle effects of tanks <a name='index__111__1149_tank_muzzle_particles'></a>
+### 2022-09-07 - Fixes muzzle particle effects of tanks <a name='link__20220907__1149_tank_muzzle_particles'></a>
 **Changes**
 
 - **FIX**: Fixes poor fadeouts of tank muzzle flare effects.
@@ -2038,7 +2038,7 @@ Contains 150 entries with
 **Source:** 1149_tank_muzzle_particles.yaml
 
 ---
-### 2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400 <a name='index__112__1153_combat_bike_required_xp'></a>
+### 2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400 <a name='link__20220907__1153_combat_bike_required_xp'></a>
 **Changes**
 
 - **TWEAK**: Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400. This matches the required experience of GLA Jarmen Kell.
@@ -2054,7 +2054,7 @@ Contains 150 entries with
 **Source:** 1153_combat_bike_required_xp.yaml
 
 ---
-### 2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike <a name='index__113__1164_combat_bike_pilot_promotion'></a>
+### 2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike <a name='link__20220908__1164_combat_bike_pilot_promotion'></a>
 **Changes**
 
 - **TWEAK**: The USA Pilot can no longer promote the GLA Combat Bike.
@@ -2070,7 +2070,7 @@ Contains 150 entries with
 **Source:** 1164_combat_bike_pilot_promotion.yaml
 
 ---
-### 2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates <a name='index__114__1170_saboteur_scrap_rank_up'></a>
+### 2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates <a name='link__20220909__1170_saboteur_scrap_rank_up'></a>
 **Changes**
 
 - **FIX**: The GLA Stealth Saboteur can no longer level up by collecting scrap crates. Instead it will just collect money. This is now consistent with the regular GLA Saboteur.
@@ -2086,7 +2086,7 @@ Contains 150 entries with
 **Source:** 1170_saboteur_scrap_rank_up.yaml
 
 ---
-### 2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade <a name='index__115__1176_technical_muzzle_flash'></a>
+### 2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade <a name='link__20220909__1176_technical_muzzle_flash'></a>
 **Changes**
 
 - **FIX**: The GLA Technical with Rocket Launcher upgrade now has the correct muzzle flash effect.
@@ -2102,7 +2102,7 @@ Contains 150 entries with
 **Source:** 1176_technical_muzzle_flash.yaml
 
 ---
-### 2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank <a name='index__116__1228_scorpion_textures'></a>
+### 2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank <a name='link__20220920__1228_scorpion_textures'></a>
 **Changes**
 
 - **FIX**: Fixes the mismatching look of the GLA Scorpion Tank across different damage states. It now has the same look in undamaged, damaged and rubble.
@@ -2118,7 +2118,7 @@ Contains 150 entries with
 **Source:** 1228_scorpion_textures.yaml
 
 ---
-### 2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm <a name='index__117__1229_utplates_upscaled_textures'></a>
+### 2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm <a name='link__20220920__1229_utplates_upscaled_textures'></a>
 **Changes**
 
 - **FEATURE**: Increases texture size of utplates snow textures by merging other variants of this texture. It is not AI generated. It is part of the Recovered Art pack which contains 2x upscaled textures from Generals.
@@ -2140,7 +2140,7 @@ Contains 150 entries with
 **Source:** 1229_utplates_upscaled_textures.yaml
 
 ---
-### 2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus <a name='index__118__1231_battle_bus_textures'></a>
+### 2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus <a name='link__20220920__1231_battle_bus_textures'></a>
 **Changes**
 
 - **FIX**: Fixes the front window on the uvbattbus_d texture of GLA Battle Bus.
@@ -2156,7 +2156,7 @@ Contains 150 entries with
 **Source:** 1231_battle_bus_textures.yaml
 
 ---
-### 2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm <a name='index__119__1232_utscudparts02_utsilotop01_textures'></a>
+### 2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm <a name='link__20220920__1232_utscudparts02_utsilotop01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utscudparts02, silotop01 textures. They are used at the very core of the GLA Scud Storm.
@@ -2192,7 +2192,7 @@ Contains 150 entries with
 **Source:** 1232_utscudparts02_utsilotop01_textures.yaml
 
 ---
-### 2022-09-28 - Fixes utcloth textures for GLA structures <a name='index__120__1311_utcloth_textures'></a>
+### 2022-09-28 - Fixes utcloth textures for GLA structures <a name='link__20220928__1311_utcloth_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utcloth textures for GLA structures.
@@ -2223,7 +2223,7 @@ Contains 150 entries with
 **Source:** 1311_utcloth_textures.yaml
 
 ---
-### 2022-09-28 - Fixes utcloth2 textures for GLA structures <a name='index__121__1312_utcloth2_textures'></a>
+### 2022-09-28 - Fixes utcloth2 textures for GLA structures <a name='link__20220928__1312_utcloth2_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utcloth2 textures for GLA structures.
@@ -2251,7 +2251,7 @@ Contains 150 entries with
 **Source:** 1312_utcloth2_textures.yaml
 
 ---
-### 2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm <a name='index__122__1315_utscudslab_snow_textures'></a>
+### 2022-09-28 - Fixes utscudslab snow textures for GLA Scud Storm <a name='link__20220928__1315_utscudslab_snow_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utscudslab snow textures for GLA Scud Storm.
@@ -2277,7 +2277,7 @@ Contains 150 entries with
 **Source:** 1315_utscudslab_snow_textures.yaml
 
 ---
-### 2022-09-29 - Fixes utconcroof textures for GLA structures <a name='index__123__1320_utconcroof_textures'></a>
+### 2022-09-29 - Fixes utconcroof textures for GLA structures <a name='link__20220929__1320_utconcroof_textures'></a>
 **Changes**
 
 - **FIX**: Fixes utconcroof textures for GLA structures.
@@ -2306,7 +2306,7 @@ Contains 150 entries with
 **Source:** 1320_utconcroof_textures.yaml
 
 ---
-### 2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps <a name='index__124__1325_scud_storm_night_lights'></a>
+### 2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps <a name='link__20221002__1325_scud_storm_night_lights'></a>
 **Changes**
 
 - **FIX**: The damaged GLA Scud Storm now shows its lights on Night maps.
@@ -2322,7 +2322,7 @@ Contains 150 entries with
 **Source:** 1325_scud_storm_night_lights.yaml
 
 ---
-### 2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps <a name='index__125__1326_scud_storm_snow_damage'></a>
+### 2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps <a name='link__20221002__1326_scud_storm_snow_damage'></a>
 **Changes**
 
 - **FIX**: The damaged GLA Scud Storm now renders with snow textures on Winter maps.
@@ -2338,7 +2338,7 @@ Contains 150 entries with
 **Source:** 1326_scud_storm_snow_damage.yaml
 
 ---
-### 2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm <a name='index__126__1328_utscudslab_upscaled_textures'></a>
+### 2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm <a name='link__20221002__1328_utscudslab_upscaled_textures'></a>
 **Changes**
 
 - **FIX**: Adds 2x AI upscaled versions of the utscudslab textures. Originally they are 256x256, which is too small for a building that large.
@@ -2354,7 +2354,7 @@ Contains 150 entries with
 **Source:** 1328_utscudslab_upscaled_textures.yaml
 
 ---
-### 2022-10-05 - Fixes Toxin GLA Tunnel Defender double firing against ground and air targets <a name='index__127__1334_tunnel_defender_shoots_twice'></a>
+### 2022-10-05 - Fixes Toxin GLA Tunnel Defender double firing against ground and air targets <a name='link__20221005__1334_tunnel_defender_shoots_twice'></a>
 **Changes**
 
 - **FIX**: Fixes issue where the Toxin GLA Tunnel Defender can shoot on ground and air targets simultaneously. Tunnel Defenders from other factions do not have this issue because they have just one gun type against ground and air.
@@ -2370,7 +2370,7 @@ Contains 150 entries with
 **Source:** 1334_tunnel_defender_shoots_twice.yaml
 
 ---
-### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='index__128__1335_pitched_air_weapon_sounds'></a>
+### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='link__20221005__1335_pitched_air_weapon_sounds'></a>
 **Changes**
 
 - **FIX**: Adds slightly pitched sounds to all non-rocket anti air weapons. The default weapons against ground targets use the original sound effects. Affects
@@ -2392,7 +2392,7 @@ Contains 150 entries with
 **Source:** 1335_pitched_air_weapon_sounds.yaml
 
 ---
-### 2022-10-08 - Fixes missing muzzle flash and recoil animation on GLA Quad Cannon <a name='index__129__1340_quad_muzzle_flash_recoil'></a>
+### 2022-10-08 - Fixes missing muzzle flash and recoil animation on GLA Quad Cannon <a name='link__20221008__1340_quad_muzzle_flash_recoil'></a>
 **Changes**
 
 - **FIX**: Fixes missing muzzle flash and recoil animation on GLA Quad Cannon when firing at ground targets.
@@ -2408,7 +2408,7 @@ Contains 150 entries with
 **Source:** 1340_quad_muzzle_flash_recoil.yaml
 
 ---
-### 2022-10-16 - Fixes War Factory door animations reset on damage state changes <a name='index__130__1382_door_animation_reset'></a>
+### 2022-10-16 - Fixes War Factory door animations reset on damage state changes <a name='link__20221016__1382_door_animation_reset'></a>
 **Changes**
 
 - **FIX**: Fixes door animations resetting when transitioning between damage states for the China, USA and GLA War Factories.
@@ -2424,7 +2424,7 @@ Contains 150 entries with
 **Source:** 1382_door_animation_reset.yaml
 
 ---
-### 2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings <a name='index__131__1386_buildings_explosion_effects'></a>
+### 2022-10-20 - Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings <a name='link__20221020__1386_buildings_explosion_effects'></a>
 **Changes**
 
 - **FIX**: Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings.
@@ -2457,7 +2457,7 @@ Contains 150 entries with
 **Source:** 1386_buildings_explosion_effects.yaml
 
 ---
-### 2023-01-08 - Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits <a name='index__132__1526_booby_trap_physics'></a>
+### 2023-01-08 - Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits <a name='link__20230108__1526_booby_trap_physics'></a>
 **Changes**
 
 - **FIX**: Removes physics from BoobyTrap object to prevent pushing by weapons. Objects RemoteC4Charge and TimedC4Charge also do not have physics.
@@ -2473,7 +2473,7 @@ Contains 150 entries with
 **Source:** 1526_booby_trap_physics.yaml
 
 ---
-### 2023-01-08 - Fixes wrong exploded death animation of GLA Worker <a name='index__133__1528_worker_death_animation'></a>
+### 2023-01-08 - Fixes wrong exploded death animation of GLA Worker <a name='link__20230108__1528_worker_death_animation'></a>
 **Changes**
 
 - **FIX**: GLA Worker with supply box now shows proper death animation when exploded.
@@ -2489,7 +2489,7 @@ Contains 150 entries with
 **Source:** 1528_worker_death_animation.yaml
 
 ---
-### 2023-01-13 - Fixes the evacuation command button art of various vehicles <a name='index__134__1545_vehicle_evacuation_button_image'></a>
+### 2023-01-13 - Fixes the evacuation command button art of various vehicles <a name='link__20230113__1545_vehicle_evacuation_button_image'></a>
 **Changes**
 
 - **FIX**: Most vehicles now use the Evacuate button art for vehicles. Buildings use the Evacuate button art for structures as usual.
@@ -2515,7 +2515,7 @@ Contains 150 entries with
 **Source:** 1545_vehicle_evacuation_button_image.yaml
 
 ---
-### 2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker <a name='index__135__1578_worker_clear_mines_button'></a>
+### 2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker <a name='link__20230121__1578_worker_clear_mines_button'></a>
 **Changes**
 
 - **FIX**: GLA Worker can now use the Clear Mines command when the fake structures command set is selected.
@@ -2531,7 +2531,7 @@ Contains 150 entries with
 **Source:** 1578_worker_clear_mines_button.yaml
 
 ---
-### 2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain <a name='index__136__1711_increase_wreck_destruction_delay'></a>
+### 2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain <a name='link__20230129__1711_increase_wreck_destruction_delay'></a>
 **Changes**
 
 - **FIX**: Increases destruction delays of various wrecks to avoid deletion before object is sunk into terrain.
@@ -2561,7 +2561,7 @@ Contains 150 entries with
 **Source:** 1711_increase_wreck_destruction_delay.yaml
 
 ---
-### 2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain <a name='index__137__1712_decrease_wreck_destruction_delay'></a>
+### 2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain <a name='link__20230129__1712_decrease_wreck_destruction_delay'></a>
 **Changes**
 
 - **TWEAK**: Decreases destruction delays of several hulks to delete them earlier. By the time of deletion they are already sunk into terrain.
@@ -2592,7 +2592,7 @@ Contains 150 entries with
 **Source:** 1712_decrease_wreck_destruction_delay.yaml
 
 ---
-### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='index__138__1618_wreck_spawn_before_death'></a>
+### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='link__20230204__1618_wreck_spawn_before_death'></a>
 **Changes**
 
 - **FIX**: Wreck and debris of vehicles no longer spawn before damaged vehicle model despawns.
@@ -2620,7 +2620,7 @@ Contains 150 entries with
 **Source:** 1618_wreck_spawn_before_death.yaml
 
 ---
-### 2023-02-09 - Fixes turret animation and effect issues on death of tanks <a name='index__139__1657_tank_turret_deatheffects'></a>
+### 2023-02-09 - Fixes turret animation and effect issues on death of tanks <a name='link__20230209__1657_tank_turret_deatheffects'></a>
 **Changes**
 
 - **FIX**: Fixes turret glitches on death of several tanks. Muzzle flashes no longer show on death. And turret barrel no longer recoils on death.
@@ -2646,7 +2646,7 @@ Contains 150 entries with
 **Source:** 1657_tank_turret_death effects.yaml
 
 ---
-### 2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death <a name='index__140__1663_scorpion_death_model'></a>
+### 2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death <a name='link__20230209__1663_scorpion_death_model'></a>
 **Changes**
 
 - **FIX**: The GLA Scorpion model no longer loses upgrades on death.
@@ -2662,7 +2662,7 @@ Contains 150 entries with
 **Source:** 1663_scorpion_death_model.yaml
 
 ---
-### 2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only <a name='index__141__1672_marauder_double_barrel_firing_sequence'></a>
+### 2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only <a name='link__20230211__1672_marauder_double_barrel_firing_sequence'></a>
 **Changes**
 
 - **FIX**: Sets correct firing sequence on GLA Marauder with double barrel. It will now always start by firing 2 clips instead of just 1 clip. This gives the unit an inconsequential buff.
@@ -2678,7 +2678,7 @@ Contains 150 entries with
 **Source:** 1672_marauder_double_barrel_firing_sequence.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade <a name='index__142__1674_marauder_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
 - **FEATURE**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
@@ -2694,7 +2694,7 @@ Contains 150 entries with
 **Source:** 1674_marauder_idle_reload.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='index__143__1699_scorpion_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
 - **FEATURE**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
@@ -2710,7 +2710,7 @@ Contains 150 entries with
 **Source:** 1699_scorpion_idle_reload.yaml
 
 ---
-### 2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped <a name='index__144__1703_scud_storm_idle_reload'></a>
+### 2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped <a name='link__20230211__1703_scud_storm_idle_reload'></a>
 **Changes**
 
 - **FIX**: The GLA Scud Storm will now always fully reload after pressing S button during a firing sequence.
@@ -2726,7 +2726,7 @@ Contains 150 entries with
 **Source:** 1703_scud_storm_idle_reload.yaml
 
 ---
-### 2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage <a name='index__145__1706_stealth_rebel_reveal'></a>
+### 2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage <a name='link__20230214__1706_stealth_rebel_reveal'></a>
 **Changes**
 
 - **FIX**: The GLA Stealth Rebels no longer become revealed when taking damage. Originally the Stealth Rebel variant is the only Rebel to reveal itself when receiving damage. Moreover, no other stealth-capable unit in the game exhibits this behaviour.
@@ -2742,7 +2742,7 @@ Contains 150 entries with
 **Source:** 1706_stealth_rebel_reveal.yaml
 
 ---
-### 2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death <a name='index__146__1714_scud_launcher_death_model'></a>
+### 2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death <a name='link__20230215__1714_scud_launcher_death_model'></a>
 **Changes**
 
 - **FIX**: All Scud Launcher variants now correctly show their salvage upgrades during their rubble state. In 1.04, only the regular GLA Scud Launcher shows its salvage upgrades during its rubble state.
@@ -2758,7 +2758,7 @@ Contains 150 entries with
 **Source:** 1714_scud_launcher_death_model.yaml
 
 ---
-### 2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar <a name='index__147__1716_mob_radar_dots'></a>
+### 2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar <a name='link__20230215__1716_mob_radar_dots'></a>
 **Changes**
 
 - **FIX**: The Angry Mob Nexus no longer appears on the radar. This is most noticeable in 1.04 when only a single Angry Mob member remains, and yet two units show on the radar.
@@ -2774,7 +2774,7 @@ Contains 150 entries with
 **Source:** 1716_mob_radar_dots.yaml
 
 ---
-### 2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes <a name='index__148__1718_cargo_plane_hit_effects'></a>
+### 2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes <a name='link__20230215__1718_cargo_plane_hit_effects'></a>
 **Changes**
 
 - **FIX**: Adds damage effects to the China and GLA cargo planes. This effect already exists for the USA cargo planes.
@@ -2790,7 +2790,7 @@ Contains 150 entries with
 **Source:** 1718_cargo_plane_hit_effects.yaml
 
 ---
-### 2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion <a name='index__149__1726_wreck_spawn_after_death'></a>
+### 2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion <a name='link__20230216__1726_wreck_spawn_after_death'></a>
 **Changes**
 
 - **FIX**: There is a random 200 ms destruction delay on death of GLA Bomb Truck. This means that the hulk and effects spawns a bit later than the death explosion. With this fix the wreck of the GLA Bomb Truck will always spawn right on death.
