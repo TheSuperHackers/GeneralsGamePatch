@@ -7,37 +7,37 @@ Occuring labels are
 
 - ai (2)
 - art (49)
-- audio (16)
-- buff (18)
-- bug (104)
-- china (17)
+- audio (21)
+- buff (21)
+- bug (107)
+- china (20)
 - civilian (1)
-- controversial (24)
-- design (37)
-- enhancement (23)
-- gla (12)
-- gui (11)
+- controversial (31)
+- design (44)
+- enhancement (25)
+- gla (16)
+- gui (12)
 - major (18)
-- minor (145)
-- nerf (8)
-- optional (4)
+- minor (158)
+- nerf (10)
+- optional (5)
 - performance (8)
 - text (5)
-- usa (164)
-- v1.0 (164)
+- usa (178)
+- v1.0 (178)
 
 Sorts changes by: date (ascending)
 
-Contains 164 entries with
+Contains 178 entries with
 
-- 177 changes
+- 201 changes
   - OPTIMIZATION (1)
-  - FIX (141)
-  - TWEAK (30)
-  - FEATURE (5)
-- 149 subchanges
+  - FIX (156)
+  - TWEAK (38)
+  - FEATURE (6)
+- 187 subchanges
   - FIX (127)
-  - TWEAK (22)
+  - TWEAK (60)
 
 ## Index
 - [2021-08-22 - Fixes lags caused by the USA Patriot assist beam](#link__20210822__0_patriot_beam_lag)
@@ -103,6 +103,7 @@ Contains 164 entries with
 - [2022-08-27 - Fixes immortal presence of circling USA Aurora wreck](#link__20220827__1018_dead_aurora_bug)
 - [2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber](#link__20220827__953_afg_carpet_pdl)
 - [2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes](#link__20220829__1031_usa_ai_powers_planes)
+- [2022-09-01 - Fixes audio flaws in English sounds](#link__20220901__1061_audio_fixes)
 - [2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base](#link__20220902__1078_firebase_ghost_muzzle_flash)
 - [2022-09-03 - Fixes sharp turn movements of USA B2 Bomber](#link__20220903__1084_carpet_bomber_turn_rate)
 - [2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300](#link__20220906__1141_battle_drone_shroud_range)
@@ -119,7 +120,7 @@ Contains 164 entries with
 - [2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet](#link__20220908__1165_nighthawk_low_fuel_voice)
 - [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#link__20220909__1171_particle_cannon_animation_loop)
 - [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#link__20220910__1177_afg_firebase_snow_damaged)
-- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery.](#link__20220910__1178_patriot_battery_auto_reload)
+- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
 - [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
 - [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#link__20220913__1189_burton_texture_errors)
 - [2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead](#link__20220918__1220_pilot_humvee_passenger)
@@ -194,6 +195,7 @@ Contains 164 entries with
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
 - [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
 - [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
+- [2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000](#link__20230121__1580_patriot_assist_reload_time)
 - [2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit](#link__20230121__1581_tomahawk_missile_angle_jump)
 - [2023-01-28 - Removes bouncing from wreck of USA Comanche](#link__20230128__1658_comanche_wreck_bouncing)
 - [2023-01-29 - Decreases fast sink rate of helicopter wrecks](#link__20230129__1659_chinook_helix_wreck_sink_rate)
@@ -201,9 +203,21 @@ Contains 164 entries with
 - [2023-01-29 - Removes random sink delays from all vehicle wrecks](#link__20230129__1660_random_wreck_sink_delays)
 - [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#link__20230129__1711_increase_wreck_destruction_delay)
 - [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
+- [2023-01-29 - Sets consistent sink delays for faction vehicle wrecks](#link__20230129__1746_wreck_sink_delays)
 - [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
 - [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
 - [2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction](#link__20230215__1713_swg_cc_construction_model)
+- [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
+- [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
+- [2023-03-05 - Removes move voices from USA Spectre Gunship](#link__20230305__1759_spectre_move_voice_removal)
+- [2023-03-26 - Adds Guard Mode and Attack Move buttons to USA Airforce Combat Chinook](#link__20230326__1787_combat_chinook_buttons)
+- [2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb](#link__20230406__1800_daisy_cutter_explosion_delay_variance)
+- [2023-04-06 - Improves particle and sound effect sequence of USA Daisy Cutter explosion](#link__20230406__1800_daisy_cutter_explosion_effects)
+- [2023-04-06 - Reduces audio range and volume of Remote Demo Charge](#link__20230406__1801_remote_demo_charge_audio)
+- [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
+- [2023-04-09 - Fixes audible gaps in audio loop of USA Avenger Target Designator](#link__20230409__1821_avenger_loop_audio)
+- [2023-04-09 - Fixes weapon audio loop interval and frequency irregularities of USA Microwave Tank](#link__20230409__1821_microwave_loop_audio)
+- [2023-04-10 - Fixes USA Alpha Aurora bomb freezing for 1 or 2 frames near ground before hit](#link__20230410__1828_alpha_aurora_bomb_impact)
 
 
 
@@ -1235,6 +1249,30 @@ Contains 164 entries with
 **Source:** 1031_usa_ai_powers_planes.yaml
 
 ---
+### 2022-09-01 - Fixes audio flaws in English sounds <a name='link__20220901__1061_audio_fixes'></a>
+**Changes**
+
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 783 English voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout in 221 English eva voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping in 38 common voices
+- **FIX**: Fixes clicking, fadein, fadeout in 123 vehicle sounds
+- **FIX**: Fixes noises, clicking, fadeout in 104 fx sounds
+- **FIX**: Fixes clicking, fadein, fadeout in 4 ui sounds
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1061](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1061)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
+
+**Labels:** audio, china, gla, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1061_audio_fixes.yaml
+
+---
 ### 2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base <a name='link__20220902__1078_firebase_ghost_muzzle_flash'></a>
 **Changes**
 
@@ -1497,18 +1535,19 @@ Contains 164 entries with
 **Source:** 1177_afg_firebase_snow_damaged.yaml
 
 ---
-### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery. <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
+### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
 **Changes**
 
-- **FIX**: The USA Patriot Patriot will now reload the entire clip after being idle for around 2 seconds.
+- **FIX**: All weapons of the USA Patriot Battery will now reload the entire clip after being idle for around 2 seconds.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1178](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1178)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1755](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1755)
 
-**Labels:** buff, design, minor, usa, v1.0
+**Labels:** buff, controversial, design, minor, usa, v1.0
 
-**Authors:** commy2
+**Authors:** commy2, xezon
 
 **Source:** 1178_patriot_battery_auto_reload.yaml
 
@@ -2783,6 +2822,7 @@ Contains 164 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1413](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1413)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1785](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1785)
 
 **Labels:** audio, enhancement, minor, usa, v1.0
 
@@ -3316,6 +3356,22 @@ Contains 164 entries with
 **Source:** 1559_strategy_center_plan_tooltip_text.yaml
 
 ---
+### 2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000 <a name='link__20230121__1580_patriot_assist_reload_time'></a>
+**Changes**
+
+- **FIX**: Increases the reload time of USA Patriot missile assist weapons from 1000 to 2000. This way reload time is consistent for all weapons of the Patriot Battery and there can be no scenarios where the turret can shoot on new targets after just 1 instead of 2 seconds.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580)
+
+**Labels:** bug, controversial, minor, nerf, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1580_patriot_assist_reload_time.yaml
+
+---
 ### 2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit <a name='link__20230121__1581_tomahawk_missile_angle_jump'></a>
 **Changes**
 
@@ -3457,6 +3513,64 @@ Contains 164 entries with
 **Source:** 1712_decrease_wreck_destruction_delay.yaml
 
 ---
+### 2023-01-29 - Sets consistent sink delays for faction vehicle wrecks <a name='link__20230129__1746_wreck_sink_delays'></a>
+**Changes**
+
+- **TWEAK**: Sets sink delays for wrecks of regular vehicles and aircraft to 3000 ms.
+- **TWEAK**: Sets sink delays for wrecks of large vehicles and aircraft to 6000 ms.
+
+**Subchanges**
+
+- **TWEAK**: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Crusader Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Paladin Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Laser Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Microwave wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Tomahawk wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Chinook wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Raptor wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Aurora wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Stealth Fighter wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA A10 wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Spectre wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Supply Truck wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Troop Crawler wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Assault Troop Crawler wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Listening Outpost wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Gattling Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Battlemaster wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China ECM Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Inferno Cannon wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Nuke Cannon wreck from 1500 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Overlord wreck from 14000 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Helix wreck from 1500 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Mig wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Radar Van wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Quad Cannon wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Scorpion Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Marauder Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Toxin Tractor wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Bomb Truck wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Battle Bus wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of Civilian Militia Tank wreck from 4000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of Civilian Toxic Supply Truck wreck from 1500 ms to 3000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746)
+
+**Labels:** china, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1746_wreck_sink_delays.yaml
+
+---
 ### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='link__20230204__1618_wreck_spawn_before_death'></a>
 **Changes**
 
@@ -3515,4 +3629,184 @@ Contains 164 entries with
 **Authors:** Stubbjax
 
 **Source:** 1713_swg_cc_construction_model.yaml
+
+---
+### 2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb <a name='link__20230224__1752_alpha_aurora_bomb_random_delay'></a>
+**Changes**
+
+- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Alpha Aurora bomb. The delay is now a fixed deterministic 1000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1752](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1752)
+
+**Labels:** buff, controversial, design, minor, usa, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1752_alpha_aurora_bomb_random_delay.yaml
+
+---
+### 2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies <a name='link__20230224__1753_alpha_aurora_bomb_speed'></a>
+**Changes**
+
+- **TWEAK**: The Alpha Aurora bomb now travels as quickly as the original regular Aurora Bomb. Effectively it hits the ground around 5 frames slower than before.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1753](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1753)
+
+**Labels:** controversial, design, nerf, usa, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1753_alpha_aurora_bomb_speed.yaml
+
+---
+### 2023-03-05 - Removes move voices from USA Spectre Gunship <a name='link__20230305__1759_spectre_move_voice_removal'></a>
+**Changes**
+
+- **FIX**: The USA Spectre Gunship no longer plays voices on move, because it does not actually move anywhere when instructed to move.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1759](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1759)
+
+**Labels:** design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1759_spectre_move_voice_removal.yaml
+
+---
+### 2023-03-26 - Adds Guard Mode and Attack Move buttons to USA Airforce Combat Chinook <a name='link__20230326__1787_combat_chinook_buttons'></a>
+**Changes**
+
+- **FEATURE**: The USA Airforce Combat Chinook now has buttons for Guard Mode and Attack Move. This is consistent with other units, like the China Helix.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1787](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1787)
+
+**Labels:** enhancement, gui, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1787_combat_chinook_buttons.yaml
+
+---
+### 2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb <a name='link__20230406__1800_daisy_cutter_explosion_delay_variance'></a>
+**Changes**
+
+- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Daisy Cutter bomb. The delay is now a fixed deterministic 1000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
+
+**Labels:** buff, controversial, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1800_daisy_cutter_explosion_delay_variance.yaml
+
+---
+### 2023-04-06 - Improves particle and sound effect sequence of USA Daisy Cutter explosion <a name='link__20230406__1800_daisy_cutter_explosion_effects'></a>
+**Changes**
+
+- **FIX**: Removes the 250 ms delay baked into the USA Daisy Cutter explosion audio effect.
+- **FIX**: Adds smooth fade out to the USA Daisy Cutter explosion audio effect.
+- **FIX**: Syncs the ignition particles of the USA Daisy Cutter with the ignition sound.
+- **FIX**: Syncs the explosion effects of the USA Daisy Cutter with the explosion sound.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1800_daisy_cutter_explosion_effects.yaml
+
+---
+### 2023-04-06 - Reduces audio range and volume of Remote Demo Charge <a name='link__20230406__1801_remote_demo_charge_audio'></a>
+**Changes**
+
+- **TWEAK**: Reduces the Remote Demo Charge's maximum audio range from 800 to 250, minimum audio range from 175 to 100. This makes the presence of a demo charge much less obvious as it has its audible area reduced by 90%.
+- **TWEAK**: Reduces the Remote Demo Charge's maximum volume from 65 to 40, minimum volume from 40 to 20. This makes the bomb beep sound much quieter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801)
+
+**Labels:** buff, controversial, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1801_remote_demo_charge_audio.yaml
+
+---
+### 2023-04-06 - Reduces audio range of Timed Demo Charge <a name='link__20230406__1802_timed_demo_charge_audio'></a>
+**Changes**
+
+- **TWEAK**: Reduces the Timed Demo Charge's maximum audio range from 800 to 500. This makes the presence of a demo charge and its instigator much less obvious as it has its audible area reduced by 61%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802)
+
+**Labels:** audio, china, controversial, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1802_timed_demo_charge_audio.yaml
+
+---
+### 2023-04-09 - Fixes audible gaps in audio loop of USA Avenger Target Designator <a name='link__20230409__1821_avenger_loop_audio'></a>
+**Changes**
+
+- **FIX**: The USA Avenger Target Designator beam sound loop now sounds harmonic without gaps.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1820](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1820)
+
+**Labels:** audio, bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1821_avenger_loop_audio.yaml
+
+---
+### 2023-04-09 - Fixes weapon audio loop interval and frequency irregularities of USA Microwave Tank <a name='link__20230409__1821_microwave_loop_audio'></a>
+**Changes**
+
+- **FIX**: The USA Microwave Tank beam sound loop now sounds harmonic. Interval and frequency loop is consistent without mismatching cuts.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1821](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1821)
+
+**Labels:** audio, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1821_microwave_loop_audio.yaml
+
+---
+### 2023-04-10 - Fixes USA Alpha Aurora bomb freezing for 1 or 2 frames near ground before hit <a name='link__20230410__1828_alpha_aurora_bomb_impact'></a>
+**Changes**
+
+- **FIX**: The bomb of the USA Alpha Aurora no longer freezes for 1 or 2 frames near the ground before hit. This issue does not happen with the bomb of the regular Aurora.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1828](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1828)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1828_alpha_aurora_bomb_impact.yaml
 
