@@ -6,38 +6,39 @@ Includes changes with labels: gla
 Occuring labels are
 
 - art (20)
-- audio (10)
+- audio (12)
 - buff (23)
-- bug (112)
-- china (12)
+- bug (113)
+- china (15)
 - civilian (1)
-- controversial (29)
+- controversial (32)
 - critical (2)
-- design (30)
+- design (35)
 - enhancement (4)
-- gla (150)
+- gla (158)
 - gui (8)
-- major (16)
-- minor (131)
+- major (18)
+- minor (137)
 - nerf (12)
-- optional (2)
+- optional (3)
 - performance (1)
-- text (1)
-- usa (12)
-- v1.0 (150)
+- text (2)
+- usa (16)
+- v1.0 (158)
 
 Sorts changes by: date (ascending)
 
-Contains 150 entries with
+Contains 158 entries with
 
-- 176 changes
-  - FIX (142)
+- 193 changes
+  - FIX (152)
   - FEATURE (9)
-  - TWEAK (25)
-- 78 subchanges
+  - OPTIMIZATION (1)
+  - TWEAK (31)
+- 116 subchanges
   - FIX (57)
   - FEATURE (1)
-  - TWEAK (20)
+  - TWEAK (58)
 
 ## Index
 - [2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state](#link__20210822__2_battle_bus_damage_transition)
@@ -60,7 +61,7 @@ Contains 150 entries with
 - [2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units](#link__20210829__101_demo_infantry_death_voice)
 - [2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide](#link__20210829__102_demo_battle_bus_suicide_damage)
 - [2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker](#link__20210829__103_worker_combat_bike_destruction)
-- [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
+- [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
 - [2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches](#link__20210829__99_demo_vehicle_destruction)
 - [2021-09-01 - Fixes inconsistent minimum attack ranges of GLA Toxin Tractor](#link__20210901__135_toxin_tractor_attack_range)
 - [2021-09-03 - Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger](#link__20210903__159_demo_tunnel_stinger_suicide_cameo)
@@ -138,6 +139,7 @@ Contains 150 entries with
 - [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#link__20220820__938_infantry_muzzle_flash)
 - [2022-08-22 - Fixes insufficient range of GLA Scud Launcher missile](#link__20220822__1041_scud_launcher_missile_range)
 - [2022-08-29 - Fixes animation issues of GLA Angry Mob](#link__20220829__1037_mob_animation_issues)
+- [2022-09-01 - Fixes audio flaws in English sounds](#link__20220901__1061_audio_fixes)
 - [2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade](#link__20220902__1074_demo_scud_launcher_death_damage)
 - [2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade](#link__20220902__1076_demo_units_death_particles)
 - [2022-09-02 - Improves explosion effect of crushed GLA terror units](#link__20220902__1082_demo_units_crushed_death_particles)
@@ -178,18 +180,25 @@ Contains 150 entries with
 - [2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker](#link__20230121__1578_worker_clear_mines_button)
 - [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#link__20230129__1711_increase_wreck_destruction_delay)
 - [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
+- [2023-01-29 - Sets consistent sink delays for faction vehicle wrecks](#link__20230129__1746_wreck_sink_delays)
 - [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
 - [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
 - [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#link__20230209__1663_scorpion_death_model)
 - [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#link__20230211__1672_marauder_double_barrel_firing_sequence)
 - [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
+- [2023-02-11 - Fixes object flags of SalvageCrate](#link__20230211__1675_salvage_crate_flags)
+- [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
 - [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#link__20230211__1703_scud_storm_idle_reload)
+- [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
 - [2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage](#link__20230214__1706_stealth_rebel_reveal)
 - [2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death](#link__20230215__1714_scud_launcher_death_model)
 - [2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar](#link__20230215__1716_mob_radar_dots)
 - [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
 - [2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion](#link__20230216__1726_wreck_spawn_after_death)
+- [2023-04-06 - Reduces audio range and volume of Remote Demo Charge](#link__20230406__1801_remote_demo_charge_audio)
+- [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
+- [2023-04-07 - Fixes inaccurate tooltip text of GLA Booby Trap upgrade](#link__20230407__1804_booby_trap_upgrade_text)
 
 
 
@@ -529,7 +538,7 @@ Contains 150 entries with
 **Source:** 103_worker_combat_bike_destruction.yaml
 
 ---
-### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
+### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
 **Changes**
 
 - **FIX**: The Demo General's Combat Bike with a Terrorist and the Demolitions upgrade now deals damage to enemies when destroyed by an Anthrax Gamma weapon. This is consistent with other Demo units.
@@ -1296,9 +1305,11 @@ Contains 150 entries with
 **Changes**
 
 - **FIX**: The GLA Cash Bounty is no longer activated with an unfinished Command Center. The Command Center construction must finish to complete the activation process. After activation is completed, the Command Center can be demolished and the Cash Bounty will stay active. A new Cash Bounty level will require a new Command Center for activation however.
+- **OPTIMIZATION**: The GLA Cash Bounty dummy object spawn interval is set to 1000 ms.
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595)
 
 **Labels:** bug, controversial, design, gla, major, nerf, v1.0
@@ -1808,6 +1819,30 @@ Contains 150 entries with
 **Source:** 1037_mob_animation_issues.yaml
 
 ---
+### 2022-09-01 - Fixes audio flaws in English sounds <a name='link__20220901__1061_audio_fixes'></a>
+**Changes**
+
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 783 English voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout in 221 English eva voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping in 38 common voices
+- **FIX**: Fixes clicking, fadein, fadeout in 123 vehicle sounds
+- **FIX**: Fixes noises, clicking, fadeout in 104 fx sounds
+- **FIX**: Fixes clicking, fadein, fadeout in 4 ui sounds
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1061](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1061)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
+
+**Labels:** audio, china, gla, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1061_audio_fixes.yaml
+
+---
 ### 2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade <a name='link__20220902__1074_demo_scud_launcher_death_damage'></a>
 **Changes**
 
@@ -1981,7 +2016,7 @@ Contains 150 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1137](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1137)
 
-**Labels:** buff, controversial, design, gla, minor, v1.0
+**Labels:** design, gla, minor, v1.0
 
 **Authors:** xezon
 
@@ -2592,6 +2627,64 @@ Contains 150 entries with
 **Source:** 1712_decrease_wreck_destruction_delay.yaml
 
 ---
+### 2023-01-29 - Sets consistent sink delays for faction vehicle wrecks <a name='link__20230129__1746_wreck_sink_delays'></a>
+**Changes**
+
+- **TWEAK**: Sets sink delays for wrecks of regular vehicles and aircraft to 3000 ms.
+- **TWEAK**: Sets sink delays for wrecks of large vehicles and aircraft to 6000 ms.
+
+**Subchanges**
+
+- **TWEAK**: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Crusader Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Paladin Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Laser Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Microwave wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Tomahawk wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Chinook wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Raptor wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Aurora wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Stealth Fighter wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA A10 wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Spectre wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Supply Truck wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Troop Crawler wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Assault Troop Crawler wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Listening Outpost wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Gattling Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Battlemaster wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China ECM Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Inferno Cannon wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Nuke Cannon wreck from 1500 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Overlord wreck from 14000 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Helix wreck from 1500 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Mig wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Radar Van wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Quad Cannon wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Scorpion Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Marauder Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Toxin Tractor wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Bomb Truck wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Battle Bus wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of Civilian Militia Tank wreck from 4000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of Civilian Toxic Supply Truck wreck from 1500 ms to 3000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746)
+
+**Labels:** china, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1746_wreck_sink_delays.yaml
+
+---
 ### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='link__20230204__1618_wreck_spawn_before_death'></a>
 **Changes**
 
@@ -2694,6 +2787,40 @@ Contains 150 entries with
 **Source:** 1674_marauder_idle_reload.yaml
 
 ---
+### 2023-02-11 - Fixes object flags of SalvageCrate <a name='link__20230211__1675_salvage_crate_flags'></a>
+**Changes**
+
+- **FIX**: Adds missing CRATE flag to SalvageCrate.
+- **FIX**: Removes obsolete SELECTABLE flag from SalvageCrate.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1675](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1675)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1836](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1836)
+
+**Labels:** design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1675_salvage_crate_flags.yaml
+
+---
+### 2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds <a name='link__20230211__1676_salvage_crate_exploit'></a>
+**Changes**
+
+- **FIX**: The GLA Salvage Crate is no longer deleted when a scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1676](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1676)
+
+**Labels:** bug, controversial, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1676_salvage_crate_exploit.yaml
+
+---
 ### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
@@ -2724,6 +2851,22 @@ Contains 150 entries with
 **Authors:** xezon
 
 **Source:** 1703_scud_storm_idle_reload.yaml
+
+---
+### 2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms <a name='link__20230212__1688_salvage_crate_despawn_time'></a>
+**Changes**
+
+- **TWEAK**: The despawn time of the Salvage Crate is now set deterministically to 32500 ms from previously somewhere random between 30000 ms and 35000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1688](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1688)
+
+**Labels:** controversial, design, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1688_salvage_crate_despawn_time.yaml
 
 ---
 ### 2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage <a name='link__20230214__1706_stealth_rebel_reveal'></a>
@@ -2804,4 +2947,53 @@ Contains 150 entries with
 **Authors:** xezon
 
 **Source:** 1726_wreck_spawn_after_death.yaml
+
+---
+### 2023-04-06 - Reduces audio range and volume of Remote Demo Charge <a name='link__20230406__1801_remote_demo_charge_audio'></a>
+**Changes**
+
+- **TWEAK**: Reduces the Remote Demo Charge's maximum audio range from 800 to 250, minimum audio range from 175 to 100. This makes the presence of a demo charge much less obvious as it has its audible area reduced by 90%.
+- **TWEAK**: Reduces the Remote Demo Charge's maximum volume from 65 to 40, minimum volume from 40 to 20. This makes the bomb beep sound much quieter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801)
+
+**Labels:** buff, controversial, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1801_remote_demo_charge_audio.yaml
+
+---
+### 2023-04-06 - Reduces audio range of Timed Demo Charge <a name='link__20230406__1802_timed_demo_charge_audio'></a>
+**Changes**
+
+- **TWEAK**: Reduces the Timed Demo Charge's maximum audio range from 800 to 500. This makes the presence of a demo charge and its instigator much less obvious as it has its audible area reduced by 61%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802)
+
+**Labels:** audio, china, controversial, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1802_timed_demo_charge_audio.yaml
+
+---
+### 2023-04-07 - Fixes inaccurate tooltip text of GLA Booby Trap upgrade <a name='link__20230407__1804_booby_trap_upgrade_text'></a>
+**Changes**
+
+- **FIX**: Fixes the inaccurate tooltip text of the GLA Booby Trap upgrade. It no longer claims it can be placed on neutral units.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1804](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1804)
+
+**Labels:** gla, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 1804_booby_trap_upgrade_text.yaml
 

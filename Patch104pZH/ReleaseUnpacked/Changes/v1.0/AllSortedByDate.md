@@ -6,43 +6,43 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (106)
-- audio (40)
-- boss (19)
-- buff (75)
-- bug (359)
-- china (136)
-- civilian (18)
-- controversial (91)
+- art (107)
+- audio (46)
+- boss (20)
+- buff (79)
+- bug (366)
+- china (147)
+- civilian (19)
+- controversial (101)
 - critical (5)
-- design (127)
-- enhancement (43)
-- gla (150)
-- gui (45)
-- major (56)
-- minor (475)
-- nerf (23)
-- optional (11)
+- design (141)
+- enhancement (47)
+- gla (158)
+- gui (49)
+- major (60)
+- minor (500)
+- nerf (25)
+- optional (12)
 - performance (13)
-- text (18)
-- usa (164)
-- v1.0 (537)
+- text (19)
+- usa (178)
+- v1.0 (567)
 - wip (1)
 - worldbuilder (5)
 
 Sorts changes by: date (ascending)
 
-Contains 537 entries with
+Contains 567 entries with
 
-- 741 changes
-  - FIX (610)
-  - OPTIMIZATION (1)
-  - TWEAK (94)
-  - FEATURE (36)
-- 320 subchanges
+- 789 changes
+  - FIX (639)
+  - OPTIMIZATION (2)
+  - TWEAK (111)
+  - FEATURE (37)
+- 358 subchanges
   - FIX (238)
   - FEATURE (28)
-  - TWEAK (54)
+  - TWEAK (92)
 
 ## Index
 - [2021-08-22 - Fixes critical issue that crashes all clients in a match](#link__20210822__0_crash_bug)
@@ -76,7 +76,7 @@ Contains 537 entries with
 - [2021-08-29 - Fixes wrong death sounds of GLA Demo infantry units](#link__20210829__101_demo_infantry_death_voice)
 - [2021-08-29 - Fixes GLA Demo Battle Bus vanishing without applying damage on suicide](#link__20210829__102_demo_battle_bus_suicide_damage)
 - [2021-08-29 - Fixes missing destruction effects of GLA Demo Combat Bike used by a Worker](#link__20210829__103_worker_combat_bike_destruction)
-- [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
+- [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
 - [2021-08-29 - Fixes GLA Demo vehicle destruction effect glitches](#link__20210829__99_demo_vehicle_destruction)
 - [2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once](#link__20210830__122_ui_faction_list_size)
 - [2021-09-01 - Fixes China unit attachments not showing the red tint from the Frenzy Power](#link__20210901__132_frenzy_coloring_on_attachments)
@@ -336,6 +336,7 @@ Contains 537 entries with
 - [2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes](#link__20220829__1031_usa_ai_powers_planes)
 - [2022-08-29 - Fixes animation issues of GLA Angry Mob](#link__20220829__1037_mob_animation_issues)
 - [2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content)](#link__20220901__1060_empty_troopcrawler)
+- [2022-09-01 - Fixes audio flaws in English sounds](#link__20220901__1061_audio_fixes)
 - [2022-09-01 - Fixes ugly artifacts in ground aligned flare effects](#link__20220901__1069_ground_flare_particles)
 - [2022-09-01 - Improves visuals of binary data stream](#link__20220901__1070_binary_data_stream_visuals)
 - [2022-09-01 - Fixes broken voice line of China Battlemaster in French, German locales](#link__20220901__1071_battlemaster_voice)
@@ -353,6 +354,7 @@ Contains 537 entries with
 - [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#link__20220903__1090_china_cc_night_model)
 - [2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds](#link__20220904__1096_scud_storm_worker_spawn_delay)
 - [2022-09-04 - Fixed misplaced fire ports on GLA Palace](#link__20220904__1097_palace_fire_ports)
+- [2022-09-04 - Fixes and improves the look of China Mine explosion effects](#link__20220904__1121_china_mines_effects)
 - [2022-09-04 - Fixes mispositioned explosion effects](#link__20220904__1122_detonation_effect_position_offset)
 - [2022-09-05 - Adds better fitting select sound for GLA Demo Trap](#link__20220905__1131_demo_trap_select_sound)
 - [2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect](#link__20220906__1130_demo_trap_flare_fadeout)
@@ -381,7 +383,7 @@ Contains 537 entries with
 - [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#link__20220909__1171_particle_cannon_animation_loop)
 - [2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade](#link__20220909__1176_technical_muzzle_flash)
 - [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#link__20220910__1177_afg_firebase_snow_damaged)
-- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery.](#link__20220910__1178_patriot_battery_auto_reload)
+- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
 - [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
 - [2022-09-10 - Enables low fuel voices for China Mig Jet](#link__20220910__1180_mig_low_fuel_voice)
 - [2022-09-11 - Adds missing radio sounds to Helix voices](#link__20220911__1181_helix_radio_sounds)
@@ -542,6 +544,7 @@ Contains 537 entries with
 - [2023-01-20 - Changes border color of GLA Worker Fake Structure command button from orange to green](#link__20230120__1571_worker_fake_button_border)
 - [2023-01-20 - Removes border colors from all Special Power Shortcut command buttons](#link__20230120__1573_special_power_shortcut_button_border)
 - [2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker](#link__20230121__1578_worker_clear_mines_button)
+- [2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000](#link__20230121__1580_patriot_assist_reload_time)
 - [2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit](#link__20230121__1581_tomahawk_missile_angle_jump)
 - [2023-01-23 - Adds missing fire sound for building attack of USA Microwave Tank](#link__20230123__1595_microwave_attack_sound)
 - [2023-01-28 - Removes custom placement view angle from vehicles](#link__20230128__1609_custom_placement_angle)
@@ -553,6 +556,8 @@ Contains 537 entries with
 - [2023-01-29 - Sets consistent lifetimes for vehicle wrecks](#link__20230129__1710_wreck_lifetime)
 - [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#link__20230129__1711_increase_wreck_destruction_delay)
 - [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
+- [2023-01-29 - Reduces sink delay of China Dragon Tank wreck](#link__20230129__1745_dragon_tank_sink_delay)
+- [2023-01-29 - Sets consistent sink delays for faction vehicle wrecks](#link__20230129__1746_wreck_sink_delays)
 - [2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death](#link__20230204__1618_nuke_cannon_death_models)
 - [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
 - [2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades](#link__20230204__1624_nationalism_fanatism_tooltip_text)
@@ -565,6 +570,7 @@ Contains 537 entries with
 - [2023-02-05 - Adds transition damage effects to Civilian vehicles](#link__20230205__1639_civ_transition_damage_effects)
 - [2023-02-07 - Fixes wrecks of Civilian vehicles to be no longer pushable and attackable](#link__20230207__1646_civilian_cars_flags)
 - [2023-02-07 - Adds suicide car bomb ability to Civilian Crop Duster](#link__20230207__1647_aircraft_carbomb_ability)
+- [2023-02-07 - Fixes death and crush effects of Civilian Limousines](#link__20230207__1743_civilian_limo_death_effects)
 - [2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack](#link__20230209__1653_nuke_cannon_animation_jump)
 - [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
 - [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#link__20230209__1663_scorpion_death_model)
@@ -572,9 +578,12 @@ Contains 537 entries with
 - [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
 - [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#link__20230211__1672_marauder_double_barrel_firing_sequence)
 - [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
+- [2023-02-11 - Fixes object flags of SalvageCrate](#link__20230211__1675_salvage_crate_flags)
+- [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
 - [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#link__20230211__1703_scud_storm_idle_reload)
 - [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
+- [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
 - [2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage](#link__20230214__1706_stealth_rebel_reveal)
 - [2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost](#link__20230214__1707_outpost_crush_death)
 - [2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction](#link__20230215__1713_swg_cc_construction_model)
@@ -582,6 +591,27 @@ Contains 537 entries with
 - [2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar](#link__20230215__1716_mob_radar_dots)
 - [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
 - [2023-02-16 - Fixes issue where wreck of GLA Bomb Truck can spawn after its death explosion](#link__20230216__1726_wreck_spawn_after_death)
+- [2023-02-24 - Adds 3D shadows to bomb objects](#link__20230224__1750_bomb_shadows)
+- [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
+- [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
+- [2023-03-05 - Removes move voices from USA Spectre Gunship](#link__20230305__1759_spectre_move_voice_removal)
+- [2023-03-26 - Adds Guard Mode and Attack Move buttons to USA Airforce Combat Chinook](#link__20230326__1787_combat_chinook_buttons)
+- [2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb](#link__20230406__1800_daisy_cutter_explosion_delay_variance)
+- [2023-04-06 - Improves particle and sound effect sequence of USA Daisy Cutter explosion](#link__20230406__1800_daisy_cutter_explosion_effects)
+- [2023-04-06 - Reduces audio range and volume of Remote Demo Charge](#link__20230406__1801_remote_demo_charge_audio)
+- [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
+- [2023-04-07 - Fixes inaccurate tooltip text of GLA Booby Trap upgrade](#link__20230407__1804_booby_trap_upgrade_text)
+- [2023-04-08 - Increases movement speed of China Overlord by up to 25%](#link__20230408__1813_overlord_speed)
+- [2023-04-08 - Increases movement speed of China Battlemaster by up to 20%](#link__20230408__1815_battlemaster_speed)
+- [2023-04-08 - Fixes Isotope Stability upgrade icon placements](#link__20230408__1816_isotope_stability_cameo)
+- [2023-04-09 - Fixes drop location of China Battlemaster Paradrop](#link__20230409__1780_battlemaster_paradrop_location)
+- [2023-04-09 - Fixes audible gaps in audio loop of USA Avenger Target Designator](#link__20230409__1821_avenger_loop_audio)
+- [2023-04-09 - Fixes weapon audio loop interval and frequency irregularities of USA Microwave Tank](#link__20230409__1821_microwave_loop_audio)
+- [2023-04-09 - Fixes choppy physics of China Battlemaster Paradrop](#link__20230409__1825_battlemaster_paradrop_physics)
+- [2023-04-10 - Fixes Disintegration Sound Effect on Missiles](#link__20230410__1778_disintegration_sound_effect)
+- [2023-04-10 - Fixes USA Alpha Aurora bomb freezing for 1 or 2 frames near ground before hit](#link__20230410__1828_alpha_aurora_bomb_impact)
+- [2023-04-16 - Adds missing Rally Point button to Boss Airfield](#link__20230416__1852_boss_airfield_rally_point)
+- [2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center](#link__20230421__1861_china_radar_button_placement)
 
 
 
@@ -1092,7 +1122,7 @@ Contains 537 entries with
 **Source:** 103_worker_combat_bike_destruction.yaml
 
 ---
-### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
+### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
 **Changes**
 
 - **FIX**: The Demo General's Combat Bike with a Terrorist and the Demolitions upgrade now deals damage to enemies when destroyed by an Anthrax Gamma weapon. This is consistent with other Demo units.
@@ -1891,6 +1921,7 @@ Contains 537 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261)
 
 **Labels:** bug, china, minor, v1.0
@@ -3879,9 +3910,11 @@ Contains 537 entries with
 **Changes**
 
 - **FIX**: The GLA Cash Bounty is no longer activated with an unfinished Command Center. The Command Center construction must finish to complete the activation process. After activation is completed, the Command Center can be demolished and the Cash Bounty will stay active. A new Cash Bounty level will require a new Command Center for activation however.
+- **OPTIMIZATION**: The GLA Cash Bounty dummy object spawn interval is set to 1000 ms.
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595)
 
 **Labels:** bug, controversial, design, gla, major, nerf, v1.0
@@ -5453,6 +5486,30 @@ Contains 537 entries with
 **Source:** 1060_empty_troopcrawler.yaml
 
 ---
+### 2022-09-01 - Fixes audio flaws in English sounds <a name='link__20220901__1061_audio_fixes'></a>
+**Changes**
+
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 783 English voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout in 221 English eva voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping in 38 common voices
+- **FIX**: Fixes clicking, fadein, fadeout in 123 vehicle sounds
+- **FIX**: Fixes noises, clicking, fadeout in 104 fx sounds
+- **FIX**: Fixes clicking, fadein, fadeout in 4 ui sounds
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1061](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1061)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
+
+**Labels:** audio, china, gla, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1061_audio_fixes.yaml
+
+---
 ### 2022-09-01 - Fixes ugly artifacts in ground aligned flare effects <a name='link__20220901__1069_ground_flare_particles'></a>
 **Changes**
 
@@ -5744,6 +5801,23 @@ Contains 537 entries with
 **Source:** 1097_palace_fire_ports.yaml
 
 ---
+### 2022-09-04 - Fixes and improves the look of China Mine explosion effects <a name='link__20220904__1121_china_mines_effects'></a>
+**Changes**
+
+- **FIX**: Fixes fadeout of white flash effect for China Mines explosion.
+- **TWEAK**: Decreases size of yellow flash effect for China Neutron Mines explosion.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1121](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1121)
+
+**Labels:** art, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1121_china_mines_effects.yaml
+
+---
 ### 2022-09-04 - Fixes mispositioned explosion effects <a name='link__20220904__1122_detonation_effect_position_offset'></a>
 **Changes**
 
@@ -5857,7 +5931,7 @@ Contains 537 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1137](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1137)
 
-**Labels:** buff, controversial, design, gla, minor, v1.0
+**Labels:** design, gla, minor, v1.0
 
 **Authors:** xezon
 
@@ -6206,18 +6280,19 @@ Contains 537 entries with
 **Source:** 1177_afg_firebase_snow_damaged.yaml
 
 ---
-### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery. <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
+### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
 **Changes**
 
-- **FIX**: The USA Patriot Patriot will now reload the entire clip after being idle for around 2 seconds.
+- **FIX**: All weapons of the USA Patriot Battery will now reload the entire clip after being idle for around 2 seconds.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1178](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1178)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1755](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1755)
 
-**Labels:** buff, design, minor, usa, v1.0
+**Labels:** buff, controversial, design, minor, usa, v1.0
 
-**Authors:** commy2
+**Authors:** commy2, xezon
 
 **Source:** 1178_patriot_battery_auto_reload.yaml
 
@@ -8625,6 +8700,7 @@ Contains 537 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1413](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1413)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1785](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1785)
 
 **Labels:** audio, enhancement, minor, usa, v1.0
 
@@ -9751,6 +9827,22 @@ Contains 537 entries with
 **Source:** 1578_worker_clear_mines_button.yaml
 
 ---
+### 2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000 <a name='link__20230121__1580_patriot_assist_reload_time'></a>
+**Changes**
+
+- **FIX**: Increases the reload time of USA Patriot missile assist weapons from 1000 to 2000. This way reload time is consistent for all weapons of the Patriot Battery and there can be no scenarios where the turret can shoot on new targets after just 1 instead of 2 seconds.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580)
+
+**Labels:** bug, controversial, minor, nerf, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1580_patriot_assist_reload_time.yaml
+
+---
 ### 2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit <a name='link__20230121__1581_tomahawk_missile_angle_jump'></a>
 **Changes**
 
@@ -9961,6 +10053,80 @@ Contains 537 entries with
 **Authors:** xezon
 
 **Source:** 1712_decrease_wreck_destruction_delay.yaml
+
+---
+### 2023-01-29 - Reduces sink delay of China Dragon Tank wreck <a name='link__20230129__1745_dragon_tank_sink_delay'></a>
+**Changes**
+
+- **FIX**: The wreck of the China Dragon Tank now sinks after 12 seconds instead of 14 seconds, right after the rubble flames ended.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1745](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1745)
+
+**Labels:** china, design, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1745_dragon_tank_sink_delay.yaml
+
+---
+### 2023-01-29 - Sets consistent sink delays for faction vehicle wrecks <a name='link__20230129__1746_wreck_sink_delays'></a>
+**Changes**
+
+- **TWEAK**: Sets sink delays for wrecks of regular vehicles and aircraft to 3000 ms.
+- **TWEAK**: Sets sink delays for wrecks of large vehicles and aircraft to 6000 ms.
+
+**Subchanges**
+
+- **TWEAK**: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Crusader Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Paladin Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Laser Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Microwave wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Tomahawk wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Chinook wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Raptor wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Aurora wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Stealth Fighter wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA A10 wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Spectre wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Supply Truck wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Troop Crawler wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Assault Troop Crawler wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Listening Outpost wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Gattling Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Battlemaster wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China ECM Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Inferno Cannon wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Nuke Cannon wreck from 1500 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Overlord wreck from 14000 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Helix wreck from 1500 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Mig wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Radar Van wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Quad Cannon wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Scorpion Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Marauder Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Toxin Tractor wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Bomb Truck wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Battle Bus wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of Civilian Militia Tank wreck from 4000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of Civilian Toxic Supply Truck wreck from 1500 ms to 3000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746)
+
+**Labels:** china, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1746_wreck_sink_delays.yaml
 
 ---
 ### 2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death <a name='link__20230204__1618_nuke_cannon_death_models'></a>
@@ -10246,6 +10412,23 @@ Contains 537 entries with
 **Source:** 1647_aircraft_carbomb_ability.yaml
 
 ---
+### 2023-02-07 - Fixes death and crush effects of Civilian Limousines <a name='link__20230207__1743_civilian_limo_death_effects'></a>
+**Changes**
+
+- **FIX**: Adds death and crush particles and debris to Civilian CarLimo1, CarLimo2, CarLimo3, Shiek Limo.
+- **FIX**: Adds wreck model to Civilian Shiek Limo.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1743](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1743)
+
+**Labels:** civilian, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1743_civilian_limo_death_effects.yaml
+
+---
 ### 2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack <a name='link__20230209__1653_nuke_cannon_animation_jump'></a>
 **Changes**
 
@@ -10368,6 +10551,40 @@ Contains 537 entries with
 **Source:** 1674_marauder_idle_reload.yaml
 
 ---
+### 2023-02-11 - Fixes object flags of SalvageCrate <a name='link__20230211__1675_salvage_crate_flags'></a>
+**Changes**
+
+- **FIX**: Adds missing CRATE flag to SalvageCrate.
+- **FIX**: Removes obsolete SELECTABLE flag from SalvageCrate.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1675](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1675)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1836](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1836)
+
+**Labels:** design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1675_salvage_crate_flags.yaml
+
+---
+### 2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds <a name='link__20230211__1676_salvage_crate_exploit'></a>
+**Changes**
+
+- **FIX**: The GLA Salvage Crate is no longer deleted when a scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1676](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1676)
+
+**Labels:** bug, controversial, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1676_salvage_crate_exploit.yaml
+
+---
 ### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
@@ -10414,6 +10631,22 @@ Contains 537 entries with
 **Authors:** xezon
 
 **Source:** 1705_comanche_idle_reload.yaml
+
+---
+### 2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms <a name='link__20230212__1688_salvage_crate_despawn_time'></a>
+**Changes**
+
+- **TWEAK**: The despawn time of the Salvage Crate is now set deterministically to 32500 ms from previously somewhere random between 30000 ms and 35000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1688](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1688)
+
+**Labels:** controversial, design, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1688_salvage_crate_despawn_time.yaml
 
 ---
 ### 2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage <a name='link__20230214__1706_stealth_rebel_reveal'></a>
@@ -10526,4 +10759,355 @@ Contains 537 entries with
 **Authors:** xezon
 
 **Source:** 1726_wreck_spawn_after_death.yaml
+
+---
+### 2023-02-24 - Adds 3D shadows to bomb objects <a name='link__20230224__1750_bomb_shadows'></a>
+**Changes**
+
+- **TWEAK**: Adds 3D shadow to objects with EXCarptBmb model.
+- **TWEAK**: Adds 3D shadow to objects with EXAMine_A model.
+- **TWEAK**: Adds 3D shadow to objects with AVBomber_B model.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1750](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1750)
+
+**Labels:** design, enhancement, minor, v1.0
+
+**Authors:** Stubbjax, xezon
+
+**Source:** 1750_bomb_shadows.yaml
+
+---
+### 2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb <a name='link__20230224__1752_alpha_aurora_bomb_random_delay'></a>
+**Changes**
+
+- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Alpha Aurora bomb. The delay is now a fixed deterministic 1000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1752](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1752)
+
+**Labels:** buff, controversial, design, minor, usa, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1752_alpha_aurora_bomb_random_delay.yaml
+
+---
+### 2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies <a name='link__20230224__1753_alpha_aurora_bomb_speed'></a>
+**Changes**
+
+- **TWEAK**: The Alpha Aurora bomb now travels as quickly as the original regular Aurora Bomb. Effectively it hits the ground around 5 frames slower than before.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1753](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1753)
+
+**Labels:** controversial, design, nerf, usa, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1753_alpha_aurora_bomb_speed.yaml
+
+---
+### 2023-03-05 - Removes move voices from USA Spectre Gunship <a name='link__20230305__1759_spectre_move_voice_removal'></a>
+**Changes**
+
+- **FIX**: The USA Spectre Gunship no longer plays voices on move, because it does not actually move anywhere when instructed to move.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1759](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1759)
+
+**Labels:** design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1759_spectre_move_voice_removal.yaml
+
+---
+### 2023-03-26 - Adds Guard Mode and Attack Move buttons to USA Airforce Combat Chinook <a name='link__20230326__1787_combat_chinook_buttons'></a>
+**Changes**
+
+- **FEATURE**: The USA Airforce Combat Chinook now has buttons for Guard Mode and Attack Move. This is consistent with other units, like the China Helix.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1787](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1787)
+
+**Labels:** enhancement, gui, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1787_combat_chinook_buttons.yaml
+
+---
+### 2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb <a name='link__20230406__1800_daisy_cutter_explosion_delay_variance'></a>
+**Changes**
+
+- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Daisy Cutter bomb. The delay is now a fixed deterministic 1000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
+
+**Labels:** buff, controversial, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1800_daisy_cutter_explosion_delay_variance.yaml
+
+---
+### 2023-04-06 - Improves particle and sound effect sequence of USA Daisy Cutter explosion <a name='link__20230406__1800_daisy_cutter_explosion_effects'></a>
+**Changes**
+
+- **FIX**: Removes the 250 ms delay baked into the USA Daisy Cutter explosion audio effect.
+- **FIX**: Adds smooth fade out to the USA Daisy Cutter explosion audio effect.
+- **FIX**: Syncs the ignition particles of the USA Daisy Cutter with the ignition sound.
+- **FIX**: Syncs the explosion effects of the USA Daisy Cutter with the explosion sound.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1800_daisy_cutter_explosion_effects.yaml
+
+---
+### 2023-04-06 - Reduces audio range and volume of Remote Demo Charge <a name='link__20230406__1801_remote_demo_charge_audio'></a>
+**Changes**
+
+- **TWEAK**: Reduces the Remote Demo Charge's maximum audio range from 800 to 250, minimum audio range from 175 to 100. This makes the presence of a demo charge much less obvious as it has its audible area reduced by 90%.
+- **TWEAK**: Reduces the Remote Demo Charge's maximum volume from 65 to 40, minimum volume from 40 to 20. This makes the bomb beep sound much quieter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801)
+
+**Labels:** buff, controversial, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1801_remote_demo_charge_audio.yaml
+
+---
+### 2023-04-06 - Reduces audio range of Timed Demo Charge <a name='link__20230406__1802_timed_demo_charge_audio'></a>
+**Changes**
+
+- **TWEAK**: Reduces the Timed Demo Charge's maximum audio range from 800 to 500. This makes the presence of a demo charge and its instigator much less obvious as it has its audible area reduced by 61%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802)
+
+**Labels:** audio, china, controversial, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1802_timed_demo_charge_audio.yaml
+
+---
+### 2023-04-07 - Fixes inaccurate tooltip text of GLA Booby Trap upgrade <a name='link__20230407__1804_booby_trap_upgrade_text'></a>
+**Changes**
+
+- **FIX**: Fixes the inaccurate tooltip text of the GLA Booby Trap upgrade. It no longer claims it can be placed on neutral units.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1804](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1804)
+
+**Labels:** gla, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 1804_booby_trap_upgrade_text.yaml
+
+---
+### 2023-04-08 - Increases movement speed of China Overlord by up to 25% <a name='link__20230408__1813_overlord_speed'></a>
+**Changes**
+
+- **TWEAK**: Increases regular China Overlord
+  - speed from 20 to 25
+  - acceleration from 15 to 20
+  - turn rate from 60 to 70
+  - upgraded speed from 30 to 35
+  - upgraded turn rate from 60 to 70
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1813](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1813)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1813_overlord_speed.yaml
+
+---
+### 2023-04-08 - Increases movement speed of China Battlemaster by up to 20% <a name='link__20230408__1815_battlemaster_speed'></a>
+**Changes**
+
+- **TWEAK**: Increases China Battlemaster speed from 25 to 30, upgraded speed 35 to 40. This affects regular China General and Tank General. Movement speed is now competitive with tank speeds of USA and GLA.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1815](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1815)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1815_battlemaster_speed.yaml
+
+---
+### 2023-04-08 - Fixes Isotope Stability upgrade icon placements <a name='link__20230408__1816_isotope_stability_cameo'></a>
+**Changes**
+
+- **FIX**: Adds the missing Isotope Stability upgrade icon to the China Nuke Overlord tank.
+- **TWEAK**: Moves the Isotope Stability upgrade icon to a different cameo position on the China Nuke Battlemaster tank.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1816](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1816)
+
+**Labels:** bug, china, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1816_isotope_stability_cameo.yaml
+
+---
+### 2023-04-09 - Fixes drop location of China Battlemaster Paradrop <a name='link__20230409__1780_battlemaster_paradrop_location'></a>
+**Changes**
+
+- **FIX**: The China Battlemaster Paradrop no longer drops its tanks too far infront the selected drop location.
+- **FIX**: The China Battlemaster Paradrop no longer drops its tanks close to each other.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1780](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1780)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825)
+
+**Labels:** bug, china, minor, v1.0
+
+**Authors:** RedMeow2, xezon
+
+**Source:** 1780_battlemaster_paradrop_location.yaml
+
+---
+### 2023-04-09 - Fixes audible gaps in audio loop of USA Avenger Target Designator <a name='link__20230409__1821_avenger_loop_audio'></a>
+**Changes**
+
+- **FIX**: The USA Avenger Target Designator beam sound loop now sounds harmonic without gaps.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1820](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1820)
+
+**Labels:** audio, bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1821_avenger_loop_audio.yaml
+
+---
+### 2023-04-09 - Fixes weapon audio loop interval and frequency irregularities of USA Microwave Tank <a name='link__20230409__1821_microwave_loop_audio'></a>
+**Changes**
+
+- **FIX**: The USA Microwave Tank beam sound loop now sounds harmonic. Interval and frequency loop is consistent without mismatching cuts.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1821](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1821)
+
+**Labels:** audio, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1821_microwave_loop_audio.yaml
+
+---
+### 2023-04-09 - Fixes choppy physics of China Battlemaster Paradrop <a name='link__20230409__1825_battlemaster_paradrop_physics'></a>
+**Changes**
+
+- **FIX**: The China Battlemaster Paradrop parachutes now move and animate a bit more natural. The paradrop movement looks gentle.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825)
+
+**Labels:** china, design, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1825_battlemaster_paradrop_physics.yaml
+
+---
+### 2023-04-10 - Fixes Disintegration Sound Effect on Missiles <a name='link__20230410__1778_disintegration_sound_effect'></a>
+**Changes**
+
+- **FIX**: Disintegration sound effect on missile is added which is unused in original game.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1778](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1778)
+
+**Labels:** audio, minor, v1.0
+
+**Authors:** RedMeow2
+
+**Source:** 1778_disintegration_sound_effect.yaml
+
+---
+### 2023-04-10 - Fixes USA Alpha Aurora bomb freezing for 1 or 2 frames near ground before hit <a name='link__20230410__1828_alpha_aurora_bomb_impact'></a>
+**Changes**
+
+- **FIX**: The bomb of the USA Alpha Aurora no longer freezes for 1 or 2 frames near the ground before hit. This issue does not happen with the bomb of the regular Aurora.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1828](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1828)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1828_alpha_aurora_bomb_impact.yaml
+
+---
+### 2023-04-16 - Adds missing Rally Point button to Boss Airfield <a name='link__20230416__1852_boss_airfield_rally_point'></a>
+**Changes**
+
+- **FIX**: The Boss Airfield now has a button for Rally Point. The click on the Rally Point allows to place the Rally Point on top of units, even if the mouse cursor does not indicate that.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1852](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1852)
+
+**Labels:** boss, bug, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1852_boss_airfield_rally_point.yaml
+
+---
+### 2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center <a name='link__20230421__1861_china_radar_button_placement'></a>
+**Changes**
+
+- **TWEAK**: Moves the Radar upgrade button one field to the right, above the Mines upgrade button on the China Command Center. It is now consistent with the placement on the Boss Command Center.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861)
+
+**Labels:** china, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1861_china_radar_button_placement.yaml
 

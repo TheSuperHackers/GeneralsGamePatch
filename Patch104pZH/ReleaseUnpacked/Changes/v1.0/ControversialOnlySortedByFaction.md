@@ -5,35 +5,38 @@ Includes changes with labels: controversial
 
 Occuring labels are
 
-- audio (1)
-- buff (56)
-- bug (30)
-- china (35)
+- audio (2)
+- buff (61)
+- bug (32)
+- china (38)
 - civilian (3)
-- controversial (91)
-- design (70)
+- controversial (101)
+- design (78)
 - enhancement (1)
-- gla (29)
-- major (33)
-- minor (58)
-- nerf (17)
-- usa (24)
-- v1.0 (91)
+- gla (32)
+- major (37)
+- minor (63)
+- nerf (19)
+- usa (31)
+- v1.0 (101)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 91 entries with
+Contains 101 entries with
 
-- 113 changes
-  - TWEAK (73)
-  - FIX (33)
+- 122 changes
+  - TWEAK (78)
+  - FIX (36)
   - FEATURE (7)
+  - OPTIMIZATION (1)
 - 20 subchanges
   - FIX (20)
 
 ## Index
 - [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
+- [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
 - [2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang](#link__20220101__636_stinger_flashbang_damage)
+- [2023-04-06 - Reduces audio range and volume of Remote Demo Charge](#link__20230406__1801_remote_demo_charge_audio)
 - [2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret](#link__20210913__373_laser_turret_clip_size)
 - [2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles](#link__20210922__403_afg_avenger_armor)
 - [2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers](#link__20210923__407_avenger_composite_armor)
@@ -50,12 +53,17 @@ Contains 91 entries with
 - [2022-09-08 - Increases sight range of USA Sentry Drone by 30%](#link__20220908__1162_sentry_drone_sight_range)
 - [2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones](#link__20220908__1162_sentry_drone_tracks)
 - [2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20%](#link__20220908__1162_sentry_drone_upgrade)
+- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
 - [2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead](#link__20220918__1220_pilot_humvee_passenger)
 - [2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300](#link__20221108__1457_strategy_center_detection_range)
 - [2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600](#link__20221108__1457_strategy_center_snd_vision_range)
 - [2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25%](#link__20221116__1469_battle_drone_upgrade_armor_bonus)
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
+- [2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000](#link__20230121__1580_patriot_assist_reload_time)
 - [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
+- [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
+- [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
+- [2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb](#link__20230406__1800_daisy_cutter_explosion_delay_variance)
 - [2021-08-22 - Improves mobility of China Dozer](#link__20210822__6_china_dozer_locomotor)
 - [2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles](#link__20210828__97_minigunner_crush)
 - [2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely](#link__20210905__410_nuke_missile_blasts)
@@ -90,7 +98,9 @@ Contains 91 entries with
 - [2023-01-08 - Decreases build time of China Mines](#link__20230108__1533_china_mines_build_time)
 - [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
 - [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
-- [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
+- [2023-04-08 - Increases movement speed of China Overlord by up to 25%](#link__20230408__1813_overlord_speed)
+- [2023-04-08 - Increases movement speed of China Battlemaster by up to 20%](#link__20230408__1815_battlemaster_speed)
+- [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
 - [2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds](#link__20210903__164_demo_technical_suicide_delay)
 - [2021-09-11 - Fixes GLA Car Bomb unable to attack target](#link__20210911__307_car_bomb_attack_bug)
 - [2021-09-12 - Fixes issue where GLA Demo Terrorist can be crushed without applying any damage](#link__20210912__316_demo_terrorist_damage)
@@ -110,13 +120,14 @@ Contains 91 entries with
 - [2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds](#link__20220904__1096_scud_storm_worker_spawn_delay)
 - [2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target](#link__20220906__1136_bomb_truck_reveal)
 - [2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades](#link__20220906__1137_bomb_truck_damages)
-- [2022-09-06 - Improves particle effects of GLA Bomb Truck](#link__20220906__1137_bomb_truck_explosion_particles)
 - [2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200](#link__20220906__1137_bomb_truck_upgrade_cost)
 - [2022-09-06 - Improves locomotor of GLA Bomb Truck](#link__20220906__1138_bomb_truck_locomotor)
 - [2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400](#link__20220907__1153_combat_bike_required_xp)
 - [2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike](#link__20220908__1164_combat_bike_pilot_promotion)
 - [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
+- [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
 - [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
+- [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
 - [2023-02-04 - Fixes crushable levels of Civilian cars](#link__20230204__1625_civ_car_crushable_level)
 - [2023-02-04 - Fixes crusher levels of Civilian cars](#link__20230204__1625_civ_car_crusher_level)
@@ -143,6 +154,22 @@ Contains 91 entries with
 **Source:** 412_tanks_xp_reward.yaml
 
 ---
+### 2023-04-06 - Reduces audio range of Timed Demo Charge <a name='link__20230406__1802_timed_demo_charge_audio'></a>
+**Changes**
+
+- **TWEAK**: Reduces the Timed Demo Charge's maximum audio range from 800 to 500. This makes the presence of a demo charge and its instigator much less obvious as it has its audible area reduced by 61%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802)
+
+**Labels:** audio, china, controversial, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1802_timed_demo_charge_audio.yaml
+
+---
 ### 2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang <a name='link__20220101__636_stinger_flashbang_damage'></a>
 **Changes**
 
@@ -157,6 +184,23 @@ Contains 91 entries with
 **Authors:** commy2
 
 **Source:** 636_stinger_flashbang_damage.yaml
+
+---
+### 2023-04-06 - Reduces audio range and volume of Remote Demo Charge <a name='link__20230406__1801_remote_demo_charge_audio'></a>
+**Changes**
+
+- **TWEAK**: Reduces the Remote Demo Charge's maximum audio range from 800 to 250, minimum audio range from 175 to 100. This makes the presence of a demo charge much less obvious as it has its audible area reduced by 90%.
+- **TWEAK**: Reduces the Remote Demo Charge's maximum volume from 65 to 40, minimum volume from 40 to 20. This makes the bomb beep sound much quieter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801)
+
+**Labels:** buff, controversial, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1801_remote_demo_charge_audio.yaml
 
 ---
 ### 2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret <a name='link__20210913__373_laser_turret_clip_size'></a>
@@ -419,6 +463,23 @@ Contains 91 entries with
 **Source:** 1162_sentry_drone_upgrade.yaml
 
 ---
+### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
+**Changes**
+
+- **FIX**: All weapons of the USA Patriot Battery will now reload the entire clip after being idle for around 2 seconds.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1178](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1178)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1755](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1755)
+
+**Labels:** buff, controversial, design, minor, usa, v1.0
+
+**Authors:** commy2, xezon
+
+**Source:** 1178_patriot_battery_auto_reload.yaml
+
+---
 ### 2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead <a name='link__20220918__1220_pilot_humvee_passenger'></a>
 **Changes**
 
@@ -499,6 +560,22 @@ Contains 91 entries with
 **Source:** 1554_hold_line_plan_armor_bonus.yaml
 
 ---
+### 2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000 <a name='link__20230121__1580_patriot_assist_reload_time'></a>
+**Changes**
+
+- **FIX**: Increases the reload time of USA Patriot missile assist weapons from 1000 to 2000. This way reload time is consistent for all weapons of the Patriot Battery and there can be no scenarios where the turret can shoot on new targets after just 1 instead of 2 seconds.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580)
+
+**Labels:** bug, controversial, minor, nerf, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1580_patriot_assist_reload_time.yaml
+
+---
 ### 2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
 **Changes**
 
@@ -513,6 +590,54 @@ Contains 91 entries with
 **Authors:** xezon
 
 **Source:** 1705_comanche_idle_reload.yaml
+
+---
+### 2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb <a name='link__20230224__1752_alpha_aurora_bomb_random_delay'></a>
+**Changes**
+
+- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Alpha Aurora bomb. The delay is now a fixed deterministic 1000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1752](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1752)
+
+**Labels:** buff, controversial, design, minor, usa, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1752_alpha_aurora_bomb_random_delay.yaml
+
+---
+### 2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies <a name='link__20230224__1753_alpha_aurora_bomb_speed'></a>
+**Changes**
+
+- **TWEAK**: The Alpha Aurora bomb now travels as quickly as the original regular Aurora Bomb. Effectively it hits the ground around 5 frames slower than before.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1753](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1753)
+
+**Labels:** controversial, design, nerf, usa, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1753_alpha_aurora_bomb_speed.yaml
+
+---
+### 2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb <a name='link__20230406__1800_daisy_cutter_explosion_delay_variance'></a>
+**Changes**
+
+- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Daisy Cutter bomb. The delay is now a fixed deterministic 1000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
+
+**Labels:** buff, controversial, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1800_daisy_cutter_explosion_delay_variance.yaml
 
 ---
 ### 2021-08-22 - Improves mobility of China Dozer <a name='link__20210822__6_china_dozer_locomotor'></a>
@@ -1074,7 +1199,45 @@ Contains 91 entries with
 **Source:** 1670_overlord_emperor_idle_reload.yaml
 
 ---
-### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamme <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
+### 2023-04-08 - Increases movement speed of China Overlord by up to 25% <a name='link__20230408__1813_overlord_speed'></a>
+**Changes**
+
+- **TWEAK**: Increases regular China Overlord
+  - speed from 20 to 25
+  - acceleration from 15 to 20
+  - turn rate from 60 to 70
+  - upgraded speed from 30 to 35
+  - upgraded turn rate from 60 to 70
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1813](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1813)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1813_overlord_speed.yaml
+
+---
+### 2023-04-08 - Increases movement speed of China Battlemaster by up to 20% <a name='link__20230408__1815_battlemaster_speed'></a>
+**Changes**
+
+- **TWEAK**: Increases China Battlemaster speed from 25 to 30, upgraded speed 35 to 40. This affects regular China General and Tank General. Movement speed is now competitive with tank speeds of USA and GLA.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1815](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1815)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1815_battlemaster_speed.yaml
+
+---
+### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
 **Changes**
 
 - **FIX**: The Demo General's Combat Bike with a Terrorist and the Demolitions upgrade now deals damage to enemies when destroyed by an Anthrax Gamma weapon. This is consistent with other Demo units.
@@ -1191,9 +1354,11 @@ Contains 91 entries with
 **Changes**
 
 - **FIX**: The GLA Cash Bounty is no longer activated with an unfinished Command Center. The Command Center construction must finish to complete the activation process. After activation is completed, the Command Center can be demolished and the Cash Bounty will stay active. A new Cash Bounty level will require a new Command Center for activation however.
+- **OPTIMIZATION**: The GLA Cash Bounty dummy object spawn interval is set to 1000 ms.
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595)
 
 **Labels:** bug, controversial, design, gla, major, nerf, v1.0
@@ -1398,25 +1563,6 @@ Contains 91 entries with
 **Source:** 1137_bomb_truck_damages.yaml
 
 ---
-### 2022-09-06 - Improves particle effects of GLA Bomb Truck <a name='link__20220906__1137_bomb_truck_explosion_particles'></a>
-**Changes**
-
-- **TWEAK**: Adds shockwaves to all explosion variants of GLA Bomb Truck.
-- **TWEAK**: Increases explosion sizes for the more powerful weapon types of GLA Bomb Truck.
-- **TWEAK**: Matches all shockwave radii with the actual damage radii of GLA Bomb Truck.
-- **TWEAK**: Matches all shockwave and explosion colors with the actual Anthrax or weapon type of GLA Bomb Truck.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1137](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1137)
-
-**Labels:** buff, controversial, design, gla, minor, v1.0
-
-**Authors:** xezon
-
-**Source:** 1137_bomb_truck_explosion_particles.yaml
-
----
 ### 2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200 <a name='link__20220906__1137_bomb_truck_upgrade_cost'></a>
 **Changes**
 
@@ -1497,6 +1643,22 @@ Contains 91 entries with
 **Source:** 1674_marauder_idle_reload.yaml
 
 ---
+### 2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds <a name='link__20230211__1676_salvage_crate_exploit'></a>
+**Changes**
+
+- **FIX**: The GLA Salvage Crate is no longer deleted when a scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1676](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1676)
+
+**Labels:** bug, controversial, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1676_salvage_crate_exploit.yaml
+
+---
 ### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
@@ -1511,6 +1673,22 @@ Contains 91 entries with
 **Authors:** xezon
 
 **Source:** 1699_scorpion_idle_reload.yaml
+
+---
+### 2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms <a name='link__20230212__1688_salvage_crate_despawn_time'></a>
+**Changes**
+
+- **TWEAK**: The despawn time of the Salvage Crate is now set deterministically to 32500 ms from previously somewhere random between 30000 ms and 35000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1688](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1688)
+
+**Labels:** controversial, design, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1688_salvage_crate_despawn_time.yaml
 
 ---
 ### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>

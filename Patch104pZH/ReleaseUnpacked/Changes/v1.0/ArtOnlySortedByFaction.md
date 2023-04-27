@@ -5,29 +5,30 @@ Includes changes with labels: art
 
 Occuring labels are
 
-- art (106)
+- art (107)
 - audio (1)
 - bug (72)
-- china (18)
+- china (19)
 - civilian (4)
 - design (1)
 - enhancement (25)
 - gla (20)
 - gui (1)
-- minor (106)
+- minor (107)
 - optional (11)
 - usa (49)
-- v1.0 (106)
+- v1.0 (107)
 - wip (1)
 - worldbuilder (1)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 106 entries with
+Contains 107 entries with
 
-- 125 changes
-  - FIX (105)
+- 127 changes
+  - FIX (106)
   - FEATURE (20)
+  - TWEAK (1)
 - 186 subchanges
   - FIX (156)
   - TWEAK (2)
@@ -86,6 +87,7 @@ Contains 106 entries with
 - [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#link__20210901__133_speaker_tower_models)
 - [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
 - [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#link__20220903__1090_china_cc_night_model)
+- [2022-09-04 - Fixes and improves the look of China Mine explosion effects](#link__20220904__1121_china_mines_effects)
 - [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#link__20220920__1226_overlord_textures)
 - [2022-09-21 - Adds missing China Propaganda Tower damage texture](#link__20220921__1239_propaganda_tower_textures)
 - [2022-09-25 - Fixes nvinferno textures for China Inferno Cannon](#link__20220925__1285_nvinferno_textures)
@@ -1550,6 +1552,23 @@ Contains 106 entries with
 **Authors:** commy2
 
 **Source:** 1090_china_cc_night_model.yaml
+
+---
+### 2022-09-04 - Fixes and improves the look of China Mine explosion effects <a name='link__20220904__1121_china_mines_effects'></a>
+**Changes**
+
+- **FIX**: Fixes fadeout of white flash effect for China Mines explosion.
+- **TWEAK**: Decreases size of yellow flash effect for China Neutron Mines explosion.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1121](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1121)
+
+**Labels:** art, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1121_china_mines_effects.yaml
 
 ---
 ### 2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank <a name='link__20220920__1226_overlord_textures'></a>

@@ -5,40 +5,40 @@ Includes changes with labels: china
 
 Occuring labels are
 
-- art (18)
-- audio (10)
-- buff (36)
-- bug (86)
-- china (136)
+- art (19)
+- audio (12)
+- buff (38)
+- bug (88)
+- china (147)
 - civilian (1)
-- controversial (35)
+- controversial (38)
 - critical (1)
-- design (46)
+- design (52)
 - enhancement (7)
-- gla (12)
-- gui (9)
-- major (18)
-- minor (116)
+- gla (15)
+- gui (11)
+- major (20)
+- minor (125)
 - nerf (3)
-- optional (3)
+- optional (4)
 - performance (5)
 - text (2)
-- usa (17)
-- v1.0 (136)
+- usa (20)
+- v1.0 (147)
 - wip (1)
 
 Sorts changes by: date (ascending)
 
-Contains 136 entries with
+Contains 147 entries with
 
-- 170 changes
-  - FIX (128)
-  - TWEAK (38)
+- 190 changes
+  - FIX (140)
+  - TWEAK (46)
   - FEATURE (4)
-- 77 subchanges
+- 115 subchanges
   - FIX (56)
   - FEATURE (1)
-  - TWEAK (20)
+  - TWEAK (58)
 
 ## Index
 - [2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings](#link__20210822__4_listening_outpost_attack_bug)
@@ -111,8 +111,10 @@ Contains 136 entries with
 - [2022-08-26 - Adds missing Guard Mode buttons to China Troopcrawler and China Assault Troopcrawler](#link__20220826__974_troopcrawler_guard_mode_buttons)
 - [2022-08-26 - Decreases large Guard Mode range of China Listening Outpost](#link__20220826__975_outpost_guard_mode_range)
 - [2022-09-01 - Fixes setup issues of China Empty Troopcrawler (cut content)](#link__20220901__1060_empty_troopcrawler)
+- [2022-09-01 - Fixes audio flaws in English sounds](#link__20220901__1061_audio_fixes)
 - [2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost](#link__20220902__1080_outpost_radar_dish_physics)
 - [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#link__20220903__1090_china_cc_night_model)
+- [2022-09-04 - Fixes and improves the look of China Mine explosion effects](#link__20220904__1121_china_mines_effects)
 - [2022-09-04 - Fixes mispositioned explosion effects](#link__20220904__1122_detonation_effect_position_offset)
 - [2022-09-06 - Increases General Promotion reward from China Black Lotus by 100%](#link__20220906__1134_lotus_promotion_reward)
 - [2022-09-07 - Fixes muzzle particle effects of tanks](#link__20220907__1149_tank_muzzle_particles)
@@ -168,6 +170,8 @@ Contains 136 entries with
 - [2023-01-29 - Removes random sink delays from all vehicle wrecks](#link__20230129__1660_random_wreck_sink_delays)
 - [2023-01-29 - Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain](#link__20230129__1711_increase_wreck_destruction_delay)
 - [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
+- [2023-01-29 - Reduces sink delay of China Dragon Tank wreck](#link__20230129__1745_dragon_tank_sink_delay)
+- [2023-01-29 - Sets consistent sink delays for faction vehicle wrecks](#link__20230129__1746_wreck_sink_delays)
 - [2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death](#link__20230204__1618_nuke_cannon_death_models)
 - [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
 - [2023-02-04 - Improves tool tip text of China Nationalism and Fanatism upgrades](#link__20230204__1624_nationalism_fanatism_tooltip_text)
@@ -177,6 +181,13 @@ Contains 136 entries with
 - [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
 - [2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost](#link__20230214__1707_outpost_crush_death)
 - [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
+- [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
+- [2023-04-08 - Increases movement speed of China Overlord by up to 25%](#link__20230408__1813_overlord_speed)
+- [2023-04-08 - Increases movement speed of China Battlemaster by up to 20%](#link__20230408__1815_battlemaster_speed)
+- [2023-04-08 - Fixes Isotope Stability upgrade icon placements](#link__20230408__1816_isotope_stability_cameo)
+- [2023-04-09 - Fixes drop location of China Battlemaster Paradrop](#link__20230409__1780_battlemaster_paradrop_location)
+- [2023-04-09 - Fixes choppy physics of China Battlemaster Paradrop](#link__20230409__1825_battlemaster_paradrop_physics)
+- [2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center](#link__20230421__1861_china_radar_button_placement)
 
 
 
@@ -432,6 +443,7 @@ Contains 136 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261)
 
 **Labels:** bug, china, minor, v1.0
@@ -1327,6 +1339,30 @@ Contains 136 entries with
 **Source:** 1060_empty_troopcrawler.yaml
 
 ---
+### 2022-09-01 - Fixes audio flaws in English sounds <a name='link__20220901__1061_audio_fixes'></a>
+**Changes**
+
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 783 English voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout in 221 English eva voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping in 38 common voices
+- **FIX**: Fixes clicking, fadein, fadeout in 123 vehicle sounds
+- **FIX**: Fixes noises, clicking, fadeout in 104 fx sounds
+- **FIX**: Fixes clicking, fadein, fadeout in 4 ui sounds
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1061](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1061)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
+
+**Labels:** audio, china, gla, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1061_audio_fixes.yaml
+
+---
 ### 2022-09-02 - Fixes physics of radar dish wreck of China Listening Outpost <a name='link__20220902__1080_outpost_radar_dish_physics'></a>
 **Changes**
 
@@ -1357,6 +1393,23 @@ Contains 136 entries with
 **Authors:** commy2
 
 **Source:** 1090_china_cc_night_model.yaml
+
+---
+### 2022-09-04 - Fixes and improves the look of China Mine explosion effects <a name='link__20220904__1121_china_mines_effects'></a>
+**Changes**
+
+- **FIX**: Fixes fadeout of white flash effect for China Mines explosion.
+- **TWEAK**: Decreases size of yellow flash effect for China Neutron Mines explosion.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1121](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1121)
+
+**Labels:** art, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1121_china_mines_effects.yaml
 
 ---
 ### 2022-09-04 - Fixes mispositioned explosion effects <a name='link__20220904__1122_detonation_effect_position_offset'></a>
@@ -2437,6 +2490,80 @@ Contains 136 entries with
 **Source:** 1712_decrease_wreck_destruction_delay.yaml
 
 ---
+### 2023-01-29 - Reduces sink delay of China Dragon Tank wreck <a name='link__20230129__1745_dragon_tank_sink_delay'></a>
+**Changes**
+
+- **FIX**: The wreck of the China Dragon Tank now sinks after 12 seconds instead of 14 seconds, right after the rubble flames ended.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1745](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1745)
+
+**Labels:** china, design, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1745_dragon_tank_sink_delay.yaml
+
+---
+### 2023-01-29 - Sets consistent sink delays for faction vehicle wrecks <a name='link__20230129__1746_wreck_sink_delays'></a>
+**Changes**
+
+- **TWEAK**: Sets sink delays for wrecks of regular vehicles and aircraft to 3000 ms.
+- **TWEAK**: Sets sink delays for wrecks of large vehicles and aircraft to 6000 ms.
+
+**Subchanges**
+
+- **TWEAK**: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Crusader Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Paladin Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Laser Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Microwave wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Tomahawk wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Chinook wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Raptor wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Aurora wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Stealth Fighter wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA A10 wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Spectre wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Supply Truck wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Troop Crawler wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Assault Troop Crawler wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Listening Outpost wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Gattling Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Battlemaster wreck from 14000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China ECM Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Inferno Cannon wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of China Nuke Cannon wreck from 1500 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Overlord wreck from 14000 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Helix wreck from 1500 ms to 6000 ms.
+- **TWEAK**: Sets sink delay of China Mig wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Radar Van wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Quad Cannon wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Scorpion Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Marauder Tank wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Toxin Tractor wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Bomb Truck wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of GLA Battle Bus wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of Civilian Militia Tank wreck from 4000 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of Civilian Toxic Supply Truck wreck from 1500 ms to 3000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746)
+
+**Labels:** china, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1746_wreck_sink_delays.yaml
+
+---
 ### 2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death <a name='link__20230204__1618_nuke_cannon_death_models'></a>
 **Changes**
 
@@ -2601,4 +2728,125 @@ Contains 136 entries with
 **Authors:** Stubbjax
 
 **Source:** 1718_cargo_plane_hit_effects.yaml
+
+---
+### 2023-04-06 - Reduces audio range of Timed Demo Charge <a name='link__20230406__1802_timed_demo_charge_audio'></a>
+**Changes**
+
+- **TWEAK**: Reduces the Timed Demo Charge's maximum audio range from 800 to 500. This makes the presence of a demo charge and its instigator much less obvious as it has its audible area reduced by 61%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802)
+
+**Labels:** audio, china, controversial, design, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1802_timed_demo_charge_audio.yaml
+
+---
+### 2023-04-08 - Increases movement speed of China Overlord by up to 25% <a name='link__20230408__1813_overlord_speed'></a>
+**Changes**
+
+- **TWEAK**: Increases regular China Overlord
+  - speed from 20 to 25
+  - acceleration from 15 to 20
+  - turn rate from 60 to 70
+  - upgraded speed from 30 to 35
+  - upgraded turn rate from 60 to 70
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1813](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1813)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1813_overlord_speed.yaml
+
+---
+### 2023-04-08 - Increases movement speed of China Battlemaster by up to 20% <a name='link__20230408__1815_battlemaster_speed'></a>
+**Changes**
+
+- **TWEAK**: Increases China Battlemaster speed from 25 to 30, upgraded speed 35 to 40. This affects regular China General and Tank General. Movement speed is now competitive with tank speeds of USA and GLA.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1815](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1815)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1815_battlemaster_speed.yaml
+
+---
+### 2023-04-08 - Fixes Isotope Stability upgrade icon placements <a name='link__20230408__1816_isotope_stability_cameo'></a>
+**Changes**
+
+- **FIX**: Adds the missing Isotope Stability upgrade icon to the China Nuke Overlord tank.
+- **TWEAK**: Moves the Isotope Stability upgrade icon to a different cameo position on the China Nuke Battlemaster tank.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1816](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1816)
+
+**Labels:** bug, china, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1816_isotope_stability_cameo.yaml
+
+---
+### 2023-04-09 - Fixes drop location of China Battlemaster Paradrop <a name='link__20230409__1780_battlemaster_paradrop_location'></a>
+**Changes**
+
+- **FIX**: The China Battlemaster Paradrop no longer drops its tanks too far infront the selected drop location.
+- **FIX**: The China Battlemaster Paradrop no longer drops its tanks close to each other.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1780](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1780)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825)
+
+**Labels:** bug, china, minor, v1.0
+
+**Authors:** RedMeow2, xezon
+
+**Source:** 1780_battlemaster_paradrop_location.yaml
+
+---
+### 2023-04-09 - Fixes choppy physics of China Battlemaster Paradrop <a name='link__20230409__1825_battlemaster_paradrop_physics'></a>
+**Changes**
+
+- **FIX**: The China Battlemaster Paradrop parachutes now move and animate a bit more natural. The paradrop movement looks gentle.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825)
+
+**Labels:** china, design, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1825_battlemaster_paradrop_physics.yaml
+
+---
+### 2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center <a name='link__20230421__1861_china_radar_button_placement'></a>
+**Changes**
+
+- **TWEAK**: Moves the Radar upgrade button one field to the right, above the Mines upgrade button on the China Command Center. It is now consistent with the placement on the Boss Command Center.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861)
+
+**Labels:** china, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1861_china_radar_button_placement.yaml
 
