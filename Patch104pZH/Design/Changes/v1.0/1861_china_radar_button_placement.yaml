@@ -10,10 +10,12 @@ labels:
   - china
   - gui
   - minor
+  - optional
   - v1.0
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1884
 
 authors:
   - xezon

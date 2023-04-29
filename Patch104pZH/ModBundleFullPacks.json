@@ -7,6 +7,7 @@
                 "itemNames": [
                     "AxOptionalAudio",
                     "AxOptionalAudioArabic",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -24,6 +25,7 @@
                 "itemNames": [
                     "AxOptionalAudio",
                     "AxOptionalAudioBrazilian",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -41,6 +43,7 @@
                 "itemNames": [
                     "AxOptionalAudio",
                     "AxOptionalAudioChinese",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -58,6 +61,7 @@
                 "itemNames": [
                     "AxOptionalAudio",
                     "AxOptionalAudioEnglish",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -75,6 +79,7 @@
                 "itemNames": [
                     "AxOptionalAudio",
                     "AxOptionalAudioFrench",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -91,6 +96,7 @@
                 "name": "FullGerman",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -108,6 +114,7 @@
                 "itemNames": [
                     "AxOptionalAudio",
                     "AxOptionalAudioItalian",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -125,6 +132,7 @@
                 "itemNames": [
                     "AxOptionalAudio",
                     "AxOptionalAudioKorean",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -142,6 +150,7 @@
                 "itemNames": [
                     "AxOptionalAudio",
                     "AxOptionalAudioPolish",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -158,6 +167,7 @@
                 "name": "FullRussian",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
@@ -175,6 +185,7 @@
                 "itemNames": [
                     "AxOptionalAudio",
                     "AxOptionalAudioSpanish",
+                    "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
                     "CoreAudio",
