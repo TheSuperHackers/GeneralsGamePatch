@@ -1,0 +1,25 @@
+---
+date: 2023-04-19
+
+title: Optimizes button placements of Boss Command Center
+
+changes:
+  - tweak: |
+      Optimizes button placements of Boss Command Center
+        - Boss and China now share same button position for Carpet Bomber
+        - Boss and China now share same button position for Cluster Mines
+        - Boss and China now share same button position for Artillery Barrage
+        - Boss and China now share same button position for EMP Pulse
+        - Spectre and Sneak Attack buttons are moved
+
+labels:
+  - boss
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1859
+
+authors:
+  - xezon
