@@ -3,9 +3,9 @@
 set SetupDir=%~dp0.
 
 :: Version, size and hash. Sets which Mod Builder is used.
-set ModBuilderVer=1.9
-set ModBuilderArcSize=31297553
-set ModBuilderArcSha256=352f2b3d30abbde1976f0ed8d7b3f624a2a4317630d74e64fe5305eabfd5f2e1
+set ModBuilderVer=2.0
+set ModBuilderArcSize=31296792
+set ModBuilderArcSha256=88eecc54dca509734f260f8813adc6c2759042be743a8cf4e7427f48ae1dbaf7
 
 :: The mod config files. Relative to this setup file.
 set ConfigFiles=^
