@@ -337,7 +337,38 @@
                             "deleteComments": ";",
                             "deleteWhitespace": 1,
                             "sourceEncoding": "ascii",
-                            "targetEncoding": "ascii"
+                            "targetEncoding": "ascii",
+                            "excludeMarkersList": [
+                                [
+                                    ";patch104p-optional-begin",
+                                    ";patch104p-optional-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalINI",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/INI/CommandSet.ini"
+                        ],
+                        "params": {
+                            "forceEOL": "\r\n",
+                            "deleteComments": ";",
+                            "deleteWhitespace": 1,
+                            "sourceEncoding": "ascii",
+                            "targetEncoding": "ascii",
+                            "excludeMarkersList": [
+                                [
+                                    ";patch104p-core-begin",
+                                    ";patch104p-core-end"
+                                ]
+                            ]
                         }
                     }
                 ]
