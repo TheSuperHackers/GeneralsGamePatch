@@ -1,0 +1,18 @@
+---
+date: 2023-04-22
+
+title: Sets unique default house color for Boss General
+
+changes:
+  - tweak: Changes default house color of Boss General from green to gold.
+
+labels:
+  - boss
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1864
+
+authors:
+  - xezon
