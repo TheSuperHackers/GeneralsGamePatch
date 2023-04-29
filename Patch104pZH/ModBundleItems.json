@@ -335,7 +335,9 @@
                         "params": {
                             "forceEOL": "\r\n",
                             "deleteComments": ";",
-                            "deleteWhitespace": 1
+                            "deleteWhitespace": 1,
+                            "sourceEncoding": "ascii",
+                            "targetEncoding": "ascii"
                         }
                     }
                 ]
@@ -370,7 +372,9 @@
                         ],
                         "params": {
                             "forceEOL": "\r\n",
-                            "deleteWhitespace": 1
+                            "deleteWhitespace": 1,
+                            "sourceEncoding": "ascii",
+                            "targetEncoding": "ascii"
                         }
                     }
                 ]
