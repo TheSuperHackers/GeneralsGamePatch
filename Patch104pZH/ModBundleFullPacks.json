@@ -1,8 +1,6 @@
 {
     "bundles": {
         "version": 1,
-        "packsPrefix": "GamePatch",
-        "packsSuffix": "_v0.0",
         "packs": [
             {
                 "name": "FullArabic",
