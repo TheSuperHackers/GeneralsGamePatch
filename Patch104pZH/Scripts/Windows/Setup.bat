@@ -12,7 +12,8 @@ set ConfigFiles=^
     "%SetupDir%\..\..\ModBundleItems.json" ^
     "%SetupDir%\..\..\ModBundleAudioItems.json" ^
     "%SetupDir%\..\..\ModBundleLanguageItems.json" ^
-    "%SetupDir%\..\..\ModBundlePacks.json" ^
+    "%SetupDir%\..\..\ModBundleCorePacks.json" ^
+    "%SetupDir%\..\..\ModBundleFullPacks.json" ^
     "%SetupDir%\..\..\ModChangeLog.json" ^
     "%SetupDir%\..\..\ModFolders.json" ^
     "%SetupDir%\WindowsRunner.json" ^

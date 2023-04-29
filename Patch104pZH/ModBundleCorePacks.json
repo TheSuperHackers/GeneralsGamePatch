@@ -1,0 +1,141 @@
+{
+    "bundles": {
+        "version": 1,
+        "packsPrefix": "GamePatch",
+        "packsSuffix": "_v0.0",
+        "packs": [
+            {
+                "name": "CoreArabic",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangArabic",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CoreBrazilian",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangBrazilian",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CoreChinese",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangChinese",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CoreEnglish",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangEnglish",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CoreFrench",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangFrench",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CoreGerman",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangGerman",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CoreItalian",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangItalian",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CoreKorean",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangKorean",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CorePolish",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangPolish",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CoreRussian",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangRussian",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "CoreSpanish",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreINI",
+                    "CoreLangSpanish",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            }
+        ]
+    }
+}
