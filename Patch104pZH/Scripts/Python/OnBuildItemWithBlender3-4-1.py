@@ -97,7 +97,8 @@ def OnEvent(**kwargs) -> None:
     if tools == None:
         raise Exception("Unable to reference '{TOOLS}' in user script")
     if buildThing == None:
-        raise Exception("Unable to reference '{RAW_BUILD_THING}' in user script")
+        return
+        #raise Exception("Unable to reference '{RAW_BUILD_THING}' in user script")
 
     tool = tools.get("blender")
 
