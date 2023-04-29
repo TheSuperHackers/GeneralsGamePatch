@@ -19,7 +19,6 @@ if %errorlevel% EQU 222 (
 call "%ThisDir%\Windows\Setup.bat"
 
 call "%ModBuilderExe%" ^
-  --load-default-runner ^
   --build ^
   --install FullEnglish ^
   --config-list %ConfigFiles% %*
