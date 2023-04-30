@@ -1,0 +1,21 @@
+---
+date: 2023-04-30
+
+title: Optimizes Clean Toxins button placement of USA Ambulance, HazMat Infantry
+
+changes:
+  - tweak: The Clean Toxins button of the USA Ambulance is now optionally placed on slot 12.
+  - tweak: The Clean Toxins button of the HazMat Infantry is now optionally placed on slot 12.
+
+labels:
+  - gui
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1885
+
+authors:
+  - xezon
