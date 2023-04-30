@@ -1,0 +1,27 @@
+---
+date: 2023-04-30
+
+title: Adds missing upgrade buttons to Boss General
+
+changes:
+  - fix: Adds missing Drone Armor upgrade to Boss General Particle Cannon. It is used by Boss Sentry Drone.
+  - fix: Adds missing Countermeasures upgrade to Boss General Airfield. It is used by Boss Aurora, Raptor, Spectre.
+  - fix: Adds missing Laser Missiles upgrade to Boss General Airfield. It is used by Boss Raptor.
+  - fix: Adds missing AP Bullets upgrade to Boss General Scud Storm. It is used by Boss Jarmen Kell.
+  - fix: Adds missing Junk Repair upgrade to Boss General Scud Storm. It is used by Boss Rocket Buggy, Combat Bike.
+  - fix: Adds missing Anthrax Beta upgrade to Boss General Scud Storm. It is used by Boss Scud Storm.
+  - tweak: Moves Mig Armor upgrade button up by one slot to make room for the added upgrades in Boss Airfield.
+
+labels:
+  - boss
+  - buff
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1892
+
+authors:
+  - xezon
