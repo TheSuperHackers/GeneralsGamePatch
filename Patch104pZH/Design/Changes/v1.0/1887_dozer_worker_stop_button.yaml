@@ -1,0 +1,23 @@
+---
+date: 2023-04-30
+
+title: Adds missing Stop command button to all worker units
+
+changes:
+  - fix: Adds the Stop command button to all worker units (except Boss). This way button can be pressed to stop worker units, including in group selection with other units. The Clear Mines, GLA Fake Structures and USA Airfield buttons had to be moved to make room for the Stop button.
+
+labels:
+  - bug
+  - china
+  - gla
+  - gui
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1887
+
+authors:
+  - xezon
