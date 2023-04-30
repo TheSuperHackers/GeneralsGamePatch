@@ -1,0 +1,20 @@
+---
+date: 2023-01-19
+
+title: Replaces USA Chinook specific evacuation button with generic vehicle evacuation button
+
+changes:
+  - tweak: Replaces the USA Chinook specific evacuation button with the generic vehicle evacuation button. The Chinook can now be evacuated with other types of vehicles in a group selection.
+
+labels:
+  - gui
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1565
+
+authors:
+  - xezon
