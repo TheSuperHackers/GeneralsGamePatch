@@ -1,0 +1,20 @@
+---
+date: 2023-04-30
+
+title: Adds missing Countermeasures upgrade armor bonus to Boss King Raptor
+
+changes:
+  - tweak: The Boss King Raptor now receives the Countermeasures upgrade armor bonus. This is consistent with Boss Aurora and Boss Spectre.
+
+labels:
+  - boss
+  - buff
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1893
+
+authors:
+  - xezon
