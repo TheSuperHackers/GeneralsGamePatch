@@ -5,6 +5,18 @@
         "itemsSuffix": "",
         "items": [
             {
+                "name": "CoreMisc",
+                "big": false,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Cursors/*.ani"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "CoreTextures",
                 "big": true,
                 "files": [

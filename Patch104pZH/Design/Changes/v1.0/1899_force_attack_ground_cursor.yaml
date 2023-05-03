@@ -1,0 +1,19 @@
+---
+date: 2023-05-02
+
+title: Adds new mouse cursor for ground force attack
+
+changes:
+  - feature: Adds a new mouse cursor for the ground force attack. The cursor looks similar to the original attack cursor, but different enough to provide a clear distinction between attacking a ground position and attacking an object.
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1899
+
+authors:
+  - xezon
