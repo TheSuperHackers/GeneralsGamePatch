@@ -1,0 +1,19 @@
+---
+date: 2023-05-03
+
+title: Sets audio limit for Vehicle Snipe
+
+changes:
+  - fix: Sets an audio limit of 2 for Vehicle Snipe. This way it can no longer spam many sounds on Neutron Shell hits.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1900
+
+authors:
+  - xezon
