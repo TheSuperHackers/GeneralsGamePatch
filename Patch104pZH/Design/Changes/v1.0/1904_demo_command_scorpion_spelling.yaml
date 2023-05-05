@@ -1,0 +1,17 @@
+---
+date: 2023-05-05
+
+title: Sets correct name for Demo_Command_ConstructGLATankScorpion
+
+changes:
+  - fix: Sets correct name for Demo_Command_ConstructGLATankScorpion. Originally it is misspelled as Demo_Command_ConsturctGLATankScorpion.
+
+labels:
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1904
+
+authors:
+  - xezon
