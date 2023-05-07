@@ -1,0 +1,29 @@
+---
+date: 2023-05-05
+
+title: Removes audio events that reference no valid sounds
+
+changes:
+  - fix: Removes invalid audio event GenericMachineGunFire and all references to it.
+  - fix: Removes invalid audio event MedicMoveStart.
+  - fix: Removes invalid audio event CarBomberDie and all references to it.
+  - fix: Removes invalid audio event ExplosionGeneric.
+  - fix: Removes invalid audio event HeroUSAChargePlace.
+  - fix: Removes invalid audio event HeroUSAChargeBeep.
+  - fix: Removes invalid audio event HeroUSATimeBombClick.
+  - fix: Removes invalid audio event ExecuteDemoralize.
+  - fix: Removes invalid audio event CrateCash.
+  - fix: Removes invalid audio event AngryMobVoiceUpgradeArmTheMobCrowd.
+  - fix: Removes invalid audio event ListeningOutpostVoiceAttack and all references to it.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1912
+
+authors:
+  - xezon
