@@ -1,0 +1,21 @@
+---
+date: 2022-09-23
+
+title: Adds new research voices for China Satellite Upgrades
+
+changes:
+  - feature: Researching the China Satellite One and Two now plays a dedicated voice.
+
+labels:
+  - audio
+  - china
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1262
+
+authors:
+  - Stubbjax
+  - xezon
