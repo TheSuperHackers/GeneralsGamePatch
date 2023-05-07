@@ -1,0 +1,21 @@
+---
+date: 2023-05-05
+
+title: Enables death voices of USA Chinook
+
+changes:
+  - tweak: Enables death voices of the USA Chinook. This behavior is consistent with USA Comanche, Raptor, Aurora, Stealth Fighter.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1919
+
+authors:
+  - xezon
