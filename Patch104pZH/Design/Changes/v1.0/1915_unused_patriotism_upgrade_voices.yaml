@@ -1,0 +1,23 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to China Patriotism upgrade
+
+changes:
+  - tweak: Adds unused voice "Our patriotism will overwhelm the enemy" to RedGuardVoiceUpgradePatriotism.
+  - tweak: Adds unused voice "Patriotism will lead us to more victories" to RedGuardVoiceUpgradePatriotism.
+
+labels:
+  - audio
+  - china
+  - design
+  - enhancement
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915
+
+authors:
+  - xezon

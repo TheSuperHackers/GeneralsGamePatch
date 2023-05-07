@@ -1,0 +1,22 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to USA Chemical Suits upgrade
+
+changes:
+  - tweak: Adds unused voice "These Chemical Suits are going to help" to RangerVoiceUpgradeChemSuits.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915
+
+authors:
+  - xezon
