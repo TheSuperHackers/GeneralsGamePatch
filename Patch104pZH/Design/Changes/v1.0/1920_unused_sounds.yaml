@@ -1,0 +1,25 @@
+---
+date: 2023-05-05
+
+title: Adds unused sound variations in audio events
+
+changes:
+  - tweak: Adds unused sound(s) in DozerUSAMoveStart.
+  - tweak: Adds unused sound(s) in BuildingDie.
+  - tweak: Adds unused sound(s) in CowAmbience.
+  - fix: Adds unused attack and decay sound(s) in Amb_DesertMarketWallaLoop2.
+  - fix: Adds unused attack and decay sound(s) in Amb_DesertMarketWallaLoop3.
+  - tweak: Adds unused sound(s) in CivilianPanicMale.
+  - tweak: Adds unused sound(s) in ExplosionPatriotEMP.
+
+labels:
+  - audio
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1920
+
+authors:
+  - xezon
