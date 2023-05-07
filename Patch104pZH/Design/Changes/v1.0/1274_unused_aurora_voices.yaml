@@ -6,6 +6,9 @@ title: Adds unused voice variation(s) to USA Aurora
 changes:
   - tweak: Adds unused voice "Fuel levels are critical" to AuroraBomberVoiceLowFuel.
   - tweak: Adds unused voice "Fuel gauge is in the red" to AuroraBomberVoiceLowFuel.
+  - tweak: Adds unused voice "Let's make this quick" to AuroraBomberVoiceAttack.
+  - tweak: Adds unused voice "We won't slow down" to AuroraBomberVoiceAttack.
+  - tweak: Adds unused voice "Will be a clean delivery" to AuroraBomberVoiceAttack.
 
 labels:
   - audio
@@ -16,6 +19,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910
 
 authors:
   - xezon

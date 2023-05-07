@@ -1,0 +1,28 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to USA Alpha Aurora
+
+changes:
+  - feature: Adds unused voice "Fuel air bomb is armed and ready" to FuelAirAuroraVoiceSelect.
+  - feature: Adds unused voice "Fuel weapon ready for deployment" to FuelAirAuroraVoiceSelect.
+  - feature: Adds unused voice "Ready the fuel air bomb" to FuelAirAuroraVoiceAttack.
+  - feature: Adds unused voice "Dropping off the fuel air bomb" to FuelAirAuroraVoiceAttack.
+  - feature: Adds unused voice "The fuel air bomb should be enough" to FuelAirAuroraVoiceAttack.
+  - feature: Adds unused voice "Let's make this quick" to FuelAirAuroraVoiceAttack.
+  - feature: Adds unused voice "We won't slow down" to FuelAirAuroraVoiceAttack.
+  - feature: Adds unused voice "Will be a clean delivery" to FuelAirAuroraVoiceAttack.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910
+
+authors:
+  - xezon
