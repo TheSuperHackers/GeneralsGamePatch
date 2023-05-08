@@ -364,6 +364,7 @@
                         "parent": "GameFilesEdited",
                         "sourceList": [
                             "Data/INI/CommandSet.ini",
+                            "Data/INI/SoundEffects.ini",
                             "Data/INI/Voice.ini"
                         ],
                         "params": {
