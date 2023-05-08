@@ -1,0 +1,39 @@
+e-mail iKozuto@mail.ru
+EN:
+DESCRIPTION
+For the first time, a real battle royale mode in generals. You have 1 infantryman and many neutral buildings at your disposal, entering which you will receive combat units. Save up your army and remain alone on the entire map, but be careful as the water level rises over time and you need to approach the center of the map so as not to lose your army.
+PRESETS
+To start a short introduction, the host must select the army of the GLA.
+it is recommended to play with at least 4 players (for balance).
+UPDATES
+interface:
+At the bottom left, you will see a timer, after which the water level will rise and flood everything to the next high platform.
+After that, another timer will appear showing the number of waves at a given time.
+equipment drops:
+after each rise in the water level, drops with equipment in which you can sit will be dropped on the map. Therefore, it makes sense to keep the infantry near special zones, on which vehicles can fall. Drops of vehicles will not fall immediately to the center of the map, they will fall gradually near the water with a certain chance.
+air strikes:
+After the first wave, inclusive, airstrikes begin to be launched closer to the center of the map. The danger zone is only one circle. Also, the place where the artillery hits will be highlighted with a white beacon (as in multiplayer, only in white) After the disappearance of the lighthouse, artillery will immediately strike.
+
+Also added sounds:
+After the timer expires, there are 3 alarms after which the water level will rise.
+sounds of rising water.
+sounds of falling vehicles on the map.
+RU:
+ОПИСАНИЕ
+Впервые, настоящий режим батл ройале в генералах. В вашем распоряжении 1 пехотинец и много нейтральных зданий, заходя в которые, вы будете получать боевые юниты. Копите свое войско и останьтесь одни на всей карте, но будьте осторожны со временем уровень воды подымается и вам нужно приближаться к центру карты что бы не потерять свою армию.
+ПРЕДУСТАНОВКИ
+Что бы запустить небольшое вступление хост должен выбрать армию ГЛА.
+рекомендуемо играть минимум с 4 игроками (для баланса).
+ОБНОВЛЕНИЯ
+интерфейс:
+Слева внизу вы увидите таймер, по истечению которого уровень воды подымится и затопит все до следующей высокой площадки. 
+После появится еще один таймер показывающий число волны в данный момент времени.
+дропы техники:
+после каждого подъёма уровня воды на карте будут скидываться дропы с техникой в которую можно сесть. Поэтому есть смысл держать пехоту возле специальных зон, на которые может упасть техника. Дропы техники не будут падать сразу в центр карты, они падают постепенно возле воды с некоторым шансом.
+авиаудары:
+После первой волны, включительно, начинают запускаться авиаудары ближе к центру карты. Зоной опасности является только один круг. Так же место, в которое ударит артиллерией будет подсвечена белым маяком (как в мультиплеере только белым цветом). После исчезновения маяка сразу же ударит артиллерия.
+
+Так же добавлены звуки:
+По истечению таймера 3 сигнала тревоги после которых уровень воды подымится.
+звуки повышения воды.
+звуки падающей техники на карту.
