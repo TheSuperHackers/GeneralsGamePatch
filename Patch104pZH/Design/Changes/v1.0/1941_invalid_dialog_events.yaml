@@ -1,0 +1,26 @@
+---
+date: 2023-05-09
+
+title: Removes dialog events that reference no valid sounds
+
+changes:
+  - fix: Removes invalid dialog event(s) UI_MenuGeneralMouseOver.
+  - fix: Removes invalid dialog event(s) Taunts_JarmenKell01.
+  - fix: Removes invalid dialog event(s) Taunts_GLABoss106 .. 118.
+  - fix: Removes invalid dialog event(s) demo_Officer01 .. 11.
+  - fix: Removes invalid dialog event(s) demo_Helix01 .. 04.
+  - fix: Removes invalid dialog event(s) demo_Bomber01.
+  - fix: Removes invalid dialog event(s) demo_Bomber02.
+  - fix: Removes invalid dialog event(s) UnitDescriptXChina037.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1941
+
+authors:
+  - xezon
