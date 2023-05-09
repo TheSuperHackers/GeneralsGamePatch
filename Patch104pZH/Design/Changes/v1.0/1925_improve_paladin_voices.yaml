@@ -1,0 +1,23 @@
+---
+date: 2023-05-05
+
+title: Improves voice setup of USA Paladin
+
+changes:
+  - tweak: Moves voice "Preserving freedom" from PaladinTankVoiceCreate to PaladinTankVoiceSelect.
+  - tweak: Moves voice "Polished and ready" from PaladinTankVoiceSelect to PaladinTankVoiceCreate.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1925
+
+authors:
+  - xezon
