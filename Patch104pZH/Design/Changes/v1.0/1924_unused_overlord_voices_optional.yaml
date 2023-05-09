@@ -1,0 +1,24 @@
+---
+date: 2023-05-05
+
+title: Improves voice setup of China Overlord
+
+changes:
+  - tweak: Adds unused voice "They will beg for mercy" to OverlordTankVoiceCreate.
+  - tweak: Adds voice "Are you ready?" to OverlordTankVoiceSelect.
+  - tweak: Removes voice "Are you ready?" from OverlordTankVoiceCreate.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1924
+
+authors:
+  - xezon
