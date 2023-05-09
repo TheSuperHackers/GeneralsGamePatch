@@ -45,6 +45,10 @@
                         "parent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Arabic/*.wav"
+                            },
+                            {
                                 "source": "Data/Audio/Sounds/CommonVoice/*.wav",
                                 "target": "Data/Audio/Sounds/Arabic/*.wav"
                             },
@@ -67,6 +71,10 @@
                     {
                         "parent": "GameFilesOptional",
                         "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
+                            },
                             {
                                 "source": "Data/Audio/Sounds/CommonVoice/*.wav",
                                 "target": "Data/Audio/Sounds/Brazilian/*.wav"
@@ -91,6 +99,10 @@
                         "parent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Chinese/*.wav"
+                            },
+                            {
                                 "source": "Data/Audio/Sounds/CommonVoice/*.wav",
                                 "target": "Data/Audio/Sounds/Chinese/*.wav"
                             },
@@ -113,6 +125,10 @@
                     {
                         "parent": "GameFilesOptional",
                         "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
                             {
                                 "source": "Data/Audio/Sounds/CommonVoice/*.wav",
                                 "target": "Data/Audio/Sounds/English/*.wav"
@@ -137,8 +153,27 @@
                         "parent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
+                                "source": "Data/Audio/Sounds/French/*.wav",
+                                "target": "Data/Audio/Sounds/French/*.wav"
+                            },
+                            {
                                 "source": "Data/Audio/Sounds/CommonVoice/*.wav",
                                 "target": "Data/Audio/Sounds/French/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioGerman",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/German/*.wav",
+                                "target": "Data/Audio/Sounds/German/*.wav"
                             }
                         ]
                     }
@@ -151,6 +186,10 @@
                     {
                         "parent": "GameFilesOptional",
                         "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Italian/*.wav"
+                            },
                             {
                                 "source": "Data/Audio/Sounds/CommonVoice/*.wav",
                                 "target": "Data/Audio/Sounds/Italian/*.wav"
@@ -175,6 +214,10 @@
                         "parent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Korean/*.wav"
+                            },
+                            {
                                 "source": "Data/Audio/Sounds/CommonVoice/*.wav",
                                 "target": "Data/Audio/Sounds/Korean/*.wav"
                             },
@@ -198,6 +241,10 @@
                         "parent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Polish/*.wav"
+                            },
+                            {
                                 "source": "Data/Audio/Sounds/CommonVoice/*.wav",
                                 "target": "Data/Audio/Sounds/Polish/*.wav"
                             },
@@ -214,12 +261,31 @@
                 ]
             },
             {
+                "name": "AxOptionalAudioRussian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/Russian/*.wav",
+                                "target": "Data/Audio/Sounds/Russian/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "AxOptionalAudioSpanish",
                 "big": true,
                 "files": [
                     {
                         "parent": "GameFilesOptional",
                         "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Spanish/*.wav"
+                            },
                             {
                                 "source": "Data/Audio/Sounds/CommonVoice/*.wav",
                                 "target": "Data/Audio/Sounds/Spanish/*.wav"
