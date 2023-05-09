@@ -1,0 +1,20 @@
+---
+date: 2023-05-09
+
+title: Increases volume of USA Comanche machine gun
+
+changes:
+  - tweak: Increases the volume of the USA Comanche machine gun from 70 to 90. It is no longer much quieter than machine guns of Humvee and Ranger.
+
+labels:
+  - audio
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939
+
+authors:
+  - xezon
