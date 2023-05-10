@@ -1,0 +1,20 @@
+---
+date: 2023-05-09
+
+title: Increases volume of China Helix machine gun
+
+changes:
+  - tweak: Increases the volume of the China Helix machine gun from 80 to 90. It is no longer much quieter than machine guns of Humvee and Ranger.
+
+labels:
+  - audio
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939
+
+authors:
+  - xezon
