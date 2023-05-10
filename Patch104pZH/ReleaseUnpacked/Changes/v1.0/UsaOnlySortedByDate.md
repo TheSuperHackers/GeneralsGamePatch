@@ -9,31 +9,31 @@ Occuring labels are
 - art (49)
 - audio (21)
 - buff (21)
-- bug (107)
-- china (20)
+- bug (108)
+- china (21)
 - civilian (1)
 - controversial (31)
-- design (44)
-- enhancement (25)
-- gla (16)
-- gui (12)
+- design (45)
+- enhancement (26)
+- gla (17)
+- gui (15)
 - major (18)
-- minor (158)
+- minor (162)
 - nerf (10)
-- optional (5)
+- optional (8)
 - performance (8)
 - text (5)
-- usa (178)
-- v1.0 (178)
+- usa (182)
+- v1.0 (182)
 
 Sorts changes by: date (ascending)
 
-Contains 178 entries with
+Contains 182 entries with
 
-- 201 changes
+- 205 changes
   - OPTIMIZATION (1)
-  - FIX (156)
-  - TWEAK (38)
+  - FIX (158)
+  - TWEAK (40)
   - FEATURE (6)
 - 187 subchanges
   - FIX (127)
@@ -195,6 +195,7 @@ Contains 178 entries with
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
 - [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
 - [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
+- [2023-01-19 - Replaces USA Chinook specific evacuation button with generic vehicle evacuation button](#link__20230119__1565_chinook_evacuation_button)
 - [2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000](#link__20230121__1580_patriot_assist_reload_time)
 - [2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit](#link__20230121__1581_tomahawk_missile_angle_jump)
 - [2023-01-28 - Removes bouncing from wreck of USA Comanche](#link__20230128__1658_comanche_wreck_bouncing)
@@ -218,6 +219,9 @@ Contains 178 entries with
 - [2023-04-09 - Fixes audible gaps in audio loop of USA Avenger Target Designator](#link__20230409__1821_avenger_loop_audio)
 - [2023-04-09 - Fixes weapon audio loop interval and frequency irregularities of USA Microwave Tank](#link__20230409__1821_microwave_loop_audio)
 - [2023-04-10 - Fixes USA Alpha Aurora bomb freezing for 1 or 2 frames near ground before hit](#link__20230410__1828_alpha_aurora_bomb_impact)
+- [2023-04-24 - Adds catch fire and explode death effect variant to USA Microwave Tank](#link__20230424__1874_microwave_death_effect)
+- [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
+- [2023-04-30 - Optimizes button placements of USA Dozer](#link__20230430__1889_usa_dozer_buttons)
 
 
 
@@ -1155,6 +1159,7 @@ Contains 178 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917)
 
 **Labels:** audio, minor, usa, v1.0
 
@@ -1171,6 +1176,7 @@ Contains 178 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917)
 
 **Labels:** audio, minor, usa, v1.0
 
@@ -1265,6 +1271,7 @@ Contains 178 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
 
 **Labels:** audio, china, gla, minor, optional, usa, v1.0
 
@@ -3356,6 +3363,22 @@ Contains 178 entries with
 **Source:** 1559_strategy_center_plan_tooltip_text.yaml
 
 ---
+### 2023-01-19 - Replaces USA Chinook specific evacuation button with generic vehicle evacuation button <a name='link__20230119__1565_chinook_evacuation_button'></a>
+**Changes**
+
+- **TWEAK**: Replaces the USA Chinook specific evacuation button with the generic vehicle evacuation button. The Chinook can now be evacuated with other types of vehicles in a group selection.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1565](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1565)
+
+**Labels:** gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1565_chinook_evacuation_button.yaml
+
+---
 ### 2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000 <a name='link__20230121__1580_patriot_assist_reload_time'></a>
 **Changes**
 
@@ -3809,4 +3832,52 @@ Contains 178 entries with
 **Authors:** xezon
 
 **Source:** 1828_alpha_aurora_bomb_impact.yaml
+
+---
+### 2023-04-24 - Adds catch fire and explode death effect variant to USA Microwave Tank <a name='link__20230424__1874_microwave_death_effect'></a>
+**Changes**
+
+- **TWEAK**: The USA Microwave Tank now either explodes straight away on death or first catches fire and then explodes afterwards. This is consistent with several other USA tanks.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1874](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1874)
+
+**Labels:** design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1874_microwave_death_effect.yaml
+
+---
+### 2023-04-30 - Adds missing Stop command button to all worker units <a name='link__20230430__1887_dozer_worker_stop_button'></a>
+**Changes**
+
+- **FIX**: Adds the Stop command button to all worker units (except Boss). This way button can be pressed to stop worker units, including in group selection with other units. The Clear Mines, GLA Fake Structures and USA Airfield buttons had to be moved to make room for the Stop button.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1887](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1887)
+
+**Labels:** bug, china, gla, gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1887_dozer_worker_stop_button.yaml
+
+---
+### 2023-04-30 - Optimizes button placements of USA Dozer <a name='link__20230430__1889_usa_dozer_buttons'></a>
+**Changes**
+
+- **FIX**: Optimizes button placements of USA Dozer. Swaps the positions of Airfield, Strategy Center, Supply Drop Zone, Particle Cannon, Command Center to achieve consistency with button placements of China Dozer and GLA Worker.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1889](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1889)
+
+**Labels:** gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1889_usa_dozer_buttons.yaml
 

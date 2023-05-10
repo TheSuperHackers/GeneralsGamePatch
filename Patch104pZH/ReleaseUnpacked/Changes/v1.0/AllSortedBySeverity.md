@@ -7,38 +7,38 @@ Occuring labels are
 
 - ai (2)
 - art (107)
-- audio (46)
-- boss (20)
-- buff (79)
-- bug (366)
-- china (147)
+- audio (48)
+- boss (27)
+- buff (80)
+- bug (372)
+- china (153)
 - civilian (19)
-- controversial (101)
+- controversial (102)
 - critical (5)
-- design (141)
-- enhancement (47)
-- gla (158)
-- gui (49)
+- design (143)
+- enhancement (51)
+- gla (159)
+- gui (60)
 - major (60)
-- minor (500)
+- minor (519)
 - nerf (25)
-- optional (12)
+- optional (17)
 - performance (13)
 - text (19)
-- usa (178)
-- v1.0 (567)
+- usa (182)
+- v1.0 (586)
 - wip (1)
 - worldbuilder (5)
 
 Sorts changes by: blocker, critical, major, minor, usa, china, gla, boss, civilian, date (ascending)
 
-Contains 567 entries with
+Contains 586 entries with
 
-- 789 changes
-  - FIX (639)
-  - TWEAK (111)
+- 809 changes
+  - FIX (649)
+  - TWEAK (119)
   - OPTIMIZATION (2)
-  - FEATURE (37)
+  - FEATURE (39)
 - 358 subchanges
   - FIX (238)
   - TWEAK (92)
@@ -121,6 +121,7 @@ Contains 567 entries with
 - [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
 - [2023-01-29 - Sets consistent sink delays for faction vehicle wrecks](#link__20230129__1746_wreck_sink_delays)
 - [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
+- [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
 - [2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units](#link__20210828__92_infantry_poison_death_voice)
 - [2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings](#link__20210910__276_gps_scrambled_infantry_attacking)
 - [2021-09-10 - Fixes GPS scrambled USA Rangers and China Redguards remaining stealthed while capturing buildings](#link__20210910__276_gps_scrambled_infantry_capturing)
@@ -254,6 +255,7 @@ Contains 567 entries with
 - [2023-01-09 - Optimizes USA vehicle drone spawn positions](#link__20230109__1539_vehicle_drone_spawn_position)
 - [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
 - [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
+- [2023-01-19 - Replaces USA Chinook specific evacuation button with generic vehicle evacuation button](#link__20230119__1565_chinook_evacuation_button)
 - [2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000](#link__20230121__1580_patriot_assist_reload_time)
 - [2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit](#link__20230121__1581_tomahawk_missile_angle_jump)
 - [2023-01-28 - Removes bouncing from wreck of USA Comanche](#link__20230128__1658_comanche_wreck_bouncing)
@@ -268,6 +270,8 @@ Contains 567 entries with
 - [2023-04-09 - Fixes audible gaps in audio loop of USA Avenger Target Designator](#link__20230409__1821_avenger_loop_audio)
 - [2023-04-09 - Fixes weapon audio loop interval and frequency irregularities of USA Microwave Tank](#link__20230409__1821_microwave_loop_audio)
 - [2023-04-10 - Fixes USA Alpha Aurora bomb freezing for 1 or 2 frames near ground before hit](#link__20230410__1828_alpha_aurora_bomb_impact)
+- [2023-04-24 - Adds catch fire and explode death effect variant to USA Microwave Tank](#link__20230424__1874_microwave_death_effect)
+- [2023-04-30 - Optimizes button placements of USA Dozer](#link__20230430__1889_usa_dozer_buttons)
 - [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
 - [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
 - [2021-08-28 - Fixes miniscule mass of China Supply Truck](#link__20210828__96_supply_truck_mass)
@@ -329,6 +333,7 @@ Contains 567 entries with
 - [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#link__20220920__1226_overlord_textures)
 - [2022-09-21 - Adds missing China Propaganda Tower damage texture](#link__20220921__1239_propaganda_tower_textures)
 - [2022-09-23 - Fixes wrong select audio of China Internet Centers](#link__20220923__1260_internet_center_select_sound)
+- [2022-09-23 - Adds new research voices for China Satellite Upgrades](#link__20220923__1262_satellite_hack_upgrade_sounds)
 - [2022-09-25 - Fixes nvinferno textures for China Inferno Cannon](#link__20220925__1285_nvinferno_textures)
 - [2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank](#link__20220925__1290_nvgatttank_textures)
 - [2022-09-26 - Fixes ntcement textures for China structures](#link__20220926__1298_ntcement_textures)
@@ -375,6 +380,10 @@ Contains 567 entries with
 - [2023-04-09 - Fixes drop location of China Battlemaster Paradrop](#link__20230409__1780_battlemaster_paradrop_location)
 - [2023-04-09 - Fixes choppy physics of China Battlemaster Paradrop](#link__20230409__1825_battlemaster_paradrop_physics)
 - [2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center](#link__20230421__1861_china_radar_button_placement)
+- [2023-04-24 - Adds missing smoke particles to wrecks of China Troop Crawler, Listening Outpost](#link__20230424__1875_outpost_crawler_wreck_smoke)
+- [2023-04-30 - Optimizes button placements of China Dozer](#link__20230430__1888_china_dozer_buttons)
+- [2023-04-30 - Fixes issue where China Overlord attachment upgrade buttons disappear after research](#link__20230430__1891_overlord_attachment_upgrade_buttons)
+- [2023-05-05 - Prevents shells of China Artillery Barrage from killing each other](#link__20230505__1905_artillery_shells_health)
 - [2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state](#link__20210822__2_battle_bus_damage_transition)
 - [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles](#link__20210827__67_scud_storm_particles)
 - [2021-08-27 - Fixes units shooting at already killed infantry units](#link__20210827__75_dead_target_bug)
@@ -516,6 +525,13 @@ Contains 567 entries with
 - [2021-10-03 - Fixes issues of Boss Helix](#link__20211003__457_boss_helix_issues)
 - [2022-10-15 - Fixes missing Control Rods upgrade icon on Boss Power Plant](#link__20221015__1372_boss_reactor_upgrade_cameo)
 - [2023-04-16 - Adds missing Rally Point button to Boss Airfield](#link__20230416__1852_boss_airfield_rally_point)
+- [2023-04-19 - Optimizes button placements of Boss Command Center](#link__20230419__1859_boss_commandcenter_buttons)
+- [2023-04-22 - Fixes button image and text of Boss Dozer](#link__20230422__1863_boss_dozer_button_image_text)
+- [2023-04-22 - Sets unique default house color for Boss General](#link__20230422__1864_boss_color)
+- [2023-04-22 - Optimizes button placements of Boss War Factory](#link__20230422__1865_boss_warfactory_buttons)
+- [2023-04-22 - Optimizes button placements of Boss Nuke Silo](#link__20230422__1866_boss_nukesilo_buttons)
+- [2023-04-22 - Removes obsolete Neutron Shells upgrade button from Boss Nuke Silo](#link__20230422__1866_boss_nukesilo_nukeshells_button)
+- [2023-04-29 - Moves Radar upgrade button of Boss Command Center to where China Radar upgrade button is positioned](#link__20230429__1884_boss_radar_button_placement)
 - [2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad](#link__20210911__308_reinforcement_pad_xp_reward)
 - [2021-09-11 - Removes kill experience reward of Civilian Repair Pad](#link__20210911__308_repair_pad_xp_reward)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
@@ -610,6 +626,9 @@ Contains 567 entries with
 - [2023-02-05 - Removes non-functional Civilian FarmerTruck object](#link__20230205__1634_farmertruck)
 - [2023-02-24 - Adds 3D shadows to bomb objects](#link__20230224__1750_bomb_shadows)
 - [2023-04-10 - Fixes Disintegration Sound Effect on Missiles](#link__20230410__1778_disintegration_sound_effect)
+- [2023-04-22 - Adds Starting Money options for 30000 and 40000](#link__20230422__1862_start_money_options)
+- [2023-05-03 - Sets audio limit for Vehicle Snipe](#link__20230503__1900_vehicle_snipe_sound_limit)
+- [2023-05-05 - Sets correct name for Demo_Command_ConstructGLATankScorpion](#link__20230505__1904_demo_command_scorpion_spelling)
 - [2022-10-05 - Adds slightly pitched sounds for some air weapons](#link__20221005__1335_pitched_air_weapon_sounds)
 - [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
 
@@ -1764,6 +1783,7 @@ Contains 567 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
 
 **Labels:** audio, china, gla, minor, optional, usa, v1.0
 
@@ -1998,6 +2018,22 @@ Contains 567 entries with
 **Authors:** xezon
 
 **Source:** 1802_timed_demo_charge_audio.yaml
+
+---
+### 2023-04-30 - Adds missing Stop command button to all worker units <a name='link__20230430__1887_dozer_worker_stop_button'></a>
+**Changes**
+
+- **FIX**: Adds the Stop command button to all worker units (except Boss). This way button can be pressed to stop worker units, including in group selection with other units. The Clear Mines, GLA Fake Structures and USA Airfield buttons had to be moved to make room for the Stop button.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1887](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1887)
+
+**Labels:** bug, china, gla, gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1887_dozer_worker_stop_button.yaml
 
 ---
 ### 2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units <a name='link__20210828__92_infantry_poison_death_voice'></a>
@@ -2882,6 +2918,7 @@ Contains 567 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917)
 
 **Labels:** audio, minor, usa, v1.0
 
@@ -2898,6 +2935,7 @@ Contains 567 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917)
 
 **Labels:** audio, minor, usa, v1.0
 
@@ -4725,6 +4763,22 @@ Contains 567 entries with
 **Source:** 1559_strategy_center_plan_tooltip_text.yaml
 
 ---
+### 2023-01-19 - Replaces USA Chinook specific evacuation button with generic vehicle evacuation button <a name='link__20230119__1565_chinook_evacuation_button'></a>
+**Changes**
+
+- **TWEAK**: Replaces the USA Chinook specific evacuation button with the generic vehicle evacuation button. The Chinook can now be evacuated with other types of vehicles in a group selection.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1565](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1565)
+
+**Labels:** gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1565_chinook_evacuation_button.yaml
+
+---
 ### 2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000 <a name='link__20230121__1580_patriot_assist_reload_time'></a>
 **Changes**
 
@@ -4950,6 +5004,38 @@ Contains 567 entries with
 **Authors:** xezon
 
 **Source:** 1828_alpha_aurora_bomb_impact.yaml
+
+---
+### 2023-04-24 - Adds catch fire and explode death effect variant to USA Microwave Tank <a name='link__20230424__1874_microwave_death_effect'></a>
+**Changes**
+
+- **TWEAK**: The USA Microwave Tank now either explodes straight away on death or first catches fire and then explodes afterwards. This is consistent with several other USA tanks.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1874](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1874)
+
+**Labels:** design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1874_microwave_death_effect.yaml
+
+---
+### 2023-04-30 - Optimizes button placements of USA Dozer <a name='link__20230430__1889_usa_dozer_buttons'></a>
+**Changes**
+
+- **FIX**: Optimizes button placements of USA Dozer. Swaps the positions of Airfield, Strategy Center, Supply Drop Zone, Particle Cannon, Command Center to achieve consistency with button placements of China Dozer and GLA Worker.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1889](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1889)
+
+**Labels:** gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1889_usa_dozer_buttons.yaml
 
 ---
 ### 2023-02-09 - Fixes turret animation and effect issues on death of tanks <a name='link__20230209__1657_tank_turret_deatheffects'></a>
@@ -5714,6 +5800,7 @@ Contains 567 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917)
 
 **Labels:** audio, china, minor, v1.0
 
@@ -5949,6 +6036,22 @@ Contains 567 entries with
 **Authors:** xezon
 
 **Source:** 1260_internet_center_select_sound.yaml
+
+---
+### 2022-09-23 - Adds new research voices for China Satellite Upgrades <a name='link__20220923__1262_satellite_hack_upgrade_sounds'></a>
+**Changes**
+
+- **FEATURE**: Researching the China Satellite One and Two now plays a dedicated voice.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1262](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1262)
+
+**Labels:** audio, china, enhancement, minor, v1.0
+
+**Authors:** Stubbjax, xezon
+
+**Source:** 1262_satellite_hack_upgrade_sounds.yaml
 
 ---
 ### 2022-09-25 - Fixes nvinferno textures for China Inferno Cannon <a name='link__20220925__1285_nvinferno_textures'></a>
@@ -6811,12 +6914,77 @@ Contains 567 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1884](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1884)
 
-**Labels:** china, gui, minor, v1.0
+**Labels:** china, gui, minor, optional, v1.0
 
 **Authors:** xezon
 
 **Source:** 1861_china_radar_button_placement.yaml
+
+---
+### 2023-04-24 - Adds missing smoke particles to wrecks of China Troop Crawler, Listening Outpost <a name='link__20230424__1875_outpost_crawler_wreck_smoke'></a>
+**Changes**
+
+- **TWEAK**: The wrecks of the China Troop Crawler and Listening Outpost now emit faint smoke particles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1875](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1875)
+
+**Labels:** china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1875_outpost_crawler_wreck_smoke.yaml
+
+---
+### 2023-04-30 - Optimizes button placements of China Dozer <a name='link__20230430__1888_china_dozer_buttons'></a>
+**Changes**
+
+- **FIX**: Optimizes button placements of China Dozer. Swaps the positions of Airfield, Propaganda Center and Internet Center to achieve consistency with button placements of USA Dozer and GLA Worker.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1888](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1888)
+
+**Labels:** china, gui, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1888_china_dozer_buttons.yaml
+
+---
+### 2023-04-30 - Fixes issue where China Overlord attachment upgrade buttons disappear after research <a name='link__20230430__1891_overlord_attachment_upgrade_buttons'></a>
+**Changes**
+
+- **FIX**: China Overlord upgrade buttons will no longer disappear after researching the Gattling Cannon or Propaganda Tower upgrades. They will still disappear when researching Bunker upgrade however, because that claims the upgrade button positions with passenger buttons. The upgrade buttons can now be used on multi Overlord selection to build an upgrade any time, as long as one of the selected Overlords does not own the Bunker upgrade.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1891](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1891)
+
+**Labels:** bug, china, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1891_overlord_attachment_upgrade_buttons.yaml
+
+---
+### 2023-05-05 - Prevents shells of China Artillery Barrage from killing each other <a name='link__20230505__1905_artillery_shells_health'></a>
+**Changes**
+
+- **FIX**: The shells of the China Artillery Barrage can no longer kill each other at random. Therefore random damage discrepancies on target structures are reduced.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1905](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1905)
+
+**Labels:** buff, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1905_artillery_shells_health.yaml
 
 ---
 ### 2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state <a name='link__20210822__2_battle_bus_damage_transition'></a>
@@ -8075,6 +8243,7 @@ Contains 567 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917)
 
 **Labels:** audio, gla, minor, v1.0
 
@@ -9212,6 +9381,125 @@ Contains 567 entries with
 **Source:** 1852_boss_airfield_rally_point.yaml
 
 ---
+### 2023-04-19 - Optimizes button placements of Boss Command Center <a name='link__20230419__1859_boss_commandcenter_buttons'></a>
+**Changes**
+
+- **TWEAK**: Optimizes button placements of Boss Command Center
+  - Boss and China now share same button position for Carpet Bomber
+  - Boss and China now share same button position for Cluster Mines
+  - Boss and China now share same button position for Artillery Barrage
+  - Boss and China now share same button position for EMP Pulse
+  - Spectre and Sneak Attack buttons are moved
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1859](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1859)
+
+**Labels:** boss, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1859_boss_commandcenter_buttons.yaml
+
+---
+### 2023-04-22 - Fixes button image and text of Boss Dozer <a name='link__20230422__1863_boss_dozer_button_image_text'></a>
+**Changes**
+
+- **FIX**: The production button of the Boss Dozer now shows the correct USA Dozer image instead of the China Dozer image.
+- **FIX**: The production tooltip of the Boss Dozer now shows an appropriate description for the Boss General.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1863](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1863)
+
+**Labels:** boss, bug, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1863_boss_dozer_button_image_text.yaml
+
+---
+### 2023-04-22 - Sets unique default house color for Boss General <a name='link__20230422__1864_boss_color'></a>
+**Changes**
+
+- **TWEAK**: Changes default house color of Boss General from green to gold.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1864](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1864)
+
+**Labels:** boss, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1864_boss_color.yaml
+
+---
+### 2023-04-22 - Optimizes button placements of Boss War Factory <a name='link__20230422__1865_boss_warfactory_buttons'></a>
+**Changes**
+
+- **TWEAK**: Optimizes button placements of Boss War Factory. The production buttons are now located at more familiar positions. All China related buttons take native China positions. And GLA and USA related buttons are close to where they are with the respective native faction.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1865](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1865)
+
+**Labels:** boss, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1865_boss_warfactory_buttons.yaml
+
+---
+### 2023-04-22 - Optimizes button placements of Boss Nuke Silo <a name='link__20230422__1866_boss_nukesilo_buttons'></a>
+**Changes**
+
+- **TWEAK**: Optimizes button placements of Boss Nuke Silo. The Nuke upgrade buttons now take the same position as they do on the native China Nuke Silo. And the Propaganda buttons now have the same order as they do on the native China Propaganda Center.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1866](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1866)
+
+**Labels:** boss, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1866_boss_nukesilo_buttons.yaml
+
+---
+### 2023-04-22 - Removes obsolete Neutron Shells upgrade button from Boss Nuke Silo <a name='link__20230422__1866_boss_nukesilo_nukeshells_button'></a>
+**Changes**
+
+- **FIX**: Removes the obsolete Neutron Shells upgrade button from the Boss Nuke Silo, because Boss General cannot build Nuke Cannons.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1866](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1866)
+
+**Labels:** boss, bug, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1866_boss_nukesilo_nukeshells_button.yaml
+
+---
+### 2023-04-29 - Moves Radar upgrade button of Boss Command Center to where China Radar upgrade button is positioned <a name='link__20230429__1884_boss_radar_button_placement'></a>
+**Changes**
+
+- **TWEAK**: Moves the Radar upgrade button of Boss Command Center to where China Radar upgrade button is positioned. It is now consistent with the placement on the China Command Center.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1884](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1884)
+
+**Labels:** boss, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1884_boss_radar_button_placement.yaml
+
+---
 ### 2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad <a name='link__20210911__308_reinforcement_pad_xp_reward'></a>
 **Changes**
 
@@ -9605,15 +9893,16 @@ Contains 567 entries with
 ### 2021-09-03 - Fixes issue that prevents evacuating different vehicles in a group selection <a name='link__20210903__165_vehicle_evacuation_button_placement'></a>
 **Changes**
 
-- **FIX**: The evacuate buttons of the USA Humvee, Ambulance, China Troopcrawler, Outpost, GLA Technical and Battle Bus are now at the same position. This allows the player to evacuate all vehicles at once when a group of different vehicles is selected.
+- **FIX**: The evacuate buttons of the USA Humvee, Ambulance, China Troopcrawler, Outpost, Bunker Overlord, GLA Technical and Battle Bus are now at the same position. This allows the player to evacuate all vehicles at once when a group of different vehicles is selected.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/165](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/165)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1894](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1894)
 
-**Labels:** bug, design, gui, minor, v1.0
+**Labels:** bug, controversial, design, gui, minor, v1.0
 
-**Authors:** commy2
+**Authors:** commy2, xezon
 
 **Source:** 165_vehicle_evacuation_button_placement.yaml
 
@@ -11072,6 +11361,54 @@ Contains 567 entries with
 **Authors:** RedMeow2
 
 **Source:** 1778_disintegration_sound_effect.yaml
+
+---
+### 2023-04-22 - Adds Starting Money options for 30000 and 40000 <a name='link__20230422__1862_start_money_options'></a>
+**Changes**
+
+- **FEATURE**: Adds Starting Money options for 30000 and 40000, because the original gap between 20000 and 50000 is quite wide.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1862](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1862)
+
+**Labels:** enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1862_start_money_options.yaml
+
+---
+### 2023-05-03 - Sets audio limit for Vehicle Snipe <a name='link__20230503__1900_vehicle_snipe_sound_limit'></a>
+**Changes**
+
+- **FIX**: Sets an audio limit of 2 for Vehicle Snipe. This way it can no longer spam many sounds on Neutron Shell hits.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1900](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1900)
+
+**Labels:** audio, bug, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1900_vehicle_snipe_sound_limit.yaml
+
+---
+### 2023-05-05 - Sets correct name for Demo_Command_ConstructGLATankScorpion <a name='link__20230505__1904_demo_command_scorpion_spelling'></a>
+**Changes**
+
+- **FIX**: Sets correct name for Demo_Command_ConstructGLATankScorpion. Originally it is misspelled as Demo_Command_ConsturctGLATankScorpion.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1904](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1904)
+
+**Labels:** minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1904_demo_command_scorpion_spelling.yaml
 
 ---
 ### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='link__20221005__1335_pitched_air_weapon_sounds'></a>
