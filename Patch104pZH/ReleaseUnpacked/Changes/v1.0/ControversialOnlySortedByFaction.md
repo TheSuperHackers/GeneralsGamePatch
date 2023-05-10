@@ -7,26 +7,27 @@ Occuring labels are
 
 - audio (2)
 - buff (61)
-- bug (32)
+- bug (33)
 - china (38)
 - civilian (3)
-- controversial (101)
-- design (78)
+- controversial (102)
+- design (79)
 - enhancement (1)
 - gla (32)
+- gui (1)
 - major (37)
-- minor (63)
+- minor (64)
 - nerf (19)
 - usa (31)
-- v1.0 (101)
+- v1.0 (102)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 101 entries with
+Contains 102 entries with
 
-- 122 changes
+- 123 changes
   - TWEAK (78)
-  - FIX (36)
+  - FIX (37)
   - FEATURE (7)
   - OPTIMIZATION (1)
 - 20 subchanges
@@ -131,6 +132,7 @@ Contains 101 entries with
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
 - [2023-02-04 - Fixes crushable levels of Civilian cars](#link__20230204__1625_civ_car_crushable_level)
 - [2023-02-04 - Fixes crusher levels of Civilian cars](#link__20230204__1625_civ_car_crusher_level)
+- [2021-09-03 - Fixes issue that prevents evacuating different vehicles in a group selection](#link__20210903__165_vehicle_evacuation_button_placement)
 - [2021-09-11 - Fixes incorrect air attack sound of China Minigunner](#link__20210911__315_minigunner_air_attack_sound)
 - [2022-10-16 - Increases Player Beacon limit from 3 to 5](#link__20221016__1377_beacon_limit)
 - [2022-10-16 - Decreases LAN Match Countdown from 5 to 3 seconds](#link__20221016__1378_lan_countdown)
@@ -1763,6 +1765,23 @@ Contains 101 entries with
 **Authors:** xezon
 
 **Source:** 1625_civ_car_crusher_level.yaml
+
+---
+### 2021-09-03 - Fixes issue that prevents evacuating different vehicles in a group selection <a name='link__20210903__165_vehicle_evacuation_button_placement'></a>
+**Changes**
+
+- **FIX**: The evacuate buttons of the USA Humvee, Ambulance, China Troopcrawler, Outpost, Bunker Overlord, GLA Technical and Battle Bus are now at the same position. This allows the player to evacuate all vehicles at once when a group of different vehicles is selected.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/165](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/165)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1894](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1894)
+
+**Labels:** bug, controversial, design, gui, minor, v1.0
+
+**Authors:** commy2, xezon
+
+**Source:** 165_vehicle_evacuation_button_placement.yaml
 
 ---
 ### 2021-09-11 - Fixes incorrect air attack sound of China Minigunner <a name='link__20210911__315_minigunner_air_attack_sound'></a>

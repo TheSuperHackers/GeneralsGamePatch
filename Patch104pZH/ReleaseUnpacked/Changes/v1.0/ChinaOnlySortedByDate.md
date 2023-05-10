@@ -6,35 +6,35 @@ Includes changes with labels: china
 Occuring labels are
 
 - art (19)
-- audio (12)
-- buff (38)
-- bug (88)
-- china (147)
+- audio (13)
+- buff (39)
+- bug (91)
+- china (153)
 - civilian (1)
 - controversial (38)
 - critical (1)
-- design (52)
-- enhancement (7)
-- gla (15)
-- gui (11)
+- design (53)
+- enhancement (9)
+- gla (16)
+- gui (14)
 - major (20)
-- minor (125)
+- minor (131)
 - nerf (3)
-- optional (4)
+- optional (7)
 - performance (5)
 - text (2)
-- usa (20)
-- v1.0 (147)
+- usa (21)
+- v1.0 (153)
 - wip (1)
 
 Sorts changes by: date (ascending)
 
-Contains 147 entries with
+Contains 153 entries with
 
-- 190 changes
-  - FIX (140)
-  - TWEAK (46)
-  - FEATURE (4)
+- 196 changes
+  - FIX (144)
+  - TWEAK (47)
+  - FEATURE (5)
 - 115 subchanges
   - FIX (56)
   - FEATURE (1)
@@ -124,6 +124,7 @@ Contains 147 entries with
 - [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#link__20220920__1226_overlord_textures)
 - [2022-09-21 - Adds missing China Propaganda Tower damage texture](#link__20220921__1239_propaganda_tower_textures)
 - [2022-09-23 - Fixes wrong select audio of China Internet Centers](#link__20220923__1260_internet_center_select_sound)
+- [2022-09-23 - Adds new research voices for China Satellite Upgrades](#link__20220923__1262_satellite_hack_upgrade_sounds)
 - [2022-09-24 - Adds missing audio limits to air unit voices](#link__20220924__1274_air_unit_death_voice_limit)
 - [2022-09-25 - Fixes nvinferno textures for China Inferno Cannon](#link__20220925__1285_nvinferno_textures)
 - [2022-09-25 - Fixes and improves nvgatttank textures for China Gattling Tank](#link__20220925__1290_nvgatttank_textures)
@@ -188,6 +189,11 @@ Contains 147 entries with
 - [2023-04-09 - Fixes drop location of China Battlemaster Paradrop](#link__20230409__1780_battlemaster_paradrop_location)
 - [2023-04-09 - Fixes choppy physics of China Battlemaster Paradrop](#link__20230409__1825_battlemaster_paradrop_physics)
 - [2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center](#link__20230421__1861_china_radar_button_placement)
+- [2023-04-24 - Adds missing smoke particles to wrecks of China Troop Crawler, Listening Outpost](#link__20230424__1875_outpost_crawler_wreck_smoke)
+- [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
+- [2023-04-30 - Optimizes button placements of China Dozer](#link__20230430__1888_china_dozer_buttons)
+- [2023-04-30 - Fixes issue where China Overlord attachment upgrade buttons disappear after research](#link__20230430__1891_overlord_attachment_upgrade_buttons)
+- [2023-05-05 - Prevents shells of China Artillery Barrage from killing each other](#link__20230505__1905_artillery_shells_health)
 
 
 
@@ -1245,6 +1251,7 @@ Contains 147 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917)
 
 **Labels:** audio, china, minor, v1.0
 
@@ -1355,6 +1362,7 @@ Contains 147 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
 
 **Labels:** audio, china, gla, minor, optional, usa, v1.0
 
@@ -1560,6 +1568,22 @@ Contains 147 entries with
 **Authors:** xezon
 
 **Source:** 1260_internet_center_select_sound.yaml
+
+---
+### 2022-09-23 - Adds new research voices for China Satellite Upgrades <a name='link__20220923__1262_satellite_hack_upgrade_sounds'></a>
+**Changes**
+
+- **FEATURE**: Researching the China Satellite One and Two now plays a dedicated voice.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1262](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1262)
+
+**Labels:** audio, china, enhancement, minor, v1.0
+
+**Authors:** Stubbjax, xezon
+
+**Source:** 1262_satellite_hack_upgrade_sounds.yaml
 
 ---
 ### 2022-09-24 - Adds missing audio limits to air unit voices <a name='link__20220924__1274_air_unit_death_voice_limit'></a>
@@ -2843,10 +2867,91 @@ Contains 147 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1884](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1884)
 
-**Labels:** china, gui, minor, v1.0
+**Labels:** china, gui, minor, optional, v1.0
 
 **Authors:** xezon
 
 **Source:** 1861_china_radar_button_placement.yaml
+
+---
+### 2023-04-24 - Adds missing smoke particles to wrecks of China Troop Crawler, Listening Outpost <a name='link__20230424__1875_outpost_crawler_wreck_smoke'></a>
+**Changes**
+
+- **TWEAK**: The wrecks of the China Troop Crawler and Listening Outpost now emit faint smoke particles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1875](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1875)
+
+**Labels:** china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1875_outpost_crawler_wreck_smoke.yaml
+
+---
+### 2023-04-30 - Adds missing Stop command button to all worker units <a name='link__20230430__1887_dozer_worker_stop_button'></a>
+**Changes**
+
+- **FIX**: Adds the Stop command button to all worker units (except Boss). This way button can be pressed to stop worker units, including in group selection with other units. The Clear Mines, GLA Fake Structures and USA Airfield buttons had to be moved to make room for the Stop button.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1887](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1887)
+
+**Labels:** bug, china, gla, gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1887_dozer_worker_stop_button.yaml
+
+---
+### 2023-04-30 - Optimizes button placements of China Dozer <a name='link__20230430__1888_china_dozer_buttons'></a>
+**Changes**
+
+- **FIX**: Optimizes button placements of China Dozer. Swaps the positions of Airfield, Propaganda Center and Internet Center to achieve consistency with button placements of USA Dozer and GLA Worker.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1888](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1888)
+
+**Labels:** china, gui, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1888_china_dozer_buttons.yaml
+
+---
+### 2023-04-30 - Fixes issue where China Overlord attachment upgrade buttons disappear after research <a name='link__20230430__1891_overlord_attachment_upgrade_buttons'></a>
+**Changes**
+
+- **FIX**: China Overlord upgrade buttons will no longer disappear after researching the Gattling Cannon or Propaganda Tower upgrades. They will still disappear when researching Bunker upgrade however, because that claims the upgrade button positions with passenger buttons. The upgrade buttons can now be used on multi Overlord selection to build an upgrade any time, as long as one of the selected Overlords does not own the Bunker upgrade.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1891](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1891)
+
+**Labels:** bug, china, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1891_overlord_attachment_upgrade_buttons.yaml
+
+---
+### 2023-05-05 - Prevents shells of China Artillery Barrage from killing each other <a name='link__20230505__1905_artillery_shells_health'></a>
+**Changes**
+
+- **FIX**: The shells of the China Artillery Barrage can no longer kill each other at random. Therefore random damage discrepancies on target structures are reduced.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1905](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1905)
+
+**Labels:** buff, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1905_artillery_shells_health.yaml
 

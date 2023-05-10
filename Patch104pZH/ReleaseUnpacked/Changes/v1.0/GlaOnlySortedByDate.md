@@ -8,30 +8,30 @@ Occuring labels are
 - art (20)
 - audio (12)
 - buff (23)
-- bug (113)
-- china (15)
+- bug (114)
+- china (16)
 - civilian (1)
 - controversial (32)
 - critical (2)
 - design (35)
 - enhancement (4)
-- gla (158)
-- gui (8)
+- gla (159)
+- gui (9)
 - major (18)
-- minor (137)
+- minor (138)
 - nerf (12)
-- optional (3)
+- optional (4)
 - performance (1)
 - text (2)
-- usa (16)
-- v1.0 (158)
+- usa (17)
+- v1.0 (159)
 
 Sorts changes by: date (ascending)
 
-Contains 158 entries with
+Contains 159 entries with
 
-- 193 changes
-  - FIX (152)
+- 194 changes
+  - FIX (153)
   - FEATURE (9)
   - OPTIMIZATION (1)
   - TWEAK (31)
@@ -199,6 +199,7 @@ Contains 158 entries with
 - [2023-04-06 - Reduces audio range and volume of Remote Demo Charge](#link__20230406__1801_remote_demo_charge_audio)
 - [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
 - [2023-04-07 - Fixes inaccurate tooltip text of GLA Booby Trap upgrade](#link__20230407__1804_booby_trap_upgrade_text)
+- [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
 
 
 
@@ -1736,6 +1737,7 @@ Contains 158 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917)
 
 **Labels:** audio, gla, minor, v1.0
 
@@ -1835,6 +1837,7 @@ Contains 158 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1810)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
 
 **Labels:** audio, china, gla, minor, optional, usa, v1.0
 
@@ -2996,4 +2999,20 @@ Contains 158 entries with
 **Authors:** xezon
 
 **Source:** 1804_booby_trap_upgrade_text.yaml
+
+---
+### 2023-04-30 - Adds missing Stop command button to all worker units <a name='link__20230430__1887_dozer_worker_stop_button'></a>
+**Changes**
+
+- **FIX**: Adds the Stop command button to all worker units (except Boss). This way button can be pressed to stop worker units, including in group selection with other units. The Clear Mines, GLA Fake Structures and USA Airfield buttons had to be moved to make room for the Stop button.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1887](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1887)
+
+**Labels:** bug, china, gla, gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1887_dozer_worker_stop_button.yaml
 
