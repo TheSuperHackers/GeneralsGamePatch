@@ -1,0 +1,22 @@
+---
+date: 2023-05-05
+
+title: Adds new voice variation(s) to China Nuke Battlemaster
+
+changes:
+  - feature: Adds new voice "Nuklear Battlemaster tank reporting" to NukeBattleMasterTankVoiceSelect.
+  - feature: Adds new voice "Nuklear Battlemaster here" to NukeBattleMasterTankVoiceCreate.
+
+labels:
+  - audio
+  - china
+  - design
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1909
+
+authors:
+  - xezon
