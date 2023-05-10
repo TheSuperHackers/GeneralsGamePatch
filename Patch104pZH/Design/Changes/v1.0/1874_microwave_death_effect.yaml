@@ -1,0 +1,20 @@
+---
+date: 2023-04-24
+
+title: Adds catch fire and explode death effect variant to USA Microwave Tank
+
+changes:
+  - tweak: The USA Microwave Tank now either explodes straight away on death or first catches fire and then explodes afterwards. This is consistent with several other USA tanks.
+
+labels:
+  - design
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1874
+
+authors:
+  - xezon
