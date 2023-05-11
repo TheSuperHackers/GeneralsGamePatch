@@ -1,0 +1,27 @@
+---
+date: 2023-04-17
+
+title: Increases movement speed of China Tank Overlord by up to 25%
+
+changes:
+  - tweak: |
+      Increases China Tank Overlord
+        - speed from 20 to 25
+        - acceleration from 15 to 20
+        - turn rate from 60 to 70
+        - upgraded speed from 30 to 35
+        - upgraded turn rate from 60 to 70
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1813
+
+authors:
+  - xezon
