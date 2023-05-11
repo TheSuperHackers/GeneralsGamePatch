@@ -1,0 +1,26 @@
+---
+date: 2023-05-11
+
+title: Fixes wrong rotation of China horde decal textures
+
+changes:
+  - fix: Fixes exhorde textures. The red star now points forward with the unit.
+
+subchanges:
+  - fix: |
+      exhorde, exhorde_up, exhordeb, exhordeb_up, exhordec_up
+        - Rotates stars to align with the direction of the units
+        - Removes minor artifacts from alpha channel
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1945
+
+authors:
+  - xezon

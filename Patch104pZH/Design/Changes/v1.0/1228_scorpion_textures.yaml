@@ -1,7 +1,7 @@
 ---
 date: 2022-09-20
 
-title: Fixed uvlitetank textures for GLA Scorpion Tank
+title: Fixes uvlitetank textures for GLA Scorpion Tank
 
 changes:
   - fix: Fixes the mismatching look of the GLA Scorpion Tank across different damage states. It now has the same look in undamaged, damaged and rubble.

@@ -28,6 +28,14 @@
                             {
                                 "source": "Art/Textures/GenerateMip/*.tga",
                                 "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/exhorde.psd",
+                                "target": "Art/Textures/exhordeb.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/exhorde_up.psd",
+                                "target": "Art/Textures/exhordeb_up.dds"
                             }
                         ],
                         "params": {
