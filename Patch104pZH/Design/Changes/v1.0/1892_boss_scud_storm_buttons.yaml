@@ -1,0 +1,19 @@
+---
+date: 2023-04-30
+
+title: Optimizes button placements of Boss Scud Storm
+
+changes:
+  - tweak: Swaps the Buggy Ammo and AP Rockets upgrade buttons in Boss Scud Storm to take same order as they do in the GLA Black Market.
+
+labels:
+  - boss
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1892
+
+authors:
+  - xezon
