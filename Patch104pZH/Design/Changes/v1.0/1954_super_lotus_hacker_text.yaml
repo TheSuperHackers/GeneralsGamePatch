@@ -1,0 +1,20 @@
+---
+date: 2023-05-15
+
+title: Adds missing object text variant for Super Lotus and Super Hacker
+
+changes:
+  - fix: Super Lotus and Super Hacker from the China Infantry General now display their proper names on mouse over.
+
+labels:
+  - bug
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1954
+
+authors:
+  - xezon
