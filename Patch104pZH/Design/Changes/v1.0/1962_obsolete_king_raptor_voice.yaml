@@ -1,0 +1,19 @@
+---
+date: 2023-05-18
+
+title: Removes obsolete voice line "Raptor here" from USA King Raptor
+
+changes:
+  - tweak: Removes the obsolete voice line "Raptor here" from USA King Raptor. There already is another voice line which says "King Raptor here".
+
+labels:
+  - audio
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1962
+
+authors:
+  - xezon
