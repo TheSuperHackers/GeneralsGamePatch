@@ -1,0 +1,20 @@
+---
+date: 2023-05-16
+
+title: Adds missing text variants for Nuclear Battlemaster and Nuclear Overlord
+
+changes:
+  - fix: The Nuclear Battlemaster and Nuclear Overlord from the China Nuke General now display their proper names on mouse over and on the construction tooltip.
+
+labels:
+  - bug
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1956
+
+authors:
+  - xezon
