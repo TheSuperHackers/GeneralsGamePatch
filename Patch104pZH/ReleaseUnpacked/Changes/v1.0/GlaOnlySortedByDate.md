@@ -6,35 +6,35 @@ Includes changes with labels: gla
 Occuring labels are
 
 - art (20)
-- audio (12)
+- audio (23)
 - buff (23)
-- bug (114)
+- bug (118)
 - china (16)
 - civilian (1)
 - controversial (32)
 - critical (2)
-- design (35)
-- enhancement (4)
-- gla (159)
+- design (42)
+- enhancement (11)
+- gla (170)
 - gui (9)
 - major (18)
-- minor (138)
+- minor (149)
 - nerf (12)
 - optional (4)
 - performance (1)
 - text (2)
 - usa (17)
-- v1.0 (159)
+- v1.0 (170)
 
 Sorts changes by: date (ascending)
 
-Contains 159 entries with
+Contains 170 entries with
 
-- 194 changes
-  - FIX (153)
+- 213 changes
+  - FIX (158)
   - FEATURE (9)
   - OPTIMIZATION (1)
-  - TWEAK (31)
+  - TWEAK (45)
 - 116 subchanges
   - FIX (57)
   - FEATURE (1)
@@ -158,7 +158,7 @@ Contains 159 entries with
 - [2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike](#link__20220908__1164_combat_bike_pilot_promotion)
 - [2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates](#link__20220909__1170_saboteur_scrap_rank_up)
 - [2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade](#link__20220909__1176_technical_muzzle_flash)
-- [2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank](#link__20220920__1228_scorpion_textures)
+- [2022-09-20 - Fixes uvlitetank textures for GLA Scorpion Tank](#link__20220920__1228_scorpion_textures)
 - [2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm](#link__20220920__1229_utplates_upscaled_textures)
 - [2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus](#link__20220920__1231_battle_bus_textures)
 - [2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm](#link__20220920__1232_utscudparts02_utsilotop01_textures)
@@ -200,6 +200,17 @@ Contains 159 entries with
 - [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
 - [2023-04-07 - Fixes inaccurate tooltip text of GLA Booby Trap upgrade](#link__20230407__1804_booby_trap_upgrade_text)
 - [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
+- [2023-05-05 - Fixes misspelled voice file(s) of GLA Hijacker](#link__20230505__1913_misspelled_hijacker_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of GLA Quad Cannon](#link__20230505__1913_misspelled_quad_cannon_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of GLA Scorpion Tank](#link__20230505__1913_misspelled_scorpion_tank_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of GLA Worker](#link__20230505__1913_misspelled_worker_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Battle Bus](#link__20230505__1918_unused_battle_bus_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Quad Cannon](#link__20230505__1918_unused_quad_cannon_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA RPG Trooper](#link__20230505__1918_unused_rpg_trooper_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Scud Launcher](#link__20230505__1918_unused_scud_launcher_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Terrorist](#link__20230505__1918_unused_terrorist_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Toxin Tractor](#link__20230505__1918_unused_toxin_tractor_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Worker](#link__20230505__1918_unused_worker_voices)
 
 
 
@@ -2140,7 +2151,7 @@ Contains 159 entries with
 **Source:** 1176_technical_muzzle_flash.yaml
 
 ---
-### 2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank <a name='link__20220920__1228_scorpion_textures'></a>
+### 2022-09-20 - Fixes uvlitetank textures for GLA Scorpion Tank <a name='link__20220920__1228_scorpion_textures'></a>
 **Changes**
 
 - **FIX**: Fixes the mismatching look of the GLA Scorpion Tank across different damage states. It now has the same look in undamaged, damaged and rubble.
@@ -3015,4 +3026,188 @@ Contains 159 entries with
 **Authors:** xezon
 
 **Source:** 1887_dozer_worker_stop_button.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of GLA Hijacker <a name='link__20230505__1913_misspelled_hijacker_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice ihijatc "It will be mine" in HijackerVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_hijacker_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of GLA Quad Cannon <a name='link__20230505__1913_misspelled_quad_cannon_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vquacra "The worms should like the dirt" in QuadCannonVoiceCrush.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_quad_cannon_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of GLA Scorpion Tank <a name='link__20230505__1913_misspelled_scorpion_tank_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vscoa2b "Sending the missile" in ScorpionTankVoiceAttackRocket.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_scorpion_tank_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of GLA Worker <a name='link__20230505__1913_misspelled_worker_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice iworgaa "I will go in that building" in WorkerVoiceGarrison.
+- **FIX**: Fixes misspelled voice iworrea "I should repair that" in WorkerVoiceRepair.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_worker_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Battle Bus <a name='link__20230505__1918_unused_battle_bus_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "We will not be stopped" to BattleBusVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_battle_bus_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Quad Cannon <a name='link__20230505__1918_unused_quad_cannon_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "I put them all to rest" to QuadCannonVoiceSelect.
+- **TWEAK**: Adds unused voice "Put them out of their misery" to QuadCannonVoiceAttack.
+- **TWEAK**: Adds unused voice "Mow them down" to QuadCannonVoiceAttack.
+- **TWEAK**: Adds unused voice "Turn them into mud" to QuadCannonVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_quad_cannon_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA RPG Trooper <a name='link__20230505__1918_unused_rpg_trooper_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Defending the tunnel network" to RPGTrooperVoiceSelect.
+- **TWEAK**: Adds unused voice "Defending the tunnel network" to ToxinRPGTrooperVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_rpg_trooper_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Scud Launcher <a name='link__20230505__1918_unused_scud_launcher_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Anthrax missile ready" to ScudLauncherVoiceModeAnthrax.
+- **TWEAK**: Adds unused voice "High explosive missile ready" to ScudLauncherVoiceModeHiEx.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_scud_launcher_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Terrorist <a name='link__20230505__1918_unused_terrorist_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Our following is strong" to TerroristVoiceSelect.
+- **TWEAK**: Adds unused voice "I move to a sacred place" to TerroristVoiceMove.
+- **TWEAK**: Adds unused voice "I move to a sacred place" to TerroristVoiceEnter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_terrorist_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Toxin Tractor <a name='link__20230505__1918_unused_toxin_tractor_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Ahhh hehehe" to ToxinTractorVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_toxin_tractor_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Worker <a name='link__20230505__1918_unused_worker_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Here. Take me. I don't care" to WorkerVoiceSurrender.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_worker_voices.yaml
 

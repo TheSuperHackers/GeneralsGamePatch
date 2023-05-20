@@ -6,27 +6,27 @@ Includes changes with labels: controversial
 Occuring labels are
 
 - audio (2)
-- buff (61)
+- buff (62)
 - bug (33)
-- china (38)
+- china (39)
 - civilian (3)
-- controversial (102)
-- design (79)
+- controversial (103)
+- design (80)
 - enhancement (1)
 - gla (32)
 - gui (1)
-- major (37)
+- major (38)
 - minor (64)
 - nerf (19)
 - usa (31)
-- v1.0 (102)
+- v1.0 (103)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 102 entries with
+Contains 103 entries with
 
-- 123 changes
-  - TWEAK (78)
+- 124 changes
+  - TWEAK (79)
   - FIX (37)
   - FEATURE (7)
   - OPTIMIZATION (1)
@@ -101,6 +101,7 @@ Contains 102 entries with
 - [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
 - [2023-04-08 - Increases movement speed of China Overlord by up to 25%](#link__20230408__1813_overlord_speed)
 - [2023-04-08 - Increases movement speed of China Battlemaster by up to 20%](#link__20230408__1815_battlemaster_speed)
+- [2023-04-17 - Increases movement speed of China Emperor by up to 25%](#link__20230417__1854_emperor_speed)
 - [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
 - [2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds](#link__20210903__164_demo_technical_suicide_delay)
 - [2021-09-11 - Fixes GLA Car Bomb unable to attack target](#link__20210911__307_car_bomb_attack_bug)
@@ -1237,6 +1238,28 @@ Contains 102 entries with
 **Authors:** xezon
 
 **Source:** 1815_battlemaster_speed.yaml
+
+---
+### 2023-04-17 - Increases movement speed of China Emperor by up to 25% <a name='link__20230417__1854_emperor_speed'></a>
+**Changes**
+
+- **TWEAK**: Increases China Emperor
+  - speed from 20 to 25
+  - acceleration from 15 to 20
+  - turn rate from 60 to 70
+  - upgraded speed from 30 to 35
+  - upgraded turn rate from 60 to 70
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1854](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1854)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1854_emperor_speed.yaml
 
 ---
 ### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
