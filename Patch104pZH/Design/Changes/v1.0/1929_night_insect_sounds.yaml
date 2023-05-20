@@ -1,0 +1,19 @@
+---
+date: 2023-05-05
+
+title: Sets unique set of insect sounds for Amb_DesertVillageNightInsect2
+
+changes:
+  - fix: Sets unique set of insect sounds for Amb_DesertVillageNightInsect2. Originally it uses the same sounds as Amb_DesertVillageNightInsect does.
+
+labels:
+  - audio
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1929
+
+authors:
+  - xezon
