@@ -6,38 +6,38 @@ Includes changes with labels: usa
 Occuring labels are
 
 - ai (2)
-- art (49)
-- audio (21)
+- art (53)
+- audio (36)
 - buff (21)
-- bug (108)
+- bug (111)
 - china (21)
 - civilian (1)
 - controversial (31)
-- design (45)
-- enhancement (26)
+- design (53)
+- enhancement (37)
 - gla (17)
-- gui (15)
+- gui (16)
 - major (18)
-- minor (162)
+- minor (181)
 - nerf (10)
-- optional (8)
-- performance (8)
+- optional (9)
+- performance (9)
 - text (5)
-- usa (182)
-- v1.0 (182)
+- usa (201)
+- v1.0 (201)
 
 Sorts changes by: date (ascending)
 
-Contains 182 entries with
+Contains 201 entries with
 
-- 205 changes
+- 232 changes
   - OPTIMIZATION (1)
-  - FIX (158)
-  - TWEAK (40)
-  - FEATURE (6)
-- 187 subchanges
+  - FIX (166)
+  - TWEAK (58)
+  - FEATURE (7)
+- 199 subchanges
   - FIX (127)
-  - TWEAK (60)
+  - TWEAK (72)
 
 ## Index
 - [2021-08-22 - Fixes lags caused by the USA Patriot assist beam](#link__20210822__0_patriot_beam_lag)
@@ -192,6 +192,8 @@ Contains 182 entries with
 - [2023-01-07 - Fixes USA Strategy Center Gun attack issues](#link__20230107__1524_strategy_center_gun_attack)
 - [2023-01-09 - Optimizes USA vehicle drone spawn positions](#link__20230109__1539_vehicle_drone_spawn_position)
 - [2023-01-13 - Fixes the evacuation command button art of various vehicles](#link__20230113__1545_vehicle_evacuation_button_image)
+- [2023-01-14 - Improves guided missile laser beam and muzzle flare visuals of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_beam_effects)
+- [2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_exhaust)
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
 - [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
 - [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
@@ -219,9 +221,26 @@ Contains 182 entries with
 - [2023-04-09 - Fixes audible gaps in audio loop of USA Avenger Target Designator](#link__20230409__1821_avenger_loop_audio)
 - [2023-04-09 - Fixes weapon audio loop interval and frequency irregularities of USA Microwave Tank](#link__20230409__1821_microwave_loop_audio)
 - [2023-04-10 - Fixes USA Alpha Aurora bomb freezing for 1 or 2 frames near ground before hit](#link__20230410__1828_alpha_aurora_bomb_impact)
+- [2023-04-23 - Fixes and improves explosion effects of USA Alpha Aurora bomb](#link__20230423__1871_alpha_aurora_bomb_effects)
 - [2023-04-24 - Adds catch fire and explode death effect variant to USA Microwave Tank](#link__20230424__1874_microwave_death_effect)
+- [2023-04-30 - Optimizes Clean Toxins button placement of USA Ambulance, HazMat Infantry](#link__20230430__1885_clean_toxins_button_placement)
 - [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
 - [2023-04-30 - Optimizes button placements of USA Dozer](#link__20230430__1889_usa_dozer_buttons)
+- [2023-05-05 - Fixes misspelled voice file(s) of USA Humvee](#link__20230505__1913_misspelled_humvee_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of USA Ranger](#link__20230505__1913_misspelled_ranger_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of USA POW Truck](#link__20230505__1913_misspelled_usa_pow_truck_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Aircraft Carrier](#link__20230505__1918_unused_aircraft_carrier_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Chinook](#link__20230505__1918_unused_chinook_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Comanche](#link__20230505__1918_unused_comanche_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Humvee](#link__20230505__1918_unused_humvee_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Ranger](#link__20230505__1918_unused_ranger_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Dozer](#link__20230505__1918_unused_usa_dozer_voices)
+- [2023-05-05 - Enables death voices of USA Chinook](#link__20230505__1919_chinook_death_voice)
+- [2023-05-05 - Achieves homogeneous firing sound for machine gun of USA Comanche](#link__20230505__1930_comanche_gun_firing_sequence)
+- [2023-05-05 - Adds unique machine gun firing sounds to USA Battle Drone](#link__20230505__1931_battle_drone_gun_audio)
+- [2023-05-09 - Increases volume of USA Comanche machine gun](#link__20230509__1939_comanche_gun_volume)
+- [2023-05-18 - Removes obsolete voice line "Raptor here" from USA King Raptor](#link__20230518__1962_obsolete_king_raptor_voice)
+- [2023-05-19 - Achieves homogeneous firing sound for machine gun of USA Ranger](#link__20230519__1966_ranger_gun_firing_sequence)
 
 
 
@@ -3315,6 +3334,39 @@ Contains 182 entries with
 **Source:** 1545_vehicle_evacuation_button_image.yaml
 
 ---
+### 2023-01-14 - Improves guided missile laser beam and muzzle flare visuals of USA Missile Defender <a name='link__20230114__1552_missile_defender_guided_missile_beam_effects'></a>
+**Changes**
+
+- **TWEAK**: The guided missile laser beam of the USA Missile Defender has a warmer red color now.
+- **TWEAK**: The guided missile muzzle and target flares of the USA Missile Defender have red colors with a hot white dot at its center now, matching the visuals of the red laser beam. Originally the flares are green.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552)
+
+**Labels:** art, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1552_missile_defender_guided_missile_beam_effects.yaml
+
+---
+### 2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender <a name='link__20230114__1552_missile_defender_guided_missile_exhaust'></a>
+**Changes**
+
+- **FIX**: The guided missiles of the USA Missile Defender now also emit exhaust and lens flare particles. This is consistent with other missile particles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552)
+
+**Labels:** art, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1552_missile_defender_guided_missile_exhaust.yaml
+
+---
 ### 2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0% <a name='link__20230115__1554_hold_line_plan_armor_bonus'></a>
 **Changes**
 
@@ -3741,12 +3793,16 @@ Contains 182 entries with
 - **FIX**: Adds smooth fade out to the USA Daisy Cutter explosion audio effect.
 - **FIX**: Syncs the ignition particles of the USA Daisy Cutter with the ignition sound.
 - **FIX**: Syncs the explosion effects of the USA Daisy Cutter with the explosion sound.
+- **TWEAK**: Removes non-linear gap sizes in shock wave smoke circles of USA Daisy Cutter bomb explosion.
+- **TWEAK**: Randomizes position and size of second ignition sparks of USA Daisy Cutter bomb.
+- **TWEAK**: Slightly reduces number and size of second ignition sparks of USA Daisy Cutter bomb.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870)
 
-**Labels:** audio, enhancement, minor, usa, v1.0
+**Labels:** art, audio, enhancement, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -3834,6 +3890,37 @@ Contains 182 entries with
 **Source:** 1828_alpha_aurora_bomb_impact.yaml
 
 ---
+### 2023-04-23 - Fixes and improves explosion effects of USA Alpha Aurora bomb <a name='link__20230423__1871_alpha_aurora_bomb_effects'></a>
+**Changes**
+
+- **TWEAK**: Fixes and improves the USA Alpha Aurora bomb explosion effects.
+
+**Subchanges**
+
+- **TWEAK**: The initial Aurora bomb hit now shows the hit particle effects and sound. Is consistent with regular Aurora bomb hit effects.
+- **TWEAK**: The initial Aurora bomb hit no longer draws a scorch, because it is covered by the particles at the time of the impact and would be overdrawn soon after by the bigger scorch for the gas explosion. Total explosion scorch count is 1 (optimal).
+- **TWEAK**: The ignite sound effect is preserved, but is made a bit quieter than the one of the Daisy Cutter ignition, because the sparks are smaller and there is now the other explosion sound triggered at the same time.
+- **TWEAK**: The first ignition sparks are now visible earlier and spread further apart.
+- **TWEAK**: The second ignition sparks are now less in numbers and spread further apart.
+- **TWEAK**: The second ignition sparks now properly fade out.
+- **TWEAK**: The second ignition sparks now have random size.
+- **TWEAK**: The lingering green gas clouds are removed.
+- **TWEAK**: The final gas explosion is now just one explosion instance instead of 2 to 4.
+- **TWEAK**: The final gas explosion is now synced better with the actual damage and sound event.
+- **TWEAK**: The final gas explosion now has much less random size variation, so it never looks too small.
+- **TWEAK**: The original Alpha bomb shock wave effect is now a smaller copy of the Daisy Cutter shock wave.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1871](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1871)
+
+**Labels:** art, enhancement, minor, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1871_alpha_aurora_bomb_effects.yaml
+
+---
 ### 2023-04-24 - Adds catch fire and explode death effect variant to USA Microwave Tank <a name='link__20230424__1874_microwave_death_effect'></a>
 **Changes**
 
@@ -3848,6 +3935,23 @@ Contains 182 entries with
 **Authors:** xezon
 
 **Source:** 1874_microwave_death_effect.yaml
+
+---
+### 2023-04-30 - Optimizes Clean Toxins button placement of USA Ambulance, HazMat Infantry <a name='link__20230430__1885_clean_toxins_button_placement'></a>
+**Changes**
+
+- **TWEAK**: The Clean Toxins button of the USA Ambulance is now optionally placed on slot 12.
+- **TWEAK**: The Clean Toxins button of the HazMat Infantry is now optionally placed on slot 12.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1885](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1885)
+
+**Labels:** gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1885_clean_toxins_button_placement.yaml
 
 ---
 ### 2023-04-30 - Adds missing Stop command button to all worker units <a name='link__20230430__1887_dozer_worker_stop_button'></a>
@@ -3880,4 +3984,247 @@ Contains 182 entries with
 **Authors:** xezon
 
 **Source:** 1889_usa_dozer_buttons.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of USA Humvee <a name='link__20230505__1913_misspelled_humvee_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vhumunc "It's been real" in HumveeVoiceUnload.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_humvee_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of USA Ranger <a name='link__20230505__1913_misspelled_ranger_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice irancld "Little house party" in RangerVoiceClearBuilding.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_ranger_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of USA POW Truck <a name='link__20230505__1913_misspelled_usa_pow_truck_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vpoupib "Yeah there should be enough room for him" in POWTruckUSAVoicePickup.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_usa_pow_truck_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Aircraft Carrier <a name='link__20230505__1918_unused_aircraft_carrier_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Inputting new coordinates" to AircraftCarrierVoiceMove.
+- **TWEAK**: Adds unused voice "Charting path" to AircraftCarrierVoiceMove.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_aircraft_carrier_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Chinook <a name='link__20230505__1918_unused_chinook_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Ahhhhhhhhhhhhhhh" to ChinookVoiceFalling.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_chinook_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Comanche <a name='link__20230505__1918_unused_comanche_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Need little ground support?" to ComancheVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_comanche_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Humvee <a name='link__20230505__1918_unused_humvee_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Alright let's have some fun" to HumveeVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_humvee_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Ranger <a name='link__20230505__1918_unused_ranger_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Will lead the way" to RangerVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_ranger_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Dozer <a name='link__20230505__1918_unused_usa_dozer_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Like the neighbourhood" to DozerUSAVoiceMove.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_usa_dozer_voices.yaml
+
+---
+### 2023-05-05 - Enables death voices of USA Chinook <a name='link__20230505__1919_chinook_death_voice'></a>
+**Changes**
+
+- **TWEAK**: Enables death voices of the USA Chinook. This behavior is consistent with USA Comanche, Raptor, Aurora, Stealth Fighter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1919](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1919)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1919_chinook_death_voice.yaml
+
+---
+### 2023-05-05 - Achieves homogeneous firing sound for machine gun of USA Comanche <a name='link__20230505__1930_comanche_gun_firing_sequence'></a>
+**Changes**
+
+- **FIX**: Achieves homogeneous firing sound for machine gun of USA Comanche by removing the audio file with the single shot.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930)
+
+**Labels:** audio, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1930_comanche_gun_firing_sequence.yaml
+
+---
+### 2023-05-05 - Adds unique machine gun firing sounds to USA Battle Drone <a name='link__20230505__1931_battle_drone_gun_audio'></a>
+**Changes**
+
+- **FEATURE**: Adds unique machine gun firing sounds to the USA Battle Drone. Originally it uses the machine gun sounds of the Comanche helicopter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1931](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1931)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1931_battle_drone_gun_audio.yaml
+
+---
+### 2023-05-09 - Increases volume of USA Comanche machine gun <a name='link__20230509__1939_comanche_gun_volume'></a>
+**Changes**
+
+- **TWEAK**: Increases the volume of the USA Comanche machine gun from 70 to 90. It is no longer much quieter than machine guns of Humvee and Ranger.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939)
+
+**Labels:** audio, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1939_comanche_gun_volume.yaml
+
+---
+### 2023-05-18 - Removes obsolete voice line "Raptor here" from USA King Raptor <a name='link__20230518__1962_obsolete_king_raptor_voice'></a>
+**Changes**
+
+- **TWEAK**: Removes the obsolete voice line "Raptor here" from USA King Raptor. There already is another voice line which says "King Raptor here".
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1962](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1962)
+
+**Labels:** audio, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1962_obsolete_king_raptor_voice.yaml
+
+---
+### 2023-05-19 - Achieves homogeneous firing sound for machine gun of USA Ranger <a name='link__20230519__1966_ranger_gun_firing_sequence'></a>
+**Changes**
+
+- **FIX**: Achieves homogeneous firing sound for machine gun of USA Ranger by replacing all quadruble shots with triple shots.
+- **FIX**: Reduces firing sound durations of machine gun of USA Ranger to a maximum of 900 ms to fit well within the actual firing duration.
+- **FIX**: Removes unnecessary pre-shot delays from firing sounds of machine gun of USA Ranger.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930)
+
+**Labels:** audio, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1966_ranger_gun_firing_sequence.yaml
 

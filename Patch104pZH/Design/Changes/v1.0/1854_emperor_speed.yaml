@@ -1,11 +1,11 @@
 ---
 date: 2023-04-17
 
-title: Increases movement speed of China Tank Overlord by up to 25%
+title: Increases movement speed of China Emperor by up to 25%
 
 changes:
   - tweak: |
-      Increases China Tank Overlord
+      Increases China Emperor
         - speed from 20 to 25
         - acceleration from 15 to 20
         - turn rate from 60 to 70
@@ -21,7 +21,7 @@ labels:
   - v1.0
 
 links:
-  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1813
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1854
 
 authors:
   - xezon

@@ -1,7 +1,7 @@
 ---
 date: 2023-05-09
 
-title: Fixes misspelled speech in dialog events
+title: Fixes misspelled audio files in dialog events
 
 changes:
   - fix: Fixes misspelled filename in EvaGLA_CashStolen.

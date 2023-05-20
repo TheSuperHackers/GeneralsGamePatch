@@ -5,33 +5,34 @@ Includes changes with labels: art
 
 Occuring labels are
 
-- art (107)
-- audio (1)
-- bug (72)
-- china (19)
+- art (113)
+- audio (2)
+- bug (73)
+- china (21)
 - civilian (4)
 - design (1)
-- enhancement (25)
+- enhancement (30)
 - gla (20)
 - gui (1)
-- minor (107)
+- minor (113)
 - optional (11)
-- usa (49)
-- v1.0 (107)
+- performance (1)
+- usa (53)
+- v1.0 (113)
 - wip (1)
 - worldbuilder (1)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 107 entries with
+Contains 113 entries with
 
-- 127 changes
-  - FIX (106)
+- 140 changes
+  - FIX (112)
   - FEATURE (20)
-  - TWEAK (1)
-- 186 subchanges
-  - FIX (156)
-  - TWEAK (2)
+  - TWEAK (8)
+- 208 subchanges
+  - FIX (157)
+  - TWEAK (23)
   - FEATURE (28)
 
 ## Index
@@ -84,6 +85,10 @@ Contains 107 entries with
 - [2022-11-10 - Fixes silver roof textures for USA structures](#link__20221110__1461_atsilverroof_textures)
 - [2022-11-19 - Fixes conveyor belt textures of USA War Factory](#link__20221119__1474_atconvey02_textures)
 - [2022-11-30 - Fixes USA Supply Center model issues](#link__20221130__1491_usa_supply_model)
+- [2023-01-14 - Improves guided missile laser beam and muzzle flare visuals of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_beam_effects)
+- [2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_exhaust)
+- [2023-04-06 - Improves particle and sound effect sequence of USA Daisy Cutter explosion](#link__20230406__1800_daisy_cutter_explosion_effects)
+- [2023-04-23 - Fixes and improves explosion effects of USA Alpha Aurora bomb](#link__20230423__1871_alpha_aurora_bomb_effects)
 - [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#link__20210901__133_speaker_tower_models)
 - [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
 - [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#link__20220903__1090_china_cc_night_model)
@@ -103,6 +108,8 @@ Contains 107 entries with
 - [2022-10-08 - Removes green cubes from the damaged China Emperor Tank](#link__20221008__1346_emperor_model)
 - [2022-10-08 - Fixes China Helix model issues](#link__20221008__1351_helix_model)
 - [2022-10-16 - Removes floating basket from China War Factory](#link__20221016__1380_winter_night_china_factory_basket)
+- [2023-04-23 - Fixes and improves explosion effects of China Neutron Shells](#link__20230423__1872_neutron_shell_effects)
+- [2023-05-11 - Fixes wrong rotation of China horde decal textures](#link__20230511__1945_horde_decal_rotation)
 - [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#link__20210827__76_red_bullet_tracers)
 - [2021-08-28 - Fixes wrong ability image of GLA Saboteur](#link__20210828__91_saboteur_ability_image)
 - [2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade](#link__20210910__271_gla_fake_cc_look_mismatch)
@@ -111,7 +118,7 @@ Contains 107 entries with
 - [2021-09-16 - Fixes wrong model of damaged GLA Quad Cannon with level one scrap](#link__20210916__370_quad_damage_model)
 - [2021-10-31 - Adds climb animation for GLA Saboteur](#link__20211031__606_saboteur_climb_animation)
 - [2022-08-20 - Removes cubes from gun barrels of scrapped Quad Cannon](#link__20220820__937_quad_cannon_bones)
-- [2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank](#link__20220920__1228_scorpion_textures)
+- [2022-09-20 - Fixes uvlitetank textures for GLA Scorpion Tank](#link__20220920__1228_scorpion_textures)
 - [2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm](#link__20220920__1229_utplates_upscaled_textures)
 - [2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus](#link__20220920__1231_battle_bus_textures)
 - [2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm](#link__20220920__1232_utscudparts02_utsilotop01_textures)
@@ -1506,6 +1513,93 @@ Contains 107 entries with
 **Source:** 1491_usa_supply_model.yaml
 
 ---
+### 2023-01-14 - Improves guided missile laser beam and muzzle flare visuals of USA Missile Defender <a name='link__20230114__1552_missile_defender_guided_missile_beam_effects'></a>
+**Changes**
+
+- **TWEAK**: The guided missile laser beam of the USA Missile Defender has a warmer red color now.
+- **TWEAK**: The guided missile muzzle and target flares of the USA Missile Defender have red colors with a hot white dot at its center now, matching the visuals of the red laser beam. Originally the flares are green.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552)
+
+**Labels:** art, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1552_missile_defender_guided_missile_beam_effects.yaml
+
+---
+### 2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender <a name='link__20230114__1552_missile_defender_guided_missile_exhaust'></a>
+**Changes**
+
+- **FIX**: The guided missiles of the USA Missile Defender now also emit exhaust and lens flare particles. This is consistent with other missile particles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552)
+
+**Labels:** art, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1552_missile_defender_guided_missile_exhaust.yaml
+
+---
+### 2023-04-06 - Improves particle and sound effect sequence of USA Daisy Cutter explosion <a name='link__20230406__1800_daisy_cutter_explosion_effects'></a>
+**Changes**
+
+- **FIX**: Removes the 250 ms delay baked into the USA Daisy Cutter explosion audio effect.
+- **FIX**: Adds smooth fade out to the USA Daisy Cutter explosion audio effect.
+- **FIX**: Syncs the ignition particles of the USA Daisy Cutter with the ignition sound.
+- **FIX**: Syncs the explosion effects of the USA Daisy Cutter with the explosion sound.
+- **TWEAK**: Removes non-linear gap sizes in shock wave smoke circles of USA Daisy Cutter bomb explosion.
+- **TWEAK**: Randomizes position and size of second ignition sparks of USA Daisy Cutter bomb.
+- **TWEAK**: Slightly reduces number and size of second ignition sparks of USA Daisy Cutter bomb.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870)
+
+**Labels:** art, audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1800_daisy_cutter_explosion_effects.yaml
+
+---
+### 2023-04-23 - Fixes and improves explosion effects of USA Alpha Aurora bomb <a name='link__20230423__1871_alpha_aurora_bomb_effects'></a>
+**Changes**
+
+- **TWEAK**: Fixes and improves the USA Alpha Aurora bomb explosion effects.
+
+**Subchanges**
+
+- **TWEAK**: The initial Aurora bomb hit now shows the hit particle effects and sound. Is consistent with regular Aurora bomb hit effects.
+- **TWEAK**: The initial Aurora bomb hit no longer draws a scorch, because it is covered by the particles at the time of the impact and would be overdrawn soon after by the bigger scorch for the gas explosion. Total explosion scorch count is 1 (optimal).
+- **TWEAK**: The ignite sound effect is preserved, but is made a bit quieter than the one of the Daisy Cutter ignition, because the sparks are smaller and there is now the other explosion sound triggered at the same time.
+- **TWEAK**: The first ignition sparks are now visible earlier and spread further apart.
+- **TWEAK**: The second ignition sparks are now less in numbers and spread further apart.
+- **TWEAK**: The second ignition sparks now properly fade out.
+- **TWEAK**: The second ignition sparks now have random size.
+- **TWEAK**: The lingering green gas clouds are removed.
+- **TWEAK**: The final gas explosion is now just one explosion instance instead of 2 to 4.
+- **TWEAK**: The final gas explosion is now synced better with the actual damage and sound event.
+- **TWEAK**: The final gas explosion now has much less random size variation, so it never looks too small.
+- **TWEAK**: The original Alpha bomb shock wave effect is now a smaller copy of the Daisy Cutter shock wave.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1871](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1871)
+
+**Labels:** art, enhancement, minor, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1871_alpha_aurora_bomb_effects.yaml
+
+---
 ### 2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps <a name='link__20210901__133_speaker_tower_models'></a>
 **Changes**
 
@@ -1918,6 +2012,57 @@ Contains 107 entries with
 **Source:** 1380_winter_night_china_factory_basket.yaml
 
 ---
+### 2023-04-23 - Fixes and improves explosion effects of China Neutron Shells <a name='link__20230423__1872_neutron_shell_effects'></a>
+**Changes**
+
+- **TWEAK**: Fixes and improves the China Neutron Shell explosion effects. It no longer shows the explosion effect of the Alpha Aurora and instead just shows the Neutron specific effects and the scattered flares in matching colors and sizes.
+
+**Subchanges**
+
+- **TWEAK**: Removes Alpha Aurora fuel bomb explosion and smoke from Neutron Shell explosion effect.
+- **TWEAK**: Leaves scattered flares with matching colors and sizes on Neutron Shell explosion effect.
+- **TWEAK**: Moves all Neutron Shell particle effects closer to the ground where the shell actually hits.
+- **TWEAK**: Removes one of the Neutron Shell dust rings because there are 2 of them moving at different speeds.
+- **TWEAK**: Halves the duration of the remaining Neutron Shell dust ring effect.
+- **TWEAK**: Increases speed and reduces lifetime of the Neutron Shell rings.
+- **TWEAK**: Gives the outer Neutron Shell ring a fixed size to better indicate the weapon effect radius.
+- **TWEAK**: Increases the size growth of the centered Neutron Shell flare ball to look a bit more impressive.
+- **TWEAK**: Removes the unnecessary terrain scorch of the Neutron Shell.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1872](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1872)
+
+**Labels:** art, china, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1872_neutron_shell_effects.yaml
+
+---
+### 2023-05-11 - Fixes wrong rotation of China horde decal textures <a name='link__20230511__1945_horde_decal_rotation'></a>
+**Changes**
+
+- **FIX**: Fixes exhorde textures. The red star now points forward with the unit.
+
+**Subchanges**
+
+- **FIX**: exhorde, exhorde_up, exhordeb, exhordeb_up, exhordec_up
+  - Rotates stars to align with the direction of the units
+  - Removes minor artifacts from alpha channel
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1945](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1945)
+
+**Labels:** art, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1945_horde_decal_rotation.yaml
+
+---
 ### 2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder <a name='link__20210827__76_red_bullet_tracers'></a>
 **Changes**
 
@@ -2048,7 +2193,7 @@ Contains 107 entries with
 **Source:** 937_quad_cannon_bones.yaml
 
 ---
-### 2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank <a name='link__20220920__1228_scorpion_textures'></a>
+### 2022-09-20 - Fixes uvlitetank textures for GLA Scorpion Tank <a name='link__20220920__1228_scorpion_textures'></a>
 **Changes**
 
 - **FIX**: Fixes the mismatching look of the GLA Scorpion Tank across different damage states. It now has the same look in undamaged, damaged and rubble.

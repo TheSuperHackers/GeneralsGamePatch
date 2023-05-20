@@ -6,43 +6,43 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (107)
-- audio (48)
-- boss (27)
-- buff (80)
-- bug (372)
-- china (153)
+- art (113)
+- audio (94)
+- boss (30)
+- buff (83)
+- bug (392)
+- china (169)
 - civilian (19)
-- controversial (102)
+- controversial (103)
 - critical (5)
-- design (143)
-- enhancement (51)
-- gla (159)
-- gui (60)
-- major (60)
-- minor (519)
+- design (166)
+- enhancement (78)
+- gla (170)
+- gui (63)
+- major (61)
+- minor (576)
 - nerf (25)
-- optional (17)
-- performance (13)
-- text (19)
-- usa (182)
-- v1.0 (586)
+- optional (18)
+- performance (14)
+- text (21)
+- usa (201)
+- v1.0 (644)
 - wip (1)
 - worldbuilder (5)
 
 Sorts changes by: date (ascending)
 
-Contains 586 entries with
+Contains 644 entries with
 
-- 809 changes
-  - FIX (649)
+- 934 changes
+  - FIX (721)
   - OPTIMIZATION (2)
-  - TWEAK (119)
-  - FEATURE (39)
-- 358 subchanges
-  - FIX (238)
+  - TWEAK (171)
+  - FEATURE (40)
+- 380 subchanges
+  - FIX (239)
   - FEATURE (28)
-  - TWEAK (92)
+  - TWEAK (113)
 
 ## Index
 - [2021-08-22 - Fixes critical issue that crashes all clients in a match](#link__20210822__0_crash_bug)
@@ -393,7 +393,7 @@ Contains 586 entries with
 - [2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead](#link__20220918__1220_pilot_humvee_passenger)
 - [2022-09-19 - Fixes particle effect fadeout issues](#link__20220919__1223_lens_flare_fadeout)
 - [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#link__20220920__1226_overlord_textures)
-- [2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank](#link__20220920__1228_scorpion_textures)
+- [2022-09-20 - Fixes uvlitetank textures for GLA Scorpion Tank](#link__20220920__1228_scorpion_textures)
 - [2022-09-20 - Adds upscaled utplates textures for GLA Scud Storm](#link__20220920__1229_utplates_upscaled_textures)
 - [2022-09-20 - Fixes uvbattbus textures for GLA Battle Bus](#link__20220920__1231_battle_bus_textures)
 - [2022-09-20 - Fixes and improves utscudparts02, utsilotop01 textures for GLA Scud Storm](#link__20220920__1232_utscudparts02_utsilotop01_textures)
@@ -538,6 +538,8 @@ Contains 586 entries with
 - [2023-01-13 - Fixes the evacuation command button art of various vehicles](#link__20230113__1545_vehicle_evacuation_button_image)
 - [2023-01-14 - Fixes wrong border colors of GLA Bomb Truck upgrade command buttons](#link__20230114__1548_bomb_truck_button_border)
 - [2023-01-14 - Adds missing border colors to USA Battle Plan command buttons](#link__20230114__1549_strategy_center_button_border)
+- [2023-01-14 - Improves guided missile laser beam and muzzle flare visuals of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_beam_effects)
+- [2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_exhaust)
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
 - [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
 - [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
@@ -613,6 +615,7 @@ Contains 586 entries with
 - [2023-04-10 - Fixes Disintegration Sound Effect on Missiles](#link__20230410__1778_disintegration_sound_effect)
 - [2023-04-10 - Fixes USA Alpha Aurora bomb freezing for 1 or 2 frames near ground before hit](#link__20230410__1828_alpha_aurora_bomb_impact)
 - [2023-04-16 - Adds missing Rally Point button to Boss Airfield](#link__20230416__1852_boss_airfield_rally_point)
+- [2023-04-17 - Increases movement speed of China Emperor by up to 25%](#link__20230417__1854_emperor_speed)
 - [2023-04-19 - Optimizes button placements of Boss Command Center](#link__20230419__1859_boss_commandcenter_buttons)
 - [2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center](#link__20230421__1861_china_radar_button_placement)
 - [2023-04-22 - Adds Starting Money options for 30000 and 40000](#link__20230422__1862_start_money_options)
@@ -621,16 +624,71 @@ Contains 586 entries with
 - [2023-04-22 - Optimizes button placements of Boss War Factory](#link__20230422__1865_boss_warfactory_buttons)
 - [2023-04-22 - Optimizes button placements of Boss Nuke Silo](#link__20230422__1866_boss_nukesilo_buttons)
 - [2023-04-22 - Removes obsolete Neutron Shells upgrade button from Boss Nuke Silo](#link__20230422__1866_boss_nukesilo_nukeshells_button)
+- [2023-04-23 - Fixes and improves explosion effects of USA Alpha Aurora bomb](#link__20230423__1871_alpha_aurora_bomb_effects)
+- [2023-04-23 - Fixes and improves explosion effects of China Neutron Shells](#link__20230423__1872_neutron_shell_effects)
 - [2023-04-24 - Adds catch fire and explode death effect variant to USA Microwave Tank](#link__20230424__1874_microwave_death_effect)
 - [2023-04-24 - Adds missing smoke particles to wrecks of China Troop Crawler, Listening Outpost](#link__20230424__1875_outpost_crawler_wreck_smoke)
 - [2023-04-29 - Moves Radar upgrade button of Boss Command Center to where China Radar upgrade button is positioned](#link__20230429__1884_boss_radar_button_placement)
+- [2023-04-30 - Optimizes Clean Toxins button placement of USA Ambulance, HazMat Infantry](#link__20230430__1885_clean_toxins_button_placement)
 - [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
 - [2023-04-30 - Optimizes button placements of China Dozer](#link__20230430__1888_china_dozer_buttons)
 - [2023-04-30 - Optimizes button placements of USA Dozer](#link__20230430__1889_usa_dozer_buttons)
 - [2023-04-30 - Fixes issue where China Overlord attachment upgrade buttons disappear after research](#link__20230430__1891_overlord_attachment_upgrade_buttons)
+- [2023-04-30 - Adds missing upgrade buttons to Boss General](#link__20230430__1892_boss_missing_upgrade_buttons)
+- [2023-04-30 - Optimizes button placements of Boss Scud Storm](#link__20230430__1892_boss_scud_storm_buttons)
+- [2023-04-30 - Adds missing Countermeasures upgrade armor bonus to Boss King Raptor](#link__20230430__1893_boss_raptor_countermeasures)
 - [2023-05-03 - Sets audio limit for Vehicle Snipe](#link__20230503__1900_vehicle_snipe_sound_limit)
 - [2023-05-05 - Sets correct name for Demo_Command_ConstructGLATankScorpion](#link__20230505__1904_demo_command_scorpion_spelling)
 - [2023-05-05 - Prevents shells of China Artillery Barrage from killing each other](#link__20230505__1905_artillery_shells_health)
+- [2023-05-05 - Removes audio events that reference no valid sounds](#link__20230505__1912_invalid_audio_events)
+- [2023-05-05 - Fixes misspelled sounds in audio events](#link__20230505__1913_misspelled_audio_event_sounds)
+- [2023-05-05 - Fixes misspelled voice file(s) of China Dozer](#link__20230505__1913_misspelled_china_dozer_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of GLA Hijacker](#link__20230505__1913_misspelled_hijacker_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of USA Humvee](#link__20230505__1913_misspelled_humvee_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of China Nuke Cannon](#link__20230505__1913_misspelled_nuke_cannon_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of GLA Quad Cannon](#link__20230505__1913_misspelled_quad_cannon_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of USA Ranger](#link__20230505__1913_misspelled_ranger_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of China Red Guard](#link__20230505__1913_misspelled_red_guard_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of GLA Scorpion Tank](#link__20230505__1913_misspelled_scorpion_tank_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of USA POW Truck](#link__20230505__1913_misspelled_usa_pow_truck_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of GLA Worker](#link__20230505__1913_misspelled_worker_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Aircraft Carrier](#link__20230505__1918_unused_aircraft_carrier_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Battle Bus](#link__20230505__1918_unused_battle_bus_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China POW Truck](#link__20230505__1918_unused_china_pow_truck_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Chinook](#link__20230505__1918_unused_chinook_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Comanche](#link__20230505__1918_unused_comanche_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Gattling Tank](#link__20230505__1918_unused_gattling_tank_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Hacker](#link__20230505__1918_unused_hacker_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Helix](#link__20230505__1918_unused_helix_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Humvee](#link__20230505__1918_unused_humvee_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Nuke Cannon](#link__20230505__1918_unused_nuke_cannon_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Quad Cannon](#link__20230505__1918_unused_quad_cannon_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Ranger](#link__20230505__1918_unused_ranger_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA RPG Trooper](#link__20230505__1918_unused_rpg_trooper_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Scud Launcher](#link__20230505__1918_unused_scud_launcher_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Terrorist](#link__20230505__1918_unused_terrorist_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Toxin Tractor](#link__20230505__1918_unused_toxin_tractor_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Dozer](#link__20230505__1918_unused_usa_dozer_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Worker](#link__20230505__1918_unused_worker_voices)
+- [2023-05-05 - Enables death voices of USA Chinook](#link__20230505__1919_chinook_death_voice)
+- [2023-05-05 - Adds unused sound variations in audio events](#link__20230505__1920_unused_sounds)
+- [2023-05-05 - Removes duplicate sounds in audio events](#link__20230505__1926_duplicate_audio_event_sounds)
+- [2023-05-05 - Sets correct attack and decay sounds in audio events](#link__20230505__1927_incorrect_audio_event_sounds)
+- [2023-05-05 - Sets less intense unique set of fire sounds for GenericFireMediumLoop](#link__20230505__1928_medium_fire_sounds)
+- [2023-05-05 - Sets unique set of insect sounds for Amb_DesertVillageNightInsect2](#link__20230505__1929_night_insect_sounds)
+- [2023-05-05 - Achieves homogeneous firing sound for machine gun of USA Comanche](#link__20230505__1930_comanche_gun_firing_sequence)
+- [2023-05-05 - Achieves homogeneous firing sound for machine gun of China Helix](#link__20230505__1930_helix_gun_firing_sequence)
+- [2023-05-05 - Adds unique machine gun firing sounds to USA Battle Drone](#link__20230505__1931_battle_drone_gun_audio)
+- [2023-05-05 - Removes invalid sound from SupplyTruckVoiceSupply](#link__20230505__1933_supply_truck_invalid_sound)
+- [2023-05-09 - Increases volume of USA Comanche machine gun](#link__20230509__1939_comanche_gun_volume)
+- [2023-05-09 - Increases volume of China Helix machine gun](#link__20230509__1939_helix_gun_volume)
+- [2023-05-09 - Fixes misspelled audio files in dialog events](#link__20230509__1940_misspelled_dialog_event_sounds)
+- [2023-05-09 - Removes dialog events that reference no valid sounds](#link__20230509__1941_invalid_dialog_events)
+- [2023-05-11 - Fixes wrong rotation of China horde decal textures](#link__20230511__1945_horde_decal_rotation)
+- [2023-05-15 - Adds missing object text variant for Super Lotus and Super Hacker](#link__20230515__1954_super_lotus_hacker_text)
+- [2023-05-16 - Adds missing text variants for Nuclear Battlemaster and Nuclear Overlord](#link__20230516__1956_nuclear_battlemaster_overlord_text)
+- [2023-05-18 - Removes obsolete voice line "Raptor here" from USA King Raptor](#link__20230518__1962_obsolete_king_raptor_voice)
+- [2023-05-19 - Achieves homogeneous firing sound for machine gun of USA Ranger](#link__20230519__1966_ranger_gun_firing_sequence)
 
 
 
@@ -6481,7 +6539,7 @@ Contains 586 entries with
 **Source:** 1226_overlord_textures.yaml
 
 ---
-### 2022-09-20 - Fixed uvlitetank textures for GLA Scorpion Tank <a name='link__20220920__1228_scorpion_textures'></a>
+### 2022-09-20 - Fixes uvlitetank textures for GLA Scorpion Tank <a name='link__20220920__1228_scorpion_textures'></a>
 **Changes**
 
 - **FIX**: Fixes the mismatching look of the GLA Scorpion Tank across different damage states. It now has the same look in undamaged, damaged and rubble.
@@ -9742,6 +9800,39 @@ Contains 586 entries with
 **Source:** 1549_strategy_center_button_border.yaml
 
 ---
+### 2023-01-14 - Improves guided missile laser beam and muzzle flare visuals of USA Missile Defender <a name='link__20230114__1552_missile_defender_guided_missile_beam_effects'></a>
+**Changes**
+
+- **TWEAK**: The guided missile laser beam of the USA Missile Defender has a warmer red color now.
+- **TWEAK**: The guided missile muzzle and target flares of the USA Missile Defender have red colors with a hot white dot at its center now, matching the visuals of the red laser beam. Originally the flares are green.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552)
+
+**Labels:** art, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1552_missile_defender_guided_missile_beam_effects.yaml
+
+---
+### 2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender <a name='link__20230114__1552_missile_defender_guided_missile_exhaust'></a>
+**Changes**
+
+- **FIX**: The guided missiles of the USA Missile Defender now also emit exhaust and lens flare particles. This is consistent with other missile particles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1552)
+
+**Labels:** art, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1552_missile_defender_guided_missile_exhaust.yaml
+
+---
 ### 2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0% <a name='link__20230115__1554_hold_line_plan_armor_bonus'></a>
 **Changes**
 
@@ -10923,12 +11014,16 @@ Contains 586 entries with
 - **FIX**: Adds smooth fade out to the USA Daisy Cutter explosion audio effect.
 - **FIX**: Syncs the ignition particles of the USA Daisy Cutter with the ignition sound.
 - **FIX**: Syncs the explosion effects of the USA Daisy Cutter with the explosion sound.
+- **TWEAK**: Removes non-linear gap sizes in shock wave smoke circles of USA Daisy Cutter bomb explosion.
+- **TWEAK**: Randomizes position and size of second ignition sparks of USA Daisy Cutter bomb.
+- **TWEAK**: Slightly reduces number and size of second ignition sparks of USA Daisy Cutter bomb.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870)
 
-**Labels:** audio, enhancement, minor, usa, v1.0
+**Labels:** art, audio, enhancement, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -11153,6 +11248,28 @@ Contains 586 entries with
 **Source:** 1852_boss_airfield_rally_point.yaml
 
 ---
+### 2023-04-17 - Increases movement speed of China Emperor by up to 25% <a name='link__20230417__1854_emperor_speed'></a>
+**Changes**
+
+- **TWEAK**: Increases China Emperor
+  - speed from 20 to 25
+  - acceleration from 15 to 20
+  - turn rate from 60 to 70
+  - upgraded speed from 30 to 35
+  - upgraded turn rate from 60 to 70
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1854](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1854)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1854_emperor_speed.yaml
+
+---
 ### 2023-04-19 - Optimizes button placements of Boss Command Center <a name='link__20230419__1859_boss_commandcenter_buttons'></a>
 **Changes**
 
@@ -11289,6 +11406,65 @@ Contains 586 entries with
 **Source:** 1866_boss_nukesilo_nukeshells_button.yaml
 
 ---
+### 2023-04-23 - Fixes and improves explosion effects of USA Alpha Aurora bomb <a name='link__20230423__1871_alpha_aurora_bomb_effects'></a>
+**Changes**
+
+- **TWEAK**: Fixes and improves the USA Alpha Aurora bomb explosion effects.
+
+**Subchanges**
+
+- **TWEAK**: The initial Aurora bomb hit now shows the hit particle effects and sound. Is consistent with regular Aurora bomb hit effects.
+- **TWEAK**: The initial Aurora bomb hit no longer draws a scorch, because it is covered by the particles at the time of the impact and would be overdrawn soon after by the bigger scorch for the gas explosion. Total explosion scorch count is 1 (optimal).
+- **TWEAK**: The ignite sound effect is preserved, but is made a bit quieter than the one of the Daisy Cutter ignition, because the sparks are smaller and there is now the other explosion sound triggered at the same time.
+- **TWEAK**: The first ignition sparks are now visible earlier and spread further apart.
+- **TWEAK**: The second ignition sparks are now less in numbers and spread further apart.
+- **TWEAK**: The second ignition sparks now properly fade out.
+- **TWEAK**: The second ignition sparks now have random size.
+- **TWEAK**: The lingering green gas clouds are removed.
+- **TWEAK**: The final gas explosion is now just one explosion instance instead of 2 to 4.
+- **TWEAK**: The final gas explosion is now synced better with the actual damage and sound event.
+- **TWEAK**: The final gas explosion now has much less random size variation, so it never looks too small.
+- **TWEAK**: The original Alpha bomb shock wave effect is now a smaller copy of the Daisy Cutter shock wave.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1871](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1871)
+
+**Labels:** art, enhancement, minor, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1871_alpha_aurora_bomb_effects.yaml
+
+---
+### 2023-04-23 - Fixes and improves explosion effects of China Neutron Shells <a name='link__20230423__1872_neutron_shell_effects'></a>
+**Changes**
+
+- **TWEAK**: Fixes and improves the China Neutron Shell explosion effects. It no longer shows the explosion effect of the Alpha Aurora and instead just shows the Neutron specific effects and the scattered flares in matching colors and sizes.
+
+**Subchanges**
+
+- **TWEAK**: Removes Alpha Aurora fuel bomb explosion and smoke from Neutron Shell explosion effect.
+- **TWEAK**: Leaves scattered flares with matching colors and sizes on Neutron Shell explosion effect.
+- **TWEAK**: Moves all Neutron Shell particle effects closer to the ground where the shell actually hits.
+- **TWEAK**: Removes one of the Neutron Shell dust rings because there are 2 of them moving at different speeds.
+- **TWEAK**: Halves the duration of the remaining Neutron Shell dust ring effect.
+- **TWEAK**: Increases speed and reduces lifetime of the Neutron Shell rings.
+- **TWEAK**: Gives the outer Neutron Shell ring a fixed size to better indicate the weapon effect radius.
+- **TWEAK**: Increases the size growth of the centered Neutron Shell flare ball to look a bit more impressive.
+- **TWEAK**: Removes the unnecessary terrain scorch of the Neutron Shell.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1872](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1872)
+
+**Labels:** art, china, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1872_neutron_shell_effects.yaml
+
+---
 ### 2023-04-24 - Adds catch fire and explode death effect variant to USA Microwave Tank <a name='link__20230424__1874_microwave_death_effect'></a>
 **Changes**
 
@@ -11335,6 +11511,23 @@ Contains 586 entries with
 **Authors:** xezon
 
 **Source:** 1884_boss_radar_button_placement.yaml
+
+---
+### 2023-04-30 - Optimizes Clean Toxins button placement of USA Ambulance, HazMat Infantry <a name='link__20230430__1885_clean_toxins_button_placement'></a>
+**Changes**
+
+- **TWEAK**: The Clean Toxins button of the USA Ambulance is now optionally placed on slot 12.
+- **TWEAK**: The Clean Toxins button of the HazMat Infantry is now optionally placed on slot 12.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1885](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1885)
+
+**Labels:** gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1885_clean_toxins_button_placement.yaml
 
 ---
 ### 2023-04-30 - Adds missing Stop command button to all worker units <a name='link__20230430__1887_dozer_worker_stop_button'></a>
@@ -11401,6 +11594,60 @@ Contains 586 entries with
 **Source:** 1891_overlord_attachment_upgrade_buttons.yaml
 
 ---
+### 2023-04-30 - Adds missing upgrade buttons to Boss General <a name='link__20230430__1892_boss_missing_upgrade_buttons'></a>
+**Changes**
+
+- **FIX**: Adds missing Drone Armor upgrade to Boss General Particle Cannon. It is used by Boss Sentry Drone.
+- **FIX**: Adds missing Countermeasures upgrade to Boss General Airfield. It is used by Boss Aurora, Raptor, Spectre.
+- **FIX**: Adds missing Laser Missiles upgrade to Boss General Airfield. It is used by Boss Raptor.
+- **FIX**: Adds missing AP Bullets upgrade to Boss General Scud Storm. It is used by Boss Jarmen Kell.
+- **FIX**: Adds missing Junk Repair upgrade to Boss General Scud Storm. It is used by Boss Rocket Buggy, Combat Bike.
+- **FIX**: Adds missing Anthrax Beta upgrade to Boss General Scud Storm. It is used by Boss Scud Storm.
+- **TWEAK**: Moves Mig Armor upgrade button up by one slot to make room for the added upgrades in Boss Airfield.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1892](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1892)
+
+**Labels:** boss, buff, bug, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1892_boss_missing_upgrade_buttons.yaml
+
+---
+### 2023-04-30 - Optimizes button placements of Boss Scud Storm <a name='link__20230430__1892_boss_scud_storm_buttons'></a>
+**Changes**
+
+- **TWEAK**: Swaps the Buggy Ammo and AP Rockets upgrade buttons in Boss Scud Storm to take same order as they do in the GLA Black Market.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1892](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1892)
+
+**Labels:** boss, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1892_boss_scud_storm_buttons.yaml
+
+---
+### 2023-04-30 - Adds missing Countermeasures upgrade armor bonus to Boss King Raptor <a name='link__20230430__1893_boss_raptor_countermeasures'></a>
+**Changes**
+
+- **TWEAK**: The Boss King Raptor now receives the Countermeasures upgrade armor bonus. This is consistent with Boss Aurora and Boss Spectre.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1893](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1893)
+
+**Labels:** boss, buff, design, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1893_boss_raptor_countermeasures.yaml
+
+---
 ### 2023-05-03 - Sets audio limit for Vehicle Snipe <a name='link__20230503__1900_vehicle_snipe_sound_limit'></a>
 **Changes**
 
@@ -11447,4 +11694,851 @@ Contains 586 entries with
 **Authors:** xezon
 
 **Source:** 1905_artillery_shells_health.yaml
+
+---
+### 2023-05-05 - Removes audio events that reference no valid sounds <a name='link__20230505__1912_invalid_audio_events'></a>
+**Changes**
+
+- **FIX**: Removes invalid audio event GenericMachineGunFire and all references to it.
+- **FIX**: Removes invalid audio event MedicMoveStart.
+- **FIX**: Removes invalid audio event CarBomberDie and all references to it.
+- **FIX**: Removes invalid audio event ExplosionGeneric.
+- **FIX**: Removes invalid audio event HeroUSAChargePlace.
+- **FIX**: Removes invalid audio event HeroUSAChargeBeep.
+- **FIX**: Removes invalid audio event HeroUSATimeBombClick.
+- **FIX**: Removes invalid audio event ExecuteDemoralize.
+- **FIX**: Removes invalid audio event CrateCash.
+- **FIX**: Removes invalid audio event AngryMobVoiceUpgradeArmTheMobCrowd.
+- **FIX**: Removes invalid audio event ListeningOutpostVoiceAttack and all references to it.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1912](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1912)
+
+**Labels:** audio, bug, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1912_invalid_audio_events.yaml
+
+---
+### 2023-05-05 - Fixes misspelled sounds in audio events <a name='link__20230505__1913_misspelled_audio_event_sounds'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled sound(s) gcardami in CarDamagedMoveLoop.
+- **FIX**: Fixes misspelled sound(s) ucheergl in MissionAccomplishedSound.
+- **FIX**: Fixes misspelled sound(s) ihaclo1a in HackerWeaponLoop. The hack sequence now has an initiation sound like Black Lotus has.
+- **FIX**: Fixes misspelled sound(s) icifcdif in CivilianArabFemaleDie.
+- **FIX**: Fixes misspelled sound(s) gstolo2a, gstolo2b, gstolo2c in FireStormLoop. China Fire Storms now loop correctly.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_audio_event_sounds.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of China Dozer <a name='link__20230505__1913_misspelled_china_dozer_voices'></a>
+**Changes**
+
+- **FIX**: Removes misspelled voice vdocclc "Our people will be safer" in DozerChinaVoiceClearMine.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_china_dozer_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of GLA Hijacker <a name='link__20230505__1913_misspelled_hijacker_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice ihijatc "It will be mine" in HijackerVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_hijacker_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of USA Humvee <a name='link__20230505__1913_misspelled_humvee_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vhumunc "It's been real" in HumveeVoiceUnload.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_humvee_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of China Nuke Cannon <a name='link__20230505__1913_misspelled_nuke_cannon_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vnukd2c "Folding up" in NukeCannonVoiceUnDeploy.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_nuke_cannon_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of GLA Quad Cannon <a name='link__20230505__1913_misspelled_quad_cannon_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vquacra "The worms should like the dirt" in QuadCannonVoiceCrush.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_quad_cannon_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of USA Ranger <a name='link__20230505__1913_misspelled_ranger_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice irancld "Little house party" in RangerVoiceClearBuilding.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_ranger_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of China Red Guard <a name='link__20230505__1913_misspelled_red_guard_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice iredlaa "Ahh hahaha" in RedGuardVoiceLaugh.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_red_guard_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of GLA Scorpion Tank <a name='link__20230505__1913_misspelled_scorpion_tank_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vscoa2b "Sending the missile" in ScorpionTankVoiceAttackRocket.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_scorpion_tank_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of USA POW Truck <a name='link__20230505__1913_misspelled_usa_pow_truck_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vpoupib "Yeah there should be enough room for him" in POWTruckUSAVoicePickup.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_usa_pow_truck_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of GLA Worker <a name='link__20230505__1913_misspelled_worker_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice iworgaa "I will go in that building" in WorkerVoiceGarrison.
+- **FIX**: Fixes misspelled voice iworrea "I should repair that" in WorkerVoiceRepair.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_worker_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Aircraft Carrier <a name='link__20230505__1918_unused_aircraft_carrier_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Inputting new coordinates" to AircraftCarrierVoiceMove.
+- **TWEAK**: Adds unused voice "Charting path" to AircraftCarrierVoiceMove.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_aircraft_carrier_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Battle Bus <a name='link__20230505__1918_unused_battle_bus_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "We will not be stopped" to BattleBusVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_battle_bus_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China POW Truck <a name='link__20230505__1918_unused_china_pow_truck_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Are there more pickups?" to POWTruckChinaVoiceSelect.
+- **TWEAK**: Adds unused voice "I love meeting new people" to POWTruckChinaVoiceSelect.
+- **TWEAK**: Adds unused voice "Looking for some company" to POWTruckChinaVoiceMove.
+- **TWEAK**: Adds unused voice "More candidates?" to POWTruckChinaVoiceMove.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_china_pow_truck_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Chinook <a name='link__20230505__1918_unused_chinook_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Ahhhhhhhhhhhhhhh" to ChinookVoiceFalling.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_chinook_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Comanche <a name='link__20230505__1918_unused_comanche_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Need little ground support?" to ComancheVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_comanche_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Gattling Tank <a name='link__20230505__1918_unused_gattling_tank_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Let's get into battle" to GattlingTankVoiceSelect.
+- **TWEAK**: Adds unused voice "Looking for some action?" to GattlingTankVoiceMove.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_gattling_tank_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Hacker <a name='link__20230505__1918_unused_hacker_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "I surrender. Just don't hurt my computer" to HackerVoiceSurrender.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_hacker_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Helix <a name='link__20230505__1918_unused_helix_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Load the guns. Now" to HelixVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_helix_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Humvee <a name='link__20230505__1918_unused_humvee_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Alright let's have some fun" to HumveeVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_humvee_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Nuke Cannon <a name='link__20230505__1918_unused_nuke_cannon_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "They will never forget" to NukeCannonVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_nuke_cannon_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Quad Cannon <a name='link__20230505__1918_unused_quad_cannon_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "I put them all to rest" to QuadCannonVoiceSelect.
+- **TWEAK**: Adds unused voice "Put them out of their misery" to QuadCannonVoiceAttack.
+- **TWEAK**: Adds unused voice "Mow them down" to QuadCannonVoiceAttack.
+- **TWEAK**: Adds unused voice "Turn them into mud" to QuadCannonVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_quad_cannon_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Ranger <a name='link__20230505__1918_unused_ranger_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Will lead the way" to RangerVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_ranger_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA RPG Trooper <a name='link__20230505__1918_unused_rpg_trooper_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Defending the tunnel network" to RPGTrooperVoiceSelect.
+- **TWEAK**: Adds unused voice "Defending the tunnel network" to ToxinRPGTrooperVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_rpg_trooper_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Scud Launcher <a name='link__20230505__1918_unused_scud_launcher_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Anthrax missile ready" to ScudLauncherVoiceModeAnthrax.
+- **TWEAK**: Adds unused voice "High explosive missile ready" to ScudLauncherVoiceModeHiEx.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_scud_launcher_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Terrorist <a name='link__20230505__1918_unused_terrorist_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Our following is strong" to TerroristVoiceSelect.
+- **TWEAK**: Adds unused voice "I move to a sacred place" to TerroristVoiceMove.
+- **TWEAK**: Adds unused voice "I move to a sacred place" to TerroristVoiceEnter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_terrorist_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Toxin Tractor <a name='link__20230505__1918_unused_toxin_tractor_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Ahhh hehehe" to ToxinTractorVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_toxin_tractor_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Dozer <a name='link__20230505__1918_unused_usa_dozer_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Like the neighbourhood" to DozerUSAVoiceMove.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_usa_dozer_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Worker <a name='link__20230505__1918_unused_worker_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Here. Take me. I don't care" to WorkerVoiceSurrender.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, design, enhancement, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_worker_voices.yaml
+
+---
+### 2023-05-05 - Enables death voices of USA Chinook <a name='link__20230505__1919_chinook_death_voice'></a>
+**Changes**
+
+- **TWEAK**: Enables death voices of the USA Chinook. This behavior is consistent with USA Comanche, Raptor, Aurora, Stealth Fighter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1919](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1919)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1919_chinook_death_voice.yaml
+
+---
+### 2023-05-05 - Adds unused sound variations in audio events <a name='link__20230505__1920_unused_sounds'></a>
+**Changes**
+
+- **TWEAK**: Adds unused sound(s) in DozerUSAMoveStart.
+- **TWEAK**: Adds unused sound(s) in BuildingDie.
+- **TWEAK**: Adds unused sound(s) in CowAmbience.
+- **FIX**: Adds unused attack and decay sound(s) in Amb_DesertMarketWallaLoop2.
+- **FIX**: Adds unused attack and decay sound(s) in Amb_DesertMarketWallaLoop3.
+- **TWEAK**: Adds unused sound(s) in CivilianPanicMale.
+- **TWEAK**: Adds unused sound(s) in ExplosionPatriotEMP.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1920](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1920)
+
+**Labels:** audio, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1920_unused_sounds.yaml
+
+---
+### 2023-05-05 - Removes duplicate sounds in audio events <a name='link__20230505__1926_duplicate_audio_event_sounds'></a>
+**Changes**
+
+- **FIX**: Removes duplicate sounds in CrowdPanic.
+- **FIX**: Removes duplicate sounds in CrowdPanicLong.
+- **FIX**: Removes duplicate sounds in HumveeMoveStart.
+- **FIX**: Removes duplicate sounds in Amb_UrbanChinaCourtyardBirds.
+- **FIX**: Removes duplicate sounds in ComancheVoiceAttackRocket.
+- **FIX**: Removes duplicate sounds in MigVoiceFalling.
+- **FIX**: Removes duplicate sounds in JarmenKellVoiceFear.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1926](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1926)
+
+**Labels:** audio, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1926_duplicate_audio_event_sounds.yaml
+
+---
+### 2023-05-05 - Sets correct attack and decay sounds in audio events <a name='link__20230505__1927_incorrect_audio_event_sounds'></a>
+**Changes**
+
+- **FIX**: Sets correct decay sound in AmbientCrowdAngryArabs1.
+- **FIX**: Sets correct attack and decay sounds in AvalancheTextureLoop.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1927](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1927)
+
+**Labels:** audio, bug, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1927_incorrect_audio_event_sounds.yaml
+
+---
+### 2023-05-05 - Sets less intense unique set of fire sounds for GenericFireMediumLoop <a name='link__20230505__1928_medium_fire_sounds'></a>
+**Changes**
+
+- **FIX**: Sets less intense unique set of fire sounds for GenericFireMediumLoop. Originally it uses the same sounds as GenericFireLargeLoop does.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1928](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1928)
+
+**Labels:** audio, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1928_medium_fire_sounds.yaml
+
+---
+### 2023-05-05 - Sets unique set of insect sounds for Amb_DesertVillageNightInsect2 <a name='link__20230505__1929_night_insect_sounds'></a>
+**Changes**
+
+- **FIX**: Sets unique set of insect sounds for Amb_DesertVillageNightInsect2. Originally it uses the same sounds as Amb_DesertVillageNightInsect does.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1929](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1929)
+
+**Labels:** audio, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1929_night_insect_sounds.yaml
+
+---
+### 2023-05-05 - Achieves homogeneous firing sound for machine gun of USA Comanche <a name='link__20230505__1930_comanche_gun_firing_sequence'></a>
+**Changes**
+
+- **FIX**: Achieves homogeneous firing sound for machine gun of USA Comanche by removing the audio file with the single shot.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930)
+
+**Labels:** audio, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1930_comanche_gun_firing_sequence.yaml
+
+---
+### 2023-05-05 - Achieves homogeneous firing sound for machine gun of China Helix <a name='link__20230505__1930_helix_gun_firing_sequence'></a>
+**Changes**
+
+- **FIX**: Achieves homogeneous firing sound for machine gun of China Helix by removing the audio file with the single shot.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930)
+
+**Labels:** audio, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1930_helix_gun_firing_sequence.yaml
+
+---
+### 2023-05-05 - Adds unique machine gun firing sounds to USA Battle Drone <a name='link__20230505__1931_battle_drone_gun_audio'></a>
+**Changes**
+
+- **FEATURE**: Adds unique machine gun firing sounds to the USA Battle Drone. Originally it uses the machine gun sounds of the Comanche helicopter.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1931](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1931)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1931_battle_drone_gun_audio.yaml
+
+---
+### 2023-05-05 - Removes invalid sound from SupplyTruckVoiceSupply <a name='link__20230505__1933_supply_truck_invalid_sound'></a>
+**Changes**
+
+- **FIX**: Removes invalid sound vsupspe from SupplyTruckVoiceSupply.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1933](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1933)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1933_supply_truck_invalid_sound.yaml
+
+---
+### 2023-05-09 - Increases volume of USA Comanche machine gun <a name='link__20230509__1939_comanche_gun_volume'></a>
+**Changes**
+
+- **TWEAK**: Increases the volume of the USA Comanche machine gun from 70 to 90. It is no longer much quieter than machine guns of Humvee and Ranger.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939)
+
+**Labels:** audio, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1939_comanche_gun_volume.yaml
+
+---
+### 2023-05-09 - Increases volume of China Helix machine gun <a name='link__20230509__1939_helix_gun_volume'></a>
+**Changes**
+
+- **TWEAK**: Increases the volume of the China Helix machine gun from 80 to 90. It is no longer much quieter than machine guns of Humvee and Ranger.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939)
+
+**Labels:** audio, china, design, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1939_helix_gun_volume.yaml
+
+---
+### 2023-05-09 - Fixes misspelled audio files in dialog events <a name='link__20230509__1940_misspelled_dialog_event_sounds'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled filename in EvaGLA_CashStolen.
+- **FIX**: Fixes misspelled filename in EvaGLA_VehicleStolen.
+- **FIX**: Fixes misspelled filename in EvaChina_CashStolen.
+- **FIX**: Fixes misspelled filename in EvaUSA_BaseDefensesOffLine.
+- **FIX**: Fixes misspelled filename in EvaUSA_CashStolen.
+- **FIX**: Fixes misspelled filename in Cin_SquadronFlyBy02.
+- **FIX**: Fixes misspelled filename in Taunts_Turtle087.
+- **FIX**: Fixes misspelled filename in EvaGLA_FundsTransferred.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1940](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1940)
+
+**Labels:** audio, bug, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1940_misspelled_dialog_event_sounds.yaml
+
+---
+### 2023-05-09 - Removes dialog events that reference no valid sounds <a name='link__20230509__1941_invalid_dialog_events'></a>
+**Changes**
+
+- **FIX**: Removes invalid dialog event(s) UI_MenuGeneralMouseOver.
+- **FIX**: Removes invalid dialog event(s) Taunts_JarmenKell01.
+- **FIX**: Removes invalid dialog event(s) Taunts_GLABoss106 .. 118.
+- **FIX**: Removes invalid dialog event(s) demo_Officer01 .. 11.
+- **FIX**: Removes invalid dialog event(s) demo_Helix01 .. 04.
+- **FIX**: Removes invalid dialog event(s) demo_Bomber01.
+- **FIX**: Removes invalid dialog event(s) demo_Bomber02.
+- **FIX**: Removes invalid dialog event(s) UnitDescriptXChina037.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1941](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1941)
+
+**Labels:** audio, bug, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1941_invalid_dialog_events.yaml
+
+---
+### 2023-05-11 - Fixes wrong rotation of China horde decal textures <a name='link__20230511__1945_horde_decal_rotation'></a>
+**Changes**
+
+- **FIX**: Fixes exhorde textures. The red star now points forward with the unit.
+
+**Subchanges**
+
+- **FIX**: exhorde, exhorde_up, exhordeb, exhordeb_up, exhordec_up
+  - Rotates stars to align with the direction of the units
+  - Removes minor artifacts from alpha channel
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1945](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1945)
+
+**Labels:** art, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1945_horde_decal_rotation.yaml
+
+---
+### 2023-05-15 - Adds missing object text variant for Super Lotus and Super Hacker <a name='link__20230515__1954_super_lotus_hacker_text'></a>
+**Changes**
+
+- **FIX**: Super Lotus and Super Hacker from the China Infantry General now display their proper names on mouse over.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1954](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1954)
+
+**Labels:** bug, china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 1954_super_lotus_hacker_text.yaml
+
+---
+### 2023-05-16 - Adds missing text variants for Nuclear Battlemaster and Nuclear Overlord <a name='link__20230516__1956_nuclear_battlemaster_overlord_text'></a>
+**Changes**
+
+- **FIX**: The Nuclear Battlemaster and Nuclear Overlord from the China Nuke General now display their proper names on mouse over and on the construction tooltip.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1956](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1956)
+
+**Labels:** bug, china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 1956_nuclear_battlemaster_overlord_text.yaml
+
+---
+### 2023-05-18 - Removes obsolete voice line "Raptor here" from USA King Raptor <a name='link__20230518__1962_obsolete_king_raptor_voice'></a>
+**Changes**
+
+- **TWEAK**: Removes the obsolete voice line "Raptor here" from USA King Raptor. There already is another voice line which says "King Raptor here".
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1962](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1962)
+
+**Labels:** audio, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1962_obsolete_king_raptor_voice.yaml
+
+---
+### 2023-05-19 - Achieves homogeneous firing sound for machine gun of USA Ranger <a name='link__20230519__1966_ranger_gun_firing_sequence'></a>
+**Changes**
+
+- **FIX**: Achieves homogeneous firing sound for machine gun of USA Ranger by replacing all quadruble shots with triple shots.
+- **FIX**: Reduces firing sound durations of machine gun of USA Ranger to a maximum of 900 ms to fit well within the actual firing duration.
+- **FIX**: Removes unnecessary pre-shot delays from firing sounds of machine gun of USA Ranger.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930)
+
+**Labels:** audio, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1966_ranger_gun_firing_sequence.yaml
 

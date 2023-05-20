@@ -5,40 +5,40 @@ Includes changes with labels: china
 
 Occuring labels are
 
-- art (19)
-- audio (13)
-- buff (39)
-- bug (91)
-- china (153)
+- art (21)
+- audio (24)
+- buff (40)
+- bug (98)
+- china (169)
 - civilian (1)
-- controversial (38)
+- controversial (39)
 - critical (1)
-- design (53)
-- enhancement (9)
+- design (60)
+- enhancement (15)
 - gla (16)
 - gui (14)
-- major (20)
-- minor (131)
+- major (21)
+- minor (146)
 - nerf (3)
 - optional (7)
 - performance (5)
-- text (2)
+- text (4)
 - usa (21)
-- v1.0 (153)
+- v1.0 (169)
 - wip (1)
 
 Sorts changes by: date (ascending)
 
-Contains 153 entries with
+Contains 169 entries with
 
-- 196 changes
-  - FIX (144)
-  - TWEAK (47)
+- 216 changes
+  - FIX (152)
+  - TWEAK (59)
   - FEATURE (5)
-- 115 subchanges
-  - FIX (56)
+- 125 subchanges
+  - FIX (57)
   - FEATURE (1)
-  - TWEAK (58)
+  - TWEAK (67)
 
 ## Index
 - [2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings](#link__20210822__4_listening_outpost_attack_bug)
@@ -188,12 +188,28 @@ Contains 153 entries with
 - [2023-04-08 - Fixes Isotope Stability upgrade icon placements](#link__20230408__1816_isotope_stability_cameo)
 - [2023-04-09 - Fixes drop location of China Battlemaster Paradrop](#link__20230409__1780_battlemaster_paradrop_location)
 - [2023-04-09 - Fixes choppy physics of China Battlemaster Paradrop](#link__20230409__1825_battlemaster_paradrop_physics)
+- [2023-04-17 - Increases movement speed of China Emperor by up to 25%](#link__20230417__1854_emperor_speed)
 - [2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center](#link__20230421__1861_china_radar_button_placement)
+- [2023-04-23 - Fixes and improves explosion effects of China Neutron Shells](#link__20230423__1872_neutron_shell_effects)
 - [2023-04-24 - Adds missing smoke particles to wrecks of China Troop Crawler, Listening Outpost](#link__20230424__1875_outpost_crawler_wreck_smoke)
 - [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
 - [2023-04-30 - Optimizes button placements of China Dozer](#link__20230430__1888_china_dozer_buttons)
 - [2023-04-30 - Fixes issue where China Overlord attachment upgrade buttons disappear after research](#link__20230430__1891_overlord_attachment_upgrade_buttons)
 - [2023-05-05 - Prevents shells of China Artillery Barrage from killing each other](#link__20230505__1905_artillery_shells_health)
+- [2023-05-05 - Fixes misspelled voice file(s) of China Dozer](#link__20230505__1913_misspelled_china_dozer_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of China Nuke Cannon](#link__20230505__1913_misspelled_nuke_cannon_voices)
+- [2023-05-05 - Fixes misspelled voice file(s) of China Red Guard](#link__20230505__1913_misspelled_red_guard_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China POW Truck](#link__20230505__1918_unused_china_pow_truck_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Gattling Tank](#link__20230505__1918_unused_gattling_tank_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Hacker](#link__20230505__1918_unused_hacker_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Helix](#link__20230505__1918_unused_helix_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Nuke Cannon](#link__20230505__1918_unused_nuke_cannon_voices)
+- [2023-05-05 - Achieves homogeneous firing sound for machine gun of China Helix](#link__20230505__1930_helix_gun_firing_sequence)
+- [2023-05-05 - Removes invalid sound from SupplyTruckVoiceSupply](#link__20230505__1933_supply_truck_invalid_sound)
+- [2023-05-09 - Increases volume of China Helix machine gun](#link__20230509__1939_helix_gun_volume)
+- [2023-05-11 - Fixes wrong rotation of China horde decal textures](#link__20230511__1945_horde_decal_rotation)
+- [2023-05-15 - Adds missing object text variant for Super Lotus and Super Hacker](#link__20230515__1954_super_lotus_hacker_text)
+- [2023-05-16 - Adds missing text variants for Nuclear Battlemaster and Nuclear Overlord](#link__20230516__1956_nuclear_battlemaster_overlord_text)
 
 
 
@@ -2859,6 +2875,28 @@ Contains 153 entries with
 **Source:** 1825_battlemaster_paradrop_physics.yaml
 
 ---
+### 2023-04-17 - Increases movement speed of China Emperor by up to 25% <a name='link__20230417__1854_emperor_speed'></a>
+**Changes**
+
+- **TWEAK**: Increases China Emperor
+  - speed from 20 to 25
+  - acceleration from 15 to 20
+  - turn rate from 60 to 70
+  - upgraded speed from 30 to 35
+  - upgraded turn rate from 60 to 70
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1854](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1854)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1854_emperor_speed.yaml
+
+---
 ### 2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center <a name='link__20230421__1861_china_radar_button_placement'></a>
 **Changes**
 
@@ -2874,6 +2912,34 @@ Contains 153 entries with
 **Authors:** xezon
 
 **Source:** 1861_china_radar_button_placement.yaml
+
+---
+### 2023-04-23 - Fixes and improves explosion effects of China Neutron Shells <a name='link__20230423__1872_neutron_shell_effects'></a>
+**Changes**
+
+- **TWEAK**: Fixes and improves the China Neutron Shell explosion effects. It no longer shows the explosion effect of the Alpha Aurora and instead just shows the Neutron specific effects and the scattered flares in matching colors and sizes.
+
+**Subchanges**
+
+- **TWEAK**: Removes Alpha Aurora fuel bomb explosion and smoke from Neutron Shell explosion effect.
+- **TWEAK**: Leaves scattered flares with matching colors and sizes on Neutron Shell explosion effect.
+- **TWEAK**: Moves all Neutron Shell particle effects closer to the ground where the shell actually hits.
+- **TWEAK**: Removes one of the Neutron Shell dust rings because there are 2 of them moving at different speeds.
+- **TWEAK**: Halves the duration of the remaining Neutron Shell dust ring effect.
+- **TWEAK**: Increases speed and reduces lifetime of the Neutron Shell rings.
+- **TWEAK**: Gives the outer Neutron Shell ring a fixed size to better indicate the weapon effect radius.
+- **TWEAK**: Increases the size growth of the centered Neutron Shell flare ball to look a bit more impressive.
+- **TWEAK**: Removes the unnecessary terrain scorch of the Neutron Shell.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1872](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1872)
+
+**Labels:** art, china, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1872_neutron_shell_effects.yaml
 
 ---
 ### 2023-04-24 - Adds missing smoke particles to wrecks of China Troop Crawler, Listening Outpost <a name='link__20230424__1875_outpost_crawler_wreck_smoke'></a>
@@ -2954,4 +3020,239 @@ Contains 153 entries with
 **Authors:** xezon
 
 **Source:** 1905_artillery_shells_health.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of China Dozer <a name='link__20230505__1913_misspelled_china_dozer_voices'></a>
+**Changes**
+
+- **FIX**: Removes misspelled voice vdocclc "Our people will be safer" in DozerChinaVoiceClearMine.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_china_dozer_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of China Nuke Cannon <a name='link__20230505__1913_misspelled_nuke_cannon_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice vnukd2c "Folding up" in NukeCannonVoiceUnDeploy.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_nuke_cannon_voices.yaml
+
+---
+### 2023-05-05 - Fixes misspelled voice file(s) of China Red Guard <a name='link__20230505__1913_misspelled_red_guard_voices'></a>
+**Changes**
+
+- **FIX**: Fixes misspelled voice iredlaa "Ahh hahaha" in RedGuardVoiceLaugh.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1913_misspelled_red_guard_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China POW Truck <a name='link__20230505__1918_unused_china_pow_truck_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Are there more pickups?" to POWTruckChinaVoiceSelect.
+- **TWEAK**: Adds unused voice "I love meeting new people" to POWTruckChinaVoiceSelect.
+- **TWEAK**: Adds unused voice "Looking for some company" to POWTruckChinaVoiceMove.
+- **TWEAK**: Adds unused voice "More candidates?" to POWTruckChinaVoiceMove.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_china_pow_truck_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Gattling Tank <a name='link__20230505__1918_unused_gattling_tank_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Let's get into battle" to GattlingTankVoiceSelect.
+- **TWEAK**: Adds unused voice "Looking for some action?" to GattlingTankVoiceMove.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_gattling_tank_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Hacker <a name='link__20230505__1918_unused_hacker_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "I surrender. Just don't hurt my computer" to HackerVoiceSurrender.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_hacker_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Helix <a name='link__20230505__1918_unused_helix_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Load the guns. Now" to HelixVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_helix_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Nuke Cannon <a name='link__20230505__1918_unused_nuke_cannon_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "They will never forget" to NukeCannonVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1918_unused_nuke_cannon_voices.yaml
+
+---
+### 2023-05-05 - Achieves homogeneous firing sound for machine gun of China Helix <a name='link__20230505__1930_helix_gun_firing_sequence'></a>
+**Changes**
+
+- **FIX**: Achieves homogeneous firing sound for machine gun of China Helix by removing the audio file with the single shot.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930)
+
+**Labels:** audio, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1930_helix_gun_firing_sequence.yaml
+
+---
+### 2023-05-05 - Removes invalid sound from SupplyTruckVoiceSupply <a name='link__20230505__1933_supply_truck_invalid_sound'></a>
+**Changes**
+
+- **FIX**: Removes invalid sound vsupspe from SupplyTruckVoiceSupply.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1933](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1933)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1933_supply_truck_invalid_sound.yaml
+
+---
+### 2023-05-09 - Increases volume of China Helix machine gun <a name='link__20230509__1939_helix_gun_volume'></a>
+**Changes**
+
+- **TWEAK**: Increases the volume of the China Helix machine gun from 80 to 90. It is no longer much quieter than machine guns of Humvee and Ranger.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939)
+
+**Labels:** audio, china, design, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1939_helix_gun_volume.yaml
+
+---
+### 2023-05-11 - Fixes wrong rotation of China horde decal textures <a name='link__20230511__1945_horde_decal_rotation'></a>
+**Changes**
+
+- **FIX**: Fixes exhorde textures. The red star now points forward with the unit.
+
+**Subchanges**
+
+- **FIX**: exhorde, exhorde_up, exhordeb, exhordeb_up, exhordec_up
+  - Rotates stars to align with the direction of the units
+  - Removes minor artifacts from alpha channel
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1945](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1945)
+
+**Labels:** art, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1945_horde_decal_rotation.yaml
+
+---
+### 2023-05-15 - Adds missing object text variant for Super Lotus and Super Hacker <a name='link__20230515__1954_super_lotus_hacker_text'></a>
+**Changes**
+
+- **FIX**: Super Lotus and Super Hacker from the China Infantry General now display their proper names on mouse over.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1954](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1954)
+
+**Labels:** bug, china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 1954_super_lotus_hacker_text.yaml
+
+---
+### 2023-05-16 - Adds missing text variants for Nuclear Battlemaster and Nuclear Overlord <a name='link__20230516__1956_nuclear_battlemaster_overlord_text'></a>
+**Changes**
+
+- **FIX**: The Nuclear Battlemaster and Nuclear Overlord from the China Nuke General now display their proper names on mouse over and on the construction tooltip.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1956](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1956)
+
+**Labels:** bug, china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 1956_nuclear_battlemaster_overlord_text.yaml
 
