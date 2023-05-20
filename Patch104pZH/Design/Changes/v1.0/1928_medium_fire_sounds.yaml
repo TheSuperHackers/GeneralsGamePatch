@@ -1,0 +1,19 @@
+---
+date: 2023-05-05
+
+title: Sets less intense unique set of fire sounds for GenericFireMediumLoop
+
+changes:
+  - fix: Sets less intense unique set of fire sounds for GenericFireMediumLoop. Originally it uses the same sounds as GenericFireLargeLoop does.
+
+labels:
+  - audio
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1928
+
+authors:
+  - xezon
