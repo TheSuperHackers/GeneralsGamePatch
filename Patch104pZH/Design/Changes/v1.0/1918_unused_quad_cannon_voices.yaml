@@ -1,0 +1,24 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to GLA Quad Cannon
+
+changes:
+  - tweak: Adds unused voice "I put them all to rest" to QuadCannonVoiceSelect.
+  - tweak: Adds unused voice "Put them out of their misery" to QuadCannonVoiceAttack.
+  - tweak: Adds unused voice "Mow them down" to QuadCannonVoiceAttack.
+  - tweak: Adds unused voice "Turn them into mud" to QuadCannonVoiceAttack.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918
+
+authors:
+  - xezon

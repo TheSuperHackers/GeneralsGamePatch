@@ -1,0 +1,22 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to China Gattling Tank
+
+changes:
+  - tweak: Adds unused voice "Let's get into battle" to GattlingTankVoiceSelect.
+  - tweak: Adds unused voice "Looking for some action?" to GattlingTankVoiceMove.
+
+labels:
+  - audio
+  - china
+  - design
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918
+
+authors:
+  - xezon
