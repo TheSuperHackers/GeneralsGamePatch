@@ -5,6 +5,7 @@ title: Sets less intense unique set of fire sounds for GenericFireMediumLoop
 
 changes:
   - fix: Sets less intense unique set of fire sounds for GenericFireMediumLoop. Originally it uses the same sounds as GenericFireLargeLoop does.
+  - fix: Sets burning trees to use GenericFireLargeLoop to preserve original audio.
 
 labels:
   - audio
@@ -14,6 +15,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1928
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1971
 
 authors:
   - xezon
