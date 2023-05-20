@@ -1,0 +1,21 @@
+---
+date: 2023-05-05
+
+title: Fixes misspelled voice file(s) of GLA Worker
+
+changes:
+  - fix: Fixes misspelled voice iworgaa "I will go in that building" in WorkerVoiceGarrison.
+  - fix: Fixes misspelled voice iworrea "I should repair that" in WorkerVoiceRepair.
+
+labels:
+  - audio
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913
+
+authors:
+  - xezon

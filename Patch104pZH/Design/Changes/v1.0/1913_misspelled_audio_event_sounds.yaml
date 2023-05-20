@@ -9,17 +9,6 @@ changes:
   - fix: Fixes misspelled sound(s) ihaclo1a in HackerWeaponLoop. The hack sequence now has an initiation sound like Black Lotus has.
   - fix: Fixes misspelled sound(s) icifcdif in CivilianArabFemaleDie.
   - fix: Fixes misspelled sound(s) gstolo2a, gstolo2b, gstolo2c in FireStormLoop. China Fire Storms now loop correctly.
-  - fix: Fixes misspelled sound(s) irancld "Little house party" in RangerVoiceClearBuilding.
-  - fix: Fixes misspelled sound(s) vhumunc "It's been real" in HumveeVoiceUnload.
-  - fix: Fixes misspelled sound(s) vpoupib "Yeah there should be enough room for him" in POWTruckUSAVoicePickup.
-  - fix: Fixes misspelled sound(s) iredlaa "Ahh hahaha" in RedGuardVoiceLaugh.
-  - fix: Removes misspelled sound(s) vdocclc "Our people will be safer" in DozerChinaVoiceClearMine.
-  - fix: Fixes misspelled sound(s) vnukd2c "Folding up" in NukeCannonVoiceUnDeploy.
-  - fix: Fixes misspelled sound(s) vscoa2b "Sending the missile" in ScorpionTankVoiceAttackRocket.
-  - fix: Fixes misspelled sound(s) vquacra "The worms should like the dirt" in QuadCannonVoiceCrush.
-  - fix: Fixes misspelled sound(s) iworgaa "I will go in that building" in WorkerVoiceGarrison.
-  - fix: Fixes misspelled sound(s) iworrea "I should repair that" in WorkerVoiceRepair.
-  - fix: Fixes misspelled sound(s) ihijatc "It will be mine" in HijackerVoiceAttack.
 
 labels:
   - audio

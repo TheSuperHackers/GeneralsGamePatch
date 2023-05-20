@@ -1,0 +1,20 @@
+---
+date: 2023-05-05
+
+title: Fixes misspelled voice file(s) of GLA Hijacker
+
+changes:
+  - fix: Fixes misspelled voice ihijatc "It will be mine" in HijackerVoiceAttack.
+
+labels:
+  - audio
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913
+
+authors:
+  - xezon
