@@ -1,0 +1,20 @@
+---
+date: 2023-05-05
+
+title: Fixes misspelled voice file(s) of USA Ranger
+
+changes:
+  - fix: Fixes misspelled voice irancld "Little house party" in RangerVoiceClearBuilding.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913
+
+authors:
+  - xezon
