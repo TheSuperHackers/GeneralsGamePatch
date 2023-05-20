@@ -1,0 +1,24 @@
+---
+date: 2023-05-05
+
+title: Removes duplicate sounds in audio events
+
+changes:
+  - fix: Removes duplicate sounds in CrowdPanic.
+  - fix: Removes duplicate sounds in CrowdPanicLong.
+  - fix: Removes duplicate sounds in HumveeMoveStart.
+  - fix: Removes duplicate sounds in Amb_UrbanChinaCourtyardBirds.
+  - fix: Removes duplicate sounds in ComancheVoiceAttackRocket.
+  - fix: Removes duplicate sounds in MigVoiceFalling.
+  - fix: Removes duplicate sounds in JarmenKellVoiceFear.
+
+labels:
+  - audio
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1926
+
+authors:
+  - xezon
