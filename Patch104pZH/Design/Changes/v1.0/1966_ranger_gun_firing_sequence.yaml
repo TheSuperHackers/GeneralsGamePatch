@@ -1,0 +1,21 @@
+---
+date: 2023-05-19
+
+title: Achieves homogeneous firing sound for machine gun of USA Ranger
+
+changes:
+  - fix: Achieves homogeneous firing sound for machine gun of USA Ranger by replacing all quadruble shots with triple shots.
+  - fix: Reduces firing sound durations of machine gun of USA Ranger to a maximum of 900 ms to fit well within the actual firing duration.
+  - fix: Removes unnecessary pre-shot delays from firing sounds of machine gun of USA Ranger.
+
+labels:
+  - audio
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930
+
+authors:
+  - xezon

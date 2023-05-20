@@ -1,0 +1,3 @@
+Removes the 4th shot from all sounds because the weapon fires in salvos of 3.
+Reduces audio duration to max 900 ms to fit well within the actual firing duration.
+Removes unnecessary pre-shot delays.
