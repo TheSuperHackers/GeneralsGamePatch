@@ -1,0 +1,2 @@
+Removes the pre-explosion delay of around 250 ms.
+Adds smooth fade out.
