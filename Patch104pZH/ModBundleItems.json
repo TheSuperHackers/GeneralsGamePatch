@@ -363,8 +363,7 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/INI/CommandSet.ini",
-                            "Data/INI/Voice.ini"
+                            "Data/INI/CommandSet.ini"
                         ],
                         "params": {
                             "forceEOL": "\r\n",

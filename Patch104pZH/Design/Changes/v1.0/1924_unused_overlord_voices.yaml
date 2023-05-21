@@ -4,6 +4,7 @@ date: 2023-05-05
 title: Adds unused voice variation(s) to China Overlord
 
 changes:
+  - tweak: Adds unused voice "They will beg for mercy" to OverlordTankVoiceAttack.
   - tweak: Adds unused voice "Leave now" to OverlordTankVoiceUnload.
 
 labels:
