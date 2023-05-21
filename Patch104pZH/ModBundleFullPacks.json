@@ -96,6 +96,7 @@
                 "name": "FullGerman",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioGerman",
                     "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
@@ -167,6 +168,7 @@
                 "name": "FullRussian",
                 "itemNames": [
                     "AxOptionalAudio",
+                    "AxOptionalAudioRussian",
                     "AxOptionalINI",
                     "AxOptionalTextures",
                     "AxOptionalW3D",
