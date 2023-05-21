@@ -1,0 +1,22 @@
+---
+date: 2023-09-24
+
+title: Adds unused voice variation(s) to USA Raptor
+
+changes:
+  - tweak: Adds unused voice "Fuel is in the red" to RaptorVoiceLowFuel.
+  - tweak: Adds unused voice "Tank is almost dry, General" to RaptorVoiceLowFuel.
+  - tweak: Adds unused voice "We are running on fumes" to RaptorVoiceLowFuel.
+
+labels:
+  - audio
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274
+
+authors:
+  - xezon
