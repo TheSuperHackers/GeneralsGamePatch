@@ -1,0 +1,20 @@
+---
+date: 2023-05-20
+
+title: Adds fade in sound to B52 Bomber engine loop
+
+changes:
+  - fix: Adds a fade in sound to the B52 engine loop. This way sound fade is gentle when Bomber flies into camera view.
+
+labels:
+  - audio
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1970
+
+authors:
+  - xezon
