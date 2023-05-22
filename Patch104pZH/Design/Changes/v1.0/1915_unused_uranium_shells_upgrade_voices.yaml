@@ -1,0 +1,22 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to China Uranium Shells upgrade
+
+changes:
+  - tweak: Adds unused voice "The Weapons-grade Uranium shells will destroy the enemy" to BattleMasterTankVoiceUpgradeWeaponsGrade.
+
+labels:
+  - audio
+  - china
+  - design
+  - enhancement
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915
+
+authors:
+  - xezon

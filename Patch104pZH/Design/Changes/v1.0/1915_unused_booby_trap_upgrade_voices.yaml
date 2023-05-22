@@ -1,0 +1,22 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to GLA Booby Trap upgrade
+
+changes:
+  - tweak: Adds unused voice "Our Booby Traps will surprise the enemy" to RebelVoiceUpgradeBoobyTrap.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - gla
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915
+
+authors:
+  - xezon

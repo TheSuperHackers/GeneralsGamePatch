@@ -1,0 +1,22 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to China Auto Loader upgrade
+
+changes:
+  - tweak: Adds unused voice "The Auto Loaders will ensure our victory" to BattleMasterTankVoiceUpgradeAutoLoader.
+
+labels:
+  - audio
+  - china
+  - design
+  - enhancement
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915
+
+authors:
+  - xezon
