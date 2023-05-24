@@ -363,7 +363,6 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/INI/CommandButton.ini",
                             "Data/INI/CommandSet.ini",
                             "Data/INI/Voice.ini"
                         ],

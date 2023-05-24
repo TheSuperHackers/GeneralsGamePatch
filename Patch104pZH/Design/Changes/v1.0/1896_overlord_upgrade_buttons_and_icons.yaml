@@ -1,0 +1,20 @@
+---
+date: 2023-05-01
+
+title: Improves upgrade command button and upgrade cameo icon placements of China Overlord and Emperor
+
+changes:
+  - tweak: Matches the position and order of the China Overlord and Emperor upgrade command button with those of the China Helix.
+  - fix: Matches the order of the China Overlord and Emperor upgrade cameo icons with the order of the command buttons.
+
+labels:
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896
+
+authors:
+  - xezon
