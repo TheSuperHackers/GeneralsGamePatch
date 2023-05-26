@@ -1,3 +1,5 @@
+(On Windows, get files names with command 'dir /b /a-d')
+
 These sounds are not just used for English, but also for
 
 Arabic

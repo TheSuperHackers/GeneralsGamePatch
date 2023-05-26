@@ -1,3 +1,5 @@
+(On Windows, get files names with command 'dir /b /a-d')
+
 Fixes clicking, fadeout in
 
 iranflaa.wav
