@@ -177,6 +177,8 @@ iworspc.wav
 iworspd.wav
 iworsud.wav
 iworsue.wav
+iworu1a.wav
+iworu1b.wav
 vambcrc.wav
 vambdea.wav
 vambdec.wav
