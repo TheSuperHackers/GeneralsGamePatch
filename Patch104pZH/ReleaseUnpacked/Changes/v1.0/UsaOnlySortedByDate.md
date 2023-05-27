@@ -7,34 +7,34 @@ Occuring labels are
 
 - ai (2)
 - art (53)
-- audio (36)
+- audio (47)
 - buff (21)
-- bug (111)
+- bug (110)
 - china (21)
 - civilian (1)
 - controversial (31)
-- design (53)
-- enhancement (37)
+- design (62)
+- enhancement (49)
 - gla (17)
 - gui (16)
-- major (18)
-- minor (181)
+- major (19)
+- minor (191)
 - nerf (10)
-- optional (9)
+- optional (16)
 - performance (9)
 - text (5)
-- usa (201)
-- v1.0 (201)
+- usa (212)
+- v1.0 (212)
 
 Sorts changes by: date (ascending)
 
-Contains 201 entries with
+Contains 212 entries with
 
-- 232 changes
+- 258 changes
   - OPTIMIZATION (1)
   - FIX (166)
-  - TWEAK (58)
-  - FEATURE (7)
+  - TWEAK (75)
+  - FEATURE (16)
 - 199 subchanges
   - FIX (127)
   - TWEAK (72)
@@ -141,7 +141,6 @@ Contains 201 entries with
 - [2022-09-23 - Fixes avpaladin textures for USA Paladin Tank](#link__20220923__1270_avpaladin_textures)
 - [2022-09-24 - Fixes and improves avraptor textures for USA Raptor](#link__20220924__1271_avraptor_textures)
 - [2022-09-24 - Adds missing audio limits to air unit voices](#link__20220924__1274_air_unit_death_voice_limit)
-- [2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora](#link__20220924__1274_raptor_aurora_death_voice)
 - [2022-09-24 - Fixes atwarfactslab textures for USA War Factory](#link__20220924__1275_atwarfactslab_textures)
 - [2022-09-24 - Fixes and improves atventwall01 textures for USA structures](#link__20220924__1277_atventwall01_textures)
 - [2022-09-24 - Fixed avpowtruck textures for USA POW Truck](#link__20220924__1279_avpowtruck_textures)
@@ -226,9 +225,15 @@ Contains 201 entries with
 - [2023-04-30 - Optimizes Clean Toxins button placement of USA Ambulance, HazMat Infantry](#link__20230430__1885_clean_toxins_button_placement)
 - [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
 - [2023-04-30 - Optimizes button placements of USA Dozer](#link__20230430__1889_usa_dozer_buttons)
+- [2023-05-05 - Adds unused voice variation(s) to USA Alpha Aurora](#link__20230505__1910_unused_alpha_aurora_voices)
 - [2023-05-05 - Fixes misspelled voice file(s) of USA Humvee](#link__20230505__1913_misspelled_humvee_voices)
 - [2023-05-05 - Fixes misspelled voice file(s) of USA Ranger](#link__20230505__1913_misspelled_ranger_voices)
 - [2023-05-05 - Fixes misspelled voice file(s) of USA POW Truck](#link__20230505__1913_misspelled_usa_pow_truck_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Bunker Buster upgrade](#link__20230505__1915_unused_bunker_buster_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Chemical Suits upgrade](#link__20230505__1915_unused_chemical_suits_upgrade_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Counter Measures upgrade](#link__20230505__1915_unused_counter_measures_upgrade_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Drone Armor upgrade](#link__20230505__1915_unused_drone_armor_upgrade_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Supply Lines upgrade](#link__20230505__1915_unused_supply_lines_upgrade_voices)
 - [2023-05-05 - Adds unused voice variation(s) to USA Aircraft Carrier](#link__20230505__1918_unused_aircraft_carrier_voices)
 - [2023-05-05 - Adds unused voice variation(s) to USA Chinook](#link__20230505__1918_unused_chinook_voices)
 - [2023-05-05 - Adds unused voice variation(s) to USA Comanche](#link__20230505__1918_unused_comanche_voices)
@@ -236,11 +241,17 @@ Contains 201 entries with
 - [2023-05-05 - Adds unused voice variation(s) to USA Ranger](#link__20230505__1918_unused_ranger_voices)
 - [2023-05-05 - Adds unused voice variation(s) to USA Dozer](#link__20230505__1918_unused_usa_dozer_voices)
 - [2023-05-05 - Enables death voices of USA Chinook](#link__20230505__1919_chinook_death_voice)
+- [2023-05-05 - Improves voice setup of USA Paladin](#link__20230505__1925_improve_paladin_voices)
+- [2023-05-05 - Adds unused voice variation(s) to USA Paladin](#link__20230505__1925_unused_paladin_voices)
 - [2023-05-05 - Achieves homogeneous firing sound for machine gun of USA Comanche](#link__20230505__1930_comanche_gun_firing_sequence)
 - [2023-05-05 - Adds unique machine gun firing sounds to USA Battle Drone](#link__20230505__1931_battle_drone_gun_audio)
+- [2023-05-05 - Adds new voice variation(s) to USA Stealth Fighter](#link__20230505__1932_new_stealth_fighter_voices)
 - [2023-05-09 - Increases volume of USA Comanche machine gun](#link__20230509__1939_comanche_gun_volume)
 - [2023-05-18 - Removes obsolete voice line "Raptor here" from USA King Raptor](#link__20230518__1962_obsolete_king_raptor_voice)
 - [2023-05-19 - Achieves homogeneous firing sound for machine gun of USA Ranger](#link__20230519__1966_ranger_gun_firing_sequence)
+- [2023-05-20 - Adds fade in sound to B52 Bomber engine loop](#link__20230520__1970_b52_ambient_sounds)
+- [2023-09-24 - Adds unused voice variation(s) to USA Aurora](#link__20230924__1274_unused_aurora_voices)
+- [2023-09-24 - Adds unused voice variation(s) to USA Raptor](#link__20230924__1274_unused_raptor_voices)
 
 
 
@@ -1277,9 +1288,9 @@ Contains 201 entries with
 ### 2022-09-01 - Fixes audio flaws in English sounds <a name='link__20220901__1061_audio_fixes'></a>
 **Changes**
 
-- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 783 English voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 1238 English voices
 - **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout in 221 English eva voices
-- **FIX**: Fixes noises, humming, crackling, clicking, popping in 38 common voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping in 53 common voices
 - **FIX**: Fixes clicking, fadein, fadeout in 123 vehicle sounds
 - **FIX**: Fixes noises, clicking, fadeout in 104 fx sounds
 - **FIX**: Fixes clicking, fadein, fadeout in 4 ui sounds
@@ -1291,8 +1302,9 @@ Contains 201 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964)
 
-**Labels:** audio, china, gla, minor, optional, usa, v1.0
+**Labels:** audio, china, gla, major, optional, usa, v1.0
 
 **Authors:** xezon
 
@@ -2149,22 +2161,6 @@ Contains 201 entries with
 **Source:** 1274_air_unit_death_voice_limit.yaml
 
 ---
-### 2022-09-24 - Enables all death voice variants for USA Raptor and USA Aurora <a name='link__20220924__1274_raptor_aurora_death_voice'></a>
-**Changes**
-
-- **FIX**: Enables all death voice variants for USA Raptor and USA Aurora.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
-
-**Labels:** audio, bug, minor, usa, v1.0
-
-**Authors:** xezon
-
-**Source:** 1274_raptor_aurora_death_voice.yaml
-
----
 ### 2022-09-24 - Fixes atwarfactslab textures for USA War Factory <a name='link__20220924__1275_atwarfactslab_textures'></a>
 **Changes**
 
@@ -2849,6 +2845,7 @@ Contains 201 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1413](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1413)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1785](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1785)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1968](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1968)
 
 **Labels:** audio, enhancement, minor, usa, v1.0
 
@@ -3801,6 +3798,7 @@ Contains 201 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1968](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1968)
 
 **Labels:** art, audio, enhancement, minor, usa, v1.0
 
@@ -3986,6 +3984,29 @@ Contains 201 entries with
 **Source:** 1889_usa_dozer_buttons.yaml
 
 ---
+### 2023-05-05 - Adds unused voice variation(s) to USA Alpha Aurora <a name='link__20230505__1910_unused_alpha_aurora_voices'></a>
+**Changes**
+
+- **FEATURE**: Adds unused voice "Fuel air bomb is armed and ready" to FuelAirAuroraVoiceSelect.
+- **FEATURE**: Adds unused voice "Fuel weapon ready for deployment" to FuelAirAuroraVoiceSelect.
+- **FEATURE**: Adds unused voice "Ready the fuel air bomb" to FuelAirAuroraVoiceAttack.
+- **FEATURE**: Adds unused voice "Dropping off the fuel air bomb" to FuelAirAuroraVoiceAttack.
+- **FEATURE**: Adds unused voice "The fuel air bomb should be enough" to FuelAirAuroraVoiceAttack.
+- **FEATURE**: Adds unused voice "Let's make this quick" to FuelAirAuroraVoiceAttack.
+- **FEATURE**: Adds unused voice "We won't slow down" to FuelAirAuroraVoiceAttack.
+- **FEATURE**: Adds unused voice "Will be a clean delivery" to FuelAirAuroraVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1910_unused_alpha_aurora_voices.yaml
+
+---
 ### 2023-05-05 - Fixes misspelled voice file(s) of USA Humvee <a name='link__20230505__1913_misspelled_humvee_voices'></a>
 **Changes**
 
@@ -4032,6 +4053,87 @@ Contains 201 entries with
 **Authors:** xezon
 
 **Source:** 1913_misspelled_usa_pow_truck_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Bunker Buster upgrade <a name='link__20230505__1915_unused_bunker_buster_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Bunker Buster bombs are ready Sir" to AuroraVoiceUpgradeBunkerBuster.
+- **TWEAK**: Adds unused voice "The Bunker Buster bombs are now installed" to AuroraVoiceUpgradeBunkerBuster.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, design, enhancement, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_bunker_buster_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Chemical Suits upgrade <a name='link__20230505__1915_unused_chemical_suits_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "These Chemical Suits are going to help" to RangerVoiceUpgradeChemSuits.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, design, enhancement, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_chemical_suits_upgrade_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Counter Measures upgrade <a name='link__20230505__1915_unused_counter_measures_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Counter measures installed Sir" to RaptorVoiceUpgradeCounterMeasures.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, design, enhancement, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_counter_measures_upgrade_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Drone Armor upgrade <a name='link__20230505__1915_unused_drone_armor_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Drone Armor Upgrade's installed Sir" to CrusaderTankVoiceUpgradeDroneArmor.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, design, enhancement, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_drone_armor_upgrade_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Supply Lines upgrade <a name='link__20230505__1915_unused_supply_lines_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "The Supply Lines are more efficient now" to ChinookVoiceUpgradeSupplyLines.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, design, enhancement, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_supply_lines_upgrade_voices.yaml
 
 ---
 ### 2023-05-05 - Adds unused voice variation(s) to USA Aircraft Carrier <a name='link__20230505__1918_unused_aircraft_carrier_voices'></a>
@@ -4147,6 +4249,39 @@ Contains 201 entries with
 **Source:** 1919_chinook_death_voice.yaml
 
 ---
+### 2023-05-05 - Improves voice setup of USA Paladin <a name='link__20230505__1925_improve_paladin_voices'></a>
+**Changes**
+
+- **TWEAK**: Moves voice "Preserving freedom" from PaladinTankVoiceCreate to PaladinTankVoiceSelect.
+- **TWEAK**: Moves voice "Polished and ready" from PaladinTankVoiceSelect to PaladinTankVoiceCreate.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1925](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1925)
+
+**Labels:** audio, design, enhancement, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1925_improve_paladin_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to USA Paladin <a name='link__20230505__1925_unused_paladin_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Protecting our people" to PaladinTankVoiceSelect.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1925](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1925)
+
+**Labels:** audio, design, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1925_unused_paladin_voices.yaml
+
+---
 ### 2023-05-05 - Achieves homogeneous firing sound for machine gun of USA Comanche <a name='link__20230505__1930_comanche_gun_firing_sequence'></a>
 **Changes**
 
@@ -4177,6 +4312,22 @@ Contains 201 entries with
 **Authors:** xezon
 
 **Source:** 1931_battle_drone_gun_audio.yaml
+
+---
+### 2023-05-05 - Adds new voice variation(s) to USA Stealth Fighter <a name='link__20230505__1932_new_stealth_fighter_voices'></a>
+**Changes**
+
+- **FEATURE**: Replaces voice "Ready for covert mission" with "Stealth Fighter, ready for take-off" in StealthFighterVoiceCreate.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1932](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1932)
+
+**Labels:** audio, design, enhancement, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1932_new_stealth_fighter_voices.yaml
 
 ---
 ### 2023-05-09 - Increases volume of USA Comanche machine gun <a name='link__20230509__1939_comanche_gun_volume'></a>
@@ -4227,4 +4378,59 @@ Contains 201 entries with
 **Authors:** xezon
 
 **Source:** 1966_ranger_gun_firing_sequence.yaml
+
+---
+### 2023-05-20 - Adds fade in sound to B52 Bomber engine loop <a name='link__20230520__1970_b52_ambient_sounds'></a>
+**Changes**
+
+- **FIX**: Adds a fade in sound to the B52 engine loop. This way sound fade is gentle when Bomber flies into camera view.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1970](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1970)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1970_b52_ambient_sounds.yaml
+
+---
+### 2023-09-24 - Adds unused voice variation(s) to USA Aurora <a name='link__20230924__1274_unused_aurora_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Fuel levels are critical" to AuroraBomberVoiceLowFuel.
+- **TWEAK**: Adds unused voice "Fuel gauge is in the red" to AuroraBomberVoiceLowFuel.
+- **TWEAK**: Adds unused voice "Let's make this quick" to AuroraBomberVoiceAttack.
+- **TWEAK**: Adds unused voice "We won't slow down" to AuroraBomberVoiceAttack.
+- **TWEAK**: Adds unused voice "Will be a clean delivery" to AuroraBomberVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1274_unused_aurora_voices.yaml
+
+---
+### 2023-09-24 - Adds unused voice variation(s) to USA Raptor <a name='link__20230924__1274_unused_raptor_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Fuel is in the red" to RaptorVoiceLowFuel.
+- **TWEAK**: Adds unused voice "Tank is almost dry, General" to RaptorVoiceLowFuel.
+- **TWEAK**: Adds unused voice "We are running on fumes" to RaptorVoiceLowFuel.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1274_unused_raptor_voices.yaml
 

@@ -99,9 +99,9 @@ Contains 103 entries with
 - [2023-01-08 - Decreases build time of China Mines](#link__20230108__1533_china_mines_build_time)
 - [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
 - [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
-- [2023-04-08 - Increases movement speed of China Overlord by up to 25%](#link__20230408__1813_overlord_speed)
-- [2023-04-08 - Increases movement speed of China Battlemaster by up to 20%](#link__20230408__1815_battlemaster_speed)
-- [2023-04-17 - Increases movement speed of China Emperor by up to 25%](#link__20230417__1854_emperor_speed)
+- [2023-04-08 - Increases China Overlord speed by 25%, upgraded speed by 16%](#link__20230408__1813_overlord_speed)
+- [2023-04-08 - Increases China Battlemaster speed by 20%, upgraded speed by 14%](#link__20230408__1815_battlemaster_speed)
+- [2023-04-17 - Increases China Emperor speed by 25%, upgraded speed by 16%](#link__20230417__1854_emperor_speed)
 - [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
 - [2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds](#link__20210903__164_demo_technical_suicide_delay)
 - [2021-09-11 - Fixes GLA Car Bomb unable to attack target](#link__20210911__307_car_bomb_attack_bug)
@@ -1202,7 +1202,7 @@ Contains 103 entries with
 **Source:** 1670_overlord_emperor_idle_reload.yaml
 
 ---
-### 2023-04-08 - Increases movement speed of China Overlord by up to 25% <a name='link__20230408__1813_overlord_speed'></a>
+### 2023-04-08 - Increases China Overlord speed by 25%, upgraded speed by 16% <a name='link__20230408__1813_overlord_speed'></a>
 **Changes**
 
 - **TWEAK**: Increases regular China Overlord
@@ -1224,7 +1224,7 @@ Contains 103 entries with
 **Source:** 1813_overlord_speed.yaml
 
 ---
-### 2023-04-08 - Increases movement speed of China Battlemaster by up to 20% <a name='link__20230408__1815_battlemaster_speed'></a>
+### 2023-04-08 - Increases China Battlemaster speed by 20%, upgraded speed by 14% <a name='link__20230408__1815_battlemaster_speed'></a>
 **Changes**
 
 - **TWEAK**: Increases China Battlemaster speed from 25 to 30, upgraded speed 35 to 40. This affects regular China General and Tank General. Movement speed is now competitive with tank speeds of USA and GLA.
@@ -1240,7 +1240,7 @@ Contains 103 entries with
 **Source:** 1815_battlemaster_speed.yaml
 
 ---
-### 2023-04-17 - Increases movement speed of China Emperor by up to 25% <a name='link__20230417__1854_emperor_speed'></a>
+### 2023-04-17 - Increases China Emperor speed by 25%, upgraded speed by 16% <a name='link__20230417__1854_emperor_speed'></a>
 **Changes**
 
 - **TWEAK**: Increases China Emperor

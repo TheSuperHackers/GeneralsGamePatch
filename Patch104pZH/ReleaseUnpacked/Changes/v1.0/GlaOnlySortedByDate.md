@@ -6,35 +6,35 @@ Includes changes with labels: gla
 Occuring labels are
 
 - art (20)
-- audio (23)
+- audio (27)
 - buff (23)
 - bug (118)
 - china (16)
 - civilian (1)
 - controversial (32)
 - critical (2)
-- design (42)
-- enhancement (11)
-- gla (170)
+- design (46)
+- enhancement (15)
+- gla (174)
 - gui (9)
-- major (18)
-- minor (149)
+- major (19)
+- minor (152)
 - nerf (12)
-- optional (4)
+- optional (8)
 - performance (1)
 - text (2)
 - usa (17)
-- v1.0 (170)
+- v1.0 (174)
 
 Sorts changes by: date (ascending)
 
-Contains 170 entries with
+Contains 174 entries with
 
-- 213 changes
+- 217 changes
   - FIX (158)
   - FEATURE (9)
   - OPTIMIZATION (1)
-  - TWEAK (45)
+  - TWEAK (49)
 - 116 subchanges
   - FIX (57)
   - FEATURE (1)
@@ -204,6 +204,10 @@ Contains 170 entries with
 - [2023-05-05 - Fixes misspelled voice file(s) of GLA Quad Cannon](#link__20230505__1913_misspelled_quad_cannon_voices)
 - [2023-05-05 - Fixes misspelled voice file(s) of GLA Scorpion Tank](#link__20230505__1913_misspelled_scorpion_tank_voices)
 - [2023-05-05 - Fixes misspelled voice file(s) of GLA Worker](#link__20230505__1913_misspelled_worker_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Booby Trap upgrade](#link__20230505__1915_unused_booby_trap_upgrade_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Cash Bounty upgrade](#link__20230505__1915_unused_cash_bounty_upgrade_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Anthrax Gamma upgrade](#link__20230505__1915_unused_gamma_upgrade_voices)
+- [2023-05-05 - Adds unused voice variation(s) to GLA Worker Shoes upgrade](#link__20230505__1915_unused_worker_shoes_upgrade_voices)
 - [2023-05-05 - Adds unused voice variation(s) to GLA Battle Bus](#link__20230505__1918_unused_battle_bus_voices)
 - [2023-05-05 - Adds unused voice variation(s) to GLA Quad Cannon](#link__20230505__1918_unused_quad_cannon_voices)
 - [2023-05-05 - Adds unused voice variation(s) to GLA RPG Trooper](#link__20230505__1918_unused_rpg_trooper_voices)
@@ -1835,9 +1839,9 @@ Contains 170 entries with
 ### 2022-09-01 - Fixes audio flaws in English sounds <a name='link__20220901__1061_audio_fixes'></a>
 **Changes**
 
-- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 783 English voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 1238 English voices
 - **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout in 221 English eva voices
-- **FIX**: Fixes noises, humming, crackling, clicking, popping in 38 common voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping in 53 common voices
 - **FIX**: Fixes clicking, fadein, fadeout in 123 vehicle sounds
 - **FIX**: Fixes noises, clicking, fadeout in 104 fx sounds
 - **FIX**: Fixes clicking, fadein, fadeout in 4 ui sounds
@@ -1849,8 +1853,9 @@ Contains 170 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964)
 
-**Labels:** audio, china, gla, minor, optional, usa, v1.0
+**Labels:** audio, china, gla, major, optional, usa, v1.0
 
 **Authors:** xezon
 
@@ -3091,6 +3096,70 @@ Contains 170 entries with
 **Authors:** xezon
 
 **Source:** 1913_misspelled_worker_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Booby Trap upgrade <a name='link__20230505__1915_unused_booby_trap_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Our Booby Traps will surprise the enemy" to RebelVoiceUpgradeBoobyTrap.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, design, enhancement, gla, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_booby_trap_upgrade_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Cash Bounty upgrade <a name='link__20230505__1915_unused_cash_bounty_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "The Cash Bounty will help our cause" to RebelVoiceUpgradeCashBounty.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, design, enhancement, gla, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_cash_bounty_upgrade_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Anthrax Gamma upgrade <a name='link__20230505__1915_unused_gamma_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "The new Anthrax Gamma is here, General" to ToxinTractorVoiceUpgradeGamma.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, design, enhancement, gla, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_gamma_upgrade_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to GLA Worker Shoes upgrade <a name='link__20230505__1915_unused_worker_shoes_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "I like my new shoes" to WorkerVoiceUpgradeShoes.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, design, enhancement, gla, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_worker_shoes_upgrade_voices.yaml
 
 ---
 ### 2023-05-05 - Adds unused voice variation(s) to GLA Battle Bus <a name='link__20230505__1918_unused_battle_bus_voices'></a>
