@@ -6,35 +6,35 @@ Includes changes with labels: china
 Occuring labels are
 
 - art (21)
-- audio (24)
+- audio (31)
 - buff (40)
 - bug (98)
-- china (169)
+- china (178)
 - civilian (1)
 - controversial (39)
 - critical (1)
-- design (60)
-- enhancement (15)
+- design (67)
+- enhancement (23)
 - gla (16)
-- gui (14)
-- major (21)
-- minor (146)
+- gui (16)
+- major (22)
+- minor (154)
 - nerf (3)
-- optional (7)
+- optional (10)
 - performance (5)
 - text (4)
 - usa (21)
-- v1.0 (169)
+- v1.0 (178)
 - wip (1)
 
 Sorts changes by: date (ascending)
 
-Contains 169 entries with
+Contains 178 entries with
 
-- 216 changes
-  - FIX (152)
-  - TWEAK (59)
-  - FEATURE (5)
+- 239 changes
+  - FIX (153)
+  - TWEAK (76)
+  - FEATURE (10)
 - 125 subchanges
   - FIX (57)
   - FEATURE (1)
@@ -183,27 +183,36 @@ Contains 169 entries with
 - [2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost](#link__20230214__1707_outpost_crush_death)
 - [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
 - [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
-- [2023-04-08 - Increases movement speed of China Overlord by up to 25%](#link__20230408__1813_overlord_speed)
-- [2023-04-08 - Increases movement speed of China Battlemaster by up to 20%](#link__20230408__1815_battlemaster_speed)
+- [2023-04-08 - Increases China Overlord speed by 25%, upgraded speed by 16%](#link__20230408__1813_overlord_speed)
+- [2023-04-08 - Increases China Battlemaster speed by 20%, upgraded speed by 14%](#link__20230408__1815_battlemaster_speed)
 - [2023-04-08 - Fixes Isotope Stability upgrade icon placements](#link__20230408__1816_isotope_stability_cameo)
 - [2023-04-09 - Fixes drop location of China Battlemaster Paradrop](#link__20230409__1780_battlemaster_paradrop_location)
 - [2023-04-09 - Fixes choppy physics of China Battlemaster Paradrop](#link__20230409__1825_battlemaster_paradrop_physics)
-- [2023-04-17 - Increases movement speed of China Emperor by up to 25%](#link__20230417__1854_emperor_speed)
+- [2023-04-17 - Increases China Emperor speed by 25%, upgraded speed by 16%](#link__20230417__1854_emperor_speed)
 - [2023-04-21 - Moves Radar upgrade button above Mines upgrade button on China Command Center](#link__20230421__1861_china_radar_button_placement)
 - [2023-04-23 - Fixes and improves explosion effects of China Neutron Shells](#link__20230423__1872_neutron_shell_effects)
 - [2023-04-24 - Adds missing smoke particles to wrecks of China Troop Crawler, Listening Outpost](#link__20230424__1875_outpost_crawler_wreck_smoke)
 - [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
 - [2023-04-30 - Optimizes button placements of China Dozer](#link__20230430__1888_china_dozer_buttons)
-- [2023-04-30 - Fixes issue where China Overlord attachment upgrade buttons disappear after research](#link__20230430__1891_overlord_attachment_upgrade_buttons)
+- [2023-04-30 - Fixes upgrade buttons of China Overlord and Emperor disappearing after research](#link__20230430__1891_overlord_attachment_upgrade_buttons)
+- [2023-05-01 - Improves Gattling Cannon upgrade button of China Overlord and Emperor to be usable in group selections](#link__20230501__1896_overlord_emperor_gattling_cannon_button)
+- [2023-05-01 - Improves upgrade command button and upgrade cameo icon placements of China Overlord and Emperor](#link__20230501__1896_overlord_upgrade_buttons_and_icons)
 - [2023-05-05 - Prevents shells of China Artillery Barrage from killing each other](#link__20230505__1905_artillery_shells_health)
+- [2023-05-05 - Adds unused voice variation(s) to China Black Lotus](#link__20230505__1908_unused_black_lotus_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Super Lotus](#link__20230505__1908_unused_super_lotus_voices)
+- [2023-05-05 - Adds new voice variation(s) to China Nuke Battlemaster](#link__20230505__1909_new_nuke_battlemaster_voices)
 - [2023-05-05 - Fixes misspelled voice file(s) of China Dozer](#link__20230505__1913_misspelled_china_dozer_voices)
 - [2023-05-05 - Fixes misspelled voice file(s) of China Nuke Cannon](#link__20230505__1913_misspelled_nuke_cannon_voices)
 - [2023-05-05 - Fixes misspelled voice file(s) of China Red Guard](#link__20230505__1913_misspelled_red_guard_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Auto Loader upgrade](#link__20230505__1915_unused_auto_loader_upgrade_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Patriotism upgrade](#link__20230505__1915_unused_patriotism_upgrade_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Uranium Shells upgrade](#link__20230505__1915_unused_uranium_shells_upgrade_voices)
 - [2023-05-05 - Adds unused voice variation(s) to China POW Truck](#link__20230505__1918_unused_china_pow_truck_voices)
 - [2023-05-05 - Adds unused voice variation(s) to China Gattling Tank](#link__20230505__1918_unused_gattling_tank_voices)
 - [2023-05-05 - Adds unused voice variation(s) to China Hacker](#link__20230505__1918_unused_hacker_voices)
 - [2023-05-05 - Adds unused voice variation(s) to China Helix](#link__20230505__1918_unused_helix_voices)
 - [2023-05-05 - Adds unused voice variation(s) to China Nuke Cannon](#link__20230505__1918_unused_nuke_cannon_voices)
+- [2023-05-05 - Adds unused voice variation(s) to China Overlord](#link__20230505__1924_unused_overlord_voices)
 - [2023-05-05 - Achieves homogeneous firing sound for machine gun of China Helix](#link__20230505__1930_helix_gun_firing_sequence)
 - [2023-05-05 - Removes invalid sound from SupplyTruckVoiceSupply](#link__20230505__1933_supply_truck_invalid_sound)
 - [2023-05-09 - Increases volume of China Helix machine gun](#link__20230509__1939_helix_gun_volume)
@@ -1365,9 +1374,9 @@ Contains 169 entries with
 ### 2022-09-01 - Fixes audio flaws in English sounds <a name='link__20220901__1061_audio_fixes'></a>
 **Changes**
 
-- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 783 English voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 1238 English voices
 - **FIX**: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout in 221 English eva voices
-- **FIX**: Fixes noises, humming, crackling, clicking, popping in 38 common voices
+- **FIX**: Fixes noises, humming, crackling, clicking, popping in 53 common voices
 - **FIX**: Fixes clicking, fadein, fadeout in 123 vehicle sounds
 - **FIX**: Fixes noises, clicking, fadeout in 104 fx sounds
 - **FIX**: Fixes clicking, fadein, fadeout in 4 ui sounds
@@ -1379,8 +1388,9 @@ Contains 169 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1812)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964)
 
-**Labels:** audio, china, gla, minor, optional, usa, v1.0
+**Labels:** audio, china, gla, major, optional, usa, v1.0
 
 **Authors:** xezon
 
@@ -2786,7 +2796,7 @@ Contains 169 entries with
 **Source:** 1802_timed_demo_charge_audio.yaml
 
 ---
-### 2023-04-08 - Increases movement speed of China Overlord by up to 25% <a name='link__20230408__1813_overlord_speed'></a>
+### 2023-04-08 - Increases China Overlord speed by 25%, upgraded speed by 16% <a name='link__20230408__1813_overlord_speed'></a>
 **Changes**
 
 - **TWEAK**: Increases regular China Overlord
@@ -2808,7 +2818,7 @@ Contains 169 entries with
 **Source:** 1813_overlord_speed.yaml
 
 ---
-### 2023-04-08 - Increases movement speed of China Battlemaster by up to 20% <a name='link__20230408__1815_battlemaster_speed'></a>
+### 2023-04-08 - Increases China Battlemaster speed by 20%, upgraded speed by 14% <a name='link__20230408__1815_battlemaster_speed'></a>
 **Changes**
 
 - **TWEAK**: Increases China Battlemaster speed from 25 to 30, upgraded speed 35 to 40. This affects regular China General and Tank General. Movement speed is now competitive with tank speeds of USA and GLA.
@@ -2875,7 +2885,7 @@ Contains 169 entries with
 **Source:** 1825_battlemaster_paradrop_physics.yaml
 
 ---
-### 2023-04-17 - Increases movement speed of China Emperor by up to 25% <a name='link__20230417__1854_emperor_speed'></a>
+### 2023-04-17 - Increases China Emperor speed by 25%, upgraded speed by 16% <a name='link__20230417__1854_emperor_speed'></a>
 **Changes**
 
 - **TWEAK**: Increases China Emperor
@@ -2990,20 +3000,54 @@ Contains 169 entries with
 **Source:** 1888_china_dozer_buttons.yaml
 
 ---
-### 2023-04-30 - Fixes issue where China Overlord attachment upgrade buttons disappear after research <a name='link__20230430__1891_overlord_attachment_upgrade_buttons'></a>
+### 2023-04-30 - Fixes upgrade buttons of China Overlord and Emperor disappearing after research <a name='link__20230430__1891_overlord_attachment_upgrade_buttons'></a>
 **Changes**
 
-- **FIX**: China Overlord upgrade buttons will no longer disappear after researching the Gattling Cannon or Propaganda Tower upgrades. They will still disappear when researching Bunker upgrade however, because that claims the upgrade button positions with passenger buttons. The upgrade buttons can now be used on multi Overlord selection to build an upgrade any time, as long as one of the selected Overlords does not own the Bunker upgrade.
+- **FIX**: The China Overlord and Emperor upgrade buttons will no longer disappear after researching the Gattling Cannon, Propaganda Tower and Battle Bunker upgrade. The upgrade buttons can now be used in a group selection even if some selected Overlords already own upgrades.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1891](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1891)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896)
 
 **Labels:** bug, china, gui, minor, v1.0
 
 **Authors:** xezon
 
 **Source:** 1891_overlord_attachment_upgrade_buttons.yaml
+
+---
+### 2023-05-01 - Improves Gattling Cannon upgrade button of China Overlord and Emperor to be usable in group selections <a name='link__20230501__1896_overlord_emperor_gattling_cannon_button'></a>
+**Changes**
+
+- **TWEAK**: The Gattling Cannon upgrade of the China Overlord and Emperor can now be acquired in group selections.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896)
+
+**Labels:** china, enhancement, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1896_overlord_emperor_gattling_cannon_button.yaml
+
+---
+### 2023-05-01 - Improves upgrade command button and upgrade cameo icon placements of China Overlord and Emperor <a name='link__20230501__1896_overlord_upgrade_buttons_and_icons'></a>
+**Changes**
+
+- **TWEAK**: Matches the position and order of the China Overlord and Emperor upgrade command button with those of the China Helix.
+- **FIX**: Matches the order of the China Overlord and Emperor upgrade cameo icons with the order of the command buttons.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896)
+
+**Labels:** china, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1896_overlord_upgrade_buttons_and_icons.yaml
 
 ---
 ### 2023-05-05 - Prevents shells of China Artillery Barrage from killing each other <a name='link__20230505__1905_artillery_shells_health'></a>
@@ -3020,6 +3064,65 @@ Contains 169 entries with
 **Authors:** xezon
 
 **Source:** 1905_artillery_shells_health.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Black Lotus <a name='link__20230505__1908_unused_black_lotus_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "I'm in. We control the building now" to BlackLotusVoiceCaptureComplete.
+- **TWEAK**: Adds unused voice "Building capture complete" to BlackLotusVoiceCaptureComplete.
+- **TWEAK**: Adds unused voice "We have their building. What's next?" to BlackLotusVoiceCaptureComplete.
+- **TWEAK**: Adds unused voice "I'll make this quick" to BlackLotusVoiceHackVehicle.
+- **TWEAK**: Adds unused voice "I got it covered" to BlackLotusVoiceHackVehicle.
+- **TWEAK**: Adds unused voice "That's it. Their vehicle is down" to BlackLotusVoiceDisableComplete.
+- **TWEAK**: Adds unused voice "The vehicle is down. What's next?" to BlackLotusVoiceDisableComplete.
+- **TWEAK**: Adds unused voice "They won't even notice" to BlackLotusVoiceHackCash.
+- **TWEAK**: Adds unused voice "Credit transfer ready" to BlackLotusVoiceCashComplete.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1908](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1908)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1908_unused_black_lotus_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Super Lotus <a name='link__20230505__1908_unused_super_lotus_voices'></a>
+**Changes**
+
+- **FEATURE**: Adds unused voice "Super Lotus here. Give me an update" to SuperBlackLotusVoiceCreate.
+- **FEATURE**: Adds unused voice "Super Lotus" to SuperBlackLotusVoiceSelect.
+- **FEATURE**: Adds unused voice "I'm quick" to SuperBlackLotusVoiceMove.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1908](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1908)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1908_unused_super_lotus_voices.yaml
+
+---
+### 2023-05-05 - Adds new voice variation(s) to China Nuke Battlemaster <a name='link__20230505__1909_new_nuke_battlemaster_voices'></a>
+**Changes**
+
+- **FEATURE**: Adds new voice "Nuklear Battlemaster tank reporting" to NukeBattleMasterTankVoiceSelect.
+- **FEATURE**: Adds new voice "Nuklear Battlemaster here" to NukeBattleMasterTankVoiceCreate.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1909](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1909)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1909_new_nuke_battlemaster_voices.yaml
 
 ---
 ### 2023-05-05 - Fixes misspelled voice file(s) of China Dozer <a name='link__20230505__1913_misspelled_china_dozer_voices'></a>
@@ -3068,6 +3171,55 @@ Contains 169 entries with
 **Authors:** xezon
 
 **Source:** 1913_misspelled_red_guard_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Auto Loader upgrade <a name='link__20230505__1915_unused_auto_loader_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "The Auto Loaders will ensure our victory" to BattleMasterTankVoiceUpgradeAutoLoader.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, china, design, enhancement, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_auto_loader_upgrade_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Patriotism upgrade <a name='link__20230505__1915_unused_patriotism_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Our patriotism will overwhelm the enemy" to RedGuardVoiceUpgradePatriotism.
+- **TWEAK**: Adds unused voice "Patriotism will lead us to more victories" to RedGuardVoiceUpgradePatriotism.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, china, design, enhancement, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_patriotism_upgrade_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Uranium Shells upgrade <a name='link__20230505__1915_unused_uranium_shells_upgrade_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "The Weapons-grade Uranium shells will destroy the enemy" to BattleMasterTankVoiceUpgradeWeaponsGrade.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915)
+
+**Labels:** audio, china, design, enhancement, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1915_unused_uranium_shells_upgrade_voices.yaml
 
 ---
 ### 2023-05-05 - Adds unused voice variation(s) to China POW Truck <a name='link__20230505__1918_unused_china_pow_truck_voices'></a>
@@ -3152,6 +3304,23 @@ Contains 169 entries with
 **Authors:** xezon
 
 **Source:** 1918_unused_nuke_cannon_voices.yaml
+
+---
+### 2023-05-05 - Adds unused voice variation(s) to China Overlord <a name='link__20230505__1924_unused_overlord_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "They will beg for mercy" to OverlordTankVoiceAttack.
+- **TWEAK**: Adds unused voice "Leave now" to OverlordTankVoiceUnload.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1924](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1924)
+
+**Labels:** audio, china, design, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1924_unused_overlord_voices.yaml
 
 ---
 ### 2023-05-05 - Achieves homogeneous firing sound for machine gun of China Helix <a name='link__20230505__1930_helix_gun_firing_sequence'></a>

@@ -1561,6 +1561,7 @@ Contains 113 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1968](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1968)
 
 **Labels:** art, audio, enhancement, minor, usa, v1.0
 
