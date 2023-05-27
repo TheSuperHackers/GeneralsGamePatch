@@ -15,6 +15,159 @@
                 ]
             },
             {
+                "name": "CoreAudioArabic",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Arabic/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioBrazilian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioChinese",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Chinese/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioEnglish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/English/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioFrench",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/French/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioGerman",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/German/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioItalian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Italian/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioKorean",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Korean/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioPolish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Polish/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioRussian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/Russian/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioSpanish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Spanish/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "AxOptionalAudio",
                 "big": true,
                 "files": [

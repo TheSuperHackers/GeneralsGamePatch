@@ -11,12 +11,6 @@
                         "parent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Arabic/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Arabic/*.wav"
-                            }
                         ]
                     },
                     {
@@ -42,12 +36,6 @@
                         "parent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Brazilian/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
-                            }
                         ],
                         "registryList": [
                             "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
@@ -77,12 +65,6 @@
                         "sourceList": [
                             "Data/Chinese/*.ini",
                             "Data/Chinese/Art/W3D/*.W3D"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Chinese/*.wav"
-                            }
                         ],
                         "registryList": [
                             "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
@@ -114,7 +96,6 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/English/*.wav",
                             "Data/English/*.ini"
                         ],
                         "registryList": [
@@ -143,7 +124,6 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/French/*.wav",
                             "Data/French/*.ini",
                             "Data/French/Art/W3D/*.W3D"
                         ],
@@ -177,7 +157,6 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/German/*.wav",
                             "Data/German/*.ini"
                         ],
                         "registryList": [
@@ -212,12 +191,6 @@
                         "sourceList": [
                             "Data/Italian/*.ini"
                         ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Italian/*.wav"
-                            }
-                        ],
                         "registryList": [
                             "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
@@ -246,12 +219,6 @@
                         "sourceList": [
                             "Data/Korean/*.ini",
                             "Data/Korean/Art/W3D/*.W3D"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Korean/*.wav"
-                            }
                         ],
                         "registryList": [
                             "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
@@ -285,12 +252,6 @@
                         "sourceList": [
                             "Data/Polish/*.ini"
                         ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Polish/*.wav"
-                            }
-                        ],
                         "registryList": [
                             "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
                         ]
@@ -317,7 +278,6 @@
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
-                            "Data/Audio/Sounds/Russian/*.wav",
                             "Data/Russian/*.ini"
                         ]
                     },
@@ -344,12 +304,6 @@
                         "parent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Spanish/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Spanish/*.wav"
-                            }
                         ],
                         "registryList": [
                             "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"

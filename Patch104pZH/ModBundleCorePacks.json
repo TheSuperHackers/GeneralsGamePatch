@@ -8,6 +8,7 @@
                 "name": "CoreArabic",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioArabic",
                     "CoreINI",
                     "CoreLangArabic",
                     "CoreMaps",
@@ -20,6 +21,7 @@
                 "name": "CoreBrazilian",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioBrazilian",
                     "CoreINI",
                     "CoreLangBrazilian",
                     "CoreMaps",
@@ -32,6 +34,7 @@
                 "name": "CoreChinese",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioChinese",
                     "CoreINI",
                     "CoreLangChinese",
                     "CoreMaps",
@@ -44,6 +47,7 @@
                 "name": "CoreEnglish",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioEnglish",
                     "CoreINI",
                     "CoreLangEnglish",
                     "CoreMaps",
@@ -56,6 +60,7 @@
                 "name": "CoreFrench",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioFrench",
                     "CoreINI",
                     "CoreLangFrench",
                     "CoreMaps",
@@ -68,6 +73,7 @@
                 "name": "CoreGerman",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioGerman",
                     "CoreINI",
                     "CoreLangGerman",
                     "CoreMaps",
@@ -80,6 +86,7 @@
                 "name": "CoreItalian",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioItalian",
                     "CoreINI",
                     "CoreLangItalian",
                     "CoreMaps",
@@ -92,6 +99,7 @@
                 "name": "CoreKorean",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioKorean",
                     "CoreINI",
                     "CoreLangKorean",
                     "CoreMaps",
@@ -104,6 +112,7 @@
                 "name": "CorePolish",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioPolish",
                     "CoreINI",
                     "CoreLangPolish",
                     "CoreMaps",
@@ -116,6 +125,7 @@
                 "name": "CoreRussian",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioRussian",
                     "CoreINI",
                     "CoreLangRussian",
                     "CoreMaps",
@@ -128,6 +138,7 @@
                 "name": "CoreSpanish",
                 "itemNames": [
                     "CoreAudio",
+                    "CoreAudioSpanish",
                     "CoreINI",
                     "CoreLangSpanish",
                     "CoreMaps",
