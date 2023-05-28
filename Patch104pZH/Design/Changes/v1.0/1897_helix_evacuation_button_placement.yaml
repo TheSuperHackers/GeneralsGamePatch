@@ -1,0 +1,21 @@
+---
+date: 2023-05-01
+
+title: Swaps Drop Bomb and Evacuate buttons on China Helix command set
+
+changes:
+  - tweak: Swaps Drop Bomb and Evacuate buttons on China Helix command set to allow evacuation in group selections with other kinds of transports.
+
+labels:
+  - china
+  - enhancement
+  - gui
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1897
+
+authors:
+  - xezon
