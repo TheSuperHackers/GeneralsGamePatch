@@ -1,0 +1,19 @@
+---
+date: 2023-05-28
+
+title: Optimizes button placements of Boss Dozer
+
+changes:
+  - tweak: Optimizes button placements of Boss Dozer. The Barracks and Supply Center buttons are now placed at familiar positions.
+
+labels:
+  - boss
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1982
+
+authors:
+  - xezon
