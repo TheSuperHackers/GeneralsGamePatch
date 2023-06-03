@@ -1,0 +1,771 @@
+DialogEvent     UnitDescriptLin01
+   Filename =   dxoc001.wav
+End
+
+DialogEvent     UnitDescriptLin02
+   Filename =   dxoc002.wav
+End
+
+DialogEvent     UnitDescriptLin03
+   Filename =   dxoc003.wav
+End
+
+DialogEvent     UnitDescriptLin04
+   Filename =   dxoc004.wav
+End
+
+DialogEvent     UnitDescriptLin05
+   Filename =   dxoc005.wav
+End
+
+DialogEvent     UnitDescriptLin06
+   Filename =   dxoc006.wav
+End
+
+DialogEvent     UnitDescriptLin07
+   Filename =   dxoc007.wav
+End
+
+DialogEvent     UnitDescriptLin08
+   Filename =   dxoc008.wav
+End
+
+DialogEvent     UnitDescriptLin09
+   Filename =   dxoc009.wav
+End
+
+DialogEvent     UnitDescriptLin10
+   Filename =   dxoc010.wav
+End
+
+DialogEvent     UnitDescriptLin11
+   Filename =   dxoc011.wav
+End
+
+DialogEvent     UnitDescriptLin12
+   Filename =   dxoc012.wav
+End
+
+DialogEvent     UnitDescriptLin13
+   Filename =   dxoc013.wav
+End
+
+DialogEvent     UnitDescriptLin14
+   Filename =   dxoc014.wav
+End
+
+DialogEvent     UnitDescriptLin15
+   Filename =   dxoc015.wav
+End
+
+DialogEvent     UnitDescriptLin16
+   Filename =   dxoc016.wav
+End
+
+DialogEvent     UnitDescriptLin17
+   Filename =   dxoc017.wav
+End
+
+DialogEvent     UnitDescriptLin18
+   Filename =   dxoc018.wav
+End
+
+DialogEvent     UnitDescriptLin19
+   Filename =   dxoc019.wav
+End
+
+DialogEvent     UnitDescriptLin20
+   Filename =   dxoc020.wav
+End
+
+DialogEvent     UnitDescriptLin21
+   Filename =   dxoc021.wav
+End
+
+DialogEvent     UnitDescriptLin22
+   Filename =   dxoc022.wav
+End
+
+DialogEvent     UnitDescriptLin23
+   Filename =   dxoc023.wav
+End
+
+DialogEvent     UnitDescriptLin24
+   Filename =   dxoc024.wav
+End
+
+DialogEvent     UnitDescriptLin25
+   Filename =   dxoc025.wav
+End
+
+DialogEvent     UnitDescriptLin26
+   Filename =   dxoc026.wav
+End
+
+DialogEvent     UnitDescriptLin27
+   Filename =   dxoc027.wav
+End
+
+DialogEvent     UnitDescriptLin28
+   Filename =   dxoc028.wav
+End
+
+DialogEvent     UnitDescriptLin29
+   Filename =   dxoc029.wav
+End
+
+DialogEvent     UnitDescriptLin30
+   Filename =   dxoc030.wav
+End
+
+DialogEvent     UnitDescriptLin31
+   Filename =   dxoc031.wav
+End
+
+DialogEvent     UnitDescriptLin32
+   Filename =   dxoc032.wav
+End
+
+DialogEvent     UnitDescriptLin33
+   Filename =   dxoc033.wav
+End
+
+DialogEvent     UnitDescriptLin34
+   Filename =   dxoc034.wav
+End
+
+DialogEvent     UnitDescriptLin35
+   Filename =   dxoc035.wav
+End
+
+DialogEvent     UnitDescriptLin36
+   Filename =   dxoc036.wav
+End
+
+DialogEvent     UnitDescriptLin37
+   Filename =   dxoc037.wav
+End
+
+DialogEvent     UnitDescriptLin38
+   Filename =   dxoc038.wav
+End
+
+DialogEvent     UnitDescriptLin39
+   Filename =   dxoc039.wav
+End
+
+DialogEvent     UnitDescriptLin40
+   Filename =   dxoc040.wav
+End
+
+DialogEvent     UnitDescriptLin41
+   Filename =   dxoc041.wav
+End
+
+DialogEvent     UnitDescriptLin42
+   Filename =   dxoc042.wav
+End
+
+DialogEvent     UnitDescriptLin43
+   Filename =   dxoc043.wav
+End
+
+DialogEvent     UnitDescriptLin44
+   Filename =   dxoc044.wav
+End
+
+DialogEvent     UnitDescriptLin45
+   Filename =   dxoc045.wav
+End
+
+DialogEvent     UnitDescriptLin46
+   Filename =   dxoc046.wav
+End
+
+DialogEvent     UnitDescriptLin47
+   Filename =   dxoc047.wav
+End
+
+DialogEvent     UnitDescriptLin48
+   Filename =   dxoc048.wav
+End
+
+DialogEvent     UnitDescriptLin49
+   Filename =   dxoc049.wav
+End
+
+DialogEvent     UnitDescriptLin50
+   Filename =   dxoc050.wav
+End
+
+DialogEvent     UnitDescriptLin51
+   Filename =   dxoc051.wav
+End
+
+DialogEvent     UnitDescriptLin52
+   Filename =   dxoc052.wav
+End
+
+DialogEvent     UnitDescriptLin53
+   Filename =   dxoc053.wav
+End
+
+DialogEvent     UnitDescriptLin54
+   Filename =   dxoc054.wav
+End
+
+DialogEvent     UnitDescriptLin55
+   Filename =   dxoc055.wav
+End
+
+DialogEvent     UnitDescriptLin56
+   Filename =   dxoc056.wav
+End
+
+DialogEvent     UnitDescriptLin57
+   Filename =   dxoc057.wav
+End
+
+DialogEvent     UnitDescriptLin58
+   Filename =   dxoc058.wav
+End
+
+DialogEvent     UnitDescriptLin59
+   Filename =   dxoc059.wav
+End
+
+DialogEvent     UnitDescriptLin60
+   Filename =   dxoc060.wav
+End
+
+DialogEvent     UnitDescriptLin61
+   Filename =   dxoc061.wav
+End
+
+DialogEvent     UnitDescriptLin62
+   Filename =   dxoc062.wav
+End
+
+DialogEvent     UnitDescriptLin63
+   Filename =   dxoc063.wav
+End
+
+;- USA (GENERALS)
+
+DialogEvent     UnitDescriptEva01
+   Filename =   dxou001.wav
+End
+
+DialogEvent     UnitDescriptEva02
+   Filename =   dxou002.wav
+End
+
+DialogEvent     UnitDescriptEva03
+   Filename =   dxou003.wav
+End
+
+DialogEvent     UnitDescriptEva04
+   Filename =   dxou004.wav
+End
+
+DialogEvent     UnitDescriptEva05
+   Filename =   dxou005.wav
+End
+
+DialogEvent     UnitDescriptEva06
+   Filename =   dxou006.wav
+End
+
+DialogEvent     UnitDescriptEva07
+   Filename =   dxou007.wav
+End
+
+DialogEvent     UnitDescriptEva08
+   Filename =   dxou008.wav
+End
+
+DialogEvent     UnitDescriptEva09
+   Filename =   dxou009.wav
+End
+
+DialogEvent     UnitDescriptEva10
+   Filename =   dxou010.wav
+End
+
+DialogEvent     UnitDescriptEva11
+   Filename =   dxou011.wav
+End
+
+DialogEvent     UnitDescriptEva12
+   Filename =   dxou012.wav
+End
+
+DialogEvent     UnitDescriptEva13
+   Filename =   dxou013.wav
+End
+
+DialogEvent     UnitDescriptEva14
+   Filename =   dxou014.wav
+End
+
+DialogEvent     UnitDescriptEva15
+   Filename =   dxou015.wav
+End
+
+DialogEvent     UnitDescriptEva16
+   Filename =   dxou016.wav
+End
+
+DialogEvent     UnitDescriptEva17
+   Filename =   dxou017.wav
+End
+
+DialogEvent     UnitDescriptEva18
+   Filename =   dxou018.wav
+End
+
+DialogEvent     UnitDescriptEva19
+   Filename =   dxou019.wav
+End
+
+DialogEvent     UnitDescriptEva20
+   Filename =   dxou020.wav
+End
+
+DialogEvent     UnitDescriptEva21
+   Filename =   dxou021.wav
+End
+
+DialogEvent     UnitDescriptEva22
+   Filename =   dxou022.wav
+End
+
+DialogEvent     UnitDescriptEva23
+   Filename =   dxou023.wav
+End
+
+DialogEvent     UnitDescriptEva24
+   Filename =   dxou024.wav
+End
+
+DialogEvent     UnitDescriptEva25
+   Filename =   dxou025.wav
+End
+
+DialogEvent     UnitDescriptEva26
+   Filename =   dxou026.wav
+End
+
+DialogEvent     UnitDescriptEva27
+   Filename =   dxou027.wav
+End
+
+DialogEvent     UnitDescriptEva28
+   Filename =   dxou028.wav
+End
+
+DialogEvent     UnitDescriptEva29
+   Filename =   dxou029.wav
+End
+
+DialogEvent     UnitDescriptEva30
+   Filename =   dxou030.wav
+End
+
+DialogEvent     UnitDescriptEva31
+   Filename =   dxou031.wav
+End
+
+DialogEvent     UnitDescriptEva32
+   Filename =   dxou032.wav
+End
+
+DialogEvent     UnitDescriptEva33
+   Filename =   dxou033.wav
+End
+
+DialogEvent     UnitDescriptEva34
+   Filename =   dxou034.wav
+End
+
+DialogEvent     UnitDescriptEva35
+   Filename =   dxou035.wav
+End
+
+DialogEvent     UnitDescriptEva36
+   Filename =   dxou036.wav
+End
+
+DialogEvent     UnitDescriptEva37
+   Filename =   dxou037.wav
+End
+
+DialogEvent     UnitDescriptEva38
+   Filename =   dxou038.wav
+End
+
+DialogEvent     UnitDescriptEva39
+   Filename =   dxou039.wav
+End
+
+DialogEvent     UnitDescriptEva40
+   Filename =   dxou040.wav
+End
+
+DialogEvent     UnitDescriptEva41
+   Filename =   dxou041.wav
+End
+
+DialogEvent     UnitDescriptEva42
+   Filename =   dxou042.wav
+End
+
+DialogEvent     UnitDescriptEva43
+   Filename =   dxou043.wav
+End
+
+DialogEvent     UnitDescriptEva44
+   Filename =   dxou044.wav
+End
+
+DialogEvent     UnitDescriptEva45
+   Filename =   dxou045.wav
+End
+
+DialogEvent     UnitDescriptEva46
+   Filename =   dxou046.wav
+End
+
+DialogEvent     UnitDescriptEva47
+   Filename =   dxou047.wav
+End
+
+DialogEvent     UnitDescriptEva48
+   Filename =   dxou048.wav
+End
+
+DialogEvent     UnitDescriptEva49
+   Filename =   dxou049.wav
+End
+
+DialogEvent     UnitDescriptEva50
+   Filename =   dxou050.wav
+End
+
+DialogEvent     UnitDescriptEva51
+   Filename =   dxou051.wav
+End
+
+DialogEvent     UnitDescriptEva52
+   Filename =   dxou052.wav
+End
+
+DialogEvent     UnitDescriptEva53
+   Filename =   dxou053.wav
+End
+
+DialogEvent     UnitDescriptEva54
+   Filename =   dxou054.wav
+End
+
+DialogEvent     UnitDescriptEva55
+   Filename =   dxou055.wav
+End
+
+DialogEvent     UnitDescriptEva56
+   Filename =   dxou056.wav
+End
+
+DialogEvent     UnitDescriptEva57
+   Filename =   dxou057.wav
+End
+
+DialogEvent     UnitDescriptEva58
+   Filename =   dxou058.wav
+End
+
+DialogEvent     UnitDescriptEva59
+   Filename =   dxou059.wav
+End
+
+DialogEvent     UnitDescriptEva60
+   Filename =   dxou060.wav
+End
+
+DialogEvent     UnitDescriptEva61
+   Filename =   dxou061.wav
+End
+
+DialogEvent     UnitDescriptEva62
+   Filename =   dxou062.wav
+End
+
+DialogEvent     UnitDescriptEva63
+   Filename =   dxou063.wav
+End
+
+DialogEvent     UnitDescriptEva64
+   Filename =   dxou064.wav
+End
+
+DialogEvent     UnitDescriptEva65
+   Filename =   dxou065.wav
+End
+
+DialogEvent     UnitDescriptEva66
+   Filename =   dxou066.wav
+End
+
+; GLA (GENERALS)
+
+DialogEvent     UnitDescriptKen01
+   Filename =   dxog001.wav
+End
+
+DialogEvent     UnitDescriptKen02
+   Filename =   dxog002.wav
+End
+
+DialogEvent     UnitDescriptKen03
+   Filename =   dxog003.wav
+End
+
+DialogEvent     UnitDescriptKen04
+   Filename =   dxog004.wav
+End
+
+DialogEvent     UnitDescriptKen05
+   Filename =   dxog005.wav
+End
+
+DialogEvent     UnitDescriptKen06
+   Filename =   dxog006.wav
+End
+
+DialogEvent     UnitDescriptKen07
+   Filename =   dxog007.wav
+End
+
+DialogEvent     UnitDescriptKen08
+   Filename =   dxog008.wav
+End
+
+DialogEvent     UnitDescriptKen09
+   Filename =   dxog009.wav
+End
+
+DialogEvent     UnitDescriptKen10
+   Filename =   dxog010.wav
+End
+
+DialogEvent     UnitDescriptKen11
+   Filename =   dxog011.wav
+End
+
+DialogEvent     UnitDescriptKen12
+   Filename =   dxog012.wav
+End
+
+DialogEvent     UnitDescriptKen13
+   Filename =   dxog013.wav
+End
+
+DialogEvent     UnitDescriptKen14
+   Filename =   dxog014.wav
+End
+
+DialogEvent     UnitDescriptKen15
+   Filename =   dxog015.wav
+End
+
+DialogEvent     UnitDescriptKen16
+   Filename =   dxog016.wav
+End
+
+DialogEvent     UnitDescriptKen17
+   Filename =   dxog017.wav
+End
+
+DialogEvent     UnitDescriptKen18
+   Filename =   dxog018.wav
+End
+
+DialogEvent     UnitDescriptKen19
+   Filename =   dxog019.wav
+End
+
+DialogEvent     UnitDescriptKen20
+   Filename =   dxog020.wav
+End
+
+DialogEvent     UnitDescriptKen21
+   Filename =   dxog021.wav
+End
+
+DialogEvent     UnitDescriptKen22
+   Filename =   dxog022.wav
+End
+
+DialogEvent     UnitDescriptKen23
+   Filename =   dxog023.wav
+End
+
+DialogEvent     UnitDescriptKen24
+   Filename =   dxog024.wav
+End
+
+DialogEvent     UnitDescriptKen25
+   Filename =   dxog025.wav
+End
+
+DialogEvent     UnitDescriptKen26
+   Filename =   dxog026.wav
+End
+
+DialogEvent     UnitDescriptKen27
+   Filename =   dxog027.wav
+End
+
+DialogEvent     UnitDescriptKen28
+   Filename =   dxog028.wav
+End
+
+DialogEvent     UnitDescriptKen29
+   Filename =   dxog029.wav
+End
+
+DialogEvent     UnitDescriptKen30
+   Filename =   dxog030.wav
+End
+
+DialogEvent     UnitDescriptKen31
+   Filename =   dxog031.wav
+End
+
+DialogEvent     UnitDescriptKen32
+   Filename =   dxog032.wav
+End
+
+DialogEvent     UnitDescriptKen33
+   Filename =   dxog033.wav
+End
+
+DialogEvent     UnitDescriptKen34
+   Filename =   dxog034.wav
+End
+
+DialogEvent     UnitDescriptKen35
+   Filename =   dxog035.wav
+End
+
+DialogEvent     UnitDescriptKen36
+   Filename =   dxog036.wav
+End
+
+DialogEvent     UnitDescriptKen37
+   Filename =   dxog037.wav
+End
+
+DialogEvent     UnitDescriptKen38
+   Filename =   dxog038.wav
+End
+
+DialogEvent     UnitDescriptKen39
+   Filename =   dxog039.wav
+End
+
+DialogEvent     UnitDescriptKen40
+   Filename =   dxog040.wav
+End
+
+DialogEvent     UnitDescriptKen41
+   Filename =   dxog041.wav
+End
+
+DialogEvent     UnitDescriptKen42
+   Filename =   dxog042.wav
+End
+
+DialogEvent     UnitDescriptKen43
+   Filename =   dxog043.wav
+End
+
+DialogEvent     UnitDescriptKen44
+   Filename =   dxog044.wav
+End
+
+DialogEvent     UnitDescriptKen45
+   Filename =   dxog045.wav
+End
+
+DialogEvent     UnitDescriptKen46
+   Filename =   dxog046.wav
+End
+
+DialogEvent     UnitDescriptKen47
+   Filename =   dxog047.wav
+End
+
+DialogEvent     UnitDescriptKen48
+   Filename =   dxog048.wav
+End
+
+DialogEvent     UnitDescriptKen49
+   Filename =   dxog049.wav
+End
+
+DialogEvent     UnitDescriptKen50
+   Filename =   dxog050.wav
+End
+
+DialogEvent     UnitDescriptKen51
+   Filename =   dxog051.wav
+End
+
+DialogEvent     UnitDescriptKen52
+   Filename =   dxog052.wav
+End
+
+DialogEvent     UnitDescriptKen53
+   Filename =   dxog053.wav
+End
+
+DialogEvent     UnitDescriptKen54
+   Filename =   dxog054.wav
+End
+
+DialogEvent     UnitDescriptKen55
+   Filename =   dxog055.wav
+End
+
+DialogEvent     UnitDescriptKen56
+   Filename =   dxog056.wav
+End
+
+DialogEvent     UnitDescriptKen57
+   Filename =   dxog057.wav
+End
+
+DialogEvent     UnitDescriptKen58
+   Filename =   dxog058.wav
+End
+
+DialogEvent     UnitDescriptKen59
+   Filename =   dxog059.wav
+End
+
+DialogEvent     UnitDescriptKen60
+   Filename =   dxog060.wav
+End
+
+DialogEvent     UnitDescriptKen61
+   Filename =   dxog061.wav
+End
+
+DialogEvent     UnitDescriptKen62
+   Filename =   dxog062.wav
+End
+
+DialogEvent     UnitDescriptKen63
+   Filename =   dxog063.wav
+End

@@ -1,0 +1,4733 @@
+;====== Sounds for GLA01 (GENERALS) ==========================================
+DialogEvent     BriefingGLA01
+   Filename =   mg1xog01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisGLA01OfficerG01
+   Filename =   mg1ofg01.wav
+End
+
+DialogEvent     MisGLA01OfficerG02
+   Filename =   mg1ofg02.wav
+End
+
+DialogEvent     MisGLA01OfficerG03
+   Filename =   mg1ofg03.wav
+End
+
+DialogEvent     MisGLA01OfficerG04
+   Filename =   mg1ofg04.wav
+End
+
+DialogEvent     MisGLA01OfficerG05
+   Filename =   mg1ofg05.wav
+End
+
+DialogEvent     MisGLA01Scorpion101
+   Filename =   mg1sc101.wav
+End
+
+DialogEvent     MisGLA01BombTruck101
+   Filename =   mg1bo101.wav
+End
+
+DialogEvent     MisGLA01BombTruck201
+   Filename =   mg1bo201.wav
+End
+
+DialogEvent     MisGLA01Scorpion201
+   Filename =   mg1sc201.wav
+End
+
+DialogEvent     MisGLA01Scorpion102
+   Filename =   mg1sc102.wav
+End
+
+DialogEvent     MisGLA01Scorpion301
+   Filename =   mg1sc301.wav
+End
+
+DialogEvent     MisGLA01Scorpion202
+   Filename =   mg1sc202.wav
+End
+
+
+DialogEvent     MisGLA01Scorpion103
+   Filename =   mg1sc103.wav
+End
+
+DialogEvent     MisGLA01Scorpion203
+   Filename =   mg1sc203.wav
+End
+
+DialogEvent     MisGLA01Scorpion302
+   Filename =   mg1sc302.wav
+End
+
+DialogEvent     MisGLA01Scorpion104
+   Filename =   mg1sc104.wav
+End
+
+DialogEvent     MisGLA01OfficerG06
+   Filename =   mg1ofg06.wav
+End
+
+DialogEvent     MisGLA01Kenwar01
+   Filename =   mg1xog02.wav
+End
+
+DialogEvent     MisGLA01Kenwar02
+   Filename =   mg1xog03.wav
+End
+
+DialogEvent     MisGLA01Kenwar03
+   Filename =   mg1xog04.wav
+End
+
+DialogEvent     MisGLA01Kenwar04
+   Filename =   mg1xog05.wav
+End
+
+DialogEvent     MisGLA01Kenwar05
+   Filename =   mg1xog06.wav
+End
+
+DialogEvent     MisGLA01Scorpion204
+   Filename =   mg1sc204.wav
+End
+
+DialogEvent     MisGLA01OfficerG07
+   Filename =   mg1ofg07.wav
+End
+
+DialogEvent     MisGLA01Scorpion106
+   Filename =   mg1sc106.wav
+End
+
+DialogEvent     MisGLA01ArmsDealer01
+   Filename =   mg1arm01.wav
+End
+
+DialogEvent     MisGLA01Scorpion107
+   Filename =   mg1sc107.wav
+End
+
+DialogEvent     MisGLA01Scorpion205
+   Filename =   mg1sc205.wav
+End
+
+DialogEvent     MisGLA01OfficerG08
+   Filename =   mg1ofg08.wav
+End
+
+DialogEvent     MisGLA01OfficerG09
+   Filename =   mg1ofg09.wav
+End
+
+DialogEvent     MisGLA01OfficerG10
+   Filename =   mg1ofg10.wav
+End
+
+DialogEvent     MisGLA01OfficerG11
+   Filename =   mg1ofg11.wav
+End
+
+DialogEvent     MisGLA01OfficerG12
+   Filename =   mg1of12.wav
+End
+
+DialogEvent     MisGLA01Scorpion206
+   Filename =   mg1sc206.wav
+End
+
+DialogEvent     MisGLA01Scorpion110
+   Filename =   mg1sc110.wav
+End
+
+DialogEvent     MisGLA01Scorpion111
+   Filename =   mg1sc111.wav
+End
+
+DialogEvent     MisGLA01Kenwar06
+   Filename =   mg1xog07.wav
+End
+
+;====== Sounds for GLA02 (GENERALS) ==========================================
+DialogEvent     BriefingGLA02
+   Filename =   mg2xog01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisGLA02General01
+   Filename =   mg2xog02.wav
+End
+
+DialogEvent     MisGLA02General01a
+   Filename =   mg2xog03.wav
+End
+
+DialogEvent     MisGLA02General01b
+   Filename =   mg2xog04.wav
+End
+
+DialogEvent     MisGLA02General01c
+   Filename =   mg2xog05.wav
+End
+
+DialogEvent     MisGLA02General01d
+   Filename =   mg2xog06.wav
+End
+
+DialogEvent     MisGLA02General02
+   Filename =   mg2xog07.wav
+End
+
+DialogEvent     MisGLA02General03
+   Filename =   mg2xog08.wav
+End
+
+DialogEvent     MisGLA02General04
+   Filename =   mg2xog09.wav
+End
+
+DialogEvent     MisGLA02General04a
+   Filename =   mg2xog10.wav
+End
+
+DialogEvent     MisGLA02General05
+   Filename =   mg2xog11.wav
+End
+
+DialogEvent     MisGLA02General06
+   Filename =   mg2xog12.wav
+End
+
+DialogEvent     MisGLA02General08
+   Filename =   mg2xog13.wav
+End
+
+DialogEvent     MisGLA02General09
+   Filename =   mg2xog14.wav
+End
+
+DialogEvent     MisGLA02General10
+   Filename =   mg2xog15.wav
+End
+
+DialogEvent     MisGLA02General11
+   Filename =   mg2xog16.wav
+End
+
+DialogEvent     MisGLA02General11a
+   Filename =   mg2xog17.wav
+End
+
+DialogEvent     MisGLA02General12
+   Filename =   mg2xog18.wav
+End
+
+DialogEvent     MisGLA02General13
+   Filename =   mg2xog19.wav
+End
+
+DialogEvent     MisGLA02General13a
+   Filename =   mg2xog20.wav
+End
+
+DialogEvent     MisGLA02General14
+   Filename =   mg2xog21.wav
+End
+
+DialogEvent     MisGLA02General14a
+   Filename =   mg2xog22.wav
+End
+
+DialogEvent     MisGLA02General15
+   Filename =   mg2xog23.wav
+End
+
+DialogEvent     MisGLA02General16
+   Filename =   mg2xog24.wav
+End
+
+DialogEvent     MisGLA02General16a
+   Filename =   mg2xog25.wav
+End
+
+DialogEvent     MisGLA02General17
+   Filename =   mg2ofg02.wav
+End
+
+DialogEvent     MisGLA02General18
+   Filename =   mg2xog26.wav
+End
+
+DialogEvent     MisGLA02General19
+   Filename =   mg2xog27.wav
+End
+
+DialogEvent     MisGLA02General20
+   Filename =   mg2xog28.wav
+End
+
+DialogEvent     MisGLA02Chatter01
+   Filename =   mg2sc101.wav
+End
+
+DialogEvent     MisGLA02Chatter02
+   Filename =   mg2sc201.wav
+End
+
+DialogEvent     MisGLA02Chatter03
+   Filename =   mg2sc301.wav
+End
+
+
+DialogEvent     MisGLA02Chatter05
+   Filename =   mg2qu201.wav
+End
+
+DialogEvent     MisGLA02Chatter06
+   Filename =   mg2qu102.wav
+End
+
+DialogEvent     MisGLA02Chatter07
+   Filename =   mg2sc102.wav
+End
+
+DialogEvent     MisGLA02Chatter08
+   Filename =   mg2sc202.wav
+End
+
+DialogEvent     MisGLA02Chatter09
+   Filename =   mg2sc302.wav
+End
+
+DialogEvent     MisGLA02Chatter10
+   Filename =   mg2sc103.wav
+End
+
+DialogEvent     MisGLA02Chatter11
+   Filename =   mg2sc203.wav
+End
+
+DialogEvent     MisGLA02Chatter12
+   Filename =   mg2qu103.wav
+End
+
+DialogEvent     MisGLA02Chatter13
+   Filename =   mg2qu202.wav
+End
+
+DialogEvent     MisGLA02Chatter14
+   Filename =   mg2sc104.wav
+End
+
+DialogEvent     MisGLA02Chatter15
+   Filename =   mg2sc204.wav
+End
+
+DialogEvent     MisGLA02Chatter16
+   Filename =   mg2sc303.wav
+End
+
+DialogEvent     MisGLA02Chatter17
+   Filename =   mg2qu104.wav
+End
+
+DialogEvent     MisGLA02Chatter19
+   Filename =   mg2sc205.wav
+End
+
+DialogEvent     MisGLA02Chatter20
+   Filename =   mg2sc304.wav
+End
+
+DialogEvent     MisGLA02Cin01
+   Filename =   mg2ofg03.wav
+End
+
+DialogEvent     MisGLA02Cin02
+   Filename =   mg2ofg04.wav
+End
+
+DialogEvent     MisGLA02Cin03
+   Filename =   mg2ofg05.wav
+End
+
+DialogEvent     MisGLA02Cin04
+   Filename =   mg2rb101.wav
+End
+
+DialogEvent     MisGLA02Cin05
+   Filename =   mg2ofg06.wav
+End
+
+DialogEvent     MisGLA02Cin06
+   Filename =   mg2ofg07.wav
+End
+
+DialogEvent     MisGLA02Cin08
+   Filename =   mg2rb201.wav
+End
+
+;====== Sounds for GLA03 (GENERALS) ==========================================
+DialogEvent     BriefingGLA03
+   Filename =   mg3xog01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisGLA03Kenwar01
+   Filename =   mg3xog02.wav
+End
+
+DialogEvent     MisGLA03Kenwar02
+   Filename =   mg3xog03.wav
+End
+
+DialogEvent     MisGLA03Kenwar04
+   Filename =   mg3xog05.wav
+End
+
+DialogEvent     MisGLA03Kenwar05
+   Filename =   mg3xog06.wav
+End
+
+DialogEvent     MisGLA03Kenwar05a
+   Filename =   mg3xog07.wav
+End
+
+DialogEvent     MisGLA03Kenwar05b
+   Filename =   mg3xog08.wav
+End
+
+DialogEvent     MisGLA03Kenwar05c
+   Filename =   mg3xog09.wav
+End
+
+DialogEvent     MisGLA03Kenwar06
+   Filename =   mg3xog10.wav
+End
+
+DialogEvent     MisGLA03Kenwar07
+   Filename =   mg3xog11.wav
+End
+
+DialogEvent     MisGLA03Kenwar08
+   Filename =   mg3xog12.wav
+End
+
+DialogEvent     MisGLA03Kenwar09
+   Filename =   mg3xog13.wav
+End
+
+DialogEvent     MisGLA03Kenwar10
+   Filename =   mg3xog14.wav
+End
+
+DialogEvent     MisGLA03Kenwar11
+   Filename =   mg3xog15.wav
+End
+
+DialogEvent     MisGLA03Kenwar12
+   Filename =   mg3xog16.wav
+End
+
+DialogEvent     MisGLA03OfficerG01
+   Filename =   mg3ofg01.wav
+End
+
+DialogEvent     MisGLA03Kenwar13
+   Filename =   mg3xog17.wav
+End
+
+DialogEvent     MisGLA03OfficerG02
+   Filename =   mg3ofg02.wav
+End
+
+DialogEvent     MisGLA03Toxin01
+   Filename =   mg3to101.wav
+End
+
+DialogEvent     MisGLA03Kenwar14
+   Filename =   mg3xog18.wav
+End
+
+
+DialogEvent     MisGLA03Kenwar16
+   Filename =   mg3xog20.wav
+End
+
+DialogEvent     MisGLA03Kenwar17
+   Filename =   mg3xog21.wav
+End
+
+DialogEvent     MisGLA03Kenwar18
+   Filename =   mg3xog22.wav
+End
+
+DialogEvent     MisGLA03Kenwar19
+   Filename =   mg3xog23.wav
+End
+
+DialogEvent     MisGLA03Kenwar20
+   Filename =   mg3xog24.wav
+End
+
+DialogEvent     MisGLA03Toxin02
+   Filename =   mg3to102.wav
+End
+
+DialogEvent     MisGLA03Rebel101
+   Filename =   mg3rb101.wav
+End
+
+DialogEvent     MisGLA03Toxin03
+   Filename =   mg3to103.wav
+End
+
+DialogEvent     MisGLA03Rebel102
+   Filename =   mg3rb102.wav
+End
+
+DialogEvent     MisGLA03Toxin04
+   Filename =   mg3to104.wav
+End
+
+DialogEvent     MisGLA03Toxin05
+   Filename =   mg3to105.wav
+End
+
+DialogEvent     MisGLA03Toxin06
+   Filename =   mg3to106.wav
+End
+
+DialogEvent     MisGLA03Toxin07
+   Filename =   mg3to107.wav
+End
+
+DialogEvent     MisGLA03Toxin08
+   Filename =   mg3to108.wav
+End
+
+DialogEvent     MisGLA03Toxin09
+   Filename =   mg3to109.wav
+End
+
+DialogEvent     MisGLA03Toxin10
+   Filename =   mg3to110.wav
+End
+
+DialogEvent     MisGLA03Toxin11
+   Filename =   mg3to111.wav
+End
+
+DialogEvent     MisGLA03Kenwar21
+   Filename =   mg3xog25.wav
+End
+
+DialogEvent     MisGLA03Kenwar22
+   Filename =   mg3xog26.wav
+End
+
+DialogEvent     MisGLA03Kenwar23
+   Filename =   mg3xog27.wav
+End
+
+DialogEvent     MisGLA03Kenwar24
+   Filename =   mg3xog28.wav
+End
+
+DialogEvent     MisGLA03Kenwar25
+   Filename =   mg3xog29.wav
+End
+
+DialogEvent     MisGLA03Kenwar26
+   Filename =   mg3xog30.wav
+End
+
+DialogEvent     MisGLA03Kenwar27
+   Filename =   mg3xog31.wav
+End
+
+DialogEvent     MisGLA03Kenwar28
+   Filename =   mg3xog32.wav
+End
+
+DialogEvent     MisGLA03Kenwar29
+   Filename =   mg3xog33.wav
+End
+
+DialogEvent     MisGLA03Kenwar30
+   Filename =   mg3xog34.wav
+End
+
+DialogEvent     MisGLA03Kenwar31
+   Filename =   mg3xog35.wav
+End
+
+
+;====== Sounds for GLA04 (GENERALS) ==========================================
+DialogEvent     BriefingGLA04
+   Filename =   mg4xog01.wav
+End
+
+DialogEvent     MisGLA04General01
+   Filename =   mg4xog02.wav
+End
+
+DialogEvent     MisGLA04General02
+   Filename =   mg4xog03.wav
+End
+
+DialogEvent     MisGLA04General03
+   Filename =   mg4xog04.wav
+End
+
+DialogEvent     MisGLA04General03a
+   Filename =   mg4xog05.wav
+End
+
+DialogEvent     MisGLA04General03b
+   Filename =   mg4xog06.wav
+End
+
+DialogEvent     MisGLA04General03c
+   Filename =   mg4xog07.wav
+End
+
+DialogEvent     MisGLA04General03d
+   Filename =   mg4xog08.wav
+End
+
+DialogEvent     MisGLA04General03e
+   Filename =   mg4xog09.wav
+End
+
+DialogEvent     MisGLA04General04
+   Filename =   mg4xog10.wav
+End
+
+DialogEvent     MisGLA04General05
+   Filename =   mg4xog11.wav
+End
+
+DialogEvent     MisGLA04General06
+   Filename =   mg4xog12.wav
+End
+
+DialogEvent     MisGLA04General07
+   Filename =   mg4xog13.wav
+End
+
+DialogEvent     MisGLA04General08
+   Filename =   mg4xog14.wav
+End
+
+DialogEvent     MisGLA04General09
+   Filename =   mg4xog15.wav
+End
+
+DialogEvent     MisGLA04General10
+   Filename =   mg4xog16.wav
+End
+
+DialogEvent     MisGLA04General11a
+   Filename =   mg4xog17.wav
+End
+
+DialogEvent     MisGLA04General11b
+   Filename =   mg4xog18.wav
+End
+
+DialogEvent     MisGLA04General11c
+   Filename =   mg4xog19.wav
+End
+
+DialogEvent     MisGLA04General11d
+   Filename =   mg4xog20.wav
+End
+
+DialogEvent     MisGLA04General11e
+   Filename =   mg4xog21.wav
+End
+
+DialogEvent     MisGLA04General11f
+   Filename =   mg4xog22.wav
+End
+
+DialogEvent     MisGLA04General12
+   Filename =   mg4xog23.wav
+End
+
+DialogEvent     MisGLA04OfficerG01
+   Filename =   mg4ofg01.wav
+End
+
+DialogEvent     MisGLA04General13
+   Filename =   mg4xog24.wav
+End
+
+DialogEvent     MisGLA04General14
+   Filename =   mg4xog25.wav
+End
+
+DialogEvent     MisGLA04OfficerG02
+   Filename =   mg4ofg02.wav
+End
+
+DialogEvent     MisGLA04Rebel101
+   Filename =   mg4rb101.wav
+End
+
+DialogEvent     MisGLA04General15
+   Filename =   mg4xog26.wav
+End
+
+DialogEvent     MisGLA04General16
+   Filename =   mg4xog27.wav
+End
+
+DialogEvent     MisGLA04General17
+   Filename =   mg4xog28.wav
+End
+
+DialogEvent     MisGLA04General18
+   Filename =   mg4xog29.wav
+End
+
+DialogEvent     MisGLA04General19
+   Filename =   mg4xog30.wav
+End
+
+DialogEvent     MisGLA04General20
+   Filename =   mg4xog31.wav
+End
+
+DialogEvent     MisGLA04General21
+   Filename =   mg4xog32.wav
+End
+
+DialogEvent     MisGLA04General22
+   Filename =   mg4xog33.wav
+End
+
+DialogEvent     MisGLA04General23
+   Filename =   mg4xog34.wav
+End
+
+DialogEvent     MisGLA04General24
+   Filename =   mg4xog35.wav
+End
+
+DialogEvent     MisGLA04General25
+   Filename =   mg4xog36.wav
+End
+
+DialogEvent     MisGLA04General26
+   Filename =   mg4xog37.wav
+End
+
+DialogEvent     MisGLA04General27
+   Filename =   mg4xog38.wav
+End
+
+DialogEvent     MisGLA04General28
+   Filename =   mg4xog39.wav
+End
+
+DialogEvent     MisGLA04General29
+   Filename =   mg4xog40.wav
+End
+
+DialogEvent     MisGLA04General30
+   Filename =   mg4xog41.wav
+End
+
+DialogEvent     MisGLA04OfficerG03
+   Filename =   mg4ofg03.wav
+End
+
+DialogEvent     MisGLA04OfficerG04
+   Filename =   mg4ofg04.wav
+End
+
+DialogEvent     MisGLA04OfficerG05
+   Filename =   mg4ofg05.wav
+End
+
+DialogEvent     MisGLA04General31
+   Filename =   mg4xog42.wav
+End
+
+DialogEvent     MisGLA04General32
+   Filename =   mg4xog43.wav
+End
+
+DialogEvent     MisGLA04OfficerG06
+   Filename =   mg4ofg06.wav
+End
+
+DialogEvent     MisGLA04OfficerG07
+   Filename =   mg4ofg07.wav
+End
+
+DialogEvent     MisGLA04General33
+   Filename =   mg4xog44.wav
+End
+
+DialogEvent     MisGLA04General34
+   Filename =   mg4xog45.wav
+End
+
+DialogEvent     MisGLA04General35
+   Filename =   mg4xog46.wav
+End
+
+DialogEvent     MisGLA04General36
+   Filename =   mg4xog47.wav
+End
+
+DialogEvent     MisGLA04General10a
+   Filename =   mg4xog48.wav
+End
+
+DialogEvent     MisGLA04Scorpion101
+   Filename =   mg4sc101.wav
+End
+
+DialogEvent     MisGLA04Toxin101
+   Filename =   mg4to101.wav
+End
+
+DialogEvent     MisGLA04Technical101
+   Filename =   mg4te101.wav
+End
+
+DialogEvent     MisGLA04Buggy101
+   Filename =   mg4bu101.wav
+End
+
+DialogEvent     MisGLA04Quad101
+   Filename =   mg4qu101.wav
+End
+
+
+DialogEvent     MisGLA04Dispatcher01
+   Filename =   mg4dis01.wav
+End
+
+DialogEvent     MisGLA04Dispatcher01a
+   Filename =   mg4dis02.wav
+End
+
+DialogEvent     MisGLA04Dispatcher02
+   Filename =   mg4dis03.wav
+End
+
+DialogEvent     MisGLA04Dispatcher03
+   Filename =   mg4dis04.wav
+End
+
+DialogEvent     MisGLA04Dispatcher04
+   Filename =   mg4dis05.wav
+End
+
+DialogEvent     MisGLA04Dispatcher05
+   Filename =   mg4dis06.wav
+End
+
+DialogEvent     MisGLA04Dispatcher07
+   Filename =   mg4dis08.wav
+End
+
+DialogEvent     MisGLA04AsiaCop101
+   Filename =   mg4as101.wav
+End
+
+DialogEvent     MisGLA04AsiaCop201
+   Filename =   mg4as201.wav
+End
+
+DialogEvent     MisGLA04AsiaCop301
+   Filename =   mg4as301.wav
+End
+
+DialogEvent     MisGLA04AsiaCop102
+   Filename =   mg4as102.wav
+End
+
+DialogEvent     MisGLA04AsiaCop202
+   Filename =   mg4as202.wav
+End
+
+DialogEvent     MisGLA04AsiaCop203
+   Filename =   mg4as203.wav
+End
+
+DialogEvent     MisGLA04AsiaCop103
+   Filename =   mg4as103.wav
+End
+
+DialogEvent     MisGLA04AsiaCop204
+   Filename =   mg4as204.wav
+End
+
+DialogEvent     MisGLA04AsiaCop302
+   Filename =   mg4as302.wav
+End
+
+DialogEvent     MisGLA04AsiaCop104
+   Filename =   mg4as104.wav
+End
+
+DialogEvent     MisGLA04AsiaCop205
+   Filename =   mg4as205.wav
+End
+
+DialogEvent     MisGLA04AsiaCop303
+   Filename =   mg4as303.wav
+End
+
+DialogEvent     MisGLA04General37
+   Filename =   mg4xog49.wav
+End
+
+DialogEvent     MisGLA04General38
+   Filename =   mg4xog50.wav
+End
+
+DialogEvent     MisGLA04General39
+   Filename =   mg4xog51.wav
+End
+
+DialogEvent     MisGLA04General40
+   Filename =   mg4xog52.wav
+End
+
+DialogEvent     MisGLA04General41
+   Filename =   mg4xog53.wav
+End
+
+DialogEvent     MisGLA04General42
+   Filename =   mg4xog54.wav
+End
+
+DialogEvent     MisGLA04General43
+   Filename =   mg4xog55.wav
+End
+
+
+;====== Sounds for GLA05 (GENERALS) ;==========================================
+DialogEvent     BriefingGLA05
+   Filename =   mg5xog01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisGLA05Kenwar01
+   Filename =   mg5xog02.wav
+End
+
+DialogEvent     MisGLA05Kenwar02a
+   Filename =   mg5xog03.wav
+End
+
+DialogEvent     MisGLA05Kenwar03
+   Filename =   mg5xog05.wav
+End
+
+DialogEvent     MisGLA05Kenwar04
+   Filename =   mg5xog06.wav
+End
+
+DialogEvent     MisGLA05Kenwar06
+   Filename =   mg5xog08.wav
+End
+
+DialogEvent     MisGLA05Kenwar07
+   Filename =   mg5xog09.wav
+End
+
+DialogEvent     MisGLA05Rebel01
+   Filename =   mg5rb101.wav
+End
+
+DialogEvent     MisGLA05OfficerG01
+   Filename =   mg5ofg01.wav
+End
+
+DialogEvent     MisGLA05Scorpion101
+   Filename =   mg5sc101.wav
+End
+
+DialogEvent     MisGLA05OfficerG02
+   Filename =   mg5ofg02.wav
+End
+
+DialogEvent     MisGLA05Kenwar08
+   Filename =   mg5xog10.wav
+End
+
+DialogEvent     MisGLA05Kenwar09
+   Filename =   mg5xog11.wav
+End
+
+DialogEvent     MisGLA05OfficerG03
+   Filename =   mg5ofg03.wav
+End
+
+DialogEvent     MisGLA05OfficerG04
+   Filename =   mg5ofg04.wav
+End
+
+DialogEvent     MisGLA05OfficerG05
+   Filename =   mg5ofg05.wav
+End
+
+DialogEvent     MisGLA05Scorpion102
+   Filename =   mg5sc102.wav
+End
+
+DialogEvent     MisGLA05OfficerG06
+   Filename =   mg5ofg06.wav
+End
+
+DialogEvent     MisGLA05Scorpion103
+   Filename =   mg5sc103.wav
+End
+
+DialogEvent     MisGLA05OfficerG07
+   Filename =   mg5ofg07.wav
+End
+
+DialogEvent     MisGLA05OfficerG08
+   Filename =   mg5ofg08.wav
+End
+
+DialogEvent     MisGLA05OfficerG09
+   Filename =   mg5ofg09.wav
+End
+
+DialogEvent     MisGLA05OfficerG10
+   Filename =   mg5ofg10.wav
+End
+
+DialogEvent     MisGLA05OfficerG11
+   Filename =   mg5ofg11.wav
+End
+
+DialogEvent     MisGLA05Scorpion104
+   Filename =   mg5sc104.wav
+End
+
+DialogEvent     MisGLA05Quad101
+   Filename =   mg5qu101.wav
+End
+
+DialogEvent     MisGLA05Buggy101
+   Filename =   mg5bu101.wav
+End
+
+DialogEvent     MisGLA05Quad102
+   Filename =   mg5qu102.wav
+End
+
+DialogEvent     MisGLA05Rebel03
+   Filename =   mg5rb103.wav
+End
+
+DialogEvent     MisGLA05Rebel04
+   Filename =   mg5rb104.wav
+End
+
+DialogEvent     MisGLA05Rebel201
+   Filename =   mg5rb201.wav
+End
+
+DialogEvent     MisGLA05OfficerG12
+   Filename =   mg5ofg12.wav
+End
+
+DialogEvent     MisGLA05Rebel05
+   Filename =   mg5rb105.wav
+End
+
+DialogEvent     MisGLA05Rebel201a
+   Filename =   mg5rb202.wav
+End
+
+DialogEvent     MisGLA05Rebel06
+   Filename =   mg5rb106.wav
+End
+
+DialogEvent     MisGLA05Rebel202
+   Filename =   mg5rb203.wav
+End
+
+DialogEvent     MisGLA05Quad103
+   Filename =   mg5qu103.wav
+End
+
+DialogEvent     MisGLA05Quad301
+   Filename =   mg5qu301.wav
+End
+
+DialogEvent     MisGLA05Quad104
+   Filename =   mg5qu104.wav
+End
+
+DialogEvent     MisGLA05Quad202
+   Filename =   mg5qu202.wav
+End
+
+DialogEvent     MisGLA05Quad302
+   Filename =   mg5qu302.wav
+End
+
+DialogEvent     MisGLA05Buggy102
+   Filename =   mg5bu102.wav
+End
+
+DialogEvent     MisGLA05Buggy103
+   Filename =   mg5bu103.wav
+End
+
+DialogEvent     MisGLA05Scorpion106
+   Filename =   mg5sc106.wav
+End
+
+DialogEvent     MisGLA05Scorpion201
+   Filename =   mg5sc201.wav
+End
+
+DialogEvent     MisGLA05Scorpion107
+   Filename =   mg5sc107.wav
+End
+
+DialogEvent     MisGLA05Quad105
+   Filename =   mg5qu105.wav
+End
+
+DialogEvent     MisGLA05Scorpion108
+   Filename =   mg5sc108.wav
+End
+
+DialogEvent     MisGLA05Crusader101
+   Filename =   mg5cr101.wav
+End
+
+DialogEvent     MisGLA05Crusader201
+   Filename =   mg5cr201.wav
+End
+
+DialogEvent     MisGLA05Crusader102
+   Filename =   mg5cr102.wav
+End
+
+DialogEvent     MisGLA05Crusader202
+   Filename =   mg5cr202.wav
+End
+
+DialogEvent     MisGLA05Humvee101
+   Filename =   mg5hu101.wav
+End
+
+DialogEvent     MisGLA05Humvee102
+   Filename =   mg5hu102.wav
+End
+
+DialogEvent     MisGLA05Humvee201
+   Filename =   mg5hu201.wav
+End
+
+DialogEvent     MisGLA05Humvee103
+   Filename =   mg5hu103.wav
+End
+
+DialogEvent     MisGLA05OfficerU01
+   Filename =   mg5ofu01.wav
+End
+
+DialogEvent     MisGLA05OfficerU02
+   Filename =   mg5ofu02.wav
+End
+
+DialogEvent     MisGLA05Ranger101
+   Filename =   mg5ra101.wav
+End
+
+DialogEvent     MisGLA05Ranger201
+   Filename =   mg5ra201.wav
+End
+
+DialogEvent     MisGLA05Ranger102
+   Filename =   mg5ra102.wav
+End
+
+DialogEvent     MisGLA05Buggy105
+   Filename =   mg5bu105.wav
+End
+
+DialogEvent     MisGLA05Buggy106
+   Filename =   mg5bu106.wav
+End
+
+DialogEvent     MisGLA05Buggy107
+   Filename =   mg5bu107.wav
+End
+
+DialogEvent     MisGLA05Raptor101
+   Filename =   mg5rp101.wav
+End
+
+DialogEvent     MisGLA05Raptor102
+   Filename =   mg5rp102.wav
+End
+
+DialogEvent     MisGLA05Raptor103
+   Filename =   mg5rp103.wav
+End
+
+DialogEvent     MisGLA05Raptor104
+   Filename =   mg5rp104.wav
+End
+
+DialogEvent     MisGLA05Raptor105
+   Filename =   mg5rp105.wav
+End
+
+;====== Sounds for GLA06 (GENERALS) ==========================================
+DialogEvent     BriefingGLA06
+   Filename =   mg6xog01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisGLA06General01
+   Filename =   mg6xog02.wav
+End
+
+DialogEvent     MisGLA06General02
+   Filename =   mg6xog03.wav
+End
+
+DialogEvent     MisGLA06General02a
+   Filename =   mg6xog04.wav
+End
+
+DialogEvent     MisGLA06General02b
+   Filename =   mg6xog05.wav
+End
+
+DialogEvent     MisGLA06General02c
+   Filename =   mg6xog06.wav
+End
+
+DialogEvent     MisGLA06General03
+   Filename =   mg6xog07.wav
+End
+
+DialogEvent     MisGLA06General04
+   Filename =   mg6xog08.wav
+End
+
+DialogEvent     MisGLA06General06
+   Filename =   mg6xog10.wav
+End
+
+DialogEvent     MisGLA06General07
+   Filename =   mg6xog11.wav
+End
+
+DialogEvent     MisGLA06General08
+   Filename =   mg6xog12.wav
+End
+
+DialogEvent     MisGLA06General09
+   Filename =   mg6xog13.wav
+End
+
+DialogEvent     MisGLA06General10
+   Filename =   mg6xog14.wav
+End
+
+DialogEvent     MisGLA06General11
+   Filename =   mg6xog15.wav
+End
+
+DialogEvent     MisGLA06General11a
+   Filename =   mg6xog16.wav
+End
+
+DialogEvent     MisGLA06General11b
+   Filename =   mg6xog17.wav
+End
+
+DialogEvent     MisGLA06General12
+   Filename =   mg6xog18.wav
+End
+
+DialogEvent     MisGLA06General13
+   Filename =   mg6xog19.wav
+End
+
+DialogEvent     MisGLA06General14
+   Filename =   mg6xog20.wav
+End
+
+DialogEvent     MisGLA06General15
+   Filename =   mg6xog21.wav
+End
+
+DialogEvent     MisGLA06General16
+   Filename =   mg6xog22.wav
+End
+
+DialogEvent     MisGLA06General17
+   Filename =   mg6rb101.wav
+End
+
+DialogEvent     MisGLA06General18
+   Filename =   mg6sc101.wav
+End
+
+DialogEvent     MisGLA06General19
+   Filename =   mg6xog23.wav
+End
+
+DialogEvent     MisGLA06General20a
+   Filename =   mg6xog25.wav
+End
+
+DialogEvent     MisGLA06Chatter03
+   Filename =   mg6sc102.wav
+End
+
+DialogEvent     MisGLA06Chatter04
+   Filename =   mg6sc201.wav
+End
+
+DialogEvent     MisGLA06Chatter05
+   Filename =   mg6sc301.wav
+End
+
+DialogEvent     MisGLA06Chatter08
+   Filename =   mg6ofg01.wav
+End
+
+DialogEvent     MisGLA06Chatter09
+   Filename =   mg6ofg02.wav
+End
+
+DialogEvent     MisGLA06Chatter10
+   Filename =   mg6rb202.wav
+End
+
+DialogEvent     MisGLA06Chatter11
+   Filename =   mg6sc103.wav
+End
+
+DialogEvent     MisGLA06Chatter12
+   Filename =   mg6sc203.wav
+End
+
+DialogEvent     MisGLA06Chatter13
+   Filename =   mg6sc302.wav
+End
+
+DialogEvent     MisGLA06Chatter14
+   Filename =   mg6rb103.wav
+End
+
+DialogEvent     MisGLA06Chatter15
+   Filename =   mg6rb203.wav
+End
+
+DialogEvent     MisGLA06Chatter16
+   Filename =   mg6ofg03.wav
+End
+
+DialogEvent     MisGLA06Chatter17
+   Filename =   mg6qu201.wav
+End
+
+DialogEvent     MisGLA06Chatter18
+   Filename =   mg6rb104.wav
+End
+
+DialogEvent     MisGLA06Cin01
+   Filename =   mg6rb105.wav
+End
+
+DialogEvent     MisGLA06Cin02
+   Filename =   mg6rb204.wav
+End
+
+DialogEvent     MisGLA06Cin03
+   Filename =   mg6rb106.wav
+End
+
+DialogEvent     MisGLA06Cin04
+   Filename =   mg6rb205.wav
+End
+
+DialogEvent     MisGLA06Cin05
+   Filename =   mg6rb107.wav
+End
+
+DialogEvent     MisGLA06Cin06
+   Filename =   mg6qu101.wav
+End
+
+DialogEvent     MisGLA06Cin07
+   Filename =   mg6ofg04.wav
+End
+
+DialogEvent     MisGLA06Cin08
+   Filename =   mg6rb206.wav
+End
+
+DialogEvent     MisGLA06Cin09
+   Filename =   mg6rb108.wav
+   Volume   =   60
+End
+
+DialogEvent     MisGLA06Cin10
+   Filename =   mg6rb207.wav
+   Volume   =   60
+End
+
+DialogEvent     MisGLA06Cin11
+   Filename =   mg6rb301.wav
+End
+
+DialogEvent     MisGLA06Cin12
+   Filename =   mg6ofg05.wav
+End
+
+;====== Sounds for GLA07 (GENERALS) ==========================================
+DialogEvent     BriefingGLA07
+   Filename =   mg7xog01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisGLA07Convoy01
+   Filename =   mg7cn101.wav
+End
+
+DialogEvent     MisGLA07Convoy02
+   Filename =   mg7cn102.wav
+End
+
+DialogEvent     MisGLA07Convoy03
+   Filename =   mg7cn103.wav
+End
+
+DialogEvent     MisGLA07Convoy04
+   Filename =   mg7cn104.wav
+End
+
+DialogEvent     MisGLA07Convoy05
+   Filename =   mg7cn105.wav
+End
+
+DialogEvent     MisGLA07Convoy06
+   Filename =   mg7cn106.wav
+End
+
+DialogEvent     MisGLA07Convoy07
+   Filename =   mg7cn107.wav
+End
+
+DialogEvent     MisGLA07Convoy08
+   Filename =   mg7cn108.wav
+End
+
+DialogEvent     MisGLA07Convoy09
+   Filename =   mg7cn109.wav
+End
+
+DialogEvent     MisGLA07Convoy10
+   Filename =   mg7cn110.wav
+End
+
+DialogEvent     MisGLA07Convoy11
+   Filename =   mg7cn111.wav
+End
+
+DialogEvent     MisGLA07Convoy12
+   Filename =   mg7cn112.wav
+End
+
+DialogEvent     MisGLA07Convoy14
+   Filename =   mg7cn114.wav
+End
+
+DialogEvent     MisGLA07Convoy15
+   Filename =   mg7cn115.wav
+End
+
+DialogEvent     MisGLA07General01
+   Filename =   mg7xog02.wav
+End
+
+DialogEvent     MisGLA07General02
+   Filename =   mg7ofg01.wav
+End
+
+DialogEvent     MisGLA07General03
+   Filename =   mg7ofg02.wav
+End
+
+DialogEvent     MisGLA07General04
+   Filename =   mg7xog03.wav
+End
+
+DialogEvent     MisGLA07General05
+   Filename =   mg7xog04.wav
+End
+
+DialogEvent     MisGLA07General06
+   Filename =   mg7xog05.wav
+End
+
+DialogEvent     MisGLA07General07
+   Filename =   mg7xog06.wav
+End
+
+DialogEvent     MisGLA07General08
+   Filename =   mg7xog07.wav
+End
+
+DialogEvent     MisGLA07General09
+   Filename =   mg7xog08.wav
+End
+
+DialogEvent     MisGLA07General10
+   Filename =   mg7xog09.wav
+End
+
+DialogEvent     MisGLA07General11
+   Filename =   mg7xog10.wav
+End
+
+DialogEvent     MisGLA07General12
+   Filename =   mg7xog11.wav
+End
+
+DialogEvent     MisGLA07General13
+   Filename =   mg7xog12.wav
+End
+
+DialogEvent     MisGLA07General14
+   Filename =   mg7xog13.wav
+End
+
+DialogEvent     MisGLA07General15
+   Filename =   mg7xog14.wav
+End
+
+DialogEvent     MisGLA07General16
+   Filename =   mg7xog15.wav
+End
+
+DialogEvent     MisGLA06Cin02a
+   Filename =   mg7ofg04.wav
+End
+
+DialogEvent     MisGLA06Cin03a
+   Filename =   mg7ofg05.wav
+End
+
+DialogEvent     MisGLA06Cin04a
+   Filename =   mg7ofg06.wav
+End
+
+DialogEvent     MisGLA06Cin05a
+   Filename =   mg7ofg07.wav
+End
+
+DialogEvent     MisGLA06Cin06a
+   Filename =   mg7ofg08.wav
+End
+
+;====== Sounds for GLA08 (GENERALS) ==========================================
+DialogEvent     BriefingGLA08
+   Filename =   mg8xog01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisGLA08Kenwar01
+   Filename =   mg8xog02.wav
+End
+
+DialogEvent     MisGLA08Kenwar02
+   Filename =   mg8xog03.wav
+End
+
+DialogEvent     MisGLA08Kenwar03
+   Filename =   mg8xog04.wav
+End
+
+DialogEvent     MisGLA08Kenwar04
+   Filename =   mg8xog05.wav
+End
+
+DialogEvent     MisGLA08Kenwar05
+   Filename =   mg8xog06.wav
+End
+
+DialogEvent     MisGLA08Kenwar06
+   Filename =   mg8xog07.wav
+End
+
+DialogEvent     MisGLA08Kenwar07
+   Filename =   mg8xog08.wav
+End
+
+DialogEvent     MisGLA08OfficerG01
+   Filename =   mg8ofg01.wav
+End
+
+DialogEvent     MisGLA08OfficerG02
+   Filename =   mg8ofg02.wav
+End
+
+DialogEvent     MisGLA08OfficerG03
+   Filename =   mg8ofg03.wav
+End
+
+DialogEvent     MisGLA08OfficerG04
+   Filename =   mg8ofg04.wav
+End
+
+DialogEvent     MisGLA08Kenwar08
+   Filename =   mg8xog09.wav
+End
+
+DialogEvent     MisGLA08Kenwar09
+   Filename =   mg8xog10.wav
+End
+
+DialogEvent     MisGLA08Kenwar11
+   Filename =   mg8xog12.wav
+End
+
+DialogEvent     MisGLA08Rebel101
+   Filename =   mg8rb101.wav
+End
+
+DialogEvent     MisGLA08Kenwar12
+   Filename =   mg8xog13.wav
+End
+
+DialogEvent     MisGLA08Kenwar13
+   Filename =   mg8xog14.wav
+End
+
+DialogEvent     MisGLA08Kenwar14
+   Filename =   mg8xog15.wav
+End
+
+DialogEvent     MisGLA08Kenwar15
+   Filename =   mg8xog16.wav
+End
+
+DialogEvent     MisGLA08Kenwar16
+   Filename =   mg8xog17.wav
+End
+
+DialogEvent     MisGLA08Kenwar17
+   Filename =   mg8xog18.wav
+End
+
+DialogEvent     MisGLA08Kenwar18
+   Filename =   mg8xog19.wav
+End
+
+DialogEvent     MisGLA08Kenwar19
+   Filename =   mg8xog20.wav
+End
+
+DialogEvent     MisGLA08Kenwar20
+   Filename =   mg8xog21.wav
+End
+
+DialogEvent     MisGLA08Kenwar21
+   Filename =   mg8xog22.wav
+End
+
+DialogEvent     MisGLA08Kenwar22
+   Filename =   mg8xog23.wav
+End
+
+DialogEvent     MisGLA08Kenwar23
+   Filename =   mg8xog24.wav
+End
+
+DialogEvent     MisGLA08Kenwar24
+   Filename =   mg8xog25.wav
+End
+
+DialogEvent     MisGLA08Kenwar25
+   Filename =   mg8xog26.wav
+End
+
+DialogEvent     MisGLA08Kenwar26
+   Filename =   mg8xog27.wav
+End
+
+DialogEvent     MisGLA08Kenwar27
+   Filename =   mg8xog28.wav
+End
+
+DialogEvent     MisGLA08Kenwar28
+   Filename =   mg8xog29.wav
+End
+
+DialogEvent     MisGLA08Kenwar29
+   Filename =   mg8xog30.wav
+End
+
+DialogEvent     MisGLA08Kenwar30
+   Filename =   mg8xog31.wav
+End
+
+DialogEvent     MisGLA08Kenwar31
+   Filename =   mg8xog32.wav
+End
+
+DialogEvent     MisGLA08Kenwar32
+   Filename =   mg8xog33.wav
+End
+
+DialogEvent     MisGLA08Kenwar33
+   Filename =   mg8xog34.wav
+End
+
+DialogEvent     MisGLA08Kenwar34
+   Filename =   mg8xog35.wav
+End
+
+DialogEvent     MisGLA08Rebel102
+   Filename =   mg8rb102.wav
+End
+
+DialogEvent     MisGLA08Rebel201
+   Filename =   mg8rb201.wav
+End
+
+DialogEvent     MisGLA08Quad101
+   Filename =   mg8qu101.wav
+End
+
+DialogEvent     MisGLA08Scorpion101
+   Filename =   mg8sc101.wav
+End
+
+DialogEvent     MisGLA08Rebel103
+   Filename =   mg8rb103.wav
+End
+
+DialogEvent     MisGLA08Rebel202
+   Filename =   mg8rb202.wav
+End
+
+DialogEvent     MisGLA08Rebel301
+   Filename =   mg8rb301.wav
+End
+
+DialogEvent     MisGLA08OfficerG05
+   Filename =   mg8ofg05.wav
+End
+
+DialogEvent     MisGLA08Rebel203
+   Filename =   mg8rb203.wav
+End
+
+DialogEvent     MisGLA08Rebel302
+   Filename =   mg8rb302.wav
+End
+
+DialogEvent     MisGLA08Rebel104
+   Filename =   mg8rb104.wav
+End
+
+DialogEvent     MisGLA08OfficerG06
+   Filename =   mg8ofg06.wav
+End
+
+
+DialogEvent     MisGLA08Hazmat101
+   Filename =   mg8ha101.wav
+   Volume= 65
+End
+
+DialogEvent     MisGLA08Hazmat201
+   Filename =   mg8ha201.wav
+   Volume= 65
+End
+
+DialogEvent     MisGLA08Hazmat102
+   Filename =   mg8ha102.wav
+   Volume= 65
+End
+
+DialogEvent     MisGLA08Hazmat202
+   Filename =   mg8ha202.wav
+   Volume= 65
+End
+
+DialogEvent     MisGLA08Hazmat203
+   Filename =   mg8ha203.wav
+   Volume= 65
+End
+
+DialogEvent     MisGLA08Jarmen01
+   Filename =   mg8jar01.wav
+End
+
+DialogEvent     MisGLA08Jarmen02
+   Filename =   mg8jar02.wav
+End
+
+DialogEvent     MisGLA08Jarmen03
+   Filename =   mg8jar03.wav
+End
+
+DialogEvent     MisGLA08Jarmen04
+   Filename =   mg8jar04.wav
+End
+
+DialogEvent     MisGLA08Jarmen05
+   Filename =   mg8jar05.wav
+End
+
+DialogEvent     MisGLA08Jarmen06
+   Filename =   mg8jar06.wav
+End
+
+DialogEvent     MisGLA08Jarmen07
+   Filename =   mg8jar07.wav
+End
+
+DialogEvent     MisGLA08Jarmen08
+   Filename =   mg8jar08.wav
+End
+
+DialogEvent     MisGLA08Jarmen09
+   Filename =   mg8jar09.wav
+End
+
+DialogEvent     MisGLA08Jarmen10
+   Filename =   mg8jar10.wav
+End
+
+DialogEvent     MisGLA08Jarmen11
+   Filename =   mg8jar11.wav
+End
+
+DialogEvent     MisGLA08Kenwar35
+   Filename =   mg8xog36.wav
+End
+
+DialogEvent     MisGLA08Kenwar36
+   Filename =   mg8xog37.wav
+End
+
+DialogEvent     MisGLA08Kenwar37
+   Filename =   mg8xog38.wav
+End
+
+DialogEvent     MisGLA08Kenwar38
+   Filename =   mg8xog39.wav
+End
+
+DialogEvent     MisGLA08Kenwar40
+   Filename =   mg8xog41.wav
+End
+
+DialogEvent     MisGLA08OfficerG07
+   Filename =   mg8ofg07.wav
+End
+
+DialogEvent     MisGLA08OfficerG08
+   Filename =   mg8ofg08.wav
+End
+
+DialogEvent     MisGLA08OfficerG09
+   Filename =   mg8ofg09.wav
+End
+
+DialogEvent     MisGLA08Kenwar41
+   Filename =   mg8xog42.wav
+End
+
+DialogEvent     MisGLA08OfficerG10
+   Filename =   mg8ofg10.wav
+End
+
+DialogEvent     MisGLA08Kenwar42
+   Filename =   mg8xog43.wav
+End
+
+DialogEvent     MisGLA08Kenwar43
+   Filename =   mg8xog44.wav
+End
+
+DialogEvent     MisGLA08Kenwar44
+   Filename =   mg8xog45.wav
+End
+
+;====== Misc Chatter for GLA (GENERALS) ==========================================
+DialogEvent     MisGLAChatter01
+   Filename =   mg8sc201.wav
+End
+
+DialogEvent     MisGLAChatter02
+   Filename =   mg8sc202.wav
+End
+
+DialogEvent     MisGLAChatter03
+   Filename =   mg8sc203.wav
+End
+
+DialogEvent     MisGLAChatter04
+   Filename =   mg8sc204.wav
+End
+
+DialogEvent     MisGLAChatter05
+   Filename =   mg8sc205.wav
+End
+
+DialogEvent     MisGLAChatter06
+   Filename =   mg8sc206.wav
+End
+
+
+
+
+;---------- CHINA MISSIONS ---------------
+;-----------------------------------------
+
+;====== Sounds for CHI01 (GENERALS) ==========================================
+DialogEvent     BriefingChina01
+   Filename =   mc1xoc01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisChi01Lin01
+   Filename =   mc1xoc02.wav
+End
+
+DialogEvent     MisChi01OfficerC01
+   Filename =   mc1ofc01.wav
+End
+
+DialogEvent     MisChi01OfficerC02
+   Filename =   mc1ofc02.wav
+End
+
+DialogEvent     MisChi01OfficerC03
+   Filename =   mc1ofc03.wav
+End
+
+DialogEvent     MisChi01Lin02
+   Filename =   mc1xoc03.wav
+End
+
+DialogEvent     MisChi01OfficerC04
+   Filename =   mc1ofc04.wav
+End
+
+DialogEvent     MisChi01Mig101
+   Filename =   mc1mi101.wav
+End
+
+DialogEvent     MisChi01Lin03
+   Filename =   mc1xoc04.wav
+End
+
+DialogEvent     MisChi01OfficerC05
+   Filename =   mc1ofc05.wav
+End
+
+DialogEvent     MisChi01Lin04
+   Filename =   mc1xoc05.wav
+End
+
+DialogEvent     MisChi01RedGuard101
+   Filename =   mc1re101.wav
+End
+
+DialogEvent     MisChi01RedGuard201
+   Filename =   mc1re201.wav
+End
+
+DialogEvent     MisChi01RedGuard102
+   Filename =   mc1re102.wav
+End
+
+DialogEvent     MisChi01RedGuard202
+   Filename =   mc1re202.wav
+End
+
+DialogEvent     MisChi01RedGuard103
+   Filename =   mc1re103.wav
+End
+
+DialogEvent     MisChi01RedGuard203
+   Filename =   mc1re203.wav
+End
+
+DialogEvent     MisChi01Battlemaster101
+   Filename =   mc1ba101.wav
+End
+
+DialogEvent     MisChi01OfficerC06
+   Filename =   mc1ofc06.wav
+End
+
+DialogEvent     MisChi01Battlemaster102
+   Filename =   mc1ba102.wav
+End
+
+DialogEvent     MisChi01Battlemaster201
+   Filename =   mc1ba201.wav
+End
+
+DialogEvent     MisChi01Mig102
+   Filename =   mc1mi102.wav
+End
+
+DialogEvent     MisChi01Mig103
+   Filename =   mc1mi103.wav
+End
+
+DialogEvent     MisChi01Mig104
+   Filename =   mc1mi104.wav
+End
+
+DialogEvent     MisChi01Terrorist101
+   Filename =   mc1te101.wav
+End
+
+DialogEvent     MisChi01OfficerG01
+   Filename =   mc1ofg01.wav
+End
+
+DialogEvent     MisChi01Terrorist201
+   Filename =   mc1te201.wav
+End
+
+DialogEvent     MisChi01Battlemaster103
+   Filename =   mc1ba103.wav
+End
+
+DialogEvent     MisChi01Battlemaster202
+   Filename =   mc1ba202.wav
+End
+
+DialogEvent     MisChi01Battlemaster301
+   Filename =   mc1ba301.wav
+End
+
+DialogEvent     MisChi01Battlemaster104
+   Filename =   mc1ba104.wav
+End
+
+DialogEvent     MisChi01Battlemaster203
+   Filename =   mc1ba203.wav
+End
+
+DialogEvent     MisChi01Battlemaster204
+   Filename =   mc1ba204.wav
+End
+
+DialogEvent     MisChi01Battlemaster302
+   Filename =   mc1ba302.wav
+End
+
+DialogEvent     MisChi01Battlemaster105
+   Filename =   mc1ba105.wav
+End
+
+DialogEvent     MisChi01Battlemaster205
+   Filename =   mc1ba205.wav
+End
+
+DialogEvent     MisChi01Battlemaster303
+   Filename =   mc1ba303.wav
+End
+
+
+DialogEvent     MisChi01BombTruck102
+   Filename =   mc1tr102.wav
+End
+
+
+DialogEvent     BriefingChina02
+   Filename =   mc2xoc01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisChi01Lin05
+   Filename =   mc1xoc06.wav
+End
+
+DialogEvent     MisChi01Lin06
+   Filename =   mc1xoc07.wav
+End
+
+DialogEvent     MisChi01Lin07
+   Filename =   mc1xoc08.wav
+End
+
+DialogEvent     MisChi01Lin08
+   Filename =   mc1xoc09.wav
+End
+
+DialogEvent     MisChi01Lin09
+   Filename =   mc1xoc10.wav
+End
+
+DialogEvent     MisChi01Lin10
+   Filename =   mc1xoc11.wav
+End
+
+DialogEvent     MisChi01Lin11
+   Filename =   mc1xoc12.wav
+End
+
+DialogEvent     MisChi01Lin12
+   Filename =   mc1xoc13.wav
+End
+
+DialogEvent     MisChi01Lin13
+   Filename =   mc1xoc14.wav
+End
+
+DialogEvent     MisChi01Lin14
+   Filename =   mc1xoc15.wav
+End
+
+;====== Sounds for CHI02 (GENERALS) ==========================================
+DialogEvent     MisChi02Lin01
+   Filename =   mc2xoc02.wav
+End
+
+DialogEvent     MisChi02Lin02
+   Filename =   mc2xoc03.wav
+End
+
+DialogEvent     MisChi02FerryCapt01
+   Filename =   mc2aut01.wav
+End
+
+DialogEvent     MisChi02Lin03
+   Filename =   mc2xoc04.wav
+End
+
+DialogEvent     MisChi02Lin04
+   Filename =   mc2xoc05.wav
+End
+
+DialogEvent     MisChi02Lin05
+   Filename =   mc2xoc06.wav
+End
+
+DialogEvent     MisChi02Lin06
+   Filename =   mc2xoc07.wav
+End
+
+DialogEvent     MisChi02Lin07
+   Filename =   mc2xoc08.wav
+End
+
+DialogEvent     MisChi02Lin08
+   Filename =   mc2xoc09.wav
+End
+
+DialogEvent     MisChi02Lin09
+   Filename =   mc2xoc10.wav
+End
+
+DialogEvent     MisChi02Lin10
+   Filename =   mc2xoc11.wav
+End
+
+DialogEvent     MisChi02Lin11
+   Filename =   mc2xoc12.wav
+End
+
+DialogEvent     MisChi02Lin12
+   Filename =   mc2xoc13.wav
+End
+
+DialogEvent     MisChi02Lin14
+   Filename =   mc2xoc15.wav
+End
+
+DialogEvent     MisChi02Lin15
+   Filename =   mc2xoc16.wav
+End
+
+DialogEvent     MisChi02Lin16
+   Filename =   mc2xoc17.wav
+End
+
+DialogEvent     MisChi02Lin17
+   Filename =   mc2xoc18.wav
+End
+
+DialogEvent     MisChi02Lin18
+   Filename =   mc2xoc19.wav
+End
+
+DialogEvent     MisChi02RedChat01
+   Filename =   mc2re101.wav
+End
+
+DialogEvent     MisChi02RedChat02
+   Filename =   mc2re201.wav
+End
+
+DialogEvent     MisChi02RedChat03
+   Filename =   mc2re301.wav
+End
+
+DialogEvent     MisChi02RedChat04
+   Filename =   mc2re102.wav
+End
+
+DialogEvent     MisChi02RedChat05
+   Filename =   mc2re202.wav
+End
+
+DialogEvent     MisChi02RedChat06
+   Filename =   mc2re302.wav
+End
+
+DialogEvent     MisChi02RedChat07
+   Filename =   mc2re103.wav
+End
+
+DialogEvent     MisChi02RedChat08
+   Filename =   mc2re203.wav
+End
+
+DialogEvent     MisChi02RedChat09
+   Filename =   mc2re303.wav
+End
+
+DialogEvent     MisChi02RedChat10
+   Filename =   mc2re104.wav
+End
+
+DialogEvent     MisChi02RedChat11
+   Filename =   mc2re204.wav
+End
+
+DialogEvent     MisChi02RedChat12
+   Filename =   mc2re304.wav
+End
+
+DialogEvent     MisChi02Battlemaster01
+   Filename =   mc2ba101.wav
+End
+
+DialogEvent     MisChi02Battlemaster02
+   Filename =   mc2ba201.wav
+End
+
+DialogEvent     MisChi02Battlemaster03
+   Filename =   mc2ba301.wav
+End
+
+DialogEvent     MisChi02Battlemaster04
+   Filename =   mc2ba102.wav
+End
+
+DialogEvent     MisChi02Battlemaster05
+   Filename =   mc2ba202.wav
+End
+
+DialogEvent     MisChi02Battlemaster06
+   Filename =   mc2ba302.wav
+End
+
+DialogEvent     MisChi02Battlemaster07
+   Filename =   mc2ba103.wav
+End
+
+DialogEvent     MisChi02DragonChat01
+   Filename =   mc2dr101.wav
+End
+
+DialogEvent     MisChi02DragonChat02
+   Filename =   mc2dr102.wav
+End
+
+DialogEvent     MisChi02DragonChat03
+   Filename =   mc2dr103.wav
+End
+
+DialogEvent     MisChi02DragonChat04
+   Filename =   mc2dr104.wav
+End
+
+DialogEvent     MisChi02DragonChat05
+   Filename =   mc2dr105.wav
+End
+
+DialogEvent     MisChi02Lin19
+   Filename =   mc2xoc20.wav
+End
+
+DialogEvent     MisChi02Lin20
+   Filename =   mc2xoc21.wav
+End
+
+DialogEvent     MisChi02Lin21
+   Filename =   mc2xoc22.wav
+End
+
+DialogEvent     MisChi02Lin22
+   Filename =   mc2xoc23.wav
+End
+
+DialogEvent     MisChi02Lin23
+   Filename =   mc2xoc24.wav
+End
+
+DialogEvent     MisChi02Lin24
+   Filename =   mc2xoc25.wav
+End
+
+DialogEvent     MisChi02Lin25
+   Filename =   mc2xoc26.wav
+End
+
+
+DialogEvent     BriefingChina03
+   Filename =   mc3xoc01.wav
+   Type     =   ui everyone
+End
+
+;====== Sounds for CHI03 (GENERALS) ==========================================
+DialogEvent     MisChi03Lin01
+   Filename =   mc3xoc02.wav
+End
+
+DialogEvent     MisChi03Lin02
+   Filename =   mc3xoc03.wav
+End
+
+DialogEvent     MisChi03Lin03
+   Filename =   mc3xoc04.wav
+End
+
+DialogEvent     MisChi03Lin04
+   Filename =   mc3xoc05.wav
+End
+
+DialogEvent     MisChi03RedGuard101
+   Filename =   mc3re101.wav
+End
+
+DialogEvent     MisChi03RedGuard102
+   Filename =   mc3ofu01.wav
+End
+
+DialogEvent     MisChi03RedGuard103
+   Filename =   mc3re102.wav
+End
+
+DialogEvent     MisChi03RedGuard104
+   Filename =   mc3xoc06.wav
+End
+
+DialogEvent     MisChi03RedGuard201
+   Filename =   mc3re201.wav
+End
+
+DialogEvent     MisChi03RedGuard202
+   Filename =   mc3xoc07.wav
+End
+
+DialogEvent     MisChi03RedGuard203
+   Filename =   mc3xoc08.wav
+End
+
+DialogEvent     MisChi03RedGuard204
+   Filename =   mc3xoc09.wav
+End
+
+DialogEvent     MisChi03BlackLotus01
+   Filename =   mc3bla01.wav
+End
+
+DialogEvent     MisChi03BlackLotus02
+   Filename =   mc3bla02.wav
+End
+
+DialogEvent     MisChi03BlackLotus03
+   Filename =   mc3bla03.wav
+End
+
+DialogEvent     MisChi03BlackLotus04
+   Filename =   mc3bla04.wav
+End
+
+DialogEvent     MisChi03BlackLotus05
+   Filename =   mc3bla05.wav
+End
+
+DialogEvent     MisChi03Dozer01
+   Filename =   mc3doc01.wav
+End
+
+DialogEvent     MisChi03RedChat01
+   Filename =   mc3re103.wav
+End
+
+DialogEvent     MisChi03RedChat02
+   Filename =   mc3re202.wav
+End
+
+DialogEvent     MisChi03RedChat03
+   Filename =   mc3re104.wav
+End
+
+DialogEvent     MisChi03RedChat04
+   Filename =   mc3re203.wav
+End
+
+DialogEvent     MisChi03RedChat05
+   Filename =   mc3re301.wav
+End
+
+DialogEvent     MisChi03RedChat06
+   Filename =   mc3re105.wav
+End
+
+DialogEvent     MisChi03RedChat07
+   Filename =   mc3re204.wav
+End
+
+DialogEvent     MisChi03RedChat08
+   Filename =   mc3re302.wav
+End
+
+DialogEvent     MisChi03RedChat09
+   Filename =   mc3re106.wav
+End
+
+DialogEvent     MisChi03RedChat10
+   Filename =   mc3re205.wav
+End
+
+DialogEvent     MisChi03RedChat11
+   Filename =   mc3re303.wav
+End
+
+DialogEvent     MisChi03RedChat13
+   Filename =   mc3re206.wav
+End
+
+DialogEvent     MisChi03RedChat14
+   Filename =   mc3re304.wav
+End
+
+DialogEvent     MisChi03RedChat15
+   Filename =   mc3re108.wav
+End
+
+DialogEvent     MisChi03RedChat16
+   Filename =   mc3re207.wav
+End
+
+DialogEvent     MisChi03RedChat17
+   Filename =   mc3re305.wav
+End
+
+DialogEvent     MisChi03RedChat18
+   Filename =   mc3re109.wav
+End
+
+DialogEvent     MisChi03RedChat20
+   Filename =   mc3re306.wav
+End
+
+DialogEvent     MisChi03Lin05
+   Filename =   mc3xoc10.wav
+End
+
+DialogEvent     MisChi03Lin06
+   Filename =   mc3xoc11.wav
+End
+
+;====== Sounds for CHI04 (GENERALS) ==========================================
+DialogEvent     BriefingChina04
+   Filename =   mc4xoc01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisChi04Lin01
+   Filename =   mc4xoc02.wav
+End
+
+DialogEvent     MisChi04Lin02
+   Filename =   mc4xoc03.wav
+End
+
+DialogEvent     MisChi04Lin03
+   Filename =   mc4xoc04.wav
+End
+
+DialogEvent     MisChi04Lin04
+   Filename =   mc4xoc05.wav
+End
+
+DialogEvent     MisChi04Lin05
+   Filename =   mc4xoc06.wav
+End
+
+DialogEvent     MisChi04Lin06
+   Filename =   mc4xoc07.wav
+End
+
+DialogEvent     MisChi04Lin07
+   Filename =   mc4xoc08.wav
+End
+
+DialogEvent     MisChi04Lin08
+   Filename =   mc4xoc09.wav
+End
+
+DialogEvent     MisChi04Lin09
+   Filename =   mc4xoc10.wav
+End
+
+DialogEvent     MisChi04Lin10
+   Filename =   mc4xoc11.wav
+End
+
+DialogEvent     MisChi04OfficerC01
+   Filename =   mc4ofc01.wav
+End
+
+DialogEvent     MisChi04OfficerC02
+   Filename =   mc4ofc02.wav
+End
+
+DialogEvent     MisChi04Mig101
+   Filename =   mc4mi101.wav
+End
+
+DialogEvent     MisChi04Lin11
+   Filename =   mc4xoc12.wav
+End
+
+DialogEvent     MisChi04Mig102
+   Filename =   mc4mi102.wav
+End
+
+DialogEvent     MisChi04Mig301
+   Filename =   mc4mi301.wav
+End
+
+DialogEvent     MisChi04Mig103
+   Filename =   mc4mi103.wav
+End
+
+DialogEvent     MisChi04Mig201
+   Filename =   mc4mi201.wav
+End
+
+DialogEvent     MisChi04Mig104
+   Filename =   mc4mi104.wav
+End
+
+DialogEvent     MisChi04Mig202
+   Filename =   mc4mi202.wav
+End
+
+DialogEvent     MisChi04Mig302
+   Filename =   mc4mi302.wav
+End
+
+DialogEvent     MisChi04Mig105
+   Filename =   mc4mi105.wav
+End
+
+DialogEvent     MisChi04Mig203
+   Filename =   mc4mi203.wav
+End
+
+DialogEvent     MisChi04Mig204
+   Filename =   mc4mi204.wav
+End
+
+DialogEvent     MisChi04Mig303
+   Filename =   mc4mi303.wav
+End
+
+DialogEvent     MisChi04Lin12
+   Filename =   mc4xoc13.wav
+End
+
+DialogEvent     MisChi04Mig106
+   Filename =   mc4mi106.wav
+End
+
+DialogEvent     MisChi04Lin13
+   Filename =   mc4xoc14.wav
+End
+
+DialogEvent     MisChi04Lin14
+   Filename =   mc4xoc15.wav
+End
+
+DialogEvent     MisChi04Mig107
+   Filename =   mc4mi107.wav
+End
+
+DialogEvent     MisChi04Mig205
+   Filename =   mc4mi205.wav
+End
+
+DialogEvent     MisChi04Mig304
+   Filename =   mc4mi304.wav
+End
+
+DialogEvent     MisChi04Mig108
+   Filename =   mc4mi108.wav
+End
+
+DialogEvent     MisChi04Mig109
+   Filename =   mc4mi109.wav
+End
+
+DialogEvent     MisChi04Mig206
+   Filename =   mc4mi206.wav
+End
+
+DialogEvent     MisChi04Mig305
+   Filename =   mc4mi305.wav
+End
+
+DialogEvent     MisChi04Mig110
+   Filename =   mc4mi110.wav
+End
+
+;====== Sounds for CHI05 (GENERALS) ==========================================
+DialogEvent     BriefingChina05
+   Filename =   mc5xoc01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisChi05Lin01
+   Filename =   mc5xoc02.wav
+End
+
+DialogEvent     MisChi05Lin02
+   Filename =   mc5xoc03.wav
+End
+
+DialogEvent     MisChi05Lin03
+   Filename =   mc5xoc04.wav
+End
+
+DialogEvent     MisChi05Lin04
+   Filename =   mc5xoc05.wav
+End
+
+DialogEvent     MisChi05Lin05
+   Filename =   mc5xoc06.wav
+End
+
+DialogEvent     MisChi05RedGuard101
+   Filename =   mc5re101.wav
+End
+
+DialogEvent     MisChi05RedGuard201
+   Filename =   mc5re201.wav
+End
+
+DialogEvent     MisChi05RedGuard102
+   Filename =   mc5re102.wav
+End
+
+DialogEvent     MisChi05RedGuard202
+   Filename =   mc5re202.wav
+End
+
+DialogEvent     MisChi05RedGuard103
+   Filename =   mc5re103.wav
+End
+
+DialogEvent     MisChi05RedGuard203
+   Filename =   mc5re203.wav
+End
+
+DialogEvent     MisChi05Command01
+   Filename =   mc5com01.wav
+End
+
+DialogEvent     MisChi05Bomber101
+   Filename =   mc5bo101.wav
+End
+
+DialogEvent     MisChi05Bomber201
+   Filename =   mc5bo201.wav
+End
+
+DialogEvent     MisChi05Bomber202
+   Filename =   mc5bo202.wav
+End
+
+DialogEvent     MisChi05Bomber203
+   Filename =   mc5bo203.wav
+End
+
+DialogEvent     MisChi05Bomber102
+   Filename =   mc5bo102.wav
+End
+
+DialogEvent     MisChi05Command02
+   Filename =   mc5com02.wav
+End
+
+DialogEvent     MisChi05Bomber204
+   Filename =   mc5bo204.wav
+End
+
+DialogEvent     MisChi05Bomber103
+   Filename =   mc5bo103.wav
+End
+
+DialogEvent     MisChi05Command03
+   Filename =   mc5com03.wav
+End
+
+DialogEvent     MisChi05Lin06
+   Filename =   mc5xoc07.wav
+End
+
+DialogEvent     MisChi05Lin07
+   Filename =   mc5xoc08.wav
+End
+
+DialogEvent     MisChi05Lin08
+   Filename =   mc5xoc09.wav
+End
+
+DialogEvent     MisChi05Lin09
+   Filename =   mc5xoc10.wav
+End
+
+DialogEvent     MisChi05Lin10
+   Filename =   mc5xoc11.wav
+End
+
+DialogEvent     MisChi05Lin11
+   Filename =   mc5xoc12.wav
+End
+
+DialogEvent     MisChi05Lin12
+   Filename =   mc5xoc13.wav
+End
+
+DialogEvent     MisChi05Lin13
+   Filename =   mc5xoc14.wav
+End
+
+DialogEvent     MisChi05Lin14
+   Filename =   mc5xoc15.wav
+End
+
+DialogEvent     MisChi05Lin15
+   Filename =   mc5xoc16.wav
+End
+
+DialogEvent     MisChi05Lin16
+   Filename =   mc5xoc17.wav
+End
+
+;====== Sounds for CHI06 (GENERALS) ==========================================
+DialogEvent     BriefingChina06
+   Filename =   mc6xoc01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisChi06XOObj1
+   Filename =   mc6xoc02.wav
+End
+
+DialogEvent     MisChi06XOMobs1
+   Filename =   mc6xoc03.wav
+End
+
+DialogEvent     MisChi06XOStadium
+   Filename =   mc6xoc04.wav
+End
+
+DialogEvent     MisChi06XOStadDead
+   Filename =   mc6xoc05.wav
+End
+
+DialogEvent     MisChi06XOFundsLow
+   Filename =   mc6xoc06.wav
+End
+
+DialogEvent     MisChi06XOCashCapd
+   Filename =   mc6xoc07.wav
+End
+
+DialogEvent     MisChi06XOCashCapd2
+   Filename =   mc6xoc08.wav
+End
+
+DialogEvent     MisChi06XOReactor
+   Filename =   mc6xoc09.wav
+End
+
+DialogEvent     MisChi06XOTrain1
+   Filename =   mc6xoc10.wav
+End
+
+DialogEvent     MisChi06XOTrain2
+   Filename =   mc6xoc11.wav
+End
+
+DialogEvent     MisChi06Lotus2Bridge
+   Filename =   mc6bla01.wav
+End
+
+DialogEvent     MisChi06LotusAtBridge
+   Filename =   mc6bla02.wav
+End
+
+DialogEvent     MisChi06LotusComplete
+   Filename =   mc6bla03.wav
+End
+
+DialogEvent     MisChi06LotusChat1
+   Filename =   mc6bla04.wav
+End
+
+DialogEvent     MisChi06LotusChat2
+   Filename =   mc6bla05.wav
+End
+
+DialogEvent     MisChi06LotusChat3
+   Filename =   mc6bla06.wav
+End
+
+DialogEvent     MisChi06GattlingChat1
+   Filename =   mc6ga101.wav
+End
+
+DialogEvent     MisChi06GattlingChat2
+   Filename =   mc6ga102.wav
+End
+
+DialogEvent     MisChi06GattlingChat3
+   Filename =   mc6ga103.wav
+End
+
+DialogEvent     MisChi06GattlingChat4
+   Filename =   mc6ga104.wav
+End
+
+DialogEvent     MisChi06BattlemasChat1
+   Filename =   mc6ba101.wav
+End
+
+DialogEvent     MisChi06BattlemasChat2
+   Filename =   mc6ba102.wav
+End
+
+DialogEvent     MisChi06BattlemasChat3
+   Filename =   mc6ba103.wav
+End
+
+DialogEvent     MisChi06RedChat1
+   Filename =   mc6re101.wav
+End
+
+DialogEvent     MisChi06RedChat2
+   Filename =   mc6re201.wav
+End
+
+DialogEvent     MisChi06RedChat3
+   Filename =   mc6re301.wav
+End
+
+DialogEvent     MisChi06RedChat4
+   Filename =   mc6re102.wav
+End
+
+DialogEvent     MisChi06RedChat5
+   Filename =   mc6re202.wav
+End
+
+DialogEvent     MisChi06RedChat6
+   Filename =   mc6re302.wav
+End
+
+DialogEvent     MisChi06RedChat7
+   Filename =   mc6re103.wav
+End
+
+DialogEvent     MisChi06XOHacker
+   Filename =   mc6xoc13.wav
+End
+
+DialogEvent     MisChi06XOStopTrain
+   Filename =   mc6xoc14.wav
+End
+
+DialogEvent     MisChi06XOHurry1
+   Filename =   mc6xoc15.wav
+End
+
+DialogEvent     MisChi06XOTrainDeparts
+   Filename =   mc6xoc16.wav
+End
+
+DialogEvent     MisChi06XOHurry2
+   Filename =   mc6xoc17.wav
+End
+
+;====== Sounds for CHI07 (GENERALS) ==========================================
+DialogEvent     BriefingChina07
+   Filename =   mc7xoc01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisChi07Base01
+   Filename =   mc7red01.wav
+End
+
+DialogEvent     MisChi07RedGuard101
+   Filename =   mc7re101.wav
+End
+
+DialogEvent     MisChi07RedGuard201
+   Filename =   mc7re201.wav
+End
+
+DialogEvent     MisChi07RedGuard301
+   Filename =   mc7re301.wav
+End
+
+DialogEvent     MisChi07RedGuard102
+   Filename =   mc7re102.wav
+End
+
+DialogEvent     MisChi07Overlord01
+   Filename =   mc7ov101.wav
+End
+
+DialogEvent     MisChi07Overlord02
+   Filename =   mc7ov102.wav
+End
+
+DialogEvent     MisChi07Battlemaster101
+   Filename =   mc7ba101.wav
+End
+
+DialogEvent     MisChi07Mig101
+   Filename =   mc7mi101.wav
+End
+
+DialogEvent     MisChi07Mig201
+   Filename =   mc7mi201.wav
+End
+
+DialogEvent     MisChi07Mig202
+   Filename =   mc7mi202.wav
+End
+
+DialogEvent     MisChi07Lin01
+   Filename =   mc7xoc02.wav
+End
+
+DialogEvent     MisChi07Lin02
+   Filename =   mc7xoc03.wav
+End
+
+DialogEvent     MisChi07Lin03
+   Filename =   mc7xoc04.wav
+End
+
+DialogEvent     MisChi07Lin04
+   Filename =   mc7xoc05.wav
+End
+
+DialogEvent     MisChi07Lin05
+   Filename =   mc7xoc06.wav
+End
+
+DialogEvent     MisChi07Lin06
+   Filename =   mc7xoc07.wav
+End
+
+DialogEvent     MisChi07Lin07
+   Filename =   mc7xoc08.wav
+End
+
+DialogEvent     MisChi07Lin08
+   Filename =   mc7xoc09.wav
+End
+
+DialogEvent     MisChi07Lin09
+   Filename =   mc7xoc10.wav
+End
+
+DialogEvent     MisChi07Lin10
+   Filename =   mc7xoc11.wav
+End
+
+DialogEvent     MisChi07Lin11
+   Filename =   mc7xoc12.wav
+End
+
+DialogEvent     MisChi07Lin12
+   Filename =   mc7xoc13.wav
+End
+
+DialogEvent     MisChi07RedGuard103
+   Filename =   mc7re103.wav
+End
+
+DialogEvent     MisChi07RedGuard104
+   Filename =   mc7re104.wav
+End
+
+DialogEvent     MisChi07RedGuard105
+   Filename =   mc7re105.wav
+End
+
+DialogEvent     MisChi07RedGuard106
+   Filename =   mc7re106.wav
+End
+
+DialogEvent     MisChi07RedGuard107
+   Filename =   mc7re107.wav
+End
+
+DialogEvent     MisChi07RedGuard109
+   Filename =   mc7re109.wav
+End
+
+DialogEvent     MisChi07RedGuard110
+   Filename =   mc7re110.wav
+End
+
+DialogEvent     MisChi07Overlord03
+   Filename =   mc7ov103.wav
+End
+
+DialogEvent     MisChi07Overlord04
+   Filename =   mc7ov104.wav
+End
+
+DialogEvent     MisChi07Crawler01
+   Filename =   mc7tr101.wav
+End
+
+DialogEvent     MisChi07Crawler02
+   Filename =   mc7tr102.wav
+End
+
+DialogEvent     MisChi07RedGuard111
+   Filename =   mc7re111.wav
+End
+
+DialogEvent     MisChi07RedGuard112
+   Filename =   mc7re112.wav
+End
+
+DialogEvent     MisChi07RedGuard113
+   Filename =   mc7re113.wav
+End
+
+DialogEvent     MisChi07RedGuard114
+   Filename =   mc7re114.wav
+End
+
+DialogEvent     MisChi07RedGuard115
+   Filename =   mc7re115.wav
+End
+
+DialogEvent     MisChi07RedGuard116
+   Filename =   mc7re116.wav
+End
+
+DialogEvent     MisChi07RedGuard117
+   Filename =   mc7re117.wav
+End
+
+DialogEvent     MisChi07RedGuard118
+   Filename =   mc7re118.wav
+End
+
+DialogEvent     MisChi07Mig102
+   Filename =   mc7mi102.wav
+End
+
+DialogEvent     MisChi07Mig203
+   Filename =   mc7mi203.wav
+End
+
+DialogEvent     MisChi07Mig103
+   Filename =   mc7mi103.wav
+End
+
+DialogEvent     MisChi07Mig204
+   Filename =   mc7mi204.wav
+End
+
+DialogEvent     MisChi07Mig205
+   Filename =   mc7mi205.wav
+End
+
+DialogEvent     MisChi07Mig206
+   Filename =   mc7mi206.wav
+End
+
+DialogEvent     MisChi07Mig104
+   Filename =   mc7mi104.wav
+End
+
+DialogEvent     MisChi07Mig105
+   Filename =   mc7mi105.wav
+End
+
+DialogEvent     MisChi07Mig106
+   Filename =   mc7mi106.wav
+End
+
+DialogEvent     MisChi07RedGuard119
+   Filename =   mc7re119.wav
+End
+
+DialogEvent     MisChi07RedGuard120
+   Filename =   mc7re120.wav
+End
+
+DialogEvent     MisChi07RedGuard121
+   Filename =   mc7re122.wav
+End
+
+DialogEvent     MisChi07RedGuard122
+   Filename =   mc7re123.wav
+End
+
+DialogEvent     MisChi07BlackLotus01
+   Filename =   mc7bla01.wav
+End
+
+DialogEvent     MisChi07BlackLotus02
+   Filename =   mc7bla02.wav
+End
+
+DialogEvent     MisChi07BlackLotus03
+   Filename =   mc7bla03.wav
+End
+
+DialogEvent     MisChi07Lin13
+   Filename =   mc7xoc16.wav
+End
+
+DialogEvent     MisChi07Lin14
+   Filename =   mc7xoc17.wav
+End
+
+DialogEvent     MisChi07Lin15
+   Filename =   mc7xoc18.wav
+End
+
+DialogEvent     MisChi07Lin16
+   Filename =   mc7xoc19.wav
+End
+
+DialogEvent     MisChi07Lin17
+   Filename =   mc7xoc20.wav
+End
+
+DialogEvent     MisChi07Lin18
+   Filename =   mc7xoc21.wav
+End
+
+DialogEvent     MisChi07Lin19
+   Filename =   mc7xoc22.wav
+End
+
+DialogEvent     MisChi07Lin20
+   Filename =   mc7xoc23.wav
+End
+
+DialogEvent     MisChi07Lin21
+   Filename =   mc7xoc24.wav
+End
+
+
+;---------- USA MISSIONS -----------------
+;-----------------------------------------
+
+;====== Sounds for USA01 (GENERALS) ==========================================
+
+DialogEvent     BriefingUSA01
+   Filename =   mu1xou01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisUSA01Hawk01
+   Filename =   mu1rp101.wav
+End
+
+DialogEvent     MisUSA01Hawk02
+   Filename =   mu1rp102.wav
+End
+
+DialogEvent     MisUSA01Hawk03
+   Filename =   mu1rp103.wav
+End
+
+DialogEvent     MisUSA01Hawk04
+   Filename =   mu1rp104.wav
+End
+
+DialogEvent     MisUSA01Commander01
+   Filename =   mu1ofu01.wav
+End
+
+DialogEvent     MisUSA01Echo101
+   Filename =   mu1cr101.wav
+End
+
+DialogEvent     MisUSA01Commander02
+   Filename =   mu1ofu02.wav
+End
+
+DialogEvent     MisUSA01Echo102
+   Filename =   mu1cr102.wav
+End
+
+DialogEvent     MisUSA01Echo103
+   Filename =   mu1cr103.wav
+End
+
+DialogEvent     MisUSA01Echo104
+   Filename =   mu1cr104.wav
+End
+
+DialogEvent     MisUSA01Echo105
+   Filename =   mu1cr105.wav
+End
+
+DialogEvent     MisUSA01Echo301
+   Filename =   mu1cr301.wav
+End
+
+DialogEvent     MisUSA01Echo202
+   Filename =   mu1cr202.wav
+End
+
+DialogEvent     MisUSA01Echo106
+   Filename =   mu1cr106.wav
+End
+
+DialogEvent     MisUSA01Echo203
+   Filename =   mu1cr203.wav
+End
+
+DialogEvent     MisUSA01Echo107
+   Filename =   mu1cr107.wav
+End
+
+DialogEvent     MisUSA01Commander04
+   Filename =   mu1xou02.wav
+End
+
+DialogEvent     MisUSA01Commander05
+   Filename =   mu1ofu04.wav
+End
+
+DialogEvent     MisUSA01Commander06
+   Filename =   mu1ofu05.wav
+End
+
+DialogEvent     MisUSA01Commander07
+   Filename =   mu1xou03.wav
+End
+
+DialogEvent     MisUSA01Echo109
+   Filename =   mu1cr109.wav
+End
+
+DialogEvent     MisUSA01Commander08
+   Filename =   mu1ofu06.wav
+End
+
+DialogEvent     MisUSA01Commander10
+   Filename =   mu1xou04.wav
+End
+
+DialogEvent     MisUSA01Commander11
+   Filename =   mu1ofu08.wav
+End
+
+DialogEvent     MisUSA01Commander12
+   Filename =   mu1ofu09.wav
+End
+
+DialogEvent     MisUSA01Hawk05
+   Filename =   mu1rp202.wav
+End
+
+DialogEvent     MisUSA01Commander13
+   Filename =   mu1ofu10.wav
+End
+
+DialogEvent     MisUSA01Echo110
+   Filename =   mu1cr110.wav
+End
+
+DialogEvent     MisUSA01Echo111
+   Filename =   mu1cr111.wav
+End
+
+DialogEvent     MisUSA01Echo112
+   Filename =   mu1cr112.wav
+End
+
+DialogEvent     MisUSA01Echo113
+   Filename =   mu1cr113.wav
+End
+
+DialogEvent     MisUSA01Commander14
+   Filename =   mu1ofu11.wav
+End
+
+DialogEvent     MisUSA01Commander15
+   Filename =   mu1ofu12.wav
+End
+
+DialogEvent     MisUSA01Commander16
+   Filename =   mu1ofu13.wav
+End
+
+;====== Sounds for USA02 (GENERALS) ==========================================
+DialogEvent     BriefingUSA02
+   Filename =   mu2xou01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisUSA02Eva01
+   Filename =   mu2xou02.wav
+End
+
+DialogEvent     MisUSA02Eva02
+   Filename =   mu2xou03.wav
+End
+
+DialogEvent     MisUSA02Eva03
+   Filename =   mu2xou04.wav
+End
+
+DialogEvent     MisUSA02Eva04
+   Filename =   mu2xou05.wav
+End
+
+DialogEvent     MisUSA02OfficerU01
+   Filename =   mu2ofu01.wav
+End
+
+DialogEvent     MisUSA02Eva05
+   Filename =   mu2xou06.wav
+End
+
+DialogEvent     MisUSA02OfficerU02
+   Filename =   mu2ofu02.wav
+End
+
+DialogEvent     MisUSA02Comanche101
+   Filename =   mu2co101.wav
+End
+
+DialogEvent     MisUSA02Comanche201
+   Filename =   mu2co201.wav
+End
+
+DialogEvent     MisUSA02Comanche401
+   Filename =   mu2co401.wav
+End
+
+DialogEvent     MisUSA02Comanche402
+   Filename =   mu2co402.wav
+End
+
+DialogEvent     MisUSA02Comanche101a
+   Filename =   mu2cr101.wav
+End
+
+DialogEvent     MisUSA02Comanche201a
+   Filename =   mu2cr201.wav
+End
+
+DialogEvent     MisUSA02Comanche301
+   Filename =   mu2cr301.wav
+End
+
+DialogEvent     MisUSA02Comanche102a
+   Filename =   mu2cr102.wav
+End
+
+DialogEvent     MisUSA02Comanche202
+   Filename =   mu2cr202.wav
+End
+
+DialogEvent     MisUSA02Comanche302
+   Filename =   mu2cr302.wav
+End
+
+DialogEvent     MisUSA02Comanche103a
+   Filename =   mu2cr103.wav
+End
+
+DialogEvent     MisUSA02Comanche203
+   Filename =   mu2cr203.wav
+End
+
+DialogEvent     MisUSA02Comanche303
+   Filename =   mu2cr303.wav
+End
+
+DialogEvent     MisUSA02Comanche104
+   Filename =   mu2cr104.wav
+End
+
+DialogEvent     MisUSA02Comanche304
+   Filename =   mu2cr304.wav
+End
+
+DialogEvent     MisUSA02Comanche105
+   Filename =   mu2cr105.wav
+End
+
+DialogEvent     MisUSA02Comanche501
+   Filename =   mu2co501.wav
+End
+
+DialogEvent     MisUSA02Comanche102
+   Filename =   mu2co102.wav
+End
+
+DialogEvent     MisUSA02OfficerU03
+   Filename =   mu2ofu03.wav
+End
+
+DialogEvent     MisUSA02Comanche103
+   Filename =   mu2co103.wav
+End
+
+DialogEvent     MisUSA02Comanche104a
+   Filename =   mu2co104.wav
+End
+
+DialogEvent     MisUSA02Comanche202a
+   Filename =   mu2co202.wav
+End
+
+DialogEvent     MisUSA02Comanche203a
+   Filename =   mu2co203.wav
+End
+
+DialogEvent     MisUSA02Comanche204a
+   Filename =   mu2co204.wav
+End
+
+DialogEvent     MisUSA02Comanche301a
+   Filename =   mu2co301.wav
+End
+
+DialogEvent     MisUSA02Comanche302a
+   Filename =   mu2co302.wav
+End
+
+DialogEvent     MisUSA02Comanche303a
+   Filename =   mu2co303.wav
+End
+
+DialogEvent     MisUSA02Comanche304a
+   Filename =   mu2co304.wav
+End
+
+DialogEvent     MisUSA02Comanche305
+   Filename =   mu2co305.wav
+End
+
+DialogEvent     MisUSA02Base01
+   Filename =   mu2ofu04.wav
+End
+
+DialogEvent     MisUSA02Base02
+   Filename =   mu2ofu05.wav
+End
+
+DialogEvent     MisUSA02Base03
+   Filename =   mu2ofu06.wav
+End
+
+DialogEvent     MisUSA02Base04
+   Filename =   mu2ofu07.wav
+End
+
+DialogEvent     MisUSA02Base05
+   Filename =   mu2ofu08.wav
+End
+
+DialogEvent     MisUSA02Pilot101
+   Filename =   mu2pi101.wav
+End
+
+DialogEvent     MisUSA02Comanche306
+   Filename =   mu2co306.wav
+End
+
+DialogEvent     MisUSA02Eva06
+   Filename =   mu2xou07.wav
+End
+
+DialogEvent     MisUSA02Eva07
+   Filename =   mu2xou08.wav
+End
+
+DialogEvent     MisUSA02Eva08
+   Filename =   mu2xou09.wav
+End
+
+DialogEvent     MisUSA02Eva09
+   Filename =   mu2xou10.wav
+End
+
+DialogEvent     MisUSA02Eva10
+   Filename =   mu2xou11.wav
+End
+
+DialogEvent     MisUSA02Eva11
+   Filename =   mu2xou12.wav
+End
+
+DialogEvent     MisUSA02Eva12
+   Filename =   mu2xou13.wav
+End
+
+;====== Sounds for USA03 (GENERALS) ==========================================
+DialogEvent     BriefingUSA03
+   Filename =   mu3xou01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisUSA03Eva01
+   Filename =   mu3xou02.wav
+End
+
+DialogEvent     MisUSA03Eva02
+   Filename =   mu3xou03.wav
+End
+
+DialogEvent     MisUSA03Eva03
+   Filename =   mu3xou04.wav
+End
+
+DialogEvent     MisUSA03Eva04
+   Filename =   mu3xou05.wav
+End
+
+DialogEvent     MisUSA03OfficerU01
+   Filename =   mu3ofu01.wav
+End
+
+DialogEvent     MisUSA03Eva05
+   Filename =   mu3xou06.wav
+End
+
+DialogEvent     MisUSA03Eva06
+   Filename =   mu3xou07.wav
+End
+
+DialogEvent     MisUSA03Eva07
+   Filename =   mu3xou08.wav
+End
+
+DialogEvent     MisUSA03Crusader101
+   Filename =   mu3cr101.wav
+End
+
+DialogEvent     MisUSA03Crusader102
+   Filename =   mu3cr102.wav
+End
+
+DialogEvent     MisUSA03Crusader201
+   Filename =   mu3cr201.wav
+End
+
+DialogEvent     MisUSA03Crusader301
+   Filename =   mu3cr301.wav
+End
+
+DialogEvent     MisUSA03Crusader103
+   Filename =   mu3cr103.wav
+End
+
+DialogEvent     MisUSA03Crusader202
+   Filename =   mu3cr202.wav
+End
+
+DialogEvent     MisUSA03Crusader302
+   Filename =   mu3cr302.wav
+End
+
+DialogEvent     MisUSA03Crusader104
+   Filename =   mu3cr104.wav
+End
+
+DialogEvent     MisUSA03Crusader303
+   Filename =   mu3cr303.wav
+End
+
+DialogEvent     MisUSA03Crusader203
+   Filename =   mu3cr203.wav
+End
+
+DialogEvent     MisUSA03Crusader106
+   Filename =   mu3cr106.wav
+End
+
+DialogEvent     MisUSA03Crusader204
+   Filename =   mu3cr204.wav
+End
+
+DialogEvent     MisUSA03Crusader305
+   Filename =   mu3cr305.wav
+End
+
+DialogEvent     MisUSA03Crusader107
+   Filename =   mu3cr107.wav
+End
+
+DialogEvent     MisUSA03Crusader205
+   Filename =   mu3cr205.wav
+End
+
+DialogEvent     MisUSA03Crusader306
+   Filename =   mu3cr306.wav
+End
+
+DialogEvent     MisUSA03Comanche101
+   Filename =   mu3co101.wav
+End
+
+DialogEvent     MisUSA03Crusader206
+   Filename =   mu3cr206.wav
+End
+
+DialogEvent     MisUSA03Crusader109
+   Filename =   mu3cr109.wav
+End
+
+DialogEvent     MisUSA03Crusader207
+   Filename =   mu3cr207.wav
+End
+
+DialogEvent     MisUSA03Crusader308
+   Filename =   mu3cr308.wav
+End
+
+DialogEvent     MisUSA03Crusader110
+   Filename =   mu3cr110.wav
+End
+
+DialogEvent     MisUSA03Crusader208
+   Filename =   mu3cr208.wav
+End
+
+DialogEvent     MisUSA03Crusader309
+   Filename =   mu3cr309.wav
+End
+
+DialogEvent     MisUSA03Crusader111
+   Filename =   mu3cr111.wav
+End
+
+DialogEvent     MisUSA03Crusader209
+   Filename =   mu3cr209.wav
+End
+
+DialogEvent     MisUSA03Crusader310
+   Filename =   mu3cr310.wav
+End
+
+DialogEvent     MisUSA03OfficerU02
+   Filename =   mu3ofu02.wav
+End
+
+DialogEvent     MisUSA03OfficerU03
+   Filename =   mu3ofu03.wav
+End
+
+DialogEvent     MisUSA03OfficerU04
+   Filename =   mu3ofu04.wav
+End
+
+DialogEvent     MisUSA03Eva08
+   Filename =   mu3xou09.wav
+End
+
+DialogEvent     MisUSA03Eva09
+   Filename =   mu3xou10.wav
+End
+
+DialogEvent     MisUSA03Eva10
+   Filename =   mu3xou11.wav
+End
+
+DialogEvent     MisUSA03Eva11
+   Filename =   mu3xou12.wav
+End
+
+DialogEvent     MisUSA03Eva12
+   Filename =   mu3xou13.wav
+End
+
+DialogEvent     MisUSA03Eva13
+   Filename =   mu3xou14.wav
+End
+
+DialogEvent     MisUSA03Eva14
+   Filename =   mu3xou15.wav
+End
+
+DialogEvent     MisUSA03Eva15
+   Filename =   mu3xou16.wav
+End
+
+DialogEvent     MisUSA03Eva16
+   Filename =   mu3xou17.wav
+End
+
+DialogEvent     MisUSA03Eva17
+   Filename =   mu3xou18.wav
+End
+
+DialogEvent     MisUSA03Eva18
+   Filename =   mu3xou19.wav
+End
+
+DialogEvent     MisUSA03Eva19
+   Filename =   mu3xou20.wav
+End
+
+DialogEvent     MisUSA03Eva20
+   Filename =   mu3xou21.wav
+End
+
+;====== Sounds for USA04 (GENERALS) ==========================================
+DialogEvent     BriefingUSA04
+   Filename =   mu4xou01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisUSA04Eva01
+   Filename =   mu4xou02.wav
+End
+
+DialogEvent     MisUSA04Eva03
+   Filename =   mu4xou04.wav
+End
+
+DialogEvent     MisUSA04Eva04
+   Filename =   mu4xou05.wav
+End
+
+DialogEvent     MisUSA04Eva05
+   Filename =   mu4xou06.wav
+End
+
+DialogEvent     MisUSA04Battleship01
+   Filename =   mu4shi01.wav
+End
+
+DialogEvent     MisUSA04Battleship02
+   Filename =   mu4shi02.wav
+End
+
+DialogEvent     MisUSA04Battleship03
+   Filename =   mu4shi03.wav
+End
+
+DialogEvent     MisUSA04Transport02
+   Filename =   mu4ra201.wav
+End
+
+DialogEvent     MisUSA04Ranger02
+   Filename =   mu4ra301.wav
+End
+
+DialogEvent     MisUSA04Battleship01a
+   Filename =   mu4shi04.wav
+End
+
+DialogEvent     MisUSA04Ranger03
+   Filename =   mu4ra202.wav
+End
+
+DialogEvent     MisUSA04Ranger04
+   Filename =   mu4ra102.wav
+End
+
+DialogEvent     MisUSA04Eva06
+   Filename =   mu4xou07.wav
+End
+
+DialogEvent     MisUSA04Officer01
+   Filename =   mu4ofu01.wav
+End
+
+DialogEvent     MisUSA04Pilot01
+   Filename =   mu4co101.wav
+End
+
+DialogEvent     MisUSA04Pilot02
+   Filename =   mu4co102.wav
+End
+
+DialogEvent     MisUSA04Officer02
+   Filename =   mu4ofu02.wav
+End
+
+DialogEvent     MisUSA04Crusader103
+   Filename =   mu4cr103.wav
+End
+
+DialogEvent     MisUSA04Crusader201
+   Filename =   mu4cr201.wav
+End
+
+DialogEvent     MisUSA04Crusader301
+   Filename =   mu4cr301.wav
+End
+
+DialogEvent     MisUSA04Crusader104
+   Filename =   mu4cr104.wav
+End
+
+DialogEvent     MisUSA04Crusader202
+   Filename =   mu4cr202.wav
+End
+
+DialogEvent     MisUSA04Crusader302
+   Filename =   mu4cr302.wav
+End
+
+DialogEvent     MisUSA04Crusader105
+   Filename =   mu4cr105.wav
+End
+
+DialogEvent     MisUSA04Crusader203
+   Filename =   mu4cr203.wav
+End
+
+DialogEvent     MisUSA04Crusader303
+   Filename =   mu4cr303.wav
+End
+
+DialogEvent     MisUSA04Crusader106
+   Filename =   mu4cr106.wav
+End
+
+DialogEvent     MisUSA04Crusader204
+   Filename =   mu4cr204.wav
+End
+
+DialogEvent     MisUSA04Eva10
+   Filename =   mu4xou11.wav
+End
+
+DialogEvent     MisUSA04Eva11
+   Filename =   mu4xou12.wav
+End
+
+DialogEvent     MisUSA04Eva12
+   Filename =   mu4xou13.wav
+End
+
+DialogEvent     MisUSA04Eva13
+   Filename =   mu4xou14.wav
+End
+
+DialogEvent     MisUSA04Eva14
+   Filename =   mu4xou15.wav
+End
+
+;====== Sounds for USA05 (GENERALS) ==========================================
+
+DialogEvent     MisUSA05Eva05
+   Filename =   mu7xou06.wav
+End
+
+DialogEvent     MisUSA05Eva06
+   Filename =   mu7xou07.wav
+End
+
+DialogEvent     MisUSA05Eva07
+   Filename =   mu7xou08.wav
+End
+
+;====== Sounds for USA06 (GENERALS) ==========================================
+DialogEvent     BriefingUSA06
+   Filename =   mu6xou01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisUSA06Eva01
+   Filename =   mu6xou02.wav
+End
+
+DialogEvent     MisUSA06Officer01
+   Filename =   mu6ofu01.wav
+End
+
+DialogEvent     MisUSA06Officer02
+   Filename =   mu6ofu02.wav
+End
+
+DialogEvent     MisUSA06Eva02
+   Filename =   mu6xou03.wav
+End
+
+DialogEvent     MisUSA06Eva03
+   Filename =   mu6xou04.wav
+End
+
+DialogEvent     MisUSA06Eva04
+   Filename =   mu6xou05.wav
+End
+
+DialogEvent     MisUSA06Eva05
+   Filename =   mu6xou06.wav
+End
+
+DialogEvent     MisUSA06Officer03
+   Filename =   mu6ofu03.wav
+End
+
+DialogEvent     MisUSA06Eva06
+   Filename =   mu6xou07.wav
+End
+
+DialogEvent     MisUSA06Officer04
+   Filename =   mu6ofu04.wav
+End
+
+DialogEvent     MisUSA06Crusader201
+   Filename =   mu6cr201.wav
+End
+
+DialogEvent     MisUSA06Crusader301
+   Filename =   mu6cr301.wav
+End
+
+DialogEvent     MisUSA06Crusader302
+   Filename =   mu6cr302.wav
+End
+
+DialogEvent     MisUSA06Crusader103
+   Filename =   mu6cr103.wav
+End
+
+DialogEvent     MisUSA06Crusader203
+   Filename =   mu6cr203.wav
+End
+
+DialogEvent     MisUSA06Crusader303
+   Filename =   mu6cr303.wav
+End
+
+DialogEvent     MisUSA06Crusader104
+   Filename =   mu6cr104.wav
+End
+
+DialogEvent     MisUSA06Officer06
+   Filename =   mu6ofu06.wav
+End
+
+DialogEvent     MisUSA06Crusader204
+   Filename =   mu6cr204.wav
+End
+
+DialogEvent     MisUSA06Officer07
+   Filename =   mu6ofu07.wav
+End
+
+DialogEvent     MisUSA06Officer08
+   Filename =   mu6ofu08.wav
+End
+
+DialogEvent     MisUSA06Crusader304
+   Filename =   mu6cr304.wav
+End
+
+DialogEvent     MisUSA06Officer09
+   Filename =   mu6ofu09.wav
+End
+
+DialogEvent     MisUSA06Crusader105
+   Filename =   mu6cr105.wav
+End
+
+DialogEvent     MisUSA06Crusader205
+   Filename =   mu6cr205.wav
+End
+
+DialogEvent     MisUSA06Crusader305
+   Filename =   mu6cr305.wav
+End
+
+DialogEvent     MisUSA06Crusader106
+   Filename =   mu6cr106.wav
+End
+
+DialogEvent     MisUSA06Crusader306
+   Filename =   mu6cr306.wav
+End
+
+DialogEvent     MisUSA06Crusader107
+   Filename =   mu6cr107.wav
+End
+
+DialogEvent     MisUSA06Commander01
+   Filename =   mu6com01.wav
+End
+
+DialogEvent     MisUSA06Commander02
+   Filename =   mu6com02.wav
+End
+
+DialogEvent     MisUSA06Commander03
+   Filename =   mu6com03.wav
+End
+
+DialogEvent     MisUSA06Commander04
+   Filename =   mu6com04.wav
+End
+
+DialogEvent     MisUSA06Commander05
+   Filename =   mu6com05.wav
+End
+
+DialogEvent     MisUSA06Commander06
+   Filename =   mu6com06.wav
+End
+
+DialogEvent     MisUSA06Commander07
+   Filename =   mu6com07.wav
+End
+
+DialogEvent     MisUSA06Commander08
+   Filename =   mu6com08.wav
+End
+
+DialogEvent     MisUSA06Commander09
+   Filename =   mu6com09.wav
+End
+
+DialogEvent     MisUSA06Commander10
+   Filename =   mu6com10.wav
+End
+
+DialogEvent     MisUSA06Commander11
+   Filename =   mu6com11.wav
+End
+
+DialogEvent     MisUSA06Commander12
+   Filename =   mu6com12.wav
+End
+
+DialogEvent     MisUSA06Commander13
+   Filename =   mu6com13.wav
+End
+
+DialogEvent     MisUSA06Commander14
+   Filename =   mu6com14.wav
+End
+
+DialogEvent     MisUSA06Commander15
+   Filename =   mu6com15.wav
+End
+
+DialogEvent     MisUSA06Commander16
+   Filename =   mu6com16.wav
+End
+
+DialogEvent     MisUSA06Commander17
+   Filename =   mu6com17.wav
+End
+
+DialogEvent     MisUSA06Commander18
+   Filename =   mu6com18.wav
+End
+
+DialogEvent     MisUSA06Commander19
+   Filename =   mu6com19.wav
+End
+
+DialogEvent     MisUSA06Commander20
+   Filename =   mu6com20.wav
+End
+
+DialogEvent     MisUSA06Raptor01
+   Filename =   mu6rap01.wav
+End
+
+DialogEvent     MisUSA06Raptor02
+   Filename =   mu6rap02.wav
+End
+
+DialogEvent     MisUSA06Crusader401
+   Filename =   mu6cr401.wav
+End
+
+DialogEvent     MisUSA06Crusader402
+   Filename =   mu6cr402.wav
+End
+
+DialogEvent     MisUSA06Crusader403
+   Filename =   mu6cr403.wav
+End
+
+DialogEvent     MisUSA06Crusader404
+   Filename =   mu6cr404.wav
+End
+
+DialogEvent     MisUSA06Crusader501
+   Filename =   mu6cr501.wav
+End
+
+DialogEvent     MisUSA06Crusader502
+   Filename =   mu6cr502.wav
+End
+
+DialogEvent     MisUSA06Crusader503
+   Filename =   mu6cr503.wav
+End
+
+DialogEvent     MisUSA06Crusader504
+   Filename =   mu6cr504.wav
+End
+
+DialogEvent     MisUSA06Crusader108
+   Filename =   mu6cr108.wav
+End
+
+DialogEvent     MisUSA06Crusader109
+   Filename =   mu6cr109.wav
+End
+
+DialogEvent     MisUSA06Buggy01
+   Filename =   mu6roc01.wav
+End
+
+DialogEvent     MisUSA06Technical01
+   Filename =   mu6tec01.wav
+End
+
+DialogEvent     MisUSA06Commanche101
+   Filename =   mu6co101.wav
+End
+
+DialogEvent     MisUSA06Commanche102
+   Filename =   mu6co102.wav
+End
+
+DialogEvent     MisUSA06Commanche103
+   Filename =   mu6co103.wav
+End
+
+;====== Sounds for USA07 (GENERALS) ==========================================
+DialogEvent     BriefingUSA07
+   Filename =   mu7xou01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisUSA07Eva01
+   Filename =   mu7xou02.wav
+End
+
+DialogEvent     MisUSA07Eva02
+   Filename =   mu7xou03.wav
+End
+
+DialogEvent     MisUSA07Eva03
+   Filename =   mu7xou04.wav
+End
+
+DialogEvent     MisUSA07POW01
+   Filename =   mu7pow01.wav
+End
+
+DialogEvent     MisUSA07Crusader101
+   Filename =   mu7cr101.wav
+End
+
+DialogEvent     MisUSA07Crusader201
+   Filename =   mu7cr201.wav
+End
+
+DialogEvent     MisUSA07Crusader102
+   Filename =   mu7cr102.wav
+End
+
+DialogEvent     MisUSA07Crusader202
+   Filename =   mu7cr202.wav
+End
+
+DialogEvent     MisUSA07Crusader103
+   Filename =   mu7cr103.wav
+End
+
+DialogEvent     MisUSA07Crusader203
+   Filename =   mu7cr203.wav
+End
+
+DialogEvent     MisUSA07Crusader302
+   Filename =   mu7cr302.wav
+End
+
+DialogEvent     MisUSA07Crusader104
+   Filename =   mu7cr104.wav
+End
+
+DialogEvent     MisUSA07Crusader105
+   Filename =   mu7cr105.wav
+End
+
+DialogEvent     MisUSA07Eva04
+   Filename =   mu7xou05.wav
+End
+
+DialogEvent     MisUSA07Crusader304
+   Filename =   mu7cr304.wav
+End
+
+DialogEvent     MisUSA07Crusader106
+   Filename =   mu7cr106.wav
+End
+
+DialogEvent     MisUSA07Crusader206
+   Filename =   mu7cr206.wav
+End
+
+DialogEvent     MisUSA07Crusader107
+   Filename =   mu7cr107.wav
+End
+
+DialogEvent     MisUSA07Crusader207
+   Filename =   mu7cr207.wav
+End
+
+DialogEvent     MisUSA07Crusader305
+   Filename =   mu7cr305.wav
+End
+
+DialogEvent     MisUSA07Crusader108
+   Filename =   mu7cr108.wav
+End
+
+DialogEvent     MisUSA07Crusader109
+   Filename =   mu7cr109.wav
+End
+
+DialogEvent     MisUSA07Crusader208
+   Filename =   mu7cr208.wav
+End
+
+DialogEvent     MisUSA07Crusader110
+   Filename =   mu7cr110.wav
+End
+
+DialogEvent     MisUSA07Crusader209
+   Filename =   mu7cr209.wav
+End
+
+DialogEvent     MisUSA07Crusader307
+   Filename =   mu7cr307.wav
+End
+
+DialogEvent     MisUSA07Crusader111
+   Filename =   mu7cr111.wav
+End
+
+DialogEvent     MisUSA07Crusader210
+   Filename =   mu7cr210.wav
+End
+
+DialogEvent     MisUSA07Crusader308
+   Filename =   mu7cr308.wav
+End
+
+DialogEvent     MisUSA07Crusader211
+   Filename =   mu7cr211.wav
+End
+
+DialogEvent     MisUSA07Crusader309
+   Filename =   mu7cr309.wav
+End
+
+DialogEvent     MisUSA07Crusader112
+   Filename =   mu7cr112.wav
+End
+
+DialogEvent     MisUSA07Crusader212
+   Filename =   mu7cr212.wav
+End
+
+DialogEvent     MisUSA07Crusader310
+   Filename =   mu7cr310.wav
+End
+
+DialogEvent     MisUSA07Crusader113
+   Filename =   mu7cr113.wav
+End
+
+DialogEvent     MisUSA07Crusader213
+   Filename =   mu7cr213.wav
+End
+
+DialogEvent     MisUSA07Crusader311
+   Filename =   mu7cr311.wav
+End
+
+DialogEvent     MisUSA07Crusader114
+   Filename =   mu7cr114.wav
+End
+
+DialogEvent     MisUSA07Crusader214
+   Filename =   mu7cr214.wav
+End
+
+DialogEvent     MisUSA07Crusader312
+   Filename =   mu7cr312.wav
+End
+
+DialogEvent     MisUSA07Crusader115
+   Filename =   mu7cr115.wav
+End
+
+DialogEvent     MisUSA07Crusader215
+   Filename =   mu7cr215.wav
+End
+
+DialogEvent     MisUSA07Crusader313
+   Filename =   mu7cr313.wav
+End
+
+DialogEvent     MisUSA07Crusader116
+   Filename =   mu7cr116.wav
+End
+
+DialogEvent     MisUSA07Crusader216
+   Filename =   mu7cr216.wav
+End
+
+DialogEvent     MisUSA07Crusader314
+   Filename =   mu7cr314.wav
+End
+
+DialogEvent     MisUSA07Crusader117
+   Filename =   mu7cr117.wav
+End
+
+DialogEvent     MisUSA07Crusader217
+   Filename =   mu7cr217.wav
+End
+
+DialogEvent     MisUSA07Officer04
+   Filename =   mu7ofu04.wav
+End
+
+DialogEvent     MisUSA07Crusader315
+   Filename =   mu7cr315.wav
+End
+
+;====== Sounds for USA08 (GENERALS) ==========================================
+DialogEvent     MisUSA08General02Alt
+   Filename =   mu8xou10.wav
+End
+
+DialogEvent     MisUSA08General03Alt
+   Filename =   mu8xou11.wav
+End
+
+DialogEvent     BriefingUSA08
+   Filename =   mu8xou01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisUSA08General01
+   Filename =   mu8xou02.wav
+End
+
+DialogEvent     MisUSA08General02
+   Filename =   mu8xou03.wav
+End
+
+DialogEvent     MisUSA08General03
+   Filename =   mu8xou04.wav
+End
+
+DialogEvent     MisUSA08General04
+   Filename =   mu8ofu01.wav
+End
+
+DialogEvent     MisUSA08General05
+   Filename =   mu8xou05.wav
+End
+
+DialogEvent     MisUSA08General06
+   Filename =   mu8xou06.wav
+End
+
+DialogEvent     MisUSA08General07
+   Filename =   mu8xou07.wav
+End
+
+DialogEvent     MisUSA08General08
+   Filename =   mu8ofu02.wav
+End
+
+DialogEvent     MisUSA08General09
+   Filename =   mu8xou08.wav
+End
+
+DialogEvent     MisUSA08General10
+   Filename =   mu8xou09.wav
+End
+
+DialogEvent     MisUSA08General11
+   Filename =   mu8ofu03.wav
+End
+
+DialogEvent     MisUSA08Chatter01
+   Filename =   mu8ra101.wav
+End
+
+DialogEvent     MisUSA08Chatter02
+   Filename =   mu8co101.wav
+End
+
+DialogEvent     MisUSA08Chatter03
+   Filename =   mu8cr101.wav
+End
+
+DialogEvent     MisUSA08Chatter04
+   Filename =   mu8ra102.wav
+End
+
+DialogEvent     MisUSA08Chatter05
+   Filename =   mu8ra201.wav
+End
+
+DialogEvent     MisUSA08Chatter07
+   Filename =   mu8cr201.wav
+End
+
+DialogEvent     MisUSA08Chatter08
+   Filename =   mu8rp101.wav
+End
+
+DialogEvent     MisUSA08Chatter09
+   Filename =   mu8cr103.wav
+End
+
+DialogEvent     MisUSA08Chatter11
+   Filename =   mu8ra301.wav
+End
+
+DialogEvent     MisUSA08Chatter13
+   Filename =   mu8ra203.wav
+End
+
+DialogEvent     MisUSA08Chatter15
+   Filename =   mu8ra104.wav
+End
+
+DialogEvent     MisUSA08Chatter16
+   Filename =   mu8ra204.wav
+End
+
+DialogEvent     MisUSA08Chatter17
+   Filename =   mu8rp102.wav
+End
+
+DialogEvent     MisUSA08Chatter18
+   Filename =   mu8rp201.wav
+End
+
+DialogEvent     MisUSA08Cin01
+   Filename =   mu8ra105.wav
+End
+
+DialogEvent     MisUSA08Cin02
+   Filename =   mu8ofu04.wav
+End
+
+DialogEvent     MisUSA08Cin03
+   Filename =   mu8ra106.wav
+End
+
+DialogEvent     MisUSA08Cin04
+   Filename =   mu8ofu05.wav
+End
+
+DialogEvent     MisUSA08Cin05
+   Filename =   mu8ra107.wav
+End
+
+DialogEvent     MisUSA08Cin06
+   Filename =   mu8ofu06.wav
+End
+
+DialogEvent     MisUSA08Cin07
+   Filename =   mu8ra108.wav
+End
+
+DialogEvent     MisUSA08Cin08
+   Filename =   mu8co102.wav
+End
+
+DialogEvent     MisUSA08Cin09
+   Filename =   mu8ra109.wav
+End
+
+DialogEvent     MisUSA08Cin10
+   Filename =   mu8ra110.wav
+End
+
+DialogEvent     MisUSA08Cin11
+   Filename =   mu8ofu07.wav
+End
+
+DialogEvent     MisUSA08Cin12
+   Filename =   mu8ra111.wav
+End
+
+;====== Misc USA Chatter (GENERALS) ==========================================
+DialogEvent     MisUSAChatter02
+   Filename =   mu8cr105.wav
+End
+
+DialogEvent     MisUSAChatter03
+   Filename =   mu8cr106.wav
+End
+
+DialogEvent     MisUSAChatter04
+   Filename =   mu8cr107.wav
+End
+
+DialogEvent     MisUSAChatter05
+   Filename =   mu8cr108.wav
+End
+
+DialogEvent     MisUSAChatter06
+   Filename =   mu8cr109.wav
+End
+
+DialogEvent     MisUSAChatter07
+   Filename =   mu8cr110.wav
+End
+
+DialogEvent     MisUSAChatter08
+   Filename =   mu8cr111.wav
+End
+
+DialogEvent     MisUSAChatter09
+   Filename =   mu8cr112.wav
+End
+
+DialogEvent     MisUSAChatter10
+   Filename =   mu8cr113.wav
+End
+
+;---------- TRAINING MISSIONS ------------
+;-----------------------------------------
+DialogEvent     BriefingUSATraining
+   Filename =   mtrxou01.wav
+   Type     =   ui everyone
+End
+
+DialogEvent     MisTRComanche01
+   Filename =   mtrco101.wav
+End
+
+DialogEvent     MisTRComanche02
+   Filename =   mtrco102.wav
+End
+
+DialogEvent     MisTRComanche03
+   Filename =   mtrco103.wav
+End
+
+DialogEvent     MisTRRanger01
+   Filename =   mtrofu01.wav
+End
+
+DialogEvent     MisTRComanche04
+   Filename =   mtrco104.wav
+End
+
+DialogEvent     MisTRComanche09
+   Filename =   mtrco201.wav
+End
+
+DialogEvent     MisTRComanche05
+   Filename =   mtrco105.wav
+End
+
+DialogEvent     MisTRComanche06
+   Filename =   mtrco106.wav
+End
+
+DialogEvent     MisTRRanger01a
+   Filename =   mtrra101.wav
+End
+
+DialogEvent     MisTRRanger02
+   Filename =   mtrra102.wav
+End
+
+DialogEvent     MisTRRanger02a
+   Filename =   mtrofu02.wav
+End
+
+DialogEvent     MisTRRanger02b
+   Filename =   mtrofu03.wav
+End
+
+DialogEvent     MisTRRanger04
+   Filename =   mtrofu04.wav
+End
+
+DialogEvent     MisTRRanger04a
+   Filename =   mtrofu05.wav
+End
+
+DialogEvent     MisTRRanger04b
+   Filename =   mtrofu06.wav
+End
+
+DialogEvent     MisTRRanger05
+   Filename =   mtrofu07.wav
+End
+
+DialogEvent     MisTRRanger05a
+   Filename =   mtrofu08.wav
+End
+
+DialogEvent     MisTRComanche07
+   Filename =   mtrco107.wav
+End
+
+DialogEvent     MisTRComanche07a
+   Filename =   mtrco108.wav
+End
+
+DialogEvent     MisTRComanche08
+   Filename =   mtrco109.wav
+End
+
+DialogEvent     MisTRRanger06
+   Filename =   mtrofu09.wav
+End
+
+DialogEvent     MisTRRanger07
+   Filename =   mtrofu10.wav
+End
+
+DialogEvent     MisTRRanger08
+   Filename =   mtrofu11.wav
+End
+
+DialogEvent     MisTRRanger08a
+   Filename =   mtrofu12.wav
+End
+
+DialogEvent     MisTRRanger103
+   Filename =   mtrra103.wav
+End
+
+DialogEvent     MisTRRanger201
+   Filename =   mtrra201.wav
+End
+
+DialogEvent     MisTROfficerU01
+   Filename =   mtrofu13.wav
+End
+
+DialogEvent     MisTRComanche109
+   Filename =   mtrco110.wav
+End
+
+DialogEvent     MisTRComanche110
+   Filename =   mtrco111.wav
+End
+
+DialogEvent     MisTRRanger104
+   Filename =   mtrra104.wav
+End
+
+DialogEvent     MisTRRanger105
+   Filename =   mtrra105.wav
+End
+
+DialogEvent     MisTRRanger106
+   Filename =   mtrra106.wav
+End
+
+DialogEvent     MisTROfficerU02
+   Filename =   mtrofu14.wav
+End
+
+DialogEvent     MisTROfficerU03
+   Filename =   mtrofu15.wav
+End
+
+DialogEvent     MisTRRanger107
+   Filename =   mtrra107.wav
+End
+
+DialogEvent     MisTROfficerU04
+   Filename =   mtrofu16.wav
+End
+
+DialogEvent     MisTRRanger202
+   Filename =   mtrra202.wav
+End
+
+DialogEvent     MisTROfficerU05
+   Filename =   mtrofu17.wav
+End
+
+DialogEvent     MisTROfficerU06
+   Filename =   mtrofu18.wav
+End
+
+DialogEvent     MisTROfficerU07
+   Filename =   mtrofu19.wav
+End
