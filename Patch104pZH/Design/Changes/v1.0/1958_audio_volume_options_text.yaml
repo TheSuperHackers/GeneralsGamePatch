@@ -1,0 +1,21 @@
+---
+date: 2023-05-17
+
+title: Improves latin text of volume options
+
+changes:
+  - tweak: Improves latin text of sound fx volume option to help clarify that it also affects unit voices.
+  - tweak: Improves latin text of speech volume option to help clarify that it only effects speech dialog.
+
+labels:
+  - enhancement
+  - gui
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1958
+
+authors:
+  - xezon
