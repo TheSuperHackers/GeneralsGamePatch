@@ -10,6 +10,7 @@ changes:
 subchanges:
   - tweak: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
   - tweak: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Sentry Drone wreck from 1500 ms to 3000 ms.
   - tweak: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
   - tweak: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
   - tweak: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
@@ -57,6 +58,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731
 
 authors:
   - xezon
