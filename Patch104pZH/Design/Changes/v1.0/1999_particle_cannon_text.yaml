@@ -1,0 +1,20 @@
+---
+date: 2023-06-09
+
+title: Shortens English Particle Cannon timer text
+
+changes:
+  - tweak: "Particle Uplink Cannon" now reads "Particle Cannon" on the English Superweapon timer.
+
+labels:
+  - gui
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1999
+
+authors:
+  - xezon
