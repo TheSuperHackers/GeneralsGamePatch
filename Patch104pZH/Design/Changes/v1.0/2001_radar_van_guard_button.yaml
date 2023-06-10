@@ -1,0 +1,20 @@
+---
+date: 2023-06-10
+
+title: Adds Guard button to GLA Radar Van
+
+changes:
+  - tweak: Adds the Guard button to the GLA Radar Van. Guard does not do anything special for the Radar Van other than moving to the guard destination, but it allows to use Guard in a group selection with other types of units.
+
+labels:
+  - enhancement
+  - gla
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2001
+
+authors:
+  - xezon
