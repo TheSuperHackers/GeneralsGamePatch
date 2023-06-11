@@ -1,0 +1,19 @@
+---
+date: 2021-09-19
+
+title: Fixes wrong Ranger types spawned from destroyed Boss buildings
+
+changes:
+  - fix: Destroyed Boss buildings now spawn the correct Boss Ranger types.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/388
+
+authors:
+  - commy2

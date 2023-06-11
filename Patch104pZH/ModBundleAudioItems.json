@@ -1,0 +1,528 @@
+{
+    "bundles": {
+        "version": 1,
+        "items": [
+            {
+                "name": "CoreAudio",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioArabic",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Arabic/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioBrazilian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioChinese",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Chinese/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioEnglish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/English/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioFrench",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/French/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioGerman",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/German/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioItalian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Italian/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioKorean",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Korean/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioPolish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Polish/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioRussian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Audio/Sounds/Russian/*.wav"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioSpanish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Spanish/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudio",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/FX/*.wav",
+                                "target": "Data/Audio/Sounds/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/UI/*.wav",
+                                "target": "Data/Audio/Sounds/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/Vehicles/*.wav",
+                                "target": "Data/Audio/Sounds/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioArabic",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Arabic/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Arabic/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Arabic/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Arabic/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Arabic/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/Arabic/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioBrazilian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/Brazilian/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioChinese",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Chinese/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Chinese/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Chinese/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Chinese/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Chinese/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/Chinese/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioEnglish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/English/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioFrench",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/French/*.wav",
+                                "target": "Data/Audio/Sounds/French/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/French/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/French/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioGerman",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/German/*.wav",
+                                "target": "Data/Audio/Sounds/German/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioItalian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Italian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Italian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Italian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Italian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Italian/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/Italian/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioKorean",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Korean/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Korean/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Korean/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Korean/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Korean/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/Korean/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioPolish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Polish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Polish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Polish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Polish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Polish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/Polish/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioRussian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/Russian/*.wav",
+                                "target": "Data/Audio/Sounds/Russian/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalAudioSpanish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/Spanish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Spanish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Spanish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Spanish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
+                                "target": "Data/Audio/Sounds/Spanish/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/Spanish/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+---
+date: 2023-05-01
+
+title: Improves Gattling Cannon upgrade button of China Overlord and Emperor to be usable in group selections
+
+changes:
+  - tweak: The Gattling Cannon upgrade of the China Overlord and Emperor can now be acquired in group selections.
+
+labels:
+  - china
+  - enhancement
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896
+
+authors:
+  - xezon

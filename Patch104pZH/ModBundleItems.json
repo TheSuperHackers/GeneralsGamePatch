@@ -5,18 +5,9 @@
         "itemsSuffix": "",
         "items": [
             {
-                "name": "CoreArt",
+                "name": "CoreTextures",
                 "big": true,
                 "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Art/W3D/*.W3D"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ]
-                    },
                     {
                         "parent": "GameFilesEdited",
                         "sourceList": [
@@ -37,6 +28,14 @@
                             {
                                 "source": "Art/Textures/GenerateMip/*.tga",
                                 "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/exhorde.psd",
+                                "target": "Art/Textures/exhordeb.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/exhorde_up.psd",
+                                "target": "Art/Textures/exhordeb_up.dds"
                             }
                         ],
                         "params": {
@@ -46,8 +45,16 @@
                     },
                     {
                         "parent": "GameFilesEdited",
-                        "source": "Art/Textures/NoMip/*.psd",
-                        "target": "Art/Textures/*.dds",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/NoMip/*.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/NoMip/*.tga",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
                         "params": {
                             "-quality": 255,
                             "-mipmode": "None"
@@ -61,9 +68,265 @@
                 ]
             },
             {
-                "name": "CoreAudio",
+                "name": "CoreW3D",
                 "big": true,
-                "files": []
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Art/W3D/*.W3D"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ]
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Animation/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": true,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Hierarchy/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": false
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/HierarchyAnimationMesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": true,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/HierarchyMesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Mesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": false,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": true
+                        }
+                    }
+                ],
+                "onFinishBuildRawBundleItem": {
+                    "script": "Scripts/Python/OnBuildItemWithBlender3-4-1.py"
+                }
+            },
+            {
+                "name": "AxOptionalTextures",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceList": [
+                            "Art/Textures/*.tga",
+                            "Art/Textures/*.dds"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ]
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/GenerateMip/*.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/*.tga",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "Generate"
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/NoMip/*.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/NoMip/*.tga",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "None"
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "source": "Art/Textures/GenerateTga/*.psd",
+                        "target": "Art/Textures/*.tga"
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalW3D",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceList": [
+                            "Art/W3D/*.W3D"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ]
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Animation/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": true,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Hierarchy/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": false
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/HierarchyAnimationMesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": true,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/HierarchyMesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": true,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": true
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Models/Mesh/*.blend",
+                                "target": "Art/W3D/*.W3D"
+                            }
+                        ],
+                        "params": {
+                            "w3dExportHierarchy": false,
+                            "w3dExportAnimation": false,
+                            "w3dExportMesh": true
+                        }
+                    }
+                ],
+                "onFinishBuildRawBundleItem": {
+                    "script": "Scripts/Python/OnBuildItemWithBlender3-4-1.py"
+                }
+            },
+            {
+                "name": "RecoveredTextures",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesOriginalCCG",
+                        "sourceList": [
+                            "Art/Textures/*.dds",
+                            "Art/Textures/*.tga"
+                        ]
+                    },
+                    {
+                        "parent": "GameFilesOriginalCCG",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/GenerateMip/*.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/*.tga",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "Generate"
+                        }
+                    }
+                ]
             },
             {
                 "name": "CoreINI",
@@ -80,7 +343,41 @@
                         "params": {
                             "forceEOL": "\r\n",
                             "deleteComments": ";",
-                            "deleteWhitespace": 1
+                            "deleteWhitespace": 1,
+                            "sourceEncoding": "ascii",
+                            "targetEncoding": "ascii",
+                            "excludeMarkersList": [
+                                [
+                                    ";patch104p-optional-begin",
+                                    ";patch104p-optional-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalINI",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/INI/CommandSet.ini",
+                            "Data/INI/Voice.ini"
+                        ],
+                        "params": {
+                            "forceEOL": "\r\n",
+                            "deleteComments": ";",
+                            "deleteWhitespace": 1,
+                            "sourceEncoding": "ascii",
+                            "targetEncoding": "ascii",
+                            "excludeMarkersList": [
+                                [
+                                    ";patch104p-core-begin",
+                                    ";patch104p-core-end"
+                                ]
+                            ]
                         }
                     }
                 ]
@@ -115,405 +412,10 @@
                         ],
                         "params": {
                             "forceEOL": "\r\n",
-                            "deleteWhitespace": 1
+                            "deleteWhitespace": 1,
+                            "sourceEncoding": "ascii",
+                            "targetEncoding": "ascii"
                         }
-                    }
-                ]
-            },
-            {
-                "name": "AxOptionalArt",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesOptional",
-                        "sourceList": [
-                            "Art/Textures/*.tga"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesOptional",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Textures/GenerateMip/*.psd",
-                                "target": "Art/Textures/*.dds"
-                            },
-                            {
-                                "source": "Art/Textures/GenerateMip/*.tga",
-                                "target": "Art/Textures/*.dds"
-                            }
-                        ],
-                        "params": {
-                            "-quality": 255,
-                            "-mipmode": "Generate"
-                        }
-                    },
-                    {
-                        "parent": "GameFilesOptional",
-                        "source": "Art/Textures/GenerateTga/*.psd",
-                        "target": "Art/Textures/*.tga"
-                    }
-                ]
-            },
-            {
-                "name": "AxOptionalAudio",
-                "big": true,
-                "files": []
-            },
-            {
-                "name": "RecoveredArt",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesOriginalCCG",
-                        "sourceList": [
-                            "Art/Textures/*.dds"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesOriginalCCG",
-                        "source": "Art/Textures/GenerateMip/*.psd",
-                        "target": "Art/Textures/*.dds",
-                        "params": {
-                            "-quality": 255,
-                            "-mipmode": "Generate"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangArabic",
-                "big": true,
-                "setGameLanguageOnInstall": "Arabic",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Arabic/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Arabic/*.wav"
-                            }
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Arabic"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Arabic/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangBrazilian",
-                "big": true,
-                "setGameLanguageOnInstall": "Brazilian",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Brazilian/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
-                            }
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Brazilian"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Brazilian/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangChinese",
-                "big": true,
-                "setGameLanguageOnInstall": "Chinese",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Chinese/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Chinese/*.wav"
-                            }
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Chinese"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Chinese/generals.csf"
-                            },
-                            {
-                                "source": "Data/Autorun.str",
-                                "target": "Data/Chinese/Autorun.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangEnglish",
-                "big": true,
-                "setGameLanguageOnInstall": "English",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/English/*.wav",
-                            "Data/English/*.ini"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "English"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/English/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangFrench",
-                "big": true,
-                "setGameLanguageOnInstall": "French",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/French/*.wav",
-                            "Data/French/*.ini"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "French"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/French/generals.csf"
-                            },
-                            {
-                                "source": "Data/Autorun.str",
-                                "target": "Data/French/Autorun.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangGerman",
-                "big": true,
-                "setGameLanguageOnInstall": "German",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/German/*.wav",
-                            "Data/German/*.ini"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "German"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/German/generals.csf"
-                            },
-                            {
-                                "source": "Data/Autorun.str",
-                                "target": "Data/German/Autorun.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangItalian",
-                "big": true,
-                "setGameLanguageOnInstall": "Italian",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Italian/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Italian/*.wav"
-                            }
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Italian"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Italian/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangKorean",
-                "big": true,
-                "setGameLanguageOnInstall": "Korean",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Korean/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Korean/*.wav"
-                            }
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Korean"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Korean/generals.csf"
-                            },
-                            {
-                                "source": "Data/Autorun.str",
-                                "target": "Data/Korean/Autorun.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangPolish",
-                "big": true,
-                "setGameLanguageOnInstall": "Polish",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Polish/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Polish/*.wav"
-                            }
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Polish"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Polish/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangRussian",
-                "big": true,
-                "setGameLanguageOnInstall": "Russian",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/Russian/*.wav",
-                            "Data/Russian/*.ini"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Russian"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Russian/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreLangSpanish",
-                "big": true,
-                "setGameLanguageOnInstall": "Spanish",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Spanish/*.ini"
-                        ],
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Spanish/*.wav"
-                            }
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Spanish"
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Spanish/generals.csf"
-                            }
-                        ]
                     }
                 ]
             }

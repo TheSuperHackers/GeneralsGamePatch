@@ -1,0 +1,30 @@
+---
+date: 2022-09-25
+
+title: Fixes nvinferno textures for China Inferno Cannon
+
+changes:
+  - fix: Fixes nvinferno textures for China Inferno Cannon.
+
+subchanges:
+  - fix: |
+      nvinferno
+        - Removes white seam at the bottom of the texture
+        - Fixes length of some metal piece to be consistent with nvinferno_d, nvinferno_d1
+  - fix: |
+      nvinferno_d, nvinferno_d1
+        - Fixes look of one metal plate to be consistent with nvinferno
+
+labels:
+  - art
+  - bug
+  - china
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1285
+
+authors:
+  - xezon

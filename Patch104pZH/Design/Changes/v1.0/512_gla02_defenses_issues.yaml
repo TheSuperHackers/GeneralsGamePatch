@@ -1,0 +1,21 @@
+---
+date: 2021-10-07
+
+title: Fixes issues with GLA Stealth base defenses in GLA02 campaign
+
+changes:
+  - fix: The GLA02 Stealth General's Tunnel Network no longer builds in 10 seconds.
+  - fix: The GLA02 Stealth General's Stinger Site no longer builds in 50 seconds.
+  - fix: The GLA02 Stealth General's Tunnel Network is no longer immune to Microwave Tanks.
+  - fix: The GLA02 Stealth General's Demo Trap no longer plays an effect when damaged.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/512
+
+authors:
+  - commy2

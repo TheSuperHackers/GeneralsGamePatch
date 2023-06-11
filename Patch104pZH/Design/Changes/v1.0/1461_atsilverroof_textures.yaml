@@ -1,0 +1,31 @@
+---
+date: 2022-11-10
+
+title: Fixes silver roof textures for USA structures
+
+changes:
+  - fix: Fixes silver roof textures for USA structures.
+
+subchanges:
+  - fix: |
+      atsilverroof02_d, atsilverroof02_e
+        - Fixes bullet holes drawing over burns
+        - Repaints burns
+  - fix: |
+      atsilverroof02_ds, atsilverroof02_es
+        - Fixes snow drawing over burns
+        - Fixes bullet holes drawing over burns
+        - Repaints burns
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1461
+
+authors:
+  - xezon

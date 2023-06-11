@@ -1,0 +1,19 @@
+---
+date: 2021-09-12
+
+title: Fixes Nuke General unable to build Nuke Cannons from regular China and Infantry General War Factories
+
+changes:
+  - fix: The Nuke General can now build Nuke Cannons in regular China and Infantry General War Factories.
+
+labels:
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/331
+
+authors:
+  - commy2

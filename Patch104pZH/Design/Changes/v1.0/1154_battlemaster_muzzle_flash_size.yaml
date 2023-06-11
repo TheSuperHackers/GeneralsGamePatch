@@ -1,0 +1,19 @@
+---
+date: 2022-09-07
+
+title: Fixes small size of muzzle flash effects of China Battlemaster
+
+changes:
+  - tweak: The China Battlemaster now uses the muzzle flash effects of regular tanks like the Crusader Tank and Overlord Tank, instead of the small effects for the Scorpion Tank.
+
+labels:
+  - bug
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1154
+
+authors:
+  - xezon

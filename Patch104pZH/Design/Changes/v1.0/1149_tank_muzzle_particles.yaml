@@ -1,0 +1,23 @@
+---
+date: 2022-09-07
+
+title: Fixes muzzle particle effects of tanks
+
+changes:
+  - fix: Fixes poor fadeouts of tank muzzle flare effects.
+  - fix: Fixed movement direction and lifetime of tank muzzle smoke effects.
+  - tweak: Improves smoke puff texture for tank muzzle smoke effects.
+
+labels:
+  - bug
+  - china
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1149
+
+authors:
+  - xezon

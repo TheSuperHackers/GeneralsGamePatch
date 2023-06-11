@@ -1,0 +1,19 @@
+---
+date: 2021-10-03
+
+title: Fixes the microwave immunity of Boss Bunker
+
+changes:
+  - fix: The Boss Bunker is no longer immune to Microwave tanks.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/451
+
+authors:
+  - commy2

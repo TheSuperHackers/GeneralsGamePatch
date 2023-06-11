@@ -1,0 +1,19 @@
+---
+date: 2022-11-27
+
+title: Adds damage state transition effect to USA A10
+
+changes:
+  - fix: Adds a damage transition effect to the A10. This way it is visually clear when it becomes critically damaged.
+
+labels:
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1487
+
+authors:
+  - Stubbjax

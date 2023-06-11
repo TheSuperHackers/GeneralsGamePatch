@@ -1,0 +1,21 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to USA Paladin
+
+changes:
+  - tweak: Adds unused voice "Protecting our people" to PaladinTankVoiceSelect.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1925
+
+authors:
+  - xezon

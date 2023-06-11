@@ -1,0 +1,22 @@
+---
+date: 2022-11-06
+
+title: Enables and fixes sounds of USA Battle Drone repair sparks
+
+changes:
+  - feature: Enables and fixes audio for USA Battle Drone repairs. The spark sound files already existed originally, but contained some audible humming and quite 'crispy' sparks.
+
+labels:
+  - audio
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1413
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1785
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1968
+
+authors:
+  - xezon

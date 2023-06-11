@@ -1,0 +1,20 @@
+---
+date: 2022-08-14
+
+title: Fixes missing death scream of some GLA Angry Mob members
+
+changes:
+  - fix: All GLA Angry Mob members now scream on death.
+
+labels:
+  - audio
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/906
+
+authors:
+  - commy2

@@ -1,0 +1,22 @@
+---
+date: 2023-05-05
+
+title: Adds new voice variation(s) to USA Stealth Fighter
+
+changes:
+  - feature: Replaces voice "Ready for covert mission" with "Stealth Fighter, ready for take-off" in StealthFighterVoiceCreate.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1932
+
+authors:
+  - xezon

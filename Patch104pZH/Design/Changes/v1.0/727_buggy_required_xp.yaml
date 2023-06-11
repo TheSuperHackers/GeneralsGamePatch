@@ -1,0 +1,22 @@
+---
+date: 2022-07-22
+
+title: Decreases required level up experience of GLA Rocket Buggy by 25%
+
+changes:
+  - tweak: Decreases the required level up experience of the GLA Rocket Buggy by 25%, from 200 400 800 to 150 300 600. This is more in line with other long range vehicles.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/727
+
+authors:
+  - xezon

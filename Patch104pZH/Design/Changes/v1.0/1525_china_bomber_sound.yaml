@@ -1,0 +1,19 @@
+---
+date: 2023-01-08
+
+title: Fixes jet engine sound of China Carpet Bomber
+
+changes:
+  - fix: Replaces propeller engine sound with jet engine sound for China Carpet Bomber.
+
+labels:
+  - audio
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1525
+
+authors:
+  - xezon

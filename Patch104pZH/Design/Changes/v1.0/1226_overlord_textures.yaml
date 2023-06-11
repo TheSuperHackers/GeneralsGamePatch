@@ -1,0 +1,20 @@
+---
+date: 2022-09-20
+
+title: Fixes nvovrlrd textures for China Overlord Tank
+
+changes:
+  - fix: Removes the wheel(s) on the chassis of the China Overlord Tank.
+
+labels:
+  - art
+  - china
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1226
+
+authors:
+  - xezon

@@ -1,0 +1,29 @@
+---
+date: 2022-09-23
+
+title: Fixes avpaladin textures for USA Paladin Tank
+
+changes:
+  - fix: Fixes avpaladin damaged textures. The fixes are very minor and therefore optional.
+
+subchanges:
+  - fix: |
+      avpaladin_d
+        - Fixes mis-shaped bolts
+  - fix: |
+      avpaladin_d1
+        - Fixes burn inconsistencies to avpaladin_d
+
+labels:
+  - art
+  - bug
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1270
+
+authors:
+  - xezon

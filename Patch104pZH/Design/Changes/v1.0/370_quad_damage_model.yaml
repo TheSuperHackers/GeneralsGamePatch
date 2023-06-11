@@ -1,0 +1,20 @@
+---
+date: 2021-09-16
+
+title: Fixes wrong model of damaged GLA Quad Cannon with level one scrap
+
+changes:
+  - fix: The GLA Quad Cannon now shows the damaged model when appropriate, no matter how many scraps it picked up.
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/370
+
+authors:
+  - commy2

@@ -1,0 +1,19 @@
+---
+date: 2021-09-03
+
+title: Removes obsolete suicide button from GLA Demo Worker before Demo Upgrade
+
+changes:
+  - fix: The GLA Demo Worker no longer shows a disabled suicide button before the Demo Upgrade is acquired.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/161
+
+authors:
+  - commy2

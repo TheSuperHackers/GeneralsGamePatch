@@ -1,0 +1,31 @@
+---
+date: 2023-01-13
+
+title: Fixes the evacuation command button art of various vehicles
+
+changes:
+  - fix: Most vehicles now use the Evacuate button art for vehicles. Buildings use the Evacuate button art for structures as usual.
+
+subchanges:
+  - fix: Fixes Evacuate button icon of USA Humvee.
+  - fix: Fixes Evacuate button icon of USA Ambulance.
+  - fix: Fixes Evacuate button icon of China Overlord.
+  - fix: Fixes Evacuate button icon of China Helix.
+  - fix: Fixes Evacuate button icon of GLA Technical.
+  - fix: Fixes Evacuate button icon of GLA Combat Bike.
+  - fix: Fixes Evacuate button icon of GLA Battle Bus.
+
+labels:
+  - bug
+  - china
+  - design
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1545
+
+authors:
+  - xezon

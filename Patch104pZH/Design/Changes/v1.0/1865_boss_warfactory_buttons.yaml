@@ -1,0 +1,19 @@
+---
+date: 2023-04-22
+
+title: Optimizes button placements of Boss War Factory
+
+changes:
+  - tweak: Optimizes button placements of Boss War Factory. The production buttons are now located at more familiar positions. All China related buttons take native China positions. And GLA and USA related buttons are close to where they are with the respective native faction.
+
+labels:
+  - boss
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1865
+
+authors:
+  - xezon

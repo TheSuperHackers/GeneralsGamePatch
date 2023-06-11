@@ -1,0 +1,20 @@
+---
+date: 2023-05-05
+
+title: Prevents shells of China Artillery Barrage from killing each other
+
+changes:
+  - fix: The shells of the China Artillery Barrage can no longer kill each other at random. Therefore random damage discrepancies on target structures are reduced.
+
+labels:
+  - buff
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1905
+
+authors:
+  - xezon

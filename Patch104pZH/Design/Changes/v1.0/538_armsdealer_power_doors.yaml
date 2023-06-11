@@ -1,0 +1,20 @@
+---
+date: 2021-10-09
+
+title: Fixes door times of powered GLA Arms Dealer to accomodate correct GLA Technical production
+
+changes:
+  - fix: The door times of the powered GLA Arms Dealer now accomodate correct GLA Technical production. This way the second produced Technical will no longer leave the factory after just 5 seconds, but after 7 seconds.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/538
+
+authors:
+  - commy2

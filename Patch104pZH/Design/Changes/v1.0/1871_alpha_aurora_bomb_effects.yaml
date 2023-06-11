@@ -1,0 +1,35 @@
+---
+date: 2023-04-23
+
+title: Fixes and improves explosion effects of USA Alpha Aurora bomb
+
+changes:
+  - tweak: Fixes and improves the USA Alpha Aurora bomb explosion effects.
+
+subchanges:
+  - tweak: The initial Aurora bomb hit now shows the hit particle effects and sound. Is consistent with regular Aurora bomb hit effects.
+  - tweak: The initial Aurora bomb hit no longer draws a scorch, because it is covered by the particles at the time of the impact and would be overdrawn soon after by the bigger scorch for the gas explosion. Total explosion scorch count is 1 (optimal).
+  - tweak: The ignite sound effect is preserved, but is made a bit quieter than the one of the Daisy Cutter ignition, because the sparks are smaller and there is now the other explosion sound triggered at the same time.
+  - tweak: The first ignition sparks are now visible earlier and spread further apart.
+  - tweak: The second ignition sparks are now less in numbers and spread further apart.
+  - tweak: The second ignition sparks now properly fade out.
+  - tweak: The second ignition sparks now have random size.
+  - tweak: The lingering green gas clouds are removed.
+  - tweak: The final gas explosion is now just one explosion instance instead of 2 to 4.
+  - tweak: The final gas explosion is now synced better with the actual damage and sound event.
+  - tweak: The final gas explosion now has much less random size variation, so it never looks too small.
+  - tweak: The original Alpha bomb shock wave effect is now a smaller copy of the Daisy Cutter shock wave.
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - performance
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1871
+
+authors:
+  - xezon

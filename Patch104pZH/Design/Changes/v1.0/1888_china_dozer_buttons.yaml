@@ -1,0 +1,20 @@
+---
+date: 2023-04-30
+
+title: Optimizes button placements of China Dozer
+
+changes:
+  - tweak: Optimizes button placements of China Dozer. Swaps the positions of Airfield, Propaganda Center and Internet Center to achieve consistency with button placements of USA Dozer and GLA Worker.
+
+labels:
+  - china
+  - gui
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1888
+
+authors:
+  - xezon

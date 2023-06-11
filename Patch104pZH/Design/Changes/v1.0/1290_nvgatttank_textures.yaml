@@ -1,0 +1,38 @@
+---
+date: 2022-09-25
+
+title: Fixes and improves nvgatttank textures for China Gattling Tank
+
+changes:
+  - fix: Fixes nvgatttank textures. The chassis wheels have been replaced with proper headlamps in the same style as Outpost and Nuke Cannon. The headlamp piece is mapped to both front and back. The Gattling barrels now look shiny by borrowing the same texture from other Gattling Cannons.
+
+subchanges:
+  - fix: |
+      nvgatttank, nvgatttank_d, nvgatttank_d1
+        - Fixes black seams between various metal plates
+        - Fixes lightness mismatch on front metal plate
+        - Fixes headlamps
+        - Fixes bolt shapes
+        - Fixes gattling barrel textures
+        - Fixes gattling barrel plate shapes
+  - fix: |
+      nvgatttank_d, nvgatttank_d1
+        - Paints metal artifacts into some damage holes
+  - fix: |
+      nvgatttank_d1
+        - Fixes metal plates to look consistent with nvgatttank_d
+        - Adds texture to the black hole on the turret mount
+
+labels:
+  - art
+  - bug
+  - china
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1290
+
+authors:
+  - xezon

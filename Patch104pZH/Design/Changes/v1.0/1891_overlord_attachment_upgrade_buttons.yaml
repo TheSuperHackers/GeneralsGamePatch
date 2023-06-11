@@ -1,0 +1,21 @@
+---
+date: 2023-04-30
+
+title: Fixes upgrade buttons of China Overlord and Emperor disappearing after research
+
+changes:
+  - fix: The China Overlord and Emperor upgrade buttons will no longer disappear after researching the Gattling Cannon, Propaganda Tower and Battle Bunker upgrade. The upgrade buttons can now be used in a group selection even if some selected Overlords already own upgrades.
+
+labels:
+  - bug
+  - china
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1891
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896
+
+authors:
+  - xezon

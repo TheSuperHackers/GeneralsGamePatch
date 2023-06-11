@@ -1,0 +1,19 @@
+---
+date: 2022-09-03
+
+title: Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge
+
+changes:
+  - fix: The bare GLA Stinger Trooper is now selectable in Kassads Generals Challenge.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1086
+
+authors:
+  - commy2

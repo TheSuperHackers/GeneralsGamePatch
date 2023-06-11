@@ -1,0 +1,19 @@
+---
+date: 2022-01-01
+
+title: Fixes text setup errors and inconsistencies for all native game languages
+
+changes:
+  - fix: Fixes text setup errors and inconsistencies for all native game languages.
+
+labels:
+  - bug
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/634
+
+authors:
+  - xezon

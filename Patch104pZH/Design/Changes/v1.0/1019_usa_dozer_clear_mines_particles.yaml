@@ -1,0 +1,19 @@
+---
+date: 2022-08-26
+
+title: Fixes misplaced and missing shovel dirt particles on USA Dozer when clearing mines
+
+changes:
+  - fix: Shovel dirt particles on USA Dozer are now correctly positioned.
+  - fix: Shovel dirt particles on damaged USA Dozer are now visible.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1019
+
+authors:
+  - commy2

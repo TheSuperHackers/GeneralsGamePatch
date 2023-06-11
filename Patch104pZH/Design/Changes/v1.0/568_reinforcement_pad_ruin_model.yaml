@@ -1,0 +1,21 @@
+---
+date: 2021-10-16
+
+title: Adds ruin model to destroyed Reinforcement Pad Tech building
+
+changes:
+  - fix: Adds ruin model to destroyed Tech Reinforcement Pad building.
+  - fix: Adds ruin model to destroyed Tech Repair Bay building.
+
+labels:
+  - art
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/568
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2005
+
+authors:
+  - commy2

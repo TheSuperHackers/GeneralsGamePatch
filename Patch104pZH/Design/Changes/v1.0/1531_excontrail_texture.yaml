@@ -1,0 +1,18 @@
+---
+date: 2023-01-08
+
+title: Fixes excontrail texture
+
+changes:
+  - fix: Fixes the alpha of the contrail effect texture so that the edges would not stretch over the entire trail plane.
+
+labels:
+  - art
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1531
+
+authors:
+  - Stubbjax

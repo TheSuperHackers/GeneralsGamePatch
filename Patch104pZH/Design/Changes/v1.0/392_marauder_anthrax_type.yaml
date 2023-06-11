@@ -1,0 +1,19 @@
+---
+date: 2021-09-19
+
+title: Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade
+
+changes:
+  - fix: Fixes wrong Anthrax poison type of double scrapped GLA Scorpion Tank after Anthrax Gamma Upgrade.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/392
+
+authors:
+  - commy2

@@ -1,0 +1,91 @@
+{
+    "tools": {
+        "version": 2,
+        "aliases": {
+            "{TOOLS_DIR}": ".tools"
+        },
+        "list": [
+            {
+                "name": "crunch",
+                "version": "1.04",
+                "info": "Converts PSD,TGA to DDS,TGA,BMP",
+                "files": [
+                    {
+                        "url": "https://github.com/TheSuperHackers/GeneralsTools/raw/main/Tools/crunch/v1.04/crunch_x64.exe",
+                        "target": "{TOOLS_DIR}/crunch_x64.exe",
+                        "sha256": "8ae949bfc3e3e4a1717dca8845ce8ed480638de68cbf1d7cbe912e99e35ce06f",
+                        "size": 1028096,
+                        "runnable": true
+                    }
+                ]
+            },
+            {
+                "name": "gametextcompiler",
+                "version": "1.1",
+                "info": "Converts STR to CSF and vice versa",
+                "files": [
+                    {
+                        "url": "https://github.com/TheSuperHackers/GeneralsTools/raw/main/Tools/gametextcompiler/v1.1/gametextcompiler.exe",
+                        "target": "{TOOLS_DIR}/gametextcompiler.exe",
+                        "sha256": "9c4c50f9c4829caff9b913bdd1a398a3a323ae9a1599723ff71ac675f6087467",
+                        "size": 948736,
+                        "runnable": true
+                    }
+                ]
+            },
+            {
+                "name": "generalsbigcreator",
+                "version": "1.3",
+                "info": "Adds folders and files into BIG archive",
+                "files": [
+                    {
+                        "url": "https://github.com/TheSuperHackers/GeneralsTools/raw/main/Tools/generalsbigcreator/v1.3/generalsbigcreator.exe",
+                        "target": "{TOOLS_DIR}/generalsbigcreator.exe",
+                        "sha256": "213ce479a033db949f19012a7e4270cf6c83a79282c1b1941f625b825c1451ed",
+                        "size": 68608,
+                        "runnable": true
+                    }
+                ]
+            },
+            {
+                "name": "blender",
+                "version": "3.4.1",
+                "info": "3D Model Software",
+                "files": [
+                    {
+                        "url": "https://ftp.halifax.rwth-aachen.de/blender/release/Blender3.4/blender-3.4.1-windows-x64.zip",
+                        "target": "{TOOLS_DIR}/blender-3.4.1-windows-x64.zip",
+                        "sha256": "02377977bee5691bda45c3a80f60b16a07efe3b2eb02941ca2bead975361f124",
+                        "size": 317703549,
+                        "extractDir": "{TOOLS_DIR}",
+                        "autoDeleteAfterInstall": true,
+                        "skipIfRunnableExists": true
+                    },
+                    {
+                        "url": "https://github.com/TheSuperHackers/OpenSAGE.BlenderPlugin/releases/download/v0.6.8/io_mesh_w3d.zip",
+                        "target": "{TOOLS_DIR}/io_mesh_w3d.zip",
+                        "sha256": "f234a5c97f663c1c78e284407dc276fb13aa5cfcf336d860dd479be90da20911",
+                        "size": 1133208,
+                        "callList": [
+                            {
+                                "call": "{TOOLS_DIR}/blender-3.4.1-windows-x64/blender.exe",
+                                "callArgs": {
+                                    "--background": "",
+                                    "--python-expr": "import bpy; import os; fp=os.path.normpath('{THIS_DIR}/{TOOLS_DIR}/io_mesh_w3d.zip'); bpy.ops.preferences.addon_install(overwrite=True, filepath=fp)"
+                                }
+                            }
+                        ],
+                        "autoDeleteAfterInstall": true,
+                        "skipIfRunnableExists": true
+                    },
+                    {
+                        "target": "{TOOLS_DIR}/blender-3.4.1-windows-x64/blender.exe",
+                        "sha256": "c03e2bb20d3b04abe36a2de4976c38519d38744af2aa8009570bd29dca4685f5",
+                        "size": 209297120,
+                        "runnable": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+---
+date: 2022-08-12
+
+title: Removes Supply Center to supply stash build distance restriction
+
+changes:
+  - fix: Supply Centers can now be placed very close the supply stashes and supply depots.
+
+labels:
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/873
+
+authors:
+  - commy2

@@ -1,0 +1,20 @@
+---
+date: 2023-05-05
+
+title: Adds unique machine gun firing sounds to USA Battle Drone
+
+changes:
+  - feature: Adds unique machine gun firing sounds to the USA Battle Drone. Originally it uses the machine gun sounds of the Comanche helicopter.
+
+labels:
+  - audio
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1931
+
+authors:
+  - xezon

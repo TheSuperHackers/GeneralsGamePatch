@@ -1,0 +1,21 @@
+---
+date: 2023-04-21
+
+title: Moves Radar upgrade button above Mines upgrade button on China Command Center
+
+changes:
+  - tweak: Moves the Radar upgrade button one field to the right, above the Mines upgrade button on the China Command Center. It is now consistent with the placement on the Boss Command Center.
+
+labels:
+  - china
+  - gui
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1861
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1884
+
+authors:
+  - xezon

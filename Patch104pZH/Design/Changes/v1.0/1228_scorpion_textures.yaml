@@ -1,0 +1,20 @@
+---
+date: 2022-09-20
+
+title: Fixes uvlitetank textures for GLA Scorpion Tank
+
+changes:
+  - fix: Fixes the mismatching look of the GLA Scorpion Tank across different damage states. It now has the same look in undamaged, damaged and rubble.
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1228
+
+authors:
+  - xezon

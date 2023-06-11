@@ -1,0 +1,21 @@
+---
+date: 2022-07-16
+
+title: Adds new crushable weapon type with lower damage output to all GLA Terrorists
+
+changes:
+  - feature: All GLA Terrorists can now be crushed. Originally only the Demo Terrorist could be crushed, without dealing any damage. All other faction Terrorists applied full damage on crush. Now all Terrorists from all factions will apply a little bit of damage to surroundings when crushed.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/697
+
+authors:
+  - xezon

@@ -1,0 +1,179 @@
+{
+    "changelog": {
+        "version": 1,
+        "records": [
+            {
+                "sourceList": [
+                    "Design/Changes/v1.0/*.yaml"
+                ],
+                "targetList": [
+                    "ReleaseUnpacked/Changes/v1.0/AllSortedByDate.md"
+                ],
+                "sortList": [
+                    {
+                        "date": "ascending"
+                    }
+                ],
+                "includeLabelList": [],
+                "excludeLabelList": []
+            },
+            {
+                "sourceList": [
+                    "Design/Changes/v1.0/*.yaml"
+                ],
+                "targetList": [
+                    "ReleaseUnpacked/Changes/v1.0/AllSortedBySeverity.md"
+                ],
+                "sortList": [
+                    {
+                        "label": "blocker"
+                    },
+                    {
+                        "label": "critical"
+                    },
+                    {
+                        "label": "major"
+                    },
+                    {
+                        "label": "minor"
+                    },
+                    {
+                        "label": "usa"
+                    },
+                    {
+                        "label": "china"
+                    },
+                    {
+                        "label": "gla"
+                    },
+                    {
+                        "label": "boss"
+                    },
+                    {
+                        "label": "civilian"
+                    },
+                    {
+                        "date": "ascending"
+                    }
+                ],
+                "includeLabelList": [],
+                "excludeLabelList": []
+            },
+            {
+                "sourceList": [
+                    "Design/Changes/v1.0/*.yaml"
+                ],
+                "targetList": [
+                    "ReleaseUnpacked/Changes/v1.0/ControversialOnlySortedByFaction.md"
+                ],
+                "sortList": [
+                    {
+                        "label": "usa"
+                    },
+                    {
+                        "label": "china"
+                    },
+                    {
+                        "label": "gla"
+                    },
+                    {
+                        "label": "boss"
+                    },
+                    {
+                        "label": "civilian"
+                    },
+                    {
+                        "date": "ascending"
+                    }
+                ],
+                "includeLabelList": [
+                    "controversial"
+                ],
+                "excludeLabelList": []
+            },
+            {
+                "sourceList": [
+                    "Design/Changes/v1.0/*.yaml"
+                ],
+                "targetList": [
+                    "ReleaseUnpacked/Changes/v1.0/ArtOnlySortedByFaction.md"
+                ],
+                "sortList": [
+                    {
+                        "label": "usa"
+                    },
+                    {
+                        "label": "china"
+                    },
+                    {
+                        "label": "gla"
+                    },
+                    {
+                        "label": "boss"
+                    },
+                    {
+                        "label": "civilian"
+                    },
+                    {
+                        "date": "ascending"
+                    }
+                ],
+                "includeLabelList": [
+                    "art"
+                ],
+                "excludeLabelList": []
+            },
+            {
+                "sourceList": [
+                    "Design/Changes/v1.0/*.yaml"
+                ],
+                "targetList": [
+                    "ReleaseUnpacked/Changes/v1.0/UsaOnlySortedByDate.md"
+                ],
+                "sortList": [
+                    {
+                        "date": "ascending"
+                    }
+                ],
+                "includeLabelList": [
+                    "usa"
+                ],
+                "excludeLabelList": []
+            },
+            {
+                "sourceList": [
+                    "Design/Changes/v1.0/*.yaml"
+                ],
+                "targetList": [
+                    "ReleaseUnpacked/Changes/v1.0/ChinaOnlySortedByDate.md"
+                ],
+                "sortList": [
+                    {
+                        "date": "ascending"
+                    }
+                ],
+                "includeLabelList": [
+                    "china"
+                ],
+                "excludeLabelList": []
+            },
+            {
+                "sourceList": [
+                    "Design/Changes/v1.0/*.yaml"
+                ],
+                "targetList": [
+                    "ReleaseUnpacked/Changes/v1.0/GlaOnlySortedByDate.md"
+                ],
+                "sortList": [
+                    {
+                        "date": "ascending"
+                    }
+                ],
+                "includeLabelList": [
+                    "gla"
+                ],
+                "excludeLabelList": []
+            }
+        ]
+    }
+}

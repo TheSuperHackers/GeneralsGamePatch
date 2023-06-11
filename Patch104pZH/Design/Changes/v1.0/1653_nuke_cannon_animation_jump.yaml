@@ -1,0 +1,19 @@
+---
+date: 2023-02-09
+
+title: Fixes issue where deploy animation of China Nuke Cannon glitches during attack
+
+changes:
+  - fix: Fixes China Nuke Cannon animation glitch while vehicle creeps forward after firing.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1653
+
+authors:
+  - xezon

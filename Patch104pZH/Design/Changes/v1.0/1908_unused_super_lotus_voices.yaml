@@ -1,0 +1,23 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to China Super Lotus
+
+changes:
+  - feature: Adds unused voice "Super Lotus here. Give me an update" to SuperBlackLotusVoiceCreate.
+  - feature: Adds unused voice "Super Lotus" to SuperBlackLotusVoiceSelect.
+  - feature: Adds unused voice "I'm quick" to SuperBlackLotusVoiceMove.
+
+labels:
+  - audio
+  - china
+  - design
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1908
+
+authors:
+  - xezon

@@ -1,0 +1,24 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to China POW Truck
+
+changes:
+  - tweak: Adds unused voice "Are there more pickups?" to POWTruckChinaVoiceSelect.
+  - tweak: Adds unused voice "I love meeting new people" to POWTruckChinaVoiceSelect.
+  - tweak: Adds unused voice "Looking for some company" to POWTruckChinaVoiceMove.
+  - tweak: Adds unused voice "More candidates?" to POWTruckChinaVoiceMove.
+
+labels:
+  - audio
+  - china
+  - design
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918
+
+authors:
+  - xezon

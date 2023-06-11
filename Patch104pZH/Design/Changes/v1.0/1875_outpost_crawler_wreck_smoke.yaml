@@ -1,0 +1,20 @@
+---
+date: 2023-04-24
+
+title: Adds missing smoke particles to wrecks of China Troop Crawler, Listening Outpost
+
+changes:
+  - tweak: The wrecks of the China Troop Crawler and Listening Outpost now emit faint smoke particles.
+
+labels:
+  - china
+  - design
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1875
+
+authors:
+  - xezon

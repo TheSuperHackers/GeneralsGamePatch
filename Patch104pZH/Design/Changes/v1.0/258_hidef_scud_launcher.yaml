@@ -1,0 +1,19 @@
+---
+date: 2021-09-09
+
+title: Fixes broken weapons and animations of GLA HiDef Scud Launcher
+
+changes:
+  - fix: Fixes broken weapons and animations of GLA HiDef Scud Launcher. This unit is a World Builder only Toxin General Scud Launcher variant that starts with salvage scrap 2.
+
+labels:
+  - bug
+  - minor
+  - worldbuilder
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/258
+
+authors:
+  - commy2

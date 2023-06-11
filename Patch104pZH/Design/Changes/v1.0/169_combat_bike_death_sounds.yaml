@@ -1,0 +1,20 @@
+---
+date: 2021-09-03
+
+title: Fixes duplicate death sounds of GLA Combat Bike
+
+changes:
+  - fix: Only the rider-specific death scream can now be heard when a regular GLA Combat Bike is destroyed.
+
+labels:
+  - audio
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/169
+
+authors:
+  - commy2

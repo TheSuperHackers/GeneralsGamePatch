@@ -1,0 +1,23 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to USA Bunker Buster upgrade
+
+changes:
+  - tweak: Adds unused voice "Bunker Buster bombs are ready Sir" to AuroraVoiceUpgradeBunkerBuster.
+  - tweak: Adds unused voice "The Bunker Buster bombs are now installed" to AuroraVoiceUpgradeBunkerBuster.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915
+
+authors:
+  - xezon

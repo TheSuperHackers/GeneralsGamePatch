@@ -1,0 +1,19 @@
+---
+date: 2022-11-16
+
+title: Adds small idle movement sway to USA Chinook and Comanche
+
+changes:
+  - fix: Adds small idle movement sway to the USA Chinook and Comanche. The movement is just 33% of how much the Helix sways. Originally there is no sway movement.
+
+labels:
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1467
+
+authors:
+  - xezon

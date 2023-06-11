@@ -1,0 +1,19 @@
+---
+date: 2023-01-21
+
+title: Fixes USA Tomahawk missile angle glitch before target hit
+
+changes:
+  - fix: The USA Tomahawk missile flight angle no longer glitches shortly before hitting a target.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1581
+
+authors:
+  - xezon

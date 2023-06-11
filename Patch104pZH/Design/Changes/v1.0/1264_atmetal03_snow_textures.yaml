@@ -1,0 +1,25 @@
+---
+date: 2022-09-23
+
+title: Fixes atmetal03 snow textures for USA structures
+
+changes:
+  - fix: Fixes atmetal03_s texture.
+
+subchanges:
+  - fix: |
+      atmetal03_s
+        - Fixes snow looking different than atmetal03_ds, atmetal03_es
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1264
+
+authors:
+  - xezon

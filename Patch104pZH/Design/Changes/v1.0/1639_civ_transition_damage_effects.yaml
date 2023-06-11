@@ -1,0 +1,48 @@
+---
+date: 2023-02-05
+
+title: Adds transition damage effects to Civilian vehicles
+
+changes:
+  - feature: Adds transition damage effects to Civilian vehicles.
+
+subchanges:
+  - feature: Adds transition damage effects to BoatFishingTrowler.
+  - feature: Adds transition damage effects to BoatTugboat.
+  - feature: Adds transition damage effects to BoatAsianFishing.
+  - feature: Adds transition damage effects to AircraftCropDuster.
+  - feature: Adds transition damage effects to AircraftCessna.
+  - feature: Adds small transition damage effects to CarAmbulance.
+  - feature: Adds small transition damage effects to CarEuroVan1.
+  - feature: Adds small transition damage effects to CarEuroVan2.
+  - feature: Adds small transition damage effects to CarEuroPoliceVan.
+  - feature: Adds small transition damage effects to CarAsian1.
+  - feature: Adds small transition damage effects to CarAsian2.
+  - feature: Adds small transition damage effects to ForkliftSmall.
+  - feature: Adds small transition damage effects to Tractor.
+  - feature: Adds large transition damage effects to ForkliftLarge.
+  - feature: Adds large transition damage effects to TruckChicken.
+  - feature: Adds large transition damage effects to TractorCombine.
+  - feature: Adds large transition damage effects to FarmerChickenTruck.
+  - feature: Adds large transition damage effects to SupplyTruck.
+  - feature: Adds large transition damage effects to TractorBackhoe.
+  - feature: Adds large transition damage effects to Firetruck.
+  - feature: Adds large transition damage effects to TruckFarmer.
+  - feature: Adds large transition damage effects to TourBus.
+  - feature: Adds large transition damage effects to DoubleDeckerTourBus.
+  - feature: Adds large transition damage effects to TruckWork.
+  - feature: Adds large transition damage effects to TruckWork2.
+
+labels:
+  - art
+  - civilian
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1639
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1640
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1642
+
+authors:
+  - xezon

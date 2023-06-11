@@ -1,0 +1,21 @@
+---
+date: 2023-02-04
+
+title: Fixes proper display names to Civilian vehicles.
+
+changes:
+  - fix: Adds proper display names to Civilian Tractor and FarmerChickenTruck.
+
+labels:
+  - bug
+  - civilian
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1626
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1632
+
+authors:
+  - xezon

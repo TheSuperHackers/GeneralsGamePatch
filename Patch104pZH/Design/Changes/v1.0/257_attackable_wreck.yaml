@@ -1,0 +1,20 @@
+---
+date: 2021-09-09
+
+title: Fixes attackable wrecks and debris
+
+changes:
+  - fix: Units will not longer attack wrecks for a brief moment.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/257
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/333
+
+authors:
+  - commy2

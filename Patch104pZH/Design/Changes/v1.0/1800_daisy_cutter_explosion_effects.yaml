@@ -1,0 +1,29 @@
+---
+date: 2023-04-06
+
+title: Improves particle and sound effect sequence of USA Daisy Cutter explosion
+
+changes:
+  - fix: Removes the 250 ms delay baked into the USA Daisy Cutter explosion audio effect.
+  - fix: Adds smooth fade out to the USA Daisy Cutter explosion audio effect.
+  - fix: Syncs the ignition particles of the USA Daisy Cutter with the ignition sound.
+  - fix: Syncs the explosion effects of the USA Daisy Cutter with the explosion sound.
+  - tweak: Removes non-linear gap sizes in shock wave smoke circles of USA Daisy Cutter bomb explosion.
+  - tweak: Randomizes position and size of second ignition sparks of USA Daisy Cutter bomb.
+  - tweak: Slightly reduces number and size of second ignition sparks of USA Daisy Cutter bomb.
+
+labels:
+  - art
+  - audio
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1800
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1870
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1968
+
+authors:
+  - xezon

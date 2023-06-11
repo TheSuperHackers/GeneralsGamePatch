@@ -1,0 +1,45 @@
+---
+date: 2022-09-22
+
+title: Fixes and improves avavnger textures for USA Avenger
+
+changes:
+  - fix: Fixes and improves avavnger textures for USA Avenger. The damaged textures are remade by borrowing pieces from original Humvee textures.
+
+subchanges:
+  - fix: |
+      avavnger
+        - Fixes black seams on roof
+        - Fixes white seams on tire profiles
+        - Removes 3 black dots from trunk
+        - Brightens sides of trunk to better blend with chassis
+        - Fixes black seams on hood, window, back, side
+        - Fixes brightness mismatch on tires
+        - Fixes contrast of bolts
+  - fix: |
+      avavnger_d, avavnger_e
+        - Fixes black seams on roof
+        - Fixes white seams on tire profiles
+        - Removes 3 black dots from trunk
+        - Brightens sides of trunk to better blend with chassis
+        - Fixes black seams on hood, back
+        - Fixes brightness mismatch on tires
+        - Removes all junk of original _D and _E
+        - Fixes strong color tint
+        - Repaints shattered glass
+        - Repaints burns on back door, roof
+        - Repaints bullet holes
+
+labels:
+  - art
+  - bug
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1251
+
+authors:
+  - xezon

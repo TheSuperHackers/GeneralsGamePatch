@@ -1,0 +1,20 @@
+---
+date: 2022-07-31
+
+title: Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers
+
+changes:
+  - fix: China Satellite Hack 1 can now see newly build enemy Command Centers when activated.
+
+labels:
+  - buff
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/791
+
+authors:
+  - commy2

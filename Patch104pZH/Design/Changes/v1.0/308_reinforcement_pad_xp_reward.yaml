@@ -1,0 +1,20 @@
+---
+date: 2021-09-11
+
+title: Removes kill experience reward of Civilian Reinforcement Pad
+
+changes:
+  - fix: The Civilian Reinforcement Pad no longer rewards XP on kill.
+
+labels:
+  - bug
+  - civilian
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/308
+
+authors:
+  - commy2

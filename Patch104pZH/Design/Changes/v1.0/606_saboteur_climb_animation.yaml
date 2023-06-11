@@ -1,0 +1,20 @@
+---
+date: 2021-10-31
+
+title: Adds climb animation for GLA Saboteur
+
+changes:
+  - feature: The GLA Saboteur now plays a climb animation when scaling mountains.
+
+labels:
+  - art
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/606
+
+authors:
+  - commy2

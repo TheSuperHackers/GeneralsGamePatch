@@ -1,0 +1,26 @@
+---
+date: 2023-05-09
+
+title: Fixes misspelled audio files in dialog events
+
+changes:
+  - fix: Fixes misspelled filename in EvaGLA_CashStolen.
+  - fix: Fixes misspelled filename in EvaGLA_VehicleStolen.
+  - fix: Fixes misspelled filename in EvaChina_CashStolen.
+  - fix: Fixes misspelled filename in EvaUSA_BaseDefensesOffLine.
+  - fix: Fixes misspelled filename in EvaUSA_CashStolen.
+  - fix: Fixes misspelled filename in Cin_SquadronFlyBy02.
+  - fix: Fixes misspelled filename in Taunts_Turtle087.
+  - fix: Fixes misspelled filename in EvaGLA_FundsTransferred.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1940
+
+authors:
+  - xezon

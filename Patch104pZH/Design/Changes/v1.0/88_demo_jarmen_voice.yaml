@@ -1,0 +1,19 @@
+---
+date: 2021-08-28
+
+title: Fixes wrong demo charge voice of GLA Demo Jarmen Kell
+
+changes:
+  - fix: The GLA Demo Jarmen Kell will no longer repeat a voice line when he arrives at the target while using the Timed Demo Charge. Instead of the repeated voice line, the "planting a demo charge beep" sound effect is played.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/88
+
+authors:
+  - commy2

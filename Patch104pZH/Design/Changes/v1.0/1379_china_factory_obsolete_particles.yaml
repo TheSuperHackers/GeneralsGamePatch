@@ -1,0 +1,20 @@
+---
+date: 2022-10-16
+
+title: Removes superfluous particle effects from China War Factory
+
+changes:
+  - fix: Boneless fire and smoke effects are no longer emerging from the center of the damaged China War Factory. Originally these effects are covered by the mesh and therefore not visible anyway.
+
+labels:
+  - bug
+  - china
+  - minor
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1379
+
+authors:
+  - commy2

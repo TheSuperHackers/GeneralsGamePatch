@@ -1,0 +1,20 @@
+---
+date: 2022-08-27
+
+title: Fixes immortal presence of circling USA Aurora wreck
+
+changes:
+  - fix: The USA Aurora wreck now has a fixed despawn time of 10 seconds to make sure it disappears if the wreck is stuck circling in air.
+
+labels:
+  - bug
+  - minor
+  - performance
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018
+
+authors:
+  - commy2

@@ -10,9 +10,11 @@
 *.json text
 *.md text
 *.py text
+*.sesx text
 *.str text
 *.txt text
 *.wnd text
+*.yaml text
 LICENSE text
 
 # Text files that will always have CRLF line endings on checkout. (Does not work properly. Do not use it.)
@@ -23,11 +25,13 @@ LICENSE text
 *.ani binary
 *.big binary
 *.bik binary
+*.blend binary
 *.bmp binary
 *.csf binary
 *.dds binary
 *.dll binary
 *.exe binary
+*.fft binary
 *.gz binary
 *.jpg binary
 *.map binary

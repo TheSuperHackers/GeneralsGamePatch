@@ -1,0 +1,23 @@
+---
+date: 2021-09-03
+
+title: Fixes issue that prevents evacuating different vehicles in a group selection
+
+changes:
+  - fix: The evacuate buttons of the USA Humvee, Ambulance, China Troopcrawler, Outpost, Bunker Overlord, GLA Technical and Battle Bus are now at the same position. This allows the player to evacuate all vehicles at once when a group of different vehicles is selected.
+
+labels:
+  - bug
+  - controversial
+  - design
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/165
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1894
+
+authors:
+  - commy2
+  - xezon

@@ -1,0 +1,19 @@
+---
+date: 2022-09-10
+
+title: Fixes missing badly damaged model of USA Airforce Firebase on Winter maps
+
+changes:
+  - fix: USA Airforce Firebase now correctly shows badly damaged model on Winter maps.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1177
+
+authors:
+  - commy2

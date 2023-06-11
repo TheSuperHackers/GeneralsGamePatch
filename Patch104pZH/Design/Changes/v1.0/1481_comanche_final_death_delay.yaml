@@ -1,0 +1,20 @@
+---
+date: 2022-11-25
+
+title: Removes final death explosion delay of USA Comanche
+
+changes:
+  - fix: Effectively removes the 1500 ms final death explosion delay of the USA Comanche helicopter. This way it properly explodes right after ground impact like the other helicopters do.
+
+labels:
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1481
+
+authors:
+  - RedMeow2
+  - xezon

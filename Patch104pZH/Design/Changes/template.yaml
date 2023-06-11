@@ -1,0 +1,70 @@
+---
+# https://yaml-multiline.info/
+#
+# date: YYYY-MM-DD
+#
+# labels:
+# - ai
+# - art
+# - audio
+# - boss
+# - blocker
+# - buff
+# - bug
+# - china
+# - civilian
+# - controversial
+# - critical
+# - design
+# - documentation
+# - enhancement
+# - executable
+# - gla
+# - gui
+# - major
+# - map
+# - minor
+# - nerf
+# - optional
+# - performance
+# - text
+# - usa
+# - wip
+# - worldbuilder
+#
+# changes:
+# - feature
+# - fix
+# - optimization
+# - refactor
+# - tweak
+
+date: 2022-12-31
+
+title: Fixes USA Sentry Drone models
+
+changes:
+  - fix: avsentry model issues
+    
+subchanges:
+  - fix: uv mapping of several meshes with house color
+  - fix: uv mapping at the bottom of the vehicle
+  - fix: TURRETFX01 bone position
+  - fix: muzzle flash texture positions
+  - fix: muzzle flash effect position
+  - fix: muzzle smoke effect position
+  - fix: muzzle shells effect position
+  - fix: missing alpha test setting on radar dish
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1740
+
+authors:
+  - Rich
+  - Guy

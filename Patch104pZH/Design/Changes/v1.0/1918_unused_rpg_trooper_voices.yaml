@@ -1,0 +1,22 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to GLA RPG Trooper
+
+changes:
+  - tweak: Adds unused voice "Defending the tunnel network" to RPGTrooperVoiceSelect.
+  - tweak: Adds unused voice "Defending the tunnel network" to ToxinRPGTrooperVoiceSelect.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1918
+
+authors:
+  - xezon

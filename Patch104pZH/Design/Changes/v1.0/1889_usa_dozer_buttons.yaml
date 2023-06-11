@@ -1,0 +1,20 @@
+---
+date: 2023-04-30
+
+title: Optimizes button placements of USA Dozer
+
+changes:
+  - tweak: Optimizes button placements of USA Dozer. Swaps the positions of Airfield, Strategy Center, Supply Drop Zone, Particle Cannon, Command Center to achieve consistency with button placements of China Dozer and GLA Worker.
+
+labels:
+  - gui
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1889
+
+authors:
+  - xezon

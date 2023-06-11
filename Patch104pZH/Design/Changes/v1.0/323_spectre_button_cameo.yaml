@@ -1,0 +1,22 @@
+---
+date: 2021-09-11
+
+title: Fixes USA Spectre button, portrait and upgrade icons
+
+changes:
+  - fix: The Spectre now has a portrait when selected.
+  - fix: The Spectre now has the upgrade icon for Countermeasures.
+  - fix: The Rank 5 Spectre now uses the correct art pieces.
+
+labels:
+  - bug
+  - design
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/323
+
+authors:
+  - commy2

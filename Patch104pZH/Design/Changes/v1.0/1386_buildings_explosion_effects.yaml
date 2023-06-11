@@ -1,0 +1,37 @@
+---
+date: 2022-10-20
+
+title: Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings
+
+changes:
+  - fix: Fixes missing and inconsistent explosion and debris effects on destruction of faction buildings.
+
+subchanges:
+  - fix: Adds appropriate death effect to China Power Plant.
+  - fix: Adds appropriate death effect to China Nuke Silo.
+  - fix: Adds appropriate death effect to GLA Scud Storm.
+  - fix: Adds appropriate death debris to USA Patriot Battery.
+  - fix: Adds appropriate death debris to China Propaganda Center.
+  - fix: Adds appropriate death debris to GLA Scud Storm.
+  - tweak: Decreases death effect size of USA Barracks.
+  - tweak: Decreases death effect size of USA Firebase.
+  - tweak: Decreases death effect size of USA Supply Drop Zone.
+  - tweak: Decreases death debris size of USA Firebase.
+  - tweak: Decreases death debris size of USA Supply Drop Zone.
+  - tweak: Decreases death debris size of China Gattling Cannon.
+  - tweak: Decreases death debris size of China Propaganda Tower.
+  - tweak: Increases death debris size of GLA Palace.
+
+labels:
+  - bug
+  - china
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1386
+
+authors:
+  - Stubbjax

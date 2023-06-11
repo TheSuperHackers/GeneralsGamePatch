@@ -1,0 +1,19 @@
+---
+date: 2023-01-29
+
+title: Increases slow sink rate of helicopter wrecks
+
+changes:
+  - fix: Increases the slow sink rate of USA Chinook, China Helix wrecks. All vehicles, helicopters, planes, except GLA Combat Bike, now sink with the same speed.
+
+labels:
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1659
+
+authors:
+  - xezon

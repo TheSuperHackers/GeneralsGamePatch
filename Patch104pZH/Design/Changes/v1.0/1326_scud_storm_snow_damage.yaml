@@ -1,0 +1,20 @@
+---
+date: 2022-10-02
+
+title: Fixes missing snow textures of damaged GLA Scud Storm on Winter maps
+
+changes:
+  - fix: The damaged GLA Scud Storm now renders with snow textures on Winter maps.
+
+labels:
+  - art
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1326
+
+authors:
+  - commy2

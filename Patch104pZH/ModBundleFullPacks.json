@@ -1,0 +1,216 @@
+{
+    "bundles": {
+        "version": 1,
+        "packs": [
+            {
+                "name": "FullArabic",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioArabic",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioArabic",
+                    "CoreINI",
+                    "CoreLangArabic",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullBrazilian",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioBrazilian",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioBrazilian",
+                    "CoreINI",
+                    "CoreLangBrazilian",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullChinese",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioChinese",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioChinese",
+                    "CoreINI",
+                    "CoreLangChinese",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullEnglish",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioEnglish",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioEnglish",
+                    "CoreINI",
+                    "CoreLangEnglish",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullFrench",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioFrench",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioFrench",
+                    "CoreINI",
+                    "CoreLangFrench",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullGerman",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioGerman",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioGerman",
+                    "CoreINI",
+                    "CoreLangGerman",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullItalian",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioItalian",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioItalian",
+                    "CoreINI",
+                    "CoreLangItalian",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullKorean",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioKorean",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioKorean",
+                    "CoreINI",
+                    "CoreLangKorean",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullPolish",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioPolish",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioPolish",
+                    "CoreINI",
+                    "CoreLangPolish",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullRussian",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioRussian",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioRussian",
+                    "CoreINI",
+                    "CoreLangRussian",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullSpanish",
+                "itemNames": [
+                    "AxOptionalAudio",
+                    "AxOptionalAudioSpanish",
+                    "AxOptionalINI",
+                    "AxOptionalTextures",
+                    "AxOptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioSpanish",
+                    "CoreINI",
+                    "CoreLangSpanish",
+                    "CoreMaps",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            }
+        ]
+    }
+}

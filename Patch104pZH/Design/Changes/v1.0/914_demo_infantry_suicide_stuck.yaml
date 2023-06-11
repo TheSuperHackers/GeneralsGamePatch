@@ -1,0 +1,19 @@
+---
+date: 2022-08-15
+
+title: Fixes Demo General infantry units getting stuck near structures when ordered to suicide
+
+changes:
+  - fix: Fixes Demo General infantry units getting stuck near structures when ordered to suicide.
+
+labels:
+  - bug
+  - gla
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/914
+
+authors:
+  - commy2

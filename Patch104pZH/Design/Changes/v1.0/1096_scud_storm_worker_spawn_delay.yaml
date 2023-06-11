@@ -1,0 +1,21 @@
+---
+date: 2022-09-04
+
+title: Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds
+
+changes:
+  - tweak: The GLA Scud Storm hole worker now spawns in 30 seconds instead of 20 seconds intervals. This will prevent the first worker from dying in the poison puddle. No EVA event is triggered for damaging the spawned worker. Effectively a Scud Storm can now rebuild 10 seconds quicker than originally. The Toxin Field time has been adjusted to accommodate the Worker spawn time properly.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1096
+
+authors:
+  - xezon

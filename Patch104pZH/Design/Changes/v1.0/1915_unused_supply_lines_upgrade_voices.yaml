@@ -1,0 +1,22 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to USA Supply Lines upgrade
+
+changes:
+  - tweak: Adds unused voice "The Supply Lines are more efficient now" to ChinookVoiceUpgradeSupplyLines.
+
+labels:
+  - audio
+  - design
+  - enhancement
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1915
+
+authors:
+  - xezon

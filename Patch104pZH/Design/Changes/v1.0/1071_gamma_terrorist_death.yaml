@@ -1,0 +1,19 @@
+---
+date: 2022-09-01
+
+title: Fixes broken Gamma Toxin death visuals of GLA Terrorist in Chinese, French, Korean locales
+
+changes:
+  - fix: The GLA Terrorist now renders correctly when killed by Gamma Toxin in Chinese, French and Korean locales.
+
+labels:
+  - art
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1071
+
+authors:
+  - xezon

@@ -1,0 +1,19 @@
+---
+date: 2021-09-11
+
+title: Fixes GLA Stinger Site automatically attacking enemy buildings
+
+changes:
+  - fix: The GLA Stinger Site no longer automatically attacks enemy buildings. This is consistent with how other base defenses and units work.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/296
+
+authors:
+  - commy2

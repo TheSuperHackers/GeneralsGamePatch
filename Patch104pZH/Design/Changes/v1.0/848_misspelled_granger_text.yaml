@@ -1,0 +1,20 @@
+---
+date: 2022-08-06
+
+title: Fixes misspelled Airforce General name in texts
+
+changes:
+  - fix: Fixes misspelled Airforce General name in texts. Game is now playable.
+
+labels:
+  - bug
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/848
+
+authors:
+  - commy2

@@ -1,0 +1,21 @@
+---
+date: 2021-08-22
+
+title: Fixes China Tank and Nuke Outposts being unable to properly attack buildings
+
+changes:
+  - fix: All Listening Outposts can now attack all targets properly.
+
+labels:
+  - bug
+  - china
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/4
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/484
+
+authors:
+  - commy2
+  - hanfield

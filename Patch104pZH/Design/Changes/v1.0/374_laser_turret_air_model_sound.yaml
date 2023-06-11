@@ -1,0 +1,21 @@
+---
+date: 2021-09-13
+
+title: Fixes wrong laser effect and sound of USA Laser Turret when attacking air targets
+
+changes:
+  - fix: The USA Laser Turret now uses the correct laser effect and sound when attacking air targets.
+
+labels:
+  - art
+  - audio
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/374
+
+authors:
+  - commy2

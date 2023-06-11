@@ -1,0 +1,19 @@
+---
+date: 2021-10-16
+
+title: Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air
+
+changes:
+  - fix: When the GLA Demo Combat Bike is dropped from air, there no longer sits a Worker inside it.
+
+labels:
+  - art
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/567
+
+authors:
+  - commy2

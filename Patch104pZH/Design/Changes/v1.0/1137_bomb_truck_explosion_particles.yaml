@@ -1,0 +1,22 @@
+---
+date: 2022-09-06
+
+title: Improves particle effects of GLA Bomb Truck
+
+changes:
+  - tweak: Adds shockwaves to all explosion variants of GLA Bomb Truck.
+  - tweak: Increases explosion sizes for the more powerful weapon types of GLA Bomb Truck.
+  - tweak: Matches all shockwave radii with the actual damage radii of GLA Bomb Truck.
+  - tweak: Matches all shockwave and explosion colors with the actual Anthrax or weapon type of GLA Bomb Truck.
+
+labels:
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1137
+
+authors:
+  - xezon

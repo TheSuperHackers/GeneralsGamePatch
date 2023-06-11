@@ -1,0 +1,20 @@
+---
+date: 2023-05-05
+
+title: Sets correct attack and decay sounds in audio events
+
+changes:
+  - fix: Sets correct decay sound in AmbientCrowdAngryArabs1.
+  - fix: Sets correct attack and decay sounds in AvalancheTextureLoop.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1927
+
+authors:
+  - xezon

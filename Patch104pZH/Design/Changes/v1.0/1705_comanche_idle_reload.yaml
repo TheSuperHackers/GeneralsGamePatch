@@ -1,0 +1,21 @@
+---
+date: 2023-02-11
+
+title: Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade
+
+changes:
+  - feature: The USA Comanche Rocket Pod will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire a few of its rockets and at least 30 seconds pass until the next attack.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1705
+
+authors:
+  - xezon

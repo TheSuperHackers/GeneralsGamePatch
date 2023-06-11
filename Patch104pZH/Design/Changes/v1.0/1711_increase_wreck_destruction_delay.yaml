@@ -1,0 +1,34 @@
+---
+date: 2023-01-29
+
+title: Increases destruction delay of various wrecks to avoid deletion before object is sunk into terrain
+
+changes:
+  - fix: Increases destruction delays of various wrecks to avoid deletion before object is sunk into terrain.
+
+subchanges:
+  - fix: Increases destruction delay of GLA Combat Bike by 5000 ms.
+  - fix: Increases destruction delay of China Nuke Cannon by 2000 ms.
+  - fix: Increases destruction delay of China Helix by 8000 ms.
+  - fix: Increases destruction delay of China Overlord by 3000 ms.
+  - fix: Increases destruction delay of China Inferno Cannon by 2000 ms.
+  - fix: Increases destruction delay of China Supply Truck by 1500 ms.
+  - fix: Increases destruction delay of GLA Scud Launcher by 1500 ms.
+  - fix: Increases destruction delay of USA Avenger by 1000 ms.
+  - fix: Increases destruction delay of Civilian Militia Tank by 2500 ms.
+  - fix: Increases destruction delay of China Dozer by 1000 ms.
+  - fix: Increases destruction delay of USA Dozer by 1000 ms.
+
+labels:
+  - bug
+  - china
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1711
+
+authors:
+  - xezon

@@ -1,0 +1,19 @@
+---
+date: 2022-10-08
+
+title: Fixes smoke effects on China Gattling Cannon
+
+changes:
+  - fix: Fixes smoke effects with medium and fast firing badly damaged China Gattling Cannon on Summer Night maps.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1348
+
+authors:
+  - commy2

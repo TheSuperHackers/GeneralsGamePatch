@@ -1,0 +1,29 @@
+---
+date: 2023-05-05
+
+title: Adds unused voice variation(s) to China Black Lotus
+
+changes:
+  - tweak: Adds unused voice "I'm in. We control the building now" to BlackLotusVoiceCaptureComplete.
+  - tweak: Adds unused voice "Building capture complete" to BlackLotusVoiceCaptureComplete.
+  - tweak: Adds unused voice "We have their building. What's next?" to BlackLotusVoiceCaptureComplete.
+  - tweak: Adds unused voice "I'll make this quick" to BlackLotusVoiceHackVehicle.
+  - tweak: Adds unused voice "I got it covered" to BlackLotusVoiceHackVehicle.
+  - tweak: Adds unused voice "That's it. Their vehicle is down" to BlackLotusVoiceDisableComplete.
+  - tweak: Adds unused voice "The vehicle is down. What's next?" to BlackLotusVoiceDisableComplete.
+  - tweak: Adds unused voice "They won't even notice" to BlackLotusVoiceHackCash.
+  - tweak: Adds unused voice "Credit transfer ready" to BlackLotusVoiceCashComplete.
+
+labels:
+  - audio
+  - china
+  - design
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1908
+
+authors:
+  - xezon

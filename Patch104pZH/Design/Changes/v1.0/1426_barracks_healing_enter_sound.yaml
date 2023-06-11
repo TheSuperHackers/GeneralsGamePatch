@@ -1,0 +1,19 @@
+---
+date: 2022-11-05
+
+title: Adds sounds to infantry units entering and exiting a Barracks for healing
+
+changes:
+  - feature: Adds Barracks enter and exit sound effects in order to provide feedback to the player and standardize the enter and exit feedback with other structures in the game.
+
+labels:
+  - audio
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1426
+
+authors:
+  - Stubbjax

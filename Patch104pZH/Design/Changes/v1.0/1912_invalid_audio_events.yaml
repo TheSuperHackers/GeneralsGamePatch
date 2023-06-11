@@ -1,0 +1,44 @@
+---
+date: 2023-05-05
+
+title: Removes audio events that reference no valid sounds
+
+changes:
+  - refactor: Removes invalid audio event GenericMachineGunFire and all references to it.
+  - refactor: Removes invalid audio event MedicMoveStart.
+  - refactor: Removes invalid audio event CarBomberDie and all references to it.
+  - refactor: Removes invalid audio event ExplosionGeneric.
+  - refactor: Removes invalid audio event HeroUSAChargePlace.
+  - refactor: Removes invalid audio event HeroUSAChargeBeep.
+  - refactor: Removes invalid audio event HeroUSATimeBombClick.
+  - refactor: Removes invalid audio event ExecuteDemoralize.
+  - refactor: Removes invalid audio event CrateCash.
+  - refactor: Removes invalid audio event AngryMobVoiceUpgradeArmTheMobCrowd.
+  - refactor: Removes invalid audio event ListeningOutpostVoiceAttack and all references to it.
+  - refactor: Removes invalid audio event RadarNotifyInfiltration.
+  - refactor: Removes invalid audio event BombTruckDisguiseRevealedSuccess and all references to it.
+  - refactor: Removes invalid audio event BombTruckDisguiseRevealedFailure and all references to it.
+  - refactor: Removes invalid audio event ColonelBurtonPlantCharge and all references to it.
+  - refactor: Removes invalid audio event IRPing and all references to it.
+  - refactor: Removes invalid audio event IRPingLoud and all references to it.
+  - refactor: Removes invalid audio event Cin_JetDiveBombsStereo.
+  - refactor: Removes invalid audio event Cin_JetTakeOffStereo.
+  - refactor: Removes invalid audio event Cin_PlaneTakeOffStereo.
+  - refactor: Removes invalid audio event Cin_PlaneTakeOff2Stereo.
+  - refactor: Removes invalid audio event Cin_PlaneLandStereo.
+  - refactor: Removes invalid audio event Cin_CruiseRightLeftStereo.
+  - refactor: Removes invalid audio event Cin_CruiseTopDownStereo.
+  - refactor: Removes invalid audio event Cin_CruiseOverheadStereo.
+  - refactor: Removes invalid audio event Cin_CruiseFinalKillStereo.
+
+labels:
+  - audio
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1912
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1969
+
+authors:
+  - xezon

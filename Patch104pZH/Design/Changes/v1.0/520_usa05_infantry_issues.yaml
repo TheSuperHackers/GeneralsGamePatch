@@ -1,0 +1,34 @@
+---
+date: 2021-10-07
+
+title: Fixes issues with GLA Toxin infantry in USA05 campaign
+
+changes:
+  - fix: The USA05 Toxin General's Worker now builds in the correct time of 15 seconds.
+  - fix: The USA05 Toxin General's Worker's command button order is now consistent with other GLA sub-factions.
+  - fix: The USA05 Toxin General's Worker now has an upgrade icon for Worker Shoes.
+  - fix: The USA05 Toxin General's Worker now gets faster with the Worker Shoes upgrade.
+  - fix: The USA05 Toxin General's Toxin Rebel now uses the correct model when capturing buildings.
+  - fix: The USA05 Toxin General's Toxin Rebel now has the correct name and tooltips.
+  - fix: The USA05 Toxin General's Toxin Rebel now has the correct voice set.
+  - fix: The USA05 Toxin General's Toxin Rebel Booby Trap attack is now functional.
+  - fix: The USA05 Toxin General's Toxin Tunnel Defender now has a correct animation for firing at airborne targets.
+  - fix: The USA05 Toxin General's Toxin Tunnel Defender now has the correct name and tooltips.
+  - fix: The USA05 Toxin General's Toxin Tunnel Defender now has the correct voice set.
+  - fix: The USA05 Toxin General's Terrorist now has an upgrade icon for Anthrax Gamma.
+  - fix: The USA05 Toxin General's Terrorist now has the correct name and tooltips.
+  - fix: The USA05 Toxin General's Hijacker can now enter vehicles in guard mode.
+  - fix: The USA05 Toxin General's Jarmen Kell can now snipe infantry.
+  - fix: The USA05 Toxin General's Jarmen Kell now has the correct vision range.
+  - fix: The USA05 Toxin General's Jarmen Kell will no longer retaliate if the option is disabled.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/520
+
+authors:
+  - commy2

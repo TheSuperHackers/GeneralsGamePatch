@@ -1,0 +1,19 @@
+---
+date: 2023-05-05
+
+title: Achieves homogeneous firing sound for machine gun of USA Comanche
+
+changes:
+  - fix: Achieves homogeneous firing sound for machine gun of USA Comanche by removing the audio file with the single shot.
+
+labels:
+  - audio
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1930
+
+authors:
+  - xezon

@@ -1,0 +1,70 @@
+---
+date: 2023-05-12
+
+title: Adds new dialog events for originally unreferenced speech files
+
+changes:
+  - feature: |
+      Adds new dialog events for originally unreferenced speech files
+        - EvaGLA_WelcomeToGeneralsOnline    egonline.wav
+        - EvaGLA_BaseUnderAttack            egbasun.wav 
+        - EvaGLA_BuildingLost               egbuilo.wav 
+        - EvaGLA_EnemyBuildingCaptured      egbuica.wav 
+        - EvaGLA_Building                   egbuildg.wav
+        - EvaGLA_Training                   egtraing.wav
+        - EvaGLA_UnitReady                  egunitr.wav 
+        - EvaGLA_UnitPromoted               egunitp.wav 
+        - EvaGLA_ConstructionComplete       egconst.wav 
+        - EvaGLA_HeroCaptured               egcapher.wav
+        - EvaGLA_BlackLotusCaptured         egcapbla.wav
+        - EvaGLA_ColonelBurtonCaptured      egcapcol.wav
+        - EvaGLA_JarmenKellCaptured         egcapjar.wav
+        - EvaChina_WelcomeToGeneralsOnline  econline.wav
+        - EvaChina_BaseUnderAttack          ecbasun.wav 
+        - EvaChina_BuildingLost             ecbuilo.wav 
+        - EvaChina_EnemyBuildingCaptured    ecbuica.wav 
+        - EvaChina_Building                 ecbuildg.wav
+        - EvaChina_Training                 ectraing.wav
+        - EvaChina_UnitReady                ecunitr.wav 
+        - EvaChina_UnitPromoted             ecunitp.wav 
+        - EvaChina_ConstructionComplete     ecconst.wav 
+        - EvaChina_HeroCaptured             eccapher.wav
+        - EvaChina_BlackLotusCaptured       eccapbla.wav
+        - EvaChina_ColonelBurtonCaptured    eccapcol.wav
+        - EvaChina_JarmenKellCaptured       eccapjar.wav
+        - EvaUSA_WelcomeToGeneralsOnline    euonline.wav
+        - EvaUSA_BaseUnderAttack            eubasun.wav 
+        - EvaUSA_BuildingLost               eubuilo.wav 
+        - EvaUSA_EnemyBuildingCaptured      eubuica.wav 
+        - EvaUSA_Building                   eubuildg.wav
+        - EvaUSA_Training                   eutraing.wav
+        - EvaUSA_UnitReady                  euunitr.wav 
+        - EvaUSA_UnitPromoted               euunitp.wav 
+        - EvaUSA_ConstructionComplete       euconst.wav 
+        - EvaUSA_HeroCaptured               eucapher.wav
+        - EvaUSA_BlackLotusCaptured         eucapbla.wav
+        - EvaUSA_ColonelBurtonCaptured      eucapcol.wav
+        - EvaUSA_JarmenKellCaptured         eucapjar.wav
+        - Cin_JetFlyOverHead02              cjetf01a.wav
+        - Cin_ClockTone                     cloctone.wav
+        - MisUSA01xCin10b                   xu1re101.wav
+        - MisUSA01xCin11b                   xu1re102.wav
+        - MisCHI01xChat07                   xc1bat01.wav
+        - MisCHI01xChat08                   xc1bat02.wav
+        - MisCHI01xChat09                   xc1bat03.wav
+        - MisGLA03xChat01b                  xg3re101.wav
+        - MisGLA03xChat05b                  xg3re102.wav
+        - MisGLA03xChat06b                  xg3re201.wav
+        - MisGLA03xChat07b                  xg3re202.wav
+
+labels:
+  - audio
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1949
+
+authors:
+  - xezon

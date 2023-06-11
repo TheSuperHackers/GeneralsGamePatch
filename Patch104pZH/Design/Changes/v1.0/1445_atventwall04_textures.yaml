@@ -1,0 +1,26 @@
+---
+date: 2022-11-05
+
+title: Fixes atventwall04 textures for USA structures
+
+changes:
+  - fix: Fixes atventwall04 textures for USA structures.
+
+subchanges:
+  - fix: |
+      atventwall04_d, atventwall04_e
+        - Fixes bullet holes drawing over burns
+        - Fixes burns drawing over vent shafts
+        - Repaints some burns to avoid repeating patterns
+
+labels:
+  - art
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1445
+
+authors:
+  - xezon

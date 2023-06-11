@@ -1,0 +1,24 @@
+---
+date: 2021-09-25
+
+title: Decreases required level up experience of China Black Lotus by 82%
+
+changes:
+  - tweak: Decreases the required level up experience of China Black Lotus from 100 200 400 to 40 80 160. This allows Black Lotus to level up quicker, but on average still requires more time than USA Colonel Burton and GLA Jarmen Kell do.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/413
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/725
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/807
+
+authors:
+  - commy2
+  - xezon

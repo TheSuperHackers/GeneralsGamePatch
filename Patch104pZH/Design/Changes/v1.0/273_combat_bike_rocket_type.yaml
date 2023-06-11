@@ -1,0 +1,21 @@
+---
+date: 2021-09-10
+
+title: Fixes GLA RPG-Tropper on Combat Bike not firing with correct rocket type
+
+changes:
+  - fix: The Demo General's RPG Troopers now fire missiles with the correct red explosion effect, just like the normal GLA RPG Troopers. This is a purely cosmetical change.
+  - fix: The Toxin General's RPG Troopers now fire missiles with blue or pink trails and deal extra Anthrax Gamma damage, just like the normal GLA RPG Troopers. This increases the damage by 30% after the Anthrax Gamma upgrade - the same bonus as for the RPG Trooper on foot.
+
+labels:
+  - art
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/273
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/274
+
+authors:
+  - commy2

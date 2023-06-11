@@ -1,0 +1,21 @@
+---
+date: 2022-08-14
+
+title: Decreases China Nuke Missile blast delays
+
+changes:
+  - tweak: Decreases the China Nuke Missile blast delays to accomodate the explosion effect more appropriately. The Patched Nuke Missile now hits max 880 milliseconds earlier than originally.
+
+labels:
+  - buff
+  - china
+  - controversial
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/880
+
+authors:
+  - xezon

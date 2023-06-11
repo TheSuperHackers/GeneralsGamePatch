@@ -3,22 +3,27 @@
 set SetupDir=%~dp0.
 
 :: Version, size and hash. Sets which Mod Builder is used.
-set ModBuilderVer=1.7
-set ModBuilderArcSize=30094969
-set ModBuilderArcSha256=19f38b1eb071aefe858e5b30e1b2375e578d9e7d92334fadf4ac71586477f29d
+set ModBuilderVer=2.0
+set ModBuilderArcSize=31296792
+set ModBuilderArcSha256=88eecc54dca509734f260f8813adc6c2759042be743a8cf4e7427f48ae1dbaf7
 
 :: The mod config files. Relative to this setup file.
 set ConfigFiles=^
     "%SetupDir%\..\..\ModBundleItems.json" ^
-    "%SetupDir%\..\..\ModBundlePacks.json" ^
+    "%SetupDir%\..\..\ModBundleAudioItems.json" ^
+    "%SetupDir%\..\..\ModBundleLanguageItems.json" ^
+    "%SetupDir%\..\..\ModBundleCorePacks.json" ^
+    "%SetupDir%\..\..\ModBundleFullPacks.json" ^
+    "%SetupDir%\..\..\ModChangeLog.json" ^
     "%SetupDir%\..\..\ModFolders.json" ^
-    "%SetupDir%\..\..\ModRunner.json"
+    "%SetupDir%\WindowsRunner.json" ^
+    "%SetupDir%\WindowsTools.json"
 
 :: Misc path setup.
 set ModBuilderDir=%SetupDir%\.modbuilder\v%ModBuilderVer%
 set ModBuilderExe=%ModBuilderDir%\generalsmodbuilder\generalsmodbuilder.exe
 set ModBuilderArc=%ModBuilderDir%\generalsmodbuilder.7z
-set ModBuilderArcUrl=https://github.com/TheSuperHackers/GeneralsTools/raw/main/Tools/generalsmodbuilder/v%ModBuilderVer%/generalsmodbuilder_v%ModBuilderVer%.7z
+set ModBuilderArcUrl=https://github.com/TheSuperHackers/GeneralsModBuilder/releases/download/v%ModBuilderVer%/generalsmodbuilder_v%ModBuilderVer%.7z
 
 :: Print setup info.
 echo SETUP.BAT

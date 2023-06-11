@@ -1,0 +1,19 @@
+---
+date: 2021-09-01
+
+title: Fixes inconsistent minimum attack ranges of GLA Toxin Tractor
+
+changes:
+  - fix: Increases the minimum attack range of the unupgraded green Toxin sprayer of the GLA Toxin Tractor from 0 to 10. This range is consistent with those of the Anthrax Beta and Anthrax Gamma sprayers.
+
+labels:
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/135
+
+authors:
+  - Stubbjax

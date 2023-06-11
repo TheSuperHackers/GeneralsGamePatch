@@ -1,0 +1,19 @@
+---
+date: 2022-08-05
+
+title: Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player
+
+changes:
+  - fix: The colors of the Anthrax Bomb will now match the respective Anthrax upgrades of the controlling player. Regular Anthrax Bomb appears green, Anthrax Beta Bomb appears blue and Anthrax Gamma Bomb appears pink. This change is purely visual.
+
+labels:
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/826
+
+authors:
+  - commy2

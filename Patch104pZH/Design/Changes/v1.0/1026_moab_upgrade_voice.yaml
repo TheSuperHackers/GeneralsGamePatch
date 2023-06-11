@@ -1,0 +1,20 @@
+---
+date: 2022-08-20
+
+title: Adds upgrade voice for USA MOAB
+
+changes:
+  - feature: Acquiring the USA MOAB upgrade now plays a dedicated voice line in all languages.
+
+labels:
+  - audio
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1026
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1917
+
+authors:
+  - commy2

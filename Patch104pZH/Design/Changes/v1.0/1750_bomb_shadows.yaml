@@ -1,0 +1,22 @@
+---
+date: 2023-02-24
+
+title: Adds 3D shadows to bomb objects
+
+changes:
+  - tweak: Adds 3D shadow to objects with EXCarptBmb model.
+  - tweak: Adds 3D shadow to objects with EXAMine_A model.
+  - tweak: Adds 3D shadow to objects with AVBomber_B model.
+
+labels:
+  - design
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1750
+
+authors:
+  - Stubbjax
+  - xezon

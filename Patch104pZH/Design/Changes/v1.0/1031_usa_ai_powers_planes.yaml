@@ -1,0 +1,20 @@
+---
+date: 2022-08-29
+
+title: Removes obsolete AI scripts in Supply Drop Zone planes
+
+changes:
+  - fix: USA AI can no longer order Fuel Air Bomb and Para Drop with Supply Drop Zone planes.
+
+labels:
+  - ai
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1031
+
+authors:
+  - commy2

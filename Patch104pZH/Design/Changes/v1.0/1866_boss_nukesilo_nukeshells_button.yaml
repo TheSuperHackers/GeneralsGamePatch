@@ -1,0 +1,20 @@
+---
+date: 2023-04-22
+
+title: Removes obsolete Neutron Shells upgrade button from Boss Nuke Silo
+
+changes:
+  - fix: Removes the obsolete Neutron Shells upgrade button from the Boss Nuke Silo, because Boss General cannot build Nuke Cannons.
+
+labels:
+  - boss
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1866
+
+authors:
+  - xezon

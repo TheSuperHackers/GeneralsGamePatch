@@ -1,0 +1,20 @@
+---
+date: 2023-04-16
+
+title: Adds missing Rally Point button to Boss Airfield
+
+changes:
+  - fix: The Boss Airfield now has a button for Rally Point. The click on the Rally Point allows to place the Rally Point on top of units, even if the mouse cursor does not indicate that.
+
+labels:
+  - boss
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1852
+
+authors:
+  - xezon

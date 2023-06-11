@@ -1,0 +1,28 @@
+---
+date: 2021-10-07
+
+title: Fixes issues with GLA Toxin buildings in USA05 campaign
+
+changes:
+  - fix: The USA05 Toxin General's Buildings are now compatible with Fortified Structures.
+  - fix: The USA05 Toxin General's Buildings are no longer immune to Microwave tanks.
+  - fix: The USA05 Toxin General's Barracks, Supply Stash, and Black Market now have the same health as the regular versions.
+  - fix: The USA05 Toxin General's Command Center now grants Toxin Shells and Anthrx Beta.
+  - fix: The USA05 Toxin General's Supply Stash is no longer built in 30 seconds.
+  - fix: The USA05 Toxin General's Arms Dealer is no longer built in 50 seconds.
+  - fix: The USA05 Toxin General's Arms Dealer can now build Scorpions and Scorpion Rockets.
+  - fix: The USA05 Toxin General's Black Market is no longer built in 90 seconds.
+  - fix: The USA05 Toxin General's Supply Stash is now classified as a supply dock instead of a power plant.
+  - fix: The USA05 Toxin General's Palace now uses its night model during the night.
+  - fix: The buttons for Capture Building and Radar Van Scan are now positioned correctly.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/515
+
+authors:
+  - commy2

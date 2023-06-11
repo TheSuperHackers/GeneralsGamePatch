@@ -1,0 +1,21 @@
+---
+date: 2021-09-11
+
+title: Adds missing Hellfire Drone icon to Boss Paladin
+
+changes:
+  - fix: The Boss General's Paladin Tank now shows the Hellfire Drone upgrade icon.
+  - fix: The World Builder only Paladin tanks now the same order of upgrade icons as the regular USA Paladin.
+
+labels:
+  - boss
+  - bug
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/319
+
+authors:
+  - commy2

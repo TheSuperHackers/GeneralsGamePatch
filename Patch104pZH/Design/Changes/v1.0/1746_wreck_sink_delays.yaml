@@ -1,0 +1,62 @@
+---
+date: 2023-01-29
+
+title: Sets consistent sink delays for faction vehicle wrecks
+
+changes:
+  - tweak: Sets sink delays for wrecks of regular vehicles and aircraft to 3000 ms.
+  - tweak: Sets sink delays for wrecks of large vehicles and aircraft to 6000 ms.
+
+subchanges:
+  - tweak: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Crusader Tank wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Paladin Tank wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Laser Tank wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Microwave wreck from 14000 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Tomahawk wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Chinook wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Raptor wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Aurora wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Stealth Fighter wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA A10 wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of USA Spectre wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of China Dozer wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of China Supply Truck wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of China Troop Crawler wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of China Assault Troop Crawler wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of China Listening Outpost wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of China Gattling Tank wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of China Battlemaster wreck from 14000 ms to 3000 ms.
+  - tweak: Sets sink delay of China ECM Tank wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of China Inferno Cannon wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of China Nuke Cannon wreck from 1500 ms to 6000 ms.
+  - tweak: Sets sink delay of China Overlord wreck from 14000 ms to 6000 ms.
+  - tweak: Sets sink delay of China Helix wreck from 1500 ms to 6000 ms.
+  - tweak: Sets sink delay of China Mig wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of GLA Radar Van wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of GLA Quad Cannon wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of GLA Scorpion Tank wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of GLA Marauder Tank wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of GLA Toxin Tractor wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of GLA Bomb Truck wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of GLA Battle Bus wreck from 1500 ms to 3000 ms.
+  - tweak: Sets sink delay of Civilian Militia Tank wreck from 4000 ms to 3000 ms.
+  - tweak: Sets sink delay of Civilian Toxic Supply Truck wreck from 1500 ms to 3000 ms.
+
+labels:
+  - china
+  - design
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746
+
+authors:
+  - xezon

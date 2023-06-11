@@ -1,0 +1,25 @@
+---
+date: 2023-01-08
+
+title: Fixes duplicate terrain scorches on vehicle deaths
+
+changes:
+  - fix: Vehicles no longer spawn more than one terrain scorch on death.
+
+subchanges:
+  - fix: Fixes duplicate death scorch of China Nuke Cannon.
+  - fix: Fixes duplicate death scorch of China Listening Outpost.
+  - fix: Fixes duplicate death scorch of China Dragon Tank.
+
+labels:
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1535
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1606
+
+authors:
+  - xezon

@@ -1,0 +1,20 @@
+---
+date: 2022-09-10
+
+title: Enables low fuel voices for China Mig Jet
+
+changes:
+  - fix: Adds the China Mig's unused low fuel voice event. Like all other planes, it will play when returning to a missing airfield.
+
+labels:
+  - audio
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1180
+
+authors:
+  - Stubbjax

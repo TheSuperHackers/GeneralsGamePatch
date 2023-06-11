@@ -1,0 +1,20 @@
+---
+date: 2022-10-15
+
+title: Fixes construction fence texture of USA Power Plant
+
+changes:
+  - fix: The construction fence texture of the USA Power Plant on Winter Night maps now looks proper.
+
+labels:
+  - art
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1375
+
+authors:
+  - commy2

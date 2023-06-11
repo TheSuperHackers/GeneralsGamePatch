@@ -1,0 +1,21 @@
+---
+date: 2022-09-08
+
+title: Removes USA Pilot ability to promote GLA Combat Bike
+
+changes:
+  - tweak: The USA Pilot can no longer promote the GLA Combat Bike.
+
+labels:
+  - bug
+  - controversial
+  - gla
+  - minor
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1164
+
+authors:
+  - commy2

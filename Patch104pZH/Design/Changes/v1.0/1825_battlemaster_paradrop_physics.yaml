@@ -1,0 +1,19 @@
+---
+date: 2023-04-09
+
+title: Fixes choppy physics of China Battlemaster Paradrop
+
+changes:
+  - fix: The China Battlemaster Paradrop parachutes now move and animate a bit more natural. The paradrop movement looks gentle.
+
+labels:
+  - china
+  - design
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1825
+
+authors:
+  - xezon

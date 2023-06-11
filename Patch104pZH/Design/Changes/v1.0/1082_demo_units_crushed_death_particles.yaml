@@ -1,0 +1,19 @@
+---
+date: 2022-09-02
+
+title: Improves explosion effect of crushed GLA terror units
+
+changes:
+  - feature: Crushed GLA terror units now have a dedicated explosion effect that looks different to the original suicide explosion effect.
+
+labels:
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1082
+
+authors:
+  - commy2

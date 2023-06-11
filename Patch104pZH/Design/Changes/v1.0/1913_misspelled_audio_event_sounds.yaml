@@ -1,0 +1,23 @@
+---
+date: 2023-05-05
+
+title: Fixes misspelled sounds in audio events
+
+changes:
+  - fix: Fixes misspelled sound(s) gcardami in CarDamagedMoveLoop.
+  - fix: Fixes misspelled sound(s) ucheergl in MissionAccomplishedSound.
+  - fix: Fixes misspelled sound(s) ihaclo1a in HackerWeaponLoop. The hack sequence now has an initiation sound like Black Lotus has.
+  - fix: Fixes misspelled sound(s) icifcdif in CivilianArabFemaleDie.
+  - fix: Fixes misspelled sound(s) gstolo2a, gstolo2b, gstolo2c in FireStormLoop. China Fire Storms now loop correctly.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1913
+
+authors:
+  - xezon

@@ -1,0 +1,22 @@
+---
+date: 2022-10-16
+
+title: Fixes animation issues on conveyor belt of China War Factory
+
+changes:
+  - fix: Removes the China War Factory conveyor belt animation from badly damaged states on Winter and Night maps, which solves problems with floating baskets above the deformed pole and baskets colliding with a stuck basket inside the furnace.
+  - fix: The China War Factory conveyor belt animation no longer resets when starting or finishing production.
+  - fix: The China War Factory conveyor belt animation only advances while the factory is producing units and upgrades.
+
+labels:
+  - bug
+  - china
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1381
+
+authors:
+  - commy2

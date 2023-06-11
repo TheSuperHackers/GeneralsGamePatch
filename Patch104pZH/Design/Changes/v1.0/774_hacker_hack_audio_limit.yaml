@@ -1,0 +1,19 @@
+---
+date: 2022-07-30
+
+title: Decreases cash hack audio limit of China Hackers
+
+changes:
+  - tweak: No more than 1 cash hack audio effect is now played simultaneously. This avoids accumulated audio spam.
+
+labels:
+  - audio
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/774
+
+authors:
+  - xezon

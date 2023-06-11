@@ -1,0 +1,19 @@
+---
+date: 2021-08-28
+
+title: Fixes GLA Demo Rocket Buggy losing its red missile effect after acquiring Buggy Ammo upgrade
+
+changes:
+  - fix: The Demo General's Rocket Buggy now retains the red missile explosion effect when upgraded with Buggy Ammo.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/87
+
+authors:
+  - commy2

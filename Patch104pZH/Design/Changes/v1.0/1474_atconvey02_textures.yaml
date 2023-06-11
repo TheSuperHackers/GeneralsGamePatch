@@ -1,0 +1,19 @@
+---
+date: 2022-11-19
+
+title: Fixes conveyor belt textures of USA War Factory
+
+changes:
+  - fix: Fixes dust tiling on the atconvey02_e texture.
+
+labels:
+  - art
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1474
+
+authors:
+  - xezon

@@ -1,0 +1,27 @@
+---
+date: 2022-08-20
+
+title: Fixes persistent muzzle flash effects on infantry weapons
+
+changes:
+  - fix: |
+      Muzzle flash effects no longer shows persistently during transition animations on
+        - USA Ranger
+        - China Red Guard
+        - China Minigunner
+        - GLA Rebel
+        - GLA Angry Mob
+
+labels:
+  - bug
+  - china
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/938
+
+authors:
+  - commy2

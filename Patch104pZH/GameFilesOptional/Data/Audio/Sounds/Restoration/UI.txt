@@ -1,0 +1,8 @@
+(On Windows, get files names with command 'dir /b /a-d')
+
+Fixes clicking, fadein, fadeout in
+
+uboarder.wav
+ulogosel.wav
+uradarpi.wav
+uwarning.wav

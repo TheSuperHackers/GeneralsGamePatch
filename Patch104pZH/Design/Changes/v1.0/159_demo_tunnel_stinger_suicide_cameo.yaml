@@ -1,0 +1,19 @@
+---
+date: 2021-09-03
+
+title: Adds missing Demo Upgrade icon to Demo GLA Tunnel and Stinger
+
+changes:
+  - fix: The upgrade icon for the Demolition upgrade is now present on the Demo General's Tunnel Networks and Stinger Sites.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/159
+
+authors:
+  - commy2

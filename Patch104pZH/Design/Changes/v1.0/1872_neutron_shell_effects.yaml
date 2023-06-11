@@ -1,0 +1,32 @@
+---
+date: 2023-04-23
+
+title: Fixes and improves explosion effects of China Neutron Shells
+
+changes:
+  - tweak: Fixes and improves the China Neutron Shell explosion effects. It no longer shows the explosion effect of the Alpha Aurora and instead just shows the Neutron specific effects and the scattered flares in matching colors and sizes.
+
+subchanges:
+  - tweak: Removes Alpha Aurora fuel bomb explosion and smoke from Neutron Shell explosion effect.
+  - tweak: Leaves scattered flares with matching colors and sizes on Neutron Shell explosion effect.
+  - tweak: Moves all Neutron Shell particle effects closer to the ground where the shell actually hits.
+  - tweak: Removes one of the Neutron Shell dust rings because there are 2 of them moving at different speeds.
+  - tweak: Halves the duration of the remaining Neutron Shell dust ring effect.
+  - tweak: Increases speed and reduces lifetime of the Neutron Shell rings.
+  - tweak: Gives the outer Neutron Shell ring a fixed size to better indicate the weapon effect radius.
+  - tweak: Increases the size growth of the centered Neutron Shell flare ball to look a bit more impressive.
+  - tweak: Removes the unnecessary terrain scorch of the Neutron Shell.
+
+
+labels:
+  - art
+  - china
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1872
+
+authors:
+  - xezon
