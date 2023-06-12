@@ -2,25 +2,14 @@
 
 setlocal
 
-set ThisDir=%~dp0.
+call "%~dp0.\Windows\Build.bat"
 
-call "%ThisDir%\Windows\RequestAdmin.bat" "%~s0" %*
+echo cmd: Run Generals Mod Builder ...
 
-if %errorlevel% EQU 111 (
-    exit /B %errorlevel%
-)
-
-call "%ThisDir%\Windows\InstallModBuilder.bat"
-
-if %errorlevel% EQU 222 (
-    exit /B %errorlevel%
-)
-
-call "%ThisDir%\Windows\Setup.bat"
-
-call "%ModBuilderExe%" ^
-  --build ^
-  --install FullEnglish ^
-  --config-list %ConfigFiles% %*
+call "%VenvPythonExe%" "%MainPy%" ^
+    --build ^
+    --install FullEnglish ^
+    --tools-root-dir "%ToolsRootDir%" ^
+    --config-list %ConfigFiles% %*
 
 endlocal

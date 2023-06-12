@@ -1,0 +1,2 @@
+virtualenvs.create = true
+virtualenvs.in-project = true

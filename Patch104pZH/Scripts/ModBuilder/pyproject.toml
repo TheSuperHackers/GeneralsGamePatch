@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "generalsmodbuilder"
+version = "2.1"
+description = "Mod Builder for Generals: Zero Hour"
+authors = ["TheSuperHackers"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+beeprint = "^2.4.10"
+psd-tools = "1.9.19"
+markdownmaker = "^0.4.0"
+PyYAML = "^6.0"
+scikit-image = "0.19.2"
+certifi = "^2023.5.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

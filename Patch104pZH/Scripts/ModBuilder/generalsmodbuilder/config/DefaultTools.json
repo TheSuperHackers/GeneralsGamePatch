@@ -71,7 +71,7 @@
                                 "call": "{TOOLS_DIR}/blender-3.4.1-windows-x64/blender.exe",
                                 "callArgs": {
                                     "--background": "",
-                                    "--python-expr": "import bpy; import os; fp=os.path.normpath('{ROOT_DIR}/{TOOLS_DIR}/io_mesh_w3d.zip'); bpy.ops.preferences.addon_install(overwrite=True, filepath=fp)"
+                                    "--python-expr": "import bpy; import os; fp=os.path.normpath('{THIS_DIR}/{TOOLS_DIR}/io_mesh_w3d.zip'); bpy.ops.preferences.addon_install(overwrite=True, filepath=fp)"
                                 }
                             }
                         ],

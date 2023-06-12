@@ -1,0 +1,72 @@
+{
+    "build": {
+        "version": 1,
+        "steps": [
+            {
+                "name": "poetry",
+                "setup": {
+                    "win32": {
+                        "venvDir": ".venv-poetry",
+                        "venvExe": ".venv-poetry/Scripts/python.exe",
+                        "amd64": {
+                            "packages": []
+                        }
+                    },
+                    "pipInstalls": [
+                        "poetry==1.3.0"
+                    ]
+                },
+                "config": {
+                    "projDir": "."
+                }
+            },
+            {
+                "name": "PyInstaller",
+                "setup": {
+                    "win32": {
+                        "venvDir": ".venv-pyinstaller",
+                        "venvExe": ".venv-pyinstaller/Scripts/python.exe",
+                        "amd64": {
+                            "packages": []
+                        }
+                    },
+                    "pipInstalls": [
+                        "pyinstaller==5.9.0"
+                    ]
+                },
+                "config": {
+                    "exeName": "generalsmodbuilder",
+                    "codeDir": "generalsmodbuilder",
+                    "codeFile": "main.py",
+                    "distDir": ".pyinstaller",
+                    "buildDir": ".build",
+                    "makeArchive": true,
+                    "archiveDir": ".release",
+                    "importDirs": [
+                        ".venv/Lib/site-packages"
+                    ],
+                    "dataFiles": [
+                        {
+                            "src": "generalsmodbuilder/config/*.json",
+                            "dst": "config"
+                        },
+                        {
+                            "src": "generalsmodbuilder/gui/icon.png",
+                            "dst": "gui"
+                        }
+                    ],
+                    "postDeleteFiles": [
+                        ".pyinstaller/generalsmodbuilder/skimage/data/*.gif",
+                        ".pyinstaller/generalsmodbuilder/skimage/data/*.jpg",
+                        ".pyinstaller/generalsmodbuilder/skimage/data/*.npz",
+                        ".pyinstaller/generalsmodbuilder/skimage/data/*.npy",
+                        ".pyinstaller/generalsmodbuilder/skimage/data/*.png",
+                        ".pyinstaller/generalsmodbuilder/skimage/data/*.tif",
+                        ".pyinstaller/generalsmodbuilder/skimage/data/*.xml",
+                        ".pyinstaller/generalsmodbuilder/scipy.libs"
+                    ]
+                }
+            }
+        ]
+    }
+}

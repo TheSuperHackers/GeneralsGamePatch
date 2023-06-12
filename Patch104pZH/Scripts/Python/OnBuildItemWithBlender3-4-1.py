@@ -95,15 +95,15 @@ def OnEvent(**kwargs) -> None:
     buildThing = kwargs.get(RAW_BUILD_THING)
 
     if tools == None:
-        raise Exception("Unable to reference '{TOOLS}' in user script")
+        raise Exception(f"Unable to reference '{TOOLS}' in user script")
     if buildThing == None:
+        # Is not built at this time. Skip.
         return
-        #raise Exception("Unable to reference '{RAW_BUILD_THING}' in user script")
 
     tool = tools.get("blender")
 
     if tool == None:
-        raise Exception("Unable to reference 'blender' in '{TOOLS}'")
+        raise Exception(f"Unable to reference 'blender' in '{TOOLS}'")
 
     exec: str = tool.GetExecutable()
     for buildFile in buildThing.files:

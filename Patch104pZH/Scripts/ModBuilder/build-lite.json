@@ -1,0 +1,25 @@
+{
+    "build": {
+        "version": 1,
+        "steps": [
+            {
+                "name": "poetry",
+                "setup": {
+                    "win32": {
+                        "venvDir": ".venv-poetry",
+                        "venvExe": ".venv-poetry/Scripts/python.exe",
+                        "amd64": {
+                            "packages": []
+                        }
+                    },
+                    "pipInstalls": [
+                        "poetry==1.3.0"
+                    ]
+                },
+                "config": {
+                    "projDir": "."
+                }
+            }
+        ]
+    }
+}
