@@ -1,0 +1,21 @@
+---
+date: 2023-06-17
+
+title: Increases Anthrax Gamma poison field damage bonus by 20%
+
+changes:
+  - tweak: Increases the Anthrax Gamma poison field damage bonus by 20%, except Anthrax Bomb.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012
+
+authors:
+  - xezon
