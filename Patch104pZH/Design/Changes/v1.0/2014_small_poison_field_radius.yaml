@@ -1,0 +1,21 @@
+---
+date: 2023-06-17
+
+title: Decreases small poison field radius from 12 to 7.5
+
+changes:
+  - fix: Decreases small poison field radius from 12 to 7.5 to match small Anthrax Beta and Anthrax Gamma fields radius.
+
+labels:
+  - bug
+  - controversial
+  - gla
+  - minor
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014
+
+authors:
+  - xezon
