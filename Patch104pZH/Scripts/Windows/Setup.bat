@@ -6,9 +6,9 @@ set SetupDir=%~dp0.
 set ProjectDir=%~dp0.\..\..
 
 :: Version, size and hash. Sets which Mod Builder is used.
-set ModBuilderVer=2.0
-set ModBuilderArcSize=31296792
-set ModBuilderArcSha256=88eecc54dca509734f260f8813adc6c2759042be743a8cf4e7427f48ae1dbaf7
+set ModBuilderVer=2.1
+set ModBuilderArcSize=32209682
+set ModBuilderArcSha256=7357871f9e173373b4d7de8385a2cd23c8a3210cd103373830cd2460bfc7acd8
 
 :: Misc path setup.
 set ModBuilderDir=%SetupDir%\.modbuilder\v%ModBuilderVer%
