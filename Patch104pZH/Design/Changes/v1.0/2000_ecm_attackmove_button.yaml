@@ -4,7 +4,7 @@ date: 2023-06-10
 title: Adds missing Attack Move button to China ECM Tank
 
 changes:
-  - tweak: Adds the missing Attack Move button to the China ECM Tank. It can now move to attack units on its own.
+  - fix: Adds the missing Attack Move button to the China ECM Tank. It can now move to attack units on its own.
 
 labels:
   - bug
