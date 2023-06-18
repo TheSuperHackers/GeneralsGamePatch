@@ -1,0 +1,21 @@
+---
+date: 2023-06-18
+
+title: Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds
+
+changes:
+  - fix: Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds. This makes it more practical to build before the enemy approaches it.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2015
+
+authors:
+  - xezon
