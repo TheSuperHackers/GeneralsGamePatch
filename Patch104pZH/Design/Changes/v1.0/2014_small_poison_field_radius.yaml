@@ -1,10 +1,10 @@
 ---
 date: 2023-06-17
 
-title: Decreases small poison field radius from 12 to 7.5
+title: Decreases green Toxin Shells field radius from 12 to 7.5
 
 changes:
-  - fix: Decreases small poison field radius from 12 to 7.5 to match small Anthrax Beta and Anthrax Gamma fields radius.
+  - fix: Decreases the green Toxin Shells field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells field radius.
 
 labels:
   - bug

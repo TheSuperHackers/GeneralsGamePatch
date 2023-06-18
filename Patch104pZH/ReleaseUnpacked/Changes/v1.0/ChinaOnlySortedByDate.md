@@ -8,32 +8,32 @@ Occuring labels are
 - art (21)
 - audio (31)
 - buff (40)
-- bug (98)
-- china (178)
+- bug (99)
+- china (180)
 - civilian (1)
 - controversial (39)
 - critical (1)
 - design (67)
-- enhancement (23)
+- enhancement (24)
 - gla (16)
-- gui (16)
+- gui (18)
 - major (22)
-- minor (154)
+- minor (156)
 - nerf (3)
-- optional (10)
+- optional (11)
 - performance (5)
 - text (4)
 - usa (21)
-- v1.0 (178)
+- v1.0 (180)
 - wip (1)
 
 Sorts changes by: date (ascending)
 
-Contains 178 entries with
+Contains 180 entries with
 
-- 239 changes
+- 241 changes
   - FIX (153)
-  - TWEAK (76)
+  - TWEAK (78)
   - FEATURE (10)
 - 125 subchanges
   - FIX (57)
@@ -197,6 +197,7 @@ Contains 178 entries with
 - [2023-04-30 - Fixes upgrade buttons of China Overlord and Emperor disappearing after research](#link__20230430__1891_overlord_attachment_upgrade_buttons)
 - [2023-05-01 - Improves Gattling Cannon upgrade button of China Overlord and Emperor to be usable in group selections](#link__20230501__1896_overlord_emperor_gattling_cannon_button)
 - [2023-05-01 - Improves upgrade command button and upgrade cameo icon placements of China Overlord and Emperor](#link__20230501__1896_overlord_upgrade_buttons_and_icons)
+- [2023-05-01 - Swaps Drop Bomb and Evacuate buttons on China Helix command set](#link__20230501__1897_helix_evacuation_button_placement)
 - [2023-05-05 - Prevents shells of China Artillery Barrage from killing each other](#link__20230505__1905_artillery_shells_health)
 - [2023-05-05 - Adds unused voice variation(s) to China Black Lotus](#link__20230505__1908_unused_black_lotus_voices)
 - [2023-05-05 - Adds unused voice variation(s) to China Super Lotus](#link__20230505__1908_unused_super_lotus_voices)
@@ -219,6 +220,7 @@ Contains 178 entries with
 - [2023-05-11 - Fixes wrong rotation of China horde decal textures](#link__20230511__1945_horde_decal_rotation)
 - [2023-05-15 - Adds missing object text variant for Super Lotus and Super Hacker](#link__20230515__1954_super_lotus_hacker_text)
 - [2023-05-16 - Adds missing text variants for Nuclear Battlemaster and Nuclear Overlord](#link__20230516__1956_nuclear_battlemaster_overlord_text)
+- [2023-06-10 - Adds missing Attack Move button to China ECM Tank](#link__20230610__2000_ecm_attackmove_button)
 
 
 
@@ -2987,7 +2989,7 @@ Contains 178 entries with
 ### 2023-04-30 - Optimizes button placements of China Dozer <a name='link__20230430__1888_china_dozer_buttons'></a>
 **Changes**
 
-- **FIX**: Optimizes button placements of China Dozer. Swaps the positions of Airfield, Propaganda Center and Internet Center to achieve consistency with button placements of USA Dozer and GLA Worker.
+- **TWEAK**: Optimizes button placements of China Dozer. Swaps the positions of Airfield, Propaganda Center and Internet Center to achieve consistency with button placements of USA Dozer and GLA Worker.
 
 **Links**
 
@@ -3048,6 +3050,22 @@ Contains 178 entries with
 **Authors:** xezon
 
 **Source:** 1896_overlord_upgrade_buttons_and_icons.yaml
+
+---
+### 2023-05-01 - Swaps Drop Bomb and Evacuate buttons on China Helix command set <a name='link__20230501__1897_helix_evacuation_button_placement'></a>
+**Changes**
+
+- **TWEAK**: Swaps Drop Bomb and Evacuate buttons on China Helix command set to allow evacuation in group selections with other kinds of transports.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1897](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1897)
+
+**Labels:** china, enhancement, gui, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 1897_helix_evacuation_button_placement.yaml
 
 ---
 ### 2023-05-05 - Prevents shells of China Artillery Barrage from killing each other <a name='link__20230505__1905_artillery_shells_health'></a>
@@ -3424,4 +3442,20 @@ Contains 178 entries with
 **Authors:** xezon
 
 **Source:** 1956_nuclear_battlemaster_overlord_text.yaml
+
+---
+### 2023-06-10 - Adds missing Attack Move button to China ECM Tank <a name='link__20230610__2000_ecm_attackmove_button'></a>
+**Changes**
+
+- **FIX**: Adds the missing Attack Move button to the China ECM Tank. It can now move to attack units on its own.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2000](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2000)
+
+**Labels:** bug, china, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2000_ecm_attackmove_button.yaml
 
