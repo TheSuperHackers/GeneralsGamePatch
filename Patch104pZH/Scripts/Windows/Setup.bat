@@ -1,23 +1,14 @@
 @echo off
 
+echo Setup ...
+
 set SetupDir=%~dp0.
+set ProjectDir=%~dp0.\..\..
 
 :: Version, size and hash. Sets which Mod Builder is used.
 set ModBuilderVer=2.0
 set ModBuilderArcSize=31296792
 set ModBuilderArcSha256=88eecc54dca509734f260f8813adc6c2759042be743a8cf4e7427f48ae1dbaf7
-
-:: The mod config files. Relative to this setup file.
-set ConfigFiles=^
-    "%SetupDir%\..\..\ModBundleItems.json" ^
-    "%SetupDir%\..\..\ModBundleAudioItems.json" ^
-    "%SetupDir%\..\..\ModBundleLanguageItems.json" ^
-    "%SetupDir%\..\..\ModBundleCorePacks.json" ^
-    "%SetupDir%\..\..\ModBundleFullPacks.json" ^
-    "%SetupDir%\..\..\ModChangeLog.json" ^
-    "%SetupDir%\..\..\ModFolders.json" ^
-    "%SetupDir%\WindowsRunner.json" ^
-    "%SetupDir%\WindowsTools.json"
 
 :: Misc path setup.
 set ModBuilderDir=%SetupDir%\.modbuilder\v%ModBuilderVer%
@@ -25,15 +16,29 @@ set ModBuilderExe=%ModBuilderDir%\generalsmodbuilder\generalsmodbuilder.exe
 set ModBuilderArc=%ModBuilderDir%\generalsmodbuilder.7z
 set ModBuilderArcUrl=https://github.com/TheSuperHackers/GeneralsModBuilder/releases/download/v%ModBuilderVer%/generalsmodbuilder_v%ModBuilderVer%.7z
 
+:: The configuration files.
+set ConfigFiles=^
+    "%ProjectDir%\ModBundleItems.json" ^
+    "%ProjectDir%\ModBundleAudioItems.json" ^
+    "%ProjectDir%\ModBundleLanguageItems.json" ^
+    "%ProjectDir%\ModBundleCorePacks.json" ^
+    "%ProjectDir%\ModBundleFullPacks.json" ^
+    "%ProjectDir%\ModChangeLog.json" ^
+    "%ProjectDir%\ModFolders.json" ^
+    "%SetupDir%\WindowsRunner.json" ^
+    "%SetupDir%\WindowsTools.json"
+
 :: Print setup info.
-echo SETUP.BAT
-echo modver %ModBuilderVer%
-echo arcsiz %ModBuilderArcSize%
-echo arcsha %ModBuilderArcSha256%
-for %%f in (%ConfigFiles%) do (
-    echo config %%f
+if defined PrintSetup (
+    echo Using Mod Builder version %ModBuilderVer%
+    echo Archive size %ModBuilderArcSize%
+    echo Archive sha256 %ModBuilderArcSha256%
+    echo Archive url %ModBuilderArcUrl%
+    echo Archive path %ModBuilderArc%
+    echo Install path %ModBuilderDir%
+    echo Executable path %ModBuilderExe%
+    echo Configuration files:
+    for %%f in (%ConfigFiles%) do (
+        echo %%f
+    )
 )
-echo moddir %ModBuilderDir%
-echo modexe %ModBuilderExe%
-echo arcfil %ModBuilderArc%
-echo arcurl %ModBuilderArcUrl%

@@ -1,8 +1,11 @@
 setlocal
 
+echo Install Mod Builder ...
+
 set ThisDir=%~dp0.
 set WasDownloaded=0
 set WasInstalled=0
+set PrintSetup=1
 
 call "%ThisDir%\Setup.bat"
 
@@ -29,7 +32,7 @@ if %WasDownloaded% NEQ 0 (
         for /F %%I in (%ModBuilderArcPath%) do (
             if %%~zI NEQ %ModBuilderArcSize% (
                 echo File '%ModBuilderArc%' with size %%~zI does not match expected size %ModBuilderArcSize%
-                exit /B 222
+                exit /B 1
             )
         )
 
@@ -46,18 +49,18 @@ if %WasDownloaded% NEQ 0 (
             set WasInstalled=1
         ) else (
             echo File '%ModBuilderArc%' does not have expected hash '%ModBuilderArcSha256%'
-            exit /B 222
+            exit /B 2
         )
     ) else (
         echo File '%ModBuilderArc%' failed to download
-        exit /B 222
+        exit /B 3
     )
 )
 
 if %WasInstalled% NEQ 0 (
     if not exist "%ModBuilderExe%" (
         echo File '%ModBuilderExe%' failed to install
-        exit /B 222
+        exit /B 4
     )
 )
 
