@@ -6,28 +6,28 @@ Includes changes with labels: controversial
 Occuring labels are
 
 - audio (2)
-- buff (62)
-- bug (33)
+- buff (63)
+- bug (34)
 - china (39)
 - civilian (3)
-- controversial (103)
-- design (80)
+- controversial (105)
+- design (81)
 - enhancement (1)
-- gla (32)
+- gla (34)
 - gui (1)
 - major (38)
-- minor (64)
-- nerf (19)
+- minor (66)
+- nerf (20)
 - usa (31)
-- v1.0 (103)
+- v1.0 (105)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 103 entries with
+Contains 105 entries with
 
-- 124 changes
+- 126 changes
   - TWEAK (79)
-  - FIX (37)
+  - FIX (39)
   - FEATURE (7)
   - OPTIMIZATION (1)
 - 20 subchanges
@@ -130,6 +130,8 @@ Contains 103 entries with
 - [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
 - [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
+- [2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5](#link__20230617__2014_small_poison_field_radius)
+- [2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds](#link__20230618__2015_toxin_trap_build_time)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
 - [2023-02-04 - Fixes crushable levels of Civilian cars](#link__20230204__1625_civ_car_crushable_level)
 - [2023-02-04 - Fixes crusher levels of Civilian cars](#link__20230204__1625_civ_car_crusher_level)
@@ -1714,6 +1716,38 @@ Contains 103 entries with
 **Authors:** xezon
 
 **Source:** 1688_salvage_crate_despawn_time.yaml
+
+---
+### 2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5 <a name='link__20230617__2014_small_poison_field_radius'></a>
+**Changes**
+
+- **FIX**: Decreases the green Toxin Shells field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells field radius.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
+
+**Labels:** bug, controversial, gla, minor, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2014_small_poison_field_radius.yaml
+
+---
+### 2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds <a name='link__20230618__2015_toxin_trap_build_time'></a>
+**Changes**
+
+- **FIX**: Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds. This makes it more practical to build before the enemy approaches it.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2015](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2015)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2015_toxin_trap_build_time.yaml
 
 ---
 ### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>

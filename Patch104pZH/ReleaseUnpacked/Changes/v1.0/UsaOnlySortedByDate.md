@@ -16,24 +16,24 @@ Occuring labels are
 - design (62)
 - enhancement (49)
 - gla (17)
-- gui (16)
+- gui (17)
 - major (19)
-- minor (191)
+- minor (192)
 - nerf (10)
 - optional (16)
 - performance (9)
-- text (5)
-- usa (212)
-- v1.0 (212)
+- text (6)
+- usa (213)
+- v1.0 (213)
 
 Sorts changes by: date (ascending)
 
-Contains 212 entries with
+Contains 213 entries with
 
-- 258 changes
+- 259 changes
   - OPTIMIZATION (1)
-  - FIX (166)
-  - TWEAK (75)
+  - FIX (165)
+  - TWEAK (77)
   - FEATURE (16)
 - 199 subchanges
   - FIX (127)
@@ -250,6 +250,7 @@ Contains 212 entries with
 - [2023-05-18 - Removes obsolete voice line "Raptor here" from USA King Raptor](#link__20230518__1962_obsolete_king_raptor_voice)
 - [2023-05-19 - Achieves homogeneous firing sound for machine gun of USA Ranger](#link__20230519__1966_ranger_gun_firing_sequence)
 - [2023-05-20 - Adds fade in sound to B52 Bomber engine loop](#link__20230520__1970_b52_ambient_sounds)
+- [2023-06-09 - Shortens English Particle Cannon timer text](#link__20230609__1999_particle_cannon_text)
 - [2023-09-24 - Adds unused voice variation(s) to USA Aurora](#link__20230924__1274_unused_aurora_voices)
 - [2023-09-24 - Adds unused voice variation(s) to USA Raptor](#link__20230924__1274_unused_raptor_voices)
 
@@ -3971,7 +3972,7 @@ Contains 212 entries with
 ### 2023-04-30 - Optimizes button placements of USA Dozer <a name='link__20230430__1889_usa_dozer_buttons'></a>
 **Changes**
 
-- **FIX**: Optimizes button placements of USA Dozer. Swaps the positions of Airfield, Strategy Center, Supply Drop Zone, Particle Cannon, Command Center to achieve consistency with button placements of China Dozer and GLA Worker.
+- **TWEAK**: Optimizes button placements of USA Dozer. Swaps the positions of Airfield, Strategy Center, Supply Drop Zone, Particle Cannon, Command Center to achieve consistency with button placements of China Dozer and GLA Worker.
 
 **Links**
 
@@ -4394,6 +4395,22 @@ Contains 212 entries with
 **Authors:** xezon
 
 **Source:** 1970_b52_ambient_sounds.yaml
+
+---
+### 2023-06-09 - Shortens English Particle Cannon timer text <a name='link__20230609__1999_particle_cannon_text'></a>
+**Changes**
+
+- **TWEAK**: The English Superweapon timer text "Particle Uplink Cannon" now reads "Particle Cannon". This naming is consistent with every other mention of the Particle Cannon in English localization and also takes less precious space on the game screen.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1999](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1999)
+
+**Labels:** gui, minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1999_particle_cannon_text.yaml
 
 ---
 ### 2023-09-24 - Adds unused voice variation(s) to USA Aurora <a name='link__20230924__1274_unused_aurora_voices'></a>

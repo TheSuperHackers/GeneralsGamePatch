@@ -7,34 +7,34 @@ Occuring labels are
 
 - art (20)
 - audio (27)
-- buff (23)
-- bug (118)
+- buff (24)
+- bug (119)
 - china (16)
 - civilian (1)
-- controversial (32)
+- controversial (34)
 - critical (2)
 - design (46)
-- enhancement (15)
-- gla (174)
-- gui (9)
+- enhancement (16)
+- gla (177)
+- gui (10)
 - major (19)
-- minor (152)
-- nerf (12)
+- minor (155)
+- nerf (13)
 - optional (8)
 - performance (1)
 - text (2)
 - usa (17)
-- v1.0 (174)
+- v1.0 (177)
 
 Sorts changes by: date (ascending)
 
-Contains 174 entries with
+Contains 177 entries with
 
-- 217 changes
-  - FIX (158)
+- 219 changes
+  - FIX (159)
   - FEATURE (9)
   - OPTIMIZATION (1)
-  - TWEAK (49)
+  - TWEAK (50)
 - 116 subchanges
   - FIX (57)
   - FEATURE (1)
@@ -186,7 +186,7 @@ Contains 174 entries with
 - [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#link__20230209__1663_scorpion_death_model)
 - [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#link__20230211__1672_marauder_double_barrel_firing_sequence)
 - [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
-- [2023-02-11 - Fixes object flags of SalvageCrate](#link__20230211__1675_salvage_crate_flags)
+- [2023-02-11 - Adds missing CRATE flag to SalvageCrate](#link__20230211__1675_salvage_crate_crate_flag)
 - [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
 - [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#link__20230211__1703_scud_storm_idle_reload)
@@ -215,6 +215,9 @@ Contains 174 entries with
 - [2023-05-05 - Adds unused voice variation(s) to GLA Terrorist](#link__20230505__1918_unused_terrorist_voices)
 - [2023-05-05 - Adds unused voice variation(s) to GLA Toxin Tractor](#link__20230505__1918_unused_toxin_tractor_voices)
 - [2023-05-05 - Adds unused voice variation(s) to GLA Worker](#link__20230505__1918_unused_worker_voices)
+- [2023-06-10 - Adds Guard button to GLA Radar Van](#link__20230610__2001_radar_van_guard_button)
+- [2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5](#link__20230617__2014_small_poison_field_radius)
+- [2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds](#link__20230618__2015_toxin_trap_build_time)
 
 
 
@@ -1604,6 +1607,7 @@ Contains 174 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851)
 
 **Labels:** design, gla, minor, v1.0
@@ -2806,22 +2810,20 @@ Contains 174 entries with
 **Source:** 1674_marauder_idle_reload.yaml
 
 ---
-### 2023-02-11 - Fixes object flags of SalvageCrate <a name='link__20230211__1675_salvage_crate_flags'></a>
+### 2023-02-11 - Adds missing CRATE flag to SalvageCrate <a name='link__20230211__1675_salvage_crate_crate_flag'></a>
 **Changes**
 
 - **FIX**: Adds missing CRATE flag to SalvageCrate.
-- **FIX**: Removes obsolete SELECTABLE flag from SalvageCrate.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1675](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1675)
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1836](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1836)
 
-**Labels:** design, gla, minor, v1.0
+**Labels:** gla, minor, v1.0
 
 **Authors:** xezon
 
-**Source:** 1675_salvage_crate_flags.yaml
+**Source:** 1675_salvage_crate_crate_flag.yaml
 
 ---
 ### 2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds <a name='link__20230211__1676_salvage_crate_exploit'></a>
@@ -3279,4 +3281,52 @@ Contains 174 entries with
 **Authors:** xezon
 
 **Source:** 1918_unused_worker_voices.yaml
+
+---
+### 2023-06-10 - Adds Guard button to GLA Radar Van <a name='link__20230610__2001_radar_van_guard_button'></a>
+**Changes**
+
+- **TWEAK**: Adds the Guard button to the GLA Radar Van. Guard does not do anything special for the Radar Van other than moving to the guard destination, but it allows to use Guard in a group selection with other types of units.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2001](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2001)
+
+**Labels:** enhancement, gla, gui, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2001_radar_van_guard_button.yaml
+
+---
+### 2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5 <a name='link__20230617__2014_small_poison_field_radius'></a>
+**Changes**
+
+- **FIX**: Decreases the green Toxin Shells field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells field radius.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
+
+**Labels:** bug, controversial, gla, minor, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2014_small_poison_field_radius.yaml
+
+---
+### 2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds <a name='link__20230618__2015_toxin_trap_build_time'></a>
+**Changes**
+
+- **FIX**: Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds. This makes it more practical to build before the enemy approaches it.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2015](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2015)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2015_toxin_trap_build_time.yaml
 

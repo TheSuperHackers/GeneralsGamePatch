@@ -5,29 +5,29 @@ Includes changes with labels: art
 
 Occuring labels are
 
-- art (113)
+- art (114)
 - audio (2)
-- bug (73)
+- bug (74)
 - china (21)
 - civilian (4)
 - design (1)
 - enhancement (30)
 - gla (20)
 - gui (1)
-- minor (113)
+- minor (114)
 - optional (11)
-- performance (1)
+- performance (2)
 - usa (53)
-- v1.0 (113)
+- v1.0 (114)
 - wip (1)
 - worldbuilder (1)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 113 entries with
+Contains 114 entries with
 
-- 140 changes
-  - FIX (112)
+- 142 changes
+  - FIX (114)
   - FEATURE (20)
   - TWEAK (8)
 - 208 subchanges
@@ -135,7 +135,7 @@ Contains 113 entries with
 - [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#link__20230205__1639_civ_damaged_state_models)
 - [2023-02-05 - Adds transition damage effects to Civilian vehicles](#link__20230205__1639_civ_transition_damage_effects)
 - [2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air](#link__20211016__567_demo_combat_bike_drop)
-- [2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building](#link__20211016__568_reinforcement_pad_ruin_model)
+- [2021-10-16 - Adds ruin model to destroyed Reinforcement Pad Tech building](#link__20211016__568_reinforcement_pad_ruin_model)
 - [2022-07-22 - Recoveres 483 high quality textures from Generals](#link__20220722__734_high_res_textures)
 - [2022-08-26 - Adds better 3D model for classic carpet bomb model](#link__20220826__949_carpet_bomb_model)
 - [2022-09-01 - Fixes ugly artifacts in ground aligned flare effects](#link__20220901__1069_ground_flare_particles)
@@ -149,6 +149,7 @@ Contains 113 entries with
 - [2022-12-15 - Removes duplicate shockwave effects from aircraft explosions](#link__20221215__1504_duplicate_explosion_shockwave)
 - [2023-01-06 - Fixes infantry missile particle effects](#link__20230106__1520_missile_particles)
 - [2023-01-08 - Fixes excontrail texture](#link__20230108__1531_excontrail_texture)
+- [2023-06-14 - Removes obsolete structure damage particle effects](#link__20230614__2011_structure_damage_effects)
 
 
 
@@ -2588,13 +2589,15 @@ Contains 113 entries with
 **Source:** 567_demo_combat_bike_drop.yaml
 
 ---
-### 2021-10-16 - Adds ruin model for destroyed Reinforcement Pad Tech building <a name='link__20211016__568_reinforcement_pad_ruin_model'></a>
+### 2021-10-16 - Adds ruin model to destroyed Reinforcement Pad Tech building <a name='link__20211016__568_reinforcement_pad_ruin_model'></a>
 **Changes**
 
-- **FIX**: Adds ruin model for destroyed Reinforcement Pad Tech building.
+- **FIX**: Adds ruin model to destroyed Tech Reinforcement Pad building.
+- **FIX**: Adds ruin model to destroyed Tech Repair Bay building.
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2005](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2005)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/568](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/568)
 
 **Labels:** art, bug, minor, v1.0
@@ -2867,4 +2870,20 @@ Contains 113 entries with
 **Authors:** Stubbjax
 
 **Source:** 1531_excontrail_texture.yaml
+
+---
+### 2023-06-14 - Removes obsolete structure damage particle effects <a name='link__20230614__2011_structure_damage_effects'></a>
+**Changes**
+
+- **FIX**: Removes obsolete structure damage particle effects that would spawn at the center of a building and are not or barely visible.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2011](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2011)
+
+**Labels:** art, bug, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2011_structure_damage_effects.yaml
 
