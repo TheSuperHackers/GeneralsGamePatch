@@ -1,0 +1,21 @@
+---
+date: 2023-06-21
+
+title: Replaces 40% of Rangers with Missile Defenders in USA Paradrops
+
+changes:
+  - tweak: Replaces 40% of Rangers with Missile Defenders in USA Paradrops. Rank 1 drops 3 Rangers and 2 Missile Defenders, Rank 2 drops 6 Rangers and 4 Missile Defenders and Rank 3 drops 12 Rangers and 8 Missile Defenders.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2026
+
+authors:
+  - xezon
