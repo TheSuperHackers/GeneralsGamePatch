@@ -12,6 +12,7 @@
                     "CoreINI",
                     "CoreLangArabic",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -25,6 +26,7 @@
                     "CoreINI",
                     "CoreLangBrazilian",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -38,6 +40,7 @@
                     "CoreINI",
                     "CoreLangChinese",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -51,6 +54,7 @@
                     "CoreINI",
                     "CoreLangEnglish",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -64,6 +68,7 @@
                     "CoreINI",
                     "CoreLangFrench",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -77,6 +82,7 @@
                     "CoreINI",
                     "CoreLangGerman",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -90,6 +96,7 @@
                     "CoreINI",
                     "CoreLangItalian",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -103,6 +110,7 @@
                     "CoreINI",
                     "CoreLangKorean",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -116,6 +124,7 @@
                     "CoreINI",
                     "CoreLangPolish",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -129,6 +138,7 @@
                     "CoreINI",
                     "CoreLangRussian",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
@@ -142,6 +152,7 @@
                     "CoreINI",
                     "CoreLangSpanish",
                     "CoreMaps",
+                    "CoreMisc",
                     "CoreTextures",
                     "CoreW3D",
                     "CoreWindow"
