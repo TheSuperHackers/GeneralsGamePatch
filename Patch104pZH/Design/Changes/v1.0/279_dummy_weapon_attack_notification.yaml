@@ -4,7 +4,7 @@ date: 2021-09-10
 title: Fixes dummy weapons invoking confusing attack effects and notifications
 
 changes:
-  - fix: Objects with dummy weapons no longer do tiny amount of damages that trigger hit particle effects the "We're under attack!" notification.
+  - fix: Objects with dummy weapons no longer do tiny amount of damages that trigger hit particle effects and the "We are under attack!" notification.
 
 labels:
   - bug
@@ -13,6 +13,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/279
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2031
 
 authors:
   - commy2
