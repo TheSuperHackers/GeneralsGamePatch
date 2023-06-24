@@ -1,0 +1,20 @@
+---
+date: 2023-06-24
+
+title: Decreases performance cost of toxin stream trail effects by 50% to 65%
+
+changes:
+  - optimization: Decreases the performance cost of toxin stream trail effects by 50% to 65%. Affects GLA Toxin Tractor, Toxin Rebel and Toxin Tunnel.
+
+labels:
+  - art
+  - gla
+  - major
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034
+
+authors:
+  - xezon
