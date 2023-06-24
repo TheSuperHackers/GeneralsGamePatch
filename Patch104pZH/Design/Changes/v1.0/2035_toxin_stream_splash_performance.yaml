@@ -1,0 +1,21 @@
+---
+date: 2023-06-25
+
+title: Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%
+
+changes:
+  - optimization: Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+labels:
+  - art
+  - gla
+  - minor
+  - performance
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2035
+
+authors:
+  - xezon
