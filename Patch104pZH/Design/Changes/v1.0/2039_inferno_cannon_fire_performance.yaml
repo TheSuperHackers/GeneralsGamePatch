@@ -1,0 +1,20 @@
+---
+date: 2023-06-25
+
+title: Decreases performance cost of Inferno Cannon fire particles by 36%
+
+changes:
+  - optimization: Decreases the performance cost of Inferno Cannon fire particles by 36%. Affects China Inferno Cannon shells and Mig Jet missiles.
+
+labels:
+  - art
+  - china
+  - minor
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039
+
+authors:
+  - xezon

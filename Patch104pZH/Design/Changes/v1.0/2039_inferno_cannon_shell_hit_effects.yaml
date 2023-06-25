@@ -1,0 +1,19 @@
+---
+date: 2023-06-25
+
+title: Removes distracting smoke effect from the center of the Inferno Cannon fire particles
+
+changes:
+  - fix: The distracting smoke effect at the center of the Inferno Cannon fire particles is now removed.
+
+labels:
+  - art
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039
+
+authors:
+  - xezon
