@@ -1,0 +1,19 @@
+---
+date: 2023-06-25
+
+title: Improves color blending of hazard cleanup stream particles
+
+changes:
+  - tweak: Improves the color blending of the hazard cleanup stream particles of the USA Ambulance. The cyan stream no longer grossly color mismatches with its surrounding particles.
+
+labels:
+  - art
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2041
+
+authors:
+  - xezon
