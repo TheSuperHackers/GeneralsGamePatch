@@ -1,0 +1,20 @@
+---
+date: 2023-06-25
+
+title: Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5%
+
+changes:
+  - optimization: The spray puddle particles of the GLA Toxin Tractor now have a simpler setup and match the look of the contamination puddle while having their performance cost cut by 62.5%.
+
+labels:
+  - art
+  - gla
+  - major
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042
+
+authors:
+  - xezon
