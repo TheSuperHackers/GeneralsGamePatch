@@ -1,0 +1,20 @@
+---
+date: 2023-06-25
+
+title: Decreases performance cost of toxin spray particles by 50%
+
+changes:
+  - optimization: The performance cost of the toxin spray particles from the GLA Toxin Tractor is cut by 50%.
+
+labels:
+  - art
+  - gla
+  - major
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042
+
+authors:
+  - xezon
