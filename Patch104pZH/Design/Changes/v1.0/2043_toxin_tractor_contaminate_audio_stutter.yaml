@@ -1,0 +1,20 @@
+---
+date: 2023-06-26
+
+title: Fixes contaminate audio stutters with a group of GLA Toxin Tractors
+
+changes:
+  - fix: Fixes the contaminate audio stutters with a group of GLA Toxin Tractors.
+
+labels:
+  - audio
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2043
+
+authors:
+  - xezon
