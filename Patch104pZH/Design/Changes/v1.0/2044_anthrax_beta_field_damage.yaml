@@ -1,0 +1,21 @@
+---
+date: 2023-06-26
+
+title: Decreases Toxin Bomb poison field damage by 20%
+
+changes:
+  - tweak: The poison field of the regular Toxin Bomb now deals 20% less damage than the Anthrax Bomb.
+
+labels:
+  - controversial
+  - design
+  - gla
+  - major
+  - nerf
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2044
+
+authors:
+  - xezon
