@@ -1,0 +1,18 @@
+---
+date: 2023-06-29
+
+title: Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm
+
+changes:
+  - fix: The clip size and reload time of the China Dragon Tank flame thrower with Black Napalm now matches the unupgraded one.
+
+labels:
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2050
+
+authors:
+  - xezon
