@@ -6,39 +6,39 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (114)
-- audio (119)
+- art (119)
+- audio (120)
 - boss (31)
-- buff (84)
-- bug (393)
-- china (180)
+- buff (90)
+- bug (395)
+- china (186)
 - civilian (19)
-- controversial (105)
+- controversial (113)
 - critical (5)
-- design (186)
-- enhancement (108)
-- gla (177)
+- design (194)
+- enhancement (109)
+- gla (185)
 - gui (71)
-- major (62)
-- minor (611)
-- nerf (26)
-- optional (33)
-- performance (15)
-- text (23)
-- usa (213)
-- v1.0 (680)
+- major (70)
+- minor (619)
+- nerf (28)
+- optional (34)
+- performance (17)
+- text (24)
+- usa (217)
+- v1.0 (696)
 - wip (1)
 - worldbuilder (5)
 
 Sorts changes by: date (ascending)
 
-Contains 680 entries with
+Contains 696 entries with
 
-- 1016 changes
-  - FIX (714)
-  - OPTIMIZATION (2)
-  - TWEAK (217)
-  - FEATURE (57)
+- 1035 changes
+  - FIX (717)
+  - OPTIMIZATION (5)
+  - TWEAK (229)
+  - FEATURE (58)
   - REFACTOR (26)
 - 380 subchanges
   - FIX (239)
@@ -482,7 +482,7 @@ Contains 680 entries with
 - [2022-10-23 - Fixes abbarracks models for USA Barracks](#link__20221023__1405_abbarracks_models)
 - [2022-10-23 - Fixes atbarrslab textures for USA Barracks](#link__20221023__1406_atbarrslab_textures)
 - [2022-10-23 - Fixes and improves atdoor textures](#link__20221023__1407_atdoor_textures)
-- [2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade](#link__20221103__1588_dragon_min_attack_range)
+- [2022-11-03 - Fixes incorrect minimum attack range of China Dragon Tank flame thrower with Black Napalm](#link__20221103__1588_dragon_min_attack_range)
 - [2022-11-04 - Fixes missing construction ambient sounds of several structures](#link__20221104__1419_construction_ambient_sound)
 - [2022-11-05 - Adds sounds to infantry units entering and exiting a Barracks for healing](#link__20221105__1426_barracks_healing_enter_sound)
 - [2022-11-05 - Fixes and improves atdriveway textures for USA War Factory](#link__20221105__1427_atdriveway_textures)
@@ -640,6 +640,7 @@ Contains 680 entries with
 - [2023-05-01 - Improves Gattling Cannon upgrade button of China Overlord and Emperor to be usable in group selections](#link__20230501__1896_overlord_emperor_gattling_cannon_button)
 - [2023-05-01 - Improves upgrade command button and upgrade cameo icon placements of China Overlord and Emperor](#link__20230501__1896_overlord_upgrade_buttons_and_icons)
 - [2023-05-01 - Swaps Drop Bomb and Evacuate buttons on China Helix command set](#link__20230501__1897_helix_evacuation_button_placement)
+- [2023-05-02 - Adds new mouse cursor for ground force attack](#link__20230502__1899_force_attack_ground_cursor)
 - [2023-05-03 - Sets audio limit for Vehicle Snipe](#link__20230503__1900_vehicle_snipe_sound_limit)
 - [2023-05-05 - Sets correct name for Demo_Command_ConstructGLATankScorpion](#link__20230505__1904_demo_command_scorpion_spelling)
 - [2023-05-05 - Prevents shells of China Artillery Barrage from killing each other](#link__20230505__1905_artillery_shells_health)
@@ -718,12 +719,27 @@ Contains 680 entries with
 - [2023-05-19 - Achieves homogeneous firing sound for machine gun of USA Ranger](#link__20230519__1966_ranger_gun_firing_sequence)
 - [2023-05-20 - Adds fade in sound to B52 Bomber engine loop](#link__20230520__1970_b52_ambient_sounds)
 - [2023-05-28 - Optimizes button placements of Boss Dozer](#link__20230528__1982_boss_dozer_buttons)
+- [2023-06-04 - Increases armor of China Internet Center against Explosion attacks by 28.5%](#link__20230604__1989_internet_center_explosion_armor)
+- [2023-06-04 - Increases armor of China Internet Center against Particle Cannon beams by 25%](#link__20230604__1989_internet_center_particle_beam_armor)
 - [2023-06-09 - Shortens English Particle Cannon timer text](#link__20230609__1999_particle_cannon_text)
 - [2023-06-10 - Adds missing Attack Move button to China ECM Tank](#link__20230610__2000_ecm_attackmove_button)
 - [2023-06-10 - Adds Guard button to GLA Radar Van](#link__20230610__2001_radar_van_guard_button)
+- [2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175](#link__20230610__2002_anthrax_beta_scud_storm_damage)
+- [2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500](#link__20230610__2002_anthrax_gamma_scud_storm_damage)
 - [2023-06-14 - Removes obsolete structure damage particle effects](#link__20230614__2011_structure_damage_effects)
+- [2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20%](#link__20230617__2012_anthrax_gamma_field_damage)
 - [2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5](#link__20230617__2014_small_poison_field_radius)
 - [2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds](#link__20230618__2015_toxin_trap_build_time)
+- [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
+- [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
+- [2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30%](#link__20230622__2027_internet_center_aurora_bomb_armor)
+- [2023-06-23 - Improves tool tip text of China Internet Center](#link__20230623__2029_internet_center_tooltip_text)
+- [2023-06-24 - Decreases performance cost of toxin stream puddles by 70%](#link__20230624__2036_toxin_stream_puddle_performance)
+- [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
+- [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
+- [2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors](#link__20230626__2043_toxin_tractor_contaminate_audio_stutter)
+- [2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm](#link__20230629__2050_dragon_black_napalm_flamethrower_clip_size)
+- [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
 - [2023-09-24 - Adds unused voice variation(s) to USA Aurora](#link__20230924__1274_unused_aurora_voices)
 - [2023-09-24 - Adds unused voice variation(s) to USA Raptor](#link__20230924__1274_unused_raptor_voices)
 
@@ -2243,15 +2259,18 @@ Contains 680 entries with
 ### 2021-09-10 - Fixes dummy weapons invoking confusing attack effects and notifications <a name='link__20210910__279_dummy_weapon_attack_notification'></a>
 **Changes**
 
-- **FIX**: Objects with dummy weapons no longer do tiny amount of damages that trigger hit particle effects the "We're under attack!" notification.
+- **FIX**: Objects with dummy weapons no longer do tiny amount of damages that trigger hit particle effects and the "We are under attack!" notification.
+- **OPTIMIZATION**: Minimizes the spawn count of the dummy projectile objects.
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2031](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2031)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2032](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2032)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/279](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/279)
 
 **Labels:** bug, minor, v1.0
 
-**Authors:** commy2
+**Authors:** commy2, xezon
 
 **Source:** 279_dummy_weapon_attack_notification.yaml
 
@@ -8348,6 +8367,7 @@ Contains 680 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1390](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1390)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2028](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2028)
 
 **Labels:** buff, bug, design, minor, performance, usa, v1.0
 
@@ -8585,10 +8605,10 @@ Contains 680 entries with
 **Source:** 1407_atdoor_textures.yaml
 
 ---
-### 2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade <a name='link__20221103__1588_dragon_min_attack_range'></a>
+### 2022-11-03 - Fixes incorrect minimum attack range of China Dragon Tank flame thrower with Black Napalm <a name='link__20221103__1588_dragon_min_attack_range'></a>
 **Changes**
 
-- **FIX**: Decreases the minimum attack range of China Dragon Tank with Napalm Upgrade from 10 to 0. This range matches the unupgraded Dragon Tank attack range.
+- **FIX**: Decreases the minimum attack range of the China Dragon Tank flame thrower with Napalm Upgrade from 10 to 0. This range matches the unupgraded Dragon Tank flame thrower attack range.
 
 **Links**
 
@@ -11693,14 +11713,16 @@ Contains 680 entries with
 ### 2023-05-01 - Improves upgrade command button and upgrade cameo icon placements of China Overlord and Emperor <a name='link__20230501__1896_overlord_upgrade_buttons_and_icons'></a>
 **Changes**
 
-- **TWEAK**: Matches the position and order of the China Overlord and Emperor upgrade command button with those of the China Helix.
-- **FIX**: Matches the order of the China Overlord and Emperor upgrade cameo icons with the order of the command buttons.
+- **TWEAK**: Matches the position of the China Overlord and Emperor upgrade command button with those of the China Helix.
+- **TWEAK**: Optionally matches the order of the China Overlord and Emperor upgrade command button with those of the China Helix.
+- **TWEAK**: Matches the order of the China Overlord and Emperor upgrade cameo icons with the order of the command buttons.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2037](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2037)
 
-**Labels:** china, gui, minor, v1.0
+**Labels:** china, gui, minor, optional, v1.0
 
 **Authors:** xezon
 
@@ -11721,6 +11743,22 @@ Contains 680 entries with
 **Authors:** xezon
 
 **Source:** 1897_helix_evacuation_button_placement.yaml
+
+---
+### 2023-05-02 - Adds new mouse cursor for ground force attack <a name='link__20230502__1899_force_attack_ground_cursor'></a>
+**Changes**
+
+- **FEATURE**: Adds a new mouse cursor for the ground force attack. The cursor looks similar to the original attack cursor, but different enough to provide a clear distinction between attacking a ground position and attacking an object.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1899](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1899)
+
+**Labels:** art, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1899_force_attack_ground_cursor.yaml
 
 ---
 ### 2023-05-03 - Sets audio limit for Vehicle Snipe <a name='link__20230503__1900_vehicle_snipe_sound_limit'></a>
@@ -14296,6 +14334,38 @@ Contains 680 entries with
 **Source:** 1982_boss_dozer_buttons.yaml
 
 ---
+### 2023-06-04 - Increases armor of China Internet Center against Explosion attacks by 28.5% <a name='link__20230604__1989_internet_center_explosion_armor'></a>
+**Changes**
+
+- **TWEAK**: Increases the armor of the China Internet Center against Explosion attacks by 28.5%. This way GLA Scud Storms, China Nuke Missiles and all Generals Powers are no longer able to kill the pristine Internet Center and all its Hackers with a single strike.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1989_internet_center_explosion_armor.yaml
+
+---
+### 2023-06-04 - Increases armor of China Internet Center against Particle Cannon beams by 25% <a name='link__20230604__1989_internet_center_particle_beam_armor'></a>
+**Changes**
+
+- **TWEAK**: Increases the armor of the China Internet Center against Particle Cannon beams by 25%. This way the Particle Cannon is no longer able to kill the pristine Internet Center with a single strike.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1989_internet_center_particle_beam_armor.yaml
+
+---
 ### 2023-06-09 - Shortens English Particle Cannon timer text <a name='link__20230609__1999_particle_cannon_text'></a>
 **Changes**
 
@@ -14344,6 +14414,38 @@ Contains 680 entries with
 **Source:** 2001_radar_van_guard_button.yaml
 
 ---
+### 2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175 <a name='link__20230610__2002_anthrax_beta_scud_storm_damage'></a>
+**Changes**
+
+- **TWEAK**: Decreases the secondary damage of the Anthrax Beta Scud Storm missiles from 200 to 175. This way it can no longer take out as many structures in a large area, but is still stronger than the regular Scud Storm.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2002_anthrax_beta_scud_storm_damage.yaml
+
+---
+### 2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500 <a name='link__20230610__2002_anthrax_gamma_scud_storm_damage'></a>
+**Changes**
+
+- **TWEAK**: Decreases the primary damage of the Anthrax Gamma Scud Storm missiles from 550 to 500. This way it can no longer take out pristine Superweapons in a single strike, but is still better than the Anthrax Beta Scud Storm.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2002_anthrax_gamma_scud_storm_damage.yaml
+
+---
 ### 2023-06-14 - Removes obsolete structure damage particle effects <a name='link__20230614__2011_structure_damage_effects'></a>
 **Changes**
 
@@ -14360,14 +14462,32 @@ Contains 680 entries with
 **Source:** 2011_structure_damage_effects.yaml
 
 ---
+### 2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20% <a name='link__20230617__2012_anthrax_gamma_field_damage'></a>
+**Changes**
+
+- **TWEAK**: Increases the Anthrax Gamma poison field damage bonus by 20%, except Anthrax Bomb.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2012_anthrax_gamma_field_damage.yaml
+
+---
 ### 2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5 <a name='link__20230617__2014_small_poison_field_radius'></a>
 **Changes**
 
-- **FIX**: Decreases the green Toxin Shells field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells field radius.
+- **FIX**: Decreases the green Toxin Shells poison field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells poison field radius.
+- **FIX**: Decreases the green Toxin Shells object radius from 6 to 4 to match the Anthrax Beta and Anthrax Gamma Toxin Shells object radius.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022)
 
 **Labels:** bug, controversial, gla, minor, nerf, v1.0
 
@@ -14390,6 +14510,166 @@ Contains 680 entries with
 **Authors:** xezon
 
 **Source:** 2015_toxin_trap_build_time.yaml
+
+---
+### 2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones <a name='link__20230620__2023_hazard_field_cleanup_health_and_damage'></a>
+**Changes**
+
+- **TWEAK**: Prioritizes larger Toxin and Radiation fields over smaller ones by assigning different amounts of hazard cleanup health and damage to different hazard field sizes. The huge fields of the Anthrax Bomb and Nuke Missile are 2 times stronger than large fields. Large fields of Scud Storm missiles are 5 times stronger than medium fields. And medium fields of Scud Launcher, Toxin Truck, Bomb Truck and Nuclear Reactor are 10 times stronger than small fields. With this progression it is no longer possible to cleanup large hazard fields with just one small hazard field put on top. Overall many hazard cleanups will take more effort and time than originally, unless the created hazard field is equal or larger than the overlapped hazard field.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2023)
+
+**Labels:** buff, bug, china, controversial, design, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 2023_hazard_field_cleanup_health_and_damage.yaml
+
+---
+### 2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops <a name='link__20230621__2026_usa_paradrop_payload'></a>
+**Changes**
+
+- **TWEAK**: Replaces 40% of Rangers with Missile Defenders in USA Paradrops. Rank 1 drops 3 Rangers and 2 Missile Defenders, Rank 2 drops 6 Rangers and 4 Missile Defenders and Rank 3 drops 12 Rangers and 8 Missile Defenders.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2026)
+
+**Labels:** buff, controversial, design, major, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2026_usa_paradrop_payload.yaml
+
+---
+### 2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30% <a name='link__20230622__2027_internet_center_aurora_bomb_armor'></a>
+**Changes**
+
+- **TWEAK**: Increases the armor of the China Internet Center against Aurora bombs by 30%. This way it takes one more Aurora or Alpha Aurora to take out the pristine Internet Center.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2027](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2027)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 2027_internet_center_aurora_bomb_armor.yaml
+
+---
+### 2023-06-23 - Improves tool tip text of China Internet Center <a name='link__20230623__2029_internet_center_tooltip_text'></a>
+**Changes**
+
+- **TWEAK**: Improves the tool tip text of the China Internet Center. It now clarifies that the structure protects hackers and helps them generate money faster.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2029](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2029)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2029_internet_center_tooltip_text.yaml
+
+---
+### 2023-06-24 - Decreases performance cost of toxin stream puddles by 70% <a name='link__20230624__2036_toxin_stream_puddle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases performance cost of toxin stream puddles by 70%. Affects GLA Toxin Tractor, Toxin Rebel and Toxin Tunnel.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2036](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2036)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2036_toxin_stream_puddle_performance.yaml
+
+---
+### 2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20% <a name='link__20230625__2035_toxin_stream_splash_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2035](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2035)
+
+**Labels:** art, gla, minor, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2035_toxin_stream_splash_performance.yaml
+
+---
+### 2023-06-25 - Improves color blending of hazard cleanup stream particles <a name='link__20230625__2041_improve_cleanup_stream_colors'></a>
+**Changes**
+
+- **TWEAK**: Improves the color blending of the hazard cleanup stream particles of the USA Ambulance. The cyan stream no longer grossly color mismatches with its surrounding particles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2041](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2041)
+
+**Labels:** art, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2041_improve_cleanup_stream_colors.yaml
+
+---
+### 2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors <a name='link__20230626__2043_toxin_tractor_contaminate_audio_stutter'></a>
+**Changes**
+
+- **FIX**: Fixes the contaminate audio stutters with a group of GLA Toxin Tractors.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2043](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2043)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2043_toxin_tractor_contaminate_audio_stutter.yaml
+
+---
+### 2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm <a name='link__20230629__2050_dragon_black_napalm_flamethrower_clip_size'></a>
+**Changes**
+
+- **FIX**: The clip size and reload time of the China Dragon Tank flame thrower with Black Napalm now matches the unupgraded one.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2050](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2050)
+
+**Labels:** china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2050_dragon_black_napalm_flamethrower_clip_size.yaml
+
+---
+### 2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects <a name='link__20230702__2058_toxin_stream_splash_visuals'></a>
+**Changes**
+
+- **FIX**: The toxin and hazard cleanup stream splash effects no longer have mismatching visuals with their puddle effects. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2058](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2058)
+
+**Labels:** art, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2058_toxin_stream_splash_visuals.yaml
 
 ---
 ### 2023-09-24 - Adds unused voice variation(s) to USA Aurora <a name='link__20230924__1274_unused_aurora_voices'></a>
