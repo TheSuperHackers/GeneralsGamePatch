@@ -1,10 +1,10 @@
 ---
 date: 2022-11-03
 
-title: Removes the minimum attack range of China Dragon Tank with Napalm Upgrade
+title: Fixes incorrect minimum attack range of China Dragon Tank flame thrower with Black Napalm 
 
 changes:
-  - fix: Decreases the minimum attack range of China Dragon Tank with Napalm Upgrade from 10 to 0. This range matches the unupgraded Dragon Tank attack range.
+  - fix: Decreases the minimum attack range of the China Dragon Tank flame thrower with Napalm Upgrade from 10 to 0. This range matches the unupgraded Dragon Tank flame thrower attack range.
 
 labels:
   - buff
