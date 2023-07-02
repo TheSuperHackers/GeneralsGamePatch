@@ -1,0 +1,20 @@
+---
+date: 2023-06-24
+
+title: Decreases performance cost of toxin stream puddles by 70%
+
+changes:
+  - optimization: Decreases performance cost of toxin stream puddles by 70%. Affects GLA Toxin Tractor, Toxin Rebel and Toxin Tunnel.
+
+labels:
+  - art
+  - gla
+  - major
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2036
+
+authors:
+  - xezon
