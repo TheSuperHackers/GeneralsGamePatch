@@ -1,0 +1,20 @@
+---
+date: 2023-07-02
+
+title: Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects
+
+changes:
+  - fix: The toxin and hazard cleanup stream splash effects no longer have mismatching visuals with their puddle effects. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+labels:
+  - art
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2058
+
+authors:
+  - xezon
