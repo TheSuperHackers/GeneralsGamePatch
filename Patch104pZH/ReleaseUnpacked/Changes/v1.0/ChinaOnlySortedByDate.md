@@ -7,33 +7,33 @@ Occuring labels are
 
 - art (21)
 - audio (31)
-- buff (40)
-- bug (99)
-- china (180)
+- buff (44)
+- bug (100)
+- china (186)
 - civilian (1)
-- controversial (39)
+- controversial (43)
 - critical (1)
-- design (67)
+- design (71)
 - enhancement (24)
-- gla (16)
+- gla (17)
 - gui (18)
-- major (22)
-- minor (156)
+- major (26)
+- minor (158)
 - nerf (3)
-- optional (11)
+- optional (12)
 - performance (5)
-- text (4)
+- text (5)
 - usa (21)
-- v1.0 (180)
+- v1.0 (186)
 - wip (1)
 
 Sorts changes by: date (ascending)
 
-Contains 180 entries with
+Contains 186 entries with
 
-- 241 changes
+- 248 changes
   - FIX (153)
-  - TWEAK (78)
+  - TWEAK (85)
   - FEATURE (10)
 - 125 subchanges
   - FIX (57)
@@ -154,7 +154,7 @@ Contains 180 entries with
 - [2022-10-20 - Removes superfluous particle effects from China Power Plant](#link__20221020__1395_china_reactor_obsolete_particles)
 - [2022-10-20 - Adds steam particles to all chimneys of China Nuke Power Plant](#link__20221020__1396_nuke_reactor_steam_particles)
 - [2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes](#link__20221020__1398_radar_animation_reset)
-- [2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade](#link__20221103__1588_dragon_min_attack_range)
+- [2022-11-03 - Fixes incorrect minimum attack range of China Dragon Tank flame thrower with Black Napalm](#link__20221103__1588_dragon_min_attack_range)
 - [2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20%](#link__20221106__1449_dragon_poison_armor)
 - [2022-11-06 - Fixes wrong exploded death animation of China Tank Hunter](#link__20221106__1452_tank_hunter_exploded_death_animation)
 - [2022-11-07 - Fixes wrong death sounds of China Hacker](#link__20221107__1455_hacker_death_voice)
@@ -220,7 +220,13 @@ Contains 180 entries with
 - [2023-05-11 - Fixes wrong rotation of China horde decal textures](#link__20230511__1945_horde_decal_rotation)
 - [2023-05-15 - Adds missing object text variant for Super Lotus and Super Hacker](#link__20230515__1954_super_lotus_hacker_text)
 - [2023-05-16 - Adds missing text variants for Nuclear Battlemaster and Nuclear Overlord](#link__20230516__1956_nuclear_battlemaster_overlord_text)
+- [2023-06-04 - Increases armor of China Internet Center against Explosion attacks by 28.5%](#link__20230604__1989_internet_center_explosion_armor)
+- [2023-06-04 - Increases armor of China Internet Center against Particle Cannon beams by 25%](#link__20230604__1989_internet_center_particle_beam_armor)
 - [2023-06-10 - Adds missing Attack Move button to China ECM Tank](#link__20230610__2000_ecm_attackmove_button)
+- [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
+- [2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30%](#link__20230622__2027_internet_center_aurora_bomb_armor)
+- [2023-06-23 - Improves tool tip text of China Internet Center](#link__20230623__2029_internet_center_tooltip_text)
+- [2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm](#link__20230629__2050_dragon_black_napalm_flamethrower_clip_size)
 
 
 
@@ -2226,10 +2232,10 @@ Contains 180 entries with
 **Source:** 1398_radar_animation_reset.yaml
 
 ---
-### 2022-11-03 - Removes the minimum attack range of China Dragon Tank with Napalm Upgrade <a name='link__20221103__1588_dragon_min_attack_range'></a>
+### 2022-11-03 - Fixes incorrect minimum attack range of China Dragon Tank flame thrower with Black Napalm <a name='link__20221103__1588_dragon_min_attack_range'></a>
 **Changes**
 
-- **FIX**: Decreases the minimum attack range of China Dragon Tank with Napalm Upgrade from 10 to 0. This range matches the unupgraded Dragon Tank attack range.
+- **FIX**: Decreases the minimum attack range of the China Dragon Tank flame thrower with Napalm Upgrade from 10 to 0. This range matches the unupgraded Dragon Tank flame thrower attack range.
 
 **Links**
 
@@ -3038,14 +3044,16 @@ Contains 180 entries with
 ### 2023-05-01 - Improves upgrade command button and upgrade cameo icon placements of China Overlord and Emperor <a name='link__20230501__1896_overlord_upgrade_buttons_and_icons'></a>
 **Changes**
 
-- **TWEAK**: Matches the position and order of the China Overlord and Emperor upgrade command button with those of the China Helix.
-- **FIX**: Matches the order of the China Overlord and Emperor upgrade cameo icons with the order of the command buttons.
+- **TWEAK**: Matches the position of the China Overlord and Emperor upgrade command button with those of the China Helix.
+- **TWEAK**: Optionally matches the order of the China Overlord and Emperor upgrade command button with those of the China Helix.
+- **TWEAK**: Matches the order of the China Overlord and Emperor upgrade cameo icons with the order of the command buttons.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1896)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2037](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2037)
 
-**Labels:** china, gui, minor, v1.0
+**Labels:** china, gui, minor, optional, v1.0
 
 **Authors:** xezon
 
@@ -3444,6 +3452,38 @@ Contains 180 entries with
 **Source:** 1956_nuclear_battlemaster_overlord_text.yaml
 
 ---
+### 2023-06-04 - Increases armor of China Internet Center against Explosion attacks by 28.5% <a name='link__20230604__1989_internet_center_explosion_armor'></a>
+**Changes**
+
+- **TWEAK**: Increases the armor of the China Internet Center against Explosion attacks by 28.5%. This way GLA Scud Storms, China Nuke Missiles and all Generals Powers are no longer able to kill the pristine Internet Center and all its Hackers with a single strike.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1989_internet_center_explosion_armor.yaml
+
+---
+### 2023-06-04 - Increases armor of China Internet Center against Particle Cannon beams by 25% <a name='link__20230604__1989_internet_center_particle_beam_armor'></a>
+**Changes**
+
+- **TWEAK**: Increases the armor of the China Internet Center against Particle Cannon beams by 25%. This way the Particle Cannon is no longer able to kill the pristine Internet Center with a single strike.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1989_internet_center_particle_beam_armor.yaml
+
+---
 ### 2023-06-10 - Adds missing Attack Move button to China ECM Tank <a name='link__20230610__2000_ecm_attackmove_button'></a>
 **Changes**
 
@@ -3458,4 +3498,68 @@ Contains 180 entries with
 **Authors:** xezon
 
 **Source:** 2000_ecm_attackmove_button.yaml
+
+---
+### 2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones <a name='link__20230620__2023_hazard_field_cleanup_health_and_damage'></a>
+**Changes**
+
+- **TWEAK**: Prioritizes larger Toxin and Radiation fields over smaller ones by assigning different amounts of hazard cleanup health and damage to different hazard field sizes. The huge fields of the Anthrax Bomb and Nuke Missile are 2 times stronger than large fields. Large fields of Scud Storm missiles are 5 times stronger than medium fields. And medium fields of Scud Launcher, Toxin Truck, Bomb Truck and Nuclear Reactor are 10 times stronger than small fields. With this progression it is no longer possible to cleanup large hazard fields with just one small hazard field put on top. Overall many hazard cleanups will take more effort and time than originally, unless the created hazard field is equal or larger than the overlapped hazard field.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2023)
+
+**Labels:** buff, bug, china, controversial, design, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 2023_hazard_field_cleanup_health_and_damage.yaml
+
+---
+### 2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30% <a name='link__20230622__2027_internet_center_aurora_bomb_armor'></a>
+**Changes**
+
+- **TWEAK**: Increases the armor of the China Internet Center against Aurora bombs by 30%. This way it takes one more Aurora or Alpha Aurora to take out the pristine Internet Center.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2027](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2027)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 2027_internet_center_aurora_bomb_armor.yaml
+
+---
+### 2023-06-23 - Improves tool tip text of China Internet Center <a name='link__20230623__2029_internet_center_tooltip_text'></a>
+**Changes**
+
+- **TWEAK**: Improves the tool tip text of the China Internet Center. It now clarifies that the structure protects hackers and helps them generate money faster.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2029](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2029)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2029_internet_center_tooltip_text.yaml
+
+---
+### 2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm <a name='link__20230629__2050_dragon_black_napalm_flamethrower_clip_size'></a>
+**Changes**
+
+- **FIX**: The clip size and reload time of the China Dragon Tank flame thrower with Black Napalm now matches the unupgraded one.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2050](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2050)
+
+**Labels:** china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2050_dragon_black_napalm_flamethrower_clip_size.yaml
 

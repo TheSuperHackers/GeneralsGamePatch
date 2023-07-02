@@ -5,36 +5,36 @@ Includes changes with labels: gla
 
 Occuring labels are
 
-- art (20)
-- audio (27)
-- buff (24)
-- bug (119)
-- china (16)
+- art (23)
+- audio (28)
+- buff (26)
+- bug (121)
+- china (17)
 - civilian (1)
-- controversial (34)
+- controversial (38)
 - critical (2)
-- design (46)
+- design (50)
 - enhancement (16)
-- gla (177)
+- gla (185)
 - gui (10)
-- major (19)
-- minor (155)
-- nerf (13)
+- major (23)
+- minor (159)
+- nerf (15)
 - optional (8)
-- performance (1)
+- performance (3)
 - text (2)
-- usa (17)
-- v1.0 (177)
+- usa (19)
+- v1.0 (185)
 
 Sorts changes by: date (ascending)
 
-Contains 177 entries with
+Contains 185 entries with
 
-- 219 changes
-  - FIX (159)
+- 228 changes
+  - FIX (162)
   - FEATURE (9)
-  - OPTIMIZATION (1)
-  - TWEAK (50)
+  - OPTIMIZATION (3)
+  - TWEAK (54)
 - 116 subchanges
   - FIX (57)
   - FEATURE (1)
@@ -216,8 +216,16 @@ Contains 177 entries with
 - [2023-05-05 - Adds unused voice variation(s) to GLA Toxin Tractor](#link__20230505__1918_unused_toxin_tractor_voices)
 - [2023-05-05 - Adds unused voice variation(s) to GLA Worker](#link__20230505__1918_unused_worker_voices)
 - [2023-06-10 - Adds Guard button to GLA Radar Van](#link__20230610__2001_radar_van_guard_button)
+- [2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175](#link__20230610__2002_anthrax_beta_scud_storm_damage)
+- [2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500](#link__20230610__2002_anthrax_gamma_scud_storm_damage)
+- [2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20%](#link__20230617__2012_anthrax_gamma_field_damage)
 - [2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5](#link__20230617__2014_small_poison_field_radius)
 - [2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds](#link__20230618__2015_toxin_trap_build_time)
+- [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
+- [2023-06-24 - Decreases performance cost of toxin stream puddles by 70%](#link__20230624__2036_toxin_stream_puddle_performance)
+- [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
+- [2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors](#link__20230626__2043_toxin_tractor_contaminate_audio_stutter)
+- [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
 
 
 
@@ -3299,14 +3307,64 @@ Contains 177 entries with
 **Source:** 2001_radar_van_guard_button.yaml
 
 ---
+### 2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175 <a name='link__20230610__2002_anthrax_beta_scud_storm_damage'></a>
+**Changes**
+
+- **TWEAK**: Decreases the secondary damage of the Anthrax Beta Scud Storm missiles from 200 to 175. This way it can no longer take out as many structures in a large area, but is still stronger than the regular Scud Storm.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2002_anthrax_beta_scud_storm_damage.yaml
+
+---
+### 2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500 <a name='link__20230610__2002_anthrax_gamma_scud_storm_damage'></a>
+**Changes**
+
+- **TWEAK**: Decreases the primary damage of the Anthrax Gamma Scud Storm missiles from 550 to 500. This way it can no longer take out pristine Superweapons in a single strike, but is still better than the Anthrax Beta Scud Storm.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2002_anthrax_gamma_scud_storm_damage.yaml
+
+---
+### 2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20% <a name='link__20230617__2012_anthrax_gamma_field_damage'></a>
+**Changes**
+
+- **TWEAK**: Increases the Anthrax Gamma poison field damage bonus by 20%, except Anthrax Bomb.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2012_anthrax_gamma_field_damage.yaml
+
+---
 ### 2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5 <a name='link__20230617__2014_small_poison_field_radius'></a>
 **Changes**
 
-- **FIX**: Decreases the green Toxin Shells field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells field radius.
+- **FIX**: Decreases the green Toxin Shells poison field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells poison field radius.
+- **FIX**: Decreases the green Toxin Shells object radius from 6 to 4 to match the Anthrax Beta and Anthrax Gamma Toxin Shells object radius.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022)
 
 **Labels:** bug, controversial, gla, minor, nerf, v1.0
 
@@ -3329,4 +3387,84 @@ Contains 177 entries with
 **Authors:** xezon
 
 **Source:** 2015_toxin_trap_build_time.yaml
+
+---
+### 2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones <a name='link__20230620__2023_hazard_field_cleanup_health_and_damage'></a>
+**Changes**
+
+- **TWEAK**: Prioritizes larger Toxin and Radiation fields over smaller ones by assigning different amounts of hazard cleanup health and damage to different hazard field sizes. The huge fields of the Anthrax Bomb and Nuke Missile are 2 times stronger than large fields. Large fields of Scud Storm missiles are 5 times stronger than medium fields. And medium fields of Scud Launcher, Toxin Truck, Bomb Truck and Nuclear Reactor are 10 times stronger than small fields. With this progression it is no longer possible to cleanup large hazard fields with just one small hazard field put on top. Overall many hazard cleanups will take more effort and time than originally, unless the created hazard field is equal or larger than the overlapped hazard field.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2023)
+
+**Labels:** buff, bug, china, controversial, design, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 2023_hazard_field_cleanup_health_and_damage.yaml
+
+---
+### 2023-06-24 - Decreases performance cost of toxin stream puddles by 70% <a name='link__20230624__2036_toxin_stream_puddle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases performance cost of toxin stream puddles by 70%. Affects GLA Toxin Tractor, Toxin Rebel and Toxin Tunnel.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2036](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2036)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2036_toxin_stream_puddle_performance.yaml
+
+---
+### 2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20% <a name='link__20230625__2035_toxin_stream_splash_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2035](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2035)
+
+**Labels:** art, gla, minor, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2035_toxin_stream_splash_performance.yaml
+
+---
+### 2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors <a name='link__20230626__2043_toxin_tractor_contaminate_audio_stutter'></a>
+**Changes**
+
+- **FIX**: Fixes the contaminate audio stutters with a group of GLA Toxin Tractors.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2043](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2043)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2043_toxin_tractor_contaminate_audio_stutter.yaml
+
+---
+### 2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects <a name='link__20230702__2058_toxin_stream_splash_visuals'></a>
+**Changes**
+
+- **FIX**: The toxin and hazard cleanup stream splash effects no longer have mismatching visuals with their puddle effects. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2058](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2058)
+
+**Labels:** art, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2058_toxin_stream_splash_visuals.yaml
 

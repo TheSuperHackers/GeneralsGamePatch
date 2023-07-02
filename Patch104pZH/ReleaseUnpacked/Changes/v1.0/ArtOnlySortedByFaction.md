@@ -5,37 +5,41 @@ Includes changes with labels: art
 
 Occuring labels are
 
-- art (114)
+- art (119)
 - audio (2)
 - bug (74)
 - china (21)
 - civilian (4)
 - design (1)
-- enhancement (30)
-- gla (20)
+- enhancement (31)
+- gla (23)
 - gui (1)
-- minor (114)
+- major (1)
+- minor (118)
 - optional (11)
-- performance (2)
-- usa (53)
-- v1.0 (114)
+- performance (4)
+- usa (56)
+- v1.0 (119)
 - wip (1)
 - worldbuilder (1)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 114 entries with
+Contains 119 entries with
 
-- 142 changes
-  - FIX (114)
-  - FEATURE (20)
-  - TWEAK (8)
+- 147 changes
+  - OPTIMIZATION (2)
+  - FIX (115)
+  - FEATURE (21)
+  - TWEAK (9)
 - 208 subchanges
   - FIX (157)
   - TWEAK (23)
   - FEATURE (28)
 
 ## Index
+- [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
+- [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
 - [2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora](#link__20210902__145_alpha_aurora_cameo)
 - [2021-09-03 - Fixes USA Avenger model](#link__20210903__158_avenger_model)
 - [2021-09-07 - Fixes USA Spectre Gunship losing its house color when shot down](#link__20210907__254_spectre_housecolor)
@@ -89,6 +93,7 @@ Contains 114 entries with
 - [2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_exhaust)
 - [2023-04-06 - Improves particle and sound effect sequence of USA Daisy Cutter explosion](#link__20230406__1800_daisy_cutter_explosion_effects)
 - [2023-04-23 - Fixes and improves explosion effects of USA Alpha Aurora bomb](#link__20230423__1871_alpha_aurora_bomb_effects)
+- [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
 - [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#link__20210901__133_speaker_tower_models)
 - [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
 - [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#link__20220903__1090_china_cc_night_model)
@@ -130,6 +135,7 @@ Contains 114 entries with
 - [2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps](#link__20221002__1326_scud_storm_snow_damage)
 - [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#link__20221002__1328_utscudslab_upscaled_textures)
 - [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#link__20230108__1528_worker_death_animation)
+- [2023-06-24 - Decreases performance cost of toxin stream puddles by 70%](#link__20230624__2036_toxin_stream_puddle_performance)
 - [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#link__20211016__568_repair_bay_ruin_model)
 - [2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees](#link__20230205__1638_humvee1_transition_damage_effects)
 - [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#link__20230205__1639_civ_damaged_state_models)
@@ -149,9 +155,42 @@ Contains 114 entries with
 - [2022-12-15 - Removes duplicate shockwave effects from aircraft explosions](#link__20221215__1504_duplicate_explosion_shockwave)
 - [2023-01-06 - Fixes infantry missile particle effects](#link__20230106__1520_missile_particles)
 - [2023-01-08 - Fixes excontrail texture](#link__20230108__1531_excontrail_texture)
+- [2023-05-02 - Adds new mouse cursor for ground force attack](#link__20230502__1899_force_attack_ground_cursor)
 - [2023-06-14 - Removes obsolete structure damage particle effects](#link__20230614__2011_structure_damage_effects)
 
 
+
+---
+### 2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20% <a name='link__20230625__2035_toxin_stream_splash_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2035](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2035)
+
+**Labels:** art, gla, minor, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2035_toxin_stream_splash_performance.yaml
+
+---
+### 2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects <a name='link__20230702__2058_toxin_stream_splash_visuals'></a>
+**Changes**
+
+- **FIX**: The toxin and hazard cleanup stream splash effects no longer have mismatching visuals with their puddle effects. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2058](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2058)
+
+**Labels:** art, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2058_toxin_stream_splash_visuals.yaml
 
 ---
 ### 2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora <a name='link__20210902__145_alpha_aurora_cameo'></a>
@@ -1602,6 +1641,22 @@ Contains 114 entries with
 **Source:** 1871_alpha_aurora_bomb_effects.yaml
 
 ---
+### 2023-06-25 - Improves color blending of hazard cleanup stream particles <a name='link__20230625__2041_improve_cleanup_stream_colors'></a>
+**Changes**
+
+- **TWEAK**: Improves the color blending of the hazard cleanup stream particles of the USA Ambulance. The cyan stream no longer grossly color mismatches with its surrounding particles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2041](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2041)
+
+**Labels:** art, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2041_improve_cleanup_stream_colors.yaml
+
+---
 ### 2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps <a name='link__20210901__133_speaker_tower_models'></a>
 **Changes**
 
@@ -2463,6 +2518,22 @@ Contains 114 entries with
 **Source:** 1528_worker_death_animation.yaml
 
 ---
+### 2023-06-24 - Decreases performance cost of toxin stream puddles by 70% <a name='link__20230624__2036_toxin_stream_puddle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases performance cost of toxin stream puddles by 70%. Affects GLA Toxin Tractor, Toxin Rebel and Toxin Tunnel.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2036](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2036)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2036_toxin_stream_puddle_performance.yaml
+
+---
 ### 2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building. <a name='link__20211016__568_repair_bay_ruin_model'></a>
 **Changes**
 
@@ -2870,6 +2941,22 @@ Contains 114 entries with
 **Authors:** Stubbjax
 
 **Source:** 1531_excontrail_texture.yaml
+
+---
+### 2023-05-02 - Adds new mouse cursor for ground force attack <a name='link__20230502__1899_force_attack_ground_cursor'></a>
+**Changes**
+
+- **FEATURE**: Adds a new mouse cursor for the ground force attack. The cursor looks similar to the original attack cursor, but different enough to provide a clear distinction between attacking a ground position and attacking an object.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1899](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1899)
+
+**Labels:** art, enhancement, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 1899_force_attack_ground_cursor.yaml
 
 ---
 ### 2023-06-14 - Removes obsolete structure damage particle effects <a name='link__20230614__2011_structure_damage_effects'></a>

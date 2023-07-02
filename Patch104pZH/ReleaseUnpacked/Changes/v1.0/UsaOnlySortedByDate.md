@@ -6,34 +6,34 @@ Includes changes with labels: usa
 Occuring labels are
 
 - ai (2)
-- art (53)
+- art (56)
 - audio (47)
-- buff (21)
+- buff (22)
 - bug (110)
 - china (21)
 - civilian (1)
-- controversial (31)
-- design (62)
+- controversial (32)
+- design (63)
 - enhancement (49)
-- gla (17)
+- gla (19)
 - gui (17)
-- major (19)
-- minor (192)
+- major (20)
+- minor (195)
 - nerf (10)
 - optional (16)
-- performance (9)
+- performance (10)
 - text (6)
-- usa (213)
-- v1.0 (213)
+- usa (217)
+- v1.0 (217)
 
 Sorts changes by: date (ascending)
 
-Contains 213 entries with
+Contains 217 entries with
 
-- 259 changes
-  - OPTIMIZATION (1)
-  - FIX (165)
-  - TWEAK (77)
+- 263 changes
+  - OPTIMIZATION (2)
+  - FIX (166)
+  - TWEAK (79)
   - FEATURE (16)
 - 199 subchanges
   - FIX (127)
@@ -251,6 +251,10 @@ Contains 213 entries with
 - [2023-05-19 - Achieves homogeneous firing sound for machine gun of USA Ranger](#link__20230519__1966_ranger_gun_firing_sequence)
 - [2023-05-20 - Adds fade in sound to B52 Bomber engine loop](#link__20230520__1970_b52_ambient_sounds)
 - [2023-06-09 - Shortens English Particle Cannon timer text](#link__20230609__1999_particle_cannon_text)
+- [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
+- [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
+- [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
+- [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
 - [2023-09-24 - Adds unused voice variation(s) to USA Aurora](#link__20230924__1274_unused_aurora_voices)
 - [2023-09-24 - Adds unused voice variation(s) to USA Raptor](#link__20230924__1274_unused_raptor_voices)
 
@@ -2500,6 +2504,7 @@ Contains 213 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1390](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1390)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2028](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2028)
 
 **Labels:** buff, bug, design, minor, performance, usa, v1.0
 
@@ -4411,6 +4416,70 @@ Contains 213 entries with
 **Authors:** xezon
 
 **Source:** 1999_particle_cannon_text.yaml
+
+---
+### 2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops <a name='link__20230621__2026_usa_paradrop_payload'></a>
+**Changes**
+
+- **TWEAK**: Replaces 40% of Rangers with Missile Defenders in USA Paradrops. Rank 1 drops 3 Rangers and 2 Missile Defenders, Rank 2 drops 6 Rangers and 4 Missile Defenders and Rank 3 drops 12 Rangers and 8 Missile Defenders.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2026)
+
+**Labels:** buff, controversial, design, major, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2026_usa_paradrop_payload.yaml
+
+---
+### 2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20% <a name='link__20230625__2035_toxin_stream_splash_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2035](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2035)
+
+**Labels:** art, gla, minor, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2035_toxin_stream_splash_performance.yaml
+
+---
+### 2023-06-25 - Improves color blending of hazard cleanup stream particles <a name='link__20230625__2041_improve_cleanup_stream_colors'></a>
+**Changes**
+
+- **TWEAK**: Improves the color blending of the hazard cleanup stream particles of the USA Ambulance. The cyan stream no longer grossly color mismatches with its surrounding particles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2041](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2041)
+
+**Labels:** art, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2041_improve_cleanup_stream_colors.yaml
+
+---
+### 2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects <a name='link__20230702__2058_toxin_stream_splash_visuals'></a>
+**Changes**
+
+- **FIX**: The toxin and hazard cleanup stream splash effects no longer have mismatching visuals with their puddle effects. Affects GLA Toxin Tractor, Toxin Rebel, Toxin Tunnel and USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2058](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2058)
+
+**Labels:** art, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2058_toxin_stream_splash_visuals.yaml
 
 ---
 ### 2023-09-24 - Adds unused voice variation(s) to USA Aurora <a name='link__20230924__1274_unused_aurora_voices'></a>

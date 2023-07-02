@@ -6,28 +6,28 @@ Includes changes with labels: controversial
 Occuring labels are
 
 - audio (2)
-- buff (63)
-- bug (34)
-- china (39)
+- buff (69)
+- bug (35)
+- china (43)
 - civilian (3)
-- controversial (105)
-- design (81)
+- controversial (113)
+- design (89)
 - enhancement (1)
-- gla (34)
+- gla (38)
 - gui (1)
-- major (38)
-- minor (66)
-- nerf (20)
-- usa (31)
-- v1.0 (105)
+- major (45)
+- minor (67)
+- nerf (22)
+- usa (32)
+- v1.0 (113)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 105 entries with
+Contains 113 entries with
 
-- 126 changes
-  - TWEAK (79)
-  - FIX (39)
+- 135 changes
+  - TWEAK (87)
+  - FIX (40)
   - FEATURE (7)
   - OPTIMIZATION (1)
 - 20 subchanges
@@ -65,6 +65,8 @@ Contains 105 entries with
 - [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
 - [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
 - [2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb](#link__20230406__1800_daisy_cutter_explosion_delay_variance)
+- [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
+- [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
 - [2021-08-22 - Improves mobility of China Dozer](#link__20210822__6_china_dozer_locomotor)
 - [2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles](#link__20210828__97_minigunner_crush)
 - [2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely](#link__20210905__410_nuke_missile_blasts)
@@ -102,6 +104,9 @@ Contains 105 entries with
 - [2023-04-08 - Increases China Overlord speed by 25%, upgraded speed by 16%](#link__20230408__1813_overlord_speed)
 - [2023-04-08 - Increases China Battlemaster speed by 20%, upgraded speed by 14%](#link__20230408__1815_battlemaster_speed)
 - [2023-04-17 - Increases China Emperor speed by 25%, upgraded speed by 16%](#link__20230417__1854_emperor_speed)
+- [2023-06-04 - Increases armor of China Internet Center against Explosion attacks by 28.5%](#link__20230604__1989_internet_center_explosion_armor)
+- [2023-06-04 - Increases armor of China Internet Center against Particle Cannon beams by 25%](#link__20230604__1989_internet_center_particle_beam_armor)
+- [2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30%](#link__20230622__2027_internet_center_aurora_bomb_armor)
 - [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
 - [2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds](#link__20210903__164_demo_technical_suicide_delay)
 - [2021-09-11 - Fixes GLA Car Bomb unable to attack target](#link__20210911__307_car_bomb_attack_bug)
@@ -130,6 +135,9 @@ Contains 105 entries with
 - [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
 - [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
+- [2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175](#link__20230610__2002_anthrax_beta_scud_storm_damage)
+- [2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500](#link__20230610__2002_anthrax_gamma_scud_storm_damage)
+- [2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20%](#link__20230617__2012_anthrax_gamma_field_damage)
 - [2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5](#link__20230617__2014_small_poison_field_radius)
 - [2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds](#link__20230618__2015_toxin_trap_build_time)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
@@ -643,6 +651,38 @@ Contains 105 entries with
 **Authors:** xezon
 
 **Source:** 1800_daisy_cutter_explosion_delay_variance.yaml
+
+---
+### 2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops <a name='link__20230621__2026_usa_paradrop_payload'></a>
+**Changes**
+
+- **TWEAK**: Replaces 40% of Rangers with Missile Defenders in USA Paradrops. Rank 1 drops 3 Rangers and 2 Missile Defenders, Rank 2 drops 6 Rangers and 4 Missile Defenders and Rank 3 drops 12 Rangers and 8 Missile Defenders.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2026)
+
+**Labels:** buff, controversial, design, major, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2026_usa_paradrop_payload.yaml
+
+---
+### 2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones <a name='link__20230620__2023_hazard_field_cleanup_health_and_damage'></a>
+**Changes**
+
+- **TWEAK**: Prioritizes larger Toxin and Radiation fields over smaller ones by assigning different amounts of hazard cleanup health and damage to different hazard field sizes. The huge fields of the Anthrax Bomb and Nuke Missile are 2 times stronger than large fields. Large fields of Scud Storm missiles are 5 times stronger than medium fields. And medium fields of Scud Launcher, Toxin Truck, Bomb Truck and Nuclear Reactor are 10 times stronger than small fields. With this progression it is no longer possible to cleanup large hazard fields with just one small hazard field put on top. Overall many hazard cleanups will take more effort and time than originally, unless the created hazard field is equal or larger than the overlapped hazard field.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2023)
+
+**Labels:** buff, bug, china, controversial, design, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 2023_hazard_field_cleanup_health_and_damage.yaml
 
 ---
 ### 2021-08-22 - Improves mobility of China Dozer <a name='link__20210822__6_china_dozer_locomotor'></a>
@@ -1264,6 +1304,54 @@ Contains 105 entries with
 **Source:** 1854_emperor_speed.yaml
 
 ---
+### 2023-06-04 - Increases armor of China Internet Center against Explosion attacks by 28.5% <a name='link__20230604__1989_internet_center_explosion_armor'></a>
+**Changes**
+
+- **TWEAK**: Increases the armor of the China Internet Center against Explosion attacks by 28.5%. This way GLA Scud Storms, China Nuke Missiles and all Generals Powers are no longer able to kill the pristine Internet Center and all its Hackers with a single strike.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1989_internet_center_explosion_armor.yaml
+
+---
+### 2023-06-04 - Increases armor of China Internet Center against Particle Cannon beams by 25% <a name='link__20230604__1989_internet_center_particle_beam_armor'></a>
+**Changes**
+
+- **TWEAK**: Increases the armor of the China Internet Center against Particle Cannon beams by 25%. This way the Particle Cannon is no longer able to kill the pristine Internet Center with a single strike.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1989)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1989_internet_center_particle_beam_armor.yaml
+
+---
+### 2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30% <a name='link__20230622__2027_internet_center_aurora_bomb_armor'></a>
+**Changes**
+
+- **TWEAK**: Increases the armor of the China Internet Center against Aurora bombs by 30%. This way it takes one more Aurora or Alpha Aurora to take out the pristine Internet Center.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2027](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2027)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 2027_internet_center_aurora_bomb_armor.yaml
+
+---
 ### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
 **Changes**
 
@@ -1718,14 +1806,64 @@ Contains 105 entries with
 **Source:** 1688_salvage_crate_despawn_time.yaml
 
 ---
+### 2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175 <a name='link__20230610__2002_anthrax_beta_scud_storm_damage'></a>
+**Changes**
+
+- **TWEAK**: Decreases the secondary damage of the Anthrax Beta Scud Storm missiles from 200 to 175. This way it can no longer take out as many structures in a large area, but is still stronger than the regular Scud Storm.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2002_anthrax_beta_scud_storm_damage.yaml
+
+---
+### 2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500 <a name='link__20230610__2002_anthrax_gamma_scud_storm_damage'></a>
+**Changes**
+
+- **TWEAK**: Decreases the primary damage of the Anthrax Gamma Scud Storm missiles from 550 to 500. This way it can no longer take out pristine Superweapons in a single strike, but is still better than the Anthrax Beta Scud Storm.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2002)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2002_anthrax_gamma_scud_storm_damage.yaml
+
+---
+### 2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20% <a name='link__20230617__2012_anthrax_gamma_field_damage'></a>
+**Changes**
+
+- **TWEAK**: Increases the Anthrax Gamma poison field damage bonus by 20%, except Anthrax Bomb.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2012_anthrax_gamma_field_damage.yaml
+
+---
 ### 2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5 <a name='link__20230617__2014_small_poison_field_radius'></a>
 **Changes**
 
-- **FIX**: Decreases the green Toxin Shells field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells field radius.
+- **FIX**: Decreases the green Toxin Shells poison field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells poison field radius.
+- **FIX**: Decreases the green Toxin Shells object radius from 6 to 4 to match the Anthrax Beta and Anthrax Gamma Toxin Shells object radius.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022)
 
 **Labels:** bug, controversial, gla, minor, nerf, v1.0
 
