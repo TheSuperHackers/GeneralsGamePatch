@@ -1,0 +1,21 @@
+---
+date: 2023-06-25
+
+title: Increases visibility of toxin spray particles
+
+changes:
+  - fix: Increases the visibility of the toxin spray particles from the GLA Toxin Tractor.
+  - tweak: Increases the gravity of the toxin spray particles from the GLA Toxin Tractor by 20%.
+  - fix: Fixes the incorrect SizeRateDamping setup of the ToxinSpray particle system.
+
+labels:
+  - art
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042
+
+authors:
+  - xezon
