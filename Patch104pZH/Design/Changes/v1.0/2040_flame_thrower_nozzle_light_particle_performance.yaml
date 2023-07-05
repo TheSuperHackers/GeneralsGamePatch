@@ -1,0 +1,20 @@
+---
+date: 2023-06-24
+
+title: Decreases performance cost of flame thrower nozzle light particles by 50%
+
+changes:
+  - optimization: The performance cost of the China Dragon Tank's flame thrower nozzle light particles is cut by 50%.
+
+labels:
+  - art
+  - china
+  - minor
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040
+
+authors:
+  - xezon
