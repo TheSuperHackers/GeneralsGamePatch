@@ -1,0 +1,19 @@
+---
+date: 2023-07-06
+
+title: Fixes toxin stream timeout of GLA Toxin Tunnel
+
+changes:
+  - fix: The toxin stream of the GLA Toxin Tunnel no longer times out when firing on distant terrain or allied units.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2063
+
+authors:
+  - xezon
