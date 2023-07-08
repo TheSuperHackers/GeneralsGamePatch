@@ -4,16 +4,18 @@ date: 2021-08-27
 title: Fixes units shooting at already killed infantry units
 
 changes:
-  - fix: Units no longer shoot at killed infantry units.
+  - fix: Combat units no longer attack killed infantry units.
+  - fix: The Point Defense Laser of the USA Paladin no longer attacks killed infantry units.
 
 labels:
   - bug
-  - gla
   - minor
   - v1.0
 
 links:
-- https://github.com/TheSuperHackers/GeneralsGamePatch/pull/75
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/75
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2072
 
 authors:
   - hanfield
+  - xezon
