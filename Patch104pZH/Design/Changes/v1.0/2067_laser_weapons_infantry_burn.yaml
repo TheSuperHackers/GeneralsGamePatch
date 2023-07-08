@@ -6,6 +6,7 @@ title: Enables Laser weapons to burn killed infantry units
 changes:
   - tweak: The USA Laser Turret now burns infantry on kill. It does not change gameplay.
   - tweak: The USA Laser Crusader now burns infantry on kill. The burned death now triggers the suicide explosion of the GLA Terrorist.
+  - tweak: The Point Defense Laser of the USA Paladin now burns infantry on kill. It does not change gameplay.
 
 labels:
   - controversial
@@ -16,6 +17,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2067
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2071
 
 authors:
   - xezon
