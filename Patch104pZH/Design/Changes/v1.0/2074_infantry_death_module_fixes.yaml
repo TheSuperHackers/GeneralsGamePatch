@@ -1,0 +1,30 @@
+---
+date: 2023-07-08
+
+title: Fixes missing and broken infantry death modules
+
+changes:
+  - fix: Adds missing crushed, exploded, burned, poisoned death modules to AmericaInfantrySecretService.
+  - fix: Adds missing crushed, exploded, burned, poisoned death modules to ChinaInfantrySecretPolice, ChinaAmbassador, ChinaInfantryAgent.
+  - fix: Adds missing poisoned death modules to ChinaInfantryOfficer.
+  - fix: Adds missing crushed, exploded death modules to MogadishuMaleCivilian01, MogadishuMaleCivilian02.
+  - fix: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian01, MogadishuFemaleCivilian02.
+  - fix: Adds missing crushed, exploded, burned, poisoned death modules to Partisan01, Partisan02, Partisan03.
+  - fix: Adds missing crushed, exploded death modules to GenericFemale01, AmericanFarmer01, AsianFarmer01, AsianFarmer02, AsianFarmer3.
+  - fix: Adds missing crushed, exploded death modules to HomelessGuy.
+  - fix: Adds missing crushed, exploded death modules to GenericMale02, GenericFemale02.
+
+labels:
+  - bug
+  - china
+  - civilian
+  - design
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074
+
+authors:
+  - xezon
