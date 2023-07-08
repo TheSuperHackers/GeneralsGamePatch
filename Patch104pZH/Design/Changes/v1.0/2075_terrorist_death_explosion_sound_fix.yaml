@@ -1,0 +1,21 @@
+---
+date: 2023-07-08
+
+title: Fixes silent death explosion of GLA Terrorists when not suicided
+
+changes:
+  - fix: The GLA Terrorists now also play their explosion sound when burned and exploded.
+  - fix: The GLA Terrorists now play a quieter explosion sound when crushed, splatted and lasered.
+
+labels:
+  - audio
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2075
+
+authors:
+  - xezon
