@@ -1,0 +1,18 @@
+---
+date: 2023-07-09
+
+title: Removes unnecessary line breaks in object labels of German and French localizations
+
+changes:
+  - fix: Removes unnecessary line breaks in 6 object labels of German and French localizations. All object labels are now setup consistently.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2089
+
+authors:
+  - xezon
