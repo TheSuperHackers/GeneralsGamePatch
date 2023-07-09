@@ -5,33 +5,33 @@ Includes changes with labels: art
 
 Occuring labels are
 
-- art (119)
+- art (128)
 - audio (2)
 - bug (74)
-- china (21)
+- china (25)
 - civilian (4)
 - design (1)
 - enhancement (31)
-- gla (23)
+- gla (27)
 - gui (1)
-- major (1)
-- minor (118)
+- major (5)
+- minor (123)
 - optional (11)
-- performance (4)
-- usa (56)
-- v1.0 (119)
+- performance (11)
+- usa (57)
+- v1.0 (128)
 - wip (1)
 - worldbuilder (1)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 119 entries with
+Contains 128 entries with
 
-- 147 changes
-  - OPTIMIZATION (2)
-  - FIX (115)
+- 158 changes
+  - OPTIMIZATION (9)
+  - FIX (118)
   - FEATURE (21)
-  - TWEAK (9)
+  - TWEAK (10)
 - 208 subchanges
   - FIX (157)
   - TWEAK (23)
@@ -93,6 +93,7 @@ Contains 119 entries with
 - [2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_exhaust)
 - [2023-04-06 - Improves particle and sound effect sequence of USA Daisy Cutter explosion](#link__20230406__1800_daisy_cutter_explosion_effects)
 - [2023-04-23 - Fixes and improves explosion effects of USA Alpha Aurora bomb](#link__20230423__1871_alpha_aurora_bomb_effects)
+- [2023-06-24 - Decreases performance cost of hazard cleanup stream trail effects by 50%](#link__20230624__2034_hazard_cleanup_stream_trail_performance)
 - [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
 - [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#link__20210901__133_speaker_tower_models)
 - [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
@@ -115,6 +116,10 @@ Contains 119 entries with
 - [2022-10-16 - Removes floating basket from China War Factory](#link__20221016__1380_winter_night_china_factory_basket)
 - [2023-04-23 - Fixes and improves explosion effects of China Neutron Shells](#link__20230423__1872_neutron_shell_effects)
 - [2023-05-11 - Fixes wrong rotation of China horde decal textures](#link__20230511__1945_horde_decal_rotation)
+- [2023-06-24 - Decreases performance cost of flame thrower nozzle light particles by 50%](#link__20230624__2040_flame_thrower_nozzle_light_particle_performance)
+- [2023-06-24 - Decreases performance cost of flame thrower spray particles by 50%](#link__20230624__2040_flame_thrower_spray_particle_performance)
+- [2023-06-25 - Decreases performance cost of Inferno Cannon fire particles by 36%](#link__20230625__2039_inferno_cannon_fire_performance)
+- [2023-06-25 - Removes distracting smoke effect from the center of the Inferno Cannon fire particles](#link__20230625__2039_inferno_cannon_shell_hit_effects)
 - [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#link__20210827__76_red_bullet_tracers)
 - [2021-08-28 - Fixes wrong ability image of GLA Saboteur](#link__20210828__91_saboteur_ability_image)
 - [2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade](#link__20210910__271_gla_fake_cc_look_mismatch)
@@ -135,7 +140,11 @@ Contains 119 entries with
 - [2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps](#link__20221002__1326_scud_storm_snow_damage)
 - [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#link__20221002__1328_utscudslab_upscaled_textures)
 - [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#link__20230108__1528_worker_death_animation)
+- [2023-06-24 - Decreases performance cost of toxin stream trail effects by 50%](#link__20230624__2034_toxin_stream_trail_performance)
 - [2023-06-24 - Decreases performance cost of toxin stream puddles by 70%](#link__20230624__2036_toxin_stream_puddle_performance)
+- [2023-06-25 - Decreases performance cost of toxin spray particles by 50%](#link__20230625__2042_toxin_spray_particle_performance)
+- [2023-06-25 - Increases visibility of toxin spray particles](#link__20230625__2042_toxin_spray_particle_visibility)
+- [2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5%](#link__20230625__2042_toxin_spray_puddle_performance)
 - [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#link__20211016__568_repair_bay_ruin_model)
 - [2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees](#link__20230205__1638_humvee1_transition_damage_effects)
 - [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#link__20230205__1639_civ_damaged_state_models)
@@ -1641,6 +1650,23 @@ Contains 119 entries with
 **Source:** 1871_alpha_aurora_bomb_effects.yaml
 
 ---
+### 2023-06-24 - Decreases performance cost of hazard cleanup stream trail effects by 50% <a name='link__20230624__2034_hazard_cleanup_stream_trail_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases the performance cost of hazard cleanup stream trail effects by 50%. Affects USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065)
+
+**Labels:** art, major, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2034_hazard_cleanup_stream_trail_performance.yaml
+
+---
 ### 2023-06-25 - Improves color blending of hazard cleanup stream particles <a name='link__20230625__2041_improve_cleanup_stream_colors'></a>
 **Changes**
 
@@ -2120,6 +2146,70 @@ Contains 119 entries with
 **Source:** 1945_horde_decal_rotation.yaml
 
 ---
+### 2023-06-24 - Decreases performance cost of flame thrower nozzle light particles by 50% <a name='link__20230624__2040_flame_thrower_nozzle_light_particle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The performance cost of the China Dragon Tank's flame thrower nozzle light particles is cut by 50%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040)
+
+**Labels:** art, china, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2040_flame_thrower_nozzle_light_particle_performance.yaml
+
+---
+### 2023-06-24 - Decreases performance cost of flame thrower spray particles by 50% <a name='link__20230624__2040_flame_thrower_spray_particle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The performance cost of the China Dragon Tank's flame thrower spray particles is cut by 50%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040)
+
+**Labels:** art, china, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2040_flame_thrower_spray_particle_performance.yaml
+
+---
+### 2023-06-25 - Decreases performance cost of Inferno Cannon fire particles by 36% <a name='link__20230625__2039_inferno_cannon_fire_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases the performance cost of Inferno Cannon fire particles by 36%. Affects China Inferno Cannon shells and Mig Jet missiles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039)
+
+**Labels:** art, china, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2039_inferno_cannon_fire_performance.yaml
+
+---
+### 2023-06-25 - Removes distracting smoke effect from the center of the Inferno Cannon fire particles <a name='link__20230625__2039_inferno_cannon_shell_hit_effects'></a>
+**Changes**
+
+- **FIX**: The distracting smoke effect at the center of the Inferno Cannon fire particles is now removed.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039)
+
+**Labels:** art, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2039_inferno_cannon_shell_hit_effects.yaml
+
+---
 ### 2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder <a name='link__20210827__76_red_bullet_tracers'></a>
 **Changes**
 
@@ -2518,6 +2608,23 @@ Contains 119 entries with
 **Source:** 1528_worker_death_animation.yaml
 
 ---
+### 2023-06-24 - Decreases performance cost of toxin stream trail effects by 50% <a name='link__20230624__2034_toxin_stream_trail_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases the performance cost of toxin stream trail effects by 50%. Affects GLA Toxin Tractor, Toxin Rebel and Toxin Tunnel.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2034_toxin_stream_trail_performance.yaml
+
+---
 ### 2023-06-24 - Decreases performance cost of toxin stream puddles by 70% <a name='link__20230624__2036_toxin_stream_puddle_performance'></a>
 **Changes**
 
@@ -2532,6 +2639,56 @@ Contains 119 entries with
 **Authors:** xezon
 
 **Source:** 2036_toxin_stream_puddle_performance.yaml
+
+---
+### 2023-06-25 - Decreases performance cost of toxin spray particles by 50% <a name='link__20230625__2042_toxin_spray_particle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The performance cost of the toxin spray particles from the GLA Toxin Tractor is cut by 50%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2042_toxin_spray_particle_performance.yaml
+
+---
+### 2023-06-25 - Increases visibility of toxin spray particles <a name='link__20230625__2042_toxin_spray_particle_visibility'></a>
+**Changes**
+
+- **FIX**: Increases the visibility of the toxin spray particles from the GLA Toxin Tractor.
+- **TWEAK**: Increases the gravity of the toxin spray particles from the GLA Toxin Tractor by 20%.
+- **FIX**: Fixes the incorrect SizeRateDamping setup of the ToxinSpray particle system.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042)
+
+**Labels:** art, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2042_toxin_spray_particle_visibility.yaml
+
+---
+### 2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5% <a name='link__20230625__2042_toxin_spray_puddle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The spray puddle particles of the GLA Toxin Tractor now have a simpler setup and match the look of the contamination puddle while having their performance cost cut by 62.5%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2042_toxin_spray_puddle_performance.yaml
 
 ---
 ### 2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building. <a name='link__20211016__568_repair_bay_ruin_model'></a>

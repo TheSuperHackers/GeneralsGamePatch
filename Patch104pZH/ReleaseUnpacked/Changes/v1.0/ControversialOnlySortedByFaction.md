@@ -7,27 +7,27 @@ Occuring labels are
 
 - audio (2)
 - buff (69)
-- bug (35)
+- bug (36)
 - china (43)
 - civilian (3)
-- controversial (113)
-- design (89)
+- controversial (115)
+- design (91)
 - enhancement (1)
-- gla (38)
+- gla (39)
 - gui (1)
 - major (45)
-- minor (67)
-- nerf (22)
-- usa (32)
-- v1.0 (113)
+- minor (69)
+- nerf (23)
+- usa (33)
+- v1.0 (115)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 113 entries with
+Contains 115 entries with
 
-- 135 changes
-  - TWEAK (87)
-  - FIX (40)
+- 139 changes
+  - TWEAK (90)
+  - FIX (41)
   - FEATURE (7)
   - OPTIMIZATION (1)
 - 20 subchanges
@@ -66,6 +66,7 @@ Contains 113 entries with
 - [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
 - [2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb](#link__20230406__1800_daisy_cutter_explosion_delay_variance)
 - [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
+- [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
 - [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
 - [2021-08-22 - Improves mobility of China Dozer](#link__20210822__6_china_dozer_locomotor)
 - [2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles](#link__20210828__97_minigunner_crush)
@@ -140,6 +141,7 @@ Contains 113 entries with
 - [2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20%](#link__20230617__2012_anthrax_gamma_field_damage)
 - [2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5](#link__20230617__2014_small_poison_field_radius)
 - [2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds](#link__20230618__2015_toxin_trap_build_time)
+- [2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50%](#link__20230629__2051_toxin_tractor_radiation_armor)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
 - [2023-02-04 - Fixes crushable levels of Civilian cars](#link__20230204__1625_civ_car_crushable_level)
 - [2023-02-04 - Fixes crusher levels of Civilian cars](#link__20230204__1625_civ_car_crusher_level)
@@ -667,6 +669,26 @@ Contains 113 entries with
 **Authors:** xezon
 
 **Source:** 2026_usa_paradrop_payload.yaml
+
+---
+### 2023-07-08 - Enables Laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
+**Changes**
+
+- **TWEAK**: The USA Laser Turret now burns infantry on kill. It still triggers the strong suicide explosion of the GLA Terrorist as per original design.
+- **TWEAK**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **TWEAK**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2067](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2067)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2071](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2071)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2081](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2081)
+
+**Labels:** controversial, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2067_laser_weapons_infantry_burn.yaml
 
 ---
 ### 2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones <a name='link__20230620__2023_hazard_field_cleanup_health_and_damage'></a>
@@ -1886,6 +1908,22 @@ Contains 113 entries with
 **Authors:** xezon
 
 **Source:** 2015_toxin_trap_build_time.yaml
+
+---
+### 2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50% <a name='link__20230629__2051_toxin_tractor_radiation_armor'></a>
+**Changes**
+
+- **FIX**: Changes the radiation armor of the GLA Toxin Tractor from 0% to 50%. It is no longer immune to radiation damage.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2052](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2052)
+
+**Labels:** bug, controversial, design, gla, minor, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2051_toxin_tractor_radiation_armor.yaml
 
 ---
 ### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>
