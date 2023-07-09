@@ -1,0 +1,19 @@
+---
+date: 2023-07-08
+
+title: Removes wrong exploded death effects from GLA Demo Barracks
+
+changes:
+  - fix: The GLA Demo Barracks no longer spawns death effects of the Terrorist on death by explosions.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2076
+
+authors:
+  - xezon
