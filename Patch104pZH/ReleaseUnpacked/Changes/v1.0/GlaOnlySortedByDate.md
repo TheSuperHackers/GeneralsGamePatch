@@ -5,36 +5,36 @@ Includes changes with labels: gla
 
 Occuring labels are
 
-- art (23)
-- audio (28)
+- art (27)
+- audio (29)
 - buff (26)
-- bug (121)
+- bug (123)
 - china (17)
 - civilian (1)
-- controversial (38)
+- controversial (39)
 - critical (2)
-- design (50)
+- design (51)
 - enhancement (16)
-- gla (185)
+- gla (191)
 - gui (10)
-- major (23)
-- minor (159)
-- nerf (15)
+- major (26)
+- minor (162)
+- nerf (16)
 - optional (8)
-- performance (3)
+- performance (6)
 - text (2)
 - usa (19)
-- v1.0 (185)
+- v1.0 (191)
 
 Sorts changes by: date (ascending)
 
-Contains 185 entries with
+Contains 191 entries with
 
-- 228 changes
-  - FIX (162)
+- 237 changes
+  - FIX (167)
   - FEATURE (9)
-  - OPTIMIZATION (3)
-  - TWEAK (54)
+  - OPTIMIZATION (6)
+  - TWEAK (55)
 - 116 subchanges
   - FIX (57)
   - FEATURE (1)
@@ -45,7 +45,6 @@ Contains 185 entries with
 - [2021-08-22 - Fixes GLA Stealth Palace remaining stealhed while its passengers shoot](#link__20210822__75_stealthed_palace_bug)
 - [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles](#link__20210827__67_scud_storm_particles)
 - [2021-08-27 - Fixes GLA Scud Storm exploit](#link__20210827__72_scud_bug)
-- [2021-08-27 - Fixes units shooting at already killed infantry units](#link__20210827__75_dead_target_bug)
 - [2021-08-27 - Fixes GLA defense hole keeping the controlling player alive](#link__20210827__75_gla_hole_survival)
 - [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#link__20210827__76_red_bullet_tracers)
 - [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Toxin Tractor death puddles](#link__20210827__77_toxin_tractor_anthrax_color)
@@ -222,10 +221,17 @@ Contains 185 entries with
 - [2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5](#link__20230617__2014_small_poison_field_radius)
 - [2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds](#link__20230618__2015_toxin_trap_build_time)
 - [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
+- [2023-06-24 - Decreases performance cost of toxin stream trail effects by 50%](#link__20230624__2034_toxin_stream_trail_performance)
 - [2023-06-24 - Decreases performance cost of toxin stream puddles by 70%](#link__20230624__2036_toxin_stream_puddle_performance)
 - [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
+- [2023-06-25 - Decreases performance cost of toxin spray particles by 50%](#link__20230625__2042_toxin_spray_particle_performance)
+- [2023-06-25 - Increases visibility of toxin spray particles](#link__20230625__2042_toxin_spray_particle_visibility)
+- [2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5%](#link__20230625__2042_toxin_spray_puddle_performance)
 - [2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors](#link__20230626__2043_toxin_tractor_contaminate_audio_stutter)
+- [2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50%](#link__20230629__2051_toxin_tractor_radiation_armor)
 - [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
+- [2023-07-08 - Fixes silent death explosion of GLA Terrorists when not suicided](#link__20230708__2075_terrorist_death_explosion_sound_fix)
+- [2023-07-08 - Removes wrong exploded death effects from GLA Demo Barracks](#link__20230708__2076_demo_barracks_death_effect)
 
 
 
@@ -299,22 +305,6 @@ Contains 185 entries with
 **Authors:** commy2
 
 **Source:** 72_scud_bug.yaml
-
----
-### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='link__20210827__75_dead_target_bug'></a>
-**Changes**
-
-- **FIX**: Units no longer shoot at killed infantry units.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/75](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/75)
-
-**Labels:** bug, gla, minor, v1.0
-
-**Authors:** hanfield
-
-**Source:** 75_dead_target_bug.yaml
 
 ---
 ### 2021-08-27 - Fixes GLA defense hole keeping the controlling player alive <a name='link__20210827__75_gla_hole_survival'></a>
@@ -1598,6 +1588,7 @@ Contains 185 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2060](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2060)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851)
 
 **Labels:** design, gla, minor, v1.0
@@ -3405,6 +3396,23 @@ Contains 185 entries with
 **Source:** 2023_hazard_field_cleanup_health_and_damage.yaml
 
 ---
+### 2023-06-24 - Decreases performance cost of toxin stream trail effects by 50% <a name='link__20230624__2034_toxin_stream_trail_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases the performance cost of toxin stream trail effects by 50%. Affects GLA Toxin Tractor, Toxin Rebel and Toxin Tunnel.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2034_toxin_stream_trail_performance.yaml
+
+---
 ### 2023-06-24 - Decreases performance cost of toxin stream puddles by 70% <a name='link__20230624__2036_toxin_stream_puddle_performance'></a>
 **Changes**
 
@@ -3437,6 +3445,56 @@ Contains 185 entries with
 **Source:** 2035_toxin_stream_splash_performance.yaml
 
 ---
+### 2023-06-25 - Decreases performance cost of toxin spray particles by 50% <a name='link__20230625__2042_toxin_spray_particle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The performance cost of the toxin spray particles from the GLA Toxin Tractor is cut by 50%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2042_toxin_spray_particle_performance.yaml
+
+---
+### 2023-06-25 - Increases visibility of toxin spray particles <a name='link__20230625__2042_toxin_spray_particle_visibility'></a>
+**Changes**
+
+- **FIX**: Increases the visibility of the toxin spray particles from the GLA Toxin Tractor.
+- **TWEAK**: Increases the gravity of the toxin spray particles from the GLA Toxin Tractor by 20%.
+- **FIX**: Fixes the incorrect SizeRateDamping setup of the ToxinSpray particle system.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042)
+
+**Labels:** art, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2042_toxin_spray_particle_visibility.yaml
+
+---
+### 2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5% <a name='link__20230625__2042_toxin_spray_puddle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The spray puddle particles of the GLA Toxin Tractor now have a simpler setup and match the look of the contamination puddle while having their performance cost cut by 62.5%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2042_toxin_spray_puddle_performance.yaml
+
+---
 ### 2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors <a name='link__20230626__2043_toxin_tractor_contaminate_audio_stutter'></a>
 **Changes**
 
@@ -3453,6 +3511,22 @@ Contains 185 entries with
 **Source:** 2043_toxin_tractor_contaminate_audio_stutter.yaml
 
 ---
+### 2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50% <a name='link__20230629__2051_toxin_tractor_radiation_armor'></a>
+**Changes**
+
+- **FIX**: Changes the radiation armor of the GLA Toxin Tractor from 0% to 50%. It is no longer immune to radiation damage.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2052](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2052)
+
+**Labels:** bug, controversial, design, gla, minor, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2051_toxin_tractor_radiation_armor.yaml
+
+---
 ### 2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects <a name='link__20230702__2058_toxin_stream_splash_visuals'></a>
 **Changes**
 
@@ -3467,4 +3541,37 @@ Contains 185 entries with
 **Authors:** xezon
 
 **Source:** 2058_toxin_stream_splash_visuals.yaml
+
+---
+### 2023-07-08 - Fixes silent death explosion of GLA Terrorists when not suicided <a name='link__20230708__2075_terrorist_death_explosion_sound_fix'></a>
+**Changes**
+
+- **FIX**: The GLA Terrorists now also play their explosion sound when burned and exploded.
+- **FIX**: The GLA Terrorists now play a quieter explosion sound when crushed, splatted and lasered.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2075](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2075)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2075_terrorist_death_explosion_sound_fix.yaml
+
+---
+### 2023-07-08 - Removes wrong exploded death effects from GLA Demo Barracks <a name='link__20230708__2076_demo_barracks_death_effect'></a>
+**Changes**
+
+- **FIX**: The GLA Demo Barracks no longer spawns death effects of the Terrorist on death by explosions.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2076](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2076)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2076_demo_barracks_death_effect.yaml
 

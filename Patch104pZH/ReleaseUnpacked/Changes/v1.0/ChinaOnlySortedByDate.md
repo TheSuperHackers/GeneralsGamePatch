@@ -5,36 +5,37 @@ Includes changes with labels: china
 
 Occuring labels are
 
-- art (21)
+- art (25)
 - audio (31)
 - buff (44)
-- bug (100)
-- china (186)
-- civilian (1)
+- bug (101)
+- china (191)
+- civilian (2)
 - controversial (43)
 - critical (1)
-- design (71)
+- design (72)
 - enhancement (24)
 - gla (17)
 - gui (18)
 - major (26)
-- minor (158)
+- minor (163)
 - nerf (3)
 - optional (12)
-- performance (5)
+- performance (8)
 - text (5)
-- usa (21)
-- v1.0 (186)
+- usa (22)
+- v1.0 (191)
 - wip (1)
 
 Sorts changes by: date (ascending)
 
-Contains 186 entries with
+Contains 191 entries with
 
-- 248 changes
-  - FIX (153)
+- 261 changes
+  - FIX (163)
   - TWEAK (85)
   - FEATURE (10)
+  - OPTIMIZATION (3)
 - 125 subchanges
   - FIX (57)
   - FEATURE (1)
@@ -226,7 +227,12 @@ Contains 186 entries with
 - [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
 - [2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30%](#link__20230622__2027_internet_center_aurora_bomb_armor)
 - [2023-06-23 - Improves tool tip text of China Internet Center](#link__20230623__2029_internet_center_tooltip_text)
+- [2023-06-24 - Decreases performance cost of flame thrower nozzle light particles by 50%](#link__20230624__2040_flame_thrower_nozzle_light_particle_performance)
+- [2023-06-24 - Decreases performance cost of flame thrower spray particles by 50%](#link__20230624__2040_flame_thrower_spray_particle_performance)
+- [2023-06-25 - Decreases performance cost of Inferno Cannon fire particles by 36%](#link__20230625__2039_inferno_cannon_fire_performance)
+- [2023-06-25 - Removes distracting smoke effect from the center of the Inferno Cannon fire particles](#link__20230625__2039_inferno_cannon_shell_hit_effects)
 - [2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm](#link__20230629__2050_dragon_black_napalm_flamethrower_clip_size)
+- [2023-07-08 - Fixes missing and broken infantry death modules](#link__20230708__2074_infantry_death_module_fixes)
 
 
 
@@ -3548,6 +3554,70 @@ Contains 186 entries with
 **Source:** 2029_internet_center_tooltip_text.yaml
 
 ---
+### 2023-06-24 - Decreases performance cost of flame thrower nozzle light particles by 50% <a name='link__20230624__2040_flame_thrower_nozzle_light_particle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The performance cost of the China Dragon Tank's flame thrower nozzle light particles is cut by 50%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040)
+
+**Labels:** art, china, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2040_flame_thrower_nozzle_light_particle_performance.yaml
+
+---
+### 2023-06-24 - Decreases performance cost of flame thrower spray particles by 50% <a name='link__20230624__2040_flame_thrower_spray_particle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The performance cost of the China Dragon Tank's flame thrower spray particles is cut by 50%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040)
+
+**Labels:** art, china, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2040_flame_thrower_spray_particle_performance.yaml
+
+---
+### 2023-06-25 - Decreases performance cost of Inferno Cannon fire particles by 36% <a name='link__20230625__2039_inferno_cannon_fire_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases the performance cost of Inferno Cannon fire particles by 36%. Affects China Inferno Cannon shells and Mig Jet missiles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039)
+
+**Labels:** art, china, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2039_inferno_cannon_fire_performance.yaml
+
+---
+### 2023-06-25 - Removes distracting smoke effect from the center of the Inferno Cannon fire particles <a name='link__20230625__2039_inferno_cannon_shell_hit_effects'></a>
+**Changes**
+
+- **FIX**: The distracting smoke effect at the center of the Inferno Cannon fire particles is now removed.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039)
+
+**Labels:** art, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2039_inferno_cannon_shell_hit_effects.yaml
+
+---
 ### 2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm <a name='link__20230629__2050_dragon_black_napalm_flamethrower_clip_size'></a>
 **Changes**
 
@@ -3562,4 +3632,28 @@ Contains 186 entries with
 **Authors:** xezon
 
 **Source:** 2050_dragon_black_napalm_flamethrower_clip_size.yaml
+
+---
+### 2023-07-08 - Fixes missing and broken infantry death modules <a name='link__20230708__2074_infantry_death_module_fixes'></a>
+**Changes**
+
+- **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to AmericaInfantrySecretService.
+- **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to ChinaInfantrySecretPolice, ChinaAmbassador, ChinaInfantryAgent.
+- **FIX**: Adds missing poisoned death modules to ChinaInfantryOfficer.
+- **FIX**: Adds missing crushed, exploded death modules to MogadishuMaleCivilian01, MogadishuMaleCivilian02.
+- **FIX**: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian01, MogadishuFemaleCivilian02.
+- **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to Partisan01, Partisan02, Partisan03.
+- **FIX**: Adds missing crushed, exploded death modules to GenericFemale01, AmericanFarmer01, AsianFarmer01, AsianFarmer02, AsianFarmer3.
+- **FIX**: Adds missing crushed, exploded death modules to HomelessGuy.
+- **FIX**: Adds missing crushed, exploded death modules to GenericMale02, GenericFemale02.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074)
+
+**Labels:** bug, china, civilian, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2074_infantry_death_module_fixes.yaml
 

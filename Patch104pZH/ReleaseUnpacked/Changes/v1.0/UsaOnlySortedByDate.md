@@ -6,34 +6,34 @@ Includes changes with labels: usa
 Occuring labels are
 
 - ai (2)
-- art (56)
+- art (57)
 - audio (47)
 - buff (22)
-- bug (110)
-- china (21)
-- civilian (1)
-- controversial (32)
-- design (63)
+- bug (111)
+- china (22)
+- civilian (2)
+- controversial (33)
+- design (65)
 - enhancement (49)
 - gla (19)
 - gui (17)
-- major (20)
-- minor (195)
+- major (21)
+- minor (197)
 - nerf (10)
 - optional (16)
-- performance (10)
+- performance (11)
 - text (6)
-- usa (217)
-- v1.0 (217)
+- usa (220)
+- v1.0 (220)
 
 Sorts changes by: date (ascending)
 
-Contains 217 entries with
+Contains 220 entries with
 
-- 263 changes
-  - OPTIMIZATION (2)
-  - FIX (166)
-  - TWEAK (79)
+- 276 changes
+  - OPTIMIZATION (3)
+  - FIX (175)
+  - TWEAK (82)
   - FEATURE (16)
 - 199 subchanges
   - FIX (127)
@@ -141,6 +141,8 @@ Contains 217 entries with
 - [2022-09-23 - Fixes avpaladin textures for USA Paladin Tank](#link__20220923__1270_avpaladin_textures)
 - [2022-09-24 - Fixes and improves avraptor textures for USA Raptor](#link__20220924__1271_avraptor_textures)
 - [2022-09-24 - Adds missing audio limits to air unit voices](#link__20220924__1274_air_unit_death_voice_limit)
+- [2022-09-24 - Adds unused voice variation(s) to USA Aurora](#link__20220924__1274_unused_aurora_voices)
+- [2022-09-24 - Adds unused voice variation(s) to USA Raptor](#link__20220924__1274_unused_raptor_voices)
 - [2022-09-24 - Fixes atwarfactslab textures for USA War Factory](#link__20220924__1275_atwarfactslab_textures)
 - [2022-09-24 - Fixes and improves atventwall01 textures for USA structures](#link__20220924__1277_atventwall01_textures)
 - [2022-09-24 - Fixed avpowtruck textures for USA POW Truck](#link__20220924__1279_avpowtruck_textures)
@@ -252,11 +254,12 @@ Contains 217 entries with
 - [2023-05-20 - Adds fade in sound to B52 Bomber engine loop](#link__20230520__1970_b52_ambient_sounds)
 - [2023-06-09 - Shortens English Particle Cannon timer text](#link__20230609__1999_particle_cannon_text)
 - [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
+- [2023-06-24 - Decreases performance cost of hazard cleanup stream trail effects by 50%](#link__20230624__2034_hazard_cleanup_stream_trail_performance)
 - [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
 - [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
 - [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
-- [2023-09-24 - Adds unused voice variation(s) to USA Aurora](#link__20230924__1274_unused_aurora_voices)
-- [2023-09-24 - Adds unused voice variation(s) to USA Raptor](#link__20230924__1274_unused_raptor_voices)
+- [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
+- [2023-07-08 - Fixes missing and broken infantry death modules](#link__20230708__2074_infantry_death_module_fixes)
 
 
 
@@ -2164,6 +2167,45 @@ Contains 217 entries with
 **Authors:** xezon
 
 **Source:** 1274_air_unit_death_voice_limit.yaml
+
+---
+### 2022-09-24 - Adds unused voice variation(s) to USA Aurora <a name='link__20220924__1274_unused_aurora_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Fuel levels are critical" to AuroraBomberVoiceLowFuel.
+- **TWEAK**: Adds unused voice "Fuel gauge is in the red" to AuroraBomberVoiceLowFuel.
+- **TWEAK**: Adds unused voice "Let's make this quick" to AuroraBomberVoiceAttack.
+- **TWEAK**: Adds unused voice "We won't slow down" to AuroraBomberVoiceAttack.
+- **TWEAK**: Adds unused voice "Will be a clean delivery" to AuroraBomberVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1274_unused_aurora_voices.yaml
+
+---
+### 2022-09-24 - Adds unused voice variation(s) to USA Raptor <a name='link__20220924__1274_unused_raptor_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Fuel is in the red" to RaptorVoiceLowFuel.
+- **TWEAK**: Adds unused voice "Tank is almost dry, General" to RaptorVoiceLowFuel.
+- **TWEAK**: Adds unused voice "We are running on fumes" to RaptorVoiceLowFuel.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1274_unused_raptor_voices.yaml
 
 ---
 ### 2022-09-24 - Fixes atwarfactslab textures for USA War Factory <a name='link__20220924__1275_atwarfactslab_textures'></a>
@@ -4434,6 +4476,23 @@ Contains 217 entries with
 **Source:** 2026_usa_paradrop_payload.yaml
 
 ---
+### 2023-06-24 - Decreases performance cost of hazard cleanup stream trail effects by 50% <a name='link__20230624__2034_hazard_cleanup_stream_trail_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases the performance cost of hazard cleanup stream trail effects by 50%. Affects USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065)
+
+**Labels:** art, major, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2034_hazard_cleanup_stream_trail_performance.yaml
+
+---
 ### 2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20% <a name='link__20230625__2035_toxin_stream_splash_performance'></a>
 **Changes**
 
@@ -4482,41 +4541,46 @@ Contains 217 entries with
 **Source:** 2058_toxin_stream_splash_visuals.yaml
 
 ---
-### 2023-09-24 - Adds unused voice variation(s) to USA Aurora <a name='link__20230924__1274_unused_aurora_voices'></a>
+### 2023-07-08 - Enables Laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
 **Changes**
 
-- **TWEAK**: Adds unused voice "Fuel levels are critical" to AuroraBomberVoiceLowFuel.
-- **TWEAK**: Adds unused voice "Fuel gauge is in the red" to AuroraBomberVoiceLowFuel.
-- **TWEAK**: Adds unused voice "Let's make this quick" to AuroraBomberVoiceAttack.
-- **TWEAK**: Adds unused voice "We won't slow down" to AuroraBomberVoiceAttack.
-- **TWEAK**: Adds unused voice "Will be a clean delivery" to AuroraBomberVoiceAttack.
+- **TWEAK**: The USA Laser Turret now burns infantry on kill. It still triggers the strong suicide explosion of the GLA Terrorist as per original design.
+- **TWEAK**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **TWEAK**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
 
 **Links**
 
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2067](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2067)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2071](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2071)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2081](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2081)
 
-**Labels:** audio, enhancement, minor, usa, v1.0
+**Labels:** controversial, design, minor, usa, v1.0
 
 **Authors:** xezon
 
-**Source:** 1274_unused_aurora_voices.yaml
+**Source:** 2067_laser_weapons_infantry_burn.yaml
 
 ---
-### 2023-09-24 - Adds unused voice variation(s) to USA Raptor <a name='link__20230924__1274_unused_raptor_voices'></a>
+### 2023-07-08 - Fixes missing and broken infantry death modules <a name='link__20230708__2074_infantry_death_module_fixes'></a>
 **Changes**
 
-- **TWEAK**: Adds unused voice "Fuel is in the red" to RaptorVoiceLowFuel.
-- **TWEAK**: Adds unused voice "Tank is almost dry, General" to RaptorVoiceLowFuel.
-- **TWEAK**: Adds unused voice "We are running on fumes" to RaptorVoiceLowFuel.
+- **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to AmericaInfantrySecretService.
+- **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to ChinaInfantrySecretPolice, ChinaAmbassador, ChinaInfantryAgent.
+- **FIX**: Adds missing poisoned death modules to ChinaInfantryOfficer.
+- **FIX**: Adds missing crushed, exploded death modules to MogadishuMaleCivilian01, MogadishuMaleCivilian02.
+- **FIX**: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian01, MogadishuFemaleCivilian02.
+- **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to Partisan01, Partisan02, Partisan03.
+- **FIX**: Adds missing crushed, exploded death modules to GenericFemale01, AmericanFarmer01, AsianFarmer01, AsianFarmer02, AsianFarmer3.
+- **FIX**: Adds missing crushed, exploded death modules to HomelessGuy.
+- **FIX**: Adds missing crushed, exploded death modules to GenericMale02, GenericFemale02.
 
 **Links**
 
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074)
 
-**Labels:** audio, enhancement, minor, usa, v1.0
+**Labels:** bug, china, civilian, design, minor, usa, v1.0
 
 **Authors:** xezon
 
-**Source:** 1274_unused_raptor_voices.yaml
+**Source:** 2074_infantry_death_module_fixes.yaml
 

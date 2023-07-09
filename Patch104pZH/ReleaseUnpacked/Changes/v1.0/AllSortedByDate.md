@@ -6,38 +6,38 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (119)
-- audio (120)
+- art (128)
+- audio (121)
 - boss (31)
 - buff (90)
-- bug (395)
-- china (186)
-- civilian (19)
-- controversial (113)
+- bug (399)
+- china (191)
+- civilian (20)
+- controversial (115)
 - critical (5)
-- design (194)
+- design (197)
 - enhancement (109)
-- gla (185)
+- gla (191)
 - gui (71)
-- major (70)
-- minor (619)
-- nerf (28)
+- major (74)
+- minor (629)
+- nerf (29)
 - optional (34)
-- performance (17)
+- performance (24)
 - text (24)
-- usa (217)
-- v1.0 (696)
+- usa (220)
+- v1.0 (710)
 - wip (1)
 - worldbuilder (5)
 
 Sorts changes by: date (ascending)
 
-Contains 696 entries with
+Contains 710 entries with
 
-- 1035 changes
-  - FIX (717)
-  - OPTIMIZATION (5)
-  - TWEAK (229)
+- 1063 changes
+  - FIX (734)
+  - OPTIMIZATION (12)
+  - TWEAK (233)
   - FEATURE (58)
   - REFACTOR (26)
 - 380 subchanges
@@ -419,6 +419,8 @@ Contains 696 entries with
 - [2022-09-23 - Fixes avpaladin textures for USA Paladin Tank](#link__20220923__1270_avpaladin_textures)
 - [2022-09-24 - Fixes and improves avraptor textures for USA Raptor](#link__20220924__1271_avraptor_textures)
 - [2022-09-24 - Adds missing audio limits to air unit voices](#link__20220924__1274_air_unit_death_voice_limit)
+- [2022-09-24 - Adds unused voice variation(s) to USA Aurora](#link__20220924__1274_unused_aurora_voices)
+- [2022-09-24 - Adds unused voice variation(s) to USA Raptor](#link__20220924__1274_unused_raptor_voices)
 - [2022-09-24 - Fixes atwarfactslab textures for USA War Factory](#link__20220924__1275_atwarfactslab_textures)
 - [2022-09-24 - Fixes and improves atventwall01 textures for USA structures](#link__20220924__1277_atventwall01_textures)
 - [2022-09-24 - Fixed avpowtruck textures for USA POW Truck](#link__20220924__1279_avpowtruck_textures)
@@ -734,14 +736,26 @@ Contains 696 entries with
 - [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
 - [2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30%](#link__20230622__2027_internet_center_aurora_bomb_armor)
 - [2023-06-23 - Improves tool tip text of China Internet Center](#link__20230623__2029_internet_center_tooltip_text)
+- [2023-06-24 - Decreases performance cost of hazard cleanup stream trail effects by 50%](#link__20230624__2034_hazard_cleanup_stream_trail_performance)
+- [2023-06-24 - Decreases performance cost of toxin stream trail effects by 50%](#link__20230624__2034_toxin_stream_trail_performance)
 - [2023-06-24 - Decreases performance cost of toxin stream puddles by 70%](#link__20230624__2036_toxin_stream_puddle_performance)
+- [2023-06-24 - Decreases performance cost of flame thrower nozzle light particles by 50%](#link__20230624__2040_flame_thrower_nozzle_light_particle_performance)
+- [2023-06-24 - Decreases performance cost of flame thrower spray particles by 50%](#link__20230624__2040_flame_thrower_spray_particle_performance)
 - [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
+- [2023-06-25 - Decreases performance cost of Inferno Cannon fire particles by 36%](#link__20230625__2039_inferno_cannon_fire_performance)
+- [2023-06-25 - Removes distracting smoke effect from the center of the Inferno Cannon fire particles](#link__20230625__2039_inferno_cannon_shell_hit_effects)
 - [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
+- [2023-06-25 - Decreases performance cost of toxin spray particles by 50%](#link__20230625__2042_toxin_spray_particle_performance)
+- [2023-06-25 - Increases visibility of toxin spray particles](#link__20230625__2042_toxin_spray_particle_visibility)
+- [2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5%](#link__20230625__2042_toxin_spray_puddle_performance)
 - [2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors](#link__20230626__2043_toxin_tractor_contaminate_audio_stutter)
 - [2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm](#link__20230629__2050_dragon_black_napalm_flamethrower_clip_size)
+- [2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50%](#link__20230629__2051_toxin_tractor_radiation_armor)
 - [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
-- [2023-09-24 - Adds unused voice variation(s) to USA Aurora](#link__20230924__1274_unused_aurora_voices)
-- [2023-09-24 - Adds unused voice variation(s) to USA Raptor](#link__20230924__1274_unused_raptor_voices)
+- [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
+- [2023-07-08 - Fixes missing and broken infantry death modules](#link__20230708__2074_infantry_death_module_fixes)
+- [2023-07-08 - Fixes silent death explosion of GLA Terrorists when not suicided](#link__20230708__2075_terrorist_death_explosion_sound_fix)
+- [2023-07-08 - Removes wrong exploded death effects from GLA Demo Barracks](#link__20230708__2076_demo_barracks_death_effect)
 
 
 
@@ -911,15 +925,17 @@ Contains 696 entries with
 ### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='link__20210827__75_dead_target_bug'></a>
 **Changes**
 
-- **FIX**: Units no longer shoot at killed infantry units.
+- **FIX**: Combat units no longer attack killed infantry units.
+- **FIX**: The Point Defense Laser of the USA Paladin no longer attacks killed infantry units.
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2072](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2072)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/75](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/75)
 
-**Labels:** bug, gla, minor, v1.0
+**Labels:** bug, minor, v1.0
 
-**Authors:** hanfield
+**Authors:** hanfield, xezon
 
 **Source:** 75_dead_target_bug.yaml
 
@@ -5011,6 +5027,7 @@ Contains 696 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2060](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2060)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/851)
 
 **Labels:** design, gla, minor, v1.0
@@ -7268,6 +7285,45 @@ Contains 696 entries with
 **Authors:** xezon
 
 **Source:** 1274_air_unit_death_voice_limit.yaml
+
+---
+### 2022-09-24 - Adds unused voice variation(s) to USA Aurora <a name='link__20220924__1274_unused_aurora_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Fuel levels are critical" to AuroraBomberVoiceLowFuel.
+- **TWEAK**: Adds unused voice "Fuel gauge is in the red" to AuroraBomberVoiceLowFuel.
+- **TWEAK**: Adds unused voice "Let's make this quick" to AuroraBomberVoiceAttack.
+- **TWEAK**: Adds unused voice "We won't slow down" to AuroraBomberVoiceAttack.
+- **TWEAK**: Adds unused voice "Will be a clean delivery" to AuroraBomberVoiceAttack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1274_unused_aurora_voices.yaml
+
+---
+### 2022-09-24 - Adds unused voice variation(s) to USA Raptor <a name='link__20220924__1274_unused_raptor_voices'></a>
+**Changes**
+
+- **TWEAK**: Adds unused voice "Fuel is in the red" to RaptorVoiceLowFuel.
+- **TWEAK**: Adds unused voice "Tank is almost dry, General" to RaptorVoiceLowFuel.
+- **TWEAK**: Adds unused voice "We are running on fumes" to RaptorVoiceLowFuel.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
+
+**Labels:** audio, enhancement, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1274_unused_raptor_voices.yaml
 
 ---
 ### 2022-09-24 - Fixes atwarfactslab textures for USA War Factory <a name='link__20220924__1275_atwarfactslab_textures'></a>
@@ -14576,6 +14632,40 @@ Contains 696 entries with
 **Source:** 2029_internet_center_tooltip_text.yaml
 
 ---
+### 2023-06-24 - Decreases performance cost of hazard cleanup stream trail effects by 50% <a name='link__20230624__2034_hazard_cleanup_stream_trail_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases the performance cost of hazard cleanup stream trail effects by 50%. Affects USA Ambulance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065)
+
+**Labels:** art, major, performance, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2034_hazard_cleanup_stream_trail_performance.yaml
+
+---
+### 2023-06-24 - Decreases performance cost of toxin stream trail effects by 50% <a name='link__20230624__2034_toxin_stream_trail_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases the performance cost of toxin stream trail effects by 50%. Affects GLA Toxin Tractor, Toxin Rebel and Toxin Tunnel.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2034)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2065)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2034_toxin_stream_trail_performance.yaml
+
+---
 ### 2023-06-24 - Decreases performance cost of toxin stream puddles by 70% <a name='link__20230624__2036_toxin_stream_puddle_performance'></a>
 **Changes**
 
@@ -14590,6 +14680,38 @@ Contains 696 entries with
 **Authors:** xezon
 
 **Source:** 2036_toxin_stream_puddle_performance.yaml
+
+---
+### 2023-06-24 - Decreases performance cost of flame thrower nozzle light particles by 50% <a name='link__20230624__2040_flame_thrower_nozzle_light_particle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The performance cost of the China Dragon Tank's flame thrower nozzle light particles is cut by 50%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040)
+
+**Labels:** art, china, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2040_flame_thrower_nozzle_light_particle_performance.yaml
+
+---
+### 2023-06-24 - Decreases performance cost of flame thrower spray particles by 50% <a name='link__20230624__2040_flame_thrower_spray_particle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The performance cost of the China Dragon Tank's flame thrower spray particles is cut by 50%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2040)
+
+**Labels:** art, china, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2040_flame_thrower_spray_particle_performance.yaml
 
 ---
 ### 2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20% <a name='link__20230625__2035_toxin_stream_splash_performance'></a>
@@ -14608,6 +14730,38 @@ Contains 696 entries with
 **Source:** 2035_toxin_stream_splash_performance.yaml
 
 ---
+### 2023-06-25 - Decreases performance cost of Inferno Cannon fire particles by 36% <a name='link__20230625__2039_inferno_cannon_fire_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: Decreases the performance cost of Inferno Cannon fire particles by 36%. Affects China Inferno Cannon shells and Mig Jet missiles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039)
+
+**Labels:** art, china, minor, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2039_inferno_cannon_fire_performance.yaml
+
+---
+### 2023-06-25 - Removes distracting smoke effect from the center of the Inferno Cannon fire particles <a name='link__20230625__2039_inferno_cannon_shell_hit_effects'></a>
+**Changes**
+
+- **FIX**: The distracting smoke effect at the center of the Inferno Cannon fire particles is now removed.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2039)
+
+**Labels:** art, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2039_inferno_cannon_shell_hit_effects.yaml
+
+---
 ### 2023-06-25 - Improves color blending of hazard cleanup stream particles <a name='link__20230625__2041_improve_cleanup_stream_colors'></a>
 **Changes**
 
@@ -14622,6 +14776,56 @@ Contains 696 entries with
 **Authors:** xezon
 
 **Source:** 2041_improve_cleanup_stream_colors.yaml
+
+---
+### 2023-06-25 - Decreases performance cost of toxin spray particles by 50% <a name='link__20230625__2042_toxin_spray_particle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The performance cost of the toxin spray particles from the GLA Toxin Tractor is cut by 50%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2042_toxin_spray_particle_performance.yaml
+
+---
+### 2023-06-25 - Increases visibility of toxin spray particles <a name='link__20230625__2042_toxin_spray_particle_visibility'></a>
+**Changes**
+
+- **FIX**: Increases the visibility of the toxin spray particles from the GLA Toxin Tractor.
+- **TWEAK**: Increases the gravity of the toxin spray particles from the GLA Toxin Tractor by 20%.
+- **FIX**: Fixes the incorrect SizeRateDamping setup of the ToxinSpray particle system.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042)
+
+**Labels:** art, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2042_toxin_spray_particle_visibility.yaml
+
+---
+### 2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5% <a name='link__20230625__2042_toxin_spray_puddle_performance'></a>
+**Changes**
+
+- **OPTIMIZATION**: The spray puddle particles of the GLA Toxin Tractor now have a simpler setup and match the look of the contamination puddle while having their performance cost cut by 62.5%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2042)
+
+**Labels:** art, gla, major, performance, v1.0
+
+**Authors:** xezon
+
+**Source:** 2042_toxin_spray_puddle_performance.yaml
 
 ---
 ### 2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors <a name='link__20230626__2043_toxin_tractor_contaminate_audio_stutter'></a>
@@ -14656,6 +14860,22 @@ Contains 696 entries with
 **Source:** 2050_dragon_black_napalm_flamethrower_clip_size.yaml
 
 ---
+### 2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50% <a name='link__20230629__2051_toxin_tractor_radiation_armor'></a>
+**Changes**
+
+- **FIX**: Changes the radiation armor of the GLA Toxin Tractor from 0% to 50%. It is no longer immune to radiation damage.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2052](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2052)
+
+**Labels:** bug, controversial, design, gla, minor, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2051_toxin_tractor_radiation_armor.yaml
+
+---
 ### 2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects <a name='link__20230702__2058_toxin_stream_splash_visuals'></a>
 **Changes**
 
@@ -14672,41 +14892,79 @@ Contains 696 entries with
 **Source:** 2058_toxin_stream_splash_visuals.yaml
 
 ---
-### 2023-09-24 - Adds unused voice variation(s) to USA Aurora <a name='link__20230924__1274_unused_aurora_voices'></a>
+### 2023-07-08 - Enables Laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
 **Changes**
 
-- **TWEAK**: Adds unused voice "Fuel levels are critical" to AuroraBomberVoiceLowFuel.
-- **TWEAK**: Adds unused voice "Fuel gauge is in the red" to AuroraBomberVoiceLowFuel.
-- **TWEAK**: Adds unused voice "Let's make this quick" to AuroraBomberVoiceAttack.
-- **TWEAK**: Adds unused voice "We won't slow down" to AuroraBomberVoiceAttack.
-- **TWEAK**: Adds unused voice "Will be a clean delivery" to AuroraBomberVoiceAttack.
+- **TWEAK**: The USA Laser Turret now burns infantry on kill. It still triggers the strong suicide explosion of the GLA Terrorist as per original design.
+- **TWEAK**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **TWEAK**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
 
 **Links**
 
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1910)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2067](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2067)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2071](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2071)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2081](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2081)
 
-**Labels:** audio, enhancement, minor, usa, v1.0
+**Labels:** controversial, design, minor, usa, v1.0
 
 **Authors:** xezon
 
-**Source:** 1274_unused_aurora_voices.yaml
+**Source:** 2067_laser_weapons_infantry_burn.yaml
 
 ---
-### 2023-09-24 - Adds unused voice variation(s) to USA Raptor <a name='link__20230924__1274_unused_raptor_voices'></a>
+### 2023-07-08 - Fixes missing and broken infantry death modules <a name='link__20230708__2074_infantry_death_module_fixes'></a>
 **Changes**
 
-- **TWEAK**: Adds unused voice "Fuel is in the red" to RaptorVoiceLowFuel.
-- **TWEAK**: Adds unused voice "Tank is almost dry, General" to RaptorVoiceLowFuel.
-- **TWEAK**: Adds unused voice "We are running on fumes" to RaptorVoiceLowFuel.
+- **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to AmericaInfantrySecretService.
+- **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to ChinaInfantrySecretPolice, ChinaAmbassador, ChinaInfantryAgent.
+- **FIX**: Adds missing poisoned death modules to ChinaInfantryOfficer.
+- **FIX**: Adds missing crushed, exploded death modules to MogadishuMaleCivilian01, MogadishuMaleCivilian02.
+- **FIX**: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian01, MogadishuFemaleCivilian02.
+- **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to Partisan01, Partisan02, Partisan03.
+- **FIX**: Adds missing crushed, exploded death modules to GenericFemale01, AmericanFarmer01, AsianFarmer01, AsianFarmer02, AsianFarmer3.
+- **FIX**: Adds missing crushed, exploded death modules to HomelessGuy.
+- **FIX**: Adds missing crushed, exploded death modules to GenericMale02, GenericFemale02.
 
 **Links**
 
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1274)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074)
 
-**Labels:** audio, enhancement, minor, usa, v1.0
+**Labels:** bug, china, civilian, design, minor, usa, v1.0
 
 **Authors:** xezon
 
-**Source:** 1274_unused_raptor_voices.yaml
+**Source:** 2074_infantry_death_module_fixes.yaml
+
+---
+### 2023-07-08 - Fixes silent death explosion of GLA Terrorists when not suicided <a name='link__20230708__2075_terrorist_death_explosion_sound_fix'></a>
+**Changes**
+
+- **FIX**: The GLA Terrorists now also play their explosion sound when burned and exploded.
+- **FIX**: The GLA Terrorists now play a quieter explosion sound when crushed, splatted and lasered.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2075](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2075)
+
+**Labels:** audio, bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2075_terrorist_death_explosion_sound_fix.yaml
+
+---
+### 2023-07-08 - Removes wrong exploded death effects from GLA Demo Barracks <a name='link__20230708__2076_demo_barracks_death_effect'></a>
+**Changes**
+
+- **FIX**: The GLA Demo Barracks no longer spawns death effects of the Terrorist on death by explosions.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2076](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2076)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2076_demo_barracks_death_effect.yaml
 
