@@ -1,0 +1,20 @@
+---
+date: 2023-07-12
+
+title: Fixes key conflict of China Satellite Hack I and II with STOP (E)
+
+changes:
+  - fix: The China Satellite Hack I and II upgrades in the Internet Center can now be purchased and selected with key A and no longer conflict with STOP (S). Affects all languages.
+
+labels:
+  - bug
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2106
+
+authors:
+  - xezon
