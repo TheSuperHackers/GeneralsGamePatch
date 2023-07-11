@@ -2,6 +2,11 @@ import os
 from pathlib import Path
 
 
+def build_abs_path(relative_path: str) -> Path:
+    this_dir = os.path.dirname(os.path.realpath(__file__))
+    return Path(this_dir).joinpath(relative_path).absolute().resolve()
+
+
 def run(input: Path, output: Path):
     dialog_names: list[str] = []
     file_names: list[str] = []
@@ -50,12 +55,10 @@ def run(input: Path, output: Path):
 
 
 if __name__ == "__main__":
-    this_dir = os.path.dirname(os.path.realpath(__file__))
-
-    input1 = Path(this_dir).joinpath("generals_unit_descript_lin.txt").absolute().resolve()
-    output1 = Path(this_dir).joinpath("generals_unit_descript_lin_format.txt").absolute().resolve()
+    input1 = build_abs_path("generals_unit_descript_lin.txt")
+    output1 = build_abs_path("generals_unit_descript_lin_format.txt")
     run(input1, output1)
 
-    input2 = Path(this_dir).joinpath("generals_mission_dialog.txt").absolute().resolve()
-    output2 = Path(this_dir).joinpath("generals_mission_dialog_format.txt").absolute().resolve()
+    input2 = build_abs_path("generals_mission_dialog.txt")
+    output2 = build_abs_path("generals_mission_dialog_format.txt")
     run(input2, output2)

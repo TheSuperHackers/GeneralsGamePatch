@@ -3,11 +3,17 @@ from pathlib import Path
 from speech_list import available_speech
 
 
+def build_abs_path(relative_path: str) -> Path:
+    dir: str = os.path.dirname(os.path.realpath(__file__))
+    return Path(dir).joinpath(relative_path).absolute()
+
+
 def run():
-    this_dir = os.path.dirname(os.path.realpath(__file__))
+    out_path: Path = build_abs_path("generated")
+    out_path.mkdir(exist_ok=True)
 
     ini_paths = [
-        Path(this_dir).joinpath("../../../GameFilesOriginalZH/Data/INI/Speech.ini").absolute().resolve(),
+        build_abs_path("../../../../GameFilesEdited/Data/INI/Speech.ini")
     ]
 
     referenced_speech: list[str] = []
@@ -36,16 +42,16 @@ def run():
 
     invalid_referenced_sounds = list(set(referenced_speech) - set(overlap))
     invalid_referenced_sounds.sort()
-    out_txt_path = Path(this_dir).joinpath("invalid_speech.txt").absolute().resolve()
-    with open(out_txt_path, "w") as txt_file:
+    out_txt_path = build_abs_path("generated/invalid_speech.txt")
+    with open(out_txt_path, "w", encoding="ascii") as txt_file:
         for name in invalid_referenced_sounds:
             txt_file.write(name)
             txt_file.write("\n")
 
     unused_available_speech = list(set(available_speech) - set(overlap))
     unused_available_speech.sort()
-    out_txt_path = Path(this_dir).joinpath("unused_speech.txt").absolute().resolve()
-    with open(out_txt_path, "w") as txt_file:
+    out_txt_path = build_abs_path("generated/unused_speech.txt")
+    with open(out_txt_path, "w", encoding="ascii") as txt_file:
         for name in unused_available_speech:
             txt_file.write(name)
             txt_file.write("\n")
