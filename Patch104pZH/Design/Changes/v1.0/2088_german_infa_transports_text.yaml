@@ -1,0 +1,21 @@
+---
+date: 2023-07-09
+
+title: Adds missing Assault Troop Transport, Attack Outpost and Assault Helix name specializations to German localization
+
+changes:
+  - fix: The China Infantry "Truppentransporter" is now called "Sturm-Truppentransporter".
+  - fix: The China Infantry "Horchposten" is now called "Angriffs-Horchposten".
+  - fix: The China Infantry "Helix" is now called "Sturm-Helix".
+
+labels:
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2088
+
+authors:
+  - xezon
