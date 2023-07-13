@@ -1,0 +1,18 @@
+---
+date: 2023-07-12
+
+title: Removes duplicate Command_UpgradeCamoNetting definition from ini files
+
+changes:
+  - fix: Removes the duplicate Command_UpgradeCamoNetting definition from ini files. Command_UpgradeGLACamoNetting should be used.
+
+labels:
+  - minor
+  - v1.0
+  - worldbuilder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2100
+
+authors:
+  - xezon
