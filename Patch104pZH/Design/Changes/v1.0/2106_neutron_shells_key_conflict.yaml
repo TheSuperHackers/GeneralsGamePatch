@@ -1,0 +1,20 @@
+---
+date: 2023-07-12
+
+title: Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS (E)
+
+changes:
+  - fix: The China Neutron Shells warhead of the Nuke Cannon can now be selected with A key and no longer conflicts with SELECT_MATCHING_UNITS (E). Affects all languages.
+
+labels:
+  - bug
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2106
+
+authors:
+  - xezon
