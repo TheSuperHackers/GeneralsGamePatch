@@ -4,6 +4,9 @@ date: 2023-07-12
 title: Fixes Boss General key conflicts in English localization
 
 changes:
+  - fix: All 13 English specific key conflicts are now fixed.
+
+subchanges:
   - fix: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Patriot Missile (M).
   - fix: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
   - fix: The Boss Sneak Attack can now be placed with key S and no longer conflicts with Carpet Bomb (T).
