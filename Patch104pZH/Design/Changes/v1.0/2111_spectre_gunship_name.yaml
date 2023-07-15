@@ -1,0 +1,20 @@
+---
+date: 2023-07-15
+
+title: Sets correct name of USA Spectre Gunship in languages
+
+changes:
+  - fix: The USA Spectre Gunship is now called "Avión de Spectre" instead of "Helicóptero Spectre" in Spanish.
+  - fix: The USA Spectre Gunship is now called "Avião de Artilharia Spectre" instead of "Nave de Artilharia Spectre" in Brazilian (Portuguese).
+
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2111
+
+authors:
+  - xezon
