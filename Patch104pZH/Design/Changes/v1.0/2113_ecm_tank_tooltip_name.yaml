@@ -1,0 +1,19 @@
+---
+date: 2023-07-15
+
+title: Adds complete ECM Tank name in construction tool tip
+
+changes:
+  - fix: Adds complete ECM Tank name in construction tool tip of all latin languages.
+
+labels:
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2113
+
+authors:
+  - xezon
