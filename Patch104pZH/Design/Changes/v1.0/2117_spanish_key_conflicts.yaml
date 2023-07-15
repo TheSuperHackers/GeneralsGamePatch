@@ -1,0 +1,59 @@
+---
+date: 2023-07-15
+
+title: Fixes key conflicts in Spanish localization
+
+changes:
+  - fix: All 137 Spanish specific key conflicts are now fixed.
+
+subchanges:
+  - fix: The Guard command can now be triggered with key G and no longer conflicts with Evacuate (V).
+  - fix: The Stop command no longer triggers with keys D and S and will instead only trigger with key S.
+  - fix: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+  - fix: The Boss Nuke Missile can now be placed with key I and no longer conflicts with Pariot Missile (M).
+  - fix: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
+  - fix: The China War Factory can now be placed with key A.
+  - fix: The China Gattling Cannon can now be placed with key G and no longer conflicts with Tunnel Network (N).
+  - fix: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
+  - fix: The China Cash Hack can now be used with key C and no longer conflicts with Paradrop (P).
+  - fix: The China Cluster Mines can now be placed with key I and no longer conflicts with Mines (M).
+  - fix: The China EMP Pulse can now be placed with key U and no longer conflicts with Paradrop (P).
+  - fix: The China Vehicle Hack can now be used with key V and no longer conflicts with Cash Hack (P).
+  - fix: The China Napalm Bomb Drop can now be used with key U and no longer conflicts with Napalm Bomb upgrade (N).
+  - fix: The GLA Disguise can now be triggered with key D and no longer conflicts with Evacuate (V).
+  - fix: The GLA AP Rockets can now be researched with key R and no longer conflicts with Anthrax Beta (A).
+  - fix: The GLA Ambush can now be placed with key A and no longer conflicts with Camo Netting (M).
+  - fix: The GLA Hijack can now be used with key J and no longer conflicts with Stop (S).
+  - fix: The GLA Sneak Attack can now be placed with key F and no longer conflicts with Worker (P).
+  - fix: The GLA Booby Trap can now be used with key B and no longer conflicts with Capture Building (T).
+  - fix: The USA Bombardment plan can now be triggered with key B.
+  - fix: The USA Search and Destroy plan can now be triggered with key D.
+  - fix: The USA Ranger can now be produced with key G and no longer conflicts with Hacker (A).
+  - fix: The USA Aurora can now be produced with key B and no longer conflicts with Mig Armor (A).
+  - fix: The USA Flash Bang can now be researched with key C.
+  - fix: The USA TOW Missile can now be researched with key I and no longer conflicts with Select all Aircraft (W).
+  - fix: The USA & China Carpet Bomb can now be placed with key T and no longer conflicts with Napalm Strike (N).
+  - fix: The USA Spy Drone can now be placed with key Y and no longer conflicts with Spy Satellite (S).
+  - fix: The USA & GLA Detonate C4 can now be used with key D and no longer conflicts with Guard (G).
+  - fix: The USA Flash Bang can now be selected with key C and no longer conflicts with Guard (G).
+  - fix: The USA Sentry Drone can now be produced with key S and no longer conflicts with Combat Bike (T).
+  - fix: The USA MOAB can now be researched with key M and no longer conflicts with Stop (S).
+  - fix: The USA Spectre can now be placed with key G and no longer conflicts with View Command Center (H).
+  - fix: The USA Combat Chinook can now be produced with key T and no longer conflicts with View Command Center (H).
+  - fix: The USA Laser Tank can now be produced with key T.
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - major
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2117
+
+authors:
+  - xezon
