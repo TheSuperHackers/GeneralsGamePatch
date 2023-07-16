@@ -1,5 +1,5 @@
 ---
-date: 2023-01-08
+date: 2023-07-16
 
 title: Fixes wrong exploded death animation of GLA Worker
 
@@ -15,7 +15,9 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1528
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2120
 
 authors:
   - RedMeow2
   - xezon
+  - commy2
