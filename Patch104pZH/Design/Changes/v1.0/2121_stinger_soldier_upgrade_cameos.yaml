@@ -1,0 +1,21 @@
+---
+date: 2023-07-16
+
+title: Adds missing upgrade icons to Stinger Soldiers
+
+changes:
+  - fix: All GLA Stinger Soldiers now show the AP Rockets upgrade icon.
+  - fix: Toxin General Stinger Soldiers now show the Anthrax Gamma upgrade icon.
+  - fix: Demo General Stinger Soldiers (unused) now show the Demolitions upgrade icon.
+  - fix: Enemy Stinger Soldiers from the GLA02 single player campaign no longer show the inapplicable Camo Netting upgrade icon.
+
+labels:
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2121
+
+authors:
+  - commy2
