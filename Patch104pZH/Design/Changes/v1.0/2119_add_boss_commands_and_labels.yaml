@@ -1,0 +1,21 @@
+---
+date: 2023-07-16
+
+title: Adds separate buttons and labels to all major Boss commands
+
+changes:
+  - feature: Adds separate buttons and labels for all major Boss commands. This allows to setup custom key mappings that do not conflict with the setups for other factions.
+
+labels:
+  - boss
+  - enhancement
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2102
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2119
+
+authors:
+  - xezon
