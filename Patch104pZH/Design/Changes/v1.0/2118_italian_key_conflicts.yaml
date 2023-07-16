@@ -1,0 +1,53 @@
+---
+date: 2023-07-16
+
+title: Fixes key conflicts in Italian localization
+
+changes:
+  - fix: All 102 Italian specific key conflicts are now fixed.
+
+subchanges:
+  - fix: The Disarm Mines command can now be used with key L and no longer conflicts with Select matching Units (E).
+  - fix: The Boss Arm the Mob can now be researched with key F and no longer conflicts with Mines (M).
+  - fix: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+  - fix: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Patriot Missile (M).
+  - fix: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
+  - fix: The Boss Scud Storm can now be constructed with key B and no longer conflicts with Airfield (O).
+  - fix: The China Speaker Tower can now be constructed with key D and no longer conflicts with Power Plant (F).
+  - fix: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
+  - fix: The China Neutron Shells can now be researched with key S and no longer conflicts with Technical (T).
+  - fix: The China Cluster Mines can now be placed with key I and no longer conflicts with Frenzy (Z).
+  - fix: The China EMP Pulse can now be placed with key U and no longer conflicts with Paradrop (P).
+  - fix: The China Tank Paradrop can now be placed with key P and no longer conflicts with Rally Point (R).
+  - fix: The China Napalm Bomb Drop can now be used with key F and no longer conflicts with Stop (S).
+  - fix: The China Nuke Bomb Drop can now be used with key F and no longer conflicts with Stop (S).
+  - fix: The GLA Hijacker can now be produced with key D and no longer conflicts with Camo Netting (I).
+  - fix: The GLA Angry Mob can now be produced with key Y and no longer conflicts with Hacker (A).
+  - fix: The GLA Hijack ability can now be used with key D and no longer conflicts with Suicide Attack (I).
+  - fix: The GLA Combat Bike can now be produced with key Y.
+  - fix: The GLA Sniper can now be produced with key S and no longer conflicts with Capture Building (C).
+  - fix: The GLA Battle Bus can now be produced with key E and no longer conflicts with Technical (T).
+  - fix: The GLA Sneak Attack can now be placed with key F and no longer conflicts with Ambush (A).
+  - fix: The USA Ranger can now be produced with key G and no longer conflicts with Hacker (A).
+  - fix: The USA Aurora can now be produced with key B and no longer conflicts with Mig Armor (A).
+  - fix: The USA Stealth Fighter can now be produced with key F and no longer conflicts with Raptor (T).
+  - fix: The USA Composite Armor can now be researched with key P and no longer conflicts with Intelligence (C).
+  - fix: The USA Sentry Drone can now be produced with key S and no longer conflicts with Dragon Tank (D).
+  - fix: The USA Laser Turret can now be constructed with key M.
+  - fix: The USA Laser Tank can now be produced with key T.
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - major
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2118
+
+authors:
+  - xezon

@@ -10,9 +10,9 @@ subchanges:
   - fix: The Guard command can now be triggered with key G and no longer conflicts with Evacuate (V).
   - fix: The Stop command no longer triggers with keys D and S and will instead only trigger with key S.
   - fix: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
-  - fix: The Boss Nuke Missile can now be placed with key I and no longer conflicts with Pariot Missile (M).
+  - fix: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Pariot Missile (M).
   - fix: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
-  - fix: The China War Factory can now be placed with key A.
+  - fix: The China War Factory can now be constructed with key A.
   - fix: The China Gattling Cannon can now be placed with key G and no longer conflicts with Tunnel Network (N).
   - fix: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
   - fix: The China Cash Hack can now be used with key C and no longer conflicts with Paradrop (P).
