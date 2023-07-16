@@ -1,0 +1,21 @@
+---
+date: 2023-07-16
+
+title: Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites
+
+changes:
+  - fix: Attack cursor no longer disappears when attempting to target a Stinger Site with Flashbang Rangers
+
+labels:
+  - bug
+  - controversial
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/297
+
+authors:
+  - commy2
