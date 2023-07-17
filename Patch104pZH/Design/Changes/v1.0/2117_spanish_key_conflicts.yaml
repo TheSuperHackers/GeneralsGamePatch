@@ -12,8 +12,7 @@ subchanges:
   - fix: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
   - fix: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Pariot Missile (M).
   - fix: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
-  - fix: The China War Factory can now be constructed with key A.
-  - fix: The China Gattling Cannon can now be placed with key G and no longer conflicts with Tunnel Network (N).
+  - fix: The China Gattling Cannon can now be placed with key A and no longer conflicts with Tunnel Network (N).
   - fix: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
   - fix: The China Cash Hack can now be used with key C and no longer conflicts with Paradrop (P).
   - fix: The China Cluster Mines can now be placed with key I and no longer conflicts with Mines (M).
@@ -40,7 +39,7 @@ subchanges:
   - fix: The USA MOAB can now be researched with key M and no longer conflicts with Stop (S).
   - fix: The USA Spectre can now be placed with key G and no longer conflicts with View Command Center (H).
   - fix: The USA Combat Chinook can now be produced with key T and no longer conflicts with View Command Center (H).
-  - fix: The USA Laser Tank can now be produced with key T.
+  - fix: The USA Laser Tank can now be produced with key C.
 
 labels:
   - boss
@@ -54,6 +53,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2117
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123
 
 authors:
   - xezon

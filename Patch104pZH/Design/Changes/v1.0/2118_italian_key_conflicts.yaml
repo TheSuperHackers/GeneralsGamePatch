@@ -34,7 +34,7 @@ subchanges:
   - fix: The USA Composite Armor can now be researched with key P and no longer conflicts with Intelligence (C).
   - fix: The USA Sentry Drone can now be produced with key S and no longer conflicts with Dragon Tank (D).
   - fix: The USA Laser Turret can now be constructed with key M.
-  - fix: The USA Laser Tank can now be produced with key T.
+  - fix: The USA Laser Tank can now be produced with key C.
 
 labels:
   - boss
@@ -48,6 +48,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2118
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123
 
 authors:
   - xezon
