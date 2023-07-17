@@ -7,10 +7,11 @@ changes:
   - fix: All 99 German specific key conflicts are now fixed.
 
 subchanges:
+  - fix: The Boss Patriot System can now be constructed with key M and no longer conflicts with Bunker (B).
+  - fix: The Boss Supply Center can now be constructed with key U and no longer conflicts with Tunnel Network (N).
   - fix: The Boss Arm the Mob can now be researched with key O and no longer conflicts with Buggy Ammo (B).
   - fix: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
   - fix: The Boss Land Mines can now be researched with key M and no longer conflicts with Laser Missiles (L).
-  - fix: The China Supply Center can now be constructed with key U and no longer conflicts with Tunnel Network (N).
   - fix: The China Black Napalm can now be researched with key N and no longer conflicts with Listening Outpost (S).
   - fix: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
   - fix: The China Nuclear Tanks can now be researched with key P and no longer conflicts with Nationalism (N).
@@ -33,7 +34,6 @@ subchanges:
   - fix: The USA Combat Drop can now be triggered with key N and no longer conflicts with Attack Move (A).
   - fix: The USA Hold The Line plan can now be set with key N and no longer conflicts with Stop (S).
   - fix: The USA Search and Destroy plan can now be set with key G and no longer conflicts with Carpet Bomb (T).
-  - fix: The USA Patriot System can now be constructed with key M and no longer conflicts with Bunker (B).
   - fix: The USA Strategy Center can now be constructed with key T and no longer conflicts with Stop (S).
   - fix: The USA Burton can now be produced with key O and no longer conflicts with Missile Defender (B).
   - fix: The USA Nuke Cannon can now be produced with key K and no longer conflicts with Black Napalm (N).
@@ -55,6 +55,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2102
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123
 
 authors:
   - xezon

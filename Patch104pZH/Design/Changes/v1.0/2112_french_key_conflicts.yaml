@@ -14,9 +14,8 @@ subchanges:
   - fix: The Boss Composite Armor can now be researched with key C and no longer conflicts with Particle Cannon (P).
   - fix: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Mines (M).
   - fix: The Boss Sneak Attack can now be placed with key F and no longer conflicts with Carpet Bomb (T).
-  - fix: The China Overlord can now be produced with key O and no longer conflicts with Paladin (P).
-  - fix: The China Inferno Cannon can now be produced with key P.
-  - fix: The China Black Lotus can now be produced with key L and no longer conflicts with Burton (N).
+  - fix: The Boss Overlord can now be produced with key O and no longer conflicts with Paladin (P).
+  - fix: The China Black Lotus can now be produced with key S and no longer conflicts with Burton (N).
   - fix: The China EMP Pulse can now be placed with key E and no longer conflicts with Mines (P).
   - fix: The China Helix Nuke Bomb can now be researched with key N and no longer conflicts with Attack Move (A).
   - fix: The China Infantry Outpost can now be produced with key S and no longer conflicts with Inferno Cannon (O).
@@ -46,6 +45,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2112
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123
 
 authors:
   - xezon
