@@ -1,0 +1,30 @@
+---
+date: 2023-07-18
+
+title: Fixes Boss General key conflicts in Chinese localization
+
+changes:
+  - fix: All 13 Chinese specific key conflicts are now fixed.
+
+subchanges:
+  - fix: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Patriot Missile (M).
+  - fix: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
+  - fix: The Boss Sneak Attack can now be placed with key S and no longer conflicts with Carpet Bomb (T).
+  - fix: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+  - fix: The Boss Land Mines can now be researched with key M and no longer conflicts with Laser Missiles (L).
+  - fix: The Boss Arm the Mob can now be researched with key O and no longer conflicts with Neutron Mines (M).
+  - fix: The Boss Composite Armor can now be researched with key C and no longer conflicts with Particle Cannon (P).
+  - fix: The Boss Anthrax Beta can now be researched with key X and no longer conflicts with Buggy Ammo (A).
+
+labels:
+  - boss
+  - bug
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2128
+
+authors:
+  - xezon
