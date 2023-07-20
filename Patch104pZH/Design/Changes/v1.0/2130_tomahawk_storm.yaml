@@ -1,0 +1,19 @@
+---
+date: 2023-07-20
+
+title: Adds Tomahawk Storm to World Builder.
+
+changes:
+  - fix: The Tomahawk Storm is now available in the World Builder.
+
+labels:
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2130
+
+authors:
+  - commy2
