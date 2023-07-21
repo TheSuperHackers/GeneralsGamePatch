@@ -1,0 +1,24 @@
+---
+date: 2023-07-21
+
+title: Fixes the bug where Tank Hunters inside Bunkers frequently destroy their Bunker
+
+changes:
+  - fix: Projectiles from units inside Bunkers no longer spawn from below the Bunker.
+
+subchanges:
+  - fix: Adds 4 extra fire ports to the China Bunker.
+  - fix: Adds 8 extra fire ports to the Infantry General Bunker.
+
+labels:
+  - buff
+  - bug
+  - china
+  - major
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133
+
+authors:
+  - commy2
