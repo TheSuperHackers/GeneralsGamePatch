@@ -10,6 +10,7 @@ subchanges:
   - fix: The Disarm Mines command can now be used with key L and no longer conflicts with Select matching Units (E).
   - fix: The Boss Arm the Mob can now be researched with key F and no longer conflicts with Mines (M).
   - fix: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+  - fix: The Boss Aurora can now be produced with key B and no longer conflicts with Mig Armor (A).
   - fix: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Patriot Missile (M).
   - fix: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
   - fix: The Boss Scud Storm can now be constructed with key B and no longer conflicts with Airfield (O).
@@ -29,7 +30,6 @@ subchanges:
   - fix: The GLA Battle Bus can now be produced with key E and no longer conflicts with Technical (T).
   - fix: The GLA Sneak Attack can now be placed with key F and no longer conflicts with Ambush (A).
   - fix: The USA Ranger can now be produced with key G and no longer conflicts with Hacker (A).
-  - fix: The USA Aurora can now be produced with key B and no longer conflicts with Mig Armor (A).
   - fix: The USA Stealth Fighter can now be produced with key F and no longer conflicts with Raptor (T).
   - fix: The USA Composite Armor can now be researched with key P and no longer conflicts with Intelligence (C).
   - fix: The USA Sentry Drone can now be produced with key S and no longer conflicts with Dragon Tank (D).
@@ -49,6 +49,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2118
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2137
 
 authors:
   - xezon
