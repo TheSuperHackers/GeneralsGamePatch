@@ -1,0 +1,1 @@
+CONTROLBAR:ConstructChinaVehicleNukeLauncher : "Самоходная ядерная пушка [N&]"

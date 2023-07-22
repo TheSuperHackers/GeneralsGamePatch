@@ -1,0 +1,77 @@
+ChinaVehicleNukeCannonCommandSet has key conflict with
+  CommandMap SELECT_MATCHING_UNITS : "E"
+  3 = Command_ChinaNeutronWarhead : CONTROLBAR:NeutronWarhead "중성자 탄두(&E)"
+
+SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄(&B)"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB(&B)"
+
+AirF_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄(&B)"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB(&B)"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "컴뱃 사이클(&Y)"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "컴뱃 사이클(&Y)"
+
+SupW_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄(&B)"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB(&B)"
+
+Lazr_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄(&B)"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB(&B)"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  6 = Boss_Command_ConstructAmericaPatriotBattery : CONTROLBAR:ConstructAmericaPatriotBattery "패트리엇 미사일 시스템(&M)"
+  11 = Boss_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "핵 미사일(&M)"
+
+Boss_ChinaCommandCenterCommandSet has key conflict with
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "융단 폭격(&T)"
+  7 = Command_SneakAttack : CONTROLBAR:SneakAttack "잠입 공격(&T)"
+
+Boss_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "융단 폭격(&T)"
+  7 = Command_SneakAttack : CONTROLBAR:SneakAttack "잠입 공격(&T)"
+
+Boss_ChinaAirfieldCommandSet has key conflict with
+  8 = Command_UpgradeAmericaLaserMissiles : CONTROLBAR:UpgradeAmericaLaserMissiles "레이저 미사일(&L)"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "지뢰(&L)"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "어벤져(&G)"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "개틀링 탱크(&G)"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "어벤져(&G)"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "개틀링 탱크(&G)"
+
+Boss_AmericaParticleUplinkCannonCommandSet has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "파티클 캐논 발사(&P)"
+  6 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "합성장갑(&P)"
+
+Boss_AmericaParticleUplinkCannonCommandSetUpgrade has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "파티클 캐논 발사(&P)"
+  6 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "합성장갑(&P)"
+
+Boss_GLAScudStormCommandSet has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "버기 공격력(&A)"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "탄저병 베타(&A)"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "버기 공격력(&A)"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "탄저병 베타(&A)"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "성난 군중 무장(&M)"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "중성자 지뢰(&M)"
+
+Boss_ChinaNuclearMissileCommandSet has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "핵 미사일(&N)"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "민족주의(&N)"
+
+Boss_ChinaNuclearMissileCommandSetUpgrade has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "핵 미사일(&N)"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "민족주의(&N)"
+
+19 conflicts found

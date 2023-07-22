@@ -1,0 +1,77 @@
+ChinaVehicleNukeCannonCommandSet has key conflict with
+  CommandMap SELECT_MATCHING_UNITS : "E"
+  3 = Command_ChinaNeutronWarhead : CONTROLBAR:NeutronWarhead "N&eutron Shells"
+
+SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air &Bomb"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All &Bombs"
+
+AirF_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air &Bomb"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All &Bombs"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Combat C&ycle"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Combat C&ycle"
+
+SupW_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air &Bomb"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All &Bombs"
+
+Lazr_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air &Bomb"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All &Bombs"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  6 = Boss_Command_ConstructAmericaPatriotBattery : CONTROLBAR:ConstructAmericaPatriotBattery "Patriot &Missile System"
+  11 = Boss_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "Nuclear &Missile"
+
+Boss_ChinaCommandCenterCommandSet has key conflict with
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Carpe&t Bomb"
+  7 = Command_SneakAttack : CONTROLBAR:SneakAttack "Sneak A&ttack"
+
+Boss_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Carpe&t Bomb"
+  7 = Command_SneakAttack : CONTROLBAR:SneakAttack "Sneak A&ttack"
+
+Boss_ChinaAirfieldCommandSet has key conflict with
+  8 = Command_UpgradeAmericaLaserMissiles : CONTROLBAR:UpgradeAmericaLaserMissiles "&Laser Missiles"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Land Mines"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Aven&ger"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "&Gattling Tank"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Aven&ger"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "&Gattling Tank"
+
+Boss_AmericaParticleUplinkCannonCommandSet has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "&Particle Cannon"
+  6 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "Com&posite Armor"
+
+Boss_AmericaParticleUplinkCannonCommandSetUpgrade has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "&Particle Cannon"
+  6 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "Com&posite Armor"
+
+Boss_GLAScudStormCommandSet has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "Buggy &Ammo"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "&Anthrax Beta"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "Buggy &Ammo"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "&Anthrax Beta"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Arm the &Mob"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Neutron &Mines"
+
+Boss_ChinaNuclearMissileCommandSet has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "&Nuclear Missile"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "&Nationalism"
+
+Boss_ChinaNuclearMissileCommandSetUpgrade has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "&Nuclear Missile"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "&Nationalism"
+
+19 conflicts found

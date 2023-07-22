@@ -1,0 +1,233 @@
+ChinaVehicleNukeCannonCommandSet has key conflict with
+  CommandMap SELECT_MATCHING_UNITS : "E"
+  3 = Command_ChinaNeutronWarhead : CONTROLBAR:NeutronWarhead "Нейтронные снаряды [&E]"
+
+AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  11 = Command_UpgradeAmericaTOWMissile : CONTROLBAR:UpgradeAmericaTOWMissile "Ракета ТОУ [&W]"
+
+AmericaStrategyCenterCommandSet has key conflict with
+  2 = Command_CIAIntelligence : CONTROLBAR:CIAIntelligence "Разведка и слежка [&C]"
+  8 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "Композитная броня [&C]"
+
+ChinaCommandCenterCommandSet has key conflict with
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Ковровая бомбардировка [&C]"
+  5 = Command_CashHack : CONTROLBAR:CashHack "Взлом денег [&C]"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Ковровая бомбардировка [&C]"
+  5 = Command_CashHack : CONTROLBAR:CashHack "Взлом денег [&C]"
+
+ChinaWarFactoryCommandSet has key conflict with
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Чёрный напалм [&N]"
+  10 = Command_ConstructChinaVehicleNukeLauncher : CONTROLBAR:ConstructChinaVehicleNukeLauncher "Самоходная ядерная пушка [&N]"
+
+ChinaWarFactoryCommandSetUpgrade has key conflict with
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Чёрный напалм [&N]"
+  10 = Command_ConstructChinaVehicleNukeLauncher : CONTROLBAR:ConstructChinaVehicleNukeLauncher "Самоходная ядерная пушка [&N]"
+
+GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+GLASupplyStashCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+GC_Chem_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = GC_Chem_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+GC_Chem_GLASupplyStashCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = GC_Chem_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+GC_Slth_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = GC_Slth_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+GC_Slth_GLASupplyStashCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = GC_Slth_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+AirF_AmericaStrategyCenterCommandSet has key conflict with
+  2 = Command_CIAIntelligence : CONTROLBAR:CIAIntelligence "Разведка и слежка [&C]"
+  12 = AirF_Command_CarpetBomb : CONTROLBAR:CarpetBomb "Ковровая бомбардировка [&C]"
+
+AirF_AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  11 = Command_UpgradeAmericaTOWMissile : CONTROLBAR:UpgradeAmericaTOWMissile "Ракета ТОУ [&W]"
+
+Demo_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Demo_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+Demo_GLASupplyStashCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Demo_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+Demo_GLACommandCenterCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Demo_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+Demo_GLASupplyStashCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Demo_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+Slth_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Slth_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+Slth_GLASupplyStashCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Slth_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Боевой мотоцикл [&Y]"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Боевой мотоцикл [&Y]"
+
+Chem_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Chem_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+Chem_GLASupplyStashCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  1 = Chem_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Рабочий [&W]"
+
+Nuke_ChinaWarFactoryCommandSet has key conflict with
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Чёрный напалм [&N]"
+  10 = Nuke_Command_ConstructChinaVehicleNukeLauncher : CONTROLBAR:ConstructChinaVehicleNukeLauncher "Самоходная ядерная пушка [&N]"
+
+Nuke_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Чёрный напалм [&N]"
+  10 = Nuke_Command_ConstructChinaVehicleNukeLauncher : CONTROLBAR:ConstructChinaVehicleNukeLauncher "Самоходная ядерная пушка [&N]"
+
+SupW_AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  11 = Command_UpgradeAmericaTOWMissile : CONTROLBAR:UpgradeAmericaTOWMissile "Ракета ТОУ [&W]"
+
+Infa_ChinaCommandCenterCommandSet has key conflict with
+  3 = Infa_Command_Paradrop : CONTROLBAR:Paradrop "Парашютный десант [&P]"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Электромагнитный импульс [&P]"
+
+Infa_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  3 = Infa_Command_Paradrop : CONTROLBAR:Paradrop "Парашютный десант [&P]"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Электромагнитный импульс [&P]"
+
+Infa_ChinaWarFactoryCommandSet has key conflict with
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Чёрный напалм [&N]"
+  10 = Infa_Command_ConstructChinaVehicleNukeLauncher : CONTROLBAR:ConstructChinaVehicleNukeLauncher "Самоходная ядерная пушка [&N]"
+
+Infa_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Чёрный напалм [&N]"
+  10 = Infa_Command_ConstructChinaVehicleNukeLauncher : CONTROLBAR:ConstructChinaVehicleNukeLauncher "Самоходная ядерная пушка [&N]"
+
+Lazr_AmericaStrategyCenterCommandSet has key conflict with
+  2 = Command_CIAIntelligence : CONTROLBAR:CIAIntelligence "Разведка и слежка [&C]"
+  8 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "Композитная броня [&C]"
+
+Lazr_AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  11 = Command_UpgradeAmericaTOWMissile : CONTROLBAR:UpgradeAmericaTOWMissile "Ракета ТОУ [&W]"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Ковровая бомбардировка [&C]"
+  5 = Command_CashHack : CONTROLBAR:CashHack "Взлом денег [&C]"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  3 = Tank_Command_TankParadrop : CONTROLBAR:TankParadrop "Десантирование танков [&P]"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Электромагнитный импульс [&P]"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Ковровая бомбардировка [&C]"
+  5 = Command_CashHack : CONTROLBAR:CashHack "Взлом денег [&C]"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  3 = Tank_Command_TankParadrop : CONTROLBAR:TankParadrop "Десантирование танков [&P]"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Электромагнитный импульс [&P]"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  6 = Boss_Command_ConstructAmericaPatriotBattery : CONTROLBAR:ConstructAmericaPatriotBattery "Зенитно-ракетный комплекс \"Патриот\" [&M]"
+  11 = Boss_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "Ракетная шахта [&M]"
+
+Boss_ChinaAirfieldCommandSet has key conflict with
+  4 = Boss_Command_ConstructAmericaJetAurora : CONTROLBAR:ConstructAmericaJetAurora "Бомбардировщик Аврора [&A]"
+  7 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Броня МиГов [&A]"
+
+Boss_ChinaAirfieldCommandSetUpgrade has key conflict with
+  4 = Boss_Command_ConstructAmericaJetAurora : CONTROLBAR:ConstructAmericaJetAurora "Бомбардировщик Аврора [&A]"
+  7 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Броня МиГов [&A]"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  1 = Boss_Command_ConstructAmericaInfantryRanger : CONTROLBAR:ConstructAmericaInfantryRanger "Рейнджер [&A]"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Хакер [&A]"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  1 = Boss_Command_ConstructAmericaInfantryRanger : CONTROLBAR:ConstructAmericaInfantryRanger "Рейнджер [&A]"
+  8 = Boss_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Разъярённая толпа [&A]"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  2 = Boss_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Чёрный лотос [&B]"
+  6 = Boss_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Полковник Бартон [&B]"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Хакер [&A]"
+  8 = Boss_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Разъярённая толпа [&A]"
+
+Boss_ChinaBarracksCommandSetUpgrade has key conflict with
+  1 = Boss_Command_ConstructAmericaInfantryRanger : CONTROLBAR:ConstructAmericaInfantryRanger "Рейнджер [&A]"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Хакер [&A]"
+
+Boss_ChinaBarracksCommandSetUpgrade has key conflict with
+  1 = Boss_Command_ConstructAmericaInfantryRanger : CONTROLBAR:ConstructAmericaInfantryRanger "Рейнджер [&A]"
+  8 = Boss_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Разъярённая толпа [&A]"
+
+Boss_ChinaBarracksCommandSetUpgrade has key conflict with
+  2 = Boss_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Чёрный лотос [&B]"
+  6 = Boss_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Полковник Бартон [&B]"
+
+Boss_ChinaBarracksCommandSetUpgrade has key conflict with
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Хакер [&A]"
+  8 = Boss_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Разъярённая толпа [&A]"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Мститель [&G]"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Пулемётный танк [&G]"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Мститель [&G]"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Пулемётный танк [&G]"
+
+Boss_GLAScudStormCommandSet has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "Боеприпасы багги [&A]"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "Сибирская язва бета [&A]"
+
+Boss_GLAScudStormCommandSet has key conflict with
+  8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Вооружение толпы [&M]"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Заминировать [&M]"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "Боеприпасы багги [&A]"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "Сибирская язва бета [&A]"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Вооружение толпы [&M]"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Нейтронные мины [&M]"
+
+Boss_ChinaNuclearMissileCommandSet has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "Удар ядерной ракетой [&N]"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "Национализм [&N]"
+
+Boss_ChinaNuclearMissileCommandSet has key conflict with
+  6 = Command_UpgradeChinaSubliminalMessaging : CONTROLBAR:UpgradeChinaSubliminalMessaging "Подсознательное вещание [&U]"
+  7 = Command_UpgradeChinaUraniumShells : CONTROLBAR:UpgradeChinaUraniumShells "Урановые снаряды [&U]"
+
+Boss_ChinaNuclearMissileCommandSetUpgrade has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "Удар ядерной ракетой [&N]"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "Национализм [&N]"
+
+Boss_ChinaNuclearMissileCommandSetUpgrade has key conflict with
+  6 = Command_UpgradeChinaSubliminalMessaging : CONTROLBAR:UpgradeChinaSubliminalMessaging "Подсознательное вещание [&U]"
+  7 = Command_UpgradeChinaUraniumShells : CONTROLBAR:UpgradeChinaUraniumShells "Урановые снаряды [&U]"
+
+58 conflicts found
