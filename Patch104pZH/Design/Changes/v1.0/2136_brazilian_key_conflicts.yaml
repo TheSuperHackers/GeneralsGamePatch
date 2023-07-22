@@ -1,0 +1,53 @@
+---
+date: 2023-07-20
+
+title: Fixes key conflicts in Brazilian localization
+
+changes:
+  - fix: All 102 Brazilian specific key conflicts are now fixed.
+
+subchanges:
+  - fix: The Stop command no longer triggers with keys P and S and will instead only trigger with key S.
+  - fix: The Boss Arm the Mob can now be researched with key O and no longer conflicts with Mines (M).
+  - fix: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+  - fix: The Boss Burton can now be produced with key N and no longer conflicts with Black Lotus (B).
+  - fix: The Boss Nuke Missile can now be launched with key N and no longer conflicts with Patriot Missile (M).
+  - fix: The Boss Drone Armor can now be researched with key R and no longer conflicts with Sentry Drone Gun (N).
+  - fix: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Neutron Shells (N).
+  - fix: The Boss Combat Bike can now be produced with key Y and no longer conflicts with Chain Guns (C).
+  - fix: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
+  - fix: The China EMP Pulse can now be placed with key U and no longer conflicts with Rally Point (P).
+  - fix: The GLA Radar Van can now be produced with key F and no longer conflicts with Camo Netting (R).
+  - fix: The GLA Angry Mob can now be produced with key Y and no longer conflicts with Camo Netting (R).
+  - fix: The GLA Buggy Ammo can now be researched with key G and no longer conflicts with Mines (M).
+  - fix: The GLA Junk Repair can now be researched with key E and no longer conflicts with Camo Netting (R).
+  - fix: The GLA Snipe Attack can now be used with key N and no longer conflicts with Timed Demo Charge (T).
+  - fix: The GLA Bomb Truck suicide can now be used with key I and no longer conflicts with Attack Move (A).
+  - fix: The GLA Fake Barracks can now be constructed with key L and no longer conflicts with Select all Units (Q).
+  - fix: The GLA Sneak Attack can now be placed with key F and no longer conflicts with GLA Worker (T).
+  - fix: The GLA Bobby Trap can now be used with key B and no longer conflicts with Attack Move (A).
+  - fix: The GLA Toxin Tunnel can now be constructed with key I and no longer conflicts with Clear Mines (N).
+  - fix: The GLA Sabotage ability can now be used with key B and no longer conflicts with Select matching Units (E).
+  - fix: The USA Ranger can now be produced with key G and no longer conflicts with Hacker (A).
+  - fix: The USA Composite Armor can now be researched with key P and no longer conflicts with Intelligence (C).
+  - fix: The USA and China Paradrop can now be placed with key R and no longer conflicts with Rally Point (R).
+  - fix: The USA and China Carpet Bomb can now be placed with key G and no longer conflicts with Stop (S).
+  - fix: The USA Aurora Alpha can now be produced with key A and no longer conflicts with Bunker Buster (B).
+  - fix: The USA Leaflet can now be placed with key L and no longer conflicts with Spy Satellite (S).
+  - fix: The USA Combat Chinook can now be produced with key T and no longer conflicts with View Command Center (H).
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - major
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2136
+
+authors:
+  - xezon
