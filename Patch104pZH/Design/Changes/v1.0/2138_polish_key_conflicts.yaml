@@ -1,0 +1,51 @@
+---
+date: 2023-07-22
+
+title: Fixes key conflicts in Polish localization
+
+changes:
+  - fix: All 77 Polish specific key conflicts are now fixed.
+
+subchanges:
+  - fix: The Attack Move command can now be used with key A and no longer conflicts with several (O).
+  - fix: The Evacuate command can now be used with key V and no longer conflicts with Suicide Attack (J).
+  - fix: The Emergency Repair can now be placed with key E and no longer conflicts with Napalm Strike (N).
+  - fix: The Boss Aurora can now be produced with key B and no longer conflicts with Mig Armor (A).
+  - fix: The Boss Nuke Missile can now be constructed with key J and no longer conflicts with Particle Cannon (M).
+  - fix: The Boss Particle Cannon can now be launched with key C and no longer conflicts with Mines (M).
+  - fix: The Boss Avenger can now be produced with key J and no longer conflicts with Mines (M).
+  - fix: The Boss Combat Bike can now be produced with key Y and no longer conflicts with Tomahawk (T).
+  - fix: The China Cash Hack can now be placed with key C and no longer conflicts with Cluster Mines (K).
+  - fix: The China and USA Carpet Bomb can now be placed with key F and no longer conflicts with China Dozer (D).
+  - fix: The China Helix Nuke Bomb can now be researched with key N and no longer conflicts with Attack Move (A).
+  - fix: The GLA Marauder can now be produced with key M.
+  - fix: The GLA Rocket Buggy can now be produced with key B and no longer conflicts with Rally Point (R).
+  - fix: The GLA Scud Storm can now be constructed with key C and no longer conflicts with Stop (S).
+  - fix: The GLA Scud Storm can now be constructed with key C and no longer conflicts with Stop (S).
+  - fix: The GLA Buggy Ammo can now be researched with key B and no longer conflicts with Anthrax Beta (A).
+  - fix: The GLA Hijack can now be used with key P and no longer conflicts with Suicide Attack (J).
+  - fix: The GLA Fake Command Center can now be constructed with key Z and no longer conflicts with Stop (S).
+  - fix: The GLA Camo Netting can now be researched with key C and no longer conflicts with Stop (S).
+  - fix: The USA Search and Destroy plan can now be activated with key D and no longer conflicts with Stop (S).
+  - fix: The USA Ranger can now be produced with key G and no longer conflicts with Hacker (A).
+  - fix: The USA Raptor can now be produced with key T and no longer conflicts with Rally Point (R).
+  - fix: The USA Composite Armor can now be researched with key P and no longer conflicts with Intelligence (C).
+  - fix: The USA and GLA Timed Demo Charge can now be used with key C and no longer conflicts with Attack Move (A).
+  - fix: The USA EMP Patriot can now be constructed with key T and no longer conflicts with Stop (S).
+  - fix: The USA Stealth Comanche can now be researched with key S and no longer conflicts with Laser Missiles (L).
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - major
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2138
+
+authors:
+  - xezon
