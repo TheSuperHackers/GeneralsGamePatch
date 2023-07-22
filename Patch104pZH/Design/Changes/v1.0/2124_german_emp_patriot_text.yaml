@@ -1,0 +1,19 @@
+---
+date: 2023-07-17
+
+title: Sets consistent name for EMP Patriot Battery in German language
+
+changes:
+  - fix: The EMP version of the "Patriot-Batterie" is now called "EMP Patriot-Batterie".
+
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2124
+
+authors:
+  - xezon
