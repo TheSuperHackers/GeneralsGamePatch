@@ -1,0 +1,317 @@
+GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  8 = Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz &SCUD-ów"
+
+GLAWorkerFakeBuildingsCommandSet has key conflict with
+  CommandMap STOP : "S"
+  1 = Command_ConstructFakeGLACommandCenter : CONTROLBAR:ConstructFakeGLACommandCenter "Fałszywy &sztab"
+
+GLAVehicleBombTruckCommandSet has key conflict with
+  8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "B&omba krusząca"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch &ofensywny"
+
+ChinaVehicleNukeCannonCommandSet has key conflict with
+  CommandMap SELECT_MATCHING_UNITS : "E"
+  3 = Command_ChinaNeutronWarhead : CONTROLBAR:NeutronWarhead "Pociski n&eutronowe"
+
+ChinaTankDragonCommandSet has key conflict with
+  1 = Command_ChinaDragonTankFireWall : CONTROLBAR:FireWall "Ściana &ogniowa"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch &ofensywny"
+
+AmericaAirfieldCommandSet has key conflict with
+  1 = Command_ConstructAmericaJetRaptor : CONTROLBAR:ConstructAmericaJetRaptor "&Raptor"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+AmericaStrategyCenterCommandSet has key conflict with
+  2 = Command_CIAIntelligence : CONTROLBAR:CIAIntelligence "Wywiad &CIA"
+  8 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "Pan&cerz kompozytowy"
+
+AmericaStrategyCenterCommandSet has key conflict with
+  5 = Command_InitiateBattlePlanSearchAndDestroy : CONTROLBAR:InitiateBattlePlanSearchAndDestroy "Strategia wy&szukania i zniszczenia"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stop"
+
+ChinaCommandCenterCommandSet has key conflict with
+  1 = Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Bul&dożer"
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Nalot &dywanowy"
+
+ChinaCommandCenterCommandSet has key conflict with
+  3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Nalot &napalmowy"
+  7 = Command_EmergencyRepair : CONTROLBAR:EmergencyRepair "&Naprawa pojazdów"
+
+ChinaCommandCenterCommandSet has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Miny &kasetowe"
+  5 = Command_CashHack : CONTROLBAR:CashHack "e-&Kradzież pieniędzy"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  1 = Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Bul&dożer"
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Nalot &dywanowy"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Nalot &napalmowy"
+  7 = Command_EmergencyRepair : CONTROLBAR:EmergencyRepair "&Naprawa pojazdów"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Miny &kasetowe"
+  5 = Command_CashHack : CONTROLBAR:CashHack "e-&Kradzież pieniędzy"
+
+GLAArmsDealerCommandSet has key conflict with
+  6 = Command_ConstructGLAVehicleRocketBuggy : CONTROLBAR:ConstructGLAVehicleRocketBuggy "Pojazd &rakietowy"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+GLATunnelNetworkCommandSet has key conflict with
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "&Siatka maskująca"
+  13 = Command_Stop : CONTROLBAR:Stop "&Stop"
+
+GLAStingerSiteCommandSet has key conflict with
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "&Siatka maskująca"
+  13 = Command_Stop : CONTROLBAR:Stop "&Stop"
+
+GC_Chem_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  8 = GC_Chem_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz &SCUD-ów"
+
+GC_Slth_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  8 = GC_Slth_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz &SCUD-ów"
+
+GC_Slth_GLAArmsDealerCommandSet has key conflict with
+  6 = Command_ConstructGLAVehicleRocketBuggy : CONTROLBAR:ConstructGLAVehicleRocketBuggy "Pojazd &rakietowy"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+AirF_AmericaStrategyCenterCommandSet has key conflict with
+  5 = Command_InitiateBattlePlanSearchAndDestroy : CONTROLBAR:InitiateBattlePlanSearchAndDestroy "Strategia wy&szukania i zniszczenia"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stop"
+
+AirF_AmericaAirfieldCommandSet has key conflict with
+  8 = AirF_Command_UpgradeAmericaLaserMissiles : CONTROLBAR:UpgradeAmericaLaserMissiles "Pociski &laserowe"
+  11 = AirF_Command_UpgradeStealthComanche : CONTROLBAR:UpgradeStealthComanche "Niewykrywa&lność"
+
+Demo_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  8 = Demo_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz &SCUD-ów"
+
+Demo_GLAWorkerFakeBuildingsCommandSet has key conflict with
+  CommandMap STOP : "S"
+  1 = Demo_Command_ConstructFakeGLACommandCenter : CONTROLBAR:ConstructFakeGLACommandCenter "Fałszywy &sztab"
+
+Demo_GLAArmsDealerCommandSet has key conflict with
+  6 = Demo_Command_ConstructGLAVehicleRocketBuggy : CONTROLBAR:ConstructGLAVehicleRocketBuggy "Pojazd &rakietowy"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+Demo_GLAVehicleBombTruckCommandSet has key conflict with
+  8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "B&omba krusząca"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch &ofensywny"
+
+Demo_GLAVehicleTechnicalCommandSetUpgrade has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "Ewakuac&ja"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonu&j"
+
+Demo_GLAWorkerCommandSetUpgrade has key conflict with
+  CommandMap STOP : "S"
+  8 = Demo_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz &SCUD-ów"
+
+Demo_GLAWorkerFakeBuildingsCommandSetUpgrade has key conflict with
+  CommandMap STOP : "S"
+  1 = Demo_Command_ConstructFakeGLACommandCenter : CONTROLBAR:ConstructFakeGLACommandCenter "Fałszywy &sztab"
+
+Demo_GLAPalaceCommandSetUpgrade has key conflict with
+  6 = Command_Evacuate : CONTROLBAR:Evacuate "Ewakuac&ja"
+  11 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonu&j"
+
+Demo_GLATunnelNetworkCommandSetUpgrade has key conflict with
+  11 = Command_TunnelEvacuate : CONTROLBAR:Evacuate "Ewakuac&ja"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonu&j"
+
+Demo_GLAArmsDealerCommandSetUpgrade has key conflict with
+  6 = Demo_Command_ConstructGLAVehicleRocketBuggy : CONTROLBAR:ConstructGLAVehicleRocketBuggy "Pojazd &rakietowy"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+Demo_GLAVehicleBombTruckCommandSetUpgrade has key conflict with
+  8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "B&omba krusząca"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch &ofensywny"
+
+Demo_GLAInfantryHijackerCommandSetUpgrade has key conflict with
+  1 = Command_GLAInfantryHijack : CONTROLBAR:Hijack "Porwi&j"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonu&j"
+
+Demo_GLAVehicleBattleBusCommandSetUpgrade has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "Ewakuac&ja"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonu&j"
+
+Slth_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  8 = Slth_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz &SCUD-ów"
+
+Slth_GLAWorkerFakeBuildingsCommandSet has key conflict with
+  CommandMap STOP : "S"
+  1 = Slth_Command_ConstructFakeGLACommandCenter : CONTROLBAR:ConstructFakeGLACommandCenter "Fałszywy &sztab"
+
+Slth_GLAPalaceCommandSet has key conflict with
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "&Siatka maskująca"
+  13 = Command_Stop : CONTROLBAR:Stop "&Stop"
+
+Slth_GLAScudStormCommandSet has key conflict with
+  1 = Command_ScudStorm : CONTROLBAR:ScudStorm "Deszcz &SCUD-ów"
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "&Siatka maskująca"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  6 = Slth_Command_ConstructGLAVehicleRocketBuggy : CONTROLBAR:ConstructGLAVehicleRocketBuggy "Pojazd &rakietowy"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Mo&tor bojowy"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Mo&tor bojowy"
+
+Slth_GLAVehicleBombTruckCommandSet has key conflict with
+  8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "B&omba krusząca"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch &ofensywny"
+
+Chem_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  8 = Chem_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz &SCUD-ów"
+
+Chem_GLAWorkerFakeBuildingsCommandSet has key conflict with
+  CommandMap STOP : "S"
+  1 = Chem_Command_ConstructFakeGLACommandCenter : CONTROLBAR:ConstructFakeGLACommandCenter "Fałszywy &sztab"
+
+Chem_GLAArmsDealerCommandSet has key conflict with
+  6 = Chem_Command_ConstructGLAVehicleRocketBuggy : CONTROLBAR:ConstructGLAVehicleRocketBuggy "Pojazd &rakietowy"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+Nuke_ChinaCommandCenterCommandSet has key conflict with
+  3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Nalot &napalmowy"
+  7 = Early_Command_EmergencyRepair : CONTROLBAR:EmergencyRepair "&Naprawa pojazdów"
+
+Nuke_ChinaCommandCenterCommandSet has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Miny &kasetowe"
+  5 = Command_CashHack : CONTROLBAR:CashHack "e-&Kradzież pieniędzy"
+
+Nuke_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Nalot &napalmowy"
+  7 = Early_Command_EmergencyRepair : CONTROLBAR:EmergencyRepair "&Naprawa pojazdów"
+
+Nuke_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Miny &kasetowe"
+  5 = Command_CashHack : CONTROLBAR:CashHack "e-&Kradzież pieniędzy"
+
+SupW_AmericaDozerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  7 = SupW_Command_ConstructAmericaPatriotBattery : CONTROLBAR:SupW_ConstructAmericaPatriotBattery "Sy&stem el-magn Patriot"
+
+SupW_AmericaStrategyCenterCommandSet has key conflict with
+  5 = Command_InitiateBattlePlanSearchAndDestroy : CONTROLBAR:InitiateBattlePlanSearchAndDestroy "Strategia wy&szukania i zniszczenia"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stop"
+
+SupW_AmericaAirfieldCommandSet has key conflict with
+  1 = SupW_Command_ConstructAmericaJetRaptor : CONTROLBAR:ConstructAmericaJetRaptor "&Raptor"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+Infa_ChinaCommandCenterCommandSet has key conflict with
+  1 = Infa_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Bul&dożer"
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Nalot &dywanowy"
+
+Infa_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  1 = Infa_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Bul&dożer"
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Nalot &dywanowy"
+
+Lazr_AmericaStrategyCenterCommandSet has key conflict with
+  2 = Command_CIAIntelligence : CONTROLBAR:CIAIntelligence "Wywiad &CIA"
+  8 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "Pan&cerz kompozytowy"
+
+Lazr_AmericaStrategyCenterCommandSet has key conflict with
+  5 = Command_InitiateBattlePlanSearchAndDestroy : CONTROLBAR:InitiateBattlePlanSearchAndDestroy "Strategia wy&szukania i zniszczenia"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stop"
+
+Lazr_AmericaAirfieldCommandSet has key conflict with
+  1 = Lazr_Command_ConstructAmericaJetRaptor : CONTROLBAR:ConstructAmericaJetRaptor "&Raptor"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  1 = Tank_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Bul&dożer"
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Nalot &dywanowy"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Miny &kasetowe"
+  5 = Command_CashHack : CONTROLBAR:CashHack "e-&Kradzież pieniędzy"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  1 = Tank_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Bul&dożer"
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Nalot &dywanowy"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Miny &kasetowe"
+  5 = Command_CashHack : CONTROLBAR:CashHack "e-&Kradzież pieniędzy"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  11 = Boss_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "Rakieta ato&mowa"
+  14 = Boss_Command_ConstructAmericaParticleCannonUplink : CONTROLBAR:ConstructAmericaParticleCannonUplink "&Miotacz cząstek"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  13 = Boss_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz &SCUD-ów"
+
+Boss_ChinaCommandCenterCommandSet has key conflict with
+  1 = Boss_Command_ConstructChinaDozer : CONTROLBAR:ConstructBossDozer "Bul&dożer"
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Nalot &dywanowy"
+
+Boss_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  1 = Boss_Command_ConstructChinaDozer : CONTROLBAR:ConstructBossDozer "Bul&dożer"
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Nalot &dywanowy"
+
+Boss_ChinaAirfieldCommandSet has key conflict with
+  4 = Boss_Command_ConstructAmericaJetAurora : CONTROLBAR:ConstructAmericaJetAurora "Bombowiec &Aurora"
+  7 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "P&ancerz MiG-a"
+
+Boss_ChinaAirfieldCommandSetUpgrade has key conflict with
+  4 = Boss_Command_ConstructAmericaJetAurora : CONTROLBAR:ConstructAmericaJetAurora "Bombowiec &Aurora"
+  7 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "P&ancerz MiG-a"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  1 = Boss_Command_ConstructAmericaInfantryRanger : CONTROLBAR:ConstructAmericaInfantryRanger "R&anger"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "H&aker"
+
+Boss_ChinaBarracksCommandSetUpgrade has key conflict with
+  1 = Boss_Command_ConstructAmericaInfantryRanger : CONTROLBAR:ConstructAmericaInfantryRanger "R&anger"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "H&aker"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "&Mściciel"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Miny"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  9 = Boss_Command_ConstructAmericaVehicleTomahawk : CONTROLBAR:ConstructAmericaVehicleTomahawk "&Tomahawk"
+  11 = Boss_Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Mo&tor bojowy"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  10 = Boss_Command_ConstructGLAVehicleRocketBuggy : CONTROLBAR:ConstructGLAVehicleRocketBuggy "Pojazd &rakietowy"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "&Mściciel"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Miny neutronowe"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  9 = Boss_Command_ConstructAmericaVehicleTomahawk : CONTROLBAR:ConstructAmericaVehicleTomahawk "&Tomahawk"
+  11 = Boss_Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Mo&tor bojowy"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  10 = Boss_Command_ConstructGLAVehicleRocketBuggy : CONTROLBAR:ConstructGLAVehicleRocketBuggy "Pojazd &rakietowy"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zbo&rny"
+
+Boss_AmericaParticleUplinkCannonCommandSet has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "Uruchomienie &Miotacza cząstek"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Miny"
+
+Boss_AmericaParticleUplinkCannonCommandSetUpgrade has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "Uruchomienie &Miotacza cząstek"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Miny neutronowe"
+
+Boss_GLAScudStormCommandSet has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "Zasobnik &amunicyjny"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "Wąglik bet&a"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "Zasobnik &amunicyjny"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "Wąglik bet&a"
+
+79 conflicts found

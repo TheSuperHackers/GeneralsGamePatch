@@ -1,0 +1,1193 @@
+GenericCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaDozerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "Complexe milit&aro-industriel"
+
+GLAWorkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Trafiquant d'&armes"
+
+GLAWorkerFakeBuildingsCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  4 = Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Décor Trafiquant d'&armes"
+
+ChinaDozerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_ConstructChinaWarFactory : CONTROLBAR:ConstructChinaWarFactory "Complexe milit&aro-industriel"
+
+AmericaInfantryRangerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaInfantryColonelBurtonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaInfantryCIAAgentCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaInfantryMissileDefenderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaInfantryPathfinderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaVehicleHumveeCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAInfantryRebelCommandSet has key conflict with
+  1 = Command_GLAInfantryRebelCaptureBuilding : CONTROLBAR:CaptureBuilding "&Prendre bâtiment"
+  2 = Command_GLAInfantryRebelBoobyTrapAttack : CONTROLBAR:BoobyTrapAttack "&Poser mines artisanales"
+
+GLAInfantryRebelCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAInfantryTunnelDefenderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAInfantryAngryMobCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAInfantryJarmenKellCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaVehicleComancheCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaVehicleSentryDroneCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAVehicleRocketBuggyCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAVehicleCombatBikeDefaultCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAVehicleCombatBikeJarmenKellCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLATankScorpionCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAVehicleScudLauncherCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAVehicleQuadCannon has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAVehicleToxinTruckCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAVehicleBombTruckCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAVehicleBattleBusCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLAVehicleTechnicalCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaJetMIGCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaInfantryRedguardCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaVehicleECMTankCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaInfantryTankHunterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaTroopCrawlerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaListeningOutpostCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaVehicleNukeCannonCommandSet has key conflict with
+  CommandMap SELECT_MATCHING_UNITS : "E"
+  3 = Command_ChinaNeutronWarhead : CONTROLBAR:NeutronWarhead "Obus à n&eutrons"
+
+ChinaVehicleNukeCannonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaVehicleBattleMasterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaVehicleGattlingTankCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaVehicleInfernoCannonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaTankDragonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaTankCrusaderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaTankPaladinCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaTankMicrowaveCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaTankAvengerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaVehicleAmbulanceCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaVehicleTomahawkCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaJetRaptorCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaJetAuroraCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaJetStealthFighterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GLATankMarauderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaTankBattlemasterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaTankOverlordDefaultCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaTankOverlordBattleBunkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaTankOverlordGattlingCannonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaTankOverlordPropagandaTowerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaVehicleHelixCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaHelixGattlingCannonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaHelixPropagandaTowerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+ChinaHelixBattleBunkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaCommandCenterCommandSet has key conflict with
+  2 = Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Spectre"
+  10 = Command_SpySatelliteScan : CONTROLBAR:SpySatellite "&Satellite-espion"
+
+AmericaCommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Command_A10ThunderboltMissileStrike : CONTROLBAR:A10ThunderboltMissileStrike "Bombardement &A10"
+
+AmericaAirfieldCommandSet has key conflict with
+  1 = Command_ConstructAmericaJetRaptor : CONTROLBAR:ConstructAmericaJetRaptor "&Raptor"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Point de &ralliement"
+
+AmericaAircraftCarrierCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  4 = Command_ConstructAmericaVehicleMedic : CONTROLBAR:ConstructAmericaVehicleMedic "&Ambulance"
+
+AmericaStrategyCenterCommandSet has key conflict with
+  5 = Command_InitiateBattlePlanSearchAndDestroy : CONTROLBAR:InitiateBattlePlanSearchAndDestroy "Plan : recherche et de&struction"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stopper"
+
+AmericaStrategyCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeAmericaAdvancedTraining : CONTROLBAR:UpgradeAmericaAdvancedTraining "Techniques d'entr&aînement"
+
+ChinaCommandCenterCommandSet has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Champ de &mines"
+
+ChinaCommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Mines à neutrons"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+ChinaBarracksCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Technopir&ate"
+
+ChinaBarracksCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Technopir&ate"
+
+ChinaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  1 = Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "M&aître de guerre"
+
+ChinaWarFactoryCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  1 = Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "M&aître de guerre"
+
+ChinaAirfieldCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+ChinaAirfieldCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Command_Ambush : CONTROLBAR:Ambush "Embusc&ade"
+
+GLAArmsDealerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Command_ConstructGLAVehicleToxinTruck : CONTROLBAR:ConstructGLAVehicleToxinTruck "Tr&acteur bactériologique"
+
+GLAPalaceCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "Beta-&Anthrax"
+
+CivilianCarBombCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GC_Chem_GLAWorkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = GC_Chem_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Trafiquant d'&armes"
+
+GC_Chem_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = GC_Chem_Command_Ambush : CONTROLBAR:Ambush "Embusc&ade"
+
+GC_Chem_GLAArmsDealerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = GC_Chem_Command_ConstructGLAVehicleToxinTruck : CONTROLBAR:ConstructGLAVehicleToxinTruck "Tr&acteur bactériologique"
+
+GC_Slth_GLAWorkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = GC_Slth_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Trafiquant d'&armes"
+
+GC_Slth_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Command_Ambush : CONTROLBAR:Ambush "Embusc&ade"
+
+GC_Slth_GLAInfantryJarmenKellCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+GC_Slth_GLAVehicleBattleBusCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AirF_AmericaDozerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = AirF_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "Complexe milit&aro-industriel"
+
+AirF_AmericaCommandCenterCommandSet has key conflict with
+  2 = AirF_Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Spectre"
+  10 = Command_SpySatelliteScan : CONTROLBAR:SpySatellite "&Satellite-espion"
+
+AirF_AmericaCommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = AirF_Command_A10ThunderboltMissileStrike : CONTROLBAR:A10ThunderboltMissileStrike "Bombardement &A10"
+
+AirF_AmericaStrategyCenterCommandSet has key conflict with
+  5 = Command_InitiateBattlePlanSearchAndDestroy : CONTROLBAR:InitiateBattlePlanSearchAndDestroy "Plan : recherche et de&struction"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stopper"
+
+AirF_AmericaStrategyCenterCommandSet has key conflict with
+  5 = Command_InitiateBattlePlanSearchAndDestroy : CONTROLBAR:InitiateBattlePlanSearchAndDestroy "Plan : recherche et de&struction"
+  12 = AirF_Command_CarpetBomb : CONTROLBAR:CarpetBomb "Tapi&s de bombes"
+
+AirF_AmericaStrategyCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeAmericaAdvancedTraining : CONTROLBAR:UpgradeAmericaAdvancedTraining "Techniques d'entr&aînement"
+
+AirF_AmericaStrategyCenterCommandSet has key conflict with
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stopper"
+  12 = AirF_Command_CarpetBomb : CONTROLBAR:CarpetBomb "Tapi&s de bombes"
+
+AirF_AmericaVehicleComancheCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AirF_AmericaVehicleChinookCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+AirF_AmericaSupplyCenterCommandSet has key conflict with
+  1 = AirF_Command_ConstructAFGChinook : CONTROLBAR:ConstructAmericaVehicleChinook "&Chinook"
+  3 = AirF_Command_ConstructAmericaVehicleChinook : CONTROLBAR:AirF_ConstructAmericaVehicleChinook "&Chinook de combat"
+
+AirF_AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  4 = AirF_Command_ConstructAmericaVehicleMedic : CONTROLBAR:ConstructAmericaVehicleMedic "&Ambulance"
+
+AirF_AmericaInfantryMissileDefenderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAWorkerCommandSet has key conflict with
+  CommandMap SCATTER : "X"
+  2 = Demo_Command_ConstructGLADemoTrap : CONTROLBAR:Demo_ConstructGLADemoTrap "Pièges e&xplosifs C-404"
+
+Demo_GLAWorkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Demo_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Trafiquant d'&armes"
+
+Demo_GLAWorkerFakeBuildingsCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  4 = Demo_Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Décor Trafiquant d'&armes"
+
+Demo_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Demo_Command_Ambush : CONTROLBAR:Ambush "Embusc&ade"
+
+Demo_GLAArmsDealerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Demo_Command_ConstructGLAVehicleToxinTruck : CONTROLBAR:ConstructGLAVehicleToxinTruck "Tr&acteur bactériologique"
+
+Demo_GLAInfantryRebelCommandSet has key conflict with
+  1 = Command_GLAInfantryRebelCaptureBuilding : CONTROLBAR:CaptureBuilding "&Prendre bâtiment"
+  2 = Command_GLAInfantryRebelBoobyTrapAttack : CONTROLBAR:BoobyTrapAttack "&Poser mines artisanales"
+
+Demo_GLAInfantryRebelCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAInfantryTunnelDefenderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAInfantryAngryMobCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAInfantryJarmenKellCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleQuadCannon has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleBombTruckCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleBattleBusCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleScudLauncherCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleCombatBikeDefaultCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleCombatBikeJarmenKellCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLATankScorpionCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleRocketBuggyCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleToxinTruckCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleTechnicalCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLATankMarauderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLATankMarauderCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleTechnicalCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleToxinTruckCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleRocketBuggyCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLATankScorpionCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAWorkerCommandSetUpgrade has key conflict with
+  CommandMap SCATTER : "X"
+  2 = Demo_Command_ConstructGLADemoTrap : CONTROLBAR:Demo_ConstructGLADemoTrap "Pièges e&xplosifs C-404"
+
+Demo_GLAWorkerCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Demo_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Trafiquant d'&armes"
+
+Demo_GLAWorkerFakeBuildingsCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  4 = Demo_Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Décor Trafiquant d'&armes"
+
+Demo_GLACommandCenterCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Demo_Command_Ambush : CONTROLBAR:Ambush "Embusc&ade"
+
+Demo_GLAArmsDealerCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Demo_Command_ConstructGLAVehicleToxinTruck : CONTROLBAR:ConstructGLAVehicleToxinTruck "Tr&acteur bactériologique"
+
+Demo_GLAInfantryRebelCommandSetUpgrade has key conflict with
+  1 = Command_GLAInfantryRebelCaptureBuilding : CONTROLBAR:CaptureBuilding "&Prendre bâtiment"
+  2 = Command_GLAInfantryRebelBoobyTrapAttack : CONTROLBAR:BoobyTrapAttack "&Poser mines artisanales"
+
+Demo_GLAInfantryRebelCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAInfantryTunnelDefenderCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAInfantryAngryMobCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAInfantryJarmenKellCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleQuadCannonUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleBombTruckCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleBattleBusCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleScudLauncherCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Demo_GLAVehicleCombatBikeDefaultCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Slth_GLAWorkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Slth_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Trafiquant d'&armes"
+
+Slth_GLAWorkerFakeBuildingsCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  4 = Slth_Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Décor Trafiquant d'&armes"
+
+Slth_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Command_Ambush : CONTROLBAR:Ambush "Embusc&ade"
+
+Slth_GLAPalaceCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "Beta-&Anthrax"
+
+Slth_GLABlackMarketCommandSet has key conflict with
+  5 = Command_UpgradeGLARadarVanScan : CONTROLBAR:UpgradeGLARadarVanScan "S&canner"
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "Filet de &camouflage"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Slth_Command_ConstructGLAVehicleToxinTruck : CONTROLBAR:ConstructGLAVehicleToxinTruck "Tr&acteur bactériologique"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de &combat"
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "Filet de &camouflage"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de &combat"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de &combat"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "Filet de &camouflage"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de &combat"
+
+Slth_GLAInfantryRebelCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Slth_GLAInfantryTunnelDefenderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Slth_GLAInfantryAngryMobCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Slth_GLAInfantryJarmenKellCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Slth_GLAVehicleQuadCannon has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Slth_GLAVehicleBombTruckCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Slth_GLAVehicleBattleBusCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Slth_GLAVehicleScudLauncherCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Chem_GLAWorkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Chem_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Trafiquant d'&armes"
+
+Chem_GLAWorkerFakeBuildingsCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  4 = Chem_Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Décor Trafiquant d'&armes"
+
+Chem_GLAVehicleBombTruckCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Chem_GLAVehicleScudLauncherCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Chem_GLACommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Chem_Command_Ambush : CONTROLBAR:Ambush "Embusc&ade"
+
+Chem_GLAArmsDealerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Chem_Command_ConstructGLAVehicleToxinTruck : CONTROLBAR:ConstructGLAVehicleToxinTruck "Tr&acteur bactériologique"
+
+Chem_GLAInfantryRebelCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaDozerCommandSet has key conflict with
+  1 = Nuke_Command_ConstructChinaPowerPlant : CONTROLBAR:Nuke_ConstructChinaPowerPlant "&Réacteur nucléaire de pointe"
+  3 = Nuke_Command_ConstructChinaBarracks : CONTROLBAR:ConstructChinaBarracks "Case&rne"
+
+Nuke_ChinaDozerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Nuke_Command_ConstructChinaWarFactory : CONTROLBAR:ConstructChinaWarFactory "Complexe milit&aro-industriel"
+
+Nuke_ChinaCommandCenterCommandSet has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Champ de &mines"
+
+Nuke_ChinaCommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+Nuke_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Mines à neutrons"
+
+Nuke_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+Nuke_ChinaBarracksCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Nuke_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Technopir&ate"
+
+Nuke_ChinaBarracksCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Nuke_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Technopir&ate"
+
+Nuke_ChinaInfantryMiniGunnerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  1 = Nuke_Command_ConstructChinaTankBattleMaster : CONTROLBAR:Nuke_ConstructChinaTankBattleMaster "M&aître de guerre nucléaire"
+
+Nuke_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  1 = Nuke_Command_ConstructChinaTankBattleMaster : CONTROLBAR:Nuke_ConstructChinaTankBattleMaster "M&aître de guerre nucléaire"
+
+Nuke_ChinaAirfieldCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+Nuke_ChinaAirfieldCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+Nuke_ChinaVehicleHelixCommandSet has key conflict with
+  7 = Nuke_Command_UpgradeChinaHelixNukeBomb : CONTROLBAR:UpgradeHelixNukeBomb "Bombe &atomique"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaVehicleHelixCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  7 = Nuke_Command_UpgradeChinaHelixNukeBomb : CONTROLBAR:UpgradeHelixNukeBomb "Bombe &atomique"
+
+Nuke_ChinaVehicleHelixCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaHelixGattlingCannonCommandSet has key conflict with
+  7 = Nuke_Command_UpgradeChinaHelixNukeBomb : CONTROLBAR:UpgradeHelixNukeBomb "Bombe &atomique"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaHelixGattlingCannonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  7 = Nuke_Command_UpgradeChinaHelixNukeBomb : CONTROLBAR:UpgradeHelixNukeBomb "Bombe &atomique"
+
+Nuke_ChinaHelixGattlingCannonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaHelixPropagandaTowerCommandSet has key conflict with
+  7 = Nuke_Command_UpgradeChinaHelixNukeBomb : CONTROLBAR:UpgradeHelixNukeBomb "Bombe &atomique"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaHelixPropagandaTowerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  7 = Nuke_Command_UpgradeChinaHelixNukeBomb : CONTROLBAR:UpgradeHelixNukeBomb "Bombe &atomique"
+
+Nuke_ChinaHelixPropagandaTowerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaHelixBattleBunkerCommandSet has key conflict with
+  7 = Nuke_Command_UpgradeChinaHelixNukeBomb : CONTROLBAR:UpgradeHelixNukeBomb "Bombe &atomique"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaHelixBattleBunkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  7 = Nuke_Command_UpgradeChinaHelixNukeBomb : CONTROLBAR:UpgradeHelixNukeBomb "Bombe &atomique"
+
+Nuke_ChinaHelixBattleBunkerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaVehicleBattleMasterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Nuke_ChinaListeningOutpostCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaDozerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = SupW_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "Complexe milit&aro-industriel"
+
+SupW_AmericaCommandCenterCommandSet has key conflict with
+  2 = AirF_Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Spectre"
+  10 = Command_SpySatelliteScan : CONTROLBAR:SpySatellite "&Satellite-espion"
+
+SupW_AmericaCommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Command_A10ThunderboltMissileStrike : CONTROLBAR:A10ThunderboltMissileStrike "Bombardement &A10"
+
+SupW_AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  4 = SupW_Command_ConstructAmericaVehicleMedic : CONTROLBAR:ConstructAmericaVehicleMedic "&Ambulance"
+
+SupW_AmericaStrategyCenterCommandSet has key conflict with
+  5 = Command_InitiateBattlePlanSearchAndDestroy : CONTROLBAR:InitiateBattlePlanSearchAndDestroy "Plan : recherche et de&struction"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stopper"
+
+SupW_AmericaStrategyCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeAmericaAdvancedTraining : CONTROLBAR:UpgradeAmericaAdvancedTraining "Techniques d'entr&aînement"
+
+SupW_AmericaVehicleComancheCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaAirfieldCommandSet has key conflict with
+  1 = SupW_Command_ConstructAmericaJetRaptor : CONTROLBAR:ConstructAmericaJetRaptor "&Raptor"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Point de &ralliement"
+
+SupW_AmericaInfantryColonelBurtonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaInfantryMissileDefenderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaInfantryRangerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaTankCrusaderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaVehicleTomahawkCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaVehicleHumveeCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaTankMicrowaveCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaVehicleAmbulanceCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaTankAvengerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaJetAuroraCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+SupW_AmericaTankPaladinCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Infa_ChinaDozerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Infa_Command_ConstructChinaWarFactory : CONTROLBAR:ConstructChinaWarFactory "Complexe milit&aro-industriel"
+
+Infa_ChinaCommandCenterCommandSet has key conflict with
+  3 = Infa_Command_Paradrop : CONTROLBAR:Paradrop "Parachut&istes"
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Mines à fragmentat&ion"
+
+Infa_ChinaCommandCenterCommandSet has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Champ de &mines"
+
+Infa_ChinaCommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+Infa_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  3 = Infa_Command_Paradrop : CONTROLBAR:Paradrop "Parachut&istes"
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Mines à fragmentat&ion"
+
+Infa_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Mines à neutrons"
+
+Infa_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+Infa_ChinaBarracksCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super technopir&ate"
+
+Infa_ChinaBarracksCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super technopir&ate"
+
+Infa_ChinaInfantryMiniGunnerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Infa_ChinaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Tr&ansporteur d'assaut"
+
+Infa_ChinaWarFactoryCommandSet has key conflict with
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "P&oste d'écoute amélioré"
+  9 = Infa_Command_ConstructChinaVehicleInfernoCannon : CONTROLBAR:ConstructChinaVehicleInfernoCannon "Napacan&on"
+
+Infa_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Tr&ansporteur d'assaut"
+
+Infa_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "P&oste d'écoute amélioré"
+  9 = Infa_Command_ConstructChinaVehicleInfernoCannon : CONTROLBAR:ConstructChinaVehicleInfernoCannon "Napacan&on"
+
+Infa_ChinaAirfieldCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Infa_Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+Infa_ChinaAirfieldCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Infa_Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+Infa_ChinaTroopCrawlerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Infa_ChinaListeningOutpostCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Infa_ChinaVehicleHelixCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Infa_ChinaHelixBombCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaDozerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Lazr_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "Complexe milit&aro-industriel"
+
+Lazr_AmericaCommandCenterCommandSet has key conflict with
+  2 = Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Spectre"
+  10 = Command_SpySatelliteScan : CONTROLBAR:SpySatellite "&Satellite-espion"
+
+Lazr_AmericaCommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Command_A10ThunderboltMissileStrike : CONTROLBAR:A10ThunderboltMissileStrike "Bombardement &A10"
+
+Lazr_AmericaStrategyCenterCommandSet has key conflict with
+  5 = Command_InitiateBattlePlanSearchAndDestroy : CONTROLBAR:InitiateBattlePlanSearchAndDestroy "Plan : recherche et de&struction"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stopper"
+
+Lazr_AmericaStrategyCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeAmericaAdvancedTraining : CONTROLBAR:UpgradeAmericaAdvancedTraining "Techniques d'entr&aînement"
+
+Lazr_AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  4 = Lazr_Command_ConstructAmericaVehicleMedic : CONTROLBAR:ConstructAmericaVehicleMedic "&Ambulance"
+
+Lazr_AmericaAirfieldCommandSet has key conflict with
+  1 = Lazr_Command_ConstructAmericaJetRaptor : CONTROLBAR:ConstructAmericaJetRaptor "&Raptor"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Point de &ralliement"
+
+Lazr_AmericaVehicleComancheCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaJetStealthFighterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaInfantryRangerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaInfantryColonelBurtonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaTankAvengerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaTankCrusaderCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaVehicleHumveeCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaTankMicrowaveCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaVehicleAmbulanceCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaTankPaladinCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Lazr_AmericaVehicleSentryDroneCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Tank_ChinaDozerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Tank_Command_ConstructChinaWarFactory : CONTROLBAR:ConstructChinaWarFactory "Complexe milit&aro-industriel"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Champ de &mines"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Mines à neutrons"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+Tank_ChinaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  1 = Tank_Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "M&aître de guerre"
+
+Tank_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  1 = Tank_Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "M&aître de guerre"
+
+Tank_ChinaPropagandaCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Tank_Command_UpgradeChinaAutoLoader : CONTROLBAR:UpgradeChinaTankAutoLoader "Chargeur &auto"
+
+Tank_ChinaPropagandaCenterCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Tank_Command_UpgradeChinaAutoLoader : CONTROLBAR:UpgradeChinaTankAutoLoader "Chargeur &auto"
+
+Tank_ChinaVehicleBattleMasterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Tank_ChinaTankOverlordGattlingCannonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Tank_ChinaTankOverlordPropagandaTowerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Tank_ChinaTankEmperorDefaultCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Tank_ChinaVehicleGattlingTankCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Tank_ChinaVehicleECMTankCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Attaquer"
+
+Tank_ChinaBarracksCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Tank_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Technopir&ate"
+
+Tank_ChinaBarracksCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  3 = Tank_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Technopir&ate"
+
+Tank_ChinaAirfieldCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+Tank_ChinaAirfieldCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  1 = Boss_Command_ConstructAmericaPowerPlant : CONTROLBAR:ConstructAmericaPowerPlant "Réacteur à f&usion froide"
+  13 = Boss_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Scuds m&ultiples"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  6 = Boss_Command_ConstructAmericaPatriotBattery : CONTROLBAR:ConstructAmericaPatriotBattery "Systè&me défensif Patriot"
+  11 = Boss_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "&Missile nucléaire"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  7 = Boss_Command_ConstructChinaWarFactory : CONTROLBAR:ConstructChinaWarFactory "Complexe milit&aro-industriel"
+
+Boss_ChinaCommandCenterCommandSet has key conflict with
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Tapi&s de bombes"
+  5 = Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Spectre"
+
+Boss_ChinaCommandCenterCommandSet has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Champ de &mines"
+
+Boss_ChinaCommandCenterCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+Boss_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Tapi&s de bombes"
+  5 = Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Spectre"
+
+Boss_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Bo&mbe IEM"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Mines à neutrons"
+
+Boss_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  9 = Command_UpgradeChinaRadar : CONTROLBAR:UpgradeChinaRadar "R&adar"
+
+Boss_ChinaAirfieldCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  7 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+Boss_ChinaAirfieldCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  7 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Mig fusel&age renforcé"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  2 = Boss_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Lotus &Noir"
+  6 = Boss_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Colonel Burto&n"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Technopir&ate"
+
+Boss_ChinaBarracksCommandSetUpgrade has key conflict with
+  2 = Boss_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Lotus &Noir"
+  6 = Boss_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Colonel Burto&n"
+
+Boss_ChinaBarracksCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Technopir&ate"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  1 = Boss_Command_ConstructAmericaVehiclePaladin : CONTROLBAR:ConstructAmericaTankPaladin "&Paladin"
+  2 = Boss_Command_ConstructChinaTankOverlord : CONTROLBAR:ConstructChinaTankOverlord "Em&pereur"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Ven&geur"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Char &Gattling"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "&Cadences rapides"
+  11 = Boss_Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de &combat"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  1 = Boss_Command_ConstructAmericaVehiclePaladin : CONTROLBAR:ConstructAmericaTankPaladin "&Paladin"
+  2 = Boss_Command_ConstructChinaTankOverlord : CONTROLBAR:ConstructChinaTankOverlord "Em&pereur"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Ven&geur"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Char &Gattling"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "&Cadences rapides"
+  11 = Boss_Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de &combat"
+
+Boss_AmericaParticleUplinkCannonCommandSet has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "Canon à &particules"
+  6 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "Blindage com&posite"
+
+Boss_AmericaParticleUplinkCannonCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  8 = Command_UpgradeAmericaAdvancedTraining : CONTROLBAR:UpgradeAmericaAdvancedTraining "Techniques d'entr&aînement"
+
+Boss_AmericaParticleUplinkCannonCommandSetUpgrade has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "Canon à &particules"
+  6 = Command_UpgradeAmericaCompositeArmor : CONTROLBAR:UpgradeAmericaCompositeArmor "Blindage com&posite"
+
+Boss_AmericaParticleUplinkCannonCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  8 = Command_UpgradeAmericaAdvancedTraining : CONTROLBAR:UpgradeAmericaAdvancedTraining "Techniques d'entr&aînement"
+
+Boss_GLAScudStormCommandSet has key conflict with
+  CommandMap SELECT_ALL : "A"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "Beta-&Anthrax"
+
+Boss_GLAScudStormCommandSet has key conflict with
+  8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Armer les é&meutiers"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Champ de &mines"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  CommandMap SELECT_ALL : "A"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "Beta-&Anthrax"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Armer les é&meutiers"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Mines à neutrons"
+
+Boss_ChinaNuclearMissileCommandSet has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "Missile &nucléaire"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "&Nationalisme"
+
+Boss_ChinaNuclearMissileCommandSetUpgrade has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "Missile &nucléaire"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "&Nationalisme"
+
+298 conflicts found

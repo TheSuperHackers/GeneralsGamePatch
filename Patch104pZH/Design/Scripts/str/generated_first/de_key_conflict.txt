@@ -1,0 +1,401 @@
+AmericaDozerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  2 = Command_ConstructAmericaStrategyCenter : CONTROLBAR:ConstructAmericaStrategyCenter "&Strategiezentrum"
+
+GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  5 = Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "&Stingerstellung"
+
+GLAVehicleBombTruckCommandSet has key conflict with
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "&Säurebomben"
+  14 = Command_Stop : CONTROLBAR:Stop "&Stopp"
+
+GLAVehicleBombTruckCommandSet has key conflict with
+  CommandMap STOP : "S"
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "&Säurebomben"
+
+ChinaVehicleNukeCannonCommandSet has key conflict with
+  CommandMap SELECT_MATCHING_UNITS : "E"
+  3 = Command_ChinaNeutronWarhead : CONTROLBAR:NeutronWarhead "N&eutronengranaten"
+
+ChinaVehicleHelixCommandSet has key conflict with
+  9 = Command_ChinaHelixDropNapalmBomb : CONTROLBAR:DropNapalmBomb "&Werfen Sie eine Napalmbombe ab."
+  13 = Command_Guard : CONTROLBAR:Guard "Be&wachen"
+
+ChinaHelixGattlingCannonCommandSet has key conflict with
+  9 = Command_ChinaHelixDropNapalmBomb : CONTROLBAR:DropNapalmBomb "&Werfen Sie eine Napalmbombe ab."
+  13 = Command_Guard : CONTROLBAR:Guard "Be&wachen"
+
+ChinaHelixPropagandaTowerCommandSet has key conflict with
+  9 = Command_ChinaHelixDropNapalmBomb : CONTROLBAR:DropNapalmBomb "&Werfen Sie eine Napalmbombe ab."
+  13 = Command_Guard : CONTROLBAR:Guard "Be&wachen"
+
+ChinaHelixBattleBunkerCommandSet has key conflict with
+  9 = Command_ChinaHelixDropNapalmBomb : CONTROLBAR:DropNapalmBomb "&Werfen Sie eine Napalmbombe ab."
+  13 = Command_Guard : CONTROLBAR:Guard "Be&wachen"
+
+AmericaAirfieldCommandSet has key conflict with
+  10 = Command_UpgradeAmericaBunkerBusters : CONTROLBAR:UpgradeAmericaBunkerBusters "B&unker Buster"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Sammelp&unkt"
+
+AmericaBarracksCommandSet has key conflict with
+  2 = Command_ConstructAmericaInfantryMissileDefender : CONTROLBAR:ConstructAmericaInfantryMissileDefender "Raketen-&Bot"
+  3 = Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Kommando&bot"
+
+AmericaStrategyCenterCommandSet has key conflict with
+  3 = Command_InitiateBattlePlanHoldTheLine : CONTROLBAR:InitiateBattlePlanHoldTheLine "Schlachtplan \"&Stellung halten\"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stopp"
+
+ChinaCommandCenterCommandSet has key conflict with
+  1 = Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "&Bulldozer"
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "&Bombenteppich"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  1 = Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "&Bulldozer"
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "&Bombenteppich"
+
+ChinaWarFactoryCommandSet has key conflict with
+  4 = Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Horchpo&sten"
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "&Schwarzes Napalm"
+
+ChinaWarFactoryCommandSetUpgrade has key conflict with
+  4 = Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Horchpo&sten"
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "&Schwarzes Napalm"
+
+GLACommandCenterCommandSet has key conflict with
+  5 = Command_Ambush : CONTROLBAR:Ambush "Hi&nterhalt"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "Schleicha&ngriff"
+
+GLAPalaceCommandSet has key conflict with
+  10 = Command_UpgradeGLAToxinShells : CONTROLBAR:UpgradeGLAToxinShells "&Säuregranaten"
+  13 = Command_Stop : CONTROLBAR:Stop "&Stopp"
+
+GC_Chem_GLAWorkerCommandSet has key conflict with
+  5 = GC_Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "&Stingerstellung"
+  7 = GC_Chem_Command_ConstructGLATunnelNetwork : CONTROLBAR:Chem_ConstructGLATunnelNetwork "&Säure-Tunnelsystem"
+
+GC_Chem_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  5 = GC_Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "&Stingerstellung"
+
+GC_Chem_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  7 = GC_Chem_Command_ConstructGLATunnelNetwork : CONTROLBAR:Chem_ConstructGLATunnelNetwork "&Säure-Tunnelsystem"
+
+GC_Chem_GLABarracksCommandSet has key conflict with
+  1 = GC_Chem_Command_ConstructGLAInfantryRebel : CONTROLBAR:Chem_ConstructGLAInfantryRebel "&Säure-Cyborg"
+  3 = GC_Chem_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:Chem_ConstructGLAInfantryTerrorist "&Säure-Bombe"
+
+GC_Chem_GLACommandCenterCommandSet has key conflict with
+  3 = GC_Chem_Command_Ambush : CONTROLBAR:Ambush "Hi&nterhalt"
+  6 = Command_SneakAttack : CONTROLBAR:SneakAttack "Schleicha&ngriff"
+
+GC_Slth_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  5 = GC_Slth_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "&Stingerstellung"
+
+GC_Slth_GLACommandCenterCommandSet has key conflict with
+  5 = Command_Ambush : CONTROLBAR:Ambush "Hi&nterhalt"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "Schleicha&ngriff"
+
+AirF_AmericaDozerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  2 = AirF_Command_ConstructAmericaStrategyCenter : CONTROLBAR:ConstructAmericaStrategyCenter "&Strategiezentrum"
+
+AirF_AmericaStrategyCenterCommandSet has key conflict with
+  1 = Command_InitiateBattlePlanBombardment : CONTROLBAR:InitiateBattlePlanBombardment "Schlachtplan \"&Bombardement\"
+  12 = AirF_Command_CarpetBomb : CONTROLBAR:CarpetBomb "&Bombenteppich"
+
+AirF_AmericaStrategyCenterCommandSet has key conflict with
+  3 = Command_InitiateBattlePlanHoldTheLine : CONTROLBAR:InitiateBattlePlanHoldTheLine "Schlachtplan \"&Stellung halten\"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stopp"
+
+AirF_AmericaBarracksCommandSet has key conflict with
+  2 = AirF_Command_ConstructAmericaInfantryMissileDefender : CONTROLBAR:ConstructAmericaInfantryMissileDefender "Raketen-&Bot"
+  3 = AirF_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Kommando&bot"
+
+AirF_AmericaAirfieldCommandSet has key conflict with
+  1 = AirF_Command_ConstructAmericaJetRaptor : CONTROLBAR:ConstructAmericaJetKingRaptor "King Rap&tor"
+  4 = AirF_Command_ConstructAmericaJetStealthFighter : CONTROLBAR:ConstructAmericaJetStealthFighter "&Tarnkappenbomber"
+
+AirF_AmericaAirfieldCommandSet has key conflict with
+  10 = Command_UpgradeAmericaBunkerBusters : CONTROLBAR:UpgradeAmericaBunkerBusters "B&unker Buster"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Sammelp&unkt"
+
+AirF_AmericaVehicleChinookCommandSet has key conflict with
+  10 = Command_CombatDrop : CONTROLBAR:CombatDrop "Einheiten &absetzen"
+  11 = Command_AttackMove : CONTROLBAR:AttackMove "&Angreifen"
+
+AirF_AmericaSupplyCenterCommandSet has key conflict with
+  1 = AirF_Command_ConstructAFGChinook : CONTROLBAR:ConstructAmericaVehicleChinook "&Chinook"
+  3 = AirF_Command_ConstructAmericaVehicleChinook : CONTROLBAR:AirF_ConstructAmericaVehicleChinook "&Chinook"
+
+Demo_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  5 = Demo_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "&Stingerstellung"
+
+Demo_GLACommandCenterCommandSet has key conflict with
+  5 = Demo_Command_Ambush : CONTROLBAR:Ambush "Hi&nterhalt"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "Schleicha&ngriff"
+
+Demo_GLAWorkerCommandSetUpgrade has key conflict with
+  CommandMap STOP : "S"
+  5 = Demo_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "&Stingerstellung"
+
+Demo_GLACommandCenterCommandSetUpgrade has key conflict with
+  5 = Demo_Command_Ambush : CONTROLBAR:Ambush "Hi&nterhalt"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "Schleicha&ngriff"
+
+Slth_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  5 = Slth_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "&Stingerstellung"
+
+Slth_GLACommandCenterCommandSet has key conflict with
+  5 = Command_Ambush : CONTROLBAR:Ambush "Hi&nterhalt"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "Schleicha&ngriff"
+
+Slth_GLACommandCenterCommandSet has key conflict with
+  5 = Command_Ambush : CONTROLBAR:Ambush "Hi&nterhalt"
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "Tarn&netze"
+
+Slth_GLACommandCenterCommandSet has key conflict with
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "Schleicha&ngriff"
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "Tarn&netze"
+
+Slth_GLAVehicleBombTruckCommandSet has key conflict with
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "&Säurebomben"
+  14 = Command_Stop : CONTROLBAR:Stop "&Stopp"
+
+Slth_GLAVehicleBombTruckCommandSet has key conflict with
+  CommandMap STOP : "S"
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "&Säurebomben"
+
+Chem_GLAWorkerCommandSet has key conflict with
+  5 = Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "&Stingerstellung"
+  7 = Chem_Command_ConstructGLATunnelNetwork : CONTROLBAR:Chem_ConstructGLATunnelNetwork "&Säure-Tunnelsystem"
+
+Chem_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  5 = Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "&Stingerstellung"
+
+Chem_GLAWorkerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  7 = Chem_Command_ConstructGLATunnelNetwork : CONTROLBAR:Chem_ConstructGLATunnelNetwork "&Säure-Tunnelsystem"
+
+Chem_GLABarracksCommandSet has key conflict with
+  1 = Chem_Command_ConstructGLAInfantryRebel : CONTROLBAR:Chem_ConstructGLAInfantryRebel "&Säure-Cyborg"
+  3 = Chem_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:Chem_ConstructGLAInfantryTerrorist "&Säure-Bombe"
+
+Chem_GLAVehicleBombTruckCommandSet has key conflict with
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "&Säurebomben"
+  14 = Command_Stop : CONTROLBAR:Stop "&Stopp"
+
+Chem_GLAVehicleBombTruckCommandSet has key conflict with
+  CommandMap STOP : "S"
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "&Säurebomben"
+
+Chem_GLACommandCenterCommandSet has key conflict with
+  5 = Chem_Command_Ambush : CONTROLBAR:Ambush "Hi&nterhalt"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "Schleicha&ngriff"
+
+Nuke_ChinaWarFactoryCommandSet has key conflict with
+  4 = Nuke_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Horchpo&sten"
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "&Schwarzes Napalm"
+
+Nuke_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  4 = Nuke_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Horchpo&sten"
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "&Schwarzes Napalm"
+
+Nuke_ChinaVehicleHelixCommandSet has key conflict with
+  9 = Nuke_Command_ChinaHelixDropNukeBomb : CONTROLBAR:DropNukeBomb "&Werfen Sie eine Atombombe ab."
+  13 = Command_Guard : CONTROLBAR:Guard "Be&wachen"
+
+Nuke_ChinaHelixGattlingCannonCommandSet has key conflict with
+  9 = Nuke_Command_ChinaHelixDropNukeBomb : CONTROLBAR:DropNukeBomb "&Werfen Sie eine Atombombe ab."
+  13 = Command_Guard : CONTROLBAR:Guard "Be&wachen"
+
+Nuke_ChinaHelixPropagandaTowerCommandSet has key conflict with
+  9 = Nuke_Command_ChinaHelixDropNukeBomb : CONTROLBAR:DropNukeBomb "&Werfen Sie eine Atombombe ab."
+  13 = Command_Guard : CONTROLBAR:Guard "Be&wachen"
+
+Nuke_ChinaHelixBattleBunkerCommandSet has key conflict with
+  9 = Nuke_Command_ChinaHelixDropNukeBomb : CONTROLBAR:DropNukeBomb "&Werfen Sie eine Atombombe ab."
+  13 = Command_Guard : CONTROLBAR:Guard "Be&wachen"
+
+SupW_AmericaDozerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  2 = SupW_Command_ConstructAmericaStrategyCenter : CONTROLBAR:ConstructAmericaStrategyCenter "&Strategiezentrum"
+
+SupW_AmericaBarracksCommandSet has key conflict with
+  2 = SupW_Command_ConstructAmericaInfantryMissileDefender : CONTROLBAR:ConstructAmericaInfantryMissileDefender "Raketen-&Bot"
+  3 = SupW_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Kommando&bot"
+
+SupW_AmericaStrategyCenterCommandSet has key conflict with
+  3 = Command_InitiateBattlePlanHoldTheLine : CONTROLBAR:InitiateBattlePlanHoldTheLine "Schlachtplan \"&Stellung halten\"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stopp"
+
+SupW_AmericaAirfieldCommandSet has key conflict with
+  10 = Command_UpgradeAmericaBunkerBusters : CONTROLBAR:UpgradeAmericaBunkerBusters "B&unker Buster"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Sammelp&unkt"
+
+Infa_ChinaDozerCommandSet has key conflict with
+  3 = Infa_Command_ConstructChinaBarracks : CONTROLBAR:ConstructChinaBarracks "Cyborg-&Kaserne"
+  7 = Infa_Command_ConstructChinaBunker : CONTROLBAR:Infa_ConstructChinaBunker "Befestigter Bun&ker"
+
+Infa_ChinaCommandCenterCommandSet has key conflict with
+  1 = Infa_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "&Bulldozer"
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "&Bombenteppich"
+
+Infa_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  1 = Infa_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "&Bulldozer"
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "&Bombenteppich"
+
+Infa_ChinaBarracksCommandSet has key conflict with
+  3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "&Super-Hacker"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "&Super-Bot"
+
+Infa_ChinaBarracksCommandSetUpgrade has key conflict with
+  3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "&Super-Hacker"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "&Super-Bot"
+
+Infa_ChinaWarFactoryCommandSet has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "&Horchposten"
+
+Infa_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "&Horchposten"
+
+Infa_ChinaAirfieldCommandSet has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  3 = Infa_Command_ConstructChinaVehicleHelix : CONTROLBAR:Infa_ConstructChinaVehicleHelix "&Helix"
+
+Infa_ChinaAirfieldCommandSetUpgrade has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  3 = Infa_Command_ConstructChinaVehicleHelix : CONTROLBAR:Infa_ConstructChinaVehicleHelix "&Helix"
+
+Infa_ChinaHelixBombCommandSet has key conflict with
+  9 = Command_ChinaHelixDropNapalmBomb : CONTROLBAR:DropNapalmBomb "&Werfen Sie eine Napalmbombe ab."
+  13 = Command_Guard : CONTROLBAR:Guard "Be&wachen"
+
+Lazr_AmericaDozerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  2 = Lazr_Command_ConstructAmericaStrategyCenter : CONTROLBAR:ConstructAmericaStrategyCenter "&Strategiezentrum"
+
+Lazr_AmericaStrategyCenterCommandSet has key conflict with
+  3 = Command_InitiateBattlePlanHoldTheLine : CONTROLBAR:InitiateBattlePlanHoldTheLine "Schlachtplan \"&Stellung halten\"
+  11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "&Stopp"
+
+Lazr_AmericaBarracksCommandSet has key conflict with
+  2 = Lazr_Command_ConstructAmericaInfantryMissileDefender : CONTROLBAR:ConstructAmericaInfantryMissileDefender "Raketen-&Bot"
+  3 = Lazr_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Kommando&bot"
+
+Lazr_AmericaAirfieldCommandSet has key conflict with
+  10 = Command_UpgradeAmericaBunkerBusters : CONTROLBAR:UpgradeAmericaBunkerBusters "B&unker Buster"
+  13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Sammelp&unkt"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  1 = Tank_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "&Bulldozer"
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "&Bombenteppich"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  3 = Tank_Command_TankParadrop : CONTROLBAR:TankParadrop "&Panzer-Abwurf"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "EM&P-Angriff"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  1 = Tank_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "&Bulldozer"
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "&Bombenteppich"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  3 = Tank_Command_TankParadrop : CONTROLBAR:TankParadrop "&Panzer-Abwurf"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "EM&P-Angriff"
+
+Tank_ChinaWarFactoryCommandSet has key conflict with
+  4 = Tank_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Horchpo&sten"
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "&Schwarzes Napalm"
+
+Tank_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  4 = Tank_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Horchpo&sten"
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "&Schwarzes Napalm"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  2 = Boss_Command_ConstructChinaBunker : CONTROLBAR:ConstructChinaBunker "&Bunker"
+  6 = Boss_Command_ConstructAmericaPatriotBattery : CONTROLBAR:ConstructAmericaPatriotBattery "Patriot-&Batterie"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  8 = Boss_Command_ConstructGLATunnelNetwork : CONTROLBAR:ConstructGLATunnelNetwork "&Tunnelsystem"
+  10 = Boss_Command_ConstructChinaSpeakerTower : CONTROLBAR:ConstructChinaSpeakerTower "Propaganda&turm"
+
+Boss_ChinaCommandCenterCommandSet has key conflict with
+  1 = Boss_Command_ConstructChinaDozer : CONTROLBAR:ConstructBossDozer "&Bulldozer"
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "&Bombenteppich"
+
+Boss_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  1 = Boss_Command_ConstructChinaDozer : CONTROLBAR:ConstructBossDozer "&Bulldozer"
+  2 = Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "&Bombenteppich"
+
+Boss_ChinaAirfieldCommandSet has key conflict with
+  8 = Command_UpgradeAmericaLaserMissiles : CONTROLBAR:UpgradeAmericaLaserMissiles "Laser-&Lenkraketen"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Landminen"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  2 = Boss_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "&Black Bot"
+  6 = Boss_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Kommando&bot"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  11 = Command_UpgradeAmericaRangerFlashBangGrenade : CONTROLBAR:UpgradeAmericaFlashBangGrenade "B&lendgranaten"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Landminen"
+
+Boss_ChinaBarracksCommandSetUpgrade has key conflict with
+  2 = Boss_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "&Black Bot"
+  6 = Boss_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:ConstructAmericaInfantryColonelBurton "Kommando&bot"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Aven&ger"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "&Gatling-Panzer"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  4 = Boss_Command_ConstructAmericaVehicleSentryDrone : CONTROLBAR:ConstructAmericaVehicleSentryDrone "Überwachung&sdrohne"
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "&Schwarzes Napalm"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Aven&ger"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "&Gatling-Panzer"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  4 = Boss_Command_ConstructAmericaVehicleSentryDrone : CONTROLBAR:ConstructAmericaVehicleSentryDrone "Überwachung&sdrohne"
+  8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "&Schwarzes Napalm"
+
+Boss_AmericaParticleUplinkCannonCommandSet has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "&Partikelkanone abfeuern"
+  8 = Command_UpgradeAmericaAdvancedTraining : CONTROLBAR:UpgradeAmericaAdvancedTraining "S&pezialtraining"
+
+Boss_AmericaParticleUplinkCannonCommandSetUpgrade has key conflict with
+  1 = Command_FireParticleUplinkCannon : CONTROLBAR:FireParticleUplinkCannon "&Partikelkanone abfeuern"
+  8 = Command_UpgradeAmericaAdvancedTraining : CONTROLBAR:UpgradeAmericaAdvancedTraining "S&pezialtraining"
+
+Boss_GLAScudStormCommandSet has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "&Buggy-Munition"
+  8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Cyborg-Trupp &bewaffnen"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  6 = Command_UpgradeGLABuggyAmmo : CONTROLBAR:UpgradeGLABuggyAmmo "&Buggy-Munition"
+  8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Cyborg-Trupp &bewaffnen"
+
+Boss_ChinaNuclearMissileCommandSet has key conflict with
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "&Nationalismus"
+  8 = Command_UpgradeChinaNuclearTanks : CONTROLBAR:UpgradeChinaNuclearTanks "&Nuklearpanzer"
+
+Boss_ChinaNuclearMissileCommandSet has key conflict with
+  6 = Command_UpgradeChinaSubliminalMessaging : CONTROLBAR:UpgradeChinaSubliminalMessaging "&Unterbewusste Beeinflussung"
+  7 = Command_UpgradeChinaUraniumShells : CONTROLBAR:UpgradeChinaUraniumShells "&Urangranaten"
+
+Boss_ChinaNuclearMissileCommandSetUpgrade has key conflict with
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "&Nationalismus"
+  8 = Command_UpgradeChinaNuclearTanks : CONTROLBAR:UpgradeChinaNuclearTanks "&Nuklearpanzer"
+
+Boss_ChinaNuclearMissileCommandSetUpgrade has key conflict with
+  6 = Command_UpgradeChinaSubliminalMessaging : CONTROLBAR:UpgradeChinaSubliminalMessaging "&Unterbewusste Beeinflussung"
+  7 = Command_UpgradeChinaUraniumShells : CONTROLBAR:UpgradeChinaUraniumShells "&Urangranaten"
+
+100 conflicts found

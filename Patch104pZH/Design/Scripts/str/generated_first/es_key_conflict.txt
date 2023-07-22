@@ -1,0 +1,557 @@
+AmericaTransportCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+CivilianTransportCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+AmericaVehicleHumveeCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+GLAInfantryRebelCommandSet has key conflict with
+  1 = Command_GLAInfantryRebelCaptureBuilding : CONTROLBAR:CaptureBuilding "&Tomar edificio"
+  2 = Command_GLAInfantryRebelBoobyTrapAttack : CONTROLBAR:BoobyTrapAttack "Ataque &trampa explosiva"
+
+GLAInfantryHijackerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  1 = Command_GLAInfantryHijack : CONTROLBAR:Hijack "&Secuestrar"
+
+AmericaVehicleComancheCommandSet has key conflict with
+  1 = Command_AmericaVehicleComancheFireRocketPods : CONTROLBAR:FireRocketPods "&Disparar cohetes"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+GLAVehicleCombatBikeDefaultCommandSet has key conflict with
+  1 = Command_ScuttleCombatBike : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+GLAVehicleCombatBikeJarmenKellCommandSet has key conflict with
+  1 = Command_ScuttleCombatBike : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+GLAVehicleBombTruckCommandSet has key conflict with
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Camuflar como &vehículo"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+GLAVehicleBattleBusCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+GLAVehicleRadarVanCommandSet has key conflict with
+  1 = Command_RadarVanScan : CONTROLBAR:RadarVanScan "Barrido del ra&dar"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+GLAVehicleTechnicalCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+ChinaInfantryBlackLotusCommandSet has key conflict with
+  3 = Command_ChinaInfantryBlackLotusVehicleHack : CONTROLBAR:DisableVehicleHack "&Pirateo de vehículo"
+  5 = Command_ChinaInfantryBlackLotusCashHack : CONTROLBAR:StealCashHack "&Pirateo de dinero"
+
+ChinaInfantryHackerCommandSet has key conflict with
+  1 = Command_ChinaInfantryHackerDisableBuilding : CONTROLBAR:DisableBuildingHack "&Desactivar edificio"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+ChinaVehicleECMTankCommandSet has key conflict with
+  1 = Command_ChinaTankECMDisableVehicle : CONTROLBAR:ECMDisableVehicle "&Desactivar vehículo"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+ChinaTroopCrawlerCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+ChinaListeningOutpostCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+ChinaVehicleNukeCannonCommandSet has key conflict with
+  CommandMap SELECT_MATCHING_UNITS : "E"
+  3 = Command_ChinaNeutronWarhead : CONTROLBAR:NeutronWarhead "Proyectiles de n&eutrones"
+
+AmericaVehicleAmbulanceCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+ChinaTankOverlordBattleBunkerCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+ChinaVehicleHelixCommandSet has key conflict with
+  7 = Command_UpgradeChinaHelixNapalmBomb : CONTROLBAR:UpgradeHelixNapalmBomb "Bomba de &napalm"
+  9 = Command_ChinaHelixDropNapalmBomb : CONTROLBAR:DropNapalmBomb "Lanza una bomba de &napalm"
+
+ChinaVehicleHelixCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+ChinaHelixGattlingCannonCommandSet has key conflict with
+  7 = Command_UpgradeChinaHelixNapalmBomb : CONTROLBAR:UpgradeHelixNapalmBomb "Bomba de &napalm"
+  9 = Command_ChinaHelixDropNapalmBomb : CONTROLBAR:DropNapalmBomb "Lanza una bomba de &napalm"
+
+ChinaHelixGattlingCannonCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+ChinaHelixPropagandaTowerCommandSet has key conflict with
+  7 = Command_UpgradeChinaHelixNapalmBomb : CONTROLBAR:UpgradeHelixNapalmBomb "Bomba de &napalm"
+  9 = Command_ChinaHelixDropNapalmBomb : CONTROLBAR:DropNapalmBomb "Lanza una bomba de &napalm"
+
+ChinaHelixPropagandaTowerCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+ChinaHelixBattleBunkerCommandSet has key conflict with
+  7 = Command_UpgradeChinaHelixNapalmBomb : CONTROLBAR:UpgradeHelixNapalmBomb "Bomba de &napalm"
+  9 = Command_ChinaHelixDropNapalmBomb : CONTROLBAR:DropNapalmBomb "Lanza una bomba de &napalm"
+
+ChinaHelixBattleBunkerCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+AmericaCommandCenterCommandSet has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  2 = Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Helicóptero Spectre"
+
+AmericaCommandCenterCommandSet has key conflict with
+  7 = Command_SpyDrone : CONTROLBAR:SpyDrone "E&spía teledirigido"
+  10 = Command_SpySatelliteScan : CONTROLBAR:SpySatellite "Satélite E&spía"
+
+AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  11 = Command_UpgradeAmericaTOWMissile : CONTROLBAR:UpgradeAmericaTOWMissile "Misil TO&W"
+
+ChinaCommandCenterCommandSet has key conflict with
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Bomba a &nivel"
+  3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Ataque con &Napalm"
+
+ChinaCommandCenterCommandSet has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Minas terrestres"
+
+ChinaCommandCenterCommandSet has key conflict with
+  5 = Command_CashHack : CONTROLBAR:CashHack "&Pirateo de dinero"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  2 = Early_Command_ChinaCarpetBomb : CONTROLBAR:CarpetBomb "Bomba a &nivel"
+  3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Ataque con &Napalm"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Minas de neutrones"
+
+ChinaCommandCenterCommandSetUpgrade has key conflict with
+  5 = Command_CashHack : CONTROLBAR:CashHack "&Pirateo de dinero"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+GLACommandCenterCommandSet has key conflict with
+  1 = Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "&Trabajador"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "A&taque furtivo"
+
+GC_Chem_GLACommandCenterCommandSet has key conflict with
+  1 = GC_Chem_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "&Trabajador"
+  6 = Command_SneakAttack : CONTROLBAR:SneakAttack "A&taque furtivo"
+
+GC_Slth_GLACommandCenterCommandSet has key conflict with
+  1 = GC_Slth_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "&Trabajador"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "A&taque furtivo"
+
+GC_Slth_GLAVehicleBattleBusCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  10 = GC_Slth_Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Camuflar como &vehículo"
+
+GC_Slth_GLAVehicleBattleBusCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+GC_Slth_GLAVehicleBattleBusCommandSet has key conflict with
+  10 = GC_Slth_Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Camuflar como &vehículo"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+AirF_AmericaCommandCenterCommandSet has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  2 = AirF_Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Helicóptero Spectre"
+
+AirF_AmericaCommandCenterCommandSet has key conflict with
+  7 = Command_SpyDrone : CONTROLBAR:SpyDrone "E&spía teledirigido"
+  10 = Command_SpySatelliteScan : CONTROLBAR:SpySatellite "Satélite E&spía"
+
+AirF_AmericaVehicleComancheCommandSet has key conflict with
+  1 = Command_AmericaVehicleComancheFireRocketPods : CONTROLBAR:FireRocketPods "&Disparar cohetes"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+AirF_AmericaVehicleChinookCommandSet has key conflict with
+  9 = Command_ChinookUnload : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+AirF_AmericaSupplyCenterCommandSet has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  3 = AirF_Command_ConstructAmericaVehicleChinook : CONTROLBAR:AirF_ConstructAmericaVehicleChinook "C&hinook de combate"
+
+AirF_AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  11 = Command_UpgradeAmericaTOWMissile : CONTROLBAR:UpgradeAmericaTOWMissile "Misil TO&W"
+
+Demo_GLACommandCenterCommandSet has key conflict with
+  1 = Demo_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "&Trabajador"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "A&taque furtivo"
+
+Demo_GLAInfantryRebelCommandSet has key conflict with
+  1 = Command_GLAInfantryRebelCaptureBuilding : CONTROLBAR:CaptureBuilding "&Tomar edificio"
+  2 = Command_GLAInfantryRebelBoobyTrapAttack : CONTROLBAR:BoobyTrapAttack "Ataque &trampa explosiva"
+
+Demo_GLAVehicleRadarVanCommandSet has key conflict with
+  1 = Command_RadarVanScan : CONTROLBAR:RadarVanScan "Barrido del ra&dar"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+Demo_GLAVehicleBombTruckCommandSet has key conflict with
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Camuflar como &vehículo"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Demo_GLAInfantryHijackerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  1 = Command_GLAInfantryHijack : CONTROLBAR:Hijack "&Secuestrar"
+
+Demo_GLAVehicleBattleBusCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Demo_GLAVehicleCombatBikeDefaultCommandSet has key conflict with
+  1 = Command_ScuttleCombatBike : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Demo_GLAVehicleCombatBikeJarmenKellCommandSet has key conflict with
+  1 = Command_ScuttleCombatBike : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Demo_GLAVehicleTechnicalCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Demo_GLAVehicleTechnicalCommandSetUpgrade has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Demo_GLACommandCenterCommandSetUpgrade has key conflict with
+  1 = Demo_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "&Trabajador"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "A&taque furtivo"
+
+Demo_GLAInfantryRebelCommandSetUpgrade has key conflict with
+  1 = Command_GLAInfantryRebelCaptureBuilding : CONTROLBAR:CaptureBuilding "&Tomar edificio"
+  2 = Command_GLAInfantryRebelBoobyTrapAttack : CONTROLBAR:BoobyTrapAttack "Ataque &trampa explosiva"
+
+Demo_GLAVehicleRadarVanCommandSetUpgrade has key conflict with
+  1 = Command_RadarVanScan : CONTROLBAR:RadarVanScan "Barrido del ra&dar"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+Demo_GLAVehicleBombTruckCommandSetUpgrade has key conflict with
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Camuflar como &vehículo"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Demo_GLAInfantryHijackerCommandSetUpgrade has key conflict with
+  CommandMap STOP : "S"
+  1 = Command_GLAInfantryHijack : CONTROLBAR:Hijack "&Secuestrar"
+
+Demo_GLAVehicleBattleBusCommandSetUpgrade has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Demo_GLAVehicleCombatBikeDefaultCommandSetUpgrade has key conflict with
+  1 = Command_ScuttleCombatBike : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Slth_GLACommandCenterCommandSet has key conflict with
+  1 = Slth_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "&Trabajador"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "A&taque furtivo"
+
+Slth_GLACommandCenterCommandSet has key conflict with
+  5 = Command_Ambush : CONTROLBAR:Ambush "E&mboscada"
+  12 = Command_UpgradeGLACamoNetting : CONTROLBAR:UpgradeGLACamoNetting "Red de ca&muflaje"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Mo&to de combate"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Mo&to de combate"
+
+Slth_GLAVehicleRadarVanCommandSet has key conflict with
+  1 = Command_RadarVanScan : CONTROLBAR:RadarVanScan "Barrido del ra&dar"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+Slth_GLAVehicleBombTruckCommandSet has key conflict with
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Camuflar como &vehículo"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Slth_GLAInfantryHijackerCommandSet has key conflict with
+  CommandMap STOP : "S"
+  1 = Command_GLAInfantryHijack : CONTROLBAR:Hijack "&Secuestrar"
+
+Slth_GLAVehicleBattleBusCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Chem_GLAVehicleBombTruckCommandSet has key conflict with
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Camuflar como &vehículo"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Chem_GLACommandCenterCommandSet has key conflict with
+  1 = Chem_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "&Trabajador"
+  8 = Command_SneakAttack : CONTROLBAR:SneakAttack "A&taque furtivo"
+
+Nuke_ChinaCommandCenterCommandSet has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Minas terrestres"
+
+Nuke_ChinaCommandCenterCommandSet has key conflict with
+  5 = Command_CashHack : CONTROLBAR:CashHack "&Pirateo de dinero"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+Nuke_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Minas de neutrones"
+
+Nuke_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  5 = Command_CashHack : CONTROLBAR:CashHack "&Pirateo de dinero"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+Nuke_ChinaInfantryBlackLotusCommandSet has key conflict with
+  3 = Command_ChinaInfantryBlackLotusVehicleHack : CONTROLBAR:DisableVehicleHack "&Pirateo de vehículo"
+  5 = Command_ChinaInfantryBlackLotusCashHack : CONTROLBAR:StealCashHack "&Pirateo de dinero"
+
+Nuke_ChinaInfantryHackerCommandSet has key conflict with
+  1 = Command_ChinaInfantryHackerDisableBuilding : CONTROLBAR:DisableBuildingHack "&Desactivar edificio"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+Nuke_ChinaVehicleHelixCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Nuke_ChinaHelixGattlingCannonCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Nuke_ChinaHelixPropagandaTowerCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Nuke_ChinaHelixBattleBunkerCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Nuke_ChinaListeningOutpostCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+SupW_AmericaCommandCenterCommandSet has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  2 = AirF_Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Helicóptero Spectre"
+
+SupW_AmericaCommandCenterCommandSet has key conflict with
+  7 = Command_SpyDrone : CONTROLBAR:SpyDrone "E&spía teledirigido"
+  10 = Command_SpySatelliteScan : CONTROLBAR:SpySatellite "Satélite E&spía"
+
+SupW_AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  11 = Command_UpgradeAmericaTOWMissile : CONTROLBAR:UpgradeAmericaTOWMissile "Misil TO&W"
+
+SupW_AmericaVehicleComancheCommandSet has key conflict with
+  1 = Command_AmericaVehicleComancheFireRocketPods : CONTROLBAR:FireRocketPods "&Disparar cohetes"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+SupW_AmericaVehicleHumveeCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+SupW_AmericaVehicleAmbulanceCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Infa_ChinaCommandCenterCommandSet has key conflict with
+  3 = Infa_Command_Paradrop : CONTROLBAR:Paradrop "&Paracaidista"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+Infa_ChinaCommandCenterCommandSet has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Minas terrestres"
+
+Infa_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  3 = Infa_Command_Paradrop : CONTROLBAR:Paradrop "&Paracaidista"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+Infa_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Minas de neutrones"
+
+Infa_ChinaTroopCrawlerCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Infa_ChinaListeningOutpostCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Infa_ChinaVehicleHelixCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Infa_ChinaHelixBombCommandSet has key conflict with
+  12 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Infa_ChinaInfantryBlackLotusCommandSet has key conflict with
+  3 = Command_ChinaInfantryBlackLotusVehicleHack : CONTROLBAR:DisableVehicleHack "&Pirateo de vehículo"
+  5 = Command_ChinaInfantryBlackLotusCashHack : CONTROLBAR:StealCashHack "&Pirateo de dinero"
+
+Infa_ChinaInfantryHackerCommandSet has key conflict with
+  1 = Command_ChinaInfantryHackerDisableBuilding : CONTROLBAR:DisableBuildingHack "&Desactivar edificio"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+Lazr_AmericaCommandCenterCommandSet has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  2 = Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Helicóptero Spectre"
+
+Lazr_AmericaCommandCenterCommandSet has key conflict with
+  7 = Command_SpyDrone : CONTROLBAR:SpyDrone "E&spía teledirigido"
+  10 = Command_SpySatelliteScan : CONTROLBAR:SpySatellite "Satélite E&spía"
+
+Lazr_AmericaWarFactoryCommandSet has key conflict with
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+  11 = Command_UpgradeAmericaTOWMissile : CONTROLBAR:UpgradeAmericaTOWMissile "Misil TO&W"
+
+Lazr_AmericaVehicleComancheCommandSet has key conflict with
+  1 = Command_AmericaVehicleComancheFireRocketPods : CONTROLBAR:FireRocketPods "&Disparar cohetes"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+Lazr_AmericaVehicleHumveeCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Lazr_AmericaVehicleAmbulanceCommandSet has key conflict with
+  9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "E&vacuar"
+  13 = Command_Guard : CONTROLBAR:Guard "&Vigilar"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  3 = Tank_Command_TankParadrop : CONTROLBAR:TankParadrop "&Paracaídas de tanque"
+  5 = Command_CashHack : CONTROLBAR:CashHack "&Pirateo de dinero"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  3 = Tank_Command_TankParadrop : CONTROLBAR:TankParadrop "&Paracaídas de tanque"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Minas terrestres"
+
+Tank_ChinaCommandCenterCommandSet has key conflict with
+  5 = Command_CashHack : CONTROLBAR:CashHack "&Pirateo de dinero"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  3 = Tank_Command_TankParadrop : CONTROLBAR:TankParadrop "&Paracaídas de tanque"
+  5 = Command_CashHack : CONTROLBAR:CashHack "&Pirateo de dinero"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  3 = Tank_Command_TankParadrop : CONTROLBAR:TankParadrop "&Paracaídas de tanque"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Minas de neutrones"
+
+Tank_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  5 = Command_CashHack : CONTROLBAR:CashHack "&Pirateo de dinero"
+  8 = Command_EMPPulse : CONTROLBAR:EMPPulse "Im&pulso electromagnético"
+
+Tank_ChinaInfantryBlackLotusCommandSet has key conflict with
+  3 = Command_ChinaInfantryBlackLotusVehicleHack : CONTROLBAR:DisableVehicleHack "&Pirateo de vehículo"
+  5 = Command_ChinaInfantryBlackLotusCashHack : CONTROLBAR:StealCashHack "&Pirateo de dinero"
+
+Tank_ChinaVehicleECMTankCommandSet has key conflict with
+  1 = Command_ChinaTankECMDisableVehicle : CONTROLBAR:ECMDisableVehicle "&Desactivar vehículo"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+Tank_ChinaInfantryHackerCommandSet has key conflict with
+  1 = Command_ChinaInfantryHackerDisableBuilding : CONTROLBAR:DisableBuildingHack "&Desactivar edificio"
+  14 = Command_Stop : CONTROLBAR:Stop "&Detener"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  4 = Boss_Command_ConstructChinaGattlingCannon : CONTROLBAR:ConstructChinaGattlingCannon "Cañón Gattli&ng"
+  8 = Boss_Command_ConstructGLATunnelNetwork : CONTROLBAR:ConstructGLATunnelNetwork "Red de tú&neles"
+
+Boss_AmericaDozerCommandSet has key conflict with
+  6 = Boss_Command_ConstructAmericaPatriotBattery : CONTROLBAR:ConstructAmericaPatriotBattery "Sistema de &misiles Patriot"
+  11 = Boss_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "&Misil nuclear"
+
+Boss_ChinaCommandCenterCommandSet has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "&Minas terrestres"
+
+Boss_ChinaCommandCenterCommandSet has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  5 = Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Helicóptero Spectre"
+
+Boss_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  4 = Command_ClusterMines : CONTROLBAR:ClusterMines "&Minas dispersoras"
+  12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "&Minas de neutrones"
+
+Boss_ChinaCommandCenterCommandSetUpgrade has key conflict with
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  5 = Command_SpectreGunship : CONTROLBAR:SpectreGunship "&Helicóptero Spectre"
+
+Boss_ChinaAirfieldCommandSet has key conflict with
+  4 = Boss_Command_ConstructAmericaJetAurora : CONTROLBAR:ConstructAmericaJetAurora "Bombardero &Aurora"
+  7 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Blind&aje MiG"
+
+Boss_ChinaAirfieldCommandSetUpgrade has key conflict with
+  4 = Boss_Command_ConstructAmericaJetAurora : CONTROLBAR:ConstructAmericaJetAurora "Bombardero &Aurora"
+  7 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Blind&aje MiG"
+
+Boss_ChinaBarracksCommandSet has key conflict with
+  1 = Boss_Command_ConstructAmericaInfantryRanger : CONTROLBAR:ConstructAmericaInfantryRanger "R&anger"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "H&acker"
+
+Boss_ChinaBarracksCommandSetUpgrade has key conflict with
+  1 = Boss_Command_ConstructAmericaInfantryRanger : CONTROLBAR:ConstructAmericaInfantryRanger "R&anger"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "H&acker"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Aven&ger"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Tanque &Gattling"
+
+Boss_ChinaWarFactoryCommandSet has key conflict with
+  4 = Boss_Command_ConstructAmericaVehicleSentryDrone : CONTROLBAR:ConstructAmericaVehicleSentryDrone "&Teledirigido centinela"
+  11 = Boss_Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Mo&to de combate"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  3 = Boss_Command_ConstructAmericaVehicleAvenger : CONTROLBAR:ConstructAmericaTankAvenger "Aven&ger"
+  5 = Boss_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Tanque &Gattling"
+
+Boss_ChinaWarFactoryCommandSetUpgrade has key conflict with
+  4 = Boss_Command_ConstructAmericaVehicleSentryDrone : CONTROLBAR:ConstructAmericaVehicleSentryDrone "&Teledirigido centinela"
+  11 = Boss_Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Mo&to de combate"
+
+Boss_GLAScudStormCommandSet has key conflict with
+  4 = Command_UpgradeGLAAPRockets : CONTROLBAR:UpgradeGLAAPRockets "Cohetes &antitanque"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "&Antrax Beta"
+
+Boss_GLAScudStormCommandSetUpgrade has key conflict with
+  4 = Command_UpgradeGLAAPRockets : CONTROLBAR:UpgradeGLAAPRockets "Cohetes &antitanque"
+  7 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "&Antrax Beta"
+
+Boss_ChinaNuclearMissileCommandSet has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "Misil &nuclear"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "&Nacionalismo"
+
+Boss_ChinaNuclearMissileCommandSet has key conflict with
+  6 = Command_UpgradeChinaSubliminalMessaging : CONTROLBAR:UpgradeChinaSubliminalMessaging "Mensaje S&ubliminal"
+  7 = Command_UpgradeChinaUraniumShells : CONTROLBAR:UpgradeChinaUraniumShells "Balas de &Uranio"
+
+Boss_ChinaNuclearMissileCommandSetUpgrade has key conflict with
+  1 = Command_NeutronMissile : CONTROLBAR:NeutronMissile "Misil &nuclear"
+  4 = Boss_Command_UpgradeChinaNationalism : CONTROLBAR:UpgradeChinaNationalism "&Nacionalismo"
+
+Boss_ChinaNuclearMissileCommandSetUpgrade has key conflict with
+  6 = Command_UpgradeChinaSubliminalMessaging : CONTROLBAR:UpgradeChinaSubliminalMessaging "Mensaje S&ubliminal"
+  7 = Command_UpgradeChinaUraniumShells : CONTROLBAR:UpgradeChinaUraniumShells "Balas de &Uranio"
+
+139 conflicts found
