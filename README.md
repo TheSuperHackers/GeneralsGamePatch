@@ -67,3 +67,7 @@ In our first survey we asked the community what they think about addressing bugs
 [GPL v3 License](LICENSE.txt)
 
 [Electronic Arts & The Super Hacker Terms](TERMS.txt)
+
+## DONATE
+
+[Donation info page](DONATE.md)
