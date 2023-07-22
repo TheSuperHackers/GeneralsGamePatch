@@ -2,11 +2,17 @@ import os
 from pathlib import Path
 
 
+def build_abs_path(relative_path: str) -> Path:
+    dir: str = os.path.dirname(os.path.realpath(__file__))
+    return Path(dir).joinpath(relative_path).absolute()
+
+
 def run():
-    this_dir = os.path.dirname(os.path.realpath(__file__))
+    out_path: Path = build_abs_path("generated")
+    out_path.mkdir(exist_ok=True)
 
     ini_paths = [
-        Path(this_dir).joinpath("../../../GameFilesEdited/Data/INI/Speech.ini").absolute().resolve(),
+        build_abs_path("../../../../GameFilesEdited/Data/INI/Speech.ini")
     ]
 
     dialog_names: list[str] = []
@@ -32,8 +38,8 @@ def run():
                         dialog_names.append(dialog_event_name)
                         dialog_event_name = ""
 
-    out_txt_path = Path(this_dir).joinpath("duplicate_dialogevent.txt").absolute().resolve()
-    with open(out_txt_path, "w") as txt_file:
+    out_txt_path = build_abs_path("generated/duplicate_dialogevent.txt")
+    with open(out_txt_path, "w", encoding="ascii") as txt_file:
         for index,name in enumerate(dialog_names):
             for index2 in range(index+1, len(dialog_names)):
                 if name == dialog_names[index2]:
