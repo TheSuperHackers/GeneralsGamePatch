@@ -1,0 +1,19 @@
+---
+date: 2023-07-23
+
+title: Streamlines key mappings of GLA fake structures with regular GLA structures
+
+changes:
+  - fix: All GLA fake structures now have the same key mapping as regular GLA structures in French, Spanish, Italian and Polish languages.
+  - tweak: The GLA worker can now toggle to real structures with key F in Spanish, Italian and Polish languages.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2142
+
+authors:
+  - xezon
