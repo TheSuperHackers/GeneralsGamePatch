@@ -8,40 +8,40 @@ Occuring labels are
 - ai (2)
 - art (128)
 - audio (121)
-- boss (31)
+- boss (41)
 - buff (90)
-- bug (399)
-- china (191)
+- bug (410)
+- china (201)
 - civilian (20)
 - controversial (115)
 - critical (5)
-- design (197)
-- enhancement (109)
-- gla (191)
-- gui (71)
-- major (74)
-- minor (629)
+- design (198)
+- enhancement (110)
+- gla (198)
+- gui (72)
+- major (81)
+- minor (642)
 - nerf (29)
 - optional (34)
 - performance (24)
-- text (24)
-- usa (220)
-- v1.0 (710)
+- text (42)
+- usa (228)
+- v1.0 (730)
 - wip (1)
-- worldbuilder (5)
+- worldbuilder (6)
 
 Sorts changes by: blocker, critical, major, minor, usa, china, gla, boss, civilian, date (ascending)
 
-Contains 710 entries with
+Contains 730 entries with
 
-- 1063 changes
-  - FIX (734)
-  - TWEAK (233)
+- 1090 changes
+  - FIX (758)
+  - TWEAK (235)
   - OPTIMIZATION (12)
-  - FEATURE (58)
+  - FEATURE (59)
   - REFACTOR (26)
-- 380 subchanges
-  - FIX (239)
+- 579 subchanges
+  - FIX (438)
   - TWEAK (113)
   - FEATURE (28)
 
@@ -51,6 +51,12 @@ Contains 710 entries with
 - [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist](#link__20220727__764_terrorist_crash)
 - [2021-08-22 - Fixes critical issue that crashes all clients in a match](#link__20210822__0_crash_bug)
 - [2022-08-05 - Fixes potential unresponsive Control Bar buttons](#link__20220805__824_promotion_buttons)
+- [2023-07-13 - Fixes key conflicts in German localization](#link__20230713__2108_german_key_conflicts)
+- [2023-07-15 - Fixes key conflicts in French localization](#link__20230715__2112_french_key_conflicts)
+- [2023-07-15 - Fixes key conflicts in Spanish localization](#link__20230715__2117_spanish_key_conflicts)
+- [2023-07-16 - Fixes key conflicts in Italian localization](#link__20230716__2118_italian_key_conflicts)
+- [2023-07-20 - Fixes key conflicts in Brazilian localization](#link__20230720__2136_brazilian_key_conflicts)
+- [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
 - [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
 - [2022-09-01 - Fixes audio flaws in English sounds](#link__20220901__1061_audio_fixes)
 - [2021-08-22 - Fixes lags caused by the USA Patriot assist beam](#link__20210822__0_patriot_beam_lag)
@@ -125,6 +131,7 @@ Contains 710 entries with
 - [2021-09-11 - Fixes exploit that allows to shoot on ground units from very far away](#link__20210911__285_range_exploit)
 - [2022-08-02 - Fixes 13 broken particle effects](#link__20220802__809_pillar_explosion_effects)
 - [2022-10-16 - Increases Player Beacon limit from 3 to 5](#link__20221016__1377_beacon_limit)
+- [2023-07-23 - Improves visibility of text key mappings in all languages](#link__20230723__2141_text_key_mapping_format)
 - [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
 - [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#link__20220820__938_infantry_muzzle_flash)
 - [2022-09-07 - Fixes muzzle particle effects of tanks](#link__20220907__1149_tank_muzzle_particles)
@@ -145,10 +152,10 @@ Contains 710 entries with
 - [2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes](#link__20221020__1398_radar_animation_reset)
 - [2023-01-29 - Removes random sink delays from all vehicle wrecks](#link__20230129__1660_random_wreck_sink_delays)
 - [2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton](#link__20210910__277_demo_charge_button_placement)
-- [2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang](#link__20220101__636_stinger_flashbang_damage)
 - [2023-04-06 - Reduces audio range and volume of Remote Demo Charge](#link__20230406__1801_remote_demo_charge_audio)
 - [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
 - [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
+- [2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites](#link__20230716__297_stinger_flashbang_attack)
 - [2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon](#link__20210827__75_particlecannon_rangers)
 - [2021-09-02 - Fixes wrong portrait image of USA Alpha Aurora](#link__20210902__145_alpha_aurora_cameo)
 - [2021-09-03 - Removes retaliation from non-vUSA Avengers](#link__20210903__157_usa_avenger_retaliation)
@@ -322,6 +329,8 @@ Contains 710 entries with
 - [2023-06-09 - Shortens English Particle Cannon timer text](#link__20230609__1999_particle_cannon_text)
 - [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
 - [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
+- [2023-07-15 - Sets correct name of USA Spectre Gunship in languages](#link__20230715__2111_spectre_gunship_name)
+- [2023-07-17 - Sets consistent name for EMP Patriot Battery in German language](#link__20230717__2124_german_emp_patriot_text)
 - [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
 - [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
 - [2021-08-28 - Fixes miniscule mass of China Supply Truck](#link__20210828__96_supply_truck_mass)
@@ -466,6 +475,10 @@ Contains 710 entries with
 - [2023-06-25 - Decreases performance cost of Inferno Cannon fire particles by 36%](#link__20230625__2039_inferno_cannon_fire_performance)
 - [2023-06-25 - Removes distracting smoke effect from the center of the Inferno Cannon fire particles](#link__20230625__2039_inferno_cannon_shell_hit_effects)
 - [2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm](#link__20230629__2050_dragon_black_napalm_flamethrower_clip_size)
+- [2023-07-09 - Adds missing Assault Troop Transport, Attack Outpost and Assault Helix name specializations to German localization](#link__20230709__2088_german_infa_transports_text)
+- [2023-07-12 - Fixes key conflict of China Satellite Hack I and II with STOP (E)](#link__20230712__2092_satellite_hack_i_ii_key_conflict)
+- [2023-07-12 - Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS (E)](#link__20230712__2106_neutron_shells_key_conflict)
+- [2023-07-15 - Adds complete ECM Tank name in construction tool tip](#link__20230715__2113_ecm_tank_tooltip_name)
 - [2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state](#link__20210822__2_battle_bus_damage_transition)
 - [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles](#link__20210827__67_scud_storm_particles)
 - [2021-08-27 - Fixes GLA defense hole keeping the controlling player alive](#link__20210827__75_gla_hole_survival)
@@ -573,7 +586,6 @@ Contains 710 entries with
 - [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#link__20221002__1328_utscudslab_upscaled_textures)
 - [2022-10-08 - Fixes missing muzzle flash and recoil animation on GLA Quad Cannon](#link__20221008__1340_quad_muzzle_flash_recoil)
 - [2023-01-08 - Fixes issue where GLA Booby Trap could be pushed away by physic weapon hits](#link__20230108__1526_booby_trap_physics)
-- [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#link__20230108__1528_worker_death_animation)
 - [2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker](#link__20230121__1578_worker_clear_mines_button)
 - [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#link__20230209__1663_scorpion_death_model)
 - [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#link__20230211__1672_marauder_double_barrel_firing_sequence)
@@ -610,6 +622,8 @@ Contains 710 entries with
 - [2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50%](#link__20230629__2051_toxin_tractor_radiation_armor)
 - [2023-07-08 - Fixes silent death explosion of GLA Terrorists when not suicided](#link__20230708__2075_terrorist_death_explosion_sound_fix)
 - [2023-07-08 - Removes wrong exploded death effects from GLA Demo Barracks](#link__20230708__2076_demo_barracks_death_effect)
+- [2023-07-16 - Fixes wrong exploded death animation of GLA Worker](#link__20230716__2120_worker_death_animation)
+- [2023-07-16 - Adds missing upgrade icons to Stinger Soldiers](#link__20230716__2121_stinger_soldier_upgrade_cameos)
 - [2021-09-11 - Adds missing Hellfire Drone icon to Boss Paladin](#link__20210911__319_boss_paladin_cameo)
 - [2021-09-16 - Adds missing unit drop to Reinforcement Pad for Boss General](#link__20210916__375_boss_reinforcement_pad)
 - [2021-09-18 - Fixes wrong Stop button icon location of Boss Patriot Battery](#link__20210918__377_boss_patriot_stop_button)
@@ -641,6 +655,10 @@ Contains 710 entries with
 - [2023-04-30 - Optimizes button placements of Boss Scud Storm](#link__20230430__1892_boss_scud_storm_buttons)
 - [2023-04-30 - Adds missing Countermeasures upgrade armor bonus to Boss King Raptor](#link__20230430__1893_boss_raptor_countermeasures)
 - [2023-05-28 - Optimizes button placements of Boss Dozer](#link__20230528__1982_boss_dozer_buttons)
+- [2023-07-12 - Fixes Boss General key conflicts in English localization](#link__20230712__2102_english_boss_key_conflicts)
+- [2023-07-16 - Adds separate buttons and labels to all major Boss commands](#link__20230716__2119_add_boss_commands_and_labels)
+- [2023-07-17 - Fixes Boss General key conflicts in Korean localization](#link__20230717__2125_korean_boss_key_conflicts)
+- [2023-07-18 - Fixes Boss General key conflicts in Chinese localization](#link__20230718__2128_chinese_boss_key_conflicts)
 - [2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad](#link__20210911__308_reinforcement_pad_xp_reward)
 - [2021-09-11 - Removes kill experience reward of Civilian Repair Pad](#link__20210911__308_repair_pad_xp_reward)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
@@ -754,6 +772,8 @@ Contains 710 entries with
 - [2023-05-12 - Adds new dialog events for originally unreferenced Generals mission speech files](#link__20230512__1950_new_generals_mission_dialog_events)
 - [2023-05-17 - Improves latin text of volume options](#link__20230517__1958_audio_volume_options_text)
 - [2023-06-14 - Removes obsolete structure damage particle effects](#link__20230614__2011_structure_damage_effects)
+- [2023-07-09 - Removes unnecessary line breaks in object labels of German and French localizations](#link__20230709__2089_german_french_object_name_line_breaks)
+- [2023-07-12 - Removes duplicate Command_UpgradeCamoNetting definition from ini files](#link__20230712__2100_remove_duplicate_camo_netting_button)
 - [2022-10-05 - Adds slightly pitched sounds for some air weapons](#link__20221005__1335_pitched_air_weapon_sounds)
 - [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
 
@@ -836,6 +856,301 @@ Contains 710 entries with
 **Authors:** xezon
 
 **Source:** 824_promotion_buttons.yaml
+
+---
+### 2023-07-13 - Fixes key conflicts in German localization <a name='link__20230713__2108_german_key_conflicts'></a>
+**Changes**
+
+- **FIX**: All 99 German specific key conflicts are now fixed.
+
+**Subchanges**
+
+- **FIX**: The Boss Patriot System can now be constructed with key M and no longer conflicts with Bunker (B).
+- **FIX**: The Boss Supply Center can now be constructed with key U and no longer conflicts with Tunnel Network (N).
+- **FIX**: The Boss Arm the Mob can now be researched with key O and no longer conflicts with Buggy Ammo (B).
+- **FIX**: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+- **FIX**: The Boss Land Mines can now be researched with key M and no longer conflicts with Laser Missiles (L).
+- **FIX**: The China Black Napalm can now be researched with key N and no longer conflicts with Listening Outpost (S).
+- **FIX**: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
+- **FIX**: The China Nuclear Tanks can now be researched with key P and no longer conflicts with Nationalism (N).
+- **FIX**: The China Carpet Bomb can now be placed with key T and no longer conflicts with Dozer (B).
+- **FIX**: The China EMP Pulse can now be placed with key E and no longer conflicts with Tank Paradrop (P).
+- **FIX**: The China Napalm Bomb Drop can now be triggered with key N and no longer conflicts with Guard (W).
+- **FIX**: The China Nuke Bomb Drop can now be triggered with key N and no longer conflicts with Guard (W).
+- **FIX**: The China Super Hacker can now be produced with key A and no longer conflicts with Super Lotus (S).
+- **FIX**: The China Attack Outpost can now be produced with key S and no longer conflicts with View Command Center (H).
+- **FIX**: The China Attack Helix can now be produced with key X and no longer conflicts with View Command Center (H).
+- **FIX**: The China Fortified Bunker can now be constructed with key B and no longer conflicts with Barracks (K).
+- **FIX**: The GLA Tunnel Network can now be constructed with key N and no longer conflicts with Speaker Tower (T).
+- **FIX**: The GLA Stinger Site can now be constructed with key T and no longer conflicts with Stop (S).
+- **FIX**: The GLA Truck Bio Bomb can now be researched with key B and no longer conflicts with Stop (S).
+- **FIX**: The GLA Toxin Shells can now be researched with key T and no longer conflicts with Stop (S).
+- **FIX**: The GLA Ambush can now be placed with key I and no longer conflicts with Camo Netting (N).
+- **FIX**: The GLA Sneak Attack can now be placed with key S and no longer conflicts with Ambush (N).
+- **FIX**: The GLA Toxin Terrorist can now be produced with key B and no longer conflicts with Toxin Rebel (S).
+- **FIX**: The GLA Toxin Tunnel can now be constructed with key N and no longer conflicts with Stop (S).
+- **FIX**: The USA Combat Drop can now be triggered with key N and no longer conflicts with Attack Move (A).
+- **FIX**: The USA Hold The Line plan can now be set with key N and no longer conflicts with Stop (S).
+- **FIX**: The USA Search and Destroy plan can now be set with key G and no longer conflicts with Carpet Bomb (T).
+- **FIX**: The USA Strategy Center can now be constructed with key T and no longer conflicts with Stop (S).
+- **FIX**: The USA Burton can now be produced with key O and no longer conflicts with Missile Defender (B).
+- **FIX**: The USA Nuke Cannon can now be produced with key K and no longer conflicts with Black Napalm (N).
+- **FIX**: The USA Advanced Training can now be researched with key A and no longer conflicts with Particle Cannon (P).
+- **FIX**: The USA King Raptor can now be produced with key R and no longer conflicts with Stealth Fighter (T).
+- **FIX**: The USA Aurora Alpha can now be produced with key A and no longer conflicts with Bunker Buster (B).
+- **FIX**: The USA Bunker Buster can now be produced with key B and no longer conflicts with Rally Point (U).
+- **FIX**: The USA Combat Chinook can now be produced with key K and no longer conflicts with Chinook (C).
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2102](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2102)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123)
+
+**Labels:** boss, bug, china, gla, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2108_german_key_conflicts.yaml
+
+---
+### 2023-07-15 - Fixes key conflicts in French localization <a name='link__20230715__2112_french_key_conflicts'></a>
+**Changes**
+
+- **FIX**: All 296 French specific key conflicts are now fixed.
+
+**Subchanges**
+
+- **FIX**: The Select all Units command can now be triggered with key Q and no longer conflicts with Attack Move (A).
+- **FIX**: The Boss Arm the Mob can now be researched with key R and no longer conflicts with China Mines (M).
+- **FIX**: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+- **FIX**: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Patriot Missile (M).
+- **FIX**: The Boss Composite Armor can now be researched with key C and no longer conflicts with Particle Cannon (P).
+- **FIX**: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Mines (M).
+- **FIX**: The Boss Sneak Attack can now be placed with key F and no longer conflicts with Carpet Bomb (T).
+- **FIX**: The Boss Overlord can now be produced with key O and no longer conflicts with Paladin (P).
+- **FIX**: The China Black Lotus can now be produced with key S and no longer conflicts with Burton (N).
+- **FIX**: The China EMP Pulse can now be placed with key E and no longer conflicts with Mines (P).
+- **FIX**: The China Helix Nuke Bomb can now be researched with key N and no longer conflicts with Attack Move (A).
+- **FIX**: The China Infantry Outpost can now be produced with key S and no longer conflicts with Inferno Cannon (O).
+- **FIX**: The China Advanced Nuke Reactor can now be constructed with key N and no longer conflicts with Barracks (R).
+- **FIX**: The GLA Scud Storm can now be constructued with key L and no longer conflicts with Power Plant (U).
+- **FIX**: The GLA Radar Van Upgrade can now be researched with key A and no longer conflicts with Camo Netting (C).
+- **FIX**: The GLA Combat Bike can now be produced with key X and no longer conflicts with Camo Netting (C).
+- **FIX**: The GLA Quad Snipe can now be researched with key A and no longer conflicts with Select all Units (Q).
+- **FIX**: The GLA Booby Trap can now be placed with key M and no longer conflicts with Capture Building (P).
+- **FIX**: The GLA Advanced Demo Trap can now be constructed with key G and no longer conflicts with Scatter Units (X).
+- **FIX**: The USA Search and Destroy plan can now be activated with key R and no longer conflicts with Stop (S).
+- **FIX**: The USA Raptor can now be produced with key T and no longer conflicts with Rally Point (R).
+- **FIX**: The USA & China Paradrop can now be placed with key P and no longer conflicts with Cluster Mines (I).
+- **FIX**: The USA & China Carpet Bomb can now be placed with key T and no longer conflicts with Stop (S).
+- **FIX**: The USA Spectre can now be placed with key C and no longer conflicts with Spy Satellite (S).
+- **FIX**: The USA Combat Chinook can now be produced with key T and no longer conflicts with Chinook (C).
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2112](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2112)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123)
+
+**Labels:** boss, bug, china, gla, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2112_french_key_conflicts.yaml
+
+---
+### 2023-07-15 - Fixes key conflicts in Spanish localization <a name='link__20230715__2117_spanish_key_conflicts'></a>
+**Changes**
+
+- **FIX**: All 137 Spanish specific key conflicts are now fixed.
+
+**Subchanges**
+
+- **FIX**: The Guard command can now be triggered with key G and no longer conflicts with Evacuate (V).
+- **FIX**: The Stop command no longer triggers with keys D and S and will instead only trigger with key S.
+- **FIX**: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+- **FIX**: The Boss Aurora can now be produced with key B and no longer conflicts with Mig Armor (A).
+- **FIX**: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Pariot Missile (M).
+- **FIX**: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
+- **FIX**: The China Gattling Cannon can now be placed with key A and no longer conflicts with Tunnel Network (N).
+- **FIX**: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
+- **FIX**: The China Cash Hack can now be used with key C and no longer conflicts with Paradrop (P).
+- **FIX**: The China Cluster Mines can now be placed with key I and no longer conflicts with Mines (M).
+- **FIX**: The China EMP Pulse can now be placed with key U and no longer conflicts with Paradrop (P).
+- **FIX**: The China Vehicle Hack can now be used with key V and no longer conflicts with Cash Hack (P).
+- **FIX**: The China Napalm Bomb Drop can now be used with key U and no longer conflicts with Napalm Bomb upgrade (N).
+- **FIX**: The GLA Disguise can now be triggered with key D and no longer conflicts with Evacuate (V).
+- **FIX**: The GLA AP Rockets can now be researched with key R and no longer conflicts with Anthrax Beta (A).
+- **FIX**: The GLA Ambush can now be placed with key A and no longer conflicts with Camo Netting (M).
+- **FIX**: The GLA Hijack can now be used with key J and no longer conflicts with Stop (S).
+- **FIX**: The GLA Sneak Attack can now be placed with key F and no longer conflicts with Worker (P).
+- **FIX**: The GLA Booby Trap can now be used with key B and no longer conflicts with Capture Building (T).
+- **FIX**: The USA Bombardment plan can now be triggered with key B.
+- **FIX**: The USA Search and Destroy plan can now be triggered with key D.
+- **FIX**: The USA Ranger can now be produced with key G and no longer conflicts with Hacker (A).
+- **FIX**: The USA Flash Bang can now be researched with key C.
+- **FIX**: The USA TOW Missile can now be researched with key I and no longer conflicts with Select all Aircraft (W).
+- **FIX**: The USA & China Carpet Bomb can now be placed with key T and no longer conflicts with Napalm Strike (N).
+- **FIX**: The USA Spy Drone can now be placed with key Y and no longer conflicts with Spy Satellite (S).
+- **FIX**: The USA & GLA Detonate C4 can now be used with key D and no longer conflicts with Guard (G).
+- **FIX**: The USA Flash Bang can now be selected with key C and no longer conflicts with Guard (G).
+- **FIX**: The USA Sentry Drone can now be produced with key S and no longer conflicts with Combat Bike (T).
+- **FIX**: The USA MOAB can now be researched with key M and no longer conflicts with Stop (S).
+- **FIX**: The USA Spectre can now be placed with key G and no longer conflicts with View Command Center (H).
+- **FIX**: The USA Combat Chinook can now be produced with key T and no longer conflicts with View Command Center (H).
+- **FIX**: The USA Laser Tank can now be produced with key C.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2117](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2117)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2137](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2137)
+
+**Labels:** boss, bug, china, gla, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2117_spanish_key_conflicts.yaml
+
+---
+### 2023-07-16 - Fixes key conflicts in Italian localization <a name='link__20230716__2118_italian_key_conflicts'></a>
+**Changes**
+
+- **FIX**: All 102 Italian specific key conflicts are now fixed.
+
+**Subchanges**
+
+- **FIX**: The Disarm Mines command can now be used with key L and no longer conflicts with Select matching Units (E).
+- **FIX**: The Boss Arm the Mob can now be researched with key F and no longer conflicts with Mines (M).
+- **FIX**: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+- **FIX**: The Boss Aurora can now be produced with key B and no longer conflicts with Mig Armor (A).
+- **FIX**: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Patriot Missile (M).
+- **FIX**: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
+- **FIX**: The Boss Scud Storm can now be constructed with key B and no longer conflicts with Airfield (O).
+- **FIX**: The China Speaker Tower can now be constructed with key D and no longer conflicts with Power Plant (F).
+- **FIX**: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
+- **FIX**: The China Neutron Shells can now be researched with key S and no longer conflicts with Technical (T).
+- **FIX**: The China Cluster Mines can now be placed with key I and no longer conflicts with Frenzy (Z).
+- **FIX**: The China EMP Pulse can now be placed with key U and no longer conflicts with Paradrop (P).
+- **FIX**: The China Tank Paradrop can now be placed with key P and no longer conflicts with Rally Point (R).
+- **FIX**: The China Napalm Bomb Drop can now be used with key F and no longer conflicts with Stop (S).
+- **FIX**: The China Nuke Bomb Drop can now be used with key F and no longer conflicts with Stop (S).
+- **FIX**: The GLA Hijacker can now be produced with key D and no longer conflicts with Camo Netting (I).
+- **FIX**: The GLA Angry Mob can now be produced with key Y and no longer conflicts with Hacker (A).
+- **FIX**: The GLA Hijack ability can now be used with key D and no longer conflicts with Suicide Attack (I).
+- **FIX**: The GLA Combat Bike can now be produced with key Y.
+- **FIX**: The GLA Sniper can now be produced with key S and no longer conflicts with Capture Building (C).
+- **FIX**: The GLA Battle Bus can now be produced with key E and no longer conflicts with Technical (T).
+- **FIX**: The GLA Sneak Attack can now be placed with key F and no longer conflicts with Ambush (A).
+- **FIX**: The USA Ranger can now be produced with key G and no longer conflicts with Hacker (A).
+- **FIX**: The USA Stealth Fighter can now be produced with key F and no longer conflicts with Raptor (T).
+- **FIX**: The USA Composite Armor can now be researched with key P and no longer conflicts with Intelligence (C).
+- **FIX**: The USA Sentry Drone can now be produced with key S and no longer conflicts with Dragon Tank (D).
+- **FIX**: The USA Laser Turret can now be constructed with key M.
+- **FIX**: The USA Laser Tank can now be produced with key C.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2118](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2118)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2137](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2137)
+
+**Labels:** boss, bug, china, gla, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2118_italian_key_conflicts.yaml
+
+---
+### 2023-07-20 - Fixes key conflicts in Brazilian localization <a name='link__20230720__2136_brazilian_key_conflicts'></a>
+**Changes**
+
+- **FIX**: All 102 Brazilian specific key conflicts are now fixed.
+
+**Subchanges**
+
+- **FIX**: The Stop command no longer triggers with keys P and S and will instead only trigger with key S.
+- **FIX**: The Boss Arm the Mob can now be researched with key O and no longer conflicts with Mines (M).
+- **FIX**: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+- **FIX**: The Boss Burton can now be produced with key N and no longer conflicts with Black Lotus (B).
+- **FIX**: The Boss Nuke Missile can now be launched with key N and no longer conflicts with Patriot Missile (M).
+- **FIX**: The Boss Drone Armor can now be researched with key R and no longer conflicts with Sentry Drone Gun (N).
+- **FIX**: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Neutron Shells (N).
+- **FIX**: The Boss Combat Bike can now be produced with key Y and no longer conflicts with Chain Guns (C).
+- **FIX**: The China Subliminal Messaging can now be researched with key B and no longer conflicts with Uranium Shells (U).
+- **FIX**: The China EMP Pulse can now be placed with key U and no longer conflicts with Rally Point (P).
+- **FIX**: The GLA Radar Van can now be produced with key F and no longer conflicts with Camo Netting (R).
+- **FIX**: The GLA Angry Mob can now be produced with key Y and no longer conflicts with Camo Netting (R).
+- **FIX**: The GLA Buggy Ammo can now be researched with key G and no longer conflicts with Mines (M).
+- **FIX**: The GLA Junk Repair can now be researched with key E and no longer conflicts with Camo Netting (R).
+- **FIX**: The GLA Snipe Attack can now be used with key N and no longer conflicts with Timed Demo Charge (T).
+- **FIX**: The GLA Bomb Truck suicide can now be used with key I and no longer conflicts with Attack Move (A).
+- **FIX**: The GLA Fake Barracks can now be constructed with key L and no longer conflicts with Select all Units (Q).
+- **FIX**: The GLA Sneak Attack can now be placed with key F and no longer conflicts with GLA Worker (T).
+- **FIX**: The GLA Bobby Trap can now be used with key B and no longer conflicts with Attack Move (A).
+- **FIX**: The GLA Toxin Tunnel can now be constructed with key I and no longer conflicts with Clear Mines (N).
+- **FIX**: The GLA Sabotage ability can now be used with key B and no longer conflicts with Select matching Units (E).
+- **FIX**: The USA Ranger can now be produced with key G and no longer conflicts with Hacker (A).
+- **FIX**: The USA Composite Armor can now be researched with key P and no longer conflicts with Intelligence (C).
+- **FIX**: The USA and China Paradrop can now be placed with key R and no longer conflicts with Rally Point (R).
+- **FIX**: The USA and China Carpet Bomb can now be placed with key G and no longer conflicts with Stop (S).
+- **FIX**: The USA Aurora Alpha can now be produced with key A and no longer conflicts with Bunker Buster (B).
+- **FIX**: The USA Leaflet can now be placed with key L and no longer conflicts with Spy Satellite (S).
+- **FIX**: The USA Combat Chinook can now be produced with key T and no longer conflicts with View Command Center (H).
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2136](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2136)
+
+**Labels:** boss, bug, china, gla, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2136_brazilian_key_conflicts.yaml
+
+---
+### 2023-07-22 - Fixes key conflicts in Polish localization <a name='link__20230722__2138_polish_key_conflicts'></a>
+**Changes**
+
+- **FIX**: All 77 Polish specific key conflicts are now fixed.
+
+**Subchanges**
+
+- **FIX**: The Attack Move command can now be used with key A and no longer conflicts with several (O).
+- **FIX**: The Evacuate command can now be used with key V and no longer conflicts with Suicide Attack (J).
+- **FIX**: The Emergency Repair can now be placed with key E and no longer conflicts with Napalm Strike (N).
+- **FIX**: The Boss Aurora can now be produced with key B and no longer conflicts with Mig Armor (A).
+- **FIX**: The Boss Nuke Missile can now be constructed with key J and no longer conflicts with Particle Cannon (M).
+- **FIX**: The Boss Particle Cannon can now be launched with key C and no longer conflicts with Mines (M).
+- **FIX**: The Boss Avenger can now be produced with key J and no longer conflicts with Mines (M).
+- **FIX**: The Boss Combat Bike can now be produced with key Y and no longer conflicts with Tomahawk (T).
+- **FIX**: The China Cash Hack can now be placed with key C and no longer conflicts with Cluster Mines (K).
+- **FIX**: The China and USA Carpet Bomb can now be placed with key F and no longer conflicts with China Dozer (D).
+- **FIX**: The China Helix Nuke Bomb can now be researched with key N and no longer conflicts with Attack Move (A).
+- **FIX**: The GLA Marauder can now be produced with key M.
+- **FIX**: The GLA Rocket Buggy can now be produced with key B and no longer conflicts with Rally Point (R).
+- **FIX**: The GLA Scud Storm can now be constructed with key C and no longer conflicts with Stop (S).
+- **FIX**: The GLA Scud Storm can now be constructed with key C and no longer conflicts with Stop (S).
+- **FIX**: The GLA Buggy Ammo can now be researched with key B and no longer conflicts with Anthrax Beta (A).
+- **FIX**: The GLA Hijack can now be used with key P and no longer conflicts with Suicide Attack (J).
+- **FIX**: The GLA Fake Command Center can now be constructed with key Z and no longer conflicts with Stop (S).
+- **FIX**: The GLA Camo Netting can now be researched with key C and no longer conflicts with Stop (S).
+- **FIX**: The USA Search and Destroy plan can now be activated with key D and no longer conflicts with Stop (S).
+- **FIX**: The USA Ranger can now be produced with key G and no longer conflicts with Hacker (A).
+- **FIX**: The USA Raptor can now be produced with key T and no longer conflicts with Rally Point (R).
+- **FIX**: The USA Composite Armor can now be researched with key P and no longer conflicts with Intelligence (C).
+- **FIX**: The USA and GLA Timed Demo Charge can now be used with key C and no longer conflicts with Attack Move (A).
+- **FIX**: The USA EMP Patriot can now be constructed with key T and no longer conflicts with Stop (S).
+- **FIX**: The USA Stealth Comanche can now be researched with key S and no longer conflicts with Laser Missiles (L).
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2138](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2138)
+
+**Labels:** boss, bug, china, gla, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2138_polish_key_conflicts.yaml
 
 ---
 ### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
@@ -2084,6 +2399,23 @@ Contains 710 entries with
 **Source:** 1377_beacon_limit.yaml
 
 ---
+### 2023-07-23 - Improves visibility of text key mappings in all languages <a name='link__20230723__2141_text_key_mapping_format'></a>
+**Changes**
+
+- **TWEAK**: All in-text key mappings are now trailing upper-case key mappings behind a colon.
+- **TWEAK**: All trailing key mappings in parantheses are now trailing upper-case key mappings behind a colon.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2141](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2141)
+
+**Labels:** design, gui, major, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2141_text_key_mapping_format.yaml
+
+---
 ### 2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion <a name='link__20230204__1618_wreck_spawn_before_death'></a>
 **Changes**
 
@@ -2535,22 +2867,6 @@ Contains 710 entries with
 **Source:** 277_demo_charge_button_placement.yaml
 
 ---
-### 2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang <a name='link__20220101__636_stinger_flashbang_damage'></a>
-**Changes**
-
-- **FIX**: Flashbang grenades from USA Rangers no longer damage GLA Stinger Soldiers.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/636](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/636)
-
-**Labels:** bug, controversial, gla, minor, usa, v1.0
-
-**Authors:** commy2
-
-**Source:** 636_stinger_flashbang_damage.yaml
-
----
 ### 2023-04-06 - Reduces audio range and volume of Remote Demo Charge <a name='link__20230406__1801_remote_demo_charge_audio'></a>
 **Changes**
 
@@ -2598,6 +2914,22 @@ Contains 710 entries with
 **Authors:** xezon
 
 **Source:** 2058_toxin_stream_splash_visuals.yaml
+
+---
+### 2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites <a name='link__20230716__297_stinger_flashbang_attack'></a>
+**Changes**
+
+- **FIX**: Attack cursor no longer disappears when attempting to target a Stinger Site with Flashbang Rangers
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/297](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/297)
+
+**Labels:** bug, controversial, gla, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 297_stinger_flashbang_attack.yaml
 
 ---
 ### 2021-08-27 - Fixes wrong USA Ranger types spawning from destroyed USA Particle Cannon <a name='link__20210827__75_particlecannon_rangers'></a>
@@ -6011,6 +6343,39 @@ Contains 710 entries with
 **Source:** 2067_laser_weapons_infantry_burn.yaml
 
 ---
+### 2023-07-15 - Sets correct name of USA Spectre Gunship in languages <a name='link__20230715__2111_spectre_gunship_name'></a>
+**Changes**
+
+- **FIX**: The USA Spectre Gunship is now called "Avión de Spectre" instead of "Helicóptero Spectre" in Spanish.
+- **FIX**: The USA Spectre Gunship is now called "Avião de Artilharia Spectre" instead of "Nave de Artilharia Spectre" in Brazilian (Portuguese).
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2111](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2111)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2111_spectre_gunship_name.yaml
+
+---
+### 2023-07-17 - Sets consistent name for EMP Patriot Battery in German language <a name='link__20230717__2124_german_emp_patriot_text'></a>
+**Changes**
+
+- **FIX**: The EMP version of the "Patriot-Batterie" is now called "EMP Patriot-Batterie".
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2124](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2124)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2124_german_emp_patriot_text.yaml
+
+---
 ### 2023-02-09 - Fixes turret animation and effect issues on death of tanks <a name='link__20230209__1657_tank_turret_deatheffects'></a>
 **Changes**
 
@@ -8512,6 +8877,72 @@ Contains 710 entries with
 **Source:** 2050_dragon_black_napalm_flamethrower_clip_size.yaml
 
 ---
+### 2023-07-09 - Adds missing Assault Troop Transport, Attack Outpost and Assault Helix name specializations to German localization <a name='link__20230709__2088_german_infa_transports_text'></a>
+**Changes**
+
+- **FIX**: The China Infantry "Truppentransporter" is now called "Sturm-Truppentransporter".
+- **FIX**: The China Infantry "Horchposten" is now called "Angriffs-Horchposten".
+- **FIX**: The China Infantry "Helix" is now called "Sturm-Helix".
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2088](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2088)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2088_german_infa_transports_text.yaml
+
+---
+### 2023-07-12 - Fixes key conflict of China Satellite Hack I and II with STOP (E) <a name='link__20230712__2092_satellite_hack_i_ii_key_conflict'></a>
+**Changes**
+
+- **FIX**: The China Satellite Hack I and II upgrades in the Internet Center can now be purchased and selected with key A and no longer conflict with STOP (S). Affects all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2106](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2106)
+
+**Labels:** bug, china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2092_satellite_hack_i_ii_key_conflict.yaml
+
+---
+### 2023-07-12 - Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS (E) <a name='link__20230712__2106_neutron_shells_key_conflict'></a>
+**Changes**
+
+- **FIX**: The China Neutron Shells warhead of the Nuke Cannon can now be selected with key A and no longer conflicts with SELECT_MATCHING_UNITS (E). Affects all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2106](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2106)
+
+**Labels:** bug, china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2106_neutron_shells_key_conflict.yaml
+
+---
+### 2023-07-15 - Adds complete ECM Tank name in construction tool tip <a name='link__20230715__2113_ecm_tank_tooltip_name'></a>
+**Changes**
+
+- **FIX**: Adds complete ECM Tank name in construction tool tip of all latin languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2113](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2113)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2113_ecm_tank_tooltip_name.yaml
+
+---
 ### 2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state <a name='link__20210822__2_battle_bus_damage_transition'></a>
 **Changes**
 
@@ -10344,22 +10775,6 @@ Contains 710 entries with
 **Source:** 1526_booby_trap_physics.yaml
 
 ---
-### 2023-01-08 - Fixes wrong exploded death animation of GLA Worker <a name='link__20230108__1528_worker_death_animation'></a>
-**Changes**
-
-- **FIX**: GLA Worker with supply box now shows proper death animation when exploded.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1528](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1528)
-
-**Labels:** art, bug, gla, minor, v1.0
-
-**Authors:** RedMeow2, xezon
-
-**Source:** 1528_worker_death_animation.yaml
-
----
 ### 2023-01-21 - Adds missing Clear Mines command button to the fake structures command set of GLA Worker <a name='link__20230121__1578_worker_clear_mines_button'></a>
 **Changes**
 
@@ -10949,6 +11364,41 @@ Contains 710 entries with
 **Source:** 2076_demo_barracks_death_effect.yaml
 
 ---
+### 2023-07-16 - Fixes wrong exploded death animation of GLA Worker <a name='link__20230716__2120_worker_death_animation'></a>
+**Changes**
+
+- **FIX**: GLA Worker with supply box now shows proper death animation when exploded.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2120](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2120)
+
+**Labels:** art, bug, gla, minor, v1.0
+
+**Authors:** RedMeow2, commy2, xezon
+
+**Source:** 2120_worker_death_animation.yaml
+
+---
+### 2023-07-16 - Adds missing upgrade icons to Stinger Soldiers <a name='link__20230716__2121_stinger_soldier_upgrade_cameos'></a>
+**Changes**
+
+- **FIX**: All GLA Stinger Soldiers now show the AP Rockets upgrade icon.
+- **FIX**: Toxin General Stinger Soldiers now show the Anthrax Gamma upgrade icon.
+- **FIX**: Demo General Stinger Soldiers (unused) now show the Demolitions upgrade icon.
+- **FIX**: Enemy Stinger Soldiers from the GLA02 single player campaign no longer show the inapplicable Camo Netting upgrade icon.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2121](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2121)
+
+**Labels:** gla, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2121_stinger_soldier_upgrade_cameos.yaml
+
+---
 ### 2021-09-11 - Adds missing Hellfire Drone icon to Boss Paladin <a name='link__20210911__319_boss_paladin_cameo'></a>
 **Changes**
 
@@ -11474,6 +11924,104 @@ Contains 710 entries with
 **Authors:** xezon
 
 **Source:** 1982_boss_dozer_buttons.yaml
+
+---
+### 2023-07-12 - Fixes Boss General key conflicts in English localization <a name='link__20230712__2102_english_boss_key_conflicts'></a>
+**Changes**
+
+- **FIX**: All 13 English specific key conflicts are now fixed.
+
+**Subchanges**
+
+- **FIX**: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Patriot Missile (M).
+- **FIX**: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
+- **FIX**: The Boss Sneak Attack can now be placed with key S and no longer conflicts with Carpet Bomb (T).
+- **FIX**: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+- **FIX**: The Boss Land Mines can now be researched with key M and no longer conflicts with Laser Missiles (L).
+- **FIX**: The Boss Arm the Mob can now be researched with key O and no longer conflicts with Neutron Mines (M).
+- **FIX**: The Boss Composite Armor can now be researched with key C and no longer conflicts with Particle Cannon (P).
+- **FIX**: The Boss Anthrax Beta can now be researched with key X and no longer conflicts with Buggy Ammo (A).
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2102](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2102)
+
+**Labels:** boss, bug, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2102_english_boss_key_conflicts.yaml
+
+---
+### 2023-07-16 - Adds separate buttons and labels to all major Boss commands <a name='link__20230716__2119_add_boss_commands_and_labels'></a>
+**Changes**
+
+- **FEATURE**: Adds separate buttons and labels for all major Boss commands. This allows to setup custom key mappings that do not conflict with the setups for other factions.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2102](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2102)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2119](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2119)
+
+**Labels:** boss, enhancement, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2119_add_boss_commands_and_labels.yaml
+
+---
+### 2023-07-17 - Fixes Boss General key conflicts in Korean localization <a name='link__20230717__2125_korean_boss_key_conflicts'></a>
+**Changes**
+
+- **FIX**: All 13 Korean specific key conflicts are now fixed.
+
+**Subchanges**
+
+- **FIX**: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Patriot Missile (M).
+- **FIX**: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
+- **FIX**: The Boss Sneak Attack can now be placed with key S and no longer conflicts with Carpet Bomb (T).
+- **FIX**: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+- **FIX**: The Boss Land Mines can now be researched with key M and no longer conflicts with Laser Missiles (L).
+- **FIX**: The Boss Arm the Mob can now be researched with key O and no longer conflicts with Neutron Mines (M).
+- **FIX**: The Boss Composite Armor can now be researched with key C and no longer conflicts with Particle Cannon (P).
+- **FIX**: The Boss Anthrax Beta can now be researched with key X and no longer conflicts with Buggy Ammo (A).
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2125](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2125)
+
+**Labels:** boss, bug, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2125_korean_boss_key_conflicts.yaml
+
+---
+### 2023-07-18 - Fixes Boss General key conflicts in Chinese localization <a name='link__20230718__2128_chinese_boss_key_conflicts'></a>
+**Changes**
+
+- **FIX**: All 13 Chinese specific key conflicts are now fixed.
+
+**Subchanges**
+
+- **FIX**: The Boss Nuke Missile can now be constructed with key I and no longer conflicts with Patriot Missile (M).
+- **FIX**: The Boss Nuke Missile can now be launched with key I and no longer conflicts with Nationalism (N).
+- **FIX**: The Boss Sneak Attack can now be placed with key S and no longer conflicts with Carpet Bomb (T).
+- **FIX**: The Boss Gattling Tank can now be produced with key A and no longer conflicts with Avenger (G).
+- **FIX**: The Boss Land Mines can now be researched with key M and no longer conflicts with Laser Missiles (L).
+- **FIX**: The Boss Arm the Mob can now be researched with key O and no longer conflicts with Neutron Mines (M).
+- **FIX**: The Boss Composite Armor can now be researched with key C and no longer conflicts with Particle Cannon (P).
+- **FIX**: The Boss Anthrax Beta can now be researched with key X and no longer conflicts with Buggy Ammo (A).
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2128](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2128)
+
+**Labels:** boss, bug, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2128_chinese_boss_key_conflicts.yaml
 
 ---
 ### 2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad <a name='link__20210911__308_reinforcement_pad_xp_reward'></a>
@@ -14929,6 +15477,38 @@ Contains 710 entries with
 **Authors:** xezon
 
 **Source:** 2011_structure_damage_effects.yaml
+
+---
+### 2023-07-09 - Removes unnecessary line breaks in object labels of German and French localizations <a name='link__20230709__2089_german_french_object_name_line_breaks'></a>
+**Changes**
+
+- **FIX**: Removes unnecessary line breaks in 6 object labels of German and French localizations. All object labels are now setup consistently.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2089](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2089)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2089_german_french_object_name_line_breaks.yaml
+
+---
+### 2023-07-12 - Removes duplicate Command_UpgradeCamoNetting definition from ini files <a name='link__20230712__2100_remove_duplicate_camo_netting_button'></a>
+**Changes**
+
+- **FIX**: Removes the duplicate Command_UpgradeCamoNetting definition from ini files. Command_UpgradeGLACamoNetting should be used.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2100](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2100)
+
+**Labels:** minor, v1.0, worldbuilder
+
+**Authors:** xezon
+
+**Source:** 2100_remove_duplicate_camo_netting_button.yaml
 
 ---
 ### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='link__20221005__1335_pitched_air_weapon_sounds'></a>

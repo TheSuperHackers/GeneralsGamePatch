@@ -139,12 +139,12 @@ Contains 128 entries with
 - [2022-10-02 - Fixes missing lights of damaged GLA Scud Storm on Night maps](#link__20221002__1325_scud_storm_night_lights)
 - [2022-10-02 - Fixes missing snow textures of damaged GLA Scud Storm on Winter maps](#link__20221002__1326_scud_storm_snow_damage)
 - [2022-10-02 - Adds upscaled utscudslab textures for GLA Scud Storm](#link__20221002__1328_utscudslab_upscaled_textures)
-- [2023-01-08 - Fixes wrong exploded death animation of GLA Worker](#link__20230108__1528_worker_death_animation)
 - [2023-06-24 - Decreases performance cost of toxin stream trail effects by 50%](#link__20230624__2034_toxin_stream_trail_performance)
 - [2023-06-24 - Decreases performance cost of toxin stream puddles by 70%](#link__20230624__2036_toxin_stream_puddle_performance)
 - [2023-06-25 - Decreases performance cost of toxin spray particles by 50%](#link__20230625__2042_toxin_spray_particle_performance)
 - [2023-06-25 - Increases visibility of toxin spray particles](#link__20230625__2042_toxin_spray_particle_visibility)
 - [2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5%](#link__20230625__2042_toxin_spray_puddle_performance)
+- [2023-07-16 - Fixes wrong exploded death animation of GLA Worker](#link__20230716__2120_worker_death_animation)
 - [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#link__20211016__568_repair_bay_ruin_model)
 - [2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees](#link__20230205__1638_humvee1_transition_damage_effects)
 - [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#link__20230205__1639_civ_damaged_state_models)
@@ -2592,22 +2592,6 @@ Contains 128 entries with
 **Source:** 1328_utscudslab_upscaled_textures.yaml
 
 ---
-### 2023-01-08 - Fixes wrong exploded death animation of GLA Worker <a name='link__20230108__1528_worker_death_animation'></a>
-**Changes**
-
-- **FIX**: GLA Worker with supply box now shows proper death animation when exploded.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1528](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1528)
-
-**Labels:** art, bug, gla, minor, v1.0
-
-**Authors:** RedMeow2, xezon
-
-**Source:** 1528_worker_death_animation.yaml
-
----
 ### 2023-06-24 - Decreases performance cost of toxin stream trail effects by 50% <a name='link__20230624__2034_toxin_stream_trail_performance'></a>
 **Changes**
 
@@ -2689,6 +2673,22 @@ Contains 128 entries with
 **Authors:** xezon
 
 **Source:** 2042_toxin_spray_puddle_performance.yaml
+
+---
+### 2023-07-16 - Fixes wrong exploded death animation of GLA Worker <a name='link__20230716__2120_worker_death_animation'></a>
+**Changes**
+
+- **FIX**: GLA Worker with supply box now shows proper death animation when exploded.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2120](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2120)
+
+**Labels:** art, bug, gla, minor, v1.0
+
+**Authors:** RedMeow2, commy2, xezon
+
+**Source:** 2120_worker_death_animation.yaml
 
 ---
 ### 2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building. <a name='link__20211016__568_repair_bay_ruin_model'></a>
