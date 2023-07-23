@@ -1,0 +1,21 @@
+---
+date: 2023-07-23
+
+title: Improves visibility of text key mappings in all languages
+
+changes:
+  - tweak: All in-text key mappings are now trailing upper-case key mappings behind a colon.
+  - tweak: All trailing key mappings in parantheses are now trailing upper-case key mappings behind a colon.
+
+labels:
+  - design
+  - gui
+  - major
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2141
+
+authors:
+  - xezon
