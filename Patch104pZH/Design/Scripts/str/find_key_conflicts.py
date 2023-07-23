@@ -467,6 +467,19 @@ def find_invalid_keys(
                     txt_file.write("\n")
 
 
+def find_duplicate_keys(
+        strings: list[StringEntry],
+        lang_code: str) -> None:
+
+    out_txt_path = build_abs_path(f"generated/{lang_code.lower()}_key_duplicate.txt")
+    with open(out_txt_path, "w", encoding="utf-8") as txt_file:
+        string: StringEntry
+        for string in strings:
+            if string.text.count('&') >= 2:
+                txt_file.write(f"{string.name} : \"{string.text}\"")
+                txt_file.write("\n")
+
+
 def find_conflicts(
         command_sets: list[CommandSet],
         control_command_maps: list[CommandMap],
@@ -540,6 +553,7 @@ def find_with(
     strings.extend(read_string_entries(generals_str, lang_code, "CONTROLBAR:", requires_key=False))
 
     find_invalid_keys(strings, lang_code)
+    find_duplicate_keys(strings, lang_code)
 
     strings.extend(read_string_entries(generals_str, lang_code, "OBJECT:", requires_key=False))
     strings.extend(read_string_entries(generals_str, lang_code, "UPGRADE:", requires_key=False))
