@@ -36,8 +36,8 @@ Contains 115 entries with
 ## Index
 - [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
 - [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
-- [2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang](#link__20220101__636_stinger_flashbang_damage)
 - [2023-04-06 - Reduces audio range and volume of Remote Demo Charge](#link__20230406__1801_remote_demo_charge_audio)
+- [2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites](#link__20230716__297_stinger_flashbang_attack)
 - [2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret](#link__20210913__373_laser_turret_clip_size)
 - [2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles](#link__20210922__403_afg_avenger_armor)
 - [2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers](#link__20210923__407_avenger_composite_armor)
@@ -185,22 +185,6 @@ Contains 115 entries with
 **Source:** 1802_timed_demo_charge_audio.yaml
 
 ---
-### 2022-01-01 - Removes GLA Stinger vulnerability against USA Flashbang <a name='link__20220101__636_stinger_flashbang_damage'></a>
-**Changes**
-
-- **FIX**: Flashbang grenades from USA Rangers no longer damage GLA Stinger Soldiers.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/636](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/636)
-
-**Labels:** bug, controversial, gla, minor, usa, v1.0
-
-**Authors:** commy2
-
-**Source:** 636_stinger_flashbang_damage.yaml
-
----
 ### 2023-04-06 - Reduces audio range and volume of Remote Demo Charge <a name='link__20230406__1801_remote_demo_charge_audio'></a>
 **Changes**
 
@@ -216,6 +200,22 @@ Contains 115 entries with
 **Authors:** xezon
 
 **Source:** 1801_remote_demo_charge_audio.yaml
+
+---
+### 2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites <a name='link__20230716__297_stinger_flashbang_attack'></a>
+**Changes**
+
+- **FIX**: Attack cursor no longer disappears when attempting to target a Stinger Site with Flashbang Rangers
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/297](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/297)
+
+**Labels:** bug, controversial, gla, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 297_stinger_flashbang_attack.yaml
 
 ---
 ### 2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret <a name='link__20210913__373_laser_turret_clip_size'></a>
