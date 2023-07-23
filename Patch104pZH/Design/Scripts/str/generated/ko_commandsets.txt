@@ -4372,7 +4372,7 @@ End
 
 CommandSet Nuke_ChinaCommandCenterCommandSet
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "건설 불도저: &D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "핵 폭격기: &K"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "핵 폭격기: &T"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "네이팜 공습: &N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "산탄형 지뢰: &I"
   5 = Command_CashHack : CONTROLBAR:CashHack "자금 해킹: &C"
@@ -4387,12 +4387,12 @@ CommandSet Nuke_ChinaCommandCenterCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: F, G, J, M, O, P, S, T, V, X, Z, 
+    Available keys: F, G, J, K, M, O, P, S, V, X, Z, 
 End
 
 CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "건설 불도저: &D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "핵 폭격기: &K"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "핵 폭격기: &T"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "네이팜 공습: &N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "산탄형 지뢰: &I"
   5 = Command_CashHack : CONTROLBAR:CashHack "자금 해킹: &C"
@@ -4407,7 +4407,7 @@ CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: F, G, J, L, O, P, S, T, V, X, Z, 
+    Available keys: F, G, J, K, L, O, P, S, V, X, Z, 
 End
 
 CommandSet Nuke_ChinaBarracksCommandSet
@@ -5331,10 +5331,10 @@ CommandSet Infa_ChinaCommandCenterCommandSetUpgrade
 End
 
 CommandSet Infa_ChinaBarracksCommandSet
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "미니 거너: &I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "미니 거너: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "탱크 헌터: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "슈퍼 해커: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "슈퍼 흑수선: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "슈퍼 흑수선: &B"
   7 = Infa_Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "건물 점령: &C"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "지뢰: &L"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "집결지 설정: &R"
@@ -5342,14 +5342,14 @@ CommandSet Infa_ChinaBarracksCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, D, E, F, G, J, K, M, N, O, P, U, V, X, Y, Z, 
+    Available keys: D, E, F, I, J, K, M, N, O, P, S, U, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaBarracksCommandSetUpgrade
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "미니 거너: &I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "미니 거너: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "탱크 헌터: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "슈퍼 해커: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "슈퍼 흑수선: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "슈퍼 흑수선: &B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "건물 점령: &C"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "중성자 지뢰: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "집결지 설정: &R"
@@ -5357,7 +5357,7 @@ CommandSet Infa_ChinaBarracksCommandSetUpgrade
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, D, E, F, G, J, K, L, N, O, P, U, V, X, Y, Z, 
+    Available keys: D, E, F, I, J, K, L, N, O, P, S, U, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaInfantryPropagandaTrooperCommandSet
@@ -5386,8 +5386,8 @@ CommandSet Infa_ChinaInfantryMiniGunnerCommandSet
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSet
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "공격 부대 수송 차량: &A"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "공격 아웃포스트: &O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "공격 부대 수송 차량: &T"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "공격 아웃포스트: &S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "체인건: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "드래곤 탱크: &D"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "블랙 네이팜: &N"
@@ -5400,12 +5400,12 @@ CommandSet Infa_ChinaWarFactoryCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, J, K, M, P, S, T, V, X, Y, Z, 
+    Available keys: A, B, F, G, J, K, M, O, P, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "공격 부대 수송 차량: &A"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "공격 아웃포스트: &O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "공격 부대 수송 차량: &T"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "공격 아웃포스트: &S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "체인건: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "드래곤 탱크: &D"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "블랙 네이팜: &N"
@@ -5418,7 +5418,7 @@ CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, J, K, L, P, S, T, V, X, Y, Z, 
+    Available keys: A, B, F, G, J, K, L, O, P, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaPropagandaCenterCommandSet
@@ -5815,7 +5815,7 @@ CommandSet Lazr_AmericaDozerCommandSet
   4 = Lazr_Command_ConstructAmericaSupplyDropZone : CONTROLBAR:ConstructAmericaSupplyDropZone "투하지역: &Z"
   5 = Lazr_Command_ConstructAmericaSupplyCenter : CONTROLBAR:ConstructAmericaSupplyCenter "서플라이 센터: &U"
   6 = Lazr_Command_ConstructAmericaParticleCannonUplink : CONTROLBAR:ConstructAmericaParticleCannonUplink "파티클 캐논 발사: &P"
-  7 = Lazr_Command_ConstructAmericaPatriotBattery : CONTROLBAR:Lazr_ConstructAmericaPatriotBattery "레이저 방어 포탑: &T"
+  7 = Lazr_Command_ConstructAmericaPatriotBattery : CONTROLBAR:Lazr_ConstructAmericaPatriotBattery "레이저 방어 포탑: &M"
   8 = Lazr_Command_ConstructAmericaCommandCenter : CONTROLBAR:ConstructAmericaCommandCenter "커맨드 센터: &C"
   9 = Lazr_Command_ConstructAmericaFireBase : CONTROLBAR:ConstructAmericaFireBase "파이어 베이스: &I"
   11 = Lazr_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "군수공장: &A"
@@ -5827,7 +5827,7 @@ CommandSet Lazr_AmericaDozerCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: D, G, J, K, M, N, O, V, 
+    Available keys: D, G, J, K, N, O, T, V, 
 End
 
 CommandSet Lazr_AmericaSupplyCenterCommandSet
@@ -5878,7 +5878,7 @@ CommandSet Lazr_AmericaStrategyCenterCommandSet
 End
 
 CommandSet Lazr_AmericaWarFactoryCommandSet
-  1 = Lazr_Command_ConstructAmericaTankCrusader : CONTROLBAR:Lazr_ConstructAmericaTankCrusader "레이저 탱크: &T"
+  1 = Lazr_Command_ConstructAmericaTankCrusader : CONTROLBAR:Lazr_ConstructAmericaTankCrusader "레이저 탱크: &C"
   3 = Lazr_Command_ConstructAmericaVehicleHumvee : CONTROLBAR:ConstructAmericaVehicleHumvee "험비: &V"
   4 = Lazr_Command_ConstructAmericaVehicleMedic : CONTROLBAR:ConstructAmericaVehicleMedic "앰뷸런스: &A"
   6 = Lazr_Command_ConstructAmericaVehicleSentryDrone : CONTROLBAR:ConstructAmericaVehicleSentryDrone "센트리 드론: &S"
@@ -5891,7 +5891,7 @@ CommandSet Lazr_AmericaWarFactoryCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, J, K, L, O, P, U, X, Y, Z, 
+    Available keys: B, D, E, F, J, K, L, O, P, T, U, X, Y, Z, 
 End
 
 CommandSet Lazr_AmericaBarracksCommandSet

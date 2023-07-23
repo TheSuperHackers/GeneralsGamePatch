@@ -1483,7 +1483,7 @@ End
 CommandSet ChinaBarracksCommandSet
   1 = Command_ConstructChinaInfantryRedguard : CONTROLBAR:ConstructChinaInfantryRedguard "Standard-Cyborg: &R"
   2 = Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Panzerjäger: &P"
-  3 = Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &C"
+  3 = Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &A"
   4 = Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Black Bot: &B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Gebäude besetzen: &G"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Landminen: &L"
@@ -1491,13 +1491,13 @@ CommandSet ChinaBarracksCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, D, E, F, I, J, K, M, N, O, S, T, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, I, J, K, M, N, O, S, T, V, W, X, Y, Z, 
 End
 
 CommandSet ChinaBarracksCommandSetUpgrade
   1 = Command_ConstructChinaInfantryRedguard : CONTROLBAR:ConstructChinaInfantryRedguard "Standard-Cyborg: &R"
   2 = Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Panzerjäger: &P"
-  3 = Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &C"
+  3 = Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &A"
   4 = Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Black Bot: &B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Gebäude besetzen: &G"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Neutronenminen: &M"
@@ -1505,7 +1505,7 @@ CommandSet ChinaBarracksCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, D, E, F, I, J, K, L, N, O, S, T, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, I, J, K, L, N, O, S, T, V, W, X, Y, Z, 
 End
 
 CommandSet ChinaWarFactoryCommandSet
@@ -2032,7 +2032,7 @@ CommandSet GC_Chem_GLAWorkerCommandSet
 End
 
 CommandSet GC_Chem_GLABarracksCommandSet
-  1 = GC_Chem_Command_ConstructGLAInfantryRebel : CONTROLBAR:Chem_ConstructGLAInfantryRebel "Säure-Cyborg: &S"
+  1 = GC_Chem_Command_ConstructGLAInfantryRebel : CONTROLBAR:Chem_ConstructGLAInfantryRebel "Säure-Cyborg: &R"
   2 = GC_Chem_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "RPG-Einheit: &P"
   3 = GC_Chem_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:Chem_ConstructGLAInfantryTerrorist "Säure-Bombe: &B"
   5 = GC_Chem_Command_ConstructGLAInfantryHijacker : CONTROLBAR:ConstructGLAInfantryHijacker "Entführer: &F"
@@ -2043,7 +2043,7 @@ CommandSet GC_Chem_GLABarracksCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, D, E, J, K, L, M, N, O, R, T, V, W, X, Y, Z, 
+    Available keys: A, C, D, E, J, K, L, M, N, O, S, T, V, W, X, Y, Z, 
 End
 
 CommandSet GC_Chem_GLAPalaceCommandSet
@@ -3826,7 +3826,7 @@ CommandSet Chem_GLAWorkerFakeBuildingsCommandSet
 End
 
 CommandSet Chem_GLABarracksCommandSet
-  1 = Chem_Command_ConstructGLAInfantryRebel : CONTROLBAR:Chem_ConstructGLAInfantryRebel "Säure-Cyborg: &S"
+  1 = Chem_Command_ConstructGLAInfantryRebel : CONTROLBAR:Chem_ConstructGLAInfantryRebel "Säure-Cyborg: &R"
   2 = Chem_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "RPG-Einheit: &P"
   3 = Chem_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:Chem_ConstructGLAInfantryTerrorist "Säure-Bombe: &B"
   4 = Chem_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Cyborg-Trupp: &T"
@@ -3836,7 +3836,7 @@ CommandSet Chem_GLABarracksCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, D, E, F, J, K, L, M, N, O, R, V, W, X, Y, Z, 
+    Available keys: A, C, D, E, F, J, K, L, M, N, O, S, V, W, X, Y, Z, 
 End
 
 CommandSet Chem_GLATunnelNetworkCommandSet
@@ -4102,7 +4102,7 @@ End
 CommandSet Nuke_ChinaBarracksCommandSet
   1 = Nuke_Command_ConstructChinaInfantryRedguard : CONTROLBAR:ConstructChinaInfantryRedguard "Standard-Cyborg: &R"
   2 = Nuke_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Panzerjäger: &P"
-  3 = Nuke_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &C"
+  3 = Nuke_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &A"
   4 = Nuke_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Black Bot: &B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Gebäude besetzen: &G"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Landminen: &L"
@@ -4110,13 +4110,13 @@ CommandSet Nuke_ChinaBarracksCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, D, E, F, I, J, K, M, N, O, S, T, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, I, J, K, M, N, O, S, T, V, W, X, Y, Z, 
 End
 
 CommandSet Nuke_ChinaBarracksCommandSetUpgrade
   1 = Nuke_Command_ConstructChinaInfantryRedguard : CONTROLBAR:ConstructChinaInfantryRedguard "Standard-Cyborg: &R"
   2 = Nuke_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Panzerjäger: &P"
-  3 = Nuke_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &C"
+  3 = Nuke_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &A"
   4 = Nuke_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Black Bot: &B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Gebäude besetzen: &G"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Neutronenminen: &M"
@@ -4124,7 +4124,7 @@ CommandSet Nuke_ChinaBarracksCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, D, E, F, I, J, K, L, N, O, S, T, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, I, J, K, L, N, O, S, T, V, W, X, Y, Z, 
 End
 
 CommandSet Nuke_ChinaInfantryPropagandaTrooperCommandSet
@@ -4957,31 +4957,31 @@ CommandSet Infa_ChinaCommandCenterCommandSetUpgrade
 End
 
 CommandSet Infa_ChinaBarracksCommandSet
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Minigun-Cyborg: &I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Minigun-Cyborg: &R"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Panzerjäger: &P"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super-Hacker: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super-Bot: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super-Bot: &B"
   7 = Infa_Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Gebäude besetzen: &G"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Landminen: &L"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Sammelpunkt: &U"
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, J, K, M, N, O, R, T, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, I, J, K, M, N, O, S, T, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaBarracksCommandSetUpgrade
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Minigun-Cyborg: &I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Minigun-Cyborg: &R"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Panzerjäger: &P"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super-Hacker: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super-Bot: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super-Bot: &B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Gebäude besetzen: &G"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Neutronenminen: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Sammelpunkt: &U"
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, J, K, L, N, O, R, T, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, I, J, K, L, N, O, S, T, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaInfantryPropagandaTrooperCommandSet
@@ -6021,7 +6021,7 @@ End
 CommandSet Tank_ChinaBarracksCommandSet
   1 = Tank_Command_ConstructChinaInfantryRedguard : CONTROLBAR:ConstructChinaInfantryRedguard "Standard-Cyborg: &R"
   2 = Tank_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Panzerjäger: &P"
-  3 = Tank_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &C"
+  3 = Tank_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &A"
   4 = Tank_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Black Bot: &B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Gebäude besetzen: &G"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Landminen: &L"
@@ -6029,13 +6029,13 @@ CommandSet Tank_ChinaBarracksCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, D, E, F, I, J, K, M, N, O, S, T, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, I, J, K, M, N, O, S, T, V, W, X, Y, Z, 
 End
 
 CommandSet Tank_ChinaBarracksCommandSetUpgrade
   1 = Tank_Command_ConstructChinaInfantryRedguard : CONTROLBAR:ConstructChinaInfantryRedguard "Standard-Cyborg: &R"
   2 = Tank_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Panzerjäger: &P"
-  3 = Tank_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &C"
+  3 = Tank_Command_ConstructChinaInfantryHacker : CONTROLBAR:ConstructChinaInfantryHacker "Cyborg-Hacker: &A"
   4 = Tank_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:ConstructChinaInfantryBlackLotus "Black Bot: &B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Gebäude besetzen: &G"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Neutronenminen: &M"
@@ -6043,7 +6043,7 @@ CommandSet Tank_ChinaBarracksCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, D, E, F, I, J, K, L, N, O, S, T, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, I, J, K, L, N, O, S, T, V, W, X, Y, Z, 
 End
 
 CommandSet Tank_ChinaInfantryHackerCommandSet
@@ -6312,7 +6312,7 @@ CommandSet Boss_ChinaBarracksCommandSet
   2 = Boss_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Boss_ConstructChinaInfantryBlackLotus "Black Bot: &B"
   3 = Boss_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:Boss_ConstructChinaInfantryTankHunter "Panzerjäger: &P"
   4 = Boss_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:Boss_ConstructGLAInfantryJarmenKell "Infiltrator: &I"
-  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:Boss_ConstructChinaInfantryHacker "Cyborg-Hacker: &C"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:Boss_ConstructChinaInfantryHacker "Cyborg-Hacker: &A"
   6 = Boss_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:Boss_ConstructAmericaInfantryColonelBurton "Kommandobot: &O"
   7 = Boss_Command_ConstructAmericaInfantryPathfinder : CONTROLBAR:Boss_ConstructAmericaInfantryPathfinder "Kundschafter: &K"
   8 = Boss_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:Boss_ConstructGLAInfantryAngryMob "Cyborg-Trupp: &T"
@@ -6324,7 +6324,7 @@ CommandSet Boss_ChinaBarracksCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, D, E, F, J, N, S, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, J, N, S, V, W, X, Y, Z, 
 End
 
 CommandSet Boss_ChinaBarracksCommandSetUpgrade
@@ -6332,7 +6332,7 @@ CommandSet Boss_ChinaBarracksCommandSetUpgrade
   2 = Boss_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Boss_ConstructChinaInfantryBlackLotus "Black Bot: &B"
   3 = Boss_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:Boss_ConstructChinaInfantryTankHunter "Panzerjäger: &P"
   4 = Boss_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:Boss_ConstructGLAInfantryJarmenKell "Infiltrator: &I"
-  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:Boss_ConstructChinaInfantryHacker "Cyborg-Hacker: &C"
+  5 = Boss_Command_ConstructChinaInfantryHacker : CONTROLBAR:Boss_ConstructChinaInfantryHacker "Cyborg-Hacker: &A"
   6 = Boss_Command_ConstructAmericaInfantryColonelBurton : CONTROLBAR:Boss_ConstructAmericaInfantryColonelBurton "Kommandobot: &O"
   7 = Boss_Command_ConstructAmericaInfantryPathfinder : CONTROLBAR:Boss_ConstructAmericaInfantryPathfinder "Kundschafter: &K"
   8 = Boss_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:Boss_ConstructGLAInfantryAngryMob "Cyborg-Trupp: &T"
@@ -6344,7 +6344,7 @@ CommandSet Boss_ChinaBarracksCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, D, E, F, J, N, S, V, W, X, Y, Z, 
+    Available keys: C, D, E, F, J, N, S, V, W, X, Y, Z, 
 End
 
 CommandSet Boss_ChinaWarFactoryCommandSet

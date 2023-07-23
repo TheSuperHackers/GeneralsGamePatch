@@ -4372,7 +4372,7 @@ End
 
 CommandSet Nuke_ChinaCommandCenterCommandSet
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Construction Dozer: &D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Nuke Bomber: &K"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Nuke Bomber: &T"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Napalm Strike: &N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Cluster Mines: &I"
   5 = Command_CashHack : CONTROLBAR:CashHack "Cash Hack: &C"
@@ -4387,12 +4387,12 @@ CommandSet Nuke_ChinaCommandCenterCommandSet
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
-    Available keys: F, G, J, M, O, P, S, T, V, X, Z, 
+    Available keys: F, G, J, K, M, O, P, S, V, X, Z, 
 End
 
 CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Construction Dozer: &D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Nuke Bomber: &K"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Nuke Bomber: &T"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Napalm Strike: &N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Cluster Mines: &I"
   5 = Command_CashHack : CONTROLBAR:CashHack "Cash Hack: &C"
@@ -4407,7 +4407,7 @@ CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
-    Available keys: F, G, J, L, O, P, S, T, V, X, Z, 
+    Available keys: F, G, J, K, L, O, P, S, V, X, Z, 
 End
 
 CommandSet Nuke_ChinaBarracksCommandSet
@@ -5331,10 +5331,10 @@ CommandSet Infa_ChinaCommandCenterCommandSetUpgrade
 End
 
 CommandSet Infa_ChinaBarracksCommandSet
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Mini-Gunner: &I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Mini-Gunner: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Tank Hunter: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super Hacker: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Lotus: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Lotus: &B"
   7 = Infa_Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Capture Building: &C"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Land Mines: &L"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Rally Point: &R"
@@ -5342,14 +5342,14 @@ CommandSet Infa_ChinaBarracksCommandSet
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
-    Available keys: B, D, E, F, G, J, K, M, N, O, P, U, V, X, Y, Z, 
+    Available keys: D, E, F, I, J, K, M, N, O, P, S, U, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaBarracksCommandSetUpgrade
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Mini-Gunner: &I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Mini-Gunner: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Tank Hunter: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super Hacker: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Lotus: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Lotus: &B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Capture Building: &C"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Neutron Mines: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Rally Point: &R"
@@ -5357,7 +5357,7 @@ CommandSet Infa_ChinaBarracksCommandSetUpgrade
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
-    Available keys: B, D, E, F, G, J, K, L, N, O, P, U, V, X, Y, Z, 
+    Available keys: D, E, F, I, J, K, L, N, O, P, S, U, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaInfantryPropagandaTrooperCommandSet
@@ -5386,8 +5386,8 @@ CommandSet Infa_ChinaInfantryMiniGunnerCommandSet
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSet
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Assault Troop Transport: &A"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Attack Outpost: &O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Assault Troop Crawler: &T"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Attack Outpost: &S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Chain Guns: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "Dragon Tank: &D"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Black Napalm: &N"
@@ -5400,12 +5400,12 @@ CommandSet Infa_ChinaWarFactoryCommandSet
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
-    Available keys: B, F, G, J, K, M, P, S, T, V, X, Y, Z, 
+    Available keys: A, B, F, G, J, K, M, O, P, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Assault Troop Transport: &A"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Attack Outpost: &O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Assault Troop Crawler: &T"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Attack Outpost: &S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Chain Guns: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "Dragon Tank: &D"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Black Napalm: &N"
@@ -5418,7 +5418,7 @@ CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
-    Available keys: B, F, G, J, K, L, P, S, T, V, X, Y, Z, 
+    Available keys: A, B, F, G, J, K, L, O, P, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaPropagandaCenterCommandSet
@@ -5815,7 +5815,7 @@ CommandSet Lazr_AmericaDozerCommandSet
   4 = Lazr_Command_ConstructAmericaSupplyDropZone : CONTROLBAR:ConstructAmericaSupplyDropZone "Supply Drop Zone: &Z"
   5 = Lazr_Command_ConstructAmericaSupplyCenter : CONTROLBAR:ConstructAmericaSupplyCenter "Supply Center: &U"
   6 = Lazr_Command_ConstructAmericaParticleCannonUplink : CONTROLBAR:ConstructAmericaParticleCannonUplink "Particle Cannon: &P"
-  7 = Lazr_Command_ConstructAmericaPatriotBattery : CONTROLBAR:Lazr_ConstructAmericaPatriotBattery "Laser Defense Turret: &T"
+  7 = Lazr_Command_ConstructAmericaPatriotBattery : CONTROLBAR:Lazr_ConstructAmericaPatriotBattery "Laser Defense Turret: &M"
   8 = Lazr_Command_ConstructAmericaCommandCenter : CONTROLBAR:ConstructAmericaCommandCenter "Command Center: &C"
   9 = Lazr_Command_ConstructAmericaFireBase : CONTROLBAR:ConstructAmericaFireBase "Fire Base: &I"
   11 = Lazr_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "War Factory: &A"
@@ -5827,7 +5827,7 @@ CommandSet Lazr_AmericaDozerCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: D, G, J, K, M, N, O, V, 
+    Available keys: D, G, J, K, N, O, T, V, 
 End
 
 CommandSet Lazr_AmericaSupplyCenterCommandSet
@@ -5878,7 +5878,7 @@ CommandSet Lazr_AmericaStrategyCenterCommandSet
 End
 
 CommandSet Lazr_AmericaWarFactoryCommandSet
-  1 = Lazr_Command_ConstructAmericaTankCrusader : CONTROLBAR:Lazr_ConstructAmericaTankCrusader "Laser Tank: &T"
+  1 = Lazr_Command_ConstructAmericaTankCrusader : CONTROLBAR:Lazr_ConstructAmericaTankCrusader "Laser Tank: &C"
   3 = Lazr_Command_ConstructAmericaVehicleHumvee : CONTROLBAR:ConstructAmericaVehicleHumvee "Humvee: &V"
   4 = Lazr_Command_ConstructAmericaVehicleMedic : CONTROLBAR:ConstructAmericaVehicleMedic "Ambulance: &A"
   6 = Lazr_Command_ConstructAmericaVehicleSentryDrone : CONTROLBAR:ConstructAmericaVehicleSentryDrone "Sentry Drone: &S"
@@ -5891,7 +5891,7 @@ CommandSet Lazr_AmericaWarFactoryCommandSet
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
-    Available keys: B, C, D, E, F, J, K, L, O, P, U, X, Y, Z, 
+    Available keys: B, D, E, F, J, K, L, O, P, T, U, X, Y, Z, 
 End
 
 CommandSet Lazr_AmericaBarracksCommandSet

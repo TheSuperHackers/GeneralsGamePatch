@@ -1190,11 +1190,11 @@ CommandSet AmericaSupplyCenterCommandSet
 End
 
 CommandSet AmericaPowerPlantCommandSet
-  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &P"
+  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &C"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, D, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet AmericaStrategyCenterCommandSet
@@ -2411,11 +2411,11 @@ CommandSet AirF_AmericaCommandCenterCommandSet
 End
 
 CommandSet AirF_AmericaPowerPlantCommandSet
-  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &P"
+  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &C"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, D, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet AirF_AmericaStrategyCenterCommandSet
@@ -4876,7 +4876,7 @@ CommandSet Infa_ChinaDozerCommandSet
   4 = Infa_Command_ConstructChinaAirfield : CONTROLBAR:ConstructChinaAirfield "Lotnisko: &L"
   5 = Infa_Command_ConstructChinaSupplyCenter : CONTROLBAR:ConstructChinaSupplyCenter "Ośrodek zaopatrzeniowy: &O"
   6 = Infa_Command_ConstructChinaPropagandaCenter : CONTROLBAR:ConstructChinaPropagandaCenter "Ośrodek propagandowy: &P"
-  7 = Infa_Command_ConstructChinaBunker : CONTROLBAR:Infa_ConstructChinaBunker "Wzmocniony bunkier: &U"
+  7 = Infa_Command_ConstructChinaBunker : CONTROLBAR:Infa_ConstructChinaBunker "Wzmocniony bunkier: &B"
   8 = Infa_Command_ConstructChinaSpeakerTower : CONTROLBAR:ConstructChinaSpeakerTower "Megafon: &F"
   9 = Infa_Command_ConstructChinaGattlingCannon : CONTROLBAR:ConstructChinaGattlingCannon "Działko Gattling: &G"
   10 = Infa_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "Rakieta atomowa: &M"
@@ -4888,7 +4888,7 @@ CommandSet Infa_ChinaDozerCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, J, N, T, V, W, Y, 
+    Available keys: C, D, J, N, T, U, V, W, Y, 
 End
 
 CommandSet Infa_ChinaPowerPlantCommandSet
@@ -4957,31 +4957,31 @@ CommandSet Infa_ChinaCommandCenterCommandSetUpgrade
 End
 
 CommandSet Infa_ChinaBarracksCommandSet
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Komandos: &O"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Komandos: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Tropiciel czołgów: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Superhaker: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Superlotos: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Superlotos: &L"
   7 = Infa_Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Zajmij budynek: &Z"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Miny: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, G, I, J, K, L, N, P, U, V, W, X, Y, 
+    Available keys: B, C, D, E, F, I, J, K, N, O, P, S, U, V, W, X, Y, 
 End
 
 CommandSet Infa_ChinaBarracksCommandSetUpgrade
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Komandos: &O"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Komandos: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Tropiciel czołgów: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Superhaker: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Superlotos: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Superlotos: &L"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Zajmij budynek: &Z"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Miny neutronowe: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, G, I, J, K, L, N, P, U, V, W, X, Y, 
+    Available keys: B, C, D, E, F, I, J, K, N, O, P, S, U, V, W, X, Y, 
 End
 
 CommandSet Infa_ChinaInfantryPropagandaTrooperCommandSet
@@ -5008,8 +5008,8 @@ CommandSet Infa_ChinaInfantryMiniGunnerCommandSet
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSet
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Transporter szturmowy: &Z"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Posterunek szturmowy: &O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Transporter szturmowy: &T"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Posterunek szturmowy: &S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "CKM-y: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "Czołg Smok: &K"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Czarny napalm: &N"
@@ -5021,12 +5021,12 @@ CommandSet Infa_ChinaWarFactoryCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, D, F, G, J, L, P, S, T, U, V, W, X, Y, 
+    Available keys: B, D, F, G, J, L, O, P, U, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Transporter szturmowy: &Z"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Posterunek szturmowy: &O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Transporter szturmowy: &T"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Posterunek szturmowy: &S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "CKM-y: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "Czołg Smok: &K"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Czarny napalm: &N"
@@ -5038,7 +5038,7 @@ CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, D, F, G, J, L, P, S, T, U, V, W, X, Y, 
+    Available keys: B, D, F, G, J, L, O, P, U, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaPropagandaCenterCommandSet
@@ -5411,7 +5411,7 @@ CommandSet Lazr_AmericaDozerCommandSet
   4 = Lazr_Command_ConstructAmericaSupplyDropZone : CONTROLBAR:ConstructAmericaSupplyDropZone "Strefa zrzutu: &U"
   5 = Lazr_Command_ConstructAmericaSupplyCenter : CONTROLBAR:ConstructAmericaSupplyCenter "Ośrodek zaopatrzeniowy: &O"
   6 = Lazr_Command_ConstructAmericaParticleCannonUplink : CONTROLBAR:ConstructAmericaParticleCannonUplink "Miotacz cząstek: &M"
-  7 = Lazr_Command_ConstructAmericaPatriotBattery : CONTROLBAR:Lazr_ConstructAmericaPatriotBattery "Wieżyczka laserowa: &W"
+  7 = Lazr_Command_ConstructAmericaPatriotBattery : CONTROLBAR:Lazr_ConstructAmericaPatriotBattery "Wieżyczka laserowa: &T"
   8 = Lazr_Command_ConstructAmericaCommandCenter : CONTROLBAR:ConstructAmericaCommandCenter "Sztab: &Z"
   9 = Lazr_Command_ConstructAmericaFireBase : CONTROLBAR:ConstructAmericaFireBase "Baza ogniowa: &G"
   11 = Lazr_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "Fabryka wojenna: &A"
@@ -5422,7 +5422,7 @@ CommandSet Lazr_AmericaDozerCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, N, P, T, V, 
+    Available keys: B, C, D, F, I, J, N, P, V, W, 
 End
 
 CommandSet Lazr_AmericaSupplyCenterCommandSet
@@ -5470,7 +5470,7 @@ CommandSet Lazr_AmericaStrategyCenterCommandSet
 End
 
 CommandSet Lazr_AmericaWarFactoryCommandSet
-  1 = Lazr_Command_ConstructAmericaTankCrusader : CONTROLBAR:Lazr_ConstructAmericaTankCrusader "Czołg laserowy: &C"
+  1 = Lazr_Command_ConstructAmericaTankCrusader : CONTROLBAR:Lazr_ConstructAmericaTankCrusader "Czołg laserowy: &K"
   3 = Lazr_Command_ConstructAmericaVehicleHumvee : CONTROLBAR:ConstructAmericaVehicleHumvee "Humvee: &V"
   4 = Lazr_Command_ConstructAmericaVehicleMedic : CONTROLBAR:ConstructAmericaVehicleMedic "Ambulans: &A"
   6 = Lazr_Command_ConstructAmericaVehicleSentryDrone : CONTROLBAR:ConstructAmericaVehicleSentryDrone "Robot strażniczy: &S"
@@ -5482,7 +5482,7 @@ CommandSet Lazr_AmericaWarFactoryCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, E, G, J, K, L, N, O, P, T, U, W, X, Y, Z, 
+    Available keys: B, C, E, G, J, L, N, O, P, T, U, W, X, Y, Z, 
 End
 
 CommandSet Lazr_AmericaBarracksCommandSet
@@ -5513,11 +5513,11 @@ CommandSet Lazr_AmericaFireBaseCommandSet
 End
 
 CommandSet Lazr_AmericaPowerPlantCommandSet
-  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &P"
+  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &C"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, D, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet Lazr_AmericaAirfieldCommandSet
@@ -5857,7 +5857,7 @@ End
 
 CommandSet Tank_ChinaWarFactoryCommandSet
   1 = Tank_Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "Pancerna Pięść: &P"
-  2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Cesarz: &Z"
+  2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Cesarz: &O"
   3 = Tank_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Transporter opancerzony: &T"
   4 = Tank_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Posterunek nasłuchowy: &S"
   5 = Tank_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Czołg gattling: &G"
@@ -5870,12 +5870,12 @@ CommandSet Tank_ChinaWarFactoryCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, D, F, I, J, L, O, U, V, W, X, Y, 
+    Available keys: A, B, D, F, I, J, L, U, V, W, X, Y, Z, 
 End
 
 CommandSet Tank_ChinaWarFactoryCommandSetUpgrade
   1 = Tank_Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "Pancerna Pięść: &P"
-  2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Cesarz: &Z"
+  2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Cesarz: &O"
   3 = Tank_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Transporter opancerzony: &T"
   4 = Tank_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Posterunek nasłuchowy: &S"
   5 = Tank_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Czołg gattling: &G"
@@ -5888,7 +5888,7 @@ CommandSet Tank_ChinaWarFactoryCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, D, F, I, J, L, O, U, V, W, X, Y, 
+    Available keys: A, B, D, F, I, J, L, U, V, W, X, Y, Z, 
 End
 
 CommandSet Tank_ChinaPropagandaCenterCommandSet
@@ -6163,21 +6163,21 @@ CommandSet Boss_GLATunnelNetworkCommandSetUpgrade
 End
 
 CommandSet Boss_AmericaPowerPlantCommandSet
-  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &P"
+  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &C"
   12 = Boss_Command_UpgradeChinaMines : CONTROLBAR:Boss_UpgradeChinaMines "Miny: &M"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, D, E, F, G, I, J, K, L, N, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet Boss_AmericaPowerPlantCommandSetUpgrade
-  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &P"
+  1 = Command_UpgradeAmericaAdvancedControlRods : CONTROLBAR:UpgradeAmericaAdvancedControlRods "Pręty sterujące: &C"
   12 = Boss_Command_UpgradeEMPMines : CONTROLBAR:Boss_UpgradeEMPMines "Miny neutronowe: &M"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, D, E, F, G, I, J, K, L, N, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet Boss_AmericaPatriotBatteryCommandSet

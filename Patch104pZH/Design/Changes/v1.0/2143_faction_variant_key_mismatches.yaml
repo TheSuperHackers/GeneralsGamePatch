@@ -1,0 +1,40 @@
+---
+date: 2023-07-23
+
+title: Fixes key mapping mismatches between faction unit variants in all languages
+
+changes:
+  - fix: Key mapping mismatches between faction unit variants are now fixed in all languages.
+
+subchanges:
+  - fix: The China Hacker can now be produced with the same key as for the Super Hacker in German language.
+  - fix: The China Emperor can now be produced with the same key as for the Overlord in French, Polish languages.
+  - fix: The China Minigunner can now be produced with the same key as for the regular Red Guard in all languages.
+  - fix: The China Super Lotus can now be produced with the same key as for the regular Black Lotus in all language.
+  - fix: The China Attack Outpost can now be produced with the same key as for the regular Outpost in English, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+  - fix: The China Assault Troop Crawler can now be produced with the same key as for the regular Troop Crawler in English, French, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+  - fix: The China Fortified Bunker can now be constructed with the same key as for the regular Bunker in Polish language.
+  - fix: The China Nuke Bomber can now be placed with the same key as for the regular Bomber in English, Korean, Chinese languages.
+  - fix: The GLA Toxin Rebel can now be produced with the same key as for the regular Rebel in German language.
+  - fix: The GLA Toxin Terrorist can now be produced with the same key as for the regular Terrorist in Spanish language.
+  - fix: The USA Control Rods can now be researched with the same key as for the Advanced Control Rods in Polish language.
+  - fix: The USA Aurora Alpha can now be produced with the same key as for the regular Aurora in Spanish, Italian languages.
+  - fix: The USA King Raptor can now be produced with the same key as for the regular Raptor in Brazilian language.
+  - fix: The USA Laser Turret can now be constructed with the same key as for the regular Patriot Battery in English, Spanish, Korean, Chinese, Brazilian, Polish languages.
+  - fix: The USA Laser Crusader can now be produced with the same key as for the regular Crusader in English, Korean, Chinese, Brazilian, Polish languages.
+
+labels:
+  - china
+  - design
+  - gla
+  - gui
+  - major
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2143
+
+authors:
+  - xezon

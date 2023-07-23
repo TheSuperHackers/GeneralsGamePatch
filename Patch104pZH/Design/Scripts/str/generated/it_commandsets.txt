@@ -1511,7 +1511,7 @@ End
 CommandSet ChinaWarFactoryCommandSet
   1 = Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "Battlemaster: &B"
   2 = Command_ConstructChinaTankOverlord : CONTROLBAR:ConstructChinaTankOverlord "Overlord: &O"
-  3 = Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Crawler: &W"
+  3 = Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Trasporto truppe: &W"
   4 = Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Postazione d'ascolto: &T"
   5 = Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Carro gatling: &G"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cannoni a nastro: &C"
@@ -1531,7 +1531,7 @@ End
 CommandSet ChinaWarFactoryCommandSetUpgrade
   1 = Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "Battlemaster: &B"
   2 = Command_ConstructChinaTankOverlord : CONTROLBAR:ConstructChinaTankOverlord "Overlord: &O"
-  3 = Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Crawler: &W"
+  3 = Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Trasporto truppe: &W"
   4 = Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Postazione d'ascolto: &T"
   5 = Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Carro gatling: &G"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cannoni a nastro: &C"
@@ -4153,7 +4153,7 @@ End
 CommandSet Nuke_ChinaWarFactoryCommandSet
   1 = Nuke_Command_ConstructChinaTankBattleMaster : CONTROLBAR:Nuke_ConstructChinaTankBattleMaster "Battlemaster nucleare: &B"
   2 = Nuke_Command_ConstructChinaTankOverlord : CONTROLBAR:Nuke_ConstructChinaTankOverlord "Overlord nucleare: &O"
-  3 = Nuke_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Crawler: &W"
+  3 = Nuke_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Trasporto truppe: &W"
   4 = Nuke_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Postazione d'ascolto: &T"
   5 = Nuke_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Carro gatling: &G"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cannoni a nastro: &C"
@@ -4173,7 +4173,7 @@ End
 CommandSet Nuke_ChinaWarFactoryCommandSetUpgrade
   1 = Nuke_Command_ConstructChinaTankBattleMaster : CONTROLBAR:Nuke_ConstructChinaTankBattleMaster "Battlemaster nucleare: &B"
   2 = Nuke_Command_ConstructChinaTankOverlord : CONTROLBAR:Nuke_ConstructChinaTankOverlord "Overlord nucleare: &O"
-  3 = Nuke_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Crawler: &W"
+  3 = Nuke_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Trasporto truppe: &W"
   4 = Nuke_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Postazione d'ascolto: &T"
   5 = Nuke_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Carro gatling: &G"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cannoni a nastro: &C"
@@ -4577,7 +4577,7 @@ End
 CommandSet SupW_AmericaAirfieldCommandSet
   1 = SupW_Command_ConstructAmericaJetRaptor : CONTROLBAR:ConstructAmericaJetRaptor "Raptor: &T"
   2 = SupW_Command_ConstructAmericaVehicleComanche : CONTROLBAR:ConstructAmericaVehicleComanche "Comanche: &C"
-  3 = SupW_Command_ConstructAmericaJetAurora : CONTROLBAR:ConstructAmericaJetFuelAirAurora "Bombardiere Aurora Alfa: &B"
+  3 = SupW_Command_ConstructAmericaJetAurora : CONTROLBAR:ConstructAmericaJetFuelAirAurora "Bombardiere Aurora Alfa: &A"
   4 = SupW_Command_ConstructAmericaJetStealthFighter : CONTROLBAR:ConstructAmericaJetStealthFighter "Caccia stealth: &F"
   7 = Command_UpgradeComancheRocketPods : CONTROLBAR:UpgradeComancheRocketPods "Lanciarazzi: &N"
   8 = Command_UpgradeAmericaLaserMissiles : CONTROLBAR:UpgradeAmericaLaserMissiles "Missili a guida laser: &L"
@@ -4587,7 +4587,7 @@ CommandSet SupW_AmericaAirfieldCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Vendi"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, D, E, G, I, J, K, M, P, S, V, W, X, Y, Z, 
+    Available keys: B, D, E, G, I, J, K, M, P, S, V, W, X, Y, Z, 
 End
 
 CommandSet SupW_AmericaNuclearMissileCommandSet
@@ -4957,31 +4957,31 @@ CommandSet Infa_ChinaCommandCenterCommandSetUpgrade
 End
 
 CommandSet Infa_ChinaBarracksCommandSet
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Commando: &N"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Commando: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Cacciatore di carri: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super hacker: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Loto: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Loto: &L"
   7 = Infa_Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Conquista struttura: &C"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Mine terrestri: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punto di raccolta: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Vendi"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, D, E, F, G, I, J, K, L, O, P, U, V, W, X, Y, Z, 
+    Available keys: B, D, E, F, I, J, K, N, O, P, S, U, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaBarracksCommandSetUpgrade
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Commando: &N"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Commando: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Cacciatore di carri: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super hacker: &A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Loto: &S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Loto: &L"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "Conquista struttura: &C"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Mine a neutroni: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punto di raccolta: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Vendi"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, D, E, F, G, I, J, K, L, O, P, U, V, W, X, Y, Z, 
+    Available keys: B, D, E, F, I, J, K, N, O, P, S, U, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaInfantryPropagandaTrooperCommandSet
@@ -5008,8 +5008,8 @@ CommandSet Infa_ChinaInfantryMiniGunnerCommandSet
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSet
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Trasporto truppe d'assalto: &A"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Avamposto d'assalto: &O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Trasporto truppe d'assalto: &W"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Avamposto d'assalto: &T"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cannoni a nastro: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "Carro Dragon: &D"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Napalm nero: &N"
@@ -5021,12 +5021,12 @@ CommandSet Infa_ChinaWarFactoryCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Vendi"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, J, K, L, P, S, T, V, W, X, Y, Z, 
+    Available keys: A, B, F, G, J, K, L, O, P, S, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Trasporto truppe d'assalto: &A"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Avamposto d'assalto: &O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Trasporto truppe d'assalto: &W"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Avamposto d'assalto: &T"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cannoni a nastro: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "Carro Dragon: &D"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "Napalm nero: &N"
@@ -5038,7 +5038,7 @@ CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Vendi"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, J, K, L, P, S, T, V, W, X, Y, Z, 
+    Available keys: A, B, F, G, J, K, L, O, P, S, V, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaPropagandaCenterCommandSet
@@ -5858,7 +5858,7 @@ End
 CommandSet Tank_ChinaWarFactoryCommandSet
   1 = Tank_Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "Battlemaster: &B"
   2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Emperor: &O"
-  3 = Tank_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Crawler: &W"
+  3 = Tank_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Trasporto truppe: &W"
   4 = Tank_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Postazione d'ascolto: &T"
   5 = Tank_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Carro gatling: &G"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cannoni a nastro: &C"
@@ -5876,7 +5876,7 @@ End
 CommandSet Tank_ChinaWarFactoryCommandSetUpgrade
   1 = Tank_Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "Battlemaster: &B"
   2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Emperor: &O"
-  3 = Tank_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Crawler: &W"
+  3 = Tank_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Trasporto truppe: &W"
   4 = Tank_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Postazione d'ascolto: &T"
   5 = Tank_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Carro gatling: &G"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cannoni a nastro: &C"

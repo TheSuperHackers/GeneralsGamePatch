@@ -4063,7 +4063,7 @@ End
 
 CommandSet Nuke_ChinaCommandCenterCommandSet
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "建築推土機：&D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "核子炸彈：&K"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "核子炸彈：&T"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "汽油彈攻擊：&N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "集束地雷：&I"
   5 = Command_CashHack : CONTROLBAR:CashHack "金牌駭客：&C"
@@ -4077,12 +4077,12 @@ CommandSet Nuke_ChinaCommandCenterCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: F, G, J, M, O, P, S, T, V, W, X, Z, 
+    Available keys: F, G, J, K, M, O, P, S, V, W, X, Z, 
 End
 
 CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "建築推土機：&D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "核子炸彈：&K"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "核子炸彈：&T"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "汽油彈攻擊：&N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "集束地雷：&I"
   5 = Command_CashHack : CONTROLBAR:CashHack "金牌駭客：&C"
@@ -4096,7 +4096,7 @@ CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: F, G, J, L, O, P, S, T, V, W, X, Z, 
+    Available keys: F, G, J, K, L, O, P, S, V, W, X, Z, 
 End
 
 CommandSet Nuke_ChinaBarracksCommandSet
@@ -4957,31 +4957,31 @@ CommandSet Infa_ChinaCommandCenterCommandSetUpgrade
 End
 
 CommandSet Infa_ChinaBarracksCommandSet
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "蓋特機槍兵：&I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "蓋特機槍兵：&G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "坦克獵人：&T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "超級駭客：&A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "超級黑蓮花：&S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "超級黑蓮花：&B"
   7 = Infa_Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "佔領建築物：&C"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "埋放地雷：&L"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "集合點：&R"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, D, E, F, G, J, K, M, N, O, P, U, V, W, X, Y, Z, 
+    Available keys: D, E, F, I, J, K, M, N, O, P, S, U, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaBarracksCommandSetUpgrade
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "蓋特機槍兵：&I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "蓋特機槍兵：&G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "坦克獵人：&T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "超級駭客：&A"
-  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "超級黑蓮花：&S"
+  4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "超級黑蓮花：&B"
   7 = Command_UpgradeChinaRedguardCaptureBuilding : CONTROLBAR:UpgradeChinaRedguardCaptureBuilding "佔領建築物：&C"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "中子地雷：&M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "集合點：&R"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, D, E, F, G, J, K, L, N, O, P, U, V, W, X, Y, Z, 
+    Available keys: D, E, F, I, J, K, L, N, O, P, S, U, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaInfantryPropagandaTrooperCommandSet
@@ -5008,8 +5008,8 @@ CommandSet Infa_ChinaInfantryMiniGunnerCommandSet
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSet
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "突擊運輸機：&A"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "攻擊前哨車：&O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "突擊運輸機：&T"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "攻擊前哨車：&S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "鍊砲：&C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "火龍坦克：&D"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "黑色汽油彈：&N"
@@ -5021,12 +5021,12 @@ CommandSet Infa_ChinaWarFactoryCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, J, K, M, P, S, T, V, W, X, Y, Z, 
+    Available keys: A, B, F, G, J, K, M, O, P, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "突擊運輸機：&A"
-  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "攻擊前哨車：&O"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "突擊運輸機：&T"
+  4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "攻擊前哨車：&S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "鍊砲：&C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "火龍坦克：&D"
   8 = Command_UpgradeChinaBlackNapalm : CONTROLBAR:UpgradeChinaBlackNapalm "黑色汽油彈：&N"
@@ -5038,7 +5038,7 @@ CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, J, K, L, P, S, T, V, W, X, Y, Z, 
+    Available keys: A, B, F, G, J, K, L, O, P, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaPropagandaCenterCommandSet
@@ -5411,7 +5411,7 @@ CommandSet Lazr_AmericaDozerCommandSet
   4 = Lazr_Command_ConstructAmericaSupplyDropZone : CONTROLBAR:ConstructAmericaSupplyDropZone "補給空投區：&Z"
   5 = Lazr_Command_ConstructAmericaSupplyCenter : CONTROLBAR:ConstructAmericaSupplyCenter "補給中心：&U"
   6 = Lazr_Command_ConstructAmericaParticleCannonUplink : CONTROLBAR:ConstructAmericaParticleCannonUplink "離子砲：&P"
-  7 = Lazr_Command_ConstructAmericaPatriotBattery : CONTROLBAR:Lazr_ConstructAmericaPatriotBattery "雷射防禦炮塔：&T"
+  7 = Lazr_Command_ConstructAmericaPatriotBattery : CONTROLBAR:Lazr_ConstructAmericaPatriotBattery "雷射防禦炮塔：&M"
   8 = Lazr_Command_ConstructAmericaCommandCenter : CONTROLBAR:ConstructAmericaCommandCenter "指揮中心：&C"
   9 = Lazr_Command_ConstructAmericaFireBase : CONTROLBAR:ConstructAmericaFireBase "火力基地：&I"
   11 = Lazr_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "戰車工廠：&A"
@@ -5422,7 +5422,7 @@ CommandSet Lazr_AmericaDozerCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: D, G, J, K, M, N, O, V, W, 
+    Available keys: D, G, J, K, N, O, T, V, W, 
 End
 
 CommandSet Lazr_AmericaSupplyCenterCommandSet
@@ -5470,7 +5470,7 @@ CommandSet Lazr_AmericaStrategyCenterCommandSet
 End
 
 CommandSet Lazr_AmericaWarFactoryCommandSet
-  1 = Lazr_Command_ConstructAmericaTankCrusader : CONTROLBAR:Lazr_ConstructAmericaTankCrusader "雷射坦克：&T"
+  1 = Lazr_Command_ConstructAmericaTankCrusader : CONTROLBAR:Lazr_ConstructAmericaTankCrusader "雷射坦克：&C"
   3 = Lazr_Command_ConstructAmericaVehicleHumvee : CONTROLBAR:ConstructAmericaVehicleHumvee "汗馬車：&V"
   4 = Lazr_Command_ConstructAmericaVehicleMedic : CONTROLBAR:ConstructAmericaVehicleMedic "救護車：&A"
   6 = Lazr_Command_ConstructAmericaVehicleSentryDrone : CONTROLBAR:ConstructAmericaVehicleSentryDrone "無人哨兵機：&S"
@@ -5482,7 +5482,7 @@ CommandSet Lazr_AmericaWarFactoryCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, J, K, L, O, P, U, W, X, Y, Z, 
+    Available keys: B, D, E, F, J, K, L, O, P, T, U, W, X, Y, Z, 
 End
 
 CommandSet Lazr_AmericaBarracksCommandSet
