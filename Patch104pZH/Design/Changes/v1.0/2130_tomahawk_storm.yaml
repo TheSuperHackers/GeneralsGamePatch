@@ -5,6 +5,7 @@ title: Adds Tomahawk Storm to World Builder.
 
 changes:
   - fix: The Tomahawk Storm is now available in the World Builder.
+  - fix: Pristine Tomahawk Storm model no longer displays damaged Tomahawk missiles.
 
 labels:
   - enhancement
