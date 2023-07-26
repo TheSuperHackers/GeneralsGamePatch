@@ -1,7 +1,7 @@
 ---
 date: 2023-07-21
 
-title: Fixes the bug where Tank Hunters inside Bunkers frequently destroy their Bunker
+title: Fixes bug where China Tank Hunters destroy their Bunker near uneven terrain.
 
 changes:
   - fix: Projectiles from units inside Bunkers no longer spawn from below the Bunker.
