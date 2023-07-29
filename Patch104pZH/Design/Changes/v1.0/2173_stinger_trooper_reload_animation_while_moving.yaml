@@ -1,0 +1,21 @@
+---
+date: 2023-07-29
+
+title: Fixes lone Stinger Trooper movement animation while reloading
+
+changes:
+  - fix: Lone Stinger Trooper no longer floats over ground when moving while reloading
+
+labels:
+  - boss
+  - bug
+  - gla
+  - minor
+  - v1.0
+  - worldbuilder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2173
+
+authors:
+  - commy2
