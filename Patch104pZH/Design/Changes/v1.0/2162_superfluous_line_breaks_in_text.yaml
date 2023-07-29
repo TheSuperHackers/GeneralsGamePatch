@@ -1,0 +1,23 @@
+---
+date: 2023-07-29
+
+title: Fixes line break discrepancies in all language strings
+
+changes:
+  - fix: Removes superfluous line breaks in object labels of German and French localizations.
+  - fix: Removes superfluous line breaks from the end of sentences in all languages.
+  - fix: Removes superfluous line breaks after 'Produktionsstätte:' in German tool tip strings.
+  - fix: Removes superfluous line breaks in various language strings.
+  - fix: Adds missing line breaks in various language strings.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2089
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2162
+
+authors:
+  - xezon
