@@ -1,0 +1,20 @@
+---
+date: 2023-07-29
+
+title: Fixes unused Boss General's Spectre Countermeasures missile evasion rate
+
+changes:
+  - fix: Reduces the unused Boss General's Spectre missile evasion rate after Countermeasures upgrade from 50% to 30%.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - v1.0
+  - worldbuilder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2171
+
+authors:
+  - commy2
