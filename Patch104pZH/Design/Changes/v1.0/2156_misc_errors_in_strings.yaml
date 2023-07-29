@@ -1,0 +1,20 @@
+---
+date: 2023-07-29
+
+title: Fixes various errors in text strings
+
+changes:
+  - fix: Removes superfluous sentences from Korean strings.
+  - fix: Removes superfluous sentences from Scud Launcher promotion tool tip strings.
+  - fix: Adds missing sentences to various tool tip strings.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2156
+
+authors:
+  - xezon
