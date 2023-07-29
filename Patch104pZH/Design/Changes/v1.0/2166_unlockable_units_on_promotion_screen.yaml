@@ -1,0 +1,30 @@
+---
+date: 2023-07-29
+
+title: Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions
+
+changes:
+  - fix: Paladin promotion for USA sub-factions and Boss General no longer displays "Requires: War Factory" despite having built a War Factory.
+  - fix: Stealth Fighter promotion for USA sub-factions no longer displays "Requires: Airfield" despite having built an Airfield.
+  - fix: Pathfinder promotion for USA sub-factions and Boss General no longer displays "Requires: Barracks" despite having built a Barracks.
+  - fix: Nuke Cannon promotion now displays "Requires: War Factory, General's Promotion".
+  - fix: Nuke Cannon promotion for China sub-factions no longer displays "Requires: Propaganda Center".
+  - fix: Marauder promotion for GLA sub-factions no longer displays "Requires: Arms Dealer" despite having built an Arms Dealer.
+  - fix: Scud Launcher promotion for GLA sub-factions no longer displays "Requires: Arms Dealer, Palace" despite having built an Arms Dealer and/or Palace.
+  - fix: Hijacker promotion for GLA sub-factions no longer displays "Requires: Barracks" despite having built a Barracks.
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2166
+
+authors:
+  - commy2
