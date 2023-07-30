@@ -1,0 +1,18 @@
+---
+date: 2023-07-30
+
+title: Fixes inconsistent colon characters used in Chinese language strings
+
+changes:
+  - fix: All Chinese strings now use the unicode colon character consistently.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2180
+
+authors:
+  - xezon
