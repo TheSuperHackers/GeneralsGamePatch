@@ -1,0 +1,22 @@
+---
+date: 2023-07-30
+
+title: Fixes a bug where infantry remains stuck in walk animation when dying
+
+changes:
+  - fix: All infantry units now always display death animation when dying while moving.
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2175
+
+authors:
+  - commy2
