@@ -88,20 +88,21 @@ def run():
         if not is_key_string:
             continue
 
-        new_line = classic_intext_key_to_new_key(line)
-        if new_line:
-            generals_str_lines[index] = new_line
-            continue
-
-        new_line = classic_trailing_key_to_new_key(line)
-        if new_line:
-            generals_str_lines[index] = new_line
-            continue
-
-        #new_line = change_leading_chars(line, ": ", "... ")
+        #new_line = classic_intext_key_to_new_key(line)
         #if new_line:
         #    generals_str_lines[index] = new_line
         #    continue
+
+        #new_line = classic_trailing_key_to_new_key(line)
+        #if new_line:
+        #    generals_str_lines[index] = new_line
+        #    continue
+
+        if startswith_nocase(line, "ZH"):
+            new_line = change_leading_chars(line, ": ", "：")
+            if new_line:
+                generals_str_lines[index] = new_line
+                continue
 
     with open(generals_str_new, mode="w", encoding="utf-8") as file:
         for line in generals_str_lines:
