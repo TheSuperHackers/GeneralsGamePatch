@@ -1,0 +1,18 @@
+---
+date: 2023-07-30
+
+title: Streamlines Nuke Missile and Scud Storm tool tip strings for all languages
+
+changes:
+  - fix: All native game languages now say "Strong against everything" or similar in the tool tip strings for Nuke Missile and Scud Storm.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2176
+
+authors:
+  - xezon
