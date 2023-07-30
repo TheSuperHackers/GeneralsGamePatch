@@ -1,0 +1,19 @@
+---
+date: 2023-07-29
+
+title: Fixes Boss General's Aurora Countermeasures missile evasion rate
+
+changes:
+  - fix: Reduces the Boss General's Aurora missile evasion rate after Countermeasures upgrade from 50% to 30%.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2170
+
+authors:
+  - commy2
