@@ -1,0 +1,58 @@
+---
+date: 2023-07-20
+
+title: Fixes various issues with the Cruise Missile and ICBM super weapons
+
+changes:
+  - fix: Cruise Missile is now fixed.
+  - fix: ICBM is now fixed.
+
+subchanges:
+  - fix: The ICBM launcher now uses a unique mouse hover and construction button text.
+  - fix: The ICBM launcher now has a proper build space geometry.
+  - fix: The ICBM launcher now uses the right construction particle effects.
+  - fix: The ICBM launcher is now revealed to the enemy like other super weapons.
+  - fix: The ICBM launcher now uses the proper model on snow maps.
+  - fix: The ICBM launcher now automatically repairs itself when idle like other USA buildings.
+  - fix: The ICBM launcher can now be sabotaged by a GLA Saboteur (reset timer).
+  - fix: The ICBM launcher now has appropriate damage transition effects.
+  - fix: The ICBM launcher no longer spawns stacked smoke columns below the building when damaged.
+  - fix: The ICBM launcher now creates debris when destroyed while under construction.
+  - fix: The ICBM description now displays the correct recharge time of 4 minutes.
+  - fix: The ICBM now flies forwards instead of backwards and sideways.
+  - fix: The ICBM no longer plays a duplicate siren sound at launch location when fired.
+  - fix: The ICBM no longer has a slow door closing animation.
+  - fix: The Cruise Missile launcher now uses a unique mouse hover, construction button and ability text.
+  - fix: The Cruise Missile launcher now has a proper build space geometry.
+  - fix: The Cruise Missile launcher now uses the right construction particle effects.
+  - fix: The Cruise Missile launcher no longer displays the broken GUI:SupW_CruiseMissile countdown timer text.
+  - fix: The Cruise Missile launcher is now revealed to the enemy like other super weapons.
+  - fix: The Cruise Missile launcher now uses the proper model on snow maps.
+  - fix: The Cruise Missile launcher now automatically repairs itself when idle like other USA buildings.
+  - fix: The Cruise Missile launcher can now be shut down by a Microwave tank.
+  - fix: The Cruise Missile launcher can now be sabotaged by a GLA Saboteur (reset timer).
+  - fix: The Cruise Missile launcher now has appropriate damage transition effects.
+  - fix: The Cruise Missile launcher no longer spawns stacked smoke columns below the building when damaged.
+  - fix: The Cruise Missile launcher no longer explodes with a mushroom cloud when destroyed.
+  - fix: The Cruise Missile launcher now creates debris when destroyed while under construction.
+  - fix: The Cruise Missile launcher now spawns 6 Rangers when destroyed.
+  - fix: The Cruise Missile description now displays the correct recharge time of 2 minutes.
+  - fix: The Cruise Missile now uses the cursor decal of the MOAB.
+  - fix: The Cruise Missile now uses the proper model.
+  - fix: The Cruise Missile now flies forwards instead of backwards and sideways.
+  - fix: The Cruise Missile no longer plays a duplicate siren sound at launch location when fired.
+  - fix: The Cruise Missile no longer has a slow door closing animation.
+
+labels:
+  - bug
+  - minor
+  - text
+  - usa
+  - v1.0
+  - world builder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2122
+
+authors:
+  - commy2
