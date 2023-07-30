@@ -8,36 +8,37 @@ Occuring labels are
 - ai (2)
 - art (57)
 - audio (47)
-- boss (6)
+- boss (8)
 - buff (22)
-- bug (117)
-- china (28)
+- bug (120)
+- china (30)
 - civilian (2)
 - controversial (33)
 - design (65)
-- enhancement (49)
-- gla (25)
+- enhancement (50)
+- gla (27)
 - gui (17)
 - major (27)
-- minor (199)
+- minor (203)
 - nerf (10)
 - optional (16)
 - performance (11)
-- text (14)
-- usa (228)
-- v1.0 (228)
+- text (16)
+- usa (232)
+- v1.0 (232)
+- world builder (1)
 
 Sorts changes by: date (ascending)
 
-Contains 228 entries with
+Contains 232 entries with
 
-- 285 changes
+- 298 changes
   - OPTIMIZATION (3)
-  - FIX (184)
+  - FIX (197)
   - TWEAK (82)
   - FEATURE (16)
-- 374 subchanges
-  - FIX (302)
+- 408 subchanges
+  - FIX (336)
   - TWEAK (72)
 
 ## Index
@@ -265,10 +266,14 @@ Contains 228 entries with
 - [2023-07-15 - Fixes key conflicts in French localization](#link__20230715__2112_french_key_conflicts)
 - [2023-07-15 - Fixes key conflicts in Spanish localization](#link__20230715__2117_spanish_key_conflicts)
 - [2023-07-16 - Fixes key conflicts in Italian localization](#link__20230716__2118_italian_key_conflicts)
-- [2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites](#link__20230716__297_stinger_flashbang_attack)
+- [2023-07-16 - Fixes USA Flashbang Rangers being unable to target GLA Stinger Sites](#link__20230716__297_stinger_flashbang_attack)
 - [2023-07-17 - Sets consistent name for EMP Patriot Battery in German language](#link__20230717__2124_german_emp_patriot_text)
+- [2023-07-20 - Fixes various issues with the Cruise Missile and ICBM super weapons](#link__20230720__2122_cruise_missile_and_icbm_issues)
+- [2023-07-20 - Adds Tomahawk Storm to World Builder](#link__20230720__2130_tomahawk_storm)
 - [2023-07-20 - Fixes key conflicts in Brazilian localization](#link__20230720__2136_brazilian_key_conflicts)
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
+- [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
+- [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
 
 
 
@@ -4798,10 +4803,10 @@ Contains 228 entries with
 **Source:** 2118_italian_key_conflicts.yaml
 
 ---
-### 2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites <a name='link__20230716__297_stinger_flashbang_attack'></a>
+### 2023-07-16 - Fixes USA Flashbang Rangers being unable to target GLA Stinger Sites <a name='link__20230716__297_stinger_flashbang_attack'></a>
 **Changes**
 
-- **FIX**: Attack cursor no longer disappears when attempting to target a Stinger Site with Flashbang Rangers
+- **FIX**: The attack cursor no longer disappears when attempting to target GLA Stinger Sites with USA Flashbang Rangers.
 
 **Links**
 
@@ -4828,6 +4833,77 @@ Contains 228 entries with
 **Authors:** xezon
 
 **Source:** 2124_german_emp_patriot_text.yaml
+
+---
+### 2023-07-20 - Fixes various issues with the Cruise Missile and ICBM super weapons <a name='link__20230720__2122_cruise_missile_and_icbm_issues'></a>
+**Changes**
+
+- **FIX**: Cruise Missile is now fixed.
+- **FIX**: ICBM is now fixed.
+
+**Subchanges**
+
+- **FIX**: The ICBM launcher now uses a unique mouse hover and construction button text.
+- **FIX**: The ICBM launcher now has a proper build space geometry.
+- **FIX**: The ICBM launcher now uses the right construction particle effects.
+- **FIX**: The ICBM launcher is now revealed to the enemy like other super weapons.
+- **FIX**: The ICBM launcher now uses the proper model on snow maps.
+- **FIX**: The ICBM launcher now automatically repairs itself when idle like other USA buildings.
+- **FIX**: The ICBM launcher can now be sabotaged by a GLA Saboteur (reset timer).
+- **FIX**: The ICBM launcher now has appropriate damage transition effects.
+- **FIX**: The ICBM launcher no longer spawns stacked smoke columns below the building when damaged.
+- **FIX**: The ICBM launcher now creates debris when destroyed while under construction.
+- **FIX**: The ICBM description now displays the correct recharge time of 4 minutes.
+- **FIX**: The ICBM now flies forwards instead of backwards and sideways.
+- **FIX**: The ICBM no longer plays a duplicate siren sound at launch location when fired.
+- **FIX**: The ICBM no longer has a slow door closing animation.
+- **FIX**: The Cruise Missile launcher now uses a unique mouse hover, construction button and ability text.
+- **FIX**: The Cruise Missile launcher now has a proper build space geometry.
+- **FIX**: The Cruise Missile launcher now uses the right construction particle effects.
+- **FIX**: The Cruise Missile launcher no longer displays the broken GUI:SupW_CruiseMissile countdown timer text.
+- **FIX**: The Cruise Missile launcher is now revealed to the enemy like other super weapons.
+- **FIX**: The Cruise Missile launcher now uses the proper model on snow maps.
+- **FIX**: The Cruise Missile launcher now automatically repairs itself when idle like other USA buildings.
+- **FIX**: The Cruise Missile launcher can now be shut down by a Microwave tank.
+- **FIX**: The Cruise Missile launcher can now be sabotaged by a GLA Saboteur (reset timer).
+- **FIX**: The Cruise Missile launcher now has appropriate damage transition effects.
+- **FIX**: The Cruise Missile launcher no longer spawns stacked smoke columns below the building when damaged.
+- **FIX**: The Cruise Missile launcher no longer explodes with a mushroom cloud when destroyed.
+- **FIX**: The Cruise Missile launcher now creates debris when destroyed while under construction.
+- **FIX**: The Cruise Missile launcher now spawns 6 Rangers when destroyed.
+- **FIX**: The Cruise Missile description now displays the correct recharge time of 2 minutes.
+- **FIX**: The Cruise Missile now uses the cursor decal of the MOAB.
+- **FIX**: The Cruise Missile now uses the proper model.
+- **FIX**: The Cruise Missile now flies forwards instead of backwards and sideways.
+- **FIX**: The Cruise Missile no longer plays a duplicate siren sound at launch location when fired.
+- **FIX**: The Cruise Missile no longer has a slow door closing animation.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2122](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2122)
+
+**Labels:** bug, minor, text, usa, v1.0, world builder
+
+**Authors:** commy2
+
+**Source:** 2122_cruise_missile_and_icbm_issues.yaml
+
+---
+### 2023-07-20 - Adds Tomahawk Storm to World Builder <a name='link__20230720__2130_tomahawk_storm'></a>
+**Changes**
+
+- **FIX**: The Tomahawk Storm is now available in the World Builder.
+- **FIX**: Pristine Tomahawk Storm model no longer displays damaged Tomahawk missiles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2130](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2130)
+
+**Labels:** enhancement, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2130_tomahawk_storm.yaml
 
 ---
 ### 2023-07-20 - Fixes key conflicts in Brazilian localization <a name='link__20230720__2136_brazilian_key_conflicts'></a>
@@ -4920,4 +4996,43 @@ Contains 228 entries with
 **Authors:** xezon
 
 **Source:** 2138_polish_key_conflicts.yaml
+
+---
+### 2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions <a name='link__20230729__2166_unlockable_units_on_promotion_screen'></a>
+**Changes**
+
+- **FIX**: Paladin promotion for USA sub-factions and Boss General no longer displays 'Requires: War Factory' despite having built a War Factory.
+- **FIX**: Stealth Fighter promotion for USA sub-factions no longer displays 'Requires: Airfield' despite having built an Airfield.
+- **FIX**: Pathfinder promotion for USA sub-factions and Boss General no longer displays 'Requires: Barracks' despite having built a Barracks.
+- **FIX**: Nuke Cannon promotion now displays 'Requires: War Factory, General's Promotion'.
+- **FIX**: Nuke Cannon promotion for China sub-factions no longer displays 'Requires: Propaganda Center'.
+- **FIX**: Marauder promotion for GLA sub-factions no longer displays 'Requires: Arms Dealer' despite having built an Arms Dealer.
+- **FIX**: Scud Launcher promotion for GLA sub-factions no longer displays 'Requires: Arms Dealer, Palace' despite having built an Arms Dealer and/or Palace.
+- **FIX**: Hijacker promotion for GLA sub-factions no longer displays 'Requires: Barracks' despite having built a Barracks.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2166](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2166)
+
+**Labels:** boss, bug, china, gla, minor, text, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2166_unlockable_units_on_promotion_screen.yaml
+
+---
+### 2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying <a name='link__20230730__2175_broken_infantry_death_animations'></a>
+**Changes**
+
+- **FIX**: All infantry units now always display death animation when dying while moving.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2175](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2175)
+
+**Labels:** boss, bug, china, gla, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2175_broken_infantry_death_animations.yaml
 

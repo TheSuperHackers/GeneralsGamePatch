@@ -7,27 +7,27 @@ Occuring labels are
 
 - audio (2)
 - buff (69)
-- bug (36)
+- bug (37)
 - china (43)
 - civilian (3)
-- controversial (115)
-- design (91)
+- controversial (116)
+- design (92)
 - enhancement (1)
-- gla (39)
+- gla (40)
 - gui (1)
-- major (45)
+- major (46)
 - minor (69)
 - nerf (23)
 - usa (33)
-- v1.0 (115)
+- v1.0 (116)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 115 entries with
+Contains 116 entries with
 
-- 139 changes
+- 142 changes
   - TWEAK (90)
-  - FIX (41)
+  - FIX (44)
   - FEATURE (7)
   - OPTIMIZATION (1)
 - 20 subchanges
@@ -37,7 +37,7 @@ Contains 115 entries with
 - [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
 - [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
 - [2023-04-06 - Reduces audio range and volume of Remote Demo Charge](#link__20230406__1801_remote_demo_charge_audio)
-- [2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites](#link__20230716__297_stinger_flashbang_attack)
+- [2023-07-16 - Fixes USA Flashbang Rangers being unable to target GLA Stinger Sites](#link__20230716__297_stinger_flashbang_attack)
 - [2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret](#link__20210913__373_laser_turret_clip_size)
 - [2021-09-22 - Fixes extra armor of USA Airforce Avenger against Jet Missiles](#link__20210922__403_afg_avenger_armor)
 - [2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers](#link__20210923__407_avenger_composite_armor)
@@ -119,6 +119,7 @@ Contains 115 entries with
 - [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#link__20220716__695_toxin_terrorist_death)
 - [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#link__20220716__697_all_terrorist_crush_damage)
 - [2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade](#link__20220716__699_toxin_terrorist_damage)
+- [2022-07-22 - Fixes damage downgrade issues of scrapped GLA Quad Cannon](#link__20220722__1055_quad_cannon_scrap_damage)
 - [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#link__20220722__727_buggy_required_xp)
 - [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#link__20220722__727_scud_launcher_required_xp)
 - [2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies](#link__20220729__783_demo_combat_bike_allies_damage)
@@ -202,10 +203,10 @@ Contains 115 entries with
 **Source:** 1801_remote_demo_charge_audio.yaml
 
 ---
-### 2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites <a name='link__20230716__297_stinger_flashbang_attack'></a>
+### 2023-07-16 - Fixes USA Flashbang Rangers being unable to target GLA Stinger Sites <a name='link__20230716__297_stinger_flashbang_attack'></a>
 **Changes**
 
-- **FIX**: Attack cursor no longer disappears when attempting to target a Stinger Site with Flashbang Rangers
+- **FIX**: The attack cursor no longer disappears when attempting to target GLA Stinger Sites with USA Flashbang Rangers.
 
 **Links**
 
@@ -1551,6 +1552,24 @@ Contains 115 entries with
 **Authors:** xezon
 
 **Source:** 699_toxin_terrorist_damage.yaml
+
+---
+### 2022-07-22 - Fixes damage downgrade issues of scrapped GLA Quad Cannon <a name='link__20220722__1055_quad_cannon_scrap_damage'></a>
+**Changes**
+
+- **FIX**: The ground weapon of the promoted GLA Quad Cannon no longer downgrades to less damage output after picking up scrap crates. Instead the damage output increases after picking up scrap crates. The overall damage output across all scrap and promotion levels is identical to the original setup.
+- **FIX**: The ground weapon of the Hard AI controlled GLA Quad Cannon no longer downgrades to less damage output after picking up scrap crates.
+- **FIX**: The ground weapon of the GLA Quad Cannon no longer downgrades to less damage output after picking up scrap crates while under the influence of Subliminal Messaging and/or Faerie targeting.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1055](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1055)
+
+**Labels:** bug, controversial, design, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1055_quad_cannon_scrap_damage.yaml
 
 ---
 ### 2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25% <a name='link__20220722__727_buggy_required_xp'></a>

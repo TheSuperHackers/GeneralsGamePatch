@@ -1,7 +1,7 @@
 ---
 date: 2023-07-20
 
-title: Adds Tomahawk Storm to World Builder.
+title: Adds Tomahawk Storm to World Builder
 
 changes:
   - fix: The Tomahawk Storm is now available in the World Builder.
