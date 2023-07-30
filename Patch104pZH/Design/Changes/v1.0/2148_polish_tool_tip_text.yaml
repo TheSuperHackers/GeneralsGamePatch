@@ -1,0 +1,18 @@
+---
+date: 2023-07-26
+
+title: Fixes inconsistent wording in Polish tool tip strings
+
+changes:
+  - fix: The wording in Polish tool tip strings is more consistent now.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2148
+
+authors:
+  - xezon
