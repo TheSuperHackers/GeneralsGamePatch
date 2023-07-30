@@ -7,32 +7,33 @@ Occuring labels are
 
 - art (27)
 - audio (29)
-- boss (6)
+- boss (9)
 - buff (26)
-- bug (129)
-- china (23)
+- bug (133)
+- china (25)
 - civilian (1)
-- controversial (39)
+- controversial (40)
 - critical (2)
-- design (51)
+- design (52)
 - enhancement (16)
-- gla (198)
+- gla (202)
 - gui (10)
-- major (32)
-- minor (163)
+- major (33)
+- minor (166)
 - nerf (16)
 - optional (8)
 - performance (6)
-- text (8)
-- usa (25)
-- v1.0 (198)
+- text (9)
+- usa (27)
+- v1.0 (202)
+- worldbuilder (1)
 
 Sorts changes by: date (ascending)
 
-Contains 198 entries with
+Contains 202 entries with
 
-- 247 changes
-  - FIX (177)
+- 260 changes
+  - FIX (190)
   - FEATURE (9)
   - OPTIMIZATION (6)
   - TWEAK (55)
@@ -113,6 +114,7 @@ Contains 198 entries with
 - [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#link__20220716__695_toxin_terrorist_death)
 - [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#link__20220716__697_all_terrorist_crush_damage)
 - [2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade](#link__20220716__699_toxin_terrorist_damage)
+- [2022-07-22 - Fixes damage downgrade issues of scrapped GLA Quad Cannon](#link__20220722__1055_quad_cannon_scrap_damage)
 - [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#link__20220722__727_buggy_required_xp)
 - [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#link__20220722__727_scud_launcher_required_xp)
 - [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist](#link__20220727__764_terrorist_crash)
@@ -237,9 +239,12 @@ Contains 198 entries with
 - [2023-07-16 - Fixes key conflicts in Italian localization](#link__20230716__2118_italian_key_conflicts)
 - [2023-07-16 - Fixes wrong exploded death animation of GLA Worker](#link__20230716__2120_worker_death_animation)
 - [2023-07-16 - Adds missing upgrade icons to Stinger Soldiers](#link__20230716__2121_stinger_soldier_upgrade_cameos)
-- [2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites](#link__20230716__297_stinger_flashbang_attack)
+- [2023-07-16 - Fixes USA Flashbang Rangers being unable to target GLA Stinger Sites](#link__20230716__297_stinger_flashbang_attack)
 - [2023-07-20 - Fixes key conflicts in Brazilian localization](#link__20230720__2136_brazilian_key_conflicts)
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
+- [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
+- [2023-07-29 - Fixes lone Stinger Trooper movement animation while reloading](#link__20230729__2173_stinger_trooper_reload_animation_while_moving)
+- [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
 
 
 
@@ -1406,6 +1411,24 @@ Contains 198 entries with
 **Authors:** xezon
 
 **Source:** 699_toxin_terrorist_damage.yaml
+
+---
+### 2022-07-22 - Fixes damage downgrade issues of scrapped GLA Quad Cannon <a name='link__20220722__1055_quad_cannon_scrap_damage'></a>
+**Changes**
+
+- **FIX**: The ground weapon of the promoted GLA Quad Cannon no longer downgrades to less damage output after picking up scrap crates. Instead the damage output increases after picking up scrap crates. The overall damage output across all scrap and promotion levels is identical to the original setup.
+- **FIX**: The ground weapon of the Hard AI controlled GLA Quad Cannon no longer downgrades to less damage output after picking up scrap crates.
+- **FIX**: The ground weapon of the GLA Quad Cannon no longer downgrades to less damage output after picking up scrap crates while under the influence of Subliminal Messaging and/or Faerie targeting.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1055](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1055)
+
+**Labels:** bug, controversial, design, gla, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1055_quad_cannon_scrap_damage.yaml
 
 ---
 ### 2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25% <a name='link__20220722__727_buggy_required_xp'></a>
@@ -3790,10 +3813,10 @@ Contains 198 entries with
 **Source:** 2121_stinger_soldier_upgrade_cameos.yaml
 
 ---
-### 2023-07-16 - Fixes issue where Rangers equipped with Flashbang grenades could not be ordered to target Stinger Sites <a name='link__20230716__297_stinger_flashbang_attack'></a>
+### 2023-07-16 - Fixes USA Flashbang Rangers being unable to target GLA Stinger Sites <a name='link__20230716__297_stinger_flashbang_attack'></a>
 **Changes**
 
-- **FIX**: Attack cursor no longer disappears when attempting to target a Stinger Site with Flashbang Rangers
+- **FIX**: The attack cursor no longer disappears when attempting to target GLA Stinger Sites with USA Flashbang Rangers.
 
 **Links**
 
@@ -3896,4 +3919,59 @@ Contains 198 entries with
 **Authors:** xezon
 
 **Source:** 2138_polish_key_conflicts.yaml
+
+---
+### 2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions <a name='link__20230729__2166_unlockable_units_on_promotion_screen'></a>
+**Changes**
+
+- **FIX**: Paladin promotion for USA sub-factions and Boss General no longer displays 'Requires: War Factory' despite having built a War Factory.
+- **FIX**: Stealth Fighter promotion for USA sub-factions no longer displays 'Requires: Airfield' despite having built an Airfield.
+- **FIX**: Pathfinder promotion for USA sub-factions and Boss General no longer displays 'Requires: Barracks' despite having built a Barracks.
+- **FIX**: Nuke Cannon promotion now displays 'Requires: War Factory, General's Promotion'.
+- **FIX**: Nuke Cannon promotion for China sub-factions no longer displays 'Requires: Propaganda Center'.
+- **FIX**: Marauder promotion for GLA sub-factions no longer displays 'Requires: Arms Dealer' despite having built an Arms Dealer.
+- **FIX**: Scud Launcher promotion for GLA sub-factions no longer displays 'Requires: Arms Dealer, Palace' despite having built an Arms Dealer and/or Palace.
+- **FIX**: Hijacker promotion for GLA sub-factions no longer displays 'Requires: Barracks' despite having built a Barracks.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2166](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2166)
+
+**Labels:** boss, bug, china, gla, minor, text, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2166_unlockable_units_on_promotion_screen.yaml
+
+---
+### 2023-07-29 - Fixes lone Stinger Trooper movement animation while reloading <a name='link__20230729__2173_stinger_trooper_reload_animation_while_moving'></a>
+**Changes**
+
+- **FIX**: Lone Stinger Trooper no longer floats over ground when moving while reloading
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2173](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2173)
+
+**Labels:** boss, bug, gla, minor, v1.0, worldbuilder
+
+**Authors:** commy2
+
+**Source:** 2173_stinger_trooper_reload_animation_while_moving.yaml
+
+---
+### 2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying <a name='link__20230730__2175_broken_infantry_death_animations'></a>
+**Changes**
+
+- **FIX**: All infantry units now always display death animation when dying while moving.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2175](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2175)
+
+**Labels:** boss, bug, china, gla, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2175_broken_infantry_death_animations.yaml
 

@@ -7,38 +7,38 @@ Occuring labels are
 
 - art (25)
 - audio (31)
-- boss (6)
-- buff (44)
-- bug (109)
-- china (201)
+- boss (8)
+- buff (45)
+- bug (112)
+- china (204)
 - civilian (2)
 - controversial (43)
 - critical (1)
 - design (72)
 - enhancement (24)
-- gla (23)
+- gla (25)
 - gui (18)
-- major (32)
-- minor (167)
+- major (33)
+- minor (169)
 - nerf (3)
 - optional (12)
 - performance (8)
-- text (15)
-- usa (28)
-- v1.0 (201)
+- text (16)
+- usa (30)
+- v1.0 (204)
 - wip (1)
 
 Sorts changes by: date (ascending)
 
-Contains 201 entries with
+Contains 204 entries with
 
-- 273 changes
-  - FIX (175)
+- 283 changes
+  - FIX (185)
   - TWEAK (85)
   - FEATURE (10)
   - OPTIMIZATION (3)
-- 300 subchanges
-  - FIX (232)
+- 302 subchanges
+  - FIX (234)
   - FEATURE (1)
   - TWEAK (67)
 
@@ -235,15 +235,18 @@ Contains 201 entries with
 - [2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm](#link__20230629__2050_dragon_black_napalm_flamethrower_clip_size)
 - [2023-07-08 - Fixes missing and broken infantry death modules](#link__20230708__2074_infantry_death_module_fixes)
 - [2023-07-09 - Adds missing Assault Troop Transport, Attack Outpost and Assault Helix name specializations to German localization](#link__20230709__2088_german_infa_transports_text)
-- [2023-07-12 - Fixes key conflict of China Satellite Hack I and II with STOP (E)](#link__20230712__2092_satellite_hack_i_ii_key_conflict)
-- [2023-07-12 - Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS (E)](#link__20230712__2106_neutron_shells_key_conflict)
+- [2023-07-12 - Fixes key conflict of China Satellite Hack I and II with Stop button](#link__20230712__2092_satellite_hack_i_ii_key_conflict)
+- [2023-07-12 - Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS button](#link__20230712__2106_neutron_shells_key_conflict)
 - [2023-07-13 - Fixes key conflicts in German localization](#link__20230713__2108_german_key_conflicts)
 - [2023-07-15 - Fixes key conflicts in French localization](#link__20230715__2112_french_key_conflicts)
 - [2023-07-15 - Adds complete ECM Tank name in construction tool tip](#link__20230715__2113_ecm_tank_tooltip_name)
 - [2023-07-15 - Fixes key conflicts in Spanish localization](#link__20230715__2117_spanish_key_conflicts)
 - [2023-07-16 - Fixes key conflicts in Italian localization](#link__20230716__2118_italian_key_conflicts)
 - [2023-07-20 - Fixes key conflicts in Brazilian localization](#link__20230720__2136_brazilian_key_conflicts)
+- [2023-07-21 - Fixes bug where China Tank Hunters may destroy their Bunker near uneven terrain](#link__20230721__2133_bunker_self_kills)
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
+- [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
+- [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
 
 
 
@@ -3687,7 +3690,7 @@ Contains 201 entries with
 **Source:** 2088_german_infa_transports_text.yaml
 
 ---
-### 2023-07-12 - Fixes key conflict of China Satellite Hack I and II with STOP (E) <a name='link__20230712__2092_satellite_hack_i_ii_key_conflict'></a>
+### 2023-07-12 - Fixes key conflict of China Satellite Hack I and II with Stop button <a name='link__20230712__2092_satellite_hack_i_ii_key_conflict'></a>
 **Changes**
 
 - **FIX**: The China Satellite Hack I and II upgrades in the Internet Center can now be purchased and selected with key A and no longer conflict with STOP (S). Affects all languages.
@@ -3703,7 +3706,7 @@ Contains 201 entries with
 **Source:** 2092_satellite_hack_i_ii_key_conflict.yaml
 
 ---
-### 2023-07-12 - Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS (E) <a name='link__20230712__2106_neutron_shells_key_conflict'></a>
+### 2023-07-12 - Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS button <a name='link__20230712__2106_neutron_shells_key_conflict'></a>
 **Changes**
 
 - **FIX**: The China Neutron Shells warhead of the Nuke Cannon can now be selected with key A and no longer conflicts with SELECT_MATCHING_UNITS (E). Affects all languages.
@@ -3985,6 +3988,27 @@ Contains 201 entries with
 **Source:** 2136_brazilian_key_conflicts.yaml
 
 ---
+### 2023-07-21 - Fixes bug where China Tank Hunters may destroy their Bunker near uneven terrain <a name='link__20230721__2133_bunker_self_kills'></a>
+**Changes**
+
+- **FIX**: Projectiles from units will not spawn below the Bunker as often anymore.
+
+**Subchanges**
+
+- **FIX**: Adds 10 extra fire ports to the China Bunker.
+- **FIX**: Adds 18 extra fire ports to the Infantry General Bunker.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133)
+
+**Labels:** buff, bug, china, major, v1.0
+
+**Authors:** commy2
+
+**Source:** 2133_bunker_self_kills.yaml
+
+---
 ### 2023-07-22 - Fixes key conflicts in Polish localization <a name='link__20230722__2138_polish_key_conflicts'></a>
 **Changes**
 
@@ -4028,4 +4052,43 @@ Contains 201 entries with
 **Authors:** xezon
 
 **Source:** 2138_polish_key_conflicts.yaml
+
+---
+### 2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions <a name='link__20230729__2166_unlockable_units_on_promotion_screen'></a>
+**Changes**
+
+- **FIX**: Paladin promotion for USA sub-factions and Boss General no longer displays 'Requires: War Factory' despite having built a War Factory.
+- **FIX**: Stealth Fighter promotion for USA sub-factions no longer displays 'Requires: Airfield' despite having built an Airfield.
+- **FIX**: Pathfinder promotion for USA sub-factions and Boss General no longer displays 'Requires: Barracks' despite having built a Barracks.
+- **FIX**: Nuke Cannon promotion now displays 'Requires: War Factory, General's Promotion'.
+- **FIX**: Nuke Cannon promotion for China sub-factions no longer displays 'Requires: Propaganda Center'.
+- **FIX**: Marauder promotion for GLA sub-factions no longer displays 'Requires: Arms Dealer' despite having built an Arms Dealer.
+- **FIX**: Scud Launcher promotion for GLA sub-factions no longer displays 'Requires: Arms Dealer, Palace' despite having built an Arms Dealer and/or Palace.
+- **FIX**: Hijacker promotion for GLA sub-factions no longer displays 'Requires: Barracks' despite having built a Barracks.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2166](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2166)
+
+**Labels:** boss, bug, china, gla, minor, text, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2166_unlockable_units_on_promotion_screen.yaml
+
+---
+### 2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying <a name='link__20230730__2175_broken_infantry_death_animations'></a>
+**Changes**
+
+- **FIX**: All infantry units now always display death animation when dying while moving.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2175](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2175)
+
+**Labels:** boss, bug, china, gla, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2175_broken_infantry_death_animations.yaml
 

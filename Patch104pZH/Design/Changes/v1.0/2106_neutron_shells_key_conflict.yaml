@@ -1,7 +1,7 @@
 ---
 date: 2023-07-12
 
-title: Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS (E)
+title: Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS button
 
 changes:
   - fix: The China Neutron Shells warhead of the Nuke Cannon can now be selected with key A and no longer conflicts with SELECT_MATCHING_UNITS (E). Affects all languages.
