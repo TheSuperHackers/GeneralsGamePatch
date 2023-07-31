@@ -9,8 +9,10 @@ changes:
 subchanges:
   - fix: Adds 10 extra fire ports to the China Bunker.
   - fix: Adds 18 extra fire ports to the Infantry General Bunker.
+  - tweak: The doors of the China Bunker now have windows. This allows for two fire ports at the door.
 
 labels:
+  - art
   - buff
   - bug
   - china
@@ -19,6 +21,8 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2154
 
 authors:
   - commy2
+  - xezon
