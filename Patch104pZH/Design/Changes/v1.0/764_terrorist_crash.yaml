@@ -1,11 +1,12 @@
 ---
 date: 2022-07-27
 
-title: Fixes game crash upon the use of a GLA Terrorist
+title: Fixes game crash upon the use of a GLA Terrorist or Demo General infantry unit
 
 changes:
   - fix: Game no longer crashes when using Toxin GLA Terrorist (1)
   - fix: Game no longer crashes when using any GLA Terrorist (2)
+  - fix: Game no longer crashes when using any Demo General infantry unit (3)
 
 labels:
   - bug
@@ -16,7 +17,9 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/699
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/764
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2177
 
 authors:
   - hanfield
   - xezon
+  - commy2
