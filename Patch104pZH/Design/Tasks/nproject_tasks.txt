@@ -309,7 +309,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [REJECTED] Sentry Drone armor received damage from CRUSH increased from 60% to 80%
 
  AVENGER:
- - [IMPROVEMENT][MINOR] Avenger will not block dozer builds anymore!
+ - [DONE][MINOR] Avenger will not block dozer builds anymore!
  - [NOTRELEVANT] All Avengers need Strategy Center to be built
  - [DONE] Avenger now use their own armor
  Reason: Only Airforce General Avenger uses AntiAirArmor, which makes them more vulnerable to JET_MISSILE compared to AvengerArmor. May affect interactions.
