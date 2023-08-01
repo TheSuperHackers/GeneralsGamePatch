@@ -414,7 +414,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT][MINOR] New USA Airfield hangar lights animation!
 
  PATRIOT MISSILE:
- - [IMPROVEMENT][MAJOR] Fixed all Patriot Missile weapon that sometimes only fires less missiles after not firing for a long time
+ - [DONE][MAJOR] Fixed all Patriot Missile weapon that sometimes only fires less missiles after not firing for a long time
  - [IMPROVEMENT][MAJOR] Improved Patriot Missile assist ability to make them work better together
  - [NOTRELEVANT] Patriot Missile no longer block unit sights, allowing other units to attack enemies behind
  - [IMPROVEMENT][MINOR] Fixed Patriot Missile scaffolding that was off-centered
