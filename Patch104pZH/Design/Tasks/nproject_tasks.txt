@@ -1163,7 +1163,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  QUAD CANNON:
  - Various changes for Quad Cannon weapons for more consistent growth and balance:
-   > [MAYBE] Changed Quad Cannon weapon damage type from SMALL_ARMS to GATTLING
+   > [NOTRELEVANT] Changed Quad Cannon weapon damage type from SMALL_ARMS to GATTLING
    > [NOTRELEVANT] Normal weapon (pre-salvage) damage reduced from 10 to 8
    > [NOTRELEVANT] Normal weapon (pre-salvage) damage against air targets increased from 5 to 6
    > [NOTRELEVANT] Normal weapon (pre-salvage) rate of fire reduced from 100 to 110 miliseconds
