@@ -1283,7 +1283,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [DONE] Fixed the bug where SCUD Storm being immune to the damage caused by its own launched missiles
 
  GLA HOLES:
- - [IMPROVEMENT][MINOR] GLA Holes now spawn the corresponding subfaction's Worker
+ - [NOTRELEVANT][MINOR] GLA Holes now spawn the corresponding subfaction's Worker
  - [IMPROVEMENT][MINOR] GLA Holes use new models for snow condition and/or when upgraded with Fortified upgrade
  - [DONE] Stinger Site and Tunnel Network GLA Holes now counted as base defenses. Fixing the bug that makes a player still not
    defeated when only having living base defenses holes, but when the hole is finished rebuilt the player will surely
