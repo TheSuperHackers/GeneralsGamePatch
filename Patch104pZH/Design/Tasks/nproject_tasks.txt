@@ -744,7 +744,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [DONE][MINOR] Nuke Cannon barrel will recoil properly when attacking with Nuclear Shells
  - [NOTRELEVANT] Nuke Cannon no longer crushable by Overlord tanks
  - [IMPROVEMENT][MINOR] Fixed Nuke Cannon weapon shells explosion effect that bit off from the center of the explosion
- - [IMPROVEMENT][MINOR] You cannot purchase Neutron Shells upgrade if you haven't unlocked the Nuke Cannon
+ - [REJECTED][MINOR] You cannot purchase Neutron Shells upgrade if you haven't unlocked the Nuke Cannon
 
  MIG:
  - [IMPROVEMENT][MAJOR] MiG napalm missiles never creates flying firestorm again if used againts aircrafts
