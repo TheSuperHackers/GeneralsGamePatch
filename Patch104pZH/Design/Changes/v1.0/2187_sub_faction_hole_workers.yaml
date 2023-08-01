@@ -1,0 +1,19 @@
+---
+date: 2023-08-01
+
+title: Fixes vGLA Worker being used for GLA sub-faction holes
+
+changes:
+  - fix: A faction specific Worker will be used depending on the faction of the GLA hole.
+
+labels:
+  - enhancement
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2187
+
+authors:
+  - commy2
