@@ -258,7 +258,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [REJECTED] Added minimum attack range to Missile Defender normal weapon to match Tank Hunter and RPG Trooper weapons (laser lock weapon is unaffected)
  Reason: Missile Defenders will not damage themselves anymore. May affect instances where Rockvees are rammed and they may be unable to retaliate.
  - [NOTRELEVANT] Missile Defender normal attack rockets fuel time rebalanced to match their other factions counterparts (RPG and Tank Hunter)
- - [MAYBE] Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
+ - [DONE] Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
    Zero Hour
 
  PATHFINDER:
