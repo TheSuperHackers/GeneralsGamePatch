@@ -296,17 +296,17 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Ambulance cleanup guard area and scan rate increased, allowing them to clean nearby toxins/radiations better when idle
 
  SENTRY DRONE:
- - [IMPROVEMENT][MAJOR] Fixed Sentry Drone issue that sometimes not responding to player orders
- - [MAYBE] Sentry Drone can attack while moving
- - [MAYBE] Sentry Drone stealth detection range increased from 225 to 270
- - [MAYBE] Sentry Drone no longer immune to toxins
- - [MAYBE] Sentry Drone build cost reduced from 800 to 650
- - [MAYBE] Gun upgraded Sentry Drone rate of fire increased from 200 to 130 miliseconds
+ - [DONE][MAJOR] Fixed Sentry Drone issue that sometimes not responding to player orders
+ - [REJCTED] Sentry Drone can attack while moving
+ - [DONE] Sentry Drone stealth detection range increased from 225 to 270
+ - [DONE] Sentry Drone no longer immune to toxins
+ - [DONE] Sentry Drone build cost reduced from 800 to 650
+ - [DONE] Gun upgraded Sentry Drone rate of fire increased from 200 to 130 miliseconds
  - [IMPROVEMENT][MINOR] Fixed the Sentry Drone model UV Mapping and texture errors, also the shadow bugs
- - [MAYBE] Sentry Drone Guns upgrade research time reduced from 30 to 20 seconds
- - [MAYBE] Sentry Drone Guns upgrade research cost reduced from 1000 to 800
- - [MAYBE] Now the Drone Armor upgrade also allows them to self repair
- - [MAYBE] Sentry Drone armor received damage from CRUSH increased from 60% to 80%
+ - [DONE] Sentry Drone Guns upgrade research time reduced from 30 to 20 seconds
+ - [DONE] Sentry Drone Guns upgrade research cost reduced from 1000 to 800
+ - [REJECTED] Now the Drone Armor upgrade also allows them to self repair
+ - [REJECTED] Sentry Drone armor received damage from CRUSH increased from 60% to 80%
 
  AVENGER:
  - [IMPROVEMENT][MINOR] Avenger will not block dozer builds anymore!
