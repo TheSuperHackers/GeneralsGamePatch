@@ -193,7 +193,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [MAYBE] Implemented "Ground Attack" button on all artillery and aircraft units.
  Reason: Allows for more precise force fire than regular force fire. Does not supplant normal force fire but complements it.
  - [DONE] Attackable toxic infantry and burning infantry issue fixed
- - [IMPROVEMENT][MAJOR] Eternally flying dead aircraft bug (like in 'How To Make A Chinook Bug' video at YouTube) FIXED! You will never encounter
+ - [DONE][MAJOR] Eternally flying dead aircraft bug (like in 'How To Make A Chinook Bug' video at YouTube) FIXED! You will never encounter
    this funny bug that may reduce the frame rate in online matches
  - [DONE] All infantry now use the right death voices (some infantry uses wrong death voices before)
  - [MAYBE] All buildable aircraft and artillery units guard range sightly increased, makes them can guard areas more effective
