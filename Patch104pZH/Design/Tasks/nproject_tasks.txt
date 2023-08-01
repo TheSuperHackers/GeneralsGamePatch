@@ -224,9 +224,9 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT][MINOR] Parachutes now has housecolors (except crate parachutes)
 
  EMERGENCY REPAIR:
- - [MAYBE] Emergency Repair heal radius increased to 150%
- - [MAYBE] Emergency Repair also repair structures
- - [MAYBE] New and better Emergency Repair (this makes the Emergency Repair more valuable as a Generals Powers):
+ - [PENDING] Emergency Repair heal radius increased to 150%
+ - [PENDING] Emergency Repair also repair structures
+ - [PENDING] New and better Emergency Repair (this makes the Emergency Repair more valuable as a Generals Powers):
    > Level 1 Emergency Repair heal amount sightly increased, and still one-shot repair
    > Level 2 Emergency Repair is not one-shot repair but repair continuously for some amount of time
    > Level 3 Emergency Repair is same as level 2 but lasts much longer, it also have initial repair boost like level 1, and
