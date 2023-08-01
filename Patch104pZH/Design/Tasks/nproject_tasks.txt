@@ -454,7 +454,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  PARTICLE CANNON:
  - [NOTRELEVANT] Reduced Particle Cannon build footprint size, so Particle Cannon requires slight less area when placed for build
- - [IMPROVEMENT][MINOR] Fixed the Particle Cannon animation bug that occurs when the building were disabled with Microwave Tank weapon
+ - [DONE][MINOR] Fixed the Particle Cannon animation bug that occurs when the building were disabled with Microwave Tank weapon
    during construction and released upon completion
 
  CHEMICAL SUITS:
