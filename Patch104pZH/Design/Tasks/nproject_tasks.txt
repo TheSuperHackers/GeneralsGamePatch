@@ -624,7 +624,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > Missile firing rate reduced from 100 to 250 miliseconds, matching the normal Patriot Missile speed
    > Disable duration caused by EMP now varies depending on the affected target health
    > No longer able to one-hit-kill aircrafts
- - [IMPROVEMENT][MINOR] Fixed EMP Patriot model that use wrong model when constructing or being sold
+ - [DONE][MINOR] Fixed EMP Patriot model that use wrong model when constructing or being sold
 
 
  New Stuff:
