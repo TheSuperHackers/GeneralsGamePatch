@@ -371,8 +371,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  NIGHTHAWK (STEALTH FIGHTER):
  - [NOTRELEVANT] The name officially changed from the Stealth Fighter to Nighthawk
- - [IMPROVEMENT][MINOR] You cannot purchase Bunker Buster upgrade if you haven't unlocked the Nighthawk
- - [IMPROVEMENT][MINOR] Fixed Nighthawk low-fuel voice
+ - [REJECTED][MINOR] You cannot purchase Bunker Buster upgrade if you haven't unlocked the Nighthawk
+ - [DONE][MINOR] Fixed Nighthawk low-fuel voice
  - [IMPROVEMENT][MAJOR] Improved Nighthawk missile movements so they will no longer scatter their attacks
  - [IMPROVEMENT][MINOR] Nighthawk now has aim tolerance so they don't need to aim exactly straight toward the target when attacking
  - [NOTRELEVANT] Bunker Buster upgrade cost increased from 1500 to 1800
