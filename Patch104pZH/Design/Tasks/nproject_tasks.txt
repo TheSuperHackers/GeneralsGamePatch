@@ -1325,7 +1325,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    the Sneak Attack finished deploying.
 
  SPECIAL POWERS:
- - [MAYBE] Anthrax Bomb generals power starts with green toxin field instead the blue one, and it can be upgraded with Anthrax
+ - [DONE] Anthrax Bomb generals power starts with green toxin field instead the blue one, and it can be upgraded with Anthrax
    Beta/Gamma upgrade
  - [MAYBE] Anthrax Bomb toxin damage per second rebalanced and do toxin damage from the start
  - [IMPROVEMENT][MINOR] New GPS Scrambler attack cursor!
