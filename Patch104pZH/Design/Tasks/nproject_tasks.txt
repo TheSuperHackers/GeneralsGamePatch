@@ -255,7 +255,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > [IMPROVEMENT][MINOR] The infantry no longer unanimated when performing this ability
  - [NOTRELEVANT] Missile Defender weapon damage increased from 40 to 50
  - [NOTRELEVANT] Missile Defender rate of fire reduced from 1000 to 1600 miliseconds
- - [MAYBE] Added minimum attack range to Missile Defender normal weapon to match Tank Hunter and RPG Trooper weapons (laser lock weapon is unaffected)
+ - [REJECTED] Added minimum attack range to Missile Defender normal weapon to match Tank Hunter and RPG Trooper weapons (laser lock weapon is unaffected)
  Reason: Missile Defenders will not damage themselves anymore. May affect instances where Rockvees are rammed and they may be unable to retaliate.
  - [NOTRELEVANT] Missile Defender normal attack rockets fuel time rebalanced to match their other factions counterparts (RPG and Tank Hunter)
  - [MAYBE] Missile Defender skin changed back to blue from green. This have been applied in original Generals, but removed in
