@@ -409,7 +409,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  USA AIRFIELD:
  - [IMPROVEMENT][MINOR] Fixed the missing shadow on USA Airfield model when in damaged conditions
- - [MAYBE] USA Airfield hangar door opening time reduced from 2000 to 1500 miliseconds
+ - [REJECTED] USA Airfield hangar door opening time reduced from 2000 to 1500 miliseconds
  - [NOTRELEVANT] USA Airfield building footprint size slightly reduced
  - [IMPROVEMENT][MINOR] New USA Airfield hangar lights animation!
 
