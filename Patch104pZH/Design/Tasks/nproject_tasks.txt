@@ -204,8 +204,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Dozers clear mines faster. Clearing delay reduced to 50%
  - [MAYBE] All infantry use exploded animation when killed by suicide weapons
  - [NOTRELEVANT] All infantry spill bloods when hitted by bullet and melee weapons!
- - [IMPROVEMENT][MINOR] Fixed various issues on all infantry model animations, such as running in place or skidding when moving
  - [IMPROVEMENT][MINOR] All buildings with door animation have been standarized so their door opening time are all equal. Some buildings
+ - [DONE][MINOR] Fixed various issues on all infantry model animations, such as running in place or skidding when moving
    door opening time were way too long which greatly affect the overall build time of all the units produced from those
    buildings. See each building changes for more details.
  - [MAYBE] Fixed the damage disparency issue caused by rocket projectile weapons due to them hitting each other upon detonation that
