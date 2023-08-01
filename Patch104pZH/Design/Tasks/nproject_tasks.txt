@@ -653,7 +653,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  General Balances and Fixes:
 
  CHINESE DOZER:
- - [IMPROVEMENT][MINOR] Chinese Dozer animation improved. Now Dozers animated when building structures (like when clearing mines). Clearing mines
+ - [NOTRELEVANT][MINOR] Chinese Dozer animation improved. Now Dozers animated when building structures (like when clearing mines). Clearing mines
    animation also fixed (fixing the strange dirt effects)
  - [NOTRELEVANT] Reduced Chinese Dozer shroud clearing range to match the USA Dozer shroud clearing range
  - [MAYBE] Chinese Dozer now will not drop salvage crates when destroyed
