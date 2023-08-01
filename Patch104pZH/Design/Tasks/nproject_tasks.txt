@@ -1125,8 +1125,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [IMPROVEMENT][MAJOR] Mob members movement speed increased a bit and will not reduced when injured, so they can catch the squad leader faster
 
  HIJACKER:
- - [NOTRELEVANT] Hijacker can no longer hijack Combat Bikes
- - [MAYBE] Hijacker can no longer hijack drone units like Sentry Drones
+ - [IMPROVEMENT] Hijacker can no longer hijack drone units like Sentry Drones
+ - [DONE] Hijacker can no longer hijack Combat Bikes
  - [NOTRELEVANT] Hijacker now will be able to respawn correctly from all vehicles, not just from USA vehicles! (some exceptions apply)
  - [NOTRELEVANT] Hijacker build cost increased from 400 to 600
  - [NOTRELEVANT] Hijacker build time increased from 10 to 12 seconds
