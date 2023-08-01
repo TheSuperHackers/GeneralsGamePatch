@@ -484,7 +484,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 2.1.1 AirForce General
 ----------------------
  Balances and Fixes:
- - [NOTRELEVANT] AirForce General Sentry Drone build cost reduced from 850 to 700
+ - [DONE] AirForce General Sentry Drone build cost reduced from 850 to 700
  - [NOTRELEVANT] AirForce General Chinook (not Combat Chinook) build cost increased from 950 to 1100 to match the other USA factions Chinooks
  - [NOTRELEVANT] AirForce General Supply Center refund value changed from 400 to 450 due to the Chinook price change
  - [NOTRELEVANT] AirForce General Avenger build cost increased from 1600 to 1700
