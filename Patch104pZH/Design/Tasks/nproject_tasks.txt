@@ -1267,7 +1267,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [DONE] Added the missing Stop button in Palace command bar
  - [NOTRELEVANT] Palace build cost increased from 2500 to 2800
  - [NOTRELEVANT] Palace healthpoint reduced from 3000 to 2500
- - [IMPROVEMENT][MAJOR] Fixed the Palace model that lost some fireports after upgraded with Fortified Structures
+ - [DONE][MAJOR] Fixed the Palace model that lost some fireports after upgraded with Fortified Structures
  - [NOTRELEVANT] Camouflage upgrade research time reduced from 60 to 40 seconds
  - [NOTRELEVANT] Fortified Structure upgrade now give flat overall 15% armor increase
 
