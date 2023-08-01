@@ -178,7 +178,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [MAYBE]       All factions Cargo Planes now have equal stats
  - [IMPROVEMENT][MINOR] Fixed the Cargo Plane propeller texture error that have small thin gray lines
  - [MAYBE]       Standardized unit transport size. Like an Overlord that needs more transport slot than a Technical
- - [IMPROVEMENT][MAJOR] Fixed the issues with firing elevation limit. Now both tanks and artillery can attack very high/low targets alike
+ - [REJECTED][MAJOR] Fixed the issues with firing elevation limit. Now both tanks and artillery can attack very high/low targets alike
  Reason: Certain maps have topology which can force units to path around to reach their targets, even if it is within reach of their weapon.
  - [NOTRELEVANT] Tank armor received damage from INFANTRY_MISSILE reduced from 100% to 85%
  - [NOTRELEVANT] Tank armor received damage from POISON reduced from 25% to 15%
