@@ -219,7 +219,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > [NOTRELEVANT] Most vehicles can move backwards correctly
    > [NOTRELEVANT] Helicopters sway a bit when idle
  - [NOTRELEVANT] All artillery weapon shells now have given dust trails like Artillery Barrage shells
- - [IMPROVEMENT][MINOR] Cleaned up many buildings particle effects that were misplaced or attached to invalid locations in the models
+ - [DONE][MINOR] Cleaned up many buildings particle effects that were misplaced or attached to invalid locations in the models
  - [IMPROVEMENT][MINOR] Removed the blurry edges on the texture used for the no-build indicator when you try to build structures on invalid places
  - [IMPROVEMENT][MINOR] Parachutes now has housecolors (except crate parachutes)
 
