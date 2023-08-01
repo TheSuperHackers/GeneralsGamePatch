@@ -489,7 +489,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] AirForce General Supply Center refund value changed from 400 to 450 due to the Chinook price change
  - [NOTRELEVANT] AirForce General Avenger build cost increased from 1600 to 1700
  - [NOTRELEVANT] AirForce General Microwave Tank build cost increased from 800 to 900
- - [IMPROVEMENT][MINOR] Fixed Airforce General Firebase that use wrong model at snowy-reallydamaged condition
+ - [DONE][MINOR] Fixed Airforce General Firebase that use wrong model at snowy-reallydamaged condition
  - [NOTRELEVANT] Emergency Repair no longer available for AirForce General
 
  AIRFORCE GENERAL AIRCRAFTS:
