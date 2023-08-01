@@ -1173,7 +1173,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > [NOTRELEVANT] 2nd salvage upgrade weapon damage increased from 8 to 12
    > [NOTRELEVANT] 2nd salvage upgrade weapon damage against air targets increased from 5 to 10
    > [NOTRELEVANT] 2nd salvage upgrade weapon rate of fire reduced from 25 to 100 miliseconds
- - [IMPROVEMENT][MINOR] Quad Cannon now show the muzzle flash when attacking ground units
+ - [DONE][MINOR] Quad Cannon now show the muzzle flash when attacking ground units
  - [NOTRELEVANT] Quad Cannon build time increased from 6 to 8 seconds
  - [NOTRELEVANT] Quad Cannon armor received damage from COMANCHE_VULCAN reduced from 50% to 40%
 
