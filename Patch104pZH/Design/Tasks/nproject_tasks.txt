@@ -262,7 +262,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    Zero Hour
 
  PATHFINDER:
- - [NOTRELEVANT] Pathfinder rate of fire reduced from 2000 to 3000 miliseconds
+ - [MAYBE] Pathfinder rate of fire reduced from 2000 to 3000 miliseconds
  - [DONE] Pathfinder weapon tracer now properly turn into red when they reached the heroic veterancy
 
  COLONEL BURTON:
