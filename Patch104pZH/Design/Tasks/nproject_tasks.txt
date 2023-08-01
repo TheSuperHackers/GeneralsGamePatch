@@ -239,7 +239,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  General Balances and Fixes:
 
  USA DOZER:
- - [MAYBE] USA Dozer animation improved. Now Dozers animated when building structures (like when clearing mines). Clearing mines
+ - [DONE] USA Dozer animation improved. Now Dozers animated when building structures (like when clearing mines). Clearing mines
    animation also fixed (fixing the strange dirt effects)
  - [NOTRELEVANT] USA Dozer now will not drop salvage crates when destroyed
 
