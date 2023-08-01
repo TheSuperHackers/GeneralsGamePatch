@@ -276,7 +276,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [DONE] Pilots no longer can promote Combat Bikes!
 
  CRUSADER:
- - [IMPROVEMENT][MINOR] A single Crusader Tank will no longer create two chassis rubbles
+ - [PENDING][MINOR] A single Crusader Tank will no longer create two chassis rubbles
  - [DONE][MINOR] Promoted Crusader Tank will not create Pilot if died from being crushed, like the other USA vehicles
  - [MAYBE] Fixed the Composite Armor upgrade effect for Crusader Tanks that gives too many healthpoint bonus
  - [NOTRELEVANT] Crusader Tank turret turn speed slightly decreased
