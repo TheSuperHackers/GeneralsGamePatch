@@ -311,7 +311,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  AVENGER:
  - [IMPROVEMENT][MINOR] Avenger will not block dozer builds anymore!
  - [NOTRELEVANT] All Avengers need Strategy Center to be built
- - [MAYBE] Avenger now use their own armor
+ - [DONE] Avenger now use their own armor
  Reason: Only Airforce General Avenger uses AntiAirArmor, which makes them more vulnerable to JET_MISSILE compared to AvengerArmor. May affect interactions.
  - [NOTRELEVANT] Avenger no longer benefits from Composite Armor upgrade, it's not tank after all
  - [NOTRELEVANT] Avenger Point Defense Laser can be used against infantry
