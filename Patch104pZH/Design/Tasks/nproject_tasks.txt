@@ -524,7 +524,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  COMANCHE:
  - [IMPROVEMENT][MINOR] Correct selection cameo for Stealth Comanche
- - [MAYBE] Fixed Stealth Comanche behavior after upgraded with the stealth upgrade. Now they will respond to enemies when idle
+ - [NOTRELEVANT] Fixed Stealth Comanche behavior after upgraded with the stealth upgrade. Now they will respond to enemies when idle
    correctly.
  Reason: Sometimes it may be wise to let Stealth Comanches not automatically engage targets and blow their cover.
  - [NOTRELEVANT] Stealth Comanche re-stealth time increased from 1500 to 2000 miliseconds
