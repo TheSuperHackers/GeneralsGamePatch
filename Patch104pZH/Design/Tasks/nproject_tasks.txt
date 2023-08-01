@@ -463,7 +463,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  USA PARADROP:
  - [DONE] The Paradrop special power now deliver the corresponding subfaction's Rangers correctly
- - [MAYBE] Paradrop now also deliver some Missile Defenders in the mix:
+ - [DONE] Paradrop now also deliver some Missile Defenders in the mix:
    > Level 1: 4 Rangers and 1 Missile Defender
    > Level 2: 7 Rangers and 3 Missile Defenders
    > Level 3: 10 Rangers and 5 Missile Defenders
