@@ -1,0 +1,19 @@
+---
+date: 2023-08-01
+
+title: Fixes Supply Stash selection sound sometimes not played
+
+changes:
+  - fix: Fixes an issue where the Supply Stash selection sound has the wrong priority.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2188
+
+authors:
+  - commy2

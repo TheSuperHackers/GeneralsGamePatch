@@ -1227,7 +1227,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  SUPPLY STASH:
  - [NOTRELEVANT] Supply Stash build cost increased from 1500 to 1800
  - [IMPROVEMENT][MINOR] Minor fixes on Supply Stash Fortified Structure addon model that have floating sandbags when in damaged conditions
- - [IMPROVEMENT][MINOR] Fixed Supply Stash selection sound that sometimes didn't played properly
+ - [DONE][MINOR] Fixed Supply Stash selection sound that sometimes didn't played properly
 
  ARMS DEALER:
  - [IMPROVEMENT][MINOR] Minor fixes on Arms Dealer Fortified Structure addon model that have floating sandbags when in damaged conditions
