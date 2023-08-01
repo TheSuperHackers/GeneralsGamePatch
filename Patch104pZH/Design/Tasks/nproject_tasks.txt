@@ -405,7 +405,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [MAYBE] Additional details for USA Supply Center to balance the footprint
 
  USA WAR FACTORY:
- - [MAYBE] USA War Factory door opening time reduced from 3250 to 1500 miliseconds
+ - [REJECTED] USA War Factory door opening time reduced from 3250 to 1500 miliseconds
 
  USA AIRFIELD:
  - [IMPROVEMENT][MINOR] Fixed the missing shadow on USA Airfield model when in damaged conditions
