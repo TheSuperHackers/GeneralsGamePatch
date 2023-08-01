@@ -273,7 +273,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  PILOTS:
  - [DONE] Pilots will not reduce their movement speed when in heroic veterancy
  - [DONE] Pilots never affected by Chemical Suits upgrade anymore due to unfixable bug in the game engine itself
- - [MAYBE] Pilots no longer can promote Combat Bikes!
+ - [DONE] Pilots no longer can promote Combat Bikes!
 
  CRUSADER:
  - [IMPROVEMENT][MINOR] A single Crusader Tank will no longer create two chassis rubbles
