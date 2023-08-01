@@ -1180,7 +1180,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  TOXIN TRACTOR:
  - [DONE] Toxin Tractor no longer immune to radiations
  - [NOTRELEVANT] Toxin Tractor now little more resistant to infantry and bullet weapons
- - [IMPROVEMENT][MINOR] Fixed the Toxin Tractor salvage upgrade models that didn't show/hide correct toxin tanks
+ - [DONE][MINOR] Fixed the Toxin Tractor salvage upgrade models that didn't show/hide correct toxin tanks
  - [DONE] Toxin Tractor no longer get free Anthrax upgrade on the heroic veterancy
 
  COMBAT BIKE:
