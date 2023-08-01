@@ -1249,7 +1249,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Tunnel Network no longer block unit sights, allowing other units to attack enemies behind
 
  STINGER SITE:
- - [MAYBE] Stinger Site can be attacked by Ranger Flash Bangs again
+ - [DONE] Stinger Site can be attacked by Ranger Flash Bangs again
  - [NOTRELEVANT] Stinger Site soldiers respawn delay reduced from 30 to 18 seconds
  - [MAYBE] Stinger Site can have Fortified Structures upgrade
  - [NOTRELEVANT] Stinger Site no longer block unit sights, allowing other units to attack enemies behind
