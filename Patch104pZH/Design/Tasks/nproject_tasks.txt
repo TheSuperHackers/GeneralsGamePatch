@@ -1254,7 +1254,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [MAYBE] Stinger Site can have Fortified Structures upgrade
  - [NOTRELEVANT] Stinger Site no longer block unit sights, allowing other units to attack enemies behind
  - [MAYBE] Stinger Soldiers now can properly take damage from radiations like the other normal infantry
- - [MAYBE] Individual Stinger Soldier can't be targeted by Burton knife attacks anymore
+ - [NOTRELEVANT] Individual Stinger Soldier can't be targeted by Burton knife attacks anymore
  - [IMPROVEMENT][MAJOR] Stinger Soldiers no longer able to attack when the building is being sold, like the other defense buildings
  - [MAYBE] Fixed the Stinger Soldier anti-air weapon that didn't get benefit from AP Rockets upgrade
 
