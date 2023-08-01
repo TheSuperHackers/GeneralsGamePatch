@@ -390,7 +390,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Spy Drone can be moved and no longer immobile after deployed!
 
  USA COMMAND CENTER:
- - [MAYBE] USA Command Center door opening time reduced from 1500 to 1000 miliseconds
+ - [REJECTED] USA Command Center door opening time reduced from 1500 to 1000 miliseconds
  - [IMPROVEMENT][MINOR] New USA Command Center radar deploying animation!
 
  COLD FUSION REACTOR:
