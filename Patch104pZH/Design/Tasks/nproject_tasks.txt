@@ -1435,7 +1435,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Toxin Shells upgrade no longer affects Demolition General Marauder
 
  ADVANCED DEMO TRAP:
- - [IMPROVEMENT][MINOR] Fixed the wrong model of Advanced Demo Trap when under construction
+ - [DONE][MINOR] Fixed the wrong model of Advanced Demo Trap when under construction
  - [MAYBE] Advanced Demo Trap will not harm friendly units, like Chinese minefields
  Reason: Would allow for more reckless use of Demo Traps, possibly baiting enemies into it. May be a balance issue.
 
