@@ -444,8 +444,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Strategy Center no longer reveal surrounding when a battle plan is announced
 
  SUPPLY DROP ZONE:
- - [IMPROVEMENT][CRITICAL] Supply Drop Zone Cargo Plane are no longer attackable, prevent the annoying "unit lost" report from EVA
  - [MAYBE] Supply Drop Zone money now delivered in one crate and will show the money amount upon landing!
+ - [DONE][CRITICAL] Supply Drop Zone Cargo Plane are no longer attackable, prevent the annoying "unit lost" report from EVA
  - [MAYBE] Fixed the bug where Supply Drop Zone crates did not delivered properly
    > No more stray supply crates that missed their landing spot
    > No more crate stealing from your enemies
