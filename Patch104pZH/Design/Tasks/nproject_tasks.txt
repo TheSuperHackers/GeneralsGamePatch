@@ -1108,7 +1108,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] You require a Palace instead an Arms Dealer to train the Saboteur
  - [MAYBE] Saboteur now steal $2000 from supply centers, make them more valueable.
  - [IMPROVEMENT][MINOR] Fully new animation set for Saboteur! Now they're not sharing same movement style with Workers anymore.
- - [MAYBE] Saboteur now will be revealed when taking damage
+ - [NOTRELEVANT] Saboteur now will be revealed when taking damage
 
  ANGRY MOBS:
  - [NOTRELEVANT] Angry Mobs build cost increased from 800 to 1000 per squad
@@ -1130,7 +1130,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Hijacker now will be able to respawn correctly from all vehicles, not just from USA vehicles! (some exceptions apply)
  - [NOTRELEVANT] Hijacker build cost increased from 400 to 600
  - [NOTRELEVANT] Hijacker build time increased from 10 to 12 seconds
- - [MAYBE] Hijacker now will be revealed when taking damage (same goes to Stealth General Hijacker)
+ - [NOTRELEVANT] Hijacker now will be revealed when taking damage (same goes to Stealth General Hijacker)
 
  JARMEN KELL:
  - [NOTRELEVANT] Only one Jarmen Kell allowed for one player
