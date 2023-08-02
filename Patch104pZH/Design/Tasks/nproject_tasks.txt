@@ -1279,7 +1279,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [MAYBE][MINOR][GITHUB] New SCUD Storm animation! Now the missiles will be hidden underground until they are ready to fire.
  - [DONE] SCUD Storm spawn corresponding toxin field level when destroyed
  - [MAYBE] SCUD Storm can have Fortified Structures upgrade
- - [MAYBE] SCUD Storm missiles can create salvage crate from enemy kills
+ - [REJECTED] SCUD Storm missiles can create salvage crate from enemy kills
  - [DONE] Fixed the bug where SCUD Storm being immune to the damage caused by its own launched missiles
 
  GLA HOLES:
