@@ -1306,7 +1306,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  TOXIN SHELLS:
  - [DONE] Toxin field area of effect will not reduced after Anthrax upgrade purchased
- - [MAYBE] Toxin Shells toxin field effect no longer harm structures (like how radiation field works)
+ - [NOTRELEVANT] Toxin Shells toxin field effect no longer harm structures (like how radiation field works)
 
  AMBUSH:
  - [MAYBE] Ambush special power now also include some RPG Troopers on higher levels:
