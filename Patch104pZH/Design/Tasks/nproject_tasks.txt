@@ -504,7 +504,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  SPECIAL POWERS AIRCRAFTS:
  - [DONE] Improved AirForce Carpet Bomb efficiency
  Reason: Depends on what "efficiency" means. Needs to be examined.
- - [IMPROVEMENT][MAJOR] AirForce Carpet Bomb can be called from other generals Strategy Center
+ - [NOTRELEVANT][MAJOR] AirForce Carpet Bomb can be called from other generals Strategy Center
  - [NOTRELEVANT] AirForce General A-10 Strike Generals Power reload time reduced from 4:00 to 3:30
 
  COMBAT CHINOOK:
