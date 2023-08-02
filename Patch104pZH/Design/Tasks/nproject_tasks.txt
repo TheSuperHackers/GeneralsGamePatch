@@ -1441,7 +1441,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
 
  SCUD STORM:
- - [MAYBE] Demolition General SCUD Storm no longer spawn toxin field when destroyed
+ - [DONE] Demolition General SCUD Storm no longer spawn toxin field when destroyed
  - [NOTRELEVANT] Demolition General SCUD Storm weapon direct hit damage reduced from 600 to 500 per missile
  - [NOTRELEVANT] Demolition General SCUD Storm weapon missile direct hit radius reduced from 75 to 50, equal to the normal SCUD Storm
  - [NOTRELEVANT] Demolition General SCUD Storm weapon splash damage increased from 150 to 200 per missile
