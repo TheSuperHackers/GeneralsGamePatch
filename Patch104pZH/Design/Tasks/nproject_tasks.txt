@@ -1099,8 +1099,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] RPG Trooper rate of fire reduced from 1000 to 1600 miliseconds
 
  TERRORIST:
- - [IMPROVEMENT][MINOR] Terrorist now use correct death animations (including exploded and burned animations)
- - [MAYBE] Now you can manually detonate the Terrorist
+ - [DONE][MINOR] Terrorist now use correct death animations (including exploded and burned animations)
+ - [REJECTED] Now you can manually detonate the Terrorist
  - [IMPROVEMENT][MINOR] Fixed the model animation error that occurs in non-english build. The German version "Demo Drone" also replaced with
    human Terrorist like in the English version (because the drone model used as Demolition General Remote Car, see below).
 
