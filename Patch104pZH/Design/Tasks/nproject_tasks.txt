@@ -1449,7 +1449,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  DEMOLITIONS UPGRADE:
  - [MAYBE] Improved Demolition ability
  Reason: Vague. May include the fixed below, may be referring to higher damage or radius.
- - [IMPROVEMENT][MINOR] Fixing Demolition General infantry and vehicles suicide death animations
+ - [DONE][MINOR] Fixing Demolition General infantry and vehicles suicide death animations
  - [MAYBE] Demolitions upgraded infantry only exploded when they're detonate themselves, exploded, crushed, or burned
  Reason: Certain units, such as Rangers or Gattling Tanks, will not trigger explosions if Demolitions infantry is killed. A balance concern.
  - [DONE] Combat Bike now can use Demolition suicide ability correctly
