@@ -685,7 +685,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  GATTLING TANK:
  - [MAYBE] Gattling Tank now can gain horde bonus in group of 5 or more
- - [IMPROVEMENT][MAJOR] Fixed the bug that makes Gattling Tank keep silent when attacking air
+ - [DONE][MAJOR] Fixed the bug that makes Gattling Tank keep silent when attacking air
  - [NOTRELEVANT] Minor balances on Gattling Tank veterancy requirements
  Reason: May improve or worsen the rate at which the Gattling Tank gains veterancy. Squarely a balance issue.
  - [NOTRELEVANT] Gattling Tank armor received damage from COMANCHE_VULCAN reduced from 25% to 20%
