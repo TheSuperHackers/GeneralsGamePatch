@@ -786,7 +786,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  BUNKER:
  - [DONE] Fixed the issue of Chinese Bunkers that not appeared on the radar
- - [IMPROVEMENT][MAJOR] Fixed Chinese Bunker fireport issue where garrisons sometimes attacking from the center bottom of the Bunker
+ - [DONE][MAJOR] Fixed Chinese Bunker fireport issue where garrisons sometimes attacking from the center bottom of the Bunker
  - [NOTRELEVANT] Chinese Bunker build time increased from 5 to 10 seconds
  - [NOTRELEVANT] Chinese Bunker now more vulnerable to Nighthawk weapon like other defenses
  - [NOTRELEVANT] Chinese Bunker no longer block unit sights, allowing other units to attack enemies behind
