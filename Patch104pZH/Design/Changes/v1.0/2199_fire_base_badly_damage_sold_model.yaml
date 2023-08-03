@@ -4,7 +4,7 @@ date: 2023-08-03
 title: Fixes incorrect USA Fire Base model when badly damaged and sold
 
 changes:
-  - fix: Issue where Fire Base damage state is not properly displayed when being sold while badly damaged.
+  - fix: The badly damaged USA Fire Base now properly shows when being sold.
 
 labels:
   - bug
