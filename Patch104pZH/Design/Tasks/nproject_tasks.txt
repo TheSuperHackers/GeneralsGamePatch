@@ -712,8 +712,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [DONE][MINOR] Fixed various issues with Listening Outpost model
 
  OVERLORD:
- - [IMPROVEMENT][MAJOR] Upgraded Overlords will not block dozer builds anymore!
- - [IMPROVEMENT][MAJOR] Fixed the Overlord weapon that sometimes only fires one shell when the Overlord is not firing for a long time
+ - [DONE][MAJOR] Upgraded Overlords will not block dozer builds anymore!
+ - [DONE][MAJOR] Fixed the Overlord weapon that sometimes only fires one shell when the Overlord is not firing for a long time
  - [NOTRELEVANT] Overlord armor received damage from JET_MISSILES and STEALTHJET_MISSILES reduced from 100% to 85%
  - [NOTRELEVANT] Overlord armor received damage from RADIATION reduced from 50% to 40%
  - [DONE] Overlord can target air units correctly when upgraded with Gattling/Bunker upgrade
