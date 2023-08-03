@@ -563,7 +563,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > Weapon damage (from one weapon clip) reduced from 120 to 130
    > Reload time reduced from 2750 to 2000
  - [NOTRELEVANT] Laser Turret hotkey changed from 'T' to 'M'
- - [IMPROVEMENT][MINOR] Laser Turret now have proper model on snow conditions.
+ - [DONE][MINOR] Laser Turret now have proper model on snow conditions.
 
 
  New Stuff:

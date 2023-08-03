@@ -1,0 +1,19 @@
+---
+date: 2023-08-03
+
+title: Fixes Laser turret snow texture
+
+changes:
+  - fix: Laser turret now uses snow texture on snow maps.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2197
+
+authors:
+  - commy2
