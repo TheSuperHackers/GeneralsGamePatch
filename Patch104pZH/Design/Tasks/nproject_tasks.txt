@@ -849,7 +849,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Neutron Mines now exclusive for Nuke General! The other Chinese generals will get the new EMP Mines instead. (see below)
 
  GATTLING WEAPONS:
- - [IMPROVEMENT][MAJOR] Gattling weapons now properly show the muzzle flash when attacking ground units
+ - [DONE][MAJOR] Gattling weapons now properly show the muzzle flash when attacking ground units
 
  SPECIAL POWERS:
  - [NOTRELEVANT] Artillery Barrage shells delivered faster and no longer shown on radar
