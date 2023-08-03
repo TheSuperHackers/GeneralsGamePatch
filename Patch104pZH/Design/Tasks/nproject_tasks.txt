@@ -700,7 +700,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  TROOP CRAWLER:
  - [NOTRELEVANT] You need a Chinese Barracks to build Troop Crawlers
- - [IMPROVEMENT][MINOR] Better Troop Crawler stealth detection animations
+ - [DONE][MINOR] Better Troop Crawler stealth detection animations
  - [NOTRELEVANT] Troop Crawler now will not drop salvage crates when destroyed (except it's Assault Troop Crawler)
  - [MAYBE] Troop Crawlers are now amphibious, increasing the usefulness of this unit from just a simple transport or cannon fodder.
 
