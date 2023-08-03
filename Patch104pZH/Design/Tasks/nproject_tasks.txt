@@ -706,7 +706,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  LISTENING OUTPOST:
  - [NOTRELEVANT] You need a Chinese Barracks to build Listening Outposts
- - [IMPROVEMENT][MINOR] Better Listening Outpost stealth detection animations
+ - [DONE][MINOR] Better Listening Outpost stealth detection animations
  - [NOTRELEVANT] Changed Listening Outpost armor from TankArmor to TruckArmor (also applied to Attack Outpost)
  - [NOTRELEVANT] Listening Outpost now will not drop salvage crates when destroyed
  - [IMPROVEMENT][MINOR] Fixed various issues with Listening Outpost model
