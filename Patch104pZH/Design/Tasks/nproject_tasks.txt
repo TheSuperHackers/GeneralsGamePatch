@@ -421,7 +421,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  FIREBASE:
  - [MAYBE] New model for Firebase, also fixed the Firebase firing angle issue
- - [IMPROVEMENT][MINOR] Fixed missing model issue on Firebase when sold/constructed on reallydamaged condition
+ - [DONE][MINOR] Fixed missing model issue on Firebase when sold/constructed on reallydamaged condition
  - [NOTRELEVANT] You require a Barracks instead a Cold Fusion Reactor to build the Firebase
  - [MAYBE][GITHUB] Firebase now can be attacked by Ranger Flash Bangs and toxin weapons properly
  - [IMPROVEMENT][MAJOR] All snipers will no longer keep attacking on empty Firebases, same with Ranger flashbang attacks
