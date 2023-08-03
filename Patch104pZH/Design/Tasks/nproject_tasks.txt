@@ -774,7 +774,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  NUCLEAR REACTOR:
  - [MAYBE] All Nuclear Reactors will not die because of their Overcharge ability. Overcharge ability will automatically turned off
    on reactor's low healthpoint
- - [IMPROVEMENT][MINOR] Optimized all Nuclear Reactor model codes. Damaged states smokes and fires appears at right positions
+ - [DONE][MINOR] Optimized all Nuclear Reactor model codes. Damaged states smokes and fires appears at right positions
  - [MAYBE] Additional details for Nuclear Reactor to match its footprint
 
  CHINESE BARRACKS:
