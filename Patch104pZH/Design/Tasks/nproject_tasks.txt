@@ -828,8 +828,8 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Now you cannot build multiple Internet Centers from different subfactions
  - [IMPROVEMENT][MINOR] New constructing animation for Internet Center. Now it have unique scaffolding (not using the Supply Center one)
  - Some changes on Satellite Hack upgrades due to new Spy Plane ability (see below):
-   > [MAYBE] Satellite Hack I reveal now non-permanent. Now it only reveal enemy Command Centers for 25 seconds each 4 minutes.
-   > [IMPROVEMENT][MAJOR] Also fixed Satellite Hack I bug that sometimes not revealing enemy newly built Command Centers (hopefully)
+   > [NOTRELEVANT] Satellite Hack I reveal now non-permanent. Now it only reveal enemy Command Centers for 25 seconds each 4 minutes.
+   > [DONE][MAJOR] Also fixed Satellite Hack I bug that sometimes not revealing enemy newly built Command Centers (hopefully)
    > [NOTRELEVANT] Satellite Hack II now only reveal enemy structures, not entire forces, to give it some diversity from USA Intelligence
      special power.
    > [NOTRELEVANT] Satellite Hack II reveal duration increased to match the new Satellite Hack I reveal duration
