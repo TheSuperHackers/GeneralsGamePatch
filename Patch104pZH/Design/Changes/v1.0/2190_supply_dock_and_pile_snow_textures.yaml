@@ -1,0 +1,19 @@
+---
+date: 2023-08-02
+
+title: Adds snow texture versions of Supply Piles and Supply Docks
+
+changes:
+  - feature: Supply Piles and Supply Docks now use snow textures on snow maps.
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2190
+
+authors:
+  - commy2

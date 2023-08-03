@@ -1657,7 +1657,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
 
  SUPPLIES:
  - [IMPROVEMENT][MINOR] Supply Piles, Supply Docks, and Supply Warehouses now immune to all attacks
- - [IMPROVEMENT][MINOR] Supply boxes covered with snows on snowy maps
+ - [DONE][MINOR] Supply boxes covered with snows on snowy maps
  - [NOTRELEVANT] Supply Piles (small and large ones) no longer block unit sights, allowing other units to attack enemies behind.
    Does not applied to Supply Docks and Supply Warehouses.
  - [IMPROVEMENT][MINOR] Supply sources now have selection cameo picture for easier identification
