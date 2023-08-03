@@ -1242,7 +1242,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    > received damage from JET_MISSILES reduced from 100% to 50%
    > received damage from STEALTHJET_MISSILES increased from 150% to 250%
    > received damage from AURORA_BOMB reduced from 250% to 200%
- - [IMPROVEMENT][MINOR] Fixed Tunnel Network turret model that use wrong texture on snow conditions
+ - [NOTRELEVANT][MINOR] Fixed Tunnel Network turret model that use wrong texture on snow conditions
  - [IMPROVEMENT][MINOR] Tunnel Network weapon no longer make the whole building flashes when firing
  - [MAYBE][MINOR] Added Hold Fire mode to camo-netted Tunnel Network because sometimes they need to NOT attract any attentions when
    camouflaged
