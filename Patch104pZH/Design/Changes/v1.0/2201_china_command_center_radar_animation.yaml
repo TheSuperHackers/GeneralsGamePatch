@@ -1,0 +1,19 @@
+---
+date: 2023-08-03
+
+title: Fixes cut off radar deploy animation on China Command Center
+
+changes:
+  - fix: The radar dish deploy animation on the China Command Center now plays properly.
+
+labels:
+  - bug
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2201
+
+authors:
+  - commy2
