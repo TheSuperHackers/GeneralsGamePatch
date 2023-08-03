@@ -1,0 +1,21 @@
+---
+date: 2023-08-03
+
+title: Fixes promoted Crusader, Laser and Microwave tanks spawn pilots when crushed.
+
+changes:
+  - fix: Crusader tanks crushed by Overlord no longer spawn Pilots, like all other USA vehicles.
+  - fix: Laser tanks crushed by Overlord no longer spawn Pilots.
+  - fix: Microwave tanks crushed by Overlord no longer spawn Pilots.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2196
+
+authors:
+  - commy2
