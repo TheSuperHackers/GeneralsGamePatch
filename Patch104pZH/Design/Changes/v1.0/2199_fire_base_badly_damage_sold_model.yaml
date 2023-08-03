@@ -1,0 +1,19 @@
+---
+date: 2023-08-03
+
+title: Fixes incorrect USA Fire Base model when badly damaged and sold
+
+changes:
+  - fix: The badly damaged USA Fire Base now properly shows when being sold.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2199
+
+authors:
+  - commy2
