@@ -5,6 +5,7 @@ title: Fixes USA Avenger model
 
 changes:
   - fix: Removes a small piece of misplaced geometry from the wheels.
+  - fix: Headlight is now visible from all angles.
 
 labels:
   - art
@@ -14,6 +15,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/158
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2210
 
 authors:
   - commy2
