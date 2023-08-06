@@ -1,0 +1,20 @@
+---
+date: 2023-08-06
+
+title: Adds feature to turn off headlights of USA Sentry Drone when stationary
+
+changes:
+  - tweak: The Sentry Drone now turns off its headlight when neither attacking nor moving.
+
+labels:
+  - art
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2211
+
+authors:
+  - commy2
