@@ -1,12 +1,15 @@
 ---
 date: 2021-09-09
 
-title: Fixes China Outpost damage smoke effects not disappearing after repair
+title: Fixes China Listening Outpost
 
 changes:
   - fix: After being fully repaired, the China Listening Outpost will no longer show its damage smoke particles. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
+  - fix: Headlight now visible from all angles.
+  - tweak: Headlight now turns off when stationary.
 
 labels:
+  - art
   - bug
   - china
   - minor
@@ -15,6 +18,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209
 
 authors:
   - commy2
