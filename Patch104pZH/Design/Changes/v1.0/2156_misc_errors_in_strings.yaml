@@ -11,6 +11,9 @@ changes:
   - fix: Removes incorrect sentence in MOAB tooltip for all languages.
   - fix: Adds missing numbers to German, Chinese strings in TOOLTIP:GameInfoPlayer.
   - fix: Adds missing numbers and correct sentences to German string in CONTROLBAR:PowerDescription.
+  - fix: Sets "D'accord" for French string in GUI:Ok, LAN:OK.
+  - fix: Sets "Complété" for French string in MapTransfer:Done.
+  - fix: Adds missing sentences to Spanish, Chinese strings in TOOLTIP:NumberOfVotes.
 
 labels:
   - minor
@@ -22,6 +25,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2167
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2216
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2217
 
 authors:
   - xezon
