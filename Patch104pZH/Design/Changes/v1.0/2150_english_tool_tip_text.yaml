@@ -1,7 +1,7 @@
 ---
 date: 2023-07-26
 
-title: Fixes inconsistent wording and capitalization of words in English tool tip strings
+title: Fixes errors in English tool tip strings
 
 changes:
   - fix: The wording in English tool tip strings is more consistent now.
@@ -15,6 +15,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2150
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
 
 authors:
   - xezon

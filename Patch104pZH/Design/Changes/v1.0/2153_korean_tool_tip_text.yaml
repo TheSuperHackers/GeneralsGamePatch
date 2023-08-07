@@ -1,7 +1,7 @@
 ---
 date: 2023-07-26
 
-title: Fixes inconsistent wording in Korean tool tip strings
+title: Fixes errors in Korean tool tip strings
 
 changes:
   - fix: The wording in Korean tool tip strings is more consistent now.
