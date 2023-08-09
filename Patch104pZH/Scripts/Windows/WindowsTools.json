@@ -62,10 +62,10 @@
                         "skipIfRunnableExists": true
                     },
                     {
-                        "url": "https://github.com/TheSuperHackers/OpenSAGE.BlenderPlugin/releases/download/v0.6.8/io_mesh_w3d.zip",
+                        "url": "https://github.com/OpenSAGE/OpenSAGE.BlenderPlugin/releases/download/v0.6.9/io_mesh_w3d.zip",
                         "target": "{TOOLS_DIR}/io_mesh_w3d.zip",
-                        "sha256": "f234a5c97f663c1c78e284407dc276fb13aa5cfcf336d860dd479be90da20911",
-                        "size": 1133208,
+                        "sha256": "a14489fd9e829f5f95f7bdad3c43c02cc6521f80ca0adedd9310ecb68a4dc9a4",
+                        "size": 981357,
                         "callList": [
                             {
                                 "call": "{TOOLS_DIR}/blender-3.4.1-windows-x64/blender.exe",
