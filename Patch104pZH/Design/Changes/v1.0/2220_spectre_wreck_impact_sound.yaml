@@ -7,6 +7,7 @@ changes:
   - fix: The Spectre now uses a generic explosion sound when falling to the ground.
 
 labels:
+  - audio
   - boss
   - bug
   - minor
