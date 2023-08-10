@@ -4,7 +4,7 @@ date: 2022-07-31
 title: Adds unused GLA Prison to World Builder
 
 changes:
-  - fix: Add Prison to world builder.
+  - feature: The GLA Prison can now be placed in the world builder.
 
 labels:
   - enhancement
