@@ -1,0 +1,18 @@
+---
+date: 2023-08-07
+
+title: Fixes errors in French tool tip strings
+
+changes:
+  - fix: The French tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218
+
+authors:
+  - xezon
