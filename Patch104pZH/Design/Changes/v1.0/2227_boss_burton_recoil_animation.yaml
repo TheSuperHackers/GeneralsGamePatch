@@ -8,12 +8,12 @@ changes:
 
 labels:
   - boss
-  - design
+  - bug
   - minor
   - v1.0
 
 links:
-  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/xxxx
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2227
 
 authors:
   - commy2
