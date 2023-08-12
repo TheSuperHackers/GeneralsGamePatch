@@ -11,6 +11,7 @@ AmericaBarracksCommandSet
 AmericaSupplyCenterCommandSet
 AmericaPowerPlantCommandSet
 AmericaStrategyCenterCommandSet
+AmericaDetentionCampCommandSet
 AmericaParticleUplinkCannonCommandSet
 BaikonurLaunchTowerCommandSet
 AmericaPatriotBatteryCommandSet
@@ -55,6 +56,7 @@ GLABlackMarketCommandSet
 GLAScudStormCommandSet
 GLASupplyStashCommandSet
 GLAPalaceCommandSet
+GLAPrisonCommandSet
 GLADemoTrapCommandSet
 GLATunnelNetworkCommandSet
 GLAStingerSiteCommandSet

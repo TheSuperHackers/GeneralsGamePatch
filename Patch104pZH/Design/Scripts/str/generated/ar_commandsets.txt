@@ -702,7 +702,7 @@ CommandSet ChinaVehicleECMTankCommandSet
 End
 
 CommandSet ChinaInfantryTankHunterCommandSet
-  1 = Command_ChinaInfantryTankHunterTNTAttack : CONTROLBAR:TNTAttack "&TNT مﻮﺠھ"
+  1 = Command_ChinaInfantryTankHunterTNTAttack : CONTROLBAR:TNTAttack "TNT مﻮﺠھ: &T"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "ﻡﻮﺠﻬﻟا ﻞﻘﻧ"
   13 = Command_Guard : CONTROLBAR:Guard "ﺔﺳاﺮﺤﻟا"
   14 = Command_Stop : CONTROLBAR:Stop "ﻑﺎﻘﻳإ"
@@ -1293,6 +1293,15 @@ CommandSet AmericaStrategyCenterCommandSet
   10 = Command_UpgradeAmericaDroneArmor : CONTROLBAR:UpgradeAmericaDroneArmor "رﺎﯿﻃ نوﺪﺑ تاﺮﺋﺎﻄﻟا عرد"
   11 = Command_StrategyCenter_Stop : CONTROLBAR:Stop "ﻑﺎﻘﻳإ"
   13 = Command_UpgradeAmericaSupplyLines : CONTROLBAR:UpgradeAmericaSupplyLines "ﺰﯿﮫﺠﺘﻟا طﻮﻄﺧ"
+  14 = Command_Sell : CONTROLBAR:Sell "ةﺄﺸﻨﻤﻟا ﻊﯿﺑ"
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  CommandMap SELECT_ALL : "Q"
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, Z, 
+End
+
+CommandSet AmericaDetentionCampCommandSet
+  1 = Command_CIAIntelligence : CONTROLBAR:CIAIntelligence "ﺔﻳﺰﻛﺮﻤﻟا تاﺮﺑﺎﺨﻤﻟا ﺔﻟﺎﻛو تارﺎﺒﺨﺘﺳإ"
   14 = Command_Sell : CONTROLBAR:Sell "ةﺄﺸﻨﻤﻟا ﻊﯿﺑ"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
@@ -1895,6 +1904,14 @@ CommandSet GLAPalaceCommandSet
   10 = Command_UpgradeGLAToxinShells : CONTROLBAR:UpgradeGLAToxinShells "ﺔﻣﺎﺴﻟا ﻒﺋاﺬﻘﻟا"
   11 = Command_UpgradeGLAAnthraxBeta : CONTROLBAR:UpgradeGLAAnthraxBeta "ﺔﯿﺒﻳﺮﺠﺘﻟا ﺔﯿﻣﻮﺛﺮﺠﻟا ﺔﻠﺒﻨﻘﻟا"
   13 = Command_Stop : CONTROLBAR:Stop "ﻑﺎﻘﻳإ"
+  14 = Command_Sell : CONTROLBAR:Sell "ةﺄﺸﻨﻤﻟا ﻊﯿﺑ"
+  CommandMap VIEW_COMMAND_CENTER : "H"
+  CommandMap SELECT_ALL : "Q"
+  CommandMap SELECT_ALL_AIRCRAFT : "W"
+    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, Z, 
+End
+
+CommandSet GLAPrisonCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "ةﺄﺸﻨﻤﻟا ﻊﯿﺑ"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
@@ -4786,7 +4803,7 @@ CommandSet SupW_AmericaDozerCommandSet
   4 = SupW_Command_ConstructAmericaSupplyDropZone : CONTROLBAR:ConstructAmericaSupplyDropZone "تاداﺪﻣﻹا لاﺰﻧإ ﺔﻘﻄﻨﻣ"
   5 = SupW_Command_ConstructAmericaSupplyCenter : CONTROLBAR:ConstructAmericaSupplyCenter "ﺰﯿﮫﺠﺘﻟا ﺰﻛﺮﻣ"
   6 = SupW_Command_ConstructAmericaParticleCannonUplink : CONTROLBAR:ConstructAmericaParticleCannonUplink "يرﺬﻟا ﻊﻓﺪﻤﻟا"
-  7 = SupW_Command_ConstructAmericaPatriotBattery : CONTROLBAR:SupW_ConstructAmericaPatriotBattery "E&MP تﻮﻳﺮﺗﺎﺑ مﺎﻈﻧ"
+  7 = SupW_Command_ConstructAmericaPatriotBattery : CONTROLBAR:SupW_ConstructAmericaPatriotBattery "EMP تﻮﻳﺮﺗﺎﺑ مﺎﻈﻧ: &M"
   8 = SupW_Command_ConstructAmericaCommandCenter : CONTROLBAR:ConstructAmericaCommandCenter "ةدﺎﯿﻘﻟا ﺰﻛﺮﻣ"
   9 = SupW_Command_ConstructAmericaFireBase : CONTROLBAR:ConstructAmericaFireBase "رﺎﻧ قﻼﻃإ ةﺪﻋﺎﻗ"
   11 = SupW_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "ﻲﺑﺮﺤﻟا ﻊﻨﺼﻤﻟا"
@@ -4929,7 +4946,7 @@ CommandSet SupW_AmericaNuclearMissileCommandSet
 End
 
 CommandSet SupW_AmericaCruiseMissileCommandSet
-  1 = SupW_Command_CruiseMissile : CONTROLBAR:ICBM "مإ ﻲﺑ ﻲﺳ يآ"
+  1 = SupW_Command_CruiseMissile : CONTROLBAR:SupW_CruiseMissile "زوﺮﻛ ﺦﻳراﻮﺻ"
   14 = Command_Sell : CONTROLBAR:Sell "ةﺄﺸﻨﻤﻟا ﻊﯿﺑ"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
@@ -4938,6 +4955,7 @@ CommandSet SupW_AmericaCruiseMissileCommandSet
 End
 
 CommandSet SupW_AmericaTomahawkStormCommandSet
+  1 = SupW_Command_TomahawkStorm : CONTROLBAR:TomahawkStorm "كﻮھﺎﻣﻮﺘﻟا مﻮﺠھ"
   14 = Command_Sell : CONTROLBAR:Sell "ةﺄﺸﻨﻤﻟا ﻊﯿﺑ"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"

@@ -1,21 +1,21 @@
 SCIENCE_AMERICA_CommandSetRank8 has key conflict with
-  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air &Bomb"
-  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All &Bombs"
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air Bomb: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All Bombs: &B"
 
 AirF_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
-  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air &Bomb"
-  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All &Bombs"
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air Bomb: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All Bombs: &B"
 
 Slth_GLAArmsDealerCommandSet has key conflict with
-  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Combat C&ycle"
-  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Combat C&ycle"
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Combat Cycle: &Y"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Combat Cycle: &Y"
 
 SupW_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
-  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air &Bomb"
-  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All &Bombs"
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air Bomb: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All Bombs: &B"
 
 Lazr_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
-  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air &Bomb"
-  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All &Bombs"
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Fuel Air Bomb: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Mother Of All Bombs: &B"
 
 5 conflicts found

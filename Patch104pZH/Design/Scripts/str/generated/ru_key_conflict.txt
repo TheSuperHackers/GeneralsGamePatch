@@ -1,5 +1,5 @@
 Slth_GLAArmsDealerCommandSet has key conflict with
-  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Боевой мотоцикл [&Y]"
-  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Боевой мотоцикл [&Y]"
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Боевой мотоцикл: &Y"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Боевой мотоцикл: &Y"
 
 1 conflicts found
