@@ -1,0 +1,21 @@
+---
+date: 2023-08-12
+
+title: Fixes mission string errors for all languages
+
+changes:
+  - fix: The wording and style in "MISSION OBJECTIVE" strings is now corrected and consistent for all languages.
+  - fix: The wording and style in "WARNING" strings is now corrected and consistent for all languages.
+  - fix: The wording and style in "INCOMING TRANSMISSION" strings is now corrected and consistent for all languages.
+  - fix: The wording and style in "HINT" strings is now corrected and consistent for all languages.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2228
+
+authors:
+  - xezon
