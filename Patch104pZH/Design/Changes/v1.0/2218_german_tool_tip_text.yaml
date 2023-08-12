@@ -4,8 +4,11 @@ date: 2023-08-07
 title: Fixes errors in German tool tip strings
 
 changes:
+  - fix: The wording in German tool tip strings is more consistent now.
   - fix: The German tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
   - fix: More German tool tip strings now list the correct strengths and weaknesses.
+  - fix: The TOOLTIP:GameInfoPlayer string now shows its number format in German text.
+  - fix: The CONTROLBAR:PowerDescription string now shows proper sentences and number format in German text.
 
 labels:
   - minor
@@ -13,6 +16,8 @@ labels:
   - v1.0
 
 links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2216
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218
 
 authors:
