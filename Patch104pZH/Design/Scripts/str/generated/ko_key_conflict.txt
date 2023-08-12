@@ -1,21 +1,21 @@
 SCIENCE_AMERICA_CommandSetRank8 has key conflict with
-  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄(&B)"
-  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB(&B)"
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB: &B"
 
 AirF_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
-  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄(&B)"
-  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB(&B)"
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB: &B"
 
 Slth_GLAArmsDealerCommandSet has key conflict with
-  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "컴뱃 사이클(&Y)"
-  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "컴뱃 사이클(&Y)"
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "컴뱃 사이클: &Y"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "컴뱃 사이클: &Y"
 
 SupW_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
-  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄(&B)"
-  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB(&B)"
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB: &B"
 
 Lazr_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
-  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄(&B)"
-  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB(&B)"
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "기화폭탄: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "MOAB: &B"
 
 5 conflicts found

@@ -1,1 +1,0 @@
-CONTROLBAR:ReturnToPrison : "&Volta&r"
