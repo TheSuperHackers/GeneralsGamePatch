@@ -7,8 +7,8 @@ changes:
   - fix: Adds missing crushed, exploded, burned, poisoned death modules to AmericaInfantrySecretService.
   - fix: Adds missing crushed, exploded, burned, poisoned death modules to ChinaInfantrySecretPolice, ChinaAmbassador, ChinaInfantryAgent.
   - fix: Adds missing poisoned death modules to ChinaInfantryOfficer.
-  - fix: Adds missing crushed, exploded death modules to MogadishuMaleCivilian01, MogadishuMaleCivilian02.
-  - fix: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian01, MogadishuFemaleCivilian02.
+  - fix: Adds missing crushed death module to MogadishuMaleCivilian01, MogadishuMaleCivilian02, MogadishuFemaleCivilian01.
+  - fix: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian02.
   - fix: Adds missing crushed, exploded, burned, poisoned death modules to Partisan01, Partisan02, Partisan03.
   - fix: Adds missing crushed, exploded death modules to GenericFemale01, AmericanFarmer01, AsianFarmer01, AsianFarmer02, AsianFarmer3.
   - fix: Adds missing crushed, exploded death modules to HomelessGuy.
@@ -25,7 +25,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074
-  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/xxxx
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2231
 
 authors:
   - xezon
