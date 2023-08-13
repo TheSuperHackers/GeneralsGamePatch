@@ -1,0 +1,19 @@
+---
+date: 2023-08-12
+
+title: Fixes China Troop Crawler string errors in English and Italian languages
+
+changes:
+  - fix: The China Troop Crawler and Assault Troop Crawler now have correct names in English and Italian languages.
+
+labels:
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2226
+
+authors:
+  - xezon
