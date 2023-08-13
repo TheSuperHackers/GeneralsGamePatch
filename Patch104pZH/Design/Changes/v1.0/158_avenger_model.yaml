@@ -5,7 +5,7 @@ title: Fixes USA Avenger model
 
 changes:
   - fix: Removes a small piece of misplaced geometry from the wheels.
-  - fix: Headlight is now visible from all angles.
+  - fix: The headlights of the USA Avenger are now visible from all angles.
 
 labels:
   - art

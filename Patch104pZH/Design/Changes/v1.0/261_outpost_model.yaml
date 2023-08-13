@@ -1,12 +1,11 @@
 ---
 date: 2021-09-09
 
-title: Fixes China Listening Outpost
+title: Fixes model issues of China Listening Outpost
 
 changes:
-  - fix: After being fully repaired, the China Listening Outpost will no longer show its damage smoke particles. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
-  - fix: Headlight now visible from all angles.
-  - tweak: Headlight now turns off when stationary.
+  - fix: The China Listening Outpost will no longer show its damage smoke particles after being fully repaired. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
+  - fix: The headlights of the The China Listening Outpost are now visible from all angles.
 
 labels:
   - art

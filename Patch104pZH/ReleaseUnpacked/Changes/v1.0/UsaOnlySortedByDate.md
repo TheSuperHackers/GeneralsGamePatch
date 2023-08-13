@@ -6,40 +6,41 @@ Includes changes with labels: usa
 Occuring labels are
 
 - ai (2)
-- art (57)
+- art (58)
 - audio (47)
 - boss (8)
 - buff (22)
-- bug (120)
-- china (30)
+- bug (125)
+- china (33)
 - civilian (2)
 - controversial (33)
-- design (65)
-- enhancement (50)
-- gla (27)
-- gui (17)
-- major (27)
-- minor (203)
+- design (66)
+- enhancement (52)
+- gla (29)
+- gui (18)
+- major (28)
+- minor (210)
 - nerf (10)
 - optional (16)
 - performance (11)
-- text (16)
-- usa (232)
-- v1.0 (232)
+- text (17)
+- usa (240)
+- v1.0 (240)
 - world builder (1)
+- worldbuilder (1)
 
 Sorts changes by: date (ascending)
 
-Contains 232 entries with
+Contains 240 entries with
 
-- 298 changes
+- 335 changes
   - OPTIMIZATION (3)
-  - FIX (197)
-  - TWEAK (82)
-  - FEATURE (16)
-- 408 subchanges
-  - FIX (336)
-  - TWEAK (72)
+  - FIX (232)
+  - TWEAK (83)
+  - FEATURE (17)
+- 424 subchanges
+  - FIX (351)
+  - TWEAK (73)
 
 ## Index
 - [2021-08-22 - Fixes lags caused by the USA Patriot assist beam](#link__20210822__0_patriot_beam_lag)
@@ -101,7 +102,6 @@ Contains 232 entries with
 - [2022-08-20 - Adds upgrade voice for USA MOAB](#link__20220820__1026_moab_upgrade_voice)
 - [2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages](#link__20220820__1026_sentry_gun_upgrade_voice)
 - [2022-08-20 - Fixes persistent muzzle flash effects on infantry weapons](#link__20220820__938_infantry_muzzle_flash)
-- [2022-08-27 - Fixes immortal presence of circling USA Aurora wreck](#link__20220827__1018_dead_aurora_bug)
 - [2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber](#link__20220827__953_afg_carpet_pdl)
 - [2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes](#link__20220829__1031_usa_ai_powers_planes)
 - [2022-09-01 - Fixes audio flaws in English sounds](#link__20220901__1061_audio_fixes)
@@ -212,6 +212,7 @@ Contains 232 entries with
 - [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
 - [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
 - [2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction](#link__20230215__1713_swg_cc_construction_model)
+- [2023-02-18 - Fixes death setup of USA Sentry Drone](#link__20230218__1731_sentry_drone_death)
 - [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
 - [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
 - [2023-03-05 - Removes move voices from USA Spectre Gunship](#link__20230305__1759_spectre_move_voice_removal)
@@ -272,8 +273,16 @@ Contains 232 entries with
 - [2023-07-20 - Adds Tomahawk Storm to World Builder](#link__20230720__2130_tomahawk_storm)
 - [2023-07-20 - Fixes key conflicts in Brazilian localization](#link__20230720__2136_brazilian_key_conflicts)
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
+- [2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages](#link__20230723__2143_faction_variant_key_mismatches)
 - [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
 - [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
+- [2023-07-31 - Adds unused USA Detention Camp to World Builder](#link__20230731__2183_usa_detention_camp)
+- [2023-08-02 - Fixes immortal presence of circling plane and helicopter wrecks](#link__20230802__2194_dead_plane_helicopter_bug)
+- [2023-08-03 - Fixes promoted USA Crusader Tank, Laser Tank and Microwave Tank spawn pilots when crushed](#link__20230803__2196_crushed_tank_pilots)
+- [2023-08-03 - Fixes missing snow on snow models of USA Laser Turret](#link__20230803__2197_laser_turret_snow)
+- [2023-08-03 - Fixes incorrect USA Fire Base model when badly damaged and sold](#link__20230803__2199_fire_base_badly_damage_sold_model)
+- [2023-08-06 - Adds feature to turn off headlights of USA Sentry Drone when stationary](#link__20230806__2211_sentry_drone_headlight)
+- [2023-08-13 - Fixes missing and broken infantry cheering animations](#link__20230813__1030_fix_cheering_animations)
 
 
 
@@ -392,10 +401,12 @@ Contains 232 entries with
 **Changes**
 
 - **FIX**: Removes a small piece of misplaced geometry from the wheels.
+- **FIX**: The headlights of the USA Avenger are now visible from all angles.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/158](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/158)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2210](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2210)
 
 **Labels:** art, minor, usa, v1.0
 
@@ -1241,22 +1252,6 @@ Contains 232 entries with
 **Authors:** commy2
 
 **Source:** 938_infantry_muzzle_flash.yaml
-
----
-### 2022-08-27 - Fixes immortal presence of circling USA Aurora wreck <a name='link__20220827__1018_dead_aurora_bug'></a>
-**Changes**
-
-- **FIX**: The USA Aurora wreck now has a fixed despawn time of 10 seconds to make sure it disappears if the wreck is stuck circling in air.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018)
-
-**Labels:** bug, minor, performance, usa, v1.0
-
-**Authors:** commy2
-
-**Source:** 1018_dead_aurora_bug.yaml
 
 ---
 ### 2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber <a name='link__20220827__953_afg_carpet_pdl'></a>
@@ -3641,6 +3636,7 @@ Contains 232 entries with
 
 - **TWEAK**: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Sentry Drone wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
@@ -3680,6 +3676,7 @@ Contains 232 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746)
 
 **Labels:** china, design, gla, minor, usa, v1.0
@@ -3747,6 +3744,24 @@ Contains 232 entries with
 **Authors:** Stubbjax
 
 **Source:** 1713_swg_cc_construction_model.yaml
+
+---
+### 2023-02-18 - Fixes death setup of USA Sentry Drone <a name='link__20230218__1731_sentry_drone_death'></a>
+**Changes**
+
+- **FIX**: The USA Sentry Drone no longer shows its wreck model before the final death explosion.
+- **FIX**: The USA Sentry Drone wreck no longer looks oddly shaped.
+- **FIX**: The USA Sentry Drone now spawns the correct amount of debris pieces at appropriate positions on death.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1731_sentry_drone_death.yaml
 
 ---
 ### 2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb <a name='link__20230224__1752_alpha_aurora_bomb_random_delay'></a>
@@ -4565,8 +4580,8 @@ Contains 232 entries with
 - **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to AmericaInfantrySecretService.
 - **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to ChinaInfantrySecretPolice, ChinaAmbassador, ChinaInfantryAgent.
 - **FIX**: Adds missing poisoned death modules to ChinaInfantryOfficer.
-- **FIX**: Adds missing crushed, exploded death modules to MogadishuMaleCivilian01, MogadishuMaleCivilian02.
-- **FIX**: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian01, MogadishuFemaleCivilian02.
+- **FIX**: Adds missing crushed death module to MogadishuMaleCivilian01, MogadishuMaleCivilian02, MogadishuFemaleCivilian01.
+- **FIX**: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian02.
 - **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to Partisan01, Partisan02, Partisan03.
 - **FIX**: Adds missing crushed, exploded death modules to GenericFemale01, AmericanFarmer01, AsianFarmer01, AsianFarmer02, AsianFarmer3.
 - **FIX**: Adds missing crushed, exploded death modules to HomelessGuy.
@@ -4575,10 +4590,11 @@ Contains 232 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2231](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2231)
 
 **Labels:** bug, china, civilian, design, minor, usa, v1.0
 
-**Authors:** xezon
+**Authors:** commy2, xezon
 
 **Source:** 2074_infantry_death_module_fixes.yaml
 
@@ -4998,6 +5014,40 @@ Contains 232 entries with
 **Source:** 2138_polish_key_conflicts.yaml
 
 ---
+### 2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages <a name='link__20230723__2143_faction_variant_key_mismatches'></a>
+**Changes**
+
+- **FIX**: Key mapping mismatches between faction unit variants are now fixed in all languages.
+
+**Subchanges**
+
+- **FIX**: The China Hacker can now be produced with the same key as for the Super Hacker in German language.
+- **FIX**: The China Emperor can now be produced with the same key as for the Overlord in French, Polish languages.
+- **FIX**: The China Minigunner can now be produced with the same key as for the regular Red Guard in all languages.
+- **FIX**: The China Super Lotus can now be produced with the same key as for the regular Black Lotus in all language.
+- **FIX**: The China Attack Outpost can now be produced with the same key as for the regular Outpost in English, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The China Assault Troop Crawler can now be produced with the same key as for the regular Troop Crawler in English, French, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The China Fortified Bunker can now be constructed with the same key as for the regular Bunker in Polish language.
+- **FIX**: The China Nuke Bomber can now be placed with the same key as for the regular Bomber in English, Korean, Chinese languages.
+- **FIX**: The GLA Toxin Rebel can now be produced with the same key as for the regular Rebel in German language.
+- **FIX**: The GLA Toxin Terrorist can now be produced with the same key as for the regular Terrorist in Spanish language.
+- **FIX**: The USA Control Rods can now be researched with the same key as for the Advanced Control Rods in Polish language.
+- **FIX**: The USA Aurora Alpha can now be produced with the same key as for the regular Aurora in Spanish, Italian languages.
+- **FIX**: The USA King Raptor can now be produced with the same key as for the regular Raptor in Brazilian language.
+- **FIX**: The USA Laser Turret can now be constructed with the same key as for the regular Patriot Battery in English, Spanish, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The USA Laser Crusader can now be produced with the same key as for the regular Crusader in English, Korean, Chinese, Brazilian, Polish languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2143](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2143)
+
+**Labels:** china, design, gla, gui, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2143_faction_variant_key_mismatches.yaml
+
+---
 ### 2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions <a name='link__20230729__2166_unlockable_units_on_promotion_screen'></a>
 **Changes**
 
@@ -5035,4 +5085,144 @@ Contains 232 entries with
 **Authors:** commy2
 
 **Source:** 2175_broken_infantry_death_animations.yaml
+
+---
+### 2023-07-31 - Adds unused USA Detention Camp to World Builder <a name='link__20230731__2183_usa_detention_camp'></a>
+**Changes**
+
+- **FEATURE**: The USA Detention Camp can now be placed in the World Builder.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2183](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2183)
+
+**Labels:** enhancement, minor, usa, v1.0, worldbuilder
+
+**Authors:** commy2
+
+**Source:** 2183_usa_detention_camp.yaml
+
+---
+### 2023-08-02 - Fixes immortal presence of circling plane and helicopter wrecks <a name='link__20230802__2194_dead_plane_helicopter_bug'></a>
+**Changes**
+
+- **FIX**: All planes and helicopter wrecks now have a fixed despawn time of 10 seconds to ensure they disappear if they are stuck circling in air.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2194](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2194)
+
+**Labels:** bug, china, minor, performance, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2194_dead_plane_helicopter_bug.yaml
+
+---
+### 2023-08-03 - Fixes promoted USA Crusader Tank, Laser Tank and Microwave Tank spawn pilots when crushed <a name='link__20230803__2196_crushed_tank_pilots'></a>
+**Changes**
+
+- **FIX**: The USA Crusader Tank no longer spawns a Pilot when crushed by an Overlord.
+- **FIX**: The USA Laser Tank no longer spawns a Pilot when crushed by an Overlord.
+- **FIX**: The USA Microwave Tank no longer spawns a Pilot when crushed by an Overlord.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2196](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2196)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2196_crushed_tank_pilots.yaml
+
+---
+### 2023-08-03 - Fixes missing snow on snow models of USA Laser Turret <a name='link__20230803__2197_laser_turret_snow'></a>
+**Changes**
+
+- **FIX**: The USA Laser Turret now shows snow textures on snow maps.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2197](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2197)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2197_laser_turret_snow.yaml
+
+---
+### 2023-08-03 - Fixes incorrect USA Fire Base model when badly damaged and sold <a name='link__20230803__2199_fire_base_badly_damage_sold_model'></a>
+**Changes**
+
+- **FIX**: The badly damaged USA Fire Base now properly shows when being sold.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2199](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2199)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2199_fire_base_badly_damage_sold_model.yaml
+
+---
+### 2023-08-06 - Adds feature to turn off headlights of USA Sentry Drone when stationary <a name='link__20230806__2211_sentry_drone_headlight'></a>
+**Changes**
+
+- **TWEAK**: The USA Sentry Drone now turns off its headlight when neither attacking nor moving.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2211](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2211)
+
+**Labels:** art, enhancement, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2211_sentry_drone_headlight.yaml
+
+---
+### 2023-08-13 - Fixes missing and broken infantry cheering animations <a name='link__20230813__1030_fix_cheering_animations'></a>
+**Changes**
+
+- **FIX**: USA Rangers no longer plays injured transition animation after cheering.
+- **FIX**: USA Missile Defender now plays animation when cheering.
+- **FIX**: USA Pathfinder now plays animation when cheering.
+- **FIX**: USA Colonel Burton no longer plays injured transition animation after cheering.
+- **FIX**: USA Colonel Burton no longer freezes when cheering for an extended amount of time.
+- **FIX**: USA Pilot now has a smooth transition between standing and cheering.
+- **FIX**: China Redguard now plays animation when cheering while injured.
+- **FIX**: China Redguard now has a smooth transition between standing and cheering.
+- **FIX**: China Minigunner now plays animation when cheering while injured.
+- **FIX**: China Minigunner now has a smooth transition between standing and cheering.
+- **FIX**: China Tank Hunter now plays animation when cheering.
+- **FIX**: China Hacker now plays animation when cheering while injured.
+- **FIX**: China Hacker no longer floats over the ground while cheering and moving at the same time while injured.
+- **FIX**: China Black Lotus no longer plays injured transition animation after cheering.
+- **FIX**: China Black Lotus no longer freezes when cheering for an extended amount of time.
+- **FIX**: GLA Worker now has a smooth transition between standing and cheering.
+- **FIX**: GLA Rebel now plays animation when cheering.
+- **FIX**: GLA RPG-Soldier now has a smooth transition between standing and cheering.
+- **FIX**: GLA Terrorist now plays animation when cheering while injured.
+- **FIX**: GLA Hijacker now plays animation when cheering while injured.
+- **FIX**: GLA Hijacker now has a smooth transition between standing and cheering.
+- **FIX**: GLA Saboteur now has a smooth transition between standing and cheering.
+- **FIX**: GLA Jarmen Kell no longer plays injured transition animation after cheering.
+- **FIX**: GLA Jarmen Kell no longer freezes when cheering for an extended amount of time.
+- **FIX**: GLA Angry Mob no longer plays "Arm the Mob" transition animation after cheering.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1030](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1030)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2233](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2233)
+
+**Labels:** bug, china, gla, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 1030_fix_cheering_animations.yaml
 
