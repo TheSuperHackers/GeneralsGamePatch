@@ -1,10 +1,10 @@
 ---
 date: 2023-08-07
 
-title: Adds Militia Man
+title: Adds unused Militia Man to World Builder
 
 changes:
-  - feature: Adds armed Milita guy to worldbuilder.
+  - feature: Adds armed Milita guy to World Builder.
 
 labels:
   - civilian

@@ -5,36 +5,37 @@ Includes changes with labels: art
 
 Occuring labels are
 
-- art (128)
+- art (133)
 - audio (2)
-- bug (74)
-- china (25)
+- buff (1)
+- bug (76)
+- china (28)
 - civilian (4)
 - design (1)
-- enhancement (31)
+- enhancement (34)
 - gla (27)
 - gui (1)
-- major (5)
-- minor (123)
+- major (6)
+- minor (127)
 - optional (11)
 - performance (11)
-- usa (57)
-- v1.0 (128)
+- usa (58)
+- v1.0 (133)
 - wip (1)
 - worldbuilder (1)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 128 entries with
+Contains 133 entries with
 
-- 158 changes
+- 165 changes
   - OPTIMIZATION (9)
-  - FIX (118)
-  - FEATURE (21)
-  - TWEAK (10)
-- 208 subchanges
-  - FIX (157)
-  - TWEAK (23)
+  - FIX (122)
+  - FEATURE (22)
+  - TWEAK (12)
+- 211 subchanges
+  - FIX (159)
+  - TWEAK (24)
   - FEATURE (28)
 
 ## Index
@@ -95,7 +96,9 @@ Contains 128 entries with
 - [2023-04-23 - Fixes and improves explosion effects of USA Alpha Aurora bomb](#link__20230423__1871_alpha_aurora_bomb_effects)
 - [2023-06-24 - Decreases performance cost of hazard cleanup stream trail effects by 50%](#link__20230624__2034_hazard_cleanup_stream_trail_performance)
 - [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
+- [2023-08-06 - Adds feature to turn off headlights of USA Sentry Drone when stationary](#link__20230806__2211_sentry_drone_headlight)
 - [2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps](#link__20210901__133_speaker_tower_models)
+- [2021-09-09 - Fixes model issues of China Listening Outpost](#link__20210909__261_outpost_model)
 - [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
 - [2022-09-03 - Fixes duplicated structure parts on damaged China Command Center on Night maps](#link__20220903__1090_china_cc_night_model)
 - [2022-09-04 - Fixes and improves the look of China Mine explosion effects](#link__20220904__1121_china_mines_effects)
@@ -120,6 +123,8 @@ Contains 128 entries with
 - [2023-06-24 - Decreases performance cost of flame thrower spray particles by 50%](#link__20230624__2040_flame_thrower_spray_particle_performance)
 - [2023-06-25 - Decreases performance cost of Inferno Cannon fire particles by 36%](#link__20230625__2039_inferno_cannon_fire_performance)
 - [2023-06-25 - Removes distracting smoke effect from the center of the Inferno Cannon fire particles](#link__20230625__2039_inferno_cannon_shell_hit_effects)
+- [2023-07-21 - Fixes bug where China Tank Hunters may destroy their Bunker near uneven terrain](#link__20230721__2133_bunker_self_kills)
+- [2023-08-05 - Adds feature to turn off headlights of China Listening Outpost when stationary](#link__20230805__2209_listening_outpost_headlight)
 - [2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder](#link__20210827__76_red_bullet_tracers)
 - [2021-08-28 - Fixes wrong ability image of GLA Saboteur](#link__20210828__91_saboteur_ability_image)
 - [2021-09-10 - Fixes GLA Fake Command Center looking different to real Command Center after Fortified Structure upgrade](#link__20210910__271_gla_fake_cc_look_mismatch)
@@ -166,6 +171,7 @@ Contains 128 entries with
 - [2023-01-08 - Fixes excontrail texture](#link__20230108__1531_excontrail_texture)
 - [2023-05-02 - Adds new mouse cursor for ground force attack](#link__20230502__1899_force_attack_ground_cursor)
 - [2023-06-14 - Removes obsolete structure damage particle effects](#link__20230614__2011_structure_damage_effects)
+- [2023-08-02 - Adds snow texture versions of Supply Piles and Supply Docks](#link__20230802__2190_supply_dock_and_pile_snow_textures)
 
 
 
@@ -222,10 +228,12 @@ Contains 128 entries with
 **Changes**
 
 - **FIX**: Removes a small piece of misplaced geometry from the wheels.
+- **FIX**: The headlights of the USA Avenger are now visible from all angles.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/158](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/158)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2210](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2210)
 
 **Labels:** art, minor, usa, v1.0
 
@@ -1683,6 +1691,22 @@ Contains 128 entries with
 **Source:** 2041_improve_cleanup_stream_colors.yaml
 
 ---
+### 2023-08-06 - Adds feature to turn off headlights of USA Sentry Drone when stationary <a name='link__20230806__2211_sentry_drone_headlight'></a>
+**Changes**
+
+- **TWEAK**: The USA Sentry Drone now turns off its headlight when neither attacking nor moving.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2211](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2211)
+
+**Labels:** art, enhancement, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2211_sentry_drone_headlight.yaml
+
+---
 ### 2021-09-01 - Adds missing house colors to China Speaker Tower on Winter maps <a name='link__20210901__133_speaker_tower_models'></a>
 **Changes**
 
@@ -1697,6 +1721,25 @@ Contains 128 entries with
 **Authors:** xamorish
 
 **Source:** 133_speaker_tower_models.yaml
+
+---
+### 2021-09-09 - Fixes model issues of China Listening Outpost <a name='link__20210909__261_outpost_model'></a>
+**Changes**
+
+- **FIX**: The China Listening Outpost will no longer show its damage smoke particles after being fully repaired. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
+- **FIX**: The headlights of the The China Listening Outpost are now visible from all angles.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261)
+
+**Labels:** art, bug, china, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 261_outpost_model.yaml
 
 ---
 ### 2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix <a name='link__20220813__1023_nuke_helix_model'></a>
@@ -2208,6 +2251,45 @@ Contains 128 entries with
 **Authors:** xezon
 
 **Source:** 2039_inferno_cannon_shell_hit_effects.yaml
+
+---
+### 2023-07-21 - Fixes bug where China Tank Hunters may destroy their Bunker near uneven terrain <a name='link__20230721__2133_bunker_self_kills'></a>
+**Changes**
+
+- **FIX**: Projectiles from units will not spawn below the Bunker as often anymore.
+
+**Subchanges**
+
+- **FIX**: Adds 10 extra fire ports to the China Bunker.
+- **FIX**: Adds 18 extra fire ports to the Infantry General Bunker.
+- **TWEAK**: The doors of the China Bunker now have windows. This allows for two fire ports at the door.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2154](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2154)
+
+**Labels:** art, buff, bug, china, major, v1.0
+
+**Authors:** commy2, xezon
+
+**Source:** 2133_bunker_self_kills.yaml
+
+---
+### 2023-08-05 - Adds feature to turn off headlights of China Listening Outpost when stationary <a name='link__20230805__2209_listening_outpost_headlight'></a>
+**Changes**
+
+- **TWEAK**: The China Listening Outpost now turns off its headlight when neither attacking nor moving.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209)
+
+**Labels:** art, china, enhancement, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2209_listening_outpost_headlight.yaml
 
 ---
 ### 2021-08-27 - Fixes heroic tracers of GLA Jarmen and USA Pathfinder <a name='link__20210827__76_red_bullet_tracers'></a>
@@ -3130,4 +3212,20 @@ Contains 128 entries with
 **Authors:** xezon
 
 **Source:** 2011_structure_damage_effects.yaml
+
+---
+### 2023-08-02 - Adds snow texture versions of Supply Piles and Supply Docks <a name='link__20230802__2190_supply_dock_and_pile_snow_textures'></a>
+**Changes**
+
+- **FEATURE**: Supply Piles and Supply Docks now use snow textures on snow maps.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2190](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2190)
+
+**Labels:** art, enhancement, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2190_supply_dock_and_pile_snow_textures.yaml
 

@@ -1,0 +1,20 @@
+---
+date: 2023-08-05
+
+title: Adds feature to turn off headlights of China Listening Outpost when stationary
+
+changes:
+  - tweak: The China Listening Outpost now turns off its headlight when neither attacking nor moving.
+
+labels:
+  - art
+  - china
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209
+
+authors:
+  - commy2

@@ -6,50 +6,50 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (128)
+- art (133)
 - audio (121)
 - boss (46)
 - buff (91)
-- bug (418)
-- china (204)
-- civilian (20)
+- bug (427)
+- china (212)
+- civilian (23)
 - controversial (116)
 - critical (5)
-- design (199)
-- enhancement (111)
-- gla (202)
-- gui (72)
-- major (83)
-- minor (655)
+- design (200)
+- enhancement (119)
+- gla (208)
+- gui (73)
+- major (84)
+- minor (683)
 - nerf (29)
-- optional (34)
+- optional (36)
 - performance (24)
-- text (50)
-- usa (232)
-- v1.0 (745)
+- text (62)
+- usa (240)
+- v1.0 (774)
 - wip (1)
 - world builder (1)
-- worldbuilder (8)
+- worldbuilder (13)
 
 Sorts changes by: blocker, critical, major, minor, usa, china, gla, boss, civilian, date (ascending)
 
-Contains 745 entries with
+Contains 774 entries with
 
-- 1121 changes
-  - FIX (789)
-  - TWEAK (235)
+- 1199 changes
+  - FIX (857)
+  - TWEAK (240)
   - OPTIMIZATION (12)
-  - FEATURE (59)
+  - FEATURE (64)
   - REFACTOR (26)
-- 615 subchanges
-  - FIX (474)
-  - TWEAK (113)
+- 632 subchanges
+  - FIX (489)
+  - TWEAK (115)
   - FEATURE (28)
 
 ## Index
 - [2021-09-07 - Fixes China Nuke Missile exploit](#link__20210907__209_nuke_missile_exploit)
 - [2021-08-27 - Fixes GLA Scud Storm exploit](#link__20210827__72_scud_bug)
-- [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist](#link__20220727__764_terrorist_crash)
+- [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist or Demo General infantry unit](#link__20220727__764_terrorist_crash)
 - [2021-08-22 - Fixes critical issue that crashes all clients in a match](#link__20210822__0_crash_bug)
 - [2022-08-05 - Fixes potential unresponsive Control Bar buttons](#link__20220805__824_promotion_buttons)
 - [2023-07-13 - Fixes key conflicts in German localization](#link__20230713__2108_german_key_conflicts)
@@ -60,6 +60,7 @@ Contains 745 entries with
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
 - [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
 - [2022-09-01 - Fixes audio flaws in English sounds](#link__20220901__1061_audio_fixes)
+- [2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages](#link__20230723__2143_faction_variant_key_mismatches)
 - [2021-08-22 - Fixes lags caused by the USA Patriot assist beam](#link__20210822__0_patriot_beam_lag)
 - [2021-08-22 - Fixes exploit that grants a significant amount of cash after building a USA Supply Drop Zone](#link__20210822__3_supply_drop_zone_bug)
 - [2021-08-23 - Fixes issue that permanently reduces the power level of a player](#link__20210823__7_negative_power_bug)
@@ -148,6 +149,7 @@ Contains 745 entries with
 - [2023-01-29 - Sets consistent sink delays for faction vehicle wrecks](#link__20230129__1746_wreck_sink_delays)
 - [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
 - [2023-04-30 - Adds missing Stop command button to all worker units](#link__20230430__1887_dozer_worker_stop_button)
+- [2023-08-13 - Fixes missing and broken infantry cheering animations](#link__20230813__1030_fix_cheering_animations)
 - [2023-07-08 - Fixes missing and broken infantry death modules](#link__20230708__2074_infantry_death_module_fixes)
 - [2021-08-28 - Fixes wrong poison death voice effects of USA and China infantry units](#link__20210828__92_infantry_poison_death_voice)
 - [2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings](#link__20210910__276_gps_scrambled_infantry_attacking)
@@ -156,6 +158,7 @@ Contains 745 entries with
 - [2022-09-24 - Adds missing audio limits to air unit voices](#link__20220924__1274_air_unit_death_voice_limit)
 - [2022-10-20 - Fixes USA and China Command Center door and radar animations reset on damage state changes](#link__20221020__1398_radar_animation_reset)
 - [2023-01-29 - Removes random sink delays from all vehicle wrecks](#link__20230129__1660_random_wreck_sink_delays)
+- [2023-08-02 - Fixes immortal presence of circling plane and helicopter wrecks](#link__20230802__2194_dead_plane_helicopter_bug)
 - [2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton](#link__20210910__277_demo_charge_button_placement)
 - [2023-04-06 - Reduces audio range and volume of Remote Demo Charge](#link__20230406__1801_remote_demo_charge_audio)
 - [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
@@ -207,7 +210,6 @@ Contains 745 entries with
 - [2022-08-20 - Replaces Generic Tank with Crusader Tank on USA War Factory button image](#link__20220820__1022_usa_factory_button_image)
 - [2022-08-20 - Adds upgrade voice for USA MOAB](#link__20220820__1026_moab_upgrade_voice)
 - [2022-08-20 - Adds upgrade voice for USA Sentry Drone gun in all languages](#link__20220820__1026_sentry_gun_upgrade_voice)
-- [2022-08-27 - Fixes immortal presence of circling USA Aurora wreck](#link__20220827__1018_dead_aurora_bug)
 - [2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber](#link__20220827__953_afg_carpet_pdl)
 - [2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes](#link__20220829__1031_usa_ai_powers_planes)
 - [2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base](#link__20220902__1078_firebase_ghost_muzzle_flash)
@@ -294,6 +296,7 @@ Contains 745 entries with
 - [2023-01-29 - Decreases fast sink rate of helicopter wrecks](#link__20230129__1659_chinook_helix_wreck_sink_rate)
 - [2023-01-29 - Increases slow sink rate of helicopter wrecks](#link__20230129__1659_comanche_wreck_sink_rate)
 - [2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction](#link__20230215__1713_swg_cc_construction_model)
+- [2023-02-18 - Fixes death setup of USA Sentry Drone](#link__20230218__1731_sentry_drone_death)
 - [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
 - [2023-03-05 - Removes move voices from USA Spectre Gunship](#link__20230305__1759_spectre_move_voice_removal)
 - [2023-03-26 - Adds Guard Mode and Attack Move buttons to USA Airforce Combat Chinook](#link__20230326__1787_combat_chinook_buttons)
@@ -338,6 +341,11 @@ Contains 745 entries with
 - [2023-07-17 - Sets consistent name for EMP Patriot Battery in German language](#link__20230717__2124_german_emp_patriot_text)
 - [2023-07-20 - Fixes various issues with the Cruise Missile and ICBM super weapons](#link__20230720__2122_cruise_missile_and_icbm_issues)
 - [2023-07-20 - Adds Tomahawk Storm to World Builder](#link__20230720__2130_tomahawk_storm)
+- [2023-07-31 - Adds unused USA Detention Camp to World Builder](#link__20230731__2183_usa_detention_camp)
+- [2023-08-03 - Fixes promoted USA Crusader Tank, Laser Tank and Microwave Tank spawn pilots when crushed](#link__20230803__2196_crushed_tank_pilots)
+- [2023-08-03 - Fixes missing snow on snow models of USA Laser Turret](#link__20230803__2197_laser_turret_snow)
+- [2023-08-03 - Fixes incorrect USA Fire Base model when badly damaged and sold](#link__20230803__2199_fire_base_badly_damage_sold_model)
+- [2023-08-06 - Adds feature to turn off headlights of USA Sentry Drone when stationary](#link__20230806__2211_sentry_drone_headlight)
 - [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
 - [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
 - [2021-08-28 - Fixes miniscule mass of China Supply Truck](#link__20210828__96_supply_truck_mass)
@@ -349,7 +357,7 @@ Contains 745 entries with
 - [2021-09-06 - Fixes misaligned propaganda effect on China Vehicles](#link__20210906__231_misaligned_propaganda_effect)
 - [2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus](#link__20210909__255_battlemaster_horde_bonus)
 - [2021-09-09 - Fixes attackable wrecks and debris](#link__20210909__257_attackable_wreck)
-- [2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair](#link__20210909__261_outpost_smoke_effect)
+- [2021-09-09 - Fixes model issues of China Listening Outpost](#link__20210909__261_outpost_model)
 - [2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units](#link__20210910__313_overlord_chassis_turn)
 - [2021-09-11 - Fixes China Helix with Gattling Cannon being able to unreliably attack air units](#link__20210911__284_helix_gattling_gun_air_attack)
 - [2021-09-11 - Fixes China Carpet Bomber not being usable with the Command Center of another China sub faction](#link__20210911__299_china_cc_carpet_bomber)
@@ -483,9 +491,14 @@ Contains 745 entries with
 - [2023-06-25 - Removes distracting smoke effect from the center of the Inferno Cannon fire particles](#link__20230625__2039_inferno_cannon_shell_hit_effects)
 - [2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm](#link__20230629__2050_dragon_black_napalm_flamethrower_clip_size)
 - [2023-07-09 - Adds missing Assault Troop Transport, Attack Outpost and Assault Helix name specializations to German localization](#link__20230709__2088_german_infa_transports_text)
+- [2023-07-10 - Streamlines key mappings of China Mines upgrades](#link__20230710__2093_china_mines_key_mapping)
 - [2023-07-12 - Fixes key conflict of China Satellite Hack I and II with Stop button](#link__20230712__2092_satellite_hack_i_ii_key_conflict)
 - [2023-07-12 - Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS button](#link__20230712__2106_neutron_shells_key_conflict)
 - [2023-07-15 - Adds complete ECM Tank name in construction tool tip](#link__20230715__2113_ecm_tank_tooltip_name)
+- [2023-08-03 - Fixes missing China Nuke Cannon recoil and muzzle flash](#link__20230803__2200_nuke_cannon_recoil_muzzle_flash)
+- [2023-08-03 - Fixes cut off radar deploy animation on China Command Center](#link__20230803__2201_china_command_center_radar_animation)
+- [2023-08-05 - Adds feature to turn off headlights of China Listening Outpost when stationary](#link__20230805__2209_listening_outpost_headlight)
+- [2023-08-12 - Fixes China Troop Crawler string errors in English and Italian languages](#link__20230812__2226_troop_crawler_text)
 - [2023-07-29 - Fixes lone Stinger Trooper movement animation while reloading](#link__20230729__2173_stinger_trooper_reload_animation_while_moving)
 - [2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state](#link__20210822__2_battle_bus_damage_transition)
 - [2021-08-27 - Fixes wrong Anthrax effect colors of GLA Scud Storm missiles](#link__20210827__67_scud_storm_particles)
@@ -549,6 +562,7 @@ Contains 745 entries with
 - [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#link__20220722__727_buggy_required_xp)
 - [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#link__20220722__727_scud_launcher_required_xp)
 - [2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies](#link__20220729__783_demo_combat_bike_allies_damage)
+- [2022-07-31 - Adds unused GLA Prison to World Builder](#link__20220731__2184_gla_prison)
 - [2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor](#link__20220805__820_toxin_tractor_salvage_models)
 - [2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player](#link__20220805__826_anthrax_bomb_poison_colors)
 - [2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush](#link__20220806__845_demo_ambush_tooltip_text)
@@ -632,6 +646,9 @@ Contains 745 entries with
 - [2023-07-08 - Removes wrong exploded death effects from GLA Demo Barracks](#link__20230708__2076_demo_barracks_death_effect)
 - [2023-07-16 - Fixes wrong exploded death animation of GLA Worker](#link__20230716__2120_worker_death_animation)
 - [2023-07-16 - Adds missing upgrade icons to Stinger Soldiers](#link__20230716__2121_stinger_soldier_upgrade_cameos)
+- [2023-08-01 - Fixes vGLA Worker being used for GLA sub-faction holes](#link__20230801__2187_sub_faction_hole_workers)
+- [2023-08-01 - Fixes GLA Supply Stash selection sound sometimes not played](#link__20230801__2188_supply_stash_selection_sound)
+- [2023-08-13 - Streamlines key mappings of GLA Worker fake and real buildings toggle](#link__20230813__2234_real_structures_toggle_key_mapping)
 - [2021-09-11 - Adds missing Hellfire Drone icon to Boss Paladin](#link__20210911__319_boss_paladin_cameo)
 - [2021-09-16 - Adds missing unit drop to Reinforcement Pad for Boss General](#link__20210916__375_boss_reinforcement_pad)
 - [2021-09-18 - Fixes wrong Stop button icon location of Boss Patriot Battery](#link__20210918__377_boss_patriot_stop_button)
@@ -675,6 +692,7 @@ Contains 745 entries with
 - [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#link__20211016__568_repair_bay_ruin_model)
 - [2021-10-17 - Adds Radar Station Tech building (for custom maps)](#link__20211017__571_radar_station_tech)
 - [2021-10-17 - Adds Generals Mammoth Tank (for custom maps)](#link__20211017__572_mammoth_tank)
+- [2022-07-31 - Fixes missing animations of Secret Service unit](#link__20220731__2182_missing_secret_service_animations)
 - [2022-08-14 - Fixes mismatching toxin puddle colors from destroyed chemical civilian buildings.](#link__20220814__903_civ_buildings_toxin_colors)
 - [2022-11-06 - Removes airplane avoidance setup from some small structures](#link__20221106__1447_airplane_avoidance)
 - [2023-02-04 - Fixes crushable levels of Civilian cars](#link__20230204__1625_civ_car_crushable_level)
@@ -686,6 +704,8 @@ Contains 745 entries with
 - [2023-02-07 - Fixes wrecks of Civilian vehicles to be no longer pushable and attackable](#link__20230207__1646_civilian_cars_flags)
 - [2023-02-07 - Adds suicide car bomb ability to Civilian Crop Duster](#link__20230207__1647_aircraft_carbomb_ability)
 - [2023-02-07 - Fixes death and crush effects of Civilian Limousines](#link__20230207__1743_civilian_limo_death_effects)
+- [2023-08-07 - Adds unused Militia Man to World Builder](#link__20230807__2192_militia_man)
+- [2023-08-07 - Adds unused Partisan units to World Builder](#link__20230807__2192_partisans)
 - [2021-08-27 - Fixes units shooting at already killed infantry units](#link__20210827__75_dead_target_bug)
 - [2021-08-28 - Fixes Anthrax Gamma streams showing with green particles when clearing buildings](#link__20210828__84_green_gamma_toxin_streams)
 - [2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once](#link__20210830__122_ui_faction_list_size)
@@ -783,13 +803,22 @@ Contains 745 entries with
 - [2023-05-17 - Improves latin text of volume options](#link__20230517__1958_audio_volume_options_text)
 - [2023-06-14 - Removes obsolete structure damage particle effects](#link__20230614__2011_structure_damage_effects)
 - [2023-07-12 - Removes duplicate Command_UpgradeCamoNetting definition from ini files](#link__20230712__2100_remove_duplicate_camo_netting_button)
+- [2023-07-23 - Streamlines key mappings of GLA fake structures with regular GLA structures](#link__20230723__2142_fake_structures_key_mismatch)
 - [2023-07-26 - Fixes inconsistent wording in Polish tool tip strings](#link__20230726__2148_polish_tool_tip_text)
-- [2023-07-26 - Fixes inconsistent wording and capitalization of words in English tool tip strings](#link__20230726__2150_english_tool_tip_text)
-- [2023-07-26 - Fixes inconsistent wording in Spanish tool tip strings](#link__20230726__2151_spanish_tool_tip_text)
-- [2023-07-26 - Fixes inconsistent wording in Korean tool tip strings](#link__20230726__2153_korean_tool_tip_text)
+- [2023-07-26 - Fixes errors in English tool tip strings](#link__20230726__2150_english_tool_tip_text)
+- [2023-07-26 - Fixes errors in Spanish tool tip strings](#link__20230726__2151_spanish_tool_tip_text)
+- [2023-07-26 - Fixes errors in Korean tool tip strings](#link__20230726__2153_korean_tool_tip_text)
+- [2023-07-29 - Fixes various errors in text strings](#link__20230729__2156_misc_errors_in_strings)
 - [2023-07-29 - Fixes line break discrepancies in all language strings](#link__20230729__2162_superfluous_line_breaks_in_text)
 - [2023-07-30 - Streamlines Nuke Missile and Scud Storm tool tip strings for all languages](#link__20230730__2176_nuke_missile_scud_storm_tool_tip_text)
 - [2023-07-30 - Fixes inconsistent colon characters used in Chinese language strings](#link__20230730__2180_chinese_colon_character_in_text)
+- [2023-08-02 - Adds snow texture versions of Supply Piles and Supply Docks](#link__20230802__2190_supply_dock_and_pile_snow_textures)
+- [2023-08-02 - Fixes errors in Brazilian tool tip strings](#link__20230802__2195_brazilian_tool_tip_text)
+- [2023-08-07 - Fixes errors in Chinese tool tip strings](#link__20230807__2216_chinese_tool_tip_text)
+- [2023-08-07 - Fixes errors in French tool tip strings](#link__20230807__2218_french_tool_tip_text)
+- [2023-08-07 - Fixes errors in German tool tip strings](#link__20230807__2218_german_tool_tip_text)
+- [2023-08-07 - Fixes errors in Italian tool tip strings](#link__20230807__2219_italian_tool_tip_text)
+- [2023-08-12 - Fixes mission string errors for all languages](#link__20230812__2228_mission_text_errors)
 - [2022-10-05 - Adds slightly pitched sounds for some air weapons](#link__20221005__1335_pitched_air_weapon_sounds)
 - [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
 
@@ -828,20 +857,22 @@ Contains 745 entries with
 **Source:** 72_scud_bug.yaml
 
 ---
-### 2022-07-27 - Fixes game crash upon the use of a GLA Terrorist <a name='link__20220727__764_terrorist_crash'></a>
+### 2022-07-27 - Fixes game crash upon the use of a GLA Terrorist or Demo General infantry unit <a name='link__20220727__764_terrorist_crash'></a>
 **Changes**
 
 - **FIX**: Game no longer crashes when using Toxin GLA Terrorist (1)
 - **FIX**: Game no longer crashes when using any GLA Terrorist (2)
+- **FIX**: Game no longer crashes when using any Demo General infantry unit (3)
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2177](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2177)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/699](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/699)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/764](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/764)
 
 **Labels:** bug, critical, gla, v1.0
 
-**Authors:** hanfield, xezon
+**Authors:** commy2, hanfield, xezon
 
 **Source:** 764_terrorist_crash.yaml
 
@@ -1209,6 +1240,40 @@ Contains 745 entries with
 **Authors:** xezon
 
 **Source:** 1061_audio_fixes.yaml
+
+---
+### 2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages <a name='link__20230723__2143_faction_variant_key_mismatches'></a>
+**Changes**
+
+- **FIX**: Key mapping mismatches between faction unit variants are now fixed in all languages.
+
+**Subchanges**
+
+- **FIX**: The China Hacker can now be produced with the same key as for the Super Hacker in German language.
+- **FIX**: The China Emperor can now be produced with the same key as for the Overlord in French, Polish languages.
+- **FIX**: The China Minigunner can now be produced with the same key as for the regular Red Guard in all languages.
+- **FIX**: The China Super Lotus can now be produced with the same key as for the regular Black Lotus in all language.
+- **FIX**: The China Attack Outpost can now be produced with the same key as for the regular Outpost in English, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The China Assault Troop Crawler can now be produced with the same key as for the regular Troop Crawler in English, French, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The China Fortified Bunker can now be constructed with the same key as for the regular Bunker in Polish language.
+- **FIX**: The China Nuke Bomber can now be placed with the same key as for the regular Bomber in English, Korean, Chinese languages.
+- **FIX**: The GLA Toxin Rebel can now be produced with the same key as for the regular Rebel in German language.
+- **FIX**: The GLA Toxin Terrorist can now be produced with the same key as for the regular Terrorist in Spanish language.
+- **FIX**: The USA Control Rods can now be researched with the same key as for the Advanced Control Rods in Polish language.
+- **FIX**: The USA Aurora Alpha can now be produced with the same key as for the regular Aurora in Spanish, Italian languages.
+- **FIX**: The USA King Raptor can now be produced with the same key as for the regular Raptor in Brazilian language.
+- **FIX**: The USA Laser Turret can now be constructed with the same key as for the regular Patriot Battery in English, Spanish, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The USA Laser Crusader can now be produced with the same key as for the regular Crusader in English, Korean, Chinese, Brazilian, Polish languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2143](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2143)
+
+**Labels:** china, design, gla, gui, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2143_faction_variant_key_mismatches.yaml
 
 ---
 ### 2021-08-22 - Fixes lags caused by the USA Patriot assist beam <a name='link__20210822__0_patriot_beam_lag'></a>
@@ -1939,14 +2004,16 @@ Contains 745 entries with
 
 - **FIX**: Adds 10 extra fire ports to the China Bunker.
 - **FIX**: Adds 18 extra fire ports to the Infantry General Bunker.
+- **TWEAK**: The doors of the China Bunker now have windows. This allows for two fire ports at the door.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2154](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2154)
 
-**Labels:** buff, bug, china, major, v1.0
+**Labels:** art, buff, bug, china, major, v1.0
 
-**Authors:** commy2
+**Authors:** commy2, xezon
 
 **Source:** 2133_bunker_self_kills.yaml
 
@@ -2724,6 +2791,7 @@ Contains 745 entries with
 
 - **TWEAK**: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Sentry Drone wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
@@ -2763,6 +2831,7 @@ Contains 745 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746)
 
 **Labels:** china, design, gla, minor, usa, v1.0
@@ -2804,14 +2873,55 @@ Contains 745 entries with
 **Source:** 1887_dozer_worker_stop_button.yaml
 
 ---
+### 2023-08-13 - Fixes missing and broken infantry cheering animations <a name='link__20230813__1030_fix_cheering_animations'></a>
+**Changes**
+
+- **FIX**: USA Rangers no longer plays injured transition animation after cheering.
+- **FIX**: USA Missile Defender now plays animation when cheering.
+- **FIX**: USA Pathfinder now plays animation when cheering.
+- **FIX**: USA Colonel Burton no longer plays injured transition animation after cheering.
+- **FIX**: USA Colonel Burton no longer freezes when cheering for an extended amount of time.
+- **FIX**: USA Pilot now has a smooth transition between standing and cheering.
+- **FIX**: China Redguard now plays animation when cheering while injured.
+- **FIX**: China Redguard now has a smooth transition between standing and cheering.
+- **FIX**: China Minigunner now plays animation when cheering while injured.
+- **FIX**: China Minigunner now has a smooth transition between standing and cheering.
+- **FIX**: China Tank Hunter now plays animation when cheering.
+- **FIX**: China Hacker now plays animation when cheering while injured.
+- **FIX**: China Hacker no longer floats over the ground while cheering and moving at the same time while injured.
+- **FIX**: China Black Lotus no longer plays injured transition animation after cheering.
+- **FIX**: China Black Lotus no longer freezes when cheering for an extended amount of time.
+- **FIX**: GLA Worker now has a smooth transition between standing and cheering.
+- **FIX**: GLA Rebel now plays animation when cheering.
+- **FIX**: GLA RPG-Soldier now has a smooth transition between standing and cheering.
+- **FIX**: GLA Terrorist now plays animation when cheering while injured.
+- **FIX**: GLA Hijacker now plays animation when cheering while injured.
+- **FIX**: GLA Hijacker now has a smooth transition between standing and cheering.
+- **FIX**: GLA Saboteur now has a smooth transition between standing and cheering.
+- **FIX**: GLA Jarmen Kell no longer plays injured transition animation after cheering.
+- **FIX**: GLA Jarmen Kell no longer freezes when cheering for an extended amount of time.
+- **FIX**: GLA Angry Mob no longer plays "Arm the Mob" transition animation after cheering.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1030](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1030)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2233](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2233)
+
+**Labels:** bug, china, gla, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 1030_fix_cheering_animations.yaml
+
+---
 ### 2023-07-08 - Fixes missing and broken infantry death modules <a name='link__20230708__2074_infantry_death_module_fixes'></a>
 **Changes**
 
 - **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to AmericaInfantrySecretService.
 - **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to ChinaInfantrySecretPolice, ChinaAmbassador, ChinaInfantryAgent.
 - **FIX**: Adds missing poisoned death modules to ChinaInfantryOfficer.
-- **FIX**: Adds missing crushed, exploded death modules to MogadishuMaleCivilian01, MogadishuMaleCivilian02.
-- **FIX**: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian01, MogadishuFemaleCivilian02.
+- **FIX**: Adds missing crushed death module to MogadishuMaleCivilian01, MogadishuMaleCivilian02, MogadishuFemaleCivilian01.
+- **FIX**: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian02.
 - **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to Partisan01, Partisan02, Partisan03.
 - **FIX**: Adds missing crushed, exploded death modules to GenericFemale01, AmericanFarmer01, AsianFarmer01, AsianFarmer02, AsianFarmer3.
 - **FIX**: Adds missing crushed, exploded death modules to HomelessGuy.
@@ -2820,10 +2930,11 @@ Contains 745 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2231](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2231)
 
 **Labels:** bug, china, civilian, design, minor, usa, v1.0
 
-**Authors:** xezon
+**Authors:** commy2, xezon
 
 **Source:** 2074_infantry_death_module_fixes.yaml
 
@@ -2943,6 +3054,23 @@ Contains 745 entries with
 **Authors:** xezon
 
 **Source:** 1660_random_wreck_sink_delays.yaml
+
+---
+### 2023-08-02 - Fixes immortal presence of circling plane and helicopter wrecks <a name='link__20230802__2194_dead_plane_helicopter_bug'></a>
+**Changes**
+
+- **FIX**: All planes and helicopter wrecks now have a fixed despawn time of 10 seconds to ensure they disappear if they are stuck circling in air.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2194](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2194)
+
+**Labels:** bug, china, minor, performance, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2194_dead_plane_helicopter_bug.yaml
 
 ---
 ### 2021-09-10 - Fixes inconsistent Demo Charge button placement for GLA Jarmen Kell and USA Colonel Burton <a name='link__20210910__277_demo_charge_button_placement'></a>
@@ -3078,10 +3206,12 @@ Contains 745 entries with
 **Changes**
 
 - **FIX**: Removes a small piece of misplaced geometry from the wheels.
+- **FIX**: The headlights of the USA Avenger are now visible from all angles.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/158](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/158)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2210](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2210)
 
 **Labels:** art, minor, usa, v1.0
 
@@ -3766,22 +3896,6 @@ Contains 745 entries with
 **Authors:** commy2
 
 **Source:** 1026_sentry_gun_upgrade_voice.yaml
-
----
-### 2022-08-27 - Fixes immortal presence of circling USA Aurora wreck <a name='link__20220827__1018_dead_aurora_bug'></a>
-**Changes**
-
-- **FIX**: The USA Aurora wreck now has a fixed despawn time of 10 seconds to make sure it disappears if the wreck is stuck circling in air.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018)
-
-**Labels:** bug, minor, performance, usa, v1.0
-
-**Authors:** commy2
-
-**Source:** 1018_dead_aurora_bug.yaml
 
 ---
 ### 2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber <a name='link__20220827__953_afg_carpet_pdl'></a>
@@ -5757,6 +5871,24 @@ Contains 745 entries with
 **Source:** 1713_swg_cc_construction_model.yaml
 
 ---
+### 2023-02-18 - Fixes death setup of USA Sentry Drone <a name='link__20230218__1731_sentry_drone_death'></a>
+**Changes**
+
+- **FIX**: The USA Sentry Drone no longer shows its wreck model before the final death explosion.
+- **FIX**: The USA Sentry Drone wreck no longer looks oddly shaped.
+- **FIX**: The USA Sentry Drone now spawns the correct amount of debris pieces at appropriate positions on death.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1731_sentry_drone_death.yaml
+
+---
 ### 2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb <a name='link__20230224__1752_alpha_aurora_bomb_random_delay'></a>
 **Changes**
 
@@ -6541,6 +6673,88 @@ Contains 745 entries with
 **Source:** 2130_tomahawk_storm.yaml
 
 ---
+### 2023-07-31 - Adds unused USA Detention Camp to World Builder <a name='link__20230731__2183_usa_detention_camp'></a>
+**Changes**
+
+- **FEATURE**: The USA Detention Camp can now be placed in the World Builder.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2183](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2183)
+
+**Labels:** enhancement, minor, usa, v1.0, worldbuilder
+
+**Authors:** commy2
+
+**Source:** 2183_usa_detention_camp.yaml
+
+---
+### 2023-08-03 - Fixes promoted USA Crusader Tank, Laser Tank and Microwave Tank spawn pilots when crushed <a name='link__20230803__2196_crushed_tank_pilots'></a>
+**Changes**
+
+- **FIX**: The USA Crusader Tank no longer spawns a Pilot when crushed by an Overlord.
+- **FIX**: The USA Laser Tank no longer spawns a Pilot when crushed by an Overlord.
+- **FIX**: The USA Microwave Tank no longer spawns a Pilot when crushed by an Overlord.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2196](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2196)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2196_crushed_tank_pilots.yaml
+
+---
+### 2023-08-03 - Fixes missing snow on snow models of USA Laser Turret <a name='link__20230803__2197_laser_turret_snow'></a>
+**Changes**
+
+- **FIX**: The USA Laser Turret now shows snow textures on snow maps.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2197](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2197)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2197_laser_turret_snow.yaml
+
+---
+### 2023-08-03 - Fixes incorrect USA Fire Base model when badly damaged and sold <a name='link__20230803__2199_fire_base_badly_damage_sold_model'></a>
+**Changes**
+
+- **FIX**: The badly damaged USA Fire Base now properly shows when being sold.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2199](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2199)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2199_fire_base_badly_damage_sold_model.yaml
+
+---
+### 2023-08-06 - Adds feature to turn off headlights of USA Sentry Drone when stationary <a name='link__20230806__2211_sentry_drone_headlight'></a>
+**Changes**
+
+- **TWEAK**: The USA Sentry Drone now turns off its headlight when neither attacking nor moving.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2211](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2211)
+
+**Labels:** art, enhancement, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2211_sentry_drone_headlight.yaml
+
+---
 ### 2023-02-09 - Fixes turret animation and effect issues on death of tanks <a name='link__20230209__1657_tank_turret_deatheffects'></a>
 **Changes**
 
@@ -6730,21 +6944,23 @@ Contains 745 entries with
 **Source:** 257_attackable_wreck.yaml
 
 ---
-### 2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair <a name='link__20210909__261_outpost_smoke_effect'></a>
+### 2021-09-09 - Fixes model issues of China Listening Outpost <a name='link__20210909__261_outpost_model'></a>
 **Changes**
 
-- **FIX**: After being fully repaired, the China Listening Outpost will no longer show its damage smoke particles. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
+- **FIX**: The China Listening Outpost will no longer show its damage smoke particles after being fully repaired. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
+- **FIX**: The headlights of the The China Listening Outpost are now visible from all angles.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261)
 
-**Labels:** bug, china, minor, v1.0
+**Labels:** art, bug, china, minor, v1.0
 
 **Authors:** commy2
 
-**Source:** 261_outpost_smoke_effect.yaml
+**Source:** 261_outpost_model.yaml
 
 ---
 ### 2021-09-10 - Fixes China Overlord turning its chassis when aiming at air units <a name='link__20210910__313_overlord_chassis_turn'></a>
@@ -9060,6 +9276,22 @@ Contains 745 entries with
 **Source:** 2088_german_infa_transports_text.yaml
 
 ---
+### 2023-07-10 - Streamlines key mappings of China Mines upgrades <a name='link__20230710__2093_china_mines_key_mapping'></a>
+**Changes**
+
+- **TWEAK**: Regular China Mines and Neutron Mines can now be researched with the same key M in English, German, Korean and Chinese languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2093](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2093)
+
+**Labels:** china, minor, optional, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2093_china_mines_key_mapping.yaml
+
+---
 ### 2023-07-12 - Fixes key conflict of China Satellite Hack I and II with Stop button <a name='link__20230712__2092_satellite_hack_i_ii_key_conflict'></a>
 **Changes**
 
@@ -9106,6 +9338,70 @@ Contains 745 entries with
 **Authors:** xezon
 
 **Source:** 2113_ecm_tank_tooltip_name.yaml
+
+---
+### 2023-08-03 - Fixes missing China Nuke Cannon recoil and muzzle flash <a name='link__20230803__2200_nuke_cannon_recoil_muzzle_flash'></a>
+**Changes**
+
+- **FIX**: The China Nuke Cannon now shows its weapon recoil and muzzle flash when firing explosive shells too.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2200](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2200)
+
+**Labels:** bug, china, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2200_nuke_cannon_recoil_muzzle_flash.yaml
+
+---
+### 2023-08-03 - Fixes cut off radar deploy animation on China Command Center <a name='link__20230803__2201_china_command_center_radar_animation'></a>
+**Changes**
+
+- **FIX**: The radar dish deploy animation on the China Command Center now plays properly.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2201](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2201)
+
+**Labels:** bug, china, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2201_china_command_center_radar_animation.yaml
+
+---
+### 2023-08-05 - Adds feature to turn off headlights of China Listening Outpost when stationary <a name='link__20230805__2209_listening_outpost_headlight'></a>
+**Changes**
+
+- **TWEAK**: The China Listening Outpost now turns off its headlight when neither attacking nor moving.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209)
+
+**Labels:** art, china, enhancement, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2209_listening_outpost_headlight.yaml
+
+---
+### 2023-08-12 - Fixes China Troop Crawler string errors in English and Italian languages <a name='link__20230812__2226_troop_crawler_text'></a>
+**Changes**
+
+- **FIX**: The China Troop Crawler and Assault Troop Crawler now have correct names in English and Italian languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2226](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2226)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2226_troop_crawler_text.yaml
 
 ---
 ### 2023-07-29 - Fixes lone Stinger Trooper movement animation while reloading <a name='link__20230729__2173_stinger_trooper_reload_animation_while_moving'></a>
@@ -9371,6 +9667,7 @@ Contains 745 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/102](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/102)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2164](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2164)
 
 **Labels:** buff, bug, gla, minor, v1.0
 
@@ -10140,6 +10437,22 @@ Contains 745 entries with
 **Authors:** xezon
 
 **Source:** 783_demo_combat_bike_allies_damage.yaml
+
+---
+### 2022-07-31 - Adds unused GLA Prison to World Builder <a name='link__20220731__2184_gla_prison'></a>
+**Changes**
+
+- **FEATURE**: The GLA Prison can now be placed in the World Builder.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184)
+
+**Labels:** enhancement, gla, minor, v1.0, worldbuilder
+
+**Authors:** commy2
+
+**Source:** 2184_gla_prison.yaml
 
 ---
 ### 2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor <a name='link__20220805__820_toxin_tractor_salvage_models'></a>
@@ -11580,6 +11893,54 @@ Contains 745 entries with
 **Source:** 2121_stinger_soldier_upgrade_cameos.yaml
 
 ---
+### 2023-08-01 - Fixes vGLA Worker being used for GLA sub-faction holes <a name='link__20230801__2187_sub_faction_hole_workers'></a>
+**Changes**
+
+- **FIX**: A faction specific Worker will be used depending on the faction of the GLA hole.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2187](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2187)
+
+**Labels:** enhancement, gla, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2187_sub_faction_hole_workers.yaml
+
+---
+### 2023-08-01 - Fixes GLA Supply Stash selection sound sometimes not played <a name='link__20230801__2188_supply_stash_selection_sound'></a>
+**Changes**
+
+- **FIX**: Fixes an issue where the GLA Supply Stash selection sound has the wrong priority.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2188](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2188)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2188_supply_stash_selection_sound.yaml
+
+---
+### 2023-08-13 - Streamlines key mappings of GLA Worker fake and real buildings toggle <a name='link__20230813__2234_real_structures_toggle_key_mapping'></a>
+**Changes**
+
+- **TWEAK**: The GLA Worker fake and real buildings toggle can now be used with the same key in English, French, Korean, Chinese and Brazilian languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2234](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2234)
+
+**Labels:** gla, minor, optional, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2234_real_structures_toggle_key_mapping.yaml
+
+---
 ### 2021-09-11 - Adds missing Hellfire Drone icon to Boss Paladin <a name='link__20210911__319_boss_paladin_cameo'></a>
 **Changes**
 
@@ -12333,6 +12694,22 @@ Contains 745 entries with
 **Source:** 572_mammoth_tank.yaml
 
 ---
+### 2022-07-31 - Fixes missing animations of Secret Service unit <a name='link__20220731__2182_missing_secret_service_animations'></a>
+**Changes**
+
+- **FIX**: Add walk and death animations to Secret Service.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2182](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2182)
+
+**Labels:** bug, civilian, minor, v1.0, worldbuilder
+
+**Authors:** commy2
+
+**Source:** 2182_missing_secret_service_animations.yaml
+
+---
 ### 2022-08-14 - Fixes mismatching toxin puddle colors from destroyed chemical civilian buildings. <a name='link__20220814__903_civ_buildings_toxin_colors'></a>
 **Changes**
 
@@ -12593,6 +12970,38 @@ Contains 745 entries with
 **Authors:** xezon
 
 **Source:** 1743_civilian_limo_death_effects.yaml
+
+---
+### 2023-08-07 - Adds unused Militia Man to World Builder <a name='link__20230807__2192_militia_man'></a>
+**Changes**
+
+- **FEATURE**: Adds armed Milita guy to World Builder.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2192](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2192)
+
+**Labels:** civilian, enhancement, minor, v1.0, worldbuilder
+
+**Authors:** commy2
+
+**Source:** 2192_militia_man.yaml
+
+---
+### 2023-08-07 - Adds unused Partisan units to World Builder <a name='link__20230807__2192_partisans'></a>
+**Changes**
+
+- **FEATURE**: The armed Partisans are now fully functional World Builder units.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2192](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2192)
+
+**Labels:** civilian, enhancement, minor, v1.0, worldbuilder
+
+**Authors:** commy2
+
+**Source:** 2192_partisans.yaml
 
 ---
 ### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='link__20210827__75_dead_target_bug'></a>
@@ -15708,6 +16117,23 @@ Contains 745 entries with
 **Source:** 2100_remove_duplicate_camo_netting_button.yaml
 
 ---
+### 2023-07-23 - Streamlines key mappings of GLA fake structures with regular GLA structures <a name='link__20230723__2142_fake_structures_key_mismatch'></a>
+**Changes**
+
+- **FIX**: All GLA fake structures now have the same key mapping as regular GLA structures in French, Spanish, Italian and Polish languages.
+- **TWEAK**: The GLA worker can now toggle to real structures with key F in Spanish, Italian and Polish languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2142](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2142)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2142_fake_structures_key_mismatch.yaml
+
+---
 ### 2023-07-26 - Fixes inconsistent wording in Polish tool tip strings <a name='link__20230726__2148_polish_tool_tip_text'></a>
 **Changes**
 
@@ -15717,6 +16143,7 @@ Contains 745 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2148](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2148)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2153](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2153)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 
 **Labels:** minor, text, v1.0
 
@@ -15725,7 +16152,7 @@ Contains 745 entries with
 **Source:** 2148_polish_tool_tip_text.yaml
 
 ---
-### 2023-07-26 - Fixes inconsistent wording and capitalization of words in English tool tip strings <a name='link__20230726__2150_english_tool_tip_text'></a>
+### 2023-07-26 - Fixes errors in English tool tip strings <a name='link__20230726__2150_english_tool_tip_text'></a>
 **Changes**
 
 - **FIX**: The wording in English tool tip strings is more consistent now.
@@ -15734,6 +16161,8 @@ Contains 745 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2150](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2150)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 
 **Labels:** minor, text, v1.0
 
@@ -15742,14 +16171,17 @@ Contains 745 entries with
 **Source:** 2150_english_tool_tip_text.yaml
 
 ---
-### 2023-07-26 - Fixes inconsistent wording in Spanish tool tip strings <a name='link__20230726__2151_spanish_tool_tip_text'></a>
+### 2023-07-26 - Fixes errors in Spanish tool tip strings <a name='link__20230726__2151_spanish_tool_tip_text'></a>
 **Changes**
 
 - **FIX**: The wording in Spanish tool tip strings is more consistent now.
+- **FIX**: The TOOLTIP:NumberOfVotes string now has Spanish text.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2151](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2151)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 
 **Labels:** minor, text, v1.0
 
@@ -15758,7 +16190,7 @@ Contains 745 entries with
 **Source:** 2151_spanish_tool_tip_text.yaml
 
 ---
-### 2023-07-26 - Fixes inconsistent wording in Korean tool tip strings <a name='link__20230726__2153_korean_tool_tip_text'></a>
+### 2023-07-26 - Fixes errors in Korean tool tip strings <a name='link__20230726__2153_korean_tool_tip_text'></a>
 **Changes**
 
 - **FIX**: The wording in Korean tool tip strings is more consistent now.
@@ -15772,6 +16204,32 @@ Contains 745 entries with
 **Authors:** xezon
 
 **Source:** 2153_korean_tool_tip_text.yaml
+
+---
+### 2023-07-29 - Fixes various errors in text strings <a name='link__20230729__2156_misc_errors_in_strings'></a>
+**Changes**
+
+- **FIX**: Removes superfluous sentences from Korean strings.
+- **FIX**: Removes superfluous sentences from Scud Launcher promotion tool tip strings.
+- **FIX**: Adds missing sentences to various tool tip strings.
+- **FIX**: Removes superfluous mention of 'enemy' in tool tip strings of USA Stealth Figher, Tomahawk and China Inferno Cannon for all languages.
+- **FIX**: Removes incorrect sentence in MOAB tooltip for all languages.
+- **FIX**: The China Assault Transport tool tip strings now show correct strengths and weaknesses for all languages.
+- **FIX**: The China Listening Outpost tool tip strings now show correct strengths and weaknesses for all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2149](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2149)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2156](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2156)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2167](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2167)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2156_misc_errors_in_strings.yaml
 
 ---
 ### 2023-07-29 - Fixes line break discrepancies in all language strings <a name='link__20230729__2162_superfluous_line_breaks_in_text'></a>
@@ -15825,6 +16283,135 @@ Contains 745 entries with
 **Authors:** xezon
 
 **Source:** 2180_chinese_colon_character_in_text.yaml
+
+---
+### 2023-08-02 - Adds snow texture versions of Supply Piles and Supply Docks <a name='link__20230802__2190_supply_dock_and_pile_snow_textures'></a>
+**Changes**
+
+- **FEATURE**: Supply Piles and Supply Docks now use snow textures on snow maps.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2190](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2190)
+
+**Labels:** art, enhancement, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2190_supply_dock_and_pile_snow_textures.yaml
+
+---
+### 2023-08-02 - Fixes errors in Brazilian tool tip strings <a name='link__20230802__2195_brazilian_tool_tip_text'></a>
+**Changes**
+
+- **FIX**: The wording in Brazilian tool tip strings is more consistent now.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2195_brazilian_tool_tip_text.yaml
+
+---
+### 2023-08-07 - Fixes errors in Chinese tool tip strings <a name='link__20230807__2216_chinese_tool_tip_text'></a>
+**Changes**
+
+- **FIX**: The TOOLTIP:NumberOfVotes string now has Chinese text.
+- **FIX**: The TOOLTIP:GameInfoPlayer string now shows its number format in Chinese text.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2216](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2216)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2217](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2217)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2216_chinese_tool_tip_text.yaml
+
+---
+### 2023-08-07 - Fixes errors in French tool tip strings <a name='link__20230807__2218_french_tool_tip_text'></a>
+**Changes**
+
+- **FIX**: The wording in French tool tip strings is more consistent now.
+- **FIX**: The French tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
+- **FIX**: The TOOLTIP:NumberOfVotes, GUI:Ok, LAN:OK, MapTransfer:Done strings now have French text.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2217](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2217)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2218_french_tool_tip_text.yaml
+
+---
+### 2023-08-07 - Fixes errors in German tool tip strings <a name='link__20230807__2218_german_tool_tip_text'></a>
+**Changes**
+
+- **FIX**: The wording in German tool tip strings is more consistent now.
+- **FIX**: The German tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
+- **FIX**: More German tool tip strings now list the correct strengths and weaknesses.
+- **FIX**: The TOOLTIP:GameInfoPlayer string now shows its number format in German text.
+- **FIX**: The CONTROLBAR:PowerDescription string now shows proper sentences and number format in German text.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2216](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2216)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2218_german_tool_tip_text.yaml
+
+---
+### 2023-08-07 - Fixes errors in Italian tool tip strings <a name='link__20230807__2219_italian_tool_tip_text'></a>
+**Changes**
+
+- **FIX**: The wording in Italian tool tip strings is more consistent now.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2219_italian_tool_tip_text.yaml
+
+---
+### 2023-08-12 - Fixes mission string errors for all languages <a name='link__20230812__2228_mission_text_errors'></a>
+**Changes**
+
+- **FIX**: The wording and style in "MISSION OBJECTIVE" strings is now corrected and consistent for all languages.
+- **FIX**: The wording and style in "WARNING" strings is now corrected and consistent for all languages.
+- **FIX**: The wording and style in "INCOMING TRANSMISSION" strings is now corrected and consistent for all languages.
+- **FIX**: The wording and style in "HINT" strings is now corrected and consistent for all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2228](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2228)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2228_mission_text_errors.yaml
 
 ---
 ### 2022-10-05 - Adds slightly pitched sounds for some air weapons <a name='link__20221005__1335_pitched_air_weapon_sounds'></a>

@@ -5,42 +5,42 @@ Includes changes with labels: china
 
 Occuring labels are
 
-- art (25)
+- art (28)
 - audio (31)
 - boss (8)
 - buff (45)
-- bug (112)
-- china (204)
+- bug (116)
+- china (212)
 - civilian (2)
 - controversial (43)
 - critical (1)
-- design (72)
-- enhancement (24)
-- gla (25)
-- gui (18)
-- major (33)
-- minor (169)
+- design (73)
+- enhancement (25)
+- gla (27)
+- gui (19)
+- major (34)
+- minor (176)
 - nerf (3)
-- optional (12)
-- performance (8)
-- text (16)
-- usa (30)
-- v1.0 (204)
+- optional (13)
+- performance (9)
+- text (19)
+- usa (33)
+- v1.0 (212)
 - wip (1)
 
 Sorts changes by: date (ascending)
 
-Contains 204 entries with
+Contains 212 entries with
 
-- 283 changes
-  - FIX (185)
-  - TWEAK (85)
+- 316 changes
+  - FIX (216)
+  - TWEAK (87)
   - FEATURE (10)
   - OPTIMIZATION (3)
-- 302 subchanges
-  - FIX (234)
+- 319 subchanges
+  - FIX (249)
   - FEATURE (1)
-  - TWEAK (67)
+  - TWEAK (69)
 
 ## Index
 - [2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings](#link__20210822__4_listening_outpost_attack_bug)
@@ -58,7 +58,7 @@ Contains 204 entries with
 - [2021-09-07 - Adds missing Subliminal Messaging bonus to China Emperor](#link__20210907__236_emperor_subliminal)
 - [2021-09-09 - Fixes China Battlemasters of different sub factions not benefitting from Horde Bonus](#link__20210909__255_battlemaster_horde_bonus)
 - [2021-09-09 - Fixes attackable wrecks and debris](#link__20210909__257_attackable_wreck)
-- [2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair](#link__20210909__261_outpost_smoke_effect)
+- [2021-09-09 - Fixes model issues of China Listening Outpost](#link__20210909__261_outpost_model)
 - [2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit](#link__20210909__262_neutron_shell_exploit)
 - [2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment](#link__20210910__269_nuke_cannon_attack_target)
 - [2021-09-10 - Fixes GPS scrambled China Hackers remaining stealthed while hacking buildings](#link__20210910__276_gps_scrambled_infantry_attacking)
@@ -235,6 +235,7 @@ Contains 204 entries with
 - [2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm](#link__20230629__2050_dragon_black_napalm_flamethrower_clip_size)
 - [2023-07-08 - Fixes missing and broken infantry death modules](#link__20230708__2074_infantry_death_module_fixes)
 - [2023-07-09 - Adds missing Assault Troop Transport, Attack Outpost and Assault Helix name specializations to German localization](#link__20230709__2088_german_infa_transports_text)
+- [2023-07-10 - Streamlines key mappings of China Mines upgrades](#link__20230710__2093_china_mines_key_mapping)
 - [2023-07-12 - Fixes key conflict of China Satellite Hack I and II with Stop button](#link__20230712__2092_satellite_hack_i_ii_key_conflict)
 - [2023-07-12 - Fixes key conflict of China Neutron Shells warhead with SELECT_MATCHING_UNITS button](#link__20230712__2106_neutron_shells_key_conflict)
 - [2023-07-13 - Fixes key conflicts in German localization](#link__20230713__2108_german_key_conflicts)
@@ -245,8 +246,15 @@ Contains 204 entries with
 - [2023-07-20 - Fixes key conflicts in Brazilian localization](#link__20230720__2136_brazilian_key_conflicts)
 - [2023-07-21 - Fixes bug where China Tank Hunters may destroy their Bunker near uneven terrain](#link__20230721__2133_bunker_self_kills)
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
+- [2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages](#link__20230723__2143_faction_variant_key_mismatches)
 - [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
 - [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
+- [2023-08-02 - Fixes immortal presence of circling plane and helicopter wrecks](#link__20230802__2194_dead_plane_helicopter_bug)
+- [2023-08-03 - Fixes missing China Nuke Cannon recoil and muzzle flash](#link__20230803__2200_nuke_cannon_recoil_muzzle_flash)
+- [2023-08-03 - Fixes cut off radar deploy animation on China Command Center](#link__20230803__2201_china_command_center_radar_animation)
+- [2023-08-05 - Adds feature to turn off headlights of China Listening Outpost when stationary](#link__20230805__2209_listening_outpost_headlight)
+- [2023-08-12 - Fixes China Troop Crawler string errors in English and Italian languages](#link__20230812__2226_troop_crawler_text)
+- [2023-08-13 - Fixes missing and broken infantry cheering animations](#link__20230813__1030_fix_cheering_animations)
 
 
 
@@ -495,21 +503,23 @@ Contains 204 entries with
 **Source:** 257_attackable_wreck.yaml
 
 ---
-### 2021-09-09 - Fixes China Outpost damage smoke effects not disappearing after repair <a name='link__20210909__261_outpost_smoke_effect'></a>
+### 2021-09-09 - Fixes model issues of China Listening Outpost <a name='link__20210909__261_outpost_model'></a>
 **Changes**
 
-- **FIX**: After being fully repaired, the China Listening Outpost will no longer show its damage smoke particles. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
+- **FIX**: The China Listening Outpost will no longer show its damage smoke particles after being fully repaired. It therefore will no longer reveal itself to the opposition with the smoke column seemingly coming out of nowhere.
+- **FIX**: The headlights of the The China Listening Outpost are now visible from all angles.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261)
 
-**Labels:** bug, china, minor, v1.0
+**Labels:** art, bug, china, minor, v1.0
 
 **Authors:** commy2
 
-**Source:** 261_outpost_smoke_effect.yaml
+**Source:** 261_outpost_model.yaml
 
 ---
 ### 2021-09-09 - Fixes China Nuke Cannon Neutron Shells exploit <a name='link__20210909__262_neutron_shell_exploit'></a>
@@ -2594,6 +2604,7 @@ Contains 204 entries with
 
 - **TWEAK**: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Sentry Drone wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
@@ -2633,6 +2644,7 @@ Contains 204 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746)
 
 **Labels:** china, design, gla, minor, usa, v1.0
@@ -3654,8 +3666,8 @@ Contains 204 entries with
 - **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to AmericaInfantrySecretService.
 - **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to ChinaInfantrySecretPolice, ChinaAmbassador, ChinaInfantryAgent.
 - **FIX**: Adds missing poisoned death modules to ChinaInfantryOfficer.
-- **FIX**: Adds missing crushed, exploded death modules to MogadishuMaleCivilian01, MogadishuMaleCivilian02.
-- **FIX**: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian01, MogadishuFemaleCivilian02.
+- **FIX**: Adds missing crushed death module to MogadishuMaleCivilian01, MogadishuMaleCivilian02, MogadishuFemaleCivilian01.
+- **FIX**: Adds missing crushed, exploded death modules to MogadishuFemaleCivilian02.
 - **FIX**: Adds missing crushed, exploded, burned, poisoned death modules to Partisan01, Partisan02, Partisan03.
 - **FIX**: Adds missing crushed, exploded death modules to GenericFemale01, AmericanFarmer01, AsianFarmer01, AsianFarmer02, AsianFarmer3.
 - **FIX**: Adds missing crushed, exploded death modules to HomelessGuy.
@@ -3664,10 +3676,11 @@ Contains 204 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2231](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2231)
 
 **Labels:** bug, china, civilian, design, minor, usa, v1.0
 
-**Authors:** xezon
+**Authors:** commy2, xezon
 
 **Source:** 2074_infantry_death_module_fixes.yaml
 
@@ -3688,6 +3701,22 @@ Contains 204 entries with
 **Authors:** xezon
 
 **Source:** 2088_german_infa_transports_text.yaml
+
+---
+### 2023-07-10 - Streamlines key mappings of China Mines upgrades <a name='link__20230710__2093_china_mines_key_mapping'></a>
+**Changes**
+
+- **TWEAK**: Regular China Mines and Neutron Mines can now be researched with the same key M in English, German, Korean and Chinese languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2093](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2093)
+
+**Labels:** china, minor, optional, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2093_china_mines_key_mapping.yaml
 
 ---
 ### 2023-07-12 - Fixes key conflict of China Satellite Hack I and II with Stop button <a name='link__20230712__2092_satellite_hack_i_ii_key_conflict'></a>
@@ -3997,14 +4026,16 @@ Contains 204 entries with
 
 - **FIX**: Adds 10 extra fire ports to the China Bunker.
 - **FIX**: Adds 18 extra fire ports to the Infantry General Bunker.
+- **TWEAK**: The doors of the China Bunker now have windows. This allows for two fire ports at the door.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2133)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2154](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2154)
 
-**Labels:** buff, bug, china, major, v1.0
+**Labels:** art, buff, bug, china, major, v1.0
 
-**Authors:** commy2
+**Authors:** commy2, xezon
 
 **Source:** 2133_bunker_self_kills.yaml
 
@@ -4054,6 +4085,40 @@ Contains 204 entries with
 **Source:** 2138_polish_key_conflicts.yaml
 
 ---
+### 2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages <a name='link__20230723__2143_faction_variant_key_mismatches'></a>
+**Changes**
+
+- **FIX**: Key mapping mismatches between faction unit variants are now fixed in all languages.
+
+**Subchanges**
+
+- **FIX**: The China Hacker can now be produced with the same key as for the Super Hacker in German language.
+- **FIX**: The China Emperor can now be produced with the same key as for the Overlord in French, Polish languages.
+- **FIX**: The China Minigunner can now be produced with the same key as for the regular Red Guard in all languages.
+- **FIX**: The China Super Lotus can now be produced with the same key as for the regular Black Lotus in all language.
+- **FIX**: The China Attack Outpost can now be produced with the same key as for the regular Outpost in English, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The China Assault Troop Crawler can now be produced with the same key as for the regular Troop Crawler in English, French, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The China Fortified Bunker can now be constructed with the same key as for the regular Bunker in Polish language.
+- **FIX**: The China Nuke Bomber can now be placed with the same key as for the regular Bomber in English, Korean, Chinese languages.
+- **FIX**: The GLA Toxin Rebel can now be produced with the same key as for the regular Rebel in German language.
+- **FIX**: The GLA Toxin Terrorist can now be produced with the same key as for the regular Terrorist in Spanish language.
+- **FIX**: The USA Control Rods can now be researched with the same key as for the Advanced Control Rods in Polish language.
+- **FIX**: The USA Aurora Alpha can now be produced with the same key as for the regular Aurora in Spanish, Italian languages.
+- **FIX**: The USA King Raptor can now be produced with the same key as for the regular Raptor in Brazilian language.
+- **FIX**: The USA Laser Turret can now be constructed with the same key as for the regular Patriot Battery in English, Spanish, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The USA Laser Crusader can now be produced with the same key as for the regular Crusader in English, Korean, Chinese, Brazilian, Polish languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2143](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2143)
+
+**Labels:** china, design, gla, gui, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2143_faction_variant_key_mismatches.yaml
+
+---
 ### 2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions <a name='link__20230729__2166_unlockable_units_on_promotion_screen'></a>
 **Changes**
 
@@ -4091,4 +4156,126 @@ Contains 204 entries with
 **Authors:** commy2
 
 **Source:** 2175_broken_infantry_death_animations.yaml
+
+---
+### 2023-08-02 - Fixes immortal presence of circling plane and helicopter wrecks <a name='link__20230802__2194_dead_plane_helicopter_bug'></a>
+**Changes**
+
+- **FIX**: All planes and helicopter wrecks now have a fixed despawn time of 10 seconds to ensure they disappear if they are stuck circling in air.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1018)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2194](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2194)
+
+**Labels:** bug, china, minor, performance, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 2194_dead_plane_helicopter_bug.yaml
+
+---
+### 2023-08-03 - Fixes missing China Nuke Cannon recoil and muzzle flash <a name='link__20230803__2200_nuke_cannon_recoil_muzzle_flash'></a>
+**Changes**
+
+- **FIX**: The China Nuke Cannon now shows its weapon recoil and muzzle flash when firing explosive shells too.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2200](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2200)
+
+**Labels:** bug, china, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2200_nuke_cannon_recoil_muzzle_flash.yaml
+
+---
+### 2023-08-03 - Fixes cut off radar deploy animation on China Command Center <a name='link__20230803__2201_china_command_center_radar_animation'></a>
+**Changes**
+
+- **FIX**: The radar dish deploy animation on the China Command Center now plays properly.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2201](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2201)
+
+**Labels:** bug, china, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2201_china_command_center_radar_animation.yaml
+
+---
+### 2023-08-05 - Adds feature to turn off headlights of China Listening Outpost when stationary <a name='link__20230805__2209_listening_outpost_headlight'></a>
+**Changes**
+
+- **TWEAK**: The China Listening Outpost now turns off its headlight when neither attacking nor moving.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209)
+
+**Labels:** art, china, enhancement, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2209_listening_outpost_headlight.yaml
+
+---
+### 2023-08-12 - Fixes China Troop Crawler string errors in English and Italian languages <a name='link__20230812__2226_troop_crawler_text'></a>
+**Changes**
+
+- **FIX**: The China Troop Crawler and Assault Troop Crawler now have correct names in English and Italian languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2226](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2226)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2226_troop_crawler_text.yaml
+
+---
+### 2023-08-13 - Fixes missing and broken infantry cheering animations <a name='link__20230813__1030_fix_cheering_animations'></a>
+**Changes**
+
+- **FIX**: USA Rangers no longer plays injured transition animation after cheering.
+- **FIX**: USA Missile Defender now plays animation when cheering.
+- **FIX**: USA Pathfinder now plays animation when cheering.
+- **FIX**: USA Colonel Burton no longer plays injured transition animation after cheering.
+- **FIX**: USA Colonel Burton no longer freezes when cheering for an extended amount of time.
+- **FIX**: USA Pilot now has a smooth transition between standing and cheering.
+- **FIX**: China Redguard now plays animation when cheering while injured.
+- **FIX**: China Redguard now has a smooth transition between standing and cheering.
+- **FIX**: China Minigunner now plays animation when cheering while injured.
+- **FIX**: China Minigunner now has a smooth transition between standing and cheering.
+- **FIX**: China Tank Hunter now plays animation when cheering.
+- **FIX**: China Hacker now plays animation when cheering while injured.
+- **FIX**: China Hacker no longer floats over the ground while cheering and moving at the same time while injured.
+- **FIX**: China Black Lotus no longer plays injured transition animation after cheering.
+- **FIX**: China Black Lotus no longer freezes when cheering for an extended amount of time.
+- **FIX**: GLA Worker now has a smooth transition between standing and cheering.
+- **FIX**: GLA Rebel now plays animation when cheering.
+- **FIX**: GLA RPG-Soldier now has a smooth transition between standing and cheering.
+- **FIX**: GLA Terrorist now plays animation when cheering while injured.
+- **FIX**: GLA Hijacker now plays animation when cheering while injured.
+- **FIX**: GLA Hijacker now has a smooth transition between standing and cheering.
+- **FIX**: GLA Saboteur now has a smooth transition between standing and cheering.
+- **FIX**: GLA Jarmen Kell no longer plays injured transition animation after cheering.
+- **FIX**: GLA Jarmen Kell no longer freezes when cheering for an extended amount of time.
+- **FIX**: GLA Angry Mob no longer plays "Arm the Mob" transition animation after cheering.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1030](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1030)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2233](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2233)
+
+**Labels:** bug, china, gla, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 1030_fix_cheering_animations.yaml
 

@@ -9,38 +9,38 @@ Occuring labels are
 - audio (29)
 - boss (9)
 - buff (26)
-- bug (133)
-- china (25)
+- bug (135)
+- china (27)
 - civilian (1)
 - controversial (40)
 - critical (2)
-- design (52)
-- enhancement (16)
-- gla (202)
-- gui (10)
-- major (33)
-- minor (166)
+- design (53)
+- enhancement (18)
+- gla (208)
+- gui (11)
+- major (34)
+- minor (171)
 - nerf (16)
-- optional (8)
+- optional (9)
 - performance (6)
-- text (9)
-- usa (27)
-- v1.0 (202)
-- worldbuilder (1)
+- text (11)
+- usa (29)
+- v1.0 (208)
+- worldbuilder (2)
 
 Sorts changes by: date (ascending)
 
-Contains 202 entries with
+Contains 208 entries with
 
-- 260 changes
-  - FIX (190)
-  - FEATURE (9)
+- 291 changes
+  - FIX (219)
+  - FEATURE (10)
   - OPTIMIZATION (6)
-  - TWEAK (55)
-- 291 subchanges
-  - FIX (232)
+  - TWEAK (56)
+- 307 subchanges
+  - FIX (247)
   - FEATURE (1)
-  - TWEAK (58)
+  - TWEAK (59)
 
 ## Index
 - [2021-08-22 - Fixes wrong model of GLA Battle Bus in bunkered state](#link__20210822__2_battle_bus_damage_transition)
@@ -117,8 +117,9 @@ Contains 202 entries with
 - [2022-07-22 - Fixes damage downgrade issues of scrapped GLA Quad Cannon](#link__20220722__1055_quad_cannon_scrap_damage)
 - [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#link__20220722__727_buggy_required_xp)
 - [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#link__20220722__727_scud_launcher_required_xp)
-- [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist](#link__20220727__764_terrorist_crash)
+- [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist or Demo General infantry unit](#link__20220727__764_terrorist_crash)
 - [2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies](#link__20220729__783_demo_combat_bike_allies_damage)
+- [2022-07-31 - Adds unused GLA Prison to World Builder](#link__20220731__2184_gla_prison)
 - [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
 - [2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor](#link__20220805__820_toxin_tractor_salvage_models)
 - [2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player](#link__20220805__826_anthrax_bomb_poison_colors)
@@ -242,9 +243,14 @@ Contains 202 entries with
 - [2023-07-16 - Fixes USA Flashbang Rangers being unable to target GLA Stinger Sites](#link__20230716__297_stinger_flashbang_attack)
 - [2023-07-20 - Fixes key conflicts in Brazilian localization](#link__20230720__2136_brazilian_key_conflicts)
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
+- [2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages](#link__20230723__2143_faction_variant_key_mismatches)
 - [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
 - [2023-07-29 - Fixes lone Stinger Trooper movement animation while reloading](#link__20230729__2173_stinger_trooper_reload_animation_while_moving)
 - [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
+- [2023-08-01 - Fixes vGLA Worker being used for GLA sub-faction holes](#link__20230801__2187_sub_faction_hole_workers)
+- [2023-08-01 - Fixes GLA Supply Stash selection sound sometimes not played](#link__20230801__2188_supply_stash_selection_sound)
+- [2023-08-13 - Fixes missing and broken infantry cheering animations](#link__20230813__1030_fix_cheering_animations)
+- [2023-08-13 - Streamlines key mappings of GLA Worker fake and real buildings toggle](#link__20230813__2234_real_structures_toggle_key_mapping)
 
 
 
@@ -544,6 +550,7 @@ Contains 202 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/102](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/102)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1504)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2164](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2164)
 
 **Labels:** buff, bug, gla, minor, v1.0
 
@@ -1463,20 +1470,22 @@ Contains 202 entries with
 **Source:** 727_scud_launcher_required_xp.yaml
 
 ---
-### 2022-07-27 - Fixes game crash upon the use of a GLA Terrorist <a name='link__20220727__764_terrorist_crash'></a>
+### 2022-07-27 - Fixes game crash upon the use of a GLA Terrorist or Demo General infantry unit <a name='link__20220727__764_terrorist_crash'></a>
 **Changes**
 
 - **FIX**: Game no longer crashes when using Toxin GLA Terrorist (1)
 - **FIX**: Game no longer crashes when using any GLA Terrorist (2)
+- **FIX**: Game no longer crashes when using any Demo General infantry unit (3)
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2177](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2177)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/699](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/699)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/764](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/764)
 
 **Labels:** bug, critical, gla, v1.0
 
-**Authors:** hanfield, xezon
+**Authors:** commy2, hanfield, xezon
 
 **Source:** 764_terrorist_crash.yaml
 
@@ -1495,6 +1504,22 @@ Contains 202 entries with
 **Authors:** xezon
 
 **Source:** 783_demo_combat_bike_allies_damage.yaml
+
+---
+### 2022-07-31 - Adds unused GLA Prison to World Builder <a name='link__20220731__2184_gla_prison'></a>
+**Changes**
+
+- **FEATURE**: The GLA Prison can now be placed in the World Builder.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184)
+
+**Labels:** enhancement, gla, minor, v1.0, worldbuilder
+
+**Authors:** commy2
+
+**Source:** 2184_gla_prison.yaml
 
 ---
 ### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
@@ -2658,6 +2683,7 @@ Contains 202 entries with
 
 - **TWEAK**: Sets sink delay of Generic Tank wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Dozer wreck from 1500 ms to 3000 ms.
+- **TWEAK**: Sets sink delay of USA Sentry Drone wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Humvee wreck from 14000 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Ambulance wreck from 1500 ms to 3000 ms.
 - **TWEAK**: Sets sink delay of USA Avenger wreck from 1500 ms to 3000 ms.
@@ -2697,6 +2723,7 @@ Contains 202 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1731)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1746)
 
 **Labels:** china, design, gla, minor, usa, v1.0
@@ -3921,6 +3948,40 @@ Contains 202 entries with
 **Source:** 2138_polish_key_conflicts.yaml
 
 ---
+### 2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages <a name='link__20230723__2143_faction_variant_key_mismatches'></a>
+**Changes**
+
+- **FIX**: Key mapping mismatches between faction unit variants are now fixed in all languages.
+
+**Subchanges**
+
+- **FIX**: The China Hacker can now be produced with the same key as for the Super Hacker in German language.
+- **FIX**: The China Emperor can now be produced with the same key as for the Overlord in French, Polish languages.
+- **FIX**: The China Minigunner can now be produced with the same key as for the regular Red Guard in all languages.
+- **FIX**: The China Super Lotus can now be produced with the same key as for the regular Black Lotus in all language.
+- **FIX**: The China Attack Outpost can now be produced with the same key as for the regular Outpost in English, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The China Assault Troop Crawler can now be produced with the same key as for the regular Troop Crawler in English, French, Spanish, Italian, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The China Fortified Bunker can now be constructed with the same key as for the regular Bunker in Polish language.
+- **FIX**: The China Nuke Bomber can now be placed with the same key as for the regular Bomber in English, Korean, Chinese languages.
+- **FIX**: The GLA Toxin Rebel can now be produced with the same key as for the regular Rebel in German language.
+- **FIX**: The GLA Toxin Terrorist can now be produced with the same key as for the regular Terrorist in Spanish language.
+- **FIX**: The USA Control Rods can now be researched with the same key as for the Advanced Control Rods in Polish language.
+- **FIX**: The USA Aurora Alpha can now be produced with the same key as for the regular Aurora in Spanish, Italian languages.
+- **FIX**: The USA King Raptor can now be produced with the same key as for the regular Raptor in Brazilian language.
+- **FIX**: The USA Laser Turret can now be constructed with the same key as for the regular Patriot Battery in English, Spanish, Korean, Chinese, Brazilian, Polish languages.
+- **FIX**: The USA Laser Crusader can now be produced with the same key as for the regular Crusader in English, Korean, Chinese, Brazilian, Polish languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2143](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2143)
+
+**Labels:** china, design, gla, gui, major, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2143_faction_variant_key_mismatches.yaml
+
+---
 ### 2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions <a name='link__20230729__2166_unlockable_units_on_promotion_screen'></a>
 **Changes**
 
@@ -3974,4 +4035,93 @@ Contains 202 entries with
 **Authors:** commy2
 
 **Source:** 2175_broken_infantry_death_animations.yaml
+
+---
+### 2023-08-01 - Fixes vGLA Worker being used for GLA sub-faction holes <a name='link__20230801__2187_sub_faction_hole_workers'></a>
+**Changes**
+
+- **FIX**: A faction specific Worker will be used depending on the faction of the GLA hole.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2187](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2187)
+
+**Labels:** enhancement, gla, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2187_sub_faction_hole_workers.yaml
+
+---
+### 2023-08-01 - Fixes GLA Supply Stash selection sound sometimes not played <a name='link__20230801__2188_supply_stash_selection_sound'></a>
+**Changes**
+
+- **FIX**: Fixes an issue where the GLA Supply Stash selection sound has the wrong priority.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2188](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2188)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2188_supply_stash_selection_sound.yaml
+
+---
+### 2023-08-13 - Fixes missing and broken infantry cheering animations <a name='link__20230813__1030_fix_cheering_animations'></a>
+**Changes**
+
+- **FIX**: USA Rangers no longer plays injured transition animation after cheering.
+- **FIX**: USA Missile Defender now plays animation when cheering.
+- **FIX**: USA Pathfinder now plays animation when cheering.
+- **FIX**: USA Colonel Burton no longer plays injured transition animation after cheering.
+- **FIX**: USA Colonel Burton no longer freezes when cheering for an extended amount of time.
+- **FIX**: USA Pilot now has a smooth transition between standing and cheering.
+- **FIX**: China Redguard now plays animation when cheering while injured.
+- **FIX**: China Redguard now has a smooth transition between standing and cheering.
+- **FIX**: China Minigunner now plays animation when cheering while injured.
+- **FIX**: China Minigunner now has a smooth transition between standing and cheering.
+- **FIX**: China Tank Hunter now plays animation when cheering.
+- **FIX**: China Hacker now plays animation when cheering while injured.
+- **FIX**: China Hacker no longer floats over the ground while cheering and moving at the same time while injured.
+- **FIX**: China Black Lotus no longer plays injured transition animation after cheering.
+- **FIX**: China Black Lotus no longer freezes when cheering for an extended amount of time.
+- **FIX**: GLA Worker now has a smooth transition between standing and cheering.
+- **FIX**: GLA Rebel now plays animation when cheering.
+- **FIX**: GLA RPG-Soldier now has a smooth transition between standing and cheering.
+- **FIX**: GLA Terrorist now plays animation when cheering while injured.
+- **FIX**: GLA Hijacker now plays animation when cheering while injured.
+- **FIX**: GLA Hijacker now has a smooth transition between standing and cheering.
+- **FIX**: GLA Saboteur now has a smooth transition between standing and cheering.
+- **FIX**: GLA Jarmen Kell no longer plays injured transition animation after cheering.
+- **FIX**: GLA Jarmen Kell no longer freezes when cheering for an extended amount of time.
+- **FIX**: GLA Angry Mob no longer plays "Arm the Mob" transition animation after cheering.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1030](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1030)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2233](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2233)
+
+**Labels:** bug, china, gla, minor, usa, v1.0
+
+**Authors:** commy2
+
+**Source:** 1030_fix_cheering_animations.yaml
+
+---
+### 2023-08-13 - Streamlines key mappings of GLA Worker fake and real buildings toggle <a name='link__20230813__2234_real_structures_toggle_key_mapping'></a>
+**Changes**
+
+- **TWEAK**: The GLA Worker fake and real buildings toggle can now be used with the same key in English, French, Korean, Chinese and Brazilian languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2234](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2234)
+
+**Labels:** gla, minor, optional, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2234_real_structures_toggle_key_mapping.yaml
 
