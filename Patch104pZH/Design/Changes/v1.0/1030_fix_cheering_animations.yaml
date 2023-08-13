@@ -1,0 +1,45 @@
+---
+date: 2023-08-13
+
+title: Fixes missing and broken cheering animations
+
+changes:
+  - fix: Rangers no longer plays injured transition animation after cheering.
+  - fix: Missile Defender now plays animation when cheering.
+  - fix: Pathfinder now plays animation when cheering.
+  - fix: Colonel Burton no longer plays injured transition animation after cheering.
+  - fix: Colonel Burton no longer freezes when cheering for an extended amount of time.
+  - fix: Pilot now has a smooth transition between standing and cheering.
+  - fix: Redguard now plays animation when cheering while injured.
+  - fix: Redguard now has a smooth transition between standing and cheering.
+  - fix: Minigunner now plays animation when cheering while injured.
+  - fix: Minigunner now has a smooth transition between standing and cheering.
+  - fix: Tank Hunter now plays animation when cheering.
+  - fix: Hacker now plays animation when cheering while injured.
+  - fix: Hacker no longer floats over the ground while cheering and moving at the same time while injured.
+  - fix: Black Lotus no longer plays injured transition animation after cheering.
+  - fix: Black Lotus no longer freezes when cheering for an extended amount of time.
+  - fix: GLA Worker now has a smooth transition between standing and cheering.
+  - fix: Rebel now plays animation when cheering.
+  - fix: RPG-Soldier now has a smooth transition between standing and cheering.
+  - fix: Terrorist now plays animation when cheering while injured.
+  - fix: Hijacker now plays animation when cheering while injured.
+  - fix: Hijacker now has a smooth transition between standing and cheering.
+  - fix: Saboteur now has a smooth transition between standing and cheering.
+  - fix: Jarmen Kell no longer plays injured transition animation after cheering.
+  - fix: Jarmen Kell no longer freezes when cheering for an extended amount of time.
+  - fix: Angry Mob no longer plays "Arm the Mob" transition animation after cheering.
+
+labels:
+  - bug
+  - china
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1030
+
+authors:
+  - commy2
