@@ -16,7 +16,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "Arabic"
+                            "language": "Arabic",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -44,7 +50,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "Brazilian"
+                            "language": "Brazilian",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -146,7 +158,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "French"
+                            "language": "French",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -216,7 +234,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "Italian"
+                            "language": "Italian",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -283,7 +307,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "Polish"
+                            "language": "Polish",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -308,7 +338,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "Russian"
+                            "language": "Russian",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -336,12 +372,42 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "Spanish"
+                            "language": "Spanish",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
                                 "source": "Data/generals.str",
                                 "target": "Data/Spanish/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalLangBrazilian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "Brazilian",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Brazilian/generals.csf"
                             }
                         ]
                     }
@@ -420,6 +486,31 @@
                 ]
             },
             {
+                "name": "AxOptionalLangFrench",
+                "big": true,
+                "setGameLanguageOnInstall": "French",
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "French",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/French/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "AxOptionalLangKorean",
                 "big": true,
                 "files": [
@@ -438,6 +529,30 @@
                             {
                                 "source": "Data/generals.str",
                                 "target": "Data/Korean/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalLangRussian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "Russian",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Russian/generals.csf"
                             }
                         ]
                     }
