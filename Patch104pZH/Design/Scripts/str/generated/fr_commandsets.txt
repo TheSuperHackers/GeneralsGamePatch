@@ -4957,7 +4957,7 @@ CommandSet Infa_ChinaCommandCenterCommandSetUpgrade
 End
 
 CommandSet Infa_ChinaBarracksCommandSet
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Mitrailleur: &I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Mitrailleur: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Tueur de char: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super technopirate: &A"
   4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Lotus: &S"
@@ -4967,11 +4967,11 @@ CommandSet Infa_ChinaBarracksCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, G, J, K, L, N, O, U, V, W, X, Y, Z, 
+    Available keys: B, C, D, E, F, I, J, K, L, N, O, U, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaBarracksCommandSetUpgrade
-  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Mitrailleur: &I"
+  1 = Infa_Command_ConstructChinaInfantryMiniGunner : CONTROLBAR:ConstructChinaInfantryMiniGunner "Mitrailleur: &G"
   2 = Infa_Command_ConstructChinaInfantryTankHunter : CONTROLBAR:ConstructChinaInfantryTankHunter "Tueur de char: &T"
   3 = Infa_Command_ConstructChinaInfantryHacker : CONTROLBAR:Infa_ConstructChinaInfantryHacker "Super technopirate: &A"
   4 = Infa_Command_ConstructChinaInfantryBlackLotus : CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus "Super Lotus: &S"
@@ -4981,7 +4981,7 @@ CommandSet Infa_ChinaBarracksCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, G, J, K, L, N, O, U, V, W, X, Y, Z, 
+    Available keys: B, C, D, E, F, I, J, K, L, N, O, U, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaInfantryPropagandaTrooperCommandSet
@@ -5008,7 +5008,7 @@ CommandSet Infa_ChinaInfantryMiniGunnerCommandSet
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSet
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Transporteur d'assaut: &A"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Transporteur d'assaut: &T"
   4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Poste d'écoute amélioré: &S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cadences rapides: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "Char Dragon: &D"
@@ -5021,11 +5021,11 @@ CommandSet Infa_ChinaWarFactoryCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, I, J, K, L, P, T, V, W, X, Y, Z, 
+    Available keys: A, B, F, G, I, J, K, L, P, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
-  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Transporteur d'assaut: &A"
+  3 = Infa_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:Infa_ConstructChinaVehicleTroopCrawler "Transporteur d'assaut: &T"
   4 = Infa_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:Infa_ConstructChinaVehicleListeningOutpost "Poste d'écoute amélioré: &S"
   6 = Command_UpgradeChinaChainGuns : CONTROLBAR:UpgradeChinaChainGuns "Cadences rapides: &C"
   7 = Infa_Command_ConstructChinaTankDragon : CONTROLBAR:ConstructChinaTankDragon "Char Dragon: &D"
@@ -5038,7 +5038,7 @@ CommandSet Infa_ChinaWarFactoryCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, I, J, K, L, P, T, V, W, X, Y, Z, 
+    Available keys: A, B, F, G, I, J, K, L, P, V, W, X, Y, Z, 
 End
 
 CommandSet Infa_ChinaPropagandaCenterCommandSet
@@ -5857,7 +5857,7 @@ End
 
 CommandSet Tank_ChinaWarFactoryCommandSet
   1 = Tank_Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "Maître de guerre: &A"
-  2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Char Despote: &O"
+  2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Char Despote: &P"
   3 = Tank_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Transporteur: &T"
   4 = Tank_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Poste mobile d'écoute: &S"
   5 = Tank_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Char Gattling: &G"
@@ -5870,12 +5870,12 @@ CommandSet Tank_ChinaWarFactoryCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, I, J, K, L, P, U, V, W, X, Y, Z, 
+    Available keys: B, F, I, J, K, L, O, U, V, W, X, Y, Z, 
 End
 
 CommandSet Tank_ChinaWarFactoryCommandSetUpgrade
   1 = Tank_Command_ConstructChinaTankBattleMaster : CONTROLBAR:ConstructGLATankBattleMaster "Maître de guerre: &A"
-  2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Char Despote: &O"
+  2 = Tank_Command_ConstructChinaTankEmperor : CONTROLBAR:ConstructChinaTankEmperor "Char Despote: &P"
   3 = Tank_Command_ConstructChinaVehicleTroopCrawler : CONTROLBAR:ConstructChinaVehicleTroopCrawler "Transporteur: &T"
   4 = Tank_Command_ConstructChinaVehicleListeningOutpost : CONTROLBAR:ConstructChinaVehicleListeningOutpost "Poste mobile d'écoute: &S"
   5 = Tank_Command_ConstructChinaTankGattling : CONTROLBAR:ConstructChinaTankGattling "Char Gattling: &G"
@@ -5888,7 +5888,7 @@ CommandSet Tank_ChinaWarFactoryCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, I, J, K, L, P, U, V, W, X, Y, Z, 
+    Available keys: B, F, I, J, K, L, O, U, V, W, X, Y, Z, 
 End
 
 CommandSet Tank_ChinaPropagandaCenterCommandSet
