@@ -73,7 +73,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "Chinese"
+                            "language": "Chinese",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -105,7 +111,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "English"
+                            "language": "English",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -166,7 +178,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "German"
+                            "language": "German",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -227,7 +245,13 @@
                     {
                         "parent": "GameFilesEdited",
                         "params": {
-                            "language": "Korean"
+                            "language": "Korean",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
                         },
                         "sourceTargetList": [
                             {
@@ -318,6 +342,102 @@
                             {
                                 "source": "Data/generals.str",
                                 "target": "Data/Spanish/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalLangChinese",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "Chinese",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Chinese/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalLangEnglish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "English",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/English/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalLangGerman",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "German",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/German/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalLangKorean",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "Korean",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Korean/generals.csf"
                             }
                         ]
                     }
