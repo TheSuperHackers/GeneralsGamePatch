@@ -1,0 +1,20 @@
+---
+date: 2023-08-13
+
+title: Streamlines key mappings of GLA Worker fake and real buildings toggle
+
+changes:
+  - tweak: The GLA Worker fake and real buildings toggle can now be used with the same key in English, French, Korean, Chinese and Brazilian languages.
+
+labels:
+  - gla
+  - minor
+  - optional
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2234
+
+authors:
+  - xezon
