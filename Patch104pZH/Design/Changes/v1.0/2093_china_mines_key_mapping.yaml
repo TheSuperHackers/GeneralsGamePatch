@@ -1,0 +1,20 @@
+---
+date: 2023-07-10
+
+title: Streamlines key mappings of China Mines upgrades
+
+changes:
+  - tweak: Regular China Mines and Neutron Mines can now be researched with the same key M in English, German, Korean and Chinese languages.
+
+labels:
+  - china
+  - minor
+  - optional
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2093
+
+authors:
+  - xezon

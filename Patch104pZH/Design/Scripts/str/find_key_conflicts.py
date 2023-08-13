@@ -215,23 +215,25 @@ def read_string_entries(generals_str: Path, lang_code: str, category: str, requi
     with open(generals_str, encoding="utf-8") as file:
         lines = file.readlines()
         entry = StringEntry()
+        skip = False
 
         for line in lines:
             line = line.strip()
+
+            if line.startswith("//patch104p-optional-begin"):
+                skip = True
+                continue
+            elif line.startswith("//patch104p-optional-end"):
+                skip = False
+                continue
+
+            if skip:
+                continue
 
             if startswith_nocase(line, category):
                 entry.clear()
                 value_str = line.strip()
                 entry.name = value_str
-
-                if entry.name == "CONTROLBAR:MoneyDescription":
-                    pass
-
-                if entry.name == "CONTROLBAR:TooltipDetonateFakeBuilding":
-                    pass
-
-                if entry.name == "CONTROLBAR:TooltipUpgradeChinaFusionReactors":
-                    pass
 
             elif entry.name and startswith_nocase(line, lang_code + ":"):
                 key_value_pair: list[str] = line.split(" ", 1)
