@@ -1,0 +1,21 @@
+---
+date: 2023-08-17
+
+title: Streamlines key mappings of detonate buttons in all languages
+
+changes:
+  - tweak: The detonate abilities for C4 charges, Convoy Nuke, GLA Demo Trap, GLA Bomb Truck and GLA Fake Structure can now be used with key D instead of various other keys in all languages.
+
+labels:
+  - controversial
+  - gla
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2244
+
+authors:
+  - xezon

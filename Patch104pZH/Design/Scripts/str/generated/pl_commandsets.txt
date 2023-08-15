@@ -185,11 +185,11 @@ CommandSet RailedTransportCommandSet
 End
 
 CommandSet CivilianTransportWithNukeCommandSet
-  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Detonacja bomby atomowej: &Y"
+  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Detonacja bomby atomowej: &D"
   14 = Command_Stop : CONTROLBAR:Stop "Stop: &S"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet AmericaInfantryRangerCommandSet
@@ -525,8 +525,8 @@ CommandSet GLAVehicleToxinTruckCommandSet
 End
 
 CommandSet GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &N"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &D"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Biobomby: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba krusząca: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
@@ -537,7 +537,7 @@ CommandSet GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, F, G, I, J, K, L, M, P, R, U, V, W, Y, Z, 
+    Available keys: F, G, I, J, K, L, M, N, P, R, U, V, W, Y, Z, 
 End
 
 CommandSet GLAVehicleBattleBusCommandSet
@@ -1688,48 +1688,48 @@ CommandSet GLABarracksCommandSet
 End
 
 CommandSet FakeGLACommandCenterCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &N"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &D"
   2 = Command_BecomeRealGLACommandCenter : CONTROLBAR:BecomeRealGLACommandCenter "Przekształć w prawdziwy sztab: &P"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLABarracksCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &N"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &D"
   2 = Command_BecomeRealGLABarracks : CONTROLBAR:BecomeRealGLABarracks "Przekształć w prawdziwe koszary: &P"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLASupplyStashCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &N"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &D"
   2 = Command_BecomeRealGLASupplyStash : CONTROLBAR:BecomeRealGLASupplyStash "Przekształć w prawdziwy skład zaopatrzenia: &P"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLAArmsDealerCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &N"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &D"
   2 = Command_BecomeRealGLAArmsDealer : CONTROLBAR:BecomeRealGLAArmsDealer "Przekształć w prawdziwego handlarza bronią: &P"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLABlackMarketCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &N"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &D"
   2 = Command_BecomeRealGLABlackMarket : CONTROLBAR:BecomeRealGLABlackMarket "Przekształć w prawdziwy czarny rynek: &P"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet GLABlackMarketCommandSet
@@ -1791,11 +1791,11 @@ End
 CommandSet GLADemoTrapCommandSet
   1 = Command_SetDemoTrapProximityDetonation : CONTROLBAR:ProximityFuse "Zapalnik zbliżeniowy: &Z"
   2 = Command_SetDemoTrapManualDetonation : CONTROLBAR:ManualControl "Sterowanie ręczne: &W"
-  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Detonuj! &J"
+  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Detonuj! &D"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, 
 End
 
 CommandSet GLATunnelNetworkCommandSet
@@ -2293,11 +2293,11 @@ End
 CommandSet GC_Slth_GLADemoTrapCommandSet
   1 = Command_SetDemoTrapProximityDetonation : CONTROLBAR:ProximityFuse "Zapalnik zbliżeniowy: &Z"
   2 = Command_SetDemoTrapManualDetonation : CONTROLBAR:ManualControl "Sterowanie ręczne: &W"
-  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Detonuj! &J"
+  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Detonuj! &D"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, 
 End
 
 CommandSet GC_Slth_GLAInfantryJarmenKellCommandSet
@@ -2323,7 +2323,7 @@ CommandSet GC_Slth_GLAVehicleBattleBusCommandSet
   7 = Command_TransportExit : CONTROLBAR:TransportExit "Wyjście z transportowca"
   8 = Command_TransportExit : CONTROLBAR:TransportExit "Wyjście z transportowca"
   9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "Ewakuacja: &V"
-  10 = GC_Slth_Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &D"
+  10 = GC_Slth_Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &C"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
   14 = Command_Stop : CONTROLBAR:Stop "Stop: &S"
@@ -2332,7 +2332,7 @@ CommandSet GC_Slth_GLAVehicleBattleBusCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, G, I, J, K, L, M, N, O, P, R, U, W, Y, Z, 
+    Available keys: B, D, F, G, I, J, K, L, M, N, O, P, R, U, W, Y, Z, 
 End
 
 CommandSet AirF_SCIENCE_AMERICA_CommandSetRank1
@@ -2755,11 +2755,11 @@ End
 CommandSet Demo_GLADemoTrapCommandSet
   1 = Command_SetDemoTrapProximityDetonation : CONTROLBAR:ProximityFuse "Zapalnik zbliżeniowy: &Z"
   2 = Command_SetDemoTrapManualDetonation : CONTROLBAR:ManualControl "Sterowanie ręczne: &W"
-  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Detonuj! &J"
+  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Detonuj! &D"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, 
 End
 
 CommandSet Demo_GLAInfantryRebelCommandSet
@@ -2853,8 +2853,8 @@ CommandSet Demo_GLAVehicleQuadCannon
 End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &N"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &D"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba krusząca: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
@@ -2864,7 +2864,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, G, I, J, K, L, M, P, R, U, V, W, Y, Z, 
+    Available keys: B, F, G, I, J, K, L, M, N, P, R, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSet
@@ -3166,12 +3166,12 @@ CommandSet Demo_GLABarracksCommandSetUpgrade
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Wściekły tłum: &W"
   6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Zajmij budynek: &Z"
-  12 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonuj! &N"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonuj: &J"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, D, E, F, G, I, K, L, M, P, S, U, V, X, Y, 
+    Available keys: A, C, D, E, F, G, I, K, L, M, N, P, S, U, V, X, Y, 
 End
 
 CommandSet Demo_GLABlackMarketCommandSetUpgrade
@@ -3330,8 +3330,8 @@ CommandSet Demo_GLAVehicleQuadCannonUpgrade
 End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &N"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &D"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba krusząca: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
@@ -3341,7 +3341,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, G, I, J, K, L, M, P, R, U, V, W, Y, Z, 
+    Available keys: B, F, G, I, J, K, L, M, N, P, R, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSetUpgrade
@@ -3604,11 +3604,11 @@ End
 CommandSet Slth_GLADemoTrapCommandSet
   1 = Command_SetDemoTrapProximityDetonation : CONTROLBAR:ProximityFuse "Zapalnik zbliżeniowy: &Z"
   2 = Command_SetDemoTrapManualDetonation : CONTROLBAR:ManualControl "Sterowanie ręczne: &W"
-  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Detonuj! &J"
+  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Detonuj! &D"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, K, L, M, N, O, P, R, S, T, U, V, X, Y, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, 
 End
 
 CommandSet Slth_GLAInfantryRebelCommandSet
@@ -3698,8 +3698,8 @@ CommandSet Slth_GLAVehicleQuadCannon
 End
 
 CommandSet Slth_GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &N"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &D"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Biobomby: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba krusząca: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
@@ -3710,7 +3710,7 @@ CommandSet Slth_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, F, G, I, J, K, L, M, P, R, U, V, W, Y, Z, 
+    Available keys: F, G, I, J, K, L, M, N, P, R, U, V, W, Y, Z, 
 End
 
 CommandSet Slth_GLAInfantryHijackerCommandSet
@@ -3859,8 +3859,8 @@ CommandSet Chem_GLATunnelNetworkCommandSet
 End
 
 CommandSet Chem_GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &N"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &D"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Biobomby: &B"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
@@ -3870,7 +3870,7 @@ CommandSet Chem_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, F, G, I, J, K, L, M, O, P, R, U, V, W, Y, Z, 
+    Available keys: F, G, I, J, K, L, M, N, O, P, R, U, V, W, Y, Z, 
 End
 
 CommandSet Chem_GLAVehicleScudLauncherCommandSet
