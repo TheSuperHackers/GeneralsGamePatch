@@ -1,0 +1,19 @@
+---
+date: 2023-12-08
+
+title: Fixes recoil animation issue of Boss Jarmen Kell
+
+changes:
+  - fix: The Boss General's Jarmen Kell now has the intended recoil animation speed.
+
+labels:
+  - boss
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2227
+
+authors:
+  - commy2
