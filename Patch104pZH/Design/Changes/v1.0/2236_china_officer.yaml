@@ -1,0 +1,25 @@
+---
+date: 2023-08-15
+
+title: Fixes issues with the China Officer
+
+changes:
+  - fix: China Officer now has proper injured and firing animations.
+  - fix: China Officer now has a smooth cheering animation.
+  - fix: China Officer now plays proper voice lines for basic actions.
+  - tweak: China Officer now has a generic portrait.
+  - tweak: China Officer now has 300 instead of 150 shroud clearing range.
+  - tweak: China Officer now has attack move, guard and stop buttons.
+  - tweak: Killing a China Officer now grants 20 experience points.
+
+labels:
+  - bug
+  - china
+  - v1.0
+  - worldbuilder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2236
+
+authors:
+  - commy2
