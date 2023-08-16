@@ -1,0 +1,24 @@
+---
+date: 2023-08-15
+
+title: Fixes issues with the CIA Agent
+
+changes:
+  - fix: CIA Agent now has a proper injured animation.
+  - fix: CIA Agent now has a smooth cheering animation.
+  - tweak: CIA Agent mouse hover text was changed from "Officer" to "Agent".
+  - tweak: Increase from 150.
+  - tweak: CIA Agent now has 300 instead of 150 shroud clearing range.
+  - fix: CIA Agent now plays proper voice lines for most basic actions.
+
+labels:
+  - bug
+  - usa
+  - v1.0
+  - worldbuilder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2236
+
+authors:
+  - commy2

@@ -1,0 +1,25 @@
+---
+date: 2023-08-15
+
+title: Fixes issues with the America Officer
+
+changes:
+  - fix: USA Officer now has proper injured and firing animations.
+  - fix: USA Officer now has a smooth cheering animation.
+  - fix: USA Officer now plays proper voice lines for basic actions.
+  - tweak: USA Officer now has a generic portrait.
+  - tweak: USA Officer now has 300 instead of 150 shroud clearing range.
+  - tweak: USA Officer now has attack move, guard and stop buttons.
+  - tweak: Killing a USA Officer now grants 20 experience points.
+
+labels:
+  - bug
+  - usa
+  - v1.0
+  - worldbuilder
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2236
+
+authors:
+  - commy2
