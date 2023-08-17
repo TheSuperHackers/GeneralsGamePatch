@@ -1,5 +1,25 @@
+SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Bombe aéro-incendiaire: &M"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Bombe Aéro-incendiaire Massive: &M"
+
+AirF_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Bombe aéro-incendiaire: &M"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Bombe Aéro-incendiaire Massive: &M"
+
+Demo_GLABarracksCommandSetUpgrade has key conflict with
+  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicide: &J"
+
 Slth_GLAArmsDealerCommandSet has key conflict with
   11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de combat: &X"
   15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de combat: &X"
 
-1 conflicts found
+SupW_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Bombe aéro-incendiaire: &M"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Bombe Aéro-incendiaire Massive: &M"
+
+Lazr_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Bombe aéro-incendiaire: &M"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Bombe Aéro-incendiaire Massive: &M"
+
+6 conflicts found

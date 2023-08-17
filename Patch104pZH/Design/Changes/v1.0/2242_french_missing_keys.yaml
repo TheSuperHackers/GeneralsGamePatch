@@ -1,0 +1,36 @@
+---
+date: 2023-08-17
+
+title: Adds missing key mappings to French localization
+
+changes:
+  - fix: 16 missing key mappings are added to the French localization. Some of the new key mappings may not be available in the game and are not listed here.
+
+subchanges:
+  - fix: The Clear Mines ability can now be used with key F.
+  - fix: The China Nuke Carpet Bomber can now be placed with key T.
+  - fix: The China Nuke Mig upgrade can now be researched with key G.
+  - fix: The GLA Suicide upgrade can now be researched with key D.
+  - fix: The GLA Suicide attack can now be triggered with key J.
+  - fix: The GLA Fake building detonation can now be triggered with key D.
+  - fix: The GLA Bomb Truck detonation ability can now be triggered with key D.
+  - fix: The USA Laser Turret can now be constructed with key M.
+  - fix: The USA Laser Crusader can now be produced with key C.
+  - fix: The USA Stealth Comanche upgrade can now be researched with key S.
+  - fix: The USA Ranger Machine Gun can now be selected with key M.
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2242
+
+authors:
+  - xezon

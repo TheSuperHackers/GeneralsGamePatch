@@ -1,0 +1,3 @@
+CONTROLBAR:ConstructAmericaWall : DE: "Sicherheitszaun"
+CONTROLBAR:ConstructAmericaVehiclePointDefenseDrone : DE: "Abwehrdrohne"
+CONTROLBAR:ConstructAmericaVehiclePointDefenseDrone : FR: "Not to be translated"

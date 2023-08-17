@@ -1,5 +1,9 @@
+Demo_GLABarracksCommandSetUpgrade has key conflict with
+  3 = Demo_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "Terrorista: &I"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicidio: &I"
+
 Slth_GLAArmsDealerCommandSet has key conflict with
   11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de combate: &T"
   15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Moto de combate: &T"
 
-1 conflicts found
+2 conflicts found

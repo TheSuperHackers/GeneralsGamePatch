@@ -35,13 +35,13 @@ CommandSet AmericaDozerCommandSet
   9 = Command_ConstructAmericaFireBase : CONTROLBAR:ConstructAmericaFireBase "Baza ogniowa: &G"
   11 = Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "Fabryka wojenna: &A"
   13 = Command_ConstructAmericaAirfield : CONTROLBAR:ConstructAmericaAirfield "Lotnisko: &L"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, N, P, V, W, 
+    Available keys: B, C, D, F, I, J, N, P, W, 
 End
 
 CommandSet GLAWorkerCommandSet
@@ -56,13 +56,13 @@ CommandSet GLAWorkerCommandSet
   9 = Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Handlarz bronią: &A"
   10 = Command_ConstructGLACommandCenter : CONTROLBAR:ConstructGLACommandCenter "Sztab: &Z"
   13 = Command_UpgradeGLAWorkerFakeCommandSet : CONTROLBAR:UpgradeGLAWorkerFakeCommandSet "Przełączenie na fałszywe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, G, I, J, L, M, O, U, V, Y, 
+    Available keys: B, G, I, J, L, M, O, U, Y, 
 End
 
 CommandSet GLAWorkerFakeBuildingsCommandSet
@@ -72,13 +72,13 @@ CommandSet GLAWorkerFakeBuildingsCommandSet
   4 = Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Fałszywy handlarz bronią: &A"
   5 = Command_ConstructFakeGLABlackMarket : CONTROLBAR:ConstructFakeGLABlackMarket "Fałszywy czarny rynek: &R"
   13 = Command_UpgradeGLAWorkerRealCommandSet : CONTROLBAR:UpgradeGLAWorkerRealCommandSet "Przełączenie na prawdziwe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, G, I, J, L, M, N, O, P, T, U, V, W, Y, 
+    Available keys: B, C, G, I, J, L, M, N, O, P, T, U, W, Y, 
 End
 
 CommandSet ChinaDozerCommandSet
@@ -94,13 +94,13 @@ CommandSet ChinaDozerCommandSet
   10 = Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "Rakieta atomowa: &M"
   11 = Command_ConstructChinaWarFactory : CONTROLBAR:ConstructChinaWarFactory "Fabryka wojenna: &A"
   12 = Command_ConstructChinaCommandCenter : CONTROLBAR:ConstructChinaCommandCenter "Sztab: &Z"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, D, J, N, T, U, V, W, Y, 
+    Available keys: C, D, J, N, T, U, W, Y, 
 End
 
 CommandSet AmericaTransportCommandSet
@@ -194,7 +194,7 @@ End
 
 CommandSet AmericaInfantryRangerCommandSet
   1 = Command_AmericaRangerCaptureBuilding : CONTROLBAR:CaptureBuilding "Zajmij budynek: &Z"
-  2 = Command_AmericaRangerSwitchToMachineGun : CONTROLBAR:RangerMachineGun "Karabin maszynowy"
+  2 = Command_AmericaRangerSwitchToMachineGun : CONTROLBAR:RangerMachineGun "Karabin maszynowy: &M"
   4 = Command_AmericaRangerSwitchToFlagBangGrenades : CONTROLBAR:FlashBangGrenadeMode "Granat oślepiający: &G"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
@@ -204,7 +204,7 @@ CommandSet AmericaInfantryRangerCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, K, L, M, N, O, P, R, U, V, W, Y, 
+    Available keys: B, C, D, F, I, J, K, L, N, O, P, R, U, V, W, Y, 
 End
 
 CommandSet AmericaInfantryColonelBurtonCommandSet
@@ -2022,13 +2022,13 @@ CommandSet GC_Chem_GLAWorkerCommandSet
   8 = GC_Chem_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz SCUD-ów: &C"
   9 = GC_Chem_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Handlarz bronią: &A"
   10 = GC_Chem_Command_ConstructGLACommandCenter : CONTROLBAR:ConstructGLACommandCenter "Sztab: &Z"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, F, G, I, J, L, M, O, U, V, Y, 
+    Available keys: B, F, G, I, J, L, M, O, U, Y, 
 End
 
 CommandSet GC_Chem_GLABarracksCommandSet
@@ -2163,13 +2163,13 @@ CommandSet GC_Slth_GLAWorkerCommandSet
   8 = GC_Slth_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Deszcz SCUD-ów: &C"
   9 = GC_Slth_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Handlarz bronią: &A"
   10 = GC_Slth_Command_ConstructGLACommandCenter : CONTROLBAR:ConstructGLACommandCenter "Sztab: &Z"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, F, G, I, J, L, M, O, U, V, Y, 
+    Available keys: B, F, G, I, J, L, M, O, U, Y, 
 End
 
 CommandSet GC_Slth_GLACommandCenterCommandSet
@@ -2384,13 +2384,13 @@ CommandSet AirF_AmericaDozerCommandSet
   9 = AirF_Command_ConstructAmericaFireBase : CONTROLBAR:ConstructAmericaFireBase "Baza ogniowa: &G"
   11 = AirF_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "Fabryka wojenna: &A"
   13 = AirF_Command_ConstructAmericaAirfield : CONTROLBAR:ConstructAmericaAirfield "Lotnisko: &L"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, N, P, V, W, 
+    Available keys: B, C, D, F, I, J, N, P, W, 
 End
 
 CommandSet AirF_AmericaCommandCenterCommandSet
@@ -2605,13 +2605,13 @@ CommandSet Demo_GLAWorkerCommandSet
   9 = Demo_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Handlarz bronią: &A"
   10 = Demo_Command_ConstructGLACommandCenter : CONTROLBAR:ConstructGLACommandCenter "Sztab: &Z"
   13 = Command_UpgradeGLAWorkerFakeCommandSet : CONTROLBAR:UpgradeGLAWorkerFakeCommandSet "Przełączenie na fałszywe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, G, I, J, L, M, O, U, V, Y, 
+    Available keys: B, G, I, J, L, M, O, U, Y, 
 End
 
 CommandSet Demo_GLAWorkerFakeBuildingsCommandSet
@@ -2621,13 +2621,13 @@ CommandSet Demo_GLAWorkerFakeBuildingsCommandSet
   4 = Demo_Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Fałszywy handlarz bronią: &A"
   5 = Demo_Command_ConstructFakeGLABlackMarket : CONTROLBAR:ConstructFakeGLABlackMarket "Fałszywy czarny rynek: &R"
   13 = Command_UpgradeGLAWorkerRealCommandSet : CONTROLBAR:UpgradeGLAWorkerRealCommandSet "Przełączenie na prawdziwe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, G, I, J, L, M, N, O, P, T, U, V, W, Y, 
+    Available keys: B, C, G, I, J, L, M, N, O, P, T, U, W, Y, 
 End
 
 CommandSet Demo_GLACommandCenterCommandSet
@@ -3091,13 +3091,13 @@ CommandSet Demo_GLAWorkerCommandSetUpgrade
   10 = Demo_Command_ConstructGLACommandCenter : CONTROLBAR:ConstructGLACommandCenter "Sztab: &Z"
   12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonuj: &J"
   13 = Command_UpgradeGLAWorkerFakeCommandSet : CONTROLBAR:UpgradeGLAWorkerFakeCommandSet "Przełączenie na fałszywe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, G, I, L, M, O, U, V, Y, 
+    Available keys: B, G, I, L, M, O, U, Y, 
 End
 
 CommandSet Demo_GLAWorkerFakeBuildingsCommandSetUpgrade
@@ -3108,13 +3108,13 @@ CommandSet Demo_GLAWorkerFakeBuildingsCommandSetUpgrade
   5 = Demo_Command_ConstructFakeGLABlackMarket : CONTROLBAR:ConstructFakeGLABlackMarket "Fałszywy czarny rynek: &R"
   12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonuj: &J"
   13 = Command_UpgradeGLAWorkerRealCommandSet : CONTROLBAR:UpgradeGLAWorkerRealCommandSet "Przełączenie na prawdziwe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, G, I, L, M, N, O, P, T, U, V, W, Y, 
+    Available keys: B, C, G, I, L, M, N, O, P, T, U, W, Y, 
 End
 
 CommandSet Demo_GLACommandCenterCommandSetUpgrade
@@ -3448,13 +3448,13 @@ CommandSet Slth_GLAWorkerCommandSet
   9 = Slth_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Handlarz bronią: &A"
   10 = Slth_Command_ConstructGLACommandCenter : CONTROLBAR:ConstructGLACommandCenter "Sztab: &Z"
   13 = Command_UpgradeGLAWorkerFakeCommandSet : CONTROLBAR:UpgradeGLAWorkerFakeCommandSet "Przełączenie na fałszywe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, G, I, J, L, M, O, U, V, Y, 
+    Available keys: B, G, I, J, L, M, O, U, Y, 
 End
 
 CommandSet Slth_GLAWorkerFakeBuildingsCommandSet
@@ -3464,13 +3464,13 @@ CommandSet Slth_GLAWorkerFakeBuildingsCommandSet
   4 = Slth_Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Fałszywy handlarz bronią: &A"
   5 = Slth_Command_ConstructFakeGLABlackMarket : CONTROLBAR:ConstructFakeGLABlackMarket "Fałszywy czarny rynek: &R"
   13 = Command_UpgradeGLAWorkerRealCommandSet : CONTROLBAR:UpgradeGLAWorkerRealCommandSet "Przełączenie na prawdziwe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, G, I, J, L, M, N, O, P, T, U, V, W, Y, 
+    Available keys: B, C, G, I, J, L, M, N, O, P, T, U, W, Y, 
 End
 
 CommandSet Slth_GLACommandCenterCommandSet
@@ -3800,13 +3800,13 @@ CommandSet Chem_GLAWorkerCommandSet
   9 = Chem_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Handlarz bronią: &A"
   10 = Chem_Command_ConstructGLACommandCenter : CONTROLBAR:ConstructGLACommandCenter "Sztab: &Z"
   13 = Command_UpgradeGLAWorkerFakeCommandSet : CONTROLBAR:UpgradeGLAWorkerFakeCommandSet "Przełączenie na fałszywe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, G, I, J, L, M, O, U, V, Y, 
+    Available keys: B, G, I, J, L, M, O, U, Y, 
 End
 
 CommandSet Chem_GLAWorkerFakeBuildingsCommandSet
@@ -3816,13 +3816,13 @@ CommandSet Chem_GLAWorkerFakeBuildingsCommandSet
   4 = Chem_Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Fałszywy handlarz bronią: &A"
   5 = Chem_Command_ConstructFakeGLABlackMarket : CONTROLBAR:ConstructFakeGLABlackMarket "Fałszywy czarny rynek: &R"
   13 = Command_UpgradeGLAWorkerRealCommandSet : CONTROLBAR:UpgradeGLAWorkerRealCommandSet "Przełączenie na prawdziwe budynki: &F"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, G, I, J, L, M, N, O, P, T, U, V, W, Y, 
+    Available keys: B, C, G, I, J, L, M, N, O, P, T, U, W, Y, 
 End
 
 CommandSet Chem_GLABarracksCommandSet
@@ -4032,13 +4032,13 @@ CommandSet Nuke_ChinaDozerCommandSet
   10 = Nuke_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "Rakieta atomowa: &M"
   11 = Nuke_Command_ConstructChinaWarFactory : CONTROLBAR:ConstructChinaWarFactory "Fabryka wojenna: &A"
   12 = Nuke_Command_ConstructChinaCommandCenter : CONTROLBAR:ConstructChinaCommandCenter "Sztab: &Z"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, D, J, N, T, U, V, W, Y, 
+    Available keys: C, D, J, N, T, U, W, Y, 
 End
 
 CommandSet Nuke_ChinaSupplyCenterCommandSet
@@ -4063,7 +4063,7 @@ End
 
 CommandSet Nuke_ChinaCommandCenterCommandSet
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Buldożer: &D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Bombowiec atomowy"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Bombowiec atomowy: &F"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Nalot napalmowy: &N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Miny kasetowe: &K"
   5 = Command_CashHack : CONTROLBAR:CashHack "e-Kradzież pieniędzy: &C"
@@ -4077,12 +4077,12 @@ CommandSet Nuke_ChinaCommandCenterCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, I, J, L, S, T, U, V, W, X, Y, 
+    Available keys: B, G, I, J, L, S, T, U, V, W, X, Y, 
 End
 
 CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Buldożer: &D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Bombowiec atomowy"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Bombowiec atomowy: &F"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Nalot napalmowy: &N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Miny kasetowe: &K"
   5 = Command_CashHack : CONTROLBAR:CashHack "e-Kradzież pieniędzy: &C"
@@ -4096,7 +4096,7 @@ CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, F, G, I, J, L, S, T, U, V, W, X, Y, 
+    Available keys: B, G, I, J, L, S, T, U, V, W, X, Y, 
 End
 
 CommandSet Nuke_ChinaBarracksCommandSet
@@ -4471,13 +4471,13 @@ CommandSet SupW_AmericaDozerCommandSet
   9 = SupW_Command_ConstructAmericaFireBase : CONTROLBAR:ConstructAmericaFireBase "Baza ogniowa: &G"
   11 = SupW_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "Fabryka wojenna: &A"
   13 = SupW_Command_ConstructAmericaAirfield : CONTROLBAR:ConstructAmericaAirfield "Lotnisko: &L"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, N, P, V, W, 
+    Available keys: B, C, D, F, I, J, N, P, W, 
 End
 
 CommandSet SupW_AmericaBarracksCommandSet
@@ -4661,7 +4661,7 @@ End
 
 CommandSet SupW_AmericaInfantryRangerCommandSet
   1 = Command_AmericaRangerCaptureBuilding : CONTROLBAR:CaptureBuilding "Zajmij budynek: &Z"
-  2 = Command_AmericaRangerSwitchToMachineGun : CONTROLBAR:RangerMachineGun "Karabin maszynowy"
+  2 = Command_AmericaRangerSwitchToMachineGun : CONTROLBAR:RangerMachineGun "Karabin maszynowy: &M"
   4 = Command_AmericaRangerSwitchToFlagBangGrenades : CONTROLBAR:FlashBangGrenadeMode "Granat oślepiający: &G"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
@@ -4671,7 +4671,7 @@ CommandSet SupW_AmericaInfantryRangerCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, K, L, M, N, O, P, R, U, V, W, Y, 
+    Available keys: B, C, D, F, I, J, K, L, N, O, P, R, U, V, W, Y, 
 End
 
 CommandSet SupW_AmericaTankCrusaderCommandSet
@@ -4882,13 +4882,13 @@ CommandSet Infa_ChinaDozerCommandSet
   10 = Infa_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "Rakieta atomowa: &M"
   11 = Infa_Command_ConstructChinaWarFactory : CONTROLBAR:ConstructChinaWarFactory "Fabryka wojenna: &A"
   12 = Infa_Command_ConstructChinaCommandCenter : CONTROLBAR:ConstructChinaCommandCenter "Sztab: &Z"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, D, J, N, T, U, V, W, Y, 
+    Available keys: C, D, J, N, T, U, W, Y, 
 End
 
 CommandSet Infa_ChinaPowerPlantCommandSet
@@ -5416,13 +5416,13 @@ CommandSet Lazr_AmericaDozerCommandSet
   9 = Lazr_Command_ConstructAmericaFireBase : CONTROLBAR:ConstructAmericaFireBase "Baza ogniowa: &G"
   11 = Lazr_Command_ConstructAmericaWarFactory : CONTROLBAR:ConstructAmericaWarFactory "Fabryka wojenna: &A"
   13 = Lazr_Command_ConstructAmericaAirfield : CONTROLBAR:ConstructAmericaAirfield "Lotnisko: &L"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, N, P, V, W, 
+    Available keys: B, C, D, F, I, J, N, P, W, 
 End
 
 CommandSet Lazr_AmericaSupplyCenterCommandSet
@@ -5571,7 +5571,7 @@ End
 
 CommandSet Lazr_AmericaInfantryRangerCommandSet
   1 = Command_AmericaRangerCaptureBuilding : CONTROLBAR:CaptureBuilding "Zajmij budynek: &Z"
-  2 = Command_AmericaRangerSwitchToMachineGun : CONTROLBAR:RangerMachineGun "Karabin maszynowy"
+  2 = Command_AmericaRangerSwitchToMachineGun : CONTROLBAR:RangerMachineGun "Karabin maszynowy: &M"
   4 = Command_AmericaRangerSwitchToFlagBangGrenades : CONTROLBAR:FlashBangGrenadeMode "Granat oślepiający: &G"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
@@ -5581,7 +5581,7 @@ CommandSet Lazr_AmericaInfantryRangerCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, K, L, M, N, O, P, R, U, V, W, Y, 
+    Available keys: B, C, D, F, I, J, K, L, N, O, P, R, U, V, W, Y, 
 End
 
 CommandSet Lazr_AmericaInfantryColonelBurtonCommandSet
@@ -5788,13 +5788,13 @@ CommandSet Tank_ChinaDozerCommandSet
   10 = Tank_Command_ConstructChinaNuclearMissileLauncher : CONTROLBAR:ConstructChinaNuclearMissileLauncher "Rakieta atomowa: &M"
   11 = Tank_Command_ConstructChinaWarFactory : CONTROLBAR:ConstructChinaWarFactory "Fabryka wojenna: &A"
   12 = Tank_Command_ConstructChinaCommandCenter : CONTROLBAR:ConstructChinaCommandCenter "Sztab: &Z"
-  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie"
+  14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Rozminowanie: &V"
   CommandMap SELECT_MATCHING_UNITS : "E"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, D, J, N, T, U, V, W, Y, 
+    Available keys: C, D, J, N, T, U, W, Y, 
 End
 
 CommandSet Tank_ChinaSupplyCenterCommandSet
