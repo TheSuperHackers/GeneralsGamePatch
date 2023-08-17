@@ -1,0 +1,18 @@
+---
+date: 2023-08-17
+
+title: Improves strings for detonate and suicide abilities
+
+changes:
+  - tweak: The detonate and suicide ability strings for French, Spanish, Chinese and Brazilian now have more consistent wording and are closer to what the English reference language says.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2243
+
+authors:
+  - xezon
