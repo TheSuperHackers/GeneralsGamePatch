@@ -185,11 +185,11 @@ CommandSet RailedTransportCommandSet
 End
 
 CommandSet CivilianTransportWithNukeCommandSet
-  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Atombombe zünden: &O"
+  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Atombombe zünden: &D"
   14 = Command_Stop : CONTROLBAR:Stop "Stopp: &S"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, P, R, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet AmericaInfantryRangerCommandSet
@@ -3166,7 +3166,7 @@ CommandSet Demo_GLABarracksCommandSetUpgrade
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Cyborg-Trupp: &T"
   6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Infiltrator: &I"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Gebäude besetzen: &G"
-  12 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Jetzt zünden!"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Sprengen"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Sammelpunkt: &U"
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"

@@ -185,11 +185,11 @@ CommandSet RailedTransportCommandSet
 End
 
 CommandSet CivilianTransportWithNukeCommandSet
-  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Detonar Bomba Nuclear: &N"
+  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Detonar Bomba Nuclear: &D"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, O, P, R, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet AmericaInfantryRangerCommandSet
@@ -525,8 +525,8 @@ CommandSet GLAVehicleToxinTruckCommandSet
 End
 
 CommandSet GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &I"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &D"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Bomba Biológica: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba de Alto-Explosivo: &M"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
@@ -537,7 +537,7 @@ CommandSet GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, F, J, K, L, N, O, P, R, T, U, V, W, Y, Z, 
+    Available keys: F, I, J, K, L, N, O, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet GLAVehicleBattleBusCommandSet
@@ -1688,48 +1688,48 @@ CommandSet GLABarracksCommandSet
 End
 
 CommandSet FakeGLACommandCenterCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Explodir Agora! &A"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonar Agora! &D"
   2 = Command_BecomeRealGLACommandCenter : CONTROLBAR:BecomeRealGLACommandCenter "Tornar Verdadeiro o Centro de Comando: &T"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLABarracksCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Explodir Agora! &A"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonar Agora! &D"
   2 = Command_BecomeRealGLABarracks : CONTROLBAR:BecomeRealGLABarracks "Tornar Verdadeiro o Quartel: &T"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLASupplyStashCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Explodir Agora! &A"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonar Agora! &D"
   2 = Command_BecomeRealGLASupplyStash : CONTROLBAR:BecomeRealGLASupplyStash "Tornar Verdadeiro o Armazém de Suprimentos: &T"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLAArmsDealerCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Explodir Agora! &A"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonar Agora! &D"
   2 = Command_BecomeRealGLAArmsDealer : CONTROLBAR:BecomeRealGLAArmsDealer "Tornar Verdadeiro o Negociante de Armas: &T"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLABlackMarketCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Explodir Agora! &A"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonar Agora! &D"
   2 = Command_BecomeRealGLABlackMarket : CONTROLBAR:BecomeRealGLABlackMarket "Tornar Verdadeiro o Mercado Negro: &T"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, S, U, V, W, X, Y, Z, 
 End
 
 CommandSet GLABlackMarketCommandSet
@@ -2323,7 +2323,7 @@ CommandSet GC_Slth_GLAVehicleBattleBusCommandSet
   7 = Command_TransportExit : CONTROLBAR:TransportExit "Sair do Transporte"
   8 = Command_TransportExit : CONTROLBAR:TransportExit "Sair do Transporte"
   9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "Evacuar: &V"
-  10 = GC_Slth_Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &D"
+  10 = GC_Slth_Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &C"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
@@ -2332,7 +2332,7 @@ CommandSet GC_Slth_GLAVehicleBattleBusCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, I, J, K, L, M, N, O, P, R, T, U, W, Y, Z, 
+    Available keys: B, D, F, I, J, K, L, M, N, O, P, R, T, U, W, Y, Z, 
 End
 
 CommandSet AirF_SCIENCE_AMERICA_CommandSetRank1
@@ -2853,8 +2853,8 @@ CommandSet Demo_GLAVehicleQuadCannon
 End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &I"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &D"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba de Alto-Explosivo: &M"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
@@ -2864,7 +2864,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, J, K, L, N, O, P, R, T, U, V, W, Y, Z, 
+    Available keys: B, F, I, J, K, L, N, O, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSet
@@ -3008,7 +3008,7 @@ End
 
 CommandSet Demo_GLATankMarauderCommandSetUpgrade
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3027,7 +3027,7 @@ CommandSet Demo_GLAVehicleTechnicalCommandSetUpgrade
   5 = Command_TransportExit : CONTROLBAR:TransportExit "Sair do Transporte"
   9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "Evacuar: &V"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3041,7 +3041,7 @@ End
 CommandSet Demo_GLAVehicleToxinTruckCommandSetUpgrade
   1 = Command_GLAToxinTractorContaminateGround : CONTROLBAR:Contaminate "Contaminar: &C"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3054,7 +3054,7 @@ End
 
 CommandSet Demo_GLAVehicleRocketBuggyCommandSetUpgrade
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3067,7 +3067,7 @@ End
 
 CommandSet Demo_GLATankScorpionCommandSetUpgrade
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3089,7 +3089,7 @@ CommandSet Demo_GLAWorkerCommandSetUpgrade
   8 = Demo_Command_ConstructGLAScudStorm : CONTROLBAR:ConstructGLAScudStorm "Tempestade SCUD: &D"
   9 = Demo_Command_ConstructGLAArmsDealer : CONTROLBAR:ConstructGLAArmsDealer "Negociante de Armas: &A"
   10 = Demo_Command_ConstructGLACommandCenter : CONTROLBAR:ConstructGLACommandCenter "Centro de Comando: &C"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_UpgradeGLAWorkerFakeCommandSet : CONTROLBAR:UpgradeGLAWorkerFakeCommandSet "Alternar para Estruturas Falsas: &F"
   14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Desarmar Minas: &N"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3106,7 +3106,7 @@ CommandSet Demo_GLAWorkerFakeBuildingsCommandSetUpgrade
   3 = Demo_Command_ConstructFakeGLASupplyStash : CONTROLBAR:ConstructFakeGLASupplyStash "Armazém de Suprimentos Falso: &U"
   4 = Demo_Command_ConstructFakeGLAArmsDealer : CONTROLBAR:ConstructFakeGLAArmsDealer "Negociante de Armas Falso: &A"
   5 = Demo_Command_ConstructFakeGLABlackMarket : CONTROLBAR:ConstructFakeGLABlackMarket "Mercado Negro Falso: &M"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_UpgradeGLAWorkerRealCommandSet : CONTROLBAR:UpgradeGLAWorkerRealCommandSet "Alternar para Estruturas de Verdade: &V"
   14 = Command_DisarmMinesAtPosition : CONTROLBAR:DisarmMinesAtPosition "Desarmar Minas: &N"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3124,7 +3124,7 @@ CommandSet Demo_GLACommandCenterCommandSetUpgrade
   6 = Command_EmergencyRepair : CONTROLBAR:EmergencyRepair "Reparos de Emergência: &E"
   7 = Command_AnthraxBomb : CONTROLBAR:AnthraxBomb "Bomba de Antraz: &B"
   8 = Command_SneakAttack : CONTROLBAR:SneakAttack "Ataque Sorrateiro: &F"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Ponto de Encontro: &P"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
@@ -3134,7 +3134,7 @@ End
 
 CommandSet Demo_GLASupplyStashCommandSetUpgrade
   1 = Demo_Command_ConstructGLAWorker : CONTROLBAR:ConstructGLAWorker "Trabalhador: &T"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Ponto de Encontro: &P"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
@@ -3151,7 +3151,7 @@ CommandSet Demo_GLAPalaceCommandSetUpgrade
   6 = Command_Evacuate : CONTROLBAR:Evacuate "Evacuar: &V"
   7 = Command_UpgradeGLAFortifiedStructure : CONTROLBAR:UpgradeGLAFortifiedStructure "Estrutura Fortificada: &E"
   8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Armar a Multidão: &M"
-  11 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  11 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
@@ -3166,12 +3166,12 @@ CommandSet Demo_GLABarracksCommandSetUpgrade
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Multidão Revoltada: &Y"
   6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Capturar Estrutura: &C"
-  12 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Explodir Agora! &A"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Ponto de Encontro: &P"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: D, E, F, I, K, L, M, N, O, R, S, U, V, W, X, Z, 
+    Available keys: A, D, E, F, I, K, L, M, N, O, R, S, U, V, W, X, Z, 
 End
 
 CommandSet Demo_GLABlackMarketCommandSetUpgrade
@@ -3180,7 +3180,7 @@ CommandSet Demo_GLABlackMarketCommandSetUpgrade
   3 = Command_UpgradeGLAJunkRepair : CONTROLBAR:UpgradeGLAJunkRepair "Reparos de Combate: &E"
   5 = Command_UpgradeGLARadarVanScan : CONTROLBAR:UpgradeGLARadarVanScan "Varredura de Radar: &V"
   6 = Command_UpgradeGLAWorkerShoes : CONTROLBAR:UpgradeGLAWorkerShoes "Sapatos de Trabalhador: &S"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
@@ -3188,7 +3188,7 @@ CommandSet Demo_GLABlackMarketCommandSetUpgrade
 End
 
 CommandSet Demo_GLAStingerSiteCommandSetUpgrade
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
@@ -3198,7 +3198,7 @@ End
 
 CommandSet Demo_GLAScudStormCommandSetUpgrade
   1 = Command_ScudStorm : CONTROLBAR:ScudStorm "Tempestade SCUD: &D"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
@@ -3217,7 +3217,7 @@ CommandSet Demo_GLATunnelNetworkCommandSetUpgrade
   9 = Command_StructureExit : CONTROLBAR:StructureExit "Abandonar Estrutura"
   10 = Command_StructureExit : CONTROLBAR:StructureExit "Abandonar Estrutura"
   11 = Command_TunnelEvacuate : CONTROLBAR:Evacuate "Evacuar: &V"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   14 = Command_Sell : CONTROLBAR:Sell "Vender"
   CommandMap VIEW_COMMAND_CENTER : "H"
@@ -3249,7 +3249,7 @@ CommandSet Demo_GLAInfantryRebelCommandSetUpgrade
   1 = Command_GLAInfantryRebelCaptureBuilding : CONTROLBAR:CaptureBuilding "Capturar Estrutura: &C"
   2 = Command_GLAInfantryRebelBoobyTrapAttack : CONTROLBAR:BoobyTrapAttack "Ataque de Armadilha Explosiva: &B"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3262,7 +3262,7 @@ End
 
 CommandSet Demo_GLAInfantryTunnelDefenderCommandSetUpgrade
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3275,7 +3275,7 @@ End
 
 CommandSet Demo_GLAInfantryAngryMobCommandSetUpgrade
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3292,7 +3292,7 @@ CommandSet Demo_GLAInfantryJarmenKellCommandSetUpgrade
   4 = Demo_Command_KellRemoteDemoCharge : CONTROLBAR:RemoteDemoCharge "Plantar Carga Remota: &R"
   6 = Demo_Command_KellDetonateCharges : CONTROLBAR:DetonateCharges "Detonar Explosivos: &D"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3305,7 +3305,7 @@ End
 
 CommandSet Demo_GLAVehicleRadarVanCommandSetUpgrade
   1 = Command_RadarVanScan : CONTROLBAR:RadarVanScan "Varredura de Radar: &V"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3318,7 +3318,7 @@ End
 
 CommandSet Demo_GLAVehicleQuadCannonUpgrade
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3330,8 +3330,8 @@ CommandSet Demo_GLAVehicleQuadCannonUpgrade
 End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &I"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &D"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba de Alto-Explosivo: &M"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
@@ -3341,12 +3341,12 @@ CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, J, K, L, N, O, P, R, T, U, V, W, Y, Z, 
+    Available keys: B, F, I, J, K, L, N, O, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSetUpgrade
   1 = Command_GLAInfantryHijack : CONTROLBAR:Hijack "Sequestrar: &R"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3368,7 +3368,7 @@ CommandSet Demo_GLAVehicleBattleBusCommandSetUpgrade
   8 = Command_TransportExit : CONTROLBAR:TransportExit "Sair do Transporte"
   9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "Evacuar: &V"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3381,7 +3381,7 @@ End
 
 CommandSet Demo_GLAVehicleScudLauncherCommandSetUpgrade
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
-  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonar"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicídio"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Parar: &S"
   CommandMap SELECT_MATCHING_UNITS : "E"
@@ -3698,8 +3698,8 @@ CommandSet Slth_GLAVehicleQuadCannon
 End
 
 CommandSet Slth_GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &I"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &D"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Bomba Biológica: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba de Alto-Explosivo: &M"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
@@ -3710,7 +3710,7 @@ CommandSet Slth_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, F, J, K, L, N, O, P, R, T, U, V, W, Y, Z, 
+    Available keys: F, I, J, K, L, N, O, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Slth_GLAInfantryHijackerCommandSet
@@ -3859,8 +3859,8 @@ CommandSet Chem_GLATunnelNetworkCommandSet
 End
 
 CommandSet Chem_GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &D"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &I"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disfarçar: &C"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonar Agora! &D"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Bomba Biológica: &B"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Mover e Atacar: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Proteger: &G"
@@ -3870,7 +3870,7 @@ CommandSet Chem_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: C, F, J, K, L, M, N, O, P, R, T, U, V, W, Y, Z, 
+    Available keys: F, I, J, K, L, M, N, O, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Chem_GLAVehicleScudLauncherCommandSet
