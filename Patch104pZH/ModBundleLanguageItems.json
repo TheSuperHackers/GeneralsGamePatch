@@ -511,6 +511,30 @@
                 ]
             },
             {
+                "name": "AxOptionalLangItalian",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "Italian",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Italian/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "AxOptionalLangKorean",
                 "big": true,
                 "files": [
@@ -535,6 +559,30 @@
                 ]
             },
             {
+                "name": "AxOptionalLangPolish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "Polish",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Polish/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "AxOptionalLangRussian",
                 "big": true,
                 "files": [
@@ -553,6 +601,30 @@
                             {
                                 "source": "Data/generals.str",
                                 "target": "Data/Russian/generals.csf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AxOptionalLangSpanish",
+                "big": true,
+                "files": [
+                    {
+                        "parent": "GameFilesEdited",
+                        "params": {
+                            "language": "Spanish",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        },
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Spanish/generals.csf"
                             }
                         ]
                     }
