@@ -1,0 +1,33 @@
+---
+date: 2023-08-17
+
+title: Adds missing key mappings to Brazilian localization
+
+changes:
+  - fix: 8 missing key mappings are added to the Brazilian localization.
+
+subchanges:
+  - fix: The China Advanced Nuclear Reactor can now be constructed with key R.
+  - fix: The China Nuke Carpet Bomber can now be placed with key G.
+  - fix: The China Nuke Mig upgrade can now be researched with key G.
+  - fix: The GLA Advanced Demo Trap can now be constructed with key R.
+  - fix: The GLA Suicide upgrade can now be researched with key D.
+  - fix: The GLA Suicide attack can now be triggered with key J.
+  - fix: The USA Stealth Comanche upgrade can now be researched with key S.
+  - fix: The USA Advanced Control Rods can now be researched with key C.
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2242
+
+authors:
+  - xezon

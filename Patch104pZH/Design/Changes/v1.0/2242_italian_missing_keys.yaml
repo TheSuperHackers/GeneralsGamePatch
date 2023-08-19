@@ -1,0 +1,25 @@
+---
+date: 2023-08-17
+
+title: Adds missing key mappings to Italian localization
+
+changes:
+  - fix: 2 missing key mappings are added to the Italian localization.
+
+subchanges:
+  - fix: The China Nuke Carpet Bomber can now be placed with key T.
+  - fix: The China Nuke Mig upgrade can now be researched with key G.
+
+labels:
+  - boss
+  - bug
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2242
+
+authors:
+  - xezon

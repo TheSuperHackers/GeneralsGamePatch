@@ -4063,7 +4063,7 @@ End
 
 CommandSet Nuke_ChinaCommandCenterCommandSet
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Bulldozer da costruzione: &D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Bombardiere nucleare"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Bombardiere nucleare: &T"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Attacco napalm: &N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Mine a frammentazione: &I"
   5 = Command_CashHack : CONTROLBAR:CashHack "Acquisizione ostile: &O"
@@ -4077,12 +4077,12 @@ CommandSet Nuke_ChinaCommandCenterCommandSet
   14 = Command_Sell : CONTROLBAR:Sell "Vendi"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: C, F, G, J, K, L, P, S, T, V, W, X, Y, 
+    Available keys: C, F, G, J, K, L, P, S, V, W, X, Y, 
 End
 
 CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   1 = Nuke_Command_ConstructChinaDozer : CONTROLBAR:ConstructChinaDozer "Bulldozer da costruzione: &D"
-  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Bombardiere nucleare"
+  2 = Nuke_Command_ChinaCarpetBomb : CONTROLBAR:Nuke_CarpetBomb "Bombardiere nucleare: &T"
   3 = Command_NapalmStrike : CONTROLBAR:NapalmStrike "Attacco napalm: &N"
   4 = Command_ClusterMines : CONTROLBAR:ClusterMines "Mine a frammentazione: &I"
   5 = Command_CashHack : CONTROLBAR:CashHack "Acquisizione ostile: &O"
@@ -4096,7 +4096,7 @@ CommandSet Nuke_ChinaCommandCenterCommandSetUpgrade
   14 = Command_Sell : CONTROLBAR:Sell "Vendi"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: C, F, G, J, K, L, P, S, T, V, W, X, Y, 
+    Available keys: C, F, G, J, K, L, P, S, V, W, X, Y, 
 End
 
 CommandSet Nuke_ChinaBarracksCommandSet
@@ -4240,23 +4240,23 @@ End
 CommandSet Nuke_ChinaNuclearMissileCommandSet
   1 = Nuke_Command_NeutronMissile : CONTROLBAR:NeutronMissile "Missile nucleare: &N"
   10 = Command_UpgradeChinaNeutronShells : CONTROLBAR:UpgradeChinaNeutronShells "Proiettili ai neutroni: &S"
-  11 = Command_UpgradeChinaTacticalNukeMig : CONTROLBAR:UpgradeChinaTacticalNukeMig "Testata nucleare tattica MIG"
+  11 = Command_UpgradeChinaTacticalNukeMig : CONTROLBAR:UpgradeChinaTacticalNukeMig "Testata nucleare tattica MIG: &G"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Mine terrestri: &M"
   14 = Command_Sell : CONTROLBAR:Sell "Vendi"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, O, P, R, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, F, I, J, K, L, O, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet Nuke_ChinaNuclearMissileCommandSetUpgrade
   1 = Nuke_Command_NeutronMissile : CONTROLBAR:NeutronMissile "Missile nucleare: &N"
   10 = Command_UpgradeChinaNeutronShells : CONTROLBAR:UpgradeChinaNeutronShells "Proiettili ai neutroni: &S"
-  11 = Command_UpgradeChinaTacticalNukeMig : CONTROLBAR:UpgradeChinaTacticalNukeMig "Testata nucleare tattica MIG"
+  11 = Command_UpgradeChinaTacticalNukeMig : CONTROLBAR:UpgradeChinaTacticalNukeMig "Testata nucleare tattica MIG: &G"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Mine a neutroni: &M"
   14 = Command_Sell : CONTROLBAR:Sell "Vendi"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, O, P, R, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, F, I, J, K, L, O, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet Nuke_ChinaBunkerCommandSet

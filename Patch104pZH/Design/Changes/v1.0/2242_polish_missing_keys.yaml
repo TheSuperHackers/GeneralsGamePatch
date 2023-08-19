@@ -1,0 +1,28 @@
+---
+date: 2023-08-17
+
+title: Adds missing key mappings to Polish localization
+
+changes:
+  - fix: 8 missing key mappings are added to the Polish localization. Some of the new key mappings may not be available in the game and are not listed here.
+
+subchanges:
+  - fix: The Clear Mines ability can now be used with key V.
+  - fix: The China Nuke Carpet Bomber can now be placed with key F.
+  - fix: The USA Ranger Machine Gun can now be selected with key M.
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2242
+
+authors:
+  - xezon

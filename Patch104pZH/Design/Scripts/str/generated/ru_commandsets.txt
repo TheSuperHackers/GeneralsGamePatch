@@ -563,7 +563,7 @@ End
 
 CommandSet GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Замаскироваться под другую технику: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать!"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать! &D"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Биологическая бомба: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Увеличить мощность взрывчатки: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Атака в движении: &A"
@@ -575,7 +575,7 @@ CommandSet GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: D, F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
+    Available keys: F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet GLAVehicleBattleBusCommandSet
@@ -3073,7 +3073,7 @@ End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Замаскироваться под другую технику: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать!"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать! &D"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Увеличить мощность взрывчатки: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Атака в движении: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Охрана: &G"
@@ -3084,7 +3084,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, D, F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
+    Available keys: B, F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSet
@@ -3583,7 +3583,7 @@ End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Замаскироваться под другую технику: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать!"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать! &D"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Увеличить мощность взрывчатки: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Атака в движении: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Охрана: &G"
@@ -3594,7 +3594,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, D, F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
+    Available keys: B, F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSetUpgrade
@@ -3979,7 +3979,7 @@ End
 
 CommandSet Slth_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Замаскироваться под другую технику: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать!"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать! &D"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Биологическая бомба: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Увеличить мощность взрывчатки: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Атака в движении: &A"
@@ -3991,7 +3991,7 @@ CommandSet Slth_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: D, F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
+    Available keys: F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet Slth_GLAInfantryHijackerCommandSet
@@ -4152,7 +4152,7 @@ End
 
 CommandSet Chem_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Замаскироваться под другую технику: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать!"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Немедленно взорвать! &D"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Биологическая бомба: &B"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Атака в движении: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Охрана: &G"
@@ -4163,7 +4163,7 @@ CommandSet Chem_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: D, F, I, J, K, L, M, N, O, P, R, T, U, V, Y, Z, 
+    Available keys: F, I, J, K, L, M, N, O, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet Chem_GLAVehicleScudLauncherCommandSet
