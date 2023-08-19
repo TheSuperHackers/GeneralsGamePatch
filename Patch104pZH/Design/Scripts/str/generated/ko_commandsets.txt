@@ -196,12 +196,12 @@ CommandSet RailedTransportCommandSet
 End
 
 CommandSet CivilianTransportWithNukeCommandSet
-  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "핵 폭발: &D"
+  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "핵 폭발: &N"
   14 = Command_Stop : CONTROLBAR:Stop "정지: &S"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, X, Y, Z, 
+    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, O, P, R, T, U, V, X, Y, Z, 
 End
 
 CommandSet AmericaInfantryRangerCommandSet
@@ -563,7 +563,7 @@ End
 
 CommandSet GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "차량 변장: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &N"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "바이오폭탄: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "HE 폭탄: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "공격 이동: &A"
@@ -575,7 +575,7 @@ CommandSet GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
+    Available keys: D, F, I, J, K, L, M, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet GLAVehicleBattleBusCommandSet
@@ -1809,53 +1809,53 @@ CommandSet GLABarracksCommandSet
 End
 
 CommandSet FakeGLACommandCenterCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &N"
   2 = Command_BecomeRealGLACommandCenter : CONTROLBAR:BecomeRealGLACommandCenter "실제 커맨드 센터로 전환: &B"
   14 = Command_Sell : CONTROLBAR:Sell "팔기"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, X, Y, Z, 
 End
 
 CommandSet FakeGLABarracksCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &N"
   2 = Command_BecomeRealGLABarracks : CONTROLBAR:BecomeRealGLABarracks "실제 막사로 전환: &B"
   14 = Command_Sell : CONTROLBAR:Sell "팔기"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, X, Y, Z, 
 End
 
 CommandSet FakeGLASupplyStashCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &N"
   2 = Command_BecomeRealGLASupplyStash : CONTROLBAR:BecomeRealGLASupplyStash "실제 서플라이 은닉처로 전환: &B"
   14 = Command_Sell : CONTROLBAR:Sell "팔기"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, X, Y, Z, 
 End
 
 CommandSet FakeGLAArmsDealerCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &N"
   2 = Command_BecomeRealGLAArmsDealer : CONTROLBAR:BecomeRealGLAArmsDealer "실제 무기상으로 전환: &B"
   14 = Command_Sell : CONTROLBAR:Sell "팔기"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, X, Y, Z, 
 End
 
 CommandSet FakeGLABlackMarketCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "지금 폭파! &N"
   2 = Command_BecomeRealGLABlackMarket : CONTROLBAR:BecomeRealGLABlackMarket "실제 암시장으로 전환: &B"
   14 = Command_Sell : CONTROLBAR:Sell "팔기"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, X, Y, Z, 
 End
 
 CommandSet GLABlackMarketCommandSet
@@ -3073,7 +3073,7 @@ End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "차량 변장: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &N"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "HE 폭탄: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "공격 이동: &A"
   13 = Command_Guard : CONTROLBAR:Guard "경계: &G"
@@ -3084,7 +3084,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
+    Available keys: B, D, F, I, J, K, L, M, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSet
@@ -3583,7 +3583,7 @@ End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "차량 변장: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &N"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "HE 폭탄: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "공격 이동: &A"
   13 = Command_Guard : CONTROLBAR:Guard "경계: &G"
@@ -3594,7 +3594,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
+    Available keys: B, D, F, I, J, K, L, M, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSetUpgrade
@@ -3979,7 +3979,7 @@ End
 
 CommandSet Slth_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "차량 변장: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &N"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "바이오폭탄: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "HE 폭탄: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "공격 이동: &A"
@@ -3991,7 +3991,7 @@ CommandSet Slth_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: F, I, J, K, L, M, N, P, R, T, U, V, Y, Z, 
+    Available keys: D, F, I, J, K, L, M, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet Slth_GLAInfantryHijackerCommandSet
@@ -4152,7 +4152,7 @@ End
 
 CommandSet Chem_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "차량 변장: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "지금 폭파! &N"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "바이오폭탄: &B"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "공격 이동: &A"
   13 = Command_Guard : CONTROLBAR:Guard "경계: &G"
@@ -4163,7 +4163,7 @@ CommandSet Chem_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: F, I, J, K, L, M, N, O, P, R, T, U, V, Y, Z, 
+    Available keys: D, F, I, J, K, L, M, O, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet Chem_GLAVehicleScudLauncherCommandSet

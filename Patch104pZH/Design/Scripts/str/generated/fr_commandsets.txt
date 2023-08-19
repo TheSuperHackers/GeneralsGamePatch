@@ -185,11 +185,11 @@ CommandSet RailedTransportCommandSet
 End
 
 CommandSet CivilianTransportWithNukeCommandSet
-  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Faire exploser arme nucléaire: &D"
+  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Faire exploser arme nucléaire: &N"
   14 = Command_Stop : CONTROLBAR:Stop "Stopper: &S"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, O, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet AmericaInfantryRangerCommandSet
@@ -211,7 +211,7 @@ CommandSet AmericaInfantryColonelBurtonCommandSet
   1 = Command_ColonelBurtonKnifeAttack : CONTROLBAR:KnifeAttack "Attaque au couteau: &O"
   2 = Command_ColonelBurtonTimedDemoCharge : CONTROLBAR:TimedDemoCharge "Charge à retardement: &T"
   4 = Command_ColonelBurtonRemoteDemoCharge : CONTROLBAR:RemoteDemoCharge "Charge télécommandée: &R"
-  6 = Command_ColonelBurtonDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &D"
+  6 = Command_ColonelBurtonDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Stopper: &S"
@@ -220,13 +220,13 @@ CommandSet AmericaInfantryColonelBurtonCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, I, J, K, L, M, N, P, U, V, W, Y, Z, 
+    Available keys: B, C, D, F, I, J, K, L, M, N, U, V, W, Y, Z, 
 End
 
 CommandSet AmericaInfantryCIAAgentCommandSet
   2 = Command_CIAAgentTimedDemoCharge : CONTROLBAR:TimedDemoCharge "Charge à retardement: &T"
   4 = Command_CIAAgentRemoteDemoCharge : CONTROLBAR:RemoteDemoCharge "Charge télécommandée: &R"
-  6 = Command_CIAAgentDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &D"
+  6 = Command_CIAAgentDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Stopper: &S"
@@ -235,7 +235,7 @@ CommandSet AmericaInfantryCIAAgentCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, I, J, K, L, M, N, O, P, U, V, W, Y, Z, 
+    Available keys: B, C, D, F, I, J, K, L, M, N, O, U, V, W, Y, Z, 
 End
 
 CommandSet AmericaInfantryMissileDefenderCommandSet
@@ -525,8 +525,8 @@ CommandSet GLAVehicleToxinTruckCommandSet
 End
 
 CommandSet GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &D"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &F"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Bombes bactériologiques: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Explosif C-404: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
@@ -537,7 +537,7 @@ CommandSet GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: F, I, J, K, L, M, N, O, R, T, U, V, W, Y, Z, 
+    Available keys: C, I, J, K, L, M, N, O, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet GLAVehicleBattleBusCommandSet
@@ -1791,11 +1791,11 @@ End
 CommandSet GLADemoTrapCommandSet
   1 = Command_SetDemoTrapProximityDetonation : CONTROLBAR:ProximityFuse "Explosion à proximité: &P"
   2 = Command_SetDemoTrapManualDetonation : CONTROLBAR:ManualControl "Commande manuelle: &M"
-  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Faites exploser ! &D"
+  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Faites exploser ! &F"
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, E, F, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet GLATunnelNetworkCommandSet
@@ -2293,11 +2293,11 @@ End
 CommandSet GC_Slth_GLADemoTrapCommandSet
   1 = Command_SetDemoTrapProximityDetonation : CONTROLBAR:ProximityFuse "Explosion à proximité: &P"
   2 = Command_SetDemoTrapManualDetonation : CONTROLBAR:ManualControl "Commande manuelle: &M"
-  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Faites exploser ! &D"
+  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Faites exploser ! &F"
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, E, F, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet GC_Slth_GLAInfantryJarmenKellCommandSet
@@ -2323,7 +2323,7 @@ CommandSet GC_Slth_GLAVehicleBattleBusCommandSet
   7 = Command_TransportExit : CONTROLBAR:TransportExit "Descendre"
   8 = Command_TransportExit : CONTROLBAR:TransportExit "Descendre"
   9 = Command_EmptyCrawler : CONTROLBAR:Evacuate "Evacuer: &V"
-  10 = GC_Slth_Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &C"
+  10 = GC_Slth_Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &D"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Stopper: &S"
@@ -2332,7 +2332,7 @@ CommandSet GC_Slth_GLAVehicleBattleBusCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, D, F, I, J, K, L, M, N, O, P, R, T, U, W, Y, Z, 
+    Available keys: B, C, F, I, J, K, L, M, N, O, P, R, T, U, W, Y, Z, 
 End
 
 CommandSet AirF_SCIENCE_AMERICA_CommandSetRank1
@@ -2755,11 +2755,11 @@ End
 CommandSet Demo_GLADemoTrapCommandSet
   1 = Command_SetDemoTrapProximityDetonation : CONTROLBAR:ProximityFuse "Explosion à proximité: &P"
   2 = Command_SetDemoTrapManualDetonation : CONTROLBAR:ManualControl "Commande manuelle: &M"
-  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Faites exploser ! &D"
+  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Faites exploser ! &F"
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, E, F, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryRebelCommandSet
@@ -2816,7 +2816,7 @@ CommandSet Demo_GLAInfantryJarmenKellCommandSet
   1 = Command_GLAInfantryJarmenKellSnipeVehicleAttack : CONTROLBAR:SniperAttack "Attaque de sniper: &N"
   2 = Demo_Command_KellTimedDemoCharge : CONTROLBAR:TimedDemoCharge "Charge à retardement: &T"
   4 = Demo_Command_KellRemoteDemoCharge : CONTROLBAR:RemoteDemoCharge "Charge télécommandée: &R"
-  6 = Demo_Command_KellDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &D"
+  6 = Demo_Command_KellDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Stopper: &S"
@@ -2825,7 +2825,7 @@ CommandSet Demo_GLAInfantryJarmenKellCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, I, J, K, L, M, O, P, U, V, W, Y, Z, 
+    Available keys: B, C, D, F, I, J, K, L, M, O, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAVehicleRadarVanCommandSet
@@ -2853,8 +2853,8 @@ CommandSet Demo_GLAVehicleQuadCannon
 End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &D"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &F"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Explosif C-404: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
@@ -2864,7 +2864,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, F, I, J, K, L, M, N, O, R, T, U, V, W, Y, Z, 
+    Available keys: B, C, I, J, K, L, M, N, O, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSet
@@ -3290,7 +3290,7 @@ CommandSet Demo_GLAInfantryJarmenKellCommandSetUpgrade
   1 = Command_GLAInfantryJarmenKellSnipeVehicleAttack : CONTROLBAR:SniperAttack "Attaque de sniper: &N"
   2 = Demo_Command_KellTimedDemoCharge : CONTROLBAR:TimedDemoCharge "Charge à retardement: &T"
   4 = Demo_Command_KellRemoteDemoCharge : CONTROLBAR:RemoteDemoCharge "Charge télécommandée: &R"
-  6 = Demo_Command_KellDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &D"
+  6 = Demo_Command_KellDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicide: &J"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
@@ -3300,7 +3300,7 @@ CommandSet Demo_GLAInfantryJarmenKellCommandSetUpgrade
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, I, K, L, M, O, P, U, V, W, Y, Z, 
+    Available keys: B, C, D, F, I, K, L, M, O, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAVehicleRadarVanCommandSetUpgrade
@@ -3330,8 +3330,8 @@ CommandSet Demo_GLAVehicleQuadCannonUpgrade
 End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &D"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &F"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Explosif C-404: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
@@ -3341,7 +3341,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, F, I, J, K, L, M, N, O, R, T, U, V, W, Y, Z, 
+    Available keys: B, C, I, J, K, L, M, N, O, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSetUpgrade
@@ -3604,11 +3604,11 @@ End
 CommandSet Slth_GLADemoTrapCommandSet
   1 = Command_SetDemoTrapProximityDetonation : CONTROLBAR:ProximityFuse "Explosion à proximité: &P"
   2 = Command_SetDemoTrapManualDetonation : CONTROLBAR:ManualControl "Commande manuelle: &M"
-  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Faites exploser ! &D"
+  5 = Command_DetonateDemoTrap : CONTROLBAR:Detonate "Faites exploser ! &F"
   14 = Command_Sell : CONTROLBAR:Sell "Vendre"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, E, F, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, G, I, J, K, L, N, O, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet Slth_GLAInfantryRebelCommandSet
@@ -3698,8 +3698,8 @@ CommandSet Slth_GLAVehicleQuadCannon
 End
 
 CommandSet Slth_GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &D"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &F"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Bombes bactériologiques: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Explosif C-404: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
@@ -3710,7 +3710,7 @@ CommandSet Slth_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: F, I, J, K, L, M, N, O, R, T, U, V, W, Y, Z, 
+    Available keys: C, I, J, K, L, M, N, O, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Slth_GLAInfantryHijackerCommandSet
@@ -3859,8 +3859,8 @@ CommandSet Chem_GLATunnelNetworkCommandSet
 End
 
 CommandSet Chem_GLAVehicleBombTruckCommandSet
-  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &D"
+  1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Se déguiser en véhicule: &D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Faites exploser maintenant ! &F"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Bombes bactériologiques: &B"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
@@ -3870,7 +3870,7 @@ CommandSet Chem_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: F, I, J, K, L, M, N, O, P, R, T, U, V, W, Y, Z, 
+    Available keys: C, I, J, K, L, M, N, O, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Chem_GLAVehicleScudLauncherCommandSet
@@ -4634,7 +4634,7 @@ CommandSet SupW_AmericaInfantryColonelBurtonCommandSet
   1 = Command_ColonelBurtonKnifeAttack : CONTROLBAR:KnifeAttack "Attaque au couteau: &O"
   2 = Command_ColonelBurtonTimedDemoCharge : CONTROLBAR:TimedDemoCharge "Charge à retardement: &T"
   4 = Command_ColonelBurtonRemoteDemoCharge : CONTROLBAR:RemoteDemoCharge "Charge télécommandée: &R"
-  6 = Command_ColonelBurtonDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &D"
+  6 = Command_ColonelBurtonDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Stopper: &S"
@@ -4643,7 +4643,7 @@ CommandSet SupW_AmericaInfantryColonelBurtonCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, I, J, K, L, M, N, P, U, V, W, Y, Z, 
+    Available keys: B, C, D, F, I, J, K, L, M, N, U, V, W, Y, Z, 
 End
 
 CommandSet SupW_AmericaInfantryMissileDefenderCommandSet
@@ -5588,7 +5588,7 @@ CommandSet Lazr_AmericaInfantryColonelBurtonCommandSet
   1 = Command_ColonelBurtonKnifeAttack : CONTROLBAR:KnifeAttack "Attaque au couteau: &O"
   2 = Command_ColonelBurtonTimedDemoCharge : CONTROLBAR:TimedDemoCharge "Charge à retardement: &T"
   4 = Command_ColonelBurtonRemoteDemoCharge : CONTROLBAR:RemoteDemoCharge "Charge télécommandée: &R"
-  6 = Command_ColonelBurtonDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &D"
+  6 = Command_ColonelBurtonDetonateCharges : CONTROLBAR:DetonateCharges "Faire exploser charges: &P"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attaquer: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Protéger: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Stopper: &S"
@@ -5597,7 +5597,7 @@ CommandSet Lazr_AmericaInfantryColonelBurtonCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, F, I, J, K, L, M, N, P, U, V, W, Y, Z, 
+    Available keys: B, C, D, F, I, J, K, L, M, N, U, V, W, Y, Z, 
 End
 
 CommandSet Lazr_AmericaVehicleChinookCommandSet
