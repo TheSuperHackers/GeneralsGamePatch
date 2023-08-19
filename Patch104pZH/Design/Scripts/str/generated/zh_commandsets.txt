@@ -185,11 +185,11 @@ CommandSet RailedTransportCommandSet
 End
 
 CommandSet CivilianTransportWithNukeCommandSet
-  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "引爆核武：&D"
+  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "引爆核武：&N"
   14 = Command_Stop : CONTROLBAR:Stop "停止：&S"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, O, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet AmericaInfantryRangerCommandSet
@@ -526,7 +526,7 @@ End
 
 CommandSet GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "載具偽裝：&C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&N"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "生化炸彈：&B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "高爆炸彈：&O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "移動攻擊：&A"
@@ -537,7 +537,7 @@ CommandSet GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: F, I, J, K, L, M, N, P, R, T, U, V, W, Y, Z, 
+    Available keys: D, F, I, J, K, L, M, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet GLAVehicleBattleBusCommandSet
@@ -1688,48 +1688,48 @@ CommandSet GLABarracksCommandSet
 End
 
 CommandSet FakeGLACommandCenterCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&N"
   2 = Command_BecomeRealGLACommandCenter : CONTROLBAR:BecomeRealGLACommandCenter "轉變為指揮中心：&B"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLABarracksCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&N"
   2 = Command_BecomeRealGLABarracks : CONTROLBAR:BecomeRealGLABarracks "轉變為兵營：&B"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLASupplyStashCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&N"
   2 = Command_BecomeRealGLASupplyStash : CONTROLBAR:BecomeRealGLASupplyStash "轉變為補給站：&B"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLAArmsDealerCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&N"
   2 = Command_BecomeRealGLAArmsDealer : CONTROLBAR:BecomeRealGLAArmsDealer "轉變為軍火商：&B"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet FakeGLABlackMarketCommandSet
-  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&D"
+  1 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "立即引爆：&N"
   2 = Command_BecomeRealGLABlackMarket : CONTROLBAR:BecomeRealGLABlackMarket "轉變為黑市：&B"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, E, F, G, I, J, K, L, M, N, O, P, R, S, T, U, V, W, X, Y, Z, 
+    Available keys: A, C, D, E, F, G, I, J, K, L, M, O, P, R, S, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet GLABlackMarketCommandSet
@@ -2854,7 +2854,7 @@ End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "載具偽裝：&C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&N"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "高爆炸彈：&O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "移動攻擊：&A"
   13 = Command_Guard : CONTROLBAR:Guard "防禦：&G"
@@ -2864,7 +2864,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, F, I, J, K, L, M, N, P, R, T, U, V, W, Y, Z, 
+    Available keys: B, D, F, I, J, K, L, M, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSet
@@ -3331,7 +3331,7 @@ End
 
 CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "載具偽裝：&C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&N"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "高爆炸彈：&O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "移動攻擊：&A"
   13 = Command_Guard : CONTROLBAR:Guard "防禦：&G"
@@ -3341,7 +3341,7 @@ CommandSet Demo_GLAVehicleBombTruckCommandSetUpgrade
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, F, I, J, K, L, M, N, P, R, T, U, V, W, Y, Z, 
+    Available keys: B, D, F, I, J, K, L, M, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Demo_GLAInfantryHijackerCommandSetUpgrade
@@ -3699,7 +3699,7 @@ End
 
 CommandSet Slth_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "載具偽裝：&C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&N"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "生化炸彈：&B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "高爆炸彈：&O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "移動攻擊：&A"
@@ -3710,7 +3710,7 @@ CommandSet Slth_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: F, I, J, K, L, M, N, P, R, T, U, V, W, Y, Z, 
+    Available keys: D, F, I, J, K, L, M, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Slth_GLAInfantryHijackerCommandSet
@@ -3860,7 +3860,7 @@ End
 
 CommandSet Chem_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "載具偽裝：&C"
-  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&D"
+  3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "立即引爆：&N"
   7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "生化炸彈：&B"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "移動攻擊：&A"
   13 = Command_Guard : CONTROLBAR:Guard "防禦：&G"
@@ -3870,7 +3870,7 @@ CommandSet Chem_GLAVehicleBombTruckCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: F, I, J, K, L, M, N, O, P, R, T, U, V, W, Y, Z, 
+    Available keys: D, F, I, J, K, L, M, O, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet Chem_GLAVehicleScudLauncherCommandSet

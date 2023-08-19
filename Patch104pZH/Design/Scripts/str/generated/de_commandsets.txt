@@ -185,11 +185,11 @@ CommandSet RailedTransportCommandSet
 End
 
 CommandSet CivilianTransportWithNukeCommandSet
-  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Atombombe zünden: &D"
+  1 = Command_DetonateConvoyTruckNuke : CONTROLBAR:DetonateNuke "Atombombe zünden: &O"
   14 = Command_Stop : CONTROLBAR:Stop "Stopp: &S"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet AmericaInfantryRangerCommandSet
@@ -2055,12 +2055,12 @@ CommandSet GC_Chem_GLAPalaceCommandSet
   6 = Command_Evacuate : CONTROLBAR:Evacuate "Evakuieren: &V"
   7 = Command_UpgradeGLAFortifiedStructure : CONTROLBAR:UpgradeGLAFortifiedStructure "Befestigte Struktur: &E"
   8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Cyborg-Trupp bewaffnen: &B"
-  11 = GC_Chem_Command_UpgradeGLAAnthraxGamma : CONTROLBAR:UpgradeGLAAnthraxGamma "Gamma-Upgrade: &X"
+  11 = GC_Chem_Command_UpgradeGLAAnthraxGamma : CONTROLBAR:UpgradeGLAAnthraxGamma "Gamma-Upgrade: &G"
   13 = Command_Stop : CONTROLBAR:Stop "Stopp: &S"
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, D, F, G, I, J, K, L, M, N, O, P, R, T, U, W, Y, Z, 
+    Available keys: A, C, D, F, I, J, K, L, M, N, O, P, R, T, U, W, X, Y, Z, 
 End
 
 CommandSet GC_Chem_GLACommandCenterCommandSet
@@ -3894,12 +3894,12 @@ CommandSet Chem_GLAPalaceCommandSet
   6 = Command_Evacuate : CONTROLBAR:Evacuate "Evakuieren: &V"
   7 = Command_UpgradeGLAFortifiedStructure : CONTROLBAR:UpgradeGLAFortifiedStructure "Befestigte Struktur: &E"
   8 = Command_UpgradeGLAArmTheMob : CONTROLBAR:UpgradeGLAArmTheMob "Cyborg-Trupp bewaffnen: &B"
-  11 = Chem_Command_UpgradeGLAAnthraxGamma : CONTROLBAR:UpgradeGLAAnthraxGamma "Gamma-Upgrade: &X"
+  11 = Chem_Command_UpgradeGLAAnthraxGamma : CONTROLBAR:UpgradeGLAAnthraxGamma "Gamma-Upgrade: &G"
   13 = Command_Stop : CONTROLBAR:Stop "Stopp: &S"
   14 = Command_Sell : CONTROLBAR:Sell "Verkaufen"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, C, D, F, G, I, J, K, L, M, N, O, P, R, T, U, W, Y, Z, 
+    Available keys: A, C, D, F, I, J, K, L, M, N, O, P, R, T, U, W, X, Y, Z, 
 End
 
 CommandSet Chem_GLACommandCenterCommandSet
