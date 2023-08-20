@@ -5,6 +5,7 @@ title: Fixes description error in tooltip text of China Nuke Mig
 
 changes:
   - fix: The tooltip text of the China Nuke Mig no longer claims that it creates a fire storm.
+  - fix: The tooltip text of the China Nuke Mig now tells that it shoots missiles with radiation shells.
 
 labels:
   - bug
@@ -15,6 +16,8 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/840
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2259
 
 authors:
   - commy2
+  - xezon
