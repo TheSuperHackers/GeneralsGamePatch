@@ -223,7 +223,8 @@ def read_string_entries(generals_str: Path, lang_code: str, category: str, requi
             if line.startswith("//patch104p-optional-begin"):
                 skip = True
                 continue
-            elif line.startswith("//patch104p-optional-end"):
+
+            if line.startswith("//patch104p-optional-end"):
                 skip = False
                 continue
 
@@ -548,24 +549,24 @@ def find_with(
         command_map_ini: Path,
         lang_code: str) -> None:
 
+    out_path = build_abs_path("generated")
+    out_path.mkdir(exist_ok=True)
+
     control_command_maps: list[CommandMap] = read_command_map_entries(command_map_ini, CommandMapCategory.CONTROL, CommandMapModifier.NONE, CommandMapUseableIn.GAME)
     selection_command_maps: list[CommandMap] = read_command_map_entries(command_map_ini, CommandMapCategory.SELECTION, CommandMapModifier.NONE, CommandMapUseableIn.GAME)
 
     strings: list[StringEntry] = []
     strings.extend(read_string_entries(generals_str, lang_code, "CONTROLBAR:", requires_key=False))
+    strings.extend(read_string_entries(generals_str, lang_code, "UPGRADE:", requires_key=False))
 
     find_invalid_keys(strings, lang_code)
     find_duplicate_keys(strings, lang_code)
 
     strings.extend(read_string_entries(generals_str, lang_code, "OBJECT:", requires_key=False))
-    strings.extend(read_string_entries(generals_str, lang_code, "UPGRADE:", requires_key=False))
     strings.extend(read_string_entries(generals_str, lang_code, "GUI:", requires_key=False))
 
     command_buttons: list[CommandButton] = read_command_button_entries(command_button_ini, strings)
     command_sets: list[CommandSet] = read_command_set_entries(command_set_ini, command_buttons)
-
-    out_path = build_abs_path("generated")
-    out_path.mkdir(exist_ok=True)
 
     dump_command_sets(command_sets, control_command_maps, selection_command_maps, lang_code)
     find_conflicts(command_sets, control_command_maps, selection_command_maps, lang_code)

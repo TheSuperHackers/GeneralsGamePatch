@@ -3406,13 +3406,13 @@ CommandSet Demo_GLABarracksCommandSetUpgrade
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Angry Mob: &Y"
   6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Capture Building: &C"
-  12 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "Detonate Now! &N"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicide: &I"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Rally Point: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sell"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
-    Available keys: A, D, E, F, I, K, L, M, O, P, S, U, V, X, Z, 
+    Available keys: A, D, E, F, K, L, M, N, O, P, S, U, V, X, Z, 
 End
 
 CommandSet Demo_GLABlackMarketCommandSetUpgrade

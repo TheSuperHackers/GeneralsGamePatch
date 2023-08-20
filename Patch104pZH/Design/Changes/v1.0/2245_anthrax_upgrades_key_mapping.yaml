@@ -1,0 +1,20 @@
+---
+date: 2023-08-19
+
+title: Streamlines key mappings of GLA Anthrax Beta and Anthrax Gamma upgrades
+
+changes:
+  - tweak: The GLA Anthrax Beta and Anthrax Gamma upgrades can now be researched with the same keys in all languages.
+
+labels:
+  - gla
+  - minor
+  - optional
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2245
+
+authors:
+  - xezon

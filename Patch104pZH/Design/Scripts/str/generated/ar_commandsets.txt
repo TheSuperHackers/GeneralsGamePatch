@@ -3406,7 +3406,7 @@ CommandSet Demo_GLABarracksCommandSetUpgrade
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "راﻮﺜﻟا"
   6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "ﻦﯿﻣرﺎﺟ ﻞﺗﺎﻘﻟا"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "تﺄﺸﻨﻤﻟا ﻰﻠﻋ ءﻼﯿﺘﺳﻹا"
-  12 = Command_DetonateFakeBuilding : CONTROLBAR:DetonateFakeBuilding "! ﻥﺂﻟا ﺮﻴﺠﻔﺗ"
+  12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "رﺎﺤﺘﻧﻹا"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "ﺮﺻﺎﻨﻌﻟاو تاﺪﺣﻮﻟا عﺎﻤﺘﺟإ ﺔﻄﻘﻧ"
   14 = Command_Sell : CONTROLBAR:Sell "ةﺄﺸﻨﻤﻟا ﻊﯿﺑ"
   CommandMap VIEW_COMMAND_CENTER : "H"

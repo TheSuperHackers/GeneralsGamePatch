@@ -17,8 +17,8 @@ subchanges:
   - fix: The China Nuclear Tanks can now be researched with key P and no longer conflicts with Nationalism (N).
   - fix: The China Carpet Bomb can now be placed with key T and no longer conflicts with Dozer (B).
   - fix: The China EMP Pulse can now be placed with key E and no longer conflicts with Tank Paradrop (P).
-  - fix: The China Napalm Bomb Drop can now be triggered with key N and no longer conflicts with Guard (W).
-  - fix: The China Nuke Bomb Drop can now be triggered with key N and no longer conflicts with Guard (W).
+  - fix: The China Napalm Bomb Drop can now be triggered with key D and no longer conflicts with Guard (W).
+  - fix: The China Nuke Bomb Drop can now be triggered with key D and no longer conflicts with Guard (W).
   - fix: The China Super Hacker can now be produced with key A and no longer conflicts with Super Lotus (S).
   - fix: The China Attack Outpost can now be produced with key S and no longer conflicts with View Command Center (H).
   - fix: The China Attack Helix can now be produced with key X and no longer conflicts with View Command Center (H).
@@ -28,7 +28,7 @@ subchanges:
   - fix: The GLA Truck Bio Bomb can now be researched with key B and no longer conflicts with Stop (S).
   - fix: The GLA Toxin Shells can now be researched with key T and no longer conflicts with Stop (S).
   - fix: The GLA Ambush can now be placed with key I and no longer conflicts with Camo Netting (N).
-  - fix: The GLA Sneak Attack can now be placed with key S and no longer conflicts with Ambush (N).
+  - fix: The GLA Sneak Attack can now be placed with key T and no longer conflicts with Ambush (N).
   - fix: The GLA Toxin Terrorist can now be produced with key B and no longer conflicts with Toxin Rebel (S).
   - fix: The GLA Toxin Tunnel can now be constructed with key N and no longer conflicts with Stop (S).
   - fix: The USA Combat Drop can now be triggered with key N and no longer conflicts with Attack Move (A).
@@ -56,6 +56,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2102
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2123
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2242
 
 authors:
   - xezon

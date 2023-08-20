@@ -1,0 +1,69 @@
+---
+date: 2023-08-17
+
+title: Adds missing key mappings to German localization
+
+changes:
+  - fix: 60 missing key mappings are added to the German localization. Some of the new key mappings may not be available in the game and are not listed here.
+
+subchanges:
+  - fix: The China Internet Center can now be constructed with key Z.
+  - fix: The China Advanced Nuclear Reactor can now be constructed with key R.
+  - fix: The China Helix Nuke Bomb upgrade can now be researched with key N.
+  - fix: The China Uranium Shells upgrade can now be researched with key U.
+  - fix: The China Neutron Shells upgrade can now be researched with key S.
+  - fix: The China Fusion Reactor upgrade can now be researched with key F.
+  - fix: The China Helix Napalm Bomb upgrade can now be researched with key N.
+  - fix: The China Nuke Mig upgrade can now be researched with key G.
+  - fix: The China Nuke Warhead can now be selected with key N.
+  - fix: The China ECM disable vehicle ability can now be triggered with key D.
+  - fix: The China Frenzy can now be placed with key Y.
+  - fix: The China Nuke Carpet Bomber can now be placed with key T.
+  - fix: The Fake GLA Command Center can now be constructed with key O.
+  - fix: The Fake GLA Barrack can now be constructed with key K.
+  - fix: The Fake GLA Supply Stack can now be constructed with key G.
+  - fix: The Fake GLA Arms Dealer can now be constructed with key W.
+  - fix: The Fake GLA Black Market can now be constructed with key R.
+  - fix: The GLA Battle Bus can now be constructed with key E.
+  - fix: The GLA Advanced Demo Trap can now be constructed with key F.
+  - fix: The GLA Real building upgrade can now be researched with key B.
+  - fix: The GLA Booby Trap upgrade can now be researched with key O.
+  - fix: The GLA Anthrax Gamma upgrade can now be researched with key G.
+  - fix: The GLA Worker Shoes upgrade can now be researched with key S.
+  - fix: The GLA Suicide upgrade can now be researched with key D.
+  - fix: The GLA Fake building detonation can now be triggered with key D.
+  - fix: The GLA Booby Trap attack can now be triggered with key D.
+  - fix: The GLA Suicide attack can now be triggered with key J.
+  - fix: The GLA Sabotage ability can now be triggered with key B.
+  - fix: The GLA Worker fake building command set can now be selected with key A.
+  - fix: The GLA Worker real building command set can now be selected with key A.
+  - fix: The GLA Combat Bike can now be produced with key Y.
+  - fix: The USA Fire Base can now be constructed with key G.
+  - fix: The USA EMP Patriot can now be constructed with key B.
+  - fix: The USA Laser Turret can now be constructed with key B.
+  - fix: The USA Sentry Drone Gun upgrade can now be researched with key N.
+  - fix: The USA MOAB upgrade can now be researched with key M.
+  - fix: The USA Countermeasures upgrade can now be researched with key O.
+  - fix: The USA Chemical Suits upgrade can now be researched with key Z.
+  - fix: The USA Stealth Comanche upgrade can now be researched with key S.
+  - fix: The USA Advanced Control Rods can now be researched with key B.
+  - fix: The USA Leaflet Drop can now be placed with key L.
+  - fix: The USA Spectre Gunship can now be placed with key G.
+  - fix: The USA Laser Crusader can now be produced with key C.
+
+labels:
+  - boss
+  - bug
+  - china
+  - gla
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2242
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2245
+
+authors:
+  - xezon
