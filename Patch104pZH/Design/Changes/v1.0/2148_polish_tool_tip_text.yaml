@@ -5,6 +5,7 @@ title: Fixes inconsistent wording in Polish tool tip strings
 
 changes:
   - fix: The wording in Polish tool tip strings is more consistent now.
+  - fix: The tool tip string of the GLA Scud Launcher now has more consistent wording.
 
 labels:
   - minor
@@ -15,6 +16,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2148
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2153
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249
 
 authors:
   - xezon
