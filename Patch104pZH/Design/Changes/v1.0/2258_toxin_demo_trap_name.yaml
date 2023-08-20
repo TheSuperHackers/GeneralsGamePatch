@@ -1,0 +1,19 @@
+---
+date: 2023-08-20
+
+title: Adds object name variant to GLA Toxin Demo Trap
+
+changes:
+  - fix: The GLA Toxin Demo Trap now shows its own name for all latin languages.
+
+labels:
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2258
+
+authors:
+  - xezon
