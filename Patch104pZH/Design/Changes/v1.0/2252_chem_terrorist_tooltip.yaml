@@ -1,0 +1,20 @@
+---
+date: 2023-08-20
+
+title: Fixes inconsistencies and missing information in tool tip strings of GLA Toxin Terrorist
+
+changes:
+  - fix: The tool tip strings of the GLA Toxin Terrorist now list its strenghts and weaknesses.
+  - fix: The tool tip strings of the GLA Toxin Terrorist now have consistent wording with the regular Terrorist.
+
+labels:
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2252
+
+authors:
+  - xezon
