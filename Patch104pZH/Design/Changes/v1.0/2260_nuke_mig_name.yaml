@@ -1,0 +1,19 @@
+---
+date: 2023-08-20
+
+title: Adds object name variant to China Nuke MiG
+
+changes:
+  - fix: The China Nuke MiG now shows its own name for all languages.
+
+labels:
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2260
+
+authors:
+  - xezon
