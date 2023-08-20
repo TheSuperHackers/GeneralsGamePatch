@@ -1,0 +1,20 @@
+---
+date: 2023-08-20
+
+title: Buffs Frenzy General's Power ability
+
+changes:
+  - tweak: All levels of Frenzy now grant +30% fire power.
+  - tweak: Effect duration increased at Frenzy level 3: Progression is now 10, 20 and 40 seconds.
+
+labels:
+  - buff
+  - china
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/xxxx
+
+authors:
+  - commy2
