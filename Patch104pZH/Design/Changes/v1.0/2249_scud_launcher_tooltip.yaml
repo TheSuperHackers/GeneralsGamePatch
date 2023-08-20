@@ -1,0 +1,19 @@
+---
+date: 2023-08-20
+
+title: Adds proper tool tip variants to GLA Demo Scud Launcher and Toxin Scud Launcher
+
+changes:
+  - fix: The tool tip strings of the GLA Demo Scud Launcher and Toxin Scud Launcher now properly state the kind of warhead they carry in all latin languages.
+
+labels:
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249
+
+authors:
+  - xezon
