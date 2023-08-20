@@ -9,6 +9,7 @@ changes:
   - fix: More German tool tip strings now list the correct strengths and weaknesses.
   - fix: The TOOLTIP:GameInfoPlayer string now shows its number format in German text.
   - fix: The CONTROLBAR:PowerDescription string now shows proper sentences and number format in German text.
+  - fix: The German tool tip for the GLA Terrorist now describes the unit as "Kamikaze Bombe" and is therefore more consistent with the English wording.
 
 labels:
   - minor
@@ -20,6 +21,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2216
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2252
 
 authors:
   - xezon
