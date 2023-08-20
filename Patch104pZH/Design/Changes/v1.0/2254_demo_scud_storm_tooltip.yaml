@@ -1,0 +1,19 @@
+---
+date: 2023-08-20
+
+title: Adds proper tool tip variant to GLA Demo Scud Storm
+
+changes:
+  - fix: The tool tip strings of the GLA Demo Scud Storm now describe its stronger missiles for all latin languages.
+
+labels:
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2254
+
+authors:
+  - xezon
