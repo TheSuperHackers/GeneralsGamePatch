@@ -1,0 +1,19 @@
+---
+date: 2023-08-21
+
+title: Adds missing bomb planting animation for GLA Demolition Jarmen Kell
+
+changes:
+  - fix: Add animation for placing timed and remote demo charges to GLA Demolition Jarmen Kell.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2267
+
+authors:
+  - commy2
