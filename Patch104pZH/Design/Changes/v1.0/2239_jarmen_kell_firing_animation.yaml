@@ -1,7 +1,7 @@
 ---
 date: 2023-08-21
 
-title: GLA Jarmen Kell recoil animation aborted after kill shot
+title: Fixes broken kill shot recoil animation of GLA Jarmen Kell
 
 changes:
   - fix: GLA Jarmen Kell no longer displays permanent muzzle flash in transition animations such as while paradropping.
