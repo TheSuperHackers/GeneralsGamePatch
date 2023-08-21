@@ -4,7 +4,7 @@ date: 2023-08-21
 title: Removes Command Center scaffold requirement from GLA Cash Bounty activation
 
 changes:
-  - fix: GLA Cash Bounty no longer requires a GLA Command Center scaffold to be placed down to active or upgrade
+  - fix: The GLA Cash Bounty no longer requires a GLA Command Center scaffold or structure to activate or upgrade. It works entirely passive now.
 
 labels:
   - boss
