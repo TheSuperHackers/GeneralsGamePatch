@@ -1,7 +1,7 @@
 ---
 date: 2023-08-21
 
-title: Fixes GLA Cash Bounty activation
+title: Removes Command Center scaffold requirement from GLA Cash Bounty activation
 
 changes:
   - fix: GLA Cash Bounty no longer requires a GLA Command Center scaffold to be placed down to active or upgrade
