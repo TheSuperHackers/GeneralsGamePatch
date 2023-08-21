@@ -1,0 +1,23 @@
+---
+date: 2023-08-21
+
+title: Fixes GLA Cash Bounty activation
+
+changes:
+  - fix: GLA Cash Bounty no longer requires a GLA Command Center scaffold to be placed down to active or upgrade
+
+labels:
+  - boss
+  - bug
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2263
+
+authors:
+  - commy2
