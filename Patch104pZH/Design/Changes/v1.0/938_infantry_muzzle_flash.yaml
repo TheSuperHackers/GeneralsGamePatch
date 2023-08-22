@@ -11,6 +11,7 @@ changes:
         - China Minigunner
         - GLA Rebel
         - GLA Angry Mob
+        - GLA Jarmen Kell
 
 labels:
   - bug
@@ -22,6 +23,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/938
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2239
 
 authors:
   - commy2

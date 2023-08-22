@@ -5,7 +5,6 @@ title: Fixes broken kill shot recoil animation of GLA Jarmen Kell
 
 changes:
   - fix: GLA Jarmen Kell no longer displays permanent muzzle flash in transition animations such as while paradropping.
-  - fix: GLA Jarmen Kell now has a visible muzzle fire in addition to the muzzle flash when sniping infantry.
   - fix: GLA Jarmen Kell recoil animation is no longer aborted prematurely when switching targets.
 
 labels:
