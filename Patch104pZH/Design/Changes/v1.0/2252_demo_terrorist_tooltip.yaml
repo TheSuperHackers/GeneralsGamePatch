@@ -1,7 +1,7 @@
 ---
 date: 2023-08-20
 
-title: Adds proper tool tip variant to GLA Demo Terrorist
+title: Adds tool tip variant to GLA Demo Terrorist
 
 changes:
   - fix: The tool tip strings of the GLA Demo Terrorist now describe its stronger explosives for all latin languages.
