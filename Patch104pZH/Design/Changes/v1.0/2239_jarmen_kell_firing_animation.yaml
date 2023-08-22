@@ -1,0 +1,21 @@
+---
+date: 2023-08-21
+
+title: Fixes broken kill shot recoil animation of GLA Jarmen Kell
+
+changes:
+  - fix: GLA Jarmen Kell no longer displays permanent muzzle flash in transition animations such as while paradropping.
+  - fix: GLA Jarmen Kell recoil animation is no longer aborted prematurely when switching targets.
+
+labels:
+  - boss
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2239
+
+authors:
+  - commy2
