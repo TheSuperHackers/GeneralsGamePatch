@@ -1,17 +1,17 @@
 ---
 date: 2022-08-06
 
-title: Makes USA Supply Drop Zone Cargo Planes unattackable
+title: Makes USA Supply Drop Zone Cargo Planes not automatically attacked
 
 changes:
-  - tweak: |
-      The USA Supply Drop Zone Cargo Planes can not longer be attacked. This
+  - tweak:
+      The USA Supply Drop Zone Cargo Planes are no longer attacked automatically. This
         - gets rid of attack notification spams on Radar and Voice
         - improves performance in spam and AOD matches where many planes no longer draw fire
         - removes the auto attack from Mig, Raptor in guard modes
         - preserves the Cargo Plane flight route so enemy player knows where it comes from
-        - removes the ability to stop a Cargo Plane before it can drop the money crates
         - removes this free and passive cannon fodder unit for the USA Faction
+      They can still be attacked by left-clicking on them with anti-air units selected.
 
 labels:
   - design
@@ -22,6 +22,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/836
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2279
 
 authors:
   - commy2
