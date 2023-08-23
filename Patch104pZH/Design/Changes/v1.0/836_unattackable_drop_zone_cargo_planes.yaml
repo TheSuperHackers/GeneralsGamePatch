@@ -4,7 +4,7 @@ date: 2022-08-06
 title: Makes USA Supply Drop Zone Cargo Planes not automatically attacked
 
 changes:
-  - tweak:
+  - tweak: |
       The USA Supply Drop Zone Cargo Planes are no longer attacked automatically. This
         - gets rid of attack notification spams on Radar and Voice
         - improves performance in spam and AOD matches where many planes no longer draw fire
