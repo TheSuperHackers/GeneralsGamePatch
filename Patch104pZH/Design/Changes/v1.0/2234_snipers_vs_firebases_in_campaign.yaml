@@ -1,7 +1,7 @@
 ---
 date: 2023-08-26
 
-title: GLA Jarmen Kell and USA Pathfinders can no longer destroy Fire Bases on some campaign maps
+title: Fixes GLA Jarmen Kell and USA Pathfinders being able to destroy Fire Bases on some campaign maps
 
 changes:
   - fix: USA Fire Base is no longer made vulnerable to sniper damage on the China03 campaign map.

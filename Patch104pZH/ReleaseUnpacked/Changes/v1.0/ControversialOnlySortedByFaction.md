@@ -6,30 +6,30 @@ Includes changes with labels: controversial
 Occuring labels are
 
 - audio (2)
-- buff (69)
-- bug (37)
-- china (43)
-- civilian (3)
-- controversial (116)
-- design (92)
+- boss (1)
+- buff (72)
+- bug (38)
+- china (44)
+- civilian (4)
+- controversial (119)
+- design (94)
 - enhancement (1)
-- gla (40)
+- gla (42)
 - gui (1)
-- major (46)
-- minor (69)
+- major (47)
+- minor (71)
 - nerf (23)
 - usa (33)
-- v1.0 (116)
+- v1.0 (119)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 116 entries with
+Contains 119 entries with
 
-- 142 changes
-  - TWEAK (90)
-  - FIX (44)
+- 144 changes
+  - TWEAK (92)
+  - FIX (45)
   - FEATURE (7)
-  - OPTIMIZATION (1)
 - 20 subchanges
   - FIX (20)
 
@@ -68,6 +68,7 @@ Contains 116 entries with
 - [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
 - [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
 - [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
+- [2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25](#link__20230212__1680_supply_truck_xp_reward)
 - [2021-08-22 - Improves mobility of China Dozer](#link__20210822__6_china_dozer_locomotor)
 - [2021-08-28 - Fixes China Infantry Minigunner being difficult to crush with vehicles](#link__20210828__97_minigunner_crush)
 - [2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely](#link__20210905__410_nuke_missile_blasts)
@@ -108,6 +109,7 @@ Contains 116 entries with
 - [2023-06-04 - Increases armor of China Internet Center against Explosion attacks by 28.5%](#link__20230604__1989_internet_center_explosion_armor)
 - [2023-06-04 - Increases armor of China Internet Center against Particle Cannon beams by 25%](#link__20230604__1989_internet_center_particle_beam_armor)
 - [2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30%](#link__20230622__2027_internet_center_aurora_bomb_armor)
+- [2023-08-21 - Removes Command Center scaffold requirement from GLA Cash Bounty activation](#link__20230821__2263_cash_bounty_activation)
 - [2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma](#link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage)
 - [2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds](#link__20210903__164_demo_technical_suicide_delay)
 - [2021-09-11 - Fixes GLA Car Bomb unable to attack target](#link__20210911__307_car_bomb_attack_bug)
@@ -115,7 +117,6 @@ Contains 116 entries with
 - [2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles](#link__20211001__440_demo_trap_triggered_by_puddles)
 - [2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings](#link__20211010__544_stealth_saboteur_ability)
 - [2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market](#link__20211010__547_regular_saboteur_ability)
-- [2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold](#link__20211024__595_cash_bounty_activation)
 - [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#link__20220716__695_toxin_terrorist_death)
 - [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#link__20220716__697_all_terrorist_crush_damage)
 - [2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade](#link__20220716__699_toxin_terrorist_damage)
@@ -136,6 +137,7 @@ Contains 116 entries with
 - [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
 - [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
 - [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
+- [2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
 - [2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175](#link__20230610__2002_anthrax_beta_scud_storm_damage)
 - [2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500](#link__20230610__2002_anthrax_gamma_scud_storm_damage)
@@ -143,6 +145,7 @@ Contains 116 entries with
 - [2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5](#link__20230617__2014_small_poison_field_radius)
 - [2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds](#link__20230618__2015_toxin_trap_build_time)
 - [2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50%](#link__20230629__2051_toxin_tractor_radiation_armor)
+- [2023-08-26 - Increases movement speed of injured GLA Angry Mob members to prevent them from falling behind and dying](#link__20230826__2290_angry_mob_movement)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
 - [2023-02-04 - Fixes crushable levels of Civilian cars](#link__20230204__1625_civ_car_crushable_level)
 - [2023-02-04 - Fixes crusher levels of Civilian cars](#link__20230204__1625_civ_car_crusher_level)
@@ -664,6 +667,7 @@ Contains 116 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2026](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2026)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2272](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2272)
 
 **Labels:** buff, controversial, design, major, usa, v1.0
 
@@ -706,6 +710,23 @@ Contains 116 entries with
 **Authors:** xezon
 
 **Source:** 2023_hazard_field_cleanup_health_and_damage.yaml
+
+---
+### 2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25 <a name='link__20230212__1680_supply_truck_xp_reward'></a>
+**Changes**
+
+- **TWEAK**: The China Supply Truck now gives 25 XP instead of 50 XP on kill. This takes a bit of pressure off of China when losing Supply Trucks to the opposition by not promoting enemy units as much.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1680](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1680)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2293](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2293)
+
+**Labels:** buff, china, civilian, controversial, design, major, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1680_supply_truck_xp_reward.yaml
 
 ---
 ### 2021-08-22 - Improves mobility of China Dozer <a name='link__20210822__6_china_dozer_locomotor'></a>
@@ -1375,6 +1396,23 @@ Contains 116 entries with
 **Source:** 2027_internet_center_aurora_bomb_armor.yaml
 
 ---
+### 2023-08-21 - Removes Command Center scaffold requirement from GLA Cash Bounty activation <a name='link__20230821__2263_cash_bounty_activation'></a>
+**Changes**
+
+- **FIX**: The GLA Cash Bounty no longer requires a GLA Command Center scaffold or structure to activate or upgrade. It works entirely passive now.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2263](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2263)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2298](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2298)
+
+**Labels:** boss, buff, bug, controversial, design, gla, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2263_cash_bounty_activation.yaml
+
+---
 ### 2021-08-29 - Fixes GLA Demo Combat Bike not dealing suicide damage when killed by Anthrax Gamma <a name='link__20210829__104_demo_combat_bike_gamme_anthrax_death_damage'></a>
 **Changes**
 
@@ -1486,24 +1524,6 @@ Contains 116 entries with
 **Authors:** commy2
 
 **Source:** 547_regular_saboteur_ability.yaml
-
----
-### 2021-10-24 - Fixes GLA Cash Bounty activation with an unfinished Command Center scaffold <a name='link__20211024__595_cash_bounty_activation'></a>
-**Changes**
-
-- **FIX**: The GLA Cash Bounty is no longer activated with an unfinished Command Center. The Command Center construction must finish to complete the activation process. After activation is completed, the Command Center can be demolished and the Cash Bounty will stay active. A new Cash Bounty level will require a new Command Center for activation however.
-- **OPTIMIZATION**: The GLA Cash Bounty dummy object spawn interval is set to 1000 ms.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764)
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/595)
-
-**Labels:** bug, controversial, design, gla, major, nerf, v1.0
-
-**Authors:** commy2
-
-**Source:** 595_cash_bounty_activation.yaml
 
 ---
 ### 2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist <a name='link__20220716__695_toxin_terrorist_death'></a>
@@ -1831,6 +1851,22 @@ Contains 116 entries with
 **Source:** 1699_scorpion_idle_reload.yaml
 
 ---
+### 2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150 <a name='link__20230212__1680_technical_xp_requirement'></a>
+**Changes**
+
+- **TWEAK**: The GLA Technical now requires 100 XP instead of just 75 XP to reach elite rank. This makes it a bit more challenging for GLA to acquire strong Technicals.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1680](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1680)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1680_technical_xp_requirement.yaml
+
+---
 ### 2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms <a name='link__20230212__1688_salvage_crate_despawn_time'></a>
 **Changes**
 
@@ -1943,6 +1979,22 @@ Contains 116 entries with
 **Authors:** xezon
 
 **Source:** 2051_toxin_tractor_radiation_armor.yaml
+
+---
+### 2023-08-26 - Increases movement speed of injured GLA Angry Mob members to prevent them from falling behind and dying <a name='link__20230826__2290_angry_mob_movement'></a>
+**Changes**
+
+- **FIX**: Injured members no longer slow down the GLA Angry Mob. This way they no longer lag behind and die off at a distance.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2290](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2290)
+
+**Labels:** buff, bug, controversial, gla, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2290_angry_mob_movement.yaml
 
 ---
 ### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>

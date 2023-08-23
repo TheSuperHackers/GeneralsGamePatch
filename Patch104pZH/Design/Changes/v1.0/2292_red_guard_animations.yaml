@@ -1,7 +1,7 @@
 ---
 date: 2023-08-27
 
-title: Improves and fixes issues with the China Red Guard animations
+title: Fixes and improves the China Red Guard animations
 
 changes:
   - fix: China Red Guard had the wrong animation when getting injured while standing.

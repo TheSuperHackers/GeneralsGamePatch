@@ -1,7 +1,7 @@
 ---
 date: 2023-08-25
 
-title: Fixes armor of USA05 campaign map enemy infantry against rocket infantry
+title: Fixes armor of enemy infantry against rocket infantry on USA05 campaign map
 
 changes:
   - fix: The GLA enemy infantry on the fifth USA campaign map is no longer weak to rocket infantry.
