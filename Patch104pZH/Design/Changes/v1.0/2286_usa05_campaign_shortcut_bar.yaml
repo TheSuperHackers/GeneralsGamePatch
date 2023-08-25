@@ -1,0 +1,19 @@
+---
+date: 2023-08-25
+
+title: Adds Ambush and Anthrax bomb to the players shortcut bar on the USA05 campaign map
+
+changes:
+  - fix: The Rebel Ambush and Anthrax Bomb powers of the recruited GLA allies are now available on the General's Power shortcut bar.
+
+labels:
+  - enhancement
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2286
+
+authors:
+  - commy2
