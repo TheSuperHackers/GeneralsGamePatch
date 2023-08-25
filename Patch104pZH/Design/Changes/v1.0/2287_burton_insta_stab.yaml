@@ -1,0 +1,19 @@
+---
+date: 2023-05-05
+
+title: Fix USA Colonel Burton Knife Attack animation skip
+
+changes:
+  - fix: Fixes an exploit that allows USA Colonel Burton to skip the animation before the Knife Attack.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2287
+
+authors:
+  - commy2
