@@ -4,7 +4,7 @@ date: 2022-09-01
 title: Fixes audio flaws in English sounds
 
 changes:
-  - fix: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 1238 English voices
+  - fix: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout, hissing in 1251 English voices
   - fix: Fixes noises, humming, crackling, clicking, popping, fadein, fadeout in 221 English eva voices
   - fix: Fixes noises, humming, crackling, clicking, popping in 53 common voices
   - fix: Fixes clicking, fadein, fadeout in 123 vehicle sounds
@@ -27,6 +27,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1822
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2240
 
 authors:
   - xezon
