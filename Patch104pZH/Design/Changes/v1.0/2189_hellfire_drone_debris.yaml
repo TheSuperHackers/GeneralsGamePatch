@@ -4,7 +4,7 @@ date: 2023-08-02
 title: Fixes wrong USA Hellfire Drone debris when shot down
 
 changes:
-  - fix: Hellfire Drone now uses unique debris when destroyed instead of Scout Drone debris.
+  - fix: The destroyed USA Hellfire Drone now shows unique debris instead of the Scout Drone debris.
 
 labels:
   - bug
