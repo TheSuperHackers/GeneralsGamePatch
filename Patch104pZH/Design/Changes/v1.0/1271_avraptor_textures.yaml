@@ -4,18 +4,21 @@ date: 2022-09-24
 title: Fixes and improves avraptor textures for USA Raptor
 
 changes:
-  - fix: Fixes avraptor textures. The damaged texture changes are very minor, therefore are optional.
+  - fix: Fixes avraptor textures.
 
 subchanges:
   - fix: |
       avraptor
         - Removes obsolete alpha channel
   - fix: |
-      avraptor_d (optional)
+      avraptor_d
         - Removes strong green color tint
         - Removes "butterfly" scorch marks
   - fix: |
-      avraptor_d1 (optional)
+      avraptor_d1
+        - Blends texture with avraptor_d for consistent damage look
+  - fix: |
+      avraptor_d1b
         - Blends texture with avraptor_d for consistent damage look
 
 labels:
@@ -23,12 +26,12 @@ labels:
   - bug
   - enhancement
   - minor
-  - optional
   - usa
   - v1.0
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1271
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2157
 
 authors:
   - xezon
