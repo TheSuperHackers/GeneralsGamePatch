@@ -1,10 +1,10 @@
 ---
-date: 2023-08-25
+date: 2023-08-24
 
-title: Enables China Bayonet Attack for use on custom maps
+title: Implements China Red Guard Bayonet Attack
 
 changes:
-  - fix: The China Red Guard and China Mini Gunner Bayonet Attack can now be used on custom maps.
+  - feature: The China Red Guard and Mini-Gunner Bayonet melee attack can now be used in custom maps.
 
 labels:
   - china
@@ -14,7 +14,7 @@ labels:
   - worldbuilder
 
 links:
-  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2282
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/xxxx
 
 authors:
   - commy2
