@@ -347,7 +347,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
  - [NOTRELEVANT] Battle Drone will more often repairing than attacking, balancing the removed Ambulance vehicle repair
  - [IMPROVEMENT][MINOR] Battle Drone now repair their master correctly (sometimes they attack/move to the enemy while repairing, which is fail)
  - [MAYBE] Changed Battle Drone weapon damage type from SMALL_ARMS to GATTLING
- - [IMPROVEMENT][MINOR] Hellfire Drone will spawn the right debris when destroyed
+ - [DONE][MINOR] Hellfire Drone will spawn the right debris when destroyed
 
  CHINOOK:
  - [IMPROVEMENT][MINOR] Improved Chinook model
