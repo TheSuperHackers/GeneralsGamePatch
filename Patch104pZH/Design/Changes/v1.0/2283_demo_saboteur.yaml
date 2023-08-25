@@ -1,7 +1,7 @@
 ---
 date: 2023-08-24
 
-title: Adds demolition charges ability to unused Demo GLA Saboteur
+title: Adds demolition charges, Suicide ability and unique voice lines to unused Demo GLA Saboteur
 
 changes:
   - feature: Demo GLA Saboteur can now place timed and remote demo charges.
