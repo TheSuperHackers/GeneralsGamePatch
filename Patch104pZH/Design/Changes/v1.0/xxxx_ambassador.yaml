@@ -4,6 +4,7 @@ date: 2023-08-25
 title: Fixes issues with the China Ambassador
 
 changes:
+  - fix: The China Ambassador now has a Stop-button.
   - fix: The China Ambassador now has freefalling and parachuting animations.
   - tweak: The China Ambassador now has increased shroud clearing range.
 
