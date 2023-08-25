@@ -1,7 +1,7 @@
 ---
 date: 2023-08-25
 
-title: Fix USA Colonel Burton Knife Attack animation skip
+title: Fix USA Colonel Burton instant Knife Attack exploit
 
 changes:
   - fix: Fixes an exploit that allows USA Colonel Burton to skip the animation before the Knife Attack.
