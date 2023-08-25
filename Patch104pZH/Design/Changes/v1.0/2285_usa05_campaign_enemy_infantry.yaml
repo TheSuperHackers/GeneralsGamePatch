@@ -1,0 +1,19 @@
+---
+date: 2023-08-25
+
+title: Fixes armor of enemy infantry on the USA05 campaign map.
+
+changes:
+  - fix: The GLA enemy infantry on the fifth USA campaign map is no longer weak to rocket infantry.
+
+labels:
+  - enhancement
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2285
+
+authors:
+  - commy2
