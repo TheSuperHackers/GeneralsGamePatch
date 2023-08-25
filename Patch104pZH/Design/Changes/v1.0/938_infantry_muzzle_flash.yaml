@@ -7,23 +7,35 @@ changes:
   - fix: |
       Muzzle flash effects no longer shows persistently during transition animations on
         - USA Ranger
+        - USA Missile Defender
+        - USA Pathfinder
+        - USA CIA Agent (USA04 campaign mission)
         - China Red Guard
+        - China Tank Hunter
         - China Minigunner
+        - China Parade Red Guard (worldbuilder)
+        - China Agent (worldbuilder)
         - GLA Rebel
         - GLA Angry Mob
         - GLA Jarmen Kell
+        - GLA Sniper (GLA02 campaign mission)
+        - China Officer (worldbuilder)
+        - Civilian UN Soldier
 
 labels:
+  - boss
   - bug
   - china
   - gla
   - minor
   - usa
+  - worldbuilder
   - v1.0
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/938
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2239
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2268
 
 authors:
   - commy2
