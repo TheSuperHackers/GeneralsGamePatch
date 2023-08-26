@@ -9,11 +9,13 @@ changes:
 labels:
   - bug
   - china
+  - civilian
   - minor
   - v1.0
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/96
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2293
 
 authors:
   - hanfield
