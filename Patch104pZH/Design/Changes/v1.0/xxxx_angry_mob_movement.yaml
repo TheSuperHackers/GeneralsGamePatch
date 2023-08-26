@@ -8,6 +8,8 @@ changes:
 
 labels:
   - buff
+  - bug
+  - controversial
   - gla
   - minor
   - v1.0
