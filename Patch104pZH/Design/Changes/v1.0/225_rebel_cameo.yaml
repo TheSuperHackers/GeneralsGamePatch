@@ -4,8 +4,8 @@ date: 2021-09-05
 title: Adds missing upgrade icons to GLA Rebels
 
 changes:
-  - fix: The Demo and Stealth General's Rebels now show the upgrade icon for Camouflage.
   - fix: The Demo Generals's Rebel now shows the upgrade icon for Booby Traps.
+  - tweak: The upgrade icons on the GLA Rebel are now placed consistently for all GLA sub-factions.
 
 labels:
   - bug
@@ -16,6 +16,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/225
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2294
 
 authors:
   - commy2
