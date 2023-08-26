@@ -1,7 +1,7 @@
 ---
 date: 2023-07-09
 
-title: Adds specialized names for GLA Stealth infantry unit variants in all languages
+title: Adds name variants to GLA Stealth infantry units for all languages
 
 changes:
   - fix: All GLA Stealth infantry unit variants now have their own unique names in all languages.
@@ -17,7 +17,6 @@ subchanges:
 labels:
   - gla
   - minor
-  - optional
   - text
   - v1.0
 
