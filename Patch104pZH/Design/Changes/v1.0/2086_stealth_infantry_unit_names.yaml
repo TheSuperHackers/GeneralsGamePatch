@@ -1,0 +1,27 @@
+---
+date: 2023-07-09
+
+title: Adds name variants to GLA Stealth infantry units for all languages
+
+changes:
+  - fix: All GLA Stealth infantry unit variants now have their own unique names in all languages.
+
+subchanges:
+  - fix: The GLA Stealth Rebel is now called "Stealth Rebel".
+  - fix: The GLA Stealth Hijacker is now called "Stealth Hijacker".
+  - fix: The GLA Stealth (Campaign) Tunnel Defender is now called "Stealth RPG Trooper".
+  - fix: The GLA Stealth (Campaign) Rebel is now called "Stealth Rebel".
+  - fix: The GLA Stealth (Campaign) Terrorist is now called "Stealth Terrorist".
+  - fix: The GLA Stealth (Campaign) Hijacker is now called "Stealth Hijacker".
+
+labels:
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2086
+
+authors:
+  - xezon
