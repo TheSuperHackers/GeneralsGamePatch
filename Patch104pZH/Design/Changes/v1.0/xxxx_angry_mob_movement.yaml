@@ -4,7 +4,7 @@ date: 2023-08-26
 title: Fixes movement speed of injured Angry Mob members
 
 changes:
-  - fix: Injured members no longer slow down the GLA Angry Mob.
+  - fix: Injured members no longer slow down the GLA Angry Mob. This way they no longer lag behind and die off at a distance.
 
 labels:
   - buff
