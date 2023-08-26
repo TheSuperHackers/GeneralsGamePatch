@@ -5,6 +5,7 @@ title: Adds proper tool tip variants to GLA Demo Scud Launcher and Toxin Scud La
 
 changes:
   - fix: The tool tip strings of the GLA Demo Scud Launcher and Toxin Scud Launcher now properly state the kind of warhead they carry in all latin languages.
+  - fix: The science strings of the GLA Scud Launcher no longer describe details about the rocket types.
 
 labels:
   - gla
