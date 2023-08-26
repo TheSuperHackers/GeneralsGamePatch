@@ -9,6 +9,7 @@ changes:
 labels:
   - buff
   - china
+  - civilian
   - controversial
   - design
   - major
@@ -16,6 +17,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1680
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2293
 
 authors:
   - Stubbjax
