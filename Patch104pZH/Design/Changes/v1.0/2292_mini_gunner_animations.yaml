@@ -1,0 +1,22 @@
+---
+date: 2023-08-27
+
+title: Improves and fixes issues with the China Mini Gunner animations
+
+changes:
+  - fix: China Mini Gunner had the wrong animation when getting injured while standing.
+  - tweak: China Mini Gunner now has short transition animations when starting and stopping movement while injured.
+  - fix: China Mini Gunner now spawns dust trails when moving while injured.
+
+labels:
+  - bug
+  - china
+  - enhancement
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2292
+
+authors:
+  - commy2
