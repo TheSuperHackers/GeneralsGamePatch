@@ -5,6 +5,7 @@ title: Fixes errors in Brazilian tool tip strings
 
 changes:
   - fix: The wording in Brazilian tool tip strings is more consistent now.
+  - fix: The Brazilian names for GLA Booby Trap and Demo Trap are now distinguishable from each other.
 
 labels:
   - minor
@@ -14,6 +15,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2257
 
 authors:
   - xezon
