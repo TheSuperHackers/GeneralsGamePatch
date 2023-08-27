@@ -7,6 +7,7 @@ changes:
   - fix: The wording in Polish tool tip strings is more consistent now.
   - fix: The wording in Polish tool tip strings for the GLA Scud Launcher is more consistent now.
   - fix: The China Helix is now called "Helis" instead of "Spiral" in Polish strings.
+  - fix: The Polish tool tip string of the China Infantry Helix no longer claims to let passengers shoot at each other.
 
 labels:
   - china
@@ -20,6 +21,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2153
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261
 
 authors:
   - xezon

@@ -1,0 +1,19 @@
+---
+date: 2023-08-20
+
+title: Fixes errors in tool tip strings of China Infantry Helix
+
+changes:
+  - fix: The latin tool tip strings of the China Infantry Helix no longer claim to be upgradable with all base defense structures.
+
+labels:
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261
+
+authors:
+  - xezon
