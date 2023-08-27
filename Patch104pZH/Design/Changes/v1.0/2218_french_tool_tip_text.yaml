@@ -7,9 +7,10 @@ changes:
   - fix: The wording in French tool tip strings is more consistent now.
   - fix: The French tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
   - fix: The TOOLTIP:NumberOfVotes, GUI:Ok, LAN:OK, MapTransfer:Done strings now have French text.
-  - fix: The tool tip string of the GLA Scud Launcher now has more consistent wording.
+  - fix: The wording in French tool tip strings for the GLA Scud Launcher is more consistent now.
 
 labels:
+  - gla
   - minor
   - text
   - v1.0

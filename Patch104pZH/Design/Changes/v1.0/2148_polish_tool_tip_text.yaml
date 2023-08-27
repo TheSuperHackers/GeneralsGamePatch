@@ -1,13 +1,16 @@
 ---
 date: 2023-07-26
 
-title: Fixes inconsistent wording in Polish tool tip strings
+title: Fixes errors in Polish strings
 
 changes:
   - fix: The wording in Polish tool tip strings is more consistent now.
-  - fix: The tool tip string of the GLA Scud Launcher now has more consistent wording.
+  - fix: The wording in Polish tool tip strings for the GLA Scud Launcher is more consistent now.
+  - fix: The China Helix is now called "Helis" instead of "Spiral" in Polish strings.
 
 labels:
+  - china
+  - gla
   - minor
   - text
   - v1.0
