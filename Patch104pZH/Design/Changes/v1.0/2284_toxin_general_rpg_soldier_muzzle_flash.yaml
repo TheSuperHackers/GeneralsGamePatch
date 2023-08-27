@@ -1,11 +1,11 @@
 ---
 date: 2023-08-27
 
-title: Fixes missing Toxin GLA RPG Soldier muzzle flash
+title: Fixes missing muzzle flash of GLA Toxin RPG Trooper
 
 changes:
-  - fix: Toxin GLA RPG Soldier now shows a muzzle flash when firing at ground targets.
-  - fix: Toxin GLA RPG Soldier (USA05 campaign) now shows a muzzle flash when firing at ground targets.
+  - fix: The GLA Toxin RPG Trooper now shows a muzzle flash when firing at ground targets.
+  - fix: The GLA Toxin RPG Trooper (USA05 campaign) now shows a muzzle flash when firing at ground targets.
 
 labels:
   - bug

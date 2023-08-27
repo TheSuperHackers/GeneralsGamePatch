@@ -1,7 +1,7 @@
 ---
 date: 2023-08-24
 
-title: Implements China Red Guard Bayonet Attack
+title: Implements unused China Red Guard Bayonet Attack
 
 changes:
   - feature: The China Red Guard and Mini-Gunner Bayonet melee attack can now be used in custom maps.

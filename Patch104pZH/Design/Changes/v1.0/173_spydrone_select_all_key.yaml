@@ -1,7 +1,7 @@
 ---
 date: 2021-09-03
 
-title: USA Spy Drone can no longer be selected
+title: Makes USA Spy Drone unselectable
 
 changes:
   - fix: The USA Spy Drone can no longer be selected by mouse or the Select Aircraft (W) and Select All (Q) keys. It can still be targeted by attacks and abilities.

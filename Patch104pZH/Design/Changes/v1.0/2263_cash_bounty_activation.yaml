@@ -8,7 +8,9 @@ changes:
 
 labels:
   - boss
+  - buff
   - bug
+  - controversial
   - design
   - gla
   - minor

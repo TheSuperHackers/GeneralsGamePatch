@@ -1,7 +1,7 @@
 ---
 date: 2023-08-17
 
-title: Streamlines key mappings of detonate buttons in all languages
+title: Streamlines key mappings of detonate buttons for all languages
 
 changes:
   - tweak: The detonate abilities for C4 charges, Convoy Nuke, GLA Demo Trap, GLA Bomb Truck and GLA Fake Structure can now be used with key D instead of various other keys in all languages.

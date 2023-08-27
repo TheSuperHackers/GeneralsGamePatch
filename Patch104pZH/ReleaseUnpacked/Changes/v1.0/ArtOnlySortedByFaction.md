@@ -17,7 +17,7 @@ Occuring labels are
 - gui (1)
 - major (6)
 - minor (127)
-- optional (11)
+- optional (10)
 - performance (11)
 - usa (58)
 - v1.0 (133)
@@ -33,8 +33,8 @@ Contains 133 entries with
   - FIX (122)
   - FEATURE (22)
   - TWEAK (12)
-- 211 subchanges
-  - FIX (159)
+- 212 subchanges
+  - FIX (160)
   - TWEAK (24)
   - FEATURE (28)
 
@@ -802,26 +802,30 @@ Contains 133 entries with
 ### 2022-09-24 - Fixes and improves avraptor textures for USA Raptor <a name='link__20220924__1271_avraptor_textures'></a>
 **Changes**
 
-- **FIX**: Fixes avraptor textures. The damaged texture changes are very minor, therefore are optional.
+- **FIX**: Fixes avraptor textures.
 
 **Subchanges**
 
 - **FIX**: avraptor
   - Removes obsolete alpha channel
 
-- **FIX**: avraptor_d (optional)
+- **FIX**: avraptor_d
   - Removes strong green color tint
   - Removes "butterfly" scorch marks
 
-- **FIX**: avraptor_d1 (optional)
+- **FIX**: avraptor_d1
+  - Blends texture with avraptor_d for consistent damage look
+
+- **FIX**: avraptor_d1b
   - Blends texture with avraptor_d for consistent damage look
 
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1271](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1271)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2157](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2157)
 
-**Labels:** art, bug, enhancement, minor, optional, usa, v1.0
+**Labels:** art, bug, enhancement, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -1750,6 +1754,7 @@ Contains 133 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2264](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2264)
 
 **Labels:** art, china, minor, v1.0
 
