@@ -1,0 +1,23 @@
+---
+date: 2023-08-26
+
+title: Fixes position of General's Powers on Boss General promotion screen
+
+changes:
+  - fix: Move the Pathfinder unlock button to the correct rank section in the promotion screen.
+  - fix: Move the Cluster Mines unlock button to the correct rank section in the promotion screen.
+  - fix: Move the Carpet Bomber unlock button to the correct rank section in the promotion screen.
+  - fix: UI Position of fourth rank 5 General's Power.
+
+labels:
+  - boss
+  - fix
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2291
+
+authors:
+  - commy2
