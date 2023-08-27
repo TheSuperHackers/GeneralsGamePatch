@@ -1,0 +1,19 @@
+---
+date: 2023-08-22
+
+title: Adds object name variant to GLA Demo Jarmen Kell
+
+changes:
+  - fix: The GLA Demo Jarmen Kell now shows its own name for all languages.
+
+labels:
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2269
+
+authors:
+  - xezon
