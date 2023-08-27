@@ -5,12 +5,15 @@
             {
                 "name": "CoreLangArabic",
                 "big": true,
-                "setGameLanguageOnInstall": "Arabic",
+                "setGameLanguageOnInstall": "English",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Arabic/*.ini"
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Arabic/*.ini",
+                                "target": "Data/English/*.ini"
+                            }
                         ]
                     },
                     {
@@ -27,7 +30,7 @@
                         "sourceTargetList": [
                             {
                                 "source": "Data/generals.str",
-                                "target": "Data/Arabic/generals.csf"
+                                "target": "Data/English/generals.csf"
                             }
                         ]
                     }
@@ -520,12 +523,15 @@
             {
                 "name": "CoreLangRussian",
                 "big": true,
-                "setGameLanguageOnInstall": "Russian",
+                "setGameLanguageOnInstall": "English",
                 "files": [
                     {
                         "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Russian/*.ini"
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Russian/*.ini",
+                                "target": "Data/English/*.ini"
+                            }
                         ]
                     },
                     {
@@ -542,7 +548,7 @@
                         "sourceTargetList": [
                             {
                                 "source": "Data/generals.str",
-                                "target": "Data/Russian/generals.csf"
+                                "target": "Data/English/generals.csf"
                             }
                         ]
                     }
