@@ -1,0 +1,21 @@
+---
+date: 2023-08-26
+
+title: GLA Jarmen Kell and USA Pathfinders can no longer destroy Fire Bases on some campaign maps
+
+changes:
+  - fix: USA Fire Base is no longer made vulnerable to sniper damage on the China03 campaign map.
+  - fix: USA Fire Base is no longer made vulnerable to sniper damage on the GLA03 campaign map.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2296
+
+authors:
+  - commy2
