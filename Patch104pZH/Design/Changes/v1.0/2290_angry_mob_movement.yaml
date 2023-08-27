@@ -1,0 +1,21 @@
+---
+date: 2023-08-26
+
+title: Increases movement speed of injured GLA Angry Mob members to prevent them from falling behind and dying
+
+changes:
+  - fix: Injured members no longer slow down the GLA Angry Mob. This way they no longer lag behind and die off at a distance.
+
+labels:
+  - buff
+  - bug
+  - controversial
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2290
+
+authors:
+  - commy2
