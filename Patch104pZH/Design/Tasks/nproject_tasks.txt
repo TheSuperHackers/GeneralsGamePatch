@@ -1159,7 +1159,7 @@ the list of known bugs and how to prevent them. If you encounter bugs that not l
    Reason: Balance issue. Best to be discussed and reviewed further.
 
  RADAR VAN:
- - [IMPROVEMENT][MINOR] Radar Van's radar tower hidden until the Radar Van Scan upgrade purchased
+ - [DONE][MINOR] Radar Van's radar tower hidden until the Radar Van Scan upgrade purchased
  - [NOTRELEVANT] Radar Van now will not drop salvage crates when destroyed
 
  QUAD CANNON:
