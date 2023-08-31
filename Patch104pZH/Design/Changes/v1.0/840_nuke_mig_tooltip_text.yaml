@@ -4,8 +4,8 @@ date: 2022-08-06
 title: Fixes description error in tooltip text of China Nuke Mig
 
 changes:
-  - fix: The tooltip text of the China Nuke Mig no longer claims that it creates a fire storm.
-  - fix: The tooltip text of the China Nuke Mig now tells that it shoots missiles with radiation shells.
+  - fix: The tool tip strings of the China Nuke Mig no longer claim that it creates a fire storm.
+  - fix: The tool tip strings of the China Nuke Mig now explain that it shoots nuke missiles.
 
 labels:
   - bug
