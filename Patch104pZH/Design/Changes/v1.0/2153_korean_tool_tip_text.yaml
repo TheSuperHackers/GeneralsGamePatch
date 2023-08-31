@@ -5,6 +5,7 @@ title: Fixes errors in Korean tool tip strings
 
 changes:
   - fix: The wording in Korean tool tip strings is more consistent now.
+  - fix: The Korean tool tip string of the USA Burton now mentions its strengths.
 
 labels:
   - minor
@@ -13,6 +14,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2153
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2271
 
 authors:
   - xezon

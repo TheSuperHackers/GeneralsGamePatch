@@ -1,0 +1,19 @@
+---
+date: 2023-08-22
+
+title: Removes build limit note from tool tip strings of USA Burton
+
+changes:
+  - fix: The tool tip strings of the USA Burton no longer list a fixed build limit for all languages.
+
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2271
+
+authors:
+  - xezon
