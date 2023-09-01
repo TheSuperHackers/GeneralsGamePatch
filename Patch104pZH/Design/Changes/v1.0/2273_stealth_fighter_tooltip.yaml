@@ -1,0 +1,20 @@
+---
+date: 2023-08-22
+
+title: Fixes tool tip strings of USA Stealth Fighters
+
+changes:
+  - fix: The tool tip strings of the USA Stealth Fighter now use consistent wording and style in all languages.
+  - fix: The Spanish and Polish tool tip strings of the USA Stealth Fighter no longer mention wrong information.
+
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273
+
+authors:
+  - xezon

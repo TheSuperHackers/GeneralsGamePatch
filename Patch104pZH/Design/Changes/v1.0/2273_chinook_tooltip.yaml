@@ -1,0 +1,20 @@
+---
+date: 2023-08-22
+
+title: Fixes tool tip strings of USA Chinooks
+
+changes:
+  - fix: The tool tip strings of the USA Chinook now use consistent wording and style in all languages.
+  - fix: The tool tip strings of the USA Airforce Chinooks now mention their Point Defense Laser in all languages.
+
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273
+
+authors:
+  - xezon
