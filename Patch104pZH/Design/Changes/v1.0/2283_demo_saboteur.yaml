@@ -1,12 +1,12 @@
 ---
 date: 2023-08-24
 
-title: Adds demolition charges, Suicide ability, and unique text and voice lines to unused Demo GLA Saboteur
+title: Completes implementation of unused GLA Demo Saboteur
 
 changes:
   - feature: Demo GLA Saboteur can now place timed and remote demo charges.
-  - tweak: Demo GLA Saboteur can no longer infiltrate buildings.
   - feature: Demo GLA Saboteur now unique texts and voice set.
+  - tweak: Demo GLA Saboteur can no longer infiltrate buildings.
   - fix: Demo GLA Saboteur can now use the Suicide ability from the Demolitions upgrade.
 
 labels:
@@ -17,7 +17,7 @@ labels:
   - worldbuilder
 
 links:
-  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/xxxx
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2283
 
 authors:
   - commy2
