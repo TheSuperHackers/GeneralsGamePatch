@@ -12,7 +12,7 @@ changes:
   - fix: The China Assault Transport tool tip strings now show correct strengths and weaknesses for all languages.
   - fix: The China Listening Outpost tool tip strings now show correct strengths and weaknesses for all languages.
   - fix: The GLA Demolition upgrade now has consistent names in all latin languages.
-  - fix: Fixes punctuation inconsistencies in tool tip strings for all languages.
+  - fix: Fixes punctuation inconsistencies in controlbar, map, gui, dialogevent, tooltip, mdgla02, mdgla03, md_gla05, help, generic, lose, academy, wol, buddy, script, qm strings for all languages.
 
 labels:
   - minor
@@ -26,6 +26,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2149
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2316
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2317
 
 authors:
   - xezon
