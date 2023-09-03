@@ -1,0 +1,30 @@
+---
+date: 2023-09-03
+
+title: Balances creation voice volumes of various units and their upgrades
+
+changes:
+  - fix: The creation voices of units and their upgrades have comparable volumes now.
+
+subchanges:
+  - fix: The USA Battle Drone creation voice is louder now.
+  - fix: The USA Hellfire Drone creation voice is louder now.
+  - fix: The China Overlord Gattling Cannon creation voice is now as loud as that of other Overlord upgrades.
+  - fix: The China Helix creation voice is louder now.
+  - fix: The China Helix Napalm Bomb creation voice is now as loud as that of other Helix upgrades.
+  - fix: The GLA Saboteur creation voice is louder now.
+  - fix: The GLA Battle Bus creation voice is louder now.
+
+labels:
+  - audio
+  - china
+  - gla
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2320
+
+authors:
+  - xezon
