@@ -1,0 +1,20 @@
+---
+date: 2023-09-03
+
+title: Adds creation sound effect to GLA Bomb Truck upgrades
+
+changes:
+  - tweak: The GLA Bomb Truck now plays a sound effect after upgrading to Bio Bomb or High Explosives.
+
+labels:
+  - audio
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2319
+
+authors:
+  - xezon
