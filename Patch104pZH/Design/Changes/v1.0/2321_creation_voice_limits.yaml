@@ -1,0 +1,21 @@
+---
+date: 2023-09-03
+
+title: Adds missing limits to creation voices and sounds of units and unit upgrades
+
+changes:
+  - fix: The creation voices and sounds of the China Overlord upgrades, Helix upgrades and GLA Bomb Truck upgrades can no longer stack up.
+
+labels:
+  - audio
+  - bug
+  - china
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321
+
+authors:
+  - xezon
