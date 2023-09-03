@@ -1,0 +1,19 @@
+---
+date: 2023-09-03
+
+title: Fixes wrong name of China Overlord Speaker Tower in French language
+
+changes:
+  - fix: The China Overlord Speaker Tower is now named "Haut-parleur d'embrigadement" and matches the other Speaker Tower names in French language.
+
+labels:
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2322
+
+authors:
+  - xezon
