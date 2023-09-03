@@ -1,0 +1,20 @@
+---
+date: 2023-09-03
+
+title: Fixes inconsistent names of China Overlord and Helix Speaker Towers
+
+changes:
+  - fix: The China Overlord and Helix Speaker Towers now have names that are consistent with the regular Speaker Tower names and/or the voice lines in English, German, Spanish, Korean, Brazilian languages.
+
+labels:
+  - china
+  - minor
+  - optional
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2322
+
+authors:
+  - xezon
