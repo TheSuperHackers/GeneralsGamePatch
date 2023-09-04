@@ -1,0 +1,19 @@
+---
+date: 2023-09-04
+
+title: Improves and streamlines wording in tool tip strings of China Overlord and Helix upgrades
+
+changes:
+  - fix: The tool tip strings of the China Overlord and Helix upgrades now have better and consistent wording in latin languages.
+
+labels:
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2324
+
+authors:
+  - xezon
