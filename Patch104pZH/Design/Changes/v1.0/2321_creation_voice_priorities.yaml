@@ -1,0 +1,21 @@
+---
+date: 2023-09-03
+
+title: Adds missing high priority to creation voices of units and unit upgrades
+
+changes:
+  - fix: The creation voices of the China Overlord upgrades, Helix upgrades, GLA Saboteur, Angry Mob, Bomb Truck upgrades now have high priorities like other creation voices.
+
+labels:
+  - audio
+  - bug
+  - china
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321
+
+authors:
+  - xezon

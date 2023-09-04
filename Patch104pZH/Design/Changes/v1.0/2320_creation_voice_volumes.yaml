@@ -1,7 +1,7 @@
 ---
 date: 2023-09-03
 
-title: Balances creation voice volumes of various units and their upgrades
+title: Balances creation voice volumes of units and unit upgrades
 
 changes:
   - fix: The creation voices of units and their upgrades have comparable volumes now.
