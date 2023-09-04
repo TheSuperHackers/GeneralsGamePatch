@@ -1,0 +1,19 @@
+---
+date: 2023-09-03
+
+title: Adds additional information to tool tip strings of China Overlord and Helix Speaker Tower
+
+changes:
+  - fix: The tool tip strings of the China Overlord and Helix Speaker Tower now mention its effects for all languages.
+
+labels:
+  - china
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2323
+
+authors:
+  - xezon
