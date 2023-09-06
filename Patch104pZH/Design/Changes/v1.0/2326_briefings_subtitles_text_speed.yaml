@@ -1,0 +1,20 @@
+---
+date: 2023-09-06
+
+title: Fixes slow speed of briefings and speech subtitles
+
+changes:
+  - fix: Increases briefings and speech subtitles print speed for Spanish, Italian, Korean, Chinese languages.
+  - tweak: Increases briefings print speed for English, German, French, Brazilian, Polish languages.
+
+labels:
+  - bug
+  - major
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2326
+
+authors:
+  - xezon
