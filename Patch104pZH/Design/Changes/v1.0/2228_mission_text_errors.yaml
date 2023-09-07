@@ -8,6 +8,7 @@ changes:
   - fix: The wording and style in "WARNING" strings is now corrected and consistent for all languages.
   - fix: The wording and style in "INCOMING TRANSMISSION" strings is now corrected and consistent for all languages.
   - fix: The wording and style in "HINT" strings is now corrected and consistent for all languages.
+  - fix: Several hint strings in USA missions now show the hint title for all languages.
 
 labels:
   - minor
@@ -16,6 +17,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2228
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2336
 
 authors:
   - xezon
