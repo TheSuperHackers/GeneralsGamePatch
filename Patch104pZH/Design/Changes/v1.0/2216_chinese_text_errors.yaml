@@ -8,6 +8,7 @@ changes:
   - fix: The TOOLTIP:GameInfoPlayer string now shows its number format in Chinese text.
   - fix: Quote symbols are now properly paired and spaced in Chinese strings.
   - fix: Three dot symbols are now used consistently in Chinese strings.
+  - fix: Some rare Chinese speech subtitles no longer print the first row in bold font.
 
 labels:
   - minor
@@ -19,6 +20,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2217
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2330
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2332
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334
 
 authors:
   - xezon
