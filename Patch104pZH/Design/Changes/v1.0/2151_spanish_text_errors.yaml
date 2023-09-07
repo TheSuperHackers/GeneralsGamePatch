@@ -1,12 +1,13 @@
 ---
 date: 2023-07-26
 
-title: Fixes errors in Spanish tool tip strings
+title: Fixes errors in Spanish strings
 
 changes:
   - fix: The wording in Spanish tool tip strings is more consistent now.
   - fix: The TOOLTIP:NumberOfVotes string now has Spanish text.
   - fix: The Spanish tool tip for the GLA Terrorist now describes the unit as "Soldado suicida" and is therefore more consistent with the English wording.
+  - fix: Some rare Spanish speech subtitles no longer print the first row in bold font.
 
 labels:
   - minor
@@ -19,6 +20,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2252
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334
 
 authors:
   - xezon

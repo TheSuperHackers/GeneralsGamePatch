@@ -1,10 +1,11 @@
 ---
 date: 2023-08-07
 
-title: Fixes errors in Italian tool tip strings
+title: Fixes errors in Italian strings
 
 changes:
   - fix: The wording in Italian tool tip strings is more consistent now.
+  - fix: Some rare Italian speech subtitles no longer print the first row in bold font.
 
 labels:
   - minor
@@ -14,6 +15,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334
 
 authors:
   - xezon
