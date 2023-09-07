@@ -6,8 +6,10 @@ title: Fixes errors in Korean tool tip strings
 changes:
   - fix: The wording in Korean tool tip strings is more consistent now.
   - fix: The Korean tool tip string of the USA Burton now mentions its strengths.
+  - fix: The Korean speech subtitles no longer print the first row in bold font.
 
 labels:
+  - bug
   - minor
   - text
   - v1.0
@@ -15,6 +17,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2153
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2271
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2331
 
 authors:
   - xezon
