@@ -1,0 +1,8 @@
+MD_GLA05-MilitaryBriefing:String_4 : DE: "Bringen Sie die Kriegsgefangenen in ihr Dorf im Norden, damit sie uns unterstützen." (83)
+MD_GLA05-MilitaryBriefing:String_4 : FR: "Emmenez les prisonniers de guerre dans leur village au nord pour qu'ils vous prêtent main forte." (96)
+MD_GLA05-MilitaryBriefing:String_17 : DE: "Bauen Sie eine IBG-Kommandozentrale, damit Sie Ihre Generalsfähigkeiten einsetzen können." (89)
+MD_GLA05-MilitaryBriefing:String_17 : FR: "Construisez un Poste de commandement de la GLA pour utiliser vos pouvoirs de général." (85)
+MD_GLA05-MilitaryBriefing:String_23 : DE: "Nachdem wir die kleine Basis neutralisiert haben, können wir uns jetzt auf die Kontinentalzentrale der WA konzentrieren." (120)
+MD_GLA05-MilitaryBriefing:String_36 : FR: "Utilisez l'aptitude Attaque furtive pour lancer une attaque contre la base américaine." (86)
+MD_GLA05-MilitaryBriefing:String_36 : ES: "Usa la capacidad de ataque furtivo para lanzar un ataque contra la base de EE.UU." (81)
+MD_GLA05-MilitaryBriefing:String_37 : IT: "Nonostante il fallimento, la cellula di terroristi sarà comunque al nostro fianco." (82)
