@@ -1,11 +1,12 @@
 ---
 date: 2023-08-07
 
-title: Fixes errors in Chinese tool tip strings
+title: Fixes errors in Chinese strings
 
 changes:
   - fix: The TOOLTIP:NumberOfVotes string now has Chinese text.
   - fix: The TOOLTIP:GameInfoPlayer string now shows its number format in Chinese text.
+  - fix: Quote symbols are now properly paired and spaced in Chinese strings.
 
 labels:
   - minor
@@ -15,6 +16,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2216
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2217
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2330
 
 authors:
   - xezon
