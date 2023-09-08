@@ -1,0 +1,5 @@
+MDGLA03:Info-SneakAttack-01 : FR: "Utilisez l'aptitude Attaque furtive pour créer un Réseau de tunnels sur les îles voisines." (90)
+MDGLA03:Help-LeaveISLAND-01 : DE: "Mit Schleichangriffen kommen wir über unsere Tunnelsysteme auf benachbarte Inseln." (82)
+MDGLA03:Help-LeaveISLAND-01 : FR: "Nous pouvons utiliser une attaque furtive ou un Réseau de tunnels pour gagner une île voisine." (94)
+MDGLA03:Help-FoundSupplyPlanes-01 : ES: "Destruye las zonas de lanzamiento de suministro de EE.UU. para dañar su producción." (83)
+MDGLA03:Help-FoundSupplyPlanes-01 : BP: "Destrua as Zonas de Abastecimento Aéreo dos E.U.A. para incapacitar a produção deles." (85)

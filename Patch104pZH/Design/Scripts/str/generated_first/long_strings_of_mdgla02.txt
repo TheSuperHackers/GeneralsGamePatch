@@ -1,0 +1,3 @@
+MDGLA02:Capture_CC_sneak : DE: "Erobern Sie diese Kommandozentrale, damit wir mit Schleichangriffen unser Glück versuchen können." (97)
+MDGLA02:Capture_CC_sneak : RU: "Захватите этот командный центр для получения возможности устроить внезапную атаку" (81)
+MDGLA02:Sneak_captured : FR: "Utilisez-la pour créer un Réseau de tunnels où vous voulez, dans votre champ de vision." (87)
