@@ -1,0 +1,19 @@
+---
+date: 2023-09-08
+
+title: Fixes and optimizes line breaks in various strings for all languages
+
+changes:
+  - fix: The map, script, help, mdgla02, mdgla03, md_gla05, dialogevent strings now properly print inside the view.
+
+labels:
+  - bug
+  - major
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2337
+
+authors:
+  - xezon
