@@ -1,0 +1,19 @@
+---
+date: 2023-09-09
+
+title: Adds missing translations to Italian mission subtitles
+
+changes:
+  - fix: All Italian mission speech subtitles now have translations.
+  - tweak: Most Italian mission speech subtitles now use normal structured sentences.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2338
+
+authors:
+  - xezon
