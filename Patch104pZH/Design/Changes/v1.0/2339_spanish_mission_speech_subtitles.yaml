@@ -1,0 +1,19 @@
+---
+date: 2023-09-10
+
+title: Adds missing translations to Spanish mission subtitles
+
+changes:
+  - fix: All Spanish mission speech subtitles now have translations.
+  - tweak: Most Spanish mission speech subtitles now use normal structured sentences.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2339
+
+authors:
+  - xezon
