@@ -7,38 +7,38 @@ Occuring labels are
 
 - ai (2)
 - art (58)
-- audio (48)
+- audio (49)
 - boss (15)
 - buff (22)
 - bug (136)
-- china (38)
+- china (39)
 - civilian (3)
 - controversial (33)
 - design (66)
 - enhancement (53)
-- gla (36)
+- gla (37)
 - gui (18)
 - major (28)
-- minor (222)
+- minor (228)
 - nerf (10)
 - optional (16)
 - performance (12)
-- text (23)
-- usa (254)
-- v1.0 (254)
+- text (28)
+- usa (260)
+- v1.0 (260)
 - worldbuilder (5)
 
 Sorts changes by: date (ascending)
 
-Contains 254 entries with
+Contains 260 entries with
 
-- 365 changes
+- 374 changes
   - OPTIMIZATION (4)
-  - FIX (252)
+  - FIX (261)
   - TWEAK (92)
   - FEATURE (17)
-- 495 subchanges
-  - FIX (422)
+- 502 subchanges
+  - FIX (429)
   - TWEAK (73)
 
 ## Index
@@ -293,9 +293,15 @@ Contains 254 entries with
 - [2023-08-17 - Adds missing key mappings to Polish localization](#link__20230817__2242_polish_missing_keys)
 - [2023-08-17 - Adds missing key mappings to Spanish localization](#link__20230817__2242_spanish_missing_keys)
 - [2023-08-17 - Streamlines key mappings of detonate buttons for all languages](#link__20230817__2244_detonate_key_mapping)
+- [2023-08-22 - Removes build limit note from tool tip strings of USA Burton](#link__20230822__2271_burton_tooltip)
+- [2023-08-22 - Fixes tool tip string of USA Auroras](#link__20230822__2273_aurora_tooltip)
+- [2023-08-22 - Fixes tool tip strings of USA Chinooks](#link__20230822__2273_chinook_tooltip)
+- [2023-08-22 - Fixes tool tip strings of USA Raptor](#link__20230822__2273_raptor_tooltip)
+- [2023-08-22 - Fixes tool tip strings of USA Stealth Fighters](#link__20230822__2273_stealth_fighter_tooltip)
 - [2023-08-25 - Adds Ambush and Anthrax Bomb to the players shortcut bar on USA05 campaign map](#link__20230825__2286_usa05_campaign_shortcut_bar)
 - [2023-08-25 - Fixes USA Colonel Burton instant Knife Attack exploit](#link__20230825__2287_burton_insta_stab)
 - [2023-08-26 - Fixes GLA Jarmen Kell and USA Pathfinders being able to destroy Fire Bases on some campaign maps](#link__20230826__2234_snipers_vs_firebases_in_campaign)
+- [2023-09-03 - Balances creation voice volumes of units and unit upgrades](#link__20230903__2320_creation_voice_volumes)
 
 
 
@@ -3738,6 +3744,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1163](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1163)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1618](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1618)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1648](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1648)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306)
 
 **Labels:** bug, china, civilian, gla, minor, usa, v1.0
 
@@ -5540,6 +5547,89 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2244_detonate_key_mapping.yaml
 
 ---
+### 2023-08-22 - Removes build limit note from tool tip strings of USA Burton <a name='link__20230822__2271_burton_tooltip'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the USA Burton no longer list a fixed build limit for all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2271](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2271)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2271_burton_tooltip.yaml
+
+---
+### 2023-08-22 - Fixes tool tip string of USA Auroras <a name='link__20230822__2273_aurora_tooltip'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the USA Aurora now use consistent wording and style in all languages.
+- **FIX**: The tool tip strings of the USA Airforce Aurora now mention its Point Defense Laser in all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2273_aurora_tooltip.yaml
+
+---
+### 2023-08-22 - Fixes tool tip strings of USA Chinooks <a name='link__20230822__2273_chinook_tooltip'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the USA Chinook now use consistent wording and style in all languages.
+- **FIX**: The tool tip strings of the USA Airforce Chinooks now mention their Point Defense Laser in all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2273_chinook_tooltip.yaml
+
+---
+### 2023-08-22 - Fixes tool tip strings of USA Raptor <a name='link__20230822__2273_raptor_tooltip'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the USA Raptor and King Raptor now use consistent wording and style in all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2273_raptor_tooltip.yaml
+
+---
+### 2023-08-22 - Fixes tool tip strings of USA Stealth Fighters <a name='link__20230822__2273_stealth_fighter_tooltip'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the USA Stealth Fighter now use consistent wording and style in all languages.
+- **FIX**: The Spanish and Polish tool tip strings of the USA Stealth Fighter no longer mention wrong information.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2273_stealth_fighter_tooltip.yaml
+
+---
 ### 2023-08-25 - Adds Ambush and Anthrax Bomb to the players shortcut bar on USA05 campaign map <a name='link__20230825__2286_usa05_campaign_shortcut_bar'></a>
 **Changes**
 
@@ -5587,4 +5677,30 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** commy2
 
 **Source:** 2234_snipers_vs_firebases_in_campaign.yaml
+
+---
+### 2023-09-03 - Balances creation voice volumes of units and unit upgrades <a name='link__20230903__2320_creation_voice_volumes'></a>
+**Changes**
+
+- **FIX**: The creation voices of units and their upgrades have comparable volumes now.
+
+**Subchanges**
+
+- **FIX**: The USA Battle Drone creation voice is louder now.
+- **FIX**: The USA Hellfire Drone creation voice is louder now.
+- **FIX**: The China Overlord Gattling Cannon creation voice is now as loud as that of other Overlord upgrades.
+- **FIX**: The China Helix creation voice is louder now.
+- **FIX**: The China Helix Napalm Bomb creation voice is now as loud as that of other Helix upgrades.
+- **FIX**: The GLA Saboteur creation voice is louder now.
+- **FIX**: The GLA Battle Bus creation voice is louder now.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2320](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2320)
+
+**Labels:** audio, china, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2320_creation_voice_volumes.yaml
 

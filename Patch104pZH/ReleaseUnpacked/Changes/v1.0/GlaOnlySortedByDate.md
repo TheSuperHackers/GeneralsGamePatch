@@ -6,40 +6,40 @@ Includes changes with labels: gla
 Occuring labels are
 
 - art (27)
-- audio (29)
+- audio (33)
 - boss (17)
 - buff (28)
-- bug (147)
-- china (33)
+- bug (151)
+- china (36)
 - civilian (2)
 - controversial (42)
 - critical (2)
-- design (54)
+- design (55)
 - enhancement (19)
-- gla (235)
+- gla (241)
 - gui (12)
 - major (34)
-- minor (198)
+- minor (204)
 - nerf (16)
 - optional (11)
 - performance (6)
 - text (29)
-- usa (36)
-- v1.0 (235)
+- usa (37)
+- v1.0 (241)
 - worldbuilder (3)
 
 Sorts changes by: date (ascending)
 
-Contains 235 entries with
+Contains 241 entries with
 
-- 334 changes
-  - FIX (256)
-  - TWEAK (61)
+- 342 changes
+  - FIX (263)
+  - TWEAK (62)
   - FEATURE (10)
   - OPTIMIZATION (5)
   - CHANGE (2)
-- 383 subchanges
-  - FIX (323)
+- 390 subchanges
+  - FIX (330)
   - FEATURE (1)
   - TWEAK (59)
 
@@ -279,6 +279,12 @@ Contains 235 entries with
 - [2023-08-26 - Increases movement speed of injured GLA Angry Mob members to prevent them from falling behind and dying](#link__20230826__2290_angry_mob_movement)
 - [2023-08-26 - Removes access to Camouflage upgrade from Demo and Toxin GLA Rebels](#link__20230826__2294_rebel_camouflage)
 - [2023-08-27 - Fixes missing muzzle flash of GLA Toxin RPG Trooper](#link__20230827__2284_toxin_general_rpg_soldier_muzzle_flash)
+- [2023-08-29 - Fixes missing explosion effects for suicided GLA Demo RPG-Soldier and Jarmen Kell](#link__20230829__2307_missing_infantry_demo_suicide_effects)
+- [2023-08-29 - Fixes death explosion damage of upgraded GLA Demo Stinger Site](#link__20230829__2308_demo_stinger_death_damage)
+- [2023-09-03 - Adds creation sound effect to GLA Bomb Truck upgrades](#link__20230903__2319_bomb_truck_upgrade_sound)
+- [2023-09-03 - Balances creation voice volumes of units and unit upgrades](#link__20230903__2320_creation_voice_volumes)
+- [2023-09-03 - Adds missing limits to creation voices and sounds of units and unit upgrades](#link__20230903__2321_creation_voice_limits)
+- [2023-09-03 - Adds missing high priority to creation voices of units and unit upgrades](#link__20230903__2321_creation_voice_priorities)
 
 
 
@@ -393,6 +399,7 @@ Contains 235 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/77](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/77)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/78](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/78)
 
@@ -628,6 +635,7 @@ Contains 235 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1722](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1722)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/99](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/99)
 
 **Labels:** bug, gla, minor, v1.0
@@ -2777,6 +2785,7 @@ Contains 235 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1163](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1163)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1618](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1618)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1648](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1648)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306)
 
 **Labels:** bug, china, civilian, gla, minor, usa, v1.0
 
@@ -4719,4 +4728,112 @@ Contains 235 entries with
 **Authors:** commy2
 
 **Source:** 2284_toxin_general_rpg_soldier_muzzle_flash.yaml
+
+---
+### 2023-08-29 - Fixes missing explosion effects for suicided GLA Demo RPG-Soldier and Jarmen Kell <a name='link__20230829__2307_missing_infantry_demo_suicide_effects'></a>
+**Changes**
+
+- **FIX**: GLA Demo RPG-Soldier now explodes in a red cloud when suicided.
+- **FIX**: GLA Demo Jarmen Kell now explodes in a red cloud when suicided.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2307](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2307)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** commy2
+
+**Source:** 2307_missing_infantry_demo_suicide_effects.yaml
+
+---
+### 2023-08-29 - Fixes death explosion damage of upgraded GLA Demo Stinger Site <a name='link__20230829__2308_demo_stinger_death_damage'></a>
+**Changes**
+
+- **FIX**: The upgraded GLA Demo Stinger Site no longer deals 20 times more damage than it should when killed.
+- **FIX**: The upgraded GLA Demo Stinger Site now properly deals damage when killed by poison.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2308](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2308)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2308_demo_stinger_death_damage.yaml
+
+---
+### 2023-09-03 - Adds creation sound effect to GLA Bomb Truck upgrades <a name='link__20230903__2319_bomb_truck_upgrade_sound'></a>
+**Changes**
+
+- **TWEAK**: The GLA Bomb Truck now plays a sound effect after upgrading to Bio Bomb or High Explosives.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2319](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2319)
+
+**Labels:** audio, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2319_bomb_truck_upgrade_sound.yaml
+
+---
+### 2023-09-03 - Balances creation voice volumes of units and unit upgrades <a name='link__20230903__2320_creation_voice_volumes'></a>
+**Changes**
+
+- **FIX**: The creation voices of units and their upgrades have comparable volumes now.
+
+**Subchanges**
+
+- **FIX**: The USA Battle Drone creation voice is louder now.
+- **FIX**: The USA Hellfire Drone creation voice is louder now.
+- **FIX**: The China Overlord Gattling Cannon creation voice is now as loud as that of other Overlord upgrades.
+- **FIX**: The China Helix creation voice is louder now.
+- **FIX**: The China Helix Napalm Bomb creation voice is now as loud as that of other Helix upgrades.
+- **FIX**: The GLA Saboteur creation voice is louder now.
+- **FIX**: The GLA Battle Bus creation voice is louder now.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2320](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2320)
+
+**Labels:** audio, china, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2320_creation_voice_volumes.yaml
+
+---
+### 2023-09-03 - Adds missing limits to creation voices and sounds of units and unit upgrades <a name='link__20230903__2321_creation_voice_limits'></a>
+**Changes**
+
+- **FIX**: The creation voices and sounds of the China Overlord upgrades, Helix upgrades and GLA Bomb Truck upgrades can no longer stack up.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321)
+
+**Labels:** audio, bug, china, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2321_creation_voice_limits.yaml
+
+---
+### 2023-09-03 - Adds missing high priority to creation voices of units and unit upgrades <a name='link__20230903__2321_creation_voice_priorities'></a>
+**Changes**
+
+- **FIX**: The creation voices of the China Overlord upgrades, Helix upgrades, GLA Saboteur, Angry Mob, Bomb Truck upgrades now have high priorities like other creation voices.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321)
+
+**Labels:** audio, bug, china, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2321_creation_voice_priorities.yaml
 
