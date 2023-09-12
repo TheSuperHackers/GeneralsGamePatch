@@ -7,6 +7,11 @@ changes:
   - fix: The wording in Italian tool tip strings is more consistent now.
   - fix: Some rare Italian speech subtitles no longer print the first row in bold font.
 
+subchanges:
+  - fix: Italian tool tip strings now consistently refer to rocket soldiers as "fanteria con missili".
+  - fix: Italian tool tip strings now consistently refer to anti-air defenses as "difese contraerea".
+  - fix: Italian tool tip strings now consistently refer to base defenses as "difese della base" instead of "difese di terra".
+
 labels:
   - minor
   - text
@@ -16,6 +21,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350
 
 authors:
   - xezon

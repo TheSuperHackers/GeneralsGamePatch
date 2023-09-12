@@ -10,6 +10,10 @@ changes:
   - fix: The Polish tool tip string of the China Infantry Helix no longer claims to let passengers shoot at each other.
   - tweak: The Polish string for failed Rally Point placement is more concise now.
 
+subchanges:
+  - fix: Polish tool tip strings now consistently refer to rocket soldiers as "piechocie rakietowej".
+  - fix: Polish tool tip strings now consistently refer to anti-air defenses as "obronie przeciwlotniczej".
+
 labels:
   - china
   - gla
