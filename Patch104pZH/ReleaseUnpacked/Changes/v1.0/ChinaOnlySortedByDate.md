@@ -6,40 +6,40 @@ Includes changes with labels: china
 Occuring labels are
 
 - art (28)
-- audio (31)
+- audio (34)
 - boss (15)
 - buff (46)
-- bug (125)
-- china (226)
+- bug (127)
+- china (234)
 - civilian (5)
 - controversial (44)
 - critical (1)
 - design (74)
 - enhancement (28)
-- gla (33)
+- gla (36)
 - gui (19)
 - major (35)
-- minor (188)
+- minor (196)
 - nerf (3)
-- optional (13)
+- optional (14)
 - performance (9)
-- text (28)
-- usa (38)
-- v1.0 (226)
+- text (33)
+- usa (39)
+- v1.0 (234)
 - wip (1)
 - worldbuilder (3)
 
 Sorts changes by: date (ascending)
 
-Contains 226 entries with
+Contains 234 entries with
 
-- 347 changes
-  - FIX (238)
+- 356 changes
+  - FIX (247)
   - TWEAK (95)
   - FEATURE (11)
   - OPTIMIZATION (3)
-- 391 subchanges
-  - FIX (321)
+- 398 subchanges
+  - FIX (328)
   - FEATURE (1)
   - TWEAK (69)
 
@@ -265,11 +265,19 @@ Contains 226 entries with
 - [2023-08-17 - Adds missing key mappings to Italian localization](#link__20230817__2242_italian_missing_keys)
 - [2023-08-17 - Adds missing key mappings to Polish localization](#link__20230817__2242_polish_missing_keys)
 - [2023-08-17 - Adds missing key mappings to Spanish localization](#link__20230817__2242_spanish_missing_keys)
+- [2023-08-20 - Adds object name variant to China Nuke MiG](#link__20230820__2260_nuke_mig_name)
 - [2023-08-20 - Fixes errors in tool tip strings of China Infantry Helix](#link__20230820__2261_helix_tooltip)
 - [2023-08-20 - Adds object name variant to China Nuke Helix](#link__20230820__2262_nuke_helix_name)
 - [2023-08-24 - Implements unused China Red Guard Bayonet Attack](#link__20230824__2282_red_guard_bayonet_attack)
 - [2023-08-27 - Fixes and improves the China Mini Gunner animations](#link__20230827__2292_mini_gunner_animations)
 - [2023-08-27 - Fixes and improves the China Red Guard animations](#link__20230827__2292_red_guard_animations)
+- [2023-09-03 - Balances creation voice volumes of units and unit upgrades](#link__20230903__2320_creation_voice_volumes)
+- [2023-09-03 - Adds missing limits to creation voices and sounds of units and unit upgrades](#link__20230903__2321_creation_voice_limits)
+- [2023-09-03 - Adds missing high priority to creation voices of units and unit upgrades](#link__20230903__2321_creation_voice_priorities)
+- [2023-09-03 - Fixes wrong name of China Overlord Speaker Tower in French language](#link__20230903__2322_french_overlord_speaker_tower_name)
+- [2023-09-03 - Fixes inconsistent names of China Overlord and Helix Speaker Towers](#link__20230903__2322_overlord_helix_speaker_tower_name)
+- [2023-09-03 - Adds additional information to tool tip strings of China Overlord and Helix Speaker Tower](#link__20230903__2323_overlord_helix_speaker_tower_tooltip)
+- [2023-09-04 - Improves and streamlines wording in tool tip strings of China Overlord and Helix upgrades](#link__20230904__2323_overlord_helix_upgrade_tooltip)
 
 
 
@@ -1223,15 +1231,17 @@ Contains 226 entries with
 ### 2022-08-06 - Fixes description error in tooltip text of China Nuke Mig <a name='link__20220806__840_nuke_mig_tooltip_text'></a>
 **Changes**
 
-- **FIX**: The tooltip text of the China Nuke Mig no longer claims that it creates a fire storm.
+- **FIX**: The tool tip strings of the China Nuke Mig no longer claim that it creates a fire storm.
+- **FIX**: The tool tip strings of the China Nuke Mig now explain that it shoots nuke missiles.
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2259](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2259)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/840](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/840)
 
 **Labels:** bug, china, minor, text, v1.0
 
-**Authors:** commy2
+**Authors:** commy2, xezon
 
 **Source:** 840_nuke_mig_tooltip_text.yaml
 
@@ -2720,6 +2730,7 @@ Contains 226 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1163](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1163)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1618](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1618)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1648](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1648)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2306)
 
 **Labels:** bug, china, civilian, gla, minor, usa, v1.0
 
@@ -4565,6 +4576,22 @@ Contains 226 entries with
 **Source:** 2242_spanish_missing_keys.yaml
 
 ---
+### 2023-08-20 - Adds object name variant to China Nuke MiG <a name='link__20230820__2260_nuke_mig_name'></a>
+**Changes**
+
+- **FIX**: The China Nuke MiG now shows its own name for all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2260](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2260)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2260_nuke_mig_name.yaml
+
+---
 ### 2023-08-20 - Fixes errors in tool tip strings of China Infantry Helix <a name='link__20230820__2261_helix_tooltip'></a>
 **Changes**
 
@@ -4647,4 +4674,126 @@ Contains 226 entries with
 **Authors:** commy2
 
 **Source:** 2292_red_guard_animations.yaml
+
+---
+### 2023-09-03 - Balances creation voice volumes of units and unit upgrades <a name='link__20230903__2320_creation_voice_volumes'></a>
+**Changes**
+
+- **FIX**: The creation voices of units and their upgrades have comparable volumes now.
+
+**Subchanges**
+
+- **FIX**: The USA Battle Drone creation voice is louder now.
+- **FIX**: The USA Hellfire Drone creation voice is louder now.
+- **FIX**: The China Overlord Gattling Cannon creation voice is now as loud as that of other Overlord upgrades.
+- **FIX**: The China Helix creation voice is louder now.
+- **FIX**: The China Helix Napalm Bomb creation voice is now as loud as that of other Helix upgrades.
+- **FIX**: The GLA Saboteur creation voice is louder now.
+- **FIX**: The GLA Battle Bus creation voice is louder now.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2320](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2320)
+
+**Labels:** audio, china, gla, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2320_creation_voice_volumes.yaml
+
+---
+### 2023-09-03 - Adds missing limits to creation voices and sounds of units and unit upgrades <a name='link__20230903__2321_creation_voice_limits'></a>
+**Changes**
+
+- **FIX**: The creation voices and sounds of the China Overlord upgrades, Helix upgrades and GLA Bomb Truck upgrades can no longer stack up.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321)
+
+**Labels:** audio, bug, china, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2321_creation_voice_limits.yaml
+
+---
+### 2023-09-03 - Adds missing high priority to creation voices of units and unit upgrades <a name='link__20230903__2321_creation_voice_priorities'></a>
+**Changes**
+
+- **FIX**: The creation voices of the China Overlord upgrades, Helix upgrades, GLA Saboteur, Angry Mob, Bomb Truck upgrades now have high priorities like other creation voices.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2321)
+
+**Labels:** audio, bug, china, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2321_creation_voice_priorities.yaml
+
+---
+### 2023-09-03 - Fixes wrong name of China Overlord Speaker Tower in French language <a name='link__20230903__2322_french_overlord_speaker_tower_name'></a>
+**Changes**
+
+- **FIX**: The China Overlord Speaker Tower is now named "Haut-parleur d'embrigadement" and matches the other Speaker Tower names in French language.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2322](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2322)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2322_french_overlord_speaker_tower_name.yaml
+
+---
+### 2023-09-03 - Fixes inconsistent names of China Overlord and Helix Speaker Towers <a name='link__20230903__2322_overlord_helix_speaker_tower_name'></a>
+**Changes**
+
+- **FIX**: The China Overlord and Helix Speaker Towers now have names that are consistent with the regular Speaker Tower names and/or the voice lines in English, German, Spanish, Korean, Brazilian languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2322](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2322)
+
+**Labels:** china, minor, optional, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2322_overlord_helix_speaker_tower_name.yaml
+
+---
+### 2023-09-03 - Adds additional information to tool tip strings of China Overlord and Helix Speaker Tower <a name='link__20230903__2323_overlord_helix_speaker_tower_tooltip'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the China Overlord and Helix Speaker Tower now mention its effects for all languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2323](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2323)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2323_overlord_helix_speaker_tower_tooltip.yaml
+
+---
+### 2023-09-04 - Improves and streamlines wording in tool tip strings of China Overlord and Helix upgrades <a name='link__20230904__2323_overlord_helix_upgrade_tooltip'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the China Overlord and Helix upgrades now have better and consistent wording in latin languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2324](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2324)
+
+**Labels:** china, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2323_overlord_helix_upgrade_tooltip.yaml
 
