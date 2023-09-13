@@ -1,0 +1,20 @@
+---
+date: 2023-09-10
+
+title: Fixes tool tip strings of China Neutron Shells
+
+changes:
+  - fix: The German tool tip string of the China Neutron Shell upgrade now properly describes the upgrade.
+  - fix: The latin tool tip strings of the China Neutron Shell upgrade now also list neutralizing infantry inside buildings.
+
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273
+
+authors:
+  - xezon
