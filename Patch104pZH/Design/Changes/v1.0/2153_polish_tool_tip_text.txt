@@ -1,1 +1,1 @@
-2148_polish_tool_tip_text.yaml
+2148_polish_text_errors.yaml

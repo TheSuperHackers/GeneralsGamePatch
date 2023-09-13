@@ -5,12 +5,15 @@ title: Fixes errors in German strings
 
 changes:
   - fix: The wording in German tool tip strings is more consistent now.
-  - fix: The German tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
+  - fix: The German tool tip strings of China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
   - fix: More German tool tip strings now list the correct strengths and weaknesses.
   - fix: The German string of TOOLTIP:GameInfoPlayer now contains the number format.
   - fix: The German string of CONTROLBAR:PowerDescription now contains proper sentences and the number format.
   - fix: The German string of Buddy:Chatting now contains text.
-  - fix: The German tool tip for the GLA Terrorist now describes the unit as "Kamikaze Bombe" and is therefore more consistent with the English wording.
+  - fix: The German tool tip string of the GLA Terrorist now describes the unit as "Kamikaze Bombe" and is therefore more consistent with the English wording.
+  - fix: The German tool tip string of the China War Factory now mentions its required power.
+  - fix: The German science string of the GLA Hijacker no longer claims that the unit is perfectly stealthed.
+  - fix: The German gui title string for host match close now has a descriptive title.
 
 labels:
   - minor
@@ -24,6 +27,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2252
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345
 
 authors:
   - xezon

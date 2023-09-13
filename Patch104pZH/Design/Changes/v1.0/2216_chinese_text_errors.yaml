@@ -10,6 +10,7 @@ changes:
   - fix: Quote symbols are now properly paired and spaced in Chinese strings.
   - fix: Three dot symbols are now used consistently in Chinese strings.
   - fix: Some rare Chinese speech subtitles no longer print the first row in bold font.
+  - tweak: The Chinese tool tip string for map start positions is more concise now.
 
 labels:
   - minor
@@ -23,6 +24,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2332
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345
 
 authors:
   - xezon
