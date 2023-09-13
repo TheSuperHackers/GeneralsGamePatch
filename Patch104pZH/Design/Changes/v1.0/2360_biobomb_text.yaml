@@ -1,0 +1,19 @@
+---
+date: 2023-09-13
+
+title: Fixes name of GLA Bio Bomb
+
+changes:
+  - fix: The latin names of the GLA Bomb Truck Bio Bomb upgrade are now corrected.
+
+labels:
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2360
+
+authors:
+  - xezon
