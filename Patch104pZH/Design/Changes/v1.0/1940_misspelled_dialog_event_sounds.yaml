@@ -12,6 +12,7 @@ changes:
   - fix: Fixes misspelled filename in Cin_SquadronFlyBy02.
   - fix: Fixes misspelled filename in Taunts_Turtle087.
   - fix: Fixes misspelled filename in EvaGLA_FundsTransferred.
+  - tweak: The CashStolen EVA event is now properly disabled.
 
 labels:
   - audio
@@ -21,6 +22,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1940
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2356
 
 authors:
   - xezon
