@@ -1,0 +1,21 @@
+---
+date: 2023-07-25
+
+title: Fixes tool tip and help strings of USA MOAB
+
+changes:
+  - fix: The tool tip and help strings of the USA MOAB no longer claim that it stuns or shocks units in the blast radius.
+  - fix: The tool tip strings of the USA MOAB now list vehicles in its strengths.
+
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2342
+
+authors:
+  - xezon
