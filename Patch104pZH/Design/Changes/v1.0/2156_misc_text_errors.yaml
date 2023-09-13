@@ -28,6 +28,7 @@ changes:
         - md_gla05
         - network
         - qm
+        - radar
         - script
         - tooltip
         - wol
@@ -46,6 +47,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2317
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2333
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2341
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2359
 
 authors:
   - xezon
