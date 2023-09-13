@@ -1,12 +1,13 @@
 ---
 date: 2023-08-07
 
-title: Fixes errors in French tool tip strings
+title: Fixes errors in French strings
 
 changes:
   - fix: The wording in French tool tip strings is more consistent now.
   - fix: The French tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
-  - fix: The TOOLTIP:NumberOfVotes, GUI:Ok, LAN:OK, MapTransfer:Done strings now have French text.
+  - fix: The French strings of TOOLTIP:NumberOfVotes, GUI:Ok, LAN:OK, MapTransfer:Done now contain text.
+  - fix: The French strings of Version:BuildTime, Version:BuildMachine, Version:BuildUser now contain the number format.
   - fix: The wording in French tool tip strings for the GLA Scud Launcher is more consistent now.
 
 labels:
@@ -20,6 +21,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340
 
 authors:
   - xezon

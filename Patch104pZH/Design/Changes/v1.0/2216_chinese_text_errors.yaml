@@ -4,8 +4,9 @@ date: 2023-08-07
 title: Fixes errors in Chinese strings
 
 changes:
-  - fix: The TOOLTIP:NumberOfVotes string now has Chinese text.
-  - fix: The TOOLTIP:GameInfoPlayer string now shows its number format in Chinese text.
+  - fix: The Chinese string of TOOLTIP:NumberOfVotes now has text.
+  - fix: The Chinese string of TOOLTIP:GameInfoPlayer now contains the number format.
+  - fix: The Chinese string of WOL:BuddyOffline now contains the string format.
   - fix: Quote symbols are now properly paired and spaced in Chinese strings.
   - fix: Three dot symbols are now used consistently in Chinese strings.
   - fix: Some rare Chinese speech subtitles no longer print the first row in bold font.
@@ -21,6 +22,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2330
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2332
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340
 
 authors:
   - xezon
