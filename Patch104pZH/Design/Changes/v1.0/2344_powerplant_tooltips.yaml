@@ -1,0 +1,26 @@
+---
+date: 2023-09-10
+
+title: Fixes errors and inconsistencies in tool tip strings of USA and China Reactors
+
+changes:
+  - fix: The tool tip strings of the USA and China Reactors now have correct and consistent descriptions.
+
+subchanges:
+  - fix: The tool tip strings of the Advanced China Nuclear Reactor now also mention the overcharge bonus value.
+  - fix: The tool tip strings of the Advanced China Nuclear Reactor now properly mention that it is an advanced reactor in all languages.
+  - fix: The overcharge wording in English and French tool tip strings of the China Nuclear Reactor is now consistent with the actual overcharge button.
+  - fix: The power value wording in Korean, Brazilian, Polish tool tip strings of the USA and China Reactors is now consistent.
+
+labels:
+  - china
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2344
+
+authors:
+  - xezon
