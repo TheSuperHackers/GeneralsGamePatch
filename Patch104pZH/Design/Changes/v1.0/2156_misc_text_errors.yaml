@@ -32,6 +32,7 @@ changes:
         - script
         - tooltip
         - wol
+  - fix: The strength and weakness lists in tool tip strings now use consistent listing styles in latin languages.
 
 labels:
   - minor
@@ -48,6 +49,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2333
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2341
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2359
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2346
 
 authors:
   - xezon
