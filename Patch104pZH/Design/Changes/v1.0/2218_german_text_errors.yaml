@@ -15,6 +15,11 @@ changes:
   - fix: The German science string of the GLA Hijacker no longer claims that the unit is perfectly stealthed.
   - fix: The German gui title string for host match close now has a descriptive title.
 
+subchanges:
+  - fix: German tool tip strings now consistently refer to rocket soldiers as "Raketen-Bots".
+  - fix: German tool tip strings now consistently refer to anti-air defenses as "Flugabwehrgeschütze".
+  - fix: German tool tip strings now consistently refer to base defenses as "Abwehreinrichtungen".
+
 labels:
   - minor
   - text

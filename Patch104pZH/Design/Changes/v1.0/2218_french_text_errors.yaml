@@ -10,6 +10,11 @@ changes:
   - fix: The French strings of Version:BuildTime, Version:BuildMachine, Version:BuildUser now contain the number format.
   - fix: The wording in French tool tip strings for the GLA Scud Launcher is more consistent now.
 
+subchanges:
+  - fix: French tool tip strings now consistently refer to rocket soldiers as "l'infanterie armée de missiles".
+  - fix: French tool tip strings now consistently refer to anti-air defenses as "défenses antiaériennes".
+  - fix: French tool tip strings now consistently refer to scouts as "éclaireurs" instead of "unités de reconnaissance".
+
 labels:
   - gla
   - minor
@@ -22,6 +27,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350
 
 authors:
   - xezon
