@@ -1,0 +1,20 @@
+---
+date: 2023-09-11
+
+title: Improves tool tip strings of GLA Battle Bus
+
+changes:
+  - tweak: The tool tip strings of the GLA Battle Bus no longer list strengths.
+  - tweak: The latin tool tip strings of the GLA Battle Bus now mention that the bus passengers can fire out of it.
+
+labels:
+  - gla
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2352
+
+authors:
+  - xezon
