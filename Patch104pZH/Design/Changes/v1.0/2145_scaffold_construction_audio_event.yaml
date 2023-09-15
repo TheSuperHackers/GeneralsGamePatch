@@ -1,0 +1,19 @@
+---
+date: 2023-07-24
+
+title: Fixes scaffold construction ambient audio issues
+
+changes:
+  - fix: The ambient sound of a scaffold construction is no longer mute after refocusing the scaffold or tabbing out of the game.
+
+labels:
+  - audio
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2145
+
+authors:
+  - xezon
