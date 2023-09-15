@@ -1,0 +1,21 @@
+---
+date: 2023-07-24
+
+title: Fixes China Nuke Silo ambient audio issues
+
+changes:
+  - fix: The ambient sound of the China Nuke Silo missile is no longer mute after refocusing the structure or tabbing out of the game.
+  - fix: The ambient sound of the China Nuke Silo missile now has a homogeneous loop and less pedantic setup.
+
+labels:
+  - audio
+  - china
+  - bug
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2145
+
+authors:
+  - xezon
