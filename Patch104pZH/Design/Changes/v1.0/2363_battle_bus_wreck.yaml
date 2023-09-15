@@ -5,16 +5,19 @@ title: Fixes wreck model of GLA Battle Bus
 
 changes:
   - fix: The wreck of the GLA Battle Bus no longer shows bus salvage upgrades.
+  - tweak: The wreck of the GLA Battle Bus no longer spawns with a small random delay.
 
 labels:
   - art
   - bug
+  - design
   - gla
   - minor
   - v1.0
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2363
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2364
 
 authors:
   - xezon
