@@ -1,0 +1,21 @@
+---
+date: 2023-07-10
+
+title: Swaps position of Stop and Supply Lines buttons in command set of USA Strategy Center
+
+changes:
+  - tweak: The Stop button is now positioned at its regular place in the command set of the USA Strategy Center.
+
+labels:
+  - design
+  - gui
+  - minor
+  - optional
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2094
+
+authors:
+  - xezon
