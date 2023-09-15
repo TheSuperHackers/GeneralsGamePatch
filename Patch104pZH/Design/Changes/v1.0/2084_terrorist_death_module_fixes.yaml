@@ -1,0 +1,22 @@
+---
+date: 2023-07-08
+
+title: Fixes death modules of GLA Terrorists
+
+changes:
+  - fix: GLA Terrorists now fling in air when burned and exploded.
+  - fix: GLA Terrorists now play the crush death sound when crushed and splatted.
+  - fix: Sets correct poison death models for GC_Chem_GLAInfantryTerrorist, GC_Slth_GLAInfantryTerrorist.
+
+labels:
+  - bug
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2084
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2085
+
+authors:
+  - xezon

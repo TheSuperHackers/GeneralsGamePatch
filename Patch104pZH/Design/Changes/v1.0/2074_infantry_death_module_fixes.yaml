@@ -13,21 +13,18 @@ changes:
   - fix: Adds missing crushed, exploded death modules to GenericFemale01, AmericanFarmer01, AsianFarmer01, AsianFarmer02, AsianFarmer3.
   - fix: Adds missing crushed, exploded death modules to HomelessGuy.
   - fix: Adds missing crushed, exploded death modules to GenericMale02, GenericFemale02.
-  - fix: Sets correct poison death models for GC_Chem_GLAInfantryTerrorist, GC_Slth_GLAInfantryTerrorist.
 
 labels:
   - bug
   - china
   - civilian
   - design
-  - gla
   - minor
   - usa
   - v1.0
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2074
-  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2085
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2231
 
 authors:
