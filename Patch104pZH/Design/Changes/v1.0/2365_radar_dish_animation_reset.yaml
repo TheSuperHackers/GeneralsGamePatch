@@ -1,0 +1,22 @@
+---
+date: 2023-09-16
+
+title: Fixes animation reset on damage transition of vehicles
+
+changes:
+  - fix: The radar dish rotation of the GLA Radar Van no longer resets on a damage transition.
+  - fix: The radar dish rotation of the China Overlord no longer resets on a damage transition.
+  - fix: The radar dish rotation of the China Listening Outpost no longer resets on a damage transition.
+
+labels:
+  - bug
+  - china
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2365
+
+authors:
+  - xezon
