@@ -1,0 +1,20 @@
+---
+date: 2023-09-15
+
+title: Improves death effects of GLA Radar Van and Quad Cannon
+
+changes:
+  - fix: The final destructions of the GLA Radar Van and Quad Cannon now have a suitable delay to better accomodate the immediate explosion effect with the Demo Upgrade.
+  - fix: The GLA Radar Van and Quad Cannon now have an initial death effect and sound to better show their exact moment of death.
+
+labels:
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2366
+
+authors:
+  - xezon
