@@ -5,34 +5,34 @@ Includes changes with labels: art
 
 Occuring labels are
 
-- art (133)
+- art (134)
 - audio (2)
 - buff (1)
-- bug (76)
+- bug (77)
 - china (28)
 - civilian (4)
-- design (1)
+- design (2)
 - enhancement (34)
-- gla (27)
+- gla (28)
 - gui (1)
 - major (6)
-- minor (127)
+- minor (128)
 - optional (10)
 - performance (11)
 - usa (58)
-- v1.0 (133)
+- v1.0 (134)
 - wip (1)
 - worldbuilder (1)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 133 entries with
+Contains 134 entries with
 
-- 165 changes
+- 167 changes
   - OPTIMIZATION (9)
-  - FIX (122)
+  - FIX (123)
   - FEATURE (22)
-  - TWEAK (12)
+  - TWEAK (13)
 - 212 subchanges
   - FIX (160)
   - TWEAK (24)
@@ -150,6 +150,7 @@ Contains 133 entries with
 - [2023-06-25 - Increases visibility of toxin spray particles](#link__20230625__2042_toxin_spray_particle_visibility)
 - [2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5%](#link__20230625__2042_toxin_spray_puddle_performance)
 - [2023-07-16 - Fixes wrong exploded death animation of GLA Worker](#link__20230716__2120_worker_death_animation)
+- [2023-09-15 - Fixes wreck model of GLA Battle Bus](#link__20230915__2363_battle_bus_wreck)
 - [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#link__20211016__568_repair_bay_ruin_model)
 - [2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees](#link__20230205__1638_humvee1_transition_damage_effects)
 - [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#link__20230205__1639_civ_damaged_state_models)
@@ -2776,6 +2777,24 @@ Contains 133 entries with
 **Authors:** RedMeow2, commy2, xezon
 
 **Source:** 2120_worker_death_animation.yaml
+
+---
+### 2023-09-15 - Fixes wreck model of GLA Battle Bus <a name='link__20230915__2363_battle_bus_wreck'></a>
+**Changes**
+
+- **FIX**: The wreck of the GLA Battle Bus no longer shows bus salvage upgrades.
+- **TWEAK**: The wreck of the GLA Battle Bus no longer spawns with a small random delay.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2363](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2363)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2364](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2364)
+
+**Labels:** art, bug, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2363_battle_bus_wreck.yaml
 
 ---
 ### 2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building. <a name='link__20211016__568_repair_bay_ruin_model'></a>

@@ -6,44 +6,44 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (133)
-- audio (126)
+- art (134)
+- audio (128)
 - boss (59)
-- buff (94)
-- bug (456)
-- china (234)
+- buff (95)
+- bug (463)
+- china (238)
 - civilian (26)
-- controversial (119)
+- controversial (122)
 - critical (5)
-- design (203)
+- design (209)
 - enhancement (124)
 - fix (1)
-- gla (241)
-- gui (75)
-- major (86)
-- minor (740)
-- nerf (29)
-- optional (38)
+- gla (249)
+- gui (76)
+- major (90)
+- minor (755)
+- nerf (30)
+- optional (39)
 - performance (25)
-- text (94)
-- usa (260)
-- v1.0 (836)
+- text (102)
+- usa (265)
+- v1.0 (855)
 - wip (1)
 - worldbuilder (19)
 
 Sorts changes by: date (ascending)
 
-Contains 836 entries with
+Contains 855 entries with
 
-- 1321 changes
-  - FIX (953)
+- 1366 changes
+  - FIX (984)
   - OPTIMIZATION (12)
-  - TWEAK (263)
-  - FEATURE (65)
+  - TWEAK (280)
+  - FEATURE (62)
   - REFACTOR (26)
   - CHANGE (2)
-- 718 subchanges
-  - FIX (575)
+- 740 subchanges
+  - FIX (597)
   - FEATURE (28)
   - TWEAK (115)
 
@@ -581,14 +581,15 @@ Contains 836 entries with
 - [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
 - [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#link__20230209__1663_scorpion_death_model)
 - [2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death](#link__20230211__1619_nuke_cannon_duplicate_radiation)
-- [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
 - [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#link__20230211__1672_marauder_double_barrel_firing_sequence)
-- [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
 - [2023-02-11 - Adds missing CRATE flag to SalvageCrate](#link__20230211__1675_salvage_crate_crate_flag)
 - [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
-- [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#link__20230211__1703_scud_storm_idle_reload)
-- [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 2100 ms to China Tank Battlemaster with Autoloader upgrade](#link__20230211__1704_battlemaster_autoloader_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
 - [2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25](#link__20230212__1680_supply_truck_xp_reward)
 - [2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
@@ -752,16 +753,21 @@ Contains 836 entries with
 - [2023-06-25 - Increases visibility of toxin spray particles](#link__20230625__2042_toxin_spray_particle_visibility)
 - [2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5%](#link__20230625__2042_toxin_spray_puddle_performance)
 - [2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors](#link__20230626__2043_toxin_tractor_contaminate_audio_stutter)
+- [2023-06-26 - Decreases Toxin Bomb poison field damage by 20%](#link__20230626__2044_anthrax_beta_field_damage)
 - [2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm](#link__20230629__2050_dragon_black_napalm_flamethrower_clip_size)
 - [2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50%](#link__20230629__2051_toxin_tractor_radiation_armor)
 - [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
+- [2023-07-06 - Fixes toxin stream timeout of GLA Toxin Tunnel](#link__20230706__2063_toxin_tunnel_stream_timeout)
+- [2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes](#link__20230707__2064_burton_experience_reward)
 - [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
 - [2023-07-08 - Fixes missing and broken infantry death modules](#link__20230708__2074_infantry_death_module_fixes)
 - [2023-07-08 - Fixes silent death explosion of GLA Terrorists when not suicided](#link__20230708__2075_terrorist_death_explosion_sound_fix)
 - [2023-07-08 - Removes wrong exploded death effects from GLA Demo Barracks](#link__20230708__2076_demo_barracks_death_effect)
+- [2023-07-08 - Fixes death modules of GLA Terrorists](#link__20230708__2084_terrorist_death_module_fixes)
 - [2023-07-09 - Adds name variants to GLA Stealth infantry units for all languages](#link__20230709__2086_stealth_infantry_unit_names)
 - [2023-07-09 - Adds missing Assault Troop Transport, Attack Outpost and Assault Helix name specializations to German localization](#link__20230709__2088_german_infa_transports_text)
 - [2023-07-10 - Streamlines key mappings of China Mines upgrades](#link__20230710__2093_china_mines_key_mapping)
+- [2023-07-10 - Swaps position of Stop and Supply Lines buttons in command set of USA Strategy Center](#link__20230710__2094_strategy_center_stop_button_placement)
 - [2023-07-12 - Fixes key conflict of China Satellite Hack I and II with Stop button](#link__20230712__2092_satellite_hack_i_ii_key_conflict)
 - [2023-07-12 - Removes duplicate Command_UpgradeCamoNetting definition from ini files](#link__20230712__2100_remove_duplicate_camo_netting_button)
 - [2023-07-12 - Fixes Boss General key conflicts in English localization](#link__20230712__2102_english_boss_key_conflicts)
@@ -787,8 +793,11 @@ Contains 836 entries with
 - [2023-07-23 - Improves visibility of text key mappings in all languages](#link__20230723__2141_text_key_mapping_format)
 - [2023-07-23 - Streamlines key mappings of GLA fake structures with regular GLA structures](#link__20230723__2142_fake_structures_key_mismatch)
 - [2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages](#link__20230723__2143_faction_variant_key_mismatches)
-- [2023-07-26 - Fixes errors in Polish strings](#link__20230726__2148_polish_tool_tip_text)
-- [2023-07-26 - Fixes errors in English tool tip strings](#link__20230726__2150_english_tool_tip_text)
+- [2023-07-24 - Fixes China Nuke Silo ambient audio issues](#link__20230724__2145_nuke_silo_audio_event)
+- [2023-07-24 - Fixes scaffold construction ambient audio issues](#link__20230724__2145_scaffold_construction_audio_event)
+- [2023-07-25 - Fixes tool tip and help strings of USA MOAB](#link__20230725__2146_moab_tooltip)
+- [2023-07-26 - Fixes errors in Polish strings](#link__20230726__2148_polish_text_errors)
+- [2023-07-26 - Fixes errors in English strings](#link__20230726__2150_english_text_errors)
 - [2023-07-26 - Fixes errors in Spanish strings](#link__20230726__2151_spanish_text_errors)
 - [2023-07-26 - Fixes errors in Korean tool tip strings](#link__20230726__2153_korean_text_errors)
 - [2023-07-29 - Fixes various errors in text strings](#link__20230729__2156_misc_text_errors)
@@ -808,7 +817,7 @@ Contains 836 entries with
 - [2023-08-02 - Adds snow texture versions of Supply Piles and Supply Docks](#link__20230802__2190_supply_dock_and_pile_snow_textures)
 - [2023-08-02 - Removes very tiny debris pieces from USA Scout Drone when shot down](#link__20230802__2193_scout_drone_debris)
 - [2023-08-02 - Fixes immortal presence of circling plane and helicopter wrecks](#link__20230802__2194_dead_plane_helicopter_bug)
-- [2023-08-02 - Fixes errors in Brazilian tool tip strings](#link__20230802__2195_brazilian_tool_tip_text)
+- [2023-08-02 - Fixes errors in Brazilian strings](#link__20230802__2195_brazilian_text_errors)
 - [2023-08-03 - Fixes promoted USA Crusader Tank, Laser Tank and Microwave Tank spawn pilots when crushed](#link__20230803__2196_crushed_tank_pilots)
 - [2023-08-03 - Fixes missing snow on snow models of USA Laser Turret](#link__20230803__2197_laser_turret_snow)
 - [2023-08-03 - Fixes incorrect USA Fire Base model when badly damaged and sold](#link__20230803__2199_fire_base_badly_damage_sold_model)
@@ -819,8 +828,8 @@ Contains 836 entries with
 - [2023-08-07 - Adds unused Militia Man to World Builder](#link__20230807__2192_militia_man)
 - [2023-08-07 - Adds unused Partisan units to World Builder](#link__20230807__2192_partisans)
 - [2023-08-07 - Fixes errors in Chinese strings](#link__20230807__2216_chinese_text_errors)
-- [2023-08-07 - Fixes errors in French tool tip strings](#link__20230807__2218_french_tool_tip_text)
-- [2023-08-07 - Fixes errors in German tool tip strings](#link__20230807__2218_german_tool_tip_text)
+- [2023-08-07 - Fixes errors in French strings](#link__20230807__2218_french_text_errors)
+- [2023-08-07 - Fixes errors in German strings](#link__20230807__2218_german_text_errors)
 - [2023-08-07 - Fixes errors in Italian strings](#link__20230807__2219_italian_text_errors)
 - [2023-08-07 - Fixes USA Spectre wreck being silent when crashing onto the ground](#link__20230807__2220_spectre_wreck_impact_sound)
 - [2023-08-12 - Fixes China Troop Crawler string errors in English and Italian languages](#link__20230812__2226_troop_crawler_text)
@@ -883,7 +892,17 @@ Contains 836 entries with
 - [2023-09-03 - Fixes inconsistent names of China Overlord and Helix Speaker Towers](#link__20230903__2322_overlord_helix_speaker_tower_name)
 - [2023-09-03 - Adds additional information to tool tip strings of China Overlord and Helix Speaker Tower](#link__20230903__2323_overlord_helix_speaker_tower_tooltip)
 - [2023-09-04 - Improves and streamlines wording in tool tip strings of China Overlord and Helix upgrades](#link__20230904__2323_overlord_helix_upgrade_tooltip)
+- [2023-09-06 - Fixes slow speed of briefings and speech subtitles](#link__20230906__2326_briefings_subtitles_text_speed)
 - [2023-09-08 - Fixes and optimizes line breaks in various strings for all languages](#link__20230908__2337_strings_line_breaks)
+- [2023-09-09 - Adds missing translations to Italian mission subtitles](#link__20230909__2338_italian_mission_speech_subtitles)
+- [2023-09-10 - Adds missing translations to Spanish mission subtitles](#link__20230910__2339_spanish_mission_speech_subtitles)
+- [2023-09-10 - Fixes tool tip strings of China Neutron Shells](#link__20230910__2343_neutron_shells_tooltip)
+- [2023-09-10 - Fixes errors and inconsistencies in tool tip strings of USA and China Reactors](#link__20230910__2344_powerplant_tooltips)
+- [2023-09-11 - Improves tool tip strings of GLA Battle Bus](#link__20230911__2352_battlebus_tooltip)
+- [2023-09-13 - Fixes name of GLA Bio Bomb](#link__20230913__2360_biobomb_text)
+- [2023-09-15 - Fixes wreck model of GLA Battle Bus](#link__20230915__2363_battle_bus_wreck)
+- [2023-09-15 - Improves death effects of GLA Radar Van and Quad Cannon](#link__20230915__2366_radar_van_quad_cannon_death_fx)
+- [2023-09-16 - Fixes animation reset on damage transition of vehicles](#link__20230916__2365_radar_dish_animation_reset)
 
 
 
@@ -10886,10 +10905,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1619_nuke_cannon_duplicate_radiation.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
 **Changes**
 
-- **FIX**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
 
 **Links**
 
@@ -10918,10 +10937,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1672_marauder_double_barrel_firing_sequence.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
-- **FEATURE**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
 
 **Links**
 
@@ -10966,10 +10985,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1676_salvage_crate_exploit.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
-- **FEATURE**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
 
 **Links**
 
@@ -10998,10 +11017,26 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1703_scud_storm_idle_reload.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 2100 ms to China Tank Battlemaster with Autoloader upgrade <a name='link__20230211__1704_battlemaster_autoloader_idle_reload'></a>
 **Changes**
 
-- **FEATURE**: The USA Comanche Rocket Pod will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire a few of its rockets and at least 30 seconds pass until the next attack.
+- **TWEAK**: The China Tank Battlemaster with Autoloader upgrade will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire 1 or 2 of its shells and at least 2 seconds pass until the next attack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1704](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1704)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1704_battlemaster_autoloader_idle_reload.yaml
+
+---
+### 2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
+**Changes**
+
+- **TWEAK**: The USA Comanche Rocket Pod will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire a few of its rockets and at least 30 seconds pass until the next attack.
 
 **Links**
 
@@ -13153,10 +13188,12 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: Fixes misspelled filename in Cin_SquadronFlyBy02.
 - **FIX**: Fixes misspelled filename in Taunts_Turtle087.
 - **FIX**: Fixes misspelled filename in EvaGLA_FundsTransferred.
+- **TWEAK**: The CashStolen EVA event is now properly disabled.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1940](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1940)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2356](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2356)
 
 **Labels:** audio, bug, minor, v1.0
 
@@ -14705,13 +14742,14 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20% <a name='link__20230617__2012_anthrax_gamma_field_damage'></a>
 **Changes**
 
-- **TWEAK**: Increases the Anthrax Gamma poison field damage bonus by 20%, except Anthrax Bomb.
+- **TWEAK**: All Anthrax Gamma poison fields now deal 20% more damage than Anthrax Beta.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2045](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2045)
 
-**Labels:** buff, controversial, design, gla, minor, v1.0
+**Labels:** buff, controversial, design, gla, major, v1.0
 
 **Authors:** xezon
 
@@ -15029,6 +15067,22 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2043_toxin_tractor_contaminate_audio_stutter.yaml
 
 ---
+### 2023-06-26 - Decreases Toxin Bomb poison field damage by 20% <a name='link__20230626__2044_anthrax_beta_field_damage'></a>
+**Changes**
+
+- **TWEAK**: The poison field of the regular Toxin Bomb now deals 20% less damage than the Anthrax Bomb.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2044](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2044)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2044_anthrax_beta_field_damage.yaml
+
+---
 ### 2023-06-29 - Fixes incorrect clip size and reload time of China Dragon Tank flame thrower with Black Napalm <a name='link__20230629__2050_dragon_black_napalm_flamethrower_clip_size'></a>
 **Changes**
 
@@ -15075,6 +15129,38 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2058_toxin_stream_splash_visuals.yaml
+
+---
+### 2023-07-06 - Fixes toxin stream timeout of GLA Toxin Tunnel <a name='link__20230706__2063_toxin_tunnel_stream_timeout'></a>
+**Changes**
+
+- **FIX**: The toxin stream of the GLA Toxin Tunnel no longer times out when firing on distant terrain or allied units.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2063](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2063)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2063_toxin_tunnel_stream_timeout.yaml
+
+---
+### 2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes <a name='link__20230707__2064_burton_experience_reward'></a>
+**Changes**
+
+- **TWEAK**: The USA Burton now rewards 50 50 100 150 instead of 50 100 100 150 experience on kill.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2064](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2064)
+
+**Labels:** controversial, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2064_burton_experience_reward.yaml
 
 ---
 ### 2023-07-08 - Enables Laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
@@ -15155,6 +15241,25 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2076_demo_barracks_death_effect.yaml
 
 ---
+### 2023-07-08 - Fixes death modules of GLA Terrorists <a name='link__20230708__2084_terrorist_death_module_fixes'></a>
+**Changes**
+
+- **FIX**: GLA Terrorists now fling in air when burned and exploded.
+- **FIX**: GLA Terrorists now play the crush death sound when crushed and splatted.
+- **FIX**: Sets correct poison death models for GC_Chem_GLAInfantryTerrorist, GC_Slth_GLAInfantryTerrorist.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2084](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2084)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2085](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2085)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2084_terrorist_death_module_fixes.yaml
+
+---
 ### 2023-07-09 - Adds name variants to GLA Stealth infantry units for all languages <a name='link__20230709__2086_stealth_infantry_unit_names'></a>
 **Changes**
 
@@ -15212,6 +15317,22 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2093_china_mines_key_mapping.yaml
+
+---
+### 2023-07-10 - Swaps position of Stop and Supply Lines buttons in command set of USA Strategy Center <a name='link__20230710__2094_strategy_center_stop_button_placement'></a>
+**Changes**
+
+- **TWEAK**: The Stop button is now positioned at its regular place in the command set of the USA Strategy Center.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2094](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2094)
+
+**Labels:** design, gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2094_strategy_center_stop_button_placement.yaml
 
 ---
 ### 2023-07-12 - Fixes key conflict of China Satellite Hack I and II with Stop button <a name='link__20230712__2092_satellite_hack_i_ii_key_conflict'></a>
@@ -15919,13 +16040,70 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2143_faction_variant_key_mismatches.yaml
 
 ---
-### 2023-07-26 - Fixes errors in Polish strings <a name='link__20230726__2148_polish_tool_tip_text'></a>
+### 2023-07-24 - Fixes China Nuke Silo ambient audio issues <a name='link__20230724__2145_nuke_silo_audio_event'></a>
+**Changes**
+
+- **FIX**: The ambient sound of the China Nuke Silo missile is no longer mute after refocusing the structure or tabbing out of the game.
+- **FIX**: The ambient sound of the China Nuke Silo missile now has a homogeneous loop and less pedantic setup.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2145](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2145)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2145_nuke_silo_audio_event.yaml
+
+---
+### 2023-07-24 - Fixes scaffold construction ambient audio issues <a name='link__20230724__2145_scaffold_construction_audio_event'></a>
+**Changes**
+
+- **FIX**: The ambient sound of a scaffold construction is no longer mute after refocusing the scaffold or tabbing out of the game.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2145](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2145)
+
+**Labels:** audio, bug, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2145_scaffold_construction_audio_event.yaml
+
+---
+### 2023-07-25 - Fixes tool tip and help strings of USA MOAB <a name='link__20230725__2146_moab_tooltip'></a>
+**Changes**
+
+- **FIX**: The tool tip and help strings of the USA MOAB no longer claim that it stuns or shocks units in the blast radius.
+- **FIX**: The tool tip strings of the USA MOAB now list vehicles in its strengths.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2342](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2342)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2146_moab_tooltip.yaml
+
+---
+### 2023-07-26 - Fixes errors in Polish strings <a name='link__20230726__2148_polish_text_errors'></a>
 **Changes**
 
 - **FIX**: The wording in Polish tool tip strings is more consistent now.
 - **FIX**: The wording in Polish tool tip strings for the GLA Scud Launcher is more consistent now.
 - **FIX**: The China Helix is now called "Helis" instead of "Spiral" in Polish strings.
 - **FIX**: The Polish tool tip string of the China Infantry Helix no longer claims to let passengers shoot at each other.
+- **TWEAK**: The Polish string for failed Rally Point placement is more concise now.
+
+**Subchanges**
+
+- **FIX**: Polish tool tip strings now consistently refer to rocket soldiers as "piechocie rakietowej".
+- **FIX**: Polish tool tip strings now consistently refer to anti-air defenses as "obronie przeciwlotniczej".
 
 **Links**
 
@@ -15934,19 +16112,21 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345)
 
 **Labels:** china, gla, minor, text, v1.0
 
 **Authors:** xezon
 
-**Source:** 2148_polish_tool_tip_text.yaml
+**Source:** 2148_polish_text_errors.yaml
 
 ---
-### 2023-07-26 - Fixes errors in English tool tip strings <a name='link__20230726__2150_english_tool_tip_text'></a>
+### 2023-07-26 - Fixes errors in English strings <a name='link__20230726__2150_english_text_errors'></a>
 **Changes**
 
 - **FIX**: The wording in English tool tip strings is more consistent now.
 - **FIX**: The capitalization of words in English tool tip strings is more consistent now.
+- **FIX**: The English tool tip string of the GLA Rocket Buggy now also mentions it being strong vs infantry.
 
 **Links**
 
@@ -15954,12 +16134,13 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2195)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2353](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2353)
 
 **Labels:** minor, text, v1.0
 
 **Authors:** xezon
 
-**Source:** 2150_english_tool_tip_text.yaml
+**Source:** 2150_english_text_errors.yaml
 
 ---
 ### 2023-07-26 - Fixes errors in Spanish strings <a name='link__20230726__2151_spanish_text_errors'></a>
@@ -15970,6 +16151,13 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: The Spanish tool tip for the GLA Terrorist now describes the unit as "Soldado suicida" and is therefore more consistent with the English wording.
 - **FIX**: Some rare Spanish speech subtitles no longer print the first row in bold font.
 
+**Subchanges**
+
+- **FIX**: Spanish tool tip strings now consistently refer to rocket soldiers as "infantería con misiles".
+- **FIX**: Spanish tool tip strings now consistently refer to anti-air defenses as "defensas antiaéreas".
+- **FIX**: Spanish tool tip strings now consistently refer to aircraft as "aviación" instead of "aviones".
+- **FIX**: Spanish tool tip strings now consistently refer to scouts as "exploradores" instead of "unidades exploradoras".
+
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2151](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2151)
@@ -15978,6 +16166,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2252](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2252)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350)
 
 **Labels:** minor, text, v1.0
 
@@ -16015,15 +16204,35 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: Removes superfluous sentences from Scud Launcher promotion tool tip strings.
 - **FIX**: Adds missing sentences to various tool tip strings.
 - **FIX**: Removes superfluous mention of 'enemy' in tool tip strings of USA Stealth Figher, Tomahawk and China Inferno Cannon for all languages.
-- **FIX**: Removes incorrect sentence in MOAB tooltip for all languages.
 - **FIX**: The China Assault Transport tool tip strings now show correct strengths and weaknesses for all languages.
 - **FIX**: The China Listening Outpost tool tip strings now show correct strengths and weaknesses for all languages.
 - **FIX**: The GLA Demolition upgrade now has consistent names in all latin languages.
-- **FIX**: Fixes punctuation inconsistencies in controlbar, map, gui, dialogevent, tooltip, mdgla02, mdgla03, md_gla05, help, generic, lose, academy, wol, buddy, script, qm strings for all languages.
+- **FIX**: Fixes punctuation inconsistencies for all languages. Affects strings of
+  - academy
+  - buddy
+  - controlbar
+  - dialogevent
+  - generic
+  - gui
+  - help
+  - lan
+  - lose
+  - map
+  - mdgla02
+  - mdgla03
+  - md_gla05
+  - network
+  - qm
+  - radar
+  - script
+  - tooltip
+  - wol
+
+- **FIX**: The strength and weakness lists in tool tip strings now use consistent listing styles in latin languages.
+- **FIX**: Fixes some strength and weakness inconsistencies in tool tip strings for all languages.
 
 **Links**
 
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2149](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2149)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2156](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2156)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2167](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2167)
@@ -16031,6 +16240,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2316](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2316)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2317](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2317)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2333](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2333)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2341](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2341)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2346](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2346)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2351](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2351)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2359](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2359)
 
 **Labels:** minor, text, v1.0
 
@@ -16310,11 +16523,17 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2194_dead_plane_helicopter_bug.yaml
 
 ---
-### 2023-08-02 - Fixes errors in Brazilian tool tip strings <a name='link__20230802__2195_brazilian_tool_tip_text'></a>
+### 2023-08-02 - Fixes errors in Brazilian strings <a name='link__20230802__2195_brazilian_text_errors'></a>
 **Changes**
 
 - **FIX**: The wording in Brazilian tool tip strings is more consistent now.
 - **FIX**: The Brazilian names for GLA Booby Trap and Demo Trap are now distinguishable from each other.
+
+**Subchanges**
+
+- **FIX**: Brazilian tool tip strings now consistently refer to rocket soldiers as "Infantaria com Mísseis" instead of "Soldados c/ Mísseis".
+- **FIX**: Brazilian tool tip strings now consistently refer to anti-air defenses as "Defesas Antiaéreas".
+- **FIX**: Brazilian tool tip strings now consistently refer to scouts as "Unidades de Reconhecimento" instead of "Batedores".
 
 **Links**
 
@@ -16322,12 +16541,13 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2257](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2257)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350)
 
 **Labels:** minor, text, v1.0
 
 **Authors:** xezon
 
-**Source:** 2195_brazilian_tool_tip_text.yaml
+**Source:** 2195_brazilian_text_errors.yaml
 
 ---
 ### 2023-08-03 - Fixes promoted USA Crusader Tank, Laser Tank and Microwave Tank spawn pilots when crushed <a name='link__20230803__2196_crushed_tank_pilots'></a>
@@ -16485,11 +16705,14 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-08-07 - Fixes errors in Chinese strings <a name='link__20230807__2216_chinese_text_errors'></a>
 **Changes**
 
-- **FIX**: The TOOLTIP:NumberOfVotes string now has Chinese text.
-- **FIX**: The TOOLTIP:GameInfoPlayer string now shows its number format in Chinese text.
+- **FIX**: The Chinese string of TOOLTIP:NumberOfVotes now has text.
+- **FIX**: The Chinese string of TOOLTIP:GameInfoPlayer now contains the number format.
+- **FIX**: The Chinese string of WOL:BuddyOffline now contains the string format.
 - **FIX**: Quote symbols are now properly paired and spaced in Chinese strings.
 - **FIX**: Three dot symbols are now used consistently in Chinese strings.
 - **FIX**: Some rare Chinese speech subtitles no longer print the first row in bold font.
+- **TWEAK**: The Chinese tool tip string for map start positions is more concise now.
+- **FIX**: The Chinese tool tip string of the GLA Rocket Buggy now also mentions it being strong vs infantry.
 
 **Links**
 
@@ -16498,6 +16721,9 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2330](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2330)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2332](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2332)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2353](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2353)
 
 **Labels:** minor, text, v1.0
 
@@ -16506,13 +16732,21 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2216_chinese_text_errors.yaml
 
 ---
-### 2023-08-07 - Fixes errors in French tool tip strings <a name='link__20230807__2218_french_tool_tip_text'></a>
+### 2023-08-07 - Fixes errors in French strings <a name='link__20230807__2218_french_text_errors'></a>
 **Changes**
 
 - **FIX**: The wording in French tool tip strings is more consistent now.
 - **FIX**: The French tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
-- **FIX**: The TOOLTIP:NumberOfVotes, GUI:Ok, LAN:OK, MapTransfer:Done strings now have French text.
+- **FIX**: The French strings of TOOLTIP:NumberOfVotes, GUI:Ok, LAN:OK, MapTransfer:Done now contain text.
+- **FIX**: The French strings of Version:BuildTime, Version:BuildMachine, Version:BuildUser now contain the number format.
 - **FIX**: The wording in French tool tip strings for the GLA Scud Launcher is more consistent now.
+- **FIX**: The French tool tip string of the GLA Rocket Buggy now also mentions it being strong vs infantry.
+
+**Subchanges**
+
+- **FIX**: French tool tip strings now consistently refer to rocket soldiers as "l'infanterie armée de missiles".
+- **FIX**: French tool tip strings now consistently refer to anti-air defenses as "défenses antiaériennes".
+- **FIX**: French tool tip strings now consistently refer to scouts as "éclaireurs" instead of "unités de reconnaissance".
 
 **Links**
 
@@ -16520,23 +16754,36 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2353](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2353)
 
 **Labels:** gla, minor, text, v1.0
 
 **Authors:** xezon
 
-**Source:** 2218_french_tool_tip_text.yaml
+**Source:** 2218_french_text_errors.yaml
 
 ---
-### 2023-08-07 - Fixes errors in German tool tip strings <a name='link__20230807__2218_german_tool_tip_text'></a>
+### 2023-08-07 - Fixes errors in German strings <a name='link__20230807__2218_german_text_errors'></a>
 **Changes**
 
 - **FIX**: The wording in German tool tip strings is more consistent now.
-- **FIX**: The German tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
+- **FIX**: The German tool tip strings of China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
 - **FIX**: More German tool tip strings now list the correct strengths and weaknesses.
-- **FIX**: The TOOLTIP:GameInfoPlayer string now shows its number format in German text.
-- **FIX**: The CONTROLBAR:PowerDescription string now shows proper sentences and number format in German text.
-- **FIX**: The German tool tip for the GLA Terrorist now describes the unit as "Kamikaze Bombe" and is therefore more consistent with the English wording.
+- **FIX**: The German string of TOOLTIP:GameInfoPlayer now contains the number format.
+- **FIX**: The German string of CONTROLBAR:PowerDescription now contains proper sentences and the number format.
+- **FIX**: The German string of Buddy:Chatting now contains text.
+- **FIX**: The German tool tip string of the GLA Terrorist now describes the unit as "Kamikaze Bombe" and is therefore more consistent with the English wording.
+- **FIX**: The German tool tip string of the China War Factory now mentions its required power.
+- **FIX**: The German science string of the GLA Hijacker no longer claims that the unit is perfectly stealthed.
+- **FIX**: The German gui title string for host match close now has a descriptive title.
+
+**Subchanges**
+
+- **FIX**: German tool tip strings now consistently refer to rocket soldiers as "Raketen-Bots".
+- **FIX**: German tool tip strings now consistently refer to anti-air defenses as "Flugabwehrgeschütze".
+- **FIX**: German tool tip strings now consistently refer to base defenses as "Abwehreinrichtungen".
 
 **Links**
 
@@ -16545,12 +16792,14 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2252](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2252)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345)
 
 **Labels:** minor, text, v1.0
 
 **Authors:** xezon
 
-**Source:** 2218_german_tool_tip_text.yaml
+**Source:** 2218_german_text_errors.yaml
 
 ---
 ### 2023-08-07 - Fixes errors in Italian strings <a name='link__20230807__2219_italian_text_errors'></a>
@@ -16559,11 +16808,18 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: The wording in Italian tool tip strings is more consistent now.
 - **FIX**: Some rare Italian speech subtitles no longer print the first row in bold font.
 
+**Subchanges**
+
+- **FIX**: Italian tool tip strings now consistently refer to rocket soldiers as "fanteria con missili".
+- **FIX**: Italian tool tip strings now consistently refer to anti-air defenses as "difese contraerea".
+- **FIX**: Italian tool tip strings now consistently refer to base defenses as "difese della base" instead of "difese di terra".
+
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350)
 
 **Labels:** minor, text, v1.0
 
@@ -17723,6 +17979,23 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2323_overlord_helix_upgrade_tooltip.yaml
 
 ---
+### 2023-09-06 - Fixes slow speed of briefings and speech subtitles <a name='link__20230906__2326_briefings_subtitles_text_speed'></a>
+**Changes**
+
+- **FIX**: Increases briefings and speech subtitles print speed for Spanish, Italian, Korean, Chinese languages.
+- **TWEAK**: Increases briefings print speed for English, German, French, Brazilian, Polish languages.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2326](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2326)
+
+**Labels:** bug, major, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2326_briefings_subtitles_text_speed.yaml
+
+---
 ### 2023-09-08 - Fixes and optimizes line breaks in various strings for all languages <a name='link__20230908__2337_strings_line_breaks'></a>
 **Changes**
 
@@ -17737,4 +18010,164 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2337_strings_line_breaks.yaml
+
+---
+### 2023-09-09 - Adds missing translations to Italian mission subtitles <a name='link__20230909__2338_italian_mission_speech_subtitles'></a>
+**Changes**
+
+- **FIX**: All Italian mission speech subtitles now have translations.
+- **TWEAK**: Most Italian mission speech subtitles now use normal structured sentences.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2338](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2338)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2338_italian_mission_speech_subtitles.yaml
+
+---
+### 2023-09-10 - Adds missing translations to Spanish mission subtitles <a name='link__20230910__2339_spanish_mission_speech_subtitles'></a>
+**Changes**
+
+- **FIX**: All Spanish mission speech subtitles now have translations.
+- **TWEAK**: Most Spanish mission speech subtitles now use normal structured sentences.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2339](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2339)
+
+**Labels:** minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2339_spanish_mission_speech_subtitles.yaml
+
+---
+### 2023-09-10 - Fixes tool tip strings of China Neutron Shells <a name='link__20230910__2343_neutron_shells_tooltip'></a>
+**Changes**
+
+- **FIX**: The German tool tip string of the China Neutron Shell upgrade now properly describes the upgrade.
+- **FIX**: The latin tool tip strings of the China Neutron Shell upgrade now also list neutralizing infantry inside buildings.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2343_neutron_shells_tooltip.yaml
+
+---
+### 2023-09-10 - Fixes errors and inconsistencies in tool tip strings of USA and China Reactors <a name='link__20230910__2344_powerplant_tooltips'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the USA and China Reactors now have correct and consistent descriptions.
+
+**Subchanges**
+
+- **FIX**: The tool tip strings of the Advanced China Nuclear Reactor now also mention the overcharge bonus value.
+- **FIX**: The tool tip strings of the Advanced China Nuclear Reactor now properly mention that it is an advanced reactor in all languages.
+- **FIX**: The overcharge wording in English and French tool tip strings of the China Nuclear Reactor is now consistent with the actual overcharge button.
+- **FIX**: The power value wording in Korean, Brazilian, Polish tool tip strings of the USA and China Reactors is now consistent.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2344](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2344)
+
+**Labels:** china, minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2344_powerplant_tooltips.yaml
+
+---
+### 2023-09-11 - Improves tool tip strings of GLA Battle Bus <a name='link__20230911__2352_battlebus_tooltip'></a>
+**Changes**
+
+- **TWEAK**: The tool tip strings of the GLA Battle Bus no longer list strengths.
+- **TWEAK**: The latin tool tip strings of the GLA Battle Bus now mention that the bus passengers can fire out of it.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2352](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2352)
+
+**Labels:** gla, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2352_battlebus_tooltip.yaml
+
+---
+### 2023-09-13 - Fixes name of GLA Bio Bomb <a name='link__20230913__2360_biobomb_text'></a>
+**Changes**
+
+- **FIX**: The latin names of the GLA Bomb Truck Bio Bomb upgrade are now corrected.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2360](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2360)
+
+**Labels:** gla, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2360_biobomb_text.yaml
+
+---
+### 2023-09-15 - Fixes wreck model of GLA Battle Bus <a name='link__20230915__2363_battle_bus_wreck'></a>
+**Changes**
+
+- **FIX**: The wreck of the GLA Battle Bus no longer shows bus salvage upgrades.
+- **TWEAK**: The wreck of the GLA Battle Bus no longer spawns with a small random delay.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2363](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2363)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2364](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2364)
+
+**Labels:** art, bug, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2363_battle_bus_wreck.yaml
+
+---
+### 2023-09-15 - Improves death effects of GLA Radar Van and Quad Cannon <a name='link__20230915__2366_radar_van_quad_cannon_death_fx'></a>
+**Changes**
+
+- **FIX**: The final destructions of the GLA Radar Van and Quad Cannon now have a suitable delay to better accomodate the immediate explosion effect with the Demo Upgrade.
+- **FIX**: The GLA Radar Van and Quad Cannon now have an initial death effect and sound to better show their exact moment of death.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2366](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2366)
+
+**Labels:** design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2366_radar_van_quad_cannon_death_fx.yaml
+
+---
+### 2023-09-16 - Fixes animation reset on damage transition of vehicles <a name='link__20230916__2365_radar_dish_animation_reset'></a>
+**Changes**
+
+- **FIX**: The radar dish rotation of the GLA Radar Van no longer resets on a damage transition.
+- **FIX**: The radar dish rotation of the China Overlord no longer resets on a damage transition.
+- **FIX**: The radar dish rotation of the China Listening Outpost no longer resets on a damage transition.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2365](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2365)
+
+**Labels:** bug, china, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2365_radar_dish_animation_reset.yaml
 

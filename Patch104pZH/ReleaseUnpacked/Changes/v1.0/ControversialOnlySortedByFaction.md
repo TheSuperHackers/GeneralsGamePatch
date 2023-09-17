@@ -7,29 +7,29 @@ Occuring labels are
 
 - audio (2)
 - boss (1)
-- buff (72)
+- buff (73)
 - bug (38)
-- china (44)
+- china (45)
 - civilian (4)
-- controversial (119)
-- design (94)
+- controversial (122)
+- design (97)
 - enhancement (1)
-- gla (42)
+- gla (43)
 - gui (1)
-- major (47)
+- major (50)
 - minor (71)
-- nerf (23)
-- usa (33)
-- v1.0 (119)
+- nerf (24)
+- usa (34)
+- v1.0 (122)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 119 entries with
+Contains 122 entries with
 
-- 144 changes
-  - TWEAK (92)
-  - FIX (45)
-  - FEATURE (7)
+- 147 changes
+  - TWEAK (99)
+  - FIX (44)
+  - FEATURE (4)
 - 20 subchanges
   - FIX (20)
 
@@ -61,11 +61,12 @@ Contains 119 entries with
 - [2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25%](#link__20221116__1469_battle_drone_upgrade_armor_bonus)
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
 - [2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000](#link__20230121__1580_patriot_assist_reload_time)
-- [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
 - [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
 - [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
 - [2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb](#link__20230406__1800_daisy_cutter_explosion_delay_variance)
 - [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
+- [2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes](#link__20230707__2064_burton_experience_reward)
 - [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
 - [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
 - [2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25](#link__20230212__1680_supply_truck_xp_reward)
@@ -102,7 +103,8 @@ Contains 119 entries with
 - [2023-01-07 - Decreases build cost of China Neutron Mines](#link__20230107__1523_china_mines_build_cost)
 - [2023-01-08 - Decreases build time of China Mines](#link__20230108__1533_china_mines_build_time)
 - [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
-- [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 2100 ms to China Tank Battlemaster with Autoloader upgrade](#link__20230211__1704_battlemaster_autoloader_idle_reload)
 - [2023-04-08 - Increases China Overlord speed by 25%, upgraded speed by 16%](#link__20230408__1813_overlord_speed)
 - [2023-04-08 - Increases China Battlemaster speed by 20%, upgraded speed by 14%](#link__20230408__1815_battlemaster_speed)
 - [2023-04-17 - Increases China Emperor speed by 25%, upgraded speed by 16%](#link__20230417__1854_emperor_speed)
@@ -134,9 +136,9 @@ Contains 119 entries with
 - [2022-09-06 - Improves locomotor of GLA Bomb Truck](#link__20220906__1138_bomb_truck_locomotor)
 - [2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400](#link__20220907__1153_combat_bike_required_xp)
 - [2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike](#link__20220908__1164_combat_bike_pilot_promotion)
-- [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
 - [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
-- [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
 - [2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175](#link__20230610__2002_anthrax_beta_scud_storm_damage)
@@ -144,6 +146,7 @@ Contains 119 entries with
 - [2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20%](#link__20230617__2012_anthrax_gamma_field_damage)
 - [2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5](#link__20230617__2014_small_poison_field_radius)
 - [2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds](#link__20230618__2015_toxin_trap_build_time)
+- [2023-06-26 - Decreases Toxin Bomb poison field damage by 20%](#link__20230626__2044_anthrax_beta_field_damage)
 - [2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50%](#link__20230629__2051_toxin_tractor_radiation_armor)
 - [2023-08-26 - Increases movement speed of injured GLA Angry Mob members to prevent them from falling behind and dying](#link__20230826__2290_angry_mob_movement)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
@@ -595,10 +598,10 @@ Contains 119 entries with
 **Source:** 1580_patriot_assist_reload_time.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
 **Changes**
 
-- **FEATURE**: The USA Comanche Rocket Pod will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire a few of its rockets and at least 30 seconds pass until the next attack.
+- **TWEAK**: The USA Comanche Rocket Pod will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire a few of its rockets and at least 30 seconds pass until the next attack.
 
 **Links**
 
@@ -674,6 +677,22 @@ Contains 119 entries with
 **Authors:** xezon
 
 **Source:** 2026_usa_paradrop_payload.yaml
+
+---
+### 2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes <a name='link__20230707__2064_burton_experience_reward'></a>
+**Changes**
+
+- **TWEAK**: The USA Burton now rewards 50 50 100 150 instead of 50 100 100 150 experience on kill.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2064](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2064)
+
+**Labels:** controversial, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2064_burton_experience_reward.yaml
 
 ---
 ### 2023-07-08 - Enables Laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
@@ -1272,10 +1291,10 @@ Contains 119 entries with
 **Source:** 1540_helix_nuke_bomb_damage.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
 **Changes**
 
-- **FIX**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
 
 **Links**
 
@@ -1286,6 +1305,22 @@ Contains 119 entries with
 **Authors:** xezon
 
 **Source:** 1670_overlord_emperor_idle_reload.yaml
+
+---
+### 2023-02-11 - Adds idle auto reload after 2100 ms to China Tank Battlemaster with Autoloader upgrade <a name='link__20230211__1704_battlemaster_autoloader_idle_reload'></a>
+**Changes**
+
+- **TWEAK**: The China Tank Battlemaster with Autoloader upgrade will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire 1 or 2 of its shells and at least 2 seconds pass until the next attack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1704](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1704)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1704_battlemaster_autoloader_idle_reload.yaml
 
 ---
 ### 2023-04-08 - Increases China Overlord speed by 25%, upgraded speed by 16% <a name='link__20230408__1813_overlord_speed'></a>
@@ -1803,10 +1838,10 @@ Contains 119 entries with
 **Source:** 1164_combat_bike_pilot_promotion.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
-- **FEATURE**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
 
 **Links**
 
@@ -1835,10 +1870,10 @@ Contains 119 entries with
 **Source:** 1676_salvage_crate_exploit.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
-- **FEATURE**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
 
 **Links**
 
@@ -1918,13 +1953,14 @@ Contains 119 entries with
 ### 2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20% <a name='link__20230617__2012_anthrax_gamma_field_damage'></a>
 **Changes**
 
-- **TWEAK**: Increases the Anthrax Gamma poison field damage bonus by 20%, except Anthrax Bomb.
+- **TWEAK**: All Anthrax Gamma poison fields now deal 20% more damage than Anthrax Beta.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2045](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2045)
 
-**Labels:** buff, controversial, design, gla, minor, v1.0
+**Labels:** buff, controversial, design, gla, major, v1.0
 
 **Authors:** xezon
 
@@ -1963,6 +1999,22 @@ Contains 119 entries with
 **Authors:** xezon
 
 **Source:** 2015_toxin_trap_build_time.yaml
+
+---
+### 2023-06-26 - Decreases Toxin Bomb poison field damage by 20% <a name='link__20230626__2044_anthrax_beta_field_damage'></a>
+**Changes**
+
+- **TWEAK**: The poison field of the regular Toxin Bomb now deals 20% less damage than the Anthrax Bomb.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2044](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2044)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2044_anthrax_beta_field_damage.yaml
 
 ---
 ### 2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50% <a name='link__20230629__2051_toxin_tractor_radiation_armor'></a>

@@ -6,40 +6,40 @@ Includes changes with labels: china
 Occuring labels are
 
 - art (28)
-- audio (34)
+- audio (35)
 - boss (15)
-- buff (46)
-- bug (127)
-- china (234)
+- buff (47)
+- bug (129)
+- china (238)
 - civilian (5)
-- controversial (44)
+- controversial (45)
 - critical (1)
-- design (74)
+- design (75)
 - enhancement (28)
-- gla (36)
+- gla (37)
 - gui (19)
-- major (35)
-- minor (196)
+- major (36)
+- minor (199)
 - nerf (3)
 - optional (14)
 - performance (9)
-- text (33)
-- usa (39)
-- v1.0 (234)
+- text (34)
+- usa (40)
+- v1.0 (238)
 - wip (1)
 - worldbuilder (3)
 
 Sorts changes by: date (ascending)
 
-Contains 234 entries with
+Contains 238 entries with
 
-- 356 changes
-  - FIX (247)
-  - TWEAK (95)
+- 364 changes
+  - FIX (252)
+  - TWEAK (98)
   - FEATURE (11)
   - OPTIMIZATION (3)
-- 398 subchanges
-  - FIX (328)
+- 404 subchanges
+  - FIX (334)
   - FEATURE (1)
   - TWEAK (69)
 
@@ -182,7 +182,8 @@ Contains 234 entries with
 - [2023-02-09 - Fixes issue where deploy animation of China Nuke Cannon glitches during attack](#link__20230209__1653_nuke_cannon_animation_jump)
 - [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
 - [2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death](#link__20230211__1619_nuke_cannon_duplicate_radiation)
-- [2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 2100 ms to China Tank Battlemaster with Autoloader upgrade](#link__20230211__1704_battlemaster_autoloader_idle_reload)
 - [2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25](#link__20230212__1680_supply_truck_xp_reward)
 - [2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost](#link__20230214__1707_outpost_crush_death)
 - [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
@@ -249,7 +250,8 @@ Contains 234 entries with
 - [2023-07-21 - Fixes bug where China Tank Hunters may destroy their Bunker near uneven terrain](#link__20230721__2133_bunker_self_kills)
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
 - [2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages](#link__20230723__2143_faction_variant_key_mismatches)
-- [2023-07-26 - Fixes errors in Polish strings](#link__20230726__2148_polish_tool_tip_text)
+- [2023-07-24 - Fixes China Nuke Silo ambient audio issues](#link__20230724__2145_nuke_silo_audio_event)
+- [2023-07-26 - Fixes errors in Polish strings](#link__20230726__2148_polish_text_errors)
 - [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
 - [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
 - [2023-08-02 - Fixes immortal presence of circling plane and helicopter wrecks](#link__20230802__2194_dead_plane_helicopter_bug)
@@ -278,6 +280,8 @@ Contains 234 entries with
 - [2023-09-03 - Fixes inconsistent names of China Overlord and Helix Speaker Towers](#link__20230903__2322_overlord_helix_speaker_tower_name)
 - [2023-09-03 - Adds additional information to tool tip strings of China Overlord and Helix Speaker Tower](#link__20230903__2323_overlord_helix_speaker_tower_tooltip)
 - [2023-09-04 - Improves and streamlines wording in tool tip strings of China Overlord and Helix upgrades](#link__20230904__2323_overlord_helix_upgrade_tooltip)
+- [2023-09-10 - Fixes errors and inconsistencies in tool tip strings of USA and China Reactors](#link__20230910__2344_powerplant_tooltips)
+- [2023-09-16 - Fixes animation reset on damage transition of vehicles](#link__20230916__2365_radar_dish_animation_reset)
 
 
 
@@ -2813,10 +2817,10 @@ Contains 234 entries with
 **Source:** 1619_nuke_cannon_duplicate_radiation.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 2100 ms for China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
 **Changes**
 
-- **FIX**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
 
 **Links**
 
@@ -2827,6 +2831,22 @@ Contains 234 entries with
 **Authors:** xezon
 
 **Source:** 1670_overlord_emperor_idle_reload.yaml
+
+---
+### 2023-02-11 - Adds idle auto reload after 2100 ms to China Tank Battlemaster with Autoloader upgrade <a name='link__20230211__1704_battlemaster_autoloader_idle_reload'></a>
+**Changes**
+
+- **TWEAK**: The China Tank Battlemaster with Autoloader upgrade will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire 1 or 2 of its shells and at least 2 seconds pass until the next attack.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1704](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1704)
+
+**Labels:** buff, china, controversial, design, major, v1.0
+
+**Authors:** xezon
+
+**Source:** 1704_battlemaster_autoloader_idle_reload.yaml
 
 ---
 ### 2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25 <a name='link__20230212__1680_supply_truck_xp_reward'></a>
@@ -4178,13 +4198,36 @@ Contains 234 entries with
 **Source:** 2143_faction_variant_key_mismatches.yaml
 
 ---
-### 2023-07-26 - Fixes errors in Polish strings <a name='link__20230726__2148_polish_tool_tip_text'></a>
+### 2023-07-24 - Fixes China Nuke Silo ambient audio issues <a name='link__20230724__2145_nuke_silo_audio_event'></a>
+**Changes**
+
+- **FIX**: The ambient sound of the China Nuke Silo missile is no longer mute after refocusing the structure or tabbing out of the game.
+- **FIX**: The ambient sound of the China Nuke Silo missile now has a homogeneous loop and less pedantic setup.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2145](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2145)
+
+**Labels:** audio, bug, china, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2145_nuke_silo_audio_event.yaml
+
+---
+### 2023-07-26 - Fixes errors in Polish strings <a name='link__20230726__2148_polish_text_errors'></a>
 **Changes**
 
 - **FIX**: The wording in Polish tool tip strings is more consistent now.
 - **FIX**: The wording in Polish tool tip strings for the GLA Scud Launcher is more consistent now.
 - **FIX**: The China Helix is now called "Helis" instead of "Spiral" in Polish strings.
 - **FIX**: The Polish tool tip string of the China Infantry Helix no longer claims to let passengers shoot at each other.
+- **TWEAK**: The Polish string for failed Rally Point placement is more concise now.
+
+**Subchanges**
+
+- **FIX**: Polish tool tip strings now consistently refer to rocket soldiers as "piechocie rakietowej".
+- **FIX**: Polish tool tip strings now consistently refer to anti-air defenses as "obronie przeciwlotniczej".
 
 **Links**
 
@@ -4193,12 +4236,13 @@ Contains 234 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345)
 
 **Labels:** china, gla, minor, text, v1.0
 
 **Authors:** xezon
 
-**Source:** 2148_polish_tool_tip_text.yaml
+**Source:** 2148_polish_text_errors.yaml
 
 ---
 ### 2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions <a name='link__20230729__2166_unlockable_units_on_promotion_screen'></a>
@@ -4796,4 +4840,45 @@ Contains 234 entries with
 **Authors:** xezon
 
 **Source:** 2323_overlord_helix_upgrade_tooltip.yaml
+
+---
+### 2023-09-10 - Fixes errors and inconsistencies in tool tip strings of USA and China Reactors <a name='link__20230910__2344_powerplant_tooltips'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the USA and China Reactors now have correct and consistent descriptions.
+
+**Subchanges**
+
+- **FIX**: The tool tip strings of the Advanced China Nuclear Reactor now also mention the overcharge bonus value.
+- **FIX**: The tool tip strings of the Advanced China Nuclear Reactor now properly mention that it is an advanced reactor in all languages.
+- **FIX**: The overcharge wording in English and French tool tip strings of the China Nuclear Reactor is now consistent with the actual overcharge button.
+- **FIX**: The power value wording in Korean, Brazilian, Polish tool tip strings of the USA and China Reactors is now consistent.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2344](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2344)
+
+**Labels:** china, minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2344_powerplant_tooltips.yaml
+
+---
+### 2023-09-16 - Fixes animation reset on damage transition of vehicles <a name='link__20230916__2365_radar_dish_animation_reset'></a>
+**Changes**
+
+- **FIX**: The radar dish rotation of the GLA Radar Van no longer resets on a damage transition.
+- **FIX**: The radar dish rotation of the China Overlord no longer resets on a damage transition.
+- **FIX**: The radar dish rotation of the China Listening Outpost no longer resets on a damage transition.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2365](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2365)
+
+**Labels:** bug, china, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2365_radar_dish_animation_reset.yaml
 
