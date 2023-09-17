@@ -11,34 +11,34 @@ Occuring labels are
 - boss (15)
 - buff (22)
 - bug (136)
-- china (39)
+- china (40)
 - civilian (3)
-- controversial (33)
-- design (66)
+- controversial (34)
+- design (68)
 - enhancement (53)
 - gla (37)
-- gui (18)
+- gui (19)
 - major (28)
-- minor (228)
+- minor (233)
 - nerf (10)
-- optional (16)
+- optional (17)
 - performance (12)
-- text (28)
-- usa (260)
-- v1.0 (260)
+- text (31)
+- usa (265)
+- v1.0 (265)
 - worldbuilder (5)
 
 Sorts changes by: date (ascending)
 
-Contains 260 entries with
+Contains 265 entries with
 
-- 374 changes
+- 381 changes
   - OPTIMIZATION (4)
-  - FIX (261)
-  - TWEAK (92)
-  - FEATURE (17)
-- 502 subchanges
-  - FIX (429)
+  - FIX (266)
+  - TWEAK (95)
+  - FEATURE (16)
+- 506 subchanges
+  - FIX (433)
   - TWEAK (73)
 
 ## Index
@@ -209,7 +209,7 @@ Contains 260 entries with
 - [2023-01-29 - Decreases destruction delay of various wrecks to delete objects earlier after they sunk into terrain](#link__20230129__1712_decrease_wreck_destruction_delay)
 - [2023-01-29 - Sets consistent sink delays for faction vehicle wrecks](#link__20230129__1746_wreck_sink_delays)
 - [2023-02-04 - Fixes issue where the wreck of vehicles spawns before final death explosion](#link__20230204__1618_wreck_spawn_before_death)
-- [2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
 - [2023-02-15 - Fixes issue where wrong USA Super Weapon Command Center model is shown during construction and deconstruction](#link__20230215__1713_swg_cc_construction_model)
 - [2023-02-18 - Fixes death setup of USA Sentry Drone](#link__20230218__1731_sentry_drone_death)
 - [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
@@ -259,8 +259,10 @@ Contains 260 entries with
 - [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
 - [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
 - [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
+- [2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes](#link__20230707__2064_burton_experience_reward)
 - [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
 - [2023-07-08 - Fixes missing and broken infantry death modules](#link__20230708__2074_infantry_death_module_fixes)
+- [2023-07-10 - Swaps position of Stop and Supply Lines buttons in command set of USA Strategy Center](#link__20230710__2094_strategy_center_stop_button_placement)
 - [2023-07-13 - Fixes key conflicts in German localization](#link__20230713__2108_german_key_conflicts)
 - [2023-07-15 - Sets correct name of USA Spectre Gunship in languages](#link__20230715__2111_spectre_gunship_name)
 - [2023-07-15 - Fixes key conflicts in French localization](#link__20230715__2112_french_key_conflicts)
@@ -273,6 +275,7 @@ Contains 260 entries with
 - [2023-07-20 - Fixes key conflicts in Brazilian localization](#link__20230720__2136_brazilian_key_conflicts)
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
 - [2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages](#link__20230723__2143_faction_variant_key_mismatches)
+- [2023-07-25 - Fixes tool tip and help strings of USA MOAB](#link__20230725__2146_moab_tooltip)
 - [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
 - [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
 - [2023-07-31 - Adds unused USA Detention Camp to World Builder](#link__20230731__2183_usa_detention_camp)
@@ -302,6 +305,8 @@ Contains 260 entries with
 - [2023-08-25 - Fixes USA Colonel Burton instant Knife Attack exploit](#link__20230825__2287_burton_insta_stab)
 - [2023-08-26 - Fixes GLA Jarmen Kell and USA Pathfinders being able to destroy Fire Bases on some campaign maps](#link__20230826__2234_snipers_vs_firebases_in_campaign)
 - [2023-09-03 - Balances creation voice volumes of units and unit upgrades](#link__20230903__2320_creation_voice_volumes)
+- [2023-09-10 - Fixes tool tip strings of China Neutron Shells](#link__20230910__2343_neutron_shells_tooltip)
+- [2023-09-10 - Fixes errors and inconsistencies in tool tip strings of USA and China Reactors](#link__20230910__2344_powerplant_tooltips)
 
 
 
@@ -3753,10 +3758,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1618_wreck_spawn_before_death.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 30100 ms for USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
 **Changes**
 
-- **FEATURE**: The USA Comanche Rocket Pod will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire a few of its rockets and at least 30 seconds pass until the next attack.
+- **TWEAK**: The USA Comanche Rocket Pod will now always reload when idle. This makes the unit much better in scenarios where it managed to only fire a few of its rockets and at least 30 seconds pass until the next attack.
 
 **Links**
 
@@ -4594,6 +4599,22 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2058_toxin_stream_splash_visuals.yaml
 
 ---
+### 2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes <a name='link__20230707__2064_burton_experience_reward'></a>
+**Changes**
+
+- **TWEAK**: The USA Burton now rewards 50 50 100 150 instead of 50 100 100 150 experience on kill.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2064](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2064)
+
+**Labels:** controversial, design, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2064_burton_experience_reward.yaml
+
+---
 ### 2023-07-08 - Enables Laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
 **Changes**
 
@@ -4637,6 +4658,22 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** commy2, xezon
 
 **Source:** 2074_infantry_death_module_fixes.yaml
+
+---
+### 2023-07-10 - Swaps position of Stop and Supply Lines buttons in command set of USA Strategy Center <a name='link__20230710__2094_strategy_center_stop_button_placement'></a>
+**Changes**
+
+- **TWEAK**: The Stop button is now positioned at its regular place in the command set of the USA Strategy Center.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2094](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2094)
+
+**Labels:** design, gui, minor, optional, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2094_strategy_center_stop_button_placement.yaml
 
 ---
 ### 2023-07-13 - Fixes key conflicts in German localization <a name='link__20230713__2108_german_key_conflicts'></a>
@@ -5087,6 +5124,24 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2143_faction_variant_key_mismatches.yaml
+
+---
+### 2023-07-25 - Fixes tool tip and help strings of USA MOAB <a name='link__20230725__2146_moab_tooltip'></a>
+**Changes**
+
+- **FIX**: The tool tip and help strings of the USA MOAB no longer claim that it stuns or shocks units in the blast radius.
+- **FIX**: The tool tip strings of the USA MOAB now list vehicles in its strengths.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2146)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2342](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2342)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2146_moab_tooltip.yaml
 
 ---
 ### 2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions <a name='link__20230729__2166_unlockable_units_on_promotion_screen'></a>
@@ -5703,4 +5758,44 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2320_creation_voice_volumes.yaml
+
+---
+### 2023-09-10 - Fixes tool tip strings of China Neutron Shells <a name='link__20230910__2343_neutron_shells_tooltip'></a>
+**Changes**
+
+- **FIX**: The German tool tip string of the China Neutron Shell upgrade now properly describes the upgrade.
+- **FIX**: The latin tool tip strings of the China Neutron Shell upgrade now also list neutralizing infantry inside buildings.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2273)
+
+**Labels:** minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2343_neutron_shells_tooltip.yaml
+
+---
+### 2023-09-10 - Fixes errors and inconsistencies in tool tip strings of USA and China Reactors <a name='link__20230910__2344_powerplant_tooltips'></a>
+**Changes**
+
+- **FIX**: The tool tip strings of the USA and China Reactors now have correct and consistent descriptions.
+
+**Subchanges**
+
+- **FIX**: The tool tip strings of the Advanced China Nuclear Reactor now also mention the overcharge bonus value.
+- **FIX**: The tool tip strings of the Advanced China Nuclear Reactor now properly mention that it is an advanced reactor in all languages.
+- **FIX**: The overcharge wording in English and French tool tip strings of the China Nuclear Reactor is now consistent with the actual overcharge button.
+- **FIX**: The power value wording in Korean, Brazilian, Polish tool tip strings of the USA and China Reactors is now consistent.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2344](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2344)
+
+**Labels:** china, minor, text, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2344_powerplant_tooltips.yaml
 

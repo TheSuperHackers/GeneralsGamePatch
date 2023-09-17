@@ -5,41 +5,41 @@ Includes changes with labels: gla
 
 Occuring labels are
 
-- art (27)
+- art (28)
 - audio (33)
 - boss (17)
 - buff (28)
-- bug (151)
-- china (36)
+- bug (155)
+- china (37)
 - civilian (2)
-- controversial (42)
+- controversial (43)
 - critical (2)
-- design (55)
+- design (58)
 - enhancement (19)
-- gla (241)
+- gla (249)
 - gui (12)
-- major (34)
-- minor (204)
-- nerf (16)
+- major (36)
+- minor (210)
+- nerf (17)
 - optional (11)
 - performance (6)
-- text (29)
+- text (31)
 - usa (37)
-- v1.0 (241)
+- v1.0 (249)
 - worldbuilder (3)
 
 Sorts changes by: date (ascending)
 
-Contains 241 entries with
+Contains 249 entries with
 
-- 342 changes
-  - FIX (263)
-  - TWEAK (62)
-  - FEATURE (10)
+- 360 changes
+  - FIX (276)
+  - TWEAK (69)
+  - FEATURE (8)
   - OPTIMIZATION (5)
   - CHANGE (2)
-- 390 subchanges
-  - FIX (330)
+- 395 subchanges
+  - FIX (335)
   - FEATURE (1)
   - TWEAK (59)
 
@@ -186,10 +186,10 @@ Contains 241 entries with
 - [2023-02-09 - Fixes turret animation and effect issues on death of tanks](#link__20230209__1657_tank_turret_deatheffects)
 - [2023-02-09 - Fixes issue where GLA Scorpion model does not show its salvage upgrades on death](#link__20230209__1663_scorpion_death_model)
 - [2023-02-11 - Fixes issue where GLA Marauder with double gun scrap starts its firing sequence with a single shot only](#link__20230211__1672_marauder_double_barrel_firing_sequence)
-- [2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade](#link__20230211__1674_marauder_idle_reload)
 - [2023-02-11 - Adds missing CRATE flag to SalvageCrate](#link__20230211__1675_salvage_crate_crate_flag)
 - [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
-- [2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
+- [2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#link__20230211__1703_scud_storm_idle_reload)
 - [2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
@@ -231,10 +231,13 @@ Contains 241 entries with
 - [2023-06-25 - Increases visibility of toxin spray particles](#link__20230625__2042_toxin_spray_particle_visibility)
 - [2023-06-25 - Simplifies and improves spray puddle particles of GLA Toxin Tractor to streamline visuals and cut performance cost by 62.5%](#link__20230625__2042_toxin_spray_puddle_performance)
 - [2023-06-26 - Fixes contaminate audio stutters with a group of GLA Toxin Tractors](#link__20230626__2043_toxin_tractor_contaminate_audio_stutter)
+- [2023-06-26 - Decreases Toxin Bomb poison field damage by 20%](#link__20230626__2044_anthrax_beta_field_damage)
 - [2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50%](#link__20230629__2051_toxin_tractor_radiation_armor)
 - [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
+- [2023-07-06 - Fixes toxin stream timeout of GLA Toxin Tunnel](#link__20230706__2063_toxin_tunnel_stream_timeout)
 - [2023-07-08 - Fixes silent death explosion of GLA Terrorists when not suicided](#link__20230708__2075_terrorist_death_explosion_sound_fix)
 - [2023-07-08 - Removes wrong exploded death effects from GLA Demo Barracks](#link__20230708__2076_demo_barracks_death_effect)
+- [2023-07-08 - Fixes death modules of GLA Terrorists](#link__20230708__2084_terrorist_death_module_fixes)
 - [2023-07-09 - Adds name variants to GLA Stealth infantry units for all languages](#link__20230709__2086_stealth_infantry_unit_names)
 - [2023-07-13 - Fixes key conflicts in German localization](#link__20230713__2108_german_key_conflicts)
 - [2023-07-15 - Fixes key conflicts in French localization](#link__20230715__2112_french_key_conflicts)
@@ -246,13 +249,13 @@ Contains 241 entries with
 - [2023-07-20 - Fixes key conflicts in Brazilian localization](#link__20230720__2136_brazilian_key_conflicts)
 - [2023-07-22 - Fixes key conflicts in Polish localization](#link__20230722__2138_polish_key_conflicts)
 - [2023-07-23 - Fixes key mapping mismatches between faction unit variants in all languages](#link__20230723__2143_faction_variant_key_mismatches)
-- [2023-07-26 - Fixes errors in Polish strings](#link__20230726__2148_polish_tool_tip_text)
+- [2023-07-26 - Fixes errors in Polish strings](#link__20230726__2148_polish_text_errors)
 - [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
 - [2023-07-29 - Fixes lone Stinger Trooper movement animation while reloading](#link__20230729__2173_stinger_trooper_reload_animation_while_moving)
 - [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
 - [2023-08-01 - Fixes vGLA Worker being used for GLA sub-faction holes](#link__20230801__2187_sub_faction_hole_workers)
 - [2023-08-01 - Fixes GLA Supply Stash selection sound sometimes not played](#link__20230801__2188_supply_stash_selection_sound)
-- [2023-08-07 - Fixes errors in French tool tip strings](#link__20230807__2218_french_tool_tip_text)
+- [2023-08-07 - Fixes errors in French strings](#link__20230807__2218_french_text_errors)
 - [2023-08-13 - Fixes missing and broken infantry cheering animations](#link__20230813__1030_fix_cheering_animations)
 - [2023-08-13 - Streamlines key mappings of GLA Worker fake and real buildings toggle](#link__20230813__2234_real_structures_toggle_key_mapping)
 - [2023-08-17 - Adds missing key mappings to Brazilian localization](#link__20230817__2242_brazilian_missing_keys)
@@ -285,6 +288,11 @@ Contains 241 entries with
 - [2023-09-03 - Balances creation voice volumes of units and unit upgrades](#link__20230903__2320_creation_voice_volumes)
 - [2023-09-03 - Adds missing limits to creation voices and sounds of units and unit upgrades](#link__20230903__2321_creation_voice_limits)
 - [2023-09-03 - Adds missing high priority to creation voices of units and unit upgrades](#link__20230903__2321_creation_voice_priorities)
+- [2023-09-11 - Improves tool tip strings of GLA Battle Bus](#link__20230911__2352_battlebus_tooltip)
+- [2023-09-13 - Fixes name of GLA Bio Bomb](#link__20230913__2360_biobomb_text)
+- [2023-09-15 - Fixes wreck model of GLA Battle Bus](#link__20230915__2363_battle_bus_wreck)
+- [2023-09-15 - Improves death effects of GLA Radar Van and Quad Cannon](#link__20230915__2366_radar_van_quad_cannon_death_fx)
+- [2023-09-16 - Fixes animation reset on damage transition of vehicles](#link__20230916__2365_radar_dish_animation_reset)
 
 
 
@@ -2852,10 +2860,10 @@ Contains 241 entries with
 **Source:** 1672_marauder_double_barrel_firing_sequence.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 850 ms for GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
-- **FEATURE**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
 
 **Links**
 
@@ -2900,10 +2908,10 @@ Contains 241 entries with
 **Source:** 1676_salvage_crate_exploit.yaml
 
 ---
-### 2023-02-11 - Adds idle auto reload after 15100 ms for GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
+### 2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
-- **FEATURE**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
 
 **Links**
 
@@ -3408,13 +3416,14 @@ Contains 241 entries with
 ### 2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20% <a name='link__20230617__2012_anthrax_gamma_field_damage'></a>
 **Changes**
 
-- **TWEAK**: Increases the Anthrax Gamma poison field damage bonus by 20%, except Anthrax Bomb.
+- **TWEAK**: All Anthrax Gamma poison fields now deal 20% more damage than Anthrax Beta.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2012)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2045](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2045)
 
-**Labels:** buff, controversial, design, gla, minor, v1.0
+**Labels:** buff, controversial, design, gla, major, v1.0
 
 **Authors:** xezon
 
@@ -3586,6 +3595,22 @@ Contains 241 entries with
 **Source:** 2043_toxin_tractor_contaminate_audio_stutter.yaml
 
 ---
+### 2023-06-26 - Decreases Toxin Bomb poison field damage by 20% <a name='link__20230626__2044_anthrax_beta_field_damage'></a>
+**Changes**
+
+- **TWEAK**: The poison field of the regular Toxin Bomb now deals 20% less damage than the Anthrax Bomb.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2044](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2044)
+
+**Labels:** controversial, design, gla, major, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2044_anthrax_beta_field_damage.yaml
+
+---
 ### 2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50% <a name='link__20230629__2051_toxin_tractor_radiation_armor'></a>
 **Changes**
 
@@ -3616,6 +3641,22 @@ Contains 241 entries with
 **Authors:** xezon
 
 **Source:** 2058_toxin_stream_splash_visuals.yaml
+
+---
+### 2023-07-06 - Fixes toxin stream timeout of GLA Toxin Tunnel <a name='link__20230706__2063_toxin_tunnel_stream_timeout'></a>
+**Changes**
+
+- **FIX**: The toxin stream of the GLA Toxin Tunnel no longer times out when firing on distant terrain or allied units.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2063](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2063)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2063_toxin_tunnel_stream_timeout.yaml
 
 ---
 ### 2023-07-08 - Fixes silent death explosion of GLA Terrorists when not suicided <a name='link__20230708__2075_terrorist_death_explosion_sound_fix'></a>
@@ -3649,6 +3690,25 @@ Contains 241 entries with
 **Authors:** xezon
 
 **Source:** 2076_demo_barracks_death_effect.yaml
+
+---
+### 2023-07-08 - Fixes death modules of GLA Terrorists <a name='link__20230708__2084_terrorist_death_module_fixes'></a>
+**Changes**
+
+- **FIX**: GLA Terrorists now fling in air when burned and exploded.
+- **FIX**: GLA Terrorists now play the crush death sound when crushed and splatted.
+- **FIX**: Sets correct poison death models for GC_Chem_GLAInfantryTerrorist, GC_Slth_GLAInfantryTerrorist.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2084](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2084)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2085](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2085)
+
+**Labels:** bug, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2084_terrorist_death_module_fixes.yaml
 
 ---
 ### 2023-07-09 - Adds name variants to GLA Stealth infantry units for all languages <a name='link__20230709__2086_stealth_infantry_unit_names'></a>
@@ -4057,13 +4117,19 @@ Contains 241 entries with
 **Source:** 2143_faction_variant_key_mismatches.yaml
 
 ---
-### 2023-07-26 - Fixes errors in Polish strings <a name='link__20230726__2148_polish_tool_tip_text'></a>
+### 2023-07-26 - Fixes errors in Polish strings <a name='link__20230726__2148_polish_text_errors'></a>
 **Changes**
 
 - **FIX**: The wording in Polish tool tip strings is more consistent now.
 - **FIX**: The wording in Polish tool tip strings for the GLA Scud Launcher is more consistent now.
 - **FIX**: The China Helix is now called "Helis" instead of "Spiral" in Polish strings.
 - **FIX**: The Polish tool tip string of the China Infantry Helix no longer claims to let passengers shoot at each other.
+- **TWEAK**: The Polish string for failed Rally Point placement is more concise now.
+
+**Subchanges**
+
+- **FIX**: Polish tool tip strings now consistently refer to rocket soldiers as "piechocie rakietowej".
+- **FIX**: Polish tool tip strings now consistently refer to anti-air defenses as "obronie przeciwlotniczej".
 
 **Links**
 
@@ -4072,12 +4138,13 @@ Contains 241 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345)
 
 **Labels:** china, gla, minor, text, v1.0
 
 **Authors:** xezon
 
-**Source:** 2148_polish_tool_tip_text.yaml
+**Source:** 2148_polish_text_errors.yaml
 
 ---
 ### 2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions <a name='link__20230729__2166_unlockable_units_on_promotion_screen'></a>
@@ -4167,13 +4234,21 @@ Contains 241 entries with
 **Source:** 2188_supply_stash_selection_sound.yaml
 
 ---
-### 2023-08-07 - Fixes errors in French tool tip strings <a name='link__20230807__2218_french_tool_tip_text'></a>
+### 2023-08-07 - Fixes errors in French strings <a name='link__20230807__2218_french_text_errors'></a>
 **Changes**
 
 - **FIX**: The wording in French tool tip strings is more consistent now.
 - **FIX**: The French tool tip strings for China Red Guard, Tank Hunter and Battlemaster now explain the horde bonus better.
-- **FIX**: The TOOLTIP:NumberOfVotes, GUI:Ok, LAN:OK, MapTransfer:Done strings now have French text.
+- **FIX**: The French strings of TOOLTIP:NumberOfVotes, GUI:Ok, LAN:OK, MapTransfer:Done now contain text.
+- **FIX**: The French strings of Version:BuildTime, Version:BuildMachine, Version:BuildUser now contain the number format.
 - **FIX**: The wording in French tool tip strings for the GLA Scud Launcher is more consistent now.
+- **FIX**: The French tool tip string of the GLA Rocket Buggy now also mentions it being strong vs infantry.
+
+**Subchanges**
+
+- **FIX**: French tool tip strings now consistently refer to rocket soldiers as "l'infanterie armée de missiles".
+- **FIX**: French tool tip strings now consistently refer to anti-air defenses as "défenses antiaériennes".
+- **FIX**: French tool tip strings now consistently refer to scouts as "éclaireurs" instead of "unités de reconnaissance".
 
 **Links**
 
@@ -4181,12 +4256,15 @@ Contains 241 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2218)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2340)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2353](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2353)
 
 **Labels:** gla, minor, text, v1.0
 
 **Authors:** xezon
 
-**Source:** 2218_french_tool_tip_text.yaml
+**Source:** 2218_french_text_errors.yaml
 
 ---
 ### 2023-08-13 - Fixes missing and broken infantry cheering animations <a name='link__20230813__1030_fix_cheering_animations'></a>
@@ -4836,4 +4914,90 @@ Contains 241 entries with
 **Authors:** xezon
 
 **Source:** 2321_creation_voice_priorities.yaml
+
+---
+### 2023-09-11 - Improves tool tip strings of GLA Battle Bus <a name='link__20230911__2352_battlebus_tooltip'></a>
+**Changes**
+
+- **TWEAK**: The tool tip strings of the GLA Battle Bus no longer list strengths.
+- **TWEAK**: The latin tool tip strings of the GLA Battle Bus now mention that the bus passengers can fire out of it.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2352](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2352)
+
+**Labels:** gla, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2352_battlebus_tooltip.yaml
+
+---
+### 2023-09-13 - Fixes name of GLA Bio Bomb <a name='link__20230913__2360_biobomb_text'></a>
+**Changes**
+
+- **FIX**: The latin names of the GLA Bomb Truck Bio Bomb upgrade are now corrected.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2360](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2360)
+
+**Labels:** gla, minor, text, v1.0
+
+**Authors:** xezon
+
+**Source:** 2360_biobomb_text.yaml
+
+---
+### 2023-09-15 - Fixes wreck model of GLA Battle Bus <a name='link__20230915__2363_battle_bus_wreck'></a>
+**Changes**
+
+- **FIX**: The wreck of the GLA Battle Bus no longer shows bus salvage upgrades.
+- **TWEAK**: The wreck of the GLA Battle Bus no longer spawns with a small random delay.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2363](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2363)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2364](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2364)
+
+**Labels:** art, bug, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2363_battle_bus_wreck.yaml
+
+---
+### 2023-09-15 - Improves death effects of GLA Radar Van and Quad Cannon <a name='link__20230915__2366_radar_van_quad_cannon_death_fx'></a>
+**Changes**
+
+- **FIX**: The final destructions of the GLA Radar Van and Quad Cannon now have a suitable delay to better accomodate the immediate explosion effect with the Demo Upgrade.
+- **FIX**: The GLA Radar Van and Quad Cannon now have an initial death effect and sound to better show their exact moment of death.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2366](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2366)
+
+**Labels:** design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2366_radar_van_quad_cannon_death_fx.yaml
+
+---
+### 2023-09-16 - Fixes animation reset on damage transition of vehicles <a name='link__20230916__2365_radar_dish_animation_reset'></a>
+**Changes**
+
+- **FIX**: The radar dish rotation of the GLA Radar Van no longer resets on a damage transition.
+- **FIX**: The radar dish rotation of the China Overlord no longer resets on a damage transition.
+- **FIX**: The radar dish rotation of the China Listening Outpost no longer resets on a damage transition.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2365](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2365)
+
+**Labels:** bug, china, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2365_radar_dish_animation_reset.yaml
 
