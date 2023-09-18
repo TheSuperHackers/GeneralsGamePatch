@@ -1,0 +1,23 @@
+---
+date: 2023-01-07
+
+title: Increases armor of USA Comanche by up to 23%
+
+changes:
+  - tweak: The armor of the USA Comanche against Quad Cannons, Gattlings and Infantry Missiles is now set to 100% instead of 120% (smaller is better).
+  - tweak: The armor of the USA Comanche against Explosions is now set to 100% instead of 130%.
+  - tweak: The armor of the USA Comanche with Countermeasures against Explosions is now set to 100% instead of 110%.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - major
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1530
+
+authors:
+  - xezon
