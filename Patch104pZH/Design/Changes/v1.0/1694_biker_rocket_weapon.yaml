@@ -1,0 +1,21 @@
+---
+date: 2023-02-12
+
+title: Increases fire rate of GLA RPG Trooper on Combat Bike by 88%
+
+changes:
+  - tweak: The GLA RPG Trooper on the Combat Bike now shoots a rocket every 533 ms instead of 1000 ms.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1694
+
+authors:
+  - Stubbjax
