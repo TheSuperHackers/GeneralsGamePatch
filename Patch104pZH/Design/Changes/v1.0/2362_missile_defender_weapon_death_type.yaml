@@ -1,0 +1,21 @@
+---
+date: 2023-09-15
+
+title: Fixes incorrect weapon death types of USA Missile Defender
+
+changes:
+  - fix: The weapons of the USA Missile Defender now incur the EXPLODED instead of NORMAL death type. This will trigger the GLA Terrorist suicide explosion on kill.
+
+labels:
+  - bug
+  - controversial
+  - major
+  - nerf
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2362
+
+authors:
+  - xezon
