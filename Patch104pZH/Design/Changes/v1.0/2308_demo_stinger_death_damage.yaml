@@ -5,7 +5,6 @@ title: Fixes death explosion damage of upgraded GLA Demo Stinger Site
 
 changes:
   - fix: The upgraded GLA Demo Stinger Site no longer deals 20 times more damage than it should when killed.
-  - fix: The upgraded GLA Demo Stinger Site now properly deals damage when killed by poison.
 
 labels:
   - bug
