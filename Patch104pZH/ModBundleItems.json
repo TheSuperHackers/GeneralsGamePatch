@@ -65,14 +65,6 @@
                             {
                                 "source": "Art/Textures/NoMip/*.tga",
                                 "target": "Art/Textures/*.dds"
-                            },
-                            {
-                                "source": "Art/Textures/Template/black16px.tga",
-                                "target": "Art/Textures/cbbrnshed_en.dds"
-                            },
-                            {
-                                "source": "Art/Textures/Template/black16px.tga",
-                                "target": "Art/Textures/cbbrnshed_esn.dds"
                             }
                         ],
                         "params": {
@@ -199,6 +191,14 @@
                             {
                                 "source": "Art/Textures/GenerateMip/*.tga",
                                 "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbbrnshed_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbbrnshed_esn.dds"
                             }
                         ],
                         "params": {
