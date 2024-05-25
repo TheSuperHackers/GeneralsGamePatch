@@ -191,9 +191,36 @@
                             {
                                 "source": "Art/Textures/GenerateMip/*.tga",
                                 "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbbrnshed_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbbrnshed_esn.dds"
                             }
                         ],
                         "params": {
+                            "-quality": 255,
+                            "-mipmode": "Generate"
+                        }
+                    },
+                    {
+                        "parent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/GenerateMipHalf/*.psd",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMipHalf/*.tga",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
+                        "params": {
+                            "rescale": 0.5,
+                            "resampling": "BICUBIC",
                             "-quality": 255,
                             "-mipmode": "Generate"
                         }
