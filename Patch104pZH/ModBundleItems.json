@@ -193,6 +193,38 @@
                                 "target": "Art/Textures/*.dds"
                             },
                             {
+                                "source": "../GameFilesOriginalZH/Art/Textures/cbapt01_n.dds",
+                                "target": "Art/Textures/cbapt01_sn.dds"
+                            },
+                            {
+                                "source": "../GameFilesOriginalZH/Art/Textures/cbapt01_ng.dds",
+                                "target": "Art/Textures/cbapt01_sng.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbapt01_dn.psd",
+                                "target": "Art/Textures/cbapt01_dsn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbapt01_dng.psd",
+                                "target": "Art/Textures/cbapt01_dsng.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbapt01_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbapt01_esn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbapt01_rn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbapt01_rsn.dds"
+                            },
+                            {
                                 "source": "Art/Textures/Template/black16px.tga",
                                 "target": "Art/Textures/cbbrnshed_en.dds"
                             },
