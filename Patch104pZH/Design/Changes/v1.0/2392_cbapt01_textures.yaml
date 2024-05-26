@@ -1,0 +1,46 @@
+---
+date: 2024-05-26
+
+title: Fixes cbapt01 textures
+
+changes:
+  - fix: Fixes Civilian cbapt01 textures.
+
+subchanges:
+  - fix: |
+      cbap01
+        - Adds missing window reflections
+        - Fixes alpha discrepancy of antenna with cbapt01_d
+  - fix: |
+      cbapt01_d, cbapt01_dg, cbapt01_ds, cbapt01_dsg
+        - Fixes window damage visuals
+        - Fixes window reflection errors
+  - fix: |
+      cbapt01_r, cbapt01_rs
+        - Fixes minor alpha channel discrepancies with cbapt01_e, cbapt01_es
+        - Fixes floating pieces in alpha channel
+  - fix: |
+      cbapt01_g, cbapt01_s, cbapt01_sg
+        - Fixes window reflection errors
+  - fix: |
+      cbapt01_dn, cbapt01_dng
+        - Fixes minor light mismatches with cbapt01_n, cbapt01_ng
+  - fix: |
+      cbapt01_en, cbapt01_rn, cbapt01_esn, cbapt01_rsn
+        - Fixes incorrect night light
+  - fix: |
+      cbapt01_sn, cbapt01_dsn, cbapt01_sng, cbapt01_dsng
+        - Recreates textures based on regular night textures
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2392
+
+authors:
+  - xezon
