@@ -1,0 +1,29 @@
+---
+date: 2024-05-30
+
+title: Fixes cbbridgein textures
+
+changes:
+  - fix: Fixes Civilian cbbridgein textures.
+
+subchanges:
+  - fix: |
+      cbbridgein_e
+        - Fixes minor alpha channel inconsistencies with cbbridgein_d
+  - fix: |
+      cbbridgein_r
+        - Fixes minor texture damage inconsistencies with cbbridgein_e
+        - Fixes minor alpha channel inconsistencies with cbbridgein_e
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2399
+
+authors:
+  - xezon
