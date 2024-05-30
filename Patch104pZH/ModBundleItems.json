@@ -225,11 +225,11 @@
                                 "target": "Art/Textures/cbairport_rsn.dds"
                             },
                             {
-                                "source": "../GameFilesOriginalZH/Art/Textures/cbapt01_n.dds",
+                                "source": "Art/Textures/GenerateMip/cbapt01_n.psd",
                                 "target": "Art/Textures/cbapt01_sn.dds"
                             },
                             {
-                                "source": "../GameFilesOriginalZH/Art/Textures/cbapt01_ng.dds",
+                                "source": "Art/Textures/GenerateMip/cbapt01_ng.psd",
                                 "target": "Art/Textures/cbapt01_sng.dds"
                             },
                             {
