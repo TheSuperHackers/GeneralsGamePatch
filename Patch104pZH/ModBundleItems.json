@@ -263,6 +263,54 @@
                             {
                                 "source": "Art/Textures/Template/black16px.tga",
                                 "target": "Art/Textures/cbbrnshed_esn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
+                                "target": "Art/Textures/cbwrfwhrs2_sg.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbwrfwhrs2_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbwrfwhrs2_esn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbwrfwhrs2_rn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbwrfwhrs2_rsn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/rubble_n.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/rubble_sn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/rubble_sn3.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/rubble2_n.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/rubble2_sn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/rubble3_n.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/rubble3_sn.dds"
                             }
                         ],
                         "params": {
@@ -422,6 +470,10 @@
                             {
                                 "source": "Art/Textures/GenerateMip/*.tga",
                                 "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/cbwrfwhrs2_d.dds",
+                                "target": "Art/Textures/cbwrfwhrs2_dg.dds"
                             }
                         ],
                         "params": {
