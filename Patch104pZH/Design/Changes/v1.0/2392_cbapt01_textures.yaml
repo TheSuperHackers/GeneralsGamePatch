@@ -23,14 +23,11 @@ subchanges:
       cbapt01_g, cbapt01_s, cbapt01_sg
         - Fixes window reflection errors
   - fix: |
-      cbapt01_dn, cbapt01_dng
-        - Fixes minor light mismatches with cbapt01_n, cbapt01_ng
+      cbapt01_n, cbapt01_ng, cbapt01_dn, cbapt01_dng, cbapt01_sn, cbapt01_dsn, cbapt01_sng, cbapt01_dsng
+        - Recreates night lights with better visuals
   - fix: |
       cbapt01_en, cbapt01_rn, cbapt01_esn, cbapt01_rsn
         - Fixes incorrect night light
-  - fix: |
-      cbapt01_sn, cbapt01_dsn, cbapt01_sng, cbapt01_dsng
-        - Recreates textures based on regular night textures
 
 labels:
   - art
@@ -41,6 +38,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2392
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2395
 
 authors:
   - xezon
