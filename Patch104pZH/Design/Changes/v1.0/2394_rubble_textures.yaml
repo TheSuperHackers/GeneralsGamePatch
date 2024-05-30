@@ -1,0 +1,25 @@
+---
+date: 2024-05-30
+
+title: Fixes rubble night textures
+
+changes:
+  - fix: Fixes rubble night light textures.
+
+subchanges:
+  - fix: |
+      rubble_n, rubble_sn, rubble_sn3, rubble2_n, rubble2_sn, rubble3_n, rubble3_sn
+        - Fixes incorrect night light
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2394
+
+authors:
+  - xezon
