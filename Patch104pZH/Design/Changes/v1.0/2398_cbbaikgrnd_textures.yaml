@@ -1,0 +1,25 @@
+---
+date: 2024-05-30
+
+title: Fixes cbbaikgrnd textures
+
+changes:
+  - fix: Fixes Civilian cbbaikgrnd textures.
+
+subchanges:
+  - fix: |
+      cbbaikgrnd_e
+        - Fixes minor window damage inconsistencies with cbbaikgrnd_d
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2398
+
+authors:
+  - xezon
