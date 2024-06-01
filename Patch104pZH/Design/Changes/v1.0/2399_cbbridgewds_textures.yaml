@@ -1,0 +1,29 @@
+---
+date: 2024-05-30
+
+title: Fixes cbbridgewds textures
+
+changes:
+  - fix: Fixes Civilian cbbridgewds textures.
+
+subchanges:
+  - fix: |
+      cbbridgewds_e
+        - Fixes minor texture damage inconsistencies with cbbridgewds_d
+        - Fixes alpha channel inconsistencies with cbbridgewds_r
+  - fix: |
+      cbbridgewds_r
+        - Fixes minor texture damage inconsistencies with cbbridgewds_d
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2399
+
+authors:
+  - xezon
