@@ -1,0 +1,34 @@
+---
+date: 2024-06-01
+
+title: Fixes cbchalet textures
+
+changes:
+  - fix: Fixes Civilian cbchalet textures.
+
+subchanges:
+  - fix: |
+      cbchalet_es
+        - Fixes snow drawing over burns
+  - fix: |
+      cbchalet_dn
+        - Fixes major night light errors
+  - fix: |
+      cbchalet_en
+        - Fixes incorrect night light
+  - fix: |
+      cbchalet_esn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2400
+
+authors:
+  - xezon
