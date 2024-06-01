@@ -265,6 +265,14 @@
                                 "target": "Art/Textures/cbbrnshed_esn.dds"
                             },
                             {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbchalet_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbchalet_esn.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
