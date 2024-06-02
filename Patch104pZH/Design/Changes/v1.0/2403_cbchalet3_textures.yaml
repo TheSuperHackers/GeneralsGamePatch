@@ -1,0 +1,36 @@
+---
+date: 2024-06-02
+
+title: Fixes cbchalet3 textures
+
+changes:
+  - fix: Fixes Civilian cbchalet3 textures.
+
+subchanges:
+  - fix: |
+      cbchalet3_e, cbchalet3_es
+        - Removes unexpected window barricades of garrison textures
+        - Fixes errors in alpha channel
+  - fix: |
+      cbchalet3_s, cbchalet3_ds
+        - Fixes errors in alpha channel
+  - fix: |
+      cbchalet3_dn, cbchalet3_ng
+        - Fixes night light saturation mismatch with cbchalet3_n
+  - fix: |
+      cbchalet3_dng
+        - Fixes night light saturation mismatch with cbchalet3_n
+        - Fixes missing night light damages
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2403
+
+authors:
+  - xezon
