@@ -15,12 +15,12 @@ subchanges:
       cbchemfact_g, cbchemfact_sg
         - Fixes minor artifacts on window reflections
   - fix: |
-      cbchemfact_s
-        - Removes window barricades from window reflections
-  - fix: |
       cbchemfact_r
         - Removes traces of snow
         - Fixes minor damage inconsistencies with cbchemfact_e
+  - fix: |
+      cbchemfact_s
+        - Removes window barricades from window reflections
   - fix: |
       cbchemfact_n, cbchemfact_dn, cbchemfact_dng, cbchemfact_dsn, cbchemfact_dsng
         - Creates 2x upscale to 256x256
