@@ -1,4 +1,4 @@
-# Super Aurora - Generals Game Patch
+# The Super Patch
 
 This project aims to fix and improve the original video game title "Command and Conquer Generals: Zero Hour" from Electronic Arts (EA).
 
