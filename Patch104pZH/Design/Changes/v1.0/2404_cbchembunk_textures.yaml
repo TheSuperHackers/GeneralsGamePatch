@@ -1,0 +1,90 @@
+---
+date: 2024-06-02
+
+title: Fixes cbchembunk textures
+
+changes:
+  - fix: Fixes Civilian cbchembunk textures.
+
+subchanges:
+  - fix: |
+      cbchembunk
+        - Fixes black section on top of containers
+        - Decreases sharpness slightly
+  - fix: |
+      cbchembunk_d
+        - Repaints damages based on cbchembunk_d1
+        - Fixes texture sharpness inconsistencies with cbchembunk
+  - fix: |
+      cbchembunk_e
+        - Repaints damages based on cbchembunk_d
+  - fix: |
+      cbchembunk_r
+        - Creates 2x downscale to 256x256
+        - Fixes texture damage inconsistencies with cbchembunk_e
+  - fix: |
+      cbchembunk_g
+        - Fixes texture sharpness inconsistencies with cbchembunk
+        - Removes green spots on walls
+  - fix: |
+      cbchembunk_dg
+        - Fixes texture sharpness inconsistencies with cbchembunk_d
+        - Fixes texture damage inconsistencies with cbchembunk_d
+  - fix: |
+      cbchembunk_s
+        - Creates 2x downscale to 256x256
+        - Fixes texture sharpness inconsistencies with cbchembunk
+        - Improves snow blending
+  - fix: |
+      cbchembunk_ds
+        - Creates 2x downscale to 256x256
+        - Fixes snow drawing over burns
+        - Reconstructs damages based on cbchembunk_d
+  - fix: |
+      cbchembunk_es
+        - Creates 2x downscale to 256x256
+        - Fixes snow drawing over burns
+        - Reconstructs damages based on cbchembunk_e
+        - Removes alpha channel
+  - fix: |
+      cbchembunk_rs
+        - Creates 2x downscale to 256x256
+        - Fixes snow drawing over burns
+        - Reconstructs damages based on cbchembunk_r
+  - fix: |
+      cbchembunk_sg
+        - Fixes texture sharpness inconsistencies with cbchembunk_s
+        - Removes green spots on walls
+  - fix: |
+      cbchembunk_dsg
+        - Fixes texture sharpness inconsistencies with cbchembunk_ds
+        - Fixes snow drawing over burns
+        - Reconstructs damages based on cbchembunk_d
+  - fix: |
+      cbchembunk_n, cbchembunk_ng, cbchembunk_sng
+        - Creates 2x upscale to 256x256
+        - Recreates feathered night lights
+        - Removes wrong damages from texture
+  - fix: |
+      cbchembunk_dn
+        - Recreates feathered night lights
+  - fix: |
+      cbchembunk_dng, cbchembunk_sn, cbchembunk_dsn, cbchembunk_dsng
+        - Creates 2x upscale to 256x256
+        - Recreates feathered night lights
+  - fix: |
+      cbchembunk_en, cbchembunk_esn
+        - Fixes incorrect night light
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2404
+
+authors:
+  - xezon
