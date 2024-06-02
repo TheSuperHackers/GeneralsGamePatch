@@ -285,6 +285,14 @@
                                 "target": "Art/Textures/cbchembunk_esn.dds"
                             },
                             {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbchemfact_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbchemfact_rn.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
@@ -348,6 +356,14 @@
                             {
                                 "source": "Art/Textures/GenerateMipHalf/*.tga",
                                 "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMipHalf/cbchemfact_dn.psd",
+                                "target": "Art/Textures/cbchemfact_dsn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMipHalf/cbchemfact_dng.psd",
+                                "target": "Art/Textures/cbchemfact_dsng.dds"
                             }
                         ],
                         "params": {
