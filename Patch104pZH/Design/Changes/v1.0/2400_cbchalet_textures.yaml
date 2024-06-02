@@ -16,7 +16,7 @@ subchanges:
   - fix: |
       cbchalet_en
         - Fixes incorrect night light
-  - fix: |
+  - optimization: |
       cbchalet_esn
         - Optimizes texture size
 

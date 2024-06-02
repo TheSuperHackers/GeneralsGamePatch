@@ -19,8 +19,8 @@ subchanges:
   - fix: |
       cbbrnshed_en
         - Fixes incorrect night light
-  - fix: |
-      cbbrnshed_esn 
+  - optimization: |
+      cbbrnshed_esn
         - Optimizes texture size
 
 labels:

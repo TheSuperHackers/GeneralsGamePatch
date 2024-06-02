@@ -1,0 +1,61 @@
+---
+date: 2024-06-01
+
+title: Fixes cbchalet2 textures
+
+changes:
+  - fix: Fixes Civilian cbchalet2 textures.
+
+subchanges:
+  - fix: |
+      cbchalet2_d
+        - Fixes window reflections damage mismatches
+  - fix: |
+      cbchalet2_e
+        - Fixes minor texture damage inconsistencies with cbchalet2_d
+        - Fixes window reflections damage mismatches
+  - fix: |
+      cbchalet2_g
+        - Fixes window reflections drawing over window barricades
+  - fix: |
+      cbchalet2_dg
+        - Fixes window reflections damage mismatches
+        - Fixes window reflections drawing over window barricades
+  - fix: |
+      cbchalet2_ds, cbchalet2_dsg
+        - Adds missing window damages
+        - Adds missing bullet holes
+        - Fixes errors in alpha channel
+  - fix: |
+      cbchalet2_es
+        - Fixes window reflections damage mismatches
+  - fix: |
+      cbchalet2_rs
+        - Adds additional damages
+        - Fixes minor texture damage inconsistencies with cbchalet2_es
+        - Fixes errors in alpha channel
+  - fix: |
+      cbchalet2_sg
+        - Fixes window reflections drawing over window barricades
+  - fix: |
+      cbchalet2_dn
+        - Creates a copy of original cbchalet_dn
+  - fix: |
+      cbchalet2_ng
+        - Removes superfluous alpha channel
+  - fix: |
+      cbchalet2_dng
+        - Fixes damage inconsistencies with cbchalet2_dn
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2401
+
+authors:
+  - xezon

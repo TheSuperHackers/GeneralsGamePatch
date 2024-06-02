@@ -25,7 +25,7 @@ subchanges:
   - fix: |
       cbairport_en, cbairport_rn
         - Fixes incorrect night light
-  - fix: |
+  - optimization: |
       cbairport_esn, cbairport_rsn
         - Optimizes texture size
 

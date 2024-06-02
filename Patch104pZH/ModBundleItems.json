@@ -273,6 +273,10 @@
                                 "target": "Art/Textures/cbchalet_esn.dds"
                             },
                             {
+                                "source": "../GameFilesOriginalZH/Art/Textures/cbchalet_dn.dds",
+                                "target": "Art/Textures/cbchalet2_dn.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
