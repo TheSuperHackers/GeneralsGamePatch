@@ -9,33 +9,33 @@ Occuring labels are
 - art (58)
 - audio (49)
 - boss (15)
-- buff (22)
+- buff (23)
 - bug (136)
 - china (40)
 - civilian (3)
-- controversial (34)
-- design (68)
+- controversial (36)
+- design (70)
 - enhancement (53)
 - gla (37)
 - gui (19)
-- major (28)
+- major (30)
 - minor (233)
-- nerf (10)
+- nerf (11)
 - optional (17)
 - performance (12)
 - text (31)
-- usa (265)
-- v1.0 (265)
+- usa (267)
+- v1.0 (267)
 - worldbuilder (5)
 
 Sorts changes by: date (ascending)
 
-Contains 265 entries with
+Contains 267 entries with
 
-- 381 changes
+- 385 changes
   - OPTIMIZATION (4)
-  - FIX (266)
-  - TWEAK (95)
+  - FIX (267)
+  - TWEAK (98)
   - FEATURE (16)
 - 506 subchanges
   - FIX (433)
@@ -191,11 +191,13 @@ Contains 265 entries with
 - [2022-11-27 - Adds damage state transition effect to USA A10](#link__20221127__1487_a10_damage_transition_effect)
 - [2022-11-30 - Fixes USA Supply Center model issues](#link__20221130__1491_usa_supply_model)
 - [2023-01-07 - Fixes USA Strategy Center Gun attack issues](#link__20230107__1524_strategy_center_gun_attack)
+- [2023-01-07 - Increases armor of USA Comanche by up to 23%](#link__20230107__1530_comanche_armor)
 - [2023-01-09 - Optimizes USA vehicle drone spawn positions](#link__20230109__1539_vehicle_drone_spawn_position)
 - [2023-01-13 - Fixes the evacuation command button art of various vehicles](#link__20230113__1545_vehicle_evacuation_button_image)
 - [2023-01-14 - Improves guided missile laser beam and muzzle flare visuals of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_beam_effects)
 - [2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_exhaust)
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
+- [2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser](#link__20230115__1555_king_raptor_point_defense_laser)
 - [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
 - [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
 - [2023-01-19 - Replaces USA Chinook specific evacuation button with generic vehicle evacuation button](#link__20230119__1565_chinook_evacuation_button)
@@ -3372,6 +3374,24 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1524_strategy_center_gun_attack.yaml
 
 ---
+### 2023-01-07 - Increases armor of USA Comanche by up to 23% <a name='link__20230107__1530_comanche_armor'></a>
+**Changes**
+
+- **TWEAK**: The armor of the USA Comanche against Quad Cannons, Gattlings and Infantry Missiles is now set to 100% instead of 120% (smaller is better).
+- **TWEAK**: The armor of the USA Comanche against Explosions is now set to 100% instead of 130%.
+- **TWEAK**: The armor of the USA Comanche with Countermeasures against Explosions is now set to 100% instead of 110%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1530](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1530)
+
+**Labels:** buff, controversial, design, major, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1530_comanche_armor.yaml
+
+---
 ### 2023-01-09 - Optimizes USA vehicle drone spawn positions <a name='link__20230109__1539_vehicle_drone_spawn_position'></a>
 **Changes**
 
@@ -3462,6 +3482,22 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 1554_hold_line_plan_armor_bonus.yaml
+
+---
+### 2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser <a name='link__20230115__1555_king_raptor_point_defense_laser'></a>
+**Changes**
+
+- **FIX**: The USA King Raptor no longer has 2 Point Defense Laser modules with reload times of 266 ms each. Instead it now has just one with a reload time of 133 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1555](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1555)
+
+**Labels:** controversial, design, major, nerf, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1555_king_raptor_point_defense_laser.yaml
 
 ---
 ### 2023-01-15 - Enables toxin weapons to shoot at USA Fire Base <a name='link__20230115__1556_firebase_toxin_armor'></a>

@@ -8,33 +8,33 @@ Occuring labels are
 - art (28)
 - audio (33)
 - boss (17)
-- buff (28)
+- buff (29)
 - bug (155)
 - china (37)
 - civilian (2)
-- controversial (43)
+- controversial (44)
 - critical (2)
-- design (58)
+- design (59)
 - enhancement (19)
-- gla (249)
+- gla (250)
 - gui (12)
 - major (36)
-- minor (210)
+- minor (211)
 - nerf (17)
 - optional (11)
 - performance (6)
 - text (31)
 - usa (37)
-- v1.0 (249)
+- v1.0 (250)
 - worldbuilder (3)
 
 Sorts changes by: date (ascending)
 
-Contains 249 entries with
+Contains 250 entries with
 
-- 360 changes
+- 361 changes
   - FIX (276)
-  - TWEAK (69)
+  - TWEAK (70)
   - FEATURE (8)
   - OPTIMIZATION (5)
   - CHANGE (2)
@@ -193,6 +193,7 @@ Contains 249 entries with
 - [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#link__20230211__1703_scud_storm_idle_reload)
 - [2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
+- [2023-02-12 - Increases fire rate of GLA RPG Trooper on Combat Bike by 88%](#link__20230212__1694_biker_rocket_weapon)
 - [2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage](#link__20230214__1706_stealth_rebel_reveal)
 - [2023-02-15 - Fixes issue where GLA Scud Launcher model does not show its salvage upgrades on death](#link__20230215__1714_scud_launcher_death_model)
 - [2023-02-15 - Fixes issue where GLA Angry Mob always shows one extra dot on radar](#link__20230215__1716_mob_radar_dots)
@@ -2970,6 +2971,22 @@ Contains 249 entries with
 **Authors:** xezon
 
 **Source:** 1688_salvage_crate_despawn_time.yaml
+
+---
+### 2023-02-12 - Increases fire rate of GLA RPG Trooper on Combat Bike by 88% <a name='link__20230212__1694_biker_rocket_weapon'></a>
+**Changes**
+
+- **TWEAK**: The GLA RPG Trooper on the Combat Bike now shoots a rocket every 533 ms instead of 1000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1694](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1694)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1694_biker_rocket_weapon.yaml
 
 ---
 ### 2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage <a name='link__20230214__1706_stealth_rebel_reveal'></a>
