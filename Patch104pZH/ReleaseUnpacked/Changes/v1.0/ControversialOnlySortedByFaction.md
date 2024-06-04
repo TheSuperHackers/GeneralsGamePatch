@@ -7,28 +7,28 @@ Occuring labels are
 
 - audio (2)
 - boss (1)
-- buff (73)
+- buff (75)
 - bug (38)
 - china (45)
 - civilian (4)
-- controversial (122)
-- design (97)
+- controversial (125)
+- design (100)
 - enhancement (1)
-- gla (43)
+- gla (44)
 - gui (1)
-- major (50)
-- minor (71)
-- nerf (24)
-- usa (34)
-- v1.0 (122)
+- major (52)
+- minor (72)
+- nerf (25)
+- usa (36)
+- v1.0 (125)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 122 entries with
+Contains 125 entries with
 
-- 147 changes
-  - TWEAK (99)
-  - FIX (44)
+- 152 changes
+  - TWEAK (103)
+  - FIX (45)
   - FEATURE (4)
 - 20 subchanges
   - FIX (20)
@@ -59,7 +59,9 @@ Contains 122 entries with
 - [2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300](#link__20221108__1457_strategy_center_detection_range)
 - [2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600](#link__20221108__1457_strategy_center_snd_vision_range)
 - [2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25%](#link__20221116__1469_battle_drone_upgrade_armor_bonus)
+- [2023-01-07 - Increases armor of USA Comanche by up to 23%](#link__20230107__1530_comanche_armor)
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
+- [2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser](#link__20230115__1555_king_raptor_point_defense_laser)
 - [2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000](#link__20230121__1580_patriot_assist_reload_time)
 - [2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
 - [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
@@ -141,6 +143,7 @@ Contains 122 entries with
 - [2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
+- [2023-02-12 - Increases fire rate of GLA RPG Trooper on Combat Bike by 88%](#link__20230212__1694_biker_rocket_weapon)
 - [2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175](#link__20230610__2002_anthrax_beta_scud_storm_damage)
 - [2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500](#link__20230610__2002_anthrax_gamma_scud_storm_damage)
 - [2023-06-17 - Increases Anthrax Gamma poison field damage bonus by 20%](#link__20230617__2012_anthrax_gamma_field_damage)
@@ -566,6 +569,24 @@ Contains 122 entries with
 **Source:** 1469_battle_drone_upgrade_armor_bonus.yaml
 
 ---
+### 2023-01-07 - Increases armor of USA Comanche by up to 23% <a name='link__20230107__1530_comanche_armor'></a>
+**Changes**
+
+- **TWEAK**: The armor of the USA Comanche against Quad Cannons, Gattlings and Infantry Missiles is now set to 100% instead of 120% (smaller is better).
+- **TWEAK**: The armor of the USA Comanche against Explosions is now set to 100% instead of 130%.
+- **TWEAK**: The armor of the USA Comanche with Countermeasures against Explosions is now set to 100% instead of 110%.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1530](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1530)
+
+**Labels:** buff, controversial, design, major, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1530_comanche_armor.yaml
+
+---
 ### 2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0% <a name='link__20230115__1554_hold_line_plan_armor_bonus'></a>
 **Changes**
 
@@ -580,6 +601,22 @@ Contains 122 entries with
 **Authors:** xezon
 
 **Source:** 1554_hold_line_plan_armor_bonus.yaml
+
+---
+### 2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser <a name='link__20230115__1555_king_raptor_point_defense_laser'></a>
+**Changes**
+
+- **FIX**: The USA King Raptor no longer has 2 Point Defense Laser modules with reload times of 266 ms each. Instead it now has just one with a reload time of 133 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1555](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1555)
+
+**Labels:** controversial, design, major, nerf, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 1555_king_raptor_point_defense_laser.yaml
 
 ---
 ### 2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000 <a name='link__20230121__1580_patriot_assist_reload_time'></a>
@@ -1916,6 +1953,22 @@ Contains 122 entries with
 **Authors:** xezon
 
 **Source:** 1688_salvage_crate_despawn_time.yaml
+
+---
+### 2023-02-12 - Increases fire rate of GLA RPG Trooper on Combat Bike by 88% <a name='link__20230212__1694_biker_rocket_weapon'></a>
+**Changes**
+
+- **TWEAK**: The GLA RPG Trooper on the Combat Bike now shoots a rocket every 533 ms instead of 1000 ms.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1694](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1694)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** Stubbjax
+
+**Source:** 1694_biker_rocket_weapon.yaml
 
 ---
 ### 2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175 <a name='link__20230610__2002_anthrax_beta_scud_storm_damage'></a>

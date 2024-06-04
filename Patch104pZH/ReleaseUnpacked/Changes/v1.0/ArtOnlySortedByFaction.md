@@ -5,38 +5,39 @@ Includes changes with labels: art
 
 Occuring labels are
 
-- art (134)
+- art (148)
 - audio (2)
 - buff (1)
 - bug (77)
 - china (28)
-- civilian (4)
+- civilian (18)
 - design (2)
 - enhancement (34)
 - gla (28)
 - gui (1)
 - major (6)
-- minor (128)
-- optional (10)
+- minor (142)
+- optional (24)
 - performance (11)
 - usa (58)
-- v1.0 (134)
+- v1.0 (148)
 - wip (1)
 - worldbuilder (1)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 134 entries with
+Contains 148 entries with
 
-- 167 changes
+- 181 changes
   - OPTIMIZATION (9)
-  - FIX (123)
+  - FIX (137)
   - FEATURE (22)
   - TWEAK (13)
-- 212 subchanges
-  - FIX (160)
+- 292 subchanges
+  - FIX (237)
   - TWEAK (24)
   - FEATURE (28)
+  - OPTIMIZATION (3)
 
 ## Index
 - [2023-06-25 - Decreases performance cost of toxin and hazard cleanup stream splash effects by 20%](#link__20230625__2035_toxin_stream_splash_performance)
@@ -155,6 +156,20 @@ Contains 134 entries with
 - [2023-02-05 - Changes transition damage effects of Civilian Humvee1 to match those of USA Humvees](#link__20230205__1638_humvee1_transition_damage_effects)
 - [2023-02-05 - Adds and fixes models for damaged states of Civilian vehicles](#link__20230205__1639_civ_damaged_state_models)
 - [2023-02-05 - Adds transition damage effects to Civilian vehicles](#link__20230205__1639_civ_transition_damage_effects)
+- [2024-05-25 - Fixes and improves cbbrnshed textures](#link__20240525__2390_cbbrnshed_textures)
+- [2024-05-26 - Fixes cbapt01 textures](#link__20240526__2392_cbapt01_textures)
+- [2024-05-27 - Fixes and improves cbairport textures](#link__20240527__2393_cbairport_textures)
+- [2024-05-30 - Fixes and improves cbwrfwhrs2 textures](#link__20240530__2394_cbwrfwhrs2_textures)
+- [2024-05-30 - Fixes rubble night textures](#link__20240530__2394_rubble_textures)
+- [2024-05-30 - Fixes cbbaikgrnd textures](#link__20240530__2398_cbbaikgrnd_textures)
+- [2024-05-30 - Fixes cbbridgein textures](#link__20240530__2399_cbbridgein_textures)
+- [2024-05-30 - Fixes cbbridgewds textures](#link__20240530__2399_cbbridgewds_textures)
+- [2024-06-01 - Fixes cbchalet textures](#link__20240601__2400_cbchalet_textures)
+- [2024-06-01 - Fixes cbchalet2 textures](#link__20240601__2401_cbchalet2_textures)
+- [2024-06-02 - Fixes cbchalet3 textures](#link__20240602__2403_cbchalet3_textures)
+- [2024-06-02 - Fixes cbchembunk textures](#link__20240602__2404_cbchembunk_textures)
+- [2024-06-02 - Fixes cbchemfact textures](#link__20240602__2405_cbchemfact_textures)
+- [2024-06-04 - Fixes cbcnvstr01 textures](#link__20240604__2406_cbcnvstr01_textures)
 - [2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air](#link__20211016__567_demo_combat_bike_drop)
 - [2021-10-16 - Adds ruin model to destroyed Reinforcement Pad Tech building](#link__20211016__568_reinforcement_pad_ruin_model)
 - [2022-07-22 - Recoveres 483 high quality textures from Generals](#link__20220722__734_high_res_textures)
@@ -2905,6 +2920,568 @@ Contains 134 entries with
 **Authors:** xezon
 
 **Source:** 1639_civ_transition_damage_effects.yaml
+
+---
+### 2024-05-25 - Fixes and improves cbbrnshed textures <a name='link__20240525__2390_cbbrnshed_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbbrnshed textures.
+
+**Subchanges**
+
+- **FIX**: cbbrnshed_sg
+  - Creates missing 2x upscale to 512x512
+
+- **FIX**: cbbrnshed_n, cbbrnshed_dn, cbbrnshed_ng, cbbrnshed_dng, cbbrnshed_sng
+  - Recreates 2x upscale to 256x256 to match regular base texture size
+
+- **FIX**: cbbrnshed_sn, cbbrnshed_dsn, cbbrnshed_dsng
+  - Recreates texture with slightly better visuals
+
+- **FIX**: cbbrnshed_en
+  - Fixes incorrect night light
+
+- **OPTIMIZATION**: cbbrnshed_esn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2390](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2390)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2390_cbbrnshed_textures.yaml
+
+---
+### 2024-05-26 - Fixes cbapt01 textures <a name='link__20240526__2392_cbapt01_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbapt01 textures.
+
+**Subchanges**
+
+- **FIX**: cbap01
+  - Adds missing window reflections
+  - Fixes alpha discrepancy of antenna with cbapt01_d
+
+- **FIX**: cbapt01_d, cbapt01_dg, cbapt01_ds, cbapt01_dsg
+  - Fixes window damage visuals
+  - Fixes window reflection errors
+
+- **FIX**: cbapt01_r, cbapt01_rs
+  - Fixes minor alpha channel discrepancies with cbapt01_e, cbapt01_es
+  - Fixes floating pieces in alpha channel
+
+- **FIX**: cbapt01_g, cbapt01_s, cbapt01_sg
+  - Fixes window reflection errors
+
+- **FIX**: cbapt01_n, cbapt01_ng, cbapt01_dn, cbapt01_dng, cbapt01_sn, cbapt01_dsn, cbapt01_sng, cbapt01_dsng
+  - Recreates night lights with better visuals
+
+- **FIX**: cbapt01_en, cbapt01_rn, cbapt01_esn, cbapt01_rsn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2392](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2392)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2395](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2395)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2392_cbapt01_textures.yaml
+
+---
+### 2024-05-27 - Fixes and improves cbairport textures <a name='link__20240527__2393_cbairport_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbairport textures.
+
+**Subchanges**
+
+- **FIX**: cbairport_s, cbairport_ds, cbairport_es, cbairport_rs, cbairport_sg, cbairport_dsg
+  - Creates 2x upscale to 512x512
+  - Fixes cyan snow
+  - Fixes gaps in snow
+
+- **FIX**: cbairport_n, cbairport_ng
+  - Fixes black level
+
+- **FIX**: cbairport_dn, cbairport_dng
+  - Fixes black level
+  - Recreates damaged lights
+
+- **FIX**: cbairport_sn, cbairport_dsn, cbairport_sng, cbairport_dsng
+  - Creates 2x upscale to 512x512 based on regular night textures
+
+- **FIX**: cbairport_en, cbairport_rn
+  - Fixes incorrect night light
+
+- **OPTIMIZATION**: cbairport_esn, cbairport_rsn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2393](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2393)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2393_cbairport_textures.yaml
+
+---
+### 2024-05-30 - Fixes and improves cbwrfwhrs2 textures <a name='link__20240530__2394_cbwrfwhrs2_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbwrfwhrs2 textures.
+
+**Subchanges**
+
+- **FIX**: cbwrfwhrs2_dg
+  - Creates 2x upscale to 512x512, a copy of cbwrfwhrs2_d
+
+- **FIX**: cbwrfwhrs2_e
+  - Fixes major texture damage inconsistencies with cbwrfwhrs2_d
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbwrfwhrs2_r
+  - Fixes major texture damage inconsistencies with cbwrfwhrs2_d
+  - Fixes alpha channel damage inconsistencies with cbwrfwhrs2_e
+  - Fixes floating pixels in alpha channel
+  - Adds more texture damages
+
+- **FIX**: cbwrfwhrs2_s, cbwrfwhrs2_ds, cbwrfwhrs2_sg
+  - Creates 2x upscale to 512x512
+
+- **FIX**: cbwrfwhrs2_es
+  - Creates 2x upscale to 512x512
+  - Fixes floating pixels in alpha channel
+  - Adds missing holes in alpha channel
+
+- **FIX**: cbwrfwhrs2_rs
+  - Creates 2x upscale to 512x512
+  - Fixes floating pixels in alpha channel
+  - Adds missing alpha channel
+
+- **FIX**: cbwrfwhrs2_en, cbwrfwhrs2_rn, cbwrfwhrs2_esn, cbwrfwhrs2_rsn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2394](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2394)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2394_cbwrfwhrs2_textures.yaml
+
+---
+### 2024-05-30 - Fixes rubble night textures <a name='link__20240530__2394_rubble_textures'></a>
+**Changes**
+
+- **FIX**: Fixes rubble night light textures.
+
+**Subchanges**
+
+- **FIX**: rubble_n, rubble_sn, rubble_sn3, rubble2_n, rubble2_sn, rubble3_n, rubble3_sn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2394](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2394)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2394_rubble_textures.yaml
+
+---
+### 2024-05-30 - Fixes cbbaikgrnd textures <a name='link__20240530__2398_cbbaikgrnd_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbbaikgrnd textures.
+
+**Subchanges**
+
+- **FIX**: cbbaikgrnd_e
+  - Fixes minor window damage inconsistencies with cbbaikgrnd_d
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2398](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2398)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2398_cbbaikgrnd_textures.yaml
+
+---
+### 2024-05-30 - Fixes cbbridgein textures <a name='link__20240530__2399_cbbridgein_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbbridgein textures.
+
+**Subchanges**
+
+- **FIX**: cbbridgein_e
+  - Fixes minor alpha channel inconsistencies with cbbridgein_d
+
+- **FIX**: cbbridgein_r
+  - Fixes minor texture damage inconsistencies with cbbridgein_e
+  - Fixes minor alpha channel inconsistencies with cbbridgein_e
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2399](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2399)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2399_cbbridgein_textures.yaml
+
+---
+### 2024-05-30 - Fixes cbbridgewds textures <a name='link__20240530__2399_cbbridgewds_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbbridgewds textures.
+
+**Subchanges**
+
+- **FIX**: cbbridgewds_e
+  - Fixes minor texture damage inconsistencies with cbbridgewds_d
+  - Fixes alpha channel inconsistencies with cbbridgewds_r
+
+- **FIX**: cbbridgewds_r
+  - Fixes minor texture damage inconsistencies with cbbridgewds_d
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2399](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2399)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2399_cbbridgewds_textures.yaml
+
+---
+### 2024-06-01 - Fixes cbchalet textures <a name='link__20240601__2400_cbchalet_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbchalet textures.
+
+**Subchanges**
+
+- **FIX**: cbchalet_es
+  - Fixes snow drawing over burns
+
+- **FIX**: cbchalet_dn
+  - Fixes major night light errors
+
+- **FIX**: cbchalet_en
+  - Fixes incorrect night light
+
+- **OPTIMIZATION**: cbchalet_esn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2400](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2400)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2400_cbchalet_textures.yaml
+
+---
+### 2024-06-01 - Fixes cbchalet2 textures <a name='link__20240601__2401_cbchalet2_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbchalet2 textures.
+
+**Subchanges**
+
+- **FIX**: cbchalet2_d
+  - Fixes window reflections damage mismatches
+
+- **FIX**: cbchalet2_e
+  - Fixes minor texture damage inconsistencies with cbchalet2_d
+  - Fixes window reflections damage mismatches
+
+- **FIX**: cbchalet2_g
+  - Fixes window reflections drawing over window barricades
+
+- **FIX**: cbchalet2_dg
+  - Fixes window reflections damage mismatches
+  - Fixes window reflections drawing over window barricades
+
+- **FIX**: cbchalet2_ds, cbchalet2_dsg
+  - Adds missing window damages
+  - Adds missing bullet holes
+  - Fixes errors in alpha channel
+
+- **FIX**: cbchalet2_es
+  - Fixes window reflections damage mismatches
+
+- **FIX**: cbchalet2_rs
+  - Adds additional damages
+  - Fixes minor texture damage inconsistencies with cbchalet2_es
+  - Fixes errors in alpha channel
+
+- **FIX**: cbchalet2_sg
+  - Fixes window reflections drawing over window barricades
+
+- **FIX**: cbchalet2_dn
+  - Creates a copy of original cbchalet_dn
+
+- **FIX**: cbchalet2_ng
+  - Removes superfluous alpha channel
+
+- **FIX**: cbchalet2_dng
+  - Fixes damage inconsistencies with cbchalet2_dn
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2401](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2401)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2401_cbchalet2_textures.yaml
+
+---
+### 2024-06-02 - Fixes cbchalet3 textures <a name='link__20240602__2403_cbchalet3_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbchalet3 textures.
+
+**Subchanges**
+
+- **FIX**: cbchalet3_e, cbchalet3_es
+  - Removes unexpected window barricades of garrison textures
+  - Fixes errors in alpha channel
+
+- **FIX**: cbchalet3_s, cbchalet3_ds
+  - Fixes errors in alpha channel
+
+- **FIX**: cbchalet3_dn, cbchalet3_ng
+  - Fixes night light saturation mismatch with cbchalet3_n
+
+- **FIX**: cbchalet3_dng
+  - Fixes night light saturation mismatch with cbchalet3_n
+  - Fixes missing night light damages
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2403](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2403)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2403_cbchalet3_textures.yaml
+
+---
+### 2024-06-02 - Fixes cbchembunk textures <a name='link__20240602__2404_cbchembunk_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbchembunk textures.
+
+**Subchanges**
+
+- **FIX**: cbchembunk
+  - Fixes black section on top of containers
+  - Decreases sharpness slightly
+
+- **FIX**: cbchembunk_d
+  - Repaints damages based on cbchembunk_d1
+  - Fixes texture sharpness inconsistencies with cbchembunk
+
+- **FIX**: cbchembunk_e
+  - Repaints damages based on cbchembunk_d
+
+- **FIX**: cbchembunk_r
+  - Creates 2x downscale to 256x256
+  - Fixes texture damage inconsistencies with cbchembunk_e
+
+- **FIX**: cbchembunk_g
+  - Fixes texture sharpness inconsistencies with cbchembunk
+  - Removes green spots on walls
+
+- **FIX**: cbchembunk_dg
+  - Fixes texture sharpness inconsistencies with cbchembunk_d
+  - Fixes texture damage inconsistencies with cbchembunk_d
+
+- **FIX**: cbchembunk_s
+  - Creates 2x downscale to 256x256
+  - Fixes texture sharpness inconsistencies with cbchembunk
+  - Improves snow blending
+
+- **FIX**: cbchembunk_ds
+  - Creates 2x downscale to 256x256
+  - Fixes snow drawing over burns
+  - Reconstructs damages based on cbchembunk_d
+
+- **FIX**: cbchembunk_es
+  - Creates 2x downscale to 256x256
+  - Fixes snow drawing over burns
+  - Reconstructs damages based on cbchembunk_e
+  - Removes alpha channel
+
+- **FIX**: cbchembunk_rs
+  - Creates 2x downscale to 256x256
+  - Fixes snow drawing over burns
+  - Reconstructs damages based on cbchembunk_r
+
+- **FIX**: cbchembunk_sg
+  - Fixes texture sharpness inconsistencies with cbchembunk_s
+  - Removes green spots on walls
+
+- **FIX**: cbchembunk_dsg
+  - Fixes texture sharpness inconsistencies with cbchembunk_ds
+  - Fixes snow drawing over burns
+  - Reconstructs damages based on cbchembunk_d
+
+- **FIX**: cbchembunk_n, cbchembunk_ng, cbchembunk_sng
+  - Creates 2x upscale to 256x256
+  - Recreates feathered night lights
+  - Removes wrong damages from texture
+
+- **FIX**: cbchembunk_dn
+  - Recreates feathered night lights
+
+- **FIX**: cbchembunk_dng, cbchembunk_sn, cbchembunk_dsn, cbchembunk_dsng
+  - Creates 2x upscale to 256x256
+  - Recreates feathered night lights
+
+- **FIX**: cbchembunk_en, cbchembunk_esn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2404](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2404)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2404_cbchembunk_textures.yaml
+
+---
+### 2024-06-02 - Fixes cbchemfact textures <a name='link__20240602__2405_cbchemfact_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbchemfact textures.
+
+**Subchanges**
+
+- **FIX**: cbchemfact
+  - Creates 2x upscale to 512x512
+  - Adds missing window reflections
+
+- **FIX**: cbchemfact_g, cbchemfact_sg
+  - Fixes minor artifacts on window reflections
+
+- **FIX**: cbchemfact_r
+  - Removes traces of snow
+  - Fixes minor damage inconsistencies with cbchemfact_e
+
+- **FIX**: cbchemfact_s
+  - Removes window barricades from window reflections
+
+- **FIX**: cbchemfact_n, cbchemfact_dn, cbchemfact_dng, cbchemfact_dsn, cbchemfact_dsng
+  - Creates 2x upscale to 256x256
+  - Recreates night lights with less feather and more brightness
+
+- **FIX**: cbchemfact_ng
+  - Creates 2x upscale to 256x256
+  - Recreates night lights with less feather and more brightness
+  - Fixes lightness inconsistency with cbchemfact_n
+
+- **FIX**: cbchemfact_en, cbchemfact_rn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2405](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2405)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2405_cbchemfact_textures.yaml
+
+---
+### 2024-06-04 - Fixes cbcnvstr01 textures <a name='link__20240604__2406_cbcnvstr01_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbcnvstr01 textures.
+
+**Subchanges**
+
+- **FIX**: cbcnvstr01
+  - Fixes shop sign looking different to cbcnvstr01_d, cbcnvstr01_e, cbcnvstr01_r
+
+- **FIX**: cbcnvstr01_g
+  - Fixes house texture brightness and details looking slightly different to cbcnvstr01_dg, cbcnvstr01_e, cbcnvstr01_r
+
+- **FIX**: cbcnvstr01_r
+  - Fixes broken windows in alpha channel
+  - Adds missing dirt to roof
+  - Adds extra dirt to texture
+
+- **FIX**: cbcnvstr01_s, cbcnvstr01_ds, cbcnvstr01_es, cbcnvstr01_rs, cbcnvstr01_sg, cbcnvstr01_dsg
+  - Creates 2x upscale to 512x512
+  - Fixes wrong window reflections in alpha channel
+
+- **FIX**: cbcnvstr01_dn, cbcnvstr01_dng
+  - Recreates night lights damages
+
+- **FIX**: cbcnvstr01_sn, cbcnvstr01_sng
+  - Creates 2x upscale to 512x512
+  - Fixes light shining through snow
+
+- **FIX**: cbcnvstr01_dsn, cbcnvstr01_dsng
+  - Creates 2x upscale to 512x512
+  - Fixes light shining through snow
+  - Recreates night lights damages
+
+- **FIX**: cbcnvstr01_en, cbcnvstr01_esn
+  - Fixes incorrect night lights
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2406](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2406)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2406_cbcnvstr01_textures.yaml
 
 ---
 ### 2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air <a name='link__20211016__567_demo_combat_bike_drop'></a>
