@@ -1,10 +1,10 @@
 ---
 date: 2024-06-02
 
-title: Fixes cbchemfact textures
+title: Fixes and improves cbchemfact textures
 
 changes:
-  - fix: Fixes Civilian cbchemfact textures.
+  - fix: Fixes and improves Civilian cbchemfact textures.
 
 subchanges:
   - fix: |

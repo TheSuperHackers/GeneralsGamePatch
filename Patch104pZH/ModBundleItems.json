@@ -266,6 +266,22 @@
                             },
                             {
                                 "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbbunker01_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbbunker01_rn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbbunker01_esn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbbunker01_rsn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
                                 "target": "Art/Textures/cbchalet_en.dds"
                             },
                             {

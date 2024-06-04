@@ -1,10 +1,10 @@
 ---
 date: 2024-06-02
 
-title: Fixes cbchembunk textures
+title: Fixes and improves cbchembunk textures
 
 changes:
-  - fix: Fixes Civilian cbchembunk textures.
+  - fix: Fixes and improves Civilian cbchembunk textures.
 
 subchanges:
   - fix: |

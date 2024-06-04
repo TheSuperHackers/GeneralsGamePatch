@@ -1,10 +1,10 @@
 ---
 date: 2024-05-26
 
-title: Fixes cbapt01 textures
+title: Fixes and improves cbapt01 textures
 
 changes:
-  - fix: Fixes Civilian cbapt01 textures.
+  - fix: Fixes and improves Civilian cbapt01 textures.
 
 subchanges:
   - fix: |
