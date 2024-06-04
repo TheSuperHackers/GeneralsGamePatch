@@ -293,6 +293,14 @@
                                 "target": "Art/Textures/cbchemfact_rn.dds"
                             },
                             {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbcnvstr01_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbcnvstr01_esn.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
