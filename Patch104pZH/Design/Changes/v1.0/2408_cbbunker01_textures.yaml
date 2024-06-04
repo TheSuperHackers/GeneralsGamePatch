@@ -1,0 +1,28 @@
+---
+date: 2024-06-04
+
+title: Fixes cbbunker01 textures
+
+changes:
+  - fix: Fixes Civilian cbbunker01 textures.
+
+subchanges:
+  - fix: |
+      cbbunker01_en, cbbunker01_rn
+        - Fixes incorrect night light
+  - optimization: |
+      cbbunker01_esn, cbbunker01_rsn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2408
+
+authors:
+  - xezon
