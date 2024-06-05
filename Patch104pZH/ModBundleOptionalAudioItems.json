@@ -1,177 +1,11 @@
 {
     "bundles": {
         "version": 1,
+        "itemsPrefix": "600_998_SuperPatch_",
+        "itemsSuffix": "",
         "items": [
             {
-                "name": "CoreAudio",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/*.wav"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioArabic",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/English/*.wav"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioBrazilian",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioChinese",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Chinese/*.wav"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioEnglish",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/English/*.wav"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioFrench",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/French/*.wav"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioGerman",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Audio/Sounds/German/*.wav"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioItalian",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Italian/*.wav"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioKorean",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Korean/*.wav"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioPolish",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Polish/*.wav"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioRussian",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/Russian/*.wav",
-                                "target": "Data/Audio/Sounds/English/*.wav"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreAudioSpanish",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/Audio/Sounds/English/*.wav",
-                                "target": "Data/Audio/Sounds/Spanish/*.wav"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "AxOptionalAudio",
+                "name": "OptionalAudio",
                 "big": true,
                 "files": [
                     {
@@ -194,7 +28,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioArabic",
+                "name": "OptionalAudioArabic",
                 "big": true,
                 "files": [
                     {
@@ -229,7 +63,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioBrazilian",
+                "name": "OptionalAudioBrazilian",
                 "big": true,
                 "files": [
                     {
@@ -264,7 +98,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioChinese",
+                "name": "OptionalAudioChinese",
                 "big": true,
                 "files": [
                     {
@@ -299,7 +133,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioEnglish",
+                "name": "OptionalAudioEnglish",
                 "big": true,
                 "files": [
                     {
@@ -334,7 +168,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioFrench",
+                "name": "OptionalAudioFrench",
                 "big": true,
                 "files": [
                     {
@@ -357,7 +191,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioGerman",
+                "name": "OptionalAudioGerman",
                 "big": true,
                 "files": [
                     {
@@ -372,7 +206,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioItalian",
+                "name": "OptionalAudioItalian",
                 "big": true,
                 "files": [
                     {
@@ -407,7 +241,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioKorean",
+                "name": "OptionalAudioKorean",
                 "big": true,
                 "files": [
                     {
@@ -442,7 +276,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioPolish",
+                "name": "OptionalAudioPolish",
                 "big": true,
                 "files": [
                     {
@@ -477,7 +311,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioRussian",
+                "name": "OptionalAudioRussian",
                 "big": true,
                 "files": [
                     {
@@ -492,7 +326,7 @@
                 ]
             },
             {
-                "name": "AxOptionalAudioSpanish",
+                "name": "OptionalAudioSpanish",
                 "big": true,
                 "files": [
                     {

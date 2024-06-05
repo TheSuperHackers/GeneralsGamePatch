@@ -1,7 +1,7 @@
 {
     "bundles": {
         "version": 1,
-        "packsPrefix": "GamePatch",
+        "packsPrefix": "SuperPatch",
         "packsSuffix": "_v0.0",
         "packs": [
             {
