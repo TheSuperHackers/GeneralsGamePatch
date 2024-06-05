@@ -1,0 +1,50 @@
+---
+date: 2024-06-05
+
+title: Fixes and improves cbcthdrl textures
+
+changes:
+  - fix: Fixes and improves Civilian cbcthdrl textures.
+
+subchanges:
+  - fix: |
+      cbcthdrl, cbcthdrl_d, cbcthdrl_g, cbcthdrl_dg
+        - Creates 2x upscale to 512x512
+        - Fixes artifacts on center roof segment
+  - fix: |
+      cbcthdrl_e
+        - Creates 2x upscale to 512x512
+        - Adds wooden planks to inside of damaged roof
+        - Adds additional dirt to bright stairs
+        - Removes obsolete alpha channel
+  - fix: |
+      cbcthdrl_r
+        - Creates 2x upscale to 512x512
+        - Adds additional dirt to bright stairs
+  - fix: |
+      cbcthdrl_s, cbcthdrl_ds, cbcthdrl_es, cbcthdrl_rs, cbcthdrl_g, cbcthdrl_dg
+        - Creates 2x upscale to 512x512
+        - Recreates texture based on respective base texture
+  - fix: |
+      cbcthdrl_n, cbcthdrl_dn, cbcthdrl_ng, cbcthdrl_dng
+        - Creates 2x upscale to 512x512
+        - Recreates night lights
+  - fix: |
+      cbcthdrl_en, cbcthdrl_rn
+        - Fixes incorrect night light
+  - optimization: |
+      cbcthdrl_esn, cbcthdrl_rsn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2410
+
+authors:
+  - xezon
