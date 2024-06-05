@@ -1,7 +1,7 @@
 {
     "bundles": {
         "version": 1,
-        "itemsPrefix": "600_998_SuperPatch_",
+        "itemsPrefix": "600_899_SuperPatch_",
         "itemsSuffix": "",
         "items": [
             {
@@ -361,40 +361,6 @@
                 "onFinishBuildRawBundleItem": {
                     "script": "Scripts/Python/OnBuildItemWithBlender3-4-1.py"
                 }
-            },
-            {
-                "name": "RecoveredTextures",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesOriginalCCG",
-                        "sourceList": [
-                            "Art/Textures/*.dds",
-                            "Art/Textures/*.tga"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesOriginalCCG",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Textures/GenerateMip/*.psd",
-                                "target": "Art/Textures/*.dds"
-                            },
-                            {
-                                "source": "Art/Textures/GenerateMip/*.tga",
-                                "target": "Art/Textures/*.dds"
-                            },
-                            {
-                                "source": "Art/Textures/cbwrfwhrs2_d.dds",
-                                "target": "Art/Textures/cbwrfwhrs2_dg.dds"
-                            }
-                        ],
-                        "params": {
-                            "-quality": 255,
-                            "-mipmode": "Generate"
-                        }
-                    }
-                ]
             },
             {
                 "name": "OptionalINI",

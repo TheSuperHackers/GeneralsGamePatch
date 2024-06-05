@@ -24,6 +24,7 @@ set ConfigFiles=^
     "%ProjectDir%\ModBundleOptionalAudioItems.json" ^
     "%ProjectDir%\ModBundleOptionalItems.json" ^
     "%ProjectDir%\ModBundleOptionalLanguageItems.json" ^
+    "%ProjectDir%\ModBundleRecoveredItems.json" ^
     "%ProjectDir%\ModBundleCorePacks.json" ^
     "%ProjectDir%\ModBundleFullPacks.json" ^
     "%ProjectDir%\ModChangeLog.json" ^
