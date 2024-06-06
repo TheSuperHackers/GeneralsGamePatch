@@ -1,0 +1,38 @@
+---
+date: 2024-06-06
+
+title: Fixes cbdome textures
+
+changes:
+  - fix: Fixes Civilian cbdome textures.
+
+subchanges:
+  - fix: |
+      cbdome_e
+        - Fixes see-through burn texture
+        - Fixes texture damage inconsistencies with cbdome_d
+  - fix: |
+      cbdome_r
+        - Removes black alpha channel
+        - Fixes see-through burn textures
+        - Fixes texture damage inconsistencies with cbdome_e
+  - fix: |
+      cbdome_gd
+        - Fixes major texture damage inconsistencies with cbdome_d
+  - fix: |
+      cbdome_gn
+        - Fixes minor night light inconsistencies with cbdome_n
+        - Fixes minor window barricade discrepancies with cbdome_g
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2412
+
+authors:
+  - xezon
