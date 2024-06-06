@@ -1,0 +1,28 @@
+---
+date: 2024-06-06
+
+title: Fixes cbarchse textures
+
+changes:
+  - fix: Fixes Civilian cbarchse textures.
+
+subchanges:
+  - fix: |
+      cbarchse_gd
+        - Fixes major texture damage inconsistencies with cbarchse_d
+  - fix: |
+      cbarchse_ng
+        - Fixes minor light inaccuracies over window barricades
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2413
+
+authors:
+  - xezon
