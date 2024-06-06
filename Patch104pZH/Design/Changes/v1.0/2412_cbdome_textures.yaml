@@ -14,7 +14,6 @@ subchanges:
   - fix: |
       cbdome_r
         - Removes black alpha channel
-        - Fixes see-through burn textures
         - Fixes texture damage inconsistencies with cbdome_e
   - fix: |
       cbdome_gd
