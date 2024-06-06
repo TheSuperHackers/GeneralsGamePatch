@@ -18,9 +18,13 @@ set ModBuilderArcUrl=https://github.com/TheSuperHackers/GeneralsModBuilder/relea
 
 :: The configuration files.
 set ConfigFiles=^
-    "%ProjectDir%\ModBundleItems.json" ^
-    "%ProjectDir%\ModBundleAudioItems.json" ^
-    "%ProjectDir%\ModBundleLanguageItems.json" ^
+    "%ProjectDir%\ModBundleCoreAudioItems.json" ^
+    "%ProjectDir%\ModBundleCoreItems.json" ^
+    "%ProjectDir%\ModBundleCoreLanguageItems.json" ^
+    "%ProjectDir%\ModBundleOptionalAudioItems.json" ^
+    "%ProjectDir%\ModBundleOptionalItems.json" ^
+    "%ProjectDir%\ModBundleOptionalLanguageItems.json" ^
+    "%ProjectDir%\ModBundleRecoveredItems.json" ^
     "%ProjectDir%\ModBundleCorePacks.json" ^
     "%ProjectDir%\ModBundleFullPacks.json" ^
     "%ProjectDir%\ModChangeLog.json" ^

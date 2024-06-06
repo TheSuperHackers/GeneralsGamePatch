@@ -1,174 +1,11 @@
 {
     "bundles": {
         "version": 1,
-        "itemsPrefix": "600_GamePatch",
+        "itemsPrefix": "600_899_SuperPatch_",
         "itemsSuffix": "",
         "items": [
             {
-                "name": "CoreMisc",
-                "big": false,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Cursors/*.ani"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreTextures",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Art/Textures/*.tga",
-                            "Art/Textures/*.dds"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Textures/GenerateMip/*.psd",
-                                "target": "Art/Textures/*.dds"
-                            },
-                            {
-                                "source": "Art/Textures/GenerateMip/*.tga",
-                                "target": "Art/Textures/*.dds"
-                            },
-                            {
-                                "source": "Art/Textures/GenerateMip/exhorde.psd",
-                                "target": "Art/Textures/exhordeb.dds"
-                            },
-                            {
-                                "source": "Art/Textures/GenerateMip/exhorde_up.psd",
-                                "target": "Art/Textures/exhordeb_up.dds"
-                            }
-                        ],
-                        "params": {
-                            "-quality": 255,
-                            "-mipmode": "Generate"
-                        }
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Textures/NoMip/*.psd",
-                                "target": "Art/Textures/*.dds"
-                            },
-                            {
-                                "source": "Art/Textures/NoMip/*.tga",
-                                "target": "Art/Textures/*.dds"
-                            }
-                        ],
-                        "params": {
-                            "-quality": 255,
-                            "-mipmode": "None"
-                        }
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "source": "Art/Textures/GenerateTga/*.psd",
-                        "target": "Art/Textures/*.tga"
-                    }
-                ]
-            },
-            {
-                "name": "CoreW3D",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Art/W3D/*.W3D"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Models/Animation/*.blend",
-                                "target": "Art/W3D/*.W3D"
-                            }
-                        ],
-                        "params": {
-                            "w3dExportHierarchy": true,
-                            "w3dExportAnimation": true,
-                            "w3dExportMesh": true
-                        }
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Models/Hierarchy/*.blend",
-                                "target": "Art/W3D/*.W3D"
-                            }
-                        ],
-                        "params": {
-                            "w3dExportHierarchy": true,
-                            "w3dExportAnimation": false,
-                            "w3dExportMesh": false
-                        }
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Models/HierarchyAnimationMesh/*.blend",
-                                "target": "Art/W3D/*.W3D"
-                            }
-                        ],
-                        "params": {
-                            "w3dExportHierarchy": true,
-                            "w3dExportAnimation": true,
-                            "w3dExportMesh": true
-                        }
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Models/HierarchyMesh/*.blend",
-                                "target": "Art/W3D/*.W3D"
-                            }
-                        ],
-                        "params": {
-                            "w3dExportHierarchy": true,
-                            "w3dExportAnimation": false,
-                            "w3dExportMesh": true
-                        }
-                    },
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Models/Mesh/*.blend",
-                                "target": "Art/W3D/*.W3D"
-                            }
-                        ],
-                        "params": {
-                            "w3dExportHierarchy": false,
-                            "w3dExportAnimation": false,
-                            "w3dExportMesh": true
-                        }
-                    }
-                ],
-                "onFinishBuildRawBundleItem": {
-                    "script": "Scripts/Python/OnBuildItemWithBlender3-4-1.py"
-                }
-            },
-            {
-                "name": "AxOptionalTextures",
+                "name": "OptionalTextures",
                 "big": true,
                 "files": [
                     {
@@ -438,7 +275,7 @@
                 ]
             },
             {
-                "name": "AxOptionalW3D",
+                "name": "OptionalW3D",
                 "big": true,
                 "files": [
                     {
@@ -526,69 +363,7 @@
                 }
             },
             {
-                "name": "RecoveredTextures",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesOriginalCCG",
-                        "sourceList": [
-                            "Art/Textures/*.dds",
-                            "Art/Textures/*.tga"
-                        ]
-                    },
-                    {
-                        "parent": "GameFilesOriginalCCG",
-                        "sourceTargetList": [
-                            {
-                                "source": "Art/Textures/GenerateMip/*.psd",
-                                "target": "Art/Textures/*.dds"
-                            },
-                            {
-                                "source": "Art/Textures/GenerateMip/*.tga",
-                                "target": "Art/Textures/*.dds"
-                            },
-                            {
-                                "source": "Art/Textures/cbwrfwhrs2_d.dds",
-                                "target": "Art/Textures/cbwrfwhrs2_dg.dds"
-                            }
-                        ],
-                        "params": {
-                            "-quality": 255,
-                            "-mipmode": "Generate"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "CoreINI",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/INI/**/*.ini"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ],
-                        "params": {
-                            "forceEOL": "\r\n",
-                            "deleteComments": ";",
-                            "deleteWhitespace": 1,
-                            "sourceEncoding": "ascii",
-                            "targetEncoding": "ascii",
-                            "excludeMarkersList": [
-                                [
-                                    ";patch104p-optional-begin",
-                                    ";patch104p-optional-end"
-                                ]
-                            ]
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "AxOptionalINI",
+                "name": "OptionalINI",
                 "big": true,
                 "files": [
                     {
@@ -609,43 +384,6 @@
                                     ";patch104p-core-end"
                                 ]
                             ]
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "CoreMaps",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Maps/**/*.ini",
-                            "Maps/**/*.str"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "CoreWindow",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "sourceList": [
-                            "Window/**/*.wnd"
-                        ],
-                        "registryList": [
-                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
-                        ],
-                        "params": {
-                            "forceEOL": "\r\n",
-                            "deleteWhitespace": 1,
-                            "sourceEncoding": "ascii",
-                            "targetEncoding": "ascii"
                         }
                     }
                 ]

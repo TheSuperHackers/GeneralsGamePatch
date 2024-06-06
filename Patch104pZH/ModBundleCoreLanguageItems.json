@@ -1,6 +1,8 @@
 {
     "bundles": {
         "version": 1,
+        "itemsPrefix": "600_900_SuperPatch_",
+        "itemsSuffix": "",
         "items": [
             {
                 "name": "CoreLangArabic",
@@ -71,30 +73,6 @@
                 ]
             },
             {
-                "name": "AxOptionalLangBrazilian",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Brazilian",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Brazilian/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "CoreLangChinese",
                 "big": true,
                 "setGameLanguageOnInstall": "Chinese",
@@ -134,30 +112,6 @@
                 ]
             },
             {
-                "name": "AxOptionalLangChinese",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Chinese",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Chinese/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "CoreLangEnglish",
                 "big": true,
                 "setGameLanguageOnInstall": "English",
@@ -179,30 +133,6 @@
                                 [
                                     "//patch104p-optional-begin",
                                     "//patch104p-optional-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/English/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "AxOptionalLangEnglish",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "English",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
                                 ]
                             ]
                         },
@@ -255,31 +185,6 @@
                 ]
             },
             {
-                "name": "AxOptionalLangFrench",
-                "big": true,
-                "setGameLanguageOnInstall": "French",
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "French",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/French/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "CoreLangGerman",
                 "big": true,
                 "setGameLanguageOnInstall": "German",
@@ -318,30 +223,6 @@
                 ]
             },
             {
-                "name": "AxOptionalLangGerman",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "German",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/German/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "CoreLangItalian",
                 "big": true,
                 "setGameLanguageOnInstall": "Italian",
@@ -363,30 +244,6 @@
                                 [
                                     "//patch104p-optional-begin",
                                     "//patch104p-optional-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Italian/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "AxOptionalLangItalian",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Italian",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
                                 ]
                             ]
                         },
@@ -439,30 +296,6 @@
                 ]
             },
             {
-                "name": "AxOptionalLangKorean",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Korean",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Korean/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "CoreLangPolish",
                 "big": true,
                 "setGameLanguageOnInstall": "Polish",
@@ -484,30 +317,6 @@
                                 [
                                     "//patch104p-optional-begin",
                                     "//patch104p-optional-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Polish/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "AxOptionalLangPolish",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Polish",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
                                 ]
                             ]
                         },
@@ -555,30 +364,6 @@
                 ]
             },
             {
-                "name": "AxOptionalLangRussian",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Russian",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Russian/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "CoreLangSpanish",
                 "big": true,
                 "setGameLanguageOnInstall": "Spanish",
@@ -600,30 +385,6 @@
                                 [
                                     "//patch104p-optional-begin",
                                     "//patch104p-optional-end"
-                                ]
-                            ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Spanish/generals.csf"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "AxOptionalLangSpanish",
-                "big": true,
-                "files": [
-                    {
-                        "parent": "GameFilesEdited",
-                        "params": {
-                            "language": "Spanish",
-                            "excludeMarkersList": [
-                                [
-                                    "//patch104p-core-begin",
-                                    "//patch104p-core-end"
                                 ]
                             ]
                         },
