@@ -1,0 +1,58 @@
+---
+date: 2024-06-06
+
+title: Fixes cbetvstat textures
+
+changes:
+  - fix: Fixes Civilian cbetvstat textures.
+
+subchanges:
+  - fix: |
+      cbetvstat_s
+        - Fixes major snow inconsistencies with cbetvstat_sg, cbetvstat_ds
+        - Fixes wrong reflections in alpha channel
+  - fix: |
+      cbetvstat_ds, cbetvstat_dsg
+        - Fixes and improves texture damages
+        - Adds missing window reflections
+  - fix: |
+      cbetvstat_es
+        - Fixes texture damage inconsistencies with cbetvstat_ds
+        - Fixes wrong damages in alpha channel
+  - fix: |
+      cbetvstat_rs
+        - Fixes texture damage inconsistencies with cbetvstat_ds, cbetvstat_es
+        - Fixes wrong damages in alpha channel
+  - fix: |
+      cbetvstat_sg
+        - Fixes window reflections drawing over snow a bit
+  - fix: |
+      cbetvstat_ng, cbetvstat_dng
+        - Fixes unexpected outlines around window barricades
+  - fix: |
+      cbetvstat_dsn
+        - Fixes major night light inconsistencies with cbetvstat_sn
+  - fix: |
+      cbetvstat_sng
+        - Fixes unexpected outlines around window barricades
+        - Fixes minor night light inconsistencies with cbetvstat_sn
+  - fix: |
+      cbetvstat_dsng
+        - Fixes night light over window barricades
+        - Fixes night light inconsistencies with cbetvstat_dsn
+  - fix: |
+      cbetvstat_en
+        - Fixes incorrect night lights
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2414
+
+authors:
+  - xezon
