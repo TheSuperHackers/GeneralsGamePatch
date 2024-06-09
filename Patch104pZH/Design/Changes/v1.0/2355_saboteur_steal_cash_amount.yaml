@@ -7,6 +7,7 @@ changes:
   - tweak: Increases the steal cash amount of the GLA Saboteur from 1000 to 1200.
 
 labels:
+  - buff
   - controversial
   - design
   - gla
