@@ -1,0 +1,21 @@
+---
+date: 2023-09-13
+
+title: Increases steal cash amount of GLA Saboteur from 1000 to 1200
+
+changes:
+  - tweak: Increases the steal cash amount of the GLA Saboteur from 1000 to 1200.
+
+labels:
+  - buff
+  - controversial
+  - design
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355
+
+authors:
+  - xezon
