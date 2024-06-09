@@ -8,33 +8,33 @@ Occuring labels are
 - art (28)
 - audio (33)
 - boss (17)
-- buff (29)
+- buff (32)
 - bug (155)
 - china (37)
 - civilian (2)
-- controversial (44)
+- controversial (47)
 - critical (2)
-- design (59)
+- design (62)
 - enhancement (19)
-- gla (250)
+- gla (253)
 - gui (12)
 - major (36)
-- minor (211)
+- minor (214)
 - nerf (17)
 - optional (11)
 - performance (6)
 - text (31)
 - usa (37)
-- v1.0 (250)
+- v1.0 (253)
 - worldbuilder (3)
 
 Sorts changes by: date (ascending)
 
-Contains 250 entries with
+Contains 253 entries with
 
-- 361 changes
+- 364 changes
   - FIX (276)
-  - TWEAK (70)
+  - TWEAK (73)
   - FEATURE (8)
   - OPTIMIZATION (5)
   - CHANGE (2)
@@ -119,7 +119,6 @@ Contains 250 entries with
 - [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#link__20220722__727_scud_launcher_required_xp)
 - [2022-07-27 - Fixes game crash upon the use of a GLA Terrorist or Demo General infantry unit](#link__20220727__764_terrorist_crash)
 - [2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies](#link__20220729__783_demo_combat_bike_allies_damage)
-- [2022-07-31 - Adds unused GLA Prison to World Builder](#link__20220731__2184_gla_prison)
 - [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
 - [2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor](#link__20220805__820_toxin_tractor_salvage_models)
 - [2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player](#link__20220805__826_anthrax_bomb_poison_colors)
@@ -254,6 +253,7 @@ Contains 250 entries with
 - [2023-07-29 - Shows correct dynamic requirements for unlockable units on promotion screen of sub-factions](#link__20230729__2166_unlockable_units_on_promotion_screen)
 - [2023-07-29 - Fixes lone Stinger Trooper movement animation while reloading](#link__20230729__2173_stinger_trooper_reload_animation_while_moving)
 - [2023-07-30 - Fixes a bug where infantry remains stuck in walk animation when dying](#link__20230730__2175_broken_infantry_death_animations)
+- [2023-07-31 - Adds unused GLA Prison to World Builder](#link__20230731__2184_gla_prison)
 - [2023-08-01 - Fixes vGLA Worker being used for GLA sub-faction holes](#link__20230801__2187_sub_faction_hole_workers)
 - [2023-08-01 - Fixes GLA Supply Stash selection sound sometimes not played](#link__20230801__2188_supply_stash_selection_sound)
 - [2023-08-07 - Fixes errors in French strings](#link__20230807__2218_french_text_errors)
@@ -290,6 +290,9 @@ Contains 250 entries with
 - [2023-09-03 - Adds missing limits to creation voices and sounds of units and unit upgrades](#link__20230903__2321_creation_voice_limits)
 - [2023-09-03 - Adds missing high priority to creation voices of units and unit upgrades](#link__20230903__2321_creation_voice_priorities)
 - [2023-09-11 - Improves tool tip strings of GLA Battle Bus](#link__20230911__2352_battlebus_tooltip)
+- [2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200](#link__20230913__2355_saboteur_steal_cash_amount)
+- [2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds](#link__20230913__2357_saboteur_internet_center_sabotage_duration)
+- [2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds](#link__20230913__2358_saboteur_factory_sabotage_duration)
 - [2023-09-13 - Fixes name of GLA Bio Bomb](#link__20230913__2360_biobomb_text)
 - [2023-09-15 - Fixes wreck model of GLA Battle Bus](#link__20230915__2363_battle_bus_wreck)
 - [2023-09-15 - Improves death effects of GLA Radar Van and Quad Cannon](#link__20230915__2366_radar_van_quad_cannon_death_fx)
@@ -1532,22 +1535,6 @@ Contains 250 entries with
 **Authors:** xezon
 
 **Source:** 783_demo_combat_bike_allies_damage.yaml
-
----
-### 2022-07-31 - Adds unused GLA Prison to World Builder <a name='link__20220731__2184_gla_prison'></a>
-**Changes**
-
-- **FEATURE**: The GLA Prison can now be placed in the World Builder.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184)
-
-**Labels:** enhancement, gla, minor, v1.0, worldbuilder
-
-**Authors:** commy2
-
-**Source:** 2184_gla_prison.yaml
 
 ---
 ### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
@@ -4219,6 +4206,23 @@ Contains 250 entries with
 **Source:** 2175_broken_infantry_death_animations.yaml
 
 ---
+### 2023-07-31 - Adds unused GLA Prison to World Builder <a name='link__20230731__2184_gla_prison'></a>
+**Changes**
+
+- **FEATURE**: The GLA Prison can now be placed in the World Builder.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2417](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2417)
+
+**Labels:** enhancement, gla, minor, v1.0, worldbuilder
+
+**Authors:** commy2, xezon
+
+**Source:** 2184_gla_prison.yaml
+
+---
 ### 2023-08-01 - Fixes vGLA Worker being used for GLA sub-faction holes <a name='link__20230801__2187_sub_faction_hole_workers'></a>
 **Changes**
 
@@ -4948,6 +4952,54 @@ Contains 250 entries with
 **Authors:** xezon
 
 **Source:** 2352_battlebus_tooltip.yaml
+
+---
+### 2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200 <a name='link__20230913__2355_saboteur_steal_cash_amount'></a>
+**Changes**
+
+- **TWEAK**: Increases the steal cash amount of the GLA Saboteur from 1000 to 1200. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2355_saboteur_steal_cash_amount.yaml
+
+---
+### 2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds <a name='link__20230913__2357_saboteur_internet_center_sabotage_duration'></a>
+**Changes**
+
+- **TWEAK**: Increases the Internet Center sabotage duration of the GLA Saboteur from 15 to 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2357_saboteur_internet_center_sabotage_duration.yaml
+
+---
+### 2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds <a name='link__20230913__2358_saboteur_factory_sabotage_duration'></a>
+**Changes**
+
+- **TWEAK**: Increases the Factory sabotage duration of the GLA Saboteur from 30 to 45 seconds. Applies to unit production facilities only.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2358](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2358)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2358_saboteur_factory_sabotage_duration.yaml
 
 ---
 ### 2023-09-13 - Fixes name of GLA Bio Bomb <a name='link__20230913__2360_biobomb_text'></a>

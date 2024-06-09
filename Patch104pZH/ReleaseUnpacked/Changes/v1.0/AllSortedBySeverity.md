@@ -6,47 +6,47 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (148)
+- art (154)
 - audio (128)
 - boss (59)
-- buff (97)
+- buff (100)
 - bug (463)
 - china (238)
-- civilian (40)
-- controversial (125)
+- civilian (46)
+- controversial (128)
 - critical (5)
-- design (212)
+- design (215)
 - enhancement (124)
 - fix (1)
-- gla (250)
+- gla (253)
 - gui (76)
 - major (92)
-- minor (770)
+- minor (779)
 - nerf (31)
-- optional (53)
+- optional (59)
 - performance (25)
 - text (102)
 - usa (267)
-- v1.0 (872)
+- v1.0 (881)
 - wip (1)
 - worldbuilder (19)
 
 Sorts changes by: blocker, critical, major, minor, usa, china, gla, boss, civilian, date (ascending)
 
-Contains 872 entries with
+Contains 881 entries with
 
-- 1385 changes
-  - FIX (999)
-  - TWEAK (284)
+- 1394 changes
+  - FIX (1005)
+  - TWEAK (287)
   - OPTIMIZATION (12)
   - FEATURE (62)
   - CHANGE (2)
   - REFACTOR (26)
-- 820 subchanges
-  - FIX (674)
+- 849 subchanges
+  - FIX (701)
   - TWEAK (115)
   - FEATURE (28)
-  - OPTIMIZATION (3)
+  - OPTIMIZATION (5)
 
 ## Index
 - [2021-09-07 - Fixes China Nuke Missile exploit](#link__20210907__209_nuke_missile_exploit)
@@ -613,7 +613,6 @@ Contains 872 entries with
 - [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#link__20220722__727_buggy_required_xp)
 - [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#link__20220722__727_scud_launcher_required_xp)
 - [2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies](#link__20220729__783_demo_combat_bike_allies_damage)
-- [2022-07-31 - Adds unused GLA Prison to World Builder](#link__20220731__2184_gla_prison)
 - [2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor](#link__20220805__820_toxin_tractor_salvage_models)
 - [2022-08-05 - Changes Anthrax Bomb poison colors to respective Anthrax upgrades of controlling player](#link__20220805__826_anthrax_bomb_poison_colors)
 - [2022-08-06 - Fixes wrong amount of rebels in tooltip texts of Demo GLA Rebel Ambush](#link__20220806__845_demo_ambush_tooltip_text)
@@ -700,6 +699,7 @@ Contains 872 entries with
 - [2023-07-09 - Adds name variants to GLA Stealth infantry units for all languages](#link__20230709__2086_stealth_infantry_unit_names)
 - [2023-07-16 - Fixes wrong exploded death animation of GLA Worker](#link__20230716__2120_worker_death_animation)
 - [2023-07-16 - Adds missing upgrade icons to Stinger Soldiers](#link__20230716__2121_stinger_soldier_upgrade_cameos)
+- [2023-07-31 - Adds unused GLA Prison to World Builder](#link__20230731__2184_gla_prison)
 - [2023-08-01 - Fixes vGLA Worker being used for GLA sub-faction holes](#link__20230801__2187_sub_faction_hole_workers)
 - [2023-08-01 - Fixes GLA Supply Stash selection sound sometimes not played](#link__20230801__2188_supply_stash_selection_sound)
 - [2023-08-07 - Fixes errors in French strings](#link__20230807__2218_french_text_errors)
@@ -723,6 +723,9 @@ Contains 872 entries with
 - [2023-08-29 - Fixes death explosion damage of upgraded GLA Demo Stinger Site](#link__20230829__2308_demo_stinger_death_damage)
 - [2023-09-03 - Adds creation sound effect to GLA Bomb Truck upgrades](#link__20230903__2319_bomb_truck_upgrade_sound)
 - [2023-09-11 - Improves tool tip strings of GLA Battle Bus](#link__20230911__2352_battlebus_tooltip)
+- [2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200](#link__20230913__2355_saboteur_steal_cash_amount)
+- [2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds](#link__20230913__2357_saboteur_internet_center_sabotage_duration)
+- [2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds](#link__20230913__2358_saboteur_factory_sabotage_duration)
 - [2023-09-13 - Fixes name of GLA Bio Bomb](#link__20230913__2360_biobomb_text)
 - [2023-09-15 - Fixes wreck model of GLA Battle Bus](#link__20230915__2363_battle_bus_wreck)
 - [2023-09-15 - Improves death effects of GLA Radar Van and Quad Cannon](#link__20230915__2366_radar_van_quad_cannon_death_fx)
@@ -787,7 +790,7 @@ Contains 872 entries with
 - [2023-08-07 - Adds unused Militia Man to World Builder](#link__20230807__2192_militia_man)
 - [2023-08-07 - Adds unused Partisan units to World Builder](#link__20230807__2192_partisans)
 - [2024-05-25 - Fixes and improves cbbrnshed textures](#link__20240525__2390_cbbrnshed_textures)
-- [2024-05-26 - Fixes cbapt01 textures](#link__20240526__2392_cbapt01_textures)
+- [2024-05-26 - Fixes and improves cbapt01 textures](#link__20240526__2392_cbapt01_textures)
 - [2024-05-27 - Fixes and improves cbairport textures](#link__20240527__2393_cbairport_textures)
 - [2024-05-30 - Fixes and improves cbwrfwhrs2 textures](#link__20240530__2394_cbwrfwhrs2_textures)
 - [2024-05-30 - Fixes rubble night textures](#link__20240530__2394_rubble_textures)
@@ -797,9 +800,15 @@ Contains 872 entries with
 - [2024-06-01 - Fixes cbchalet textures](#link__20240601__2400_cbchalet_textures)
 - [2024-06-01 - Fixes cbchalet2 textures](#link__20240601__2401_cbchalet2_textures)
 - [2024-06-02 - Fixes cbchalet3 textures](#link__20240602__2403_cbchalet3_textures)
-- [2024-06-02 - Fixes cbchembunk textures](#link__20240602__2404_cbchembunk_textures)
-- [2024-06-02 - Fixes cbchemfact textures](#link__20240602__2405_cbchemfact_textures)
-- [2024-06-04 - Fixes cbcnvstr01 textures](#link__20240604__2406_cbcnvstr01_textures)
+- [2024-06-02 - Fixes and improves cbchembunk textures](#link__20240602__2404_cbchembunk_textures)
+- [2024-06-02 - Fixes and improves cbchemfact textures](#link__20240602__2405_cbchemfact_textures)
+- [2024-06-04 - Fixes and improves cbcnvstr01 textures](#link__20240604__2406_cbcnvstr01_textures)
+- [2024-06-04 - Fixes cbbunker01 textures](#link__20240604__2408_cbbunker01_textures)
+- [2024-06-05 - Fixes and improves cbcthdrl textures](#link__20240605__2410_cbcthdrl_textures)
+- [2024-06-06 - Fixes cbdome textures](#link__20240606__2412_cbdome_textures)
+- [2024-06-06 - Fixes cbarchse textures](#link__20240606__2413_cbarchse_textures)
+- [2024-06-06 - Fixes cbetvstat textures](#link__20240606__2414_cbetvstat_textures)
+- [2024-06-07 - Fixes cbdriveins textures](#link__20240607__2415_cbdriveins_textures)
 - [2021-08-27 - Fixes units shooting at already killed infantry units](#link__20210827__75_dead_target_bug)
 - [2021-08-28 - Fixes Anthrax Gamma streams showing with green particles when clearing buildings](#link__20210828__84_green_gamma_toxin_streams)
 - [2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once](#link__20210830__122_ui_faction_list_size)
@@ -8246,11 +8255,12 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2417](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2417)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/791](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/791)
 
 **Labels:** buff, bug, china, minor, v1.0
 
-**Authors:** commy2
+**Authors:** commy2, xezon
 
 **Source:** 791_satellite_hack_issue.yaml
 
@@ -11500,22 +11510,6 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 783_demo_combat_bike_allies_damage.yaml
 
 ---
-### 2022-07-31 - Adds unused GLA Prison to World Builder <a name='link__20220731__2184_gla_prison'></a>
-**Changes**
-
-- **FEATURE**: The GLA Prison can now be placed in the World Builder.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184)
-
-**Labels:** enhancement, gla, minor, v1.0, worldbuilder
-
-**Authors:** commy2
-
-**Source:** 2184_gla_prison.yaml
-
----
 ### 2022-08-05 - Fixes models of scrapped up GLA Toxin Tractor <a name='link__20220805__820_toxin_tractor_salvage_models'></a>
 **Changes**
 
@@ -13014,6 +13008,23 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2121_stinger_soldier_upgrade_cameos.yaml
 
 ---
+### 2023-07-31 - Adds unused GLA Prison to World Builder <a name='link__20230731__2184_gla_prison'></a>
+**Changes**
+
+- **FEATURE**: The GLA Prison can now be placed in the World Builder.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2184)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2417](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2417)
+
+**Labels:** enhancement, gla, minor, v1.0, worldbuilder
+
+**Authors:** commy2, xezon
+
+**Source:** 2184_gla_prison.yaml
+
+---
 ### 2023-08-01 - Fixes vGLA Worker being used for GLA sub-faction holes <a name='link__20230801__2187_sub_faction_hole_workers'></a>
 **Changes**
 
@@ -13405,6 +13416,54 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2352_battlebus_tooltip.yaml
+
+---
+### 2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200 <a name='link__20230913__2355_saboteur_steal_cash_amount'></a>
+**Changes**
+
+- **TWEAK**: Increases the steal cash amount of the GLA Saboteur from 1000 to 1200. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2355_saboteur_steal_cash_amount.yaml
+
+---
+### 2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds <a name='link__20230913__2357_saboteur_internet_center_sabotage_duration'></a>
+**Changes**
+
+- **TWEAK**: Increases the Internet Center sabotage duration of the GLA Saboteur from 15 to 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2357_saboteur_internet_center_sabotage_duration.yaml
+
+---
+### 2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds <a name='link__20230913__2358_saboteur_factory_sabotage_duration'></a>
+**Changes**
+
+- **TWEAK**: Increases the Factory sabotage duration of the GLA Saboteur from 30 to 45 seconds. Applies to unit production facilities only.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2358](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2358)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2358_saboteur_factory_sabotage_duration.yaml
 
 ---
 ### 2023-09-13 - Fixes name of GLA Bio Bomb <a name='link__20230913__2360_biobomb_text'></a>
@@ -14614,10 +14673,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2390_cbbrnshed_textures.yaml
 
 ---
-### 2024-05-26 - Fixes cbapt01 textures <a name='link__20240526__2392_cbapt01_textures'></a>
+### 2024-05-26 - Fixes and improves cbapt01 textures <a name='link__20240526__2392_cbapt01_textures'></a>
 **Changes**
 
-- **FIX**: Fixes Civilian cbapt01 textures.
+- **FIX**: Fixes and improves Civilian cbapt01 textures.
 
 **Subchanges**
 
@@ -14961,10 +15020,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2403_cbchalet3_textures.yaml
 
 ---
-### 2024-06-02 - Fixes cbchembunk textures <a name='link__20240602__2404_cbchembunk_textures'></a>
+### 2024-06-02 - Fixes and improves cbchembunk textures <a name='link__20240602__2404_cbchembunk_textures'></a>
 **Changes**
 
-- **FIX**: Fixes Civilian cbchembunk textures.
+- **FIX**: Fixes and improves Civilian cbchembunk textures.
 
 **Subchanges**
 
@@ -15048,10 +15107,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2404_cbchembunk_textures.yaml
 
 ---
-### 2024-06-02 - Fixes cbchemfact textures <a name='link__20240602__2405_cbchemfact_textures'></a>
+### 2024-06-02 - Fixes and improves cbchemfact textures <a name='link__20240602__2405_cbchemfact_textures'></a>
 **Changes**
 
-- **FIX**: Fixes Civilian cbchemfact textures.
+- **FIX**: Fixes and improves Civilian cbchemfact textures.
 
 **Subchanges**
 
@@ -15093,7 +15152,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2405_cbchemfact_textures.yaml
 
 ---
-### 2024-06-04 - Fixes cbcnvstr01 textures <a name='link__20240604__2406_cbcnvstr01_textures'></a>
+### 2024-06-04 - Fixes and improves cbcnvstr01 textures <a name='link__20240604__2406_cbcnvstr01_textures'></a>
 **Changes**
 
 - **FIX**: Fixes and improves Civilian cbcnvstr01 textures.
@@ -15140,6 +15199,225 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2406_cbcnvstr01_textures.yaml
+
+---
+### 2024-06-04 - Fixes cbbunker01 textures <a name='link__20240604__2408_cbbunker01_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbbunker01 textures.
+
+**Subchanges**
+
+- **FIX**: cbbunker01_en, cbbunker01_rn
+  - Fixes incorrect night light
+
+- **OPTIMIZATION**: cbbunker01_esn, cbbunker01_rsn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2408](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2408)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2408_cbbunker01_textures.yaml
+
+---
+### 2024-06-05 - Fixes and improves cbcthdrl textures <a name='link__20240605__2410_cbcthdrl_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbcthdrl textures.
+
+**Subchanges**
+
+- **FIX**: cbcthdrl, cbcthdrl_d, cbcthdrl_g, cbcthdrl_dg
+  - Creates 2x upscale to 512x512
+  - Fixes artifacts on center roof segment
+
+- **FIX**: cbcthdrl_e
+  - Creates 2x upscale to 512x512
+  - Adds wooden planks to inside of damaged roof
+  - Adds additional dirt to bright stairs
+  - Removes obsolete alpha channel
+
+- **FIX**: cbcthdrl_r
+  - Creates 2x upscale to 512x512
+  - Adds additional dirt to bright stairs
+
+- **FIX**: cbcthdrl_s, cbcthdrl_ds, cbcthdrl_es, cbcthdrl_rs, cbcthdrl_g, cbcthdrl_dg
+  - Creates 2x upscale to 512x512
+  - Recreates texture based on respective base texture
+
+- **FIX**: cbcthdrl_n, cbcthdrl_dn, cbcthdrl_ng, cbcthdrl_dng
+  - Creates 2x upscale to 512x512
+  - Recreates night lights
+
+- **FIX**: cbcthdrl_en, cbcthdrl_rn
+  - Fixes incorrect night light
+
+- **OPTIMIZATION**: cbcthdrl_esn, cbcthdrl_rsn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2410](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2410)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2410_cbcthdrl_textures.yaml
+
+---
+### 2024-06-06 - Fixes cbdome textures <a name='link__20240606__2412_cbdome_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbdome textures.
+
+**Subchanges**
+
+- **FIX**: cbdome_e
+  - Fixes see-through burn texture
+  - Fixes texture damage inconsistencies with cbdome_d
+
+- **FIX**: cbdome_r
+  - Removes black alpha channel
+  - Fixes texture damage inconsistencies with cbdome_e
+
+- **FIX**: cbdome_gd
+  - Fixes major texture damage inconsistencies with cbdome_d
+
+- **FIX**: cbdome_gn
+  - Fixes minor night light inconsistencies with cbdome_n
+  - Fixes minor window barricade discrepancies with cbdome_g
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2412](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2412)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2412_cbdome_textures.yaml
+
+---
+### 2024-06-06 - Fixes cbarchse textures <a name='link__20240606__2413_cbarchse_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbarchse textures.
+
+**Subchanges**
+
+- **FIX**: cbarchse_gd
+  - Fixes major texture damage inconsistencies with cbarchse_d
+
+- **FIX**: cbarchse_ng
+  - Fixes minor light inaccuracies over window barricades
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2413](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2413)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2413_cbarchse_textures.yaml
+
+---
+### 2024-06-06 - Fixes cbetvstat textures <a name='link__20240606__2414_cbetvstat_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbetvstat textures.
+
+**Subchanges**
+
+- **FIX**: cbetvstat_s
+  - Fixes major snow inconsistencies with cbetvstat_sg, cbetvstat_ds
+  - Fixes wrong reflections in alpha channel
+
+- **FIX**: cbetvstat_ds, cbetvstat_dsg
+  - Fixes and improves texture damages
+  - Adds missing window reflections
+
+- **FIX**: cbetvstat_es
+  - Fixes texture damage inconsistencies with cbetvstat_ds
+  - Fixes wrong damages in alpha channel
+
+- **FIX**: cbetvstat_rs
+  - Fixes texture damage inconsistencies with cbetvstat_ds, cbetvstat_es
+  - Fixes wrong damages in alpha channel
+
+- **FIX**: cbetvstat_sg
+  - Fixes window reflections drawing over snow a bit
+
+- **FIX**: cbetvstat_ng, cbetvstat_dng
+  - Fixes unexpected outlines around window barricades
+
+- **FIX**: cbetvstat_dsn
+  - Fixes major night light inconsistencies with cbetvstat_sn
+
+- **FIX**: cbetvstat_sng
+  - Fixes unexpected outlines around window barricades
+  - Fixes minor night light inconsistencies with cbetvstat_sn
+
+- **FIX**: cbetvstat_dsng
+  - Fixes night light over window barricades
+  - Fixes night light inconsistencies with cbetvstat_dsn
+
+- **FIX**: cbetvstat_en
+  - Fixes incorrect night lights
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2414](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2414)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2414_cbetvstat_textures.yaml
+
+---
+### 2024-06-07 - Fixes cbdriveins textures <a name='link__20240607__2415_cbdriveins_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbdriveins textures.
+
+**Subchanges**
+
+- **FIX**: cbdriveins_d
+  - Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
+  - Fixes dark texture border
+
+- **FIX**: cbdriveins_g
+  - Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
+
+- **FIX**: cbdriveins_dg
+  - Fixes dark texture border
+  - Removes black alpha channel
+
+- **FIX**: cbdriveins_e, cbdriveins_r
+  - Fixes dark texture border
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2415](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2415)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2415_cbdriveins_textures.yaml
 
 ---
 ### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='link__20210827__75_dead_target_bug'></a>

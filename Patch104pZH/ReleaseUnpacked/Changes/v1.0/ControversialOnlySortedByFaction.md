@@ -7,27 +7,27 @@ Occuring labels are
 
 - audio (2)
 - boss (1)
-- buff (75)
+- buff (78)
 - bug (38)
 - china (45)
 - civilian (4)
-- controversial (125)
-- design (100)
+- controversial (128)
+- design (103)
 - enhancement (1)
-- gla (44)
+- gla (47)
 - gui (1)
 - major (52)
-- minor (72)
+- minor (75)
 - nerf (25)
 - usa (36)
-- v1.0 (125)
+- v1.0 (128)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 125 entries with
+Contains 128 entries with
 
-- 152 changes
-  - TWEAK (103)
+- 155 changes
+  - TWEAK (106)
   - FIX (45)
   - FEATURE (4)
 - 20 subchanges
@@ -152,6 +152,9 @@ Contains 125 entries with
 - [2023-06-26 - Decreases Toxin Bomb poison field damage by 20%](#link__20230626__2044_anthrax_beta_field_damage)
 - [2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50%](#link__20230629__2051_toxin_tractor_radiation_armor)
 - [2023-08-26 - Increases movement speed of injured GLA Angry Mob members to prevent them from falling behind and dying](#link__20230826__2290_angry_mob_movement)
+- [2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200](#link__20230913__2355_saboteur_steal_cash_amount)
+- [2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds](#link__20230913__2357_saboteur_internet_center_sabotage_duration)
+- [2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds](#link__20230913__2358_saboteur_factory_sabotage_duration)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
 - [2023-02-04 - Fixes crushable levels of Civilian cars](#link__20230204__1625_civ_car_crushable_level)
 - [2023-02-04 - Fixes crusher levels of Civilian cars](#link__20230204__1625_civ_car_crusher_level)
@@ -2100,6 +2103,54 @@ Contains 125 entries with
 **Authors:** commy2
 
 **Source:** 2290_angry_mob_movement.yaml
+
+---
+### 2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200 <a name='link__20230913__2355_saboteur_steal_cash_amount'></a>
+**Changes**
+
+- **TWEAK**: Increases the steal cash amount of the GLA Saboteur from 1000 to 1200. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2355_saboteur_steal_cash_amount.yaml
+
+---
+### 2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds <a name='link__20230913__2357_saboteur_internet_center_sabotage_duration'></a>
+**Changes**
+
+- **TWEAK**: Increases the Internet Center sabotage duration of the GLA Saboteur from 15 to 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2357_saboteur_internet_center_sabotage_duration.yaml
+
+---
+### 2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds <a name='link__20230913__2358_saboteur_factory_sabotage_duration'></a>
+**Changes**
+
+- **TWEAK**: Increases the Factory sabotage duration of the GLA Saboteur from 30 to 45 seconds. Applies to unit production facilities only.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2358](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2358)
+
+**Labels:** buff, controversial, design, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2358_saboteur_factory_sabotage_duration.yaml
 
 ---
 ### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>

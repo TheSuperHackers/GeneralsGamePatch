@@ -1159,11 +1159,12 @@ Contains 238 entries with
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2417](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2417)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/791](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/791)
 
 **Labels:** buff, bug, china, minor, v1.0
 
-**Authors:** commy2
+**Authors:** commy2, xezon
 
 **Source:** 791_satellite_hack_issue.yaml
 
