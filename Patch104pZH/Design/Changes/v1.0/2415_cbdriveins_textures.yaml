@@ -1,0 +1,36 @@
+---
+date: 2024-06-07
+
+title: Fixes cbdriveins textures
+
+changes:
+  - fix: Fixes Civilian cbdriveins textures.
+
+subchanges:
+  - fix: |
+      cbdriveins_d
+        - Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
+        - Fixes dark texture border
+  - fix: |
+      cbdriveins_g
+        - Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
+  - fix: |
+      cbdriveins_dg
+        - Fixes dark texture border
+        - Removes black alpha channel
+  - fix: |
+      cbdriveins_e, cbdriveins_r
+        - Fixes dark texture border
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2415
+
+authors:
+  - xezon
