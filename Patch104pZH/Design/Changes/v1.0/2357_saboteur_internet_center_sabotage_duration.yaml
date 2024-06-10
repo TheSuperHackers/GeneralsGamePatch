@@ -4,7 +4,7 @@ date: 2023-09-13
 title: Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds
 
 changes:
-  - tweak: Increases the Internet Center sabotage duration of the GLA Saboteur from 15 to 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
+  - tweak: The GLA Saboteur can now sabotage the China Internet Center for 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
 
 labels:
   - buff
