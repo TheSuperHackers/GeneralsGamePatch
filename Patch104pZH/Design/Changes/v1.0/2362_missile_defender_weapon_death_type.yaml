@@ -1,0 +1,21 @@
+---
+date: 2023-09-15
+
+title: Fixes incorrect weapon death types of USA Missile Defender
+
+changes:
+  - fix: The weapons of the USA Missile Defender now incur the EXPLODED instead of NORMAL death type. On kill, this will trigger the GLA Terrorist suicide explosion and the GLA Demo Bike suicide explosion before Demo Upgrade. This is consistent with other missile weapons, such as missiles of Humvee TOW, Hellfire Drone, Tank Hunter and RPG-Trooper.
+
+labels:
+  - bug
+  - controversial
+  - major
+  - nerf
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2362
+
+authors:
+  - xezon

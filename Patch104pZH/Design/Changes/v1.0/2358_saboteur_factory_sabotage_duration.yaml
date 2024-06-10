@@ -4,7 +4,7 @@ date: 2023-09-13
 title: Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds
 
 changes:
-  - tweak: Increases the Factory sabotage duration of the GLA Saboteur from 30 to 45 seconds. Applies to unit production facilities only.
+  - tweak: The GLA Saboteur can now sabotage production factories for 45 seconds.
 
 labels:
   - buff
