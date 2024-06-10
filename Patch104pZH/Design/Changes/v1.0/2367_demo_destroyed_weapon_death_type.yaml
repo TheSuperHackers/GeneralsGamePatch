@@ -1,0 +1,20 @@
+---
+date: 2023-09-16
+
+title: Fixes incorrect destroyed weapon death type of GLA Demo units after Demo Upgrade
+
+changes:
+  - fix: The destroyed weapon of GLA Demo units after Demo Upgrade now incur the EXPLODED instead of NORMAL death type. On kill, this will trigger the GLA Terrorist suicide explosion and the GLA Demo Bike suicide explosion before Demo Upgrade. This is consistent with other explosion weapons.
+
+labels:
+  - bug
+  - controversial
+  - gla
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2367
+
+authors:
+  - xezon
