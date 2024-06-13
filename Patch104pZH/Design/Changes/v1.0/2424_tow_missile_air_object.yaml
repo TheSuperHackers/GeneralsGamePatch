@@ -1,0 +1,19 @@
+---
+date: 2024-06-13
+
+title: Fixes incorrect USA Humvee TOW Missile object visuals when firing at airborne units
+
+changes:
+  - fix: The TOW Missile object of the USA Humvee now looks identical when shooting at air and ground units. Originally the airborne TOW missile looked like the USA Patriot missile.
+
+labels:
+  - bug
+  - minor
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2424
+
+authors:
+  - xezon
