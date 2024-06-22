@@ -1,0 +1,18 @@
+{
+    "build": {
+        "version": 1,
+        "files": [
+            "ModBundleCoreAudioItems.json",
+            "ModBundleCoreItems.json",
+            "ModBundleCoreLanguageItems.json",
+            "ModBundleOptionalAudioItems.json",
+            "ModBundleOptionalItems.json",
+            "ModBundleOptionalLanguageItems.json",
+            "ModBundleRecoveredItems.json",
+            "ModBundleCorePacks.json",
+            "ModBundleFullPacks.json",
+            "ModChangeLog.json",
+            "ModFolders.json"
+        ]
+    }
+}

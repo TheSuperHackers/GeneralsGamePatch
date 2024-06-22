@@ -7,7 +7,7 @@
                     "Design/Changes/v1.0/*.yaml"
                 ],
                 "targetList": [
-                    "ReleaseUnpacked/Changes/v1.0/AllSortedByDate.md"
+                    "ReleaseFiles/English/Changes/v1.0/AllSortedByDate.md"
                 ],
                 "sortList": [
                     {
@@ -22,7 +22,7 @@
                     "Design/Changes/v1.0/*.yaml"
                 ],
                 "targetList": [
-                    "ReleaseUnpacked/Changes/v1.0/AllSortedBySeverity.md"
+                    "ReleaseFiles/English/Changes/v1.0/AllSortedBySeverity.md"
                 ],
                 "sortList": [
                     {
@@ -64,7 +64,7 @@
                     "Design/Changes/v1.0/*.yaml"
                 ],
                 "targetList": [
-                    "ReleaseUnpacked/Changes/v1.0/ControversialOnlySortedByFaction.md"
+                    "ReleaseFiles/English/Changes/v1.0/ControversialOnlySortedByFaction.md"
                 ],
                 "sortList": [
                     {
@@ -96,7 +96,7 @@
                     "Design/Changes/v1.0/*.yaml"
                 ],
                 "targetList": [
-                    "ReleaseUnpacked/Changes/v1.0/ArtOnlySortedByFaction.md"
+                    "ReleaseFiles/English/Changes/v1.0/ArtOnlySortedByFaction.md"
                 ],
                 "sortList": [
                     {
@@ -128,7 +128,7 @@
                     "Design/Changes/v1.0/*.yaml"
                 ],
                 "targetList": [
-                    "ReleaseUnpacked/Changes/v1.0/UsaOnlySortedByDate.md"
+                    "ReleaseFiles/English/Changes/v1.0/UsaOnlySortedByDate.md"
                 ],
                 "sortList": [
                     {
@@ -145,7 +145,7 @@
                     "Design/Changes/v1.0/*.yaml"
                 ],
                 "targetList": [
-                    "ReleaseUnpacked/Changes/v1.0/ChinaOnlySortedByDate.md"
+                    "ReleaseFiles/English/Changes/v1.0/ChinaOnlySortedByDate.md"
                 ],
                 "sortList": [
                     {
@@ -162,7 +162,7 @@
                     "Design/Changes/v1.0/*.yaml"
                 ],
                 "targetList": [
-                    "ReleaseUnpacked/Changes/v1.0/GlaOnlySortedByDate.md"
+                    "ReleaseFiles/English/Changes/v1.0/GlaOnlySortedByDate.md"
                 ],
                 "sortList": [
                     {
