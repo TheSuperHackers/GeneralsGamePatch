@@ -12,32 +12,31 @@ Occuring labels are
 - bug (155)
 - china (37)
 - civilian (2)
-- controversial (47)
+- controversial (49)
 - critical (2)
-- design (62)
+- design (64)
 - enhancement (19)
-- gla (253)
-- gui (12)
+- gla (255)
+- gui (11)
 - major (36)
-- minor (214)
-- nerf (17)
+- minor (216)
+- nerf (18)
 - optional (11)
 - performance (6)
 - text (31)
 - usa (37)
-- v1.0 (253)
+- v1.0 (255)
 - worldbuilder (3)
 
 Sorts changes by: date (ascending)
 
-Contains 253 entries with
+Contains 255 entries with
 
-- 364 changes
-  - FIX (276)
-  - TWEAK (73)
+- 366 changes
+  - FIX (277)
+  - TWEAK (76)
   - FEATURE (8)
   - OPTIMIZATION (5)
-  - CHANGE (2)
 - 395 subchanges
   - FIX (335)
   - FEATURE (1)
@@ -297,6 +296,8 @@ Contains 253 entries with
 - [2023-09-15 - Fixes wreck model of GLA Battle Bus](#link__20230915__2363_battle_bus_wreck)
 - [2023-09-15 - Improves death effects of GLA Radar Van and Quad Cannon](#link__20230915__2366_radar_van_quad_cannon_death_fx)
 - [2023-09-16 - Fixes animation reset on damage transition of vehicles](#link__20230916__2365_radar_dish_animation_reset)
+- [2023-09-16 - Fixes incorrect destroyed weapon death type of GLA Demo units after Demo Upgrade](#link__20230916__2367_demo_destroyed_weapon_death_type)
+- [2024-06-11 - Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50](#link__20240611__2420_demo_destroyed_weapon_radius)
 
 
 
@@ -1925,6 +1926,7 @@ Contains 253 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2240](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2240)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2419](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2419)
 
 **Labels:** audio, china, gla, major, optional, usa, v1.0
 
@@ -4798,14 +4800,14 @@ Contains 253 entries with
 ### 2023-08-26 - Removes access to Camouflage upgrade from Demo and Toxin GLA Rebels <a name='link__20230826__2294_rebel_camouflage'></a>
 **Changes**
 
-- **CHANGE**: The Demo GLA Rebel no longer can be upgraded with Camouflage. Demo General does not have access to Camouflage.
-- **CHANGE**: The Toxin GLA Rebel no longer can be upgraded with Camouflage. Toxin General does not have access to Camouflage.
+- **TWEAK**: The Demo GLA Rebel no longer can be upgraded with Camouflage. Demo General does not have access to Camouflage.
+- **TWEAK**: The Toxin GLA Rebel no longer can be upgraded with Camouflage. Toxin General does not have access to Camouflage.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2295](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2295)
 
-**Labels:** bug, gla, gui, minor, v1.0
+**Labels:** design, gla, minor, v1.0
 
 **Authors:** commy2
 
@@ -4957,7 +4959,7 @@ Contains 253 entries with
 ### 2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200 <a name='link__20230913__2355_saboteur_steal_cash_amount'></a>
 **Changes**
 
-- **TWEAK**: Increases the steal cash amount of the GLA Saboteur from 1000 to 1200. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
+- **TWEAK**: The GLA Saboteur can now steal up to 1200 cash. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
 
 **Links**
 
@@ -4973,7 +4975,7 @@ Contains 253 entries with
 ### 2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds <a name='link__20230913__2357_saboteur_internet_center_sabotage_duration'></a>
 **Changes**
 
-- **TWEAK**: Increases the Internet Center sabotage duration of the GLA Saboteur from 15 to 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
+- **TWEAK**: The GLA Saboteur can now sabotage the China Internet Center for 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
 
 **Links**
 
@@ -4989,7 +4991,7 @@ Contains 253 entries with
 ### 2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds <a name='link__20230913__2358_saboteur_factory_sabotage_duration'></a>
 **Changes**
 
-- **TWEAK**: Increases the Factory sabotage duration of the GLA Saboteur from 30 to 45 seconds. Applies to unit production facilities only.
+- **TWEAK**: The GLA Saboteur can now sabotage production factories for 45 seconds.
 
 **Links**
 
@@ -5069,4 +5071,36 @@ Contains 253 entries with
 **Authors:** xezon
 
 **Source:** 2365_radar_dish_animation_reset.yaml
+
+---
+### 2023-09-16 - Fixes incorrect destroyed weapon death type of GLA Demo units after Demo Upgrade <a name='link__20230916__2367_demo_destroyed_weapon_death_type'></a>
+**Changes**
+
+- **FIX**: The destroyed weapon of GLA Demo units after Demo Upgrade now incur the EXPLODED instead of NORMAL death type. On kill, this will trigger the GLA Terrorist suicide explosion and the GLA Demo Bike suicide explosion before Demo Upgrade. This is consistent with other explosion weapons.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2367](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2367)
+
+**Labels:** bug, controversial, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2367_demo_destroyed_weapon_death_type.yaml
+
+---
+### 2024-06-11 - Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50 <a name='link__20240611__2420_demo_destroyed_weapon_radius'></a>
+**Changes**
+
+- **TWEAK**: The destroyed GLA Demo units after Demo Upgrade have their damage radius reduced from 70 to 50. This matches the damage radius of other demolition suicide weapons.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2420](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2420)
+
+**Labels:** controversial, design, gla, minor, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2420_demo_destroyed_weapon_radius.yaml
 

@@ -1472,6 +1472,7 @@ Contains 238 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2240](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2240)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2419](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2419)
 
 **Labels:** audio, china, gla, major, optional, usa, v1.0
 

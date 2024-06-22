@@ -10,7 +10,7 @@ Occuring labels are
 - audio (49)
 - boss (15)
 - buff (23)
-- bug (136)
+- bug (137)
 - china (40)
 - civilian (3)
 - controversial (36)
@@ -18,23 +18,23 @@ Occuring labels are
 - enhancement (53)
 - gla (37)
 - gui (19)
-- major (30)
+- major (31)
 - minor (233)
 - nerf (11)
 - optional (17)
 - performance (12)
 - text (31)
-- usa (267)
-- v1.0 (267)
+- usa (268)
+- v1.0 (268)
 - worldbuilder (5)
 
 Sorts changes by: date (ascending)
 
-Contains 267 entries with
+Contains 268 entries with
 
-- 385 changes
+- 386 changes
   - OPTIMIZATION (4)
-  - FIX (267)
+  - FIX (268)
   - TWEAK (98)
   - FEATURE (16)
 - 506 subchanges
@@ -201,7 +201,6 @@ Contains 267 entries with
 - [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
 - [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
 - [2023-01-19 - Replaces USA Chinook specific evacuation button with generic vehicle evacuation button](#link__20230119__1565_chinook_evacuation_button)
-- [2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000](#link__20230121__1580_patriot_assist_reload_time)
 - [2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit](#link__20230121__1581_tomahawk_missile_angle_jump)
 - [2023-01-28 - Removes bouncing from wreck of USA Comanche](#link__20230128__1658_comanche_wreck_bouncing)
 - [2023-01-29 - Decreases fast sink rate of helicopter wrecks](#link__20230129__1659_chinook_helix_wreck_sink_rate)
@@ -309,6 +308,8 @@ Contains 267 entries with
 - [2023-09-03 - Balances creation voice volumes of units and unit upgrades](#link__20230903__2320_creation_voice_volumes)
 - [2023-09-10 - Fixes tool tip strings of China Neutron Shells](#link__20230910__2343_neutron_shells_tooltip)
 - [2023-09-10 - Fixes errors and inconsistencies in tool tip strings of USA and China Reactors](#link__20230910__2344_powerplant_tooltips)
+- [2023-09-15 - Fixes incorrect weapon death types of USA Missile Defender](#link__20230915__2362_missile_defender_weapon_death_type)
+- [2024-06-13 - Fixes incorrect USA Humvee TOW Missile object visuals when firing at airborne units](#link__20240613__2424_tow_missile_air_object)
 
 
 
@@ -1345,6 +1346,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1867)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1964)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2240](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2240)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2419](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2419)
 
 **Labels:** audio, china, gla, major, optional, usa, v1.0
 
@@ -3546,22 +3548,6 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 1565_chinook_evacuation_button.yaml
-
----
-### 2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000 <a name='link__20230121__1580_patriot_assist_reload_time'></a>
-**Changes**
-
-- **FIX**: Increases the reload time of USA Patriot missile assist weapons from 1000 to 2000. This way reload time is consistent for all weapons of the Patriot Battery and there can be no scenarios where the turret can shoot on new targets after just 1 instead of 2 seconds.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580)
-
-**Labels:** bug, controversial, minor, nerf, usa, v1.0
-
-**Authors:** xezon
-
-**Source:** 1580_patriot_assist_reload_time.yaml
 
 ---
 ### 2023-01-21 - Fixes USA Tomahawk missile angle glitch before target hit <a name='link__20230121__1581_tomahawk_missile_angle_jump'></a>
@@ -5834,4 +5820,36 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2344_powerplant_tooltips.yaml
+
+---
+### 2023-09-15 - Fixes incorrect weapon death types of USA Missile Defender <a name='link__20230915__2362_missile_defender_weapon_death_type'></a>
+**Changes**
+
+- **FIX**: The weapons of the USA Missile Defender now incur the EXPLODED instead of NORMAL death type. On kill, this will trigger the GLA Terrorist suicide explosion and the GLA Demo Bike suicide explosion before Demo Upgrade. This is consistent with other missile weapons, such as missiles of Humvee TOW, Hellfire Drone, Tank Hunter and RPG-Trooper.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2362](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2362)
+
+**Labels:** bug, controversial, major, nerf, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2362_missile_defender_weapon_death_type.yaml
+
+---
+### 2024-06-13 - Fixes incorrect USA Humvee TOW Missile object visuals when firing at airborne units <a name='link__20240613__2424_tow_missile_air_object'></a>
+**Changes**
+
+- **FIX**: The TOW Missile object of the USA Humvee now looks identical when shooting at air and ground units. Originally the airborne TOW missile looked like the USA Patriot missile.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2424](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2424)
+
+**Labels:** bug, minor, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2424_tow_missile_air_object.yaml
 

@@ -8,27 +8,27 @@ Occuring labels are
 - audio (2)
 - boss (1)
 - buff (78)
-- bug (38)
+- bug (39)
 - china (45)
 - civilian (4)
-- controversial (128)
-- design (103)
+- controversial (130)
+- design (104)
 - enhancement (1)
-- gla (47)
+- gla (49)
 - gui (1)
-- major (52)
-- minor (75)
-- nerf (25)
+- major (53)
+- minor (76)
+- nerf (26)
 - usa (36)
-- v1.0 (128)
+- v1.0 (130)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 128 entries with
+Contains 130 entries with
 
-- 155 changes
-  - TWEAK (106)
-  - FIX (45)
+- 157 changes
+  - TWEAK (107)
+  - FIX (46)
   - FEATURE (4)
 - 20 subchanges
   - FIX (20)
@@ -62,7 +62,6 @@ Contains 128 entries with
 - [2023-01-07 - Increases armor of USA Comanche by up to 23%](#link__20230107__1530_comanche_armor)
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
 - [2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser](#link__20230115__1555_king_raptor_point_defense_laser)
-- [2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000](#link__20230121__1580_patriot_assist_reload_time)
 - [2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
 - [2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb](#link__20230224__1752_alpha_aurora_bomb_random_delay)
 - [2023-02-24 - Fixes Alpha Aurora bomb movement discrepancies](#link__20230224__1753_alpha_aurora_bomb_speed)
@@ -70,6 +69,7 @@ Contains 128 entries with
 - [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
 - [2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes](#link__20230707__2064_burton_experience_reward)
 - [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
+- [2023-09-15 - Fixes incorrect weapon death types of USA Missile Defender](#link__20230915__2362_missile_defender_weapon_death_type)
 - [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
 - [2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25](#link__20230212__1680_supply_truck_xp_reward)
 - [2021-08-22 - Improves mobility of China Dozer](#link__20210822__6_china_dozer_locomotor)
@@ -155,6 +155,8 @@ Contains 128 entries with
 - [2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200](#link__20230913__2355_saboteur_steal_cash_amount)
 - [2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds](#link__20230913__2357_saboteur_internet_center_sabotage_duration)
 - [2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds](#link__20230913__2358_saboteur_factory_sabotage_duration)
+- [2023-09-16 - Fixes incorrect destroyed weapon death type of GLA Demo units after Demo Upgrade](#link__20230916__2367_demo_destroyed_weapon_death_type)
+- [2024-06-11 - Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50](#link__20240611__2420_demo_destroyed_weapon_radius)
 - [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
 - [2023-02-04 - Fixes crushable levels of Civilian cars](#link__20230204__1625_civ_car_crushable_level)
 - [2023-02-04 - Fixes crusher levels of Civilian cars](#link__20230204__1625_civ_car_crusher_level)
@@ -622,22 +624,6 @@ Contains 128 entries with
 **Source:** 1555_king_raptor_point_defense_laser.yaml
 
 ---
-### 2023-01-21 - Increases reload time of USA Patriot missile assist weapons from 1000 to 2000 <a name='link__20230121__1580_patriot_assist_reload_time'></a>
-**Changes**
-
-- **FIX**: Increases the reload time of USA Patriot missile assist weapons from 1000 to 2000. This way reload time is consistent for all weapons of the Patriot Battery and there can be no scenarios where the turret can shoot on new targets after just 1 instead of 2 seconds.
-
-**Links**
-
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1580)
-
-**Labels:** bug, controversial, minor, nerf, usa, v1.0
-
-**Authors:** xezon
-
-**Source:** 1580_patriot_assist_reload_time.yaml
-
----
 ### 2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade <a name='link__20230211__1705_comanche_idle_reload'></a>
 **Changes**
 
@@ -753,6 +739,22 @@ Contains 128 entries with
 **Authors:** xezon
 
 **Source:** 2067_laser_weapons_infantry_burn.yaml
+
+---
+### 2023-09-15 - Fixes incorrect weapon death types of USA Missile Defender <a name='link__20230915__2362_missile_defender_weapon_death_type'></a>
+**Changes**
+
+- **FIX**: The weapons of the USA Missile Defender now incur the EXPLODED instead of NORMAL death type. On kill, this will trigger the GLA Terrorist suicide explosion and the GLA Demo Bike suicide explosion before Demo Upgrade. This is consistent with other missile weapons, such as missiles of Humvee TOW, Hellfire Drone, Tank Hunter and RPG-Trooper.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2362](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2362)
+
+**Labels:** bug, controversial, major, nerf, usa, v1.0
+
+**Authors:** xezon
+
+**Source:** 2362_missile_defender_weapon_death_type.yaml
 
 ---
 ### 2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones <a name='link__20230620__2023_hazard_field_cleanup_health_and_damage'></a>
@@ -2108,7 +2110,7 @@ Contains 128 entries with
 ### 2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200 <a name='link__20230913__2355_saboteur_steal_cash_amount'></a>
 **Changes**
 
-- **TWEAK**: Increases the steal cash amount of the GLA Saboteur from 1000 to 1200. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
+- **TWEAK**: The GLA Saboteur can now steal up to 1200 cash. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
 
 **Links**
 
@@ -2124,7 +2126,7 @@ Contains 128 entries with
 ### 2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds <a name='link__20230913__2357_saboteur_internet_center_sabotage_duration'></a>
 **Changes**
 
-- **TWEAK**: Increases the Internet Center sabotage duration of the GLA Saboteur from 15 to 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
+- **TWEAK**: The GLA Saboteur can now sabotage the China Internet Center for 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
 
 **Links**
 
@@ -2140,7 +2142,7 @@ Contains 128 entries with
 ### 2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds <a name='link__20230913__2358_saboteur_factory_sabotage_duration'></a>
 **Changes**
 
-- **TWEAK**: Increases the Factory sabotage duration of the GLA Saboteur from 30 to 45 seconds. Applies to unit production facilities only.
+- **TWEAK**: The GLA Saboteur can now sabotage production factories for 45 seconds.
 
 **Links**
 
@@ -2151,6 +2153,38 @@ Contains 128 entries with
 **Authors:** xezon
 
 **Source:** 2358_saboteur_factory_sabotage_duration.yaml
+
+---
+### 2023-09-16 - Fixes incorrect destroyed weapon death type of GLA Demo units after Demo Upgrade <a name='link__20230916__2367_demo_destroyed_weapon_death_type'></a>
+**Changes**
+
+- **FIX**: The destroyed weapon of GLA Demo units after Demo Upgrade now incur the EXPLODED instead of NORMAL death type. On kill, this will trigger the GLA Terrorist suicide explosion and the GLA Demo Bike suicide explosion before Demo Upgrade. This is consistent with other explosion weapons.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2367](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2367)
+
+**Labels:** bug, controversial, gla, minor, v1.0
+
+**Authors:** xezon
+
+**Source:** 2367_demo_destroyed_weapon_death_type.yaml
+
+---
+### 2024-06-11 - Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50 <a name='link__20240611__2420_demo_destroyed_weapon_radius'></a>
+**Changes**
+
+- **TWEAK**: The destroyed GLA Demo units after Demo Upgrade have their damage radius reduced from 70 to 50. This matches the damage radius of other demolition suicide weapons.
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2420](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2420)
+
+**Labels:** controversial, design, gla, minor, nerf, v1.0
+
+**Authors:** xezon
+
+**Source:** 2420_demo_destroyed_weapon_radius.yaml
 
 ---
 ### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>
