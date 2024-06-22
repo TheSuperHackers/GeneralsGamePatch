@@ -20,13 +20,13 @@ Contains original and unedited game files from **Command and Conquer Generals 1.
 
 Contains original and unedited game files from **Command and Conquer Generals Zero Hour 1.04**. Files are the basis of changes in **GameFilesEdited** and may or may not be used for generating game release files. Does act as reference.
 
-### 📁 ReleaseUnpacked
+### 📁 ReleaseFiles
 
-Contains files that are automatically packed in all Mod bundle packs on build.
+Contains files that are added to relevant bundle packs on build.
 
-### 📁 FileHashRegistry
+### 📁 Resources/FileHashRegistry
 
-File Hash Registries used by Mod Builder.
+File Hash Registrie(s) used by Mod Builder.
 
 ### 📁 Scripts
 
