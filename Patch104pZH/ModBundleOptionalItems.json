@@ -30,6 +30,10 @@
                                 "target": "Art/Textures/*.dds"
                             },
                             {
+                                "source": "Art/Textures/GenerateMip/*.tif",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbairport_n.psd",
                                 "target": "Art/Textures/cbairport_sn.dds"
                             },
@@ -239,6 +243,10 @@
                                 "target": "Art/Textures/*.dds"
                             },
                             {
+                                "source": "Art/Textures/GenerateMipHalf/*.tif",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMipHalf/cbchemfact_dn.psd",
                                 "target": "Art/Textures/cbchemfact_dsn.dds"
                             },
@@ -264,6 +272,10 @@
                             {
                                 "source": "Art/Textures/NoMip/*.tga",
                                 "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/NoMip/*.tif",
+                                "target": "Art/Textures/*.dds"
                             }
                         ],
                         "params": {
@@ -273,8 +285,16 @@
                     },
                     {
                         "parent": "GameFilesOptional",
-                        "source": "Art/Textures/GenerateTga/*.psd",
-                        "target": "Art/Textures/*.tga"
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/GenerateTga/*.psd",
+                                "target": "Art/Textures/*.tga"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateTga/*.tif",
+                                "target": "Art/Textures/*.tga"
+                            }
+                        ]
                     }
                 ]
             },

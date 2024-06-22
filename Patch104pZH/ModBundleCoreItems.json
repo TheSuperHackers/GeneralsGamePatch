@@ -13,6 +13,12 @@
                         "sourceList": [
                             "Data/Cursors/*.ani"
                         ]
+                    },
+                    {
+                        "parent": "ReleaseFiles",
+                        "sourceList": [
+                            "**/*"
+                        ]
                     }
                 ]
             },
@@ -42,6 +48,10 @@
                                 "target": "Art/Textures/*.dds"
                             },
                             {
+                                "source": "Art/Textures/GenerateMip/*.tif",
+                                "target": "Art/Textures/*.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/exhorde.psd",
                                 "target": "Art/Textures/exhordeb.dds"
                             },
@@ -65,6 +75,10 @@
                             {
                                 "source": "Art/Textures/NoMip/*.tga",
                                 "target": "Art/Textures/*.dds"
+                            },
+                            {
+                                "source": "Art/Textures/NoMip/*.tif",
+                                "target": "Art/Textures/*.dds"
                             }
                         ],
                         "params": {
@@ -74,8 +88,16 @@
                     },
                     {
                         "parent": "GameFilesEdited",
-                        "source": "Art/Textures/GenerateTga/*.psd",
-                        "target": "Art/Textures/*.tga"
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/GenerateTga/*.psd",
+                                "target": "Art/Textures/*.tga"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateTga/*.tif",
+                                "target": "Art/Textures/*.tga"
+                            }
+                        ]
                     }
                 ]
             },
