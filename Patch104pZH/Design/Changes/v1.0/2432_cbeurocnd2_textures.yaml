@@ -36,7 +36,7 @@ subchanges:
       cbeurocnd2_en, cbeurocnd2_rn, cbeurocnd2_rsn
         - Optimizes texture size
   - fix: |
-      cbeurocnd2_es
+      cbeurocnd2_esn
         - Fixes incorrect night lights
 
 labels:
