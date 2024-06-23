@@ -13,7 +13,7 @@ subchanges:
         - Fixes texture damage inconsistencies with cbdome_d
   - fix: |
       cbdome_r
-        - Removes black alpha channel
+        - Removes superfluous black alpha channel
         - Fixes texture damage inconsistencies with cbdome_e
   - fix: |
       cbdome_gd

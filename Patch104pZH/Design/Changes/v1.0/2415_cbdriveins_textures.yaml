@@ -17,7 +17,7 @@ subchanges:
   - fix: |
       cbdriveins_dg
         - Fixes dark texture border
-        - Removes black alpha channel
+        - Removes superfluous black alpha channel
   - fix: |
       cbdriveins_e, cbdriveins_r
         - Fixes dark texture border
