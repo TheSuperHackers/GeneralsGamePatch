@@ -16,7 +16,7 @@ subchanges:
         - Creates 2x upscale to 512x512
         - Adds wooden planks to inside of damaged roof
         - Adds additional dirt to bright stairs
-        - Removes obsolete alpha channel
+        - Removes superfluous alpha channel
   - fix: |
       cbcthdrl_r
         - Creates 2x upscale to 512x512

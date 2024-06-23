@@ -1,0 +1,52 @@
+---
+date: 2024-06-23
+
+title: Fixes cbeurocnd textures
+
+changes:
+  - fix: Fixes Civilian cbeurocnd textures.
+
+subchanges:
+  - fix: |
+      cbeurocnd_dg
+        - Fixes window reflections over window damages
+  - fix: |
+      cbeurocnd_e, cbeurocnd_r, cbeurocnd_es, cbeurocnd_rs
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbeurocnd_s
+        - Fixes minor snow discrepancies with cbeurocnd_sg
+        - Fixes missing snow on window reflections
+  - fix: |
+      cbeurocnd_ds
+        - Fixes minor snow discrepancies with cbeurocnd_dsg
+        - Fixes shadows on ground floor
+  - fix: |
+      cbeurocnd_sg
+        - Fixes missing snow on window reflections
+  - fix: |
+      cbeurocnd_dsg
+        - Fixes shadows on ground floor
+        - Fixes error on window reflections
+  - optimization: |
+      cbeurocnd_n
+        - Removes superfluous alpha channel
+  - fix: |
+      cbeurocnd_dn, cbeurocnd_dng, cbeurocnd_dsn, cbeurocnd_dsng
+        - Fixes faint night light artifacts
+  - optimization: |
+      cbeurocnd_en, cbeurocnd_rn, cbeurocnd_esn, cbeurocnd_rsn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2430
+
+authors:
+  - xezon
