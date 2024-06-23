@@ -28,13 +28,13 @@ subchanges:
       cbeurocnd_dsg
         - Fixes shadows on ground floor
         - Fixes error on window reflections
-  - fix: |
+  - optimization: |
       cbeurocnd_n
         - Removes superfluous alpha channel
   - fix: |
       cbeurocnd_dn, cbeurocnd_dng, cbeurocnd_dsn, cbeurocnd_dsng
         - Fixes faint night light artifacts
-  - fix: |
+  - optimization: |
       cbeurocnd_en, cbeurocnd_rn, cbeurocnd_esn, cbeurocnd_rsn
         - Optimizes texture size
 
