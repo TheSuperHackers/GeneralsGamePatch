@@ -27,13 +27,13 @@ Note: **EA has not endorsed and does not support this product.**
 
 Version 1.0 (work in progress)
 
-- [v1.0 all changes sorted by date](Patch104pZH/ReleaseUnpacked/Changes/v1.0/AllSortedByDate.md)
-- [v1.0 all changes sorted by severity](Patch104pZH/ReleaseUnpacked/Changes/v1.0/AllSortedBySeverity.md)
-- [v1.0 controversial changes sorted by faction](Patch104pZH/ReleaseUnpacked/Changes/v1.0/ControversialOnlySortedByFaction.md)
-- [v1.0 USA changes sorted by date](Patch104pZH/ReleaseUnpacked/Changes/v1.0/UsaOnlySortedByDate.md)
-- [v1.0 China changes sorted by date](Patch104pZH/ReleaseUnpacked/Changes/v1.0/ChinaOnlySortedByDate.md)
-- [v1.0 GLA changes sorted by date](Patch104pZH/ReleaseUnpacked/Changes/v1.0/GlaOnlySortedByDate.md)
-- [v1.0 art changes sorted by faction](Patch104pZH/ReleaseUnpacked/Changes/v1.0/ArtOnlySortedByFaction.md)
+- [v1.0 all changes sorted by date](Patch104pZH/ReleaseFiles/English/Changes/v1.0/AllSortedByDate.md)
+- [v1.0 all changes sorted by severity](Patch104pZH/ReleaseFiles/English/Changes/v1.0/AllSortedBySeverity.md)
+- [v1.0 controversial changes sorted by faction](Patch104pZH/ReleaseFiles/English/Changes/v1.0/ControversialOnlySortedByFaction.md)
+- [v1.0 USA changes sorted by date](Patch104pZH/ReleaseFiles/English/Changes/v1.0/UsaOnlySortedByDate.md)
+- [v1.0 China changes sorted by date](Patch104pZH/ReleaseFiles/English/Changes/v1.0/ChinaOnlySortedByDate.md)
+- [v1.0 GLA changes sorted by date](Patch104pZH/ReleaseFiles/English/Changes/v1.0/GlaOnlySortedByDate.md)
+- [v1.0 art changes sorted by faction](Patch104pZH/ReleaseFiles/English/Changes/v1.0/ArtOnlySortedByFaction.md)
 
 ## Community Surveys
 
