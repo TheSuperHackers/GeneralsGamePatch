@@ -272,6 +272,20 @@
                         }
                     },
                     {
+                        "sourceParent": "GameFilesOriginalCCG",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/RemoveAlphaChannel/*.dds",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "Generate",
+                            "-DXT1": ""
+                        }
+                    },
+                    {
                         "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
