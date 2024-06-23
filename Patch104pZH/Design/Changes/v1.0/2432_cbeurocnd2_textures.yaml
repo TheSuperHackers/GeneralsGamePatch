@@ -1,0 +1,53 @@
+---
+date: 2024-06-23
+
+title: Fixes cbeurocnd2 textures
+
+changes:
+  - fix: Fixes Civilian cbeurocnd2 textures.
+
+subchanges:
+  - fix: |
+      cbeurocnd2_dg
+        - Removes wrong snow from texture
+  - fix: |
+      cbeurocnd2_e
+        - Removes window barricades
+        - Fixes texture damage inconsistencies with cbeurocnd_d
+        - Fixes floating pixels from broken windows in alpha channel
+  - fix: |
+      cbeurocnd2_es
+        - Fixes minor texture brightness inconsistencies with cbeurocnd_d
+        - Fixes floating pixels from broken windows in alpha channel
+  - fix: |
+      cbeurocnd2_r, cbeurocnd2_rs
+        - Fixes major texture inconsistencies with cbeurocnd_e, cbeurocnd_es
+        - Fixes alpha channel damage inconsistencies with cbeurocnd_e, cbeurocnd_es
+  - fix: |
+      cbeurocnd2_dn
+        - Fixes night light artifacts
+  - fix: |
+      cbeurocnd2_ng
+        - Fixes night light inconsistencies with cbeurocnd2_n
+  - fix: |
+      cbeurocnd2_dng
+        - Fixes night light inconsistencies with cbeurocnd2_n, cbeurocnd2_dn
+  - optimization: |
+      cbeurocnd2_en, cbeurocnd2_rn, cbeurocnd2_rsn
+        - Optimizes texture size
+  - fix: |
+      cbeurocnd2_es
+        - Fixes incorrect night lights
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2432
+
+authors:
+  - xezon
