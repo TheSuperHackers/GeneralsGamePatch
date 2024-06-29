@@ -10,7 +10,7 @@
                 "setGameLanguageOnInstall": "English",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Arabic/*.ini",
@@ -19,7 +19,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Arabic",
                             "excludeMarkersList": [
@@ -44,7 +44,7 @@
                 "setGameLanguageOnInstall": "Brazilian",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Brazilian/*.ini"
                         ],
@@ -53,7 +53,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Brazilian",
                             "excludeMarkersList": [
@@ -78,7 +78,7 @@
                 "setGameLanguageOnInstall": "Chinese",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Chinese/*.ini",
                             "Data/Chinese/Art/W3D/*.W3D"
@@ -88,7 +88,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Chinese",
                             "excludeMarkersList": [
@@ -117,7 +117,7 @@
                 "setGameLanguageOnInstall": "English",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/English/*.ini"
                         ],
@@ -126,7 +126,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "English",
                             "excludeMarkersList": [
@@ -151,7 +151,7 @@
                 "setGameLanguageOnInstall": "French",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/French/*.ini",
                             "Data/French/Art/W3D/*.W3D"
@@ -161,7 +161,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "French",
                             "excludeMarkersList": [
@@ -190,7 +190,7 @@
                 "setGameLanguageOnInstall": "German",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/German/*.ini"
                         ],
@@ -199,7 +199,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "German",
                             "excludeMarkersList": [
@@ -228,7 +228,7 @@
                 "setGameLanguageOnInstall": "Italian",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Italian/*.ini"
                         ],
@@ -237,7 +237,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Italian",
                             "excludeMarkersList": [
@@ -262,7 +262,7 @@
                 "setGameLanguageOnInstall": "Korean",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Korean/*.ini",
                             "Data/Korean/Art/W3D/*.W3D"
@@ -272,7 +272,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Korean",
                             "excludeMarkersList": [
@@ -301,7 +301,7 @@
                 "setGameLanguageOnInstall": "Polish",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Polish/*.ini"
                         ],
@@ -310,7 +310,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Polish",
                             "excludeMarkersList": [
@@ -335,7 +335,7 @@
                 "setGameLanguageOnInstall": "English",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Russian/*.ini",
@@ -344,7 +344,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Russian",
                             "excludeMarkersList": [
@@ -369,7 +369,7 @@
                 "setGameLanguageOnInstall": "Spanish",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Spanish/*.ini"
                         ],
@@ -378,7 +378,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Spanish",
                             "excludeMarkersList": [
