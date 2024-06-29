@@ -1,0 +1,63 @@
+---
+date: 2024-06-23
+
+title: Fixes cbeuropkg textures
+
+changes:
+  - fix: Fixes Civilian cbeuropkg textures.
+
+subchanges:
+  - fix: |
+      cbeuropkg, cbeuropkg_d, cbeuropkg_g, cbeuropkg_dg
+        - Removes superfluous black alpha channel
+  - fix: |
+      cbeuropkg_r
+        - Fixes texture damage inconsistencies with cbeuropkg_e
+        - Adds missing alpha channel
+  - fix: |
+      cbeuropkg_s, cbeuropkg_ds
+        - Creates 2x upscale to 512x512
+        - Removes superfluous black or white alpha channel
+  - fix: |
+      cbeuropkg_es
+        - Creates 2x upscale to 512x512
+  - fix: |
+      cbeuropkg_rs
+        - Creates 2x upscale to 512x512
+        - Fixes texture damage inconsistencies with cbeuropkg_e
+        - Adds missing alpha channel
+  - fix: |
+      cbeuropkg_sg
+        - Creates 2x upscale to 512x512
+        - Fixes snow inconsistencies with cbeuropkg_s
+  - fix: |
+      cbeuropkg_dsg
+        - Creates 2x upscale to 512x512
+  - fix: |
+      cbeuropkg_n
+        - Fixes minor night light artifacts
+  - fix: |
+      cbeuropkg_dn
+        - Adds damaged night lights
+  - fix: |
+      cbeuropkg_sn
+        - Creates 2x upscale to 512x512
+  - fix: |
+      cbeuropkg_dsn
+        - Adds new texture based on cbeuropkg_sn, cbeuropkg_dn
+  - fix: |
+      cbeuropkg_en, cbeuropkg_rblack
+        - Fixes incorrect night lights
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2433
+
+authors:
+  - xezon
