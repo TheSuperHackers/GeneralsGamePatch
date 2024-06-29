@@ -9,14 +9,14 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesOriginalCCG",
+                        "sourceParent": "GameFilesOriginalCCG",
                         "sourceList": [
                             "Art/Textures/*.dds",
                             "Art/Textures/*.tga"
                         ]
                     },
                     {
-                        "parent": "GameFilesOriginalCCG",
+                        "sourceParent": "GameFilesOriginalCCG",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Textures/GenerateMip/*.psd",

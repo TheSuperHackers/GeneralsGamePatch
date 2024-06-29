@@ -9,7 +9,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Audio/Sounds/*.wav"
                         ]
@@ -21,7 +21,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/English/*.wav",
@@ -36,7 +36,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/English/*.wav",
@@ -51,7 +51,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/English/*.wav",
@@ -66,7 +66,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Audio/Sounds/English/*.wav"
                         ]
@@ -78,7 +78,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Audio/Sounds/French/*.wav"
                         ]
@@ -90,7 +90,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/Audio/Sounds/German/*.wav"
                         ]
@@ -102,7 +102,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/English/*.wav",
@@ -117,7 +117,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/English/*.wav",
@@ -132,7 +132,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/English/*.wav",
@@ -147,7 +147,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/Russian/*.wav",
@@ -162,7 +162,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceTargetList": [
                             {
                                 "source": "Data/Audio/Sounds/English/*.wav",

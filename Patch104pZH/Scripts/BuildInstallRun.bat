@@ -29,6 +29,7 @@ call "%ModBuilderExe%" ^
   --install FullEnglish ^
   --run ^
   --uninstall ^
+  --verbose-logging ^
   --config-list %ConfigFiles% %*
 
 endlocal

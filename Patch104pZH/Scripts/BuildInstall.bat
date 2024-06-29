@@ -27,6 +27,7 @@ call "%ThisDir%\Windows\Setup.bat"
 call "%ModBuilderExe%" ^
   --build ^
   --install FullEnglish ^
+  --verbose-logging ^
   --config-list %ConfigFiles% %*
 
 endlocal

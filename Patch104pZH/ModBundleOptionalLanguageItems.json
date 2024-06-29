@@ -9,7 +9,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Brazilian",
                             "excludeMarkersList": [
@@ -33,7 +33,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Chinese",
                             "excludeMarkersList": [
@@ -57,7 +57,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "English",
                             "excludeMarkersList": [
@@ -82,7 +82,7 @@
                 "setGameLanguageOnInstall": "French",
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "French",
                             "excludeMarkersList": [
@@ -106,7 +106,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "German",
                             "excludeMarkersList": [
@@ -130,7 +130,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Italian",
                             "excludeMarkersList": [
@@ -154,7 +154,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Korean",
                             "excludeMarkersList": [
@@ -178,7 +178,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Polish",
                             "excludeMarkersList": [
@@ -202,7 +202,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Russian",
                             "excludeMarkersList": [
@@ -226,7 +226,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "params": {
                             "language": "Spanish",
                             "excludeMarkersList": [

@@ -9,7 +9,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceList": [
                             "Art/Textures/*.tga",
                             "Art/Textures/*.dds"
@@ -19,7 +19,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Textures/GenerateMip/*.psd",
@@ -264,7 +264,7 @@
                         }
                     },
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Textures/GenerateMipHalf/*.psd",
@@ -295,7 +295,7 @@
                         }
                     },
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Textures/NoMip/*.psd",
@@ -316,7 +316,7 @@
                         }
                     },
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Textures/GenerateTga/*.psd",
@@ -335,7 +335,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceList": [
                             "Art/W3D/*.W3D"
                         ],
@@ -344,7 +344,7 @@
                         ]
                     },
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Models/Animation/*.blend",
@@ -358,7 +358,7 @@
                         }
                     },
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Models/Hierarchy/*.blend",
@@ -372,7 +372,7 @@
                         }
                     },
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Models/HierarchyAnimationMesh/*.blend",
@@ -386,7 +386,7 @@
                         }
                     },
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Models/HierarchyMesh/*.blend",
@@ -400,7 +400,7 @@
                         }
                     },
                     {
-                        "parent": "GameFilesOptional",
+                        "sourceParent": "GameFilesOptional",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Models/Mesh/*.blend",
@@ -423,7 +423,7 @@
                 "big": true,
                 "files": [
                     {
-                        "parent": "GameFilesEdited",
+                        "sourceParent": "GameFilesEdited",
                         "sourceList": [
                             "Data/INI/CommandSet.ini",
                             "Data/INI/Voice.ini"
