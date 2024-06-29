@@ -10,6 +10,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Brazilian/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "Brazilian",
                             "excludeMarkersList": [
@@ -18,13 +24,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Brazilian/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             },
@@ -34,6 +34,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Chinese/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "Chinese",
                             "excludeMarkersList": [
@@ -42,13 +48,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Chinese/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             },
@@ -58,6 +58,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/English/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "English",
                             "excludeMarkersList": [
@@ -66,13 +72,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/English/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             },
@@ -83,6 +83,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/French/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "French",
                             "excludeMarkersList": [
@@ -91,13 +97,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/French/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             },
@@ -107,6 +107,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/German/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "German",
                             "excludeMarkersList": [
@@ -115,13 +121,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/German/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             },
@@ -131,6 +131,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Italian/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "Italian",
                             "excludeMarkersList": [
@@ -139,13 +145,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Italian/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             },
@@ -155,6 +155,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Korean/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "Korean",
                             "excludeMarkersList": [
@@ -163,13 +169,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Korean/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             },
@@ -179,6 +179,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Polish/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "Polish",
                             "excludeMarkersList": [
@@ -187,13 +193,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Polish/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             },
@@ -203,6 +203,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Russian/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "Russian",
                             "excludeMarkersList": [
@@ -211,13 +217,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Russian/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             },
@@ -227,6 +227,12 @@
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Spanish/generals.csf"
+                            }
+                        ],
                         "params": {
                             "language": "Spanish",
                             "excludeMarkersList": [
@@ -235,13 +241,7 @@
                                     "//patch104p-core-end"
                                 ]
                             ]
-                        },
-                        "sourceTargetList": [
-                            {
-                                "source": "Data/generals.str",
-                                "target": "Data/Spanish/generals.csf"
-                            }
-                        ]
+                        }
                     }
                 ]
             }
