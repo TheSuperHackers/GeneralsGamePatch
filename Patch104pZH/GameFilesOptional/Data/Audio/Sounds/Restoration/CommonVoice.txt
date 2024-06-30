@@ -51,3 +51,21 @@ idiutoxd.wav
 idiutoxe.wav
 idiutoxf.wav
 isabotab.wav
+
+Fixes minor humming, clicking, fadein, fadeout in
+
+baiasela.wav
+cparpa1b.wav
+gpanfe2b.wav
+gpanfe2d.wav
+gpanfemb.wav
+gpanfemc.wav
+gpanmale.wav
+iangattb.wav
+idictoxg.wav
+idiffirc.wav
+idiffird.wav
+idigfirc.wav
+idiufire.wav
+idiufirh.wav
+idiutoxh.wav

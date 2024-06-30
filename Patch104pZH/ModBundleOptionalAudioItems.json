@@ -43,15 +43,7 @@
                                 "target": "Data/Audio/Sounds/English/*.wav"
                             },
                             {
-                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
-                                "target": "Data/Audio/Sounds/English/*.wav"
-                            },
-                            {
                                 "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
-                                "target": "Data/Audio/Sounds/English/*.wav"
-                            },
-                            {
-                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
                                 "target": "Data/Audio/Sounds/English/*.wav"
                             },
                             {
@@ -78,15 +70,7 @@
                                 "target": "Data/Audio/Sounds/Brazilian/*.wav"
                             },
                             {
-                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
-                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
-                            },
-                            {
                                 "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
-                                "target": "Data/Audio/Sounds/Brazilian/*.wav"
-                            },
-                            {
-                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
                                 "target": "Data/Audio/Sounds/Brazilian/*.wav"
                             },
                             {
@@ -113,15 +97,7 @@
                                 "target": "Data/Audio/Sounds/Chinese/*.wav"
                             },
                             {
-                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
-                                "target": "Data/Audio/Sounds/Chinese/*.wav"
-                            },
-                            {
                                 "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
-                                "target": "Data/Audio/Sounds/Chinese/*.wav"
-                            },
-                            {
-                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
                                 "target": "Data/Audio/Sounds/Chinese/*.wav"
                             },
                             {
@@ -148,15 +124,7 @@
                                 "target": "Data/Audio/Sounds/English/*.wav"
                             },
                             {
-                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
-                                "target": "Data/Audio/Sounds/English/*.wav"
-                            },
-                            {
                                 "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
-                                "target": "Data/Audio/Sounds/English/*.wav"
-                            },
-                            {
-                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
                                 "target": "Data/Audio/Sounds/English/*.wav"
                             },
                             {
@@ -180,10 +148,6 @@
                             },
                             {
                                 "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
-                                "target": "Data/Audio/Sounds/French/*.wav"
-                            },
-                            {
-                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
                                 "target": "Data/Audio/Sounds/French/*.wav"
                             }
                         ]
@@ -221,15 +185,7 @@
                                 "target": "Data/Audio/Sounds/Italian/*.wav"
                             },
                             {
-                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
-                                "target": "Data/Audio/Sounds/Italian/*.wav"
-                            },
-                            {
                                 "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
-                                "target": "Data/Audio/Sounds/Italian/*.wav"
-                            },
-                            {
-                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
                                 "target": "Data/Audio/Sounds/Italian/*.wav"
                             },
                             {
@@ -256,15 +212,7 @@
                                 "target": "Data/Audio/Sounds/Korean/*.wav"
                             },
                             {
-                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
-                                "target": "Data/Audio/Sounds/Korean/*.wav"
-                            },
-                            {
                                 "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
-                                "target": "Data/Audio/Sounds/Korean/*.wav"
-                            },
-                            {
-                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
                                 "target": "Data/Audio/Sounds/Korean/*.wav"
                             },
                             {
@@ -291,15 +239,7 @@
                                 "target": "Data/Audio/Sounds/Polish/*.wav"
                             },
                             {
-                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
-                                "target": "Data/Audio/Sounds/Polish/*.wav"
-                            },
-                            {
                                 "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
-                                "target": "Data/Audio/Sounds/Polish/*.wav"
-                            },
-                            {
-                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
                                 "target": "Data/Audio/Sounds/Polish/*.wav"
                             },
                             {
@@ -341,15 +281,7 @@
                                 "target": "Data/Audio/Sounds/Spanish/*.wav"
                             },
                             {
-                                "source": "Data/Audio/Sounds/Restoration/CommonVoice2/*.wav",
-                                "target": "Data/Audio/Sounds/Spanish/*.wav"
-                            },
-                            {
                                 "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
-                                "target": "Data/Audio/Sounds/Spanish/*.wav"
-                            },
-                            {
-                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice2/*.wav",
                                 "target": "Data/Audio/Sounds/Spanish/*.wav"
                             },
                             {
