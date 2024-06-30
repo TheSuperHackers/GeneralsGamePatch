@@ -6,13 +6,13 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (154)
+- art (158)
 - audio (128)
 - boss (59)
 - buff (100)
 - bug (465)
 - china (238)
-- civilian (46)
+- civilian (50)
 - controversial (130)
 - critical (5)
 - design (217)
@@ -20,31 +20,31 @@ Occuring labels are
 - gla (255)
 - gui (75)
 - major (93)
-- minor (781)
+- minor (785)
 - nerf (32)
-- optional (59)
+- optional (63)
 - performance (25)
 - text (102)
 - usa (268)
-- v1.0 (884)
+- v1.0 (888)
 - wip (1)
 - worldbuilder (19)
 
 Sorts changes by: blocker, critical, major, minor, usa, china, gla, boss, civilian, date (ascending)
 
-Contains 884 entries with
+Contains 888 entries with
 
-- 1398 changes
-  - FIX (1007)
+- 1402 changes
+  - FIX (1011)
   - TWEAK (291)
   - OPTIMIZATION (12)
   - FEATURE (62)
   - REFACTOR (26)
-- 849 subchanges
-  - FIX (701)
+- 886 subchanges
+  - FIX (735)
   - TWEAK (115)
   - FEATURE (28)
-  - OPTIMIZATION (5)
+  - OPTIMIZATION (8)
 
 ## Index
 - [2021-09-07 - Fixes China Nuke Missile exploit](#link__20210907__209_nuke_missile_exploit)
@@ -810,6 +810,10 @@ Contains 884 entries with
 - [2024-06-06 - Fixes cbarchse textures](#link__20240606__2413_cbarchse_textures)
 - [2024-06-06 - Fixes cbetvstat textures](#link__20240606__2414_cbetvstat_textures)
 - [2024-06-07 - Fixes cbdriveins textures](#link__20240607__2415_cbdriveins_textures)
+- [2024-06-23 - Fixes cbeurocnd textures](#link__20240623__2430_cbeurocnd_textures)
+- [2024-06-23 - Fixes cbeurocnd2 textures](#link__20240623__2432_cbeurocnd2_textures)
+- [2024-06-23 - Fixes cbeuropkg textures](#link__20240623__2433_cbeuropkg_textures)
+- [2024-06-30 - Fixes and improves cbfwfctry textures](#link__20240630__2439_cbfwfctry_textures)
 - [2021-08-27 - Fixes units shooting at already killed infantry units](#link__20210827__75_dead_target_bug)
 - [2021-08-28 - Fixes Anthrax Gamma streams showing with green particles when clearing buildings](#link__20210828__84_green_gamma_toxin_streams)
 - [2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once](#link__20210830__122_ui_faction_list_size)
@@ -15291,7 +15295,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Creates 2x upscale to 512x512
   - Adds wooden planks to inside of damaged roof
   - Adds additional dirt to bright stairs
-  - Removes obsolete alpha channel
+  - Removes superfluous alpha channel
 
 - **FIX**: cbcthdrl_r
   - Creates 2x upscale to 512x512
@@ -15335,7 +15339,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Fixes texture damage inconsistencies with cbdome_d
 
 - **FIX**: cbdome_r
-  - Removes black alpha channel
+  - Removes superfluous black alpha channel
   - Fixes texture damage inconsistencies with cbdome_e
 
 - **FIX**: cbdome_gd
@@ -15453,7 +15457,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - **FIX**: cbdriveins_dg
   - Fixes dark texture border
-  - Removes black alpha channel
+  - Removes superfluous black alpha channel
 
 - **FIX**: cbdriveins_e, cbdriveins_r
   - Fixes dark texture border
@@ -15468,6 +15472,221 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2415_cbdriveins_textures.yaml
+
+---
+### 2024-06-23 - Fixes cbeurocnd textures <a name='link__20240623__2430_cbeurocnd_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbeurocnd textures.
+
+**Subchanges**
+
+- **FIX**: cbeurocnd_dg
+  - Fixes window reflections over window damages
+
+- **FIX**: cbeurocnd_e, cbeurocnd_r, cbeurocnd_es, cbeurocnd_rs
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbeurocnd_s
+  - Fixes minor snow discrepancies with cbeurocnd_sg
+  - Fixes missing snow on window reflections
+
+- **FIX**: cbeurocnd_ds
+  - Fixes minor snow discrepancies with cbeurocnd_dsg
+  - Fixes shadows on ground floor
+
+- **FIX**: cbeurocnd_sg
+  - Fixes missing snow on window reflections
+
+- **FIX**: cbeurocnd_dsg
+  - Fixes shadows on ground floor
+  - Fixes error on window reflections
+
+- **OPTIMIZATION**: cbeurocnd_n
+  - Removes superfluous alpha channel
+
+- **FIX**: cbeurocnd_dn, cbeurocnd_dng, cbeurocnd_dsn, cbeurocnd_dsng
+  - Fixes faint night light artifacts
+
+- **OPTIMIZATION**: cbeurocnd_en, cbeurocnd_rn, cbeurocnd_esn, cbeurocnd_rsn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2430](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2430)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2430_cbeurocnd_textures.yaml
+
+---
+### 2024-06-23 - Fixes cbeurocnd2 textures <a name='link__20240623__2432_cbeurocnd2_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbeurocnd2 textures.
+
+**Subchanges**
+
+- **FIX**: cbeurocnd2_dg
+  - Removes wrong snow from texture
+
+- **FIX**: cbeurocnd2_e
+  - Removes window barricades
+  - Fixes texture damage inconsistencies with cbeurocnd_d
+  - Fixes floating pixels from broken windows in alpha channel
+
+- **FIX**: cbeurocnd2_es
+  - Fixes minor texture brightness inconsistencies with cbeurocnd_d
+  - Fixes floating pixels from broken windows in alpha channel
+
+- **FIX**: cbeurocnd2_r, cbeurocnd2_rs
+  - Fixes major texture inconsistencies with cbeurocnd_e, cbeurocnd_es
+  - Fixes alpha channel damage inconsistencies with cbeurocnd_e, cbeurocnd_es
+
+- **FIX**: cbeurocnd2_dn
+  - Fixes night light artifacts
+
+- **FIX**: cbeurocnd2_ng
+  - Fixes night light inconsistencies with cbeurocnd2_n
+
+- **FIX**: cbeurocnd2_dng
+  - Fixes night light inconsistencies with cbeurocnd2_n, cbeurocnd2_dn
+
+- **OPTIMIZATION**: cbeurocnd2_en, cbeurocnd2_rn, cbeurocnd2_rsn
+  - Optimizes texture size
+
+- **FIX**: cbeurocnd2_esn
+  - Fixes incorrect night lights
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2432](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2432)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2432_cbeurocnd2_textures.yaml
+
+---
+### 2024-06-23 - Fixes cbeuropkg textures <a name='link__20240623__2433_cbeuropkg_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbeuropkg textures.
+
+**Subchanges**
+
+- **FIX**: cbeuropkg, cbeuropkg_d, cbeuropkg_g, cbeuropkg_dg
+  - Removes superfluous black alpha channel
+
+- **FIX**: cbeuropkg_r
+  - Fixes texture damage inconsistencies with cbeuropkg_e
+  - Adds missing alpha channel
+
+- **FIX**: cbeuropkg_s, cbeuropkg_ds
+  - Creates 2x upscale to 512x512
+  - Removes superfluous black or white alpha channel
+
+- **FIX**: cbeuropkg_es
+  - Creates 2x upscale to 512x512
+
+- **FIX**: cbeuropkg_rs
+  - Creates 2x upscale to 512x512
+  - Fixes texture damage inconsistencies with cbeuropkg_e
+  - Adds missing alpha channel
+
+- **FIX**: cbeuropkg_sg
+  - Creates 2x upscale to 512x512
+  - Fixes snow inconsistencies with cbeuropkg_s
+
+- **FIX**: cbeuropkg_dsg
+  - Creates 2x upscale to 512x512
+
+- **FIX**: cbeuropkg_n
+  - Fixes minor night light artifacts
+
+- **FIX**: cbeuropkg_dn
+  - Adds damaged night lights
+
+- **FIX**: cbeuropkg_sn
+  - Creates 2x upscale to 512x512
+
+- **FIX**: cbeuropkg_dsn
+  - Adds new texture based on cbeuropkg_sn, cbeuropkg_dn
+
+- **FIX**: cbeuropkg_en, cbeuropkg_rblack
+  - Fixes incorrect night lights
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2433](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2433)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2438](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2438)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2433_cbeuropkg_textures.yaml
+
+---
+### 2024-06-30 - Fixes and improves cbfwfctry textures <a name='link__20240630__2439_cbfwfctry_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbfwfctry textures.
+
+**Subchanges**
+
+- **FIX**: cbfwfctry_e, cbfwfctry_r
+  - Fixes texture damage inconsistencies with cbfwfctry_d
+  - Fixes outlines on burns
+  - Adds proper hole to roof
+
+- **FIX**: cbfwfctry_s, cbfwfctry_sg, cbfwfctry_dsg
+  - Creates 2x upscale to 512x512
+  - Desaturates blue snow
+  - Removes superfluous snow from parts of house facade
+  - Adds missing window reflections
+
+- **FIX**: cbfwfctry_ds
+  - Creates 2x upscale to 512x512
+  - Desaturates blue snow
+  - Removes superfluous snow from parts of house facade
+  - Adds missing window damages
+  - Removes barricades from window reflections
+
+- **FIX**: cbfwfctry_es
+  - Creates 2x upscale to 512x512
+  - Desaturates blue snow
+  - Removes superfluous snow from parts of house facade
+  - Fixes incorrect damages in alpha channel
+
+- **FIX**: cbfwfctry_rs
+  - Creates 2x upscale to 512x512
+  - Desaturates blue snow
+  - Removes superfluous snow from parts of house facade
+  - Adds proper hole to roof
+
+- **FIX**: cbfwfctry_dn, cbfwfctry_dng
+  - Fixes light on broken windows
+
+- **FIX**: cbfwfctry_ng
+  - Creates 2x upscale to 512x512
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2439](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2439)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2439_cbfwfctry_textures.yaml
 
 ---
 ### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='link__20210827__75_dead_target_bug'></a>
