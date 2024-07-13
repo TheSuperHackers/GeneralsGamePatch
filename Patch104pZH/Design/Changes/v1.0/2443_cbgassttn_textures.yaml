@@ -1,0 +1,47 @@
+---
+date: 2024-07-13
+
+title: Fixes cbgassttn textures
+
+changes:
+  - fix: Fixes Civilian cbgassttn textures.
+
+subchanges:
+  - fix: |
+      cbgassttn_g
+        - Fixes window reflections on window barricades
+        - Removes holes from walls
+  - fix: |
+      cbgassttn_sg
+        - Fixes minor snow inconsistencies with cbgassttn_s
+        - Removes holes from walls
+  - fix: |
+      cbgassttn_dg, cbgassttn_dsg
+        - Fixes positional shift of window barricades
+        - Fixes window reflections on window barricades
+        - Removes excess damages from walls
+  - fix: |
+      cbgassttn_e, cbgassttn_es
+        - Fixes damage inconsistencies with cbgassttn_d, cbgassttn_ds
+  - fix: |
+      cbgassttn_r, cbgassttn_rs
+        - Fixes damage inconsistencies with cbgassttn_e, cbgassttn_es
+  - fix: |
+      cbgassttn_dng
+        - Fixes borders of window lights
+  - fix: |
+      cbgassttn_en, cbgassttn_rn
+        - Fixes incorrect night light
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2443
+
+authors:
+  - xezon
