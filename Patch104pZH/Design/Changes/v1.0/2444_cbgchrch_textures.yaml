@@ -1,0 +1,65 @@
+---
+date: 2024-07-17
+
+title: Fixes cbgchrch01, cbchurch01 textures
+
+changes:
+  - fix: Fixes Civilian cbgchrch01, cbchurch01 textures.
+
+subchanges:
+  - fix: |
+      cbgchrch01_e, cbchurch01_e
+        - Fixes damages in alpha channel
+  - fix: |
+      cbgchrch01_r, cbchurch01_r
+        - Fixes major damage inconsistencies with cbgchrch01_e
+  - fix: |
+      cbgchrch01_g, cbchurch01_g
+        - Adds missing window reflections
+        - Fixes strength of window reflections
+  - fix: |
+      cbgchrch01_dg, cbchurch01_dg
+        - Fixes texture damage inconsistencies with cbgchrch01_d
+        - Adds missing window reflections
+        - Fixes strength of window reflections
+  - fix: |
+      cbgchrch01_s, cbchurch01_s
+        - Adds missing window reflections
+  - fix: |
+      cbgchrch01_ds, cbchurch01_ds
+        - Fixes window reflections over snow
+  - fix: |
+      cbgchrch01_es, cbchurch01_es
+        - Fixes damages in alpha channel
+  - fix: |
+      cbgchrch01_rs, cbchurch01_rs
+        - Fixes major damage inconsistencies with cbgchrch01_es
+  - fix: |
+      cbgchrch01_sg, cbchurch01_sg
+        - Adds missing window reflections
+        - Fixes strength of window reflections
+  - fix: |
+      cbgchrch01_dsg, cbchurch01_dsg
+        - Adds missing alpha channel
+  - fix: |
+      cbgchrch01_dng, cbchurch01_dng
+        - Fixes night light discrepancies with cbgchrch01_ng, cbgchrch01_dn
+  - fix: |
+      cbgchrch01_en, cbgchrch01_esn, cbchurch01_en, cbchurch01_esn
+        - Fixes incorrect night lights
+  - optimization: |
+      cbgchrch01_rn, cbgchrch01_rsn, cbchurch01_rn, cbchurch01_rsn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2444
+
+authors:
+  - xezon
