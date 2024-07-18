@@ -1,0 +1,59 @@
+---
+date: 2024-07-18
+
+title: Fixes cbgctage01 textures
+
+changes:
+  - fix: Fixes Civilian cbgctage01 textures.
+
+subchanges:
+  - fix: |
+      cbgctage01_e
+        - Remove wrong window barricades
+        - Fixes damage inconsistencies with cbgctage01_d
+  - fix: |
+      cbgctage01_es
+        - Fixes snow and damage inconsistencies with cbgctage01_ds
+        - Readds some details in windows and doors
+  - fix: |
+      cbgctage01_r
+        - Fixes alpha channel damage inconsistencies with cbgctage01_e
+        - Readds some details in windows and doors
+  - fix: |
+      cbgctage01_rs
+        - Fixes major snow and damage texture inconsistencies with cbgctage01_es
+        - Fixes alpha channel damage inconsistencies with cbgctage01_es
+  - fix: |
+      cbgctage01_n
+        - Increases brightness of faint night lights
+        - Adds missing lights to windows
+  - fix: |
+      cbgctage01_dn, cbgctage01_ng, cbgctage01_dng
+        - Fixes night lights looking very different than cbgctage01_n
+  - fix: |
+      cbgctage01_sn
+        - Increases brightness of faint night lights
+        - Adds missing lights to windows
+        - Adds missing snow to windows
+  - fix: |
+      cbgctage01_dsn
+        - Adds missing damages to night lights
+  - fix: |
+      cbgctage01_sng, cbgctage01_dsng
+        - Fixes night lights looking very different than cbgctage01_sn
+  - fix: |
+      cbgctage01_en, cbgctage01_rn, cbgctage01_esn, cbgctage01_rsn
+        - Fixes incorrect night lights
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2445
+
+authors:
+  - xezon
