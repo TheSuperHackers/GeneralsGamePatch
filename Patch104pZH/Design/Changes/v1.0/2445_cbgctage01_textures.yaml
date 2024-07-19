@@ -8,21 +8,50 @@ changes:
 
 subchanges:
   - fix: |
+      cbgctage01
+        - Fixes too strong window reflections
+  - fix: |
+      cbgctage01_d
+        - Fixes minor artifacts on window reflections
+  - fix: |
       cbgctage01_e
         - Removes wrong window barricades
         - Fixes damage inconsistencies with cbgctage01_d
-  - fix: |
-      cbgctage01_es
-        - Fixes snow and damage inconsistencies with cbgctage01_ds
-        - Readds some details in windows and doors
   - fix: |
       cbgctage01_r
         - Fixes alpha channel damage inconsistencies with cbgctage01_e
         - Readds some details in windows and doors
   - fix: |
+      cbgctage01_g
+        - Fixes width of barricades on window reflections
+  - fix: |
+      cbgctage01_dg
+        - Fixes width of barricades on window reflections
+        - Adds missing damages to window reflections
+  - fix: |
+      cbgctage01_s
+        - Fixes window reflections over snow
+  - fix: |
+      cbgctage01_ds
+        - Fixes minor artifacts on window reflections
+        - Fixes window reflections over snow
+  - fix: |
+      cbgctage01_es
+        - Fixes snow and damage inconsistencies with cbgctage01_ds
+        - Readds some details in windows and doors
+  - fix: |
       cbgctage01_rs
         - Fixes major snow and damage texture inconsistencies with cbgctage01_es
         - Fixes alpha channel damage inconsistencies with cbgctage01_es
+  - fix: |
+      cbgctage01_sg
+        - Fixes window reflections over snow
+        - Fixes width of barricades on window reflections
+  - fix: |
+      cbgctage01_dsg
+        - Fixes minor artifacts on window reflections
+        - Fixes window reflections over snow
+        - Fixes width of barricades on window reflections
   - fix: |
       cbgctage01_n
         - Increases brightness of faint night lights
