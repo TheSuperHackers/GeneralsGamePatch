@@ -1,0 +1,43 @@
+---
+date: 2024-07-21
+
+title: Fixes cbgrashut2 textures
+
+changes:
+  - fix: Fixes Civilian cbgrashut2 textures.
+
+subchanges:
+  - fix: |
+      cbgrashut2, cbgrashut2_d, cbgrashut2_ds
+        - Adds missing door
+  - fix: |
+      cbgrashut2_e, cbgrashut2_es
+        - Fixes minor texture damage inconsistencies with cbgrashut2_d, cbgrashut2_ds
+        - Adds missing door
+        - Adds additional damages to alpha channel
+  - fix: |
+      cbgrashut2_r
+        - Adds additional damages to alpha channel
+  - fix: |
+      cbgrashut2_rs
+        - Adds missing door
+        - Adds additional damages to alpha channel
+  - fix: |
+      cbgrashut2_en, cbgrashut2_rn, cbgrashut2_rsn
+        - Fixes incorrect night light
+  - fix: |
+      cbgrashut2_esn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2449
+
+authors:
+  - xezon
