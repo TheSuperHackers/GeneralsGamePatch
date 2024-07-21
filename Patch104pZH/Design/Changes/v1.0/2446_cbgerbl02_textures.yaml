@@ -1,0 +1,42 @@
+---
+date: 2024-07-20
+
+title: Fixes cbgerbl02 textures
+
+changes:
+  - fix: Fixes Civilian cbgerbl02 textures.
+
+subchanges:
+  - fix: |
+      cbgerbl02
+        - Adds missing window reflection
+        - Fixes minor window reflection position errors
+  - fix: |
+      cbgerbl02_d, cbgerbl02_dg
+        - Fixes bullet holes drawing over plants, cloth and inappropriate places
+        - Fixes dark outlines on window reflections
+        - Fixes window reflections over window damages
+  - fix: |
+      cbgerbl02_e
+        - Fixes bullet holes drawing over plants, cloth and inappropriate places
+        - Removes the wrong window barricades
+  - fix: |
+      cbgerbl02_r
+        - New
+  - fix: |
+      cbgerbl02_g
+        - Removes superfluous black stripes on house facade
+        - Fixes minor window reflection position errors
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446
+
+authors:
+  - xezon

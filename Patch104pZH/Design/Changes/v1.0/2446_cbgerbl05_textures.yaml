@@ -1,0 +1,25 @@
+---
+date: 2024-07-20
+
+title: Fixes cbgerbl05 textures
+
+changes:
+  - fix: Fixes Civilian cbgerbl05 textures.
+
+subchanges:
+  - fix: |
+      cbgerbl05_dg
+        - Fixes minor window reflection discrepancies with cbgerbl05_d
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446
+
+authors:
+  - xezon

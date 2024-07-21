@@ -1,0 +1,33 @@
+---
+date: 2024-07-20
+
+title: Fixes cbgerbl01 textures
+
+changes:
+  - fix: Fixes Civilian cbgerbl01 textures.
+
+subchanges:
+  - fix: |
+      cbgerbl01_d, cbgerbl01_g
+        - Fixes black outlines on wooden railings
+  - fix: |
+      cbgerbl01_e
+        - Fixes black outlines on wooden railings
+        - Decreases strength of damaged window reflections
+  - fix: |
+      cbgerbl01_dg
+        - Fixes black outlines on wooden railings
+        - Fixes minor window reflection strength discrepancies with cbgerbl01_d
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446
+
+authors:
+  - xezon
