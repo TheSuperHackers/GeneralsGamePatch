@@ -1,0 +1,45 @@
+---
+date: 2024-07-21
+
+title: Fixes cbgrashut1 textures
+
+changes:
+  - fix: Fixes Civilian cbgrashut1 textures.
+
+subchanges:
+  - fix: |
+      cbgrashut1_r
+        - Fixes minor texture damage inconsistencies with cbgrashut1_e
+        - Fixes minor alpha channel damage inconsistencies with cbgrashut1_e
+  - fix: |
+      cbgrashut1_dg
+        - Fixes minor texture damage inconsistencies with cbgrashut1_d
+  - fix: |
+      cbgrashut1_dsg
+        - Fixes snow inconsistencies with cbgrashut1_ds
+  - fix: |
+      cbgrashut1_n, cbgrashut1_sn
+        - Fixes night light artifacts
+  - optimization: |
+      cbgrashut1_dn, cbgrashut1_rsn
+        - Optimizes texture size
+  - fix: |
+      cbgrashut1_ng, cbgrashut1_sng
+        - Fixes night light artifacts
+        - Fixes light inconsistencies with cbgrashut1_n, cbgrashut1_sn
+  - fix: |
+      cbgrashut1_en, cbgrashut1_rn, cbgrashut1_esn
+        - Fixes incorrect night light
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2448
+
+authors:
+  - xezon
