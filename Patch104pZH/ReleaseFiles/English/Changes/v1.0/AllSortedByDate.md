@@ -6,13 +6,13 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (158)
+- art (173)
 - audio (128)
 - boss (59)
 - buff (100)
 - bug (465)
 - china (238)
-- civilian (50)
+- civilian (65)
 - controversial (130)
 - critical (5)
 - design (217)
@@ -20,31 +20,31 @@ Occuring labels are
 - gla (255)
 - gui (75)
 - major (93)
-- minor (785)
+- minor (800)
 - nerf (32)
-- optional (63)
+- optional (78)
 - performance (25)
 - text (102)
 - usa (268)
-- v1.0 (888)
+- v1.0 (903)
 - wip (1)
 - worldbuilder (19)
 
 Sorts changes by: date (ascending)
 
-Contains 888 entries with
+Contains 903 entries with
 
-- 1402 changes
-  - FIX (1011)
+- 1417 changes
+  - FIX (1026)
   - OPTIMIZATION (12)
   - TWEAK (291)
   - FEATURE (62)
   - REFACTOR (26)
-- 886 subchanges
-  - FIX (735)
+- 989 subchanges
+  - FIX (833)
   - FEATURE (28)
   - TWEAK (115)
-  - OPTIMIZATION (8)
+  - OPTIMIZATION (13)
 
 ## Index
 - [2021-08-22 - Fixes critical issue that crashes all clients in a match](#link__20210822__0_crash_bug)
@@ -935,6 +935,21 @@ Contains 888 entries with
 - [2024-06-23 - Fixes cbeurocnd2 textures](#link__20240623__2432_cbeurocnd2_textures)
 - [2024-06-23 - Fixes cbeuropkg textures](#link__20240623__2433_cbeuropkg_textures)
 - [2024-06-30 - Fixes and improves cbfwfctry textures](#link__20240630__2439_cbfwfctry_textures)
+- [2024-07-01 - Fixes and improves cbgasfacl textures](#link__20240701__2442_cbgasfacl_textures)
+- [2024-07-13 - Fixes cbgassttn textures](#link__20240713__2443_cbgassttn_textures)
+- [2024-07-17 - Fixes cbgchrch01, cbchurch01 textures](#link__20240717__2444_cbgchrch01_textures)
+- [2024-07-18 - Fixes cbgctage01 textures](#link__20240718__2445_cbgctage01_textures)
+- [2024-07-20 - Fixes cbgerbl01 textures](#link__20240720__2446_cbgerbl01_textures)
+- [2024-07-20 - Fixes cbgerbl02 textures](#link__20240720__2446_cbgerbl02_textures)
+- [2024-07-20 - Fixes cbgerbl04 textures](#link__20240720__2446_cbgerbl04_textures)
+- [2024-07-20 - Fixes cbgerbl05 textures](#link__20240720__2446_cbgerbl05_textures)
+- [2024-07-20 - Fixes cbgerbl06 textures](#link__20240720__2446_cbgerbl06_textures)
+- [2024-07-20 - Fixes cbgermus textures](#link__20240720__2446_cbgermus_textures)
+- [2024-07-20 - Fixes cbgpub02 textures](#link__20240720__2447_cbgpub02_textures)
+- [2024-07-21 - Fixes cbgrashut1 textures](#link__20240721__2448_cbgrashut1_textures)
+- [2024-07-21 - Fixes cbgrashut2 textures](#link__20240721__2449_cbgrashut2_textures)
+- [2024-07-21 - Fixes cbgrashut3 textures](#link__20240721__2450_cbgrashut3_textures)
+- [2024-07-21 - Fixes cbgrashut4 textures](#link__20240721__2451_cbgrashut4_textures)
 
 
 
@@ -19349,4 +19364,674 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2439_cbfwfctry_textures.yaml
+
+---
+### 2024-07-01 - Fixes and improves cbgasfacl textures <a name='link__20240701__2442_cbgasfacl_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbgasfacl textures.
+
+**Subchanges**
+
+- **FIX**: cbgasfacl, cbgasfacl_g, cbgasfacl_s, cbgasfacl_sg
+  - Creates 2x upscale to 512x512
+  - Removes black holes from walls
+  - Fixes minor pink color cast
+
+- **FIX**: cbgasfacl_d, cbgasfacl_dg
+  - Creates 2x upscale to 512x512
+  - Removes black holes from walls
+  - Fixes minor pink color cast
+  - Removes reflections on various parts of structure
+
+- **FIX**: cbgasfacl_e, cbgasfacl_r
+  - Creates 2x upscale to 512x512
+
+- **FIX**: cbgasfacl_ds, cbgasfacl_dsg
+  - Creates 2x upscale to 512x512
+  - Removes black holes from walls
+  - Fixes minor pink color cast
+  - Removes reflections on various parts of structure
+  - Fixes major snow inconsistencies with cbgasfacl_s, cbgasfacl_sg
+
+- **FIX**: cbgasfacl_es, cbgasfacl_rs
+  - Creates 2x upscale to 512x512
+  - Fixes major snow inconsistencies with cbgasfacl_s, cbgasfacl_sg
+
+- **FIX**: cbgasfacl_en, cbgasfacl_rn
+  - Fixes incorrect night light
+
+- **OPTIMIZATION**: cbgasfacl_esn, cbgasfacl_rsn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2442](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2442)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2442_cbgasfacl_textures.yaml
+
+---
+### 2024-07-13 - Fixes cbgassttn textures <a name='link__20240713__2443_cbgassttn_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgassttn textures.
+
+**Subchanges**
+
+- **FIX**: cbgassttn_g
+  - Fixes window reflections on window barricades
+  - Removes holes from walls
+
+- **FIX**: cbgassttn_sg
+  - Fixes minor snow inconsistencies with cbgassttn_s
+  - Removes holes from walls
+
+- **FIX**: cbgassttn_dg, cbgassttn_dsg
+  - Fixes positional shift of window barricades
+  - Fixes window reflections on window barricades
+  - Removes excess damages from walls
+
+- **FIX**: cbgassttn_e, cbgassttn_es
+  - Fixes damage inconsistencies with cbgassttn_d, cbgassttn_ds
+
+- **FIX**: cbgassttn_r, cbgassttn_rs
+  - Fixes damage inconsistencies with cbgassttn_e, cbgassttn_es
+
+- **FIX**: cbgassttn_dng
+  - Fixes borders of window lights
+
+- **FIX**: cbgassttn_en, cbgassttn_rn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2443](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2443)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2443_cbgassttn_textures.yaml
+
+---
+### 2024-07-17 - Fixes cbgchrch01, cbchurch01 textures <a name='link__20240717__2444_cbgchrch01_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgchrch01, cbchurch01 textures.
+
+**Subchanges**
+
+- **FIX**: cbgchrch01_e, cbchurch01_e
+  - Fixes damages in alpha channel
+
+- **FIX**: cbgchrch01_r, cbchurch01_r
+  - Fixes major damage inconsistencies with cbgchrch01_e
+
+- **FIX**: cbgchrch01_g, cbchurch01_g
+  - Adds missing window reflections
+  - Fixes strength of window reflections
+
+- **FIX**: cbgchrch01_dg, cbchurch01_dg
+  - Fixes texture damage inconsistencies with cbgchrch01_d
+  - Adds missing window reflections
+  - Fixes strength of window reflections
+
+- **FIX**: cbgchrch01_s, cbchurch01_s
+  - Adds missing window reflections
+
+- **FIX**: cbgchrch01_ds, cbchurch01_ds
+  - Fixes window reflections over snow
+
+- **FIX**: cbgchrch01_es, cbchurch01_es
+  - Fixes damages in alpha channel
+
+- **FIX**: cbgchrch01_rs, cbchurch01_rs
+  - Fixes major damage inconsistencies with cbgchrch01_es
+
+- **FIX**: cbgchrch01_sg, cbchurch01_sg
+  - Adds missing window reflections
+  - Fixes strength of window reflections
+
+- **FIX**: cbgchrch01_dsg, cbchurch01_dsg
+  - Adds missing alpha channel
+
+- **FIX**: cbgchrch01_dng, cbchurch01_dng
+  - Fixes night light discrepancies with cbgchrch01_ng, cbgchrch01_dn
+
+- **FIX**: cbgchrch01_en, cbgchrch01_esn, cbchurch01_en, cbchurch01_esn
+  - Fixes incorrect night lights
+
+- **OPTIMIZATION**: cbgchrch01_rn, cbgchrch01_rsn, cbchurch01_rn, cbchurch01_rsn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2444](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2444)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2444_cbgchrch01_textures.yaml
+
+---
+### 2024-07-18 - Fixes cbgctage01 textures <a name='link__20240718__2445_cbgctage01_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgctage01 textures.
+
+**Subchanges**
+
+- **FIX**: cbgctage01
+  - Fixes too strong window reflections
+
+- **FIX**: cbgctage01_d
+  - Fixes minor artifacts on window reflections
+
+- **FIX**: cbgctage01_e
+  - Removes wrong window barricades
+  - Fixes damage inconsistencies with cbgctage01_d
+
+- **FIX**: cbgctage01_r
+  - Fixes alpha channel damage inconsistencies with cbgctage01_e
+  - Readds some details in windows and doors
+
+- **FIX**: cbgctage01_g
+  - Fixes width of barricades on window reflections
+
+- **FIX**: cbgctage01_dg
+  - Fixes width of barricades on window reflections
+  - Adds missing damages to window reflections
+
+- **FIX**: cbgctage01_s
+  - Fixes window reflections over snow
+
+- **FIX**: cbgctage01_ds
+  - Fixes minor artifacts on window reflections
+  - Fixes window reflections over snow
+
+- **FIX**: cbgctage01_es
+  - Fixes snow and damage inconsistencies with cbgctage01_ds
+  - Readds some details in windows and doors
+
+- **FIX**: cbgctage01_rs
+  - Fixes major snow and damage texture inconsistencies with cbgctage01_es
+  - Fixes alpha channel damage inconsistencies with cbgctage01_es
+
+- **FIX**: cbgctage01_sg
+  - Fixes window reflections over snow
+  - Fixes width of barricades on window reflections
+
+- **FIX**: cbgctage01_dsg
+  - Fixes minor artifacts on window reflections
+  - Fixes window reflections over snow
+  - Fixes width of barricades on window reflections
+
+- **FIX**: cbgctage01_n
+  - Increases brightness of faint night lights
+  - Adds missing lights to windows
+
+- **FIX**: cbgctage01_dn, cbgctage01_ng, cbgctage01_dng
+  - Fixes night lights looking very different than cbgctage01_n
+
+- **FIX**: cbgctage01_sn
+  - Increases brightness of faint night lights
+  - Adds missing lights to windows
+  - Adds missing snow to windows
+
+- **FIX**: cbgctage01_dsn
+  - Adds missing damages to night lights
+
+- **FIX**: cbgctage01_sng, cbgctage01_dsng
+  - Fixes night lights looking very different than cbgctage01_sn
+
+- **FIX**: cbgctage01_en, cbgctage01_rn, cbgctage01_esn, cbgctage01_rsn
+  - Fixes incorrect night lights
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2445](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2445)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2445_cbgctage01_textures.yaml
+
+---
+### 2024-07-20 - Fixes cbgerbl01 textures <a name='link__20240720__2446_cbgerbl01_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgerbl01 textures.
+
+**Subchanges**
+
+- **FIX**: cbgerbl01_d, cbgerbl01_g
+  - Fixes black outlines on wooden railings
+
+- **FIX**: cbgerbl01_e
+  - Fixes black outlines on wooden railings
+  - Decreases strength of damaged window reflections
+
+- **FIX**: cbgerbl01_dg
+  - Fixes black outlines on wooden railings
+  - Fixes minor window reflection strength discrepancies with cbgerbl01_d
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2446_cbgerbl01_textures.yaml
+
+---
+### 2024-07-20 - Fixes cbgerbl02 textures <a name='link__20240720__2446_cbgerbl02_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgerbl02 textures.
+
+**Subchanges**
+
+- **FIX**: cbgerbl02
+  - Adds missing window reflection
+  - Fixes minor window reflection position errors
+
+- **FIX**: cbgerbl02_d, cbgerbl02_dg
+  - Fixes bullet holes drawing over plants, cloth and inappropriate places
+  - Fixes dark outlines on window reflections
+  - Fixes window reflections over window damages
+
+- **FIX**: cbgerbl02_e
+  - Fixes bullet holes drawing over plants, cloth and inappropriate places
+  - Removes the wrong window barricades
+
+- **FIX**: cbgerbl02_r
+  - New
+
+- **FIX**: cbgerbl02_g
+  - Removes superfluous black stripes on house facade
+  - Fixes minor window reflection position errors
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2446_cbgerbl02_textures.yaml
+
+---
+### 2024-07-20 - Fixes cbgerbl04 textures <a name='link__20240720__2446_cbgerbl04_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgerbl04 textures.
+
+**Subchanges**
+
+- **FIX**: cbgerbl04_d
+  - Fixes bullet hole strength inconsistencies with cbgerbl04_dg, cbgerbl04_e
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2446_cbgerbl04_textures.yaml
+
+---
+### 2024-07-20 - Fixes cbgerbl05 textures <a name='link__20240720__2446_cbgerbl05_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgerbl05 textures.
+
+**Subchanges**
+
+- **FIX**: cbgerbl05_dg
+  - Fixes minor window reflection discrepancies with cbgerbl05_d
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2446_cbgerbl05_textures.yaml
+
+---
+### 2024-07-20 - Fixes cbgerbl06 textures <a name='link__20240720__2446_cbgerbl06_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgerbl06 textures.
+
+**Subchanges**
+
+- **FIX**: cbgerbl06_g
+  - Adds missing awning to texture
+
+- **FIX**: cbgerbl06_dg
+  - Fixes minor window reflection discrepancies with cbgerbl06_d
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2446_cbgerbl06_textures.yaml
+
+---
+### 2024-07-20 - Fixes cbgermus textures <a name='link__20240720__2446_cbgermus_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgermus textures.
+
+**Subchanges**
+
+- **FIX**: cbgermus_dg
+  - Fixes minor window reflection discrepancies with cbgermus_d
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2446_cbgermus_textures.yaml
+
+---
+### 2024-07-20 - Fixes cbgpub02 textures <a name='link__20240720__2447_cbgpub02_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgpub02 textures.
+
+**Subchanges**
+
+- **FIX**: cbgpub02
+  - Fixes misshaped house windows
+  - Fixes misplaced and blurry window reflections
+
+- **FIX**: cbgpub02_d, cbgpub02_g, cbgpub02_dg
+  - Fixes misshaped house windows
+  - Fixes too strong window reflections
+
+- **FIX**: cbgpub02_e, cbgpub02_r
+  - Fixes misshaped house windows
+  - Adds additional damages to alpha channel
+
+- **FIX**: cbgpub02_s
+  - Fixes snow position mismatches with cbgpub02_ds, cbgpub02_sg
+  - Fixes too dark snow patches
+  - Fixes misshaped house windows
+  - Fixes misplaced and blurry window reflections
+
+- **FIX**: cbgpub02_ds, cbgpub02_sg, cbgpub02_dsg
+  - Fixes too dark snow patches
+  - Fixes misshaped house windows
+  - Fixes too strong window reflections
+
+- **FIX**: cbgpub02_es, cbgpub02_rs
+  - Fixes snow inconsistencies with cbgpub02_ds
+  - Fixes too dark snow patches
+  - Fixes misshaped house windows
+  - Adds additional damages to alpha channel
+
+- **FIX**: cbgpub02_n, cbgpub02_ng
+  - Fixes light artifacts
+
+- **FIX**: cbgpub02_dn
+  - Fixes light artifacts
+  - Removes superfluous alpha channel
+
+- **FIX**: cbgpub02_dng
+  - Fixes light mismatches with cbgpub02_dn
+  - Fixes light artifacts
+
+- **FIX**: cbgpub02_en, cbgpub02_esn
+  - Fixes incorrect night light
+
+- **OPTIMIZATION**: cbgpub02_rn, cbgpub02_rsn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2447](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2447)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2447_cbgpub02_textures.yaml
+
+---
+### 2024-07-21 - Fixes cbgrashut1 textures <a name='link__20240721__2448_cbgrashut1_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgrashut1 textures.
+
+**Subchanges**
+
+- **FIX**: cbgrashut1_e, cbgrashut1_es, cbgrashut1_rs
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgrashut1_r
+  - Fixes minor texture damage inconsistencies with cbgrashut1_e
+  - Fixes minor alpha channel damage inconsistencies with cbgrashut1_e
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgrashut1_dg
+  - Fixes minor texture damage inconsistencies with cbgrashut1_d
+
+- **FIX**: cbgrashut1_dsg
+  - Fixes snow inconsistencies with cbgrashut1_ds
+
+- **FIX**: cbgrashut1_n, cbgrashut1_sn
+  - Fixes night light artifacts
+
+- **OPTIMIZATION**: cbgrashut1_dn, cbgrashut1_rsn
+  - Optimizes texture size
+
+- **FIX**: cbgrashut1_ng, cbgrashut1_sng
+  - Fixes night light artifacts
+  - Fixes light inconsistencies with cbgrashut1_n, cbgrashut1_sn
+
+- **FIX**: cbgrashut1_en, cbgrashut1_rn, cbgrashut1_esn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2448](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2448)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2448_cbgrashut1_textures.yaml
+
+---
+### 2024-07-21 - Fixes cbgrashut2 textures <a name='link__20240721__2449_cbgrashut2_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgrashut2 textures.
+
+**Subchanges**
+
+- **FIX**: cbgrashut2, cbgrashut2_d, cbgrashut2_ds
+  - Adds missing door
+
+- **FIX**: cbgrashut2_e, cbgrashut2_es
+  - Fixes minor texture damage inconsistencies with cbgrashut2_d, cbgrashut2_ds
+  - Adds missing door
+  - Adds additional damages to alpha channel
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgrashut2_r
+  - Adds additional damages to alpha channel
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgrashut2_rs
+  - Adds missing door
+  - Adds additional damages to alpha channel
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgrashut2_en, cbgrashut2_rsn
+  - Fixes incorrect night light
+
+- **FIX**: cbgrashut2_rn
+  - Fixes incorrect night light
+  - Removes superfluous alpha channel
+
+- **OPTIMIZATION**: cbgrashut2_esn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2449](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2449)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2449_cbgrashut2_textures.yaml
+
+---
+### 2024-07-21 - Fixes cbgrashut3 textures <a name='link__20240721__2450_cbgrashut3_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgrashut3 textures.
+
+**Subchanges**
+
+- **FIX**: cbgrashut3, cbgrashut3_d
+  - Adds missing pipe texture
+  - Fixes under-saturated door texture
+
+- **FIX**: cbgrashut3_e
+  - Fixes under-saturated door texture
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgrashut3_r
+  - Fixes minor alpha channel damage inconsistencies with cbgrashut3_e
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgrashut3_s
+  - Fixes over-saturated door texture
+
+- **FIX**: cbgrashut3_ds
+  - Adds missing pipe texture
+  - Fixes over-saturated door texture
+
+- **FIX**: cbgrashut3_es
+  - Fixes texture damage inconsistencies with cbgrashut3_ds
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgrashut3_rs
+  - Fixes texture damage inconsistencies with cbgrashut3_es
+  - Fixes minor alpha channel damage inconsistencies with cbgrashut3_es
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgrashut3_en, cbgrashut3_rn
+  - Fixes incorrect night light
+  - Removes superfluous alpha channel
+
+- **FIX**: cbgrashut3_esn, cbgrashut3_rsn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2450](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2450)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2450_cbgrashut3_textures.yaml
+
+---
+### 2024-07-21 - Fixes cbgrashut4 textures <a name='link__20240721__2451_cbgrashut4_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgrashut4 textures.
+
+**Subchanges**
+
+- **FIX**: cbgrashut4
+  - Fixes door visuals inconsistencies with cbgrashut4_e
+
+- **FIX**: cbgrashut4_d
+  - Fixes door visuals inconsistencies with cbgrashut4_e
+  - Fixes grey damages by making them darker
+
+- **FIX**: cbgrashut4_e
+  - Fixes major texture damage inconsistencies with cbgrashut4_d
+  - Adds damages to alpha channel
+
+- **FIX**: cbgrashut4_r
+  - Fixes major texture damage inconsistencies with cbgrashut4_e
+
+- **FIX**: cbgrashut4_s
+  - Fixes snow visuals on door
+
+- **FIX**: cbgrashut4_ds
+  - Fixes snow visuals on door
+  - Fixes grey damages by making them darker
+
+- **FIX**: cbgrashut4_es
+  - Fixes major texture damage inconsistencies with cbgrashut4_ds
+  - Adds damages to alpha channel
+
+- **FIX**: cbgrashut4_rs
+  - Fixes major texture damage inconsistencies with cbgrashut4_es
+
+- **FIX**: cbgrashut4_en, cbgrashut4_rn
+  - Fixes incorrect night light
+  - Removes superfluous alpha channel
+
+- **FIX**: cbgrashut4_esn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2451](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2451)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2451_cbgrashut4_textures.yaml
 
