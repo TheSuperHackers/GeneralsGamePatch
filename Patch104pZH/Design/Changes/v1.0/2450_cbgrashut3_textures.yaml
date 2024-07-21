@@ -1,0 +1,49 @@
+---
+date: 2024-07-21
+
+title: Fixes cbgrashut3 textures
+
+changes:
+  - fix: Fixes Civilian cbgrashut3 textures.
+
+subchanges:
+  - fix: |
+      cbgrashut3, cbgrashut3_d
+        - Adds missing pipe texture
+        - Fixes under-saturated door texture
+  - fix: |
+      cbgrashut3_e
+        - Fixes under-saturated door texture
+  - fix: |
+      cbgrashut3_r
+        - Fixes minor alpha channel damage inconsistencies with cbgrashut3_e
+  - fix: |
+      cbgrashut3_s
+        - Fixes over-saturated door texture
+  - fix: |
+      cbgrashut3_ds
+        - Adds missing pipe texture
+        - Fixes over-saturated door texture
+  - fix: |
+      cbgrashut3_es
+        - Fixes texture damage inconsistencies with cbgrashut3_ds
+  - fix: |
+      cbgrashut3_rs
+        - Fixes texture damage inconsistencies with cbgrashut3_es
+        - Fixes minor alpha channel damage inconsistencies with cbgrashut3_es
+  - fix: |
+      cbgrashut3_en, cbgrashut3_esn, cbgrashut3_rn, cbgrashut3_rsn
+        - Fixes incorrect night light
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2450
+
+authors:
+  - xezon
