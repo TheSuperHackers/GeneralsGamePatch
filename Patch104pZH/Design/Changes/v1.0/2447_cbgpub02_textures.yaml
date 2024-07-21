@@ -1,0 +1,68 @@
+---
+date: 2024-07-21
+
+title: Fixes cbgpub02 textures
+
+changes:
+  - fix: Fixes Civilian cbgpub02 textures.
+
+subchanges:
+  - fix: |
+      cbgpub02
+        - Fixes misshaped house windows
+        - Fixes misplaced and blurry window reflections
+  - fix: |
+      cbgpub02_d, cbgpub02_g, cbgpub02_dg
+        - Fixes misshaped house windows
+        - Fixes too strong window reflections
+  - fix: |
+      cbgpub02_e, cbgpub02_r
+        - Fixes misshaped house windows
+        - Adds additional damages to alpha channel
+  - fix: |
+      cbgpub02_s
+        - Fixes snow position mismatches with cbgpub02_ds, cbgpub02_sg
+        - Fixes too dark snow patches
+        - Fixes misshaped house windows
+        - Fixes misplaced and blurry window reflections
+  - fix: |
+      cbgpub02_ds, cbgpub02_sg, cbgpub02_dsg
+        - Fixes too dark snow patches
+        - Fixes misshaped house windows
+        - Fixes too strong window reflections
+  - fix: |
+      cbgpub02_es, cbgpub02_rs
+        - Fixes snow inconsistencies with cbgpub02_ds
+        - Fixes too dark snow patches
+        - Fixes misshaped house windows
+        - Adds additional damages to alpha channel
+  - fix: |
+      cbgpub02_n, cbgpub02_ng
+        - Fixes light artifacts
+  - fix: |
+      cbgpub02_dn
+        - Fixes light artifacts
+        - Removes superfluous alpha channel
+  - fix: |
+      cbgpub02_dng
+        - Fixes light mismatches with cbgpub02_dn
+        - Fixes light artifacts
+  - fix: |
+      cbgpub02_en, cbgpub02_esn
+        - Fixes incorrect night light
+  - optimization: |
+      cbgpub02_rn, cbgpub02_rsn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2447
+
+authors:
+  - xezon
