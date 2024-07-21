@@ -8,9 +8,13 @@ changes:
 
 subchanges:
   - fix: |
+      cbgrashut1_e, cbgrashut1_es, cbgrashut1_rs
+        - Fixes floating pixels in alpha channel
+  - fix: |
       cbgrashut1_r
         - Fixes minor texture damage inconsistencies with cbgrashut1_e
         - Fixes minor alpha channel damage inconsistencies with cbgrashut1_e
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut1_dg
         - Fixes minor texture damage inconsistencies with cbgrashut1_d
@@ -40,6 +44,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2448
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452
 
 authors:
   - xezon

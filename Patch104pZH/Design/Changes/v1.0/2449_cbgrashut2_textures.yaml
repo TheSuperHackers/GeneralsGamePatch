@@ -15,16 +15,23 @@ subchanges:
         - Fixes minor texture damage inconsistencies with cbgrashut2_d, cbgrashut2_ds
         - Adds missing door
         - Adds additional damages to alpha channel
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut2_r
         - Adds additional damages to alpha channel
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut2_rs
         - Adds missing door
         - Adds additional damages to alpha channel
+        - Fixes floating pixels in alpha channel
   - fix: |
-      cbgrashut2_en, cbgrashut2_rn, cbgrashut2_rsn
+      cbgrashut2_en, cbgrashut2_rsn
         - Fixes incorrect night light
+  - fix: |
+      cbgrashut2_rn
+        - Fixes incorrect night light
+        - Removes superfluous alpha channel
   - optimization: |
       cbgrashut2_esn
         - Optimizes texture size
@@ -38,6 +45,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2449
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452
 
 authors:
   - xezon
