@@ -1,0 +1,28 @@
+---
+date: 2024-07-20
+
+title: Fixes cbgerbl06 textures
+
+changes:
+  - fix: Fixes Civilian cbgerbl06 textures.
+
+subchanges:
+  - fix: |
+      cbgerbl06_g
+        - Adds missing awning to texture
+  - fix: |
+      cbgerbl06_dg
+        - Fixes minor window reflection discrepancies with cbgerbl06_d
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446
+
+authors:
+  - xezon

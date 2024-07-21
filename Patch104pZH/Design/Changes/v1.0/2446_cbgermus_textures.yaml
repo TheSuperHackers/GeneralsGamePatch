@@ -1,0 +1,25 @@
+---
+date: 2024-07-20
+
+title: Fixes cbgermus textures
+
+changes:
+  - fix: Fixes Civilian cbgermus textures.
+
+subchanges:
+  - fix: |
+      cbgermus_dg
+        - Fixes minor window reflection discrepancies with cbgermus_d
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2446
+
+authors:
+  - xezon
