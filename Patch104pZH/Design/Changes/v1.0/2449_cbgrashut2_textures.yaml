@@ -25,7 +25,7 @@ subchanges:
   - fix: |
       cbgrashut2_en, cbgrashut2_rn, cbgrashut2_rsn
         - Fixes incorrect night light
-  - fix: |
+  - optimization: |
       cbgrashut2_esn
         - Optimizes texture size
 
