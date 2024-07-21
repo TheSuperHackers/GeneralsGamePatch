@@ -1,0 +1,57 @@
+---
+date: 2024-07-21
+
+title: Fixes cbgrashut4 textures
+
+changes:
+  - fix: Fixes Civilian cbgrashut4 textures.
+
+subchanges:
+  - fix: |
+      cbgrashut4
+        - Fixes door visuals inconsistencies with cbgrashut4_e
+  - fix: |
+      cbgrashut4_d
+        - Fixes door visuals inconsistencies with cbgrashut4_e
+        - Fixes grey damages by making them darker
+  - fix: |
+      cbgrashut4_e
+        - Fixes major texture damage inconsistencies with cbgrashut4_d
+        - Adds damages to alpha channel
+  - fix: |
+      cbgrashut4_r
+        - Fixes major texture damage inconsistencies with cbgrashut4_e
+  - fix: |
+      cbgrashut4_s
+        - Fixes snow visuals on door
+  - fix: |
+      cbgrashut4_ds
+        - Fixes snow visuals on door
+        - Fixes grey damages by making them darker
+  - fix: |
+      cbgrashut4_es
+        - Fixes major texture damage inconsistencies with cbgrashut4_ds
+        - Adds damages to alpha channel
+  - fix: |
+      cbgrashut4_rs
+        - Fixes major texture damage inconsistencies with cbgrashut4_es
+  - fix: |
+      cbgrashut4_en, cbgrashut4_rn
+        - Fixes incorrect night light
+        - Removes superfluous alpha channel
+  - fix: |
+      cbgrashut4_esn
+        - Fixes incorrect night light
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2451
+
+authors:
+  - xezon
