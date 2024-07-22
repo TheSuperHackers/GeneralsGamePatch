@@ -1,0 +1,25 @@
+---
+date: 2024-07-22
+
+title: Fixes cbgraybumpcement textures
+
+changes:
+  - fix: Fixes Civilian cbgraybumpcement textures.
+
+subchanges:
+  - fix: |
+      cbgraybumpcement, cbgraybumpcement_d, cbgraybumpcement_e
+        - Removes superfluous black alpha channel
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2454
+
+authors:
+  - xezon
