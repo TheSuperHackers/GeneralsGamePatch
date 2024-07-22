@@ -130,10 +130,6 @@
                                 "target": "Art/Textures/cbchalet_esn.dds"
                             },
                             {
-                                "source": "../GameFilesOriginalZH/Art/Textures/cbchalet_dn.dds",
-                                "target": "Art/Textures/cbchalet2_dn.dds"
-                            },
-                            {
                                 "source": "Art/Textures/Template/black16px.tga",
                                 "target": "Art/Textures/cbchembunk_en.dds"
                             },
@@ -479,6 +475,19 @@
                             "-quality": 255,
                             "-mipmode": "Generate",
                             "-DXT1": ""
+                        }
+                    },
+                    {
+                        "sourceParent": "GameFilesOriginalZH",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/cbchalet_dn.dds",
+                                "target": "Art/Textures/cbchalet2_dn.dds"
+                            }
+                        ],
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "Generate"
                         }
                     },
                     {
