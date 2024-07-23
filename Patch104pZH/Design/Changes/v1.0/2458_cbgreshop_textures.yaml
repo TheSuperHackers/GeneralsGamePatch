@@ -8,9 +8,6 @@ changes:
 
 subchanges:
   - fix: |
-      cbgreshop_g
-        - Fixes blurry texture
-  - fix: |
       cbgreshop_e
         - Fixes blurry texture
         - Fixes alpha channel damage inconsistencies with cbgreshop_r
@@ -20,6 +17,9 @@ subchanges:
         - Fixes minor texture damage brightness inconsistencies with cbgreshop_e
         - Adds more damages
         - Simplifies damages in alpha channel
+  - fix: |
+      cbgreshop_g
+        - Fixes blurry texture
 
 labels:
   - art
