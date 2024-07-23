@@ -1,0 +1,35 @@
+---
+date: 2024-07-23
+
+title: Fixes cbgreshop textures
+
+changes:
+  - fix: Fixes Civilian cbgreshop textures.
+
+subchanges:
+  - fix: |
+      cbgreshop_e
+        - Fixes blurry texture
+        - Fixes alpha channel damage inconsistencies with cbgreshop_r
+        - Simplifies damages in alpha channel
+  - fix: |
+      cbgreshop_r
+        - Fixes minor texture damage brightness inconsistencies with cbgreshop_e
+        - Adds more damages
+        - Simplifies damages in alpha channel
+  - fix: |
+      cbgreshop_g
+        - Fixes blurry texture
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2458
+
+authors:
+  - xezon
