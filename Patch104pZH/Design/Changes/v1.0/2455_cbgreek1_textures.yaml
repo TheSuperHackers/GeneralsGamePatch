@@ -1,0 +1,33 @@
+---
+date: 2024-07-23
+
+title: Fixes cbgreek1 textures
+
+changes:
+  - fix: Fixes Civilian cbgreek1 textures.
+
+subchanges:
+  - fix: |
+      cbgreek1_d, cbgreek1_g, cbgreek1_dg
+        - Fixes blurry texture
+  - fix: |
+      cbgreek1_e
+        - Fixes blurry texture
+        - Removes alpha channel
+  - fix: |
+      cbgreek1_r
+        - Fixes over-sharpened texture
+        - Removes alpha channel
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2455
+
+authors:
+  - xezon
