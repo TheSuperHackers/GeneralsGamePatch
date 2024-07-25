@@ -1,0 +1,117 @@
+---
+date: 2024-07-25
+
+title: Fixes cbgshop textures
+
+changes:
+  - fix: Fixes Civilian cbgshop textures.
+
+subchanges:
+  - fix: |
+      cbgshop
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+        - Fixes cut off shop sign symbol
+        - Fixes window reflection coverage
+  - fix: |
+      cbgshop_d
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+        - Fixes cut off shop sign symbol
+        - Fixes window reflection strength
+        - Fixes window reflection coverage
+  - fix: |
+      cbgshop_e
+        - Fixes artifacts on burns
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+        - Fixes cut off shop sign symbol
+        - Fixes alpha channel damage inconsistency with cbgshop_r
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbgshop_r
+        - Fixes artifacts on burns
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+        - Fixes cut off shop sign symbol
+        - Fixes texture damage inconsistencies with cbtower2_e
+        - Fixes alpha channel damage inconsistencies with cbtower2_e
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbgshop_g
+        - Fixes cut off shop sign symbol
+        - Adds shadows to window barricades
+        - Fixes reflections over window barricades
+        - Fixes window reflection strength
+        - Fixes window reflection coverage
+  - fix: |
+      cbgshop_dg
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+        - Fixes cut off shop sign symbol
+        - Fixes window reflection coverage
+  - fix: |
+      cbgshop_s
+        - Fixes shop sign looking different to cbgshop_sg
+        - Fixes snow on window reflections
+        - Fixes window reflection coverage
+  - fix: |
+      cbgshop_ds
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+        - Fixes cut off shop sign symbol
+        - Adds missing snow to window reflections
+        - Fixes window reflection coverage
+  - fix: |
+      cbgshop_es
+        - Fixes artifacts on burns
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+        - Fixes cut off shop sign symbol
+        - Fixes snow inconsistencies with cbgshop_ds
+        - Fixes alpha channel damage inconsistency with cbgshop_r
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbgshop_rs
+        - Fixes artifacts on burns
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+        - Fixes cut off shop sign symbol
+        - Fixes snow inconsistencies with cbgshop_ds
+        - Fixes texture damage inconsistencies with cbtower2_es
+        - Fixes alpha channel damage inconsistencies with cbtower2_es
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbgshop_sg
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+        - Fixes cut off shop sign symbol
+        - Adds shadows to window barricades
+        - Adds missing snow to window reflections
+        - Fixes window reflection coverage
+  - fix: |
+      cbgshop_dsg
+        - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+        - Fixes cut off shop sign symbol
+        - Adds shadows to window barricades
+        - Adds snow to window barricades
+        - Adds missing snow to window reflections
+        - Fixes window reflection coverage
+  - fix: |
+      cbgshop_n, cbgshop_ng
+        - Fixes black levels to avoid bright night model
+        - Recreates night lights to match fixed window dimensions
+  - fix: |
+      cbgshop_en, cbgshop_esn
+        - Fixes incorrect night light
+        - Removes superfluous alpha channel
+  - fix: |
+      cbgshop_rn
+        - Fixes incorrect night light
+  - optimization: |
+      cbgshop_rsn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2460
+
+authors:
+  - xezon
