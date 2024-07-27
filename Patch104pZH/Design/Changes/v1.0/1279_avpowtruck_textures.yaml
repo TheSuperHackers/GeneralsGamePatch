@@ -8,11 +8,11 @@ changes:
 
 subchanges:
   - fix: |
-      avpowtruck_d (Optional)
+      avpowtruck_d
         - Fixes mis-positioned drivers roof texture
         - Fixes sharp edges of burns
   - fix: |
-      avpowtruck_d1 (Optional)
+      avpowtruck_d1
         - Fixes mis-positioned drivers roof texture
         - Fixes strong contrast on drivers roof texture
         - Fixes sharp edges of burns

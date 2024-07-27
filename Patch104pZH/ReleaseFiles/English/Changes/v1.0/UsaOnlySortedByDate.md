@@ -1862,16 +1862,16 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Subchanges**
 
 - **FIX**: atdiaplate, atdiaplate_d
-  -  Flips texture horizontally to better blend with nearby texture on USA Warfactory
+  - Flips texture horizontally to better blend with nearby texture on USA Warfactory
 
 - **FIX**: atdiaplate_e
-  -  Flips texture horizontally
-  -  Removes bullet holes
-  -  Adds more dust
+  - Flips texture horizontally
+  - Removes bullet holes
+  - Adds more dust
 
 - **FIX**: atdiaplate_s, atdiaplate_ds
-  -  Flips texture horizontally
-  -  Repaints snow (inherently fixes snow position mismatches)
+  - Flips texture horizontally
+  - Repaints snow (inherently fixes snow position mismatches)
 
 - **FIX**: atdiaplate_es
   - Flips texture horizontally
@@ -2314,11 +2314,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Subchanges**
 
-- **FIX**: avpowtruck_d (Optional)
+- **FIX**: avpowtruck_d
   - Fixes mis-positioned drivers roof texture
   - Fixes sharp edges of burns
 
-- **FIX**: avpowtruck_d1 (Optional)
+- **FIX**: avpowtruck_d1
   - Fixes mis-positioned drivers roof texture
   - Fixes strong contrast on drivers roof texture
   - Fixes sharp edges of burns
@@ -3210,7 +3210,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Subchanges**
 
-- **FIX**: atsilverroof:
+- **FIX**: atsilverroof
   - Fixes some oversharpened roof parts
 
 - **FIX**: atsilverroof_d, atsilverroof_e

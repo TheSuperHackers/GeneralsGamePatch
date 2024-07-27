@@ -20,11 +20,11 @@ subchanges:
         - Fixes black level
         - Recreates damaged lights
   - fix: |
-      cbairport_sn, cbairport_dsn, cbairport_sng, cbairport_dsng
-        - Creates 2x upscale to 512x512 based on regular night textures
-  - fix: |
       cbairport_en, cbairport_rn
         - Fixes incorrect night light
+  - fix: |
+      cbairport_sn, cbairport_dsn, cbairport_sng, cbairport_dsng
+        - Creates 2x upscale to 512x512 based on regular night textures
   - optimization: |
       cbairport_esn, cbairport_rsn
         - Optimizes texture size

@@ -1,15 +1,15 @@
 ---
 date: 2022-12-05
 
-title: Improves scorch texture quality
+title: Fixes and improves scorch textures
 
 changes:
-  - feature: Fixes and enhances exscorch01 texture.
+  - fix: Fixes and improves exscorch01 texture.
 
 subchanges:
-  - feature: Uses 2x AI upscale.
-  - fix: Fixes alpha channel to match opacity of 4 scorches.
-  - fix: Fixes shape of scorch number 4.
+  - fix: Creates 2x upscale to 512x512
+  - fix: Fixes alpha channel to match opacity of 4 scorches
+  - fix: Fixes shape of scorch number 4
 
 
 labels:

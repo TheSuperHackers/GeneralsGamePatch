@@ -8,12 +8,14 @@ changes:
 
 subchanges:
   - fix: |
+      cbgassttn_e, cbgassttn_es
+        - Fixes damage inconsistencies with cbgassttn_d, cbgassttn_ds
+  - fix: |
+      cbgassttn_r, cbgassttn_rs
+        - Fixes damage inconsistencies with cbgassttn_e, cbgassttn_es
+  - fix: |
       cbgassttn_g
         - Fixes window reflections on window barricades
-        - Removes holes from walls
-  - fix: |
-      cbgassttn_sg
-        - Fixes minor snow inconsistencies with cbgassttn_s
         - Removes holes from walls
   - fix: |
       cbgassttn_dg, cbgassttn_dsg
@@ -21,11 +23,9 @@ subchanges:
         - Fixes window reflections on window barricades
         - Removes excess damages from walls
   - fix: |
-      cbgassttn_e, cbgassttn_es
-        - Fixes damage inconsistencies with cbgassttn_d, cbgassttn_ds
-  - fix: |
-      cbgassttn_r, cbgassttn_rs
-        - Fixes damage inconsistencies with cbgassttn_e, cbgassttn_es
+      cbgassttn_sg
+        - Fixes minor snow inconsistencies with cbgassttn_s
+        - Removes holes from walls
   - fix: |
       cbgassttn_dng
         - Fixes borders of window lights

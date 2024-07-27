@@ -8,11 +8,11 @@ changes:
 
 subchanges:
   - fix: |
-      cbeurocnd_dg
-        - Fixes window reflections over window damages
-  - fix: |
       cbeurocnd_e, cbeurocnd_r, cbeurocnd_es, cbeurocnd_rs
         - Fixes floating pixels in alpha channel
+  - fix: |
+      cbeurocnd_dg
+        - Fixes window reflections over window damages
   - fix: |
       cbeurocnd_s
         - Fixes minor snow discrepancies with cbeurocnd_sg

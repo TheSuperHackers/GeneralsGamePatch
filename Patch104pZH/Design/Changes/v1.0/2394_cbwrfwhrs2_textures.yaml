@@ -8,9 +8,6 @@ changes:
 
 subchanges:
   - fix: |
-      cbwrfwhrs2_dg
-        - Creates 2x upscale to 512x512, a copy of cbwrfwhrs2_d
-  - fix: |
       cbwrfwhrs2_e
         - Fixes major texture damage inconsistencies with cbwrfwhrs2_d
         - Fixes floating pixels in alpha channel
@@ -20,6 +17,9 @@ subchanges:
         - Fixes alpha channel damage inconsistencies with cbwrfwhrs2_e
         - Fixes floating pixels in alpha channel
         - Adds more texture damages
+  - fix: |
+      cbwrfwhrs2_dg
+        - Creates 2x upscale to 512x512, a copy of cbwrfwhrs2_d
   - fix: |
       cbwrfwhrs2_s, cbwrfwhrs2_ds, cbwrfwhrs2_sg
         - Creates 2x upscale to 512x512

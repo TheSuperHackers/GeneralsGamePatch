@@ -18,11 +18,11 @@ subchanges:
         - Inherits all fixes, improvements of ntpwrplantslab, ntpwrplantslab_s
         - Adds burned rubble below near the reactor
   - fix: |
-      ntpwrplantslab_es
-        - Adds more burned rubble so texture looks different to ntpwrplantslab_ds
-  - feature: |
       ntpwrplantslab_e
         - New
+  - fix: |
+      ntpwrplantslab_es
+        - Adds more burned rubble so texture looks different to ntpwrplantslab_ds
 
 labels:
   - art

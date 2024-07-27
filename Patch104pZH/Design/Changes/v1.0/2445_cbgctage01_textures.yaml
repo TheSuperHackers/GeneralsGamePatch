@@ -60,6 +60,9 @@ subchanges:
       cbgctage01_dn, cbgctage01_ng, cbgctage01_dng
         - Fixes night lights looking very different than cbgctage01_n
   - fix: |
+      cbgctage01_en, cbgctage01_rn, cbgctage01_esn, cbgctage01_rsn
+        - Fixes incorrect night lights
+  - fix: |
       cbgctage01_sn
         - Increases brightness of faint night lights
         - Adds missing lights to windows
@@ -70,9 +73,6 @@ subchanges:
   - fix: |
       cbgctage01_sng, cbgctage01_dsng
         - Fixes night lights looking very different than cbgctage01_sn
-  - fix: |
-      cbgctage01_en, cbgctage01_rn, cbgctage01_esn, cbgctage01_rsn
-        - Fixes incorrect night lights
 
 labels:
   - art

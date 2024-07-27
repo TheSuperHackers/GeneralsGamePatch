@@ -28,12 +28,12 @@ subchanges:
       cbgrashut1_dn, cbgrashut1_rsn
         - Optimizes texture size
   - fix: |
+      cbgrashut1_en, cbgrashut1_rn, cbgrashut1_esn
+        - Fixes incorrect night light
+  - fix: |
       cbgrashut1_ng, cbgrashut1_sng
         - Fixes night light artifacts
         - Fixes light inconsistencies with cbgrashut1_n, cbgrashut1_sn
-  - fix: |
-      cbgrashut1_en, cbgrashut1_rn, cbgrashut1_esn
-        - Fixes incorrect night light
 
 labels:
   - art

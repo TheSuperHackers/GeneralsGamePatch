@@ -47,13 +47,6 @@ subchanges:
         - Fixes snow inconsistencies with cbgwmill1_s, cbgwmill1_dsg
         - Adds alpha channel
   - fix: |
-      cbgwmill1_dsg
-        - Creates 2x upscale to 256x256
-        - Improves wind blade visuals
-        - Removes some obsolete window barricades
-        - Fixes snow inconsistencies with cbgwmill1_sg
-        - Adds alpha channel
-  - fix: |
       cbgwmill1_es
         - Creates 2x upscale to 256x256
         - Improves wind blade visuals
@@ -62,6 +55,13 @@ subchanges:
       cbgwmill1_rs
         - Creates 2x upscale to 256x256
         - Fixes texture damage inconsistencies with cbgwmill1_es
+        - Adds alpha channel
+  - fix: |
+      cbgwmill1_dsg
+        - Creates 2x upscale to 256x256
+        - Improves wind blade visuals
+        - Removes some obsolete window barricades
+        - Fixes snow inconsistencies with cbgwmill1_sg
         - Adds alpha channel
   - fix: |
       cbgwmill1_n, cbgwmill1_dn, cbgwmill1_ng, cbgwmill1_dng, cbgwmill1_sn, cbgwmill1_dsn, cbgwmill1_sng, cbgwmill1_dsng

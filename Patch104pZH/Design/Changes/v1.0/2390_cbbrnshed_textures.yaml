@@ -14,11 +14,11 @@ subchanges:
       cbbrnshed_n, cbbrnshed_dn, cbbrnshed_ng, cbbrnshed_dng, cbbrnshed_sng
         - Recreates 2x upscale to 256x256 to match regular base texture size
   - fix: |
-      cbbrnshed_sn, cbbrnshed_dsn, cbbrnshed_dsng
-        - Recreates texture with slightly better visuals
-  - fix: |
       cbbrnshed_en
         - Fixes incorrect night light
+  - fix: |
+      cbbrnshed_sn, cbbrnshed_dsn, cbbrnshed_dsng
+        - Recreates texture with slightly better visuals
   - optimization: |
       cbbrnshed_esn
         - Optimizes texture size

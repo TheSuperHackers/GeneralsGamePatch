@@ -6,13 +6,13 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (173)
+- art (180)
 - audio (128)
 - boss (59)
 - buff (100)
 - bug (465)
 - china (238)
-- civilian (65)
+- civilian (72)
 - controversial (130)
 - critical (5)
 - design (217)
@@ -20,31 +20,31 @@ Occuring labels are
 - gla (255)
 - gui (75)
 - major (93)
-- minor (800)
+- minor (807)
 - nerf (32)
-- optional (78)
+- optional (85)
 - performance (25)
 - text (102)
 - usa (268)
-- v1.0 (903)
+- v1.0 (910)
 - wip (1)
 - worldbuilder (19)
 
 Sorts changes by: blocker, critical, major, minor, usa, china, gla, boss, civilian, date (ascending)
 
-Contains 903 entries with
+Contains 910 entries with
 
-- 1417 changes
-  - FIX (1026)
+- 1424 changes
+  - FIX (1034)
   - TWEAK (291)
   - OPTIMIZATION (12)
-  - FEATURE (62)
+  - FEATURE (61)
   - REFACTOR (26)
-- 989 subchanges
-  - FIX (833)
+- 1031 subchanges
+  - FIX (876)
   - TWEAK (115)
-  - FEATURE (28)
-  - OPTIMIZATION (13)
+  - FEATURE (26)
+  - OPTIMIZATION (14)
 
 ## Index
 - [2021-09-07 - Fixes China Nuke Missile exploit](#link__20210907__209_nuke_missile_exploit)
@@ -829,6 +829,13 @@ Contains 903 entries with
 - [2024-07-21 - Fixes cbgrashut2 textures](#link__20240721__2449_cbgrashut2_textures)
 - [2024-07-21 - Fixes cbgrashut3 textures](#link__20240721__2450_cbgrashut3_textures)
 - [2024-07-21 - Fixes cbgrashut4 textures](#link__20240721__2451_cbgrashut4_textures)
+- [2024-07-22 - Fixes cbgraybumpcement textures](#link__20240722__2454_cbgraybumpcement_textures)
+- [2024-07-23 - Fixes cbgreek1 textures](#link__20240723__2455_cbgreek1_textures)
+- [2024-07-23 - Fixes cbgreek2 textures](#link__20240723__2456_cbgreek2_textures)
+- [2024-07-23 - Fixes cbgreek3 textures](#link__20240723__2457_cbgreek3_textures)
+- [2024-07-23 - Fixes cbgreshop textures](#link__20240723__2458_cbgreshop_textures)
+- [2024-07-25 - Fixes cbgshop textures](#link__20240725__2460_cbgshop_textures)
+- [2024-07-27 - Fixes and improves cbgwmill1 textures](#link__20240727__2461_cbgwmill1_textures)
 - [2021-08-27 - Fixes units shooting at already killed infantry units](#link__20210827__75_dead_target_bug)
 - [2021-08-28 - Fixes Anthrax Gamma streams showing with green particles when clearing buildings](#link__20210828__84_green_gamma_toxin_streams)
 - [2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once](#link__20210830__122_ui_faction_list_size)
@@ -890,7 +897,7 @@ Contains 903 entries with
 - [2022-12-01 - Fixes wrong USA EMP Patriot model during construction and deconstruction](#link__20221201__1492_emp_patriot_sell_model)
 - [2022-12-04 - Fixes invisible desert shrub bush objects](#link__20221204__1488_invisible_desert_shrub_bushes)
 - [2022-12-04 - Tweaks terrain scorch sizes of explosion effects](#link__20221204__1494_scorch_sizes)
-- [2022-12-05 - Improves scorch texture quality](#link__20221205__1495_scorch_textures)
+- [2022-12-05 - Fixes and improves scorch textures](#link__20221205__1495_scorch_textures)
 - [2022-12-15 - Removes duplicate shockwave effects from aircraft explosions](#link__20221215__1504_duplicate_explosion_shockwave)
 - [2023-01-01 - Improves placement view angle of faction base defenses](#link__20230101__1514_defenses_placement_angle)
 - [2023-01-06 - Fixes infantry missile particle effects](#link__20230106__1520_missile_particles)
@@ -4853,16 +4860,16 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Subchanges**
 
 - **FIX**: atdiaplate, atdiaplate_d
-  -  Flips texture horizontally to better blend with nearby texture on USA Warfactory
+  - Flips texture horizontally to better blend with nearby texture on USA Warfactory
 
 - **FIX**: atdiaplate_e
-  -  Flips texture horizontally
-  -  Removes bullet holes
-  -  Adds more dust
+  - Flips texture horizontally
+  - Removes bullet holes
+  - Adds more dust
 
 - **FIX**: atdiaplate_s, atdiaplate_ds
-  -  Flips texture horizontally
-  -  Repaints snow (inherently fixes snow position mismatches)
+  - Flips texture horizontally
+  - Repaints snow (inherently fixes snow position mismatches)
 
 - **FIX**: atdiaplate_es
   - Flips texture horizontally
@@ -5288,11 +5295,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Subchanges**
 
-- **FIX**: avpowtruck_d (Optional)
+- **FIX**: avpowtruck_d
   - Fixes mis-positioned drivers roof texture
   - Fixes sharp edges of burns
 
-- **FIX**: avpowtruck_d1 (Optional)
+- **FIX**: avpowtruck_d1
   - Fixes mis-positioned drivers roof texture
   - Fixes strong contrast on drivers roof texture
   - Fixes sharp edges of burns
@@ -6097,7 +6104,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Subchanges**
 
-- **FIX**: atsilverroof:
+- **FIX**: atsilverroof
   - Fixes some oversharpened roof parts
 
 - **FIX**: atsilverroof_d, atsilverroof_e
@@ -8815,11 +8822,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Inherits all fixes, improvements of ntpwrplantslab, ntpwrplantslab_s
   - Adds burned rubble below near the reactor
 
+- **FIX**: ntpwrplantslab_e
+  - New
+
 - **FIX**: ntpwrplantslab_es
   - Adds more burned rubble so texture looks different to ntpwrplantslab_ds
-
-- **FEATURE**: ntpwrplantslab_e
-  - New
 
 
 **Links**
@@ -10366,7 +10373,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Links**
 
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/xxxx](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/xxxx)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2282](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2282)
 
 **Labels:** china, enhancement, minor, v1.0, worldbuilder
 
@@ -14721,11 +14728,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: cbbrnshed_n, cbbrnshed_dn, cbbrnshed_ng, cbbrnshed_dng, cbbrnshed_sng
   - Recreates 2x upscale to 256x256 to match regular base texture size
 
-- **FIX**: cbbrnshed_sn, cbbrnshed_dsn, cbbrnshed_dsng
-  - Recreates texture with slightly better visuals
-
 - **FIX**: cbbrnshed_en
   - Fixes incorrect night light
+
+- **FIX**: cbbrnshed_sn, cbbrnshed_dsn, cbbrnshed_dsng
+  - Recreates texture with slightly better visuals
 
 - **OPTIMIZATION**: cbbrnshed_esn
   - Optimizes texture size
@@ -14764,7 +14771,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: cbapt01_g, cbapt01_s, cbapt01_sg
   - Fixes window reflection errors
 
-- **FIX**: cbapt01_n, cbapt01_ng, cbapt01_dn, cbapt01_dng, cbapt01_sn, cbapt01_dsn, cbapt01_sng, cbapt01_dsng
+- **FIX**: cbapt01_n, cbapt01_dn, cbapt01_ng, cbapt01_dng, cbapt01_sn, cbapt01_dsn, cbapt01_sng, cbapt01_dsng
   - Recreates night lights with better visuals
 
 - **FIX**: cbapt01_en, cbapt01_rn, cbapt01_esn, cbapt01_rsn
@@ -14802,11 +14809,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Fixes black level
   - Recreates damaged lights
 
-- **FIX**: cbairport_sn, cbairport_dsn, cbairport_sng, cbairport_dsng
-  - Creates 2x upscale to 512x512 based on regular night textures
-
 - **FIX**: cbairport_en, cbairport_rn
   - Fixes incorrect night light
+
+- **FIX**: cbairport_sn, cbairport_dsn, cbairport_sng, cbairport_dsng
+  - Creates 2x upscale to 512x512 based on regular night textures
 
 - **OPTIMIZATION**: cbairport_esn, cbairport_rsn
   - Optimizes texture size
@@ -14830,9 +14837,6 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Subchanges**
 
-- **FIX**: cbwrfwhrs2_dg
-  - Creates 2x upscale to 512x512, a copy of cbwrfwhrs2_d
-
 - **FIX**: cbwrfwhrs2_e
   - Fixes major texture damage inconsistencies with cbwrfwhrs2_d
   - Fixes floating pixels in alpha channel
@@ -14842,6 +14846,9 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Fixes alpha channel damage inconsistencies with cbwrfwhrs2_e
   - Fixes floating pixels in alpha channel
   - Adds more texture damages
+
+- **FIX**: cbwrfwhrs2_dg
+  - Creates 2x upscale to 512x512, a copy of cbwrfwhrs2_d
 
 - **FIX**: cbwrfwhrs2_s, cbwrfwhrs2_ds, cbwrfwhrs2_sg
   - Creates 2x upscale to 512x512
@@ -15157,12 +15164,12 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: cbchembunk_dn
   - Recreates feathered night lights
 
+- **FIX**: cbchembunk_en, cbchembunk_esn
+  - Fixes incorrect night light
+
 - **FIX**: cbchembunk_dng, cbchembunk_sn, cbchembunk_dsn, cbchembunk_dsng
   - Creates 2x upscale to 256x256
   - Recreates feathered night lights
-
-- **FIX**: cbchembunk_en, cbchembunk_esn
-  - Fixes incorrect night light
 
 
 **Links**
@@ -15187,12 +15194,12 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Creates 2x upscale to 512x512
   - Adds missing window reflections
 
-- **FIX**: cbchemfact_g, cbchemfact_sg
-  - Fixes minor artifacts on window reflections
-
 - **FIX**: cbchemfact_r
   - Removes traces of snow
   - Fixes minor damage inconsistencies with cbchemfact_e
+
+- **FIX**: cbchemfact_g, cbchemfact_sg
+  - Fixes minor artifacts on window reflections
 
 - **FIX**: cbchemfact_s
   - Removes window barricades from window reflections
@@ -15201,13 +15208,13 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Creates 2x upscale to 256x256
   - Recreates night lights with less feather and more brightness
 
+- **FIX**: cbchemfact_en, cbchemfact_rn
+  - Fixes incorrect night light
+
 - **FIX**: cbchemfact_ng
   - Creates 2x upscale to 256x256
   - Recreates night lights with less feather and more brightness
   - Fixes lightness inconsistency with cbchemfact_n
-
-- **FIX**: cbchemfact_en, cbchemfact_rn
-  - Fixes incorrect night light
 
 
 **Links**
@@ -15231,13 +15238,13 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: cbcnvstr01
   - Fixes shop sign looking different to cbcnvstr01_d, cbcnvstr01_e, cbcnvstr01_r
 
-- **FIX**: cbcnvstr01_g
-  - Fixes house texture brightness and details looking slightly different to cbcnvstr01_dg, cbcnvstr01_e, cbcnvstr01_r
-
 - **FIX**: cbcnvstr01_r
   - Fixes broken windows in alpha channel
   - Adds missing dirt to roof
   - Adds extra dirt to texture
+
+- **FIX**: cbcnvstr01_g
+  - Fixes house texture brightness and details looking slightly different to cbcnvstr01_dg, cbcnvstr01_e, cbcnvstr01_r
 
 - **FIX**: cbcnvstr01_s, cbcnvstr01_ds, cbcnvstr01_es, cbcnvstr01_rs, cbcnvstr01_sg, cbcnvstr01_dsg
   - Creates 2x upscale to 512x512
@@ -15245,6 +15252,9 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - **FIX**: cbcnvstr01_dn, cbcnvstr01_dng
   - Recreates night lights damages
+
+- **FIX**: cbcnvstr01_en, cbcnvstr01_esn
+  - Fixes incorrect night lights
 
 - **FIX**: cbcnvstr01_sn, cbcnvstr01_sng
   - Creates 2x upscale to 512x512
@@ -15254,9 +15264,6 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Creates 2x upscale to 512x512
   - Fixes light shining through snow
   - Recreates night lights damages
-
-- **FIX**: cbcnvstr01_en, cbcnvstr01_esn
-  - Fixes incorrect night lights
 
 
 **Links**
@@ -15427,6 +15434,9 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: cbetvstat_sg
   - Fixes window reflections drawing over snow a bit
 
+- **FIX**: cbetvstat_en
+  - Fixes incorrect night lights
+
 - **FIX**: cbetvstat_ng, cbetvstat_dng
   - Fixes unexpected outlines around window barricades
 
@@ -15440,9 +15450,6 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: cbetvstat_dsng
   - Fixes night light over window barricades
   - Fixes night light inconsistencies with cbetvstat_dsn
-
-- **FIX**: cbetvstat_en
-  - Fixes incorrect night lights
 
 
 **Links**
@@ -15467,15 +15474,15 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
   - Fixes dark texture border
 
+- **FIX**: cbdriveins_e, cbdriveins_r
+  - Fixes dark texture border
+
 - **FIX**: cbdriveins_g
   - Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
 
 - **FIX**: cbdriveins_dg
   - Fixes dark texture border
   - Removes superfluous black alpha channel
-
-- **FIX**: cbdriveins_e, cbdriveins_r
-  - Fixes dark texture border
 
 
 **Links**
@@ -15496,11 +15503,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Subchanges**
 
-- **FIX**: cbeurocnd_dg
-  - Fixes window reflections over window damages
-
 - **FIX**: cbeurocnd_e, cbeurocnd_r, cbeurocnd_es, cbeurocnd_rs
   - Fixes floating pixels in alpha channel
+
+- **FIX**: cbeurocnd_dg
+  - Fixes window reflections over window damages
 
 - **FIX**: cbeurocnd_s
   - Fixes minor snow discrepancies with cbeurocnd_sg
@@ -15545,27 +15552,24 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Subchanges**
 
-- **FIX**: cbeurocnd2_dg
-  - Removes wrong snow from texture
-
 - **FIX**: cbeurocnd2_e
   - Removes window barricades
   - Fixes texture damage inconsistencies with cbeurocnd_d
-  - Fixes floating pixels from broken windows in alpha channel
-
-- **FIX**: cbeurocnd2_es
-  - Fixes minor texture brightness inconsistencies with cbeurocnd_d
   - Fixes floating pixels from broken windows in alpha channel
 
 - **FIX**: cbeurocnd2_r, cbeurocnd2_rs
   - Fixes major texture inconsistencies with cbeurocnd_e, cbeurocnd_es
   - Fixes alpha channel damage inconsistencies with cbeurocnd_e, cbeurocnd_es
 
+- **FIX**: cbeurocnd2_dg
+  - Removes wrong snow from texture
+
+- **FIX**: cbeurocnd2_es
+  - Fixes minor texture brightness inconsistencies with cbeurocnd_d
+  - Fixes floating pixels from broken windows in alpha channel
+
 - **FIX**: cbeurocnd2_dn
   - Fixes night light artifacts
-
-- **FIX**: cbeurocnd2_ng
-  - Fixes night light inconsistencies with cbeurocnd2_n
 
 - **FIX**: cbeurocnd2_dng
   - Fixes night light inconsistencies with cbeurocnd2_n, cbeurocnd2_dn
@@ -15575,6 +15579,9 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - **FIX**: cbeurocnd2_esn
   - Fixes incorrect night lights
+
+- **FIX**: cbeurocnd2_ng
+  - Fixes night light inconsistencies with cbeurocnd2_n
 
 
 **Links**
@@ -15627,14 +15634,14 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: cbeuropkg_dn
   - Adds damaged night lights
 
+- **FIX**: cbeuropkg_en, cbeuropkg_rblack
+  - Fixes incorrect night lights
+
 - **FIX**: cbeuropkg_sn
   - Creates 2x upscale to 512x512
 
 - **FIX**: cbeuropkg_dsn
   - Adds new texture based on cbeuropkg_sn, cbeuropkg_dn
-
-- **FIX**: cbeuropkg_en, cbeuropkg_rblack
-  - Fixes incorrect night lights
 
 
 **Links**
@@ -15761,12 +15768,14 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 **Subchanges**
 
+- **FIX**: cbgassttn_e, cbgassttn_es
+  - Fixes damage inconsistencies with cbgassttn_d, cbgassttn_ds
+
+- **FIX**: cbgassttn_r, cbgassttn_rs
+  - Fixes damage inconsistencies with cbgassttn_e, cbgassttn_es
+
 - **FIX**: cbgassttn_g
   - Fixes window reflections on window barricades
-  - Removes holes from walls
-
-- **FIX**: cbgassttn_sg
-  - Fixes minor snow inconsistencies with cbgassttn_s
   - Removes holes from walls
 
 - **FIX**: cbgassttn_dg, cbgassttn_dsg
@@ -15774,11 +15783,9 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Fixes window reflections on window barricades
   - Removes excess damages from walls
 
-- **FIX**: cbgassttn_e, cbgassttn_es
-  - Fixes damage inconsistencies with cbgassttn_d, cbgassttn_ds
-
-- **FIX**: cbgassttn_r, cbgassttn_rs
-  - Fixes damage inconsistencies with cbgassttn_e, cbgassttn_es
+- **FIX**: cbgassttn_sg
+  - Fixes minor snow inconsistencies with cbgassttn_s
+  - Removes holes from walls
 
 - **FIX**: cbgassttn_dng
   - Fixes borders of window lights
@@ -15919,6 +15926,9 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: cbgctage01_dn, cbgctage01_ng, cbgctage01_dng
   - Fixes night lights looking very different than cbgctage01_n
 
+- **FIX**: cbgctage01_en, cbgctage01_rn, cbgctage01_esn, cbgctage01_rsn
+  - Fixes incorrect night lights
+
 - **FIX**: cbgctage01_sn
   - Increases brightness of faint night lights
   - Adds missing lights to windows
@@ -15929,9 +15939,6 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - **FIX**: cbgctage01_sng, cbgctage01_dsng
   - Fixes night lights looking very different than cbgctage01_sn
-
-- **FIX**: cbgctage01_en, cbgctage01_rn, cbgctage01_esn, cbgctage01_rsn
-  - Fixes incorrect night lights
 
 
 **Links**
@@ -16197,12 +16204,12 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **OPTIMIZATION**: cbgrashut1_dn, cbgrashut1_rsn
   - Optimizes texture size
 
+- **FIX**: cbgrashut1_en, cbgrashut1_rn, cbgrashut1_esn
+  - Fixes incorrect night light
+
 - **FIX**: cbgrashut1_ng, cbgrashut1_sng
   - Fixes night light artifacts
   - Fixes light inconsistencies with cbgrashut1_n, cbgrashut1_sn
-
-- **FIX**: cbgrashut1_en, cbgrashut1_rn, cbgrashut1_esn
-  - Fixes incorrect night light
 
 
 **Links**
@@ -16372,6 +16379,350 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2451_cbgrashut4_textures.yaml
+
+---
+### 2024-07-22 - Fixes cbgraybumpcement textures <a name='link__20240722__2454_cbgraybumpcement_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgraybumpcement textures.
+
+**Subchanges**
+
+- **FIX**: cbgraybumpcement, cbgraybumpcement_d, cbgraybumpcement_e
+  - Removes superfluous black alpha channel
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2454](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2454)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2454_cbgraybumpcement_textures.yaml
+
+---
+### 2024-07-23 - Fixes cbgreek1 textures <a name='link__20240723__2455_cbgreek1_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgreek1 textures.
+
+**Subchanges**
+
+- **FIX**: cbgreek1_d, cbgreek1_g, cbgreek1_dg
+  - Fixes blurry texture
+
+- **FIX**: cbgreek1_e
+  - Fixes blurry texture
+  - Removes alpha channel
+
+- **FIX**: cbgreek1_r
+  - Fixes over-sharpened texture
+  - Removes alpha channel
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2455](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2455)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2455_cbgreek1_textures.yaml
+
+---
+### 2024-07-23 - Fixes cbgreek2 textures <a name='link__20240723__2456_cbgreek2_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgreek2 textures.
+
+**Subchanges**
+
+- **FIX**: cbgreek2_d, cbgreek2_dg
+  - Fixes blurry texture
+  - Adds additional damages
+
+- **FIX**: cbgreek2_e
+  - Fixes blurry texture
+  - Simplifies damages in alpha channel
+
+- **FIX**: cbgreek2_r
+  - Fixes major texture inconsistencies with cbgreek2_e
+  - Simplifies damages in alpha channel
+
+- **FIX**: cbgreek2_g
+  - Fixes blurry texture
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2456](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2456)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2456_cbgreek2_textures.yaml
+
+---
+### 2024-07-23 - Fixes cbgreek3 textures <a name='link__20240723__2457_cbgreek3_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgreek3 textures.
+
+**Subchanges**
+
+- **FIX**: cbgreek3_e, cbgreek3_r
+  - Fixes blurry texture
+  - Removes alpha channel
+
+- **FIX**: cbgreek3_g
+  - Fixes slight texture sharpness mismatch with cbgreek3
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2457](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2457)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2457_cbgreek3_textures.yaml
+
+---
+### 2024-07-23 - Fixes cbgreshop textures <a name='link__20240723__2458_cbgreshop_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgreshop textures.
+
+**Subchanges**
+
+- **FIX**: cbgreshop_e
+  - Fixes blurry texture
+  - Fixes alpha channel damage inconsistencies with cbgreshop_r
+  - Simplifies damages in alpha channel
+
+- **FIX**: cbgreshop_r
+  - Fixes minor texture damage brightness inconsistencies with cbgreshop_e
+  - Adds more damages
+  - Simplifies damages in alpha channel
+
+- **FIX**: cbgreshop_g
+  - Fixes blurry texture
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2458](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2458)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2458_cbgreshop_textures.yaml
+
+---
+### 2024-07-25 - Fixes cbgshop textures <a name='link__20240725__2460_cbgshop_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbgshop textures.
+
+**Subchanges**
+
+- **FIX**: cbgshop
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+  - Fixes cut off shop sign symbol
+  - Fixes window reflection coverage
+
+- **FIX**: cbgshop_d
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+  - Fixes cut off shop sign symbol
+  - Fixes window reflection strength
+  - Fixes window reflection coverage
+
+- **FIX**: cbgshop_e
+  - Fixes artifacts on burns
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+  - Fixes cut off shop sign symbol
+  - Fixes alpha channel damage inconsistency with cbgshop_r
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgshop_r
+  - Fixes artifacts on burns
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+  - Fixes cut off shop sign symbol
+  - Fixes texture damage inconsistencies with cbtower2_e
+  - Fixes alpha channel damage inconsistencies with cbtower2_e
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgshop_g
+  - Fixes cut off shop sign symbol
+  - Adds shadows to window barricades
+  - Fixes reflections over window barricades
+  - Fixes window reflection strength
+  - Fixes window reflection coverage
+
+- **FIX**: cbgshop_dg
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+  - Fixes cut off shop sign symbol
+  - Fixes window reflection coverage
+
+- **FIX**: cbgshop_s
+  - Fixes shop sign looking different to cbgshop_sg
+  - Fixes snow on window reflections
+  - Fixes window reflection coverage
+
+- **FIX**: cbgshop_ds
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+  - Fixes cut off shop sign symbol
+  - Adds missing snow to window reflections
+  - Fixes window reflection coverage
+
+- **FIX**: cbgshop_es
+  - Fixes artifacts on burns
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+  - Fixes cut off shop sign symbol
+  - Fixes snow inconsistencies with cbgshop_ds
+  - Fixes alpha channel damage inconsistency with cbgshop_r
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgshop_rs
+  - Fixes artifacts on burns
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+  - Fixes cut off shop sign symbol
+  - Fixes snow inconsistencies with cbgshop_ds
+  - Fixes texture damage inconsistencies with cbtower2_es
+  - Fixes alpha channel damage inconsistencies with cbtower2_es
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbgshop_sg
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+  - Fixes cut off shop sign symbol
+  - Adds shadows to window barricades
+  - Adds missing snow to window reflections
+  - Fixes window reflection coverage
+
+- **FIX**: cbgshop_dsg
+  - Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+  - Fixes cut off shop sign symbol
+  - Adds shadows to window barricades
+  - Adds snow to window barricades
+  - Adds missing snow to window reflections
+  - Fixes window reflection coverage
+
+- **FIX**: cbgshop_n, cbgshop_ng
+  - Fixes black levels to avoid bright night model
+  - Recreates night lights to match fixed window dimensions
+
+- **FIX**: cbgshop_en, cbgshop_esn
+  - Fixes incorrect night light
+  - Removes superfluous alpha channel
+
+- **FIX**: cbgshop_rn
+  - Fixes incorrect night light
+
+- **OPTIMIZATION**: cbgshop_rsn
+  - Optimizes texture size
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2460](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2460)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2460_cbgshop_textures.yaml
+
+---
+### 2024-07-27 - Fixes and improves cbgwmill1 textures <a name='link__20240727__2461_cbgwmill1_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbgwmill1 textures.
+
+**Subchanges**
+
+- **FIX**: cbgwmill1
+  - Creates 2x upscale to 256x256
+  - Improves wind blade visuals
+
+- **FIX**: cbgwmill1_d
+  - Creates 2x upscale to 256x256
+  - Improves wind blade visuals
+  - Fixes minor damage inconsistencies with cbgwmill1_dg
+  - Adds alpha channel
+
+- **FIX**: cbgwmill1_e
+  - Creates 2x upscale to 256x256
+  - Improves wind blade visuals
+  - Fixes minor damage inconsistencies with cbgwmill1_dg
+  - Fixes thin outlines on wind blades
+
+- **FIX**: cbgwmill1_r
+  - Creates 2x upscale to 256x256
+  - Fixes texture damage inconsistencies with cbgwmill1_e
+  - Adds alpha channel
+
+- **FIX**: cbgwmill1_g, cbgwmill1_dg, cbgwmill1_sg
+  - Creates 2x upscale to 256x256
+  - Improves wind blade visuals
+  - Removes some obsolete window barricades
+  - Adds alpha channel
+
+- **FIX**: cbgwmill1_s, cbgwmill_s
+  - Creates 2x upscale to 256x256
+  - Improves wind blade visuals
+  - Fixes snow inconsistencies with cbgwmill1_sg
+  - Adds alpha channel
+
+- **FIX**: cbgwmill1_ds
+  - Creates 2x upscale to 256x256
+  - Improves wind blade visuals
+  - Fixes snow inconsistencies with cbgwmill1_s, cbgwmill1_dsg
+  - Adds alpha channel
+
+- **FIX**: cbgwmill1_es
+  - Creates 2x upscale to 256x256
+  - Improves wind blade visuals
+  - Fixes texture damage inconsistencies with cbgwmill1_ds
+
+- **FIX**: cbgwmill1_rs
+  - Creates 2x upscale to 256x256
+  - Fixes texture damage inconsistencies with cbgwmill1_es
+  - Adds alpha channel
+
+- **FIX**: cbgwmill1_dsg
+  - Creates 2x upscale to 256x256
+  - Improves wind blade visuals
+  - Removes some obsolete window barricades
+  - Fixes snow inconsistencies with cbgwmill1_sg
+  - Adds alpha channel
+
+- **FIX**: cbgwmill1_n, cbgwmill1_dn, cbgwmill1_ng, cbgwmill1_dng, cbgwmill1_sn, cbgwmill1_dsn, cbgwmill1_sng, cbgwmill1_dsng
+  - Creates 2x upscale to 256x256
+  - Fixes major night light artifacts
+
+- **FIX**: cbgwmill1_en, cbgwmill1_esn
+  - Fixes incorrect night light
+  - Removes superfluous alpha channel
+
+- **FIX**: cbgwmill1_rn, cbgwmill1_rsn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2461](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2461)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2461_cbgwmill1_textures.yaml
 
 ---
 ### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='link__20210827__75_dead_target_bug'></a>
@@ -17581,16 +17932,16 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1494_scorch_sizes.yaml
 
 ---
-### 2022-12-05 - Improves scorch texture quality <a name='link__20221205__1495_scorch_textures'></a>
+### 2022-12-05 - Fixes and improves scorch textures <a name='link__20221205__1495_scorch_textures'></a>
 **Changes**
 
-- **FEATURE**: Fixes and enhances exscorch01 texture.
+- **FIX**: Fixes and improves exscorch01 texture.
 
 **Subchanges**
 
-- **FEATURE**: Uses 2x AI upscale.
-- **FIX**: Fixes alpha channel to match opacity of 4 scorches.
-- **FIX**: Fixes shape of scorch number 4.
+- **FIX**: Creates 2x upscale to 512x512
+- **FIX**: Fixes alpha channel to match opacity of 4 scorches
+- **FIX**: Fixes shape of scorch number 4
 
 **Links**
 
