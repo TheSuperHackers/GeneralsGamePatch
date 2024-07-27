@@ -9,16 +9,16 @@ changes:
 subchanges:
   - fix: |
       atdiaplate, atdiaplate_d
-        -  Flips texture horizontally to better blend with nearby texture on USA Warfactory
+        - Flips texture horizontally to better blend with nearby texture on USA Warfactory
   - fix: |
       atdiaplate_e
-        -  Flips texture horizontally
-        -  Removes bullet holes
-        -  Adds more dust
+        - Flips texture horizontally
+        - Removes bullet holes
+        - Adds more dust
   - fix: |
       atdiaplate_s, atdiaplate_ds
-        -  Flips texture horizontally
-        -  Repaints snow (inherently fixes snow position mismatches)
+        - Flips texture horizontally
+        - Repaints snow (inherently fixes snow position mismatches)
   - fix: |
       atdiaplate_es
         - Flips texture horizontally

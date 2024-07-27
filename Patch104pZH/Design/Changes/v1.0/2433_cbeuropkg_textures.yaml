@@ -40,14 +40,14 @@ subchanges:
       cbeuropkg_dn
         - Adds damaged night lights
   - fix: |
+      cbeuropkg_en, cbeuropkg_rblack
+        - Fixes incorrect night lights
+  - fix: |
       cbeuropkg_sn
         - Creates 2x upscale to 512x512
   - fix: |
       cbeuropkg_dsn
         - Adds new texture based on cbeuropkg_sn, cbeuropkg_dn
-  - fix: |
-      cbeuropkg_en, cbeuropkg_rblack
-        - Fixes incorrect night lights
 
 labels:
   - art

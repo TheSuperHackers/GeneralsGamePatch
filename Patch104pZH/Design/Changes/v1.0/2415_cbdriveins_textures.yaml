@@ -12,15 +12,15 @@ subchanges:
         - Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
         - Fixes dark texture border
   - fix: |
+      cbdriveins_e, cbdriveins_r
+        - Fixes dark texture border
+  - fix: |
       cbdriveins_g
         - Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
   - fix: |
       cbdriveins_dg
         - Fixes dark texture border
         - Removes superfluous black alpha channel
-  - fix: |
-      cbdriveins_e, cbdriveins_r
-        - Fixes dark texture border
 
 labels:
   - art

@@ -12,12 +12,12 @@ subchanges:
         - Creates 2x upscale to 512x512
         - Adds missing window reflections
   - fix: |
-      cbchemfact_g, cbchemfact_sg
-        - Fixes minor artifacts on window reflections
-  - fix: |
       cbchemfact_r
         - Removes traces of snow
         - Fixes minor damage inconsistencies with cbchemfact_e
+  - fix: |
+      cbchemfact_g, cbchemfact_sg
+        - Fixes minor artifacts on window reflections
   - fix: |
       cbchemfact_s
         - Removes window barricades from window reflections
@@ -26,13 +26,13 @@ subchanges:
         - Creates 2x upscale to 256x256
         - Recreates night lights with less feather and more brightness
   - fix: |
+      cbchemfact_en, cbchemfact_rn
+        - Fixes incorrect night light
+  - fix: |
       cbchemfact_ng
         - Creates 2x upscale to 256x256
         - Recreates night lights with less feather and more brightness
         - Fixes lightness inconsistency with cbchemfact_n
-  - fix: |
-      cbchemfact_en, cbchemfact_rn
-        - Fixes incorrect night light
 
 labels:
   - art

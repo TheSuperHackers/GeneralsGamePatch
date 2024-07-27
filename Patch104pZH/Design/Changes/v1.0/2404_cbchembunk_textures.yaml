@@ -69,12 +69,12 @@ subchanges:
       cbchembunk_dn
         - Recreates feathered night lights
   - fix: |
+      cbchembunk_en, cbchembunk_esn
+        - Fixes incorrect night light
+  - fix: |
       cbchembunk_dng, cbchembunk_sn, cbchembunk_dsn, cbchembunk_dsng
         - Creates 2x upscale to 256x256
         - Recreates feathered night lights
-  - fix: |
-      cbchembunk_en, cbchembunk_esn
-        - Fixes incorrect night light
 
 labels:
   - art

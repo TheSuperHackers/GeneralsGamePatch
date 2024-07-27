@@ -11,13 +11,13 @@ subchanges:
       cbcnvstr01
         - Fixes shop sign looking different to cbcnvstr01_d, cbcnvstr01_e, cbcnvstr01_r
   - fix: |
-      cbcnvstr01_g
-        - Fixes house texture brightness and details looking slightly different to cbcnvstr01_dg, cbcnvstr01_e, cbcnvstr01_r
-  - fix: |
       cbcnvstr01_r
         - Fixes broken windows in alpha channel
         - Adds missing dirt to roof
         - Adds extra dirt to texture
+  - fix: |
+      cbcnvstr01_g
+        - Fixes house texture brightness and details looking slightly different to cbcnvstr01_dg, cbcnvstr01_e, cbcnvstr01_r
   - fix: |
       cbcnvstr01_s, cbcnvstr01_ds, cbcnvstr01_es, cbcnvstr01_rs, cbcnvstr01_sg, cbcnvstr01_dsg
         - Creates 2x upscale to 512x512
@@ -25,6 +25,9 @@ subchanges:
   - fix: |
       cbcnvstr01_dn, cbcnvstr01_dng
         - Recreates night lights damages
+  - fix: |
+      cbcnvstr01_en, cbcnvstr01_esn
+        - Fixes incorrect night lights
   - fix: |
       cbcnvstr01_sn, cbcnvstr01_sng
         - Creates 2x upscale to 512x512
@@ -34,9 +37,6 @@ subchanges:
         - Creates 2x upscale to 512x512
         - Fixes light shining through snow
         - Recreates night lights damages
-  - fix: |
-      cbcnvstr01_en, cbcnvstr01_esn
-        - Fixes incorrect night lights
 
 labels:
   - art

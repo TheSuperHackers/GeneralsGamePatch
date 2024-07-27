@@ -39,8 +39,7 @@ Contains 238 entries with
   - FEATURE (11)
   - OPTIMIZATION (3)
 - 404 subchanges
-  - FIX (334)
-  - FEATURE (1)
+  - FIX (335)
   - TWEAK (69)
 
 ## Index
@@ -1865,11 +1864,11 @@ Contains 238 entries with
   - Inherits all fixes, improvements of ntpwrplantslab, ntpwrplantslab_s
   - Adds burned rubble below near the reactor
 
+- **FIX**: ntpwrplantslab_e
+  - New
+
 - **FIX**: ntpwrplantslab_es
   - Adds more burned rubble so texture looks different to ntpwrplantslab_ds
-
-- **FEATURE**: ntpwrplantslab_e
-  - New
 
 
 **Links**
@@ -4677,7 +4676,7 @@ Contains 238 entries with
 
 **Links**
 
-- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/xxxx](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/xxxx)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2282](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2282)
 
 **Labels:** china, enhancement, minor, v1.0, worldbuilder
 

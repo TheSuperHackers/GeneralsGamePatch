@@ -27,6 +27,9 @@ subchanges:
       cbetvstat_sg
         - Fixes window reflections drawing over snow a bit
   - fix: |
+      cbetvstat_en
+        - Fixes incorrect night lights
+  - fix: |
       cbetvstat_ng, cbetvstat_dng
         - Fixes unexpected outlines around window barricades
   - fix: |
@@ -40,9 +43,6 @@ subchanges:
       cbetvstat_dsng
         - Fixes night light over window barricades
         - Fixes night light inconsistencies with cbetvstat_dsn
-  - fix: |
-      cbetvstat_en
-        - Fixes incorrect night lights
 
 labels:
   - art

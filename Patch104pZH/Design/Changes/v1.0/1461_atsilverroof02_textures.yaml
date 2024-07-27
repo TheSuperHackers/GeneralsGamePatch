@@ -8,7 +8,7 @@ changes:
 
 subchanges:
   - fix: |
-      atsilverroof:
+      atsilverroof
         - Fixes some oversharpened roof parts
   - fix: |
       atsilverroof_d, atsilverroof_e
