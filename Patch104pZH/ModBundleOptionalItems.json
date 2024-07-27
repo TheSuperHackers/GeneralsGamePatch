@@ -426,6 +426,10 @@
                                 "target": "Art/Textures/cbgshop_rsn.dds"
                             },
                             {
+                                "source": "Art/Textures/GenerateMip/cbgwmill1_s.psd",
+                                "target": "Art/Textures/cbgwmill_s.dds"
+                            },
+                            {
                                 "source": "Art/Textures/Template/black16px.tga",
                                 "target": "Art/Textures/cbgwmill1_en.dds"
                             },
