@@ -1,0 +1,1 @@
+CBHANGAR1 is a large building with a small 256x256 texture. 2x upscale would be good.

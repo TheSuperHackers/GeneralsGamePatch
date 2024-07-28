@@ -462,6 +462,30 @@
                                 "target": "Art/Textures/cbh2oplnt_rsn.dds"
                             },
                             {
+                                "source": "Art/Textures/GenerateMip/cbhangar01_dn.psd",
+                                "target": "Art/Textures/cbhangar01_dsn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbhangar01_dng.psd",
+                                "target": "Art/Textures/cbhangar01_dsng.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbhangar01_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbhangar01_esn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbhangar01_rn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbhangar01_rsn.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
@@ -535,6 +559,10 @@
                             {
                                 "source": "Art/Textures/cbchalet_dn.dds",
                                 "target": "Art/Textures/cbchalet2_dn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/cbhangar01_n.dds",
+                                "target": "Art/Textures/cbhangar01_sn.dds"
                             }
                         ],
                         "params": {

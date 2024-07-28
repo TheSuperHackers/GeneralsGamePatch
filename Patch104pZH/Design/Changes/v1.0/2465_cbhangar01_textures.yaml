@@ -1,0 +1,37 @@
+---
+date: 2024-07-28
+
+title: Fixes cbhangar01 textures
+
+changes:
+  - fix: Fixes Civilian cbhangar01 textures.
+
+subchanges:
+  - fix: |
+      cbhangar01_dn, cbhangar01_dsn
+        - Removes unexpected window barricades
+  - fix: |
+      cbhangar01_dng, cbhangar01_dsng
+        - Recreates texture based on new cbhangar01_dn
+  - fix: |
+      cbhangar01_en, cbhangar01_esn
+        - Optimizes texture size
+  - fix: |
+      cbhangar01_rn, cbhangar01_rsn
+        - Fixes incorrect night light
+  - fix: |
+      cbhangar01_sn
+        - Creates 2x upscale to 256x256 based on original cbhangar01_n
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2465
+
+authors:
+  - xezon
