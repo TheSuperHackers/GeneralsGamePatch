@@ -1,0 +1,46 @@
+---
+date: 2024-07-28
+
+title: Fixes and improves cbh2oplnt textures
+
+changes:
+  - fix: Fixes and improves Civilian cbh2oplnt textures.
+
+subchanges:
+  - fix: |
+      cbh2oplnt_s, cbh2oplnt_ds
+        - Creates 2x upscale to 512x512
+        - Removes black bricks
+  - fix: |
+      cbh2oplnt_es, cbh2oplnt_sg, cbh2oplnt_dsg
+        - Creates 2x upscale to 512x512
+  - fix: |
+      cbh2oplnt_rs
+        - Creates 2x upscale to 512x512
+        - Fixes missing damages in alpha channel
+  - fix: |
+      cbh2oplnt_n
+        - Adds missing lights to second window
+  - fix: |
+      cbh2oplnt_en, cbh2oplnt_rn, cbh2oplnt_esn, cbh2oplnt_rsn
+        - Fixes incorrect night light
+        - Removes superfluous alpha channel
+  - fix: |
+      cbh2oplnt_ng
+        - Recreates night lights based on new cbh2oplnt_n
+  - fix: |
+      cbh2oplnt_sn, cbh2oplnt_sng
+        - New
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2463
+
+authors:
+  - xezon
