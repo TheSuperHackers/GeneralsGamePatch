@@ -1,0 +1,41 @@
+---
+date: 2024-07-30
+
+title: Fixes cbhigh01 textures
+
+changes:
+  - fix: Fixes Civilian cbhigh01 textures.
+
+subchanges:
+  - fix: |
+      cbhigh01_r
+        - Fixes texture and alpha channel damage inconsistencies with cbhigh01_e
+  - fix: |
+      cbhigh01_g
+        - Fixes minor brightness discrepancy with cbhigh01
+        - Fixes window reflection errors
+  - fix: |
+      cbhigh01_dn
+        - Reduces brightness of white lights
+        - Fixes light artifacts
+  - fix: |
+      cbhigh01_ng
+        - Fixes light artifacts behind window barricades
+  - fix: |
+      cbhigh01_dng
+        - Reduces brightness of white lights
+        - Fixes light artifacts
+        - Fixes light artifacts behind window barricades
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2468
+
+authors:
+  - xezon
