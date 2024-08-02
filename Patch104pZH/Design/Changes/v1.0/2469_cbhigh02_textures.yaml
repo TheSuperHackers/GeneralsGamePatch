@@ -1,0 +1,53 @@
+---
+date: 2024-08-02
+
+title: Fixes cbhigh02 textures
+
+changes:
+  - fix: Fixes Civilian cbhigh02 textures.
+
+subchanges:
+  - fix: |
+      cbhigh02_g
+        - Fixes one barricade drawing over facade
+        - Fixes artifacts around barricade paintings
+        - Fixes window reflection positions in alpha channel
+  - fix: |
+      cbhigh02_dg
+        - Fixes one barricade drawing over facade
+        - Fixes artifacts around barricade paintings
+        - Adds missing shadows to window barricades
+        - Optimizes window reflections in alpha channel based on new cbhigh02_g
+  - fix: |
+      cbhigh02_n
+        - Fixes door and window lights
+        - Removes superfluous alpha channel
+  - fix: |
+      cbhigh02_dn
+        - Fixes door and window lights
+        - Recreates light damages
+        - Removes superfluous alpha channel
+  - fix: |
+      cbhigh02_ng
+        - Fixes door and window lights
+        - Fixes wrong positioned window barricades
+        - Removes superfluous alpha channel
+  - fix: |
+      cbhigh02_dng
+        - Fixes door and window lights
+        - Fixes wrong positioned window barricades
+        - Recreates light damages
+        - Removes superfluous alpha channel
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2469
+
+authors:
+  - xezon
