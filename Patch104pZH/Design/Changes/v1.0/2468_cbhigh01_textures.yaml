@@ -16,16 +16,18 @@ subchanges:
         - Fixes window reflection errors
   - fix: |
       cbhigh01_dn
-        - Reduces brightness of white lights
+        - Recreates light damages
         - Fixes light artifacts
   - fix: |
       cbhigh01_ng
         - Fixes light artifacts behind window barricades
+        - Removes black alpha channel
   - fix: |
       cbhigh01_dng
-        - Reduces brightness of white lights
+        - Recreates light damages
         - Fixes light artifacts
         - Fixes light artifacts behind window barricades
+        - Removes black alpha channel
 
 labels:
   - art
@@ -36,6 +38,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2468
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2469
 
 authors:
   - xezon
