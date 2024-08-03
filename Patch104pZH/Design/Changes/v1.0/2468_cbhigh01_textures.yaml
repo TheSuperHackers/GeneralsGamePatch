@@ -16,7 +16,7 @@ subchanges:
         - Fixes window reflection errors
   - fix: |
       cbhigh01_dn
-        - Reduces brightness of white lights
+        - Recreates light damages
         - Fixes light artifacts
   - fix: |
       cbhigh01_ng
@@ -24,7 +24,7 @@ subchanges:
         - Removes black alpha channel
   - fix: |
       cbhigh01_dng
-        - Reduces brightness of white lights
+        - Recreates light damages
         - Fixes light artifacts
         - Fixes light artifacts behind window barricades
         - Removes black alpha channel
