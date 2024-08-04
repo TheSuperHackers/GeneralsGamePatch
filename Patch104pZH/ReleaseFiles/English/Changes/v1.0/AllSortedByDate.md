@@ -6,13 +6,13 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (180)
+- art (186)
 - audio (128)
 - boss (59)
 - buff (100)
 - bug (465)
 - china (238)
-- civilian (72)
+- civilian (78)
 - controversial (130)
 - critical (5)
 - design (217)
@@ -20,28 +20,28 @@ Occuring labels are
 - gla (255)
 - gui (75)
 - major (93)
-- minor (807)
+- minor (813)
 - nerf (32)
-- optional (85)
+- optional (91)
 - performance (25)
 - text (102)
 - usa (268)
-- v1.0 (910)
+- v1.0 (916)
 - wip (1)
 - worldbuilder (19)
 
 Sorts changes by: date (ascending)
 
-Contains 910 entries with
+Contains 916 entries with
 
-- 1424 changes
-  - FIX (1034)
+- 1430 changes
+  - FIX (1040)
   - OPTIMIZATION (12)
   - TWEAK (291)
   - FEATURE (61)
   - REFACTOR (26)
-- 1031 subchanges
-  - FIX (876)
+- 1081 subchanges
+  - FIX (926)
   - FEATURE (26)
   - TWEAK (115)
   - OPTIMIZATION (14)
@@ -957,6 +957,12 @@ Contains 910 entries with
 - [2024-07-23 - Fixes cbgreshop textures](#link__20240723__2458_cbgreshop_textures)
 - [2024-07-25 - Fixes cbgshop textures](#link__20240725__2460_cbgshop_textures)
 - [2024-07-27 - Fixes and improves cbgwmill1 textures](#link__20240727__2461_cbgwmill1_textures)
+- [2024-07-28 - Fixes and improves cbh2oplnt textures](#link__20240728__2463_cbh2oplnt_textures)
+- [2024-07-29 - Fixes cbhangar03 textures](#link__20240729__2466_cbhangar03_textures)
+- [2024-07-30 - Fixes cbhigh01 textures](#link__20240730__2468_cbhigh01_textures)
+- [2024-08-02 - Fixes cbhigh02 textures](#link__20240802__2469_cbhigh02_textures)
+- [2024-08-03 - Fixes and improves cbindwhs01 textures](#link__20240803__2470_cbindwhs01_textures)
+- [2024-08-04 - Fixes and improves cbindwhs02 textures](#link__20240804__2471_cbindwhs02_textures)
 
 
 
@@ -20385,4 +20391,356 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Authors:** xezon
 
 **Source:** 2461_cbgwmill1_textures.yaml
+
+---
+### 2024-07-28 - Fixes and improves cbh2oplnt textures <a name='link__20240728__2463_cbh2oplnt_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbh2oplnt textures.
+
+**Subchanges**
+
+- **FIX**: cbh2oplnt_s, cbh2oplnt_ds
+  - Creates 2x upscale to 512x512
+  - Removes black bricks
+
+- **FIX**: cbh2oplnt_es, cbh2oplnt_sg, cbh2oplnt_dsg
+  - Creates 2x upscale to 512x512
+
+- **FIX**: cbh2oplnt_rs
+  - Creates 2x upscale to 512x512
+  - Fixes missing damages in alpha channel
+
+- **FIX**: cbh2oplnt_n
+  - Adds missing lights to second window
+
+- **FIX**: cbh2oplnt_en, cbh2oplnt_rn, cbh2oplnt_esn, cbh2oplnt_rsn
+  - Fixes incorrect night light
+  - Removes superfluous alpha channel
+
+- **FIX**: cbh2oplnt_ng
+  - Recreates night lights based on new cbh2oplnt_n
+
+- **FIX**: cbh2oplnt_sn, cbh2oplnt_sng
+  - New
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2463](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2463)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2463_cbh2oplnt_textures.yaml
+
+---
+### 2024-07-29 - Fixes cbhangar03 textures <a name='link__20240729__2466_cbhangar03_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbhangar03 textures.
+
+**Subchanges**
+
+- **FIX**: cbhangar03_d, cbhangar03_dg
+  - Reduces texture damages
+
+- **FIX**: cbhangar03_e
+  - Fixes texture damage inconsistencies with cbhangar03_d
+  - Removes ghost bullet holes
+  - Fixes blurry metal plate
+
+- **FIX**: cbhangar03_n, cbhangar03_ng
+  - Fixes light bleeding
+  - Recreates light visuals
+
+- **FIX**: cbhangar03_dn, cbhangar03_dng
+  - Reduces texture damages
+  - Recreates light visuals
+
+- **FIX**: cbhangar03_en
+  - Removes night lights
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2466](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2466)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2466_cbhangar03_textures.yaml
+
+---
+### 2024-07-30 - Fixes cbhigh01 textures <a name='link__20240730__2468_cbhigh01_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbhigh01 textures.
+
+**Subchanges**
+
+- **FIX**: cbhigh01_r
+  - Fixes texture and alpha channel damage inconsistencies with cbhigh01_e
+
+- **FIX**: cbhigh01_g
+  - Fixes minor brightness discrepancy with cbhigh01
+  - Fixes window reflection errors
+
+- **FIX**: cbhigh01_dn
+  - Recreates light damages
+  - Fixes light artifacts
+
+- **FIX**: cbhigh01_ng
+  - Fixes light artifacts behind window barricades
+  - Removes black alpha channel
+
+- **FIX**: cbhigh01_dng
+  - Recreates light damages
+  - Fixes light artifacts
+  - Fixes light artifacts behind window barricades
+  - Removes black alpha channel
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2468](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2468)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2469](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2469)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2468_cbhigh01_textures.yaml
+
+---
+### 2024-08-02 - Fixes cbhigh02 textures <a name='link__20240802__2469_cbhigh02_textures'></a>
+**Changes**
+
+- **FIX**: Fixes Civilian cbhigh02 textures.
+
+**Subchanges**
+
+- **FIX**: cbhigh02_g
+  - Fixes one barricade drawing over facade
+  - Fixes artifacts around barricade paintings
+  - Fixes window reflection positions in alpha channel
+
+- **FIX**: cbhigh02_dg
+  - Fixes one barricade drawing over facade
+  - Fixes artifacts around barricade paintings
+  - Adds missing shadows to window barricades
+  - Optimizes window reflections in alpha channel based on new cbhigh02_g
+
+- **FIX**: cbhigh02_n
+  - Fixes door and window lights
+  - Removes superfluous alpha channel
+
+- **FIX**: cbhigh02_dn
+  - Fixes door and window lights
+  - Recreates light damages
+  - Removes superfluous alpha channel
+
+- **FIX**: cbhigh02_ng
+  - Fixes door and window lights
+  - Fixes wrong positioned window barricades
+  - Removes superfluous alpha channel
+
+- **FIX**: cbhigh02_dng
+  - Fixes door and window lights
+  - Fixes wrong positioned window barricades
+  - Recreates light damages
+  - Removes superfluous alpha channel
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2469](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2469)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2469_cbhigh02_textures.yaml
+
+---
+### 2024-08-03 - Fixes and improves cbindwhs01 textures <a name='link__20240803__2470_cbindwhs01_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbindwhs01 textures.
+
+**Subchanges**
+
+- **FIX**: cbindwhs01
+  - Fixes misaligned window reflections
+  - Adds missing window reflections
+
+- **FIX**: cbindwhs01_d
+  - Fixes misaligned window reflections
+  - Adds missing window reflections
+  - Adds damages to window reflections
+
+- **FIX**: cbindwhs01_rs
+  - Fixes minor damage inconsistencies with cbindwhs01_e
+
+- **FIX**: cbindwhs01_g
+  - Adds shadows to window barricades
+  - Fixes misaligned window reflections
+  - Fixes too strong window reflections
+  - Adds missing window reflections
+
+- **FIX**: cbindwhs01_dg
+  - Adds shadows to window barricades
+  - Fixes misaligned window reflections
+  - Fixes too strong window reflections
+  - Adds damages to window reflections
+  - Adds missing window reflections
+
+- **FIX**: cbindwhs01_s, cbindwhs01_sg
+  - Creates 2x upscale to 512x512
+  - Fixes misaligned window reflections
+  - Fixes too strong window reflections
+  - Adds missing window reflections
+
+- **FIX**: cbindwhs01_ds, cbindwhs01_dsg
+  - Creates 2x upscale to 512x512
+  - Fixes misaligned window reflections
+  - Fixes too strong window reflections
+  - Adds missing window reflections
+  - Adds damages to window reflections
+
+- **FIX**: cbindwhs01_es
+  - Creates 2x upscale to 512x512
+
+- **FIX**: cbindwhs01_rs
+  - Creates 2x upscale to 512x512
+  - Fixes minor damage inconsistencies with cbindwhs01_es
+
+- **FIX**: cbindwhs01_n, cbindwhs01_dn, cbindwhs01_ng, cbindwhs01_sn, cbindwhs01_sng
+  - Creates 2x upscale to 512x512
+  - Recreates house lights
+
+- **FIX**: cbindwhs01_dng, cbindwhs01_dsn, cbindwhs01_dsng
+  - New
+
+- **FIX**: cbindwhs01_en, cbindwhs01_rn, cbindwhs01_esn, cbindwhs01_rsn
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2470](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2470)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2470_cbindwhs01_textures.yaml
+
+---
+### 2024-08-04 - Fixes and improves cbindwhs02 textures <a name='link__20240804__2471_cbindwhs02_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbindwhs02 textures.
+
+**Subchanges**
+
+- **FIX**: cbindwhs02
+  - Sharpens blurry parts of texture
+  - Removes company logo
+  - Fixes misshaped windows
+  - Fixes misshaped window reflections
+
+- **FIX**: cbindwhs02_d
+  - Sharpens blurry parts of texture
+  - Removes company logo
+  - Fixes misshaped windows
+  - Fixes misshaped window reflections
+  - Adds damages to window reflections
+
+- **FIX**: cbindwhs02_e, cbindwhs02_r
+  - Sharpens blurry parts of texture
+  - Removes company logo
+  - Fixes misshaped windows
+
+- **FIX**: cbindwhs02_g
+  - Sharpens blurry parts of texture
+  - Removes company logo
+  - Fixes misshaped windows
+  - Fixes misshaped window reflections
+  - Adds shadows to window barricades
+
+- **FIX**: cbindwhs02_dg
+  - Sharpens blurry parts of texture
+  - Removes company logo
+  - Fixes misshaped windows
+  - Fixes misshaped window reflections
+  - Adds damages to window reflections
+  - Adds shadows to window barricades
+
+- **FIX**: cbindwhs02_s
+  - Creates 2x upscale to 512x512
+  - Removes company logo
+  - Fixes misshaped windows
+  - Fixes misshaped window reflections
+  - Removes barricades from window reflections
+
+- **FIX**: cbindwhs02_ds
+  - Creates 2x upscale to 512x512
+  - Removes company logo
+  - Fixes misshaped windows
+  - Fixes misshaped window reflections
+  - Removes barricades from window reflections
+  - Adds damages to window reflections
+
+- **FIX**: cbindwhs02_es, cbindwhs02_rs
+  - Creates 2x upscale to 512x512
+  - Removes company logo
+  - Fixes misshaped windows
+
+- **FIX**: cbindwhs02_sg
+  - Creates 2x upscale to 512x512
+  - Removes company logo
+  - Fixes misshaped windows
+  - Fixes misshaped window reflections
+  - Adds shadows to window barricades
+
+- **FIX**: cbindwhs02_dsg
+  - Creates 2x upscale to 512x512
+  - Removes company logo
+  - Fixes misshaped windows
+  - Fixes misshaped window reflections
+  - Adds damages to window reflections
+  - Adds shadows to window barricades
+
+- **FIX**: cbindwhs02_n, cbindwhs02_dn
+  - Recreates house lights
+
+- **FIX**: cbindwhs02_en, cbindwhs02_rn, cbindwhs02_esn, cbindwhs02_rsn
+  - Fixes incorrect night light
+
+- **FIX**: cbindwhs02_ng, cbindwhs02_dng
+  - Recreates house lights
+  - Fixes blurry window barricade shadows
+
+- **FIX**: cbindwhs02_sn, cbindwhs02_sng
+  - Creates 2x upscale to 512x512
+  - Recreates house lights
+
+- **FIX**: cbindwhs02_dsn, cbindwhs02_dsng
+  - Creates 2x upscale to 512x512
+  - Fixes lights looking different to cbindwhs02_sn, cbindwhs02_sng
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2471_cbindwhs02_textures.yaml
 
