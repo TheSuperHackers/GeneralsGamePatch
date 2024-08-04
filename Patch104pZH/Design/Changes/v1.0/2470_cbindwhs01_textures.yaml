@@ -8,11 +8,6 @@ changes:
 
 subchanges:
   - fix: |
-      cbhigh02_g
-        - Fixes one barricade drawing over facade
-        - Fixes artifacts around barricade paintings
-        - Fixes window reflection positions in alpha channel
-  - fix: |
       cbindwhs01
         - Fixes misaligned window reflections
         - Adds missing window reflections
@@ -77,6 +72,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2470
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471
 
 authors:
   - xezon
