@@ -37,7 +37,7 @@ subchanges:
   - fix: |
       cbmectdrl1_dsng
         - Fixes minor inconsistencies with cbmectdrl1_dsn, cbmectdrl1_sng
-  - fix: |
+  - optimization: |
       cbmectdrl1_esn, cbmectdrl1_rsn
         - Optimizes texture size
         - Removes superfluous alpha channel
