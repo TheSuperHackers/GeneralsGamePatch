@@ -1,0 +1,81 @@
+---
+date: 2024-08-11
+
+title: Fixes cbmogdis02 textures
+
+changes:
+  - fix: Fixes Civilian cbmogdis02 textures.
+
+subchanges:
+  - fix: |
+      cbmogdis02_e
+        - Removes bad holes from alpha channel
+  - fix: |
+      cbmogdis02_r
+        - Fixes major texture damage inconsistencies with cbmogdis02_e
+        - Adds missing alpha channel
+  - fix: |
+      cbmogdis02_g
+        - Fixes window barricades drawing over edges
+        - Adds missing alpha channel
+  - fix: |
+      cbmogdis02_dg
+        - Fixes window barricades drawing over edges
+        - Fixes texture damage inconsistencies with cbmogdis02_d
+  - fix: |
+      cbmogdis02_s
+        - Fixes black lines in snow
+        - Fixes window reflection on alpha channel
+  - fix: |
+      cbmogdis02_s
+        - Fixes major snow discrepancies with cbmogdis02_sg
+        - Fixes black lines in snow
+  - fix: |
+      cbmogdis02_ds
+        - Fixes black lines in snow
+  - fix: |
+      cbmogdis02_es
+        - Fixes major texture damage inconsistencies with cbmogdis02_ds
+  - fix: |
+      cbmogdis02_rs
+        - Fixes major texture damage inconsistencies with cbmogdis02_es
+        - Adds missing alpha channel
+  - fix: |
+      cbmogdis02_sg
+        - Fixes window barricades drawing over edges
+        - Fixes black lines in snow
+        - Adds missing alpha channel
+  - fix: |
+      cbmogdis02_dsg
+        - Fixes major snow discrepancies with cbmogdis02_ds
+        - Fixes black lines in snow
+  - fix: |
+      cbmogdis02_n, cbmogdis02_gn
+        - Fixes light spills and artifacts
+  - fix: |
+      cbmogdis02_dn
+        - Fixes light spills and artifacts
+        - Increases light brightness
+  - fix: |
+      cbmogdis02_en, cbmogdis02_dng, cbmogdis02_esn, cbmogdis02_rsn, cbmogdis02_sn
+        - Fixes incorrect night light
+  - fix: |
+      cbmogdis02_rn
+        - Fixes incorrect night light
+        - Removes superfluous alpha channel
+  - fix: |
+      cbmogdis02_dsn, cbmogdis02_sng, cbmogdis02_dsng
+        - New
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476
+
+authors:
+  - xezon
