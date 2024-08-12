@@ -562,6 +562,14 @@
                                 "target": "Art/Textures/cbmogdis02_rsn.dds"
                             },
                             {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbmogdis03_s_black2.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbmogdis03_sblack1.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
@@ -617,6 +625,20 @@
                     },
                     {
                         "sourceParent": "GameFilesOriginalCCG",
+                        "sourceTargetList": [
+                            {
+                                "source": "Art/Textures/RemoveAlphaChannel/*.dds",
+                                "target": "Art/Textures/*.dds"
+                            }
+                        ],
+                        "params": {
+                            "-quality": 255,
+                            "-mipmode": "Generate",
+                            "-DXT1": ""
+                        }
+                    },
+                    {
+                        "sourceParent": "GameFilesOriginalZH",
                         "sourceTargetList": [
                             {
                                 "source": "Art/Textures/RemoveAlphaChannel/*.dds",
