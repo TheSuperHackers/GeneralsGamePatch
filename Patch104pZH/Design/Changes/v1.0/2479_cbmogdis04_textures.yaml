@@ -1,0 +1,70 @@
+---
+date: 2024-08-12
+
+title: Fixes and improves cbmogdis04 textures
+
+changes:
+  - fix: Fixes and improves Civilian cbmogdis04 textures.
+
+subchanges:
+  - fix: |
+      cbmogdis04_d
+        - Removes some bad bullet holes
+  - fix: |
+      cbmogdis04 _e
+        - Suppresses grey emboss details
+        - Removes obsolete alpha channel
+  - fix: |
+      cbmogdis04_r
+        - Suppresses grey emboss details
+        - Increases brightness of texture
+        - Adds missing alpha channel based on cbmogdis04 _e
+  - fix: |
+      cbmogdis04_g, cbmogdis04_dg
+        - Adds shadows to window barricades
+  - fix: |
+      cbmogdis04_s
+        - Fix snow shadow mismatches with cbmogdis04_ds
+  - fix: |
+      cbmogdis04_sg
+        - Fix snow shadow mismatches with cbmogdis04_dsg
+  - fix: |
+      cbmogdis04_ds
+        - Fixes snow drawing over broken windows
+  - fix: |
+      cbmogdis04_dsg
+        - Fixes snow drawing over broken windows
+        - Remove obsolete alpha channel
+  - fix: |
+      cbmogdis04_es
+        - Fixes snow drawing over broken windows
+        - Fixes minor snow inconsistencies with cbmogdis04_ds
+        - Removes some snow to show more damage based on cbmogdis04_e
+  - fix: |
+      cbmogdis04_rs
+        - Fixes snow drawing over broken windows
+        - Removes some snow to show more damage based on cbmogdis04_r
+        - Adds missing alpha channel based on cbmogdis04 _e
+  - fix: |
+      cbmogdis04_n, cbmogdis04_dn
+        - Recreates house lights
+  - fix: |
+      cbmogdis04_ng
+        - Recreates house lights
+        - Fixes broken window lights
+  - fix: |
+      cbmogdis04_dng, cbmogdis04_sn, cbmogdis04_dsn, cbmogdis04_sng, cbmogdis04_dsng
+        - New
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479
+
+authors:
+  - xezon
