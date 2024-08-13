@@ -570,6 +570,30 @@
                                 "target": "Art/Textures/cbmogdis03_sblack1.dds"
                             },
                             {
+                                "source": "Art/Textures/GenerateMip/cbmogdis03_n.psd",
+                                "target": "Art/Textures/cbmogdis04_n.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbmogdis03_dn.psd",
+                                "target": "Art/Textures/cbmogdis04_dn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbmogdis03_ng.psd",
+                                "target": "Art/Textures/cbmogdis04_ng.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbmogdis03_sn.psd",
+                                "target": "Art/Textures/cbmogdis04_sn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbmogdis03_dsn.psd",
+                                "target": "Art/Textures/cbmogdis04_dsn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbmogdis03_sng.psd",
+                                "target": "Art/Textures/cbmogdis04_sng.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
