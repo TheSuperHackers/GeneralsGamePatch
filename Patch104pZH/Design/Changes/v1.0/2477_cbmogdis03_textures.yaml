@@ -17,7 +17,11 @@ subchanges:
       cbmogdis03_r, cbmogdis03_rs
         - Reconstructs new darker texture based on cbmogdis03_e, cbmogdis03_es
   - fix: |
+      cbmogdis03_g
+        - Adds shadows to window barricades
+  - fix: |
       cbmogdis03_dg
+        - Adds shadows to window barricades
         - Fixes minor texture damage inconsistencies with cbmogdis03_d
         - Removes bullet holes from window barricades
   - fix: |
@@ -55,6 +59,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2477
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479
 
 authors:
   - xezon
