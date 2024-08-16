@@ -1,0 +1,72 @@
+---
+date: 2024-08-15
+
+title: Fixes and improves cbmogdis05 textures
+
+changes:
+  - fix: Fixes and improves Civilian cbmogdis05 textures.
+
+subchanges:
+  - fix: |
+      cbmogdis05_e, cbmogdis05_r
+        - Adds missing alpha channel, based on cbmogdis02_e
+  - fix: |
+      cbmogdis05_g, cbmogdis05_dg
+        - Fixes window barricades drawing over edges
+  - fix: |
+      cbmogdis05_s, cbmogdis05_sg
+        - Fixes cyan snow
+        - Fixes window snow
+        - Fixes black lines in snow
+  - fix: |
+      cbmogdis05_ds
+        - Fixes cyan snow
+        - Fixes window snow
+        - Fixes black lines in snow
+        - Fixes some snow drawing over burns
+  - fix: |
+      cbmogdis05_es
+        - Fixes cyan snow
+        - Fixes window snow
+        - Fixes black lines in snow
+        - Fixes some snow drawing over burns
+        - Fixes texture damage inconsistencies with cbmogdis05_ds
+        - Adds missing alpha channel, based on cbmogdis02_e
+  - fix: |
+      cbmogdis05_rs
+        - Fixes cyan snow
+        - Fixes black lines in snow
+        - Fixes some snow drawing over burns
+        - Adds missing alpha channel, based on cbmogdis02_e
+  - fix: |
+      cbmogdis05_dsg
+        - Fixes major texture damage inconsistencies with cbmogdis05_ds
+        - Fixes some snow drawing over burns
+  - fix: |
+      cbmogdis05_n, cbmogdis05_dn, cbmogdis05_ng
+        - Recreates house lights
+        - Changes blue light to orange light on window
+  - fix: |
+      cbmogdis05_dng
+        - Recreates house lights
+        - Fixes major light inconsistencies with cbmogdis05_dn, cbmogdis05_ng
+  - fix: |
+      cbmogdis05_sn, cbmogdis05_dsn, cbmogdis05_sng, cbmogdis05_dsng
+        - Recreates house lights
+  - fix: |
+      cbmogdis05_black
+        - Fixes incorrect night light
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480
+
+authors:
+  - xezon

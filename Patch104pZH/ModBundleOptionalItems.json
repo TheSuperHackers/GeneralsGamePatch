@@ -594,6 +594,10 @@
                                 "target": "Art/Textures/cbmogdis04_sng.dds"
                             },
                             {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbmogdis05_black.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },

@@ -1,10 +1,10 @@
 ---
 date: 2024-08-11
 
-title: Fixes cbmogdis02 textures
+title: Fixes and improves cbmogdis02 textures
 
 changes:
-  - fix: Fixes Civilian cbmogdis02 textures.
+  - fix: Fixes and improves Civilian cbmogdis02 textures.
 
 subchanges:
   - fix: |
@@ -52,17 +52,23 @@ subchanges:
   - fix: |
       cbmogdis02_n, cbmogdis02_gn
         - Fixes light spills and artifacts
+        - Recreates house lights
   - fix: |
       cbmogdis02_dn
         - Fixes light spills and artifacts
         - Increases light brightness
+        - Recreates house lights
   - fix: |
-      cbmogdis02_en, cbmogdis02_dng, cbmogdis02_esn, cbmogdis02_rsn, cbmogdis02_sn
+      cbmogdis02_en, cbmogdis02_esn, cbmogdis02_rsn
         - Fixes incorrect night light
   - fix: |
       cbmogdis02_rn
         - Fixes incorrect night light
         - Removes superfluous alpha channel
+  - fix: |
+      cbmogdis02_dng, cbmogdis02_sn
+        - Fixes incorrect night light
+        - Recreates house lights
   - fix: |
       cbmogdis02_dsn, cbmogdis02_sng, cbmogdis02_dsng
         - New
@@ -76,6 +82,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480
 
 authors:
   - xezon
