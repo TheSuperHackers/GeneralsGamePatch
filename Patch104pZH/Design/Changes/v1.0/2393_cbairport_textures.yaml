@@ -13,18 +13,16 @@ subchanges:
         - Fixes cyan snow
         - Fixes gaps in snow
   - fix: |
-      cbairport_n, cbairport_ng
+      cbairport_n, cbairport_dn, cbairport_ng, cbairport_dng
         - Fixes black level
-  - fix: |
-      cbairport_dn, cbairport_dng
-        - Fixes black level
-        - Recreates damaged lights
+        - Recreates house lights
   - fix: |
       cbairport_en, cbairport_rn
         - Fixes incorrect night light
   - fix: |
       cbairport_sn, cbairport_dsn, cbairport_sng, cbairport_dsng
-        - Creates 2x upscale to 512x512 based on regular night textures
+        - Creates 2x upscale to 512x512
+        - Recreates house lights
   - optimization: |
       cbairport_esn, cbairport_rsn
         - Optimizes texture size
@@ -38,6 +36,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2393
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2481
 
 authors:
   - xezon
