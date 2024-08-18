@@ -35,7 +35,7 @@ subchanges:
       cbmogdis06_en, cbmogdis06_rn, cbmogdis06_ens, cbmogdis06_rsn, cbmogdis06_venten, cbmogdis06_ventesn
         - Fixes incorrect night light
   - fix: |
-      cbmogdis06_vent128, cbmogdis06_vent128_d, cbmogdis06_vent128_e, cbmogdis06_vent128_r, cbmogdis06_vent128_s, cbmogdis06_vent128_ds, cbmogdis06_vent128_es, cbmogdis06_vent128_rs
+      cbmogdis06_vent2, cbmogdis06_vent2_d, cbmogdis06_vent2_e, cbmogdis06_vent2_r, cbmogdis06_vent2_s, cbmogdis06_vent2_ds, cbmogdis06_vent2_es, cbmogdis06_vent2_rs
         - New, assembled from cbmogdis06_vent(s) with smaller resolution at 128x128, superseeds cbmogdis06_vent(s)
         - Fixes green tinted water drainage
         - Fixes damages and snow
