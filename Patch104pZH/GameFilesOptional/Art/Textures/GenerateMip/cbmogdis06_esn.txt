@@ -1,0 +1,2 @@
+cbmogdis06_esn is unused
+cbmogdis06_ens is used instead
