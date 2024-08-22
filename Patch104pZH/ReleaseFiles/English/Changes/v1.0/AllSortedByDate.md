@@ -6149,7 +6149,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-04 - Increases Hole Repair Worker spawn interval of GLA Scud Storm from 20 to 30 seconds <a name='link__20220904__1096_scud_storm_worker_spawn_delay'></a>
 **Changes**
 
-- **TWEAK**: The Hole Repair Worker of the GLA Scud Storm now spawns in 30 instead of 20 seconds intervals. This will prevent the first Worker from dying in the poison puddle. No EVA event is triggered for damaging the spawned Worker. Effectively a Scud Storm can now rebuild 10 seconds quicker than originally. The Toxin Field time has been adjusted to accommodate the Worker spawn time properly.
+- **TWEAK**: The Hole Repair Worker of the GLA Scud Storm now spawns in 30 instead of 20 seconds intervals. This will prevent the first Worker from dying in the poison puddle. No EVA event is triggered for damaging the spawned Worker. Effectively a Scud Storm can now rebuild 10 seconds quicker than originally. The Toxin Field time has been adjusted to properly accommodate the Worker spawn time.
 
 **Links**
 
