@@ -4,7 +4,7 @@ date: 2023-07-07
 title: Decreases kill experience reward of veteran USA Burton to match other heroes
 
 changes:
-  - tweak: The USA Burton now rewards 50 50 100 150 instead of 50 100 100 150 experience on kill.
+  - tweak: Killing a USA Burton now rewards 50 50 100 150 instead of 50 100 100 150 experience points (XP).
 
 labels:
   - controversial

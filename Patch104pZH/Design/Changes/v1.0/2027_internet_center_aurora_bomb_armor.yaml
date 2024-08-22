@@ -4,7 +4,7 @@ date: 2023-06-22
 title: Increases armor of China Internet Center against Aurora bombs by 30%
 
 changes:
-  - tweak: Increases the armor of the China Internet Center against Aurora bombs by 30%. This way it takes one more Aurora or Alpha Aurora to take out the pristine Internet Center.
+  - tweak: The armor of the China Internet Center against Aurora bombs is increased by 30%. This way it takes one more Aurora or Alpha Aurora to take out the pristine Internet Center.
 
 labels:
   - buff

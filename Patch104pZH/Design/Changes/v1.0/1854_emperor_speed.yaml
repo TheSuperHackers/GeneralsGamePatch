@@ -4,13 +4,11 @@ date: 2023-04-17
 title: Increases China Emperor speed by 25%, upgraded speed by 16%
 
 changes:
-  - tweak: |
-      Increases China Emperor
-        - speed from 20 to 25
-        - acceleration from 15 to 20
-        - turn rate from 60 to 70
-        - upgraded speed from 30 to 35
-        - upgraded turn rate from 60 to 70
+  - tweak: The China Emperor's speed is increased from 20 to 25
+  - tweak: The China Emperor's acceleration is increased from 15 to 20
+  - tweak: The China Emperor's turn rate is increased from 60 to 70
+  - tweak: The China Emperor's upgraded speed is increased from 30 to 35
+  - tweak: The China Emperor's upgraded turn rate is increased from 60 to 70
 
 labels:
   - buff

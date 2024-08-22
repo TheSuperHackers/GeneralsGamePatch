@@ -4,7 +4,7 @@ date: 2022-07-27
 title: Decreases audible distance of China Helix helicopter by 30%
 
 changes:
-  - fix: Decreases the audible distance of China Helix helicopter by 30%, from 1000 to 700. This is in line with the sound distances of other aircraft.
+  - tweak: The audible distance of the China Helix helicopter is decreased by 30%, from 1000 to 700. This is in line with the sound distances of other aircraft.
 
 labels:
   - buff

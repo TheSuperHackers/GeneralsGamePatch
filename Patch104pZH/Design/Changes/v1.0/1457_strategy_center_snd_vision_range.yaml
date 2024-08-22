@@ -1,10 +1,10 @@
 ---
 date: 2022-11-08
 
-title: Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600
+title: Decreases SEARCH AND DESTROY sight range bonus for USA Strategy Center from 800 to 600
 
 changes:
-  - tweak: Decreases the SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600. Accordingly, the Strategy Center no longer has an extreme shroud-clearing range of 800 under the effects of Search and Destroy. It was an unnecessary advantage for USA that discounts map awareness. The range has been reduced to a more palatable range of 600 - a 1.5x increase of the default vision range of 400. This was preferred over reducing the default vision of 400 to 300 due to the Bombardment cannon's weapon range of 400.
+  - tweak: The SEARCH AND DESTROY shroud clearing range bonus of the USA Strategy Center is decreased by 25%, from 800 to 600. Accordingly, the Strategy Center no longer has this large shroud clearing range of 800 under the effects of Search and Destroy. It was an unnecessary advantage for USA that discounts map awareness. The range has been reduced to a more palatable range of 600 - a 1.5x increase of the default sight range of 400. This was preferred over reducing the default vision of 400 to 300 due to the Bombardment cannon's weapon range of 400.
 
 labels:
   - controversial

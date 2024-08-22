@@ -4,7 +4,7 @@ date: 2021-09-03
 title: Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds
 
 changes:
-  - fix: The turret of the GLA Technical no longer has to realign up to 0.75 seconds to face directly forward before the vehicle explodes when ordered to suicide. It will explode immediately regardless of its previous orientation.
+  - fix: The turret of the GLA Technical no longer has to realign up to 0.75 seconds to face directly forward before the vehicle explodes when ordered to suicide. It will explode immediately regardless of the vehicle's turret orientation.
 
 labels:
   - bug

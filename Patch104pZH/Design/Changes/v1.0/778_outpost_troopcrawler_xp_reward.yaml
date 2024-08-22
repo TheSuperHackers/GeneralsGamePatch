@@ -4,8 +4,8 @@ date: 2022-07-28
 title: Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler
 
 changes:
-  - tweak: Destroying the China Outpost now rewards 5 experience points.
-  - tweak: Destroying the China Troopcrawler now rewards 5 experience points.
+  - tweak: Destroying a China Outpost now rewards 5 instead of 0 experience points (XP).
+  - tweak: Destroying a China Troopcrawler now rewards 5 instead of 0 experience points (XP).
 
 labels:
   - china

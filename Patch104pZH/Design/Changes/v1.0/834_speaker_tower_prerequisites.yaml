@@ -1,10 +1,10 @@
 ---
 date: 2022-08-07
 
-title: Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower
+title: Adds War Factory and Airfield as additional optional single prerequisites of China Speaker Tower
 
 changes:
-  - tweak: The China Speaker Tower can now be built earlier after a War Factory or Airfield or Propaganda Center has been built.
+  - tweak: The China Speaker Tower can now be built earlier after a War Factory or Airfield or Propaganda Center has been built. Originally the Speaker Tower requires a Propaganda Center.
 
 labels:
   - buff

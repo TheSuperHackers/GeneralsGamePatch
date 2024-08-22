@@ -4,7 +4,7 @@ date: 2022-11-08
 title: Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300
 
 changes:
-  - tweak: Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300. As all heroes (now) have a sight range of 400, options for reacting to a Strategy Center's presence before being detected are incredibly limited. Not only this, but the structure's extensive stealth detection range over the owner's entire base effectively renders heroes useless - on top of the substantial range bonus that Search and Destroy provides. Reducing the stealth detection range is a reasonable way to counterbalance the incredible effectiveness of S&D without directly affecting the bonus itself.
+  - tweak: The SEARCH AND DESTROY stealth detection range of the USA Strategy Center is decreased by 40%, from 500 to 300. As all heroes (now) have a sight range of 400, options for reacting to a Strategy Center's presence before being detected are incredibly limited. Not only this, but the structure's extensive stealth detection range over the owner's entire base effectively renders heroes useless - on top of the substantial range bonus that SEARCH AND DESTROY provides. Reducing the stealth detection range is a reasonable way to counterbalance the incredible effectiveness of SEARCH AND DESTROY without directly affecting the bonus itself.
 
 labels:
   - controversial

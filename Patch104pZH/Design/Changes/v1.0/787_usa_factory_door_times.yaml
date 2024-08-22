@@ -1,10 +1,10 @@
 ---
 date: 2022-07-30
 
-title: Decreases USA War Factory close door time from 4000 to 3300 ms
+title: Decreases closing door time of USA War Factory from 4000 to 3300 ms
 
 changes:
-  - tweak: Decreases the USA War Factory close door time from 4000 to 3300 ms. This change is inconsequential for gameplay, because it does not affect unit interactions.
+  - tweak: The closing door time of the USA War Factory is decreased from 4000 to 3300 ms. This change is inconsequential for gameplay, because it does not affect unit interactions.
 
 labels:
   - design

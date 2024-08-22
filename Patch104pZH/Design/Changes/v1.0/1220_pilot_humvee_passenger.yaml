@@ -4,7 +4,7 @@ date: 2022-09-18
 title: Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead
 
 changes:
-  - tweak: Forbids NO_GARRISON flag objects from entering Humvee. NO_GARRISON is unique to Pilot and makes it unable to enter civilian buildings, Tunnels and Bunkers. Cursor still appears and it promotes the Humvee when entered. Therefore a Vet 3 Humvee can no longer transport Pilots.
+  - tweak: The USA Pilot is no longer able to accidentally take a passenger seat in a Humvee. Instead it now consistently promotes the Humvee when entered. A Vet 3 Humvee can no longer transport Pilots, but the Ambulance still can.
 
 labels:
   - bug

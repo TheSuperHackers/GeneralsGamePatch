@@ -4,7 +4,7 @@ date: 2022-09-06
 title: Improves locomotor of GLA Bomb Truck
 
 changes:
-  - tweak: Improves the locomotor of GLA Bomb Truck. In undamaged state, no tangible difference in driving performance is to be expected. In damaged state, the driving performance is now marginally better. Visually the driving now looks and feels smoother.
+  - tweak: The locomotor of the GLA Bomb Truck is improved. In undamaged state, no tangible difference in driving performance is expected. In damaged state, the driving performance is now marginally better. Visually the driving now looks and feels smoother.
 
 labels:
   - buff

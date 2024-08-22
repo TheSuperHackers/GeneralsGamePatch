@@ -4,7 +4,7 @@ date: 2023-02-24
 title: Removes destruction delay variance from USA Alpha Aurora bomb
 
 changes:
-  - tweak: Removes the 100 ms destruction delay variance from the USA Alpha Aurora bomb. The delay is now a fixed deterministic 1000 ms.
+  - tweak: The 100 ms destruction delay variance of the USA Alpha Aurora bomb is now removed. The delay is now a fixed deterministic 1000 ms.
 
 labels:
   - buff

@@ -1,10 +1,10 @@
 ---
 date: 2023-02-12
 
-title: Decreases XP reward of China Supply Truck from 50 to 25
+title: Decreases kill experience reward of China Supply Truck from 50 to 25
 
 changes:
-  - tweak: The China Supply Truck now gives 25 XP instead of 50 XP on kill. This takes a bit of pressure off of China when losing Supply Trucks to the opposition by not promoting enemy units as much.
+  - tweak: Destroying a China Supply Truck now rewards 25 instead of 50 experience points (XP). This takes a bit of pressure off of China when losing Supply Trucks to the opposition by not promoting enemy units as much.
 
 labels:
   - buff

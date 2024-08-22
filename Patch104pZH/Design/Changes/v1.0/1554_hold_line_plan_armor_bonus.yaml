@@ -4,7 +4,7 @@ date: 2023-01-15
 title: Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%
 
 changes:
-  - fix: Increases the USA unit armor bonus of HOLD THE LINE Battle Plan from 11.1% to 20.0%. Armor bonus is synonymous for damage resistance. This makes the use of the HOLD THE LINE Battle Plan more attractive for all USA factions. Traditionally USA favors the SEARCH AND DESTROY Battle Plan above the others by a large margin.
+  - tweak: The USA unit armor bonus from the HOLD THE LINE Battle Plan is increased from 11.1% to 20.0%. Armor bonus is synonymous for damage resistance. This makes the use of the HOLD THE LINE Battle Plan more attractive for all USA factions. Traditionally USA favors the SEARCH AND DESTROY Battle Plan above the others by a large margin.
 
 labels:
   - buff

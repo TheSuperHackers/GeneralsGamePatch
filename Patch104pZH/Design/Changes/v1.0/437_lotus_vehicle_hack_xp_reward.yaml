@@ -4,7 +4,7 @@ date: 2021-10-01
 title: Adds experience reward for Vehicle Hack ability of China Black Lotus
 
 changes:
-  - tweak: China Black Lotus now receives 10 XP for hacking vehicles.
+  - tweak: China Black Lotus now receives 10 instead of 0 experience points (XP) for hacking vehicles.
 
 labels:
   - buff

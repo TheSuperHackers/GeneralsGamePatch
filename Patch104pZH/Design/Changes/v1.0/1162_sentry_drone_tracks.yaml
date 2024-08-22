@@ -4,7 +4,7 @@ date: 2022-09-08
 title: Replaces terrain tracks of USA Sentry Drone with less transparent ones
 
 changes:
-  - tweak: Replaces terrain tracks of USA Sentry Drone with less transparent ones. This makes the tracks less visible than those of tanks and China Outpost.
+  - tweak: The terrain tracks of the USA Sentry Drone now show with less transparency. This makes the tracks less visible than those of tanks and China Outpost.
 
 labels:
   - buff

@@ -1,10 +1,10 @@
 ---
 date: 2022-08-06
 
-title: Adds War Factory or Propaganda Center to prerequisites of China Internet Center
+title: Adds Propaganda Center as additional optional single prerequisite of China Internet Center
 
 changes:
-  - tweak: The China Internet Center can now be built after a War Factory or Propaganda Center has been built.
+  - tweak: The China Internet Center can now be built after a War Factory or Propaganda Center has been built. Originally the Internet Center requires a War Factory.
 
 labels:
   - buff

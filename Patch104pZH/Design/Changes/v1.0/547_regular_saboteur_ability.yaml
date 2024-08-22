@@ -4,7 +4,7 @@ date: 2021-10-10
 title: Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market
 
 changes:
-  - feature: All GLA Saboteurs can now enter the USA Supply Drop Zone and GLA Black Market. They steal 1000 cash when doing so, same as when entering a Supply Center.
+  - feature: All GLA Saboteurs can now enter the USA Supply Drop Zone and GLA Black Market. They steal 1200 cash when doing so, same as when entering a Supply Center (now).
 
 labels:
   - buff
@@ -17,6 +17,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/547
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355
 
 authors:
   - commy2

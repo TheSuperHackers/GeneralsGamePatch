@@ -4,7 +4,7 @@ date: 2021-09-11
 title: Removes kill experience reward of Civilian Reinforcement Pad
 
 changes:
-  - fix: The Civilian Reinforcement Pad no longer rewards XP on kill.
+  - fix: Destroying a Civilian Reinforcement Pad no longer rewards 200 experience points (XP).
 
 labels:
   - bug

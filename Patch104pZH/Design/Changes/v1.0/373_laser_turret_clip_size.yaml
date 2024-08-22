@@ -4,7 +4,7 @@ date: 2021-09-13
 title: Fixes inconsistent clip sizes of USA Laser Turret
 
 changes:
-  - fix: The Laser Turret now fires only 3 shots, both when engaging airborne units and assisting other Laser Turrets.
+  - fix: The USA Laser Turret now fires 3 shots consistently in all modes, when engaging ground targets, airborne targets and targets by assisting other Laser Turrets.
 
 labels:
   - bug

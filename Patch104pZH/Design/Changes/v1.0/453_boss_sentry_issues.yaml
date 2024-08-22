@@ -7,7 +7,7 @@ changes:
   - fix: The Boss Sentry Drone now uses the SentryDroneArmor type instead of HumveeArmor type.
   - fix: The Boss Sentry Drone now gets extra health from DroneArmor upgrade.
   - fix: The Boss Sentry Drone is no longer immune to ECMs (jamming logic added).
-  - fix: The Boss Sentry Drone now has the same vision range as all other Sentry Drones in Guard Mode.
+  - fix: The Boss Sentry Drone now has the same sight range as all other Sentry Drones in Guard Mode.
   - fix: The Boss Sentry Drone now uses custom stealth detection range.
   - fix: The Boss Sentry Drone no longer automatically attacks when stealthed.
 

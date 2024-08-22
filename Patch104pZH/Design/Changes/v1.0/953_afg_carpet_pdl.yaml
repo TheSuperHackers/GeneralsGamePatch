@@ -4,7 +4,7 @@ date: 2022-08-27
 title: Removes Point Defense Laser from USA Airforce Carpet Bomber
 
 changes:
-  - tweak: Removes the PointDefenseLaser from the USA Airforce Carpet Bomber. All other USA Airforce General Promotion planes have no PointDefenseLaser either, including the B52 bomber that delivers the MOAB and looks identical to the B52 Carpet Bomber. USA Airforce opponents will now be able to shoot down the Carpet Bomber more easily with Rockets.
+  - tweak: The Point Defense Laser from the USA Airforce Carpet Bomber is now removed. All other USA Airforce General Promotion planes have no Point Defense Laser either, including the B52 bomber that delivers the MOAB and looks identical to the B52 Carpet Bomber. USA Airforce opponents will now be able to shoot down the Carpet Bomber more easily with rockets.
 
 labels:
   - bug

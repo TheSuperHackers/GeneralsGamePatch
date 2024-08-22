@@ -1,10 +1,10 @@
 ---
 date: 2022-07-30
 
-title: Decreases pack and unpack times of China Hackers
+title: Decreases unpack and pack times of China Hackers
 
 changes:
-  - tweak: All China Hackers now unpack and pack their laptops quicker. The packing time variation is decreased significantly from 100% to 20%. This adds more time consistency when packing and unpacking. The unpack base time is just marginally tweaked to accommodate the pack variation for improved animation optics. The pack time is decreased to 75%, allowing Hackers to flee the scene a bit quicker.
+  - tweak: All China Hackers now unpack and pack their laptops quicker. The packing time variation is decreased significantly from 100% to 20%. This adds more time consistency when packing and unpacking. The unpack base time is just marginally tweaked to accommodate the pack variation for improved animation visuals. The pack time is decreased by 25%, allowing Hackers to flee the scene a bit quicker.
 
 labels:
   - buff

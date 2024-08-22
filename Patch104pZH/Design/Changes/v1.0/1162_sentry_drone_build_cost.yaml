@@ -4,10 +4,10 @@ date: 2022-09-08
 title: Decreases cost of USA Sentry Drone to match cost of Humvee
 
 changes:
-  - tweak: Decreases cost of regular USA Sentry Drone from 800 to 700.
-  - tweak: Decreases cost of USA Laser Sentry Drone from 800 to 700.
-  - tweak: Decreases cost of USA Airforce Sentry Drone from 850 to 800.
-  - tweak: Decreases cost of USA Superweapon Sentry Drone from 1000 to 850.
+  - tweak: The cost of the regular USA Sentry Drone is decreased from 800 to 700.
+  - tweak: The cost of the USA Laser Sentry Drone is decreased from 800 to 700.
+  - tweak: The cost of the USA Airforce Sentry Drone is decreased from 850 to 800.
+  - tweak: The cost of the USA Superweapon Sentry Drone is decreased from 1000 to 850.
 
 labels:
   - buff

@@ -1,10 +1,10 @@
 ---
 date: 2022-09-06
 
-title: Decreases shroud clearing range of USA Hellfire Drone from 500 to 400
+title: Decreases sight range of USA Hellfire Drone from 500 to 400
 
 changes:
-  - tweak: Decreases the shroud clearing range of USA Hellfire Drone from 500 to 400.
+  - tweak: The shroud clearing range of USA Hellfire Drone is decreased by 20%, from 500 to 400.
 
 labels:
   - controversial

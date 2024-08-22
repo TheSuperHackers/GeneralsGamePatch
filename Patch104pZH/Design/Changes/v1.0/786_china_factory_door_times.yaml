@@ -1,10 +1,10 @@
 ---
 date: 2022-07-30
 
-title: Decreases China War Factory door times from 4000 to 3300 ms
+title: Decreases door times of China War Factory from 4000 to 3300 ms
 
 changes:
-  - tweak: Decreases the China War Factory door times from 4000 to 3300 ms. This equals the door times of the USA War Factory. It enables China to build all vehicles 700 ms quicker.
+  - tweak: The opening and closing door times of the China War Factory are decreased from 4000 to 3300 ms. This equals the door times of the USA War Factory. It enables China to build all vehicles 700 ms quicker.
 
 labels:
   - buff

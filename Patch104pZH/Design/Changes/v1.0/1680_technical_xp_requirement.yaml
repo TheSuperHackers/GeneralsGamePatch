@@ -1,10 +1,10 @@
 ---
 date: 2023-02-12
 
-title: Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150
+title: Increases required level up experience of GLA Technical from 50 75 150 to 50 100 150
 
 changes:
-  - tweak: The GLA Technical now requires 100 XP instead of just 75 XP to reach elite rank. This makes it a bit more challenging for GLA to acquire strong Technicals.
+  - tweak: The GLA Technical now requires 100 instead of just 75 experience points (XP) to reach elite rank. This makes it a bit more challenging for GLA to acquire strong Technicals.
 
 labels:
   - controversial

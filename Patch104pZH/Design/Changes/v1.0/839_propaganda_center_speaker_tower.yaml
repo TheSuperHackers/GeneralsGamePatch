@@ -4,7 +4,7 @@ date: 2022-08-06
 title: Adds functional Speaker Tower to China Propaganda Center
 
 changes:
-  - feature: Adds a functional Speaker Tower to the China Propaganda Center. The model of the structure is unchanged, because it already has the tower. It works identical to the regular Speaker Tower.
+  - feature: The China Propaganda Center now has a functional Speaker Tower. The model of the structure is unchanged, because it already has the tower. It works identical to the regular Speaker Tower.
 
 labels:
   - buff
