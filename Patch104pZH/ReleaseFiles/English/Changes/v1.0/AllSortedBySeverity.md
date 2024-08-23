@@ -6,42 +6,42 @@ Includes changes with all labels.
 Occuring labels are
 
 - ai (2)
-- art (191)
+- art (194)
 - audio (128)
 - boss (59)
 - buff (100)
-- bug (465)
+- bug (464)
 - china (238)
-- civilian (83)
+- civilian (86)
 - controversial (130)
 - critical (5)
-- design (217)
+- design (219)
 - enhancement (124)
 - gla (255)
 - gui (75)
 - major (93)
-- minor (818)
+- minor (821)
 - nerf (32)
-- optional (96)
+- optional (99)
 - performance (25)
 - text (102)
 - usa (268)
-- v1.0 (921)
+- v1.0 (924)
 - wip (1)
 - worldbuilder (19)
 
 Sorts changes by: blocker, critical, major, minor, usa, china, gla, boss, civilian, date (ascending)
 
-Contains 921 entries with
+Contains 924 entries with
 
-- 1435 changes
-  - FIX (1045)
-  - TWEAK (291)
+- 1446 changes
+  - FIX (1038)
+  - TWEAK (307)
   - OPTIMIZATION (12)
-  - FEATURE (61)
+  - FEATURE (63)
   - REFACTOR (26)
-- 1140 subchanges
-  - FIX (980)
+- 1174 subchanges
+  - FIX (1014)
   - TWEAK (115)
   - FEATURE (26)
   - OPTIMIZATION (19)
@@ -68,7 +68,7 @@ Contains 921 entries with
 - [2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers](#link__20210923__407_avenger_composite_armor)
 - [2022-08-06 - Makes USA Supply Drop Zone Cargo Planes not automatically attacked](#link__20220806__836_unattackable_drop_zone_cargo_planes)
 - [2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee](#link__20220908__1162_sentry_drone_build_cost)
-- [2022-09-08 - Increases USA Sentry Drone gun damage by 20%](#link__20220908__1162_sentry_drone_damage)
+- [2022-09-08 - Increases gun damage of USA Sentry Drone by 20%](#link__20220908__1162_sentry_drone_damage)
 - [2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone](#link__20220908__1162_sentry_drone_deployment)
 - [2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70%](#link__20220908__1162_sentry_drone_movement)
 - [2022-09-08 - Increases sight range of USA Sentry Drone by 30%](#link__20220908__1162_sentry_drone_sight_range)
@@ -78,13 +78,13 @@ Contains 921 entries with
 - [2023-01-07 - Fixes USA Strategy Center Gun attack issues](#link__20230107__1524_strategy_center_gun_attack)
 - [2023-01-07 - Increases armor of USA Comanche by up to 23%](#link__20230107__1530_comanche_armor)
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
-- [2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser](#link__20230115__1555_king_raptor_point_defense_laser)
+- [2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of remaining single Point Defense Laser](#link__20230115__1555_king_raptor_point_defense_laser)
 - [2023-02-11 - Adds idle auto reload after 30100 ms to USA Comanche with Rocket Pod upgrade](#link__20230211__1705_comanche_idle_reload)
 - [2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops](#link__20230621__2026_usa_paradrop_payload)
 - [2023-06-24 - Decreases performance cost of hazard cleanup stream trail effects by 50%](#link__20230624__2034_hazard_cleanup_stream_trail_performance)
 - [2023-09-15 - Fixes incorrect weapon death types of USA Missile Defender](#link__20230915__2362_missile_defender_weapon_death_type)
 - [2023-06-20 - Prioritizes larger Toxin and Radiation fields over smaller ones](#link__20230620__2023_hazard_field_cleanup_health_and_damage)
-- [2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25](#link__20230212__1680_supply_truck_xp_reward)
+- [2023-02-12 - Decreases kill experience reward of China Supply Truck from 50 to 25](#link__20230212__1680_supply_truck_xp_reward)
 - [2021-08-22 - Fixes China Tank and Nuke Outposts being unable to properly attack buildings](#link__20210822__4_listening_outpost_attack_bug)
 - [2021-08-22 - Improves mobility of China Dozer](#link__20210822__6_china_dozer_locomotor)
 - [2021-09-05 - Fixes inability of China Nuke Missile to destroy GLA structures entirely](#link__20210905__410_nuke_missile_blasts)
@@ -93,13 +93,13 @@ Contains 921 entries with
 - [2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment](#link__20210910__269_nuke_cannon_attack_target)
 - [2021-09-25 - Decreases required level up experience of China Black Lotus by 82%](#link__20210925__413_lotus_required_xp)
 - [2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62%](#link__20210925__413_lotus_xp_reward)
-- [2021-12-24 - Removes auto engage behaviour from China ECM Tank](#link__20211224__631_ecm_auto_attack)
-- [2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms](#link__20220729__785_china_cc_door_times)
-- [2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms](#link__20220730__786_china_factory_door_times)
+- [2021-12-24 - Removes auto attack behaviour from non-vanilla China ECM Tanks](#link__20211224__631_ecm_auto_attack)
+- [2022-07-29 - Decreases door times of China Command Center from 3000 to 1500 ms](#link__20220729__785_china_cc_door_times)
+- [2022-07-30 - Decreases door times of China War Factory from 4000 to 3300 ms](#link__20220730__786_china_factory_door_times)
 - [2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability](#link__20220806__837_satellite_hack_ii_ability)
 - [2022-08-06 - Adds functional Speaker Tower to China Propaganda Center](#link__20220806__839_propaganda_center_speaker_tower)
 - [2022-08-14 - Increases damage and radius of China Nuke Missile](#link__20220814__871_nuke_missile_damage_and_radius)
-- [2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms](#link__20220914__1199_gattling_spin_timeout)
+- [2022-09-14 - Increases China Gattling Tank spin timeout against ground units from 1000 to 2000 ms](#link__20220914__1199_gattling_spin_timeout)
 - [2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds](#link__20230118__1564_inferno_cannon_fire_storm)
 - [2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
 - [2023-02-11 - Adds idle auto reload after 2100 ms to China Tank Battlemaster with Autoloader upgrade](#link__20230211__1704_battlemaster_autoloader_idle_reload)
@@ -118,15 +118,15 @@ Contains 921 entries with
 - [2021-10-10 - Fixes mismatching particle effects of GLA Black Market and Fake Market](#link__20211010__542_fake_market_particles)
 - [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#link__20220716__695_toxin_terrorist_death)
 - [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#link__20220716__697_all_terrorist_crush_damage)
-- [2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade](#link__20220716__699_toxin_terrorist_damage)
+- [2022-07-16 - Fixes GLA Toxin Terrorist dealing more damage before Toxin Gamma Upgrade](#link__20220716__699_toxin_terrorist_damage)
 - [2022-07-22 - Fixes damage downgrade issues of scrapped GLA Quad Cannon](#link__20220722__1055_quad_cannon_scrap_damage)
-- [2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max](#link__20220814__882_stinger_anthrax_gamma_damage)
+- [2022-08-14 - Decreases Anthrax Gamma bonus damages of GLA Toxin Stinger to stay within the maximum of 50%](#link__20220814__882_stinger_anthrax_gamma_damage)
 - [2022-08-15 - Fixes Demo General infantry units getting stuck near structures when ordered to suicide](#link__20220815__914_demo_infantry_suicide_stuck)
 - [2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade](#link__20220902__1076_demo_units_death_particles)
 - [2022-09-04 - Fixed misplaced fire ports on GLA Palace](#link__20220904__1097_palace_fire_ports)
 - [2022-10-05 - Fixes Toxin GLA Tunnel Defender double firing against ground and air targets](#link__20221005__1334_tunnel_defender_shoots_twice)
 - [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
-- [2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
+- [2023-02-12 - Increases required level up experience of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
 - [2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175](#link__20230610__2002_anthrax_beta_scud_storm_damage)
 - [2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500](#link__20230610__2002_anthrax_gamma_scud_storm_damage)
@@ -219,7 +219,7 @@ Contains 921 entries with
 - [2021-09-25 - Adds kill experience reward to USA Hellfire Drone](#link__20210925__414_hellfire_drone_xp_reward)
 - [2021-10-01 - Fixes attackable Fuel Air Bomb](#link__20211001__441_attackable_fuel_bomb)
 - [2022-07-28 - Increases USA Paladin Composite Armor bonus by 100%](#link__20220728__777_paladin_composite_armor_bonus)
-- [2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms](#link__20220730__787_usa_factory_door_times)
+- [2022-07-30 - Decreases closing door time of USA War Factory from 4000 to 3300 ms](#link__20220730__787_usa_factory_door_times)
 - [2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber](#link__20220806__841_afg_carpet_tooltip_text)
 - [2022-08-06 - Fixes wrong countdown value in tooltip texts of USA Spectre Gunship](#link__20220806__842_afg_spectre_tooltip_text)
 - [2022-08-06 - Fixes wrong bonus value in tooltip text of USA Countermeasures upgrade](#link__20220806__843_countermeasures_tooltip_text)
@@ -233,13 +233,13 @@ Contains 921 entries with
 - [2022-08-29 - Removes obsolete AI scripts in Supply Drop Zone planes](#link__20220829__1031_usa_ai_powers_planes)
 - [2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base](#link__20220902__1078_firebase_ghost_muzzle_flash)
 - [2022-09-03 - Fixes sharp turn movements of USA B2 Bomber](#link__20220903__1084_carpet_bomber_turn_rate)
-- [2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300](#link__20220906__1141_battle_drone_shroud_range)
-- [2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400](#link__20220906__1141_hellfire_drone_shroud_range)
-- [2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400](#link__20220907__1155_burton_sight_range)
+- [2022-09-06 - Increases sight range of USA Battle Drone from 150 to 300](#link__20220906__1141_battle_drone_shroud_range)
+- [2022-09-06 - Decreases sight range of USA Hellfire Drone from 500 to 400](#link__20220906__1141_hellfire_drone_shroud_range)
+- [2022-09-07 - Decreases sight range of USA Colonel Burton from 500 to 400](#link__20220907__1155_burton_sight_range)
 - [2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet](#link__20220908__1165_nighthawk_low_fuel_voice)
 - [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#link__20220909__1171_particle_cannon_animation_loop)
 - [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#link__20220910__1177_afg_firebase_snow_damaged)
-- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
+- [2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
 - [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
 - [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#link__20220913__1189_burton_texture_errors)
 - [2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon](#link__20220921__1245_atsdislab_snow_textures)
@@ -288,7 +288,7 @@ Contains 921 entries with
 - [2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks](#link__20221106__1413_battle_drone_repair_sound)
 - [2022-11-06 - Fixes and improves atcemblock02 textures for USA structures](#link__20221106__1450_atcemblock02_textures)
 - [2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300](#link__20221108__1457_strategy_center_detection_range)
-- [2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600](#link__20221108__1457_strategy_center_snd_vision_range)
+- [2022-11-08 - Decreases SEARCH AND DESTROY sight range bonus for USA Strategy Center from 800 to 600](#link__20221108__1457_strategy_center_snd_vision_range)
 - [2022-11-08 - Fixes and improves atcemwall01 textures for USA structures](#link__20221108__1458_atcemwall01_textures)
 - [2022-11-08 - Fixes and improves atcemwall02 textures for USA structures](#link__20221108__1458_atcemwall02_textures)
 - [2022-11-08 - Fixes and improves atcemwall03 textures for USA structures](#link__20221108__1458_atcemwall03_textures)
@@ -355,7 +355,7 @@ Contains 921 entries with
 - [2023-06-09 - Shortens English Particle Cannon timer text](#link__20230609__1999_particle_cannon_text)
 - [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
 - [2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes](#link__20230707__2064_burton_experience_reward)
-- [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
+- [2023-07-08 - Enables USA laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
 - [2023-07-10 - Swaps position of Stop and Supply Lines buttons in command set of USA Strategy Center](#link__20230710__2094_strategy_center_stop_button_placement)
 - [2023-07-15 - Sets correct name of USA Spectre Gunship in languages](#link__20230715__2111_spectre_gunship_name)
 - [2023-07-17 - Sets consistent name for EMP Patriot Battery in German language](#link__20230717__2124_german_emp_patriot_text)
@@ -418,14 +418,14 @@ Contains 921 entries with
 - [2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625](#link__20220730__768_hacker_build_cost)
 - [2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds](#link__20220730__769_hacker_build_time)
 - [2022-07-30 - Decreases kill experience reward of China Hackers](#link__20220730__770_hacker_xp_reward)
-- [2022-07-30 - Decreases the required level up experience of China Hackers](#link__20220730__771_hacker_xp_requirement)
+- [2022-07-30 - Decreases required level up experience of China Hackers](#link__20220730__771_hacker_xp_requirement)
 - [2022-07-30 - Increases movement speed of China Hackers by 25%](#link__20220730__773_hacker_movement_speed)
 - [2022-07-30 - Decreases cash hack audio limit of China Hackers](#link__20220730__774_hacker_hack_audio_limit)
-- [2022-07-30 - Decreases pack and unpack times of China Hackers](#link__20220730__774_hacker_pack_unpack_times)
+- [2022-07-30 - Decreases unpack and pack times of China Hackers](#link__20220730__774_hacker_pack_unpack_times)
 - [2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers](#link__20220731__791_satellite_hack_issue)
-- [2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center](#link__20220806__833_internet_center_prerequisites)
+- [2022-08-06 - Adds Propaganda Center as additional optional single prerequisite of China Internet Center](#link__20220806__833_internet_center_prerequisites)
 - [2022-08-06 - Fixes description error in tooltip text of China Nuke Mig](#link__20220806__840_nuke_mig_tooltip_text)
-- [2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower](#link__20220807__834_speaker_tower_prerequisites)
+- [2022-08-07 - Adds War Factory and Airfield as additional optional single prerequisites of China Speaker Tower](#link__20220807__834_speaker_tower_prerequisites)
 - [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
 - [2022-08-14 - Decreases China Nuke Missile blast delays](#link__20220814__880_nuke_missile_blast_delays)
 - [2022-08-20 - Replaces regular Battlemaster with Nuklear Battlemaster on Nuke China Battlemaster button and portrait image](#link__20220820__1021_nuke_battlemaster_portrait_image)
@@ -479,7 +479,7 @@ Contains 921 entries with
 - [2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched](#link__20230108__1532_helix_bomb_upgrade_button)
 - [2023-01-08 - Decreases build time of China Mines](#link__20230108__1533_china_mines_build_time)
 - [2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion](#link__20230108__1536_nuke_cannon_scorch)
-- [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
+- [2023-01-10 - Increases overall damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
 - [2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research](#link__20230111__1542_helix_attachment_upgrade_buttons)
 - [2023-01-29 - Reduces sink delay of China Dragon Tank wreck](#link__20230129__1745_dragon_tank_sink_delay)
 - [2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death](#link__20230204__1618_nuke_cannon_death_models)
@@ -620,7 +620,7 @@ Contains 921 entries with
 - [2022-08-14 - Improves visual quality of green and blue toxin puddles](#link__20220814__851_toxin_color_tweaks)
 - [2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius](#link__20220814__851_toxin_puddle_size)
 - [2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings](#link__20220814__885_fortified_structure_sell)
-- [2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max](#link__20220814__889_anthrax_gamma_damage_bonuses)
+- [2022-08-14 - Redistributes Anthrax Gamma bonus damages of GLA Toxin Truck to stay within the maximum of 50%](#link__20220814__889_anthrax_gamma_damage_bonuses)
 - [2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members](#link__20220814__904_female_mob_death_voice)
 - [2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members](#link__20220814__905_male_mob_death_voice)
 - [2022-08-14 - Fixes missing death scream of some GLA Angry Mob members](#link__20220814__906_some_mob_death_voice)
@@ -632,7 +632,7 @@ Contains 921 entries with
 - [2022-09-02 - Fixes the enormous destruction damage of Demo GLA Scud Launcher with Demo Upgrade](#link__20220902__1074_demo_scud_launcher_death_damage)
 - [2022-09-02 - Improves explosion effect of crushed GLA terror units](#link__20220902__1082_demo_units_crushed_death_particles)
 - [2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge](#link__20220903__1086_kassad_challenge_stinger_selection)
-- [2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds](#link__20220904__1096_scud_storm_worker_spawn_delay)
+- [2022-09-04 - Increases Hole Repair Worker spawn interval of GLA Scud Storm from 20 to 30 seconds](#link__20220904__1096_scud_storm_worker_spawn_delay)
 - [2022-09-05 - Adds better fitting select sound for GLA Demo Trap](#link__20220905__1131_demo_trap_select_sound)
 - [2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect](#link__20220906__1130_demo_trap_flare_fadeout)
 - [2022-09-06 - Removes decloak functionality of GLA Bomb Truck when approaching selected target](#link__20220906__1136_bomb_truck_reveal)
@@ -640,7 +640,7 @@ Contains 921 entries with
 - [2022-09-06 - Improves particle effects of GLA Bomb Truck](#link__20220906__1137_bomb_truck_explosion_particles)
 - [2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200](#link__20220906__1137_bomb_truck_upgrade_cost)
 - [2022-09-06 - Improves locomotor of GLA Bomb Truck](#link__20220906__1138_bomb_truck_locomotor)
-- [2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400](#link__20220907__1153_combat_bike_required_xp)
+- [2022-09-07 - Decreases required level up experience of GLA Combat Bike by 50%](#link__20220907__1153_combat_bike_required_xp)
 - [2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike](#link__20220908__1164_combat_bike_pilot_promotion)
 - [2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates](#link__20220909__1170_saboteur_scrap_rank_up)
 - [2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade](#link__20220909__1176_technical_muzzle_flash)
@@ -738,7 +738,7 @@ Contains 921 entries with
 - [2021-09-18 - Adds missing Chemical Suits upgrade icon to Boss Infantry units](#link__20210918__381_boss_chemical_suit_cameo)
 - [2021-09-19 - Fixes wrong Ranger types spawned from destroyed Boss buildings](#link__20210919__388_boss_ranger_types)
 - [2021-10-03 - Fixes hacking speed of Boss Hacker inside Internet Center](#link__20211003__450_boss_hacker_bonus)
-- [2021-10-03 - Fixes low vision range of Boss Jarmen Kell](#link__20211003__450_boss_jarmen_sight_range)
+- [2021-10-03 - Fixes low sight range of Boss Jarmen Kell](#link__20211003__450_boss_jarmen_sight_range)
 - [2021-10-03 - Fixes low health value of Boss Black Lotus](#link__20211003__450_boss_lotus_health)
 - [2021-10-03 - Fixes retaliation behaviour of Boss Pathfinder](#link__20211003__450_boss_pathfinder_retaliation)
 - [2021-10-03 - Fixes the microwave immunity of Boss Bunker](#link__20211003__451_boss_bunker_microwave_damage)
@@ -772,7 +772,7 @@ Contains 921 entries with
 - [2023-08-26 - Fixes position of General's Powers on Boss General promotion screen](#link__20230826__2291_boss_promotion_screen)
 - [2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad](#link__20210911__308_reinforcement_pad_xp_reward)
 - [2021-09-11 - Removes kill experience reward of Civilian Repair Pad](#link__20210911__308_repair_pad_xp_reward)
-- [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
+- [2021-10-01 - Fixes all Money Crates being removable by scaffolds](#link__20211001__443_money_crates_under_scaffold)
 - [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#link__20211016__568_repair_bay_ruin_model)
 - [2021-10-17 - Adds Radar Station Tech building (for custom maps)](#link__20211017__571_radar_station_tech)
 - [2021-10-17 - Adds Generals Mammoth Tank (for custom maps)](#link__20211017__572_mammoth_tank)
@@ -845,8 +845,11 @@ Contains 921 entries with
 - [2024-08-07 - Fixes and improves cbmectdrl1 textures](#link__20240807__2473_cbmectdrl1_textures)
 - [2024-08-09 - Fixes and improves cbmectdrl2 textures](#link__20240809__2474_cbmectdrl2_textures)
 - [2024-08-10 - Fixes and improves cbmogdis01 textures](#link__20240810__2475_cbmogdis01_textures)
-- [2024-08-11 - Fixes cbmogdis02 textures](#link__20240811__2476_cbmogdis02_textures)
+- [2024-08-11 - Fixes and improves cbmogdis02 textures](#link__20240811__2476_cbmogdis02_textures)
 - [2024-08-12 - Fixes and improves cbmogdis03 textures](#link__20240812__2477_cbmogdis03_textures)
+- [2024-08-12 - Fixes and improves cbmogdis04 textures](#link__20240812__2479_cbmogdis04_textures)
+- [2024-08-15 - Fixes and improves cbmogdis05 textures](#link__20240815__2480_cbmogdis05_textures)
+- [2024-08-18 - Fixes and improves cbmogdis06, cbmogdis06_vent textures](#link__20240818__2482_cbmogdis06_textures)
 - [2021-08-27 - Fixes units shooting at already killed infantry units](#link__20210827__75_dead_target_bug)
 - [2021-08-28 - Fixes Anthrax Gamma streams showing with green particles when clearing buildings](#link__20210828__84_green_gamma_toxin_streams)
 - [2021-08-30 - Expands army selection drop down box in Menu Game Room to see all factions at once](#link__20210830__122_ui_faction_list_size)
@@ -1351,7 +1354,7 @@ Contains 921 entries with
 ### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
+- **TWEAK**: Destroying a Battlemaster, Marauder, Crusader, Paladin, Microwave now rewards 30% less, 70 70 140 280 instead of 100 100 200 400 or 100 100 200 300 experience points (XP). This gives a more balanced kill reward for generally easy-to-kill tanks.
 
 **Links**
 
@@ -1491,7 +1494,7 @@ Contains 921 entries with
 ### 2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers <a name='link__20210923__407_avenger_composite_armor'></a>
 **Changes**
 
-- **TWEAK**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
+- **FIX**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
 
 **Links**
 
@@ -1531,10 +1534,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee <a name='link__20220908__1162_sentry_drone_build_cost'></a>
 **Changes**
 
-- **TWEAK**: Decreases cost of regular USA Sentry Drone from 800 to 700.
-- **TWEAK**: Decreases cost of USA Laser Sentry Drone from 800 to 700.
-- **TWEAK**: Decreases cost of USA Airforce Sentry Drone from 850 to 800.
-- **TWEAK**: Decreases cost of USA Superweapon Sentry Drone from 1000 to 850.
+- **TWEAK**: The cost of the regular USA Sentry Drone is decreased from 800 to 700.
+- **TWEAK**: The cost of the USA Laser Sentry Drone is decreased from 800 to 700.
+- **TWEAK**: The cost of the USA Airforce Sentry Drone is decreased from 850 to 800.
+- **TWEAK**: The cost of the USA Superweapon Sentry Drone is decreased from 1000 to 850.
 
 **Links**
 
@@ -1547,10 +1550,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1162_sentry_drone_build_cost.yaml
 
 ---
-### 2022-09-08 - Increases USA Sentry Drone gun damage by 20% <a name='link__20220908__1162_sentry_drone_damage'></a>
+### 2022-09-08 - Increases gun damage of USA Sentry Drone by 20% <a name='link__20220908__1162_sentry_drone_damage'></a>
 **Changes**
 
-- **TWEAK**: Increases USA Sentry Drone gun damage by 20%, from 40 to 50. This makes the Machine Gun damage output identical with the Vet 0 Humvee.
+- **TWEAK**: The gun damage of the USA Sentry Drone is increased by 20%, from 40 to 50. This makes the Machine Gun damage output identical with the Vet 0 Humvee.
 
 **Links**
 
@@ -1566,7 +1569,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone <a name='link__20220908__1162_sentry_drone_deployment'></a>
 **Changes**
 
-- **TWEAK**: Removes the gun deployment mechanic from USA Sentry Drone. It no longer requires 1 second to acquire a fresh target, and 2 seconds to engage a consecutive target if it needs to move to a new position. This is a time and performance boost. It will also make the unit feel more responsive in combat situations.
+- **TWEAK**: The gun deployment mechanic of the USA Sentry Drone is now removed. It no longer requires 1 second to acquire a fresh target, and 2 seconds to engage a consecutive target if it needs to move to a new position. This is a time and performance boost. It will also make the unit feel more responsive in combat situations.
 
 **Links**
 
@@ -1582,7 +1585,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70% <a name='link__20220908__1162_sentry_drone_movement'></a>
 **Changes**
 
-- **TWEAK**: Decreases the acceleration time of USA Sentry Drone by 70%, from 1000 to 300 ms.
+- **TWEAK**: The acceleration time of the USA Sentry Drone is decreased by 70%, from 1000 to 300 ms.
 
 **Links**
 
@@ -1598,7 +1601,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Increases sight range of USA Sentry Drone by 30% <a name='link__20220908__1162_sentry_drone_sight_range'></a>
 **Changes**
 
-- **TWEAK**: Increases the sight range of USA Sentry Drone by 30%, from 350 to 400.
+- **TWEAK**: The shroud clearing range of the USA Sentry Drone is increased by 30%, from 350 to 400.
 
 **Links**
 
@@ -1614,7 +1617,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones <a name='link__20220908__1162_sentry_drone_tracks'></a>
 **Changes**
 
-- **TWEAK**: Replaces terrain tracks of USA Sentry Drone with less transparent ones. This makes the tracks less visible than those of tanks and China Outpost.
+- **TWEAK**: The terrain tracks of the USA Sentry Drone now show with less transparency. This makes the tracks less visible than those of tanks and China Outpost.
 
 **Links**
 
@@ -1630,8 +1633,8 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20% <a name='link__20220908__1162_sentry_drone_upgrade'></a>
 **Changes**
 
-- **TWEAK**: Decreases USA Sentry Drone gun upgrade time by 66%, from 30 to 10 seconds.
-- **TWEAK**: Decreases USA Sentry Drone gun upgrade cost by 20%, from 1000 to 800.
+- **TWEAK**: The USA Sentry Drone's gun upgrade time is decreased by 66%, from 30 to 10 seconds.
+- **TWEAK**: The USA Sentry Drone's gun upgrade cost is decreased by 20%, from 1000 to 800.
 
 **Links**
 
@@ -1647,7 +1650,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead <a name='link__20220918__1220_pilot_humvee_passenger'></a>
 **Changes**
 
-- **TWEAK**: Forbids NO_GARRISON flag objects from entering Humvee. NO_GARRISON is unique to Pilot and makes it unable to enter civilian buildings, Tunnels and Bunkers. Cursor still appears and it promotes the Humvee when entered. Therefore a Vet 3 Humvee can no longer transport Pilots.
+- **TWEAK**: The USA Pilot is no longer able to accidentally take a passenger seat in a Humvee. Instead it now consistently promotes the Humvee when entered. A Vet 3 Humvee can no longer transport Pilots, but the Ambulance still can.
 
 **Links**
 
@@ -1697,7 +1700,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0% <a name='link__20230115__1554_hold_line_plan_armor_bonus'></a>
 **Changes**
 
-- **FIX**: Increases the USA unit armor bonus of HOLD THE LINE Battle Plan from 11.1% to 20.0%. Armor bonus is synonymous for damage resistance. This makes the use of the HOLD THE LINE Battle Plan more attractive for all USA factions. Traditionally USA favors the SEARCH AND DESTROY Battle Plan above the others by a large margin.
+- **TWEAK**: The USA unit armor bonus from the HOLD THE LINE Battle Plan is increased from 11.1% to 20.0%. Armor bonus is synonymous for damage resistance. This makes the use of the HOLD THE LINE Battle Plan more attractive for all USA factions. Traditionally USA favors the SEARCH AND DESTROY Battle Plan above the others by a large margin.
 
 **Links**
 
@@ -1710,10 +1713,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1554_hold_line_plan_armor_bonus.yaml
 
 ---
-### 2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser <a name='link__20230115__1555_king_raptor_point_defense_laser'></a>
+### 2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of remaining single Point Defense Laser <a name='link__20230115__1555_king_raptor_point_defense_laser'></a>
 **Changes**
 
-- **FIX**: The USA King Raptor no longer has 2 Point Defense Laser modules with reload times of 266 ms each. Instead it now has just one with a reload time of 133 ms.
+- **TWEAK**: The USA King Raptor no longer has 2 Point Defense Laser modules with reload times of 266 ms each. Instead it now has just one with a reload time of 133 ms.
 
 **Links**
 
@@ -1745,7 +1748,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops <a name='link__20230621__2026_usa_paradrop_payload'></a>
 **Changes**
 
-- **TWEAK**: Replaces 40% of Rangers with Missile Defenders in USA Paradrops. Rank 1 drops 3 Rangers and 2 Missile Defenders, Rank 2 drops 6 Rangers and 4 Missile Defenders and Rank 3 drops 12 Rangers and 8 Missile Defenders.
+- **TWEAK**: 40% of Rangers are now replaced by Missile Defenders in USA Paradrops. Rank 1 drops 3 Rangers and 2 Missile Defenders, Rank 2 drops 6 Rangers and 4 Missile Defenders and Rank 3 drops 12 Rangers and 8 Missile Defenders.
 
 **Links**
 
@@ -1808,10 +1811,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2023_hazard_field_cleanup_health_and_damage.yaml
 
 ---
-### 2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25 <a name='link__20230212__1680_supply_truck_xp_reward'></a>
+### 2023-02-12 - Decreases kill experience reward of China Supply Truck from 50 to 25 <a name='link__20230212__1680_supply_truck_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: The China Supply Truck now gives 25 XP instead of 50 XP on kill. This takes a bit of pressure off of China when losing Supply Trucks to the opposition by not promoting enemy units as much.
+- **TWEAK**: Destroying a China Supply Truck now rewards 25 instead of 50 experience points (XP). This takes a bit of pressure off of China when losing Supply Trucks to the opposition by not promoting enemy units as much.
 
 **Links**
 
@@ -1925,7 +1928,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-09-25 - Decreases required level up experience of China Black Lotus by 82% <a name='link__20210925__413_lotus_required_xp'></a>
 **Changes**
 
-- **TWEAK**: Decreases the required level up experience of China Black Lotus from 100 200 400 to 40 80 160. This allows Black Lotus to level up quicker, but on average still requires more time than USA Colonel Burton and GLA Jarmen Kell do.
+- **TWEAK**: The required level up experience of China Black Lotus is decreased from 100 200 400 to 40 80 160. This allows Black Lotus to level up quicker, but on average still requires more time than USA Colonel Burton and GLA Jarmen Kell do.
 
 **Links**
 
@@ -1943,7 +1946,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62% <a name='link__20210925__413_lotus_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Decreases the kill XP reward of China Black Lotus from 50 100 150 400 to 50 50 100 150. These levels are consistent with those of other Hero units.
+- **TWEAK**: Killing a China Black Lotus now rewards 50 100 150 400 instead of 50 50 100 150 experience points (XP). These levels are consistent with those of other Hero units.
 
 **Links**
 
@@ -1956,10 +1959,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 413_lotus_xp_reward.yaml
 
 ---
-### 2021-12-24 - Removes auto engage behaviour from China ECM Tank <a name='link__20211224__631_ecm_auto_attack'></a>
+### 2021-12-24 - Removes auto attack behaviour from non-vanilla China ECM Tanks <a name='link__20211224__631_ecm_auto_attack'></a>
 **Changes**
 
-- **FIX**: Removes the auto engage behaviour from China ECM Tanks. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same.
+- **FIX**: The auto attack behaviour of the non-vanilla China ECM Tanks is now removed. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same now.
 
 **Links**
 
@@ -1972,10 +1975,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 631_ecm_auto_attack.yaml
 
 ---
-### 2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms <a name='link__20220729__785_china_cc_door_times'></a>
+### 2022-07-29 - Decreases door times of China Command Center from 3000 to 1500 ms <a name='link__20220729__785_china_cc_door_times'></a>
 **Changes**
 
-- **TWEAK**: Decreases the China Command Center door times from 3000 to 1500 ms. This equals the door times of the USA Command Center. It enables China to build the second Dozer 1500 ms quicker.
+- **TWEAK**: The opening and closing door times of the China Command Center are decreased from 3000 to 1500 ms. This equals the door times of the USA Command Center. It enables China to build the second Dozer 1500 ms quicker.
 
 **Links**
 
@@ -1988,10 +1991,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 785_china_cc_door_times.yaml
 
 ---
-### 2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms <a name='link__20220730__786_china_factory_door_times'></a>
+### 2022-07-30 - Decreases door times of China War Factory from 4000 to 3300 ms <a name='link__20220730__786_china_factory_door_times'></a>
 **Changes**
 
-- **TWEAK**: Decreases the China War Factory door times from 4000 to 3300 ms. This equals the door times of the USA War Factory. It enables China to build all vehicles 700 ms quicker.
+- **TWEAK**: The opening and closing door times of the China War Factory are decreased from 4000 to 3300 ms. This equals the door times of the USA War Factory. It enables China to build all vehicles 700 ms quicker.
 
 **Links**
 
@@ -2007,7 +2010,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability <a name='link__20220806__837_satellite_hack_ii_ability'></a>
 **Changes**
 
-- **FEATURE**: Changes the China Satellite Hack II upgrade into a manually activated spy ability. It keeps the same duration and cooldown, but instead of being automatically activated, it is now an ability similar to the Strategy Center Intelligence.
+- **FEATURE**: The China Satellite Hack II upgrade is now a manually activated spy ability. It keeps the same duration and cooldown, but instead of being automatically activated, it works similar to the Strategy Center Intelligence.
 
 **Links**
 
@@ -2023,7 +2026,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-08-06 - Adds functional Speaker Tower to China Propaganda Center <a name='link__20220806__839_propaganda_center_speaker_tower'></a>
 **Changes**
 
-- **FEATURE**: Adds a functional Speaker Tower to the China Propaganda Center. The model of the structure is unchanged, because it already has the tower. It works identical to the regular Speaker Tower.
+- **FEATURE**: The China Propaganda Center now has a functional Speaker Tower. The model of the structure is unchanged, because it already has the tower. It works identical to the regular Speaker Tower.
 
 **Links**
 
@@ -2039,13 +2042,13 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-08-14 - Increases damage and radius of China Nuke Missile <a name='link__20220814__871_nuke_missile_damage_and_radius'></a>
 **Changes**
 
-- **TWEAK**: Increases China Nuke Missile damage by 20%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 1 by 2%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 2 by 3.3%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 3 by 4%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 4 by 4.4%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 5 by 4.7%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 6 by 20%.
+- **TWEAK**: The China Nuke Missile damage is increased by 20%.
+- **TWEAK**: The China Nuke Missile blasts radius 1 is increased by 2%.
+- **TWEAK**: The China Nuke Missile blasts radius 2 is increased by 3.3%.
+- **TWEAK**: The China Nuke Missile blasts radius 3 is increased by 4%.
+- **TWEAK**: The China Nuke Missile blasts radius 4 is increased by 4.4%.
+- **TWEAK**: The China Nuke Missile blasts radius 5 is increased by 4.7%.
+- **TWEAK**: The China Nuke Missile blasts radius 6 is increased by 20%.
 
 **Links**
 
@@ -2058,10 +2061,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 871_nuke_missile_damage_and_radius.yaml
 
 ---
-### 2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms <a name='link__20220914__1199_gattling_spin_timeout'></a>
+### 2022-09-14 - Increases China Gattling Tank spin timeout against ground units from 1000 to 2000 ms <a name='link__20220914__1199_gattling_spin_timeout'></a>
 **Changes**
 
-- **TWEAK**: Increases GattlingTankGun ContinuousFireCoast from 1000 to 2000 ms. This matches the setup from Generals (CCG) and also the setting from the Zero Hour (ZH) GattlingTankGunAir. With this change the Gattling Tank gun can be microed more generously to squeeze out the most damage potential.
+- **TWEAK**: The China Gattling Tank spin timeout against ground units is increased by 100%, from 1000 to 2000 ms. The spin timeout against air units is unchanged. This matches the spin timeout setup from Generals (CCG). With this change the Gattling Tank gun can be microed more generously against ground units to squeeze out the most damage potential.
 
 **Links**
 
@@ -2093,7 +2096,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 2 seconds pass until the next attack.
 
 **Links**
 
@@ -2125,13 +2128,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-04-08 - Increases China Overlord speed by 25%, upgraded speed by 16% <a name='link__20230408__1813_overlord_speed'></a>
 **Changes**
 
-- **TWEAK**: Increases regular China Overlord
-  - speed from 20 to 25
-  - acceleration from 15 to 20
-  - turn rate from 60 to 70
-  - upgraded speed from 30 to 35
-  - upgraded turn rate from 60 to 70
-
+- **TWEAK**: The regular China Overlord's speed is increased from 20 to 25
+- **TWEAK**: The regular China Overlord's acceleration is increased from 15 to 20
+- **TWEAK**: The regular China Overlord's turn rate is increased from 60 to 70
+- **TWEAK**: The regular China Overlord's upgraded speed is increased from 30 to 35
+- **TWEAK**: The regular China Overlord's upgraded turn rate is increased from 60 to 70
 
 **Links**
 
@@ -2147,7 +2148,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-04-08 - Increases China Battlemaster speed by 20%, upgraded speed by 14% <a name='link__20230408__1815_battlemaster_speed'></a>
 **Changes**
 
-- **TWEAK**: Increases China Battlemaster speed from 25 to 30, upgraded speed 35 to 40. This affects regular China General and Tank General. Movement speed is now competitive with tank speeds of USA and GLA.
+- **TWEAK**: The China Battlemaster speed is increased from 25 to 30, upgraded speed from 35 to 40. This affects regular China General and Tank General. The movement speed is now competitive with tank speeds of USA and GLA.
 
 **Links**
 
@@ -2163,13 +2164,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-04-17 - Increases China Emperor speed by 25%, upgraded speed by 16% <a name='link__20230417__1854_emperor_speed'></a>
 **Changes**
 
-- **TWEAK**: Increases China Emperor
-  - speed from 20 to 25
-  - acceleration from 15 to 20
-  - turn rate from 60 to 70
-  - upgraded speed from 30 to 35
-  - upgraded turn rate from 60 to 70
-
+- **TWEAK**: The China Emperor's speed is increased from 20 to 25
+- **TWEAK**: The China Emperor's acceleration is increased from 15 to 20
+- **TWEAK**: The China Emperor's turn rate is increased from 60 to 70
+- **TWEAK**: The China Emperor's upgraded speed is increased from 30 to 35
+- **TWEAK**: The China Emperor's upgraded turn rate is increased from 60 to 70
 
 **Links**
 
@@ -2185,7 +2184,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-04 - Increases armor of China Internet Center against Explosion attacks by 28.5% <a name='link__20230604__1989_internet_center_explosion_armor'></a>
 **Changes**
 
-- **TWEAK**: Increases the armor of the China Internet Center against Explosion attacks by 28.5%. This way GLA Scud Storms, China Nuke Missiles and all Generals Powers are no longer able to kill the pristine Internet Center and all its Hackers with a single strike.
+- **TWEAK**: The armor of the China Internet Center against Explosion attacks is increased by 28.5%. This way GLA Scud Storms, China Nuke Missiles and all Generals Powers are no longer able to kill the pristine Internet Center and all its Hackers with a single strike.
 
 **Links**
 
@@ -2201,7 +2200,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-04 - Increases armor of China Internet Center against Particle Cannon beams by 25% <a name='link__20230604__1989_internet_center_particle_beam_armor'></a>
 **Changes**
 
-- **TWEAK**: Increases the armor of the China Internet Center against Particle Cannon beams by 25%. This way the Particle Cannon is no longer able to kill the pristine Internet Center with a single strike.
+- **TWEAK**: The armor of the China Internet Center against Particle Cannon beams is increased by 25%. This way the Particle Cannon is no longer able to kill the pristine Internet Center with a single strike.
 
 **Links**
 
@@ -2217,7 +2216,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30% <a name='link__20230622__2027_internet_center_aurora_bomb_armor'></a>
 **Changes**
 
-- **TWEAK**: Increases the armor of the China Internet Center against Aurora bombs by 30%. This way it takes one more Aurora or Alpha Aurora to take out the pristine Internet Center.
+- **TWEAK**: The armor of the China Internet Center against Aurora bombs is increased by 30%. This way it takes one more Aurora or Alpha Aurora to take out the pristine Internet Center.
 
 **Links**
 
@@ -2288,7 +2287,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-09-11 - Fixes GLA Car Bomb unable to attack target <a name='link__20210911__307_car_bomb_attack_bug'></a>
 **Changes**
 
-- **FIX**: When aiming a GLA Car Bomb at a unit that is driving away, the Car Bomb will no longer stop moving all of a sudden. It keeps attacking until the target is hit or the car is destroyed.
+- **FIX**: When aiming a GLA Car Bomb at a unit that is driving away, the Car Bomb will no longer stop moving all of a sudden. It keeps attacking until the target is hit or the attack has stopped.
 
 **Links**
 
@@ -2381,10 +2380,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 697_all_terrorist_crush_damage.yaml
 
 ---
-### 2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade <a name='link__20220716__699_toxin_terrorist_damage'></a>
+### 2022-07-16 - Fixes GLA Toxin Terrorist dealing more damage before Toxin Gamma Upgrade <a name='link__20220716__699_toxin_terrorist_damage'></a>
 **Changes**
 
-- **FIX**: The Toxin GLA Terrorist now deals identical amount of damage before and after Toxin Gamma Upgrade, 500 instead of 700 damage.
+- **FIX**: The GLA Toxin Terrorist now deals identical amount of damage before and after the Toxin Gamma Upgrade, 500 instead of 700 damage.
 
 **Links**
 
@@ -2415,11 +2414,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1055_quad_cannon_scrap_damage.yaml
 
 ---
-### 2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max <a name='link__20220814__882_stinger_anthrax_gamma_damage'></a>
+### 2022-08-14 - Decreases Anthrax Gamma bonus damages of GLA Toxin Stinger to stay within the maximum of 50% <a name='link__20220814__882_stinger_anthrax_gamma_damage'></a>
 **Changes**
 
-- **TWEAK**: Decreases GLA Toxin Stinger Anthrax Gamma ground bonus damage from 100% to 50%.
-- **TWEAK**: Decreases GLA Toxin Stinger Anthrax Gamma air bonus damage from 66% to 50%.
+- **TWEAK**: The GLA Toxin Stinger Anthrax Gamma ground bonus damage is decreased from 100% to 50%.
+- **TWEAK**: The GLA Toxin Stinger Anthrax Gamma air bonus damage is decreased from 66% to 50%.
 
 **Links**
 
@@ -2499,7 +2498,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds <a name='link__20230211__1676_salvage_crate_exploit'></a>
 **Changes**
 
-- **FIX**: The GLA Salvage Crate is no longer deleted when a scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
+- **FIX**: The GLA Salvage Crate is no longer deleted when a building scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
 
 **Links**
 
@@ -2512,10 +2511,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1676_salvage_crate_exploit.yaml
 
 ---
-### 2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150 <a name='link__20230212__1680_technical_xp_requirement'></a>
+### 2023-02-12 - Increases required level up experience of GLA Technical from 50 75 150 to 50 100 150 <a name='link__20230212__1680_technical_xp_requirement'></a>
 **Changes**
 
-- **TWEAK**: The GLA Technical now requires 100 XP instead of just 75 XP to reach elite rank. This makes it a bit more challenging for GLA to acquire strong Technicals.
+- **TWEAK**: The GLA Technical now requires 100 instead of just 75 experience points (XP) to reach elite rank. This makes it a bit more challenging for GLA to acquire strong Technicals.
 
 **Links**
 
@@ -2547,7 +2546,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175 <a name='link__20230610__2002_anthrax_beta_scud_storm_damage'></a>
 **Changes**
 
-- **TWEAK**: Decreases the secondary damage of the Anthrax Beta Scud Storm missiles from 200 to 175. This way it can no longer take out as many structures in a large area, but is still stronger than the regular Scud Storm.
+- **TWEAK**: The secondary damage of the Anthrax Beta Scud Storm missiles is decreased from 200 to 175. This way it can no longer take out as many structures in a large area, but is still stronger than the regular Scud Storm.
 
 **Links**
 
@@ -2563,7 +2562,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500 <a name='link__20230610__2002_anthrax_gamma_scud_storm_damage'></a>
 **Changes**
 
-- **TWEAK**: Decreases the primary damage of the Anthrax Gamma Scud Storm missiles from 550 to 500. This way it can no longer take out pristine Superweapons in a single strike, but is still better than the Anthrax Beta Scud Storm.
+- **TWEAK**: The primary damage of the Anthrax Gamma Scud Storm missiles is decreased from 550 to 500. This way it can no longer take out pristine Superweapons in a single strike, but is still better than the Anthrax Beta Scud Storm.
 
 **Links**
 
@@ -2774,7 +2773,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-10-16 - Increases Player Beacon limit from 3 to 5 <a name='link__20221016__1377_beacon_limit'></a>
 **Changes**
 
-- **FIX**: Increases Player Beacon limit from 3 to 5.
+- **TWEAK**: The Player Beacon limit is increased from 3 to 5.
 
 **Links**
 
@@ -4194,7 +4193,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret <a name='link__20210913__373_laser_turret_clip_size'></a>
 **Changes**
 
-- **FIX**: The Laser Turret now fires only 3 shots, both when engaging airborne units and assisting other Laser Turrets.
+- **FIX**: The USA Laser Turret now fires 3 shots consistently in all modes, when engaging ground targets, airborne targets and targets by assisting other Laser Turrets.
 
 **Links**
 
@@ -4274,7 +4273,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-09-25 - Adds kill experience reward to USA Hellfire Drone <a name='link__20210925__414_hellfire_drone_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Destroying the USA Hellfire Drone now rewards 10 experience points.
+- **TWEAK**: Destroying a USA Hellfire Drone now rewards 10 instead of 0 experience points (XP).
 
 **Links**
 
@@ -4306,23 +4305,23 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-28 - Increases USA Paladin Composite Armor bonus by 100% <a name='link__20220728__777_paladin_composite_armor_bonus'></a>
 **Changes**
 
-- **TWEAK**: Increases the USA Paladin Composite Armor bonus by 100%, from 100 to 200. This matches the Armor bonus for the Crusader Tank.
+- **TWEAK**: The Composite Armor bonus of the USA Paladin is increased by 100%, from 100 to 200. This matches the Composite Armor bonus for the USA Crusader Tank.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777)
 
-**Labels:** buff, bug, controversial, minor, usa, v1.0
+**Labels:** buff, controversial, design, minor, usa, v1.0
 
 **Authors:** xezon
 
 **Source:** 777_paladin_composite_armor_bonus.yaml
 
 ---
-### 2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms <a name='link__20220730__787_usa_factory_door_times'></a>
+### 2022-07-30 - Decreases closing door time of USA War Factory from 4000 to 3300 ms <a name='link__20220730__787_usa_factory_door_times'></a>
 **Changes**
 
-- **TWEAK**: Decreases the USA War Factory close door time from 4000 to 3300 ms. This change is inconsequential for gameplay, because it does not affect unit interactions.
+- **TWEAK**: The closing door time of the USA War Factory is decreased from 4000 to 3300 ms. This change is inconsequential for gameplay, because it does not affect unit interactions.
 
 **Links**
 
@@ -4485,7 +4484,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber <a name='link__20220827__953_afg_carpet_pdl'></a>
 **Changes**
 
-- **TWEAK**: Removes the PointDefenseLaser from the USA Airforce Carpet Bomber. All other USA Airforce General Promotion planes have no PointDefenseLaser either, including the B52 bomber that delivers the MOAB and looks identical to the B52 Carpet Bomber. USA Airforce opponents will now be able to shoot down the Carpet Bomber more easily with Rockets.
+- **TWEAK**: The Point Defense Laser from the USA Airforce Carpet Bomber is now removed. All other USA Airforce General Promotion planes have no Point Defense Laser either, including the B52 bomber that delivers the MOAB and looks identical to the B52 Carpet Bomber. USA Airforce opponents will now be able to shoot down the Carpet Bomber more easily with rockets.
 
 **Links**
 
@@ -4546,10 +4545,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1084_carpet_bomber_turn_rate.yaml
 
 ---
-### 2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300 <a name='link__20220906__1141_battle_drone_shroud_range'></a>
+### 2022-09-06 - Increases sight range of USA Battle Drone from 150 to 300 <a name='link__20220906__1141_battle_drone_shroud_range'></a>
 **Changes**
 
-- **TWEAK**: Increases the shroud clearing range of USA Battle Drone from 150 to 300.
+- **TWEAK**: The shroud clearing range of USA Battle Drone is increased by 100%, from 150 to 300.
 
 **Links**
 
@@ -4562,10 +4561,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1141_battle_drone_shroud_range.yaml
 
 ---
-### 2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400 <a name='link__20220906__1141_hellfire_drone_shroud_range'></a>
+### 2022-09-06 - Decreases sight range of USA Hellfire Drone from 500 to 400 <a name='link__20220906__1141_hellfire_drone_shroud_range'></a>
 **Changes**
 
-- **TWEAK**: Decreases the shroud clearing range of USA Hellfire Drone from 500 to 400.
+- **TWEAK**: The shroud clearing range of USA Hellfire Drone is decreased by 20%, from 500 to 400.
 
 **Links**
 
@@ -4578,10 +4577,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1141_hellfire_drone_shroud_range.yaml
 
 ---
-### 2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400 <a name='link__20220907__1155_burton_sight_range'></a>
+### 2022-09-07 - Decreases sight range of USA Colonel Burton from 500 to 400 <a name='link__20220907__1155_burton_sight_range'></a>
 **Changes**
 
-- **TWEAK**: Decreases the USA Colonel Burton shroud range from 500 to 400. This matches the shroud range of the other Hero units. With the SEARCH AND DESTROY Battle Plan, Colonel Burton will have a shroud range of 480 instead of 600.
+- **TWEAK**: The shroud clearing range of USA Colonel Burton is decreased by 20%, from 500 to 400. This matches the shroud clearing range of the other Hero units. With the SEARCH AND DESTROY Battle Plan, Colonel Burton will now have a shroud clearing range of 480 instead of originally 600.
 
 **Links**
 
@@ -4642,10 +4641,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1177_afg_firebase_snow_damaged.yaml
 
 ---
-### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
+### 2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
 **Changes**
 
-- **FIX**: All weapons of the USA Patriot Battery will now reload the entire clip after being idle for around 2 seconds.
+- **TWEAK**: All weapons of the USA Patriot Battery will now reload when idle. This makes the base defense a bit better in scenarios where it managed to only fire a few of its rockets on its target and at least 2 seconds pass until the next attack.
 
 **Links**
 
@@ -5878,7 +5877,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300 <a name='link__20221108__1457_strategy_center_detection_range'></a>
 **Changes**
 
-- **TWEAK**: Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300. As all heroes (now) have a sight range of 400, options for reacting to a Strategy Center's presence before being detected are incredibly limited. Not only this, but the structure's extensive stealth detection range over the owner's entire base effectively renders heroes useless - on top of the substantial range bonus that Search and Destroy provides. Reducing the stealth detection range is a reasonable way to counterbalance the incredible effectiveness of S&D without directly affecting the bonus itself.
+- **TWEAK**: The SEARCH AND DESTROY stealth detection range of the USA Strategy Center is decreased by 40%, from 500 to 300. As all heroes (now) have a sight range of 400, options for reacting to a Strategy Center's presence before being detected are incredibly limited. Not only this, but the structure's extensive stealth detection range over the owner's entire base effectively renders heroes useless - on top of the substantial range bonus that SEARCH AND DESTROY provides. Reducing the stealth detection range is a reasonable way to counterbalance the incredible effectiveness of SEARCH AND DESTROY without directly affecting the bonus itself.
 
 **Links**
 
@@ -5891,10 +5890,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1457_strategy_center_detection_range.yaml
 
 ---
-### 2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600 <a name='link__20221108__1457_strategy_center_snd_vision_range'></a>
+### 2022-11-08 - Decreases SEARCH AND DESTROY sight range bonus for USA Strategy Center from 800 to 600 <a name='link__20221108__1457_strategy_center_snd_vision_range'></a>
 **Changes**
 
-- **TWEAK**: Decreases the SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600. Accordingly, the Strategy Center no longer has an extreme shroud-clearing range of 800 under the effects of Search and Destroy. It was an unnecessary advantage for USA that discounts map awareness. The range has been reduced to a more palatable range of 600 - a 1.5x increase of the default vision range of 400. This was preferred over reducing the default vision of 400 to 300 due to the Bombardment cannon's weapon range of 400.
+- **TWEAK**: The SEARCH AND DESTROY shroud clearing range bonus of the USA Strategy Center is decreased by 25%, from 800 to 600. Accordingly, the Strategy Center no longer has this large shroud clearing range of 800 under the effects of Search and Destroy. It was an unnecessary advantage for USA that discounts map awareness. The range has been reduced to a more palatable range of 600 - a 1.5x increase of the default sight range of 400. This was preferred over reducing the default vision of 400 to 300 due to the Bombardment cannon's weapon range of 400.
 
 **Links**
 
@@ -6188,7 +6187,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25% <a name='link__20221116__1469_battle_drone_upgrade_armor_bonus'></a>
 **Changes**
 
-- **FIX**: Decreases the Drone Armor Upgrade bonus of the USA Battle Drone from 50% to 25%. This makes the armor bonus consistent with the other vehicle drones.
+- **TWEAK**: The Drone Armor Upgrade bonus of the USA Battle Drone is decreased from 50% to 25%. This makes the armor bonus consistent with the other vehicle drones.
 
 **Links**
 
@@ -6464,7 +6463,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb <a name='link__20230224__1752_alpha_aurora_bomb_random_delay'></a>
 **Changes**
 
-- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Alpha Aurora bomb. The delay is now a fixed deterministic 1000 ms.
+- **TWEAK**: The 100 ms destruction delay variance of the USA Alpha Aurora bomb is now removed. The delay is now a fixed deterministic 1000 ms.
 
 **Links**
 
@@ -6512,7 +6511,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb <a name='link__20230406__1800_daisy_cutter_explosion_delay_variance'></a>
 **Changes**
 
-- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Daisy Cutter bomb. The delay is now a fixed deterministic 1000 ms.
+- **TWEAK**: The 100 ms destruction delay variance of the USA Daisy Cutter bomb is now removed. The delay is now a fixed deterministic 1000 ms.
 
 **Links**
 
@@ -7124,7 +7123,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes <a name='link__20230707__2064_burton_experience_reward'></a>
 **Changes**
 
-- **TWEAK**: The USA Burton now rewards 50 50 100 150 instead of 50 100 100 150 experience on kill.
+- **TWEAK**: Killing a USA Burton now rewards 50 50 100 150 instead of 50 100 100 150 experience points (XP).
 
 **Links**
 
@@ -7137,12 +7136,12 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2064_burton_experience_reward.yaml
 
 ---
-### 2023-07-08 - Enables Laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
+### 2023-07-08 - Enables USA laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
 **Changes**
 
 - **TWEAK**: The USA Laser Turret now burns infantry on kill. It still triggers the strong suicide explosion of the GLA Terrorist as per original design.
-- **TWEAK**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
-- **TWEAK**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
 
 **Links**
 
@@ -8096,7 +8095,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus <a name='link__20211001__437_lotus_vehicle_hack_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: China Black Lotus now receives 10 XP for hacking vehicles.
+- **TWEAK**: China Black Lotus now receives 10 instead of 0 experience points (XP) for hacking vehicles.
 
 **Links**
 
@@ -8145,7 +8144,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-24 - Decreases reload time of China Mig before Upgrade by 50% <a name='link__20220724__751_mig_reload_time'></a>
 **Changes**
 
-- **FIX**: Decreases the reload time of non-Black Napalm Migs from 8 to 4 seconds. This also applies to Nuke Migs before the Nuke Mig Upgrade. The reload time after both upgrades remains unchanged at 2 seconds.
+- **TWEAK**: The reload time of Migs without Black Napalm is reduced by 50%, from 8 to 4 seconds. This also applies to Nuke Migs without the Nuke Mig Upgrade. The reload time after both upgrades remains unchanged at 2 seconds.
 
 **Links**
 
@@ -8161,7 +8160,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-27 - Decreases audible distance of China Helix helicopter by 30% <a name='link__20220727__765_helix_sound_range'></a>
 **Changes**
 
-- **FIX**: Decreases the audible distance of China Helix helicopter by 30%, from 1000 to 700. This is in line with the sound distances of other aircraft.
+- **TWEAK**: The audible distance of the China Helix helicopter is decreased by 30%, from 1000 to 700. This is in line with the sound distances of other aircraft.
 
 **Links**
 
@@ -8177,8 +8176,8 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler <a name='link__20220728__778_outpost_troopcrawler_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Destroying the China Outpost now rewards 5 experience points.
-- **TWEAK**: Destroying the China Troopcrawler now rewards 5 experience points.
+- **TWEAK**: Destroying a China Outpost now rewards 5 instead of 0 experience points (XP).
+- **TWEAK**: Destroying a China Troopcrawler now rewards 5 instead of 0 experience points (XP).
 
 **Links**
 
@@ -8194,7 +8193,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625 <a name='link__20220730__768_hacker_build_cost'></a>
 **Changes**
 
-- **TWEAK**: Decreases the build cost of Tank China Hacker from 780 to 625. All China Hackers now cost the same. 4 Regular Hackers valued at 2500 cash generate as much income as as a GLA Black Market of identical value.
+- **TWEAK**: The build cost of the Tank China Hacker is decreased from 780 to 625. All China Hackers now cost the same. 4 Regular Hackers valued at 2500 cash generate as much income as as a GLA Black Market of identical value.
 
 **Links**
 
@@ -8210,7 +8209,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds <a name='link__20220730__769_hacker_build_time'></a>
 **Changes**
 
-- **TWEAK**: Decreases the build time of China Hackers from 20 to 15 seconds. 4 Hackers will build as fast as a GLA Black Market of identical value in 1 minute accordingly.
+- **TWEAK**: The build time of China Hackers is decreased from 20 to 15 seconds. 4 Hackers will build as fast as a GLA Black Market of identical value in 1 minute accordingly.
 
 **Links**
 
@@ -8226,7 +8225,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-30 - Decreases kill experience reward of China Hackers <a name='link__20220730__770_hacker_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Decreases the kill experience reward of China Hackers from 50 100 150 400 to 50 60 80 100. This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
+- **TWEAK**: Killing a China Hacker now rewards 50 100 150 400 instead of 50 60 80 100 experience points (XP). This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet 3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
 
 **Links**
 
@@ -8239,10 +8238,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 770_hacker_xp_reward.yaml
 
 ---
-### 2022-07-30 - Decreases the required level up experience of China Hackers <a name='link__20220730__771_hacker_xp_requirement'></a>
+### 2022-07-30 - Decreases required level up experience of China Hackers <a name='link__20220730__771_hacker_xp_requirement'></a>
 **Changes**
 
-- **TWEAK**: Decreases the required level up experience of China Hackers from 100 300 500 to 100 250 400. Affects all Hackers expept Super Hackers from Infantry General. This means the regular Hacker now takes 500 seconds instead of 600 seconds to reach Vet 2. And 800 seconds instead of 1000 seconds to reach Vet 3.
+- **TWEAK**: The required level up experience of China Hackers is decreased from 100 300 500 to 100 250 400. Affects all Hackers except Super Hackers from Infantry General. This means the regular Hacker now takes 500 seconds instead of 600 seconds to reach Vet 2. And 800 seconds instead of 1000 seconds to reach Vet 3.
 
 **Links**
 
@@ -8287,10 +8286,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 774_hacker_hack_audio_limit.yaml
 
 ---
-### 2022-07-30 - Decreases pack and unpack times of China Hackers <a name='link__20220730__774_hacker_pack_unpack_times'></a>
+### 2022-07-30 - Decreases unpack and pack times of China Hackers <a name='link__20220730__774_hacker_pack_unpack_times'></a>
 **Changes**
 
-- **TWEAK**: All China Hackers now unpack and pack their laptops quicker. The packing time variation is decreased significantly from 100% to 20%. This adds more time consistency when packing and unpacking. The unpack base time is just marginally tweaked to accommodate the pack variation for improved animation optics. The pack time is decreased to 75%, allowing Hackers to flee the scene a bit quicker.
+- **TWEAK**: All China Hackers now unpack and pack their laptops quicker. The packing time variation is decreased significantly from 100% to 20%. This adds more time consistency when packing and unpacking. The unpack base time is just marginally tweaked to accommodate the pack variation for improved animation visuals. The pack time is decreased by 25%, allowing Hackers to flee the scene a bit quicker.
 
 **Links**
 
@@ -8320,10 +8319,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 791_satellite_hack_issue.yaml
 
 ---
-### 2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center <a name='link__20220806__833_internet_center_prerequisites'></a>
+### 2022-08-06 - Adds Propaganda Center as additional optional single prerequisite of China Internet Center <a name='link__20220806__833_internet_center_prerequisites'></a>
 **Changes**
 
-- **TWEAK**: The China Internet Center can now be built after a War Factory or Propaganda Center has been built.
+- **TWEAK**: The China Internet Center can now be built after a War Factory or Propaganda Center has been built. Originally the Internet Center requires a War Factory.
 
 **Links**
 
@@ -8354,10 +8353,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 840_nuke_mig_tooltip_text.yaml
 
 ---
-### 2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower <a name='link__20220807__834_speaker_tower_prerequisites'></a>
+### 2022-08-07 - Adds War Factory and Airfield as additional optional single prerequisites of China Speaker Tower <a name='link__20220807__834_speaker_tower_prerequisites'></a>
 **Changes**
 
-- **TWEAK**: The China Speaker Tower can now be built earlier after a War Factory or Airfield or Propaganda Center has been built.
+- **TWEAK**: The China Speaker Tower can now be built earlier after a War Factory or Airfield or Propaganda Center has been built. Originally the Speaker Tower requires a Propaganda Center.
 
 **Links**
 
@@ -8390,7 +8389,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-08-14 - Decreases China Nuke Missile blast delays <a name='link__20220814__880_nuke_missile_blast_delays'></a>
 **Changes**
 
-- **TWEAK**: Decreases the China Nuke Missile blast delays to accomodate the explosion effect more appropriately. The Patched Nuke Missile now hits max 880 milliseconds earlier than originally.
+- **TWEAK**: The China Nuke Missile blast delays are decreased to accomodate the explosion effect more appropriately. The Patched Nuke Missile now hits max 880 milliseconds earlier than originally.
 
 **Links**
 
@@ -9208,7 +9207,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20% <a name='link__20221106__1449_dragon_poison_armor'></a>
 **Changes**
 
-- **FIX**: Originally Dragon Tanks take 25% damage from POISON. Reducing this to 20% is a subtle and effective way to take some of the edge off of Toxin Tunnel Networks for all China factions.
+- **TWEAK**: The poison damage armor of the China Dragon Tank is increased by 20%. Originally Dragon Tanks take 25% damage from POISON. Reducing this to 20% is a subtle and effective way to take some of the edge off of Toxin Tunnel Networks for all China factions.
 
 **Links**
 
@@ -9256,10 +9255,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-11-30 - Increases death explosion damage and radius of China Nuke Silo <a name='link__20221130__1490_nuke_silo_death_damage_radius'></a>
 **Changes**
 
-- **TWEAK**: Increases primary death explosion damage of China Nuke Silo from 400 to 600.
-- **TWEAK**: Increases secondary death explosion damage of China Nuke Silo from 100 to 150.
-- **TWEAK**: Increases primary death explosion radius of China Nuke Silo from 50 to 75.
-- **TWEAK**: Increases secondary death explosion radius of China Nuke Silo from 100 to 125.
+- **TWEAK**: The primary death explosion damage of the China Nuke Silo is increased from 400 to 600.
+- **TWEAK**: The primary death explosion radius of the China Nuke Silo is increased from 50 to 75.
+- **TWEAK**: The secondary death explosion damage of the China Nuke Silo is increased from 100 to 150.
+- **TWEAK**: The secondary death explosion radius of the China Nuke Silo is increased from 100 to 125.
 
 **Links**
 
@@ -9275,7 +9274,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-01-07 - Decreases build cost of China Neutron Mines <a name='link__20230107__1523_china_mines_build_cost'></a>
 **Changes**
 
-- **FIX**: Decreases build cost of rarely used China Neutron Mines from 500 to 400. This cost reduction makes them a bit more attractive for occasional investment.
+- **TWEAK**: The build cost of China Neutron Mines is decreased from 500 to 400. This cost reduction makes them a bit more attractive for occasional investment.
 
 **Links**
 
@@ -9323,8 +9322,8 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-01-08 - Decreases build time of China Mines <a name='link__20230108__1533_china_mines_build_time'></a>
 **Changes**
 
-- **FIX**: Decreases build time of regular China Mines from 20 to 18.
-- **FIX**: Decreases build time of China Neutron Mines from 25 to 18.
+- **TWEAK**: The build time of regular China Mines is decreased from 20 to 18.
+- **TWEAK**: The build time of China Neutron Mines is decreased from 25 to 18.
 
 **Links**
 
@@ -9353,11 +9352,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1536_nuke_cannon_scorch.yaml
 
 ---
-### 2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
+### 2023-01-10 - Increases overall damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
 **Changes**
 
-- **TWEAK**: Increased primary damage of China Helix Nuke Bomb from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as Nuke Cannon does, the damages are easier to anticipate.
-- **TWEAK**: Decreases secondary damage of China Helix Nuke Bomb from 50 to 20. This matches the secondary damage of the Nuke Cannon shell.
+- **TWEAK**: The primary damage of the China Helix Nuke Bomb is increased from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as the Nuke Cannon does, the damages are easier to anticipate.
+- **TWEAK**: The secondary damage of the China Helix Nuke Bomb is decreased from 50 to 20. This matches the secondary damage of the Nuke Cannon shell.
 
 **Links**
 
@@ -10902,7 +10901,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds <a name='link__20210903__164_demo_technical_suicide_delay'></a>
 **Changes**
 
-- **FIX**: The turret of the GLA Technical no longer has to realign up to 0.75 seconds to face directly forward before the vehicle explodes when ordered to suicide. It will explode immediately regardless of its previous orientation.
+- **FIX**: The turret of the GLA Technical no longer has to realign up to 0.75 seconds to face directly forward before the vehicle explodes when ordered to suicide. It will explode immediately regardless of the vehicle's turret orientation.
 
 **Links**
 
@@ -11455,11 +11454,12 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings <a name='link__20211010__544_stealth_saboteur_ability'></a>
 **Changes**
 
-- **FIX**: The GLA Stealth Saboteur can now enter the China Internet Center. This will disable the structure for 15 seconds. This is consistent with the behaviour of the regular GLA Saboteur.
-- **FIX**: The GLA Stealth Saboteur can now enter GLA Fake Buildings. This will destroy the Fake Building. This is consistent with the behaviour of the regular GLA Saboteur.
+- **FIX**: The GLA Stealth Saboteur can now enter and disable the China Internet Center for 60 seconds. This is consistent with the behaviour of the regular GLA Saboteur.
+- **FIX**: The GLA Stealth Saboteur can now enter and destroy GLA Fake Buildings. This is consistent with the behaviour of the regular GLA Saboteur.
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/544](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/544)
 
 **Labels:** buff, bug, controversial, gla, minor, v1.0
@@ -11472,10 +11472,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market <a name='link__20211010__547_regular_saboteur_ability'></a>
 **Changes**
 
-- **FEATURE**: All GLA Saboteurs can now enter the USA Supply Drop Zone and GLA Black Market. They steal 1000 cash when doing so, same as when entering a Supply Center.
+- **FEATURE**: All GLA Saboteurs can now enter the USA Supply Drop Zone and GLA Black Market. They steal 1200 cash when doing so, same as when entering a Supply Center (now).
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/547](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/547)
 
 **Labels:** buff, bug, controversial, design, gla, minor, v1.0
@@ -11520,7 +11521,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25% <a name='link__20220722__727_buggy_required_xp'></a>
 **Changes**
 
-- **TWEAK**: Decreases the required level up experience of the GLA Rocket Buggy by 25%, from 200 400 800 to 150 300 600. This is more in line with other long range vehicles.
+- **TWEAK**: The required level up experience of the GLA Rocket Buggy is decreased by 25%, from 200 400 800 to 150 300 600. This is more in line with other long range vehicles.
 
 **Links**
 
@@ -11536,7 +11537,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50% <a name='link__20220722__727_scud_launcher_required_xp'></a>
 **Changes**
 
-- **TWEAK**: Increases the required level up experience of the GLA Scud Launcher by 50%, from 100 200 400 to 150 300 600. This is more in line with other long range vehicles.
+- **TWEAK**: The required level up experience of the GLA Scud Launcher is increased by 50%, from 100 200 400 to 150 300 600. This is more in line with other long range vehicles.
 
 **Links**
 
@@ -11552,7 +11553,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies <a name='link__20220729__783_demo_combat_bike_allies_damage'></a>
 **Changes**
 
-- **TWEAK**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
+- **FIX**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
 
 **Links**
 
@@ -11699,10 +11700,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 885_fortified_structure_sell.yaml
 
 ---
-### 2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max <a name='link__20220814__889_anthrax_gamma_damage_bonuses'></a>
+### 2022-08-14 - Redistributes Anthrax Gamma bonus damages of GLA Toxin Truck to stay within the maximum of 50% <a name='link__20220814__889_anthrax_gamma_damage_bonuses'></a>
 **Changes**
 
-- **TWEAK**: Redistributes the GLA Toxin Tractor Gamma bonuses to be in line with the intended bonus from the Anthrax Gamma tooltip.
+- **TWEAK**: Redistributes the GLA Toxin Tractor Gamma bonuses to be in line with the intended damage bonus of 50% from the Anthrax Gamma tooltip.
 
 **Links**
 
@@ -11899,10 +11900,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1086_kassad_challenge_stinger_selection.yaml
 
 ---
-### 2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds <a name='link__20220904__1096_scud_storm_worker_spawn_delay'></a>
+### 2022-09-04 - Increases Hole Repair Worker spawn interval of GLA Scud Storm from 20 to 30 seconds <a name='link__20220904__1096_scud_storm_worker_spawn_delay'></a>
 **Changes**
 
-- **TWEAK**: The GLA Scud Storm hole worker now spawns in 30 seconds instead of 20 seconds intervals. This will prevent the first worker from dying in the poison puddle. No EVA event is triggered for damaging the spawned worker. Effectively a Scud Storm can now rebuild 10 seconds quicker than originally. The Toxin Field time has been adjusted to accommodate the Worker spawn time properly.
+- **TWEAK**: The Hole Repair Worker of the GLA Scud Storm now spawns in 30 instead of 20 seconds intervals. This will prevent the first Worker from dying in the poison puddle. No EVA event is triggered for damaging the spawned Worker. Effectively a Scud Storm can now rebuild 10 seconds quicker than originally. The Toxin Field time has been adjusted to properly accommodate the Worker spawn time.
 
 **Links**
 
@@ -11966,8 +11967,8 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades <a name='link__20220906__1137_bomb_truck_damages'></a>
 **Changes**
 
-- **TWEAK**: Increases damage range bonus of GLA Bomb Truck Bio Bomb by +28%.
-- **TWEAK**: Increases damage range bonus of GLA Bomb Truck Bio Bomb + High Explosive by +16%.
+- **TWEAK**: The damage range bonus of the GLA Bomb Truck Bio Bomb is increased by 28%.
+- **TWEAK**: The damage range bonus of the GLA Bomb Truck Bio Bomb + High Explosive is increased by 16%.
 
 **Links**
 
@@ -12002,7 +12003,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200 <a name='link__20220906__1137_bomb_truck_upgrade_cost'></a>
 **Changes**
 
-- **TWEAK**: Decreases the upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200.
+- **TWEAK**: The upgrade cost of the GLA Bomb Truck Bio Bomb is decreased from 500 to 200.
 
 **Links**
 
@@ -12018,7 +12019,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-06 - Improves locomotor of GLA Bomb Truck <a name='link__20220906__1138_bomb_truck_locomotor'></a>
 **Changes**
 
-- **TWEAK**: Improves the locomotor of GLA Bomb Truck. In undamaged state, no tangible difference in driving performance is to be expected. In damaged state, the driving performance is now marginally better. Visually the driving now looks and feels smoother.
+- **TWEAK**: The locomotor of the GLA Bomb Truck is improved. In undamaged state, no tangible difference in driving performance is expected. In damaged state, the driving performance is now marginally better. Visually the driving now looks and feels smoother.
 
 **Links**
 
@@ -12031,10 +12032,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1138_bomb_truck_locomotor.yaml
 
 ---
-### 2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400 <a name='link__20220907__1153_combat_bike_required_xp'></a>
+### 2022-09-07 - Decreases required level up experience of GLA Combat Bike by 50% <a name='link__20220907__1153_combat_bike_required_xp'></a>
 **Changes**
 
-- **TWEAK**: Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400. This matches the required experience of GLA Jarmen Kell.
+- **TWEAK**: The required level up experience of GLA Combat Bike is decreased from 200 400 800 to 100 200 400. This matches the required experience of GLA Jarmen Kell.
 
 **Links**
 
@@ -12430,7 +12431,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 850 ms pass until the next attack.
 
 **Links**
 
@@ -12462,7 +12463,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and at least 15 seconds pass until the next attack.
 
 **Links**
 
@@ -12854,15 +12855,15 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5 <a name='link__20230617__2014_small_poison_field_radius'></a>
 **Changes**
 
-- **FIX**: Decreases the green Toxin Shells poison field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells poison field radius.
-- **FIX**: Decreases the green Toxin Shells object radius from 6 to 4 to match the Anthrax Beta and Anthrax Gamma Toxin Shells object radius.
+- **FIX**: The green Toxin Shells poison field radius is decreased from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells poison field radius.
+- **FIX**: The green Toxin Shells object radius is decreased from 6 to 4 to match the Anthrax Beta and Anthrax Gamma Toxin Shells object radius.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022)
 
-**Labels:** bug, controversial, gla, minor, nerf, v1.0
+**Labels:** bug, controversial, design, gla, minor, nerf, v1.0
 
 **Authors:** xezon
 
@@ -12872,7 +12873,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds <a name='link__20230618__2015_toxin_trap_build_time'></a>
 **Changes**
 
-- **FIX**: Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds. This makes it more practical to build before the enemy approaches it.
+- **TWEAK**: The build time of the GLA Toxin Demo Trap is decreased from 16 to 8 seconds. This makes it more practical to build before the enemy approaches it.
 
 **Links**
 
@@ -12922,7 +12923,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50% <a name='link__20230629__2051_toxin_tractor_radiation_armor'></a>
 **Changes**
 
-- **FIX**: Changes the radiation armor of the GLA Toxin Tractor from 0% to 50%. It is no longer immune to radiation damage.
+- **FIX**: The radiation armor of the GLA Toxin Tractor is changed from 0% to 50%. It is no longer immune to radiation damage.
 
 **Links**
 
@@ -13476,7 +13477,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200 <a name='link__20230913__2355_saboteur_steal_cash_amount'></a>
 **Changes**
 
-- **TWEAK**: The GLA Saboteur can now steal up to 1200 cash. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
+- **TWEAK**: The GLA Saboteur can now steal up to 1200 instead of just 1000 cash. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
 
 **Links**
 
@@ -13492,7 +13493,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds <a name='link__20230913__2357_saboteur_internet_center_sabotage_duration'></a>
 **Changes**
 
-- **TWEAK**: The GLA Saboteur can now sabotage the China Internet Center for 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
+- **TWEAK**: The GLA Saboteur can now sabotage the China Internet Center for 60 instead of just 15 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
 
 **Links**
 
@@ -13508,7 +13509,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds <a name='link__20230913__2358_saboteur_factory_sabotage_duration'></a>
 **Changes**
 
-- **TWEAK**: The GLA Saboteur can now sabotage production factories for 45 seconds.
+- **TWEAK**: The GLA Saboteur can now sabotage production factories for 45 instead of just 30 seconds.
 
 **Links**
 
@@ -13591,7 +13592,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2024-06-11 - Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50 <a name='link__20240611__2420_demo_destroyed_weapon_radius'></a>
 **Changes**
 
-- **TWEAK**: The destroyed GLA Demo units after Demo Upgrade have their damage radius reduced from 70 to 50. This matches the damage radius of other demolition suicide weapons.
+- **TWEAK**: The damage radius of destroyed GLA Demo units after Demo Upgrade is decreased from 70 to 50. This matches the damage radius of other and stronger demolition suicide weapons. The damage of destroyed GLA Demo units is very weak.
 
 **Links**
 
@@ -13733,7 +13734,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 450_boss_hacker_bonus.yaml
 
 ---
-### 2021-10-03 - Fixes low vision range of Boss Jarmen Kell <a name='link__20211003__450_boss_jarmen_sight_range'></a>
+### 2021-10-03 - Fixes low sight range of Boss Jarmen Kell <a name='link__20211003__450_boss_jarmen_sight_range'></a>
 **Changes**
 
 - **FIX**: The Boss Jarmen Kell no longer has 25% less fog vision than other Jarmen Kells.
@@ -13835,7 +13836,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: The Boss Sentry Drone now uses the SentryDroneArmor type instead of HumveeArmor type.
 - **FIX**: The Boss Sentry Drone now gets extra health from DroneArmor upgrade.
 - **FIX**: The Boss Sentry Drone is no longer immune to ECMs (jamming logic added).
-- **FIX**: The Boss Sentry Drone now has the same vision range as all other Sentry Drones in Guard Mode.
+- **FIX**: The Boss Sentry Drone now has the same sight range as all other Sentry Drones in Guard Mode.
 - **FIX**: The Boss Sentry Drone now uses custom stealth detection range.
 - **FIX**: The Boss Sentry Drone no longer automatically attacks when stealthed.
 
@@ -13878,7 +13879,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - **FIX**: The Boss King Raptor now uses voice lines for King Raptor.
 - **FIX**: The Boss King Raptor now emits flare effects with the Countermeasures upgrade.
-- **FIX**: The Boss King Raptor now has the same vision range and the same Guard Mode area as other (King) Raptors.
+- **FIX**: The Boss King Raptor now has the same sight range and the same Guard Mode area as other (King) Raptors.
 
 **Links**
 
@@ -14315,7 +14316,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad <a name='link__20210911__308_reinforcement_pad_xp_reward'></a>
 **Changes**
 
-- **FIX**: The Civilian Reinforcement Pad no longer rewards XP on kill.
+- **FIX**: Destroying a Civilian Reinforcement Pad no longer rewards 200 experience points (XP).
 
 **Links**
 
@@ -14331,7 +14332,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2021-09-11 - Removes kill experience reward of Civilian Repair Pad <a name='link__20210911__308_repair_pad_xp_reward'></a>
 **Changes**
 
-- **FIX**: The Civilian Repair Pad no longer rewards XP on kill. The Repair Pad can be used in custom maps only.
+- **FIX**: Destroying a Civilian Repair Pad no longer rewards 200 experience points (XP). The Repair Pad can be used in custom maps only.
 
 **Links**
 
@@ -14344,10 +14345,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 308_repair_pad_xp_reward.yaml
 
 ---
-### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>
+### 2021-10-01 - Fixes all Money Crates being removable by scaffolds <a name='link__20211001__443_money_crates_under_scaffold'></a>
 **Changes**
 
-- **FIX**: Money Crates no longer vanish when a building scaffold is placed on top.
+- **FIX**: All Money Crates are no longer deleted when a building scaffold is placed on top of them.
 
 **Links**
 
@@ -14813,18 +14814,16 @@ They can still be attacked by left-clicking on them with anti-air units selected
   - Fixes cyan snow
   - Fixes gaps in snow
 
-- **FIX**: cbairport_n, cbairport_ng
+- **FIX**: cbairport_n, cbairport_dn, cbairport_ng, cbairport_dng
   - Fixes black level
-
-- **FIX**: cbairport_dn, cbairport_dng
-  - Fixes black level
-  - Recreates damaged lights
+  - Recreates house lights
 
 - **FIX**: cbairport_en, cbairport_rn
   - Fixes incorrect night light
 
 - **FIX**: cbairport_sn, cbairport_dsn, cbairport_sng, cbairport_dsng
-  - Creates 2x upscale to 512x512 based on regular night textures
+  - Creates 2x upscale to 512x512
+  - Recreates house lights
 
 - **OPTIMIZATION**: cbairport_esn, cbairport_rsn
   - Optimizes texture size
@@ -14833,6 +14832,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2393](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2393)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2481](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2481)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -16975,6 +16975,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2470](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2470)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -17080,6 +17081,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -17252,6 +17254,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2475](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2475)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -17260,10 +17263,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2475_cbmogdis01_textures.yaml
 
 ---
-### 2024-08-11 - Fixes cbmogdis02 textures <a name='link__20240811__2476_cbmogdis02_textures'></a>
+### 2024-08-11 - Fixes and improves cbmogdis02 textures <a name='link__20240811__2476_cbmogdis02_textures'></a>
 **Changes**
 
-- **FIX**: Fixes Civilian cbmogdis02 textures.
+- **FIX**: Fixes and improves Civilian cbmogdis02 textures.
 
 **Subchanges**
 
@@ -17311,17 +17314,23 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - **FIX**: cbmogdis02_n, cbmogdis02_gn
   - Fixes light spills and artifacts
+  - Recreates house lights
 
 - **FIX**: cbmogdis02_dn
   - Fixes light spills and artifacts
   - Increases light brightness
+  - Recreates house lights
 
-- **FIX**: cbmogdis02_en, cbmogdis02_dng, cbmogdis02_esn, cbmogdis02_rsn, cbmogdis02_sn
+- **FIX**: cbmogdis02_en, cbmogdis02_esn, cbmogdis02_rsn
   - Fixes incorrect night light
 
 - **FIX**: cbmogdis02_rn
   - Fixes incorrect night light
   - Removes superfluous alpha channel
+
+- **FIX**: cbmogdis02_dng, cbmogdis02_sn
+  - Fixes incorrect night light
+  - Recreates house lights
 
 - **FIX**: cbmogdis02_dsn, cbmogdis02_sng, cbmogdis02_dsng
   - New
@@ -17330,6 +17339,8 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -17354,7 +17365,11 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: cbmogdis03_r, cbmogdis03_rs
   - Reconstructs new darker texture based on cbmogdis03_e, cbmogdis03_es
 
+- **FIX**: cbmogdis03_g
+  - Adds shadows to window barricades
+
 - **FIX**: cbmogdis03_dg
+  - Adds shadows to window barricades
   - Fixes minor texture damage inconsistencies with cbmogdis03_d
   - Removes bullet holes from window barricades
 
@@ -17387,12 +17402,202 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2477](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2477)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
 **Authors:** xezon
 
 **Source:** 2477_cbmogdis03_textures.yaml
+
+---
+### 2024-08-12 - Fixes and improves cbmogdis04 textures <a name='link__20240812__2479_cbmogdis04_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbmogdis04 textures.
+
+**Subchanges**
+
+- **FIX**: cbmogdis04_d
+  - Removes some bad bullet holes
+
+- **FIX**: cbmogdis04 _e
+  - Suppresses grey emboss details
+  - Removes obsolete alpha channel
+
+- **FIX**: cbmogdis04_r
+  - Suppresses grey emboss details
+  - Increases brightness of texture
+  - Adds missing alpha channel based on cbmogdis04 _e
+
+- **FIX**: cbmogdis04_g, cbmogdis04_dg
+  - Adds shadows to window barricades
+
+- **FIX**: cbmogdis04_s
+  - Fix snow shadow mismatches with cbmogdis04_ds
+
+- **FIX**: cbmogdis04_sg
+  - Fix snow shadow mismatches with cbmogdis04_dsg
+
+- **FIX**: cbmogdis04_ds
+  - Fixes snow drawing over broken windows
+
+- **FIX**: cbmogdis04_dsg
+  - Fixes snow drawing over broken windows
+  - Remove obsolete alpha channel
+
+- **FIX**: cbmogdis04_es
+  - Fixes snow drawing over broken windows
+  - Fixes minor snow inconsistencies with cbmogdis04_ds
+  - Removes some snow to show more damage based on cbmogdis04_e
+
+- **FIX**: cbmogdis04_rs
+  - Fixes snow drawing over broken windows
+  - Removes some snow to show more damage based on cbmogdis04_r
+  - Adds missing alpha channel based on cbmogdis04 _e
+
+- **FIX**: cbmogdis04_n, cbmogdis04_dn
+  - Recreates house lights
+
+- **FIX**: cbmogdis04_ng
+  - Recreates house lights
+  - Fixes broken window lights
+
+- **FIX**: cbmogdis04_dng, cbmogdis04_sn, cbmogdis04_dsn, cbmogdis04_sng, cbmogdis04_dsng
+  - New
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2479_cbmogdis04_textures.yaml
+
+---
+### 2024-08-15 - Fixes and improves cbmogdis05 textures <a name='link__20240815__2480_cbmogdis05_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbmogdis05 textures.
+
+**Subchanges**
+
+- **FIX**: cbmogdis05_e, cbmogdis05_r
+  - Adds missing alpha channel, based on cbmogdis02_e
+
+- **FIX**: cbmogdis05_g, cbmogdis05_dg
+  - Fixes window barricades drawing over edges
+
+- **FIX**: cbmogdis05_s, cbmogdis05_sg
+  - Fixes cyan snow
+  - Fixes window snow
+  - Fixes black lines in snow
+
+- **FIX**: cbmogdis05_ds
+  - Fixes cyan snow
+  - Fixes window snow
+  - Fixes black lines in snow
+  - Fixes some snow drawing over burns
+
+- **FIX**: cbmogdis05_es
+  - Fixes cyan snow
+  - Fixes window snow
+  - Fixes black lines in snow
+  - Fixes some snow drawing over burns
+  - Fixes texture damage inconsistencies with cbmogdis05_ds
+  - Adds missing alpha channel, based on cbmogdis02_e
+
+- **FIX**: cbmogdis05_rs
+  - Fixes cyan snow
+  - Fixes black lines in snow
+  - Fixes some snow drawing over burns
+  - Adds missing alpha channel, based on cbmogdis02_e
+
+- **FIX**: cbmogdis05_dsg
+  - Fixes major texture damage inconsistencies with cbmogdis05_ds
+  - Fixes some snow drawing over burns
+
+- **FIX**: cbmogdis05_n, cbmogdis05_dn, cbmogdis05_ng
+  - Recreates house lights
+  - Changes blue light to orange light on window
+
+- **FIX**: cbmogdis05_dng
+  - Recreates house lights
+  - Fixes major light inconsistencies with cbmogdis05_dn, cbmogdis05_ng
+
+- **FIX**: cbmogdis05_sn, cbmogdis05_dsn, cbmogdis05_sng, cbmogdis05_dsng
+  - Recreates house lights
+
+- **FIX**: cbmogdis05_black
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2480_cbmogdis05_textures.yaml
+
+---
+### 2024-08-18 - Fixes and improves cbmogdis06, cbmogdis06_vent textures <a name='link__20240818__2482_cbmogdis06_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbmogdis06, cbmogdis06_vent textures.
+
+**Subchanges**
+
+- **FIX**: cbmogdis06_d, cbmogdis06_g, cbmogdis06_dg
+  - Removes superfluous black alpha channel
+
+- **FIX**: cbmogdis06_e, cbmogdis06_r
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbmogdis06_s, cbmogdis06_sg
+  - Fixes blue shadows under snow
+
+- **FIX**: cbmogdis06_ds, cbmogdis06_dsg
+  - Fixes blue shadows under snow
+  - Fixes snow drawing over burns
+
+- **FIX**: cbmogdis06_es, cbmogdis06_rs
+  - Fixes blue shadows under snow
+  - Fixes snow drawing over burns
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbmogdis06_n, cbmogdis06_dn, cbmogdis06_ng, cbmogdis06_dgn
+  - Recreates house lights
+
+- **FIX**: cbmogdis06_sn, cbmogdis06_dsn, cbmogdis06_sng, cbmogdis06_dsng
+  - New
+
+- **FIX**: cbmogdis06_en, cbmogdis06_rn, cbmogdis06_ens, cbmogdis06_rsn, cbmogdis06_venten, cbmogdis06_ventesn
+  - Fixes incorrect night light
+
+- **FIX**: cbmogdis06_vent2, cbmogdis06_vent2_d, cbmogdis06_vent2_e, cbmogdis06_vent2_r, cbmogdis06_vent2_s, cbmogdis06_vent2_ds, cbmogdis06_vent2_es, cbmogdis06_vent2_rs
+  - New, assembled from cbmogdis06_vent(s) with smaller resolution at 128x128, superseeds cbmogdis06_vent(s)
+  - Fixes green tinted water drainage
+  - Fixes damages and snow
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2482](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2482)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2482_cbmogdis06_textures.yaml
 
 ---
 ### 2021-08-27 - Fixes units shooting at already killed infantry units <a name='link__20210827__75_dead_target_bug'></a>
@@ -17717,7 +17922,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: The GLA02 Stealth General's Sniper now benefits from AP Bullets as intended.
 - **FIX**: The GLA02 Stealth General's Sniper will no longer retaliate if the option is disabled.
 - **FIX**: The GLA02 Stealth General's Sniper now screams like a GLA unit when poisoned.
-- **FIX**: The GLA02 Stealth General's Jarmen Kell now has the intended vision range.
+- **FIX**: The GLA02 Stealth General's Jarmen Kell now has the intended sight range.
 - **FIX**: The GLA02 Stealth General's Jarmen Kell will no longer automatically engage enemies when stealthed.
 - **FIX**: The GLA02 Stealth General's Jarmen Kell will no longer retaliate if the option is disabled.
 
@@ -17750,7 +17955,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **FIX**: The USA05 Toxin General's Terrorist now has the correct name and tooltips.
 - **FIX**: The USA05 Toxin General's Hijacker can now enter vehicles in guard mode.
 - **FIX**: The USA05 Toxin General's Jarmen Kell can now snipe infantry.
-- **FIX**: The USA05 Toxin General's Jarmen Kell now has the correct vision range.
+- **FIX**: The USA05 Toxin General's Jarmen Kell now has the correct sight range.
 - **FIX**: The USA05 Toxin General's Jarmen Kell will no longer retaliate if the option is disabled.
 
 **Links**
@@ -21022,7 +21227,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **TWEAK**: USA Officer now has a generic portrait.
 - **TWEAK**: USA Officer now has 300 instead of 150 shroud clearing range.
 - **TWEAK**: USA Officer now has attack move, guard and stop buttons.
-- **TWEAK**: Killing a USA Officer now grants 20 experience points.
+- **TWEAK**: Killing a USA Officer now rewards 20 experience points (XP).
 
 **Links**
 
@@ -21044,7 +21249,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **TWEAK**: China Officer now has a generic portrait.
 - **TWEAK**: China Officer now has 300 instead of 150 shroud clearing range.
 - **TWEAK**: China Officer now has attack move, guard and stop buttons.
-- **TWEAK**: Killing a China Officer now grants 20 experience points.
+- **TWEAK**: Killing a China Officer now rewards 20 experience points (XP).
 
 **Links**
 

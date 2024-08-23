@@ -4,7 +4,7 @@ date: 2023-02-11
 title: Adds idle auto reload after 2100 ms to China Overlord, Emperor
 
 changes:
-  - tweak: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+  - tweak: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 2 seconds pass until the next attack.
 
 labels:
   - buff

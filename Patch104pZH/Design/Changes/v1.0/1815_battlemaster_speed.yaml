@@ -4,7 +4,7 @@ date: 2023-04-08
 title: Increases China Battlemaster speed by 20%, upgraded speed by 14%
 
 changes:
-  - tweak: Increases China Battlemaster speed from 25 to 30, upgraded speed 35 to 40. This affects regular China General and Tank General. Movement speed is now competitive with tank speeds of USA and GLA.
+  - tweak: The China Battlemaster speed is increased from 25 to 30, upgraded speed from 35 to 40. This affects regular China General and Tank General. The movement speed is now competitive with tank speeds of USA and GLA.
 
 labels:
   - buff

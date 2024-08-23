@@ -4,10 +4,10 @@ date: 2022-11-30
 title: Increases death explosion damage and radius of China Nuke Silo
 
 changes:
-  - tweak: Increases primary death explosion damage of China Nuke Silo from 400 to 600.
-  - tweak: Increases secondary death explosion damage of China Nuke Silo from 100 to 150.
-  - tweak: Increases primary death explosion radius of China Nuke Silo from 50 to 75.
-  - tweak: Increases secondary death explosion radius of China Nuke Silo from 100 to 125.
+  - tweak: The primary death explosion damage of the China Nuke Silo is increased from 400 to 600.
+  - tweak: The primary death explosion radius of the China Nuke Silo is increased from 50 to 75.
+  - tweak: The secondary death explosion damage of the China Nuke Silo is increased from 100 to 150.
+  - tweak: The secondary death explosion radius of the China Nuke Silo is increased from 100 to 125.
 
 labels:
   - buff

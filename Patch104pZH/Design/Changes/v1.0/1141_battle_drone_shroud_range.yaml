@@ -1,10 +1,10 @@
 ---
 date: 2022-09-06
 
-title: Increases shroud clearing range of USA Battle Drone from 150 to 300
+title: Increases sight range of USA Battle Drone from 150 to 300
 
 changes:
-  - tweak: Increases the shroud clearing range of USA Battle Drone from 150 to 300.
+  - tweak: The shroud clearing range of USA Battle Drone is increased by 100%, from 150 to 300.
 
 labels:
   - controversial

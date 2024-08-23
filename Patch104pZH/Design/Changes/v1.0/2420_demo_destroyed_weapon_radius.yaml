@@ -4,7 +4,7 @@ date: 2024-06-11
 title: Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50
 
 changes:
-  - tweak: The destroyed GLA Demo units after Demo Upgrade have their damage radius reduced from 70 to 50. This matches the damage radius of other demolition suicide weapons.
+  - tweak: The damage radius of destroyed GLA Demo units after Demo Upgrade is decreased from 70 to 50. This matches the damage radius of other and stronger demolition suicide weapons. The damage of destroyed GLA Demo units is very weak.
 
 labels:
   - controversial

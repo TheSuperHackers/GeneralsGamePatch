@@ -4,7 +4,7 @@ date: 2021-09-11
 title: Fixes GLA Car Bomb unable to attack target
 
 changes:
-  - fix: When aiming a GLA Car Bomb at a unit that is driving away, the Car Bomb will no longer stop moving all of a sudden. It keeps attacking until the target is hit or the car is destroyed.
+  - fix: When aiming a GLA Car Bomb at a unit that is driving away, the Car Bomb will no longer stop moving all of a sudden. It keeps attacking until the target is hit or the attack has stopped.
 
 labels:
   - buff

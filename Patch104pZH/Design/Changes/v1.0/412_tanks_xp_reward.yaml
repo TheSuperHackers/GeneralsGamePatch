@@ -4,7 +4,7 @@ date: 2022-08-02
 title: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%
 
 changes:
-  - tweak: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
+  - tweak: Destroying a Battlemaster, Marauder, Crusader, Paladin, Microwave now rewards 30% less, 70 70 140 280 instead of 100 100 200 400 or 100 100 200 300 experience points (XP). This gives a more balanced kill reward for generally easy-to-kill tanks.
 
 labels:
   - buff

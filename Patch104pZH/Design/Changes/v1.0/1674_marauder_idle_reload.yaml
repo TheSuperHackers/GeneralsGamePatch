@@ -4,7 +4,7 @@ date: 2023-02-11
 title: Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade
 
 changes:
-  - tweak: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+  - tweak: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 850 ms pass until the next attack.
 
 labels:
   - buff

@@ -1,10 +1,10 @@
 ---
 date: 2021-12-24
 
-title: Removes auto engage behaviour from China ECM Tank
+title: Removes auto attack behaviour from non-vanilla China ECM Tanks
 
 changes:
-  - fix: Removes the auto engage behaviour from China ECM Tanks. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same.
+  - fix: The auto attack behaviour of the non-vanilla China ECM Tanks is now removed. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same now.
 
 labels:
   - bug

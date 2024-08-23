@@ -1,11 +1,11 @@
 ---
 date: 2023-01-10
 
-title: Increases main damage of China Helix Nuke Bomb by 33%
+title: Increases overall damage of China Helix Nuke Bomb by 33%
 
 changes:
-  - tweak: Increased primary damage of China Helix Nuke Bomb from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as Nuke Cannon does, the damages are easier to anticipate.
-  - tweak: Decreases secondary damage of China Helix Nuke Bomb from 50 to 20. This matches the secondary damage of the Nuke Cannon shell.
+  - tweak: The primary damage of the China Helix Nuke Bomb is increased from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as the Nuke Cannon does, the damages are easier to anticipate.
+  - tweak: The secondary damage of the China Helix Nuke Bomb is decreased from 50 to 20. This matches the secondary damage of the Nuke Cannon shell.
 
 labels:
   - buff

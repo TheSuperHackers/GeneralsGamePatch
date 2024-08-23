@@ -4,7 +4,7 @@ date: 2022-08-14
 title: Decreases China Nuke Missile blast delays
 
 changes:
-  - tweak: Decreases the China Nuke Missile blast delays to accomodate the explosion effect more appropriately. The Patched Nuke Missile now hits max 880 milliseconds earlier than originally.
+  - tweak: The China Nuke Missile blast delays are decreased to accomodate the explosion effect more appropriately. The Patched Nuke Missile now hits max 880 milliseconds earlier than originally.
 
 labels:
   - buff

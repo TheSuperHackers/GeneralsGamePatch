@@ -19,7 +19,7 @@ changes:
   - fix: The USA05 Toxin General's Terrorist now has the correct name and tooltips.
   - fix: The USA05 Toxin General's Hijacker can now enter vehicles in guard mode.
   - fix: The USA05 Toxin General's Jarmen Kell can now snipe infantry.
-  - fix: The USA05 Toxin General's Jarmen Kell now has the correct vision range.
+  - fix: The USA05 Toxin General's Jarmen Kell now has the correct sight range.
   - fix: The USA05 Toxin General's Jarmen Kell will no longer retaliate if the option is disabled.
 
 labels:

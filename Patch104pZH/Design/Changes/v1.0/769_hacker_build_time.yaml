@@ -4,7 +4,7 @@ date: 2022-07-30
 title: Decreases build time of China Hackers from 20 to 15 seconds
 
 changes:
-  - tweak: Decreases the build time of China Hackers from 20 to 15 seconds. 4 Hackers will build as fast as a GLA Black Market of identical value in 1 minute accordingly.
+  - tweak: The build time of China Hackers is decreased from 20 to 15 seconds. 4 Hackers will build as fast as a GLA Black Market of identical value in 1 minute accordingly.
 
 labels:
   - buff

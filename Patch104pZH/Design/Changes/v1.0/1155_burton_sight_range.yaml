@@ -1,10 +1,10 @@
 ---
 date: 2022-09-07
 
-title: Decreases USA Colonel Burton sight from 500 to 400
+title: Decreases sight range of USA Colonel Burton from 500 to 400
 
 changes:
-  - tweak: Decreases the USA Colonel Burton shroud range from 500 to 400. This matches the shroud range of the other Hero units. With the SEARCH AND DESTROY Battle Plan, Colonel Burton will have a shroud range of 480 instead of 600.
+  - tweak: The shroud clearing range of USA Colonel Burton is decreased by 20%, from 500 to 400. This matches the shroud clearing range of the other Hero units. With the SEARCH AND DESTROY Battle Plan, Colonel Burton will now have a shroud clearing range of 480 instead of originally 600.
 
 labels:
   - controversial

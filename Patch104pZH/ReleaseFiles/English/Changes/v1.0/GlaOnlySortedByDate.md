@@ -14,7 +14,7 @@ Occuring labels are
 - civilian (2)
 - controversial (49)
 - critical (2)
-- design (64)
+- design (65)
 - enhancement (19)
 - gla (255)
 - gui (11)
@@ -112,7 +112,7 @@ Contains 255 entries with
 - [2021-10-31 - Adds climb animation for GLA Saboteur](#link__20211031__606_saboteur_climb_animation)
 - [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#link__20220716__695_toxin_terrorist_death)
 - [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#link__20220716__697_all_terrorist_crush_damage)
-- [2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade](#link__20220716__699_toxin_terrorist_damage)
+- [2022-07-16 - Fixes GLA Toxin Terrorist dealing more damage before Toxin Gamma Upgrade](#link__20220716__699_toxin_terrorist_damage)
 - [2022-07-22 - Fixes damage downgrade issues of scrapped GLA Quad Cannon](#link__20220722__1055_quad_cannon_scrap_damage)
 - [2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25%](#link__20220722__727_buggy_required_xp)
 - [2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50%](#link__20220722__727_scud_launcher_required_xp)
@@ -126,9 +126,9 @@ Contains 255 entries with
 - [2022-08-14 - Fixes toxin color errors](#link__20220814__851_toxin_color_errors)
 - [2022-08-14 - Improves visual quality of green and blue toxin puddles](#link__20220814__851_toxin_color_tweaks)
 - [2022-08-14 - Matches toxin puddle sizes of Toxin Shells and Toxin Tractor with actual damage radius](#link__20220814__851_toxin_puddle_size)
-- [2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max](#link__20220814__882_stinger_anthrax_gamma_damage)
+- [2022-08-14 - Decreases Anthrax Gamma bonus damages of GLA Toxin Stinger to stay within the maximum of 50%](#link__20220814__882_stinger_anthrax_gamma_damage)
 - [2022-08-14 - Fixes missing Fortified Structures visuals on sell of GLA buildings](#link__20220814__885_fortified_structure_sell)
-- [2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max](#link__20220814__889_anthrax_gamma_damage_bonuses)
+- [2022-08-14 - Redistributes Anthrax Gamma bonus damages of GLA Toxin Truck to stay within the maximum of 50%](#link__20220814__889_anthrax_gamma_damage_bonuses)
 - [2022-08-14 - Fixes wrong death scream of some female GLA Angry mob members](#link__20220814__904_female_mob_death_voice)
 - [2022-08-14 - Fixes wrong death scream of some male GLA Angry mob members](#link__20220814__905_male_mob_death_voice)
 - [2022-08-14 - Fixes missing death scream of some GLA Angry Mob members](#link__20220814__906_some_mob_death_voice)
@@ -144,7 +144,7 @@ Contains 255 entries with
 - [2022-09-02 - Improves explosion effect of destroyed Demo GLA units with Demo Upgrade](#link__20220902__1076_demo_units_death_particles)
 - [2022-09-02 - Improves explosion effect of crushed GLA terror units](#link__20220902__1082_demo_units_crushed_death_particles)
 - [2022-09-03 - Fixes unselectable bare Stinger Trooper in Kassad Generals Challenge](#link__20220903__1086_kassad_challenge_stinger_selection)
-- [2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds](#link__20220904__1096_scud_storm_worker_spawn_delay)
+- [2022-09-04 - Increases Hole Repair Worker spawn interval of GLA Scud Storm from 20 to 30 seconds](#link__20220904__1096_scud_storm_worker_spawn_delay)
 - [2022-09-04 - Fixed misplaced fire ports on GLA Palace](#link__20220904__1097_palace_fire_ports)
 - [2022-09-05 - Adds better fitting select sound for GLA Demo Trap](#link__20220905__1131_demo_trap_select_sound)
 - [2022-09-06 - Fixes ungraceful fade out of GLA Demo Trap particle effect](#link__20220906__1130_demo_trap_flare_fadeout)
@@ -154,7 +154,7 @@ Contains 255 entries with
 - [2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200](#link__20220906__1137_bomb_truck_upgrade_cost)
 - [2022-09-06 - Improves locomotor of GLA Bomb Truck](#link__20220906__1138_bomb_truck_locomotor)
 - [2022-09-07 - Fixes muzzle particle effects of tanks](#link__20220907__1149_tank_muzzle_particles)
-- [2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400](#link__20220907__1153_combat_bike_required_xp)
+- [2022-09-07 - Decreases required level up experience of GLA Combat Bike by 50%](#link__20220907__1153_combat_bike_required_xp)
 - [2022-09-08 - Removes USA Pilot ability to promote GLA Combat Bike](#link__20220908__1164_combat_bike_pilot_promotion)
 - [2022-09-09 - Removes the level up ability of GLA Stealth Saboteur by collecting scrap crates](#link__20220909__1170_saboteur_scrap_rank_up)
 - [2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade](#link__20220909__1176_technical_muzzle_flash)
@@ -189,7 +189,7 @@ Contains 255 entries with
 - [2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds](#link__20230211__1676_salvage_crate_exploit)
 - [2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade](#link__20230211__1699_scorpion_idle_reload)
 - [2023-02-11 - Fixes issue where GLA Scud Storm does not reload all its missiles after firing sequence was stopped](#link__20230211__1703_scud_storm_idle_reload)
-- [2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
+- [2023-02-12 - Increases required level up experience of GLA Technical from 50 75 150 to 50 100 150](#link__20230212__1680_technical_xp_requirement)
 - [2023-02-12 - Sets despawn time of Salvage Crate to 32500 ms](#link__20230212__1688_salvage_crate_despawn_time)
 - [2023-02-12 - Increases fire rate of GLA RPG Trooper on Combat Bike by 88%](#link__20230212__1694_biker_rocket_weapon)
 - [2023-02-14 - Fixes GLA Stealth Rebels becoming revealed when taking damage](#link__20230214__1706_stealth_rebel_reveal)
@@ -709,7 +709,7 @@ Contains 255 entries with
 ### 2021-09-03 - Fixes delayed suicide of GLA Demo Technical of up to 0.75 seconds <a name='link__20210903__164_demo_technical_suicide_delay'></a>
 **Changes**
 
-- **FIX**: The turret of the GLA Technical no longer has to realign up to 0.75 seconds to face directly forward before the vehicle explodes when ordered to suicide. It will explode immediately regardless of its previous orientation.
+- **FIX**: The turret of the GLA Technical no longer has to realign up to 0.75 seconds to face directly forward before the vehicle explodes when ordered to suicide. It will explode immediately regardless of the vehicle's turret orientation.
 
 **Links**
 
@@ -1033,7 +1033,7 @@ Contains 255 entries with
 ### 2021-09-11 - Fixes GLA Car Bomb unable to attack target <a name='link__20210911__307_car_bomb_attack_bug'></a>
 **Changes**
 
-- **FIX**: When aiming a GLA Car Bomb at a unit that is driving away, the Car Bomb will no longer stop moving all of a sudden. It keeps attacking until the target is hit or the car is destroyed.
+- **FIX**: When aiming a GLA Car Bomb at a unit that is driving away, the Car Bomb will no longer stop moving all of a sudden. It keeps attacking until the target is hit or the attack has stopped.
 
 **Links**
 
@@ -1342,11 +1342,12 @@ Contains 255 entries with
 ### 2021-10-10 - Adds ability to GLA Stealth Saboteur to enter China Internet Center and GLA Fake Buildings <a name='link__20211010__544_stealth_saboteur_ability'></a>
 **Changes**
 
-- **FIX**: The GLA Stealth Saboteur can now enter the China Internet Center. This will disable the structure for 15 seconds. This is consistent with the behaviour of the regular GLA Saboteur.
-- **FIX**: The GLA Stealth Saboteur can now enter GLA Fake Buildings. This will destroy the Fake Building. This is consistent with the behaviour of the regular GLA Saboteur.
+- **FIX**: The GLA Stealth Saboteur can now enter and disable the China Internet Center for 60 seconds. This is consistent with the behaviour of the regular GLA Saboteur.
+- **FIX**: The GLA Stealth Saboteur can now enter and destroy GLA Fake Buildings. This is consistent with the behaviour of the regular GLA Saboteur.
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2357)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/544](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/544)
 
 **Labels:** buff, bug, controversial, gla, minor, v1.0
@@ -1359,10 +1360,11 @@ Contains 255 entries with
 ### 2021-10-10 - Adds ability to GLA Saboteur to enter USA Supply Drop Zone and GLA Black Market <a name='link__20211010__547_regular_saboteur_ability'></a>
 **Changes**
 
-- **FEATURE**: All GLA Saboteurs can now enter the USA Supply Drop Zone and GLA Black Market. They steal 1000 cash when doing so, same as when entering a Supply Center.
+- **FEATURE**: All GLA Saboteurs can now enter the USA Supply Drop Zone and GLA Black Market. They steal 1200 cash when doing so, same as when entering a Supply Center (now).
 
 **Links**
 
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2355)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/547](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/547)
 
 **Labels:** buff, bug, controversial, design, gla, minor, v1.0
@@ -1436,10 +1438,10 @@ Contains 255 entries with
 **Source:** 697_all_terrorist_crush_damage.yaml
 
 ---
-### 2022-07-16 - Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade <a name='link__20220716__699_toxin_terrorist_damage'></a>
+### 2022-07-16 - Fixes GLA Toxin Terrorist dealing more damage before Toxin Gamma Upgrade <a name='link__20220716__699_toxin_terrorist_damage'></a>
 **Changes**
 
-- **FIX**: The Toxin GLA Terrorist now deals identical amount of damage before and after Toxin Gamma Upgrade, 500 instead of 700 damage.
+- **FIX**: The GLA Toxin Terrorist now deals identical amount of damage before and after the Toxin Gamma Upgrade, 500 instead of 700 damage.
 
 **Links**
 
@@ -1473,7 +1475,7 @@ Contains 255 entries with
 ### 2022-07-22 - Decreases required level up experience of GLA Rocket Buggy by 25% <a name='link__20220722__727_buggy_required_xp'></a>
 **Changes**
 
-- **TWEAK**: Decreases the required level up experience of the GLA Rocket Buggy by 25%, from 200 400 800 to 150 300 600. This is more in line with other long range vehicles.
+- **TWEAK**: The required level up experience of the GLA Rocket Buggy is decreased by 25%, from 200 400 800 to 150 300 600. This is more in line with other long range vehicles.
 
 **Links**
 
@@ -1489,7 +1491,7 @@ Contains 255 entries with
 ### 2022-07-22 - Increases required level up experience of GLA Scud Launcher by 50% <a name='link__20220722__727_scud_launcher_required_xp'></a>
 **Changes**
 
-- **TWEAK**: Increases the required level up experience of the GLA Scud Launcher by 50%, from 100 200 400 to 150 300 600. This is more in line with other long range vehicles.
+- **TWEAK**: The required level up experience of the GLA Scud Launcher is increased by 50%, from 100 200 400 to 150 300 600. This is more in line with other long range vehicles.
 
 **Links**
 
@@ -1525,7 +1527,7 @@ Contains 255 entries with
 ### 2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies <a name='link__20220729__783_demo_combat_bike_allies_damage'></a>
 **Changes**
 
-- **TWEAK**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
+- **FIX**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
 
 **Links**
 
@@ -1541,7 +1543,7 @@ Contains 255 entries with
 ### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
+- **TWEAK**: Destroying a Battlemaster, Marauder, Crusader, Paladin, Microwave now rewards 30% less, 70 70 140 280 instead of 100 100 200 400 or 100 100 200 300 experience points (XP). This gives a more balanced kill reward for generally easy-to-kill tanks.
 
 **Links**
 
@@ -1672,11 +1674,11 @@ Contains 255 entries with
 **Source:** 851_toxin_puddle_size.yaml
 
 ---
-### 2022-08-14 - Decreases GLA Toxin Stinger Anthrax Gamma bonus damages to stay within 50% max <a name='link__20220814__882_stinger_anthrax_gamma_damage'></a>
+### 2022-08-14 - Decreases Anthrax Gamma bonus damages of GLA Toxin Stinger to stay within the maximum of 50% <a name='link__20220814__882_stinger_anthrax_gamma_damage'></a>
 **Changes**
 
-- **TWEAK**: Decreases GLA Toxin Stinger Anthrax Gamma ground bonus damage from 100% to 50%.
-- **TWEAK**: Decreases GLA Toxin Stinger Anthrax Gamma air bonus damage from 66% to 50%.
+- **TWEAK**: The GLA Toxin Stinger Anthrax Gamma ground bonus damage is decreased from 100% to 50%.
+- **TWEAK**: The GLA Toxin Stinger Anthrax Gamma air bonus damage is decreased from 66% to 50%.
 
 **Links**
 
@@ -1705,10 +1707,10 @@ Contains 255 entries with
 **Source:** 885_fortified_structure_sell.yaml
 
 ---
-### 2022-08-14 - Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max <a name='link__20220814__889_anthrax_gamma_damage_bonuses'></a>
+### 2022-08-14 - Redistributes Anthrax Gamma bonus damages of GLA Toxin Truck to stay within the maximum of 50% <a name='link__20220814__889_anthrax_gamma_damage_bonuses'></a>
 **Changes**
 
-- **TWEAK**: Redistributes the GLA Toxin Tractor Gamma bonuses to be in line with the intended bonus from the Anthrax Gamma tooltip.
+- **TWEAK**: Redistributes the GLA Toxin Tractor Gamma bonuses to be in line with the intended damage bonus of 50% from the Anthrax Gamma tooltip.
 
 **Links**
 
@@ -1999,10 +2001,10 @@ Contains 255 entries with
 **Source:** 1086_kassad_challenge_stinger_selection.yaml
 
 ---
-### 2022-09-04 - Increases the GLA Scud Storm Hole Worker spawn interval from 20 to 30 seconds <a name='link__20220904__1096_scud_storm_worker_spawn_delay'></a>
+### 2022-09-04 - Increases Hole Repair Worker spawn interval of GLA Scud Storm from 20 to 30 seconds <a name='link__20220904__1096_scud_storm_worker_spawn_delay'></a>
 **Changes**
 
-- **TWEAK**: The GLA Scud Storm hole worker now spawns in 30 seconds instead of 20 seconds intervals. This will prevent the first worker from dying in the poison puddle. No EVA event is triggered for damaging the spawned worker. Effectively a Scud Storm can now rebuild 10 seconds quicker than originally. The Toxin Field time has been adjusted to accommodate the Worker spawn time properly.
+- **TWEAK**: The Hole Repair Worker of the GLA Scud Storm now spawns in 30 instead of 20 seconds intervals. This will prevent the first Worker from dying in the poison puddle. No EVA event is triggered for damaging the spawned Worker. Effectively a Scud Storm can now rebuild 10 seconds quicker than originally. The Toxin Field time has been adjusted to properly accommodate the Worker spawn time.
 
 **Links**
 
@@ -2082,8 +2084,8 @@ Contains 255 entries with
 ### 2022-09-06 - Increases damage range bonus of GLA Bomb Truck upgrades <a name='link__20220906__1137_bomb_truck_damages'></a>
 **Changes**
 
-- **TWEAK**: Increases damage range bonus of GLA Bomb Truck Bio Bomb by +28%.
-- **TWEAK**: Increases damage range bonus of GLA Bomb Truck Bio Bomb + High Explosive by +16%.
+- **TWEAK**: The damage range bonus of the GLA Bomb Truck Bio Bomb is increased by 28%.
+- **TWEAK**: The damage range bonus of the GLA Bomb Truck Bio Bomb + High Explosive is increased by 16%.
 
 **Links**
 
@@ -2118,7 +2120,7 @@ Contains 255 entries with
 ### 2022-09-06 - Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200 <a name='link__20220906__1137_bomb_truck_upgrade_cost'></a>
 **Changes**
 
-- **TWEAK**: Decreases the upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200.
+- **TWEAK**: The upgrade cost of the GLA Bomb Truck Bio Bomb is decreased from 500 to 200.
 
 **Links**
 
@@ -2134,7 +2136,7 @@ Contains 255 entries with
 ### 2022-09-06 - Improves locomotor of GLA Bomb Truck <a name='link__20220906__1138_bomb_truck_locomotor'></a>
 **Changes**
 
-- **TWEAK**: Improves the locomotor of GLA Bomb Truck. In undamaged state, no tangible difference in driving performance is to be expected. In damaged state, the driving performance is now marginally better. Visually the driving now looks and feels smoother.
+- **TWEAK**: The locomotor of the GLA Bomb Truck is improved. In undamaged state, no tangible difference in driving performance is expected. In damaged state, the driving performance is now marginally better. Visually the driving now looks and feels smoother.
 
 **Links**
 
@@ -2165,10 +2167,10 @@ Contains 255 entries with
 **Source:** 1149_tank_muzzle_particles.yaml
 
 ---
-### 2022-09-07 - Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400 <a name='link__20220907__1153_combat_bike_required_xp'></a>
+### 2022-09-07 - Decreases required level up experience of GLA Combat Bike by 50% <a name='link__20220907__1153_combat_bike_required_xp'></a>
 **Changes**
 
-- **TWEAK**: Decreases required level up experience of GLA Combat Bike from 200 400 800 to 100 200 400. This matches the required experience of GLA Jarmen Kell.
+- **TWEAK**: The required level up experience of GLA Combat Bike is decreased from 200 400 800 to 100 200 400. This matches the required experience of GLA Jarmen Kell.
 
 **Links**
 
@@ -2853,7 +2855,7 @@ Contains 255 entries with
 ### 2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 850 ms pass until the next attack.
 
 **Links**
 
@@ -2885,7 +2887,7 @@ Contains 255 entries with
 ### 2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds <a name='link__20230211__1676_salvage_crate_exploit'></a>
 **Changes**
 
-- **FIX**: The GLA Salvage Crate is no longer deleted when a scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
+- **FIX**: The GLA Salvage Crate is no longer deleted when a building scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
 
 **Links**
 
@@ -2901,7 +2903,7 @@ Contains 255 entries with
 ### 2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and at least 15 seconds pass until the next attack.
 
 **Links**
 
@@ -2930,10 +2932,10 @@ Contains 255 entries with
 **Source:** 1703_scud_storm_idle_reload.yaml
 
 ---
-### 2023-02-12 - Increases XP requirement of GLA Technical from 50 75 150 to 50 100 150 <a name='link__20230212__1680_technical_xp_requirement'></a>
+### 2023-02-12 - Increases required level up experience of GLA Technical from 50 75 150 to 50 100 150 <a name='link__20230212__1680_technical_xp_requirement'></a>
 **Changes**
 
-- **TWEAK**: The GLA Technical now requires 100 XP instead of just 75 XP to reach elite rank. This makes it a bit more challenging for GLA to acquire strong Technicals.
+- **TWEAK**: The GLA Technical now requires 100 instead of just 75 experience points (XP) to reach elite rank. This makes it a bit more challenging for GLA to acquire strong Technicals.
 
 **Links**
 
@@ -3390,7 +3392,7 @@ Contains 255 entries with
 ### 2023-06-10 - Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175 <a name='link__20230610__2002_anthrax_beta_scud_storm_damage'></a>
 **Changes**
 
-- **TWEAK**: Decreases the secondary damage of the Anthrax Beta Scud Storm missiles from 200 to 175. This way it can no longer take out as many structures in a large area, but is still stronger than the regular Scud Storm.
+- **TWEAK**: The secondary damage of the Anthrax Beta Scud Storm missiles is decreased from 200 to 175. This way it can no longer take out as many structures in a large area, but is still stronger than the regular Scud Storm.
 
 **Links**
 
@@ -3406,7 +3408,7 @@ Contains 255 entries with
 ### 2023-06-10 - Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500 <a name='link__20230610__2002_anthrax_gamma_scud_storm_damage'></a>
 **Changes**
 
-- **TWEAK**: Decreases the primary damage of the Anthrax Gamma Scud Storm missiles from 550 to 500. This way it can no longer take out pristine Superweapons in a single strike, but is still better than the Anthrax Beta Scud Storm.
+- **TWEAK**: The primary damage of the Anthrax Gamma Scud Storm missiles is decreased from 550 to 500. This way it can no longer take out pristine Superweapons in a single strike, but is still better than the Anthrax Beta Scud Storm.
 
 **Links**
 
@@ -3439,15 +3441,15 @@ Contains 255 entries with
 ### 2023-06-17 - Decreases green Toxin Shells field radius from 12 to 7.5 <a name='link__20230617__2014_small_poison_field_radius'></a>
 **Changes**
 
-- **FIX**: Decreases the green Toxin Shells poison field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells poison field radius.
-- **FIX**: Decreases the green Toxin Shells object radius from 6 to 4 to match the Anthrax Beta and Anthrax Gamma Toxin Shells object radius.
+- **FIX**: The green Toxin Shells poison field radius is decreased from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells poison field radius.
+- **FIX**: The green Toxin Shells object radius is decreased from 6 to 4 to match the Anthrax Beta and Anthrax Gamma Toxin Shells object radius.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022)
 
-**Labels:** bug, controversial, gla, minor, nerf, v1.0
+**Labels:** bug, controversial, design, gla, minor, nerf, v1.0
 
 **Authors:** xezon
 
@@ -3457,7 +3459,7 @@ Contains 255 entries with
 ### 2023-06-18 - Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds <a name='link__20230618__2015_toxin_trap_build_time'></a>
 **Changes**
 
-- **FIX**: Decreases build time of GLA Toxin Demo Trap from 16 to 8 seconds. This makes it more practical to build before the enemy approaches it.
+- **TWEAK**: The build time of the GLA Toxin Demo Trap is decreased from 16 to 8 seconds. This makes it more practical to build before the enemy approaches it.
 
 **Links**
 
@@ -3620,7 +3622,7 @@ Contains 255 entries with
 ### 2023-06-29 - Changes radiation armor of GLA Toxin Tractor from 0% to 50% <a name='link__20230629__2051_toxin_tractor_radiation_armor'></a>
 **Changes**
 
-- **FIX**: Changes the radiation armor of the GLA Toxin Tractor from 0% to 50%. It is no longer immune to radiation damage.
+- **FIX**: The radiation armor of the GLA Toxin Tractor is changed from 0% to 50%. It is no longer immune to radiation damage.
 
 **Links**
 
@@ -4959,7 +4961,7 @@ Contains 255 entries with
 ### 2023-09-13 - Increases steal cash amount of GLA Saboteur from 1000 to 1200 <a name='link__20230913__2355_saboteur_steal_cash_amount'></a>
 **Changes**
 
-- **TWEAK**: The GLA Saboteur can now steal up to 1200 cash. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
+- **TWEAK**: The GLA Saboteur can now steal up to 1200 instead of just 1000 cash. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
 
 **Links**
 
@@ -4975,7 +4977,7 @@ Contains 255 entries with
 ### 2023-09-13 - Increases Internet Center sabotage duration of GLA Saboteur from 15 to 60 seconds <a name='link__20230913__2357_saboteur_internet_center_sabotage_duration'></a>
 **Changes**
 
-- **TWEAK**: The GLA Saboteur can now sabotage the China Internet Center for 60 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
+- **TWEAK**: The GLA Saboteur can now sabotage the China Internet Center for 60 instead of just 15 seconds. The average cash gain factor against an Internet Center with 8 Hackers increases from 0.68 to 2.72. Internet Center upgrade research and Satellite Hack I & II are paused for the same sabotage duration.
 
 **Links**
 
@@ -4991,7 +4993,7 @@ Contains 255 entries with
 ### 2023-09-13 - Increases Factory sabotage duration of GLA Saboteur from 30 to 45 seconds <a name='link__20230913__2358_saboteur_factory_sabotage_duration'></a>
 **Changes**
 
-- **TWEAK**: The GLA Saboteur can now sabotage production factories for 45 seconds.
+- **TWEAK**: The GLA Saboteur can now sabotage production factories for 45 instead of just 30 seconds.
 
 **Links**
 
@@ -5092,7 +5094,7 @@ Contains 255 entries with
 ### 2024-06-11 - Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50 <a name='link__20240611__2420_demo_destroyed_weapon_radius'></a>
 **Changes**
 
-- **TWEAK**: The destroyed GLA Demo units after Demo Upgrade have their damage radius reduced from 70 to 50. This matches the damage radius of other demolition suicide weapons.
+- **TWEAK**: The damage radius of destroyed GLA Demo units after Demo Upgrade is decreased from 70 to 50. This matches the damage radius of other and stronger demolition suicide weapons. The damage of destroyed GLA Demo units is very weak.
 
 **Links**
 

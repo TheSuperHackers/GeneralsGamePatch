@@ -4,7 +4,7 @@ date: 2023-06-29
 title: Changes radiation armor of GLA Toxin Tractor from 0% to 50%
 
 changes:
-  - fix: Changes the radiation armor of the GLA Toxin Tractor from 0% to 50%. It is no longer immune to radiation damage.
+  - fix: The radiation armor of the GLA Toxin Tractor is changed from 0% to 50%. It is no longer immune to radiation damage.
 
 labels:
   - bug

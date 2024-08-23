@@ -4,7 +4,7 @@ date: 2023-09-13
 title: Increases steal cash amount of GLA Saboteur from 1000 to 1200
 
 changes:
-  - tweak: The GLA Saboteur can now steal up to 1200 cash. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
+  - tweak: The GLA Saboteur can now steal up to 1200 instead of just 1000 cash. The maximum cash gain factor against a Supply Center increases from 2.5 to 3.0.
 
 labels:
   - buff

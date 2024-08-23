@@ -1,10 +1,10 @@
 ---
 date: 2022-08-14
 
-title: Redistributes GLA Toxin Truck Anthrax Gamma bonus damages to stay within 50% max
+title: Redistributes Anthrax Gamma bonus damages of GLA Toxin Truck to stay within the maximum of 50%
 
 changes:
-  - tweak: Redistributes the GLA Toxin Tractor Gamma bonuses to be in line with the intended bonus from the Anthrax Gamma tooltip.
+  - tweak: Redistributes the GLA Toxin Tractor Gamma bonuses to be in line with the intended damage bonus of 50% from the Anthrax Gamma tooltip.
 
 labels:
   - controversial

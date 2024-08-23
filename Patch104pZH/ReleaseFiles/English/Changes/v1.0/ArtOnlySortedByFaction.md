@@ -5,36 +5,36 @@ Includes changes with labels: art
 
 Occuring labels are
 
-- art (191)
+- art (194)
 - audio (2)
 - buff (1)
 - bug (77)
 - china (28)
-- civilian (61)
+- civilian (64)
 - design (2)
 - enhancement (34)
 - gla (28)
 - gui (1)
 - major (6)
-- minor (185)
-- optional (67)
+- minor (188)
+- optional (70)
 - performance (11)
 - usa (58)
-- v1.0 (191)
+- v1.0 (194)
 - wip (1)
 - worldbuilder (1)
 
 Sorts changes by: usa, china, gla, boss, civilian, date (ascending)
 
-Contains 191 entries with
+Contains 194 entries with
 
-- 224 changes
+- 227 changes
   - OPTIMIZATION (9)
-  - FIX (181)
+  - FIX (184)
   - FEATURE (21)
   - TWEAK (13)
-- 612 subchanges
-  - FIX (543)
+- 646 subchanges
+  - FIX (577)
   - TWEAK (24)
   - FEATURE (26)
   - OPTIMIZATION (19)
@@ -211,8 +211,11 @@ Contains 191 entries with
 - [2024-08-07 - Fixes and improves cbmectdrl1 textures](#link__20240807__2473_cbmectdrl1_textures)
 - [2024-08-09 - Fixes and improves cbmectdrl2 textures](#link__20240809__2474_cbmectdrl2_textures)
 - [2024-08-10 - Fixes and improves cbmogdis01 textures](#link__20240810__2475_cbmogdis01_textures)
-- [2024-08-11 - Fixes cbmogdis02 textures](#link__20240811__2476_cbmogdis02_textures)
+- [2024-08-11 - Fixes and improves cbmogdis02 textures](#link__20240811__2476_cbmogdis02_textures)
 - [2024-08-12 - Fixes and improves cbmogdis03 textures](#link__20240812__2477_cbmogdis03_textures)
+- [2024-08-12 - Fixes and improves cbmogdis04 textures](#link__20240812__2479_cbmogdis04_textures)
+- [2024-08-15 - Fixes and improves cbmogdis05 textures](#link__20240815__2480_cbmogdis05_textures)
+- [2024-08-18 - Fixes and improves cbmogdis06, cbmogdis06_vent textures](#link__20240818__2482_cbmogdis06_textures)
 - [2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air](#link__20211016__567_demo_combat_bike_drop)
 - [2021-10-16 - Adds ruin model to destroyed Reinforcement Pad Tech building](#link__20211016__568_reinforcement_pad_ruin_model)
 - [2022-07-22 - Recoveres 483 high quality textures from Generals](#link__20220722__734_high_res_textures)
@@ -3052,18 +3055,16 @@ Contains 191 entries with
   - Fixes cyan snow
   - Fixes gaps in snow
 
-- **FIX**: cbairport_n, cbairport_ng
+- **FIX**: cbairport_n, cbairport_dn, cbairport_ng, cbairport_dng
   - Fixes black level
-
-- **FIX**: cbairport_dn, cbairport_dng
-  - Fixes black level
-  - Recreates damaged lights
+  - Recreates house lights
 
 - **FIX**: cbairport_en, cbairport_rn
   - Fixes incorrect night light
 
 - **FIX**: cbairport_sn, cbairport_dsn, cbairport_sng, cbairport_dsng
-  - Creates 2x upscale to 512x512 based on regular night textures
+  - Creates 2x upscale to 512x512
+  - Recreates house lights
 
 - **OPTIMIZATION**: cbairport_esn, cbairport_rsn
   - Optimizes texture size
@@ -3072,6 +3073,7 @@ Contains 191 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2393](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2393)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2481](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2481)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -5214,6 +5216,7 @@ Contains 191 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2470](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2470)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -5319,6 +5322,7 @@ Contains 191 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2471)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -5491,6 +5495,7 @@ Contains 191 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2475](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2475)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -5499,10 +5504,10 @@ Contains 191 entries with
 **Source:** 2475_cbmogdis01_textures.yaml
 
 ---
-### 2024-08-11 - Fixes cbmogdis02 textures <a name='link__20240811__2476_cbmogdis02_textures'></a>
+### 2024-08-11 - Fixes and improves cbmogdis02 textures <a name='link__20240811__2476_cbmogdis02_textures'></a>
 **Changes**
 
-- **FIX**: Fixes Civilian cbmogdis02 textures.
+- **FIX**: Fixes and improves Civilian cbmogdis02 textures.
 
 **Subchanges**
 
@@ -5550,17 +5555,23 @@ Contains 191 entries with
 
 - **FIX**: cbmogdis02_n, cbmogdis02_gn
   - Fixes light spills and artifacts
+  - Recreates house lights
 
 - **FIX**: cbmogdis02_dn
   - Fixes light spills and artifacts
   - Increases light brightness
+  - Recreates house lights
 
-- **FIX**: cbmogdis02_en, cbmogdis02_dng, cbmogdis02_esn, cbmogdis02_rsn, cbmogdis02_sn
+- **FIX**: cbmogdis02_en, cbmogdis02_esn, cbmogdis02_rsn
   - Fixes incorrect night light
 
 - **FIX**: cbmogdis02_rn
   - Fixes incorrect night light
   - Removes superfluous alpha channel
+
+- **FIX**: cbmogdis02_dng, cbmogdis02_sn
+  - Fixes incorrect night light
+  - Recreates house lights
 
 - **FIX**: cbmogdis02_dsn, cbmogdis02_sng, cbmogdis02_dsng
   - New
@@ -5569,6 +5580,8 @@ Contains 191 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
@@ -5593,7 +5606,11 @@ Contains 191 entries with
 - **FIX**: cbmogdis03_r, cbmogdis03_rs
   - Reconstructs new darker texture based on cbmogdis03_e, cbmogdis03_es
 
+- **FIX**: cbmogdis03_g
+  - Adds shadows to window barricades
+
 - **FIX**: cbmogdis03_dg
+  - Adds shadows to window barricades
   - Fixes minor texture damage inconsistencies with cbmogdis03_d
   - Removes bullet holes from window barricades
 
@@ -5626,12 +5643,202 @@ Contains 191 entries with
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2477](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2477)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
 
 **Labels:** art, civilian, minor, optional, v1.0
 
 **Authors:** xezon
 
 **Source:** 2477_cbmogdis03_textures.yaml
+
+---
+### 2024-08-12 - Fixes and improves cbmogdis04 textures <a name='link__20240812__2479_cbmogdis04_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbmogdis04 textures.
+
+**Subchanges**
+
+- **FIX**: cbmogdis04_d
+  - Removes some bad bullet holes
+
+- **FIX**: cbmogdis04 _e
+  - Suppresses grey emboss details
+  - Removes obsolete alpha channel
+
+- **FIX**: cbmogdis04_r
+  - Suppresses grey emboss details
+  - Increases brightness of texture
+  - Adds missing alpha channel based on cbmogdis04 _e
+
+- **FIX**: cbmogdis04_g, cbmogdis04_dg
+  - Adds shadows to window barricades
+
+- **FIX**: cbmogdis04_s
+  - Fix snow shadow mismatches with cbmogdis04_ds
+
+- **FIX**: cbmogdis04_sg
+  - Fix snow shadow mismatches with cbmogdis04_dsg
+
+- **FIX**: cbmogdis04_ds
+  - Fixes snow drawing over broken windows
+
+- **FIX**: cbmogdis04_dsg
+  - Fixes snow drawing over broken windows
+  - Remove obsolete alpha channel
+
+- **FIX**: cbmogdis04_es
+  - Fixes snow drawing over broken windows
+  - Fixes minor snow inconsistencies with cbmogdis04_ds
+  - Removes some snow to show more damage based on cbmogdis04_e
+
+- **FIX**: cbmogdis04_rs
+  - Fixes snow drawing over broken windows
+  - Removes some snow to show more damage based on cbmogdis04_r
+  - Adds missing alpha channel based on cbmogdis04 _e
+
+- **FIX**: cbmogdis04_n, cbmogdis04_dn
+  - Recreates house lights
+
+- **FIX**: cbmogdis04_ng
+  - Recreates house lights
+  - Fixes broken window lights
+
+- **FIX**: cbmogdis04_dng, cbmogdis04_sn, cbmogdis04_dsn, cbmogdis04_sng, cbmogdis04_dsng
+  - New
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2479_cbmogdis04_textures.yaml
+
+---
+### 2024-08-15 - Fixes and improves cbmogdis05 textures <a name='link__20240815__2480_cbmogdis05_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbmogdis05 textures.
+
+**Subchanges**
+
+- **FIX**: cbmogdis05_e, cbmogdis05_r
+  - Adds missing alpha channel, based on cbmogdis02_e
+
+- **FIX**: cbmogdis05_g, cbmogdis05_dg
+  - Fixes window barricades drawing over edges
+
+- **FIX**: cbmogdis05_s, cbmogdis05_sg
+  - Fixes cyan snow
+  - Fixes window snow
+  - Fixes black lines in snow
+
+- **FIX**: cbmogdis05_ds
+  - Fixes cyan snow
+  - Fixes window snow
+  - Fixes black lines in snow
+  - Fixes some snow drawing over burns
+
+- **FIX**: cbmogdis05_es
+  - Fixes cyan snow
+  - Fixes window snow
+  - Fixes black lines in snow
+  - Fixes some snow drawing over burns
+  - Fixes texture damage inconsistencies with cbmogdis05_ds
+  - Adds missing alpha channel, based on cbmogdis02_e
+
+- **FIX**: cbmogdis05_rs
+  - Fixes cyan snow
+  - Fixes black lines in snow
+  - Fixes some snow drawing over burns
+  - Adds missing alpha channel, based on cbmogdis02_e
+
+- **FIX**: cbmogdis05_dsg
+  - Fixes major texture damage inconsistencies with cbmogdis05_ds
+  - Fixes some snow drawing over burns
+
+- **FIX**: cbmogdis05_n, cbmogdis05_dn, cbmogdis05_ng
+  - Recreates house lights
+  - Changes blue light to orange light on window
+
+- **FIX**: cbmogdis05_dng
+  - Recreates house lights
+  - Fixes major light inconsistencies with cbmogdis05_dn, cbmogdis05_ng
+
+- **FIX**: cbmogdis05_sn, cbmogdis05_dsn, cbmogdis05_sng, cbmogdis05_dsng
+  - Recreates house lights
+
+- **FIX**: cbmogdis05_black
+  - Fixes incorrect night light
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2476)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2480)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2480_cbmogdis05_textures.yaml
+
+---
+### 2024-08-18 - Fixes and improves cbmogdis06, cbmogdis06_vent textures <a name='link__20240818__2482_cbmogdis06_textures'></a>
+**Changes**
+
+- **FIX**: Fixes and improves Civilian cbmogdis06, cbmogdis06_vent textures.
+
+**Subchanges**
+
+- **FIX**: cbmogdis06_d, cbmogdis06_g, cbmogdis06_dg
+  - Removes superfluous black alpha channel
+
+- **FIX**: cbmogdis06_e, cbmogdis06_r
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbmogdis06_s, cbmogdis06_sg
+  - Fixes blue shadows under snow
+
+- **FIX**: cbmogdis06_ds, cbmogdis06_dsg
+  - Fixes blue shadows under snow
+  - Fixes snow drawing over burns
+
+- **FIX**: cbmogdis06_es, cbmogdis06_rs
+  - Fixes blue shadows under snow
+  - Fixes snow drawing over burns
+  - Fixes floating pixels in alpha channel
+
+- **FIX**: cbmogdis06_n, cbmogdis06_dn, cbmogdis06_ng, cbmogdis06_dgn
+  - Recreates house lights
+
+- **FIX**: cbmogdis06_sn, cbmogdis06_dsn, cbmogdis06_sng, cbmogdis06_dsng
+  - New
+
+- **FIX**: cbmogdis06_en, cbmogdis06_rn, cbmogdis06_ens, cbmogdis06_rsn, cbmogdis06_venten, cbmogdis06_ventesn
+  - Fixes incorrect night light
+
+- **FIX**: cbmogdis06_vent2, cbmogdis06_vent2_d, cbmogdis06_vent2_e, cbmogdis06_vent2_r, cbmogdis06_vent2_s, cbmogdis06_vent2_ds, cbmogdis06_vent2_es, cbmogdis06_vent2_rs
+  - New, assembled from cbmogdis06_vent(s) with smaller resolution at 128x128, superseeds cbmogdis06_vent(s)
+  - Fixes green tinted water drainage
+  - Fixes damages and snow
+
+
+**Links**
+
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2482](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2482)
+
+**Labels:** art, civilian, minor, optional, v1.0
+
+**Authors:** xezon
+
+**Source:** 2482_cbmogdis06_textures.yaml
 
 ---
 ### 2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air <a name='link__20211016__567_demo_combat_bike_drop'></a>

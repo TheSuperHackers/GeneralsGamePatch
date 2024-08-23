@@ -4,7 +4,7 @@ date: 2021-09-11
 title: Removes kill experience reward of Civilian Repair Pad
 
 changes:
-  - fix: The Civilian Repair Pad no longer rewards XP on kill. The Repair Pad can be used in custom maps only.
+  - fix: Destroying a Civilian Repair Pad no longer rewards 200 experience points (XP). The Repair Pad can be used in custom maps only.
 
 labels:
   - bug

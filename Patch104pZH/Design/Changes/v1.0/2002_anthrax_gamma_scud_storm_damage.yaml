@@ -4,7 +4,7 @@ date: 2023-06-10
 title: Decreases primary damage of Anthrax Gamma Scud Storm missiles from 550 to 500
 
 changes:
-  - tweak: Decreases the primary damage of the Anthrax Gamma Scud Storm missiles from 550 to 500. This way it can no longer take out pristine Superweapons in a single strike, but is still better than the Anthrax Beta Scud Storm.
+  - tweak: The primary damage of the Anthrax Gamma Scud Storm missiles is decreased from 550 to 500. This way it can no longer take out pristine Superweapons in a single strike, but is still better than the Anthrax Beta Scud Storm.
 
 labels:
   - controversial

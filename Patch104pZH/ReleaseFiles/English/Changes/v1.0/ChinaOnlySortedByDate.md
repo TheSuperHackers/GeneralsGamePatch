@@ -33,9 +33,9 @@ Sorts changes by: date (ascending)
 
 Contains 238 entries with
 
-- 364 changes
-  - FIX (252)
-  - TWEAK (98)
+- 372 changes
+  - FIX (246)
+  - TWEAK (112)
   - FEATURE (11)
   - OPTIMIZATION (3)
 - 404 subchanges
@@ -83,26 +83,26 @@ Contains 238 entries with
 - [2021-10-17 - Adds Nuke Cannon and Inferno Cannon to Tank General (for custom maps)](#link__20211017__575_tank_nuke_cannon)
 - [2021-10-23 - Removes ability to reveal shroud with China Frenzy power](#link__20211023__593_frenzy_scan)
 - [2021-12-24 - Fixes units with attachments blocking scaffold placements](#link__20211224__630_vehicle_attachment_blocking_build)
-- [2021-12-24 - Removes auto engage behaviour from China ECM Tank](#link__20211224__631_ecm_auto_attack)
+- [2021-12-24 - Removes auto attack behaviour from non-vanilla China ECM Tanks](#link__20211224__631_ecm_auto_attack)
 - [2022-07-24 - Decreases reload time of China Mig before Upgrade by 50%](#link__20220724__751_mig_reload_time)
 - [2022-07-27 - Decreases audible distance of China Helix helicopter by 30%](#link__20220727__765_helix_sound_range)
 - [2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler](#link__20220728__778_outpost_troopcrawler_xp_reward)
-- [2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms](#link__20220729__785_china_cc_door_times)
+- [2022-07-29 - Decreases door times of China Command Center from 3000 to 1500 ms](#link__20220729__785_china_cc_door_times)
 - [2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625](#link__20220730__768_hacker_build_cost)
 - [2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds](#link__20220730__769_hacker_build_time)
 - [2022-07-30 - Decreases kill experience reward of China Hackers](#link__20220730__770_hacker_xp_reward)
-- [2022-07-30 - Decreases the required level up experience of China Hackers](#link__20220730__771_hacker_xp_requirement)
+- [2022-07-30 - Decreases required level up experience of China Hackers](#link__20220730__771_hacker_xp_requirement)
 - [2022-07-30 - Increases movement speed of China Hackers by 25%](#link__20220730__773_hacker_movement_speed)
 - [2022-07-30 - Decreases cash hack audio limit of China Hackers](#link__20220730__774_hacker_hack_audio_limit)
-- [2022-07-30 - Decreases pack and unpack times of China Hackers](#link__20220730__774_hacker_pack_unpack_times)
-- [2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms](#link__20220730__786_china_factory_door_times)
+- [2022-07-30 - Decreases unpack and pack times of China Hackers](#link__20220730__774_hacker_pack_unpack_times)
+- [2022-07-30 - Decreases door times of China War Factory from 4000 to 3300 ms](#link__20220730__786_china_factory_door_times)
 - [2022-07-31 - Fixes issue where China Satellite Hack 1 would never detect newly built enemy Command Centers](#link__20220731__791_satellite_hack_issue)
 - [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
-- [2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center](#link__20220806__833_internet_center_prerequisites)
+- [2022-08-06 - Adds Propaganda Center as additional optional single prerequisite of China Internet Center](#link__20220806__833_internet_center_prerequisites)
 - [2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability](#link__20220806__837_satellite_hack_ii_ability)
 - [2022-08-06 - Adds functional Speaker Tower to China Propaganda Center](#link__20220806__839_propaganda_center_speaker_tower)
 - [2022-08-06 - Fixes description error in tooltip text of China Nuke Mig](#link__20220806__840_nuke_mig_tooltip_text)
-- [2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower](#link__20220807__834_speaker_tower_prerequisites)
+- [2022-08-07 - Adds War Factory and Airfield as additional optional single prerequisites of China Speaker Tower](#link__20220807__834_speaker_tower_prerequisites)
 - [2022-08-13 - Replaces generic China stars with nuklear symbols on China Nuke Helix](#link__20220813__1023_nuke_helix_model)
 - [2022-08-14 - Increases damage and radius of China Nuke Missile](#link__20220814__871_nuke_missile_damage_and_radius)
 - [2022-08-14 - Decreases China Nuke Missile blast delays](#link__20220814__880_nuke_missile_blast_delays)
@@ -122,7 +122,7 @@ Contains 238 entries with
 - [2022-09-07 - Fixes muzzle particle effects of tanks](#link__20220907__1149_tank_muzzle_particles)
 - [2022-09-10 - Enables low fuel voices for China Mig Jet](#link__20220910__1180_mig_low_fuel_voice)
 - [2022-09-11 - Adds missing radio sounds to Helix voices](#link__20220911__1181_helix_radio_sounds)
-- [2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms](#link__20220914__1199_gattling_spin_timeout)
+- [2022-09-14 - Increases China Gattling Tank spin timeout against ground units from 1000 to 2000 ms](#link__20220914__1199_gattling_spin_timeout)
 - [2022-09-20 - Fixes nvovrlrd textures for China Overlord Tank](#link__20220920__1226_overlord_textures)
 - [2022-09-21 - Adds missing China Propaganda Tower damage texture](#link__20220921__1239_propaganda_tower_textures)
 - [2022-09-23 - Fixes wrong select audio of China Internet Centers](#link__20220923__1260_internet_center_select_sound)
@@ -166,7 +166,7 @@ Contains 238 entries with
 - [2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched](#link__20230108__1532_helix_bomb_upgrade_button)
 - [2023-01-08 - Decreases build time of China Mines](#link__20230108__1533_china_mines_build_time)
 - [2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion](#link__20230108__1536_nuke_cannon_scorch)
-- [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
+- [2023-01-10 - Increases overall damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
 - [2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research](#link__20230111__1542_helix_attachment_upgrade_buttons)
 - [2023-01-13 - Fixes the evacuation command button art of various vehicles](#link__20230113__1545_vehicle_evacuation_button_image)
 - [2023-01-18 - Fixes issue where China Inferno Cannon hits would not trigger fire storms and hit sounds](#link__20230118__1564_inferno_cannon_fire_storm)
@@ -183,7 +183,7 @@ Contains 238 entries with
 - [2023-02-11 - Removes duplicate radiation field spawn on Nuke Cannon death](#link__20230211__1619_nuke_cannon_duplicate_radiation)
 - [2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor](#link__20230211__1670_overlord_emperor_idle_reload)
 - [2023-02-11 - Adds idle auto reload after 2100 ms to China Tank Battlemaster with Autoloader upgrade](#link__20230211__1704_battlemaster_autoloader_idle_reload)
-- [2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25](#link__20230212__1680_supply_truck_xp_reward)
+- [2023-02-12 - Decreases kill experience reward of China Supply Truck from 50 to 25](#link__20230212__1680_supply_truck_xp_reward)
 - [2023-02-14 - Fixes duplicate crush death effects of China Listening Outpost](#link__20230214__1707_outpost_crush_death)
 - [2023-02-15 - Fixes missing hit damage effects on the China and GLA cargo planes](#link__20230215__1718_cargo_plane_hit_effects)
 - [2023-04-06 - Reduces audio range of Timed Demo Charge](#link__20230406__1802_timed_demo_charge_audio)
@@ -842,7 +842,7 @@ Contains 238 entries with
 ### 2021-09-25 - Decreases required level up experience of China Black Lotus by 82% <a name='link__20210925__413_lotus_required_xp'></a>
 **Changes**
 
-- **TWEAK**: Decreases the required level up experience of China Black Lotus from 100 200 400 to 40 80 160. This allows Black Lotus to level up quicker, but on average still requires more time than USA Colonel Burton and GLA Jarmen Kell do.
+- **TWEAK**: The required level up experience of China Black Lotus is decreased from 100 200 400 to 40 80 160. This allows Black Lotus to level up quicker, but on average still requires more time than USA Colonel Burton and GLA Jarmen Kell do.
 
 **Links**
 
@@ -860,7 +860,7 @@ Contains 238 entries with
 ### 2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62% <a name='link__20210925__413_lotus_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Decreases the kill XP reward of China Black Lotus from 50 100 150 400 to 50 50 100 150. These levels are consistent with those of other Hero units.
+- **TWEAK**: Killing a China Black Lotus now rewards 50 100 150 400 instead of 50 50 100 150 experience points (XP). These levels are consistent with those of other Hero units.
 
 **Links**
 
@@ -876,7 +876,7 @@ Contains 238 entries with
 ### 2021-10-01 - Adds experience reward for Vehicle Hack ability of China Black Lotus <a name='link__20211001__437_lotus_vehicle_hack_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: China Black Lotus now receives 10 XP for hacking vehicles.
+- **TWEAK**: China Black Lotus now receives 10 instead of 0 experience points (XP) for hacking vehicles.
 
 **Links**
 
@@ -942,10 +942,10 @@ Contains 238 entries with
 **Source:** 630_vehicle_attachment_blocking_build.yaml
 
 ---
-### 2021-12-24 - Removes auto engage behaviour from China ECM Tank <a name='link__20211224__631_ecm_auto_attack'></a>
+### 2021-12-24 - Removes auto attack behaviour from non-vanilla China ECM Tanks <a name='link__20211224__631_ecm_auto_attack'></a>
 **Changes**
 
-- **FIX**: Removes the auto engage behaviour from China ECM Tanks. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same.
+- **FIX**: The auto attack behaviour of the non-vanilla China ECM Tanks is now removed. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same now.
 
 **Links**
 
@@ -961,7 +961,7 @@ Contains 238 entries with
 ### 2022-07-24 - Decreases reload time of China Mig before Upgrade by 50% <a name='link__20220724__751_mig_reload_time'></a>
 **Changes**
 
-- **FIX**: Decreases the reload time of non-Black Napalm Migs from 8 to 4 seconds. This also applies to Nuke Migs before the Nuke Mig Upgrade. The reload time after both upgrades remains unchanged at 2 seconds.
+- **TWEAK**: The reload time of Migs without Black Napalm is reduced by 50%, from 8 to 4 seconds. This also applies to Nuke Migs without the Nuke Mig Upgrade. The reload time after both upgrades remains unchanged at 2 seconds.
 
 **Links**
 
@@ -977,7 +977,7 @@ Contains 238 entries with
 ### 2022-07-27 - Decreases audible distance of China Helix helicopter by 30% <a name='link__20220727__765_helix_sound_range'></a>
 **Changes**
 
-- **FIX**: Decreases the audible distance of China Helix helicopter by 30%, from 1000 to 700. This is in line with the sound distances of other aircraft.
+- **TWEAK**: The audible distance of the China Helix helicopter is decreased by 30%, from 1000 to 700. This is in line with the sound distances of other aircraft.
 
 **Links**
 
@@ -993,8 +993,8 @@ Contains 238 entries with
 ### 2022-07-28 - Adds experience reward of 5 for destroyed China Outpost and China Troopcrawler <a name='link__20220728__778_outpost_troopcrawler_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Destroying the China Outpost now rewards 5 experience points.
-- **TWEAK**: Destroying the China Troopcrawler now rewards 5 experience points.
+- **TWEAK**: Destroying a China Outpost now rewards 5 instead of 0 experience points (XP).
+- **TWEAK**: Destroying a China Troopcrawler now rewards 5 instead of 0 experience points (XP).
 
 **Links**
 
@@ -1007,10 +1007,10 @@ Contains 238 entries with
 **Source:** 778_outpost_troopcrawler_xp_reward.yaml
 
 ---
-### 2022-07-29 - Decreases China Command Center door times from 3000 to 1500 ms <a name='link__20220729__785_china_cc_door_times'></a>
+### 2022-07-29 - Decreases door times of China Command Center from 3000 to 1500 ms <a name='link__20220729__785_china_cc_door_times'></a>
 **Changes**
 
-- **TWEAK**: Decreases the China Command Center door times from 3000 to 1500 ms. This equals the door times of the USA Command Center. It enables China to build the second Dozer 1500 ms quicker.
+- **TWEAK**: The opening and closing door times of the China Command Center are decreased from 3000 to 1500 ms. This equals the door times of the USA Command Center. It enables China to build the second Dozer 1500 ms quicker.
 
 **Links**
 
@@ -1026,7 +1026,7 @@ Contains 238 entries with
 ### 2022-07-30 - Decreases build cost of Tank China Hacker from 780 to 625 <a name='link__20220730__768_hacker_build_cost'></a>
 **Changes**
 
-- **TWEAK**: Decreases the build cost of Tank China Hacker from 780 to 625. All China Hackers now cost the same. 4 Regular Hackers valued at 2500 cash generate as much income as as a GLA Black Market of identical value.
+- **TWEAK**: The build cost of the Tank China Hacker is decreased from 780 to 625. All China Hackers now cost the same. 4 Regular Hackers valued at 2500 cash generate as much income as as a GLA Black Market of identical value.
 
 **Links**
 
@@ -1042,7 +1042,7 @@ Contains 238 entries with
 ### 2022-07-30 - Decreases build time of China Hackers from 20 to 15 seconds <a name='link__20220730__769_hacker_build_time'></a>
 **Changes**
 
-- **TWEAK**: Decreases the build time of China Hackers from 20 to 15 seconds. 4 Hackers will build as fast as a GLA Black Market of identical value in 1 minute accordingly.
+- **TWEAK**: The build time of China Hackers is decreased from 20 to 15 seconds. 4 Hackers will build as fast as a GLA Black Market of identical value in 1 minute accordingly.
 
 **Links**
 
@@ -1058,7 +1058,7 @@ Contains 238 entries with
 ### 2022-07-30 - Decreases kill experience reward of China Hackers <a name='link__20220730__770_hacker_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Decreases the kill experience reward of China Hackers from 50 100 150 400 to 50 60 80 100. This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
+- **TWEAK**: Killing a China Hacker now rewards 50 100 150 400 instead of 50 60 80 100 experience points (XP). This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet 3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
 
 **Links**
 
@@ -1071,10 +1071,10 @@ Contains 238 entries with
 **Source:** 770_hacker_xp_reward.yaml
 
 ---
-### 2022-07-30 - Decreases the required level up experience of China Hackers <a name='link__20220730__771_hacker_xp_requirement'></a>
+### 2022-07-30 - Decreases required level up experience of China Hackers <a name='link__20220730__771_hacker_xp_requirement'></a>
 **Changes**
 
-- **TWEAK**: Decreases the required level up experience of China Hackers from 100 300 500 to 100 250 400. Affects all Hackers expept Super Hackers from Infantry General. This means the regular Hacker now takes 500 seconds instead of 600 seconds to reach Vet 2. And 800 seconds instead of 1000 seconds to reach Vet 3.
+- **TWEAK**: The required level up experience of China Hackers is decreased from 100 300 500 to 100 250 400. Affects all Hackers except Super Hackers from Infantry General. This means the regular Hacker now takes 500 seconds instead of 600 seconds to reach Vet 2. And 800 seconds instead of 1000 seconds to reach Vet 3.
 
 **Links**
 
@@ -1119,10 +1119,10 @@ Contains 238 entries with
 **Source:** 774_hacker_hack_audio_limit.yaml
 
 ---
-### 2022-07-30 - Decreases pack and unpack times of China Hackers <a name='link__20220730__774_hacker_pack_unpack_times'></a>
+### 2022-07-30 - Decreases unpack and pack times of China Hackers <a name='link__20220730__774_hacker_pack_unpack_times'></a>
 **Changes**
 
-- **TWEAK**: All China Hackers now unpack and pack their laptops quicker. The packing time variation is decreased significantly from 100% to 20%. This adds more time consistency when packing and unpacking. The unpack base time is just marginally tweaked to accommodate the pack variation for improved animation optics. The pack time is decreased to 75%, allowing Hackers to flee the scene a bit quicker.
+- **TWEAK**: All China Hackers now unpack and pack their laptops quicker. The packing time variation is decreased significantly from 100% to 20%. This adds more time consistency when packing and unpacking. The unpack base time is just marginally tweaked to accommodate the pack variation for improved animation visuals. The pack time is decreased by 25%, allowing Hackers to flee the scene a bit quicker.
 
 **Links**
 
@@ -1135,10 +1135,10 @@ Contains 238 entries with
 **Source:** 774_hacker_pack_unpack_times.yaml
 
 ---
-### 2022-07-30 - Decreases China War Factory door times from 4000 to 3300 ms <a name='link__20220730__786_china_factory_door_times'></a>
+### 2022-07-30 - Decreases door times of China War Factory from 4000 to 3300 ms <a name='link__20220730__786_china_factory_door_times'></a>
 **Changes**
 
-- **TWEAK**: Decreases the China War Factory door times from 4000 to 3300 ms. This equals the door times of the USA War Factory. It enables China to build all vehicles 700 ms quicker.
+- **TWEAK**: The opening and closing door times of the China War Factory are decreased from 4000 to 3300 ms. This equals the door times of the USA War Factory. It enables China to build all vehicles 700 ms quicker.
 
 **Links**
 
@@ -1171,7 +1171,7 @@ Contains 238 entries with
 ### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
+- **TWEAK**: Destroying a Battlemaster, Marauder, Crusader, Paladin, Microwave now rewards 30% less, 70 70 140 280 instead of 100 100 200 400 or 100 100 200 300 experience points (XP). This gives a more balanced kill reward for generally easy-to-kill tanks.
 
 **Links**
 
@@ -1184,10 +1184,10 @@ Contains 238 entries with
 **Source:** 412_tanks_xp_reward.yaml
 
 ---
-### 2022-08-06 - Adds War Factory or Propaganda Center to prerequisites of China Internet Center <a name='link__20220806__833_internet_center_prerequisites'></a>
+### 2022-08-06 - Adds Propaganda Center as additional optional single prerequisite of China Internet Center <a name='link__20220806__833_internet_center_prerequisites'></a>
 **Changes**
 
-- **TWEAK**: The China Internet Center can now be built after a War Factory or Propaganda Center has been built.
+- **TWEAK**: The China Internet Center can now be built after a War Factory or Propaganda Center has been built. Originally the Internet Center requires a War Factory.
 
 **Links**
 
@@ -1203,7 +1203,7 @@ Contains 238 entries with
 ### 2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability <a name='link__20220806__837_satellite_hack_ii_ability'></a>
 **Changes**
 
-- **FEATURE**: Changes the China Satellite Hack II upgrade into a manually activated spy ability. It keeps the same duration and cooldown, but instead of being automatically activated, it is now an ability similar to the Strategy Center Intelligence.
+- **FEATURE**: The China Satellite Hack II upgrade is now a manually activated spy ability. It keeps the same duration and cooldown, but instead of being automatically activated, it works similar to the Strategy Center Intelligence.
 
 **Links**
 
@@ -1219,7 +1219,7 @@ Contains 238 entries with
 ### 2022-08-06 - Adds functional Speaker Tower to China Propaganda Center <a name='link__20220806__839_propaganda_center_speaker_tower'></a>
 **Changes**
 
-- **FEATURE**: Adds a functional Speaker Tower to the China Propaganda Center. The model of the structure is unchanged, because it already has the tower. It works identical to the regular Speaker Tower.
+- **FEATURE**: The China Propaganda Center now has a functional Speaker Tower. The model of the structure is unchanged, because it already has the tower. It works identical to the regular Speaker Tower.
 
 **Links**
 
@@ -1250,10 +1250,10 @@ Contains 238 entries with
 **Source:** 840_nuke_mig_tooltip_text.yaml
 
 ---
-### 2022-08-07 - Adds War Factory or Airfield or Propaganda Center to prerequisites of China Speaker Tower <a name='link__20220807__834_speaker_tower_prerequisites'></a>
+### 2022-08-07 - Adds War Factory and Airfield as additional optional single prerequisites of China Speaker Tower <a name='link__20220807__834_speaker_tower_prerequisites'></a>
 **Changes**
 
-- **TWEAK**: The China Speaker Tower can now be built earlier after a War Factory or Airfield or Propaganda Center has been built.
+- **TWEAK**: The China Speaker Tower can now be built earlier after a War Factory or Airfield or Propaganda Center has been built. Originally the Speaker Tower requires a Propaganda Center.
 
 **Links**
 
@@ -1286,13 +1286,13 @@ Contains 238 entries with
 ### 2022-08-14 - Increases damage and radius of China Nuke Missile <a name='link__20220814__871_nuke_missile_damage_and_radius'></a>
 **Changes**
 
-- **TWEAK**: Increases China Nuke Missile damage by 20%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 1 by 2%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 2 by 3.3%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 3 by 4%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 4 by 4.4%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 5 by 4.7%.
-- **TWEAK**: Increases China Nuke Missile blasts radius 6 by 20%.
+- **TWEAK**: The China Nuke Missile damage is increased by 20%.
+- **TWEAK**: The China Nuke Missile blasts radius 1 is increased by 2%.
+- **TWEAK**: The China Nuke Missile blasts radius 2 is increased by 3.3%.
+- **TWEAK**: The China Nuke Missile blasts radius 3 is increased by 4%.
+- **TWEAK**: The China Nuke Missile blasts radius 4 is increased by 4.4%.
+- **TWEAK**: The China Nuke Missile blasts radius 5 is increased by 4.7%.
+- **TWEAK**: The China Nuke Missile blasts radius 6 is increased by 20%.
 
 **Links**
 
@@ -1308,7 +1308,7 @@ Contains 238 entries with
 ### 2022-08-14 - Decreases China Nuke Missile blast delays <a name='link__20220814__880_nuke_missile_blast_delays'></a>
 **Changes**
 
-- **TWEAK**: Decreases the China Nuke Missile blast delays to accomodate the explosion effect more appropriately. The Patched Nuke Missile now hits max 880 milliseconds earlier than originally.
+- **TWEAK**: The China Nuke Missile blast delays are decreased to accomodate the explosion effect more appropriately. The Patched Nuke Missile now hits max 880 milliseconds earlier than originally.
 
 **Links**
 
@@ -1615,10 +1615,10 @@ Contains 238 entries with
 **Source:** 1181_helix_radio_sounds.yaml
 
 ---
-### 2022-09-14 - Increases China Gattling Tank spin timeout from 1000 to 2000 ms <a name='link__20220914__1199_gattling_spin_timeout'></a>
+### 2022-09-14 - Increases China Gattling Tank spin timeout against ground units from 1000 to 2000 ms <a name='link__20220914__1199_gattling_spin_timeout'></a>
 **Changes**
 
-- **TWEAK**: Increases GattlingTankGun ContinuousFireCoast from 1000 to 2000 ms. This matches the setup from Generals (CCG) and also the setting from the Zero Hour (ZH) GattlingTankGunAir. With this change the Gattling Tank gun can be microed more generously to squeeze out the most damage potential.
+- **TWEAK**: The China Gattling Tank spin timeout against ground units is increased by 100%, from 1000 to 2000 ms. The spin timeout against air units is unchanged. This matches the spin timeout setup from Generals (CCG). With this change the Gattling Tank gun can be microed more generously against ground units to squeeze out the most damage potential.
 
 **Links**
 
@@ -2326,7 +2326,7 @@ Contains 238 entries with
 ### 2022-11-06 - Increases poison damage resistance of China Dragon Tank by 20% <a name='link__20221106__1449_dragon_poison_armor'></a>
 **Changes**
 
-- **FIX**: Originally Dragon Tanks take 25% damage from POISON. Reducing this to 20% is a subtle and effective way to take some of the edge off of Toxin Tunnel Networks for all China factions.
+- **TWEAK**: The poison damage armor of the China Dragon Tank is increased by 20%. Originally Dragon Tanks take 25% damage from POISON. Reducing this to 20% is a subtle and effective way to take some of the edge off of Toxin Tunnel Networks for all China factions.
 
 **Links**
 
@@ -2374,10 +2374,10 @@ Contains 238 entries with
 ### 2022-11-30 - Increases death explosion damage and radius of China Nuke Silo <a name='link__20221130__1490_nuke_silo_death_damage_radius'></a>
 **Changes**
 
-- **TWEAK**: Increases primary death explosion damage of China Nuke Silo from 400 to 600.
-- **TWEAK**: Increases secondary death explosion damage of China Nuke Silo from 100 to 150.
-- **TWEAK**: Increases primary death explosion radius of China Nuke Silo from 50 to 75.
-- **TWEAK**: Increases secondary death explosion radius of China Nuke Silo from 100 to 125.
+- **TWEAK**: The primary death explosion damage of the China Nuke Silo is increased from 400 to 600.
+- **TWEAK**: The primary death explosion radius of the China Nuke Silo is increased from 50 to 75.
+- **TWEAK**: The secondary death explosion damage of the China Nuke Silo is increased from 100 to 150.
+- **TWEAK**: The secondary death explosion radius of the China Nuke Silo is increased from 100 to 125.
 
 **Links**
 
@@ -2393,7 +2393,7 @@ Contains 238 entries with
 ### 2023-01-07 - Decreases build cost of China Neutron Mines <a name='link__20230107__1523_china_mines_build_cost'></a>
 **Changes**
 
-- **FIX**: Decreases build cost of rarely used China Neutron Mines from 500 to 400. This cost reduction makes them a bit more attractive for occasional investment.
+- **TWEAK**: The build cost of China Neutron Mines is decreased from 500 to 400. This cost reduction makes them a bit more attractive for occasional investment.
 
 **Links**
 
@@ -2441,8 +2441,8 @@ Contains 238 entries with
 ### 2023-01-08 - Decreases build time of China Mines <a name='link__20230108__1533_china_mines_build_time'></a>
 **Changes**
 
-- **FIX**: Decreases build time of regular China Mines from 20 to 18.
-- **FIX**: Decreases build time of China Neutron Mines from 25 to 18.
+- **TWEAK**: The build time of regular China Mines is decreased from 20 to 18.
+- **TWEAK**: The build time of China Neutron Mines is decreased from 25 to 18.
 
 **Links**
 
@@ -2471,11 +2471,11 @@ Contains 238 entries with
 **Source:** 1536_nuke_cannon_scorch.yaml
 
 ---
-### 2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
+### 2023-01-10 - Increases overall damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
 **Changes**
 
-- **TWEAK**: Increased primary damage of China Helix Nuke Bomb from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as Nuke Cannon does, the damages are easier to anticipate.
-- **TWEAK**: Decreases secondary damage of China Helix Nuke Bomb from 50 to 20. This matches the secondary damage of the Nuke Cannon shell.
+- **TWEAK**: The primary damage of the China Helix Nuke Bomb is increased from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as the Nuke Cannon does, the damages are easier to anticipate.
+- **TWEAK**: The secondary damage of the China Helix Nuke Bomb is decreased from 50 to 20. This matches the secondary damage of the Nuke Cannon shell.
 
 **Links**
 
@@ -2821,7 +2821,7 @@ Contains 238 entries with
 ### 2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrel on its target and some time passes until the next target is attacked.
+- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 2 seconds pass until the next attack.
 
 **Links**
 
@@ -2850,10 +2850,10 @@ Contains 238 entries with
 **Source:** 1704_battlemaster_autoloader_idle_reload.yaml
 
 ---
-### 2023-02-12 - Decreases XP reward of China Supply Truck from 50 to 25 <a name='link__20230212__1680_supply_truck_xp_reward'></a>
+### 2023-02-12 - Decreases kill experience reward of China Supply Truck from 50 to 25 <a name='link__20230212__1680_supply_truck_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: The China Supply Truck now gives 25 XP instead of 50 XP on kill. This takes a bit of pressure off of China when losing Supply Trucks to the opposition by not promoting enemy units as much.
+- **TWEAK**: Destroying a China Supply Truck now rewards 25 instead of 50 experience points (XP). This takes a bit of pressure off of China when losing Supply Trucks to the opposition by not promoting enemy units as much.
 
 **Links**
 
@@ -2918,13 +2918,11 @@ Contains 238 entries with
 ### 2023-04-08 - Increases China Overlord speed by 25%, upgraded speed by 16% <a name='link__20230408__1813_overlord_speed'></a>
 **Changes**
 
-- **TWEAK**: Increases regular China Overlord
-  - speed from 20 to 25
-  - acceleration from 15 to 20
-  - turn rate from 60 to 70
-  - upgraded speed from 30 to 35
-  - upgraded turn rate from 60 to 70
-
+- **TWEAK**: The regular China Overlord's speed is increased from 20 to 25
+- **TWEAK**: The regular China Overlord's acceleration is increased from 15 to 20
+- **TWEAK**: The regular China Overlord's turn rate is increased from 60 to 70
+- **TWEAK**: The regular China Overlord's upgraded speed is increased from 30 to 35
+- **TWEAK**: The regular China Overlord's upgraded turn rate is increased from 60 to 70
 
 **Links**
 
@@ -2940,7 +2938,7 @@ Contains 238 entries with
 ### 2023-04-08 - Increases China Battlemaster speed by 20%, upgraded speed by 14% <a name='link__20230408__1815_battlemaster_speed'></a>
 **Changes**
 
-- **TWEAK**: Increases China Battlemaster speed from 25 to 30, upgraded speed 35 to 40. This affects regular China General and Tank General. Movement speed is now competitive with tank speeds of USA and GLA.
+- **TWEAK**: The China Battlemaster speed is increased from 25 to 30, upgraded speed from 35 to 40. This affects regular China General and Tank General. The movement speed is now competitive with tank speeds of USA and GLA.
 
 **Links**
 
@@ -3007,13 +3005,11 @@ Contains 238 entries with
 ### 2023-04-17 - Increases China Emperor speed by 25%, upgraded speed by 16% <a name='link__20230417__1854_emperor_speed'></a>
 **Changes**
 
-- **TWEAK**: Increases China Emperor
-  - speed from 20 to 25
-  - acceleration from 15 to 20
-  - turn rate from 60 to 70
-  - upgraded speed from 30 to 35
-  - upgraded turn rate from 60 to 70
-
+- **TWEAK**: The China Emperor's speed is increased from 20 to 25
+- **TWEAK**: The China Emperor's acceleration is increased from 15 to 20
+- **TWEAK**: The China Emperor's turn rate is increased from 60 to 70
+- **TWEAK**: The China Emperor's upgraded speed is increased from 30 to 35
+- **TWEAK**: The China Emperor's upgraded turn rate is increased from 60 to 70
 
 **Links**
 
@@ -3566,7 +3562,7 @@ Contains 238 entries with
 ### 2023-06-04 - Increases armor of China Internet Center against Explosion attacks by 28.5% <a name='link__20230604__1989_internet_center_explosion_armor'></a>
 **Changes**
 
-- **TWEAK**: Increases the armor of the China Internet Center against Explosion attacks by 28.5%. This way GLA Scud Storms, China Nuke Missiles and all Generals Powers are no longer able to kill the pristine Internet Center and all its Hackers with a single strike.
+- **TWEAK**: The armor of the China Internet Center against Explosion attacks is increased by 28.5%. This way GLA Scud Storms, China Nuke Missiles and all Generals Powers are no longer able to kill the pristine Internet Center and all its Hackers with a single strike.
 
 **Links**
 
@@ -3582,7 +3578,7 @@ Contains 238 entries with
 ### 2023-06-04 - Increases armor of China Internet Center against Particle Cannon beams by 25% <a name='link__20230604__1989_internet_center_particle_beam_armor'></a>
 **Changes**
 
-- **TWEAK**: Increases the armor of the China Internet Center against Particle Cannon beams by 25%. This way the Particle Cannon is no longer able to kill the pristine Internet Center with a single strike.
+- **TWEAK**: The armor of the China Internet Center against Particle Cannon beams is increased by 25%. This way the Particle Cannon is no longer able to kill the pristine Internet Center with a single strike.
 
 **Links**
 
@@ -3630,7 +3626,7 @@ Contains 238 entries with
 ### 2023-06-22 - Increases armor of China Internet Center against Aurora bombs by 30% <a name='link__20230622__2027_internet_center_aurora_bomb_armor'></a>
 **Changes**
 
-- **TWEAK**: Increases the armor of the China Internet Center against Aurora bombs by 30%. This way it takes one more Aurora or Alpha Aurora to take out the pristine Internet Center.
+- **TWEAK**: The armor of the China Internet Center against Aurora bombs is increased by 30%. This way it takes one more Aurora or Alpha Aurora to take out the pristine Internet Center.
 
 **Links**
 
@@ -4421,7 +4417,7 @@ Contains 238 entries with
 - **TWEAK**: China Officer now has a generic portrait.
 - **TWEAK**: China Officer now has 300 instead of 150 shroud clearing range.
 - **TWEAK**: China Officer now has attack move, guard and stop buttons.
-- **TWEAK**: Killing a China Officer now grants 20 experience points.
+- **TWEAK**: Killing a China Officer now rewards 20 experience points (XP).
 
 **Links**
 

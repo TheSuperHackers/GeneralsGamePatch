@@ -4,7 +4,7 @@ date: 2022-09-06
 title: Decreases upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200
 
 changes:
-  - tweak: Decreases the upgrade cost of GLA Bomb Truck Bio Bomb from 500 to 200.
+  - tweak: The upgrade cost of the GLA Bomb Truck Bio Bomb is decreased from 500 to 200.
 
 labels:
   - buff

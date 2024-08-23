@@ -10,7 +10,7 @@ changes:
   - tweak: USA Officer now has a generic portrait.
   - tweak: USA Officer now has 300 instead of 150 shroud clearing range.
   - tweak: USA Officer now has attack move, guard and stop buttons.
-  - tweak: Killing a USA Officer now grants 20 experience points.
+  - tweak: Killing a USA Officer now rewards 20 experience points (XP).
 
 labels:
   - bug

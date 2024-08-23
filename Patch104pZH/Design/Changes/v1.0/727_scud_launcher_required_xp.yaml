@@ -4,7 +4,7 @@ date: 2022-07-22
 title: Increases required level up experience of GLA Scud Launcher by 50%
 
 changes:
-  - tweak: Increases the required level up experience of the GLA Scud Launcher by 50%, from 100 200 400 to 150 300 600. This is more in line with other long range vehicles.
+  - tweak: The required level up experience of the GLA Scud Launcher is increased by 50%, from 100 200 400 to 150 300 600. This is more in line with other long range vehicles.
 
 labels:
   - controversial

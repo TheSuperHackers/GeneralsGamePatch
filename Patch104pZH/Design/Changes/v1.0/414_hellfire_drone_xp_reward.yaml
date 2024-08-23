@@ -4,7 +4,7 @@ date: 2021-09-25
 title: Adds kill experience reward to USA Hellfire Drone
 
 changes:
-  - tweak: Destroying the USA Hellfire Drone now rewards 10 experience points.
+  - tweak: Destroying a USA Hellfire Drone now rewards 10 instead of 0 experience points (XP).
 
 labels:
   - controversial

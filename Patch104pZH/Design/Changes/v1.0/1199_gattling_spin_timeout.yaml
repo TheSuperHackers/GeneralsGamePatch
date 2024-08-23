@@ -1,10 +1,10 @@
 ---
 date: 2022-09-14
 
-title: Increases China Gattling Tank spin timeout from 1000 to 2000 ms
+title: Increases China Gattling Tank spin timeout against ground units from 1000 to 2000 ms
 
 changes:
-  - tweak: Increases GattlingTankGun ContinuousFireCoast from 1000 to 2000 ms. This matches the setup from Generals (CCG) and also the setting from the Zero Hour (ZH) GattlingTankGunAir. With this change the Gattling Tank gun can be microed more generously to squeeze out the most damage potential.
+  - tweak: The China Gattling Tank spin timeout against ground units is increased by 100%, from 1000 to 2000 ms. The spin timeout against air units is unchanged. This matches the spin timeout setup from Generals (CCG). With this change the Gattling Tank gun can be microed more generously against ground units to squeeze out the most damage potential.
 
 labels:
   - buff

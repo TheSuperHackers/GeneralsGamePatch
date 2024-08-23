@@ -1,7 +1,7 @@
 ---
 date: 2021-10-03
 
-title: Fixes low vision range of Boss Jarmen Kell
+title: Fixes low sight range of Boss Jarmen Kell
 
 changes:
   - fix: The Boss Jarmen Kell no longer has 25% less fog vision than other Jarmen Kells.

@@ -4,7 +4,7 @@ date: 2021-09-25
 title: Decreases required level up experience of China Black Lotus by 82%
 
 changes:
-  - tweak: Decreases the required level up experience of China Black Lotus from 100 200 400 to 40 80 160. This allows Black Lotus to level up quicker, but on average still requires more time than USA Colonel Burton and GLA Jarmen Kell do.
+  - tweak: The required level up experience of China Black Lotus is decreased from 100 200 400 to 40 80 160. This allows Black Lotus to level up quicker, but on average still requires more time than USA Colonel Burton and GLA Jarmen Kell do.
 
 labels:
   - buff

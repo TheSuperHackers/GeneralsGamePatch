@@ -4,7 +4,7 @@ date: 2022-10-16
 title: Increases Player Beacon limit from 3 to 5
 
 changes:
-  - fix: Increases Player Beacon limit from 3 to 5.
+  - tweak: The Player Beacon limit is increased from 3 to 5.
 
 labels:
   - controversial

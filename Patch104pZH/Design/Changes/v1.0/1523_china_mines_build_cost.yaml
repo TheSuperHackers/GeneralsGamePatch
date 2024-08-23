@@ -4,7 +4,7 @@ date: 2023-01-07
 title: Decreases build cost of China Neutron Mines
 
 changes:
-  - fix: Decreases build cost of rarely used China Neutron Mines from 500 to 400. This cost reduction makes them a bit more attractive for occasional investment.
+  - tweak: The build cost of China Neutron Mines is decreased from 500 to 400. This cost reduction makes them a bit more attractive for occasional investment.
 
 labels:
   - buff

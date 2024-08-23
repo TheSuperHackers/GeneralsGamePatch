@@ -4,7 +4,7 @@ date: 2023-04-06
 title: Removes destruction delay variance from USA Daisy Cutter bomb
 
 changes:
-  - tweak: Removes the 100 ms destruction delay variance from the USA Daisy Cutter bomb. The delay is now a fixed deterministic 1000 ms.
+  - tweak: The 100 ms destruction delay variance of the USA Daisy Cutter bomb is now removed. The delay is now a fixed deterministic 1000 ms.
 
 labels:
   - buff

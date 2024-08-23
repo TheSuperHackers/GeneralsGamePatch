@@ -1,10 +1,10 @@
 ---
 date: 2023-01-15
 
-title: Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser
+title: Removes second Point Defense Laser from USA King Raptor and halves reload time of remaining single Point Defense Laser
 
 changes:
-  - fix: The USA King Raptor no longer has 2 Point Defense Laser modules with reload times of 266 ms each. Instead it now has just one with a reload time of 133 ms.
+  - tweak: The USA King Raptor no longer has 2 Point Defense Laser modules with reload times of 266 ms each. Instead it now has just one with a reload time of 133 ms.
 
 labels:
   - controversial

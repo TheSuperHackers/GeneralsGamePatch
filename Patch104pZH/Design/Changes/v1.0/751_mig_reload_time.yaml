@@ -4,7 +4,7 @@ date: 2022-07-24
 title: Decreases reload time of China Mig before Upgrade by 50%
 
 changes:
-  - fix: Decreases the reload time of non-Black Napalm Migs from 8 to 4 seconds. This also applies to Nuke Migs before the Nuke Mig Upgrade. The reload time after both upgrades remains unchanged at 2 seconds.
+  - tweak: The reload time of Migs without Black Napalm is reduced by 50%, from 8 to 4 seconds. This also applies to Nuke Migs without the Nuke Mig Upgrade. The reload time after both upgrades remains unchanged at 2 seconds.
 
 labels:
   - buff

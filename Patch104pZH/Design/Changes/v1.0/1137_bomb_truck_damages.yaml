@@ -4,8 +4,8 @@ date: 2022-09-06
 title: Increases damage range bonus of GLA Bomb Truck upgrades
 
 changes:
-  - tweak: Increases damage range bonus of GLA Bomb Truck Bio Bomb by +28%.
-  - tweak: Increases damage range bonus of GLA Bomb Truck Bio Bomb + High Explosive by +16%.
+  - tweak: The damage range bonus of the GLA Bomb Truck Bio Bomb is increased by 28%.
+  - tweak: The damage range bonus of the GLA Bomb Truck Bio Bomb + High Explosive is increased by 16%.
 
 labels:
   - buff

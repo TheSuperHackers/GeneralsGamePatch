@@ -4,7 +4,7 @@ date: 2023-02-11
 title: Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade
 
 changes:
-  - tweak: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
+  - tweak: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and at least 15 seconds pass until the next attack.
 
 labels:
   - controversial

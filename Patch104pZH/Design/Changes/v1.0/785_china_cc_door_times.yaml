@@ -1,10 +1,10 @@
 ---
 date: 2022-07-29
 
-title: Decreases China Command Center door times from 3000 to 1500 ms
+title: Decreases door times of China Command Center from 3000 to 1500 ms
 
 changes:
-  - tweak: Decreases the China Command Center door times from 3000 to 1500 ms. This equals the door times of the USA Command Center. It enables China to build the second Dozer 1500 ms quicker.
+  - tweak: The opening and closing door times of the China Command Center are decreased from 3000 to 1500 ms. This equals the door times of the USA Command Center. It enables China to build the second Dozer 1500 ms quicker.
 
 labels:
   - buff

@@ -4,12 +4,12 @@ date: 2022-07-28
 title: Increases USA Paladin Composite Armor bonus by 100%
 
 changes:
-  - tweak: Increases the USA Paladin Composite Armor bonus by 100%, from 100 to 200. This matches the Armor bonus for the Crusader Tank.
+  - tweak: The Composite Armor bonus of the USA Paladin is increased by 100%, from 100 to 200. This matches the Composite Armor bonus for the USA Crusader Tank.
 
 labels:
   - buff
-  - bug
   - controversial
+  - design
   - minor
   - usa
   - v1.0

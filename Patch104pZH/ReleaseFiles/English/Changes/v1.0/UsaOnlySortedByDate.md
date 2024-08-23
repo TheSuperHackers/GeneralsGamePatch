@@ -10,11 +10,11 @@ Occuring labels are
 - audio (49)
 - boss (15)
 - buff (23)
-- bug (137)
+- bug (136)
 - china (40)
 - civilian (3)
 - controversial (36)
-- design (70)
+- design (71)
 - enhancement (53)
 - gla (37)
 - gui (19)
@@ -34,9 +34,9 @@ Contains 268 entries with
 
 - 386 changes
   - OPTIMIZATION (4)
-  - FIX (268)
-  - TWEAK (98)
-  - FEATURE (16)
+  - FIX (265)
+  - TWEAK (99)
+  - FEATURE (18)
 - 506 subchanges
   - FIX (433)
   - TWEAK (73)
@@ -88,7 +88,7 @@ Contains 268 entries with
 - [2021-10-01 - Fixes attackable Fuel Air Bomb](#link__20211001__441_attackable_fuel_bomb)
 - [2021-12-24 - Fixes units with attachments blocking scaffold placements](#link__20211224__630_vehicle_attachment_blocking_build)
 - [2022-07-28 - Increases USA Paladin Composite Armor bonus by 100%](#link__20220728__777_paladin_composite_armor_bonus)
-- [2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms](#link__20220730__787_usa_factory_door_times)
+- [2022-07-30 - Decreases closing door time of USA War Factory from 4000 to 3300 ms](#link__20220730__787_usa_factory_door_times)
 - [2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%](#link__20220802__412_tanks_xp_reward)
 - [2022-08-06 - Makes USA Supply Drop Zone Cargo Planes not automatically attacked](#link__20220806__836_unattackable_drop_zone_cargo_planes)
 - [2022-08-06 - Fixes wrong countdown value in tooltip text of USA Airforce Carpet Bomber](#link__20220806__841_afg_carpet_tooltip_text)
@@ -106,12 +106,12 @@ Contains 268 entries with
 - [2022-09-01 - Fixes audio flaws in English sounds](#link__20220901__1061_audio_fixes)
 - [2022-09-02 - Fixes ghost muzzle flash before placing first USA Fire Base](#link__20220902__1078_firebase_ghost_muzzle_flash)
 - [2022-09-03 - Fixes sharp turn movements of USA B2 Bomber](#link__20220903__1084_carpet_bomber_turn_rate)
-- [2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300](#link__20220906__1141_battle_drone_shroud_range)
-- [2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400](#link__20220906__1141_hellfire_drone_shroud_range)
+- [2022-09-06 - Increases sight range of USA Battle Drone from 150 to 300](#link__20220906__1141_battle_drone_shroud_range)
+- [2022-09-06 - Decreases sight range of USA Hellfire Drone from 500 to 400](#link__20220906__1141_hellfire_drone_shroud_range)
 - [2022-09-07 - Fixes muzzle particle effects of tanks](#link__20220907__1149_tank_muzzle_particles)
-- [2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400](#link__20220907__1155_burton_sight_range)
+- [2022-09-07 - Decreases sight range of USA Colonel Burton from 500 to 400](#link__20220907__1155_burton_sight_range)
 - [2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee](#link__20220908__1162_sentry_drone_build_cost)
-- [2022-09-08 - Increases USA Sentry Drone gun damage by 20%](#link__20220908__1162_sentry_drone_damage)
+- [2022-09-08 - Increases gun damage of USA Sentry Drone by 20%](#link__20220908__1162_sentry_drone_damage)
 - [2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone](#link__20220908__1162_sentry_drone_deployment)
 - [2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70%](#link__20220908__1162_sentry_drone_movement)
 - [2022-09-08 - Increases sight range of USA Sentry Drone by 30%](#link__20220908__1162_sentry_drone_sight_range)
@@ -120,7 +120,7 @@ Contains 268 entries with
 - [2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet](#link__20220908__1165_nighthawk_low_fuel_voice)
 - [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#link__20220909__1171_particle_cannon_animation_loop)
 - [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#link__20220910__1177_afg_firebase_snow_damaged)
-- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
+- [2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
 - [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
 - [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#link__20220913__1189_burton_texture_errors)
 - [2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead](#link__20220918__1220_pilot_humvee_passenger)
@@ -175,7 +175,7 @@ Contains 268 entries with
 - [2022-11-06 - Enables and fixes sounds of USA Battle Drone repair sparks](#link__20221106__1413_battle_drone_repair_sound)
 - [2022-11-06 - Fixes and improves atcemblock02 textures for USA structures](#link__20221106__1450_atcemblock02_textures)
 - [2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300](#link__20221108__1457_strategy_center_detection_range)
-- [2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600](#link__20221108__1457_strategy_center_snd_vision_range)
+- [2022-11-08 - Decreases SEARCH AND DESTROY sight range bonus for USA Strategy Center from 800 to 600](#link__20221108__1457_strategy_center_snd_vision_range)
 - [2022-11-08 - Fixes and improves atcemwall01 textures for USA structures](#link__20221108__1458_atcemwall01_textures)
 - [2022-11-08 - Fixes and improves atcemwall02 textures for USA structures](#link__20221108__1458_atcemwall02_textures)
 - [2022-11-08 - Fixes and improves atcemwall03 textures for USA structures](#link__20221108__1458_atcemwall03_textures)
@@ -197,7 +197,7 @@ Contains 268 entries with
 - [2023-01-14 - Improves guided missile laser beam and muzzle flare visuals of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_beam_effects)
 - [2023-01-14 - Adds missing exhaust and lens flare particles to guided missiles of USA Missile Defender](#link__20230114__1552_missile_defender_guided_missile_exhaust)
 - [2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0%](#link__20230115__1554_hold_line_plan_armor_bonus)
-- [2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser](#link__20230115__1555_king_raptor_point_defense_laser)
+- [2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of remaining single Point Defense Laser](#link__20230115__1555_king_raptor_point_defense_laser)
 - [2023-01-15 - Enables toxin weapons to shoot at USA Fire Base](#link__20230115__1556_firebase_toxin_armor)
 - [2023-01-17 - Improves tool tip text of USA Strategy Center Battle Plans](#link__20230117__1559_strategy_center_plan_tooltip_text)
 - [2023-01-19 - Replaces USA Chinook specific evacuation button with generic vehicle evacuation button](#link__20230119__1565_chinook_evacuation_button)
@@ -261,7 +261,7 @@ Contains 268 entries with
 - [2023-06-25 - Improves color blending of hazard cleanup stream particles](#link__20230625__2041_improve_cleanup_stream_colors)
 - [2023-07-02 - Fixes visuals mismatch of toxin and hazard cleanup stream splash effects with their puddle effects](#link__20230702__2058_toxin_stream_splash_visuals)
 - [2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes](#link__20230707__2064_burton_experience_reward)
-- [2023-07-08 - Enables Laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
+- [2023-07-08 - Enables USA laser weapons to burn killed infantry units](#link__20230708__2067_laser_weapons_infantry_burn)
 - [2023-07-08 - Fixes missing and broken infantry death modules](#link__20230708__2074_infantry_death_module_fixes)
 - [2023-07-10 - Swaps position of Stop and Supply Lines buttons in command set of USA Strategy Center](#link__20230710__2094_strategy_center_stop_button_placement)
 - [2023-07-13 - Fixes key conflicts in German localization](#link__20230713__2108_german_key_conflicts)
@@ -897,7 +897,7 @@ Contains 268 entries with
 ### 2021-09-13 - Fixes inconsistent clip sizes of USA Laser Turret <a name='link__20210913__373_laser_turret_clip_size'></a>
 **Changes**
 
-- **FIX**: The Laser Turret now fires only 3 shots, both when engaging airborne units and assisting other Laser Turrets.
+- **FIX**: The USA Laser Turret now fires 3 shots consistently in all modes, when engaging ground targets, airborne targets and targets by assisting other Laser Turrets.
 
 **Links**
 
@@ -977,7 +977,7 @@ Contains 268 entries with
 ### 2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers <a name='link__20210923__407_avenger_composite_armor'></a>
 **Changes**
 
-- **TWEAK**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
+- **FIX**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
 
 **Links**
 
@@ -993,7 +993,7 @@ Contains 268 entries with
 ### 2021-09-25 - Adds kill experience reward to USA Hellfire Drone <a name='link__20210925__414_hellfire_drone_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Destroying the USA Hellfire Drone now rewards 10 experience points.
+- **TWEAK**: Destroying a USA Hellfire Drone now rewards 10 instead of 0 experience points (XP).
 
 **Links**
 
@@ -1045,23 +1045,23 @@ Contains 268 entries with
 ### 2022-07-28 - Increases USA Paladin Composite Armor bonus by 100% <a name='link__20220728__777_paladin_composite_armor_bonus'></a>
 **Changes**
 
-- **TWEAK**: Increases the USA Paladin Composite Armor bonus by 100%, from 100 to 200. This matches the Armor bonus for the Crusader Tank.
+- **TWEAK**: The Composite Armor bonus of the USA Paladin is increased by 100%, from 100 to 200. This matches the Composite Armor bonus for the USA Crusader Tank.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777)
 
-**Labels:** buff, bug, controversial, minor, usa, v1.0
+**Labels:** buff, controversial, design, minor, usa, v1.0
 
 **Authors:** xezon
 
 **Source:** 777_paladin_composite_armor_bonus.yaml
 
 ---
-### 2022-07-30 - Decreases USA War Factory close door time from 4000 to 3300 ms <a name='link__20220730__787_usa_factory_door_times'></a>
+### 2022-07-30 - Decreases closing door time of USA War Factory from 4000 to 3300 ms <a name='link__20220730__787_usa_factory_door_times'></a>
 **Changes**
 
-- **TWEAK**: Decreases the USA War Factory close door time from 4000 to 3300 ms. This change is inconsequential for gameplay, because it does not affect unit interactions.
+- **TWEAK**: The closing door time of the USA War Factory is decreased from 4000 to 3300 ms. This change is inconsequential for gameplay, because it does not affect unit interactions.
 
 **Links**
 
@@ -1077,7 +1077,7 @@ Contains 268 entries with
 ### 2022-08-02 - Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30% <a name='link__20220802__412_tanks_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Decreases kill experience reward for Battlemaster, Marauder, Crusader, Paladin, Microwave by 30%.
+- **TWEAK**: Destroying a Battlemaster, Marauder, Crusader, Paladin, Microwave now rewards 30% less, 70 70 140 280 instead of 100 100 200 400 or 100 100 200 300 experience points (XP). This gives a more balanced kill reward for generally easy-to-kill tanks.
 
 **Links**
 
@@ -1298,7 +1298,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-08-27 - Removes Point Defense Laser from USA Airforce Carpet Bomber <a name='link__20220827__953_afg_carpet_pdl'></a>
 **Changes**
 
-- **TWEAK**: Removes the PointDefenseLaser from the USA Airforce Carpet Bomber. All other USA Airforce General Promotion planes have no PointDefenseLaser either, including the B52 bomber that delivers the MOAB and looks identical to the B52 Carpet Bomber. USA Airforce opponents will now be able to shoot down the Carpet Bomber more easily with Rockets.
+- **TWEAK**: The Point Defense Laser from the USA Airforce Carpet Bomber is now removed. All other USA Airforce General Promotion planes have no Point Defense Laser either, including the B52 bomber that delivers the MOAB and looks identical to the B52 Carpet Bomber. USA Airforce opponents will now be able to shoot down the Carpet Bomber more easily with rockets.
 
 **Links**
 
@@ -1387,10 +1387,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1084_carpet_bomber_turn_rate.yaml
 
 ---
-### 2022-09-06 - Increases shroud clearing range of USA Battle Drone from 150 to 300 <a name='link__20220906__1141_battle_drone_shroud_range'></a>
+### 2022-09-06 - Increases sight range of USA Battle Drone from 150 to 300 <a name='link__20220906__1141_battle_drone_shroud_range'></a>
 **Changes**
 
-- **TWEAK**: Increases the shroud clearing range of USA Battle Drone from 150 to 300.
+- **TWEAK**: The shroud clearing range of USA Battle Drone is increased by 100%, from 150 to 300.
 
 **Links**
 
@@ -1403,10 +1403,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1141_battle_drone_shroud_range.yaml
 
 ---
-### 2022-09-06 - Decreases shroud clearing range of USA Hellfire Drone from 500 to 400 <a name='link__20220906__1141_hellfire_drone_shroud_range'></a>
+### 2022-09-06 - Decreases sight range of USA Hellfire Drone from 500 to 400 <a name='link__20220906__1141_hellfire_drone_shroud_range'></a>
 **Changes**
 
-- **TWEAK**: Decreases the shroud clearing range of USA Hellfire Drone from 500 to 400.
+- **TWEAK**: The shroud clearing range of USA Hellfire Drone is decreased by 20%, from 500 to 400.
 
 **Links**
 
@@ -1437,10 +1437,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1149_tank_muzzle_particles.yaml
 
 ---
-### 2022-09-07 - Decreases USA Colonel Burton sight from 500 to 400 <a name='link__20220907__1155_burton_sight_range'></a>
+### 2022-09-07 - Decreases sight range of USA Colonel Burton from 500 to 400 <a name='link__20220907__1155_burton_sight_range'></a>
 **Changes**
 
-- **TWEAK**: Decreases the USA Colonel Burton shroud range from 500 to 400. This matches the shroud range of the other Hero units. With the SEARCH AND DESTROY Battle Plan, Colonel Burton will have a shroud range of 480 instead of 600.
+- **TWEAK**: The shroud clearing range of USA Colonel Burton is decreased by 20%, from 500 to 400. This matches the shroud clearing range of the other Hero units. With the SEARCH AND DESTROY Battle Plan, Colonel Burton will now have a shroud clearing range of 480 instead of originally 600.
 
 **Links**
 
@@ -1456,10 +1456,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee <a name='link__20220908__1162_sentry_drone_build_cost'></a>
 **Changes**
 
-- **TWEAK**: Decreases cost of regular USA Sentry Drone from 800 to 700.
-- **TWEAK**: Decreases cost of USA Laser Sentry Drone from 800 to 700.
-- **TWEAK**: Decreases cost of USA Airforce Sentry Drone from 850 to 800.
-- **TWEAK**: Decreases cost of USA Superweapon Sentry Drone from 1000 to 850.
+- **TWEAK**: The cost of the regular USA Sentry Drone is decreased from 800 to 700.
+- **TWEAK**: The cost of the USA Laser Sentry Drone is decreased from 800 to 700.
+- **TWEAK**: The cost of the USA Airforce Sentry Drone is decreased from 850 to 800.
+- **TWEAK**: The cost of the USA Superweapon Sentry Drone is decreased from 1000 to 850.
 
 **Links**
 
@@ -1472,10 +1472,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1162_sentry_drone_build_cost.yaml
 
 ---
-### 2022-09-08 - Increases USA Sentry Drone gun damage by 20% <a name='link__20220908__1162_sentry_drone_damage'></a>
+### 2022-09-08 - Increases gun damage of USA Sentry Drone by 20% <a name='link__20220908__1162_sentry_drone_damage'></a>
 **Changes**
 
-- **TWEAK**: Increases USA Sentry Drone gun damage by 20%, from 40 to 50. This makes the Machine Gun damage output identical with the Vet 0 Humvee.
+- **TWEAK**: The gun damage of the USA Sentry Drone is increased by 20%, from 40 to 50. This makes the Machine Gun damage output identical with the Vet 0 Humvee.
 
 **Links**
 
@@ -1491,7 +1491,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone <a name='link__20220908__1162_sentry_drone_deployment'></a>
 **Changes**
 
-- **TWEAK**: Removes the gun deployment mechanic from USA Sentry Drone. It no longer requires 1 second to acquire a fresh target, and 2 seconds to engage a consecutive target if it needs to move to a new position. This is a time and performance boost. It will also make the unit feel more responsive in combat situations.
+- **TWEAK**: The gun deployment mechanic of the USA Sentry Drone is now removed. It no longer requires 1 second to acquire a fresh target, and 2 seconds to engage a consecutive target if it needs to move to a new position. This is a time and performance boost. It will also make the unit feel more responsive in combat situations.
 
 **Links**
 
@@ -1507,7 +1507,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70% <a name='link__20220908__1162_sentry_drone_movement'></a>
 **Changes**
 
-- **TWEAK**: Decreases the acceleration time of USA Sentry Drone by 70%, from 1000 to 300 ms.
+- **TWEAK**: The acceleration time of the USA Sentry Drone is decreased by 70%, from 1000 to 300 ms.
 
 **Links**
 
@@ -1523,7 +1523,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Increases sight range of USA Sentry Drone by 30% <a name='link__20220908__1162_sentry_drone_sight_range'></a>
 **Changes**
 
-- **TWEAK**: Increases the sight range of USA Sentry Drone by 30%, from 350 to 400.
+- **TWEAK**: The shroud clearing range of the USA Sentry Drone is increased by 30%, from 350 to 400.
 
 **Links**
 
@@ -1539,7 +1539,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones <a name='link__20220908__1162_sentry_drone_tracks'></a>
 **Changes**
 
-- **TWEAK**: Replaces terrain tracks of USA Sentry Drone with less transparent ones. This makes the tracks less visible than those of tanks and China Outpost.
+- **TWEAK**: The terrain tracks of the USA Sentry Drone now show with less transparency. This makes the tracks less visible than those of tanks and China Outpost.
 
 **Links**
 
@@ -1555,8 +1555,8 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20% <a name='link__20220908__1162_sentry_drone_upgrade'></a>
 **Changes**
 
-- **TWEAK**: Decreases USA Sentry Drone gun upgrade time by 66%, from 30 to 10 seconds.
-- **TWEAK**: Decreases USA Sentry Drone gun upgrade cost by 20%, from 1000 to 800.
+- **TWEAK**: The USA Sentry Drone's gun upgrade time is decreased by 66%, from 30 to 10 seconds.
+- **TWEAK**: The USA Sentry Drone's gun upgrade cost is decreased by 20%, from 1000 to 800.
 
 **Links**
 
@@ -1617,10 +1617,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1177_afg_firebase_snow_damaged.yaml
 
 ---
-### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
+### 2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
 **Changes**
 
-- **FIX**: All weapons of the USA Patriot Battery will now reload the entire clip after being idle for around 2 seconds.
+- **TWEAK**: All weapons of the USA Patriot Battery will now reload when idle. This makes the base defense a bit better in scenarios where it managed to only fire a few of its rockets on its target and at least 2 seconds pass until the next attack.
 
 **Links**
 
@@ -1675,7 +1675,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead <a name='link__20220918__1220_pilot_humvee_passenger'></a>
 **Changes**
 
-- **TWEAK**: Forbids NO_GARRISON flag objects from entering Humvee. NO_GARRISON is unique to Pilot and makes it unable to enter civilian buildings, Tunnels and Bunkers. Cursor still appears and it promotes the Humvee when entered. Therefore a Vet 3 Humvee can no longer transport Pilots.
+- **TWEAK**: The USA Pilot is no longer able to accidentally take a passenger seat in a Humvee. Instead it now consistently promotes the Humvee when entered. A Vet 3 Humvee can no longer transport Pilots, but the Ambulance still can.
 
 **Links**
 
@@ -2973,7 +2973,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-11-08 - Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300 <a name='link__20221108__1457_strategy_center_detection_range'></a>
 **Changes**
 
-- **TWEAK**: Decreases SEARCH AND DESTROY stealth detection range of USA Strategy Center from 500 to 300. As all heroes (now) have a sight range of 400, options for reacting to a Strategy Center's presence before being detected are incredibly limited. Not only this, but the structure's extensive stealth detection range over the owner's entire base effectively renders heroes useless - on top of the substantial range bonus that Search and Destroy provides. Reducing the stealth detection range is a reasonable way to counterbalance the incredible effectiveness of S&D without directly affecting the bonus itself.
+- **TWEAK**: The SEARCH AND DESTROY stealth detection range of the USA Strategy Center is decreased by 40%, from 500 to 300. As all heroes (now) have a sight range of 400, options for reacting to a Strategy Center's presence before being detected are incredibly limited. Not only this, but the structure's extensive stealth detection range over the owner's entire base effectively renders heroes useless - on top of the substantial range bonus that SEARCH AND DESTROY provides. Reducing the stealth detection range is a reasonable way to counterbalance the incredible effectiveness of SEARCH AND DESTROY without directly affecting the bonus itself.
 
 **Links**
 
@@ -2986,10 +2986,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1457_strategy_center_detection_range.yaml
 
 ---
-### 2022-11-08 - Decreases SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600 <a name='link__20221108__1457_strategy_center_snd_vision_range'></a>
+### 2022-11-08 - Decreases SEARCH AND DESTROY sight range bonus for USA Strategy Center from 800 to 600 <a name='link__20221108__1457_strategy_center_snd_vision_range'></a>
 **Changes**
 
-- **TWEAK**: Decreases the SEARCH AND DESTROY vision range bonus for USA Strategy Center from 800 to 600. Accordingly, the Strategy Center no longer has an extreme shroud-clearing range of 800 under the effects of Search and Destroy. It was an unnecessary advantage for USA that discounts map awareness. The range has been reduced to a more palatable range of 600 - a 1.5x increase of the default vision range of 400. This was preferred over reducing the default vision of 400 to 300 due to the Bombardment cannon's weapon range of 400.
+- **TWEAK**: The SEARCH AND DESTROY shroud clearing range bonus of the USA Strategy Center is decreased by 25%, from 800 to 600. Accordingly, the Strategy Center no longer has this large shroud clearing range of 800 under the effects of Search and Destroy. It was an unnecessary advantage for USA that discounts map awareness. The range has been reduced to a more palatable range of 600 - a 1.5x increase of the default sight range of 400. This was preferred over reducing the default vision of 400 to 300 due to the Bombardment cannon's weapon range of 400.
 
 **Links**
 
@@ -3283,7 +3283,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-11-16 - Decreases Drone Armor Upgrade bonus of USA Battle Drone from 50% to 25% <a name='link__20221116__1469_battle_drone_upgrade_armor_bonus'></a>
 **Changes**
 
-- **FIX**: Decreases the Drone Armor Upgrade bonus of the USA Battle Drone from 50% to 25%. This makes the armor bonus consistent with the other vehicle drones.
+- **TWEAK**: The Drone Armor Upgrade bonus of the USA Battle Drone is decreased from 50% to 25%. This makes the armor bonus consistent with the other vehicle drones.
 
 **Links**
 
@@ -3473,7 +3473,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-01-15 - Increases USA unit armor bonus for HOLD THE LINE Battle Plan from 11.1% to 20.0% <a name='link__20230115__1554_hold_line_plan_armor_bonus'></a>
 **Changes**
 
-- **FIX**: Increases the USA unit armor bonus of HOLD THE LINE Battle Plan from 11.1% to 20.0%. Armor bonus is synonymous for damage resistance. This makes the use of the HOLD THE LINE Battle Plan more attractive for all USA factions. Traditionally USA favors the SEARCH AND DESTROY Battle Plan above the others by a large margin.
+- **TWEAK**: The USA unit armor bonus from the HOLD THE LINE Battle Plan is increased from 11.1% to 20.0%. Armor bonus is synonymous for damage resistance. This makes the use of the HOLD THE LINE Battle Plan more attractive for all USA factions. Traditionally USA favors the SEARCH AND DESTROY Battle Plan above the others by a large margin.
 
 **Links**
 
@@ -3486,10 +3486,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1554_hold_line_plan_armor_bonus.yaml
 
 ---
-### 2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of single Point Defense Laser <a name='link__20230115__1555_king_raptor_point_defense_laser'></a>
+### 2023-01-15 - Removes second Point Defense Laser from USA King Raptor and halves reload time of remaining single Point Defense Laser <a name='link__20230115__1555_king_raptor_point_defense_laser'></a>
 **Changes**
 
-- **FIX**: The USA King Raptor no longer has 2 Point Defense Laser modules with reload times of 266 ms each. Instead it now has just one with a reload time of 133 ms.
+- **TWEAK**: The USA King Raptor no longer has 2 Point Defense Laser modules with reload times of 266 ms each. Instead it now has just one with a reload time of 133 ms.
 
 **Links**
 
@@ -3833,7 +3833,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-24 - Removes destruction delay variance from USA Alpha Aurora bomb <a name='link__20230224__1752_alpha_aurora_bomb_random_delay'></a>
 **Changes**
 
-- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Alpha Aurora bomb. The delay is now a fixed deterministic 1000 ms.
+- **TWEAK**: The 100 ms destruction delay variance of the USA Alpha Aurora bomb is now removed. The delay is now a fixed deterministic 1000 ms.
 
 **Links**
 
@@ -3897,7 +3897,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-04-06 - Removes destruction delay variance from USA Daisy Cutter bomb <a name='link__20230406__1800_daisy_cutter_explosion_delay_variance'></a>
 **Changes**
 
-- **TWEAK**: Removes the 100 ms destruction delay variance from the USA Daisy Cutter bomb. The delay is now a fixed deterministic 1000 ms.
+- **TWEAK**: The 100 ms destruction delay variance of the USA Daisy Cutter bomb is now removed. The delay is now a fixed deterministic 1000 ms.
 
 **Links**
 
@@ -4542,7 +4542,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-06-21 - Replaces 40% of Rangers with Missile Defenders in USA Paradrops <a name='link__20230621__2026_usa_paradrop_payload'></a>
 **Changes**
 
-- **TWEAK**: Replaces 40% of Rangers with Missile Defenders in USA Paradrops. Rank 1 drops 3 Rangers and 2 Missile Defenders, Rank 2 drops 6 Rangers and 4 Missile Defenders and Rank 3 drops 12 Rangers and 8 Missile Defenders.
+- **TWEAK**: 40% of Rangers are now replaced by Missile Defenders in USA Paradrops. Rank 1 drops 3 Rangers and 2 Missile Defenders, Rank 2 drops 6 Rangers and 4 Missile Defenders and Rank 3 drops 12 Rangers and 8 Missile Defenders.
 
 **Links**
 
@@ -4624,7 +4624,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-07-07 - Decreases kill experience reward of veteran USA Burton to match other heroes <a name='link__20230707__2064_burton_experience_reward'></a>
 **Changes**
 
-- **TWEAK**: The USA Burton now rewards 50 50 100 150 instead of 50 100 100 150 experience on kill.
+- **TWEAK**: Killing a USA Burton now rewards 50 50 100 150 instead of 50 100 100 150 experience points (XP).
 
 **Links**
 
@@ -4637,12 +4637,12 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2064_burton_experience_reward.yaml
 
 ---
-### 2023-07-08 - Enables Laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
+### 2023-07-08 - Enables USA laser weapons to burn killed infantry units <a name='link__20230708__2067_laser_weapons_infantry_burn'></a>
 **Changes**
 
 - **TWEAK**: The USA Laser Turret now burns infantry on kill. It still triggers the strong suicide explosion of the GLA Terrorist as per original design.
-- **TWEAK**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
-- **TWEAK**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
 
 **Links**
 
@@ -5428,7 +5428,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - **TWEAK**: USA Officer now has a generic portrait.
 - **TWEAK**: USA Officer now has 300 instead of 150 shroud clearing range.
 - **TWEAK**: USA Officer now has attack move, guard and stop buttons.
-- **TWEAK**: Killing a USA Officer now grants 20 experience points.
+- **TWEAK**: Killing a USA Officer now rewards 20 experience points (XP).
 
 **Links**
 

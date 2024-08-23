@@ -4,12 +4,13 @@ date: 2023-06-17
 title: Decreases green Toxin Shells field radius from 12 to 7.5
 
 changes:
-  - fix: Decreases the green Toxin Shells poison field radius from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells poison field radius.
-  - fix: Decreases the green Toxin Shells object radius from 6 to 4 to match the Anthrax Beta and Anthrax Gamma Toxin Shells object radius.
+  - fix: The green Toxin Shells poison field radius is decreased from 12 to 7.5 to match the Anthrax Beta and Anthrax Gamma Toxin Shells poison field radius.
+  - fix: The green Toxin Shells object radius is decreased from 6 to 4 to match the Anthrax Beta and Anthrax Gamma Toxin Shells object radius.
 
 labels:
   - bug
   - controversial
+  - design
   - gla
   - minor
   - nerf

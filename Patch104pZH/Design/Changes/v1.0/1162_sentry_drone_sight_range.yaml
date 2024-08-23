@@ -4,7 +4,7 @@ date: 2022-09-08
 title: Increases sight range of USA Sentry Drone by 30%
 
 changes:
-  - tweak: Increases the sight range of USA Sentry Drone by 30%, from 350 to 400.
+  - tweak: The shroud clearing range of the USA Sentry Drone is increased by 30%, from 350 to 400.
 
 labels:
   - buff

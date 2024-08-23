@@ -1,10 +1,10 @@
 ---
 date: 2022-07-16
 
-title: Fixes Toxin GLA Terrorist dealing more damage before Toxin Gamma Upgrade
+title: Fixes GLA Toxin Terrorist dealing more damage before Toxin Gamma Upgrade
 
 changes:
-  - fix: The Toxin GLA Terrorist now deals identical amount of damage before and after Toxin Gamma Upgrade, 500 instead of 700 damage.
+  - fix: The GLA Toxin Terrorist now deals identical amount of damage before and after the Toxin Gamma Upgrade, 500 instead of 700 damage.
 
 labels:
   - bug

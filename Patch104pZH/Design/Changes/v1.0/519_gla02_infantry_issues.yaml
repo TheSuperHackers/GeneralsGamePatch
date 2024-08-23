@@ -12,7 +12,7 @@ changes:
   - fix: The GLA02 Stealth General's Sniper now benefits from AP Bullets as intended.
   - fix: The GLA02 Stealth General's Sniper will no longer retaliate if the option is disabled.
   - fix: The GLA02 Stealth General's Sniper now screams like a GLA unit when poisoned.
-  - fix: The GLA02 Stealth General's Jarmen Kell now has the intended vision range.
+  - fix: The GLA02 Stealth General's Jarmen Kell now has the intended sight range.
   - fix: The GLA02 Stealth General's Jarmen Kell will no longer automatically engage enemies when stealthed.
   - fix: The GLA02 Stealth General's Jarmen Kell will no longer retaliate if the option is disabled.
 

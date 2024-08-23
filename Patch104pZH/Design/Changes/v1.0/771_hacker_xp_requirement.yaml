@@ -1,10 +1,10 @@
 ---
 date: 2022-07-30
 
-title: Decreases the required level up experience of China Hackers
+title: Decreases required level up experience of China Hackers
 
 changes:
-  - tweak: Decreases the required level up experience of China Hackers from 100 300 500 to 100 250 400. Affects all Hackers expept Super Hackers from Infantry General. This means the regular Hacker now takes 500 seconds instead of 600 seconds to reach Vet 2. And 800 seconds instead of 1000 seconds to reach Vet 3.
+  - tweak: The required level up experience of China Hackers is decreased from 100 300 500 to 100 250 400. Affects all Hackers except Super Hackers from Infantry General. This means the regular Hacker now takes 500 seconds instead of 600 seconds to reach Vet 2. And 800 seconds instead of 1000 seconds to reach Vet 3.
 
 labels:
   - buff

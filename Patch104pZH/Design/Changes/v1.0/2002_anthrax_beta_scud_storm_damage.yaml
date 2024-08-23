@@ -4,7 +4,7 @@ date: 2023-06-10
 title: Decreases secondary damage of Anthrax Beta Scud Storm missiles from 200 to 175
 
 changes:
-  - tweak: Decreases the secondary damage of the Anthrax Beta Scud Storm missiles from 200 to 175. This way it can no longer take out as many structures in a large area, but is still stronger than the regular Scud Storm.
+  - tweak: The secondary damage of the Anthrax Beta Scud Storm missiles is decreased from 200 to 175. This way it can no longer take out as many structures in a large area, but is still stronger than the regular Scud Storm.
 
 labels:
   - controversial

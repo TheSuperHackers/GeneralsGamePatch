@@ -1,12 +1,12 @@
 ---
 date: 2023-07-08
 
-title: Enables Laser weapons to burn killed infantry units
+title: Enables USA laser weapons to burn killed infantry units
 
 changes:
   - tweak: The USA Laser Turret now burns infantry on kill. It still triggers the strong suicide explosion of the GLA Terrorist as per original design.
-  - tweak: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
-  - tweak: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+  - feature: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+  - feature: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
 
 labels:
   - controversial

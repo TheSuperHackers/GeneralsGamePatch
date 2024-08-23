@@ -4,13 +4,13 @@ date: 2022-08-14
 title: Increases damage and radius of China Nuke Missile
 
 changes:
-  - tweak: Increases China Nuke Missile damage by 20%.
-  - tweak: Increases China Nuke Missile blasts radius 1 by 2%.
-  - tweak: Increases China Nuke Missile blasts radius 2 by 3.3%.
-  - tweak: Increases China Nuke Missile blasts radius 3 by 4%.
-  - tweak: Increases China Nuke Missile blasts radius 4 by 4.4%.
-  - tweak: Increases China Nuke Missile blasts radius 5 by 4.7%.
-  - tweak: Increases China Nuke Missile blasts radius 6 by 20%.
+  - tweak: The China Nuke Missile damage is increased by 20%.
+  - tweak: The China Nuke Missile blasts radius 1 is increased by 2%.
+  - tweak: The China Nuke Missile blasts radius 2 is increased by 3.3%.
+  - tweak: The China Nuke Missile blasts radius 3 is increased by 4%.
+  - tweak: The China Nuke Missile blasts radius 4 is increased by 4.4%.
+  - tweak: The China Nuke Missile blasts radius 5 is increased by 4.7%.
+  - tweak: The China Nuke Missile blasts radius 6 is increased by 20%.
 
 labels:
   - buff

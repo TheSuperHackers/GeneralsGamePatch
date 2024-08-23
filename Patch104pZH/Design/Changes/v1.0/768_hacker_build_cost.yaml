@@ -4,7 +4,7 @@ date: 2022-07-30
 title: Decreases build cost of Tank China Hacker from 780 to 625
 
 changes:
-  - tweak: Decreases the build cost of Tank China Hacker from 780 to 625. All China Hackers now cost the same. 4 Regular Hackers valued at 2500 cash generate as much income as as a GLA Black Market of identical value.
+  - tweak: The build cost of the Tank China Hacker is decreased from 780 to 625. All China Hackers now cost the same. 4 Regular Hackers valued at 2500 cash generate as much income as as a GLA Black Market of identical value.
 
 labels:
   - buff
