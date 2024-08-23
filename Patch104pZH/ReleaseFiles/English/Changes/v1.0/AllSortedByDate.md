@@ -10,12 +10,12 @@ Occuring labels are
 - audio (128)
 - boss (59)
 - buff (100)
-- bug (465)
+- bug (464)
 - china (238)
 - civilian (86)
 - controversial (130)
 - critical (5)
-- design (217)
+- design (219)
 - enhancement (124)
 - gla (255)
 - gui (75)
@@ -35,10 +35,10 @@ Sorts changes by: date (ascending)
 Contains 924 entries with
 
 - 1446 changes
-  - FIX (1037)
+  - FIX (1038)
   - OPTIMIZATION (12)
-  - TWEAK (310)
-  - FEATURE (61)
+  - TWEAK (307)
+  - FEATURE (63)
   - REFACTOR (26)
 - 1174 subchanges
   - FIX (1014)
@@ -209,7 +209,7 @@ Contains 924 entries with
 - [2021-10-01 - Fixes GLA Demo Trap triggered by Anthrax and Radiation puddles](#link__20211001__440_demo_trap_triggered_by_puddles)
 - [2021-10-01 - Fixes attackable Fuel Air Bomb](#link__20211001__441_attackable_fuel_bomb)
 - [2021-10-01 - Fixes the ECM immunity of Heroic GLA Quad Cannon](#link__20211001__442_vet3_quad_cannon_subdual)
-- [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
+- [2021-10-01 - Fixes all Money Crates being removable by scaffolds](#link__20211001__443_money_crates_under_scaffold)
 - [2021-10-03 - Fixes hacking speed of Boss Hacker inside Internet Center](#link__20211003__450_boss_hacker_bonus)
 - [2021-10-03 - Fixes low sight range of Boss Jarmen Kell](#link__20211003__450_boss_jarmen_sight_range)
 - [2021-10-03 - Fixes low health value of Boss Black Lotus](#link__20211003__450_boss_lotus_health)
@@ -245,7 +245,7 @@ Contains 924 entries with
 - [2021-10-23 - Removes ability to reveal shroud with China Frenzy power](#link__20211023__593_frenzy_scan)
 - [2021-10-31 - Adds climb animation for GLA Saboteur](#link__20211031__606_saboteur_climb_animation)
 - [2021-12-24 - Fixes units with attachments blocking scaffold placements](#link__20211224__630_vehicle_attachment_blocking_build)
-- [2021-12-24 - Removes auto attack behaviour from China ECM Tank](#link__20211224__631_ecm_auto_attack)
+- [2021-12-24 - Removes auto attack behaviour from non-vanilla China ECM Tanks](#link__20211224__631_ecm_auto_attack)
 - [2022-01-01 - Fixes text setup errors and inconsistencies for all native game languages](#link__20220101__634_text_errors)
 - [2022-07-16 - Fixes random chain reaction kills of GLA Toxin Terrorist](#link__20220716__695_toxin_terrorist_death)
 - [2022-07-16 - Adds new crushable weapon type with lower damage output to all GLA Terrorists](#link__20220716__697_all_terrorist_crush_damage)
@@ -383,7 +383,7 @@ Contains 924 entries with
 - [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#link__20220909__1171_particle_cannon_animation_loop)
 - [2022-09-09 - Fixes muzzle flash effect of GLA Technical with Rocket Launcher upgrade](#link__20220909__1176_technical_muzzle_flash)
 - [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#link__20220910__1177_afg_firebase_snow_damaged)
-- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
+- [2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
 - [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
 - [2022-09-10 - Enables low fuel voices for China Mig Jet](#link__20220910__1180_mig_low_fuel_voice)
 - [2022-09-11 - Adds missing radio sounds to Helix voices](#link__20220911__1181_helix_radio_sounds)
@@ -534,7 +534,7 @@ Contains 924 entries with
 - [2023-01-08 - Fixes duplicate terrain scorches on vehicle deaths](#link__20230108__1535_duplicate_scorch_spawn)
 - [2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion](#link__20230108__1536_nuke_cannon_scorch)
 - [2023-01-09 - Optimizes USA vehicle drone spawn positions](#link__20230109__1539_vehicle_drone_spawn_position)
-- [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
+- [2023-01-10 - Increases overall damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
 - [2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research](#link__20230111__1542_helix_attachment_upgrade_buttons)
 - [2023-01-13 - Fixes the evacuation command button art of various vehicles](#link__20230113__1545_vehicle_evacuation_button_image)
 - [2023-01-14 - Fixes wrong border colors of GLA Bomb Truck upgrade command buttons](#link__20230114__1548_bomb_truck_button_border)
@@ -3506,7 +3506,7 @@ Contains 924 entries with
 ### 2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers <a name='link__20210923__407_avenger_composite_armor'></a>
 **Changes**
 
-- **TWEAK**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
+- **FIX**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
 
 **Links**
 
@@ -3634,10 +3634,10 @@ Contains 924 entries with
 **Source:** 442_vet3_quad_cannon_subdual.yaml
 
 ---
-### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>
+### 2021-10-01 - Fixes all Money Crates being removable by scaffolds <a name='link__20211001__443_money_crates_under_scaffold'></a>
 **Changes**
 
-- **FIX**: Money Crates no longer vanish when a building scaffold is placed on top.
+- **FIX**: All Money Crates are no longer deleted when a building scaffold is placed on top of them.
 
 **Links**
 
@@ -4322,10 +4322,10 @@ Contains 924 entries with
 **Source:** 630_vehicle_attachment_blocking_build.yaml
 
 ---
-### 2021-12-24 - Removes auto attack behaviour from China ECM Tank <a name='link__20211224__631_ecm_auto_attack'></a>
+### 2021-12-24 - Removes auto attack behaviour from non-vanilla China ECM Tanks <a name='link__20211224__631_ecm_auto_attack'></a>
 **Changes**
 
-- **FIX**: The auto attack behaviour of the China ECM Tanks is now removed. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same now.
+- **FIX**: The auto attack behaviour of the non-vanilla China ECM Tanks is now removed. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same now.
 
 **Links**
 
@@ -4603,13 +4603,13 @@ Contains 924 entries with
 ### 2022-07-28 - Increases USA Paladin Composite Armor bonus by 100% <a name='link__20220728__777_paladin_composite_armor_bonus'></a>
 **Changes**
 
-- **TWEAK**: The Composite Armor bonus of the USA Paladin is increased by 100%, from 100 to 200. This matches the Armor bonus for the Crusader Tank.
+- **TWEAK**: The Composite Armor bonus of the USA Paladin is increased by 100%, from 100 to 200. This matches the Composite Armor bonus for the USA Crusader Tank.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777)
 
-**Labels:** buff, bug, controversial, minor, usa, v1.0
+**Labels:** buff, controversial, design, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -4636,7 +4636,7 @@ Contains 924 entries with
 ### 2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies <a name='link__20220729__783_demo_combat_bike_allies_damage'></a>
 **Changes**
 
-- **TWEAK**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
+- **FIX**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
 
 **Links**
 
@@ -6657,10 +6657,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1177_afg_firebase_snow_damaged.yaml
 
 ---
-### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
+### 2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
 **Changes**
 
-- **FIX**: All weapons of the USA Patriot Battery will now reload the entire clip after being idle for around 2 seconds.
+- **TWEAK**: All weapons of the USA Patriot Battery will now reload when idle. This makes the base defense a bit better in scenarios where it managed to only fire a few of its rockets on its target and at least 2 seconds pass until the next attack.
 
 **Links**
 
@@ -10034,7 +10034,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1539_vehicle_drone_spawn_position.yaml
 
 ---
-### 2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
+### 2023-01-10 - Increases overall damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
 **Changes**
 
 - **TWEAK**: The primary damage of the China Helix Nuke Bomb is increased from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as the Nuke Cannon does, the damages are easier to anticipate.
@@ -10982,7 +10982,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and some time passes until the next target is attacked.
+- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 2 seconds pass until the next attack.
 
 **Links**
 
@@ -11014,7 +11014,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 850 ms pass until the next attack.
 
 **Links**
 
@@ -11046,7 +11046,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds <a name='link__20230211__1676_salvage_crate_exploit'></a>
 **Changes**
 
-- **FIX**: The GLA Salvage Crate is no longer deleted when a scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
+- **FIX**: The GLA Salvage Crate is no longer deleted when a building scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
 
 **Links**
 
@@ -11062,7 +11062,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and at least 15 seconds pass until the next attack.
 
 **Links**
 
@@ -14853,7 +14853,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022)
 
-**Labels:** bug, controversial, gla, minor, nerf, v1.0
+**Labels:** bug, controversial, design, gla, minor, nerf, v1.0
 
 **Authors:** xezon
 
@@ -15253,8 +15253,8 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Changes**
 
 - **TWEAK**: The USA Laser Turret now burns infantry on kill. It still triggers the strong suicide explosion of the GLA Terrorist as per original design.
-- **TWEAK**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
-- **TWEAK**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
 
 **Links**
 
@@ -19140,7 +19140,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2024-06-11 - Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50 <a name='link__20240611__2420_demo_destroyed_weapon_radius'></a>
 **Changes**
 
-- **TWEAK**: The damage radius of destroyed GLA Demo units after Demo Upgrade is decreased from 70 to 50. This matches the damage radius of other demolition suicide weapons.
+- **TWEAK**: The damage radius of destroyed GLA Demo units after Demo Upgrade is decreased from 70 to 50. This matches the damage radius of other and stronger demolition suicide weapons. The damage of destroyed GLA Demo units is very weak.
 
 **Links**
 

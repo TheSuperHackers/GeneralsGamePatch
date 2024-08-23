@@ -10,12 +10,12 @@ Occuring labels are
 - audio (128)
 - boss (59)
 - buff (100)
-- bug (465)
+- bug (464)
 - china (238)
 - civilian (86)
 - controversial (130)
 - critical (5)
-- design (217)
+- design (219)
 - enhancement (124)
 - gla (255)
 - gui (75)
@@ -35,10 +35,10 @@ Sorts changes by: blocker, critical, major, minor, usa, china, gla, boss, civili
 Contains 924 entries with
 
 - 1446 changes
-  - FIX (1037)
-  - TWEAK (310)
+  - FIX (1038)
+  - TWEAK (307)
   - OPTIMIZATION (12)
-  - FEATURE (61)
+  - FEATURE (63)
   - REFACTOR (26)
 - 1174 subchanges
   - FIX (1014)
@@ -93,7 +93,7 @@ Contains 924 entries with
 - [2021-09-10 - Fixes China Nuke Cannon attacking a wrong target after deployment](#link__20210910__269_nuke_cannon_attack_target)
 - [2021-09-25 - Decreases required level up experience of China Black Lotus by 82%](#link__20210925__413_lotus_required_xp)
 - [2021-09-25 - Decreases kill experience reward of China Black Lotus by up to 62%](#link__20210925__413_lotus_xp_reward)
-- [2021-12-24 - Removes auto attack behaviour from China ECM Tank](#link__20211224__631_ecm_auto_attack)
+- [2021-12-24 - Removes auto attack behaviour from non-vanilla China ECM Tanks](#link__20211224__631_ecm_auto_attack)
 - [2022-07-29 - Decreases door times of China Command Center from 3000 to 1500 ms](#link__20220729__785_china_cc_door_times)
 - [2022-07-30 - Decreases door times of China War Factory from 4000 to 3300 ms](#link__20220730__786_china_factory_door_times)
 - [2022-08-06 - Changes China Satellite Hack II upgrade into manually activated spy ability](#link__20220806__837_satellite_hack_ii_ability)
@@ -239,7 +239,7 @@ Contains 924 entries with
 - [2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet](#link__20220908__1165_nighthawk_low_fuel_voice)
 - [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#link__20220909__1171_particle_cannon_animation_loop)
 - [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#link__20220910__1177_afg_firebase_snow_damaged)
-- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
+- [2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
 - [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
 - [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#link__20220913__1189_burton_texture_errors)
 - [2022-09-21 - Fixes atsdislab snow textures for USA Particle Cannon](#link__20220921__1245_atsdislab_snow_textures)
@@ -479,7 +479,7 @@ Contains 924 entries with
 - [2023-01-08 - Fixes issue where Helix Bomb Ugrade button is not deactivated while another upgrade is researched](#link__20230108__1532_helix_bomb_upgrade_button)
 - [2023-01-08 - Decreases build time of China Mines](#link__20230108__1533_china_mines_build_time)
 - [2023-01-08 - Changes death terrain scorch of China Nuke Cannon to spawn on its secondary explosion](#link__20230108__1536_nuke_cannon_scorch)
-- [2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
+- [2023-01-10 - Increases overall damage of China Helix Nuke Bomb by 33%](#link__20230110__1540_helix_nuke_bomb_damage)
 - [2023-01-11 - Fixes issue where China Helix attachment upgrade buttons disappear after research](#link__20230111__1542_helix_attachment_upgrade_buttons)
 - [2023-01-29 - Reduces sink delay of China Dragon Tank wreck](#link__20230129__1745_dragon_tank_sink_delay)
 - [2023-02-04 - Fixes issue where China Nuke Cannon turret disappears on initial death and reappears after final death](#link__20230204__1618_nuke_cannon_death_models)
@@ -772,7 +772,7 @@ Contains 924 entries with
 - [2023-08-26 - Fixes position of General's Powers on Boss General promotion screen](#link__20230826__2291_boss_promotion_screen)
 - [2021-09-11 - Removes kill experience reward of Civilian Reinforcement Pad](#link__20210911__308_reinforcement_pad_xp_reward)
 - [2021-09-11 - Removes kill experience reward of Civilian Repair Pad](#link__20210911__308_repair_pad_xp_reward)
-- [2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top](#link__20211001__443_money_crates_under_scaffold)
+- [2021-10-01 - Fixes all Money Crates being removable by scaffolds](#link__20211001__443_money_crates_under_scaffold)
 - [2021-10-16 - Adds ruin model for destroyed Repair Bay Tech building.](#link__20211016__568_repair_bay_ruin_model)
 - [2021-10-17 - Adds Radar Station Tech building (for custom maps)](#link__20211017__571_radar_station_tech)
 - [2021-10-17 - Adds Generals Mammoth Tank (for custom maps)](#link__20211017__572_mammoth_tank)
@@ -1494,7 +1494,7 @@ Contains 924 entries with
 ### 2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers <a name='link__20210923__407_avenger_composite_armor'></a>
 **Changes**
 
-- **TWEAK**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
+- **FIX**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
 
 **Links**
 
@@ -1959,10 +1959,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 413_lotus_xp_reward.yaml
 
 ---
-### 2021-12-24 - Removes auto attack behaviour from China ECM Tank <a name='link__20211224__631_ecm_auto_attack'></a>
+### 2021-12-24 - Removes auto attack behaviour from non-vanilla China ECM Tanks <a name='link__20211224__631_ecm_auto_attack'></a>
 **Changes**
 
-- **FIX**: The auto attack behaviour of the China ECM Tanks is now removed. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same now.
+- **FIX**: The auto attack behaviour of the non-vanilla China ECM Tanks is now removed. This affects Tank General, Nuke General and Infantry General. All ECM Tanks behave the same now.
 
 **Links**
 
@@ -2096,7 +2096,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Adds idle auto reload after 2100 ms to China Overlord, Emperor <a name='link__20230211__1670_overlord_emperor_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and some time passes until the next target is attacked.
+- **TWEAK**: The China Overlord will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 2 seconds pass until the next attack.
 
 **Links**
 
@@ -2498,7 +2498,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds <a name='link__20230211__1676_salvage_crate_exploit'></a>
 **Changes**
 
-- **FIX**: The GLA Salvage Crate is no longer deleted when a scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
+- **FIX**: The GLA Salvage Crate is no longer deleted when a building scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
 
 **Links**
 
@@ -4305,13 +4305,13 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-28 - Increases USA Paladin Composite Armor bonus by 100% <a name='link__20220728__777_paladin_composite_armor_bonus'></a>
 **Changes**
 
-- **TWEAK**: The Composite Armor bonus of the USA Paladin is increased by 100%, from 100 to 200. This matches the Armor bonus for the Crusader Tank.
+- **TWEAK**: The Composite Armor bonus of the USA Paladin is increased by 100%, from 100 to 200. This matches the Composite Armor bonus for the USA Crusader Tank.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777)
 
-**Labels:** buff, bug, controversial, minor, usa, v1.0
+**Labels:** buff, controversial, design, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -4641,10 +4641,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1177_afg_firebase_snow_damaged.yaml
 
 ---
-### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
+### 2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
 **Changes**
 
-- **FIX**: All weapons of the USA Patriot Battery will now reload the entire clip after being idle for around 2 seconds.
+- **TWEAK**: All weapons of the USA Patriot Battery will now reload when idle. This makes the base defense a bit better in scenarios where it managed to only fire a few of its rockets on its target and at least 2 seconds pass until the next attack.
 
 **Links**
 
@@ -7140,8 +7140,8 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Changes**
 
 - **TWEAK**: The USA Laser Turret now burns infantry on kill. It still triggers the strong suicide explosion of the GLA Terrorist as per original design.
-- **TWEAK**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
-- **TWEAK**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
 
 **Links**
 
@@ -9352,7 +9352,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1536_nuke_cannon_scorch.yaml
 
 ---
-### 2023-01-10 - Increases main damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
+### 2023-01-10 - Increases overall damage of China Helix Nuke Bomb by 33% <a name='link__20230110__1540_helix_nuke_bomb_damage'></a>
 **Changes**
 
 - **TWEAK**: The primary damage of the China Helix Nuke Bomb is increased from 300 to 400. This matches the primary damage of the Nuke Cannon shell. The increased primary damage makes it more attractive to use. Since it now applies as much damage as the Nuke Cannon does, the damages are easier to anticipate.
@@ -11553,7 +11553,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies <a name='link__20220729__783_demo_combat_bike_allies_damage'></a>
 **Changes**
 
-- **TWEAK**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
+- **FIX**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
 
 **Links**
 
@@ -12431,7 +12431,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 850 ms pass until the next attack.
 
 **Links**
 
@@ -12463,7 +12463,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and at least 15 seconds pass until the next attack.
 
 **Links**
 
@@ -12863,7 +12863,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022)
 
-**Labels:** bug, controversial, gla, minor, nerf, v1.0
+**Labels:** bug, controversial, design, gla, minor, nerf, v1.0
 
 **Authors:** xezon
 
@@ -13592,7 +13592,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2024-06-11 - Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50 <a name='link__20240611__2420_demo_destroyed_weapon_radius'></a>
 **Changes**
 
-- **TWEAK**: The damage radius of destroyed GLA Demo units after Demo Upgrade is decreased from 70 to 50. This matches the damage radius of other demolition suicide weapons.
+- **TWEAK**: The damage radius of destroyed GLA Demo units after Demo Upgrade is decreased from 70 to 50. This matches the damage radius of other and stronger demolition suicide weapons. The damage of destroyed GLA Demo units is very weak.
 
 **Links**
 
@@ -14345,10 +14345,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 308_repair_pad_xp_reward.yaml
 
 ---
-### 2021-10-01 - Money Crates no longer vanish when a building scaffold is placed on top <a name='link__20211001__443_money_crates_under_scaffold'></a>
+### 2021-10-01 - Fixes all Money Crates being removable by scaffolds <a name='link__20211001__443_money_crates_under_scaffold'></a>
 **Changes**
 
-- **FIX**: Money Crates no longer vanish when a building scaffold is placed on top.
+- **FIX**: All Money Crates are no longer deleted when a building scaffold is placed on top of them.
 
 **Links**
 

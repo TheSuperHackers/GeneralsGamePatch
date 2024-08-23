@@ -14,7 +14,7 @@ Occuring labels are
 - civilian (2)
 - controversial (49)
 - critical (2)
-- design (64)
+- design (65)
 - enhancement (19)
 - gla (255)
 - gui (11)
@@ -33,8 +33,8 @@ Sorts changes by: date (ascending)
 Contains 255 entries with
 
 - 366 changes
-  - FIX (276)
-  - TWEAK (77)
+  - FIX (277)
+  - TWEAK (76)
   - FEATURE (8)
   - OPTIMIZATION (5)
 - 395 subchanges
@@ -1527,7 +1527,7 @@ Contains 255 entries with
 ### 2022-07-29 - Fixes issue with Demo GLA Terror Bike without Demo Upgrade dealing damage to allies <a name='link__20220729__783_demo_combat_bike_allies_damage'></a>
 **Changes**
 
-- **TWEAK**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
+- **FIX**: The Demo GLA Terror Bike without Demo Upgrade no longer deals damage to allies. This behaviour is consistent with other Demo GLA terror units.
 
 **Links**
 
@@ -2855,7 +2855,7 @@ Contains 255 entries with
 ### 2023-02-11 - Adds idle auto reload after 850 ms to GLA Marauder with double gun salvage upgrade <a name='link__20230211__1674_marauder_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Marauder will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its barrels on its target and at least 850 ms pass until the next attack.
 
 **Links**
 
@@ -2887,7 +2887,7 @@ Contains 255 entries with
 ### 2023-02-11 - Fixes GLA Salvage Crate being removable by scaffolds <a name='link__20230211__1676_salvage_crate_exploit'></a>
 **Changes**
 
-- **FIX**: The GLA Salvage Crate is no longer deleted when a scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
+- **FIX**: The GLA Salvage Crate is no longer deleted when a building scaffold is placed on top of it. It remains intact under the scaffold until it is picked up or times out.
 
 **Links**
 
@@ -2903,7 +2903,7 @@ Contains 255 entries with
 ### 2023-02-11 - Adds idle auto reload after 15100 ms to GLA Scorpion with double rocket salvage upgrade <a name='link__20230211__1699_scorpion_idle_reload'></a>
 **Changes**
 
-- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and some time passes until the next target is attacked.
+- **TWEAK**: The GLA Scorpion Rocket will now always reload when idle. This makes the unit a bit better in scenarios where it managed to only fire with one of its rockets on its target and at least 15 seconds pass until the next attack.
 
 **Links**
 
@@ -3449,7 +3449,7 @@ Contains 255 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2014)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2022)
 
-**Labels:** bug, controversial, gla, minor, nerf, v1.0
+**Labels:** bug, controversial, design, gla, minor, nerf, v1.0
 
 **Authors:** xezon
 
@@ -5094,7 +5094,7 @@ Contains 255 entries with
 ### 2024-06-11 - Decreases damage radius of destroyed GLA Demo units after Demo Upgrade from 70 to 50 <a name='link__20240611__2420_demo_destroyed_weapon_radius'></a>
 **Changes**
 
-- **TWEAK**: The damage radius of destroyed GLA Demo units after Demo Upgrade is decreased from 70 to 50. This matches the damage radius of other demolition suicide weapons.
+- **TWEAK**: The damage radius of destroyed GLA Demo units after Demo Upgrade is decreased from 70 to 50. This matches the damage radius of other and stronger demolition suicide weapons. The damage of destroyed GLA Demo units is very weak.
 
 **Links**
 

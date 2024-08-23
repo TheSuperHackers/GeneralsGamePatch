@@ -10,11 +10,11 @@ Occuring labels are
 - audio (49)
 - boss (15)
 - buff (23)
-- bug (137)
+- bug (136)
 - china (40)
 - civilian (3)
 - controversial (36)
-- design (70)
+- design (71)
 - enhancement (53)
 - gla (37)
 - gui (19)
@@ -35,8 +35,8 @@ Contains 268 entries with
 - 386 changes
   - OPTIMIZATION (4)
   - FIX (265)
-  - TWEAK (101)
-  - FEATURE (16)
+  - TWEAK (99)
+  - FEATURE (18)
 - 506 subchanges
   - FIX (433)
   - TWEAK (73)
@@ -120,7 +120,7 @@ Contains 268 entries with
 - [2022-09-08 - Fixes wrong low fuel audio of USA Stealth Fighter Jet](#link__20220908__1165_nighthawk_low_fuel_voice)
 - [2022-09-09 - Fixes infinite deploy animation loop of USA Particle cannon](#link__20220909__1171_particle_cannon_animation_loop)
 - [2022-09-10 - Fixes missing badly damaged model of USA Airforce Firebase on Winter maps](#link__20220910__1177_afg_firebase_snow_damaged)
-- [2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
+- [2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery](#link__20220910__1178_patriot_battery_auto_reload)
 - [2022-09-10 - Adds blue texture variants for USA Infantry units](#link__20220910__1179_usa_infantry_textures)
 - [2022-09-13 - Fixes zhca_aihero2 texture for USA Colonel Burton](#link__20220913__1189_burton_texture_errors)
 - [2022-09-18 - Fixes USA Pilot not promoting the Humvee, but taking passenger seat instead](#link__20220918__1220_pilot_humvee_passenger)
@@ -977,7 +977,7 @@ Contains 268 entries with
 ### 2021-09-23 - Removes secret Composite Armor bonus from non-vanilla USA Avengers <a name='link__20210923__407_avenger_composite_armor'></a>
 **Changes**
 
-- **TWEAK**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
+- **FIX**: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
 
 **Links**
 
@@ -1045,13 +1045,13 @@ Contains 268 entries with
 ### 2022-07-28 - Increases USA Paladin Composite Armor bonus by 100% <a name='link__20220728__777_paladin_composite_armor_bonus'></a>
 **Changes**
 
-- **TWEAK**: The Composite Armor bonus of the USA Paladin is increased by 100%, from 100 to 200. This matches the Armor bonus for the Crusader Tank.
+- **TWEAK**: The Composite Armor bonus of the USA Paladin is increased by 100%, from 100 to 200. This matches the Composite Armor bonus for the USA Crusader Tank.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/777)
 
-**Labels:** buff, bug, controversial, minor, usa, v1.0
+**Labels:** buff, controversial, design, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -1617,10 +1617,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1177_afg_firebase_snow_damaged.yaml
 
 ---
-### 2022-09-10 - Adds idle auto reload after 2100 ms for USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
+### 2022-09-10 - Adds idle auto reload after 2100 ms to USA Patriot Battery <a name='link__20220910__1178_patriot_battery_auto_reload'></a>
 **Changes**
 
-- **FIX**: All weapons of the USA Patriot Battery will now reload the entire clip after being idle for around 2 seconds.
+- **TWEAK**: All weapons of the USA Patriot Battery will now reload when idle. This makes the base defense a bit better in scenarios where it managed to only fire a few of its rockets on its target and at least 2 seconds pass until the next attack.
 
 **Links**
 
@@ -4641,8 +4641,8 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Changes**
 
 - **TWEAK**: The USA Laser Turret now burns infantry on kill. It still triggers the strong suicide explosion of the GLA Terrorist as per original design.
-- **TWEAK**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
-- **TWEAK**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The USA Laser Crusader now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
+- **FEATURE**: The Point Defense Laser of the USA Paladin now burns infantry on kill. It triggers the new weak crush explosion of the GLA Terrorist.
 
 **Links**
 

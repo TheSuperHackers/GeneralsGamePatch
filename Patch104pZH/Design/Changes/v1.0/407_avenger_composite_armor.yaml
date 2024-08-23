@@ -4,7 +4,7 @@ date: 2021-09-23
 title: Removes secret Composite Armor bonus from non-vanilla USA Avengers
 
 changes:
-  - tweak: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
+  - fix: USA Avengers no longer gain armor from Composite Armor upgrade. Practically this affects Laser General only. Regular USA is unchanged.
 
 labels:
   - bug

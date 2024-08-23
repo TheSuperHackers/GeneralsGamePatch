@@ -1,10 +1,10 @@
 ---
 date: 2021-10-01
 
-title: Money Crates no longer vanish when a building scaffold is placed on top
+title: Fixes all Money Crates being removable by scaffolds
 
 changes:
-  - fix: Money Crates no longer vanish when a building scaffold is placed on top.
+  - fix: All Money Crates are no longer deleted when a building scaffold is placed on top of them.
 
 labels:
   - civilian
