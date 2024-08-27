@@ -10,33 +10,58 @@ subchanges:
   - fix: |
       cbcnvstr01
         - Fixes shop sign looking different to cbcnvstr01_d, cbcnvstr01_e, cbcnvstr01_r
+        - Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+        - Fixes shapes of window reflections
+  - fix: |
+      cbcnvstr01_d
+        - Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+        - Fixes shapes of window reflections
+        - Fixes window reflection damage inconsistencies with cbcnvstr01_dg
+        - Removes incorrect black dot on a window reflection
+  - fix: |
+      cbcnvstr01_e
+        - Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+        - Improves floor carpet in building
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbcnvstr01_r
-        - Fixes broken windows in alpha channel
+        - Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+        - Improves floor carpet in building
         - Adds missing dirt to roof
         - Adds extra dirt to texture
+        - Fixes broken windows in alpha channel
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbcnvstr01_g
-        - Fixes house texture brightness and details looking slightly different to cbcnvstr01_dg, cbcnvstr01_e, cbcnvstr01_r
+        - Fixes texture inconsistencies on house facade and roof with cbcnvstr01_dg, cbcnvstr01_e, cbcnvstr01_r
+        - Fixes shapes of window reflections
+        - Fixes shapes of window barricades on window reflections
+  - fix: |
+      cbcnvstr01_dg
+        - Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+        - Fixes shapes of window reflections
+        - Fixes shapes of window barricades on window reflections
   - fix: |
       cbcnvstr01_s, cbcnvstr01_ds, cbcnvstr01_es, cbcnvstr01_rs, cbcnvstr01_sg, cbcnvstr01_dsg
-        - Creates 2x upscale to 512x512
+        - Creates 2x upscale to 512x512 based on fixed cbcnvstr01 textures
         - Fixes wrong window reflections in alpha channel
   - fix: |
-      cbcnvstr01_dn, cbcnvstr01_dng
-        - Recreates night lights damages
+      cbcnvstr01_n, cbcnvstr01_ng, cbcnvstr01_dng
+        - Recreates house lights
+  - fix: |
+      cbcnvstr01_dn
+        - Creates 4x upscale to 512x512
+        - Recreates house lights
   - fix: |
       cbcnvstr01_en, cbcnvstr01_esn
         - Fixes incorrect night lights
   - fix: |
-      cbcnvstr01_sn, cbcnvstr01_sng
-        - Creates 2x upscale to 512x512
+      cbcnvstr01_sn, cbcnvstr01_sng, cbcnvstr01_dsng
+        - Creates 2x upscale to 512x512 based on new house lights
         - Fixes light shining through snow
   - fix: |
-      cbcnvstr01_dsn, cbcnvstr01_dsng
-        - Creates 2x upscale to 512x512
-        - Fixes light shining through snow
-        - Recreates night lights damages
+      cbcnvstr01_dsn
+        - New
 
 labels:
   - art
@@ -47,6 +72,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2406
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2488
 
 authors:
   - xezon
