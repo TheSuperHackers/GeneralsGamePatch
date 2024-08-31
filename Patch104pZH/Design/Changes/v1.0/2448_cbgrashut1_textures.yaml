@@ -8,7 +8,7 @@ changes:
 
 subchanges:
   - fix: |
-      cbgrashut1_e, cbgrashut1_es, cbgrashut1_rs
+      cbgrashut1_e, cbgrashut1_es
         - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut1_r
@@ -21,6 +21,10 @@ subchanges:
   - fix: |
       cbgrashut1_dsg
         - Fixes snow inconsistencies with cbgrashut1_ds
+  - fix: |
+      cbgrashut1_rs
+        - Fixes minor alpha channel damage inconsistencies with cbgrashut1_es
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut1_n, cbgrashut1_sn
         - Fixes night light artifacts
@@ -45,6 +49,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2448
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2489
 
 authors:
   - xezon
