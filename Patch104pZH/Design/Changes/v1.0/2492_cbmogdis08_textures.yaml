@@ -1,0 +1,93 @@
+---
+date: 2024-09-01
+
+title: Fixes and improves cbmogdis08 textures
+
+changes:
+  - fix: Fixes and improves Civilian cbmogdis08 textures.
+
+subchanges:
+  - fix: |
+      cbmogdis08_d
+        - Removes bright bullet holes
+  - fix: |
+      cbmogdis08_e
+        - Removes bright bullet holes
+        - Fixes texture damage inconsistencies with cbmogdis08_d
+        - Fixes minor texture damage artifacts
+  - fix: |
+      cbmogdis08_r
+        - Removes bright bullet holes
+        - Fixes texture damage inconsistencies with cbmogdis08_e
+        - Fixes minor texture damage artifacts
+        - Fixes scattered edges in alpha channel
+  - fix: |
+      cbmogdis08_g
+        - Fixes window barricades overdraw
+        - Adds shadows to window barricades
+  - fix: |
+      cbmogdis08_dg
+        - Removes bright bullet holes
+        - Fixes texture damage inconsistencies with cbmogdis08_d
+        - Fixes window barricades overdraw
+        - Adds shadows to window barricades
+  - fix: |
+      cbmogdis08_s
+        - Creates 2x upscale to 512x512
+        - Removes superfluous white alpha channel
+  - fix: |
+      cbmogdis08_ds
+        - Creates 2x upscale to 512x512
+        - Fixes snow drawing over burns
+        - Removes bright bullet holes
+        - Removes superfluous white alpha channel
+  - fix: |
+      cbmogdis08_es
+        - Creates 2x upscale to 512x512
+        - Fixes snow drawing over burns
+        - Removes bright bullet holes
+        - Fixes minor texture damage artifacts
+        - Removes superfluous white alpha channel
+  - fix: |
+      cbmogdis08_rs
+        - Creates 2x upscale to 512x512
+        - Removes bright bullet holes
+        - Fixes texture damage inconsistencies with cbmogdis08_es
+        - Fixes minor texture damage artifacts
+        - Fixes scattered edges in alpha channel
+  - fix: |
+      cbmogdis08_sg
+        - Creates 2x upscale to 512x512
+        - Adds snow on window barricades
+  - fix: |
+      cbmogdis08_dsg
+        - Creates 2x upscale to 512x512
+        - Fixes snow drawing over burns
+        - Removes bright bullet holes
+        - Adds snow on window barricades
+  - fix: |
+      cbmogdis08_n, cbmogdis08_dn, cbmogdis08_ng, cbmogdis08_sng
+        - Recreates house lights
+  - fix: |
+      cbmogdis08_dng, cbmogdis08_dsn, cbmogdis08_dsng
+        - New
+  - fix: |
+      cbmogdis08_sn
+        - Creates 2x upscale to 512x512
+        - Recreates house lights
+  - fix: |
+      cbmogdis08_en, cbmogdis08_rn, cbmogdis08_esn, cbmogdis08_rsn
+        - Fixes incorrect night light
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2492
+
+authors:
+  - xezon
