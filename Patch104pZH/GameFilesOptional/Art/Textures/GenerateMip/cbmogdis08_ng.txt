@@ -1,0 +1,4 @@
+cbmogdis08_ng
+cbmogdis08_dng
+cbmogdis08_sng
+cbmogdis08_dsng are used with half res
