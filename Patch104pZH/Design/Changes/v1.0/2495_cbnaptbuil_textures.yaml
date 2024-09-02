@@ -1,0 +1,42 @@
+---
+date: 2024-09-02
+
+title: Fixes cbnaptbuil_ceil, cbnaptbuil_wall textures
+
+changes:
+  - fix: Fixes Civilian cbnaptbuil_ceil, cbnaptbuil_wall textures.
+
+subchanges:
+  - fix: |
+      cbnaptbuil_ceil_ds, cbnaptbuil_ceil_es
+        - Fixes snow position mismatch with cbnaptbuil_ceil_s
+  - fix: |
+      cbnaptbuil_wall_d, cbnaptbuil_wall_dg
+        - Fixes texture damage inconsistencies with cbnaptbuil_wall_e
+  - fix: |
+      cbnaptbuil_wall_s
+        - Fixes snow inconsistencies with cbnaptbuil_wall_gs, cbnaptbuil_wall_ds
+  - fix: |
+      cbnaptbuil_wall_ds
+        - Fixes texture damage inconsistencies with cbnaptbuil_wall_es
+  - fix: |
+      cbnaptbuil_wall_dsg
+        - Fixes snow inconsistencies with cbnaptbuil_wall_gs
+        - Fixes texture damage inconsistencies with cbnaptbuil_wall_es
+  - fix: |
+      cbnaptbuil_wall_n
+        - Recreates house lights
+        - Fixes house lights over window barricades
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2495
+
+authors:
+  - xezon
