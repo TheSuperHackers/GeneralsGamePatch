@@ -1,10 +1,10 @@
 ---
 date: 2024-09-02
 
-title: Fixes cbnaptbuil_ceil, cbnaptbuil_wall textures
+title: Fixes cbnaptbuil textures
 
 changes:
-  - fix: Fixes Civilian cbnaptbuil_ceil, cbnaptbuil_wall textures.
+  - fix: Fixes Civilian cbnaptbuil textures.
 
 subchanges:
   - fix: |
