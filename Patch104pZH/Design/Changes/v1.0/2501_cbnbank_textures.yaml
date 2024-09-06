@@ -1,0 +1,107 @@
+---
+date: 2024-09-06
+
+title: Fixes cbnbank textures
+
+changes:
+  - fix: Fixes Civilian cbnbank textures.
+
+subchanges:
+  - fix: |
+      cbnbank_dg
+        - Adds missing damages to window barricades
+        - Fixes minor window reflection inconsistencies with cbnbank_g
+  - fix: |
+      cbnbank_s
+        - Fixes dark ground snow edge at entrance
+        - Fixes snow transition between lower roof and window facade
+        - Fixes window reflections over snow in alpha channel
+  - fix: |
+      cbnbank_ds
+        - Fixes dark ground snow edge at entrance
+        - Fixes snow transition between lower roof and window facade
+        - Fixes snow drawing over burns
+        - Fixes window reflections over snow in alpha channel
+        - Fixes window reflections over damages in alpha channel
+  - fix: |
+      cbnbank_es, cbnbank_rs
+        - Fixes dark ground snow edge at entrance
+        - Fixes snow transition between lower roof and window facade
+        - Fixes snow drawing over burns
+  - fix: |
+      cbnbank_sg
+        - Fixes dark ground snow edge at entrance
+        - Fixes snow transition between lower roof and window facade
+        - Fixes window reflections over snow in alpha channel
+        - Fixes window reflections over barricades in alpha channel
+  - fix: |
+      cbnbank_dsg
+        - Fixes dark ground snow edge at entrance
+        - Fixes snow transition between lower roof and window facade
+        - Fixes snow drawing over burns
+        - Adds missing damages to window barricades
+        - Fixes window reflections over snow in alpha channel
+        - Fixes window reflections over damages in alpha channel
+        - Fixes window reflections over barricades in alpha channel
+  - fix: |
+      cbnbank_n
+        - Fixes black level
+        - Fixes window light sizes
+        - Decreases light brightness
+  - fix: |
+      cbnbank_dn
+        - Fixes black level
+        - Fixes window light sizes
+        - Recreates light damages
+  - fix: |
+      cbnbank_en, cbnbank_rn, cbnbank_esn, cbnbank_rsn
+        - Fixes incorrect night light
+  - fix: |
+      cbnbank_ng
+        - Fixes window barricade artifacts
+        - Fixes black level
+        - Fixes window light sizes
+        - Decreases light brightness
+  - fix: |
+      cbnbank_dng
+        - Fixes window barricade artifacts
+        - Fixes black level
+        - Fixes window light sizes
+        - Recreates light damages
+  - fix: |
+      cbnbank_sn
+        - Fixes black level
+        - Fixes window light sizes
+        - Decreases light brightness
+  - fix: |
+      cbnbank_dsn
+        - Fixes window light sizes
+        - Fixes window light over snow
+        - Recreates light damages
+  - fix: |
+      cbnbank_sng
+        - Fixes window barricade artifacts
+        - Fixes black level
+        - Fixes window light sizes
+        - Fixes window light over snow
+        - Decreases light brightness
+  - fix: |
+      cbnbank_dsng
+        - Fixes window barricade artifacts
+        - Fixes black level
+        - Fixes window light sizes
+        - Fixes window light over snow
+        - Recreates light damages
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2501
+
+authors:
+  - xezon
