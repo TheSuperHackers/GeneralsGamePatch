@@ -606,6 +606,30 @@
                                 "target": "Art/Textures/cbmogdis06_ventesn.dds"
                             },
                             {
+                                "source": "Art/Textures/GenerateMip/cbnfarmhse_n.psd",
+                                "target": "Art/Textures/cbnfarmhse_sn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnfarmhse_dn.psd",
+                                "target": "Art/Textures/cbnfarmhse_dsn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnfarmhse_ng.psd",
+                                "target": "Art/Textures/cbnfarmhse_sng.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnfarmhse_dng.psd",
+                                "target": "Art/Textures/cbnfarmhse_dsng.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbnfarmhse_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbnfarmhse_esn.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
