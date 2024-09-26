@@ -14,7 +14,8 @@ def startswith_nocase(s: str, startswith: str) -> bool:
 def run():
     generals_str_statusquo = build_abs_path("../../../GameFilesEdited/Data/generals.str.old") # manually create a copy of the source file
     #generals_str_upgrade = build_abs_path("data/ukrainian_zh_by_yarpik/generals.str")
-    generals_str_upgrade = build_abs_path("data/ukrainian_zh_by_yarpik_windstalker_edit_1/generals.str")
+    #generals_str_upgrade = build_abs_path("data/ukrainian_zh_by_yarpik_windstalker_edit_1/generals.str")
+    generals_str_upgrade = build_abs_path("data/ukrainian_zh_by_yarpik_windstalker_edit_2/generals.str")
     generals_str_new = build_abs_path("../../../GameFilesEdited/Data/generals.str")
 
     assert generals_str_statusquo.is_file()
