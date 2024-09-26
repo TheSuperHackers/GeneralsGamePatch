@@ -1,0 +1,3 @@
+Generals.str for C&C Generals
+contains developer comments
+source unknown

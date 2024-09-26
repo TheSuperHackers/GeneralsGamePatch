@@ -12,21 +12,21 @@ def startswith_nocase(s: str, startswith: str) -> bool:
 
 
 def run():
-    generals_str_with_ea_comments = build_abs_path("Generals.str")
     generals_str = build_abs_path("../../../GameFilesEdited/Data/generals.str.old") # manually create a copy of the source file
     generals_str_new = build_abs_path("../../../GameFilesEdited/Data/generals.str")
+    generals_str_with_dev_comments = build_abs_path("data/english_dev_comments/Generals.str")
 
     assert generals_str.is_file()
 
-    generals_str_with_ea_comments_lines: list[str]
+    generals_str_with_dev_comments_lines: list[str]
     generals_str_lines: list[str]
     new_lines = list[str]()
 
     with open(generals_str, mode="r", encoding="utf-8") as file:
         generals_str_lines = file.readlines()
 
-    with open(generals_str_with_ea_comments, mode="r", encoding="cp1252") as file:
-        generals_str_with_ea_comments_lines = file.readlines()
+    with open(generals_str_with_dev_comments, mode="r", encoding="cp1252") as file:
+        generals_str_with_dev_comments_lines = file.readlines()
 
     label_names = {
         'LETTER:',
@@ -80,7 +80,7 @@ def run():
 
     src_label_index_map = dict[str, int]()
 
-    for src_index, src_line in enumerate(generals_str_with_ea_comments_lines):
+    for src_index, src_line in enumerate(generals_str_with_dev_comments_lines):
         src_line = src_line.strip()
         for label_name in label_names:
             if src_line.startswith(label_name):
@@ -103,20 +103,20 @@ def run():
                 begin = src_index
                 while begin > 0:
                     begin -= 1
-                    line = generals_str_with_ea_comments_lines[begin].strip()
+                    line = generals_str_with_dev_comments_lines[begin].strip()
                     if startswith_nocase(line, "End"):
                         break
                 # Iterate forward and find next End
-                file_end = len(generals_str_with_ea_comments_lines)
+                file_end = len(generals_str_with_dev_comments_lines)
                 end = src_index
                 while end < file_end:
                     end += 1
-                    line = generals_str_with_ea_comments_lines[end].strip()
+                    line = generals_str_with_dev_comments_lines[end].strip()
                     if startswith_nocase(line, "End"):
                         break
                 # Iterate forward to label and collect comments
                 for i in range(begin + 1, end):
-                    comment = generals_str_with_ea_comments_lines[i].strip()
+                    comment = generals_str_with_dev_comments_lines[i].strip()
                     if comment.startswith("//"):
                         if comment == "//context:":
                             continue
