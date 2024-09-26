@@ -98,8 +98,8 @@ def run():
                 break
 
         if statusquo_label_name:
-            dev_index = dev_label_index_map.get(statusquo_label_name)
-            if dev_index:
+            dev_index = dev_label_index_map.get(statusquo_label_name, -1)
+            if dev_index >= 0:
                 # Iterate backwards and find previous End
                 begin = dev_index
                 while begin > 0:

@@ -84,10 +84,8 @@ def run():
         elif not ls.is_in_label_block:
             if line.startswith("//"):
                 pass
-            # Find begin or end of label block
-            elif line.lower() == "end":
-                ls.is_in_label_block = False
             else:
+                assert line.lower() != "end"
                 assert ":" in line
                 ls.is_in_label_block = True
                 ls.label_language_index = 0
