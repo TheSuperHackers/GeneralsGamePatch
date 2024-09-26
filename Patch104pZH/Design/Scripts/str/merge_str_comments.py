@@ -12,21 +12,22 @@ def startswith_nocase(s: str, startswith: str) -> bool:
 
 
 def run():
-    generals_str = build_abs_path("../../../GameFilesEdited/Data/generals.str.old") # manually create a copy of the source file
+    generals_str_statusquo = build_abs_path("../../../GameFilesEdited/Data/generals.str.old") # manually create a copy of the source file
+    generals_str_dev = build_abs_path("data/english_dev_comments/Generals.str")
     generals_str_new = build_abs_path("../../../GameFilesEdited/Data/generals.str")
-    generals_str_with_dev_comments = build_abs_path("data/english_dev_comments/Generals.str")
 
-    assert generals_str.is_file()
+    assert generals_str_statusquo.is_file()
+    assert generals_str_dev.is_file()
 
-    generals_str_with_dev_comments_lines: list[str]
-    generals_str_lines: list[str]
+    statusquo_lines: list[str]
+    dev_lines: list[str]
     new_lines = list[str]()
 
-    with open(generals_str, mode="r", encoding="utf-8") as file:
-        generals_str_lines = file.readlines()
+    with open(generals_str_statusquo, mode="r", encoding="utf-8") as file:
+        statusquo_lines = file.readlines()
 
-    with open(generals_str_with_dev_comments, mode="r", encoding="cp1252") as file:
-        generals_str_with_dev_comments_lines = file.readlines()
+    with open(generals_str_dev, mode="r", encoding="cp1252") as file:
+        dev_lines = file.readlines()
 
     label_names = {
         'LETTER:',
@@ -78,58 +79,58 @@ def run():
         'Network:',
         'MDGLA02:' }
 
-    src_label_index_map = dict[str, int]()
+    dev_label_index_map = dict[str, int]()
 
-    for src_index, src_line in enumerate(generals_str_with_dev_comments_lines):
-        src_line = src_line.strip()
+    for index, line in enumerate(dev_lines):
+        line = line.strip()
         for label_name in label_names:
-            if src_line.startswith(label_name):
-                assert src_index >= 0
-                src_label_index_map[src_line] = src_index
+            if line.startswith(label_name):
+                assert index >= 0
+                dev_label_index_map[line] = index
 
-    for dst_line in generals_str_lines:
-        dst_line = dst_line.strip()
-        dst_label_name: str = ""
+    for statusquo_line in statusquo_lines:
+        statusquo_line = statusquo_line.strip()
+        statusquo_label_name: str = ""
 
         for label_name in label_names:
-            if dst_line.startswith(label_name):
-                dst_label_name = dst_line
+            if statusquo_line.startswith(label_name):
+                statusquo_label_name = statusquo_line
                 break
 
-        if dst_label_name:
-            src_index = src_label_index_map.get(dst_label_name)
-            if src_index:
+        if statusquo_label_name:
+            dev_index = dev_label_index_map.get(statusquo_label_name)
+            if dev_index:
                 # Iterate backwards and find previous End
-                begin = src_index
+                begin = dev_index
                 while begin > 0:
                     begin -= 1
-                    line = generals_str_with_dev_comments_lines[begin].strip()
-                    if startswith_nocase(line, "End"):
+                    dev_line = dev_lines[begin].strip()
+                    if startswith_nocase(dev_line, "End"):
                         break
                 # Iterate forward and find next End
-                file_end = len(generals_str_with_dev_comments_lines)
-                end = src_index
-                while end < file_end:
+                dev_lines_end = len(dev_lines)
+                end = dev_index
+                while end < dev_lines_end - 1:
                     end += 1
-                    line = generals_str_with_dev_comments_lines[end].strip()
-                    if startswith_nocase(line, "End"):
+                    dev_line = dev_lines[end].strip()
+                    if startswith_nocase(dev_line, "End"):
                         break
                 # Iterate forward to label and collect comments
                 for i in range(begin + 1, end):
-                    comment = generals_str_with_dev_comments_lines[i].strip()
-                    if comment.startswith("//"):
-                        if comment == "//context:":
+                    dev_line = dev_lines[i].strip()
+                    if dev_line.startswith("//"):
+                        if dev_line == "//context:":
                             continue
-                        if comment == "// context:":
+                        if dev_line == "// context:":
                             continue
-                        if comment == "//comment:":
+                        if dev_line == "//comment:":
                             continue
-                        if comment == "// comment:":
+                        if dev_line == "// comment:":
                             continue
-                        new_lines.append(comment)
+                        new_lines.append(dev_line)
                         continue
 
-        new_lines.append(dst_line)
+        new_lines.append(statusquo_line)
 
     with open(generals_str_new, mode="w", encoding="utf-8") as file:
         for line in new_lines:

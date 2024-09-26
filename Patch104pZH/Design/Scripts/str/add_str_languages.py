@@ -56,16 +56,16 @@ def add_new_languages(out_lines: list[str], next_line: str, ls: LanguageSelector
 
 
 def run():
-    generals_str = build_abs_path("../../../GameFilesEdited/Data/generals.str.old") # manually create a copy of the source file
-    generals_str_export = build_abs_path("../../../GameFilesEdited/Data/generals.str")
+    generals_str_statusquo = build_abs_path("../../../GameFilesEdited/Data/generals.str.old") # manually create a copy of the source file
+    generals_str_new = build_abs_path("../../../GameFilesEdited/Data/generals.str")
 
-    assert generals_str.is_file()
+    assert generals_str_statusquo.is_file()
 
-    generals_str_lines: list[str]
+    statusquo_lines: list[str]
     new_lines = list[str]()
 
-    with open(generals_str, mode="r", encoding="utf-8") as file:
-        generals_str_lines = file.readlines()
+    with open(generals_str_statusquo, mode="r", encoding="utf-8") as file:
+        statusquo_lines = file.readlines()
 
     ls = LanguageSelector()
     ls.is_in_label_block = False
@@ -76,37 +76,36 @@ def run():
     ls.sub_label_language_count = 0
     ls.text = ""
 
-    for dst_line in generals_str_lines:
-        dst_line = dst_line.strip()
+    for line in statusquo_lines:
+        line = line.strip()
 
-        if not dst_line:
+        if not line:
             pass
         elif not ls.is_in_label_block:
-            if dst_line.startswith("//"):
+            if line.startswith("//"):
                 pass
             # Find begin or end of label block
-            elif dst_line.lower() == "end":
+            elif line.lower() == "end":
                 ls.is_in_label_block = False
             else:
-                assert ":" in dst_line
+                assert ":" in line
                 ls.is_in_label_block = True
                 ls.label_language_index = 0
         else:
             # Process label block
-            dst_line_lower = dst_line.lower()
 
-            if dst_line.startswith("US:"):
+            if line.startswith("US:"):
                 # Takes US text as starting text for the new language string.
-                ls.text = dst_line[4:]
+                ls.text = line[4:]
 
-            if dst_line_lower == "end":
+            if line.lower() == "end":
                 # End of label block.
                 # Add remaining missing languages if applicable.
-                add_new_languages(new_lines, dst_line, ls)
+                add_new_languages(new_lines, line, ls)
                 ls.is_in_label_block = False
 
-            elif dst_line.startswith("//"):
-                if dst_line == "//patch104p-core-begin" or dst_line == "//patch104p-optional-begin":
+            elif line.startswith("//"):
+                if line == "//patch104p-core-begin" or line == "//patch104p-optional-begin":
                     # Begin of sub label block.
                     ls.is_in_sub_label_block = True
                     ls.sub_label_language_index = ls.label_language_index
@@ -116,33 +115,33 @@ def run():
                     else:
                         ls.is_pure_sub_label_block = False
 
-                elif dst_line == "//patch104p-core-end" or dst_line == "//patch104p-optional-end":
+                elif line == "//patch104p-core-end" or line == "//patch104p-optional-end":
                     assert ls.is_in_sub_label_block == True
                     # End of sub label block.
                     if ls.is_pure_sub_label_block:
                         # Add remaining missing languages if applicable.
-                        add_new_languages(new_lines, dst_line, ls)
+                        add_new_languages(new_lines, line, ls)
 
-                    if dst_line == "//patch104p-optional-end":
+                    if line == "//patch104p-optional-end":
                         ls.label_language_index += ls.sub_label_language_count
                     ls.is_in_sub_label_block = False
 
             else:
                 # Add remaining missing languages if applicable.
-                add_new_languages(new_lines, dst_line, ls)
+                add_new_languages(new_lines, line, ls)
 
                 expected_language = get_expected_language(ls)
                 if expected_language:
-                    assert dst_line.startswith(expected_language)
+                    assert line.startswith(expected_language)
                     if ls.is_in_sub_label_block:
                         ls.sub_label_language_index += 1
                         ls.sub_label_language_count += 1
                     else:
                         ls.label_language_index += 1
 
-        new_lines.append(dst_line)
+        new_lines.append(line)
 
-    with open(generals_str_export, mode="w", encoding="utf-8") as file:
+    with open(generals_str_new, mode="w", encoding="utf-8") as file:
         for line in new_lines:
             file.write(line)
             file.write("\n")
