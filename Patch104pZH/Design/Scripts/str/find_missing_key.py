@@ -30,7 +30,7 @@ def startswith_nocase(s: str, startswith: str) -> bool:
     return s.lower().startswith(startswith.lower())
 
 
-def read_multi_string_entries(generals_str: Path, *categories: (str, ...)) -> list[StringMultiEntry]:
+def read_multi_string_entries(generals_str: Path, *categories: tuple[str, ...]) -> list[StringMultiEntry]:
     entries: list[StringMultiEntry] = []
 
     with open(generals_str, encoding="utf-8") as file:

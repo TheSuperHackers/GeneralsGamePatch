@@ -589,6 +589,7 @@ def run():
     pl_command_map_ini = build_abs_path("../../../GameFilesEdited/Data/Polish/CommandMap.ini")
     ru_command_map_ini = build_abs_path("../../../GameFilesEdited/Data/Russian/CommandMap.ini")
     ar_command_map_ini = build_abs_path("../../../GameFilesEdited/Data/Arabic/CommandMap.ini")
+    uk_command_map_ini = build_abs_path("../../../GameFilesEdited/Data/Ukrainian/CommandMap.ini")
 
     assert generals_str.is_file()
     assert command_set_ini.is_file()
@@ -604,6 +605,7 @@ def run():
     assert pl_command_map_ini.is_file()
     assert ru_command_map_ini.is_file()
     assert ar_command_map_ini.is_file()
+    assert uk_command_map_ini.is_file()
 
     find_with(generals_str, command_set_ini, command_button_ini, us_command_map_ini, "US")
     find_with(generals_str, command_set_ini, command_button_ini, de_command_map_ini, "DE")
@@ -616,6 +618,7 @@ def run():
     find_with(generals_str, command_set_ini, command_button_ini, pl_command_map_ini, "PL")
     find_with(generals_str, command_set_ini, command_button_ini, ru_command_map_ini, "RU")
     find_with(generals_str, command_set_ini, command_button_ini, ar_command_map_ini, "AR")
+    find_with(generals_str, command_set_ini, command_button_ini, uk_command_map_ini, "UK")
 
     print(f"Finished in {timer.GetElapsedSecondsString()} s")
 
