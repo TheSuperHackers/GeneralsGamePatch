@@ -13,7 +13,9 @@ def startswith_nocase(s: str, startswith: str) -> bool:
 
 def run():
     generals_str_statusquo = build_abs_path("../../../GameFilesEdited/Data/generals.str.old") # manually create a copy of the source file
-    generals_str_upgrade = build_abs_path("data/ukrainian_zh_by_yarpik/generals.str")
+    #generals_str_upgrade = build_abs_path("data/ukrainian_zh_by_yarpik/generals.str")
+    #generals_str_upgrade = build_abs_path("data/ukrainian_zh_by_yarpik_windstalker_edit_1/generals.str")
+    generals_str_upgrade = build_abs_path("data/ukrainian_zh_by_yarpik_windstalker_edit_2/generals.str")
     generals_str_new = build_abs_path("../../../GameFilesEdited/Data/generals.str")
 
     assert generals_str_statusquo.is_file()
@@ -72,12 +74,14 @@ def run():
                 # because they are untouched original English texts
                 # but can slightly mismatch with patched English strings:
                 # UK: "*You have requested funds from your Ally"
-                if line.startswith("UK: \"<Red Guard speaking>"):
+                if line[4] != "\"":
                     skip = True
-                elif line.startswith("UK: \"<'EVA' speaking>"):
-                    skip = True
-                elif line.startswith("UK: \"<AutoFerry Capt. speaking>"):
-                    skip = True
+                #if line.startswith("UK: \"<Red Guard speaking>"):
+                #    skip = True
+                #elif line.startswith("UK: \"<'EVA' speaking>"):
+                #    skip = True
+                #elif line.startswith("UK: \"<AutoFerry Capt. speaking>"):
+                #    skip = True
                 elif line.startswith("UK: \"*") and line[6] != '*':
                     skip = True
 
