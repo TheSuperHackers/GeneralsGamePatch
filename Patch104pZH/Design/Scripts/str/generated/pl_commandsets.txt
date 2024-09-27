@@ -527,7 +527,7 @@ End
 CommandSet GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &C"
   3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &N"
-  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Biobomby: &B"
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Biobomba: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba krusząca: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
@@ -1135,7 +1135,7 @@ CommandSet AmericaAirfieldCommandSet
 End
 
 CommandSet AmericaAircraftCarrierCommandSet
-  2 = Command_AircraftCarrierFire : CONTROLBAR:AircraftCarrierFire "Atak Raptora z lotniskowca"
+  2 = Command_AircraftCarrierFire : CONTROLBAR:AircraftCarrierFire "Atak Raptora z lotniskowca: &F"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
   14 = Command_Stop : CONTROLBAR:Stop "Stop: &S"
@@ -1144,7 +1144,7 @@ CommandSet AmericaAircraftCarrierCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, G, I, J, K, L, M, N, O, P, R, U, V, W, Y, Z, 
+    Available keys: B, C, D, G, I, J, K, L, M, N, O, P, R, U, V, W, Y, Z, 
 End
 
 CommandSet AmericaWarFactoryCommandSet
@@ -1571,7 +1571,7 @@ End
 CommandSet ChinaAirfieldCommandSet
   1 = Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
-  3 = Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Spirala: &I"
+  3 = Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Helisa: &I"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Miny: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
@@ -1583,7 +1583,7 @@ End
 CommandSet ChinaAirfieldCommandSetUpgrade
   1 = Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
-  3 = Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Spirala: &I"
+  3 = Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Helisa: &I"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Miny neutronowe: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
@@ -1973,11 +1973,11 @@ CommandSet GLASneakAttackTunnelCommandSet
 End
 
 CommandSet BattleShipCommandSet
-  1 = Command_BattleshipFireViaSpecialPower : CONTROLBAR:BattleshipFire "Ostrzał pancerników"
+  1 = Command_BattleshipFireViaSpecialPower : CONTROLBAR:BattleshipFire "Ostrzał pancerników: &F"
   14 = Command_Stop : CONTROLBAR:Stop "Stop: &S"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet GC_Chem_SCIENCE_GLA_CommandSetRank1
@@ -2013,7 +2013,7 @@ End
 
 CommandSet GC_Chem_GLAWorkerCommandSet
   1 = GC_Chem_Command_ConstructGLASupplyStash : CONTROLBAR:ConstructGLASupplyStash "Skład zaopatrzenia: &D"
-  2 = GC_Chem_Command_ConstructGLADemoTrap : CONTROLBAR:ConstructGLADemoTrap "Pułapka wybuchowa: &W"
+  2 = GC_Chem_Command_ConstructGLADemoTrap : CONTROLBAR:Chem_ConstructGLADemoTrap "Pułapka wybuchowa na toksyny: &W"
   3 = GC_Chem_Command_ConstructGLABarracks : CONTROLBAR:ConstructGLABarracks "Koszary: &K"
   4 = GC_Chem_Command_ConstructGLAPalace : CONTROLBAR:ConstructGLAPalace "Pałac: &P"
   5 = GC_Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "Wyrzutnia Stingerów: &T"
@@ -2197,11 +2197,11 @@ CommandSet GC_Slth_GLASupplyStashCommandSet
 End
 
 CommandSet GC_Slth_GLABarracksCommandSet
-  1 = GC_Slth_Command_ConstructGLAInfantryRebel : CONTROLBAR:ConstructGLAInfantryRebel "Buntownik: &B"
-  2 = GC_Slth_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "Żołnierz z bazuką: &O"
-  3 = GC_Slth_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "Terrorysta: &T"
+  1 = GC_Slth_Command_ConstructGLAInfantryRebel : CONTROLBAR:Slth_ConstructGLAInfantryRebel "Zamaskowany buntownik: &B"
+  2 = GC_Slth_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:Slth_ConstructGLAInfantryRPGTrooper "Zamaskowany żołnierz z bazuką: &O"
+  3 = GC_Slth_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:Slth_ConstructGLAInfantryTerrorist "Zamaskowany terrorysta: &T"
   4 = GC_Slth_Command_ConstructGLAInfantrySniper : CONTROLBAR:ConstructGLAInfantrySniper "Snajper: &S"
-  5 = GC_Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:ConstructGLAInfantryHijacker "Porywacz: &P"
+  5 = GC_Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:Slth_ConstructGLAInfantryHijacker "Zamaskowany porywacz: &P"
   6 = GC_Slth_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
   8 = Command_UpgradeGLAInfantryRebelBoobyTrapAttack : CONTROLBAR:UpgradeGLABoobyTrap "Pułapka bombowa: &U"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Zajmij budynek: &Z"
@@ -2675,7 +2675,7 @@ CommandSet Demo_GLABarracksCommandSet
   2 = Demo_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "Żołnierz z bazuką: &O"
   3 = Demo_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "Terrorysta: &T"
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Wściekły tłum: &W"
-  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
+  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:Demo_ConstructGLAInfantryJarmenKell "Jarmen Kell demolka: &J"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Zajmij budynek: &Z"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
@@ -3164,7 +3164,7 @@ CommandSet Demo_GLABarracksCommandSetUpgrade
   2 = Demo_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "Żołnierz z bazuką: &O"
   3 = Demo_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "Terrorysta: &T"
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Wściekły tłum: &W"
-  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
+  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:Demo_ConstructGLAInfantryJarmenKell "Jarmen Kell demolka: &J"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Zajmij budynek: &Z"
   12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Detonuj: &J"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
@@ -3521,7 +3521,7 @@ CommandSet Slth_GLABarracksCommandSet
   2 = Slth_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "Żołnierz z bazuką: &O"
   3 = Slth_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "Terrorysta: &T"
   4 = Slth_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Wściekły tłum: &W"
-  5 = Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:ConstructGLAInfantryHijacker "Porywacz: &P"
+  5 = Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:Slth_ConstructGLAInfantryHijacker "Zamaskowany porywacz: &P"
   6 = Slth_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
   7 = Slth_Command_ConstructGLAInfantrySaboteur : CONTROLBAR:ConstructGLAInfantrySaboteur "Sabotażysta: &Y"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Zajmij budynek: &Z"
@@ -3700,7 +3700,7 @@ End
 CommandSet Slth_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &C"
   3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &N"
-  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Biobomby: &B"
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Biobomba: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "Bomba krusząca: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
@@ -3790,7 +3790,7 @@ End
 
 CommandSet Chem_GLAWorkerCommandSet
   1 = Chem_Command_ConstructGLASupplyStash : CONTROLBAR:ConstructGLASupplyStash "Skład zaopatrzenia: &D"
-  2 = Chem_Command_ConstructGLADemoTrap : CONTROLBAR:ConstructGLADemoTrap "Pułapka wybuchowa: &W"
+  2 = Chem_Command_ConstructGLADemoTrap : CONTROLBAR:Chem_ConstructGLADemoTrap "Pułapka wybuchowa na toksyny: &W"
   3 = Chem_Command_ConstructGLABarracks : CONTROLBAR:ConstructGLABarracks "Koszary: &K"
   4 = Chem_Command_ConstructGLAPalace : CONTROLBAR:ConstructGLAPalace "Pałac: &P"
   5 = Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "Wyrzutnia Stingerów: &T"
@@ -3861,7 +3861,7 @@ End
 CommandSet Chem_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Zamaskuj się jako pojazd: &C"
   3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonuj! &N"
-  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Biobomby: &B"
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Biobomba: &B"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Ruch ofensywny: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Straż: &T"
   14 = Command_Stop : CONTROLBAR:Stop "Stop: &S"
@@ -4290,9 +4290,9 @@ CommandSet Nuke_ChinaBunkerCommandSetUpgrade
 End
 
 CommandSet Nuke_ChinaAirfieldCommandSet
-  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
+  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:Nuke_ConstructChinaJetMIG "MiG atomowy: &G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
-  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Spirala: &I"
+  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:Nuke_ConstructChinaVehicleHelix "Helisa atomowa: &I"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Miny: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
@@ -4302,9 +4302,9 @@ CommandSet Nuke_ChinaAirfieldCommandSet
 End
 
 CommandSet Nuke_ChinaAirfieldCommandSetUpgrade
-  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
+  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:Nuke_ConstructChinaJetMIG "MiG atomowy: &G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
-  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Spirala: &I"
+  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:Nuke_ConstructChinaVehicleHelix "Helisa atomowa: &I"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Miny neutronowe: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
@@ -4599,7 +4599,7 @@ CommandSet SupW_AmericaNuclearMissileCommandSet
 End
 
 CommandSet SupW_AmericaCruiseMissileCommandSet
-  1 = SupW_Command_CruiseMissile : CONTROLBAR:SupW_CruiseMissile "Po&cisk typu cruise"
+  1 = SupW_Command_CruiseMissile : CONTROLBAR:SupW_CruiseMissile "Pocisk typu cruise: &C"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
@@ -5064,7 +5064,7 @@ End
 CommandSet Infa_ChinaAirfieldCommandSet
   1 = Infa_Command_ConstructChinaJetMig : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
   2 = Infa_Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
-  3 = Infa_Command_ConstructChinaVehicleHelix : CONTROLBAR:Infa_ConstructChinaVehicleHelix "Spirala szturmowa: &I"
+  3 = Infa_Command_ConstructChinaVehicleHelix : CONTROLBAR:Infa_ConstructChinaVehicleHelix "Helisa szturmowa: &I"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Miny: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
@@ -5076,7 +5076,7 @@ End
 CommandSet Infa_ChinaAirfieldCommandSetUpgrade
   1 = Infa_Command_ConstructChinaJetMig : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
   2 = Infa_Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
-  3 = Infa_Command_ConstructChinaVehicleHelix : CONTROLBAR:Infa_ConstructChinaVehicleHelix "Spirala szturmowa: &I"
+  3 = Infa_Command_ConstructChinaVehicleHelix : CONTROLBAR:Infa_ConstructChinaVehicleHelix "Helisa szturmowa: &I"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Miny neutronowe: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
@@ -6083,7 +6083,7 @@ End
 CommandSet Tank_ChinaAirfieldCommandSet
   1 = Tank_Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
-  3 = Tank_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Spirala: &I"
+  3 = Tank_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Helisa: &I"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Miny: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
@@ -6095,7 +6095,7 @@ End
 CommandSet Tank_ChinaAirfieldCommandSetUpgrade
   1 = Tank_Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
-  3 = Tank_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Spirala: &I"
+  3 = Tank_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Helisa: &I"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Miny neutronowe: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Punkt zborny: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sprzedaż"
@@ -6258,7 +6258,7 @@ End
 CommandSet Boss_ChinaAirfieldCommandSet
   1 = Boss_Command_ConstructChinaJetMIG : CONTROLBAR:Boss_ConstructChinaJetMIG "MiG: &G"
   2 = Boss_Command_ConstructAmericaJetRaptor : CONTROLBAR:Boss_ConstructAmericaJetKingRaptor "Królewski Raptor: &T"
-  3 = Boss_Command_ConstructChinaVehicleHelix : CONTROLBAR:Boss_ConstructChinaVehicleHelix "Spirala: &I"
+  3 = Boss_Command_ConstructChinaVehicleHelix : CONTROLBAR:Boss_ConstructChinaVehicleHelix "Helisa: &I"
   4 = Boss_Command_ConstructAmericaJetAurora : CONTROLBAR:Boss_ConstructAmericaJetAurora "Bombowiec Aurora: &B"
   7 = Boss_Command_UpgradeChinaAircraftArmor : CONTROLBAR:Boss_UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
   8 = Boss_Command_UpgradeAmericaLaserMissiles : CONTROLBAR:Boss_UpgradeAmericaLaserMissiles "Pociski laserowe: &L"
@@ -6274,7 +6274,7 @@ End
 CommandSet Boss_ChinaAirfieldCommandSetUpgrade
   1 = Boss_Command_ConstructChinaJetMIG : CONTROLBAR:Boss_ConstructChinaJetMIG "MiG: &G"
   2 = Boss_Command_ConstructAmericaJetRaptor : CONTROLBAR:Boss_ConstructAmericaJetKingRaptor "Królewski Raptor: &T"
-  3 = Boss_Command_ConstructChinaVehicleHelix : CONTROLBAR:Boss_ConstructChinaVehicleHelix "Spirala: &I"
+  3 = Boss_Command_ConstructChinaVehicleHelix : CONTROLBAR:Boss_ConstructChinaVehicleHelix "Helisa: &I"
   4 = Boss_Command_ConstructAmericaJetAurora : CONTROLBAR:Boss_ConstructAmericaJetAurora "Bombowiec Aurora: &B"
   7 = Boss_Command_UpgradeChinaAircraftArmor : CONTROLBAR:Boss_UpgradeChinaAircraftArmor "Pancerz MiG-a: &A"
   8 = Boss_Command_UpgradeAmericaLaserMissiles : CONTROLBAR:Boss_UpgradeAmericaLaserMissiles "Pociski laserowe: &L"

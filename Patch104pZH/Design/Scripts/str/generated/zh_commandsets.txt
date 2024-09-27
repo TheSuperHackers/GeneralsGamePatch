@@ -1135,7 +1135,7 @@ CommandSet AmericaAirfieldCommandSet
 End
 
 CommandSet AmericaAircraftCarrierCommandSet
-  2 = Command_AircraftCarrierFire : CONTROLBAR:AircraftCarrierFire "航艦起飛的猛禽攻擊"
+  2 = Command_AircraftCarrierFire : CONTROLBAR:AircraftCarrierFire "航艦起飛的猛禽攻擊：&F"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "移動攻擊：&A"
   13 = Command_Guard : CONTROLBAR:Guard "防禦：&G"
   14 = Command_Stop : CONTROLBAR:Stop "停止：&S"
@@ -1144,7 +1144,7 @@ CommandSet AmericaAircraftCarrierCommandSet
   CommandMap SELECT_ALL : "Q"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, K, L, M, N, O, P, R, T, U, V, W, Y, Z, 
+    Available keys: B, C, D, I, J, K, L, M, N, O, P, R, T, U, V, W, Y, Z, 
 End
 
 CommandSet AmericaWarFactoryCommandSet
@@ -1973,11 +1973,11 @@ CommandSet GLASneakAttackTunnelCommandSet
 End
 
 CommandSet BattleShipCommandSet
-  1 = Command_BattleshipFireViaSpecialPower : CONTROLBAR:BattleshipFire "戰艦砲轟"
+  1 = Command_BattleshipFireViaSpecialPower : CONTROLBAR:BattleshipFire "戰艦砲轟：&F"
   14 = Command_Stop : CONTROLBAR:Stop "停止：&S"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
+    Available keys: A, B, C, D, E, G, I, J, K, L, M, N, O, P, R, T, U, V, W, X, Y, Z, 
 End
 
 CommandSet GC_Chem_SCIENCE_GLA_CommandSetRank1
@@ -2013,7 +2013,7 @@ End
 
 CommandSet GC_Chem_GLAWorkerCommandSet
   1 = GC_Chem_Command_ConstructGLASupplyStash : CONTROLBAR:ConstructGLASupplyStash "補給站：&U"
-  2 = GC_Chem_Command_ConstructGLADemoTrap : CONTROLBAR:ConstructGLADemoTrap "圈套炸彈：&D"
+  2 = GC_Chem_Command_ConstructGLADemoTrap : CONTROLBAR:Chem_ConstructGLADemoTrap "圈套炸彈：&D"
   3 = GC_Chem_Command_ConstructGLABarracks : CONTROLBAR:ConstructGLABarracks "兵營：&B"
   4 = GC_Chem_Command_ConstructGLAPalace : CONTROLBAR:ConstructGLAPalace "皇宮：&P"
   5 = GC_Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "針刺飛彈陣地：&T"
@@ -2197,11 +2197,11 @@ CommandSet GC_Slth_GLASupplyStashCommandSet
 End
 
 CommandSet GC_Slth_GLABarracksCommandSet
-  1 = GC_Slth_Command_ConstructGLAInfantryRebel : CONTROLBAR:ConstructGLAInfantryRebel "反抗軍：&B"
-  2 = GC_Slth_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "火箭兵：&G"
-  3 = GC_Slth_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "恐怖份子：&T"
+  1 = GC_Slth_Command_ConstructGLAInfantryRebel : CONTROLBAR:Slth_ConstructGLAInfantryRebel "反抗軍隱形：&B"
+  2 = GC_Slth_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:Slth_ConstructGLAInfantryRPGTrooper "火箭兵隱形：&G"
+  3 = GC_Slth_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:Slth_ConstructGLAInfantryTerrorist "恐怖份子隱形：&T"
   4 = GC_Slth_Command_ConstructGLAInfantrySniper : CONTROLBAR:ConstructGLAInfantrySniper "狙擊手：&S"
-  5 = GC_Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:ConstructGLAInfantryHijacker "劫持犯：&I"
+  5 = GC_Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:Slth_ConstructGLAInfantryHijacker "劫持犯隱形：&I"
   6 = GC_Slth_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "賈曼卡爾：&J"
   8 = Command_UpgradeGLAInfantryRebelBoobyTrapAttack : CONTROLBAR:UpgradeGLABoobyTrap "詭雷：&O"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "佔領建築物：&C"
@@ -2675,7 +2675,7 @@ CommandSet Demo_GLABarracksCommandSet
   2 = Demo_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "火箭兵：&G"
   3 = Demo_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "恐怖份子：&T"
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "狂暴暴民：&Y"
-  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "賈曼卡爾：&J"
+  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:Demo_ConstructGLAInfantryJarmenKell "炸藥賈曼卡爾：&J"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "佔領建築物：&C"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "集合點：&R"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
@@ -3164,7 +3164,7 @@ CommandSet Demo_GLABarracksCommandSetUpgrade
   2 = Demo_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "火箭兵：&G"
   3 = Demo_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "恐怖份子：&T"
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "狂暴暴民：&Y"
-  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "賈曼卡爾：&J"
+  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:Demo_ConstructGLAInfantryJarmenKell "炸藥賈曼卡爾：&J"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "佔領建築物：&C"
   12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "自殺：&I"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "集合點：&R"
@@ -3521,7 +3521,7 @@ CommandSet Slth_GLABarracksCommandSet
   2 = Slth_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "火箭兵：&G"
   3 = Slth_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "恐怖份子：&T"
   4 = Slth_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "狂暴暴民：&Y"
-  5 = Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:ConstructGLAInfantryHijacker "劫持犯：&I"
+  5 = Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:Slth_ConstructGLAInfantryHijacker "劫持犯隱形：&I"
   6 = Slth_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "賈曼卡爾：&J"
   7 = Slth_Command_ConstructGLAInfantrySaboteur : CONTROLBAR:ConstructGLAInfantrySaboteur "破壞者：&S"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "佔領建築物：&C"
@@ -3790,7 +3790,7 @@ End
 
 CommandSet Chem_GLAWorkerCommandSet
   1 = Chem_Command_ConstructGLASupplyStash : CONTROLBAR:ConstructGLASupplyStash "補給站：&U"
-  2 = Chem_Command_ConstructGLADemoTrap : CONTROLBAR:ConstructGLADemoTrap "圈套炸彈：&D"
+  2 = Chem_Command_ConstructGLADemoTrap : CONTROLBAR:Chem_ConstructGLADemoTrap "圈套炸彈：&D"
   3 = Chem_Command_ConstructGLABarracks : CONTROLBAR:ConstructGLABarracks "兵營：&B"
   4 = Chem_Command_ConstructGLAPalace : CONTROLBAR:ConstructGLAPalace "皇宮：&P"
   5 = Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "針刺飛彈陣地：&T"
@@ -4290,9 +4290,9 @@ CommandSet Nuke_ChinaBunkerCommandSetUpgrade
 End
 
 CommandSet Nuke_ChinaAirfieldCommandSet
-  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "米格機：&G"
+  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:Nuke_ConstructChinaJetMIG "核米格機：&G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "米格機裝甲：&A"
-  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "螺旋直昇機：&X"
+  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:Nuke_ConstructChinaVehicleHelix "核螺旋直昇機：&X"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "埋放地雷：&L"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "集合點：&R"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
@@ -4302,9 +4302,9 @@ CommandSet Nuke_ChinaAirfieldCommandSet
 End
 
 CommandSet Nuke_ChinaAirfieldCommandSetUpgrade
-  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "米格機：&G"
+  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:Nuke_ConstructChinaJetMIG "核米格機：&G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "米格機裝甲：&A"
-  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "螺旋直昇機：&X"
+  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:Nuke_ConstructChinaVehicleHelix "核螺旋直昇機：&X"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "中子地雷：&M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "集合點：&R"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
@@ -4599,7 +4599,7 @@ CommandSet SupW_AmericaNuclearMissileCommandSet
 End
 
 CommandSet SupW_AmericaCruiseMissileCommandSet
-  1 = SupW_Command_CruiseMissile : CONTROLBAR:SupW_CruiseMissile "巡航飛彈（&C）"
+  1 = SupW_Command_CruiseMissile : CONTROLBAR:SupW_CruiseMissile "巡航飛彈：&C"
   14 = Command_Sell : CONTROLBAR:Sell "賣出"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"

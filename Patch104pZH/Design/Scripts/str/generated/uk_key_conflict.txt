@@ -1,0 +1,21 @@
+SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Вакуумна бомба: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Мати всіх бомб: &B"
+
+AirF_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Вакуумна бомба: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Мати всіх бомб: &B"
+
+Slth_GLAArmsDealerCommandSet has key conflict with
+  11 = Slth_Command_ConstructGLAVehicleCombatBike : CONTROLBAR:ConstructGLAVehicleCombatBike "Бойовий мотоцикл: &Y"
+  15 = Command_ConstructGLAVehicleCombatBikeTerrorist : CONTROLBAR:ConstructGLAVehicleCombatBike "Бойовий мотоцикл: &Y"
+
+SupW_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Вакуумна бомба: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Мати всіх бомб: &B"
+
+Lazr_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
+  1 = Command_PurchaseScienceDaisyCutter : CONTROLBAR:DaisyCutter "Вакуумна бомба: &B"
+  4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Мати всіх бомб: &B"
+
+5 conflicts found

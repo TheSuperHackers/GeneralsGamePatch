@@ -564,7 +564,7 @@ End
 CommandSet GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disguise as Vehicle: &D"
   3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonate Now! &N"
-  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "BioBombs: &B"
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Bio Bomb: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "High Explosive Bomb: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attack Move: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Guard: &G"
@@ -1214,7 +1214,7 @@ CommandSet AmericaAirfieldCommandSet
 End
 
 CommandSet AmericaAircraftCarrierCommandSet
-  2 = Command_AircraftCarrierFire : CONTROLBAR:AircraftCarrierFire "Raptor Attack from Aircraft Carrier"
+  2 = Command_AircraftCarrierFire : CONTROLBAR:AircraftCarrierFire "Raptor Attack from Aircraft Carrier: &F"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attack Move: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Guard: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Stop: &S"
@@ -1224,7 +1224,7 @@ CommandSet AmericaAircraftCarrierCommandSet
   CommandMap SELECT_ALL_AIRCRAFT : "W"
   CommandMap SCATTER : "X"
   CommandMap STOP : "S"
-    Available keys: B, C, D, F, I, J, K, L, M, N, O, P, R, T, U, V, Y, Z, 
+    Available keys: B, C, D, I, J, K, L, M, N, O, P, R, T, U, V, Y, Z, 
 End
 
 CommandSet AmericaWarFactoryCommandSet
@@ -2122,12 +2122,12 @@ CommandSet GLASneakAttackTunnelCommandSet
 End
 
 CommandSet BattleShipCommandSet
-  1 = Command_BattleshipFireViaSpecialPower : CONTROLBAR:BattleshipFire "Battleship Bombardment"
+  1 = Command_BattleshipFireViaSpecialPower : CONTROLBAR:BattleshipFire "Battleship Bombardment: &F"
   14 = Command_Stop : CONTROLBAR:Stop "Stop: &S"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"
   CommandMap SELECT_ALL_AIRCRAFT : "W"
-    Available keys: A, B, C, D, E, F, G, I, J, K, L, M, N, O, P, R, T, U, V, X, Y, Z, 
+    Available keys: A, B, C, D, E, G, I, J, K, L, M, N, O, P, R, T, U, V, X, Y, Z, 
 End
 
 CommandSet GC_Chem_SCIENCE_GLA_CommandSetRank1
@@ -2167,7 +2167,7 @@ End
 
 CommandSet GC_Chem_GLAWorkerCommandSet
   1 = GC_Chem_Command_ConstructGLASupplyStash : CONTROLBAR:ConstructGLASupplyStash "Supply Stash: &U"
-  2 = GC_Chem_Command_ConstructGLADemoTrap : CONTROLBAR:ConstructGLADemoTrap "Demo Trap: &D"
+  2 = GC_Chem_Command_ConstructGLADemoTrap : CONTROLBAR:Chem_ConstructGLADemoTrap "Toxin Demo Trap: &D"
   3 = GC_Chem_Command_ConstructGLABarracks : CONTROLBAR:ConstructGLABarracks "Barracks: &B"
   4 = GC_Chem_Command_ConstructGLAPalace : CONTROLBAR:ConstructGLAPalace "Palace: &P"
   5 = GC_Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "Stinger Site: &T"
@@ -2366,11 +2366,11 @@ CommandSet GC_Slth_GLASupplyStashCommandSet
 End
 
 CommandSet GC_Slth_GLABarracksCommandSet
-  1 = GC_Slth_Command_ConstructGLAInfantryRebel : CONTROLBAR:ConstructGLAInfantryRebel "Rebel: &B"
-  2 = GC_Slth_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "RPG Trooper: &G"
-  3 = GC_Slth_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "Terrorist: &T"
+  1 = GC_Slth_Command_ConstructGLAInfantryRebel : CONTROLBAR:Slth_ConstructGLAInfantryRebel "Stealth Rebel: &B"
+  2 = GC_Slth_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:Slth_ConstructGLAInfantryRPGTrooper "Stealth RPG Trooper: &G"
+  3 = GC_Slth_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:Slth_ConstructGLAInfantryTerrorist "Stealth Terrorist: &T"
   4 = GC_Slth_Command_ConstructGLAInfantrySniper : CONTROLBAR:ConstructGLAInfantrySniper "Sniper: &S"
-  5 = GC_Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:ConstructGLAInfantryHijacker "Hijacker: &I"
+  5 = GC_Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:Slth_ConstructGLAInfantryHijacker "Stealth Hijacker: &I"
   6 = GC_Slth_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
   8 = Command_UpgradeGLAInfantryRebelBoobyTrapAttack : CONTROLBAR:UpgradeGLABoobyTrap "Booby Trap: &O"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Capture Building: &C"
@@ -2880,7 +2880,7 @@ CommandSet Demo_GLABarracksCommandSet
   2 = Demo_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "RPG Trooper: &G"
   3 = Demo_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "Terrorist: &T"
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Angry Mob: &Y"
-  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
+  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:Demo_ConstructGLAInfantryJarmenKell "Demo Jarmen Kell: &J"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Capture Building: &C"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Rally Point: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sell"
@@ -3404,7 +3404,7 @@ CommandSet Demo_GLABarracksCommandSetUpgrade
   2 = Demo_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "RPG Trooper: &G"
   3 = Demo_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "Terrorist: &T"
   4 = Demo_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Angry Mob: &Y"
-  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
+  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:Demo_ConstructGLAInfantryJarmenKell "Demo Jarmen Kell: &J"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Capture Building: &C"
   12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicide: &I"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Rally Point: &R"
@@ -3787,7 +3787,7 @@ CommandSet Slth_GLABarracksCommandSet
   2 = Slth_Command_ConstructGLAInfantryRPGTrooper : CONTROLBAR:ConstructGLAInfantryRPGTrooper "RPG Trooper: &G"
   3 = Slth_Command_ConstructGLAInfantryTerrorist : CONTROLBAR:ConstructGLAInfantryTerrorist "Terrorist: &T"
   4 = Slth_Command_ConstructGLAInfantryAngryMob : CONTROLBAR:ConstructGLAInfantryAngryMob "Angry Mob: &Y"
-  5 = Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:ConstructGLAInfantryHijacker "Hijacker: &I"
+  5 = Slth_Command_ConstructGLAInfantryHijacker : CONTROLBAR:Slth_ConstructGLAInfantryHijacker "Stealth Hijacker: &I"
   6 = Slth_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
   7 = Slth_Command_ConstructGLAInfantrySaboteur : CONTROLBAR:ConstructGLAInfantrySaboteur "Saboteur: &S"
   11 = Command_UpgradeGLARebelCaptureBuilding : CONTROLBAR:UpgradeGLARebelCaptureBuilding "Capture Building: &C"
@@ -3980,7 +3980,7 @@ End
 CommandSet Slth_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disguise as Vehicle: &D"
   3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonate Now! &N"
-  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "BioBombs: &B"
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Bio Bomb: &B"
   8 = Command_UpgradeGLABombTruckHighExplosiveBomb : CONTROLBAR:UpgradeGLABombTruckHighExplosiveBomb "High Explosive Bomb: &O"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attack Move: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Guard: &G"
@@ -4078,7 +4078,7 @@ End
 
 CommandSet Chem_GLAWorkerCommandSet
   1 = Chem_Command_ConstructGLASupplyStash : CONTROLBAR:ConstructGLASupplyStash "Supply Stash: &U"
-  2 = Chem_Command_ConstructGLADemoTrap : CONTROLBAR:ConstructGLADemoTrap "Demo Trap: &D"
+  2 = Chem_Command_ConstructGLADemoTrap : CONTROLBAR:Chem_ConstructGLADemoTrap "Toxin Demo Trap: &D"
   3 = Chem_Command_ConstructGLABarracks : CONTROLBAR:ConstructGLABarracks "Barracks: &B"
   4 = Chem_Command_ConstructGLAPalace : CONTROLBAR:ConstructGLAPalace "Palace: &P"
   5 = Chem_Command_ConstructGLAStingerSite : CONTROLBAR:ConstructGLAStingerSite "Stinger Site: &T"
@@ -4153,7 +4153,7 @@ End
 CommandSet Chem_GLAVehicleBombTruckCommandSet
   1 = Command_DisguiseAsVehicle : CONTROLBAR:DisguiseAsVehicle "Disguise as Vehicle: &D"
   3 = Command_BombTruckDetonateNow : CONTROLBAR:DetonateBombTruck "Detonate Now! &N"
-  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "BioBombs: &B"
+  7 = Command_UpgradeGLABombTruckBioBomb : CONTROLBAR:UpgradeGLABombTruckBioBomb "Bio Bomb: &B"
   11 = Command_AttackMove : CONTROLBAR:AttackMove "Attack Move: &A"
   13 = Command_Guard : CONTROLBAR:Guard "Guard: &G"
   14 = Command_Stop : CONTROLBAR:Stop "Stop: &S"
@@ -4615,9 +4615,9 @@ CommandSet Nuke_ChinaBunkerCommandSetUpgrade
 End
 
 CommandSet Nuke_ChinaAirfieldCommandSet
-  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
+  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:Nuke_ConstructChinaJetMIG "Nuke MiG: &G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "MiG Armor: &A"
-  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Helix: &X"
+  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:Nuke_ConstructChinaVehicleHelix "Nuke Helix: &X"
   12 = Command_UpgradeChinaMines : CONTROLBAR:UpgradeChinaMines "Land Mines: &L"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Rally Point: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sell"
@@ -4628,9 +4628,9 @@ CommandSet Nuke_ChinaAirfieldCommandSet
 End
 
 CommandSet Nuke_ChinaAirfieldCommandSetUpgrade
-  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:ConstructChinaJetMIG "MiG: &G"
+  1 = Nuke_Command_ConstructChinaJetMIG : CONTROLBAR:Nuke_ConstructChinaJetMIG "Nuke MiG: &G"
   2 = Command_UpgradeChinaAircraftArmor : CONTROLBAR:UpgradeChinaAircraftArmor "MiG Armor: &A"
-  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:ConstructChinaVehicleHelix "Helix: &X"
+  3 = Nuke_Command_ConstructChinaVehicleHelix : CONTROLBAR:Nuke_ConstructChinaVehicleHelix "Nuke Helix: &X"
   12 = Command_UpgradeEMPMines : CONTROLBAR:UpgradeEMPMines "Neutron Mines: &M"
   13 = Command_SetRallyPoint : CONTROLBAR:SetRallyPoint "Rally Point: &R"
   14 = Command_Sell : CONTROLBAR:Sell "Sell"
@@ -4946,7 +4946,7 @@ CommandSet SupW_AmericaNuclearMissileCommandSet
 End
 
 CommandSet SupW_AmericaCruiseMissileCommandSet
-  1 = SupW_Command_CruiseMissile : CONTROLBAR:SupW_CruiseMissile "&Cruise Missile"
+  1 = SupW_Command_CruiseMissile : CONTROLBAR:SupW_CruiseMissile "Cruise Missile: &C"
   14 = Command_Sell : CONTROLBAR:Sell "Sell"
   CommandMap VIEW_COMMAND_CENTER : "H"
   CommandMap SELECT_ALL : "Q"

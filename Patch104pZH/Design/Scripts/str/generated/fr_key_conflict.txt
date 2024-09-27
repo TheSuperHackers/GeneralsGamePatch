@@ -7,7 +7,7 @@ AirF_SCIENCE_AMERICA_CommandSetRank8 has key conflict with
   4 = Command_FAKECOMMAND_PurchaseScienceMOAB : CONTROLBAR:MOAB "Bombe Aéro-incendiaire Massive: &M"
 
 Demo_GLABarracksCommandSetUpgrade has key conflict with
-  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:ConstructGLAInfantryJarmenKell "Jarmen Kell: &J"
+  6 = Demo_Command_ConstructGLAInfantryJarmenKell : CONTROLBAR:Demo_ConstructGLAInfantryJarmenKell "Jarmen Kell explosif: &J"
   12 = Demo_Command_TertiarySuicide : CONTROLBAR:SuicideAttack "Suicide: &J"
 
 Slth_GLAArmsDealerCommandSet has key conflict with
