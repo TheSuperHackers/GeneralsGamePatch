@@ -2919,10 +2919,10 @@ Contains 238 entries with
 **Changes**
 
 - **TWEAK**: The regular China Overlord's speed is increased from 20 to 25
-- **TWEAK**: The regular China Overlord's acceleration is increased from 15 to 20
-- **TWEAK**: The regular China Overlord's turn rate is increased from 60 to 70
+- **TWEAK**: The regular China Overlord's acceleration is increased from 15 to 20, from 1333 ms to 1250 ms
+- **TWEAK**: The regular China Overlord's turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
 - **TWEAK**: The regular China Overlord's upgraded speed is increased from 30 to 35
-- **TWEAK**: The regular China Overlord's upgraded turn rate is increased from 60 to 70
+- **TWEAK**: The regular China Overlord's upgraded turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
 
 **Links**
 
@@ -3006,10 +3006,10 @@ Contains 238 entries with
 **Changes**
 
 - **TWEAK**: The China Emperor's speed is increased from 20 to 25
-- **TWEAK**: The China Emperor's acceleration is increased from 15 to 20
-- **TWEAK**: The China Emperor's turn rate is increased from 60 to 70
+- **TWEAK**: The China Emperor's acceleration is increased from 15 to 20, from 1333 ms to 1250 ms
+- **TWEAK**: The China Emperor's turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
 - **TWEAK**: The China Emperor's upgraded speed is increased from 30 to 35
-- **TWEAK**: The China Emperor's upgraded turn rate is increased from 60 to 70
+- **TWEAK**: The China Emperor's upgraded turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
 
 **Links**
 

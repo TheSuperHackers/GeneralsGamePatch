@@ -113,7 +113,7 @@ Contains 268 entries with
 - [2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee](#link__20220908__1162_sentry_drone_build_cost)
 - [2022-09-08 - Increases gun damage of USA Sentry Drone by 20%](#link__20220908__1162_sentry_drone_damage)
 - [2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone](#link__20220908__1162_sentry_drone_deployment)
-- [2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70%](#link__20220908__1162_sentry_drone_movement)
+- [2022-09-08 - Decreases acceleration duration of USA Sentry Drone by 70%](#link__20220908__1162_sentry_drone_movement)
 - [2022-09-08 - Increases sight range of USA Sentry Drone by 30%](#link__20220908__1162_sentry_drone_sight_range)
 - [2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones](#link__20220908__1162_sentry_drone_tracks)
 - [2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20%](#link__20220908__1162_sentry_drone_upgrade)
@@ -1504,10 +1504,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1162_sentry_drone_deployment.yaml
 
 ---
-### 2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70% <a name='link__20220908__1162_sentry_drone_movement'></a>
+### 2022-09-08 - Decreases acceleration duration of USA Sentry Drone by 70% <a name='link__20220908__1162_sentry_drone_movement'></a>
 **Changes**
 
-- **TWEAK**: The acceleration time of the USA Sentry Drone is decreased by 70%, from 1000 to 300 ms.
+- **TWEAK**: The acceleration duration of the USA Sentry Drone is decreased by 70%, from 1000 to 300 ms.
 
 **Links**
 

@@ -215,7 +215,7 @@ Contains 194 entries with
 - [2024-08-12 - Fixes and improves cbmogdis03 textures](#link__20240812__2477_cbmogdis03_textures)
 - [2024-08-12 - Fixes and improves cbmogdis04 textures](#link__20240812__2479_cbmogdis04_textures)
 - [2024-08-15 - Fixes and improves cbmogdis05 textures](#link__20240815__2480_cbmogdis05_textures)
-- [2024-08-18 - Fixes and improves cbmogdis06, cbmogdis06_vent textures](#link__20240818__2482_cbmogdis06_textures)
+- [2024-08-18 - Fixes and improves cbmogdis06 textures](#link__20240818__2482_cbmogdis06_textures)
 - [2021-10-16 - Fixes wrong Infantry unit sitting in GLA Demo Combat Bike while dropped from air](#link__20211016__567_demo_combat_bike_drop)
 - [2021-10-16 - Adds ruin model to destroyed Reinforcement Pad Tech building](#link__20211016__568_reinforcement_pad_ruin_model)
 - [2022-07-22 - Recoveres 483 high quality textures from Generals](#link__20220722__734_high_res_textures)
@@ -5790,10 +5790,10 @@ Contains 194 entries with
 **Source:** 2480_cbmogdis05_textures.yaml
 
 ---
-### 2024-08-18 - Fixes and improves cbmogdis06, cbmogdis06_vent textures <a name='link__20240818__2482_cbmogdis06_textures'></a>
+### 2024-08-18 - Fixes and improves cbmogdis06 textures <a name='link__20240818__2482_cbmogdis06_textures'></a>
 **Changes**
 
-- **FIX**: Fixes and improves Civilian cbmogdis06, cbmogdis06_vent textures.
+- **FIX**: Fixes and improves Civilian cbmogdis06 textures.
 
 **Subchanges**
 
