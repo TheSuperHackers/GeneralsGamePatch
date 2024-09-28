@@ -373,7 +373,7 @@ Contains 924 entries with
 - [2022-09-08 - Decreases cost of USA Sentry Drone to match cost of Humvee](#link__20220908__1162_sentry_drone_build_cost)
 - [2022-09-08 - Increases gun damage of USA Sentry Drone by 20%](#link__20220908__1162_sentry_drone_damage)
 - [2022-09-08 - Removes gun deployment mechanic from USA Sentry Drone](#link__20220908__1162_sentry_drone_deployment)
-- [2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70%](#link__20220908__1162_sentry_drone_movement)
+- [2022-09-08 - Decreases acceleration duration of USA Sentry Drone by 70%](#link__20220908__1162_sentry_drone_movement)
 - [2022-09-08 - Increases sight range of USA Sentry Drone by 30%](#link__20220908__1162_sentry_drone_sight_range)
 - [2022-09-08 - Replaces terrain tracks of USA Sentry Drone with less transparent ones](#link__20220908__1162_sentry_drone_tracks)
 - [2022-09-08 - Decreases USA Sentry Drone gun upgrade time by 66%, cost by 20%](#link__20220908__1162_sentry_drone_upgrade)
@@ -970,7 +970,7 @@ Contains 924 entries with
 - [2024-08-12 - Fixes and improves cbmogdis03 textures](#link__20240812__2477_cbmogdis03_textures)
 - [2024-08-12 - Fixes and improves cbmogdis04 textures](#link__20240812__2479_cbmogdis04_textures)
 - [2024-08-15 - Fixes and improves cbmogdis05 textures](#link__20240815__2480_cbmogdis05_textures)
-- [2024-08-18 - Fixes and improves cbmogdis06, cbmogdis06_vent textures](#link__20240818__2482_cbmogdis06_textures)
+- [2024-08-18 - Fixes and improves cbmogdis06 textures](#link__20240818__2482_cbmogdis06_textures)
 
 
 
@@ -6496,10 +6496,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 1162_sentry_drone_deployment.yaml
 
 ---
-### 2022-09-08 - Decreases acceleration time of USA Sentry Drone by 70% <a name='link__20220908__1162_sentry_drone_movement'></a>
+### 2022-09-08 - Decreases acceleration duration of USA Sentry Drone by 70% <a name='link__20220908__1162_sentry_drone_movement'></a>
 **Changes**
 
-- **TWEAK**: The acceleration time of the USA Sentry Drone is decreased by 70%, from 1000 to 300 ms.
+- **TWEAK**: The acceleration duration of the USA Sentry Drone is decreased by 70%, from 1000 to 300 ms.
 
 **Links**
 
@@ -11493,10 +11493,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Changes**
 
 - **TWEAK**: The regular China Overlord's speed is increased from 20 to 25
-- **TWEAK**: The regular China Overlord's acceleration is increased from 15 to 20
-- **TWEAK**: The regular China Overlord's turn rate is increased from 60 to 70
+- **TWEAK**: The regular China Overlord's acceleration is increased from 15 to 20, from 1333 ms to 1250 ms
+- **TWEAK**: The regular China Overlord's turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
 - **TWEAK**: The regular China Overlord's upgraded speed is increased from 30 to 35
-- **TWEAK**: The regular China Overlord's upgraded turn rate is increased from 60 to 70
+- **TWEAK**: The regular China Overlord's upgraded turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
 
 **Links**
 
@@ -11660,10 +11660,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Changes**
 
 - **TWEAK**: The China Emperor's speed is increased from 20 to 25
-- **TWEAK**: The China Emperor's acceleration is increased from 15 to 20
-- **TWEAK**: The China Emperor's turn rate is increased from 60 to 70
+- **TWEAK**: The China Emperor's acceleration is increased from 15 to 20, from 1333 ms to 1250 ms
+- **TWEAK**: The China Emperor's turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
 - **TWEAK**: The China Emperor's upgraded speed is increased from 30 to 35
-- **TWEAK**: The China Emperor's upgraded turn rate is increased from 60 to 70
+- **TWEAK**: The China Emperor's upgraded turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
 
 **Links**
 
@@ -16067,6 +16067,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2141](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2141)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2248](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2248)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2516](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2516)
 
 **Labels:** design, gui, major, text, v1.0
 
@@ -17008,6 +17009,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2228](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2228)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2336](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2336)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2518](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2518)
 
 **Labels:** minor, text, v1.0
 
@@ -21211,10 +21213,10 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Source:** 2480_cbmogdis05_textures.yaml
 
 ---
-### 2024-08-18 - Fixes and improves cbmogdis06, cbmogdis06_vent textures <a name='link__20240818__2482_cbmogdis06_textures'></a>
+### 2024-08-18 - Fixes and improves cbmogdis06 textures <a name='link__20240818__2482_cbmogdis06_textures'></a>
 **Changes**
 
-- **FIX**: Fixes and improves Civilian cbmogdis06, cbmogdis06_vent textures.
+- **FIX**: Fixes and improves Civilian cbmogdis06 textures.
 
 **Subchanges**
 

@@ -1,0 +1,38 @@
+Ugly alpha version barricades:
+The barricades should have looked like CBNTVStat_G.tga
+
+cbetvstat
+cbhigh01
+cbhigh02
+cbnapart01
+cbnarcade
+cbnbank
+cbndealers
+cbnelecrtl : polished in patch
+cbnhotel01
+cbniteclub
+cbnmegamal : polished in patch
+cbnoffice
+cbnretal01
+cbnretal02
+
+
+Other ugly barricades:
+
+cbgassttn
+cbgshop
+cbh2oplnt
+cbindwhs01
+cbmogdis03
+cbmogdis04
+cbmogdis06
+cbmogdis07
+cbmogdis08
+cbnapunit
+cbngasst
+cboldmslm
+cbthouse11
+cbtower
+cbtower2
+cbtownhs
+cbtownhs02

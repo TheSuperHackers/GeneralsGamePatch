@@ -5,10 +5,10 @@ title: Increases China Emperor speed by 25%, upgraded speed by 16%
 
 changes:
   - tweak: The China Emperor's speed is increased from 20 to 25
-  - tweak: The China Emperor's acceleration is increased from 15 to 20
-  - tweak: The China Emperor's turn rate is increased from 60 to 70
+  - tweak: The China Emperor's acceleration is increased from 15 to 20, from 1333 ms to 1250 ms
+  - tweak: The China Emperor's turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
   - tweak: The China Emperor's upgraded speed is increased from 30 to 35
-  - tweak: The China Emperor's upgraded turn rate is increased from 60 to 70
+  - tweak: The China Emperor's upgraded turn rate is increased from 60 to 70, from 1500 ms per 90 deg to 1285 ms per 90 deg
 
 labels:
   - buff
