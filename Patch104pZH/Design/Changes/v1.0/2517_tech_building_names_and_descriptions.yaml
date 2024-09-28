@@ -1,0 +1,19 @@
+---
+date: 2024-09-28
+
+title: Fixes and improves Tech Building object names and descriptions for all latin languages
+
+changes:
+  - fix: Adds missing Tech Building descriptions to German, French and Polish language texts.
+  - tweak: Improves wording of Tech Building names and descriptions for all latin languages.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2517
+
+authors:
+  - xezon
