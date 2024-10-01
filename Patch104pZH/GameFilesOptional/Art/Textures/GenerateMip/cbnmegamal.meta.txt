@@ -1,0 +1,4 @@
+summer day textures   : using uncompressed TGA
+winter day textures   : using uncompressed TGA & 1x_DXTDecompressor_Source_V3-300000_G.pth for snow
+summer night textures : using uncompressed TGA & vector graphics for lights
+winter night textures : using uncompressed TGA & vector graphics for lights & 1x_DXTDecompressor_Source_V3-300000_G.pth for snow
