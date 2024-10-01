@@ -1,0 +1,149 @@
+---
+date: 2024-10-01
+
+title: Fixes and improves cbnmegamal textures
+
+changes:
+  - fix: Fixes and improves Civilian cbnmegamal textures.
+
+subchanges:
+  - fix: |
+      cbnmegamal
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Fixes misshaped door and window reflections
+        - Decreases reflection strength of walls, doors and windows
+  - fix: |
+      cbnmegamal_d
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Polishes minor damages
+        - Fixes wall reflection inconsistencies with cbnmegamal
+        - Fixes misshaped door and window reflections
+        - Decreases reflection strength of walls, doors and windows
+  - fix: |
+      cbnmegamal_e
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Fixes floating and misaligned damages in alpha channel
+  - fix: |
+      cbnmegamal_r
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Improves house damage visuals
+        - Fixes floating and misaligned damages in alpha channel
+        - Adds additional damages in alpha channel
+  - fix: |
+      cbnmegamal_g
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Fixes misshaped door and window reflections
+        - Fixes window reflections over window barricades
+        - Decreases reflection strength of walls, doors and windows
+  - fix: |
+      cbnmegamal_dg
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Polishes minor damages
+        - Fixes wall reflection inconsistencies with cbnmegamal
+        - Fixes misshaped door and window reflections
+        - Decreases reflection strength of walls, doors and windows
+        - Adds missing alpha channel
+  - fix: |
+      cbnmegamal_s
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Fixes window reflections over snow
+        - Fixes misshaped door and window reflections
+        - Decreases reflection strength of walls, doors and windows
+  - fix: |
+      cbnmegamal_ds
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Fixes snow drawing over damages
+        - Fixes window reflections over snow
+        - Fixes misshaped door and window reflections
+        - Decreases reflection strength of walls, doors and windows
+  - fix: |
+      cbnmegamal_es
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Fixes snow drawing over damages
+        - Fixes floating and misaligned damages in alpha channel
+  - fix: |
+      cbnmegamal_rs
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Fixes snow drawing over damages
+        - Fixes floating and misaligned damages in alpha channel
+        - Adds additional damages in alpha channel
+  - fix: |
+      cbnmegamal_sg
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Fixes window reflections over window barricades
+        - Fixes window reflections over snow
+        - Fixes misshaped door and window reflections
+        - Decreases reflection strength of walls, doors and windows
+  - fix: |
+      cbnmegamal_dsg
+        - Fixes minor artifacts on walls, doors and windows
+        - Recreates large mall windows
+        - Fixes snow drawing over damages
+        - Fixes window reflections over window barricades
+        - Fixes window reflections over snow
+        - Fixes misshaped door and window reflections
+        - Decreases reflection strength of walls, doors and windows
+  - fix: |
+      cbnmegamal_n
+        - Recreates and polishes majority of house lights
+        - Removes superfluous black alpha channel
+  - fix: |
+      cbnmegamal_dn
+        - Recreates and polishes majority of house lights
+        - Recreates light damages
+  - fix: |
+      cbnmegamal_ng
+        - Fixes light artifacts around window barricades
+        - Recreates and polishes majority of house lights
+  - fix: |
+      cbnmegamal_dng
+        - Fixes light artifacts around window barricades
+        - Recreates and polishes majority of house lights
+        - Recreates light damages
+  - fix: |
+      cbnmegamal_en, cbnmegamal_rn, cbnmegamal_esn, cbnmegamal_rsn
+        - Fixes incorrect night light
+  - fix: |
+      cbnmegamal_sn
+        - Fixes minor light artifacts on snow and vents
+        - Recreates and polishes majority of house lights
+  - fix: |
+      cbnmegamal_dsn
+        - Fixes minor light artifacts on snow and vents
+        - Recreates and polishes majority of house lights
+        - Recreates light damages
+  - fix: |
+      cbnmegamal_sng
+        - Fixes light artifacts around window barricades
+        - Fixes minor light artifacts on snow and vents
+        - Recreates and polishes majority of house lights
+  - fix: |
+      cbnmegamal_dsng
+        - Fixes light artifacts around window barricades
+        - Fixes minor light artifacts on snow and vents
+        - Recreates and polishes majority of house lights
+        - Recreates light damages
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2525
+
+authors:
+  - xezon
