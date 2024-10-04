@@ -7,6 +7,10 @@ def build_abs_path(relative_path: str) -> Path:
     return Path(dir).joinpath(relative_path).absolute()
 
 
+def startswith_nocase(s: str, startswith: str) -> bool:
+    return s.lower().startswith(startswith.lower())
+
+
 g_expected_languages = [
     "US:",
     "DE:",
@@ -85,7 +89,7 @@ def run():
             if line.startswith("//"):
                 pass
             else:
-                assert line.lower() != "end"
+                assert not startswith_nocase(line, "End")
                 assert ":" in line
                 ls.is_in_label_block = True
                 ls.label_language_index = 0
@@ -96,7 +100,7 @@ def run():
                 # Takes US text as starting text for the new language string.
                 ls.text = line[4:]
 
-            if line.lower() == "end":
+            if startswith_nocase(line, "End"):
                 # End of label block.
                 # Add remaining missing languages if applicable.
                 add_new_languages(new_lines, line, ls)
