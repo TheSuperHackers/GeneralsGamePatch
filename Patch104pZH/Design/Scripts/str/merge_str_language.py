@@ -44,11 +44,11 @@ def run():
         elif line.startswith("//"):
             pass
         elif not is_in_label_block:
-            assert line.lower() != "end"
+            assert not startswith_nocase(line, "End")
             assert ":" in line
             is_in_label_block = True
             upgrade_label_index_map[line] = index
-        elif line.lower() == "end":
+        elif startswith_nocase(line, "End"):
             is_in_label_block = False
 
     for line in statusquo_lines:
@@ -58,11 +58,11 @@ def run():
         elif line.startswith("//"):
             pass
         elif not is_in_label_block:
-            assert line.lower() != "end"
+            assert not startswith_nocase(line, "End")
             assert ":" in line
             is_in_label_block = True
             label_name = line
-        elif line.lower() == "end":
+        elif startswith_nocase(line, "End"):
             is_in_label_block = False
         elif line.startswith(upgrade_language):
             index = upgrade_label_index_map.get(label_name, -1)
