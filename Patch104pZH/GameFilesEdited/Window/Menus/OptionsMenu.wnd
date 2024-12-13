@@ -288,6 +288,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
         RADIOBUTTONDATA = GROUP: 2;
       END
+      ; Dialog buttons
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
@@ -435,6 +436,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       END
+      ; Network Parent
       CHILD
       WINDOW
         WINDOWTYPE = USER;
@@ -1467,6 +1469,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
         STATICTEXTDATA = CENTERED: 1;
       END
+      ; Video Parent
       CHILD
       WINDOW
         WINDOWTYPE = USER;
@@ -2560,6 +2563,7 @@ WINDOW
         END
         ENDALLCHILDREN
       END
+      ; Control Options Parent
       CHILD
       WINDOW
         WINDOWTYPE = USER;
@@ -2979,6 +2983,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       END
+      ; Audio Parent
       CHILD
       WINDOW
         WINDOWTYPE = USER;
@@ -3601,6 +3606,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       END
+      ; Version
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
@@ -3746,6 +3752,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       END
+      ; Lines
       CHILD
       WINDOW
         WINDOWTYPE = USER;
@@ -3793,6 +3800,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       END
+      ; Option Title
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
@@ -4031,6 +4039,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
       END
       CHILD
+      ; Win Advanced Display Options
       WINDOW
         WINDOWTYPE = USER;
         SCREENRECT = UPPERLEFT: 150 69,
