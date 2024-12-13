@@ -4956,8 +4956,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 160 312,
-                       BOTTOMRIGHT: 625 399,
+          SCREENRECT = UPPERLEFT: 160 310,
+                       BOTTOMRIGHT: 640 405,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:LowResWin";
           STATUS = ENABLED;
@@ -5002,8 +5002,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 172 315,
-                         BOTTOMRIGHT: 461 339,
+            SCREENRECT = UPPERLEFT: 170 310,
+                         BOTTOMRIGHT: 640 340,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5051,8 +5051,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = HORZSLIDER;
-            SCREENRECT = UPPERLEFT: 240 355,
-                         BOTTOMRIGHT: 526 379,
+            SCREENRECT = UPPERLEFT: 285 355,
+                         BOTTOMRIGHT: 515 380,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:LowResSlider";
             STATUS = ENABLED+IMAGE+TABSTOP;
@@ -5128,8 +5128,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 427 375,
-                         BOTTOMRIGHT: 625 399,
+            SCREENRECT = UPPERLEFT: 400 375,
+                         BOTTOMRIGHT: 630 400,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5172,13 +5172,13 @@ WINDOW
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-            STATICTEXTDATA = CENTERED: 0;
+            STATICTEXTDATA = CENTERED: 1;
           END
           CHILD
           WINDOW
             WINDOWTYPE = USER;
             SCREENRECT = UPPERLEFT: 160 342,
-                         BOTTOMRIGHT: 625 343,
+                         BOTTOMRIGHT: 640 343,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:LowResLine";
             STATUS = ENABLED;
@@ -5224,8 +5224,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 160 375,
-                         BOTTOMRIGHT: 373 399,
+            SCREENRECT = UPPERLEFT: 170 375,
+                         BOTTOMRIGHT: 400 400,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5268,7 +5268,7 @@ WINDOW
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-            STATICTEXTDATA = CENTERED: 0;
+            STATICTEXTDATA = CENTERED: 1;
           END
           ENDALLCHILDREN
         END
