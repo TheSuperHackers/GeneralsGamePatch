@@ -5275,8 +5275,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 160 416,
-                       BOTTOMRIGHT: 625 503,
+          SCREENRECT = UPPERLEFT: 160 415,
+                       BOTTOMRIGHT: 640 505,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ParticleCapWin";
           STATUS = ENABLED;
@@ -5321,8 +5321,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 172 419,
-                         BOTTOMRIGHT: 461 443,
+            SCREENRECT = UPPERLEFT: 170 420,
+                         BOTTOMRIGHT: 430 445,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5370,8 +5370,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 160 476,
-                         BOTTOMRIGHT: 373 500,
+            SCREENRECT = UPPERLEFT: 170 475,
+                         BOTTOMRIGHT: 400 500,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5414,13 +5414,13 @@ WINDOW
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-            STATICTEXTDATA = CENTERED: 0;
+            STATICTEXTDATA = CENTERED: 1;
           END
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 412 476,
-                         BOTTOMRIGHT: 625 500,
+            SCREENRECT = UPPERLEFT: 400 475,
+                         BOTTOMRIGHT: 630 500,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5463,13 +5463,13 @@ WINDOW
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0,
                              IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
-            STATICTEXTDATA = CENTERED: 0;
+            STATICTEXTDATA = CENTERED: 1;
           END
           CHILD
           WINDOW
             WINDOWTYPE = USER;
             SCREENRECT = UPPERLEFT: 160 445,
-                         BOTTOMRIGHT: 625 446,
+                         BOTTOMRIGHT: 640 446,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:ParticleCapLine";
             STATUS = ENABLED;
@@ -5515,8 +5515,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = HORZSLIDER;
-            SCREENRECT = UPPERLEFT: 240 459,
-                         BOTTOMRIGHT: 526 483,
+            SCREENRECT = UPPERLEFT: 285 460,
+                         BOTTOMRIGHT: 515 485,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:ParticleCapSlider";
             STATUS = ENABLED+IMAGE+TABSTOP;
