@@ -486,8 +486,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 450 495,
-                       BOTTOMRIGHT: 640 520,
+          SCREENRECT = UPPERLEFT: 475 494,
+                       BOTTOMRIGHT: 640 519,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:CheckSendDelay";
           STATUS = ENABLED+IMAGE+BORDER;
@@ -535,8 +535,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 439,
-                       BOTTOMRIGHT: 215 464,
+          SCREENRECT = UPPERLEFT: 160 434,
+                       BOTTOMRIGHT: 235 459,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:StaticTextOnlineIpAddresses";
           STATUS = ENABLED;
@@ -584,8 +584,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = PUSHBUTTON;
-          SCREENRECT = UPPERLEFT: 265 495,
-                       BOTTOMRIGHT: 375 520,
+          SCREENRECT = UPPERLEFT: 360 494,
+                       BOTTOMRIGHT: 470 519,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ButtonFirewallRefresh";
           STATUS = ENABLED+IMAGE;
@@ -634,7 +634,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = STATICTEXT;
           SCREENRECT = UPPERLEFT: 160 403,
-                       BOTTOMRIGHT: 640 436,
+                       BOTTOMRIGHT: 640 429,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED+WRAP_CENTERED;
@@ -682,8 +682,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = ENTRYFIELD;
-          SCREENRECT = UPPERLEFT: 510 467,
-                       BOTTOMRIGHT: 640 492,
+          SCREENRECT = UPPERLEFT: 360 464,
+                       BOTTOMRIGHT: 470 489,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:TextEntryHTTPProxy";
           STATUS = ENABLED+IMAGE;
@@ -736,8 +736,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 370 467,
-                       BOTTOMRIGHT: 505 492,
+          SCREENRECT = UPPERLEFT: 475 464,
+                       BOTTOMRIGHT: 640 489,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:StaticTextHTTPProxy";
           STATUS = ENABLED;
@@ -785,8 +785,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = ENTRYFIELD;
-          SCREENRECT = UPPERLEFT: 510 439,
-                       BOTTOMRIGHT: 640 464,
+          SCREENRECT = UPPERLEFT: 360 434,
+                       BOTTOMRIGHT: 470 459,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:TextEntryFirewallPortOverride";
           STATUS = ENABLED+IMAGE;
@@ -839,8 +839,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 370 439,
-                       BOTTOMRIGHT: 505 464,
+          SCREENRECT = UPPERLEFT: 475 434,
+                       BOTTOMRIGHT: 640 459,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:StaticTextFirewallPortOverride";
           STATUS = ENABLED;
@@ -888,8 +888,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 467,
-                       BOTTOMRIGHT: 215 492,
+          SCREENRECT = UPPERLEFT: 160 464,
+                       BOTTOMRIGHT: 235 489,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:StaticTextLANIpAddresses";
           STATUS = ENABLED;
@@ -937,8 +937,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 220 467,
-                       BOTTOMRIGHT: 330 492,
+          SCREENRECT = UPPERLEFT: 240 464,
+                       BOTTOMRIGHT: 350 489,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxIP";
           STATUS = ENABLED+IMAGE;
@@ -1179,8 +1179,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 220 439,
-                       BOTTOMRIGHT: 330 464,
+          SCREENRECT = UPPERLEFT: 240 434,
+                       BOTTOMRIGHT: 350 459,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxOnlineIP";
           STATUS = ENABLED+IMAGE;
@@ -3947,8 +3947,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 435,
-                     BOTTOMRIGHT: 650 436,
+        SCREENRECT = UPPERLEFT: 150 428,
+                     BOTTOMRIGHT: 650 429,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line4";
         STATUS = ENABLED;
