@@ -4274,7 +4274,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = USER;
           SCREENRECT = UPPERLEFT: 160 112,
-                       BOTTOMRIGHT: 622 301,
+                       BOTTOMRIGHT: 640 300,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED;
@@ -4319,8 +4319,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 168 144,
-                         BOTTOMRIGHT: 368 169,
+            SCREENRECT = UPPERLEFT: 170 151,
+                         BOTTOMRIGHT: 400 176,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:Check3DShadows";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4368,8 +4368,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 384 168,
-                         BOTTOMRIGHT: 615 192,
+            SCREENRECT = UPPERLEFT: 405 179,
+                         BOTTOMRIGHT: 630 204,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckShowProps";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4417,8 +4417,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 384 144,
-                         BOTTOMRIGHT: 614 168,
+            SCREENRECT = UPPERLEFT: 405 151,
+                         BOTTOMRIGHT: 630 176,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckBehindBuilding";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4466,8 +4466,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 168 168,
-                         BOTTOMRIGHT: 368 193,
+            SCREENRECT = UPPERLEFT: 170 179,
+                         BOTTOMRIGHT: 400 204,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:Check2DShadows";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4515,8 +4515,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 168 216,
-                         BOTTOMRIGHT: 368 240,
+            SCREENRECT = UPPERLEFT: 170 235,
+                         BOTTOMRIGHT: 400 260,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckGroundLighting";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4564,8 +4564,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 384 216,
-                         BOTTOMRIGHT: 615 240,
+            SCREENRECT = UPPERLEFT: 405 235,
+                         BOTTOMRIGHT: 630 260,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckNoDynamicLOD";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4613,8 +4613,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 384 240,
-                         BOTTOMRIGHT: 615 264,
+            SCREENRECT = UPPERLEFT: 405 263,
+                         BOTTOMRIGHT: 630 288,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckHeatEffects";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4662,8 +4662,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 384 264,
-                         BOTTOMRIGHT: 615 288,
+            SCREENRECT = UPPERLEFT: 405 264,
+                         BOTTOMRIGHT: 630 288,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckUnlockFPS";
             STATUS = ENABLED+HIDDEN+IMAGE+BORDER;
@@ -4711,8 +4711,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 168 192,
-                         BOTTOMRIGHT: 368 216,
+            SCREENRECT = UPPERLEFT: 170 207,
+                         BOTTOMRIGHT: 400 232,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckCloudShadows";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4760,8 +4760,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 384 192,
-                         BOTTOMRIGHT: 616 216,
+            SCREENRECT = UPPERLEFT: 405 207,
+                         BOTTOMRIGHT: 630 232,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckExtraAnimations";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4809,8 +4809,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 168 240,
-                         BOTTOMRIGHT: 368 265,
+            SCREENRECT = UPPERLEFT: 170 263,
+                         BOTTOMRIGHT: 400 288,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckSmoothWater";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4859,7 +4859,7 @@ WINDOW
           WINDOW
             WINDOWTYPE = USER;
             SCREENRECT = UPPERLEFT: 160 139,
-                         BOTTOMRIGHT: 622 140,
+                         BOTTOMRIGHT: 640 140,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:ToggleOnOffLine";
             STATUS = ENABLED;
@@ -4905,8 +4905,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 167 112,
-                         BOTTOMRIGHT: 607 140,
+            SCREENRECT = UPPERLEFT: 170 112,
+                         BOTTOMRIGHT: 630 140,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED+WRAP_CENTERED;
