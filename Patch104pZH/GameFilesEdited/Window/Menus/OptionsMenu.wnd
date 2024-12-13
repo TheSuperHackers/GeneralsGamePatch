@@ -4033,8 +4033,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 151 68,
-                     BOTTOMRIGHT: 636 560,
+        SCREENRECT = UPPERLEFT: 150 69,
+                     BOTTOMRIGHT: 650 560,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:WinAdvancedDisplayOptions";
         STATUS = ENABLED+HIDDEN;
@@ -4079,8 +4079,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 151 105,
-                       BOTTOMRIGHT: 636 106,
+          SCREENRECT = UPPERLEFT: 160 105,
+                       BOTTOMRIGHT: 640 106,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:AdvanceOptionsLine";
           STATUS = ENABLED;
@@ -4126,8 +4126,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = PUSHBUTTON;
-          SCREENRECT = UPPERLEFT: 295 521,
-                       BOTTOMRIGHT: 454 553,
+          SCREENRECT = UPPERLEFT: 307 515,
+                       BOTTOMRIGHT: 471 547,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ButtonAdvanceAccept";
           STATUS = ENABLED+IMAGE;
@@ -4175,8 +4175,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = PUSHBUTTON;
-          SCREENRECT = UPPERLEFT: 466 521,
-                       BOTTOMRIGHT: 625 553,
+          SCREENRECT = UPPERLEFT: 476 515,
+                       BOTTOMRIGHT: 640 547,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ButtonAdvanceBack";
           STATUS = ENABLED+IMAGE;
@@ -4224,8 +4224,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 162 74,
-                       BOTTOMRIGHT: 576 102,
+          SCREENRECT = UPPERLEFT: 160 74,
+                       BOTTOMRIGHT: 640 102,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED+WRAP_CENTERED;
@@ -4268,7 +4268,7 @@ WINDOW
                            IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                            IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                            IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-          STATICTEXTDATA = CENTERED: 0;
+          STATICTEXTDATA = CENTERED: 1;
         END
         CHILD
         WINDOW
