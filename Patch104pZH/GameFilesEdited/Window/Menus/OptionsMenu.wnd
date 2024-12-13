@@ -7,7 +7,7 @@ ENDLAYOUTBLOCK
 WINDOW
   WINDOWTYPE = USER;
   SCREENRECT = UPPERLEFT: 0 0,
-               BOTTOMRIGHT: 799 599,
+               BOTTOMRIGHT: 800 600,
                CREATIONRESOLUTION: 800 600;
   NAME = "OptionsMenu.wnd:";
   STATUS = ENABLED;
@@ -52,8 +52,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 120 12,
-                 BOTTOMRIGHT: 661 597,
+    SCREENRECT = UPPERLEFT: 140 15,
+                 BOTTOMRIGHT: 660 585,
                  CREATIONRESOLUTION: 800 600;
     NAME = "OptionsMenu.wnd:OptionsMenuParent";
     STATUS = ENABLED+NOFOCUS+SEE_THRU;
@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 135 19,
-                   BOTTOMRIGHT: 650 586,
+      SCREENRECT = UPPERLEFT: 140 15,
+                   BOTTOMRIGHT: 660 585,
                    CREATIONRESOLUTION: 800 600;
       NAME = "OptionsMenu.wnd:OptionsMenuParentOld";
       STATUS = ENABLED;
@@ -291,8 +291,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 476 528,
-                     BOTTOMRIGHT: 635 560,
+        SCREENRECT = UPPERLEFT: 487 528,
+                     BOTTOMRIGHT: 650 560,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ButtonBack";
         STATUS = ENABLED+IMAGE;
@@ -340,8 +340,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 312 528,
-                     BOTTOMRIGHT: 471 560,
+        SCREENRECT = UPPERLEFT: 319 528,
+                     BOTTOMRIGHT: 482 560,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ButtonAccept";
         STATUS = ENABLED+IMAGE;
@@ -389,8 +389,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 152 528,
-                     BOTTOMRIGHT: 308 560,
+        SCREENRECT = UPPERLEFT: 150 528,
+                     BOTTOMRIGHT: 314 560,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ButtonDefaults";
         STATUS = ENABLED+IMAGE;
@@ -3604,8 +3604,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 152 560,
-                     BOTTOMRIGHT: 632 578,
+        SCREENRECT = UPPERLEFT: 150 560,
+                     BOTTOMRIGHT: 650 585,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:LabelVersion";
         STATUS = ENABLED;
@@ -3749,7 +3749,7 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 135 55,
+        SCREENRECT = UPPERLEFT: 150 55,
                      BOTTOMRIGHT: 650 56,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line";
@@ -3796,8 +3796,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 152 21,
-                     BOTTOMRIGHT: 416 54,
+        SCREENRECT = UPPERLEFT: 150 21,
+                     BOTTOMRIGHT: 650 54,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:";
         STATUS = ENABLED;
@@ -3840,7 +3840,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-        STATICTEXTDATA = CENTERED: 0;
+        STATICTEXTDATA = CENTERED: 1;
       END
       CHILD
       WINDOW
