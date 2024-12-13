@@ -1470,8 +1470,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 151 69,
-                     BOTTOMRIGHT: 387 271,
+        SCREENRECT = UPPERLEFT: 150 69,
+                     BOTTOMRIGHT: 397 267,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:VideoParent";
         STATUS = ENABLED;
@@ -1516,8 +1516,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = HORZSLIDER;
-          SCREENRECT = UPPERLEFT: 164 244,
-                       BOTTOMRIGHT: 372 268,
+          SCREENRECT = UPPERLEFT: 163 239,
+                       BOTTOMRIGHT: 385 264,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SliderGamma";
           STATUS = ENABLED+IMAGE+TABSTOP;
@@ -1593,8 +1593,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 156 220,
-                       BOTTOMRIGHT: 352 245,
+          SCREENRECT = UPPERLEFT: 160 211,
+                       BOTTOMRIGHT: 387 236,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:GammaLabel";
           STATUS = ENABLED;
@@ -1932,8 +1932,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 159 182,
-                       BOTTOMRIGHT: 303 206,
+          SCREENRECT = UPPERLEFT: 163 183,
+                       BOTTOMRIGHT: 303 208,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxDetail";
           STATUS = ENABLED+IMAGE;
@@ -2173,8 +2173,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 156 160,
-                       BOTTOMRIGHT: 300 184,
+          SCREENRECT = UPPERLEFT: 160 155,
+                       BOTTOMRIGHT: 397 180,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:DetailLabel";
           STATUS = ENABLED;
@@ -2222,8 +2222,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 160 128,
-                       BOTTOMRIGHT: 304 152,
+          SCREENRECT = UPPERLEFT: 163 127,
+                       BOTTOMRIGHT: 303 152,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxResolution";
           STATUS = ENABLED+IMAGE;
@@ -2463,8 +2463,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 156 104,
-                       BOTTOMRIGHT: 300 128,
+          SCREENRECT = UPPERLEFT: 160 99,
+                       BOTTOMRIGHT: 397 124,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ResolutionLabel";
           STATUS = ENABLED;
@@ -2512,8 +2512,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 155 69,
-                       BOTTOMRIGHT: 359 97,
+          SCREENRECT = UPPERLEFT: 160 69,
+                       BOTTOMRIGHT: 397 95,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED+WRAP_CENTERED;
@@ -3845,8 +3845,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 391 92,
-                     BOTTOMRIGHT: 635 93,
+        SCREENRECT = UPPERLEFT: 402 94,
+                     BOTTOMRIGHT: 650 95,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line2";
         STATUS = ENABLED;
