@@ -2563,8 +2563,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 151 272,
-                     BOTTOMRIGHT: 635 400,
+        SCREENRECT = UPPERLEFT: 150 272,
+                     BOTTOMRIGHT: 650 395,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ScrollParent";
         STATUS = ENABLED;
@@ -2609,8 +2609,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 161 273,
-                       BOTTOMRIGHT: 635 297,
+          SCREENRECT = UPPERLEFT: 160 273,
+                       BOTTOMRIGHT: 640 297,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED;
@@ -2659,7 +2659,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = CHECKBOX;
           SCREENRECT = UPPERLEFT: 160 302,
-                       BOTTOMRIGHT: 352 326,
+                       BOTTOMRIGHT: 397 326,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:CheckAlternateMouse";
           STATUS = ENABLED+IMAGE+BORDER;
@@ -2708,7 +2708,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = STATICTEXT;
           SCREENRECT = UPPERLEFT: 160 348,
-                       BOTTOMRIGHT: 624 372,
+                       BOTTOMRIGHT: 640 372,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ScrollSpeedLabel";
           STATUS = ENABLED;
@@ -2756,8 +2756,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = HORZSLIDER;
-          SCREENRECT = UPPERLEFT: 167 373,
-                       BOTTOMRIGHT: 611 397,
+          SCREENRECT = UPPERLEFT: 170 373,
+                       BOTTOMRIGHT: 630 390,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SliderScrollSpeed";
           STATUS = ENABLED+IMAGE+TABSTOP;
@@ -2833,8 +2833,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 387 302,
-                       BOTTOMRIGHT: 633 326,
+          SCREENRECT = UPPERLEFT: 402 302,
+                       BOTTOMRIGHT: 640 326,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:CheckDoubleClickAttackMove";
           STATUS = ENABLED+IMAGE+BORDER;
@@ -2883,7 +2883,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = CHECKBOX;
           SCREENRECT = UPPERLEFT: 160 326,
-                       BOTTOMRIGHT: 352 350,
+                       BOTTOMRIGHT: 397 350,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:Retaliation";
           STATUS = ENABLED+IMAGE+BORDER;
@@ -3892,8 +3892,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 151 276,
-                     BOTTOMRIGHT: 635 301,
+        SCREENRECT = UPPERLEFT: 150 296,
+                     BOTTOMRIGHT: 650 297,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line3";
         STATUS = ENABLED;
