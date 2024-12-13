@@ -2982,8 +2982,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 391 69,
-                     BOTTOMRIGHT: 635 271,
+        SCREENRECT = UPPERLEFT: 401 69,
+                     BOTTOMRIGHT: 650 267,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:AudioParent";
         STATUS = ENABLED;
@@ -3028,8 +3028,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = HORZSLIDER;
-          SCREENRECT = UPPERLEFT: 404 244,
-                       BOTTOMRIGHT: 612 268,
+          SCREENRECT = UPPERLEFT: 411 239,
+                       BOTTOMRIGHT: 584 264,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SliderVoiceVolume";
           STATUS = ENABLED+IMAGE+TABSTOP;
@@ -3105,8 +3105,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 399 220,
-                       BOTTOMRIGHT: 583 244,
+          SCREENRECT = UPPERLEFT: 411 211,
+                       BOTTOMRIGHT: 584 236,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:VoiceVolumeLabel";
           STATUS = ENABLED;
@@ -3155,8 +3155,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 400 104,
-                       BOTTOMRIGHT: 584 128,
+          SCREENRECT = UPPERLEFT: 411 99,
+                       BOTTOMRIGHT: 584 124,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:MusicVolumeLabel";
           STATUS = ENABLED;
@@ -3205,8 +3205,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 398 160,
-                       BOTTOMRIGHT: 623 184,
+          SCREENRECT = UPPERLEFT: 411 155,
+                       BOTTOMRIGHT: 584 180,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SFXVolumeLabel";
           STATUS = ENABLED;
@@ -3255,8 +3255,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 398 69,
-                       BOTTOMRIGHT: 610 97,
+          SCREENRECT = UPPERLEFT: 411 69,
+                       BOTTOMRIGHT: 584 95,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED+WRAP_CENTERED;
@@ -3306,8 +3306,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = HORZSLIDER;
-        SCREENRECT = UPPERLEFT: 404 128,
-                     BOTTOMRIGHT: 612 154,
+        SCREENRECT = UPPERLEFT: 411 127,
+                     BOTTOMRIGHT: 584 152,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:SliderMusicVolume";
         STATUS = ENABLED+IMAGE+TABSTOP;
@@ -3383,8 +3383,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = HORZSLIDER;
-        SCREENRECT = UPPERLEFT: 404 184,
-                     BOTTOMRIGHT: 612 208,
+        SCREENRECT = UPPERLEFT: 411 183,
+                     BOTTOMRIGHT: 584 208,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:SliderSFXVolume";
         STATUS = ENABLED+IMAGE+TABSTOP;
@@ -3986,8 +3986,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 151 92,
-                     BOTTOMRIGHT: 386 93,
+        SCREENRECT = UPPERLEFT: 150 94,
+                     BOTTOMRIGHT: 397 95,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line1";
         STATUS = ENABLED;
