@@ -3034,7 +3034,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = HORZSLIDER;
           SCREENRECT = UPPERLEFT: 411 239,
-                       BOTTOMRIGHT: 584 264,
+                       BOTTOMRIGHT: 640 264,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SliderVoiceVolume";
           STATUS = ENABLED+IMAGE+TABSTOP;
@@ -3111,7 +3111,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = STATICTEXT;
           SCREENRECT = UPPERLEFT: 411 211,
-                       BOTTOMRIGHT: 584 236,
+                       BOTTOMRIGHT: 640 236,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:VoiceVolumeLabel";
           STATUS = ENABLED;
@@ -3161,7 +3161,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = STATICTEXT;
           SCREENRECT = UPPERLEFT: 411 99,
-                       BOTTOMRIGHT: 584 124,
+                       BOTTOMRIGHT: 640 124,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:MusicVolumeLabel";
           STATUS = ENABLED;
@@ -3211,7 +3211,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = STATICTEXT;
           SCREENRECT = UPPERLEFT: 411 155,
-                       BOTTOMRIGHT: 584 180,
+                       BOTTOMRIGHT: 640 180,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SFXVolumeLabel";
           STATUS = ENABLED;
@@ -3261,7 +3261,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = STATICTEXT;
           SCREENRECT = UPPERLEFT: 411 69,
-                       BOTTOMRIGHT: 584 95,
+                       BOTTOMRIGHT: 640 95,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED+WRAP_CENTERED;
@@ -3312,7 +3312,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = HORZSLIDER;
         SCREENRECT = UPPERLEFT: 411 127,
-                     BOTTOMRIGHT: 584 152,
+                     BOTTOMRIGHT: 640 152,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:SliderMusicVolume";
         STATUS = ENABLED+IMAGE+TABSTOP;
@@ -3389,7 +3389,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = HORZSLIDER;
         SCREENRECT = UPPERLEFT: 411 183,
-                     BOTTOMRIGHT: 584 208,
+                     BOTTOMRIGHT: 640 208,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:SliderSFXVolume";
         STATUS = ENABLED+IMAGE+TABSTOP;
@@ -3756,8 +3756,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 55,
-                     BOTTOMRIGHT: 650 56,
+        SCREENRECT = UPPERLEFT: 140 54,
+                     BOTTOMRIGHT: 660 55,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line";
         STATUS = ENABLED;
@@ -3848,7 +3848,7 @@ WINDOW
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                          IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-        STATICTEXTDATA = CENTERED: 1;
+        STATICTEXTDATA = CENTERED: 0;
       END
       CHILD
       WINDOW
@@ -3900,8 +3900,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 296,
-                     BOTTOMRIGHT: 650 297,
+        SCREENRECT = UPPERLEFT: 150 298,
+                     BOTTOMRIGHT: 650 299,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line3";
         STATUS = ENABLED;
