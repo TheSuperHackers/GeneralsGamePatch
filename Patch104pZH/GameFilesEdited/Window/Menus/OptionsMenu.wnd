@@ -4088,8 +4088,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 160 105,
-                       BOTTOMRIGHT: 640 106,
+          SCREENRECT = UPPERLEFT: 150 105,
+                       BOTTOMRIGHT: 650 106,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:AdvanceOptionsLine";
           STATUS = ENABLED;
@@ -4277,7 +4277,7 @@ WINDOW
                            IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                            IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255,
                            IMAGE: NoImage, COLOR: 255 255 255 255, BORDERCOLOR: 255 255 255 255;
-          STATICTEXTDATA = CENTERED: 1;
+          STATICTEXTDATA = CENTERED: 0;
         END
         CHILD
         WINDOW
@@ -5012,7 +5012,7 @@ WINDOW
           WINDOW
             WINDOWTYPE = STATICTEXT;
             SCREENRECT = UPPERLEFT: 170 310,
-                         BOTTOMRIGHT: 640 340,
+                         BOTTOMRIGHT: 640 338,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5186,8 +5186,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = USER;
-            SCREENRECT = UPPERLEFT: 160 342,
-                         BOTTOMRIGHT: 640 343,
+            SCREENRECT = UPPERLEFT: 160 338,
+                         BOTTOMRIGHT: 640 339,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:LowResLine";
             STATUS = ENABLED;
@@ -5330,8 +5330,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 170 420,
-                         BOTTOMRIGHT: 430 445,
+            SCREENRECT = UPPERLEFT: 170 415,
+                         BOTTOMRIGHT: 430 443,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5477,8 +5477,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = USER;
-            SCREENRECT = UPPERLEFT: 160 445,
-                         BOTTOMRIGHT: 640 446,
+            SCREENRECT = UPPERLEFT: 160 442,
+                         BOTTOMRIGHT: 640 443,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:ParticleCapLine";
             STATUS = ENABLED;
