@@ -1519,8 +1519,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = HORZSLIDER;
-          SCREENRECT = UPPERLEFT: 163 239,
-                       BOTTOMRIGHT: 385 264,
+          SCREENRECT = UPPERLEFT: 163 224,
+                       BOTTOMRIGHT: 385 249,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SliderGamma";
           STATUS = ENABLED+IMAGE+TABSTOP;
@@ -1596,8 +1596,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 211,
-                       BOTTOMRIGHT: 387 236,
+          SCREENRECT = UPPERLEFT: 160 196,
+                       BOTTOMRIGHT: 387 221,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:GammaLabel";
           STATUS = ENABLED;
@@ -1935,8 +1935,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 163 183,
-                       BOTTOMRIGHT: 303 208,
+          SCREENRECT = UPPERLEFT: 263 154,
+                       BOTTOMRIGHT: 385 179,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxDetail";
           STATUS = ENABLED+IMAGE;
@@ -2176,8 +2176,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 155,
-                       BOTTOMRIGHT: 397 180,
+          SCREENRECT = UPPERLEFT: 160 154,
+                       BOTTOMRIGHT: 255 179,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:DetailLabel";
           STATUS = ENABLED;
@@ -2225,8 +2225,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 163 127,
-                       BOTTOMRIGHT: 303 152,
+          SCREENRECT = UPPERLEFT: 263 112,
+                       BOTTOMRIGHT: 385 137,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxResolution";
           STATUS = ENABLED+IMAGE;
@@ -2466,8 +2466,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 99,
-                       BOTTOMRIGHT: 397 124,
+          SCREENRECT = UPPERLEFT: 160 112,
+                       BOTTOMRIGHT: 255 137,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ResolutionLabel";
           STATUS = ENABLED;
