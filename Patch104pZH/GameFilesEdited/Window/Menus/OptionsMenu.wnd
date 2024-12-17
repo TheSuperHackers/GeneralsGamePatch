@@ -3513,18 +3513,18 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = CHECKBOX;
-        SCREENRECT = UPPERLEFT: 647 487,
-                     BOTTOMRIGHT: 919 511,
+        SCREENRECT = UPPERLEFT: 160 344,
+                     BOTTOMRIGHT: 387 369,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:CheckBoxSaveCamera";
-        STATUS = ENABLED+HIDDEN+IMAGE;
+        STATUS = ENABLED+IMAGE;
         STYLE = CHECKBOX+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
-        FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-        HEADERTEMPLATE = "[NONE]";
+        FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
+        HEADERTEMPLATE = "MinorTitle";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:SaveCamera";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -3561,18 +3561,18 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = CHECKBOX;
-        SCREENRECT = UPPERLEFT: 647 511,
-                     BOTTOMRIGHT: 919 535,
+        SCREENRECT = UPPERLEFT: 160 372,
+                     BOTTOMRIGHT: 387 397,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:CheckBoxUseCamera";
-        STATUS = ENABLED+HIDDEN+IMAGE;
+        STATUS = ENABLED+IMAGE+BORDER;
         STYLE = CHECKBOX+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
-        FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-        HEADERTEMPLATE = "[NONE]";
+        FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
+        HEADERTEMPLATE = "MinorTitle";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:UseCamera";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
@@ -3659,18 +3659,18 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = CHECKBOX;
-        SCREENRECT = UPPERLEFT: 647 535,
-                     BOTTOMRIGHT: 919 559,
+        SCREENRECT = UPPERLEFT: 160 400,
+                     BOTTOMRIGHT: 387 425,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:CheckBoxDrawAnchor";
-        STATUS = ENABLED+HIDDEN+IMAGE;
+        STATUS = ENABLED+IMAGE;
         STYLE = CHECKBOX+MOUSETRACK;
         SYSTEMCALLBACK = "[None]";
         INPUTCALLBACK = "[None]";
         TOOLTIPCALLBACK = "[None]";
         DRAWCALLBACK = "[None]";
-        FONT = NAME: "Arial", SIZE: 10, BOLD: 0;
-        HEADERTEMPLATE = "[NONE]";
+        FONT = NAME: "Arial", SIZE: 14, BOLD: 0;
+        HEADERTEMPLATE = "MinorTitle";
         TOOLTIPDELAY = -1;
         TEXT = "GUI:DrawScrollAnchor";
         TEXTCOLOR = ENABLED:  255 255 255 255, ENABLEDBORDER:  0 0 0 255,
