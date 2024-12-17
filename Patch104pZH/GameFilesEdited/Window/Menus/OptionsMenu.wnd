@@ -52,8 +52,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = USER;
-    SCREENRECT = UPPERLEFT: 140 15,
-                 BOTTOMRIGHT: 660 585,
+    SCREENRECT = UPPERLEFT: 140 20,
+                 BOTTOMRIGHT: 660 537,
                  CREATIONRESOLUTION: 800 600;
     NAME = "OptionsMenu.wnd:OptionsMenuParent";
     STATUS = ENABLED+NOFOCUS+SEE_THRU;
@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = USER;
-      SCREENRECT = UPPERLEFT: 140 15,
-                   BOTTOMRIGHT: 660 585,
+      SCREENRECT = UPPERLEFT: 140 20,
+                   BOTTOMRIGHT: 660 537,
                    CREATIONRESOLUTION: 800 600;
       NAME = "OptionsMenu.wnd:OptionsMenuParentOld";
       STATUS = ENABLED;
@@ -292,8 +292,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 487 528,
-                     BOTTOMRIGHT: 650 560,
+        SCREENRECT = UPPERLEFT: 487 497,
+                     BOTTOMRIGHT: 650 522,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ButtonBack";
         STATUS = ENABLED+IMAGE;
@@ -341,8 +341,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 319 528,
-                     BOTTOMRIGHT: 482 560,
+        SCREENRECT = UPPERLEFT: 319 497,
+                     BOTTOMRIGHT: 481 522,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ButtonAccept";
         STATUS = ENABLED+IMAGE;
@@ -390,8 +390,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
-        SCREENRECT = UPPERLEFT: 150 528,
-                     BOTTOMRIGHT: 314 560,
+        SCREENRECT = UPPERLEFT: 150 497,
+                     BOTTOMRIGHT: 313 522,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ButtonDefaults";
         STATUS = ENABLED+IMAGE;
@@ -440,8 +440,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 400,
-                     BOTTOMRIGHT: 650 523,
+        SCREENRECT = UPPERLEFT: 403 280,
+                     BOTTOMRIGHT: 650 491,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:NetworkParent";
         STATUS = ENABLED+NOFOCUS;
@@ -486,8 +486,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 475 494,
-                       BOTTOMRIGHT: 640 519,
+          SCREENRECT = UPPERLEFT: 413 456,
+                       BOTTOMRIGHT: 640 481,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:CheckSendDelay";
           STATUS = ENABLED+IMAGE+BORDER;
@@ -535,8 +535,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 434,
-                       BOTTOMRIGHT: 235 459,
+          SCREENRECT = UPPERLEFT: 413 316,
+                       BOTTOMRIGHT: 517 341,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:StaticTextOnlineIpAddresses";
           STATUS = ENABLED;
@@ -584,8 +584,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = PUSHBUTTON;
-          SCREENRECT = UPPERLEFT: 360 494,
-                       BOTTOMRIGHT: 470 519,
+          SCREENRECT = UPPERLEFT: 520 428,
+                       BOTTOMRIGHT: 640 453,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ButtonFirewallRefresh";
           STATUS = ENABLED+IMAGE;
@@ -633,8 +633,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 403,
-                       BOTTOMRIGHT: 640 429,
+          SCREENRECT = UPPERLEFT: 413 280,
+                       BOTTOMRIGHT: 640 306,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED+WRAP_CENTERED;
@@ -682,8 +682,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = ENTRYFIELD;
-          SCREENRECT = UPPERLEFT: 360 464,
-                       BOTTOMRIGHT: 470 489,
+          SCREENRECT = UPPERLEFT: 520 372,
+                       BOTTOMRIGHT: 640 397,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:TextEntryHTTPProxy";
           STATUS = ENABLED+IMAGE;
@@ -736,8 +736,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 475 464,
-                       BOTTOMRIGHT: 640 489,
+          SCREENRECT = UPPERLEFT: 413 372,
+                       BOTTOMRIGHT: 517 397,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:StaticTextHTTPProxy";
           STATUS = ENABLED;
@@ -785,8 +785,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = ENTRYFIELD;
-          SCREENRECT = UPPERLEFT: 360 434,
-                       BOTTOMRIGHT: 470 459,
+          SCREENRECT = UPPERLEFT: 413 428,
+                       BOTTOMRIGHT: 517 453,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:TextEntryFirewallPortOverride";
           STATUS = ENABLED+IMAGE;
@@ -839,8 +839,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 475 434,
-                       BOTTOMRIGHT: 640 459,
+          SCREENRECT = UPPERLEFT: 413 400,
+                       BOTTOMRIGHT: 640 425,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:StaticTextFirewallPortOverride";
           STATUS = ENABLED;
@@ -888,8 +888,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 464,
-                       BOTTOMRIGHT: 235 489,
+          SCREENRECT = UPPERLEFT: 413 344,
+                       BOTTOMRIGHT: 517 369,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:StaticTextLANIpAddresses";
           STATUS = ENABLED;
@@ -937,8 +937,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 240 464,
-                       BOTTOMRIGHT: 350 489,
+          SCREENRECT = UPPERLEFT: 520 344,
+                       BOTTOMRIGHT: 640 369,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxIP";
           STATUS = ENABLED+IMAGE;
@@ -983,7 +983,7 @@ WINDOW
                            IMAGE: NoImage, COLOR: 255 255 255 0, BORDERCOLOR: 255 255 255 0;
           COMBOBOXDATA = ISEDITABLE: 0,
                         MAXCHARS: 16,
-                        MAXDISPLAY: 2,
+                        MAXDISPLAY: 5,
                         ASCIIONLY: 0,
                         LETTERSANDNUMBERS: 0;
           COMBOBOXDROPDOWNBUTTONENABLEDDRAWDATA = IMAGE: VSliderDownButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
@@ -1179,8 +1179,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 240 434,
-                       BOTTOMRIGHT: 350 459,
+          SCREENRECT = UPPERLEFT: 520 316,
+                       BOTTOMRIGHT: 640 341,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxOnlineIP";
           STATUS = ENABLED+IMAGE;
@@ -1473,8 +1473,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 69,
-                     BOTTOMRIGHT: 397 267,
+        SCREENRECT = UPPERLEFT: 150 64,
+                     BOTTOMRIGHT: 397 218,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:VideoParent";
         STATUS = ENABLED;
@@ -1519,8 +1519,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = HORZSLIDER;
-          SCREENRECT = UPPERLEFT: 163 224,
-                       BOTTOMRIGHT: 385 249,
+          SCREENRECT = UPPERLEFT: 160 183,
+                       BOTTOMRIGHT: 387 208,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SliderGamma";
           STATUS = ENABLED+IMAGE+TABSTOP;
@@ -1596,8 +1596,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 196,
-                       BOTTOMRIGHT: 387 221,
+          SCREENRECT = UPPERLEFT: 160 155,
+                       BOTTOMRIGHT: 387 180,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:GammaLabel";
           STATUS = ENABLED;
@@ -1935,8 +1935,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 263 154,
-                       BOTTOMRIGHT: 385 179,
+          SCREENRECT = UPPERLEFT: 287 127,
+                       BOTTOMRIGHT: 387 152,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxDetail";
           STATUS = ENABLED+IMAGE;
@@ -2176,8 +2176,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 154,
-                       BOTTOMRIGHT: 255 179,
+          SCREENRECT = UPPERLEFT: 160 127,
+                       BOTTOMRIGHT: 284 152,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:DetailLabel";
           STATUS = ENABLED;
@@ -2225,8 +2225,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = COMBOBOX;
-          SCREENRECT = UPPERLEFT: 263 112,
-                       BOTTOMRIGHT: 385 137,
+          SCREENRECT = UPPERLEFT: 287 99,
+                       BOTTOMRIGHT: 387 124,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ComboBoxResolution";
           STATUS = ENABLED+IMAGE;
@@ -2466,8 +2466,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 112,
-                       BOTTOMRIGHT: 255 137,
+          SCREENRECT = UPPERLEFT: 160 99,
+                       BOTTOMRIGHT: 284 124,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ResolutionLabel";
           STATUS = ENABLED;
@@ -2515,8 +2515,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 69,
-                       BOTTOMRIGHT: 397 95,
+          SCREENRECT = UPPERLEFT: 160 64,
+                       BOTTOMRIGHT: 387 89,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED+WRAP_CENTERED;
@@ -2567,8 +2567,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 272,
-                     BOTTOMRIGHT: 650 395,
+        SCREENRECT = UPPERLEFT: 150 224,
+                     BOTTOMRIGHT: 397 491,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ScrollParent";
         STATUS = ENABLED;
@@ -2613,8 +2613,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 273,
-                       BOTTOMRIGHT: 640 299,
+          SCREENRECT = UPPERLEFT: 160 224,
+                       BOTTOMRIGHT: 387 250,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED;
@@ -2662,8 +2662,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 160 306,
-                       BOTTOMRIGHT: 397 331,
+          SCREENRECT = UPPERLEFT: 160 260,
+                       BOTTOMRIGHT: 387 285,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:CheckAlternateMouse";
           STATUS = ENABLED+IMAGE+BORDER;
@@ -2711,8 +2711,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 411 306,
-                       BOTTOMRIGHT: 640 331,
+          SCREENRECT = UPPERLEFT: 160 428,
+                       BOTTOMRIGHT: 387 453,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ScrollSpeedLabel";
           STATUS = ENABLED;
@@ -2760,8 +2760,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = HORZSLIDER;
-          SCREENRECT = UPPERLEFT: 411 334,
-                       BOTTOMRIGHT: 640 359,
+          SCREENRECT = UPPERLEFT: 160 456,
+                       BOTTOMRIGHT: 387 481,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SliderScrollSpeed";
           STATUS = ENABLED+IMAGE+TABSTOP;
@@ -2837,8 +2837,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 160 362,
-                       BOTTOMRIGHT: 640 387,
+          SCREENRECT = UPPERLEFT: 160 316,
+                       BOTTOMRIGHT: 387 341,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:CheckDoubleClickAttackMove";
           STATUS = ENABLED+IMAGE+BORDER;
@@ -2886,8 +2886,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = CHECKBOX;
-          SCREENRECT = UPPERLEFT: 160 334,
-                       BOTTOMRIGHT: 397 359,
+          SCREENRECT = UPPERLEFT: 160 288,
+                       BOTTOMRIGHT: 387 313,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:Retaliation";
           STATUS = ENABLED+IMAGE+BORDER;
@@ -2987,8 +2987,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 401 69,
-                     BOTTOMRIGHT: 650 267,
+        SCREENRECT = UPPERLEFT: 403 64,
+                     BOTTOMRIGHT: 650 274,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:AudioParent";
         STATUS = ENABLED;
@@ -3033,7 +3033,7 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = HORZSLIDER;
-          SCREENRECT = UPPERLEFT: 411 239,
+          SCREENRECT = UPPERLEFT: 413 239,
                        BOTTOMRIGHT: 640 264,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SliderVoiceVolume";
@@ -3110,7 +3110,7 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 411 211,
+          SCREENRECT = UPPERLEFT: 413 211,
                        BOTTOMRIGHT: 640 236,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:VoiceVolumeLabel";
@@ -3160,7 +3160,7 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 411 99,
+          SCREENRECT = UPPERLEFT: 413 99,
                        BOTTOMRIGHT: 640 124,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:MusicVolumeLabel";
@@ -3210,7 +3210,7 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 411 155,
+          SCREENRECT = UPPERLEFT: 413 155,
                        BOTTOMRIGHT: 640 180,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:SFXVolumeLabel";
@@ -3260,8 +3260,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 411 69,
-                       BOTTOMRIGHT: 640 95,
+          SCREENRECT = UPPERLEFT: 413 64,
+                       BOTTOMRIGHT: 640 89,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED+WRAP_CENTERED;
@@ -3311,7 +3311,7 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = HORZSLIDER;
-        SCREENRECT = UPPERLEFT: 411 127,
+        SCREENRECT = UPPERLEFT: 413 127,
                      BOTTOMRIGHT: 640 152,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:SliderMusicVolume";
@@ -3388,7 +3388,7 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = HORZSLIDER;
-        SCREENRECT = UPPERLEFT: 411 183,
+        SCREENRECT = UPPERLEFT: 413 183,
                      BOTTOMRIGHT: 640 208,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:SliderSFXVolume";
@@ -3610,8 +3610,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 150 560,
-                     BOTTOMRIGHT: 650 585,
+        SCREENRECT = UPPERLEFT: 150 522,
+                     BOTTOMRIGHT: 650 537,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:LabelVersion";
         STATUS = ENABLED;
@@ -3756,8 +3756,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 140 54,
-                     BOTTOMRIGHT: 660 55,
+        SCREENRECT = UPPERLEFT: 140 53,
+                     BOTTOMRIGHT: 660 54,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line";
         STATUS = ENABLED;
@@ -3804,8 +3804,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 150 21,
-                     BOTTOMRIGHT: 650 54,
+        SCREENRECT = UPPERLEFT: 150 20,
+                     BOTTOMRIGHT: 650 53,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:";
         STATUS = ENABLED;
@@ -3853,8 +3853,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 402 94,
-                     BOTTOMRIGHT: 650 95,
+        SCREENRECT = UPPERLEFT: 403 89,
+                     BOTTOMRIGHT: 650 90,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line2";
         STATUS = ENABLED;
@@ -3900,8 +3900,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 298,
-                     BOTTOMRIGHT: 650 299,
+        SCREENRECT = UPPERLEFT: 150 250,
+                     BOTTOMRIGHT: 397 251,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line3";
         STATUS = ENABLED;
@@ -3947,8 +3947,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 428,
-                     BOTTOMRIGHT: 650 429,
+        SCREENRECT = UPPERLEFT: 403 306,
+                     BOTTOMRIGHT: 650 307,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line4";
         STATUS = ENABLED;
@@ -3994,8 +3994,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 94,
-                     BOTTOMRIGHT: 397 95,
+        SCREENRECT = UPPERLEFT: 150 89,
+                     BOTTOMRIGHT: 397 90,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:Line1";
         STATUS = ENABLED;
