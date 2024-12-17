@@ -53,7 +53,7 @@ WINDOW
   WINDOW
     WINDOWTYPE = USER;
     SCREENRECT = UPPERLEFT: 140 20,
-                 BOTTOMRIGHT: 660 537,
+                 BOTTOMRIGHT: 660 544,
                  CREATIONRESOLUTION: 800 600;
     NAME = "OptionsMenu.wnd:OptionsMenuParent";
     STATUS = ENABLED+NOFOCUS+SEE_THRU;
@@ -99,7 +99,7 @@ WINDOW
     WINDOW
       WINDOWTYPE = USER;
       SCREENRECT = UPPERLEFT: 140 20,
-                   BOTTOMRIGHT: 660 537,
+                   BOTTOMRIGHT: 660 544,
                    CREATIONRESOLUTION: 800 600;
       NAME = "OptionsMenu.wnd:OptionsMenuParentOld";
       STATUS = ENABLED;
@@ -293,7 +293,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
         SCREENRECT = UPPERLEFT: 487 497,
-                     BOTTOMRIGHT: 650 522,
+                     BOTTOMRIGHT: 650 529,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ButtonBack";
         STATUS = ENABLED+IMAGE;
@@ -342,7 +342,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
         SCREENRECT = UPPERLEFT: 319 497,
-                     BOTTOMRIGHT: 481 522,
+                     BOTTOMRIGHT: 481 529,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ButtonAccept";
         STATUS = ENABLED+IMAGE;
@@ -391,7 +391,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = PUSHBUTTON;
         SCREENRECT = UPPERLEFT: 150 497,
-                     BOTTOMRIGHT: 313 522,
+                     BOTTOMRIGHT: 313 529,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:ButtonDefaults";
         STATUS = ENABLED+IMAGE;
@@ -3610,8 +3610,8 @@ WINDOW
       CHILD
       WINDOW
         WINDOWTYPE = STATICTEXT;
-        SCREENRECT = UPPERLEFT: 150 522,
-                     BOTTOMRIGHT: 650 537,
+        SCREENRECT = UPPERLEFT: 150 529,
+                     BOTTOMRIGHT: 650 544,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:LabelVersion";
         STATUS = ENABLED;
@@ -4043,7 +4043,7 @@ WINDOW
       WINDOW
         WINDOWTYPE = USER;
         SCREENRECT = UPPERLEFT: 150 64,
-                     BOTTOMRIGHT: 650 522,
+                     BOTTOMRIGHT: 650 529,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:WinAdvancedDisplayOptions";
         STATUS = ENABLED+HIDDEN;
@@ -4136,7 +4136,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = PUSHBUTTON;
           SCREENRECT = UPPERLEFT: 308 488,
-                       BOTTOMRIGHT: 471 513,
+                       BOTTOMRIGHT: 471 520,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ButtonAdvanceAccept";
           STATUS = ENABLED+IMAGE;
@@ -4185,7 +4185,7 @@ WINDOW
         WINDOW
           WINDOWTYPE = PUSHBUTTON;
           SCREENRECT = UPPERLEFT: 477 488,
-                       BOTTOMRIGHT: 640 513,
+                       BOTTOMRIGHT: 640 520,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ButtonAdvanceBack";
           STATUS = ENABLED+IMAGE;
