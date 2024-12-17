@@ -4042,8 +4042,8 @@ WINDOW
       ; Win Advanced Display Options
       WINDOW
         WINDOWTYPE = USER;
-        SCREENRECT = UPPERLEFT: 150 69,
-                     BOTTOMRIGHT: 650 560,
+        SCREENRECT = UPPERLEFT: 150 64,
+                     BOTTOMRIGHT: 650 522,
                      CREATIONRESOLUTION: 800 600;
         NAME = "OptionsMenu.wnd:WinAdvancedDisplayOptions";
         STATUS = ENABLED+HIDDEN;
@@ -4088,8 +4088,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 150 105,
-                       BOTTOMRIGHT: 650 106,
+          SCREENRECT = UPPERLEFT: 150 97,
+                       BOTTOMRIGHT: 650 98,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:AdvanceOptionsLine";
           STATUS = ENABLED;
@@ -4135,8 +4135,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = PUSHBUTTON;
-          SCREENRECT = UPPERLEFT: 307 515,
-                       BOTTOMRIGHT: 471 547,
+          SCREENRECT = UPPERLEFT: 308 488,
+                       BOTTOMRIGHT: 471 513,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ButtonAdvanceAccept";
           STATUS = ENABLED+IMAGE;
@@ -4184,8 +4184,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = PUSHBUTTON;
-          SCREENRECT = UPPERLEFT: 476 515,
-                       BOTTOMRIGHT: 640 547,
+          SCREENRECT = UPPERLEFT: 477 488,
+                       BOTTOMRIGHT: 640 513,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ButtonAdvanceBack";
           STATUS = ENABLED+IMAGE;
@@ -4233,8 +4233,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = STATICTEXT;
-          SCREENRECT = UPPERLEFT: 160 74,
-                       BOTTOMRIGHT: 640 102,
+          SCREENRECT = UPPERLEFT: 160 64,
+                       BOTTOMRIGHT: 640 97,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED+WRAP_CENTERED;
@@ -4282,8 +4282,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 160 112,
-                       BOTTOMRIGHT: 640 300,
+          SCREENRECT = UPPERLEFT: 160 107,
+                       BOTTOMRIGHT: 640 284,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:";
           STATUS = ENABLED;
@@ -4328,8 +4328,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 170 151,
-                         BOTTOMRIGHT: 400 176,
+            SCREENRECT = UPPERLEFT: 170 140,
+                         BOTTOMRIGHT: 397 165,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:Check3DShadows";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4377,8 +4377,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 405 179,
-                         BOTTOMRIGHT: 630 204,
+            SCREENRECT = UPPERLEFT: 403 168,
+                         BOTTOMRIGHT: 630 193,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckShowProps";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4426,8 +4426,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 405 151,
-                         BOTTOMRIGHT: 630 176,
+            SCREENRECT = UPPERLEFT: 403 140,
+                         BOTTOMRIGHT: 630 165,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckBehindBuilding";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4475,8 +4475,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 170 179,
-                         BOTTOMRIGHT: 400 204,
+            SCREENRECT = UPPERLEFT: 170 168,
+                         BOTTOMRIGHT: 397 193,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:Check2DShadows";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4524,8 +4524,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 170 235,
-                         BOTTOMRIGHT: 400 260,
+            SCREENRECT = UPPERLEFT: 170 224,
+                         BOTTOMRIGHT: 397 249,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckGroundLighting";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4573,8 +4573,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 405 235,
-                         BOTTOMRIGHT: 630 260,
+            SCREENRECT = UPPERLEFT: 403 224,
+                         BOTTOMRIGHT: 630 249,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckNoDynamicLOD";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4622,8 +4622,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 405 263,
-                         BOTTOMRIGHT: 630 288,
+            SCREENRECT = UPPERLEFT: 403 252,
+                         BOTTOMRIGHT: 630 277,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckHeatEffects";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4671,7 +4671,7 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 405 264,
+            SCREENRECT = UPPERLEFT: 403 264,
                          BOTTOMRIGHT: 630 288,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckUnlockFPS";
@@ -4720,8 +4720,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 170 207,
-                         BOTTOMRIGHT: 400 232,
+            SCREENRECT = UPPERLEFT: 170 196,
+                         BOTTOMRIGHT: 397 221,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckCloudShadows";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4769,8 +4769,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 405 207,
-                         BOTTOMRIGHT: 630 232,
+            SCREENRECT = UPPERLEFT: 403 196,
+                         BOTTOMRIGHT: 630 221,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckExtraAnimations";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4818,8 +4818,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = CHECKBOX;
-            SCREENRECT = UPPERLEFT: 170 263,
-                         BOTTOMRIGHT: 400 288,
+            SCREENRECT = UPPERLEFT: 170 252,
+                         BOTTOMRIGHT: 397 277,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:CheckSmoothWater";
             STATUS = ENABLED+IMAGE+BORDER;
@@ -4867,8 +4867,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = USER;
-            SCREENRECT = UPPERLEFT: 160 139,
-                         BOTTOMRIGHT: 640 140,
+            SCREENRECT = UPPERLEFT: 160 133,
+                         BOTTOMRIGHT: 640 134,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:ToggleOnOffLine";
             STATUS = ENABLED;
@@ -4914,8 +4914,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 170 112,
-                         BOTTOMRIGHT: 630 140,
+            SCREENRECT = UPPERLEFT: 170 107,
+                         BOTTOMRIGHT: 630 133,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED+WRAP_CENTERED;
@@ -4965,8 +4965,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 160 310,
-                       BOTTOMRIGHT: 640 405,
+          SCREENRECT = UPPERLEFT: 160 290,
+                       BOTTOMRIGHT: 640 383,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:LowResWin";
           STATUS = ENABLED;
@@ -5011,8 +5011,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 170 310,
-                         BOTTOMRIGHT: 640 338,
+            SCREENRECT = UPPERLEFT: 170 290,
+                         BOTTOMRIGHT: 640 316,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5060,8 +5060,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = HORZSLIDER;
-            SCREENRECT = UPPERLEFT: 285 355,
-                         BOTTOMRIGHT: 515 380,
+            SCREENRECT = UPPERLEFT: 284 323,
+                         BOTTOMRIGHT: 517 348,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:LowResSlider";
             STATUS = ENABLED+IMAGE+TABSTOP;
@@ -5137,8 +5137,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 400 375,
-                         BOTTOMRIGHT: 630 400,
+            SCREENRECT = UPPERLEFT: 403 351,
+                         BOTTOMRIGHT: 630 376,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5186,8 +5186,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = USER;
-            SCREENRECT = UPPERLEFT: 160 338,
-                         BOTTOMRIGHT: 640 339,
+            SCREENRECT = UPPERLEFT: 160 316,
+                         BOTTOMRIGHT: 640 317,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:LowResLine";
             STATUS = ENABLED;
@@ -5233,8 +5233,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 170 375,
-                         BOTTOMRIGHT: 400 400,
+            SCREENRECT = UPPERLEFT: 170 351,
+                         BOTTOMRIGHT: 397 376,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5284,8 +5284,8 @@ WINDOW
         CHILD
         WINDOW
           WINDOWTYPE = USER;
-          SCREENRECT = UPPERLEFT: 160 415,
-                       BOTTOMRIGHT: 640 505,
+          SCREENRECT = UPPERLEFT: 160 389,
+                       BOTTOMRIGHT: 640 482,
                        CREATIONRESOLUTION: 800 600;
           NAME = "OptionsMenu.wnd:ParticleCapWin";
           STATUS = ENABLED;
@@ -5330,8 +5330,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 170 415,
-                         BOTTOMRIGHT: 430 443,
+            SCREENRECT = UPPERLEFT: 170 389,
+                         BOTTOMRIGHT: 430 415,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5379,8 +5379,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 170 475,
-                         BOTTOMRIGHT: 400 500,
+            SCREENRECT = UPPERLEFT: 170 450,
+                         BOTTOMRIGHT: 397 475,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5428,8 +5428,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = STATICTEXT;
-            SCREENRECT = UPPERLEFT: 400 475,
-                         BOTTOMRIGHT: 630 500,
+            SCREENRECT = UPPERLEFT: 400 450,
+                         BOTTOMRIGHT: 630 475,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:";
             STATUS = ENABLED;
@@ -5477,8 +5477,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = USER;
-            SCREENRECT = UPPERLEFT: 160 442,
-                         BOTTOMRIGHT: 640 443,
+            SCREENRECT = UPPERLEFT: 160 415,
+                         BOTTOMRIGHT: 640 416,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:ParticleCapLine";
             STATUS = ENABLED;
@@ -5524,8 +5524,8 @@ WINDOW
           CHILD
           WINDOW
             WINDOWTYPE = HORZSLIDER;
-            SCREENRECT = UPPERLEFT: 285 460,
-                         BOTTOMRIGHT: 515 485,
+            SCREENRECT = UPPERLEFT: 284 422,
+                         BOTTOMRIGHT: 517 447,
                          CREATIONRESOLUTION: 800 600;
             NAME = "OptionsMenu.wnd:ParticleCapSlider";
             STATUS = ENABLED+IMAGE+TABSTOP;
