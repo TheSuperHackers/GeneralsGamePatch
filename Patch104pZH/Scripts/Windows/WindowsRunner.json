@@ -10,7 +10,7 @@
         "gameExeArgs": {
             "-win": "",
             "-quickstart": "",
-            "-noshellmap": ""
+            "-nologo": ""
         },
         "relevantGameDataFileTypes": [
             "ani",
