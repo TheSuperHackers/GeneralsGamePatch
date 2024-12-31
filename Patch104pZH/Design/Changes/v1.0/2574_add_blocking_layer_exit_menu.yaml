@@ -1,0 +1,19 @@
+---
+date: 2024-12-31
+
+title: Added a blocking layer to prevent interaction with the control bar while in the exit menu
+
+changes:
+  - fix: Adds a blocking layer with 19.6% transparency to prevent interaction with the game while in the exit menu.
+  - tweak: Improves the interaction behavior of the exit menu by adding a transparent blocking layer.
+
+labels:
+  - fix
+  - gui
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2574
+
+authors:
+  - DevGeniusCode
