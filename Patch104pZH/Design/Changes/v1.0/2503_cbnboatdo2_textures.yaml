@@ -1,0 +1,36 @@
+---
+date: 2024-09-06
+
+title: Fixes cbnboatdo2 textures
+
+changes:
+  - fix: Fixes Civilian cbnboatdo2 textures.
+
+subchanges:
+  - fix: |
+      cbnboatdo2_e, cbnboatdo2_r
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbnboatdo2_es, cbnboatdo2_rs
+        - Fixes missing snow on booths
+        - Fixes snow drawing over burns
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbnboatdo2_en
+        - Fixes incorrect night light
+  - optimization: |
+      cbnboatdo2_esn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2503
+
+authors:
+  - xezon
