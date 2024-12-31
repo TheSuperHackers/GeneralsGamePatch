@@ -9,7 +9,8 @@
         "gameExeFile": "generals.exe",
         "gameExeArgs": {
             "-win": "",
-            "-quickstart": ""
+            "-quickstart": "",
+            "-nologo": ""
         },
         "relevantGameDataFileTypes": [
             "ani",
