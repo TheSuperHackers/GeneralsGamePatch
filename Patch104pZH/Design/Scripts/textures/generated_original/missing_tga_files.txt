@@ -1,0 +1,7 @@
+SCGenChallengeLoad512_001.tga
+SCGenChallengeLoad512_002.tga
+SCGenChallengeLoad512_003.tga
+SCGenChallengeLoad512_004.tga
+SCPurchasePowers512_001.tga
+SCPurchasePowers512_002.tga
+SCPurchasePowers512_003.tga
