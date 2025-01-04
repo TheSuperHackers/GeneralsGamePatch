@@ -98,8 +98,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 52 80,
-                   BOTTOMRIGHT: 213 104,
+      SCREENRECT = UPPERLEFT: 422 373,
+                   BOTTOMRIGHT: 619 397,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
@@ -147,8 +147,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 576 507,
-                   BOTTOMRIGHT: 747 543,
+      SCREENRECT = UPPERLEFT: 54 507,
+                   BOTTOMRIGHT: 225 543,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonBack";
       STATUS = ENABLED+IMAGE;
@@ -195,8 +195,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 54 507,
-                   BOTTOMRIGHT: 225 543,
+      SCREENRECT = UPPERLEFT: 420 427,
+                   BOTTOMRIGHT: 620 463,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonHost";
       STATUS = ENABLED+IMAGE;
@@ -243,8 +243,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 228 507,
-                   BOTTOMRIGHT: 399 543,
+      SCREENRECT = UPPERLEFT: 420 467,
+                   BOTTOMRIGHT: 620 503,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonJoin";
       STATUS = ENABLED+IMAGE;
@@ -291,8 +291,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 402 507,
-                   BOTTOMRIGHT: 574 543,
+      SCREENRECT = UPPERLEFT: 420 507,
+                   BOTTOMRIGHT: 620 543,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonDirectConnect";
       STATUS = ENABLED+IMAGE;
@@ -339,8 +339,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = ENTRYFIELD;
-      SCREENRECT = UPPERLEFT: 217 81,
-                   BOTTOMRIGHT: 417 106,
+      SCREENRECT = UPPERLEFT: 421 398,
+                   BOTTOMRIGHT: 545 423,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:TextEntryPlayerName";
       STATUS = ENABLED+IMAGE;
@@ -392,8 +392,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 53 131,
-                   BOTTOMRIGHT: 274 311,
+      SCREENRECT = UPPERLEFT: 292 75,
+                   BOTTOMRIGHT: 420 560,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ListboxPlayers";
       STATUS = ENABLED+NOFOCUS;
@@ -442,6 +442,7 @@ WINDOW
                     SCROLLBAR: 1,
                     MULTISELECT: 0,
                     COLUMNS: 1,
+                    COLUMNSWIDTH: 30,
                     FORCESELECT: 0;
       LISTBOXENABLEDUPBUTTONDRAWDATA = IMAGE: VSliderUpButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
                                        IMAGE: VSliderUpButtonHiliteSelected, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
@@ -555,8 +556,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 53 103,
-                   BOTTOMRIGHT: 309 131,
+      SCREENRECT = UPPERLEFT: 292 49,
+                   BOTTOMRIGHT: 419 75,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
@@ -604,8 +605,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 275 103,
-                   BOTTOMRIGHT: 515 131,
+      SCREENRECT = UPPERLEFT: 621 49,
+                   BOTTOMRIGHT: 799 75,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
@@ -653,8 +654,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 277 131,
-                   BOTTOMRIGHT: 517 311,
+      SCREENRECT = UPPERLEFT: 620 75,
+                   BOTTOMRIGHT: 759 560,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ListboxGames";
       STATUS = ENABLED+NOFOCUS;
@@ -703,6 +704,7 @@ WINDOW
                     SCROLLBAR: 1,
                     MULTISELECT: 0,
                     COLUMNS: 1,
+                    COLUMNSWIDTH: 30,
                     FORCESELECT: 0;
       LISTBOXENABLEDUPBUTTONDRAWDATA = IMAGE: VSliderUpButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
                                        IMAGE: VSliderUpButtonHiliteSelected, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
@@ -816,8 +818,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 521 130,
-                   BOTTOMRIGHT: 753 310,
+      SCREENRECT = UPPERLEFT: 420 75,
+                   BOTTOMRIGHT: 620 288,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:StaticTextGameInfo";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
@@ -864,8 +866,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = STATICTEXT;
-      SCREENRECT = UPPERLEFT: 521 103,
-                   BOTTOMRIGHT: 709 127,
+      SCREENRECT = UPPERLEFT: 421 49,
+                   BOTTOMRIGHT: 620 75,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:";
       STATUS = ENABLED+NOINPUT+NOFOCUS;
@@ -913,8 +915,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = SCROLLLISTBOX;
-      SCREENRECT = UPPERLEFT: 52 315,
-                   BOTTOMRIGHT: 751 462,
+      SCREENRECT = UPPERLEFT: 52 79,
+                   BOTTOMRIGHT: 288 462,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ListboxChatWindowLanLobby";
       STATUS = ENABLED+NOFOCUS;
@@ -963,6 +965,7 @@ WINDOW
                     SCROLLBAR: 1,
                     MULTISELECT: 0,
                     COLUMNS: 1,
+                    COLUMNSWIDTH: 30,
                     FORCESELECT: 0;
       LISTBOXENABLEDUPBUTTONDRAWDATA = IMAGE: VSliderUpButtonEnabled, COLOR: 255 0 0 255, BORDERCOLOR: 255 128 128 255,
                                        IMAGE: VSliderUpButtonHiliteSelected, COLOR: 255 255 0 255, BORDERCOLOR: 254 254 254 255,
@@ -1076,8 +1079,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = ENTRYFIELD;
-      SCREENRECT = UPPERLEFT: 53 469,
-                   BOTTOMRIGHT: 690 493,
+      SCREENRECT = UPPERLEFT: 52 467,
+                   BOTTOMRIGHT: 288 491,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:TextEntryChat";
       STATUS = ENABLED+IMAGE;
@@ -1129,8 +1132,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 420 81,
-                   BOTTOMRIGHT: 491 106,
+      SCREENRECT = UPPERLEFT: 546 398,
+                   BOTTOMRIGHT: 619 423,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonClear";
       STATUS = ENABLED+IMAGE;
@@ -1178,8 +1181,8 @@ WINDOW
     CHILD
     WINDOW
       WINDOWTYPE = PUSHBUTTON;
-      SCREENRECT = UPPERLEFT: 714 467,
-                   BOTTOMRIGHT: 750 491,
+      SCREENRECT = UPPERLEFT: 810 519,
+                   BOTTOMRIGHT: 846 543,
                    CREATIONRESOLUTION: 800 600;
       NAME = "LanLobbyMenu.wnd:ButtonEmote";
       STATUS = ENABLED+IMAGE;

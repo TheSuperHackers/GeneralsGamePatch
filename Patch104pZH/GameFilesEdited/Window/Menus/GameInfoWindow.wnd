@@ -53,7 +53,7 @@ WINDOW
   WINDOW
     WINDOWTYPE = SCROLLLISTBOX;
     SCREENRECT = UPPERLEFT: 292 196,
-                 BOTTOMRIGHT: 516 304,
+                 BOTTOMRIGHT: 485 336,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameInfoWindow.wnd:ListBoxPlayers";
     STATUS = ENABLED;
@@ -99,7 +99,7 @@ WINDOW
     LISTBOXDATA = LENGTH: 9,
                   AUTOSCROLL: 0,
                   AUTOPURGE: 0,
-                  SCROLLBAR: 1,
+                  SCROLLBAR: 0,
                   MULTISELECT: 0,
                   COLUMNS: 2,
                   COLUMNSWIDTH: 15,
@@ -218,7 +218,7 @@ WINDOW
   WINDOW
     WINDOWTYPE = STATICTEXT;
     SCREENRECT = UPPERLEFT: 292 132,
-                 BOTTOMRIGHT: 360 152,
+                 BOTTOMRIGHT: 333 152,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameInfoWindow.wnd:";
     STATUS = ENABLED;
@@ -267,7 +267,7 @@ WINDOW
   WINDOW
     WINDOWTYPE = STATICTEXT;
     SCREENRECT = UPPERLEFT: 292 176,
-                 BOTTOMRIGHT: 406 196,
+                 BOTTOMRIGHT: 333 196,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameInfoWindow.wnd:";
     STATUS = ENABLED;
@@ -316,7 +316,7 @@ WINDOW
   WINDOW
     WINDOWTYPE = STATICTEXT;
     SCREENRECT = UPPERLEFT: 292 152,
-                 BOTTOMRIGHT: 360 180,
+                 BOTTOMRIGHT: 333 180,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameInfoWindow.wnd:";
     STATUS = ENABLED;
@@ -364,8 +364,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 360 152,
-                 BOTTOMRIGHT: 516 180,
+    SCREENRECT = UPPERLEFT: 334 152,
+                 BOTTOMRIGHT: 490 180,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameInfoWindow.wnd:StaticTextMapName";
     STATUS = ENABLED;
@@ -414,8 +414,8 @@ WINDOW
   CHILD
   WINDOW
     WINDOWTYPE = STATICTEXT;
-    SCREENRECT = UPPERLEFT: 360 132,
-                 BOTTOMRIGHT: 516 152,
+    SCREENRECT = UPPERLEFT: 334 132,
+                 BOTTOMRIGHT: 490 152,
                  CREATIONRESOLUTION: 800 600;
     NAME = "GameInfoWindow.wnd:StaticTextGameName";
     STATUS = ENABLED;
