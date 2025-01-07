@@ -13,8 +13,8 @@ def get_tga_and_textures(folder_path):
             if filename.lower().endswith('.ini'):
                 if filename.lower() == 'handcreatedmappedimages.ini'.lower():
                     # Skip this file since it contains hand-created image mappings that are not relevant to the scan
-                    # pass
-                    continue
+                    pass
+                    # continue
                 file_path = os.path.join(root, filename)
                 with open(file_path, 'r') as file:
                     content = file.read()
@@ -29,8 +29,7 @@ def get_tga_and_textures(folder_path):
                         else:
                             duplicate_textures.append((filename, txtur))
 
-    return list(texture_and_file), list(textures), list(tga_files), duplicate_textures
-
+    return texture_and_file, list(textures), list(tga_files), duplicate_textures
 
 def check_tga_in_csv(tga_files, csv_file_path, txtur_folder_path=None):
     missing_tga = []
@@ -46,21 +45,23 @@ def check_tga_in_csv(tga_files, csv_file_path, txtur_folder_path=None):
     for line in csv_content:
         tga_file = line.split(',')[0]
         file_name = re.sub(r'.*/', '', tga_file).lower()
-        if file_name.endswith('.tga'):
-            csv_files.add(file_name)
+        if file_name.endswith('.tga') or file_name.endswith('.dds'):
+            base_name, _ = os.path.splitext(file_name)
+            csv_files.add(base_name)
 
     if txtur_folder_path:
         for root, dirs, files in os.walk(txtur_folder_path):
             for file in files:
-                if file.lower().endswith('.tga'):
-                    csv_files.add(file.lower())
+                if file.lower().endswith('.tga') or file.lower().endswith('.dds'):
+                    base_name, _ = os.path.splitext(file.lower())
+                    csv_files.add(base_name)
 
     for tga in tga_files:
-        if tga.lower() not in csv_files:
+        base_name, _ = os.path.splitext(tga.lower())
+        if base_name not in csv_files:
             missing_tga.append(tga)
 
-    return sorted(list(missing_tga))
-
+    return sorted(missing_tga)
 
 def check_textures_in_wnd(wnd_folder_path, images):
     missing_textures = set()

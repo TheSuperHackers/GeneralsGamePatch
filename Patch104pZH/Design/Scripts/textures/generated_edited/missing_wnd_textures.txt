@@ -1,14 +1,5 @@
 CheckBoxUseStatsChecked
 CheckBoxUseStatsUnchecked
-CreditsScreen
-Defeated
-GCBackgroundMinSpec
-GameOver
-InGameUIChinaBase
-LoadPageHuge
-MDSkirmishLoadB
-MainMenuBackdrop
-MainMenuRuler
 MarketingScreen
 ProgressBarDisabledBarLeftEnd
 ProgressBarDisabledBarRepeatingCenter
@@ -41,7 +32,6 @@ PushButtonHiliteSelected
 StaticTextDisabled
 StaticTextEnabled
 StaticTextHilite
-TitleScreen
 VSliderDisabledBottomEnd
 VSliderDisabledRepeatingCenter
 VSliderDisabledSmallRepeatingCenter
@@ -54,9 +44,7 @@ VSliderHiliteBottomEnd
 VSliderHiliteRepeatingCenter
 VSliderHiliteSmallRepeatingCenter
 VSliderHiliteTopEnd
-Victorious
 VsliderThumbDisabled
 VsliderThumbEnabled
 VsliderThumbHilite
 VsliderThumbHiliteSelected
-WarSchoolWindow
