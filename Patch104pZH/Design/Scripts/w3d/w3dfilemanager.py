@@ -40,7 +40,7 @@ class W3dFileManager:
         texture_pattern = re.compile(r'([a-zA-Z0-9_\-]+)\.(tga|dds)', re.IGNORECASE)
         textures = set()
 
-        for match in texture_pattern.finditer(w3dfile.data.decode('utf-8', errors='ignore')):
+        for match in texture_pattern.finditer(w3dfile.data.decode('ascii', errors='ignore')):
             textures.add(match.group(0))
 
         return list(textures)

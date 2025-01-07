@@ -11,11 +11,11 @@ def read_file_content(file_path):
         print(f"Error: The file {file_path} was not found.")
         return None
 
-def get_tga_and_textures(folder_path):
-    texture_and_file = []  # List of (tga, texture)
-    textures = set()  # Set of unique textures
-    tga_files = set()  # Set of unique tga files
-    duplicate_textures = []  # List of duplicate textures
+def get_mapped_images_and_textures(folder_path):
+    mapped_images = set()  # Set of unique mapped images
+    textures = set()  # Set of unique textures files
+    mapped_images_and_textures_files = []  # List of (texture, mapped_image)
+    duplicate_images = []  # List of duplicate mapped_images
 
     for root, _, files in os.walk(folder_path):
         for filename in files:
@@ -28,66 +28,71 @@ def get_tga_and_textures(folder_path):
                 content = read_file_content(file_path)
                 if content:
                     matches = re.findall(r"MappedImage (\S+)\s*Texture\s*=\s*(\S+)", content)
-                    for texture, tga in matches:
-                        texture_and_file.append((tga, texture))
-                        tga_files.add(tga)
-                        if texture not in textures:
-                            textures.add(texture)
+                    for image, texture in matches:
+                        mapped_images_and_textures_files.append((texture, image))
+                        textures.add(texture)
+                        if image not in mapped_images:
+                            mapped_images.add(image)
                         else:
-                            duplicate_textures.append((filename, texture))
+                            duplicate_images.append((filename, image))
 
-    return texture_and_file, list(textures), list(tga_files), duplicate_textures
+    return mapped_images_and_textures_files, list(mapped_images), list(textures), duplicate_images
 
-def get_csv_files(csv_file_path, texture_folder_path=None):
+def get_textures_from_csv(csv_file_path):
     """Get all the texture files listed in the CSV and optionally from a folder."""
-    textures_in_csv = set()
+    textures = set()
     csv_content = read_file_content(csv_file_path)
     if not csv_content:
-        return textures_in_csv
+        return textures
 
     for line in csv_content.splitlines():
-        tga_file = line.split(',')[0]
-        file_name = re.sub(r'.*/', '', tga_file).lower()
+        texture_file = line.split(',')[0]
+        file_name = re.sub(r'.*/', '', texture_file).lower()
         if file_name.endswith(('.tga', '.dds')):
             base_name, _ = os.path.splitext(file_name)
-            textures_in_csv.add(base_name)
+            textures.add(base_name)
 
+    return textures
+
+def get_textures_from_folder(texture_folder_path=None):
+    """Get all the texture files in a folder."""
+    textures = set()
     if texture_folder_path:
         for root, _, files in os.walk(texture_folder_path):
             for file in files:
                 if file.lower().endswith(('.tga', '.dds', '.psd')):
                     base_name, _ = os.path.splitext(file.lower())
-                    textures_in_csv.add(base_name)
+                    textures.add(base_name)
 
-    return textures_in_csv
+    return textures
 
-def check_tga_in_csv(tga_files, textures_in_csv):
-    missing_tga = []
-    for tga in tga_files:
-        base_name, _ = os.path.splitext(tga.lower())
-        if base_name not in textures_in_csv:
-            missing_tga.append(tga)
+def missing_textures_in_files(textures, textures_files):
+    missing_textures = []
+    for texture in textures:
+        texture_name, _ = os.path.splitext(texture.lower())
+        if texture_name not in textures_files:
+            missing_textures.append(texture)
 
-    return sorted(missing_tga)
+    return sorted(missing_textures)
 
-def check_textures_in_wnd(wnd_folder_path, textures_list):
-    missing_textures = set()
+def invalid_images_in_wnd(wnd_folder_path, images):
+    invalid_images = set()
     for root, _, files in os.walk(wnd_folder_path):
         for filename in files:
             if filename.lower().endswith('.wnd'):
                 file_path = os.path.join(root, filename)
                 content = read_file_content(file_path)
                 if content:
-                    found_textures = re.findall(r"IMAGE:\s*([^\s,]+)", content)
-                    for texture in found_textures:
-                        if texture != 'NoImage' and texture not in textures_list:
-                            missing_textures.add(texture)
+                    found_images = re.findall(r"IMAGE:\s*([^\s,]+)", content)
+                    for image in found_images:
+                        if image != 'NoImage' and image not in images:
+                            invalid_images.add(image)
 
-    return sorted(list(missing_textures))
+    return sorted(list(invalid_images))
 
-def find_invalid_textures_in_w3d(textures_in_csv, w3d_folder_path):
+def invalid_textures_in_w3d(textures_files, w3d_folder_path):
     w3d_file_manager = W3dFileManager()
-    missing_textures_in_w3d = []
+    invalid_w3d_textures = []
 
     for root, _, files in os.walk(w3d_folder_path):
         for file in files:
@@ -95,16 +100,16 @@ def find_invalid_textures_in_w3d(textures_in_csv, w3d_folder_path):
                 w3d_file_path = os.path.join(root, file)
                 w3d_file_path = os.path.normpath(w3d_file_path)
                 textures_in_w3d = w3d_file_manager.get_textures(w3d_file_path)
-                missing_textures = []
+                invalid_textures = []
 
                 for texture in textures_in_w3d:
-                    base_name, _ = os.path.splitext(texture.lower())
-                    if base_name not in textures_in_csv:
-                        missing_textures.append(texture)
-                if missing_textures:
-                    missing_textures_in_w3d.append((file, missing_textures))
+                    texture_name, _ = os.path.splitext(texture.lower())
+                    if texture_name not in textures_files:
+                        invalid_textures.append(texture)
+                if invalid_textures:
+                    invalid_w3d_textures.append((file, invalid_textures))
 
-    return missing_textures_in_w3d
+    return invalid_w3d_textures
 
 def write_to_file(output_path, data, format_func=None):
     with open(output_path, 'w') as f:
@@ -113,7 +118,7 @@ def write_to_file(output_path, data, format_func=None):
 
 def main():
     # Select whether to scan the original or edited files.
-    is_original = True
+    is_original = False
 
     folder_paths = {
         'ini': '../../../GameFilesOriginalZH/Data/INI/MappedImages' if is_original else '../../../GameFilesEdited/Data/INI/MappedImages',
@@ -126,19 +131,20 @@ def main():
     output_folder = 'generated_original' if is_original else 'generated_edited'
     os.makedirs(output_folder, exist_ok=True)
 
-    texture_and_file, textures, tga_files, duplicate_textures = get_tga_and_textures(folder_paths['ini'])
-    textures_in_csv = get_csv_files(folder_paths['csv'], folder_paths['textures'])
+    texture_and_images, images, textures, duplicate_images = get_mapped_images_and_textures(folder_paths['ini'])
+    textures_files = get_textures_from_csv(folder_paths['csv']).union(
+        get_textures_from_folder(folder_paths['textures']))
 
-    write_to_file(os.path.join(output_folder, 'mapped_textures_list.txt'), texture_and_file, lambda x: f"{x[0]} {x[1]}")
-    write_to_file(os.path.join(output_folder, 'duplicate_mapped_textures.txt'), duplicate_textures, lambda x: f"{x[0]} {x[1]}")
+    write_to_file(os.path.join(output_folder, 'mapped_images_list.txt'), texture_and_images, lambda x: f"{x[0]} {x[1]}")
+    write_to_file(os.path.join(output_folder, 'duplicate_mapped_images.txt'), duplicate_images, lambda x: f"{x[0]} {x[1]}")
 
-    missing_tga = check_tga_in_csv(tga_files, textures_in_csv)
-    write_to_file(os.path.join(output_folder, 'missing_tga_files.txt'), missing_tga)
+    missing_textures = missing_textures_in_files(textures, textures_files)
+    write_to_file(os.path.join(output_folder, 'missing_textures_files.txt'), missing_textures)
 
-    missing_wnd_textures = check_textures_in_wnd(folder_paths['wnd'], textures)
-    write_to_file(os.path.join(output_folder, 'missing_wnd_textures.txt'), missing_wnd_textures)
+    invalid_wnd_images = invalid_images_in_wnd(folder_paths['wnd'], images)
+    write_to_file(os.path.join(output_folder, 'invalid_wnd_images.txt'), invalid_wnd_images)
 
-    invalid_textures_in_w3d_files = find_invalid_textures_in_w3d(textures_in_csv, folder_paths['w3d'])
+    invalid_textures_in_w3d_files = invalid_textures_in_w3d(textures_files, folder_paths['w3d'])
     write_to_file(os.path.join(output_folder, 'invalid_textures_in_w3d_files.txt'),
                   [f"{w3d_file} {', '.join(textures)}" for w3d_file, textures in invalid_textures_in_w3d_files])
 
