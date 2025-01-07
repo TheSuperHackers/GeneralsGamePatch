@@ -1,5 +1,6 @@
 import os
 import re
+from Patch104pZH.Design.Scripts.w3d.w3dfilemanager import W3dFileManager
 
 def read_file_content(file_path):
     """Helper function to read file content once and return it."""
@@ -84,6 +85,31 @@ def check_textures_in_wnd(wnd_folder_path, textures_list):
 
     return sorted(list(missing_textures))
 
+def find_invalid_textures_in_w3d(textures_in_csv, w3d_folder_path):
+    w3d_file_manager = W3dFileManager()
+    missing_textures_in_w3d = []
+
+    for root, _, files in os.walk(w3d_folder_path):
+        for file in files:
+            if file.lower().endswith('.w3d'):
+                w3d_file_path = os.path.join(root, file)
+                w3d_file_path = os.path.normpath(w3d_file_path)
+                textures_in_w3d = w3d_file_manager.get_textures(w3d_file_path)
+                missing_textures = []
+
+                for texture in textures_in_w3d:
+                    base_name, _ = os.path.splitext(texture.lower())
+                    if base_name not in textures_in_csv:
+                        missing_textures.append(texture)
+                if missing_textures:
+                    missing_textures_in_w3d.append((file, missing_textures))
+
+    return missing_textures_in_w3d
+
+def write_to_file(output_path, data, format_func=None):
+    with open(output_path, 'w') as f:
+        for item in data:
+            f.write(f"{format_func(item) if format_func else item}\n")
 
 def main():
     # Select whether to scan the original or edited files.
@@ -92,7 +118,7 @@ def main():
     folder_paths = {
         'ini': '../../../GameFilesOriginalZH/Data/INI/MappedImages' if is_original else '../../../GameFilesEdited/Data/INI/MappedImages',
         'wnd': '../../../GameFilesOriginalZH/Window' if is_original else '../../../GameFilesEdited/Window',
-        'w3d': 'D:\\Rufus\\Art\\W3D' if is_original else '../../../GameFilesEdited/Art/W3D',
+        'w3d': '../../../GameFilesOriginalZH/Art/W3D' if is_original else '../../../GameFilesEdited/Art/W3D',
         'textures': None if is_original else '../../../GameFilesEdited/Art/Textures',
         'csv': '../../../Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv'
     }
@@ -111,6 +137,10 @@ def main():
 
     missing_wnd_textures = check_textures_in_wnd(folder_paths['wnd'], textures)
     write_to_file(os.path.join(output_folder, 'missing_wnd_textures.txt'), missing_wnd_textures)
+
+    invalid_textures_in_w3d_files = find_invalid_textures_in_w3d(textures_in_csv, folder_paths['w3d'])
+    write_to_file(os.path.join(output_folder, 'invalid_textures_in_w3d_files.txt'),
+                  [f"{w3d_file} {', '.join(textures)}" for w3d_file, textures in invalid_textures_in_w3d_files])
 
 
 if __name__ == "__main__":
