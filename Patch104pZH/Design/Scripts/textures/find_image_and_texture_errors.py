@@ -156,7 +156,7 @@ def extract_textures_and_images_from_ini_files(folder_path):
         },
         "object_folder": {
             "image": r'^\s*(SelectPortrait|ButtonImage)\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
-            "texture_single": r'^\s*(Texture|Model|TrackMarks|ShadowI)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
+            "texture_single": r'^\s*(Texture|Model|TrackMarks|ShadowTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
             "texture_double": r'^\s*(IdleAnimation|Animation)\s*(?:=\s*)?([^\s;]+\.[^\s;]+)\s*(?:;.*)?$'
         }
     }

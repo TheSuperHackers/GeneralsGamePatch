@@ -167,6 +167,7 @@ Tags: `Texture` (texture file with or without extension), `Model` (w3d texture f
       `SelectPortrait` (image), `ButtonImage` (image) <br>
 
 Regex Expression (Image): `^\s*(SelectPortrait|ButtonImage)\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$` <br>
-Regex Expression (Texture): `^\s*(Texture|Model|TrackMarks|ShadowI|IdleAnimation|Animation)\s*(?:=\s*)?(?:([^.\s;]+)(?:\.[^\s;]+)?|([^\s;]+\.[^\s;]+))\s*(?:;.*)?$` <br>
+Regex Expression (Texture single): `^\s*(Texture|Model|TrackMarks|ShadowTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$` <br>
+Regex Expression (Texture double): `^\s*(IdleAnimation|Animation)\s*(?:=\s*)?([^\s;]+\.[^\s;]+)\s*(?:;.*)?$` <br>
 
 </details>
