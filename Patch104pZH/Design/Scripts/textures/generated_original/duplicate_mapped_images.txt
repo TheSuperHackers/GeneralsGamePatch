@@ -1,5 +1,6 @@
 HandCreatedMappedImages.INI LoadPageHuge
 HandCreatedMappedImages.INI SCCAttack
+HandCreatedMappedImages.INI InGameUIAmericaBase
 HandCreatedMappedImages.INI InGameUIChinaBase
 HandCreatedMappedImages.INI InGameUIGLABase
 HandCreatedMappedImages.INI America_ScoreScreen

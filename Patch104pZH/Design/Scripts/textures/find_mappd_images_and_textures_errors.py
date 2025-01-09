@@ -13,11 +13,11 @@ def read_file_content(file_path):
         return None
 
 
-def get_mapped_images_and_textures(folder_path):
+def get_mapped_images(folder_path):
+    textures_files_mapped_images_dictionary = {}  # Dictionary to map texture files to their mapped images
     mapped_images = set()  # Set of unique mapped images
-    textures = set()  # Set of unique textures files
-    mapped_images_and_textures_files = []  # List of (texture, mapped_image)
-    duplicate_images = []  # List of duplicate mapped_images
+    textures = set()  # Set of unique texture files
+    duplicate_images = []  # List of duplicate mapped images
 
     for root, _, files in os.walk(folder_path):
         for filename in files:
@@ -29,21 +29,21 @@ def get_mapped_images_and_textures(folder_path):
                 file_path = os.path.join(root, filename)
                 content = read_file_content(file_path)
                 if content:
-                    matches = re.findall(r"MappedImage (\S+)\s*Texture\s*=\s*(\S+)", content)
+                    matches = re.findall(r"MappedImage (\S+)\s*(?:;.*?\n)?\s*Texture\s*=\s*(\S+)", content)
                     for image, texture in matches:
-                        mapped_images_and_textures_files.append((texture, image))
+                        textures_files_mapped_images_dictionary.setdefault(texture, []).append(image)
                         texture_base_name, _ = os.path.splitext(texture)
-                        textures.add(texture_base_name.lower())
+                        textures.add(texture_base_name)
                         if image not in mapped_images:
-                            mapped_images.add(image.lower())
+                            mapped_images.add(image)
                         else:
                             duplicate_images.append((filename, image))
 
-    return mapped_images_and_textures_files, list(mapped_images), list(textures), duplicate_images
+    return textures_files_mapped_images_dictionary, list(mapped_images), list(textures), duplicate_images
 
 
 def get_textures_from_csv(csv_file_path):
-    """Get all the texture files listed in the CSV and optionally from a folder."""
+    """Get all the texture files listed in the CSV"""
     textures = set()
     csv_content = read_file_content(csv_file_path)
     if not csv_content:
@@ -51,8 +51,8 @@ def get_textures_from_csv(csv_file_path):
 
     for line in csv_content.splitlines():
         texture_file = line.split(',')[0]
-        file_name = re.sub(r'.*/', '', texture_file).lower()
-        if file_name.endswith(('.tga', '.dds', '.w3d', '.ani')):
+        file_name = re.sub(r'.*/', '', texture_file)
+        if file_name.lower().endswith(('.tga', '.dds', '.w3d', '.ani')):
             base_name, _ = os.path.splitext(file_name)
             textures.add(base_name)
 
@@ -66,36 +66,13 @@ def get_textures_from_folder(texture_folder_path=None):
         for root, _, files in os.walk(texture_folder_path):
             for file in files:
                 if file.lower().endswith(('.tga', '.dds', '.psd', '.w3d', '.ani')):
-                    base_name, _ = os.path.splitext(file.lower())
+                    base_name, _ = os.path.splitext(file)
                     textures.add(base_name)
 
     return textures
 
 
-def find_ini_files_with_images(images, folder_path):
-    """
-    Scans Igiven ini folder and returns a list of files containing at least one image from the provided images list.
-    """
-    image_files = []
-
-    for root, _, files in os.walk(folder_path):
-        for filename in files:
-            if filename.lower().endswith('.ini'):
-                file_path = os.path.join(root, filename)
-                content = read_file_content(file_path)
-                if content:
-                    for line in content.splitlines():
-                        match = re.search(r"^\s*\S+\s*=\s*(\S+)", line)
-                        if match:
-                            found_image = match.group(1) or match.group(3)
-                            if found_image in images:
-                                image_files.append(file_path)
-                                break
-
-    return image_files
-
-
-def extract_images_from_wnd(wnd_folder_path):
+def extract_images_from_wnd_files(wnd_folder_path):
     images_in_wnd = set()
     for root, _, files in os.walk(wnd_folder_path):
         for filename in files:
@@ -106,12 +83,12 @@ def extract_images_from_wnd(wnd_folder_path):
                     found_images = re.findall(r"IMAGE:\s*([^\s,]+)", content)
                     for image in found_images:
                         if image != 'NoImage':
-                            images_in_wnd.add(image.lower())
+                            images_in_wnd.add(image)
 
     return sorted(list(images_in_wnd))
 
 
-def extract_textures_from_w3d(w3d_folder_path):
+def extract_textures_from_w3d_files(w3d_folder_path):
     w3d_file_manager = W3dFileManager()
     textures_in_w3d_files = set()
 
@@ -121,7 +98,7 @@ def extract_textures_from_w3d(w3d_folder_path):
                 w3d_file_path = os.path.join(root, file)
                 w3d_file_path = os.path.normpath(w3d_file_path)
                 textures_in_w3d = w3d_file_manager.get_textures(w3d_file_path)
-                textures_in_w3d = [os.path.splitext(texture)[0].lower() for texture in textures_in_w3d]
+                textures_in_w3d = [os.path.splitext(texture)[0] for texture in textures_in_w3d]
                 textures_in_w3d_files.update(textures_in_w3d)
 
     return list(textures_in_w3d_files)
@@ -132,7 +109,7 @@ def extract_textures_and_images_from_ini_files(folder_path):
         "image": {
             "Animation2D.ini": r'^\s*Image\s*(?:=\s*([^\s;]+))?\s*(?:;.*)?$',
             "ChallengeMode.ini": r'^\s*(BioPortraitSmall|BioPortraitLarge|DefeatedImage|VictoriousImage)\s*(?:=\s*([^\s;]+))?\s*(?:;.*)?$',
-            "ControlBarScheme.ini": r'^\s*(?!(?:ControlBarScheme|Side|GenBarButtonIn|GenBarButtonOn)\b)(\S+)\s+([^\s;]+)\s*(?:;.*)?$',
+            "ControlBarScheme.ini": r'^\s*(?!;)(?!(?:ControlBarScheme|AnimatingPart|CHALLENGE|End|ImagePart|Side|Layer)\b)(\S+)\s+([^\s;]+)\s*(?:;.*)?$',
             "CommandButton.ini": r'^\s*ButtonImage\s*(?:=\s*([^\s;]+))?\s*(?:;.*)?$',
             # "Mouse.ini": r'^\s*Image\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
             "PlayerTemplate.ini": r'^\s*(ScoreScreenImage|LoadScreenImage|GeneralImage|FlagWaterMark|EnabledImage|SideIconImage|MedallionRegular|MedallionHilite|MedallionSelect)\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
@@ -151,7 +128,7 @@ def extract_textures_and_images_from_ini_files(folder_path):
             "Weather.ini": r'^\s*SnowTexture\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
         },
         "default_folder": {
-            "ControlBarScheme.ini": r'^\s*(?!(?:ControlBarScheme|Side|GenBarButtonIn|GenBarButtonOn)\b)(\S+)\s+([^\s;]+)\s*(?:;.*)?$',
+            "ControlBarScheme.ini": r'^\s*(?!;)(?!(?:ControlBarScheme|AnimatingPart|CHALLENGE|End|ImagePart|Side|Layer)\b)(\S+)\s+([^\s;]+)\s*(?:;.*)?$',
             "Upgrade.ini": r'^\s*ButtonImage\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$'
         },
         "object_folder": {
@@ -169,7 +146,7 @@ def extract_textures_and_images_from_ini_files(folder_path):
             file_path = os.path.join(root, filename)
             relative_path = os.path.relpath(file_path, folder_path)
 
-            if filename.endswith(".ini"):
+            if filename.lower().endswith(".ini"):
                 file_content = read_file_content(file_path)
                 lines = file_content.splitlines()
 
@@ -183,7 +160,7 @@ def extract_textures_and_images_from_ini_files(folder_path):
                                 if isinstance(match, tuple):
                                     match = match[1]
                                 for item in match.split():
-                                    images.add(item.strip().lower())
+                                    images.add(item.strip())
                     continue
 
                 # Object folder
@@ -197,19 +174,19 @@ def extract_textures_and_images_from_ini_files(folder_path):
                             if isinstance(match, tuple):
                                 match = match[1]
                             for item in match.split():
-                                images.add(item.strip().lower())
+                                images.add(item.strip())
                         matches_texture_single = re.findall(texture_single_pattern, line)
                         for match in matches_texture_single:
                             if isinstance(match, tuple):
                                 match = match[1]
                             for item in match.split():
-                                textures.add(item.strip().lower())
+                                textures.add(item.strip())
                         matches_texture_double = re.findall(texture_double_pattern, line)
                         for match in matches_texture_double:
                             if isinstance(match, tuple):
                                 match = match[1]
                             for item in match.split('.'):
-                                textures.add(item.strip().lower())
+                                textures.add(item.strip())
                     continue
 
                 # Main folder
@@ -221,7 +198,7 @@ def extract_textures_and_images_from_ini_files(folder_path):
                             if isinstance(match, tuple):
                                 match = match[1]
                             for item in match.split():
-                                images.add(item.strip().lower())
+                                images.add(item.strip())
 
                 if filename in regex_patterns["texture"]:
                     texture_pattern = regex_patterns["texture"][filename]
@@ -231,24 +208,37 @@ def extract_textures_and_images_from_ini_files(folder_path):
                             if isinstance(match, tuple):
                                 match = match[1]
                             for item in match.split():
-                                textures.add(item.strip().lower())
+                                textures.add(item.strip())
 
     return sorted(list(images)), sorted(list(textures))
 
 
-def missing_textures_in_files(textures, textures_files):
-    missing_textures = []
-    for texture in textures:
-        texture_name, _ = os.path.splitext(texture.lower())
-        if texture_name not in textures_files:
-            missing_textures.append(texture)
+def check_strings_in_dat_file(strings, file_path):
+    not_found_strings = []
+    try:
+        with open(file_path, 'rb') as file:
+            content = file.read()
+            lower_content = content.lower()
 
-    return sorted(missing_textures)
+            for string in strings:
+                lower_byte_string = string.lower().encode('ascii')
+                if lower_byte_string not in lower_content:
+                    not_found_strings.append(string)
+    except FileNotFoundError:
+        print(f'File not found: {file_path}')
+        return []
+    except Exception as e:
+        print(f'An error occurred: {e}')
+        return []
+
+    return not_found_strings
 
 
 def invalid_textures_in_w3d(textures_files, w3d_folder_path):
     w3d_file_manager = W3dFileManager()
     invalid_w3d_textures = []
+
+    textures_files_lower = {texture.lower() for texture in textures_files}
 
     for root, _, files in os.walk(w3d_folder_path):
         for file in files:
@@ -259,8 +249,8 @@ def invalid_textures_in_w3d(textures_files, w3d_folder_path):
                 invalid_textures = []
 
                 for texture in textures_in_w3d:
-                    texture_name, _ = os.path.splitext(texture.lower())
-                    if texture_name not in textures_files:
+                    texture_name, _ = os.path.splitext(texture)
+                    if texture_name.lower() not in textures_files_lower:
                         invalid_textures.append(texture)
                 if invalid_textures:
                     invalid_w3d_textures.append((file, invalid_textures))
@@ -270,16 +260,26 @@ def invalid_textures_in_w3d(textures_files, w3d_folder_path):
 
 def invalid_given_assets_in_assets_list(assets, assets_list):
     invalid_assets = set()
+
+    # Convert all assets_list to lowercase for case-insensitive comparison
+    assets_list_lower = {asset.lower() for asset in assets_list}
+
     for asset in assets:
-        if asset.lower() not in assets_list:
+        if asset.lower() not in assets_list_lower:
             invalid_assets.add(asset)
 
     return sorted(list(invalid_assets))
 
 
 def unused_assets_in_assets_list(assets, assets_list):
-    unused_assets = set(assets) - set(assets_list)
-    return sorted(list(unused_assets))
+    # Convert both lists to lowercase sets for case-insensitive comparison
+    assets_lower = {asset.lower() for asset in assets}
+    assets_list_lower = {asset.lower() for asset in assets_list}
+
+    unused_assets = assets_lower - assets_list_lower
+    unused_assets_original_case = [asset for asset in assets if asset.lower() in unused_assets]
+
+    return sorted(unused_assets_original_case)
 
 
 def write_to_file(output_path, data, format_func=None):
@@ -293,15 +293,12 @@ def main():
     print("Available functions to execute:")
     print("0. Run all functions")
     print("1. find_invalid_textures_and_images_from_ini_folder")
-    print("2. get_mapped_images_and_textures")
-    print("3. get_textures_files")
-    print("4. find_images_ini")
-    print("5. mapped_images_list.txt")
-    print("6. duplicate_mapped_images.txt")
-    print("7. missing_textures_in_files")
-    print("8. invalid_images_in_wnd")
-    print("9. invalid_textures_in_w3d")
-    print("10. find_unused_textures_and_images_from_ini_folder")
+    print("2. get_mapped_images_and_textures_from_MappedImages_folder")
+    print("3. find_duplicate_mapped_images.txt")
+    print("4. invalid_textures_in_MappedImages_folder")
+    print("5. invalid_images_in_wnd_files")
+    print("6. invalid_textures_in_w3d_files")
+    print("7. find_unused_textures_and_images_in_game_files")
     user_input = input(
         "Enter the version (1 for original, 2 for edited) followed by function numbers (1-9), separated by spaces: ").strip()
 
@@ -326,7 +323,7 @@ def main():
     # The rest are function choices
     function_choices = user_input_parts[1:]
     if function_choices[0] == "0":
-        function_choices = [str(i) for i in range(1, 10)]
+        function_choices = [str(i) for i in range(1, 8)]
 
     folder_paths = {
         'images': f'../../../GameFiles{folder}/Data/INI/MappedImages',
@@ -335,14 +332,15 @@ def main():
         'w3d': f'../../../GameFiles{folder}/Art/W3D',
         'ani': f'../../../GameFiles{folder}/Data/Cursors',
         'textures': f'../../../GameFiles{folder}/Art/Textures',
-        'csv': '../../../Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv'
+        'csv': '../../../Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv',
+        'dat': r"C:\Program Files (x86)\Steam\steamapps\common\Command & Conquer Generals - Zero Hour\game.dat"
     }
 
     output_folder = 'generated_original' if is_original else 'generated_edited'
     os.makedirs(output_folder, exist_ok=True)
 
     # Process the data
-    texture_and_images, images, textures, duplicate_images = get_mapped_images_and_textures(folder_paths['images'])
+    textures_files_mapped_images_dictionary, images, mapped_textures, duplicate_images = get_mapped_images(folder_paths['images'])
     textures_files = get_textures_from_csv(folder_paths['csv']).union(
         get_textures_from_folder(folder_paths['textures'])).union(
         get_textures_from_folder(folder_paths['ani'])).union(
@@ -353,53 +351,51 @@ def main():
     for function_choice in function_choices:
         if function_choice == "1":
             print("Calling function: find_invalid_textures_and_images_from_ini_folder")
-            ini_files_scraping = extract_textures_and_images_from_ini_files(folder_paths['ini'])
             invalid_textures = invalid_given_assets_in_assets_list(ini_textures_scraping, textures_files)
             invalid_images = invalid_given_assets_in_assets_list(ini_images_scraping, images)
             write_to_file(os.path.join(output_folder, 'invalid_textures_in_ini_files.txt'), invalid_textures)
-            write_to_file(os.path.join(output_folder, 'invalid_images_in_ini_files.txt'), invalid_images)
+            write_to_file(os.path.join(output_folder, 'invalid_mapped_images_in_ini_files.txt'), invalid_images)
+
         elif function_choice == "2":
-            print("Calling function: get_mapped_images_and_textures")
-            texture_and_images, images, textures, duplicate_images = get_mapped_images_and_textures(
-                folder_paths['images'])
-        elif function_choice == "3":
-            print("Calling function: get_textures_files")
-            textures_files = get_textures_from_csv(folder_paths['csv']).union(
-                get_textures_from_folder(folder_paths['textures']))
-        elif function_choice == "4":
-            print("Calling function: find_ini_files_with_images")
-            print(find_ini_files_with_images(images, folder_paths['ini']))
-        elif function_choice == "5":
-            print("Calling function: write_to_file (mapped_images_list.txt)")
-            write_to_file(os.path.join(output_folder, 'mapped_images_list.txt'), texture_and_images,
+            print("Calling function: get_mapped_images_and_textures_from_MappedImages_folder")
+            mapped_images_list = [(texture, image) for texture, images in
+                                  textures_files_mapped_images_dictionary.items() for image in images]
+            write_to_file(os.path.join(output_folder, 'mapped_images_list.txt'), mapped_images_list,
                           lambda x: f"{x[0]} {x[1]}")
-        elif function_choice == "6":
+
+        elif function_choice == "3":
             print("Calling function: write_to_file (duplicate_mapped_images.txt)")
             write_to_file(os.path.join(output_folder, 'duplicate_mapped_images.txt'), duplicate_images,
                           lambda x: f"{x[0]} {x[1]}")
-        elif function_choice == "7":
-            print("Calling function: missing_textures_in_files")
-            missing_textures = missing_textures_in_files(textures, textures_files)
-            write_to_file(os.path.join(output_folder, 'missing_textures_files.txt'), missing_textures)
-        elif function_choice == "8":
+
+        elif function_choice == "4":
+            print("Calling function: invalid_textures_files_in_mapped_images")
+            invalid_textures_files = invalid_given_assets_in_assets_list(mapped_textures, textures_files)
+            write_to_file(os.path.join(output_folder, 'invalid_textures_in_mapped_images_folder.txt'), invalid_textures_files)
+
+        elif function_choice == "5":
             print("Calling function: invalid_images_in_wnd")
-            wnd_images = extract_images_from_wnd(folder_paths['wnd'])
+            wnd_images = extract_images_from_wnd_files(folder_paths['wnd'])
             invalid_wnd_images = invalid_given_assets_in_assets_list(wnd_images, images)
-            write_to_file(os.path.join(output_folder, 'invalid_wnd_images.txt'), invalid_wnd_images)
-        elif function_choice == "9":
+            write_to_file(os.path.join(output_folder, 'invalid_mapped_images_in_wnd_files.txt'), invalid_wnd_images)
+
+        elif function_choice == "6":
             print("Calling function: invalid_textures_in_w3d")
             invalid_textures_in_w3d_files = invalid_textures_in_w3d(textures_files, folder_paths['w3d'])
             write_to_file(os.path.join(output_folder, 'invalid_textures_in_w3d_files.txt'),
                           [f"{w3d_file} {', '.join(textures)}" for w3d_file, textures in invalid_textures_in_w3d_files])
-        elif function_choice == "10":
-            print("Calling function: find_unused_textures_and_images_from_ini_folder")
-            wnd_textures = extract_textures_from_w3d(folder_paths['w3d'])
+
+        elif function_choice == "7":
+            print("Calling function: find_unused_textures_and_images_in_game_files")
+            w3d_textures = extract_textures_from_w3d_files(folder_paths['w3d'])
             unused_textures = unused_assets_in_assets_list(textures_files,
-                                                           ini_textures_scraping + textures + wnd_textures)
-            wnd_images = extract_images_from_wnd(folder_paths['wnd'])
+                                                           ini_textures_scraping + mapped_textures + w3d_textures)
+            wnd_images = extract_images_from_wnd_files(folder_paths['wnd'])
             unused_images = unused_assets_in_assets_list(images, ini_images_scraping + wnd_images)
-            write_to_file(os.path.join(output_folder, 'unused_textures_files.txt'), unused_textures)
-            write_to_file(os.path.join(output_folder, 'unused_images_files.txt'), unused_images)
+            unused_textures = check_strings_in_dat_file(unused_textures, folder_paths['dat'])
+            unused_images = check_strings_in_dat_file(unused_images, folder_paths['dat'])
+            write_to_file(os.path.join(output_folder, 'unused_textures.txt'), unused_textures)
+            write_to_file(os.path.join(output_folder, 'unused_mapped_images.txt'), unused_images)
         else:
             print(f"Invalid choice: {function_choice}. No function executed.")
 

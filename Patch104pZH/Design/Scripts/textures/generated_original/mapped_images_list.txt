@@ -1,5 +1,7 @@
 loadpageuserinterface.tga LoadPageHuge
 SCCAttack.tga SCCAttack
+SCCAttack.tga SCCAttack
+SACommandBar.tga InGameUIAmericaBase
 SNCommandBar.tga InGameUIChinaBase
 SUCommandBar.tga InGameUIGLABase
 TitleScreenuserinterface.tga TitleScreen
@@ -20,7 +22,10 @@ Skirmish_Load.tga Skirmish_Load
 SUFactionLogoPage_GLAuserinterface.tga SUFactionLogoPage_GLA
 ReturnLoadPageuserinterface.tga ReturnLoadPage
 loadpage.tga LoadPageHuge
-SCCAttack.tga SCCAttack
+COB2_Background.tga InGameUIAmericaBase
+COB2_Frame.tga InGameUIAmericaTop
+COB2_BackgroundSM.tga InGameUIAmericaBaseSmall
+COB2_FrameSM.tga InGameUIAmericaTopSmall
 China2_Frame.tga InGameUIChinaTop
 China2_Background.tga InGameUIChinaBase
 China2_FrameSM.tga InGameUIChinaTopSmall
