@@ -4,6 +4,10 @@ Brigadier-CHA
 Brigadier-GLA
 Brigadier-N
 Brigadier-USA
+ButtonRound_disabled
+ButtonRound_enabled
+ButtonRound_hilighted
+ButtonRound_selected
 Captain-CHA
 Captain-GLA
 Captain-N

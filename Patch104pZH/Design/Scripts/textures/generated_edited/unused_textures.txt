@@ -195,7 +195,6 @@ AVThunderBolt
 AbbtCmdrLG
 AllBuildingsAllSidesUnitTest_Save
 Alpine Assault
-Armored Fury
 AvAmbulance_D4
 AvCargoPln_d2
 AvCargoPln_d3
@@ -568,7 +567,6 @@ CIAMAN01_RNA
 CIAMAN01_STA
 CIAMAN01_WKA
 CIAMan01
-CIBurn
 CIEFMR1_PNA
 CIEFMR1_ST2WK
 CIEFMR1_STA
@@ -836,8 +834,6 @@ Iron Dragon
 Killing Fields
 Leipzig Lowlands
 Lights Out
-Locater01
-Locater02
 Lone Eagle
 MD_CHI01
 MD_CHI02
@@ -1359,7 +1355,6 @@ PTDogwodHI2
 PTFir01
 PTFir01_B
 PTMaple01
-PTMaple02
 PTOak01
 PTOakFall1
 PTOakFall2
@@ -1391,7 +1386,6 @@ PTPine04_s
 PTPine04_s2
 PTReed01
 PTReed02
-PTSpruce01
 PTSpruce01_B
 PTSpruce01_hi
 PTSpruce01_s
@@ -1474,7 +1468,6 @@ PTXWILOW01
 PTXWILOW01_B
 PTXWILOW02
 PTXWILOW03
-PTY
 PTYucca01
 ParaFall
 ParaFallMSH
@@ -1519,12 +1512,9 @@ SCCSpyDrone
 SCCStop
 SCCWaypoint_S
 SCMCrate
-SCMNode
-SCPatchUserInterface512_001
 SCSmShellUserInterface512
 SCVETER4
 Sand Serpent
-Scorched Earth
 Seaside Mutiny
 ShellMap1Low
 ShellMapMD
@@ -2029,9 +2019,6 @@ abuair
 agairfrc
 agspec
 agtank
-ammo
-arcbackgrounda
-arcbackgroundc
 arcbackgroundg
 atarfrctower
 atarfrctower_e
@@ -2351,7 +2338,6 @@ avtomahawk_MD
 avtomahawk_md
 avtreads
 backwall
-base
 base_e
 binggordon
 biohazard
@@ -3379,8 +3365,6 @@ cbwrfwhrs_sng
 cbwrldmnmt
 cbwtanktop
 cbwtanktop_s
-cement
-ciburn
 cicrow
 cine_b3cloudsbottom
 cine_b3cloudsmid
@@ -3486,7 +3470,6 @@ cmwlchno5_d
 cmwlchno6
 cmwlchno6_d
 cob6_bgobserver
-column
 coplight
 coplight2
 copy of cbttent04_d
@@ -3643,7 +3626,6 @@ exavalanche01
 exavalanchecloud2
 exbinarystream
 exburnmark
-exchemsuit
 exclstrmn
 exexplo02
 exexplo04
@@ -3656,24 +3638,16 @@ exfthrower04
 exgenbit01
 exgenbit03
 exglsshd
-exhorde
-exhorde_up
-exhordeb
-exhordeb_up
-exhordec_up
-exjunkcrate
 exlaser2
 exlaser5
 exleaflets
 exlighteningtile1
 exlighteningtile2
 exlightning
-exmask_g
 exmoabfireball
 exnoise
 exorientation
 exraindrop
-exrktflame
 exshelltank
 exsmokepuf03
 exsmokepuf04
@@ -3689,24 +3663,18 @@ extnkexpl01
 extnkexpl02
 extnktracr
 exwater03
-feather
 firescape
 firescape2
 firescape2_s
 firescape_cool
 firescape_cool_s
 firescape_s
-flame
 floorlit
 floorlitn
 foam01
 folklift256
-framebasea
-framebasec
 framebaseg
 frameobserver
-frametopa
-frametopc
 frametopg
 gas can
 gstlth
@@ -3724,10 +3692,6 @@ lamppost_d
 lamppost_e
 lamppost_s
 leaflets1
-locater01
-locater02
-marker
-mission
 muzzflsh_front
 muzzflsh_front_g
 muzzflsh_side
@@ -3789,7 +3753,6 @@ nbwarfact_snow_d
 nbwarfact_snow_e
 nbweapfact
 nbwpfctcrnmk
-new_skybox
 newcbnbarncoo_rsn
 newcbnshack_esn
 newcbnshack_rn
@@ -3797,7 +3760,6 @@ newcbnshack_rsn
 ngairfrc
 ngspec
 ngtank
-noise0000
 ntbambfence01
 ntbambfence01_d
 ntbambfence01_ds
@@ -3995,7 +3957,6 @@ pafruitstnd02_n
 pafruitstnd03
 pafruitstnd03_n
 pajnkdlr
-parachute
 parachuteblue
 parachutegrey
 pastopsgn
@@ -4307,7 +4268,6 @@ ptdogwod06
 ptfir01
 ptfir01_b
 ptmaple01
-ptmaple02
 ptoak01
 ptoakfall1
 ptoakfall2
@@ -4335,7 +4295,6 @@ ptpine04
 ptpine04_s
 ptpine04_s2
 ptreed01
-ptspruce01
 ptspruce01_b
 ptspruce01_s
 ptstump
@@ -4402,7 +4361,6 @@ ptxwilow01
 ptxwilow01_b
 ptxwilow02
 ptxwilow03
-pty
 ptyucca01
 pxsandbags2
 pxsandbags2_e
@@ -4411,7 +4369,6 @@ pxsandbags2_s
 reviseduvtezt
 reviseduvtezt2
 rock01
-roof
 roofparts01
 roofparts01_s
 roofparts02
@@ -4420,7 +4377,6 @@ roofparts03
 roofparts03_s
 roofparts04
 roofparts04_s
-rubble
 rubble snow
 rubble2_n
 rubble2_sn
@@ -4504,18 +4460,11 @@ sccspecter
 sccsyshack
 scudlauncher_gla
 scveter4
-shadow
-shadowd
-shadows
 skirmish_loaduserinterface
-snow
 snspenuke
 snspenuke_l
-tbbib
 tbcountry
 tbfixed
-tbredbib
-test
 test copy
 test_1
 testgreyroof2
@@ -4593,7 +4542,6 @@ tsblizzard_s
 tsblizzard_t
 tsblizzard_w
 tsblueenv
-tscloudmed
 tsdesertsun_e
 tsdesertsun_n
 tsdesertsun_s
@@ -4614,17 +4562,11 @@ tsmoon_n
 tsmoon_s
 tsmoon_t
 tsmoon_w
-tsmoonlarg
 tsmoonsky_e
 tsmoonsky_n
 tsmoonsky_s
 tsmoonsky_t
 tsmoonsky_w
-tsmorninge
-tsmorningn
-tsmornings
-tsmorningt
-tsmorningw
 tsmrncldy_e
 tsmrncldy_n
 tsmrncldy_s
@@ -4641,7 +4583,6 @@ tsnightsky_s
 tsnightsky_t
 tsnightsky_w
 tsnoisemap
-tsnoiseurb
 tsrain_e
 tsrain_n
 tsrain_s
@@ -4658,7 +4599,6 @@ ttfloor
 ttopel
 ttower
 ttowertop
-twalphaedge
 twwater01foam
 txtemproad
 txtest
@@ -5033,13 +4973,9 @@ uvscorpion_d
 uvscorpion_d1
 uvtechweap
 uvtreads
-water01
-watersurfacebubbles
-wave256
 wb_light1
 wb_light2
 wb_light3
-wire
 wirey
 wirey1
 wirey2
