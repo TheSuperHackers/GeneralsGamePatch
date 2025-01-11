@@ -313,11 +313,11 @@ def main():
     version_choice = user_input_parts[0]
     if version_choice == "2":
         is_original = False
-        folder = 'Edited'
+        folder = '../../../GameFilesEdited'
         print("Selected version: Edited")
     else:
         is_original = True
-        folder = 'OriginalZH'
+        folder = '../../../GameFilesOriginalZH'
         print("Selected version: Original")
 
     # The rest are function choices
@@ -326,12 +326,12 @@ def main():
         function_choices = [str(i) for i in range(1, 8)]
 
     folder_paths = {
-        'images': f'../../../GameFiles{folder}/Data/INI/MappedImages',
-        'ini': f'../../../GameFiles{folder}/Data/INI',
-        'wnd': f'../../../GameFiles{folder}/Window',
-        'w3d': f'../../../GameFiles{folder}/Art/W3D',
-        'ani': f'../../../GameFiles{folder}/Data/Cursors',
-        'textures': f'../../../GameFiles{folder}/Art/Textures',
+        'images': f'{folder}/Data/INI/MappedImages',
+        'ini': f'{folder}/Data/INI',
+        'wnd': f'{folder}/Window',
+        'w3d': f'{folder}/Art/W3D',
+        'ani': f'{folder}/Data/Cursors',
+        'textures': f'{folder}/Art/Textures',
         'csv': '../../../Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv',
         'dat': r"C:\Program Files (x86)\Steam\steamapps\common\Command & Conquer Generals - Zero Hour\game.dat"
     }
