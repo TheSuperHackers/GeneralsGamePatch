@@ -42,9 +42,10 @@ def get_mapped_images(folder_path):
     return textures_files_mapped_images_dictionary, list(mapped_images), list(textures), duplicate_images
 
 
-def get_textures_from_csv(csv_file_path):
+def get_textures_models_from_csv(csv_file_path):
     """Get all the texture files listed in the CSV"""
     textures = set()
+    models = set()
     csv_content = read_file_content(csv_file_path)
     if not csv_content:
         return textures
@@ -53,23 +54,26 @@ def get_textures_from_csv(csv_file_path):
         texture_file = line.split(',')[0]
         file_name = re.sub(r'.*/', '', texture_file)
         if file_name.lower().endswith(('.tga', '.dds', '.w3d', '.ani')):
-            base_name, _ = os.path.splitext(file_name)
-            textures.add(base_name)
+            base_name, ext = os.path.splitext(file_name)
+            if ext.lower() == '.w3d':
+                models.add(base_name)
+            else:
+                textures.add(base_name)
 
-    return textures
+    return textures, models
 
 
-def get_textures_from_folder(texture_folder_path=None):
+def get_files_from_folder(files_folder_path=None):
     """Get all the texture files in a folder."""
-    textures = set()
-    if texture_folder_path:
-        for root, _, files in os.walk(texture_folder_path):
-            for file in files:
+    files = set()
+    if files_folder_path:
+        for root, _, files_list in os.walk(files_folder_path):
+            for file in files_list:
                 if file.lower().endswith(('.tga', '.dds', '.psd', '.w3d', '.ani')):
                     base_name, _ = os.path.splitext(file)
-                    textures.add(base_name)
+                    files.add(base_name)
 
-    return textures
+    return files
 
 
 def extract_images_from_wnd_files(wnd_folder_path):
@@ -116,16 +120,21 @@ def extract_textures_and_images_from_ini_files(folder_path):
             "Upgrade.ini": r'^\s*ButtonImage\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
         },
         "texture": {
-            "Crate.ini": r'^\s*Model\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
-            "GameData.ini": r'^\s*MoveHintName\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
             "InGameUI.ini": r'^\s*Texture\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
             "Mouse.ini": r'^\s*Texture\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
-            "ObjectCreationList.ini": r'^\s*(ModelNames|Texture)\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$',
+            "ObjectCreationList.ini": r'^\s*Texture\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$',
             "ParticleSystem.ini": r'^\s*ParticleName\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
-            "Roads.ini": r'^\s*(Texture|TextureDamaged|TextureReallyDamaged|TextureBroken|BridgeModelName|BridgeModelNameDamaged|BridgeModelNameReallyDamaged|BridgeModelNameBroken)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
+            "Roads.ini": r'^\s*(Texture|TextureDamaged|TextureReallyDamaged|TextureBroken)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
             "Terrain.ini": r'^\s*Texture\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
             "Water.ini": r'^\s*(SkyTexture|WaterTexture|StandingWaterTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
             "Weather.ini": r'^\s*SnowTexture\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
+        },
+        "model": {
+            "Crate.ini": r'^\s*Model\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
+            "GameData.ini": r'^\s*MoveHintName\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
+            "ObjectCreationList.ini": r'^\s*ModelNames\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$',
+            "Roads.ini": r'^\s*(BridgeModelName|BridgeModelNameDamaged|BridgeModelNameReallyDamaged|BridgeModelNameBroken)\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
+
         },
         "default_folder": {
             "ControlBarScheme.ini": r'^\s*(?!;)(?!(?:ControlBarScheme|AnimatingPart|CHALLENGE|End|ImagePart|Side|Layer)\b)(\S+)\s+([^\s;]+)\s*(?:;.*)?$',
@@ -133,13 +142,15 @@ def extract_textures_and_images_from_ini_files(folder_path):
         },
         "object_folder": {
             "image": r'^\s*(SelectPortrait|ButtonImage)\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
-            "texture_single": r'^\s*(Texture|Model|TrackMarks|ShadowTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
-            "texture_double": r'^\s*(IdleAnimation|Animation)\s*(?:=\s*)?([^\s;]+\.[^\s;]+)\s*(?:;.*)?$'
+            "texture": r'^\s*(Texture|TrackMarks|ShadowTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
+            "model_signal": r'^\s*Model\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
+            "model_double": r'^\s*(IdleAnimation|Animation)\s*(?:=\s*)?([^\s;]+\.[^\s;]+)\s*(?:;.*)?$'
         }
     }
 
     images = set()
     textures = set()
+    models = set()
 
     for root, _, files in os.walk(folder_path):
         for filename in files:
@@ -167,26 +178,34 @@ def extract_textures_and_images_from_ini_files(folder_path):
                 if relative_path.startswith("Object\\"):
                     for line in lines:
                         image_pattern = regex_patterns["object_folder"]["image"]
-                        texture_single_pattern = regex_patterns["object_folder"]["texture_single"]
-                        texture_double_pattern = regex_patterns["object_folder"]["texture_double"]
+                        texture_pattern = regex_patterns["object_folder"]["texture"]
+                        model_signal_pattern = regex_patterns["object_folder"]["model_signal"]
+                        model_double_pattern = regex_patterns["object_folder"]["model_double"]
+
                         matches_image = re.findall(image_pattern, line)
                         for match in matches_image:
                             if isinstance(match, tuple):
                                 match = match[1]
                             for item in match.split():
                                 images.add(item.strip())
-                        matches_texture_single = re.findall(texture_single_pattern, line)
+                        matches_texture_single = re.findall(texture_pattern, line)
                         for match in matches_texture_single:
                             if isinstance(match, tuple):
                                 match = match[1]
                             for item in match.split():
                                 textures.add(item.strip())
-                        matches_texture_double = re.findall(texture_double_pattern, line)
-                        for match in matches_texture_double:
+                        matches_model_signal = re.findall(model_signal_pattern, line)
+                        for match in matches_model_signal:
+                            if isinstance(match, tuple):
+                                match = match[1]
+                            for item in match.split():
+                                models.add(item.strip())
+                        matches_model_double = re.findall(model_double_pattern, line)
+                        for match in matches_model_double:
                             if isinstance(match, tuple):
                                 match = match[1]
                             for item in match.split('.'):
-                                textures.add(item.strip())
+                                models.add(item.strip())
                     continue
 
                 # Main folder
@@ -209,8 +228,17 @@ def extract_textures_and_images_from_ini_files(folder_path):
                                 match = match[1]
                             for item in match.split():
                                 textures.add(item.strip())
+                if filename in regex_patterns["model"]:
+                    model_pattern = regex_patterns["model"][filename]
+                    for line in lines:
+                        matches = re.findall(model_pattern, line)
+                        for match in matches:
+                            if isinstance(match, tuple):
+                                match = match[1]
+                            for item in match.split():
+                                models.add(item.strip())
 
-    return sorted(list(images)), sorted(list(textures))
+    return sorted(list(images)), sorted(list(textures)), sorted(list(models))
 
 
 def check_strings_in_dat_file(strings, file_path):
@@ -282,8 +310,20 @@ def unused_assets_in_assets_list(assets, assets_list):
     return sorted(unused_assets_original_case)
 
 
-def write_to_file(output_path, data, format_func=None):
+def write_to_file(output_path, data, format_func=None, warning=False):
+    warning_message = '''
+##########################################
+# WARNING: The list of unused mapped images may not be entirely accurate!
+# Many of the "unused" images are actually used, but are assembled by combining
+# multiple string components (e.g., "Rank_" + "Colonel" + "_USA", "Rank" + "Major" + "_GLA").
+# These combined names might not appear as complete strings in the executable file,
+# causing them to be falsely flagged as unused.
+# Manual review of the list is required to verify the actual usage of some images.
+##########################################
+'''
+
     with open(output_path, 'w') as f:
+        f.write(warning_message) if warning else None
         for item in data:
             f.write(f"{format_func(item) if format_func else item}\n")
 
@@ -292,13 +332,13 @@ def main():
     # Ask the user for both version and function selection
     print("Available functions to execute:")
     print("0. Run all functions")
-    print("1. find_invalid_textures_and_images_from_ini_folder")
+    print("1. find_invalid_models_textures_images_from_ini_folder")
     print("2. get_mapped_images_and_textures_from_MappedImages_folder")
     print("3. find_duplicate_mapped_images.txt")
     print("4. invalid_textures_in_MappedImages_folder")
     print("5. invalid_images_in_wnd_files")
     print("6. invalid_textures_in_w3d_files")
-    print("7. find_unused_textures_and_images_in_game_files")
+    print("7. find_unused_models_and_textures_and_images_in_game_files")
     user_input = input(
         "Enter the version (1 for original, 2 for edited) followed by function numbers (1-9), separated by spaces: ").strip()
 
@@ -313,11 +353,9 @@ def main():
     version_choice = user_input_parts[0]
     if version_choice == "2":
         is_original = False
-        folder = '../../../GameFilesEdited'
         print("Selected version: Edited")
     else:
         is_original = True
-        folder = '../../../GameFilesOriginalZH'
         print("Selected version: Original")
 
     # The rest are function choices
@@ -325,36 +363,56 @@ def main():
     if function_choices[0] == "0":
         function_choices = [str(i) for i in range(1, 8)]
 
-    folder_paths = {
-        'images': f'{folder}/Data/INI/MappedImages',
-        'ini': f'{folder}/Data/INI',
-        'wnd': f'{folder}/Window',
-        'w3d': f'{folder}/Art/W3D',
-        'ani': f'{folder}/Data/Cursors',
-        'textures': f'{folder}/Art/Textures',
+    edited_folder_paths = '../../../GameFilesEdited'
+    edited_folder_paths = {
+        'images': f'{edited_folder_paths}/Data/INI/MappedImages',
+        'ini': f'{edited_folder_paths}/Data/INI',
+        'wnd': f'{edited_folder_paths}/Window',
+        'w3d': f'{edited_folder_paths}/Art/W3D',
+        'ani': f'{edited_folder_paths}/Data/Cursors',
+        'textures': f'{edited_folder_paths}/Art/Textures',
         'csv': '../../../Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv',
         'dat': r"C:\Program Files (x86)\Steam\steamapps\common\Command & Conquer Generals - Zero Hour\game.dat"
     }
+
+    orginal_folder_paths = r'D:\generals steam verison\Command & Conquer Generals - Zero Hour'
+    original_folder_paths = {
+        'images': f'{orginal_folder_paths}/Data/INI/MappedImages',
+        'ini': f'{orginal_folder_paths}/Data/INI',
+        'wnd': f'{orginal_folder_paths}/Window',
+        'w3d': f'{orginal_folder_paths}/Art/W3D',
+        'ani': f'{orginal_folder_paths}/Data/Cursors',
+        'textures': f'{orginal_folder_paths}/Art/Textures',
+        'csv': '../../../Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv',
+        'dat': r"C:\Program Files (x86)\Steam\steamapps\common\Command & Conquer Generals - Zero Hour\game.dat"
+    }
+
+    folder_paths = original_folder_paths if is_original else edited_folder_paths
 
     output_folder = 'generated_original' if is_original else 'generated_edited'
     os.makedirs(output_folder, exist_ok=True)
 
     # Process the data
-    textures_files_mapped_images_dictionary, images, mapped_textures, duplicate_images = get_mapped_images(folder_paths['images'])
-    textures_files = get_textures_from_csv(folder_paths['csv']).union(
-        get_textures_from_folder(folder_paths['textures'])).union(
-        get_textures_from_folder(folder_paths['ani'])).union(
-        get_textures_from_folder(folder_paths['w3d']))
-    ini_images_scraping, ini_textures_scraping = extract_textures_and_images_from_ini_files(folder_paths['ini'])
+    textures_files_mapped_images_dictionary, images, mapped_textures, duplicate_images = get_mapped_images(
+        folder_paths['images'])
+    textures, models = get_textures_models_from_csv(folder_paths['csv'])
+    textures_files = textures.union(
+        get_files_from_folder(folder_paths['textures'])).union(
+        get_files_from_folder(folder_paths['ani']))
+    models_files = models.union(get_files_from_folder(folder_paths['w3d']))
+    ini_images_scraping, ini_textures_scraping, ini_models_scraping = extract_textures_and_images_from_ini_files(
+        folder_paths['ini'])
 
     # Call the selected functions
     for function_choice in function_choices:
         if function_choice == "1":
-            print("Calling function: find_invalid_textures_and_images_from_ini_folder")
+            print("Calling function: find_invalid_models_textures_images_from_ini_folder")
             invalid_textures = invalid_given_assets_in_assets_list(ini_textures_scraping, textures_files)
             invalid_images = invalid_given_assets_in_assets_list(ini_images_scraping, images)
+            invalid_models = invalid_given_assets_in_assets_list(ini_models_scraping, models_files)
             write_to_file(os.path.join(output_folder, 'invalid_textures_in_ini_files.txt'), invalid_textures)
             write_to_file(os.path.join(output_folder, 'invalid_mapped_images_in_ini_files.txt'), invalid_images)
+            write_to_file(os.path.join(output_folder, 'invalid_models_in_ini_files.txt'), invalid_models)
 
         elif function_choice == "2":
             print("Calling function: get_mapped_images_and_textures_from_MappedImages_folder")
@@ -371,7 +429,8 @@ def main():
         elif function_choice == "4":
             print("Calling function: invalid_textures_files_in_mapped_images")
             invalid_textures_files = invalid_given_assets_in_assets_list(mapped_textures, textures_files)
-            write_to_file(os.path.join(output_folder, 'invalid_textures_in_mapped_images_folder.txt'), invalid_textures_files)
+            write_to_file(os.path.join(output_folder, 'invalid_textures_in_mapped_images_folder.txt'),
+                          invalid_textures_files)
 
         elif function_choice == "5":
             print("Calling function: invalid_images_in_wnd")
@@ -386,16 +445,26 @@ def main():
                           [f"{w3d_file} {', '.join(textures)}" for w3d_file, textures in invalid_textures_in_w3d_files])
 
         elif function_choice == "7":
-            print("Calling function: find_unused_textures_and_images_in_game_files")
+            print("Calling function: find_unused_models_textures_images_in_game_files")
             w3d_textures = extract_textures_from_w3d_files(folder_paths['w3d'])
-            unused_textures = unused_assets_in_assets_list(textures_files,
-                                                           ini_textures_scraping + mapped_textures + w3d_textures)
+            if not is_original:
+                textures_files = textures_files.union(
+                    get_files_from_folder(original_folder_paths['textures'])).union(
+                    get_files_from_folder(original_folder_paths['ani']))
+                w3d_textures += extract_textures_from_w3d_files(original_folder_paths['w3d'])
+            unused_textures_list = ini_textures_scraping + mapped_textures + w3d_textures
+            unused_textures = unused_assets_in_assets_list(textures_files, unused_textures_list)
+            unused_textures = check_strings_in_dat_file(unused_textures, folder_paths['dat'])
+            write_to_file(os.path.join(output_folder, 'unused_textures.txt'), unused_textures)
+
+            unused_models = unused_assets_in_assets_list(models, ini_models_scraping)
+            unused_models = check_strings_in_dat_file(unused_models, folder_paths['dat'])
+            write_to_file(os.path.join(output_folder, 'unused_models.txt'), unused_models)
+
             wnd_images = extract_images_from_wnd_files(folder_paths['wnd'])
             unused_images = unused_assets_in_assets_list(images, ini_images_scraping + wnd_images)
-            unused_textures = check_strings_in_dat_file(unused_textures, folder_paths['dat'])
             unused_images = check_strings_in_dat_file(unused_images, folder_paths['dat'])
-            write_to_file(os.path.join(output_folder, 'unused_textures.txt'), unused_textures)
-            write_to_file(os.path.join(output_folder, 'unused_mapped_images.txt'), unused_images)
+            write_to_file(os.path.join(output_folder, 'unused_mapped_images.txt'), unused_images, warning=True)
         else:
             print(f"Invalid choice: {function_choice}. No function executed.")
 

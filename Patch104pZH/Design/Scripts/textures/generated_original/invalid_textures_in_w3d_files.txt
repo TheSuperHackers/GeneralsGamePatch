@@ -1,11 +1,14 @@
-ABBarracks_NS.W3D nt.tga, Wall05.tga
+ABBarracks_NS.W3D Wall05.tga, nt.tga
 ABBtCmdAFG.W3D ATMetal02c.tga
 AbbtCmdrLG.W3D ATMetal02c.tga
+ABRailGun.W3D ABRailGun.tga
 ABSDILink_ENS.W3D S.tga
+ABSENDRONE.W3D ABSENDRONE.tga
 ABWarFact_E.W3D E.tga, ll03_E.tga
 ABWarFact_ENS.W3D 3_E.tga
-AIMissleTm.W3D 19_MuzzFlsh_8.tga, 19_MuzzFlsh_5.tga
-AOM.W3D TestGreyRoof.tga, TestSiding2.tga, Door.tga
+AIHGeneral.W3D AIHGeneral.tga
+AIMissleTm.W3D 19_MuzzFlsh_5.tga, 19_MuzzFlsh_8.tga
+AOM.W3D TestGreyRoof.tga, Door.tga, TestSiding2.tga
 avconstdoz_d2.W3D z_d1.tga
 AVHellDrone_D3.W3D e_D.tga
 AVMOutpost.W3D AVehicles.tga
@@ -43,6 +46,7 @@ CBTHouse03_SNG.W3D _SG.tga
 CBTHouse06_rn.W3D copy.tga
 CBTHouse07_en.W3D copy.tga
 CBTHouse07_rn.W3D copy.tga
+cbthouse17_GS.W3D CBTHouse17_gS.tga
 CBTOutpost_rn.W3D ost_Rn.tga
 CBTower05_EN.W3D _E.tga
 CBTownHs01_ES.W3D 3.tga
@@ -55,6 +59,12 @@ CBWFrWhrs2_RN.W3D 01.tga
 CBWFrWhrs2_RSN.W3D 1.tga
 CIN_raptor04.W3D DQD.DDS
 CMTGovBuil_EN.W3D d_E.tga
+CXPowrPlnt.W3D CXPowrPlnt.tga
+CXSupAirp.W3D CXSupAirp.tga
+CXSupAirs.W3D CXSupAirs.tga
+CXSupCent.W3D CXSupCent.tga
+CXSupChpr.W3D CXSupChpr.tga
+CXSupTruck.W3D CXSupTruck.tga
 gxmammoth_a.w3d gxmammoth_co.tga, gxmammothalt_HI.tga
 gxmammoth_Hi.W3D gxmammoth_co.tga, gxmammothalt_HI.tga
 NBAnitTGun.W3D NBuildings.tga
@@ -80,6 +90,12 @@ NBWarFact_A1E.W3D Khan.tga
 NBWarFact_A2.W3D Khan.tga
 NBWarFact_A2D.W3D Khan.tga
 NBWarFact_A2E.W3D Khan.tga
+NIFOOTMAN.W3D NIFOOTMAN.tga
+NIHGeneral.W3D NIHGeneral.tga
+NILOfficer.W3D NILOfficer.tga
+NIMongol.W3D NIMongol.tga
+NIRNinja.W3D NIRNinja.tga
+NISlaveT.W3D NISlaveT.tga
 NITrooper.W3D NIATrooper.tga
 NVBrgLayer.W3D NVehicles.tga
 NVMOutpost.W3D NVehicles.tga
@@ -106,14 +122,19 @@ NXStealth_d15.W3D nxstealthjet.tga
 NXStealth_d16.W3D nxstealthjet.tga
 NXStealth_d17.W3D nxstealthjet.tga
 NXStealth_d18.W3D nxstealthjet.tga
+PMCONBAR01.W3D PMCONBAR01.tga
+PMCONBAR02.W3D PMCONBAR01.tga
+PMDumpst01.W3D PMDumpst01.tga
 PMGRRUIN3.w3d 3.tga
 PMGRRUIN3_D.w3d 3_D.tga
 PMPWRTOWER.W3D Hightensiontower.tga
 PMSTCONE.W3D cone.tga
+PMWlPlnEnd.W3D PMWlPlnEnd.tga
 PSCCCanon.W3D PSCGeneric.tga
 PSCGenerc1.W3D PSCGeneric.tga
 PSCTenticl.W3D PSCGeneric.tga
 PTBlossom01.W3D 01.tga
+PTReed02.W3D PTReed02.tga
 PTSpruce01_B.W3D _B.tga
 SCMCrate.W3D MetalCrate.tga
 test.W3D TFlag.tga
@@ -136,7 +157,7 @@ UBArmDeal_E.W3D Khan_d.tga
 UBArmDeal_EN.W3D Khan_d.tga
 UBArmDeal_ENS.W3D Khan_d.tga
 UBArmDeal_ES.W3D Khan_d.tga, _E.tga
-UBArmDeal_f.W3D b.tga, Khan_d.tga, wall01.tga
+UBArmDeal_f.W3D Khan_d.tga, wall01.tga, b.tga
 UBArmDeal_N.W3D Khan_d.tga
 UBArmDeal_NS.W3D Khan_d.tga
 UBArmDeal_R.W3D Khan_d.tga
@@ -169,7 +190,7 @@ UBBarracks_E.W3D Khan_d.tga
 UBBarracks_EN.W3D Khan_d.tga
 UBBarracks_ENS.W3D Khan_d.tga
 UBBarracks_ES.W3D Khan_d.tga
-UBBarracks_f.W3D ab.tga, Khan_d.tga, rSlab.tga
+UBBarracks_f.W3D Khan_d.tga, ab.tga, rSlab.tga
 UBBarracks_N.W3D Khan_d.tga
 UBBarracks_NS.W3D Khan_d.tga
 UBBarracks_S.W3D Khan_d.tga
@@ -234,7 +255,7 @@ UBPrison_E.W3D Khan_d.tga
 UBPrison_EN.W3D Khan_d.tga
 UBPrison_N.W3D Khan_d.tga
 UBPrison_R.W3D Khan_d.tga
-UBPwrPlant.W3D Roundplt.tga, Khan_d.tga
+UBPwrPlant.W3D Khan_d.tga, Roundplt.tga
 UBPwrPlant_D.W3D Khan_d.tga, UTundplt_D.tga
 UBPwrPlant_D1.W3D Khan_d.tga
 UBPwrPlant_DN.W3D Khan_d.tga
@@ -246,11 +267,16 @@ UBRebelHQ.W3D UBuildings.tga
 UBRocketS.W3D UBuildings.tga
 UBSecretFa.W3D UBuildings.tga
 UBWall.W3D UBuildings.tga
-UIAssasin.W3D 19_MuzzFlsh_8.tga, 19_MuzzFlsh_5.tga
+UIAssasin.W3D 19_MuzzFlsh_5.tga, 19_MuzzFlsh_8.tga
+UIGFighter.W3D UIGFighter.tga
+UIHGeneral.W3D UIHGeneral.tga
+UIHunter.W3D UIHunter.tga
+UIJunkman.W3D UIJunkMan.tga
 UIMercinry.W3D UIMercinary.tga
 UIMob02.W3D lsh_front.tga
-UIRGuard.W3D 19_MuzzFlsh_8.tga, 19_MuzzFlsh_5.tga
-UIRGuard01.W3D 19_MuzzFlsh_8.tga, 19_MuzzFlsh_5.tga
+UIRebel.W3D UIRebel.tga
+UIRGuard.W3D 19_MuzzFlsh_5.tga, 19_MuzzFlsh_8.tga
+UIRGuard01.W3D 19_MuzzFlsh_5.tga, 19_MuzzFlsh_8.tga
 UIRTunnel.W3D 19_MuzzFlsh_5.tga, 19_MuzzFlsh_8.tga
 UVAirAce.W3D UVehicles.tga
 UVAmmoTrck.W3D UVehicles.tga

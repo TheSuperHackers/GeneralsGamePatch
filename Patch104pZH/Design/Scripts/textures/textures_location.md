@@ -74,13 +74,13 @@ Regex Expression (Image): `^\s*(?!(?:ControlBarScheme|Side|GenBarButtonIn|GenBar
 
 ---
 File: `Crate.ini` <br>
-Tags: `Model` (w3d texture file) <br>
-Regex Expression (Texture): `^\s*Model\s*(?:=\s*)?(\S+)\s*(?:;.*)?$`
+Tags: `Model` (w3d model file) <br>
+Regex Expression (model): `^\s*Model\s*(?:=\s*)?(\S+)\s*(?:;.*)?$`
 
 ---
 File: `GameData.ini` <br>
-Tags: `MoveHintName` (W3D texture file) <br>
-Regex Expression (Texture): `^\s*MoveHintName\s*(?:=\s*)?(\S+)\s*(?:;.*)?$`
+Tags: `MoveHintName` (W3D model file) <br>
+Regex Expression (model): `^\s*MoveHintName\s*(?:=\s*)?(\S+)\s*(?:;.*)?$`
 
 ---
 File: `InGameUI.ini` <br>
@@ -95,8 +95,9 @@ Regex Expression (Texture): `^\s*Texture\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$`
 
 ---
 File: `ObjectCreationList.ini` <br>
-Tags: `ModelNames` (multple w3d texture file), `Texture` (texture file) <br>
-Regex Expression (Texture): `^\s*(ModelNames|Texture)\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$`
+Tags: `ModelNames` (multple w3d model file), `Texture` (texture file) <br>
+Regex Expression (Texture): `^\s*Texture\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$`
+Regex Expression (Model): `^\s*ModelNames\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$`
 
 ---
 File: `ParticleSystem.ini` <br>
@@ -113,9 +114,10 @@ Regex Expression (Image): `^\s*(ScoreScreenImage|LoadScreenImage|GeneralImage|Fl
 File: `Roads.ini` <br>
 Tags: `Texture` (texture file with extension), `TextureDamaged` (texture file with extension),
 `TextureReallyDamaged` (texture file with extension), `TextureBroken` (texture file with extension),
-`BridgeModelName` (w3d texture file), `BridgeModelNameDamaged` (w3d texture file),
-`BridgeModelNameReallyDamaged` (w3d texture file), `BridgeModelNameBroken` (w3d texture file) <br>
-Regex Expression (Texture): `^\s*(Texture|TextureDamaged|TextureReallyDamaged|TextureBroken|BridgeModelName|BridgeModelNameDamaged|BridgeModelNameReallyDamaged|BridgeModelNameBroken)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$`
+`BridgeModelName` (w3d model file), `BridgeModelNameDamaged` (w3d model file),
+`BridgeModelNameReallyDamaged` (w3d model file), `BridgeModelNameBroken` (w3d model file) <br>
+Regex Expression (Texture): `^\s*(Texture|TextureDamaged|TextureReallyDamaged|TextureBroken)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$`
+Regex Expression (Model): `^\s*(BridgeModelName|BridgeModelNameDamaged|BridgeModelNameReallyDamaged|BridgeModelNameBroken)\s*(?:=\s*)?(\S+)\s*(?:;.*)?$`
 
 ---
 File: `Terrain.ini` <br>
@@ -161,13 +163,14 @@ Regex Expression (Image): `^\s*ButtonImage\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$`
   <summary>Click to expand</summary>
 
 All the ini files in the Object folder have the same tags. <br>
-Tags: `Texture` (texture file with or without extension), `Model` (w3d texture file),
+Tags: `Texture` (texture file with or without extension), `Model` (w3d model file),
       `TrackMarks` (texture file with extension), `ShadowI` (texture file)
-      `Animation` ([w3d texture file].[w3d_texture_file]), `IdleAnimation` ([w3d texture file].[w3d_texture_file]),
+      `Animation` ([w3d_model_file].[w3d_model_file]), `IdleAnimation` ([w3d_model_file].[w3d_model_file]),
       `SelectPortrait` (image), `ButtonImage` (image) <br>
 
 Regex Expression (Image): `^\s*(SelectPortrait|ButtonImage)\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$` <br>
-Regex Expression (Texture single): `^\s*(Texture|Model|TrackMarks|ShadowTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$` <br>
-Regex Expression (Texture double): `^\s*(IdleAnimation|Animation)\s*(?:=\s*)?([^\s;]+\.[^\s;]+)\s*(?:;.*)?$` <br>
+Regex Expression (Texture): `^\s*(Texture|TrackMarks|ShadowTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$` <br>
+Regex Expression (Model signal): `^\s*Model\s*(?:=\s*)?(\S+)\s*(?:;.*)?$`
+Regex Expression (Model double): `^\s*(IdleAnimation|Animation)\s*(?:=\s*)?([^\s;]+\.[^\s;]+)\s*(?:;.*)?$` <br>
 
 </details>
