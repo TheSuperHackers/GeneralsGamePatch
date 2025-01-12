@@ -55,7 +55,7 @@ WINDOW
     SCREENRECT = UPPERLEFT: 252 114,
                  BOTTOMRIGHT: 547 393,
                  CREATIONRESOLUTION: 800 600;
-    NAME = "QuitNoSave.wnd:";
+    NAME = "QuitNoSave.wnd:MenuBox";
     STATUS = ENABLED;
     STYLE = USER;
     SYSTEMCALLBACK = "PassMessagesToParentSystem";

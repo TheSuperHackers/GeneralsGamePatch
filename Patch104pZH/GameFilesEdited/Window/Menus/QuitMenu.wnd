@@ -55,7 +55,7 @@ WINDOW
     SCREENRECT = UPPERLEFT: 252 100,
                  BOTTOMRIGHT: 552 428,
                  CREATIONRESOLUTION: 800 600;
-    NAME = "QuitMenu.wnd:";
+    NAME = "QuitMenu.wnd:MenuBox";
     STATUS = ENABLED;
     STYLE = USER;
     SYSTEMCALLBACK = "PassMessagesToParentSystem";
