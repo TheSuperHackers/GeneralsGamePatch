@@ -1,91 +1,5 @@
 3_10cnvsshd03
-AllBuildingsAllSidesUnitTest_Save
-Alpine Assault
-BUG_SavedGameandEnabledFolders
-BarrenBadlands
-Bear Town Beatdown
-Bitter Winter
-Bombardment Beach
-Bridge Busters
-CHI03
-CHI04
-CHI05
-CHI07
-Cairo Commandos
-Dark Mountain
-Dark Night
-Death Valley
-Defcon6
-Desert Fury
-Destruction Station
-DogsOfWar
-Dust Devil
-Eastern Everglades
-El Scorcho
-Fallen Empire
-Final Crusade
-Flash Effect
-Flash Fire
-FloodedPlains
-ForgottenForestZH
-Fortress Avalanche
-Free Fire Zone
 French install
-GC_ChemGeneral
-GC_ChinaBoss
-GC_DemolitionGeneral
-GC_LaserGeneral
-GC_Stealth
-GC_SuperWeaponsGeneral
-Golden Oasis
-Green Pastures
-Heartland Shield
-Homeland Alliance
-Hostile Dawn
-Iron Dragon
-Killing Fields
-Leipzig Lowlands
-Lights Out
-Lone Eagle
-MD_CHI01
-MD_CHI02
-MD_CHI03
-MD_CHI04
-MD_CHI05
-MD_CHI05_END
-MD_CHI05_Intro
-MD_GLA01
-MD_GLA02
-MD_GLA02_CINE
-MD_GLA03
-MD_GLA03_CINE
-MD_GLA03_END
-MD_GLA04
-MD_GLA04_INTRO
-MD_GLA04_Sound
-MD_GLA05
-MD_GLA05_END
-MD_GLA05_INTRO
-MD_ShellMap
-MD_USA01
-MD_USA01_CINE
-MD_USA02
-MD_USA02_INTRO
-MD_USA02_INTRO_NS
-MD_USA03_END
-MD_USA03_END1
-MD_USA03_MID_CINE
-MD_USA04
-MD_USA04_CINE
-MD_USA04_Intro
-MD_USA05
-MD_USA06_INTRO
-Manic Aggression
-Mountain Fox
-Mountain Guns
-MountainFox
-NorthAmerica
-Overland
 PTDogwod02
 PTPalm02b
 PTPine01_hi_B
@@ -97,39 +11,8 @@ PTXPALM03
 PTXPALM03._Btga
 PTXPALM03_B.tga
 PTYucca01
-Red Rock
-Rocky Rampage
-Rogue Agent
-SCCAttMov_S
-SCCAttack_S
-SCCEnter_S
-SCCFriendly_S
-SCCGuard
-SCCHeal
-SCCHostile_S
-SCCMove_S
-SCCNoAction_S
-SCCNoEntry
-SCCNoEntry_S
-SCCOutrange
-SCCPlace
-SCCRallyPnt_S
-SCCScroll4
-SCCScroll5
-SCCScroll6
-SCCScroll7
-SCCSell
-SCCSpyDrone
-SCCStop
-SCCWaypoint_S
 SCSmShellUserInterface512
-Sand Serpent
-Seaside Mutiny
-ShellMap1Low
-ShellMapMD
-Silent River
 Skirmish_Loaduserinterface
-SwissMP
 TGGrcTile01
 TLCliff05a
 TLSand04a
@@ -146,33 +29,8 @@ TRTAsflt2
 TXRock05b
 TXSand06a
 TXSnow05a
-TheFrontline
-Tournament City
-Tournament Continent
-Tournament Desert
-Tournament Island
-Tournament Lake
-Tournament Plains
-Tournament Tundra
-Tournament Urban
-TournamentA
-TournamentB
-Twilight Flame
 UITerdrone01
-USA05_EndsConflict
-USA05_EndsConflict_INTRO
-USA05_EndsConflict_INTRO_N
-USA06
-USA07
-USA07-TaskForces
-Victory Valley
-Wasteland Warlords
-Whiteout
-Winding River
-Winter Wolf
-Woodcrest Circle
 ZHCA_UITerdrone01
-_Art Review New Units
 aametal
 abarfrccmd_n
 abarfrccmd_ne
@@ -899,14 +757,11 @@ sccmove0017
 sccmove0018
 sccmove0019
 sccmove0020
-sccscroll0
+sccpointer
 sccscroll0000
 sccscroll0001
 sccscroll0002
 sccscroll0003
-sccscroll1
-sccscroll2
-sccscroll3
 sccsneak
 sccspecter
 sccsyshack

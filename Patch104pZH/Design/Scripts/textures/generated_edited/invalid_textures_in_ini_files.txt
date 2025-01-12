@@ -6,7 +6,6 @@ EXthunderRadar
 EXthunderWave
 GlassShard01
 None
-SCCScroll
 SMUDGE
 TLRock01
 TMCliff24a

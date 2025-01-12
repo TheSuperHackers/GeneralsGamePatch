@@ -1,4 +1,4 @@
-ABBarracks_NS.W3D Wall05.tga, nt.tga
+ABBarracks_NS.W3D nt.tga, Wall05.tga
 ABBtCmdAFG.W3D ATMetal02c.tga
 AbbtCmdrLG.W3D ATMetal02c.tga
 ABRailGun.W3D ABRailGun.tga
@@ -65,8 +65,8 @@ CXSupAirs.W3D CXSupAirs.tga
 CXSupCent.W3D CXSupCent.tga
 CXSupChpr.W3D CXSupChpr.tga
 CXSupTruck.W3D CXSupTruck.tga
-gxmammoth_a.w3d gxmammoth_co.tga, gxmammothalt_HI.tga
-gxmammoth_Hi.W3D gxmammoth_co.tga, gxmammothalt_HI.tga
+gxmammoth_a.w3d gxmammothalt_HI.tga, gxmammoth_co.tga
+gxmammoth_Hi.W3D gxmammothalt_HI.tga, gxmammoth_co.tga
 NBAnitTGun.W3D NBuildings.tga
 NBFireStrm.W3D NBuildings.tga
 NBFTurret.W3D NBuildings.tga
@@ -156,8 +156,8 @@ UBArmDeal_DS.W3D Khan_d.tga
 UBArmDeal_E.W3D Khan_d.tga
 UBArmDeal_EN.W3D Khan_d.tga
 UBArmDeal_ENS.W3D Khan_d.tga
-UBArmDeal_ES.W3D Khan_d.tga, _E.tga
-UBArmDeal_f.W3D Khan_d.tga, wall01.tga, b.tga
+UBArmDeal_ES.W3D _E.tga, Khan_d.tga
+UBArmDeal_f.W3D wall01.tga, b.tga, Khan_d.tga
 UBArmDeal_N.W3D Khan_d.tga
 UBArmDeal_NS.W3D Khan_d.tga
 UBArmDeal_R.W3D Khan_d.tga
@@ -190,7 +190,7 @@ UBBarracks_E.W3D Khan_d.tga
 UBBarracks_EN.W3D Khan_d.tga
 UBBarracks_ENS.W3D Khan_d.tga
 UBBarracks_ES.W3D Khan_d.tga
-UBBarracks_f.W3D Khan_d.tga, ab.tga, rSlab.tga
+UBBarracks_f.W3D ab.tga, rSlab.tga, Khan_d.tga
 UBBarracks_N.W3D Khan_d.tga
 UBBarracks_NS.W3D Khan_d.tga
 UBBarracks_S.W3D Khan_d.tga
@@ -255,11 +255,11 @@ UBPrison_E.W3D Khan_d.tga
 UBPrison_EN.W3D Khan_d.tga
 UBPrison_N.W3D Khan_d.tga
 UBPrison_R.W3D Khan_d.tga
-UBPwrPlant.W3D Khan_d.tga, Roundplt.tga
-UBPwrPlant_D.W3D Khan_d.tga, UTundplt_D.tga
+UBPwrPlant.W3D Roundplt.tga, Khan_d.tga
+UBPwrPlant_D.W3D UTundplt_D.tga, Khan_d.tga
 UBPwrPlant_D1.W3D Khan_d.tga
 UBPwrPlant_DN.W3D Khan_d.tga
-UBPwrPlant_E.W3D Khan_d.tga, UTundplt_D.tga
+UBPwrPlant_E.W3D UTundplt_D.tga, Khan_d.tga
 UBPwrPlant_EN.W3D Khan_d.tga
 UBPwrPlant_N.W3D Khan_d.tga
 UBRadarJ.W3D UBuildings.tga

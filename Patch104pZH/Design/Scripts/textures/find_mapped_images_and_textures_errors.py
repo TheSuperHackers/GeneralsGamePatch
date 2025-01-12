@@ -43,17 +43,21 @@ def get_mapped_images(folder_path):
 
 
 def get_textures_models_from_csv(csv_file_path):
-    """Get all the texture files listed in the CSV"""
+    """Get all the texture and model files listed in the CSV, excluding paths starting with 'maps'."""
     textures = set()
     models = set()
     csv_content = read_file_content(csv_file_path)
     if not csv_content:
-        return textures
+        return textures, models
 
     for line in csv_content.splitlines():
         texture_file = line.split(',')[0]
+
+        if texture_file.lower().startswith("maps/"):
+            continue
+
         file_name = re.sub(r'.*/', '', texture_file)
-        if file_name.lower().endswith(('.tga', '.dds', '.w3d', '.ani')):
+        if file_name.lower().endswith(('.tga', '.dds', '.w3d')):
             base_name, ext = os.path.splitext(file_name)
             if ext.lower() == '.w3d':
                 models.add(base_name)
@@ -69,7 +73,7 @@ def get_files_from_folder(files_folder_path=None):
     if files_folder_path:
         for root, _, files_list in os.walk(files_folder_path):
             for file in files_list:
-                if file.lower().endswith(('.tga', '.dds', '.psd', '.w3d', '.ani')):
+                if file.lower().endswith(('.tga', '.dds', '.psd', '.w3d')):
                     base_name, _ = os.path.splitext(file)
                     files.add(base_name)
 
@@ -121,7 +125,7 @@ def extract_textures_and_images_from_ini_files(folder_path):
         },
         "texture": {
             "InGameUI.ini": r'^\s*Texture\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
-            "Mouse.ini": r'^\s*Texture\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
+            # "Mouse.ini": r'^\s*Texture\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
             "ObjectCreationList.ini": r'^\s*Texture\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$',
             "ParticleSystem.ini": r'^\s*ParticleName\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
             "Roads.ini": r'^\s*(Texture|TextureDamaged|TextureReallyDamaged|TextureBroken)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
@@ -312,14 +316,15 @@ def unused_assets_in_assets_list(assets, assets_list):
 
 def write_to_file(output_path, data, format_func=None, warning=False):
     warning_message = '''
-##########################################
-# WARNING: The list of unused mapped images may not be entirely accurate!
-# Many of the "unused" images are actually used, but are assembled by combining
-# multiple string components (e.g., "Rank_" + "Colonel" + "_USA", "Rank" + "Major" + "_GLA").
-# These combined names might not appear as complete strings in the executable file,
-# causing them to be falsely flagged as unused.
-# Manual review of the list is required to verify the actual usage of some images.
-##########################################
+=================================================================================================
+# WARNING: The list of unused mapped images may not be entirely accurate!                       #
+# Many of the "unused" images are actually used, but are assembled by combining                 #
+# multiple string components (e.g., "Rank_" + "Colonel" + "_USA", "Rank" + "Major" + "_GLA").   #
+# These combined names might not appear as complete strings in the executable file,             #
+# causing them to be falsely flagged as unused.                                                 #
+# Manual review of the list is required to verify the actual usage of some images.              # 
+=================================================================================================
+
 '''
 
     with open(output_path, 'w') as f:
@@ -397,8 +402,7 @@ def main():
         folder_paths['images'])
     textures, models = get_textures_models_from_csv(folder_paths['csv'])
     textures_files = textures.union(
-        get_files_from_folder(folder_paths['textures'])).union(
-        get_files_from_folder(folder_paths['ani']))
+        get_files_from_folder(folder_paths['textures']))
     models_files = models.union(get_files_from_folder(folder_paths['w3d']))
     ini_images_scraping, ini_textures_scraping, ini_models_scraping = extract_textures_and_images_from_ini_files(
         folder_paths['ini'])
@@ -449,8 +453,7 @@ def main():
             w3d_textures = extract_textures_from_w3d_files(folder_paths['w3d'])
             if not is_original:
                 textures_files = textures_files.union(
-                    get_files_from_folder(original_folder_paths['textures'])).union(
-                    get_files_from_folder(original_folder_paths['ani']))
+                    get_files_from_folder(original_folder_paths['textures']))
                 w3d_textures += extract_textures_from_w3d_files(original_folder_paths['w3d'])
             unused_textures_list = ini_textures_scraping + mapped_textures + w3d_textures
             unused_textures = unused_assets_in_assets_list(textures_files, unused_textures_list)
