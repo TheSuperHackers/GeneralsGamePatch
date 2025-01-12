@@ -375,7 +375,7 @@ def main():
         'dat': r"C:\Program Files (x86)\Steam\steamapps\common\Command & Conquer Generals - Zero Hour\game.dat"
     }
 
-    orginal_folder_paths = r'D:\generals steam verison\Command & Conquer Generals - Zero Hour'
+    orginal_folder_paths = '../../../GameFilesOriginal'
     original_folder_paths = {
         'images': f'{orginal_folder_paths}/Data/INI/MappedImages',
         'ini': f'{orginal_folder_paths}/Data/INI',
