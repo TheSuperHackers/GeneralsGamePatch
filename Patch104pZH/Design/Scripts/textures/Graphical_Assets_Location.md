@@ -165,12 +165,13 @@ Regex Expression (Image): `^\s*ButtonImage\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$`
 All the ini files in the Object folder have the same tags. <br>
 Tags: `Texture` (texture file with or without extension), `Model` (w3d model file),
       `TrackMarks` (texture file with extension), `ShadowI` (texture file)
-      `Animation` ([w3d_model_file].[w3d_model_file]), `IdleAnimation` ([w3d_model_file].[w3d_model_file]),
+      `Animation` ([w3d_model_file].[w3d_model_file] with optional parameters),
+      `IdleAnimation` ([w3d_model_file].[w3d_model_file]  with optional parameters),
       `SelectPortrait` (image), `ButtonImage` (image) <br>
 
 Regex Expression (Image): `^\s*(SelectPortrait|ButtonImage)\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$` <br>
 Regex Expression (Texture): `^\s*(Texture|TrackMarks|ShadowTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$` <br>
 Regex Expression (Model signal): `^\s*Model\s*(?:=\s*)?(\S+)\s*(?:;.*)?$`
-Regex Expression (Model double): `^\s*(IdleAnimation|Animation)\s*(?:=\s*)?([^\s;]+\.[^\s;]+)\s*(?:;.*)?$` <br>
+Regex Expression (Model double): `^\s*(IdleAnimation|Animation)\s*(?:=\s*)?([^\s;]+\.[^\s;]+)(?:\s+.*)?(?:;.*)?$` <br>
 
 </details>

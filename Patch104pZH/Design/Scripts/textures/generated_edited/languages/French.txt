@@ -1,0 +1,24 @@
+Report for language: French
+
+============== Unused Textures (INI) ==============
+
+French install
+SCSmShellUserInterface512
+Skirmish_Loaduserinterface
+ZHCA_PMNFlag
+
+============== Unused Models (INI) ==============
+
+None
+
+============== Invalid Models Assets ==============
+
+None
+
+============== Invalid Textures in Mapped Images Assets ==============
+
+None
+
+============== Invalid Textures in W3D Files ==============
+
+None

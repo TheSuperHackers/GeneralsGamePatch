@@ -5,7 +5,7 @@
 # multiple string components (e.g., "Rank_" + "Colonel" + "_USA", "Rank" + "Major" + "_GLA").   #
 # These combined names might not appear as complete strings in the executable file,             #
 # causing them to be falsely flagged as unused.                                                 #
-# Manual review of the list is required to verify the actual usage of some images.              #
+# Manual review of the list is required to verify the actual usage of some images.              # 
 =================================================================================================
 
 AngryMobFireBomb

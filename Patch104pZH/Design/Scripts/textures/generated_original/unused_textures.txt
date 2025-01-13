@@ -1,5 +1,4 @@
 3_10cnvsshd03
-French install
 PTDogwod02
 PTPalm02b
 PTPine01_hi_B
@@ -11,8 +10,6 @@ PTXPALM03
 PTXPALM03._Btga
 PTXPALM03_B.tga
 PTYucca01
-SCSmShellUserInterface512
-Skirmish_Loaduserinterface
 TGGrcTile01
 TLCliff05a
 TLSand04a
@@ -29,8 +26,6 @@ TRTAsflt2
 TXRock05b
 TXSand06a
 TXSnow05a
-UITerdrone01
-ZHCA_UITerdrone01
 aametal
 abarfrccmd_n
 abarfrccmd_ne

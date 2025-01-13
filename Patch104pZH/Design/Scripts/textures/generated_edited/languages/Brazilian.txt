@@ -1,0 +1,22 @@
+Report for language: Brazilian
+
+============== Unused Textures (INI) ==============
+
+Skirmish_Loaduserinterface
+ZHCA_PMNFlag
+
+============== Unused Models (INI) ==============
+
+None
+
+============== Invalid Models Assets ==============
+
+None
+
+============== Invalid Textures in Mapped Images Assets ==============
+
+None
+
+============== Invalid Textures in W3D Files ==============
+
+None
