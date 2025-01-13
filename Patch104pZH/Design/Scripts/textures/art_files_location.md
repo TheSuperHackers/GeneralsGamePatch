@@ -1,29 +1,29 @@
-### List of Textures Locations in `ini` Files
+### List of Art Locations in `ini` Files
 
-This documentation provides a list of the locations where textures (images) are referenced within
-various `.ini` configuration files. These textures are typically used for graphical elements such as
+This documentation provides a list of the locations where art (models/textures/images) are referenced within
+various `.ini` configuration files. These art are typically used for graphical elements such as
 animations, buttons, portraits, and other UI components in the game.
 
 Below, you will find examples of how and where the images are defined within different `.ini` files.
 Each entry includes a reference to an image file used for a specific purpose, marked by
-the `Image`, `ButtonImage`, or similar tags, or a texture marked by `Texture` or `Model`.
+the `Image`, `ButtonImage`, or similar tags, or a texture marked by `Texture` or w3d model with `Model`.
 
-For each `.ini` file, a list of tags that reference images or textures is provided. These tags identify
-the locations within the file where textures are used. Note that the texture values may appear immediately
+For each `.ini` file, a list of tags that reference art is provided. These tags identify
+the locations within the file where art are used. Note that the art values may appear immediately
 after the tag or after an equal sign (`=`).
 
 ### Regex Explanation
 
-The regular expressions (regex) used in this documentation are designed to capture texture
-and image references in `.ini` files, specifically the names of the textures and images associated with the tags.
-The regex patterns take into account possible variations in how textures are defined, such as:
+The regular expressions (regex) used in this documentation are designed to capture art references
+in `.ini` files, specifically the names of the art associated with the tags.
+The regex patterns take into account possible variations in how art are defined, such as:
 
-- **Presence of an equal sign (`=`)**: Some tags may have a texture/image name assigned using an equal 
-  sign (e.g., `BioPortraitSmall = texture_name`), and the regex is designed to capture this format.
+- **Presence of an equal sign (`=`)**: Some tags may have a texture/image/model name assigned using an equal 
+  sign (e.g., `BioPortraitSmall = art_name`), and the regex is designed to capture this format.
 - **Optional whitespace**: The regex allows for varying amounts of whitespace around the tags,
-  equal signs, and texture/image names.
+  equal signs, and art names.
 - **Ignoring comments**: The regex ensures that any comments following the `;` symbol are ignored, 
-  and only the texture/image names are captured.
+  and only the art names are captured.
 
 ### INI Folder List
 
@@ -102,7 +102,7 @@ Regex Expression (Model): `^\s*ModelNames\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$`
 ---
 File: `ParticleSystem.ini` <br>
 Tags: `ParticleName` (texture file with extension) <br>
-Regex Expression (Texture): `^\s*ParticleName\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$`
+Regex Expression (Texture): `^\s*ParticleName\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$`
 
 ---
 File: `PlayerTemplate.ini` <br>
@@ -116,13 +116,13 @@ Tags: `Texture` (texture file with extension), `TextureDamaged` (texture file wi
 `TextureReallyDamaged` (texture file with extension), `TextureBroken` (texture file with extension),
 `BridgeModelName` (w3d model file), `BridgeModelNameDamaged` (w3d model file),
 `BridgeModelNameReallyDamaged` (w3d model file), `BridgeModelNameBroken` (w3d model file) <br>
-Regex Expression (Texture): `^\s*(Texture|TextureDamaged|TextureReallyDamaged|TextureBroken)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$`
+Regex Expression (Texture): `^\s*(Texture|TextureDamaged|TextureReallyDamaged|TextureBroken)\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$`
 Regex Expression (Model): `^\s*(BridgeModelName|BridgeModelNameDamaged|BridgeModelNameReallyDamaged|BridgeModelNameBroken)\s*(?:=\s*)?(\S+)\s*(?:;.*)?$`
 
 ---
 File: `Terrain.ini` <br>
 Tags: `Texture` (texture file with extension) <br>
-Regex Expression (Texture): `^\s*Texture\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$`
+Regex Expression (Texture): `^\s*Texture\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$`
 
 ---
 File: `Upgrade.ini` <br>
@@ -132,12 +132,12 @@ Regex Expression (Image): `^\s*ButtonImage\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$`
 ---
 File: `Water.ini` <br>
 Tags: `SkyTexture` (texture file with extension), `WaterTexture` (texture file with extension), `StandingWaterTexture` (texture file with extension) <br>
-Regex Expression (Texture): `^\s*(SkyTexture|WaterTexture|StandingWaterTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$`
+Regex Expression (Texture): `^\s*(SkyTexture|WaterTexture|StandingWaterTexture)\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$`
 
 ---
 File: `Weather.ini` <br>
 Tags: `SnowTexture` (texture file with extension) <br>
-Regex Expression (Texture): `^\s*SnowTexture\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$`
+Regex Expression (Texture): `^\s*SnowTexture\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$`
 
 </details>
 

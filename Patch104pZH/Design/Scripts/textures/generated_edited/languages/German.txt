@@ -1,27 +1,25 @@
 Report for language: German
 
-============== Unused Textures (INI) ==============
+============== Unused Languages Textures ==============
 
-SCSmShellUserInterface512
-Skirmish_Loaduserinterface
-UITerdrone01
-ZHCA_PMNFlag
-ZHCA_UITerdrone01
+SCSmShellUserInterface512.tga
+Skirmish_Loaduserinterface.tga
+UITerdrone01.tga
+ZHCA_PMNFlag.tga
+ZHCA_UITerdrone01.tga
 
-============== Unused Models (INI) ==============
-
-CItoxic
-CItoxic_B
-CItoxic_C
-
-============== Invalid Models Assets ==============
+============== Unused Languages Models ==============
 
 None
 
-============== Invalid Textures in Mapped Images Assets ==============
+============== Invalid Languages W3D Models references in INI files ==============
 
 None
 
-============== Invalid Textures in W3D Files ==============
+============== Invalid Languages Textures references in INI Mapped Images ==============
+
+None
+
+============== Invalid Textures references in Languages W3D Files ==============
 
 None

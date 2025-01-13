@@ -32,8 +32,7 @@ def get_mapped_images(folder_path):
                     matches = re.findall(r"MappedImage (\S+)\s*(?:;.*?\n)?\s*Texture\s*=\s*(\S+)", content)
                     for image, texture in matches:
                         textures_files_mapped_images_dictionary.setdefault(texture, []).append(image)
-                        texture_base_name, _ = os.path.splitext(texture)
-                        textures.add(texture_base_name)
+                        textures.add(texture)
                         if image not in mapped_images:
                             mapped_images.add(image)
                         else:
@@ -62,22 +61,21 @@ def get_textures_models_from_csv(csv_file_path, languages):
         if file_name.lower().endswith(('.tga', '.dds', '.w3d')):
             base_name, ext = os.path.splitext(file_name)
             if ext.lower() == '.w3d':
-                models.add(base_name)
+                models.add(file_name)
             else:
-                textures.add(base_name)
+                textures.add(file_name)
 
     return textures, models
 
 
-def get_files_from_folder(files_folder_path=None):
+def get_files_from_folder(files_folder_path, extensions=('.tga', '.dds', '.psd')):
     """Get all the texture files in a folder."""
     files = set()
     if files_folder_path:
         for root, _, files_list in os.walk(files_folder_path):
             for file in files_list:
-                if file.lower().endswith(('.tga', '.dds', '.psd', '.w3d')):
-                    base_name, _ = os.path.splitext(file)
-                    files.add(base_name)
+                if file.lower().endswith(extensions):
+                    files.add(file)
 
     return files
 
@@ -114,7 +112,7 @@ def extract_textures_from_w3d_files(w3d_folder_path):
     return list(textures_in_w3d_files)
 
 
-def extract_graphical_assets_from_ini_files(folder_path):
+def extract_art_files_from_ini_files(folder_path):
     regex_patterns = {
         "image": {
             "Animation2D.ini": r'^\s*Image\s*(?:=\s*([^\s;]+))?\s*(?:;.*)?$',
@@ -129,11 +127,11 @@ def extract_graphical_assets_from_ini_files(folder_path):
             "InGameUI.ini": r'^\s*Texture\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
             # "Mouse.ini": r'^\s*Texture\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
             "ObjectCreationList.ini": r'^\s*Texture\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$',
-            "ParticleSystem.ini": r'^\s*ParticleName\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
-            "Roads.ini": r'^\s*(Texture|TextureDamaged|TextureReallyDamaged|TextureBroken)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
-            "Terrain.ini": r'^\s*Texture\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
-            "Water.ini": r'^\s*(SkyTexture|WaterTexture|StandingWaterTexture)\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
-            "Weather.ini": r'^\s*SnowTexture\s*(?:=\s*)?([^.\s;]+)(?:\.[^\s;]+)?\s*(?:;.*)?$',
+            "ParticleSystem.ini": r'^\s*ParticleName\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$',
+            "Roads.ini": r'^\s*(Texture|TextureDamaged|TextureReallyDamaged|TextureBroken)\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$',
+            "Terrain.ini": r'^\s*Texture\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$',
+            "Water.ini": r'^\s*(SkyTexture|WaterTexture|StandingWaterTexture)\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$',
+            "Weather.ini": r'^\s*SnowTexture\s*(?:=\s*)?([^.\s;]+\.[^\s;]+)(?:;.*)?$',
         },
         "model": {
             "Crate.ini": r'^\s*Model\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
@@ -255,7 +253,7 @@ def check_strings_in_dat_file(strings, file_path):
             lower_content = content.lower()
 
             for string in strings:
-                lower_byte_string = string.lower().encode('ascii')
+                lower_byte_string = remove_extension(string).lower().encode('ascii')
                 if lower_byte_string not in lower_content:
                     not_found_strings.append(string)
     except FileNotFoundError:
@@ -268,7 +266,7 @@ def check_strings_in_dat_file(strings, file_path):
     return not_found_strings
 
 
-def analyze_language_graphical_assets(base_folder, languages, language_assets, output_folder,
+def analyze_language_art_files(base_folder, languages, language_assets, output_folder,
                            ini_textures_scraping, ini_models_scraping, mapped_textures, textures_files,
                            original_base_folder_paths=None):
     os.makedirs(os.path.join(output_folder, 'languages'), exist_ok=True)
@@ -287,13 +285,13 @@ def analyze_language_graphical_assets(base_folder, languages, language_assets, o
 
             # Collect assets
             language_textures = get_files_from_folder(textures_path)
-            language_models = get_files_from_folder(w3d_path)
+            language_models = get_files_from_folder(w3d_path, extensions=('.w3d'))
             if original_base_folder_paths:
                 language_textures = language_textures.union(get_files_from_folder(edited_textures_path))
-                language_models = language_models.union(get_files_from_folder(edited_w3d_path))
+                language_models = language_models.union(get_files_from_folder(edited_w3d_path, extensions=('.w3d')))
 
-            # ============= Unused assets (INI) ==============
-            f.write("============== Unused Textures (INI) ==============\n\n")
+            # ============= Unused Languages Assets ==============
+            f.write("============== Unused Languages Textures ==============\n\n")
             unused_textures = unused_assets_in_assets_list(language_textures,
                                                            language_assets['textures_mapped_images'] + ini_textures_scraping + mapped_textures)
 
@@ -303,7 +301,7 @@ def analyze_language_graphical_assets(base_folder, languages, language_assets, o
             else:
                 f.write("None\n")
 
-            f.write("\n============== Unused Models (INI) ==============\n\n")
+            f.write("\n============== Unused Languages Models ==============\n\n")
             unused_models = unused_assets_in_assets_list(language_models, language_assets['models'] + ini_models_scraping)
             if unused_models:
                 for model in unused_models:
@@ -313,7 +311,7 @@ def analyze_language_graphical_assets(base_folder, languages, language_assets, o
 
 
             # =============== Invalid Language Assets ================
-            f.write("\n============== Invalid Models Assets ==============\n\n")
+            f.write("\n============== Invalid Languages W3D Models references in INI files ==============\n\n")
             invalid_models = invalid_given_assets_in_assets_list(language_assets['models'], language_models)
             if invalid_models:
                 for model in invalid_models:
@@ -321,7 +319,7 @@ def analyze_language_graphical_assets(base_folder, languages, language_assets, o
             else:
                 f.write("None\n")
 
-            f.write("\n============== Invalid Textures in Mapped Images Assets ==============\n\n")
+            f.write("\n============== Invalid Languages Textures references in INI Mapped Images ==============\n\n")
             invalid_textures_mapped = invalid_given_assets_in_assets_list(language_assets['textures_mapped_images'], language_textures)
             if invalid_textures_mapped:
                 for texture in invalid_textures_mapped:
@@ -330,8 +328,8 @@ def analyze_language_graphical_assets(base_folder, languages, language_assets, o
                 f.write("None\n")
 
 
-            # ============= Invalid textures in W3D ==============
-            f.write("\n============== Invalid Textures in W3D Files ==============\n\n")
+            # ============= Invalid textures in Languages W3D Assets ==============
+            f.write("\n============== Invalid Textures references in Languages W3D Files ==============\n\n")
             invalid_w3d_textures = invalid_textures_in_w3d(textures_files.union(language_textures), w3d_path)
             if invalid_w3d_textures:
                 for w3d_file, invalid_textures in invalid_w3d_textures:
@@ -344,7 +342,7 @@ def invalid_textures_in_w3d(textures_files, w3d_folder_path):
     w3d_file_manager = W3dFileManager()
     invalid_w3d_textures = []
 
-    textures_files_lower = {texture.lower() for texture in textures_files}
+    textures_files_lower = {remove_extension(texture).lower() for texture in textures_files}
 
     for root, _, files in os.walk(w3d_folder_path):
         for file in files:
@@ -355,7 +353,7 @@ def invalid_textures_in_w3d(textures_files, w3d_folder_path):
                 invalid_textures = []
 
                 for texture in textures_in_w3d:
-                    texture_name, _ = os.path.splitext(texture)
+                    texture_name = remove_extension(texture)
                     if texture_name.lower() not in textures_files_lower:
                         invalid_textures.append(texture)
                 if invalid_textures:
@@ -364,26 +362,27 @@ def invalid_textures_in_w3d(textures_files, w3d_folder_path):
     return invalid_w3d_textures
 
 
+def remove_extension(asset_name):
+    return os.path.splitext(asset_name)[0]
+
 def invalid_given_assets_in_assets_list(assets, assets_list):
     invalid_assets = set()
 
-    # Convert all assets_list to lowercase for case-insensitive comparison
-    assets_list_lower = {asset.lower() for asset in assets_list}
+    assets_list_without_extension = {remove_extension(asset).lower() for asset in assets_list}
 
     for asset in assets:
-        if asset.lower() not in assets_list_lower:
+        if remove_extension(asset).lower() not in assets_list_without_extension:
             invalid_assets.add(asset)
 
     return sorted(list(invalid_assets))
 
 
 def unused_assets_in_assets_list(assets, assets_list):
-    # Convert both lists to lowercase sets for case-insensitive comparison
-    assets_lower = {asset.lower() for asset in assets}
-    assets_list_lower = {asset.lower() for asset in assets_list}
+    assets_without_extension = {remove_extension(asset).lower() for asset in assets}
+    assets_list_without_extension = {remove_extension(asset).lower() for asset in assets_list}
 
-    unused_assets = assets_lower - assets_list_lower
-    unused_assets_original_case = [asset for asset in assets if asset.lower() in unused_assets]
+    unused_assets = assets_without_extension - assets_list_without_extension
+    unused_assets_original_case = [asset for asset in assets if remove_extension(asset).lower() in unused_assets]
 
     return sorted(unused_assets_original_case)
 
@@ -411,14 +410,14 @@ def main():
     # Ask the user for both version and function selection
     print("Available functions to execute:")
     print("0. Run all functions")
-    print("1. find_invalid_models_textures_images_from_ini_folder")
+    print("1. find_invalid_art_references_in_ini_folder")
     print("2. get_mapped_images_and_textures_from_MappedImages_folder")
     print("3. find_duplicate_mapped_images.txt")
     print("4. invalid_textures_in_MappedImages_folder")
     print("5. invalid_images_in_wnd_files")
     print("6. invalid_textures_in_w3d_files")
     print("7. find_unused_models_and_textures_and_images_in_game_files")
-    print("8. analyze_language_files")
+    print("8. analyze_language_art_files")
 
     user_input = input(
         "Enter the version (1 for original, 2 for edited) followed by function numbers (1-9), separated by spaces: ").strip()
@@ -491,35 +490,37 @@ def main():
     textures, models = get_textures_models_from_csv(folder_paths['csv'], languages)
     textures_files = textures.union(
         get_files_from_folder(folder_paths['textures']))
-    models_files = models.union(get_files_from_folder(folder_paths['w3d']))
-    ini_images_scraping, ini_textures_scraping, ini_models_scraping = extract_graphical_assets_from_ini_files(
+    models_files = models.union(get_files_from_folder(folder_paths['w3d'], extensions=('.w3d')))
+    ini_images_scraping, ini_textures_scraping, ini_models_scraping = extract_art_files_from_ini_files(
         folder_paths['ini'])
 
     language_assets = {
-            "models": ["UITER_Local_A1", "UITER_Local_A2", "UITER_Local_A4", "UITER_Local_A5", "UITRST_SKNP", "UITer_Local_SKL", "UITer_Local_SKN"],
-            "textures_mapped_images": ["Defeated", "GameOver", "SAUserInterface512_004", "SAUserInterface512_005", "SCGenChallengeSelect512_001",
-                                    "SCGenChallengeWinLoss512_001", "SCGenChallengeWinLoss512_002", "SCGenChallengeWinLoss512_003",
-                                    "SCGenChallengeWinLoss512_004", "SCGenChallengeWinLoss512_005", "SCGenChallengeWinLoss512_006",
-                                    "SCGenChallengeWinLoss512_007", "SCGenChallengeWinLoss512_008", "SCGenChallengeWinLoss512_009",
-                                    "SCGenChallengeWinLoss512_010", "SCGenChallengeWinLoss512_011", "SCGenChallengeWinLoss512_012",
-                                    "SCGenChallengeWinLoss512_013", "SCGenChallengeWinLoss512_014", "SCGenChallengeWinLoss512_015",
-                                    "SCGenChallengeWinLoss512_016", "SCGenChallengeWinLoss512_017", "SCGenChallengeWinLoss512_018",
-                                    "SCGenChallengeWinLoss512_019", "SCGenChallengeWinLoss512_020", "SCGenChallengeWinLoss512_021",
-                                    "SCGenChallengeWinLoss512_022", "SCGenChallengeWinLoss512_023", "SCGenChallengeWinLoss512_024",
-                                    "SCGenChallengeWinLoss512_025", "SCGenChallengeWinLoss512_026", "SCGenChallengeWinLoss512_027",
-                                    "SCGenChallengeWinLoss512_028", "SCGenChallengeWinLoss512_029", "SCGenChallengeWinLoss512_030",
-                                    "SNUserInterface512_004", "SSUserInterface512_002", "SUUserInterface512_004", "Victorious"]
-        }
+            "models": ["UITER_Local_A1.W3D", "UITER_Local_A2.W3D", "UITER_Local_A4.W3D", "UITER_Local_A5.W3D", "UITRST_SKNP.W3D", "UITer_Local_SKL.W3D", "UITer_Local_SKN.W3D"],
+            "textures_mapped_images": ["Defeated.tga", "GameOver.tga", "SAUserInterface512_004.tga", "SAUserInterface512_005.tga", "SCGenChallengeSelect512_001.tga",
+                "SCGenChallengeWinLoss512_001.tga", "SCGenChallengeWinLoss512_002.tga", "SCGenChallengeWinLoss512_003.tga",
+                "SCGenChallengeWinLoss512_004.tga", "SCGenChallengeWinLoss512_005.tga", "SCGenChallengeWinLoss512_006.tga",
+                "SCGenChallengeWinLoss512_007.tga", "SCGenChallengeWinLoss512_008.tga", "SCGenChallengeWinLoss512_009.tga",
+                "SCGenChallengeWinLoss512_010.tga", "SCGenChallengeWinLoss512_011.tga", "SCGenChallengeWinLoss512_012.tga",
+                "SCGenChallengeWinLoss512_013.tga", "SCGenChallengeWinLoss512_014.tga", "SCGenChallengeWinLoss512_015.tga",
+                "SCGenChallengeWinLoss512_016.tga", "SCGenChallengeWinLoss512_017.tga", "SCGenChallengeWinLoss512_018.tga",
+                "SCGenChallengeWinLoss512_019.tga", "SCGenChallengeWinLoss512_020.tga", "SCGenChallengeWinLoss512_021.tga",
+                "SCGenChallengeWinLoss512_022.tga", "SCGenChallengeWinLoss512_023.tga", "SCGenChallengeWinLoss512_024.tga",
+                "SCGenChallengeWinLoss512_025.tga", "SCGenChallengeWinLoss512_026.tga", "SCGenChallengeWinLoss512_027.tga",
+                "SCGenChallengeWinLoss512_028.tga", "SCGenChallengeWinLoss512_029.tga", "SCGenChallengeWinLoss512_030.tga",
+                "SNUserInterface512_004.tga", "SSUserInterface512_002.tga", "SUUserInterface512_004.tga", "Victorious.tga"]
+                    }
     # Filter out language-specific assets from ini scraping
     ini_textures_scraping = [item for item in ini_textures_scraping if
                              item not in language_assets["textures_mapped_images"]]
-    ini_models_scraping = [item for item in ini_models_scraping if item not in language_assets["models"]]
+    ini_models_scraping = [item for item in ini_models_scraping if
+                           remove_extension(item).lower() not in {remove_extension(model).lower() for model in
+                                                                  language_assets["models"]}]
     mapped_textures = [item for item in mapped_textures if item not in language_assets["textures_mapped_images"]]
 
     # Call the selected functions
     for function_choice in function_choices:
         if function_choice == "1":
-            print("Calling function: find_invalid_models_textures_images_from_ini_folder")
+            print("Calling function: find_invalid_art_references_in_ini_folder")
             invalid_textures = invalid_given_assets_in_assets_list(ini_textures_scraping, textures_files)
             invalid_images = invalid_given_assets_in_assets_list(ini_images_scraping, images)
             invalid_models = invalid_given_assets_in_assets_list(ini_models_scraping, models_files)
@@ -579,8 +580,8 @@ def main():
             write_to_file(os.path.join(output_folder, 'unused_mapped_images.txt'), unused_images, warning=True)
 
         elif function_choice == "8":
-            print("Calling function: analyze_language_files")
-            analyze_language_graphical_assets(folder_paths['ini'].replace('/Data/INI', ''), languages, language_assets, output_folder,
+            print("Calling function: analyze_language_art_files")
+            analyze_language_art_files(folder_paths['ini'].replace('/Data/INI', ''), languages, language_assets, output_folder,
                                    ini_textures_scraping, ini_models_scraping, mapped_textures, textures_files,
                                    original_base_folder_paths=original_folder_path if not is_original else None)
         else:

@@ -1,22 +1,22 @@
 Report for language: Italian
 
-============== Unused Textures (INI) ==============
+============== Unused Languages Textures ==============
 
-Skirmish_Loaduserinterface
-ZHCA_PMNFlag
+Skirmish_Loaduserinterface.tga
+ZHCA_PMNFlag.tga
 
-============== Unused Models (INI) ==============
-
-None
-
-============== Invalid Models Assets ==============
+============== Unused Languages Models ==============
 
 None
 
-============== Invalid Textures in Mapped Images Assets ==============
+============== Invalid Languages W3D Models references in INI files ==============
 
 None
 
-============== Invalid Textures in W3D Files ==============
+============== Invalid Languages Textures references in INI Mapped Images ==============
+
+None
+
+============== Invalid Textures references in Languages W3D Files ==============
 
 None
