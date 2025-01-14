@@ -138,11 +138,10 @@ def extract_art_files_from_ini_files(folder_path):
             "GameData.ini": r'^\s*MoveHintName\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
             "ObjectCreationList.ini": r'^\s*ModelNames\s*(?:=\s*)?((?:[^\s;]+\s*)+)(?:;.*)?$',
             "Roads.ini": r'^\s*(BridgeModelName|BridgeModelNameDamaged|BridgeModelNameReallyDamaged|BridgeModelNameBroken)\s*(?:=\s*)?(\S+)\s*(?:;.*)?$',
-
         },
         "default_folder": {
             "ControlBarScheme.ini": r'^\s*(?!;)(?!(?:ControlBarScheme|AnimatingPart|CHALLENGE|End|ImagePart|Side|Layer)\b)(\S+)\s+([^\s;]+)\s*(?:;.*)?$',
-            "Upgrade.ini": r'^\s*ButtonImage\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$'
+            "Upgrade.ini": r'^\s*ButtonImage\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
         },
         "object_folder": {
             "image": r'^\s*(SelectPortrait|ButtonImage)\s*(?:=\s*)?([^\s;]+)\s*(?:;.*)?$',
@@ -156,6 +155,15 @@ def extract_art_files_from_ini_files(folder_path):
     textures = set()
     models = set()
 
+    def add_matches(pattern, lines, target_set, split_char=None):
+        for line in lines:
+            matches = re.findall(pattern, line)
+            for match in matches:
+                match = match[1] if isinstance(match, tuple) else match
+                items = match.split(split_char) if split_char else match.split()
+                for item in items:
+                    target_set.add(item.strip())
+
     for root, _, files in os.walk(folder_path):
         for filename in files:
             file_path = os.path.join(root, filename)
@@ -168,81 +176,26 @@ def extract_art_files_from_ini_files(folder_path):
                 # Default folder
                 if relative_path.startswith("Default\\"):
                     if filename in regex_patterns["default_folder"]:
-                        image_pattern = regex_patterns["default_folder"][filename]
-                        for line in lines:
-                            matches = re.findall(image_pattern, line)
-                            for match in matches:
-                                if isinstance(match, tuple):
-                                    match = match[1]
-                                for item in match.split():
-                                    images.add(item.strip())
-                    continue
+                        add_matches(regex_patterns["default_folder"][filename], lines, images)
 
                 # Object folder
                 if relative_path.startswith("Object\\"):
-                    for line in lines:
-                        image_pattern = regex_patterns["object_folder"]["image"]
-                        texture_pattern = regex_patterns["object_folder"]["texture"]
-                        model_signal_pattern = regex_patterns["object_folder"]["model_signal"]
-                        model_double_pattern = regex_patterns["object_folder"]["model_double"]
-
-                        matches_image = re.findall(image_pattern, line)
-                        for match in matches_image:
-                            if isinstance(match, tuple):
-                                match = match[1]
-                            for item in match.split():
-                                images.add(item.strip())
-                        matches_texture_single = re.findall(texture_pattern, line)
-                        for match in matches_texture_single:
-                            if isinstance(match, tuple):
-                                match = match[1]
-                            for item in match.split():
-                                textures.add(item.strip())
-                        matches_model_signal = re.findall(model_signal_pattern, line)
-                        for match in matches_model_signal:
-                            if isinstance(match, tuple):
-                                match = match[1]
-                            for item in match.split():
-                                models.add(item.strip())
-                        matches_model_double = re.findall(model_double_pattern, line)
-                        for match in matches_model_double:
-                            if isinstance(match, tuple):
-                                match = match[1]
-                            for item in match.split('.'):
-                                models.add(item.strip())
-                    continue
+                    for pattern_name,  pattern in regex_patterns["object_folder"].items():
+                        split_char = '.' if "model_double" in pattern_name else None
+                        add_matches(pattern, lines,
+                                    images if "image" in pattern_name else
+                                    textures if "texture" in pattern_name else models,
+                                    split_char)
 
                 # Main folder
                 if filename in regex_patterns["image"]:
-                    image_pattern = regex_patterns["image"][filename]
-                    for line in lines:
-                        matches = re.findall(image_pattern, line)
-                        for match in matches:
-                            if isinstance(match, tuple):
-                                match = match[1]
-                            for item in match.split():
-                                images.add(item.strip())
-
+                    add_matches(regex_patterns["image"][filename], lines, images)
                 if filename in regex_patterns["texture"]:
-                    texture_pattern = regex_patterns["texture"][filename]
-                    for line in lines:
-                        matches = re.findall(texture_pattern, line)
-                        for match in matches:
-                            if isinstance(match, tuple):
-                                match = match[1]
-                            for item in match.split():
-                                textures.add(item.strip())
+                    add_matches(regex_patterns["texture"][filename], lines, textures)
                 if filename in regex_patterns["model"]:
-                    model_pattern = regex_patterns["model"][filename]
-                    for line in lines:
-                        matches = re.findall(model_pattern, line)
-                        for match in matches:
-                            if isinstance(match, tuple):
-                                match = match[1]
-                            for item in match.split():
-                                models.add(item.strip())
+                    add_matches(regex_patterns["model"][filename], lines, models)
 
-    return sorted(list(images)), sorted(list(textures)), sorted(list(models))
+    return sorted(images), sorted(textures), sorted(models)
 
 
 def check_strings_in_dat_file(strings, file_path):
@@ -291,7 +244,7 @@ def analyze_language_art_files(base_folder, languages, language_assets, output_f
                 language_models = language_models.union(get_files_from_folder(edited_w3d_path, extensions=('.w3d')))
 
             # ============= Unused Languages Assets ==============
-            f.write("============== Unused Languages Textures ==============\n\n")
+            f.write("============== Unused Language Textures ==============\n\n")
             unused_textures = unused_assets_in_assets_list(language_textures,
                                                            language_assets['textures_mapped_images'] + ini_textures_scraping + mapped_textures)
 
@@ -301,7 +254,7 @@ def analyze_language_art_files(base_folder, languages, language_assets, output_f
             else:
                 f.write("None\n")
 
-            f.write("\n============== Unused Languages Models ==============\n\n")
+            f.write("\n============== Unused Language Models ==============\n\n")
             unused_models = unused_assets_in_assets_list(language_models, language_assets['models'] + ini_models_scraping)
             if unused_models:
                 for model in unused_models:
@@ -311,7 +264,7 @@ def analyze_language_art_files(base_folder, languages, language_assets, output_f
 
 
             # =============== Invalid Language Assets ================
-            f.write("\n============== Invalid Languages W3D Models references in INI files ==============\n\n")
+            f.write("\n============== Invalid Language W3D Model references in INI files ==============\n\n")
             invalid_models = invalid_given_assets_in_assets_list(language_assets['models'], language_models)
             if invalid_models:
                 for model in invalid_models:
@@ -319,7 +272,7 @@ def analyze_language_art_files(base_folder, languages, language_assets, output_f
             else:
                 f.write("None\n")
 
-            f.write("\n============== Invalid Languages Textures references in INI Mapped Images ==============\n\n")
+            f.write("\n============== Invalid Language Texture References in INI Mapped Images ==============\n\n")
             invalid_textures_mapped = invalid_given_assets_in_assets_list(language_assets['textures_mapped_images'], language_textures)
             if invalid_textures_mapped:
                 for texture in invalid_textures_mapped:
@@ -329,7 +282,7 @@ def analyze_language_art_files(base_folder, languages, language_assets, output_f
 
 
             # ============= Invalid textures in Languages W3D Assets ==============
-            f.write("\n============== Invalid Textures references in Languages W3D Files ==============\n\n")
+            f.write("\n============== Invalid Texture references in Language W3D Files ==============\n\n")
             invalid_w3d_textures = invalid_textures_in_w3d(textures_files.union(language_textures), w3d_path)
             if invalid_w3d_textures:
                 for w3d_file, invalid_textures in invalid_w3d_textures:
@@ -455,7 +408,7 @@ def main():
         'dat': r"C:\Program Files (x86)\Steam\steamapps\common\Command & Conquer Generals - Zero Hour\game.dat"
     }
 
-    original_folder_path = '../../../GameFilesOriginal'
+    original_folder_path = r'D:\generals steam verison\Command & Conquer Generals - Zero Hour'
     original_folder_paths = {
         'images': f'{original_folder_path}/Data/INI/MappedImages',
         'ini': f'{original_folder_path}/Data/INI',

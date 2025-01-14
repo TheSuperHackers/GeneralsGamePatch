@@ -1,6 +1,6 @@
 Report for language: German
 
-============== Unused Languages Textures ==============
+============== Unused Language Textures ==============
 
 SCSmShellUserInterface512.tga
 Skirmish_Loaduserinterface.tga
@@ -8,18 +8,18 @@ UITerdrone01.tga
 ZHCA_PMNFlag.tga
 ZHCA_UITerdrone01.tga
 
-============== Unused Languages Models ==============
+============== Unused Language Models ==============
 
 None
 
-============== Invalid Languages W3D Models references in INI files ==============
+============== Invalid Language W3D Model references in INI files ==============
 
 None
 
-============== Invalid Languages Textures references in INI Mapped Images ==============
+============== Invalid Language Texture References in INI Mapped Images ==============
 
 None
 
-============== Invalid Textures references in Languages W3D Files ==============
+============== Invalid Texture references in Language W3D Files ==============
 
 None

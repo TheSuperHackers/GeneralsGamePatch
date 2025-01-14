@@ -4,6 +4,7 @@ EXRedSmokePuff.tga
 EXSateliteHack1.tga
 EXthunderRadar.tga
 EXthunderWave.tga
+NoTexture.tga
 None
 SMUDGE.tga
 TLRock01.tga
