@@ -112,7 +112,7 @@ def extract_textures_from_w3d_files(w3d_folder_path):
     return list(textures_in_w3d_files)
 
 
-def extract_art_files_from_ini_files(folder_path):
+def extract_art_assets_from_ini_files(folder_path):
     regex_patterns = {
         "image": {
             "Animation2D.ini": r'^\s*Image\s*(?:=\s*([^\s;]+))?\s*(?:;.*)?$',
@@ -408,7 +408,7 @@ def main():
         'dat': r"C:\Program Files (x86)\Steam\steamapps\common\Command & Conquer Generals - Zero Hour\game.dat"
     }
 
-    original_folder_path = r'D:\generals steam verison\Command & Conquer Generals - Zero Hour'
+    original_folder_path = '../../../GameFilesOriginal'
     original_folder_paths = {
         'images': f'{original_folder_path}/Data/INI/MappedImages',
         'ini': f'{original_folder_path}/Data/INI',
@@ -444,7 +444,7 @@ def main():
     textures_files = textures.union(
         get_files_from_folder(folder_paths['textures']))
     models_files = models.union(get_files_from_folder(folder_paths['w3d'], extensions=('.w3d')))
-    ini_images_scraping, ini_textures_scraping, ini_models_scraping = extract_art_files_from_ini_files(
+    ini_images_scraping, ini_textures_scraping, ini_models_scraping = extract_art_assets_from_ini_files(
         folder_paths['ini'])
 
     language_assets = {
