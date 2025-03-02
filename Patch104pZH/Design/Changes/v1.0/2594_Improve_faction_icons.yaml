@@ -1,0 +1,18 @@
+date: 2025-03-03
+
+title: Improve faction icons in score screen
+
+changes:
+  - fix: Show accurate faction icons in the score screen
+    
+
+labels:
+  - art
+  - minor
+  - GUI
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2594
+  
+authors:
+  - L3-M
