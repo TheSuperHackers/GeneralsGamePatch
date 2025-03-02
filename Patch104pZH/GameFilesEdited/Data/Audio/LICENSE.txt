@@ -1,0 +1,2 @@
+The project root LICENSE.txt does NOT apply to EA asset files in this folder and subfolders.
+The project root TERMS.txt does apply.
