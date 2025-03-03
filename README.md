@@ -60,7 +60,9 @@ In our first survey we asked the community what they think about addressing bugs
 
 ## CONTRIBUTE
 
-[How to contribute](CONTRIBUTE.md)
+If you're interested in contributing to the project, please refer to our detailed [Contribution Guidelines](CONTRIBUTE.md) for technical instructions on how to get started.
+
+For general guidance and suggestions on how to contribute in various areas (graphics, sound, AI, etc.), check out our [How to Contribute](CONTRIBUTION_GUIDELINES.md) document.
 
 ## LICENSE
 
