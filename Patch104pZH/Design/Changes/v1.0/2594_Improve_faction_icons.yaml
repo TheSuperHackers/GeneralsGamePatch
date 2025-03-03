@@ -3,8 +3,8 @@ date: 2025-03-03
 title: Improve faction icons in score screen
 
 changes:
-  - fix: Show accurate faction icons in the score screen
-    
+  - fix: Show accurate faction icons in the score screen 
+         SCShellUserInterface512_011
 
 labels:
   - art
