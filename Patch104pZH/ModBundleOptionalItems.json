@@ -606,6 +606,22 @@
                                 "target": "Art/Textures/cbmogdis06_ventesn.dds"
                             },
                             {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbndealers_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbndealers_esn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbndealers_rn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbndealers_rsn.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
