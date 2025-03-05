@@ -11,6 +11,8 @@
             "ModBundleRecoveredItems.json",
             "ModBundleCorePacks.json",
             "ModBundleFullPacks.json",
+            "ModBundlePristineCorePacks.json",
+            "ModBundlePristineFullPacks.json",
             "ModChangeLog.json",
             "ModFolders.json"
         ]
