@@ -606,6 +606,58 @@
                                 "target": "Art/Textures/cbmogdis06_ventesn.dds"
                             },
                             {
+                                "source": "Art/Textures/GenerateMip/cbnbtraist_window.psd",
+                                "target": "Art/Textures/cbnbtraist.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnbtraist_window.psd",
+                                "target": "Art/Textures/cbnbtraist_g.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnbtraist_dg.psd",
+                                "target": "Art/Textures/cbnbtraist_d.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnbtraist_s.psd",
+                                "target": "Art/Textures/cbnbtraist_sg.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnbtraist_ds.psd",
+                                "target": "Art/Textures/cbnbtraist_dsg.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnbtraist_ceiling_ds.psd",
+                                "target": "Art/Textures/cbnbtraist_ceiling_dsg.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnbtraist_n.psd",
+                                "target": "Art/Textures/cbnbtraist_ng.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnbtraist_sn.psd",
+                                "target": "Art/Textures/cbnbtraist_sng.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnbtraist_dsn.psd",
+                                "target": "Art/Textures/cbnbtraist_dsng.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbnbtraist_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbnbtraist_esn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbnbtraist_rn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbnbtraist_rsn.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
