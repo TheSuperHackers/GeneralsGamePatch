@@ -70,5 +70,5 @@ you must not use any work of this Product in your distribution.
   Not for commercial profit: Derivatives of this Product cannot solicit
 donations, unless they deviate by a substantial amount.
 
-  All new assets, that are not derivative works of EA assets, are licensed
+  All other assets, that are not derivative works of EA assets, are licensed
 under the GPL <LICENSE.txt>.
