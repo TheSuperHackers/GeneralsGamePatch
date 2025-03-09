@@ -60,10 +60,15 @@ in the EA User Agreement.
 
                             The Super Hackers terms
 
-  This product is free software: You can redistribute it and/or modify it under
-the terms of the GPL license <LICENSE.txt>. If you do not wish to publish your
-derivative Product under this license, then you must not use any work of this
-Product in your distribution.
+  The EA assets in this product are bound to the above Electronic Arts (EA)
+terms. The Super Hackers grants at least all rights that EA grants and reserves
+the right to change the license to any kind when the EA terms allow for it. You
+can redistribute and/or modify all EA assets under the same terms and license.
+If you do not wish to publish your derivative Product under these terms, then
+you must not use any work of this Product in your distribution.
 
   Not for commercial profit: Derivatives of this Product cannot solicit
-donations.
+donations, unless they deviate by a substantial amount.
+
+  All other assets, that are not derivative works of EA assets, are licensed
+under the GPL <LICENSE.txt>.
