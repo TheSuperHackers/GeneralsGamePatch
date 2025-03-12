@@ -1,0 +1,20 @@
+---
+date: 2025-03-12
+
+title: Fixes inconsistence in French, Italian, Brazilian, Polish, Arabic strings
+
+changes:
+  - fix: The number of campaigns in French, Italian, Brazilian, Polish, Arabic strings is more consistent now.
+ 
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2578
+
+authors:
+  - dmgreen
