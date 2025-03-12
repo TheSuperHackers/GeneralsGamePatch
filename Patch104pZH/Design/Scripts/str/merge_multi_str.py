@@ -29,7 +29,7 @@ def run():
     with open(generals_str_upgrade, mode="r", encoding="utf-8") as file:
         upgrade_lines = file.readlines()
 
-    #upgrade_languages = ["US:", "DE:", "FR:", "ES:", "IT:", "KO:", "ZH:", "BP:", "PL:", "RU", "AR", "UK" "SE"]
+    #upgrade_languages = ["US:", "DE:", "FR:", "ES:", "IT:", "KO:", "ZH:", "BP:", "PL:", "RU", "AR", "UK", "SE"]
     upgrade_languages = ["US:", "DE:", "FR:", "ES:", "IT:", "KO:", "ZH:", "BP:", "PL:", "RU", "SE"]
     is_in_label_block = False
     label_name = ""
