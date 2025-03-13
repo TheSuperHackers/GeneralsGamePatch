@@ -1,0 +1,21 @@
+---
+date: 2023-03-11
+
+title: Increase Cash Bounty Dummy spawn interval from 250 to 1000 ms
+
+changes:
+  - tweak: Increases Cash Bounty Dummy spawn interval from 250 to 1000 ms
+
+labels:
+  - buff
+  - gamemismatchwith104
+  - minor
+  - patch104p
+  - performance
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764
+
+authors:
+  - xezon

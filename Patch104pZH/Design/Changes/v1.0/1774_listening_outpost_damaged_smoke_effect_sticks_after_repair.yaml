@@ -1,0 +1,21 @@
+---
+date: 2023-03-18
+
+title: Listening Outpost Damaged Smoke Effect Sticks After Repair (2)
+
+changes:
+  - fix: Adds missing comments and corrects the smoke effect removal on Infa_ChinaVehicleTroopCrawler and Infa_ChinaVehicleListeningOutpost
+
+labels:
+  - balancemismatchwith104
+  - bug
+  - china
+  - documentation
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1774
+
+authors:
+  - xezon
