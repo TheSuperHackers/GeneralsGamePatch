@@ -590,7 +590,7 @@ def run():
     ru_command_map_ini = build_abs_path("../../../GameFilesEdited/Data/Russian/CommandMap.ini")
     ar_command_map_ini = build_abs_path("../../../GameFilesEdited/Data/Arabic/CommandMap.ini")
     uk_command_map_ini = build_abs_path("../../../GameFilesEdited/Data/Ukrainian/CommandMap.ini")
-    se_command_map_ini = build_abs_path("../../../GameFilesEdited/Data/Sweden/CommandMap.ini")
+    se_command_map_ini = build_abs_path("../../../GameFilesEdited/Data/Swedish/CommandMap.ini")
 
     assert generals_str.is_file()
     assert command_set_ini.is_file()
