@@ -1,13 +1,11 @@
 ---
 date: 2025-03-12
 
-title: Fixes inconsistence in French, Italian, Brazilian, Polish, Arabic strings
+title: Fixes inconsistence in French, Italian, Brazilian, Polish, Arabic campaing number strings
 
 changes:
   - fix: The number of campaigns in French, Italian, Brazilian, Polish, Arabic strings is more consistent now.
- 
-subchanges:
-  
+
 labels:
   - minor
   - text
