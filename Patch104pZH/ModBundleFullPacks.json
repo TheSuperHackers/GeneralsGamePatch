@@ -231,6 +231,26 @@
                     "CoreWindow",
                     "RecoveredTextures"
                 ]
+            },
+            {
+                "name": "FullSwedish",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioSwedish",
+                    "OptionalINI",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioSwedish",
+                    "CoreINI",
+                    "CoreLangSwedish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
             }
         ]
     }

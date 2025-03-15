@@ -157,6 +157,20 @@
                     "CoreW3D",
                     "CoreWindow"
                 ]
+            },
+            {
+                "name": "CoreSwedish",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioSwedish",
+                    "CoreINI",
+                    "CoreLangSwedish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
             }
         ]
     }

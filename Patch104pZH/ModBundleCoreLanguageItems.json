@@ -396,6 +396,40 @@
                         }
                     }
                 ]
+            },
+            {
+                "name": "CoreLangSwedish",
+                "big": true,
+                "setGameLanguageOnInstall": "Swedish",
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Swedish/*.ini"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ]
+                    },
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Swedish/generals.csf"
+                            }
+                        ],
+                        "params": {
+                            "language": "Swedish",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
             }
         ]
     }
