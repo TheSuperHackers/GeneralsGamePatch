@@ -621,7 +621,7 @@ def run():
     find_with(generals_str, command_set_ini, command_button_ini, ru_command_map_ini, "RU")
     find_with(generals_str, command_set_ini, command_button_ini, ar_command_map_ini, "AR")
     find_with(generals_str, command_set_ini, command_button_ini, uk_command_map_ini, "UK")
-    find_with(generals_str, command_set_ini, command_button_ini, uk_command_map_ini, "SE")
+    find_with(generals_str, command_set_ini, command_button_ini, se_command_map_ini, "SE")
 
     print(f"Finished in {timer.GetElapsedSecondsString()} s")
 
