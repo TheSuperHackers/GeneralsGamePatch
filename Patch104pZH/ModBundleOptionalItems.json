@@ -880,6 +880,32 @@
                         }
                     }
                 ]
+            },
+            {
+                "name": "PristineOptionalINI",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/INI/CommandSet.ini",
+                            "Data/INI/Voice.ini"
+                        ],
+                        "params": {
+                            "forceEOL": "\r\n",
+                            "deleteComments": ";",
+                            "deleteWhitespace": 1,
+                            "sourceEncoding": "ascii",
+                            "targetEncoding": "ascii",
+                            "excludeMarkersList": [
+                                [
+                                    ";patch104p-core-begin",
+                                    ";patch104p-core-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
             }
         ]
     }
