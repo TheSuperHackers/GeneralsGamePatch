@@ -1,0 +1,216 @@
+---
+date: 2024-09-18
+
+title: Fixes and improves cbngovbuil textures
+
+changes:
+  - fix: Fixes and improves Civilian cbngovbuil textures.
+
+subchanges:
+  - fix: |
+      cbngovbuil_base
+        - Fixes tiling on ground plate
+  - fix: |
+      cbngovbuil_base_d
+        - Fixes tiling on ground plate
+        - Fixes bright highlights on damages
+        - Removes a few of the texture damages to have a greater damage transition to cbngovbuil_base_e
+  - fix: |
+      cbngovbuil_base_e, cbngovbuil_base_r
+        - Fixes tiling on ground plate
+        - Fixes bright highlights on damages
+        - Changes roof damages in alpha channel
+  - fix: |
+      cbngovbuil_base_s
+        - Fixes tiling on ground plate
+  - fix: |
+      cbngovbuil_base_ds
+        - Fixes tiling on ground plate
+        - Fixes bright highlights on damages
+        - Fixes snow drawing over burns
+  - fix: |
+      cbngovbuil_base_es, cbngovbuil_base_rs
+        - Fixes tiling on ground plate
+        - Fixes bright highlights on damages
+        - Fixes snow drawing over burns
+        - Fixes floating pixels in alpha channel
+        - Changes roof damages in alpha channel
+  - fix: |
+      cbngovbuil_base_en, cbngovbuil_base_rn, cbngovbuil_base_esn, cbngovbuil_base_rsn
+        - Fixes incorrect night light
+  - fix: |
+      cbngovbuil_st
+        - Fixes tower visuals
+        - Fixes railing visuals
+        - Fixes pavilion window visuals
+  - fix: |
+      cbngovbuil_st_d
+        - Fixes tower visuals
+        - Fixes railing visuals
+        - Fixes pavilion window visuals
+        - Fixes bright highlights on damages
+        - Removes roof damage in alpha channel
+  - fix: |
+      cbngovbuil_st_e
+        - Fixes tower visuals
+        - Fixes railing visuals
+        - Fixes pavilion window visuals
+        - Fixes texture damage inconsistencies with cbngovbuil_st_d
+        - Fixes floating damages in alpha channel
+        - Adds additional damages in alpha channel
+  - fix: |
+      cbngovbuil_st_r
+        - Fixes tower visuals
+        - Fixes railing visuals
+        - Fixes pavilion window visuals
+        - Fixes texture damage inconsistencies with cbngovbuil_st_d
+        - Fixes alpha channel damage inconsistencies with cbngovbuil_st_e
+        - Fixes floating damages in alpha channel
+        - Changes damages in alpha channel
+  - fix: |
+      cbngovbuil_st_s
+        - Fixes tower visuals
+        - Fixes railing visuals
+        - Fixes pavilion window visuals
+        - Darkens snow in shade
+  - fix: |
+      cbngovbuil_st_ds
+        - Fixes tower visuals
+        - Fixes railing visuals
+        - Fixes pavilion window visuals
+        - Fixes snow drawing over burns
+        - Removes roof damage in alpha channel
+  - fix: |
+      cbngovbuil_st_es
+        - Fixes tower visuals
+        - Fixes railing visuals
+        - Fixes pavilion window visuals
+        - Fixes snow drawing over burns
+        - Fixes minor texture damage inconsistencies with cbngovbuil_st_ds
+        - Fixes floating damages in alpha channel
+        - Adds additional damages in alpha channel
+  - fix: |
+      cbngovbuil_st_rs
+        - Fixes tower visuals
+        - Fixes railing visuals
+        - Fixes pavilion window visuals
+        - Fixes snow drawing over burns
+        - Fixes minor texture damage inconsistencies with cbngovbuil_st_ds
+        - Fixes alpha channel damage inconsistencies with cbngovbuil_st_es
+        - Fixes floating damages in alpha channel
+        - Changes damages in alpha channel
+  - fix: |
+      cbngovbuil_wall01_e
+        - Fixes floating damages in alpha channel
+        - Changes damages in alpha channel
+  - fix: |
+      cbngovbuil_wall01_r
+        - Fixes minor alpha channel damage inconsistencies with cbngovbuil_wall01_e
+        - Fixes floating damages in alpha channel
+        - Changes damages in alpha channel
+  - fix: |
+      cbngovbuil_wall01_s
+        - Fixes snow inconsistencies with cbngovbuil_wall01_sg
+  - fix: |
+      cbngovbuil_wall01_ds, cbngovbuil_wall01_dsg
+        - Fixes snow drawing over burns
+  - fix: |
+      cbngovbuil_wall01_es, cbngovbuil_wall01_rs
+        - Fixes snow drawing over burns
+        - Adds missing alpha channel
+  - fix: |
+      cbngovbuil_wall01_n, cbngovbuil_wall01_ng
+        - Adds house lights to top floor
+        - Darkens door lights at bottom floor
+  - fix: |
+      cbngovbuil_wall01_dn, cbngovbuil_wall01_dng
+        - Adds house lights to top floor
+        - Adds more damages to door lights
+  - fix: |
+      cbngovbuil_wall01_en, cbngovbuil_wall01_rn, cbngovbuil_wall01_esn, cbngovbuil_wall01_rsn
+        - Fixes incorrect night light
+  - fix: |
+      cbngovbuil_wall01_sn, cbngovbuil_wall01_sng
+        - Adds house lights to top floor
+        - Darkens door lights at bottom floor
+        - Darkens snow at door lights
+  - fix: |
+      cbngovbuil_wall01_dsn, cbngovbuil_wall01_dsng
+        - Adds house lights to top floor
+        - Adds more damages to door lights
+        - Darkens snow at door lights
+  - fix: |
+      cbngovbuil_wall02, cbngovbuil_wall02_d, cbngovbuil_wall02_dg
+        - Fixes dark entrance visuals
+  - fix: |
+      cbngovbuil_wall02_e
+        - Fixes dark entrance visuals
+        - Decreases darkness of texture damages
+        - Fixes alpha channel damage inconsistencies with cbngovbuil_wall02_r
+        - Fixes floating pixels in alpha channel
+        - Decreases amount of damages in alpha channel
+  - fix: |
+      cbngovbuil_wall02_r
+        - Fixes dark entrance visuals
+        - Fixes minor texture damage inconsistencies with cbngovbuil_wall02_e
+        - Fixes alpha channel damage inconsistencies with cbngovbuil_wall02_e
+        - Fixes floating pixels in alpha channel
+        - Decreases amount of damages in alpha channel
+  - fix: |
+      cbngovbuil_wall02_g
+        - Fixes dark entrance visuals
+        - Removes bullet holes
+  - fix: |
+      cbngovbuil_wall02_s
+        - Fixes dark entrance visuals
+  - fix: |
+      cbngovbuil_wall02_ds, cbngovbuil_wall02_dsg
+        - Fixes dark entrance visuals
+        - Fixes snow drawing over burns
+  - fix: |
+      cbngovbuil_wall02_es, cbngovbuil_wall02_rs
+        - Fixes dark entrance visuals
+        - Fixes snow drawing over burns
+        - Adds missing alpha channel
+  - fix: |
+      cbngovbuil_wall02_sg
+        - Fixes dark entrance visuals
+        - Removes bullet holes
+        - Fixes roof snow discrepancies with cbngovbuil_wall02_s
+  - fix: |
+      cbngovbuil_wall02_n, cbngovbuil_wall02_dn
+        - Improves window lights
+        - Improves door lights
+        - Adds lights to entrance
+  - fix: |
+      cbngovbuil_wall02_ng, cbngovbuil_wall02_dng
+        - Fixes faint lights drawing over window barricades
+        - Improves window lights
+        - Improves door lights
+        - Adds lights to entrance
+  - fix: |
+      cbngovbuil_wall02_en, cbngovbuil_wall02_rn, cbngovbuil_wall02_esn, cbngovbuil_wall02_rsn
+        - Fixes incorrect night light
+  - fix: |
+      cbngovbuil_wall02_sn, cbngovbuil_wall02_dsn
+        - Fixes faint lights drawing over snow
+        - Improves window lights
+        - Improves door lights
+        - Adds lights to entrance
+        - Darkens snow at door lights
+  - fix: |
+      cbngovbuil_wall02_sng, cbngovbuil_wall02_dsng
+        - New
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2510
+
+authors:
+  - xezon
