@@ -1,0 +1,67 @@
+---
+date: 2024-09-08
+
+title: Fixes cbnbtraist textures
+
+changes:
+  - fix: Fixes Civilian cbnbtraist textures.
+
+subchanges:
+  - fix: |
+      cbnbtraist_window, cbnbtraist, cbnbtraist_d, cbnbtraist_g, cbnbtraist_dg, cbnbtraist_s, cbnbtraist_ds, cbnbtraist_sg, cbnbtraist_dsg
+        - Fixes edges of windows
+  - fix: |
+      cbnbtraist_e, cbnbtraist_r, cbnbtraist_es, cbnbtraist_rs
+        - Fixes edges of windows
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbnbtraist_n, cbnbtraist_ng, cbnbtraist_sn, cbnbtraist_sng
+        - Fixes feathered lights
+  - fix: |
+      cbnbtraist_dn, cbnbtraist_dng
+        - Fixes feathered lights
+        - Increases light brightness
+  - fix: |
+      cbnbtraist_en, cbnbtraist_rn
+        - Fixes incorrect night light
+  - fix: |
+      cbnbtraist_dsn, cbnbtraist_dsng
+        - Fixes feathered lights
+        - Fixes snow artifacts
+        - Increases light brightness
+  - fix: |
+      cbnbtraist_esn, cbnbtraist_rsn
+        - Optimizes texture size
+  - fix: |
+      cbnbtraist_ceiling_dg
+        - Fixes mismatching texture seam
+        - Removes dark blob window damages
+        - Adds broken glass damages
+  - fix: |
+      cbnbtraist_ceiling_e, cbnbtraist_ceiling_r
+        - Fixes mismatching texture seam
+        - Fixes minor texture damage inconsistencies with cbnbtraist_ceiling_dg
+        - Fixes edges of broken glass in alpha channel
+  - fix: |
+      cbnbtraist_ceiling_ds, cbnbtraist_ceiling_dsg
+        - Fixes mismatching texture seam
+        - Removes dark blob window damages
+        - Fixes window reflection over snow in alpha channel
+  - fix: |
+      cbnbtraist_ceiling_es, cbnbtraist_ceiling_rs
+        - Fixes mismatching texture seam
+        - Fixes minor texture damage inconsistencies with cbnbtraist_ceiling_ds
+        - Fixes edges of broken glass in alpha channel
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2504
+
+authors:
+  - xezon
