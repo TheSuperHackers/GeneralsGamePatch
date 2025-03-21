@@ -232,6 +232,27 @@
                     "RecoveredTextures"
                 ]
             },
+                        {
+                "name": "FullUkrainian",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioUkrainian",
+                    "OptionalINI",
+                    "OptionalTextures",
+                    "OptionalLangUkrainian",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioUkrainian",
+                    "CoreINI",
+                    "CoreLangUkrainian",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
             {
                 "name": "FullSwedish",
                 "itemNames": [
@@ -239,6 +260,7 @@
                     "OptionalAudioSwedish",
                     "OptionalINI",
                     "OptionalTextures",
+                    "OptionalLangSwedish",
                     "OptionalW3D",
                     "CoreAudio",
                     "CoreAudioSwedish",

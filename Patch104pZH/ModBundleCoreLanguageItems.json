@@ -6,6 +6,7 @@
         "items": [
             {
                 "name": "CoreLangArabic",
+                "_comment": "This Arabic localization is community-made",
                 "big": true,
                 "setGameLanguageOnInstall": "English",
                 "files": [
@@ -332,6 +333,7 @@
             {
                 "name": "CoreLangRussian",
                 "big": true,
+                "_comment": "This Russian localization is community-made",
                 "setGameLanguageOnInstall": "English",
                 "files": [
                     {
@@ -387,6 +389,38 @@
                         ],
                         "params": {
                             "language": "Spanish",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "CoreLangUkrainian",
+                "_comment": "This Ukrainian localization is community-made",
+                "big": true,
+                "setGameLanguageOnInstall": "Ukrainian",
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/Ukrainian/*.ini"
+                        ]
+                    },
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Ukrainian/generals.csf"
+                            }
+                        ],
+                        "params": {
+                            "language": "Ukrainian",
                             "excludeMarkersList": [
                                 [
                                     "//patch104p-optional-begin",

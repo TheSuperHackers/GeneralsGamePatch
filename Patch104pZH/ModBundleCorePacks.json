@@ -158,6 +158,20 @@
                     "CoreWindow"
                 ]
             },
+                        {
+                "name": "CoreUkrainian",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioUkrainian",
+                    "CoreINI",
+                    "CoreLangUkrainian",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
             {
                 "name": "CoreSwedish",
                 "itemNames": [
