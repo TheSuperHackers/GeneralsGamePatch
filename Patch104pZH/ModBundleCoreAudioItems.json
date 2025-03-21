@@ -18,6 +18,7 @@
             },
             {
                 "name": "CoreAudioArabic",
+                "_comment": "This Arabic localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -144,6 +145,7 @@
             },
             {
                 "name": "CoreAudioRussian",
+                "_comment": "This Russian localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -174,6 +176,7 @@
             },
             {
                 "name": "CoreAudioSwedish",
+                "_comment": "This Swedish localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -189,6 +192,7 @@
             },
             {
                 "name": "CoreAudioUkrainian",
+                "_comment": "This Ukrainian localization is community-made",
                 "big": true,
                 "files": [
                     {

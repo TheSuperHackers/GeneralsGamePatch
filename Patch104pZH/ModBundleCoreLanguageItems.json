@@ -6,6 +6,7 @@
         "items": [
             {
                 "name": "CoreLangArabic",
+                "_comment": "This Arabic localization is community-made",
                 "big": true,
                 "setGameLanguageOnInstall": "English",
                 "files": [
@@ -331,6 +332,7 @@
             },
             {
                 "name": "CoreLangRussian",
+                "_comment": "This Russian localization is community-made",
                 "big": true,
                 "setGameLanguageOnInstall": "English",
                 "files": [
