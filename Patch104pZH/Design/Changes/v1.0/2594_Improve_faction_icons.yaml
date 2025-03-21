@@ -1,18 +1,19 @@
-date: 2025-03-03
+---
+date: 2024-03-21
 
-title: Improve faction icons in score screen
+title: Improve faction icons
 
 changes:
-  - fix: Show accurate faction icons in the score screen 
-         SCShellUserInterface512_011
+  - feature: Updates faction icons for accurate display in score screen, observer player info and flag watermark.
 
 labels:
   - art
+  - gui
   - minor
-  - GUI
+  - v1.0
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2594
-  
+
 authors:
   - L3-M
