@@ -18,6 +18,7 @@
             },
             {
                 "name": "CoreAudioArabic",
+                "_comment": "This Arabic localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -144,6 +145,7 @@
             },
             {
                 "name": "CoreAudioRussian",
+                "_comment": "This Russian localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -174,6 +176,23 @@
             },
             {
                 "name": "CoreAudioSwedish",
+                "_comment": "This Swedish localization is community-made",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioUkrainian",
+                "_comment": "This Ukrainian localization is community-made",
                 "big": true,
                 "files": [
                     {

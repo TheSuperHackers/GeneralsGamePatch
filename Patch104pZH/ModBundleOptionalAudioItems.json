@@ -29,6 +29,7 @@
             },
             {
                 "name": "OptionalAudioArabic",
+                "_comment": "This community-made Arabic localization uses English Audio",
                 "big": true,
                 "files": [
                     {
@@ -252,6 +253,7 @@
             },
             {
                 "name": "OptionalAudioRussian",
+                "_comment": "This community-made Russian localization uses Russian Audio",
                 "big": true,
                 "files": [
                     {
@@ -294,6 +296,35 @@
             },
             {
                 "name": "OptionalAudioSwedish",
+                "_comment": "This community-made Swedish localization uses English Audio",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/English/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "OptionalAudioUkrainian",
+                "_comment": "This community-made Ukrainian localization uses English Audio",
                 "big": true,
                 "files": [
                     {

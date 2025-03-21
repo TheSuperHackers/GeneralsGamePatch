@@ -5,6 +5,31 @@
         "itemsSuffix": "",
         "items": [
             {
+                "name": "OptionalLangArabic",
+                "_comment": "This Arabic localization is community-made",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Arabic/generals.csf"
+                            }
+                        ],
+                        "params": {
+                            "language": "Arabic",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
                 "name": "OptionalLangBrazilian",
                 "big": true,
                 "files": [
@@ -199,6 +224,7 @@
             },
             {
                 "name": "OptionalLangRussian",
+                "_comment": "This Russian localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -247,6 +273,7 @@
             },
             {
                 "name": "OptionalLangSwedish",
+                "_comment": "This Swedish localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -259,6 +286,31 @@
                         ],
                         "params": {
                             "language": "Swedish",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "OptionalLangUkrainian",
+                "_comment": "This Ukrainian localization is community-made",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Ukrainian/generals.csf"
+                            }
+                        ],
+                        "params": {
+                            "language": "Ukrainian",
                             "excludeMarkersList": [
                                 [
                                     "//patch104p-core-begin",
