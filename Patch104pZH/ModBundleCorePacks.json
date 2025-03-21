@@ -158,13 +158,13 @@
                     "CoreWindow"
                 ]
             },
-                        {
-                "name": "CoreUkrainian",
+            {
+                "name": "CoreSwedish",
                 "itemNames": [
                     "CoreAudio",
-                    "CoreAudioUkrainian",
+                    "CoreAudioSwedish",
                     "CoreINI",
-                    "CoreLangUkrainian",
+                    "CoreLangSwedish",
                     "CoreMaps",
                     "CoreMisc",
                     "CoreTextures",
@@ -173,12 +173,12 @@
                 ]
             },
             {
-                "name": "CoreSwedish",
+                "name": "CoreUkrainian",
                 "itemNames": [
                     "CoreAudio",
-                    "CoreAudioSwedish",
+                    "CoreAudioUkrainian",
                     "CoreINI",
-                    "CoreLangSwedish",
+                    "CoreLangUkrainian",
                     "CoreMaps",
                     "CoreMisc",
                     "CoreTextures",

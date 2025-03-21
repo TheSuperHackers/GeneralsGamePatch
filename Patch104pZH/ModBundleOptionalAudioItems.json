@@ -293,7 +293,7 @@
                 ]
             },
             {
-                "name": "OptionalAudioUkrainian",
+                "name": "OptionalAudioSwedish",
                 "big": true,
                 "files": [
                     {
@@ -320,7 +320,7 @@
                 ]
             },
             {
-                "name": "OptionalAudioSwedish",
+                "name": "OptionalAudioUkrainian",
                 "big": true,
                 "files": [
                     {

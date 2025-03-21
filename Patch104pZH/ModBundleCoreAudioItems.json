@@ -173,7 +173,7 @@
                 ]
             },
             {
-                "name": "CoreAudioUkrainian",
+                "name": "CoreAudioSwedish",
                 "big": true,
                 "files": [
                     {
@@ -188,7 +188,7 @@
                 ]
             },
             {
-                "name": "CoreAudioSwedish",
+                "name": "CoreAudioUkrainian",
                 "big": true,
                 "files": [
                     {
