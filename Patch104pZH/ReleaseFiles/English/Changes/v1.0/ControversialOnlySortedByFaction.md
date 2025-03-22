@@ -1473,11 +1473,13 @@ Contains 130 entries with
 **Changes**
 
 - **FIX**: The GLA Cash Bounty no longer requires a GLA Command Center scaffold or structure to activate or upgrade. It works entirely passive now.
+- **TWEAK**: Increases Cash Bounty Dummy spawn interval from 250 to 1000 ms.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2263](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2263)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2298](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2298)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764)
 
 **Labels:** boss, buff, bug, controversial, design, gla, minor, v1.0
 
