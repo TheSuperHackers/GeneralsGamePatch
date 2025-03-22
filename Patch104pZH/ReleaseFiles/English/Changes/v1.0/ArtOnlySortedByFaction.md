@@ -279,7 +279,7 @@ Contains 194 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/145](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/145)
 
-**Labels:** art, gui, minor, usa, v1.0
+**Labels:** art, controversial, gui, minor, usa, v1.0
 
 **Authors:** xamorish
 
@@ -1801,7 +1801,7 @@ Contains 194 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261)
 
-**Labels:** art, bug, china, minor, v1.0
+**Labels:** art, balancemismatchwith104, bug, china, minor, v1.0
 
 **Authors:** commy2
 
@@ -1818,7 +1818,7 @@ Contains 194 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2264](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2264)
 
-**Labels:** art, china, minor, v1.0
+**Labels:** art, balancemismatchwith104, china, minor, v1.0
 
 **Authors:** commy2
 
@@ -2418,7 +2418,7 @@ Contains 194 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/273](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/273)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/274)
 
-**Labels:** art, gla, minor, v1.0
+**Labels:** art, bug, gla, minor, v1.0
 
 **Authors:** commy2
 

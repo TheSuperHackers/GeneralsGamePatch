@@ -401,7 +401,7 @@ Contains 268 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/145](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/145)
 
-**Labels:** art, gui, minor, usa, v1.0
+**Labels:** art, controversial, gui, minor, usa, v1.0
 
 **Authors:** xamorish
 
@@ -3887,7 +3887,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1787](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1787)
 
-**Labels:** enhancement, gui, minor, usa, v1.0
+**Labels:** balancemismatchwith104, enhancement, gui, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -3944,7 +3944,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801)
 
-**Labels:** buff, controversial, design, gla, minor, usa, v1.0
+**Labels:** balancemismatchwith104, buff, controversial, design, gla, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -3960,7 +3960,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802)
 
-**Labels:** audio, china, controversial, design, gla, minor, usa, v1.0
+**Labels:** audio, balancemismatchwith104 china, controversial, design, gla, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -4466,7 +4466,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939)
 
-**Labels:** audio, design, minor, usa, v1.0
+**Labels:** audio, balancemismatchwith104, design, minor, usa, v1.0
 
 **Authors:** xezon
 
