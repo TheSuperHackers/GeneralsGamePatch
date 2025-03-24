@@ -7,8 +7,8 @@ changes:
   - fix: The wording in English tool tip strings is more consistent now.
   - fix: The capitalization of words in English tool tip strings is more consistent now.
   - fix: The English tool tip string of the GLA Rocket Buggy now also mentions it being strong vs infantry.
-  - fix: Fixed spelling mistakes
-  - fix: Additional improvements to descriptions
+  - fix: Fixed grammatical and punctuation mistakes.
+  - fix: Descriptions for some units are improved.
 
 labels:
   - minor
