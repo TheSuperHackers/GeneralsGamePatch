@@ -7,6 +7,8 @@ changes:
   - fix: The wording in English tool tip strings is more consistent now.
   - fix: The capitalization of words in English tool tip strings is more consistent now.
   - fix: The English tool tip string of the GLA Rocket Buggy now also mentions it being strong vs infantry.
+  - fix: Fixed grammatical and punctuation mistakes.
+  - fix: Descriptions for some units are improved.
 
 labels:
   - minor
@@ -19,6 +21,8 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2219
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2353
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2727
 
 authors:
   - xezon
+  - dmgreen
