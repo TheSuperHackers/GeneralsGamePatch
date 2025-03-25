@@ -9,6 +9,8 @@ changes:
   - fix: The China Helix is now called "Helis" instead of "Spiral" in Polish strings.
   - fix: The Polish tool tip string of the China Infantry Helix no longer claims to let passengers shoot at each other.
   - tweak: The Polish string for failed Rally Point placement is more concise now.
+  - fix: Fixes and improves Polish language strings
+  
 
 subchanges:
   - fix: Polish tool tip strings now consistently refer to rocket soldiers as "piechocie rakietowej".
@@ -28,6 +30,8 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2249
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2345
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2543
 
 authors:
   - xezon
+  - dmgreen
