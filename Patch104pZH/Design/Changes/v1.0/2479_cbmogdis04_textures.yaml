@@ -19,6 +19,7 @@ subchanges:
         - Suppresses grey emboss details
         - Increases brightness of texture
         - Adds missing alpha channel based on cbmogdis04 _e
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbmogdis04_g, cbmogdis04_dg
         - Adds shadows to window barricades
@@ -45,6 +46,7 @@ subchanges:
         - Fixes snow drawing over broken windows
         - Removes some snow to show more damage based on cbmogdis04_r
         - Adds missing alpha channel based on cbmogdis04 _e
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbmogdis04_n, cbmogdis04_dn
         - Recreates house lights
@@ -65,6 +67,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2494
 
 authors:
   - xezon
