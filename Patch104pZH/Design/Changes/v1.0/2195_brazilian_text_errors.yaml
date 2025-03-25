@@ -6,6 +6,7 @@ title: Fixes errors in Brazilian strings
 changes:
   - fix: The wording in Brazilian tool tip strings is more consistent now.
   - fix: The Brazilian names for GLA Booby Trap and Demo Trap are now distinguishable from each other.
+  - fix: Fixes and improves Brazilian Portuguese language strings
 
 subchanges:
   - fix: Brazilian tool tip strings now consistently refer to rocket soldiers as "Infantaria com Mísseis" instead of "Soldados c/ Mísseis".
@@ -23,6 +24,8 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2257
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2542
 
 authors:
   - xezon
+  - dmgreen
