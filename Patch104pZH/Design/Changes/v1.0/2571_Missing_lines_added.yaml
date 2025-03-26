@@ -1,0 +1,21 @@
+---
+date: 2025-03-26
+
+title: Added various missing lines
+
+
+changes:
+  - fix: Added missing lines for General Fai and Juhziz
+  - fix: Added missing lines for some entries
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2571
+
+authors:
+  - dmgreen
