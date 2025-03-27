@@ -1,0 +1,21 @@
+---
+date: 2025-03-27
+
+title: Changes China Command center description
+
+
+changes:
+  - fix: Improved text description for China Command center
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2696
+
+authors:
+  - dmgreen
