@@ -1,0 +1,21 @@
+---
+date: 2025-03-27
+
+title: Changes Behind building option string
+
+
+changes:
+  - fix: Improves text in Behind building option string
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2701
+
+authors:
+  - dmgreen
