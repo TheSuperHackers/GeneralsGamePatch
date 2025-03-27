@@ -1,0 +1,21 @@
+---
+date: 2025-03-27
+
+title: Changes Graphics option string
+
+
+changes:
+  - fix: Improved text in Graphics option string
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2700
+
+authors:
+  - dmgreen
