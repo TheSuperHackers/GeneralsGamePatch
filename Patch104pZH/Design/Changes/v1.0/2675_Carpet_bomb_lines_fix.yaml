@@ -1,0 +1,20 @@
+---
+date: 2025-03-27
+
+title: Changes to Capet bomb string
+
+
+changes:
+  - fix: Added improved text to Carpet bomb General's ability
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2675
+
+authors:
+  - dmgreen
