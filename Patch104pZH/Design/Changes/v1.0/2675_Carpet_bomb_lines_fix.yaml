@@ -1,11 +1,12 @@
 ---
 date: 2025-03-27
 
-title: Changes to Capet bomb string
+title: Changes to Capet bomb ability strings
 
 
 changes:
   - fix: Added improved text to Carpet bomb General's ability
+  
 subchanges:
   
 labels:
