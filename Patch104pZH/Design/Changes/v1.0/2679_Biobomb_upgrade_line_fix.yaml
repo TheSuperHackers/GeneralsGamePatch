@@ -1,0 +1,21 @@
+---
+date: 2025-03-27
+
+title: Changes Biobomb upgrade string
+
+
+changes:
+  - fix: Improved text for all lines in Biobomb upgrade string
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2679
+
+authors:
+  - dmgreen
