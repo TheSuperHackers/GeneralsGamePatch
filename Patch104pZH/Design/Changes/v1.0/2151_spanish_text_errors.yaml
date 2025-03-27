@@ -15,7 +15,6 @@ subchanges:
   - fix: Spanish tool tip strings now consistently refer to anti-air defenses as "defensas antiaéreas".
   - fix: Spanish tool tip strings now consistently refer to aircraft as "aviación" instead of "aviones".
   - fix: Spanish tool tip strings now consistently refer to scouts as "exploradores" instead of "unidades exploradoras".
-  
 
 labels:
   - minor
