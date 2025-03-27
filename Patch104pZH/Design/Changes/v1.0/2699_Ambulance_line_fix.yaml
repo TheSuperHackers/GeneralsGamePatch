@@ -1,0 +1,21 @@
+---
+date: 2025-03-27
+
+title: Changes Ambulance unit description
+
+
+changes:
+  - fix: Improved text description for Ambulance unit
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2699
+
+authors:
+  - dmgreen
