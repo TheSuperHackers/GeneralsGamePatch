@@ -1,11 +1,11 @@
 ---
 date: 2025-03-27
 
-title: Changes Graphics option string
+title: Improves texts in graphics options screen
 
 
 changes:
-  - fix: Improved text in Graphics option string
+  - tweak: Improves the title of the graphics options screen for all languages.
   
 subchanges:
   
