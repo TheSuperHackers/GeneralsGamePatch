@@ -1,0 +1,21 @@
+---
+date: 2025-03-28
+
+title: Improves texts of Nuclear shells object
+
+
+changes:
+  - tweak: Improves all lines to match object appearance in game
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2705
+
+authors:
+  - dmgreen
