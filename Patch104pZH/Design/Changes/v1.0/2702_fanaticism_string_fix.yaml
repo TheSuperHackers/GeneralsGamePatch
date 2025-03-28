@@ -1,0 +1,21 @@
+---
+date: 2025-03-28
+
+title: Improves texts of Fanaticism upgrade
+
+
+changes:
+  - fix: Changes text of all localization to match US localization
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2702
+
+authors:
+  - dmgreen
