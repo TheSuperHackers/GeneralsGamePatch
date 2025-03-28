@@ -1,0 +1,21 @@
+---
+date: 2025-03-28
+
+title: Improves texts of Leaflet drop hint
+
+
+changes:
+  - tweak: Improves texts of Leaflet drop hint for all localizations
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2708
+
+authors:
+  - dmgreen
