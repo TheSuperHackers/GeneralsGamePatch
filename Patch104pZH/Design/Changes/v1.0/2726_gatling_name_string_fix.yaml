@@ -1,0 +1,21 @@
+---
+date: 2025-03-28
+
+title: Fixes grammatical mistake in Gatling strings
+
+
+changes:
+  - tweak: Fixes grammatical mistake in Gatling strings for US, FR, ES, BP, PL localizations
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2726
+
+authors:
+  - dmgreen
