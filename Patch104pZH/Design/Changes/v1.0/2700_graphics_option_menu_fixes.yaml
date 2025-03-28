@@ -1,0 +1,21 @@
+---
+date: 2025-03-27
+
+title: Improves texts in graphics options screen
+
+
+changes:
+  - tweak: Improves the title of the graphics options screen for all languages.
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2700
+
+authors:
+  - dmgreen
