@@ -6,7 +6,6 @@
         "packs": [
             {
                 "name": "CoreArabic",
-                "_comment": "This Arabic localization is community-made",
                 "itemNames": [
                     "CoreAudio",
                     "CoreAudioArabic",
@@ -133,7 +132,6 @@
             },
             {
                 "name": "CoreRussian",
-                "_comment": "This Russian localization is community-made",
                 "itemNames": [
                     "CoreAudio",
                     "CoreAudioRussian",
@@ -162,7 +160,6 @@
             },
             {
                 "name": "CoreSwedish",
-                "_comment": "This Swedish localization is community-made",
                 "itemNames": [
                     "CoreAudio",
                     "CoreAudioSwedish",
@@ -177,7 +174,6 @@
             },
             {
                 "name": "CoreUkrainian",
-                "_comment": "This Ukrainian localization is community-made",
                 "itemNames": [
                     "CoreAudio",
                     "CoreAudioUkrainian",

@@ -6,7 +6,6 @@
         "items": [
             {
                 "name": "OptionalLangArabic",
-                "_comment": "This Arabic localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -224,7 +223,6 @@
             },
             {
                 "name": "OptionalLangRussian",
-                "_comment": "This Russian localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -273,7 +271,6 @@
             },
             {
                 "name": "OptionalLangSwedish",
-                "_comment": "This Swedish localization is community-made",
                 "big": true,
                 "files": [
                     {
@@ -298,7 +295,6 @@
             },
             {
                 "name": "OptionalLangUkrainian",
-                "_comment": "This Ukrainian localization is community-made",
                 "big": true,
                 "files": [
                     {
