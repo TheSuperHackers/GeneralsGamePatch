@@ -400,12 +400,15 @@
             {
                 "name": "CoreLangSwedish",
                 "big": true,
-                "setGameLanguageOnInstall": "Swedish",
+                "setGameLanguageOnInstall": "English",
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Swedish/*.ini"
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Swedish/*.ini",
+                                "target": "Data/English/*.ini"
+                            }
                         ]
                     },
                     {
@@ -413,7 +416,7 @@
                         "sourceTargetList": [
                             {
                                 "source": "Data/generals.str",
-                                "target": "Data/Swedish/generals.csf"
+                                "target": "Data/English/generals.csf"
                             }
                         ],
                         "params": {
