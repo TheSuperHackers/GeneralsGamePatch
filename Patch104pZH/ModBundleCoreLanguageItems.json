@@ -403,12 +403,15 @@
                 "name": "CoreLangSwedish",
                 "_comment": "This Swedish localization is community-made",
                 "big": true,
-                "setGameLanguageOnInstall": "Swedish",
+                "setGameLanguageOnInstall": "English",
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Swedish/*.ini"
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Swedish/*.ini",
+                                "target": "Data/English/*.ini"
+                            }
                         ]
                     },
                     {
@@ -416,7 +419,7 @@
                         "sourceTargetList": [
                             {
                                 "source": "Data/generals.str",
-                                "target": "Data/Swedish/generals.csf"
+                                "target": "Data/English/generals.csf"
                             }
                         ],
                         "params": {
@@ -435,12 +438,15 @@
                 "name": "CoreLangUkrainian",
                 "_comment": "This Ukrainian localization is community-made",
                 "big": true,
-                "setGameLanguageOnInstall": "Ukrainian",
+                "setGameLanguageOnInstall": "English",
                 "files": [
                     {
                         "sourceParent": "GameFilesEdited",
-                        "sourceList": [
-                            "Data/Ukrainian/*.ini"
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Ukrainian/*.ini",
+                                "target": "Data/English/*.ini"
+                            }
                         ]
                     },
                     {
@@ -448,7 +454,7 @@
                         "sourceTargetList": [
                             {
                                 "source": "Data/generals.str",
-                                "target": "Data/Ukrainian/generals.csf"
+                                "target": "Data/English/generals.csf"
                             }
                         ],
                         "params": {
