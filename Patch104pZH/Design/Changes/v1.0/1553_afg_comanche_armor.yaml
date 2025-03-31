@@ -1,0 +1,23 @@
+---
+date: 2023-01-15
+
+title: Decrease armor of USA Airforce Comanche with Countermeasures by up to 21%
+
+changes:
+  - tweak: The armor of the USA Airforce Comanche with Countermeasures against Quad Cannons and Gattlings is now set to 75% instead of 62% (smaller is better).
+  - tweak: The armor of the USA Airforce Comanche with Countermeasures against Explosions and Infantry Missiles is now set to 100% instead of 90%.
+  - fix: The USA Airforce Comanche with Countermeasures no longer heals 11% slower than without Countermeasures.
+
+labels:
+  - controversial
+  - design
+  - major
+  - nerf
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1553
+
+authors:
+  - xezon
