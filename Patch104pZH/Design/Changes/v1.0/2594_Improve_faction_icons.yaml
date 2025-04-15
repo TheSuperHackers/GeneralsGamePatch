@@ -1,0 +1,19 @@
+---
+date: 2024-03-21
+
+title: Improve faction icons
+
+changes:
+  - feature: Updates faction icons for accurate display in score screen, observer player info and flag watermark.
+
+labels:
+  - art
+  - gui
+  - minor
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2594
+
+authors:
+  - L3-M
