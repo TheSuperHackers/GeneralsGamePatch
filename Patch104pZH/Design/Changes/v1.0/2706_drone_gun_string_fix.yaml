@@ -1,0 +1,21 @@
+---
+date: 2025-03-28
+
+title: Improves texts of Drone gun upgrade
+
+
+changes:
+  - tweak: Improves texts of Drone gun upgrade for all localizations
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2706
+
+authors:
+  - dmgreen
