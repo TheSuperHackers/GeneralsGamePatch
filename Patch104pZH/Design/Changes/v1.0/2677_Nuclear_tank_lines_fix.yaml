@@ -1,0 +1,21 @@
+---
+date: 2025-03-27
+
+title: Changes to Nuclear tank strings
+
+
+changes:
+  - fix: Added improved text to Nuclear tanks China upgrade 
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2677
+
+authors:
+  - dmgreen
