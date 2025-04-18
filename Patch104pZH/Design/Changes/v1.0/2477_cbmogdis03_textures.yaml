@@ -16,6 +16,7 @@ subchanges:
   - fix: |
       cbmogdis03_r, cbmogdis03_rs
         - Reconstructs new darker texture based on cbmogdis03_e, cbmogdis03_es
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbmogdis03_g
         - Adds shadows to window barricades
@@ -61,6 +62,7 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2477
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2479
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2484
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2494
 
 authors:
   - xezon
