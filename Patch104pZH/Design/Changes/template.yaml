@@ -7,6 +7,7 @@
 # - ai
 # - art
 # - audio
+# - balancemismatchwith104
 # - boss
 # - blocker
 # - buff
@@ -18,7 +19,8 @@
 # - design
 # - documentation
 # - enhancement
-# - executable
+# - gamemismatchwith104
+# - gamemismatchwith104maybe
 # - gla
 # - gui
 # - major
@@ -28,6 +30,7 @@
 # - optional
 # - performance
 # - text
+# - unitai
 # - usa
 # - wip
 # - worldbuilder
