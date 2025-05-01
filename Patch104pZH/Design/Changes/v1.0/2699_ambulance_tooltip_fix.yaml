@@ -1,0 +1,21 @@
+---
+date: 2025-03-27
+
+title: Changes Ambulance unit description
+
+changes:
+  - tweak: The tool tip strings of the USA Ambulance now describe its ability better.
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2699
+
+authors:
+  - dmgreen
