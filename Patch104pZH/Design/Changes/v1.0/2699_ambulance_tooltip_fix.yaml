@@ -3,15 +3,15 @@ date: 2025-03-27
 
 title: Changes Ambulance unit description
 
-
 changes:
-  - fix: Improved text description for Ambulance unit
+  - tweak: The tool tip strings of the USA Ambulance now describe its ability better.
   
 subchanges:
   
 labels:
   - minor
   - text
+  - usa
   - v1.0
 
 links:
