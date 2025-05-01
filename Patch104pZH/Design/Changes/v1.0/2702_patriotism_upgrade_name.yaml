@@ -1,0 +1,19 @@
+---
+date: 2025-03-28
+
+title: Fixes incorrect name of China Patriotism upgrade for all languages
+
+changes:
+  - fix: The China Patriotism upgrade is no longer labeled as Fanaticism.
+  
+labels:
+  - minor
+  - text
+  - china
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2702
+
+authors:
+  - dmgreen
