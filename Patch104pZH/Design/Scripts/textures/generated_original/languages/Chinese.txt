@@ -1,0 +1,22 @@
+Report for language: Chinese
+
+============== Unused Language Textures ==============
+
+Skirmish_Loaduserinterface.tga
+ZHCA_PMNFlag.tga
+
+============== Unused Language Models ==============
+
+None
+
+============== Invalid Language W3D Model references in INI files ==============
+
+UITRST_SKNP.W3D
+
+============== Invalid Language Texture References in INI Mapped Images ==============
+
+None
+
+============== Invalid Texture references in Language W3D Files ==============
+
+None

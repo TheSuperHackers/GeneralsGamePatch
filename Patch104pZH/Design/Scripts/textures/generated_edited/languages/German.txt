@@ -1,0 +1,25 @@
+Report for language: German
+
+============== Unused Language Textures ==============
+
+SCSmShellUserInterface512.tga
+Skirmish_Loaduserinterface.tga
+UITerdrone01.tga
+ZHCA_PMNFlag.tga
+ZHCA_UITerdrone01.tga
+
+============== Unused Language Models ==============
+
+None
+
+============== Invalid Language W3D Model references in INI files ==============
+
+None
+
+============== Invalid Language Texture References in INI Mapped Images ==============
+
+None
+
+============== Invalid Texture references in Language W3D Files ==============
+
+None
