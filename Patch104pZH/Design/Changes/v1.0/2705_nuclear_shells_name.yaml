@@ -1,17 +1,15 @@
 ---
 date: 2025-03-28
 
-title: Improves texts of Nuclear shells object
-
+title: Fixes inaccurate names of Nuclear Shells
 
 changes:
-  - tweak: Improves all lines to match object appearance in game
-  
-subchanges:
+  - tweak: The name of the Nuclear Shells now matches the visuals of the button in all languages
   
 labels:
   - minor
   - text
+  - china
   - v1.0
 
 links:
