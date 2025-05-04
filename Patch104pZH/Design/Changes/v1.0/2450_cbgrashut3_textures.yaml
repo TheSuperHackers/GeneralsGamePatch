@@ -11,29 +11,36 @@ subchanges:
       cbgrashut3, cbgrashut3_d
         - Adds missing pipe texture
         - Fixes under-saturated door texture
+        - Fixes roof visuals in alpha channel
   - fix: |
       cbgrashut3_e
         - Fixes under-saturated door texture
+        - Fixes roof visuals in alpha channel
         - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut3_r
         - Fixes minor alpha channel damage inconsistencies with cbgrashut3_e
+        - Fixes roof visuals in alpha channel
         - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut3_s
         - Fixes over-saturated door texture
+        - Fixes roof visuals in alpha channel
   - fix: |
       cbgrashut3_ds
         - Adds missing pipe texture
         - Fixes over-saturated door texture
+        - Fixes roof visuals in alpha channel
   - fix: |
       cbgrashut3_es
         - Fixes texture damage inconsistencies with cbgrashut3_ds
+        - Fixes roof visuals in alpha channel
         - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut3_rs
         - Fixes texture damage inconsistencies with cbgrashut3_es
         - Fixes minor alpha channel damage inconsistencies with cbgrashut3_es
+        - Fixes roof visuals in alpha channel
         - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut3_en, cbgrashut3_rn
@@ -53,6 +60,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2450
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2489
 
 authors:
   - xezon
