@@ -7,6 +7,7 @@ changes:
   - fix: The Angry Mob Nexus no longer appears on the radar. This is most noticeable in 1.04 when only a single Angry Mob member remains, and yet two units show on the radar.
 
 labels:
+  - balancemismatchwith104
   - bug
   - gla
   - minor

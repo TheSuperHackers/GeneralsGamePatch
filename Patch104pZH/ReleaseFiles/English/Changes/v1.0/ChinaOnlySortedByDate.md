@@ -542,7 +542,7 @@ Contains 238 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261)
 
-**Labels:** art, bug, china, minor, v1.0
+**Labels:** art, balancemismatchwith104, bug, china, minor, v1.0
 
 **Authors:** commy2
 
@@ -1058,7 +1058,7 @@ Contains 238 entries with
 ### 2022-07-30 - Decreases kill experience reward of China Hackers <a name='link__20220730__770_hacker_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Killing a China Hacker now rewards 50 100 150 400 instead of 50 60 80 100 experience points (XP). This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet 3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
+- **TWEAK**: Killing a China Hacker now rewards 50 60 80 100 instead of 50 100 150 400 experience points (XP). This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet 3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
 
 **Links**
 
@@ -1276,7 +1276,7 @@ Contains 238 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2264](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2264)
 
-**Labels:** art, china, minor, v1.0
+**Labels:** art, balancemismatchwith104, china, minor, v1.0
 
 **Authors:** commy2
 
@@ -2908,7 +2908,7 @@ Contains 238 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802)
 
-**Labels:** audio, china, controversial, design, gla, minor, usa, v1.0
+**Labels:** audio, balancemismatchwith104 china, controversial, design, gla, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -2961,7 +2961,7 @@ Contains 238 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1816](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1816)
 
-**Labels:** bug, china, gui, minor, v1.0
+**Labels:** balancemismatchwith104, bug, china, gui, minor, v1.0
 
 **Authors:** xezon
 
@@ -3600,7 +3600,7 @@ Contains 238 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2000](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2000)
 
-**Labels:** bug, china, gui, minor, v1.0
+**Labels:** balancemismatchwith104, bug, china, gui, minor, v1.0
 
 **Authors:** xezon
 
@@ -4626,7 +4626,7 @@ Contains 238 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2260](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2260)
 
-**Labels:** china, minor, text, v1.0
+**Labels:** balancemismatchwith104, china, minor, text, v1.0
 
 **Authors:** xezon
 
@@ -4658,7 +4658,7 @@ Contains 238 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2262](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2262)
 
-**Labels:** china, minor, text, v1.0
+**Labels:** balancemismatchwith104, china, minor, text, v1.0
 
 **Authors:** xezon
 

@@ -3375,7 +3375,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802)
 
-**Labels:** audio, china, controversial, design, gla, minor, usa, v1.0
+**Labels:** audio, balancemismatchwith104 china, controversial, design, gla, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -3632,7 +3632,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801)
 
-**Labels:** buff, controversial, design, gla, minor, usa, v1.0
+**Labels:** balancemismatchwith104, buff, controversial, design, gla, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -3762,7 +3762,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/145](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/145)
 
-**Labels:** art, gui, minor, usa, v1.0
+**Labels:** art, controversial, gui, minor, usa, v1.0
 
 **Authors:** xamorish
 
@@ -6502,7 +6502,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1787](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1787)
 
-**Labels:** enhancement, gui, minor, usa, v1.0
+**Labels:** balancemismatchwith104, enhancement, gui, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -7032,7 +7032,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1939)
 
-**Labels:** audio, design, minor, usa, v1.0
+**Labels:** audio, balancemismatchwith104, design, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -7860,7 +7860,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2209)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/261)
 
-**Labels:** art, bug, china, minor, v1.0
+**Labels:** art, balancemismatchwith104, bug, china, minor, v1.0
 
 **Authors:** commy2
 
@@ -8226,7 +8226,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 ### 2022-07-30 - Decreases kill experience reward of China Hackers <a name='link__20220730__770_hacker_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Killing a China Hacker now rewards 50 100 150 400 instead of 50 60 80 100 experience points (XP). This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet 3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
+- **TWEAK**: Killing a China Hacker now rewards 50 60 80 100 instead of 50 100 150 400 experience points (XP). This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet 3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
 
 **Links**
 
@@ -8380,7 +8380,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1023)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2264](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2264)
 
-**Labels:** art, china, minor, v1.0
+**Labels:** art, balancemismatchwith104, china, minor, v1.0
 
 **Authors:** commy2
 
@@ -9492,7 +9492,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1816](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1816)
 
-**Labels:** bug, china, gui, minor, v1.0
+**Labels:** balancemismatchwith104, bug, china, gui, minor, v1.0
 
 **Authors:** xezon
 
@@ -10063,7 +10063,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2000](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2000)
 
-**Labels:** bug, china, gui, minor, v1.0
+**Labels:** balancemismatchwith104, bug, china, gui, minor, v1.0
 
 **Authors:** xezon
 
@@ -10338,7 +10338,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2260](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2260)
 
-**Labels:** china, minor, text, v1.0
+**Labels:** balancemismatchwith104, china, minor, text, v1.0
 
 **Authors:** xezon
 
@@ -10370,7 +10370,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2262](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2262)
 
-**Labels:** china, minor, text, v1.0
+**Labels:** balancemismatchwith104, china, minor, text, v1.0
 
 **Authors:** xezon
 
@@ -10530,11 +10530,13 @@ They can still be attacked by left-clicking on them with anti-air units selected
 **Changes**
 
 - **FIX**: The GLA Cash Bounty no longer requires a GLA Command Center scaffold or structure to activate or upgrade. It works entirely passive now.
+- **TWEAK**: Increases Cash Bounty Dummy spawn interval from 250 to 1000 ms.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2263](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2263)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2298](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2298)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764)
 
 **Labels:** boss, buff, bug, controversial, design, gla, minor, v1.0
 
@@ -11136,7 +11138,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/273](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/273)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/274)
 
-**Labels:** art, gla, minor, v1.0
+**Labels:** art, bug, gla, minor, v1.0
 
 **Authors:** commy2
 
@@ -12550,7 +12552,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1716](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1716)
 
-**Labels:** bug, gla, minor, v1.0
+**Labels:** balancemismatchwith104, bug, gla, minor, v1.0
 
 **Authors:** Stubbjax
 
@@ -12846,7 +12848,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2001](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2001)
 
-**Labels:** enhancement, gla, gui, minor, v1.0
+**Labels:** balancemismatchwith104, enhancement, gla, gui, minor, v1.0
 
 **Authors:** xezon
 
@@ -13023,7 +13025,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2086](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2086)
 
-**Labels:** gla, minor, text, v1.0
+**Labels:** balancemismatchwith104, gla, minor, text, v1.0
 
 **Authors:** xezon
 
@@ -13107,7 +13109,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2188](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2188)
 
-**Labels:** bug, gla, minor, v1.0
+**Labels:** audio, bug, gla, minor, v1.0
 
 **Authors:** commy2
 
@@ -13270,7 +13272,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2258](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2258)
 
-**Labels:** gla, minor, text, v1.0
+**Labels:** balancemismatchwith104, gla, minor, text, v1.0
 
 **Authors:** xezon
 
@@ -13302,7 +13304,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2269](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2269)
 
-**Labels:** gla, minor, text, v1.0
+**Labels:** balancemismatchwith104, gla, minor, text, v1.0
 
 **Authors:** xezon
 
@@ -14110,7 +14112,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1893](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1893)
 
-**Labels:** boss, buff, design, minor, v1.0
+**Labels:** boss, buff, bug, design, minor, v1.0
 
 **Authors:** xezon
 
@@ -18231,7 +18233,7 @@ They can still be attacked by left-clicking on them with anti-air units selected
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/883](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/883)
 
-**Labels:** design, minor, v1.0
+**Labels:** audio, design, minor, v1.0
 
 **Authors:** commy2
 
