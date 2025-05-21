@@ -1037,7 +1037,7 @@ Contains 130 entries with
 ### 2022-07-30 - Decreases kill experience reward of China Hackers <a name='link__20220730__770_hacker_xp_reward'></a>
 **Changes**
 
-- **TWEAK**: Killing a China Hacker now rewards 50 100 150 400 instead of 50 60 80 100 experience points (XP). This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet 3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
+- **TWEAK**: Killing a China Hacker now rewards 50 60 80 100 instead of 50 100 150 400 experience points (XP). This is a significant reduction. The new values have been choosen because the USA Drop Zone, worth 4 Hackers, gives 200 XP flat. And a Vet 3 Hacker makes twice as much money as he started with, so a doubling of XP is reasonable. Killing 4 Vet 3 Hackers would give 400 XP, twice as much as a Drop Zone and Black Market.
 
 **Links**
 
