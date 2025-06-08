@@ -1,0 +1,237 @@
+{
+    "bundles": {
+        "version": 1,
+        "packs": [
+            {
+                "name": "PristineFullArabic",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioArabic",
+                    "PristineOptionalINI",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioArabic",
+                    "PristineCoreINI",
+                    "CoreLangArabic",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullBrazilian",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioBrazilian",
+                    "PristineOptionalINI",
+                    "OptionalLangBrazilian",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioBrazilian",
+                    "PristineCoreINI",
+                    "CoreLangBrazilian",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullChinese",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioChinese",
+                    "PristineOptionalINI",
+                    "OptionalLangChinese",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioChinese",
+                    "PristineCoreINI",
+                    "CoreLangChinese",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullEnglish",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioEnglish",
+                    "PristineOptionalINI",
+                    "OptionalLangEnglish",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioEnglish",
+                    "PristineCoreINI",
+                    "CoreLangEnglish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullFrench",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioFrench",
+                    "PristineOptionalINI",
+                    "OptionalLangFrench",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioFrench",
+                    "PristineCoreINI",
+                    "CoreLangFrench",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullGerman",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioGerman",
+                    "PristineOptionalINI",
+                    "OptionalLangGerman",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioGerman",
+                    "PristineCoreINI",
+                    "CoreLangGerman",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullItalian",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioItalian",
+                    "PristineOptionalINI",
+                    "OptionalLangItalian",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioItalian",
+                    "PristineCoreINI",
+                    "CoreLangItalian",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullKorean",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioKorean",
+                    "PristineOptionalINI",
+                    "OptionalLangKorean",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioKorean",
+                    "PristineCoreINI",
+                    "CoreLangKorean",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullPolish",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioPolish",
+                    "PristineOptionalINI",
+                    "OptionalLangPolish",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioPolish",
+                    "PristineCoreINI",
+                    "CoreLangPolish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullRussian",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioRussian",
+                    "PristineOptionalINI",
+                    "OptionalLangRussian",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioRussian",
+                    "PristineCoreINI",
+                    "CoreLangRussian",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "PristineFullSpanish",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioSpanish",
+                    "PristineOptionalINI",
+                    "OptionalLangSpanish",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioSpanish",
+                    "PristineCoreINI",
+                    "CoreLangSpanish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            }
+        ]
+    }
+}

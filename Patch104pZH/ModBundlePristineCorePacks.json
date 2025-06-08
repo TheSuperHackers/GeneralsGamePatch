@@ -1,0 +1,161 @@
+{
+    "bundles": {
+        "version": 1,
+        "packs": [
+            {
+                "name": "PristineCoreArabic",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioArabic",
+                    "PristineCoreINI",
+                    "CoreLangArabic",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCoreBrazilian",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioBrazilian",
+                    "PristineCoreINI",
+                    "CoreLangBrazilian",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCoreChinese",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioChinese",
+                    "PristineCoreINI",
+                    "CoreLangChinese",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCoreEnglish",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioEnglish",
+                    "PristineCoreINI",
+                    "CoreLangEnglish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCoreFrench",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioFrench",
+                    "PristineCoreINI",
+                    "CoreLangFrench",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCoreGerman",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioGerman",
+                    "PristineCoreINI",
+                    "CoreLangGerman",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCoreItalian",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioItalian",
+                    "PristineCoreINI",
+                    "CoreLangItalian",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCoreKorean",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioKorean",
+                    "PristineCoreINI",
+                    "CoreLangKorean",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCorePolish",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioPolish",
+                    "PristineCoreINI",
+                    "CoreLangPolish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCoreRussian",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioRussian",
+                    "PristineCoreINI",
+                    "CoreLangRussian",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
+                "name": "PristineCoreSpanish",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioSpanish",
+                    "PristineCoreINI",
+                    "CoreLangSpanish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            }
+        ]
+    }
+}
