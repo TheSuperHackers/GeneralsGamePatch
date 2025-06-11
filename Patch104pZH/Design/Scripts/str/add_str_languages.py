@@ -24,7 +24,7 @@ g_expected_languages = [
     "RU:",
     "AR:",
     "UK:",
-    "SE:"
+    "SV:"
 ]
 
 class LanguageSelector:
