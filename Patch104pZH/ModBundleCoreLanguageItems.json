@@ -396,6 +396,74 @@
                         }
                     }
                 ]
+            },
+            {
+                "name": "CoreLangSwedish",
+                "big": true,
+                "setGameLanguageOnInstall": "English",
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Swedish/*.ini",
+                                "target": "Data/English/*.ini"
+                            }
+                        ]
+                    },
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/English/generals.csf"
+                            }
+                        ],
+                        "params": {
+                            "language": "Swedish",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "CoreLangUkrainian",
+                "big": true,
+                "setGameLanguageOnInstall": "English",
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Ukrainian/*.ini",
+                                "target": "Data/English/*.ini"
+                            }
+                        ]
+                    },
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/English/generals.csf"
+                            }
+                        ],
+                        "params": {
+                            "language": "Ukrainian",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
             }
         ]
     }
