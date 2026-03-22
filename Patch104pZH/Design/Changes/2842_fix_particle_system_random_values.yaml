@@ -1,0 +1,7 @@
+issue: 2842
+title: Fix incorrect low and high values for GameClientRandomVariable in ParticleSystem.ini
+severity: minor
+category: bugfix
+description: |
+  Swaps incorrect low and high values for GameClientRandomVariable entries where low value was greater than high value.
+  Fixed 389 incorrect entries across multiple particle systems including VelocityDamping, SizeRateDamping, ColorScale, and other fields.
