@@ -15,16 +15,14 @@ if %errorlevel% neq 0 (
     exit /B %errorlevel%
 )
 
-call "%ThisDir%\Windows\InstallModBuilder.bat"
+call "%ThisDir%\Windows\Setup.bat"
 
 if %errorlevel% neq 0 (
     pause
     exit /B %errorlevel%
 )
 
-call "%ThisDir%\Windows\Setup.bat"
-
-call "%ModBuilderExe%" ^
+call "%ModBuilderCmd%" ^
   --build ^
   --install FullEnglish ^
   --verbose-logging ^
