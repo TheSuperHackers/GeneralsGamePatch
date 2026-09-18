@@ -170,6 +170,33 @@
                 ]
             },
             {
+                "name": "OptionalAudioHebrew",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/Hebrew/*.wav",
+                                "target": "Data/Audio/Sounds/Hebrew/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Hebrew/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/HebrewVoice/*.wav",
+                                "target": "Data/Audio/Sounds/Hebrew/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/HebrewEva/*.wav",
+                                "target": "Data/Audio/Speech/Hebrew/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "OptionalAudioItalian",
                 "big": true,
                 "files": [

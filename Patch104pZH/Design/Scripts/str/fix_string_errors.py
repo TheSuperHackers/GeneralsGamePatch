@@ -44,7 +44,8 @@ def run():
             startswith_nocase(line, "PL: \"") or
             startswith_nocase(line, "RU: \"") or
             startswith_nocase(line, "UK: \"") or
-            startswith_nocase(line, "SV: \"")):
+            startswith_nocase(line, "SV: \"") or
+            startswith_nocase(line, "HE: \"")):
             if line[5:6] != "*":
                 new_line = line[:5] + "*" + line[5:]
                 generals_str_lines[index] = new_line

@@ -223,6 +223,40 @@
                 ]
             },
             {
+                "name": "CoreLangHebrew",
+                "big": true,
+                "setGameLanguageOnInstall": "Hebrew",
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Hebrew/*.ini",
+                                "target": "Data/Hebrew/*.ini"
+                            }
+                        ]
+                    },
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Hebrew/generals.csf"
+                            }
+                        ],
+                        "params": {
+                            "language": "Hebrew",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-optional-begin",
+                                    "//patch104p-optional-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
                 "name": "CoreLangItalian",
                 "big": true,
                 "setGameLanguageOnInstall": "Italian",

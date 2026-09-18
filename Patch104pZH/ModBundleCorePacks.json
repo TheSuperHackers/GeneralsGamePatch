@@ -89,6 +89,20 @@
                 ]
             },
             {
+                "name": "CoreHebrew",
+                "itemNames": [
+                    "CoreAudio",
+                    "CoreAudioHebrew",
+                    "CoreINI",
+                    "CoreLangHebrew",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow"
+                ]
+            },
+            {
                 "name": "CoreItalian",
                 "itemNames": [
                     "CoreAudio",
