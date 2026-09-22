@@ -1,0 +1,22 @@
+---
+date: 2025-03-28
+
+title: Improves texts of Dialogevent of CHI02 mission
+
+
+changes:
+  - tweak: Improves texts of Dialogevent of CHI02 mission for DE, FR, ES, IT, PL
+  - tweak: Added translation for BP localization
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2714
+
+authors:
+  - dmgreen

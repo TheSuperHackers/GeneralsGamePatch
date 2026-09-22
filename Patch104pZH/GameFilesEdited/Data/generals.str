@@ -64427,6 +64427,9 @@ AR: "*Warning... GLA forces are moving towards the power plant!"
 UK: "*Warning... GLA forces are moving towards the power plant!"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, PL strings to reflect US change (#2714)
+// Patch104p @fix dmgreen 27/03/2025 Changes BP from "General, I've made contact with one of our spy outposts. They are under GLA attack. If we can rescue them, I can patch into their system and we will be able to call in carpet bombers" (#2714)
+
 DIALOGEVENT:MisCHI02xXO07Subtitle
 US: "*General, I've made contact with one of our spy outposts. They are under GLA attack. If we can rescue them, I can patch into their system and we will be able to call in carpet bombers"
 DE: "*General, I've made contact with one of our spy outposts. They are under GLA attack. If we can rescue them, I can patch into their system and we will be able to call in carpet bombers"
@@ -64435,7 +64438,7 @@ ES: "\nGeneral, he contactado con uno de nuestros puestos espía.\nLes está ata
 IT: "\nGenerale, ho contattato uno dei nostri avamposti di spionaggio.\nSono sotto attacco GLA. Se riusciamo a salvarli,\nposso collegarmi al loro sistema e potremo chiamare i bombardieri a tappeto."
 KO: "\n장군님, 스파이 아웃포스트와 접촉했는데, 지금 GLA의 공격을 받고 있다고 합니다.\n그들을 구해내면 그들의 시스템에 접속하여 융단 폭격을 요청할 수 있습니다."
 ZH: "\n將軍，我已與間諜通訊站取得聯繫，他們正遭受全球解放軍的襲擊。\n如果我們前去拯救他們，我可以修復系統，並呼叫地毯式炸彈轟炸進行反擊。"
-BP: "*General, I've made contact with one of our spy outposts. They are under GLA attack. If we can rescue them, I can patch into their system and we will be able to call in carpet bombers"
+BP: "*General, entrei em contato com um dos nossos postos de espionagem. Eles estão sob ataque do GLA. Se conseguirmos resgatá-los, posso conectar nosso sistema ao deles e seremos capazes de chamar bombardeiros de saturação."
 PL: "*General, I've made contact with one of our spy outposts. They are under GLA attack. If we can rescue them, I can patch into their system and we will be able to call in carpet bombers"
 RU: "*General, I've made contact with one of our spy outposts. They are under GLA attack. If we can rescue them, I can patch into their system and we will be able to call in carpet bombers"
 AR: "*General, I've made contact with one of our spy outposts. They are under GLA attack. If we can rescue them, I can patch into their system and we will be able to call in carpet bombers"
