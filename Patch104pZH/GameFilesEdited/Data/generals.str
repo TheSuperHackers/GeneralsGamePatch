@@ -29593,21 +29593,23 @@ UK: "Замаскувати вантажівку з бомбою під вказ
 END
 
 // Patch104p @fix xezon 21/08/2022 Adds new 25% range bonus text to all latin languages.
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "This Bomb Truck becomes a biowar weapon with 25% more range" (#2679)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2679)
 
 // context: Appears when you mouse over the Bio Bomb Upgrade cameo on the GLA Bomb Truck
 CONTROLBAR:TooltipGLAUpgradeBioBomb
-US: "This Bomb Truck becomes a biowar weapon with 25% more range"
-DE: "Der Bomben-LKW wird zur chemischen Kampfwaffe mit 25% mehr Reichweite."
-FR: "Transforme le Camion piégé en arme bactériologique avec 25 % de portée en plus."
-ES: "El camión bomba se convierte en un arma biológica con un 25 % más de alcance."
-IT: "Il Camion-bomba diventa un'arma biologica con il 25% in più di portata."
-KO: "폭탄 트럭을 생물무기로 무장합니다."
-ZH: "將炸彈卡車變成生化武器 。"
-BP: "O Caminhão Bomba se torna uma Arma Biológica com 25% a mais de alcance."
-PL: "Ciężarówka z bombą staje się bronią biologiczną o 25% większym zasięgu."
-RU: "Грузовик со взрывчаткой получит биологическое оружие,\nчто увеличит его площадь поражения на 25%"
-AR: "ﺔﻳﻮﯿﺤﻟا بﺮﺤﻟا حﻼﺴﺑ ﺔﻨﺣﺎﺸﻟا دوﺰﺗ"
-UK: "Вантажівка з вибухівкою отримає біологічну зброю та збільшення площі ураження на 25%"
+US: "This Bomb Truck becomes a bioweapon and increases its explosion range by 25%"
+DE: "Dieser Bombenwagen wird zur Biowaffe und erhöht seine Explosionsreichweite um 25%."
+FR: "Ce camion à bombes devient une arme biologique et augmente sa portée d'explosion de 25%."
+ES: "El camión bomba se convierte en un arma biológica y aumenta su alcance de explosión en un 25%."
+IT: "Questo camion bomba diventa un'arma biologica e aumenta il suo raggio di esplosione del 25%."
+KO: "이 폭탄 트럭은 생물학 무기가 되며 폭발 범위가 25% 증가합니다."
+ZH: "這輛炸彈卡車變成了生物武器，爆炸範圍增加了 25%。"
+BP: "Este Caminhão-Bomba torna-se uma arma biológica e aumenta o seu alcance de explosão em 25%."
+PL: "Ta ciężarówka-bomba staje się bronią biologiczną i zwiększa zasięg wybuchu o 25%."
+RU: "Грузовик со взрывчаткой получит биологическое оружие, что увеличит его площадь поражения на 25%"
+AR: "This Bomb Truck becomes a bioweapon and increases its explosion range by 25%"
+UK: "Вантажівка з вибухівкою отримає біологічну зброю, що збільшить її площу ураження на 25%"
 END
 
 // Patch104p @fix xezon 21/08/2022 Adds new 25% range bonus text to all latin languages.
