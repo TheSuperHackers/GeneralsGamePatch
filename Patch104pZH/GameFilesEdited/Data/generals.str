@@ -38201,14 +38201,17 @@ AR: "."
 UK: "."
 END
 
+// Patch104p @fix dmgreen 12/03/2025 Changes FR from "Missions 2-8" (#2578)
+// Patch104p @fix dmgreen 12/03/2025 Changes IT from "Campagna 3" (#2578)
+
 // context: Tooltip to display what missions are in which campaigns.
 //          These are shown when mousing over the campaign buttons on the main menu
 TOOLTIP:Mission2_8
 US: "Campaign One"
 DE: "Kampagne Eins"
-FR: "Missions 2-8"
+FR: "Missions 1"
 ES: "Campaña Uno"
-IT: "Campagna 3"
+IT: "Campagna 1"
 KO: "제1 캠페인"
 ZH: "戰役一"
 BP: "Campanha Um"
@@ -38218,12 +38221,14 @@ AR: "Campaign One"
 UK: "Кампанія перша"
 END
 
+// Patch104p @fix dmgreen 12/03/2025 Changes FR from "Missions 9-16" (#2578)
+
 // context: Tooltip to display what missions are in which campaigns.
 //          These are shown when mousing over the campaign buttons on the main menu
 TOOLTIP:Mission9_16
 US: "Campaign Two"
 DE: "Kampagne Zwei"
-FR: "Missions 9-16"
+FR: "Missions 2"
 ES: "Campaña Dos"
 IT: "Campagna 2"
 KO: "제2 캠페인"
@@ -38235,14 +38240,17 @@ AR: "Campaign Two"
 UK: "Друга кампанія"
 END
 
+// Patch104p @fix dmgreen 12/03/2025 Changes FR from "Missions 17-23" (#2578)
+// Patch104p @fix dmgreen 12/03/2025 Changes IT from "Campagna 1" (#2578)
+
 // context: Tooltip to display what missions are in which campaigns.
 //          These are shown when mousing over the campaign buttons on the main menu
 TOOLTIP:Mission17_23
 US: "Campaign Three"
 DE: "Kampagne Drei"
-FR: "Missions 17-23"
+FR: "Missions 3"
 ES: "Campaña Tres"
-IT: "Campagna 1"
+IT: "Campagna 3"
 KO: "제3 캠페인"
 ZH: "戰役三"
 BP: "Campanha Três"
@@ -40959,6 +40967,9 @@ END
 
 // NEW INTERFACE ADDITIONS
 
+// Patch104p @fix dmgreen 12/03/2025 Changes BP from "Campanha 1" (#2578)
+// Patch104p @fix dmgreen 12/03/2025 Changes PL from "Kampania 1" (#2578)
+
 // context: Tooltip for the china campaign button located on the main menu
 TOOLTIP:Campaign1
 US: "Campaign 3"
@@ -40968,10 +40979,10 @@ ES: "Campaña 3"
 IT: "Campagna 3"
 KO: "제3 캠페인"
 ZH: "戰役 3"
-BP: "Campanha 1"
-PL: "Kampania 1"
+BP: "Campanha 3"
+PL: "Kampania 3"
 RU: "Кампания 3"
-AR: "1 ﺔﻠﻤﺤﻟﺍ"
+AR: "3 ﺔﻠﻤﺤﻟﺍ"
 UK: "Кампанія 3"
 END
 
@@ -40991,6 +41002,9 @@ AR: "2 ﺔﻠﻤﺤﻟﺍ"
 UK: "Кампанія 2"
 END
 
+// Patch104p @fix dmgreen 12/03/2025 Changes BP from "Campanha 3" (#2578)
+// Patch104p @fix dmgreen 12/03/2025 Changes PL from "Kampania 3" (#2578)
+
 // context: Tooltip for the USA campaign button located on the main menu
 TOOLTIP:Campaign3
 US: "Campaign 1"
@@ -41000,10 +41014,10 @@ ES: "Campaña 1"
 IT: "Campagna 1"
 KO: "제1 캠페인"
 ZH: "戰役 1"
-BP: "Campanha 3"
-PL: "Kampania 3"
+BP: "Campanha 1"
+PL: "Kampania 1"
 RU: "Кампания 1"
-AR: "3 ﺔﻠﻤﺤﻟﺍ"
+AR: "1 ﺔﻠﻤﺤﻟﺍ"
 UK: "Кампанія 1"
 END
 
