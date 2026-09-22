@@ -50632,19 +50632,22 @@ AR: "ﺢﯿﻤﻠﺗ:\nﺦﻳراﻮﺼﻟﺎﺑ ﺎﮫﻔﺼﻗإو وﺪﻌﻟ
 UK: "ПІДКАЗКА:\nВикористовуйте танк РЕБ, щоб перешкоджати ворожому ракетному вогню"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes KO from "Use the Frenzy Generals Power to increase the firepower and armor of your units" (#2710)
+// Patch104p @fix dmgreen 27/03/2025 Changes ZH string to reflect US change (#2710)
+
 HELP:Frenzy-01
-US: "HINT:\nUse the Frenzy Generals Power to increase the firepower and armor of your units"
+US: "HINT:\nUse the Frenzy General Power to temporarily increase\nthe firepower and armor of your units"
 DE: "TIPP:\nMit der Generalsfähigkeit \"Boost\" verbessern Sie\ndie Feuerkraft und die Panzerung Ihrer Einheiten."
 FR: "ASTUCE :\nUtilisez le pouvoir de général Frénésie pour augmenter\nla puissance de feu de vos unités et renforcer leur blindage."
 ES: "PISTA:\nUsa el poder de general Frenesí para que tus unidades tengan\nmás potencia de fuego y blindaje."
 IT: "SUGGERIMENTO:\nUsate il potere del generale Esaltazione per\naumentare potenza di fuoco e difesa delle vostre unità."
 KO: "힌트:\n유닛의 화력과 장갑을 향상시키려면 프렌지 제너럴 특수기술을 이용하십시오."
-ZH: "建議：\n使用狂暴將軍能力來增加您的單位的火力與裝甲。"
+ZH: "建議：\n運用狂暴將軍力量暫時增加你的部隊的火力和裝甲。"
 BP: "DICA:\nUse o Poder de Ataque Enfurecido do Generals para aumentar o\npoder de fogo e a armadura de suas unidades."
 PL: "RADA:\nSzał jest umiejętnością generalską,\nktóra zwiększa siła ognia i pancerza Twoich jednostek."
-RU: "ПОДСКАЗКА:\nИспользуйте способность Генерала - Ярость для увеличения\nскорости огня и защиты Ваших войск"
-AR: "ﺢﯿﻤﻠﺗ:\nكﺪﻳوﺰﺘﺑ ﺔﺒﺿﺎﻐﻟا تﻻاﺮﻨﺠﻟا ةﻮﻗ مﺪﺨﺘﺳإ\nﻚﺗاﺪﺣو عوردو ﺔﻳرﺎﻨﻟا ةﻮﻘﻟﺎﺑ"
-UK: "ПІДКАЗКА:\nВикористовуйте здатність Генерала - Лють для збільшення\nшвидкості вогню та захисту Ваших військ"
+RU: "ПОДСКАЗКА:\nИспользуйте Ярость, способность вашего Генерала для увеличения\nскорости огня и улучшения живучести Ваших войск"
+AR: "HINT:\nUse the Frenzy General's Power to temporarily increase\nthe firepower and armor of your units"
+UK: "ПІДКАЗКА:\nВикористайте здатність Генерала Лють для збільшення\nшвидкості вогню і поліпшення захисту Ваших військ"
 END
 
 HELP:InternetCenter-01
