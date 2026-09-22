@@ -17830,13 +17830,14 @@ UK: "Ядерна гармата: &U"
 END
 
 // Patch104p @fix xezon 12/08/2023 Changes IT from "Crawler". (#2226)
+// Patch104p @tweak xezon 10/05/2025 Fixes key conflict with CommandMap SELECT_ALL_AIRCRAFT (W) for IT.
 
 CONTROLBAR:ConstructChinaVehicleTroopCrawler
 US: "Troop Crawler: &T"
 DE: "Truppentransporter: &T"
 FR: "Transporteur: &T"
 ES: "Oruga de transporte: &T"
-IT: "Trasporto truppe: &W"
+IT: "Trasporto truppe: &A"
 KO: "트룹 크롤러: &T"
 ZH: "運兵車：&T"
 BP: "Transporte Vermelho: &T"
@@ -18596,17 +18597,17 @@ AR: "يﻮﺠﻟا دﻮﻗﻮﻟا"
 UK: "Авіаційне паливо"
 END
 
-// Patch104p @bugfix xezon 15/07/2023 Fixes key conflict with CommandMap SELECT_ALL_AIRCRAFT (W) for ES. (#2117)
+// Patch104p @bugfix xezon 15/07/2023 Fixes key conflict with CommandMap SELECT_ALL_AIRCRAFT (W) for FR, ES, IT, BP. (#2117)
 
 CONTROLBAR:UpgradeAmericaTOWMissile
 US: "TOW Missile: &I"
 DE: "TOW-Rakete: &R"
-FR: "Missile TOW: &W"
+FR: "Missile TOW: &I"
 ES: "Misil TOW: &I"
-IT: "Missile TOW: &W"
+IT: "Missile TOW: &I"
 KO: "TOW 미사일: &I"
 ZH: "托式飛彈：&I"
-BP: "Míssil TOW: &W"
+BP: "Míssil TOW: &I"
 PL: "Pocisk TOW: &I"
 RU: "Ракета ТОУ: &I"
 AR: "TOW ﺔﻔﻳﺬﻗ"
@@ -97762,7 +97763,7 @@ US: "Assault Troop Crawler: &T"
 DE: "Sturm-Truppentransporter: &T"
 FR: "Transporteur d'assaut: &T"
 ES: "Transporte de asalto: &T"
-IT: "Trasporto truppe d'assalto: &W"
+IT: "Trasporto truppe d'assalto: &A"
 KO: "공격 부대 수송 차량: &T"
 ZH: "突擊運輸機：&T"
 BP: "Transporte de Tropa de Assalto: &T"
