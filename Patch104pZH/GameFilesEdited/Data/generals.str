@@ -48189,18 +48189,20 @@ AR: "ﻲﻧﺎﺜﻟا ﻲﻋﺎﻨﺼﻟا ﺮﻤﻘﻟا رﺎﺠﺌﺘﺳإ"
 UK: "Злам Супутника II: &S"
 END
 
+// Patch104p @fix dmgreen 21/03/2025 Changes DE, FR, ES, IT, KO, BP, PL from "Fanaticism" to match the actual voice lines of the upgrade. (#2702)
+
 CONTROLBAR:UpgradeChinaFanaticism
 US: "Patriotism: &P"
-DE: "Fanatismus: &F"
-FR: "Fanatisme: &F"
-ES: "Fanatismo: &F"
-IT: "Fanatismo: &F"
-KO: "애국주의: &P"
+DE: "Patriotismus: &F"
+FR: "Patriotisme: &F"
+ES: "Patriotismo: &F"
+IT: "Patriottismo: &F"
+KO: "애국심: &P"
 ZH: "愛國主義：&P"
-BP: "Fanatismo: &F"
-PL: "Fanatyzm: &F"
+BP: "Patriotismo: &F"
+PL: "Patriotyzm: &F"
 RU: "Патриотизм: &P"
-AR: "ﺔﯿﻨﻃﻮﻟا"
+AR: "ﺔﯿﻨﻃﻮﻟا: &P"
 UK: "Патріотизм: &P"
 END
 
@@ -49211,13 +49213,15 @@ AR: "ﺔﯿﺣﺎﻨﺠﻟا ةﺮﺋﺎﻄﻟا"
 UK: "Дрон Хелфайр"
 END
 
+// Patch104p @fix dmgreen 21/03/2025 Changes DE, FR, KO from "Fanaticism" to match the actual voice lines of the upgrade. (#2702)
+
 UPGRADE:Fanaticism
 US: "Patriotism"
-DE: "Fanatismus"
-FR: "Fanatisme"
+DE: "Patriotismus"
+FR: "Patriotisme"
 ES: "Patriotismo"
 IT: "Patriottismo"
-KO: "애국주의"
+KO: "애국심"
 ZH: "愛國主義"
 BP: "Patriotismo"
 PL: "Patriotyzm"
