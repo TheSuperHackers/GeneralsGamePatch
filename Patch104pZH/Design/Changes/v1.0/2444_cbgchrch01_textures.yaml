@@ -10,9 +10,11 @@ subchanges:
   - fix: |
       cbgchrch01_e, cbchurch01_e
         - Fixes damages in alpha channel
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbgchrch01_r, cbchurch01_r
         - Fixes major damage inconsistencies with cbgchrch01_e
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbgchrch01_g, cbchurch01_g
         - Adds missing window reflections
@@ -31,9 +33,11 @@ subchanges:
   - fix: |
       cbgchrch01_es, cbchurch01_es
         - Fixes damages in alpha channel
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbgchrch01_rs, cbchurch01_rs
         - Fixes major damage inconsistencies with cbgchrch01_es
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbgchrch01_sg, cbchurch01_sg
         - Adds missing window reflections
@@ -60,6 +64,7 @@ labels:
 
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2444
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2496
 
 authors:
   - xezon
