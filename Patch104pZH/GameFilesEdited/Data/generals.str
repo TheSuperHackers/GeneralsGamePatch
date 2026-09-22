@@ -30770,20 +30770,23 @@ AR: "تﺎﺒﻛﺮﻤﻟاو تﺎﺑﺮﻌﻟا ﻊﯿﻨﺼﺗ ةﺄﺸﻨﻣ
 UK: "Будує техніку"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Commands special weapons. Creates Construction Dozers" (#2696)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2696)
+
 // context: Appears when you mouse over the Command Center cameo on the Chinese Dozer
 CONTROLBAR:ToolTipChinaBuildCommandCenter
-US: "Commands special weapons. Creates Construction Dozers"
-DE: "Fordert Spezialwaffen an. Produziert Bulldozer."
-FR: "Commande les armes spéciales. Crée des Engins de chantier."
-ES: "Ordena armas especiales. Crea Excavadoras."
-IT: "Comanda le armi speciali. Crea i bulldozer da costruzione."
-KO: "특수 무기 명령을 내릴 수 있습니다. 건설 불도저를 생산합니다."
-ZH: "指揮特殊武器。生產建築推土機。"
-BP: "Controla armas especiais. Cria Construtores."
-PL: "Steruje uzbrojeniem specjalnym. Buduje buldożery."
-RU: "Управление специальными способностями. Производство Строительных бульдозеров. Дает возможность установить Радар"
-AR: "ءﺎﻨﺒﻟا تﺎﺑﺮﻋ ﻊﯿﻨﺼﺘﺑ مﻮﻘﻳ\nتﺄﺸﻨﻤﻟاو تﺎﯿﻗﺮﺘﻟا ةرادﺈﺑ مﻮﻘﻳو"
-UK: "Управління спеціальними здібностями. Виробництво будівельних бульдозерів. Дає можливість встановити Радар"
+US: "Commands special weapons. Creates Construction Dozers. Deploys Radar"
+DE: "Fordert Spezialwaffen an. Produziert Bulldozer. Setzt Radar ein."
+FR: "Commande les armes spéciales. Crée des Engins de chantier. Déploie un radar."
+ES: "Ordena armas especiales. Crea Excavadoras. Despliega radar."
+IT: "Comanda le armi speciali. Crea i bulldozer da costruzione. Distribuisce radar."
+KO: "특수 무기 명령을 내릴 수 있습니다. 건설 불도저를 생산합니다. 레이더를 배치합니다."
+ZH: "指揮特殊武器。製造建築推土機。部署雷達。"
+BP: "Comanda armas especiais. Cria Tratores de Construção. Implanta Radar."
+PL: "Steruje uzbrojeniem specjalnym. Buduje buldożery. Rozstawia Radar."
+RU: "Управление специальными способностями. Создание Строительного бульдозера. Развертывание Радара"
+AR: "Commands special weapons. Creates Construction Dozers. Deploys Radar"
+UK: "Управління спеціальними здібностями. Створення Бульдозера. Розгортання Радара"
 END
 
 // Patch104p @fix xezon 10/09/2023 Fixes wrong or inconsistent power supply strings of PL. (#2344)
