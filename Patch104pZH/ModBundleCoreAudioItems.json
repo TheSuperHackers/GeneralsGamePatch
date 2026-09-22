@@ -171,6 +171,36 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "CoreAudioSwedish",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "CoreAudioUkrainian",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

@@ -7,6 +7,7 @@
                 "itemNames": [
                     "OptionalAudio",
                     "OptionalAudioArabic",
+                    "OptionalLangArabic",
                     "OptionalINI",
                     "OptionalTextures",
                     "OptionalW3D",
@@ -224,6 +225,48 @@
                     "CoreAudioSpanish",
                     "CoreINI",
                     "CoreLangSpanish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullSwedish",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioSwedish",
+                    "OptionalINI",
+                    "OptionalLangSwedish",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioSwedish",
+                    "CoreINI",
+                    "CoreLangSwedish",
+                    "CoreMaps",
+                    "CoreMisc",
+                    "CoreTextures",
+                    "CoreW3D",
+                    "CoreWindow",
+                    "RecoveredTextures"
+                ]
+            },
+            {
+                "name": "FullUkrainian",
+                "itemNames": [
+                    "OptionalAudio",
+                    "OptionalAudioUkrainian",
+                    "OptionalINI",
+                    "OptionalLangUkrainian",
+                    "OptionalTextures",
+                    "OptionalW3D",
+                    "CoreAudio",
+                    "CoreAudioUkrainian",
+                    "CoreINI",
+                    "CoreLangUkrainian",
                     "CoreMaps",
                     "CoreMisc",
                     "CoreTextures",
