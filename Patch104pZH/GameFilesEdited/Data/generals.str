@@ -30506,7 +30506,7 @@ KO: "미국군 기지에 전력을 공급합니다.\n\n전력 공급: 5"
 ZH: "提供能源給美國基地。\n\n能源供應：5"
 BP: "Fornece energia para as bases dos E.U.A.\n\nEnergia Gerada: 5"
 PL: "Zaopatruje bazy amerykańskie w elektryczność.\n\nDostarczana energia: 5"
-RU: "Производит энергию для базы США.\n\Производит энергии : 5"
+RU: "Производит энергию для базы США.\n\nПроизводит энергии : 5"
 AR: "ﺪﻋاﻮﻗ ﺪﻳوﺰﺘﺑ مﻮﻘﻳ\nﺔﯿﻜﻳﺮﻣﻷا ةﺪﺤﺘﻤﻟا تﺎﻳﻻﻮﻟا\n\n٥ : ﺔﺑﻮﻠﻄﻤﻟا ﺔﻗﺎﻄﻟا"
 UK: "Забезпечує живлення для баз США\n\nЕнергія: 5"
 END
@@ -31259,7 +31259,7 @@ KO: "대군 보너스.\n\n보병에 강합니다.\n경장비 차량에 약합니
 ZH: "當隊伍擁有五個或五個以上時，會有群數加分效益。\n\n對步兵傷害嚴重\n對輕型載具傷害輕微"
 BP: "Possui bônus de Horda quando em grupos de 5 ou mais.\n\nEficiente contra Infantaria\nVulnerável contra Veículos Leves"
 PL: "W grupie co najmniej pięciu jednostek zyskuje premię hordy.\n\nSilny przeciwko piechocie\nSłaby przeciwko lekkim pojazdom"
-RU: "Получает Бонус Строя в группе от 5 солдат и больше\n\Эффективен против пехоты\nСлаб против легкой техники"
+RU: "Получает Бонус Строя в группе от 5 солдат и больше\n\nЭффективен против пехоты\nСлаб против легкой техники"
 AR: "ةﺎﺸﻤﻟا ﺮﺻﺎﻨﻋ ﻊﯿﻤﺟ ﻰﻠﻋ مﻮﺠﮫﻟﺎﺑ مﻮﻘﻳ\n\nةﺎﺸﻤﻟا ﺪﺿ يﻮﻗ\nتﺎﺑﺮﻌﻟا ﺪﺿ ﻒﯿﻌﺿ"
 UK: "Отримує бонус Орди, коли в групах по 5 і більше\n\nЕфективний проти піхоти\nСлабкий проти техніки"
 END
@@ -31275,7 +31275,7 @@ KO: "컴퓨터 바이러스로 적군 건물을 무력화시키거나 인터넷�
 ZH: "使用電腦病毒可以讓敵軍建築物無效或駭客進入網際網路以竊取金錢。\n\n對建築物傷害嚴重\n對步兵、載具傷害輕微"
 BP: "Pode desativar estruturas inimigas com um vírus de computador ou conseguir dinheiro através de invasões pela Internet.\n\nEficiente contra Estruturas\nVulnerável contra Infantaria, Veículos"
 PL: "Potrafi wyłączać nieprzyjacielskie budynki za pomocą wirusa komputerowego oraz włamywać się do Internetu w celu kradzieży pieniędzy.\n\nSilny przeciwko budynkom\nSłaby przeciwko piechocie, pojazdom"
-RU: "Может удалённо вывести из строя вражеские здания или украсть средства в сети Интернет\n\Эффективен против зданий\nСлаб против пехоты и техники"
+RU: "Может удалённо вывести из строя вражеские здания или украсть средства в сети Интернет\n\nЭффективен против зданий\nСлаб против пехоты и техники"
 AR: "تﺎﺑﺮﻌﻟاو تﺎﺸﻨﻤﻟا ﻞﯿﻄﻌﺘﺑ مﻮﻘﻳ\nلاﻮﻣﻷا ﺔﻗﺮﺴﺑ مﻮﻘﻳو تﺎﺳوﺮﯿﻔﻟا ﻖﻳﺮﻃ ﻦﻋ\n\nتﺄﺸﻨﻤﻟا ﺪﺿ يﻮﻗ\nتﺎﺑﺮﻌﻟا و ةﺎﺸﻤﻟا ﺪﺿ ﻒﯿﻌﺿ"
 UK: "Може вивести з ладу ворожі будівлі за допомогою комп’ютерного вірусу або зламати Інтернет, щоб вкрасти гроші\n\nЕфективний проти будівель\nСлабкий проти піхоти, техніки"
 END
@@ -31342,7 +31342,7 @@ KO: "레이저로 미사일과 적군 보병을 파괴합니다.\n\n탱크, 건�
 ZH: "使用雷射去摧毀飛彈與敵軍步兵。\n\n對坦克、建築物、配備飛彈敵軍傷害嚴重\n對飛機傷害輕微"
 BP: "Usa um sistema laser para destruir mísseis e unidades inimigas.\n\nEficiente contra Tanques, Estruturas, Mísseis\nVulnerável contra Aeronaves"
 PL: "Niszczy rakiety i nieprzyjacielską piechotę za pomocą lasera.\n\nSilny przeciwko czołgom, budynkom, przeciwnikom uzbrojonym w rakiety\nSłaby przeciwko lotnictwu"
-RU: "Использует лазер для уничтожения ракет и вражеской пехоты\n\Эффективен против танков, зданий и ракетных войск\nСлаб против авиации"
+RU: "Использует лазер для уничтожения ракет и вражеской пехоты\n\nЭффективен против танков, зданий и ракетных войск\nСлаб против авиации"
 AR: "مﺪﻘﺘﻣ رﺰﯿﻟ ماﺪﺨﺘﺳﺈﺑ مﻮﻘﻳ\nةﺎﺸﻤﻟا ﺮﺻﺎﻨﻋ ﻰﻠﻋ ءﺎﻀﻘﻠﻟ\nﺔﻳدﺎﻌﻤﻟا ﺦﻳراﻮﺼﻟاو\n\n: ﺪﺿ لﺎﻌﻓ\nتﺎﺑﺎﺑﺪﻟا ،\nتﺂﺸﻨﻤﻟا ،\nﺦﻳراﻮﺼﻟا ،\nتاﺮﺋﺎﻄﻟا ﺪﺿ ﻒﯿﻌﺿ"
 UK: "Використовує лазер для знищення ракет і піхоти ворога\n\nЕфективний проти танків, будівель і ракет\nСлабкий проти авіації"
 END
@@ -31360,7 +31360,7 @@ KO: "지상이나 대공 목표물을 공격할 수 있습니다.\n\n항공기, 
 ZH: "可以進攻地面或空中的攻擊目標。\n\n對飛機、坦克、輕型載具傷害嚴重\n對配備飛彈、防空防衛敵軍傷害輕微"
 BP: "Pode atacar alvos aéreos e terrestres.\n\nEficiente contra Aeronaves, Tanques, Veículos Leves\nVulnerável contra Infantaria com Mísseis, Defesas Antiaéreas"
 PL: "Może atakować cele naziemne i powietrzne.\n\nSilny przeciwko lotnictwu, czołgom, lekkim pojazdom\nSłaby przeciwko piechocie rakietowej, obronie przeciwlotniczej"
-RU: "Может атаковать наземные и воздушные цели\n\Эффективен против авиации, танков и легкой техники\nСлаб против пехоты вооруженной ракетами и противовоздушной обороной"
+RU: "Может атаковать наземные и воздушные цели\n\nЭффективен против авиации, танков и легкой техники\nСлаб против пехоты вооруженной ракетами и противовоздушной обороной"
 AR: "ﻲﺿارﻷا ﺔﺳاﺮﺤﺑ مﻮﻘﺗ\nﺔﻳﻮﺠﻟا فاﺪھﻷا ﻒﺼﻗو\n\nتﺎﺑﺎﺑد ، تاﺮﺋﺎﻄﻟا ﺪﺿ لﺎﻌﻓ\nﺔﻔﯿﻔﺨﻟا تﺎﺑﺮﻌﻟا ،\nناﺮﯿﻄﻠﻟ ةدﺎﻀﻤﻟا ﺮﺻﺎﻨﻌﻟا ﺪﺿ ﻒﯿﻌﺿ\nﺔﯿﺳﺎﺳﻷا ﺔﯿﺿرﻷا تﺎﻋﺎﻓﺪﻟاو"
 UK: "Може вражати наземні або повітряні цілі\n\nЕфективний проти літаків, танків, легкої техніки\nСлабкий проти піхоти з ракетами, протиповітряної оборони"
 END
@@ -31397,7 +31397,7 @@ KO: "이동 시 스텔스 상태를 유지합니다.\n\n기지 방어물에 강�
 ZH: "移動時隱形。\n\n對敵軍基地防禦工事傷害嚴重\n對敵軍戰鬥機傷害輕微"
 BP: "Invisível quando movendo.\n\nEficiente contra Defesas de Base\nVulnerável contra Infantaria com Mísseis"
 PL: "Zamaskowany podczas ruchu.\n\nSilny przeciwko systemom obronnym bazy\nSłaby przeciwko piechocie rakietowej"
-RU: "Замаскирован пока не атакует\n\Эффективен против обороны баз\nСлаб против истребителей"
+RU: "Замаскирован пока не атакует\n\nЭффективен против обороны баз\nСлаб против истребителей"
 AR: "كﺮﺤﺘﻟا ﻼﺧ ﻲﻔﺨﺘﻟا\n\nﺔﯿﺳﺎﺳﻷا وﺪﻌﻟا تﺎﻋﺎﻓد ﺪﺿ لﺎﻌﻓ\nوﺪﻌﻟا ﻲﻠﺗﺎﻘﻣ ﺪﺿ ﻒﯿﻌﺿ"
 UK: "Невидимий під час руху\n\nЕфективний проти захисту бази\nСлабкий проти винищувачів"
 END
@@ -98804,7 +98804,7 @@ KO: "MOAB\n전자전 장비 m 벙커 버스터\n헬파이어 드론\n스펙터 �
 ZH: "炸彈之母\n反制裝置\n碉堡殺手\n地獄火蜂型機\n鬼魅炮艇機\n哨兵蜂型機\n微波坦克\n復仇者支援車\n防火基地"
 BP: "MTB\nContramedidas\nMíssil Destruidor de Bunker\nDrone Hellfire\nAvião de Artilharia Spectre\nDrone Sentinela\nTanque de Microondas\nVingador\nBase de Foguetes"
 PL: "Bomba nad Bombami\nPrzeciwśrodki\nNiszczyciel bunkrów\nRobot rakietowy\nSzturmowiec Widmo\nRobot strażniczy\nCzołg Mikrofalowy\nMściciel\nBaza ogniowa"
-RU: "MOAB\nКонтрмеры\nПротивобункерные ракеты\nРакетный беспилотный аппарат "Хэлфайр"\nБоевой самолет Спектр\nЗащитный беспилотный аппарат\nМикроволновый танк\nМститель\nОборонительная платформа"
+RU: "MOAB\nКонтрмеры\nПротивобункерные ракеты\nРакетный беспилотный аппарат \"Хэлфайр\"\nБоевой самолет Спектр\nЗащитный беспилотный аппарат\nМикроволновый танк\nМститель\nОборонительная платформа"
 AR: "تادﺎﻀﻤﻟا\nﺔﯿﻋﺎﻓﺪﻟا ﺊﺑﺎﺨﻤﻟا ﺮﻣﺪﻣ\nرﺎﯿﻃ نوﺪﺑ ﻒﺼﻗ ةﺮﺋﺎﻃ\nﺔﺤﻠﺴﻤﻟا ﺮﺘﻜﺒﺳ ﺔﯿﺣوﺮﻣ\nرﺎﯿﻃ نوﺪﺑ ﺔﺳاﺮﺣ ةﺮﺋﺎﻃ\nﻒﻳوﺮﻜﻳﺎﻣ ﺔﺑﺎﺑد\nﻢﻘﺘﻨﻤﻟا\nرﺎﻧ قﻼﻃإ ةﺪﻋﺎﻗ"
 UK: "МВБ\nТеплові пастки\nВбивці бункерів\nДрон Хелфайр\nШтурмовик Спектр\nВартовий дрон\nМікрохвильовий танк\nМесник\nВогнева база"
 END
