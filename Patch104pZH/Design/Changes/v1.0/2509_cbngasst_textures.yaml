@@ -1,0 +1,97 @@
+---
+date: 2024-09-15
+
+title: Fixes and improves cbngasst textures
+
+changes:
+  - fix: Fixes and improves Civilian cbngasst textures.
+
+subchanges:
+  - fix: |
+      cbngasst_roof, cbngasst_roof_d, cbngasst_roof_s
+        - Darkens roof wall to match gradient of cbngasst_wall
+  - fix: |
+      cbngasst_roof_e
+        - Darkens roof wall to match gradient of cbngasst_wall
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbngasst_roof_ds
+        - Darkens roof wall to match gradient of cbngasst_wall
+        - Fixes faint snow on damages
+  - fix: |
+      cbngasst_roof_es
+        - Darkens roof wall to match gradient of cbngasst_wall
+        - Fixes faint snow on damages
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbngasst_tank_e
+        - Fixes damage transition from cbngasst_tank_d to cbngasst_tank_r
+  - fix: |
+      cbngasst_tank_r, cbngasst_tank_rs
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbngasst_tank_n
+        - Recreates gas tank light
+  - fix: |
+      cbngasst_wall
+        - Adds roof gradient to second wall
+  - fix: |
+      cbngasst_wall_d
+        - Fixes texture damage visuals
+        - Adds roof gradient to second wall
+  - fix: |
+      cbngasst_wall_g
+        - Fixes texture damage inconsistencies with cbngasst_wall
+        - Adds roof gradient to second wall
+  - fix: |
+      cbngasst_wall_e, cbngasst_wall_dg
+        - Fixes texture damage visuals
+        - Fixes texture damage inconsistencies with cbngasst_wall_d
+        - Adds roof gradient to second wall
+  - fix: |
+      cbngasst_wall_r
+        - Fixes texture damage visuals
+        - Fixes texture damage inconsistencies with cbngasst_wall_d
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbngasst_wall_s
+        - Increases brightness of roof gradient on second wall
+        - Removes inappropriate hanging ice spikes from second wall
+  - fix: |
+      cbngasst_wall_ds
+        - Fixes texture damage visuals
+        - Adds roof gradient to second wall
+        - Removes inappropriate hanging ice spikes from second wall
+  - fix: |
+      cbngasst_wall_es, cbngasst_wall_dsg
+        - Fixes texture damage visuals
+        - Fixes texture damage inconsistencies with cbngasst_wall_ds
+        - Adds roof gradient to second wall
+        - Removes inappropriate hanging ice spikes from second wall
+  - fix: |
+      cbngasst_wall_rs
+        - Fixes texture damage visuals
+        - Fixes texture damage inconsistencies with cbngasst_wall_ds
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbngasst_wall_sg
+        - Fixes texture damage inconsistencies with cbngasst_wall_s
+        - Adds roof gradient to second wall
+        - Removes inappropriate hanging ice spikes from second wall
+  - fix: |
+      cbngasst_wall_n, cbngasst_wall_ds, cbngasst_wall_ng, cbngasst_wall_dng, cbngasst_wall_sn, cbngasst_wall_dsn, cbngasst_wall_sng, cbngasst_wall_dsng
+        - Recreates house lights
+        - Increases light brightness
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2509
+
+authors:
+  - xezon
