@@ -31112,7 +31112,7 @@ BP: "Constrói todas as estruturas do E.L.G. Repara edifícios e coleta suprimen
 PL: "Buduje wszystkie struktury AŚW. Naprawia mosty i zbiera zaopatrzenie."
 RU: "Строит и ремонтирует все здания ГЛА. Собирает припасы"
 AR: "ﺎﮫﺘﻧﺎﯿﺻو تﺂﺸﻨﻤﻟا ﺔﻓﺎﻛ ءﺎﻨﺑ\nتاداﺪﻣﻹاو تاﺰﯿﮫﺠﺘﻟا ﺔﻓﺎﻛ ﻊﻤﺟ"
-UK: "Будує всі структури ГВА. Ремонтує будівлі та збирає припаси"
+UK: "Будує всі споруди ГВА. Ремонтує будівлі та збирає припаси"
 END
 
 // context: Appears when you mouse over the Dozer cameo on the Chinese Command Center
@@ -37713,7 +37713,7 @@ BP: "OBJETIVO DA MISSÃO:\nDestrua todas as forças e estruturas do E.L.G."
 PL: "CEL MISJI:\nZniszczyć wszystkie wojska i obiekty AŚW."
 RU: "ЦЕЛЬ МИССИИ:\nУничтожить все войска и здания ГЛА"
 AR: ": ﺔﻤﮫﻤﻟا فﺪھ\nتاﻮﻗ ﺔﻓﺎﻛ ﻰﻠﻋ ءﺎﻀﻘﻟا\nﻲﺑﺮﻌﻟا ﺶﯿﺠﻟا تﻼﯿﻜﺸﺗو"
-UK: "МЕТА МІСІЇ:\nЗнищити всі сили та структури ГВА"
+UK: "МЕТА МІСІЇ:\nЗнищити всі сили та споруди ГВА"
 END
 
 MAP:USA08WallGarWarning
@@ -49433,7 +49433,7 @@ BP: "Estrutura Fortificada"
 PL: "Wzmocniona struktura"
 RU: "Укрепление здания"
 AR: "ﻦﺼﺤﻤﻟا ﺪﯿﯿﺸﺘﻟا"
-UK: "Укріплені структури"
+UK: "Укріплені споруди"
 END
 
 UPGRADE:BoobyTrap
@@ -50824,7 +50824,7 @@ BP: "DICA:\nO Sabotador desorienta as habilidades das estruturas inimigas."
 PL: "RADA:\nSabotażysta unieszkodliwia nieprzyjacielskie budynki."
 RU: "ПОДСКАЗКА:\nДиверсант нарушает работу способностей вражеских построек"
 AR: "HINT:\nThe Saboteur disrupts the abilities of enemy structures"
-UK: "ПІДКАЗКА:\nДиверсант порушує роботу ворожих структур"
+UK: "ПІДКАЗКА:\nДиверсант порушує роботу ворожих споруд"
 END
 
 HELP:Saboteur-02
@@ -50854,7 +50854,7 @@ BP: "DICA:\nConstrua Estruturas Falsas para enganar os seus inimigos."
 PL: "RADA:\nWznoś fałszywe budynki, by zmylić wrogów."
 RU: "ПОДСКАЗКА:\nПостройте Ложные здания, чтобы обмануть противника"
 AR: "ﺢﯿﻤﻠﺗ:\nﻚﺋاﺪﻋأ عاﺪﺨﻟ تﺄﺸﻨﻤﻟا ﻪﻳﻮﻤﺘﺑ ﻢﻗ"
-UK: "ПІДКАЗКА:\nСтворюйте підроблені структури, щоб обдурити своїх ворогів"
+UK: "ПІДКАЗКА:\nСтворюйте підроблені споруди, щоб обдурити своїх ворогів"
 END
 
 // Patch104p @fix dmgreen 06/12/2024 Changes US from "HINT:\nUse Sneak Attack to instantly build a Tunnel Network anywhere you can see" (#2727)
@@ -52054,7 +52054,7 @@ BP: "OBJETIVO DA MISSÃO:\nEncontre e destrua as estruturas do E.L.G. nas montan
 PL: "CEL MISJI:\nZlokalizować i zniszczyć obiekty AŚW w górach."
 RU: "ЦЕЛЬ МИССИИ:\nНайти и уничтожить сооружения ГЛА в горах"
 AR: ": ﺔﯿﻟﺎﺘﻟا ﺔﻤﮫﻤﻟا\nﻲﺑﺮﻌﻟا ﺶﯿﺠﻟا تﻼﯿﻜﺸﺗ ﻰﻠﻋ ءﺎﻀﻘﻟا"
-UK: "МЕТА МІСІЇ:\nЗнайдіть і знищіть структури ГВА в горах"
+UK: "МЕТА МІСІЇ:\nЗнайдіть і знищіть споруди ГВА в горах"
 END
 
 MAP:USAX02Ships
@@ -52414,7 +52414,7 @@ BP: "DICA:\nElimine as estruturas do E.L.G. que protegiam este campo\npara liber
 PL: "RADA:\nW celu uwolnienia jeńcówzlikwiduj obiekty AŚW strzegące obozu."
 RU: "ПОДСКАЗКА:\nУничтожьте сооружения ГЛА, охраняющие этот лагерь,\nчтобы освободить пленников"
 AR: ": ﺢﯿﻤﻠﺗ\nﻲﺑﺮﻌﻟا ﺶﯿﺠﻟا تﻼﯿﻜﺸﺗ ﺔﻓﺎﻛ ﺔﻟازإ\nﺮﻜﺴﻌﻤﻟا اﺬھ ﺔﺳاﺮﺤﺑ مﻮﻘﺗ ﻲﺘﻟا\nﺎﻨھ ﻦﻣ ءﺎﻨﺠﺴﻟا ﺮﻳﺮﺤﺘﻟ"
-UK: "ПІДКАЗКА:\nЛіквідуйте структури ГВА, що охороняють цей табір\nдля звільнення в'язнів, яких тут утримували"
+UK: "ПІДКАЗКА:\nЛіквідуйте споруди ГВА, що охороняють цей табір\nдля звільнення в'язнів, яких тут утримували"
 END
 
 MAP:USA03xBurtonWarning
@@ -54694,7 +54694,7 @@ BP: "OBJETIVO DA MISSÃO:\nElimine todas as estruturas do E.L.G. nesta região."
 PL: "CEL MISJI:\nZniszczyć wszystkie budynki AŚW w rejonie."
 RU: "ЦЕЛЬ МИССИИ:\nУничтожить все здания ГЛА в этом регионе"
 AR: ": ﺔﻤﮫﻤﻟا فﺪھ\nﺔﻘﻄﻨﻤﻟا ﻦﻣ ﻲﺑﺮﻌﻟا ﺶﯿﺠﻟا تﻼﯿﻜﺸﺗ ﺔﻓﺎﻛ ﺔﻟازإ"
-UK: "МЕТА МІСІЇ:\nУсуньте всі структури ГВА в цьому регіоні"
+UK: "МЕТА МІСІЇ:\nУсуньте всі споруди ГВА в цьому регіоні"
 END
 
 MAP:CHI01xTechBldgHint
@@ -54904,7 +54904,7 @@ BP: "2º OBJETIVO DA MISSÃO:\nDestrua todas as estruturas do E.L.G. na região.
 PL: "CEL MISJI #2:\nZniszczyć wszystkie budynki AŚW w rejonie."
 RU: "ВТОРАЯ ЦЕЛЬ МИССИИ:\nУничтожить все здания ГЛА в регионе"
 AR: ": ٢ ﻢﻗر ﺔﻤﮫﻤﻟا فﺪھ\nﺔﻘﻄﻨﻤﻟا ﻲﻓ ﻲﺑﺮﻌﻟا ﺶﯿﺠﻟا تﻼﯿﻜﺸﺗ ﺔﻓﺎﻛ ﺮﯿﻣﺪﺘﺑ ﻢﻗ"
-UK: "МЕТА МІСІЇ №2:\nЗнищити всі структури ГВА в регіоні"
+UK: "МЕТА МІСІЇ №2:\nЗнищити всі споруди ГВА в регіоні"
 END
 
 MAP:CHI02xReactorKIAWarn
@@ -59437,7 +59437,7 @@ BP: "Quando estiver no campo de batalha, é importante usar todas as ferramentas
 PL: "Generale, będąc na polu bitwy, warto wykorzystywać dostępne możliwości. Pamiętaj o budowaniu wszystkich budynków, tylko dzięki temu stworzysz wielką siłę militarną."
 RU: "Генерал, когда Вы на поле боя, используйте все доступные Вам средства, чтобы одержать победу. Убедитесь, что Вы построили все доступные здания, а также имеете сильную армию"
 AR: "ﺔﻛﺮﻌﻤﻟا ضرأ ﻲﻓ ﺔﻣزﻼﻟا تاودﻻا ﺔﻓﺎﻛ ماﺪﺨﺘﺳإ ﺐﺠﻳ\nﺰﯿﻤﻣو ﻲﺳﺎﯿﻗ ﺖﻗو ﻲﻓ ﺮﺼﻨﻟا ﻖﯿﻘﺤﺗ ﻊﯿﻄﺘﺴﺗ ﻲﻜﻟ"
-UK: "Коли ви на полі бою, важливо використовувати всі доступні вам засоби, генерал. Переконайтеся, що ви побудували всі структури. Ви повинні підтримувати потужну військову силу"
+UK: "Коли ви на полі бою, важливо використовувати всі доступні вам засоби, генерал. Переконайтеся, що ви побудували всі споруди. Ви повинні підтримувати потужну військову силу"
 END
 
 ACADEMY:BuildSupplyCenterEarlier
@@ -59946,7 +59946,7 @@ BP: "Algumas estruturas podem ser atualizadas para ser camufladas, como a Rede d
 PL: "Niektóre budynki można zamaskować - na przykład sieci tuneli i wyrzutnie stingerów. Będą one niewidoczne dla wroga do chwili, gdy będzie już za późno. Niespodzianka!"
 RU: "Некоторые здания могут быть улучшены с помощью Маскировочной сетки, например Сеть туннелей ГЛА или Гнездо стингеров. Они будут незаметны для врага, пока не станет слишком поздно. Сюрприз!"
 AR: "ﻞﺜﻣ ﻲﺑﺮﻌﻟا ﺶﯿﺠﻟا ﻲﻓ ﻪﻳﻮﻤﺘﻠﻟ تﻼﯿﻜﺸﺘﻟا ﺾﻌﺑ ﺔﯿﻗﺮﺗ ﻦﻜﻤﻳ\nﻦﻣﺰﻟ وﺪﻌﻠﻟ ﺔﯿﺋﺮﻣ ﺮﯿﻏ نﻮﻜﺘﺳو عﺎﻓﺪﻟا ﻊﻗاﻮﻣ وأ ﺔﯿﻜﺒﺸﻟا ﺊﺑﺎﺨﻤﻟا\nﺊﺟﺎﻔﻣ ﻞﻜﺸﺑ ﺮﮫﻈﺘﺳ و ﻞﻳﻮﻃ"
-UK: "Деякі структури можна замаскувати, як-от Тунельну мережу ГВА або Позицію стингерів. Вони будуть невидимі для ворога, поки не стане надто пізно. Сюрприз!"
+UK: "Деякі споруди можна замаскувати, як-от Тунельну мережу ГВА або Позицію стингерів. Вони будуть невидимі для ворога, поки не стане надто пізно. Сюрприз!"
 END
 
 ACADEMY:Firestorm
@@ -98944,7 +98944,7 @@ BP: "Todas as Estruturas podem estar na Rede de camuflagem\nRebeldes Camuflados\
 PL: "Wszystkie obiekty mogą być maskowane za pomocą sieci\nZamaskowani buntownicy\nSystemy obronne są od razu zamaskowane\nZaczyna grę z porywaczem\nWcześniej uzyskuje zagłuszacz GPS\nMoże częściej zagłuszać GPS"
 RU: "На все здания может быть установлена Маскировочная сетка\nЗамаскированные Повстанцы\nОборонительные сооружения замаскированы\nУгонщик доступен сразу\nУгонщик всегда замаскирован\nРанний доступ к способности Маскировка сигнала GPS\nМаскировку сигнала GPS можно использовать чаще"
 AR: "ﻲﺑﺮﻌﻟا ﺶﯿﺠﻟا تﻼﯿﻜﺸﺗو تاﺪﺣو ﻊﯿﻤﺟ\nﺪﺗﺮﻤﻟا عﺎﻓﺪﻟا ﻰﻠﻋ ﺪﻤﺘﻌﺗو ًاﺪﺟ ﺔﻳﻮﻗو ةﺪﺣﻮﻣ\nﺔﻄﺳاﻮﺑ ﻲﻔﺨﺘﻟا ﺔﯿﻨﻘﺗ ﻰﻠﻋو\nﻲﻤﻟﺎﻌﻟا ﻲﻔﺨﺘﻟا زﺎﮫﺟ"
-UK: "Всі структури можуть бути приховані\nКамуфльовані повстанці\nВсі захисні споруди одразу камуфльовані\nВикрадачі доступні відразу\nВикрадачі завжди невидимі\nШифратор GPS доступний раніше\nЧастіше використання Шифратора GPS"
+UK: "Всі споруди можуть бути приховані\nКамуфльовані повстанці\nВсі захисні споруди одразу камуфльовані\nВикрадачі доступні відразу\nВикрадачі завжди невидимі\nШифратор GPS доступний раніше\nЧастіше використання Шифратора GPS"
 END
 
 // Patch104p @fix xezon 12/08/2023 Changes US from "Assault Troop Transport". (#2226)
@@ -99345,7 +99345,7 @@ BP: "Pode desativar temporariamente edifícios inimigos.\n\nEficiente contra Est
 PL: "Potrafi chwilowo unieszkodliwiać nieprzyjacielski budynki.\n\nSilny przeciwko obiektom wroga\nSłaby przeciwko piechocie, zwiadowcom"
 RU: "Может на время вывести из строя вражескую постройку\n\nЭффективен против вражеских зданий\nСлаб против пехоты и разведчиков"
 AR: "ﺖﻗﺆﻣ ﻞﻜﺸﺑ وﺪﻌﻟا تﺎﻳﺎﻨﺑ ﻞﻄﻌﻳ نأ ﻦﻜﻤﻳ\n\nوﺪﻌﻟا ﺐﯿﻛاﺮﺗ ﺪﺿ يﻮﻗ\nﺔﻓﺎﺸﻜﻟا تةاﺪﺣﻮﻟا و ةﺎﺸﻤﻟا ﻞﺑﺎﻘﻣ ﻒﯿﻌﺿ"
-UK: "Може тимчасово виводити з ладу ворожі будівлі\n\nЕфективний проти ворожих структур\nСлабкий проти піхоти, розвідників"
+UK: "Може тимчасово виводити з ладу ворожі будівлі\n\nЕфективний проти ворожих споруд\nСлабкий проти піхоти, розвідників"
 END
 
 SCIENCE:Nuke_ChinaCarpetBomb
