@@ -1,4 +1,5 @@
 import os
+import re
 
 g_this_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -24,7 +25,7 @@ class W3dFileManager:
             raise FileNotFoundError(file_path)
 
         w3dfile: W3dFile = self.file_dict.get(file_path)
-        if w3dfile == None:
+        if w3dfile is None:
             w3dfile = W3dFile()
             with open(file_path, "rb") as file:
                 w3dfile.path = file_path
@@ -32,6 +33,17 @@ class W3dFileManager:
             self.file_dict[file_path] = w3dfile
 
         return w3dfile
+
+
+    def get_textures(self, file_path: str) -> list[str]:
+        w3dfile: W3dFile = self.get_or_create_w3d_file(file_path)
+        texture_pattern = re.compile(r'([a-zA-Z0-9_\-]+)\.(tga|dds)', re.IGNORECASE)
+        textures = set()
+
+        for match in texture_pattern.finditer(w3dfile.data.decode('ascii', errors='ignore')):
+            textures.add(match.group(0))
+
+        return list(textures)
 
 
     def rename_texture(self, file_path: str, replace_from: str, replace_to: str) -> None:
