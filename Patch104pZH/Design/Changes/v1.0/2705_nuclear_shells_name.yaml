@@ -1,0 +1,19 @@
+---
+date: 2025-03-28
+
+title: Fixes inaccurate names of Nuclear Shells
+
+changes:
+  - tweak: The name of the Nuclear Shells now matches the visuals of the button in all languages
+  
+labels:
+  - minor
+  - text
+  - china
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2705
+
+authors:
+  - dmgreen

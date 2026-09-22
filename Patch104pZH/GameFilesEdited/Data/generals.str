@@ -48559,17 +48559,19 @@ UK: "Нейтронні міни: &M"
 END
 
 // Patch104p @fix xezon 17/08/2023 Adds missing key mapping to DE. (#2242)
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "&Nuclear Shell" (#2705)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to better reflect the US name of the Nuclear Shells (#2705)
 
 CONTROLBAR:NukeWarhead
-US: "Nuclear Shell: &N"
-DE: "Nuklearer Gefechtskopf: &N"
-FR: "Ogive nucléaire: &N"
-ES: "Proyectil de neutrones: &N"
-IT: "Testata nucleare: &N"
-KO: "핵탄두: &N"
-ZH: "核子彈殼：&N"
-BP: "Ogiva Nuclear: &N"
-PL: "Głowica nuklearna: &N"
+US: "Nuclear Shells: &N"
+DE: "Atomgranaten: &N"
+FR: "Les obus nucléaires: &N"
+ES: "Cáscaras nucleares: &N"
+IT: "Gusci nucleari: &N"
+KO: "핵 껍질: &N"
+ZH: "核殼：&N"
+BP: "Projéteis Nucleares: &N"
+PL: "Pociski jądrowe: &N"
 RU: "Ядерные снаряды: &N"
 AR: "ﺔﻳوﻮﻨﻟا ﺔﻔﻳﺬﻘﻟا"
 UK: "Ядерні снаряди: &N"
