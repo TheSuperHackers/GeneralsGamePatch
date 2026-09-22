@@ -3454,11 +3454,13 @@ AR: "ﻦﻣاﺰﺘﻟا جرﺎﺧ"
 UK: "Не синхронізовано"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Ignorieren-Liste" to "Ignorierliste" (#2753)
+
 // context: Error message in multiplayer games to inform the players that the game
 //          can not continue because of discrepancies in the data between the different player machines
 GUI:DesyncText
 US: "C&C Generals Zero Hour has gone out of synch with the other game participants. It is possible that the other participants have modified their versions. C&C Generals Zero Hour cannot continue, however, you may add players to your Ignore List from your Communicator if you choose not to play with them in the future"
-DE: "C&C Generäle - Die Stunde Null läuft nicht mehr synchron. Möglicherweise haben einige Mitspieler ihre Version des Spiels verändert. C&C Generäle - Die Stunde Null kann nicht fortgesetzt werden. Wenn du mit einigen Spielern nicht mehr spielen willst, trage sie in deine Ignorieren-Liste ein."
+DE: "C&C Generäle - Die Stunde Null läuft nicht mehr synchron. Möglicherweise haben einige Mitspieler ihre Version des Spiels verändert. C&C Generäle - Die Stunde Null kann nicht fortgesetzt werden. Wenn du mit einigen Spielern nicht mehr spielen willst, trage sie in deine Ignorierliste ein."
 FR: "C&C Generals - Heure H n'est plus synchronisé avec les autres participants. Ces derniers ont peut-être modifié leur version. C&C Generals - Heure H ne peut continuer. Toutefois, vous pouvez ajouter des joueurs à votre liste Ignorer, à partir de votre Compad si vous ne souhaitez pas rejouer avec eux à l'avenir."
 ES: "C&C Generals Zero Hour ya no está sincronizado con los demás participantes de la partida. Es posible que los demás hayan modificado sus versiones. Sin embargo, C&C Generals Zero Hour no puede continuar; puedes añadir jugadores a tu lista de Ignorados desde el Comunicador si optas por no jugar con ellos en el futuro."
 IT: "C&C Generals Zero Hour ha perso la sincronizzazione con gli altri partecipanti. È possibile che questi ultimi abbiano modificato le loro versioni. C&C Generals Zero Hour non è in grado di continuare. Ricorda che puoi inserire dei giocatori nella Lista ignorati nel Comunicatore, se non desideri più giocare con loro in futuro."
@@ -11151,12 +11153,14 @@ AR: "ﺔﺒﻌﻠﻟا ﻲﻓ رﺮﻜﻣ ﻢﺳﻻا"
 UK: "Дублікат імені вже в грі"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Ignorieren-Liste" to "Ignorierliste" (#2753)
+
 // context: When a multiplayer game loses synchronization data between the different players,
 //          this message is displayed on screen in a dialog box.
 //          (CRC is a checksum term frequently used in computers)
 LAN:ErrorCRCMismatch
 US: "Game has detected a mismatch. This means the multiplayer game has lost synchronization data between the players. It is possible that your opponent has modified his version and you may want to include him on your Ignore List"
-DE: "Fehler! Die Daten der einzelnen Spieler sind nicht mehr synchron! Möglicherweise hat dein Gegner seine Version des Spiels bearbeitet. Wenn du willst, kannst du ihn auf deine Ignorieren-Liste setzen."
+DE: "Fehler! Die Daten der einzelnen Spieler sind nicht mehr synchron! Möglicherweise hat dein Gegner seine Version des Spiels bearbeitet. Wenn du willst, kannst du ihn auf deine Ignorierliste setzen."
 FR: "Le jeu a détecté une incompatibilité. La partie multijoueur a perdu les données de synchronisation entre les joueurs. Il se peut que votre adversaire ait modifié sa version. Vous pouvez l'inclure dans votre liste Ignorer."
 ES: "El juego ha detectado un error en la búsqueda. La partida multijugador ha perdido los datos de sincronización entre jugadores. Es posible que tu rival haya modificado su versión y puede que quieras incluirlo en tu lista de Ignorados."
 IT: "Il gioco ha rilevato un errore di sincronizzazione nei dati della partita multigiocatore. È possibile che il tuo avversario abbia modificato la sua versione. Se vuoi, puoi inserirlo nella Lista ignorati."
@@ -11698,10 +11702,12 @@ AR: "."
 UK: "."
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Text im Chat-Fenster löschen." (#2753)
+
 // context: Clears text from the txt entry field.
 TOOLTIP:ClearButton
 US: "Clear the chat text window"
-DE: "Text im Chat-Fenster löschen."
+DE: "Text im Chatfenster löschen."
 FR: "Effacer votre texte."
 ES: "Fix me, I'm not very descriptive."
 IT: "Cancella il testo nella finestra di chat."
@@ -12980,10 +12986,12 @@ AR: "ﺕاﺪﺣﻮﻟا ﻑﺎﻘﻳإ"
 UK: "Зупинити об'єкт"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Halte die gewählten(n) Einheit(en) an." (#2753)
+
 // context: Help text for the 'Stop Object' command.
 GUI:StopObjectDescription
 US: "Stop the selected object(s)"
-DE: "Halte die gewählten(n) Einheit(en) an."
+DE: "Halte die gewählte(n) Einheit(en) an."
 FR: "Pour arrêter l'objet sélectionné."
 ES: "Detiene los objetos seleccionados."
 IT: "Ferma l'elemento/gli elementi selezionato/i."
@@ -23369,10 +23377,11 @@ UK: "Японський ліхтар"
 END
 
 // Patch104p @fix dmgreen 04/12/2024 Changes US from "Junk Car" (#2727)
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Autowrack(s)" (#2753)
 
 OBJECT:JunkCar
 US: "Junk Cars"
-DE: "Autowrack(s)"
+DE: "Autowracks"
 FR: "Tacot(s)"
 ES: "Camión de la basura"
 IT: "Rottame"
@@ -23462,10 +23471,12 @@ AR: "ﺪﻳﺮﺒﻟا قوﺪﻨﺻ"
 UK: "Поштова скринька"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Gullydeckel" (#2753)
+
 // context: Street sewer cover
 OBJECT:ManHoleCover
 US: "ManHole Cover"
-DE: "Gullydeckel"
+DE: "Gullideckel"
 FR: "Bouche d'égout"
 ES: "Boca de alcantarilla"
 IT: "Coperchio di tombino"
@@ -24383,9 +24394,11 @@ AR: "ﻲﻧﻭﺰﻠﺣ ﻞﺒﺣ"
 UK: "Канатна котушка"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Kies" (#2753)
+
 OBJECT:Rubble
 US: "Rubble"
-DE: "Kies"
+DE: "Haufen Dreck"
 FR: "Gravats"
 ES: "Escombros"
 IT: "Macerie"
@@ -24745,9 +24758,11 @@ AR: "ﺓﺯﺭﺎﺒﻟا ﺔﻳﻮﺿﺄﻟا"
 UK: "Сигнальні вогні"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Rutschbahn" (#2753)
+
 OBJECT:Slide
 US: "Slide"
-DE: "Rutschbahn"
+DE: "Rutsche"
 FR: "Toboggan"
 ES: "Rampa"
 IT: "Scivolo"
@@ -27005,10 +27020,12 @@ AR: "<'EVA' speaking>\n'Wait, General, there is a large force up ahead. I'll cal
 UK: "<'ЄВА' говорить>\n'Стривайте, Генерале, у вас попереду велике скупчення противника. Я призначу ЕМ удар щоб розчистити периметр, очікуйте.'"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "<'EVA' spricht>\n'Das sollte Ihnen einen klaren Weg zu ihrer Basis geben. Bringen wir das zu Ende, General.'" (#2753)
+
 // context: Placeholder - DO NOT TRANSLATE!!!
 SCRIPT:CHI02AudioHolder19
 US: "<'EVA' speaking>\n'That should give you a clear path to their base. Let's finish this, General.'"
-DE: "<'EVA' spricht>\n'Das sollte Ihnen einen klaren Weg zu ihrer Basis geben. Bringen wir das zu Ende, General.'"
+DE: "<'EVA' spricht>\n'Das sollte Ihnen einen klaren Weg zu Ihrer Basis geben. Bringen wir das zu Ende, General.'"
 FR: "<'EVA' parlant>\n'Cela devrait vous donner un chemin clair vers leur base. Finissons-en, Général.'"
 ES: "<'EVA' speaking>\n'That should give you a clear path to their base. Let's finish this, General.'"
 IT: "<'EVA' speaking>\n'That should give you a clear path to their base. Let's finish this, General.'"
@@ -27129,10 +27146,12 @@ END
 
 // CHI03 Mission Text /////////////////////////////////////////
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Drei Turbinen Damm ... Provinz Huchatka, Asien\n'Flut der Gewalt'" (#2753)
+
 // context: CHINA Mission 3 Text
 MAP:CHI03Open
 US: "Three Gorges Dam...Hubei Province, China\nA Flood of Violence"
-DE: "Drei Turbinen Damm ... Provinz Huchatka, Asien\n'Flut der Gewalt'"
+DE: "Drei-Schluchten-Damm ... Provinz Huchatka, Asien\n'Flut der Gewalt'"
 FR: "Barrage des 3 Gorges, province du Hubei, Chine\nInondations"
 ES: "Presa de las Tres Gargantas... Provincia de Hubei, China\nInundación Violenta"
 IT: "Diga delle Tre Gole, provincia di Hubei, Cina\n\"Un fiume di violenza\""
@@ -27481,9 +27500,11 @@ AR: "Collect the crates to reach your goal"
 UK: "Збирайте ящики, щоб досягти своєї мети"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Wenn Sie das ganze Geld ausgeben, erreichen Sie ihr Einsatzziel nie!" (#2753)
+
 MAP:GLA02MonkeyReminder
 US: "You will not reach our goal if you spend all your money"
-DE: "Wenn Sie das ganze Geld ausgeben, erreichen Sie ihr Einsatzziel nie!"
+DE: "Wenn Sie das ganze Geld ausgeben, erreichen Sie Ihr Einsatzziel nie!"
 FR: "Vous n'atteindrez pas notre objectif si vous dépensez tout votre argent."
 ES: "No alcanzarás tu meta si te gastas todo el dinero."
 IT: "Non raggiungerai l'obiettivo spendendo tutto il denaro."
@@ -29477,11 +29498,12 @@ UK: "+25% до бонусу Орди для Червоної гвардії, М�
 END
 
 // Patch104p @fix dmgreen 24/03/2025 Changes US from "+25% damage to all flame weapons" (#2727)
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Flammen-Waffen verursachen 25% mehr Schaden." (#2753)
 
 // context: Appears when you mouse over the Black Napalm Upgrade on the Chinese War Factory
 CONTROLBAR:TooltipChinaUpgradeBlackNapalm
 US: "+25% damage for all flame weapons"
-DE: "Flammen-Waffen verursachen 25% mehr Schaden."
+DE: "Flammenwaffen verursachen 25% mehr Schaden."
 FR: "+ 25 % de dégâts pour les armes incendiaires."
 ES: "+25% de daños para todas las armas de fuego."
 IT: "+25% di danno per tutte le armi incendiarie."
@@ -30282,10 +30304,12 @@ AR: "ءاﺪﻋﻷا ﺰﯿﮫﺠﺗ ﺰﻛﺮﻣ ﻦﻣ لاﻮﻣﻷا ﺔﻗ�
 UK: "Викрасти гроші з вибраного центру постачання ворога"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Hackt dich in das Internet, um Geld zu stehlen." (#2753)
+
 // context: Appears when you mouse over the Hack the Internet cameo on the Chinese Hacker
 CONTROLBAR:ToolTipChinaFireHackerInternetHack
 US: "Hack into the Internet to steal money"
-DE: "Hackt dich in das Internet, um Geld zu stehlen."
+DE: "Hackt das Internet, um Geld zu stehlen."
 FR: "Pirate l'Internet pour voler de l'argent."
 ES: "Piratea por internet para robar dinero."
 IT: "Penetra in Internet per rubare denaro."
@@ -35644,9 +35668,11 @@ AR: "- ﻲﺑﺮﻌﻟا ﺶﯿﺠﻟا ﺔﻟازإ ﺐﺠﻳ"
 UK: "- Осередок треба знищити"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "– Die IBG ist am Drei Turbinen Damm aktiv" (#2753)
+
 LOAD:China03_1
 US: "- GLA has infested the Three Gorges Dam area"
-DE: "– Die IBG ist am Drei Turbinen Damm aktiv"
+DE: "– Die IBG ist am Drei-Schluchten-Damm aktiv"
 FR: "- La GLA a infesté la zone du barrage des 3 Gorges"
 ES: "El GLA ha infestado el área de la presa de las Tres Gargantas"
 IT: "- L'ELG si è insediato nella zona della diga delle Tre Gole."
@@ -38976,9 +39002,11 @@ AR: ": ﺢﯿﻤﻠﺗ\nءادﻮﺴﻟا ﺲﺗﻮﻠﻟا ةﺎﺘﻓ مﺪﺨ
 UK: "ПІДКАЗКА:\nвикористайте Чорного Лотоса, щоб вивести з ладу ворожу техніку"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "TIPP:\nVerbessern Sie ihr Einkommen mit Cyborg-Hackern." (#2753)
+
 MAP:CHI04Hint2Text
 US: "HINT:\nUse Hackers to generate additional income"
-DE: "TIPP:\nVerbessern Sie ihr Einkommen mit Cyborg-Hackern."
+DE: "TIPP:\nVerbessern Sie Ihr Einkommen mit Cyborg-Hackern."
 FR: "ASTUCE :\nFaites appel aux Technopirates pour générer des revenus supplémentaires."
 ES: "PISTA:\nUsa los Hackers para generar ganancias adicionales."
 IT: "SUGGERIMENTO:\nUsate gli Hacker per generare degli introiti aggiuntivi."
@@ -39614,10 +39642,12 @@ AR: "نﻮﻛﺮﺤﺘﻳ ﺎﻤﻛ ﺎﮫﺑ نﻮﻈﻔﺘﺤﯿﺳ ﻢھو ة
 UK: "Створіть формування з вибраних одиниць, і вони будуть зберігати його під час руху"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Gewählte(s) Objekt(e) verteilen." (#2753)
+
 // context: Help text for the 'Scatter' command.
 GUI:ScatterDescription
 US: "Scatter selected object(s)"
-DE: "Gewählte(s) Objekt(e) verteilen."
+DE: "Ausgewählte(s) Objekt(e) verteilen."
 FR: "Disperse l'objet ou les objets sélectionné(s)."
 ES: "Dispersar objetos seleccionados."
 IT: "Disperdi le unità selezionate."
@@ -40606,9 +40636,11 @@ AR: "ﻎﻧﻮﻛ ﻎﻧﻮھ"
 UK: "Гонконг"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Turbinen Damm" (#2753)
+
 OBJECT:HubeiProvince
 US: "Three Gorges Dam"
-DE: "Turbinen Damm"
+DE: "Drei-Schluchten-Damm"
 FR: "Barrage des 3 Gorges"
 ES: "Hubei"
 IT: "Diga delle Tre Gole"
@@ -45059,10 +45091,11 @@ UK: "Один або кілька гравців були відключені �
 END
 
 // Patch104p @fix dmgreen 06/12/2024 Changes US from "It is possible that the person is attempting to reconnect so you may choose to wait until this player's timer has elapsed. When the timer counts down to 0 that person will be removed from the game and the battle will continue" (#2727)
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Es kann sein, dass die betreffende Person versucht, die Verbindung wieder herzustellen. Aus diesem Grund solltest Du warten bis der Countdown abgelaufen ist. In diesem Fall wird der Spieler automatisch entfernt und das Spiel wird fortgesetzt." (#2753)
 
 GUI:InternetDisconnectionMenuBody2
 US: "It is possible that the person is attempting to reconnect so you may choose to wait until this player's timer has elapsed. When the timer counts down to 0 that person will be automatically removed from the game and the battle will continue"
-DE: "Es kann sein, dass die betreffende Person versucht, die Verbindung wieder herzustellen. Aus diesem Grund solltest Du warten bis der Countdown abgelaufen ist. In diesem Fall wird der Spieler automatisch entfernt und das Spiel wird fortgesetzt."
+DE: "Es kann sein, dass die betreffende Person versucht die Verbindung wieder herzustellen. Aus diesem Grund solltest Du warten, bis der Countdown abgelaufen ist. In diesem Fall wird der Spieler automatisch entfernt und das Spiel wird fortgesetzt."
 FR: "Il est possible que la personne soit en train d'essayer de se reconnecter, vous pouvez donc choisir d'attendre que son compte à rebours soit terminé. Quand le compte à rebours sera terminé, cette personne sera exclue de la partie et la bataille pourra continuer."
 ES: "Es posible que algún jugador este intentando reconectar, así que puedes elegir esperar hasta que el tiempo s de este jugador concluya. Cuando el contador llegue a 0, esa persona será desconectada de la partida y la batalla continuará."
 IT: "E' possibile che il giocatore stia cercando di riconnettersi, quindi puoi attentere che abbia esaurito il tempo disponibile. Quando il timer raggiunge lo 0, il giocatore verrà automaticamente rimosso dal gioco e la partita continuerà."
@@ -56196,10 +56229,11 @@ UK: "Майстер Битви отримує підвищену скорост�
 END
 
 // Patch104p @fix xezon 10/09/2023 Add info about it killing infantry in buildings too for all latin languages. (#2343)
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Nukleargeschütze werden mit Neutronengranaten ausgestattet.\nNeutronengranaten neutralisieren Cyborgs in Fahrzeugen and Gebäuden." (#2753)
 
 CONTROLBAR:TooltipUpgradeChinaNeutronShells
 US: "Upgrades Nuke Cannon to fire Neutron Shells\nNeutron Shells will kill infantry in vehicles and buildings."
-DE: "Nukleargeschütze werden mit Neutronengranaten ausgestattet.\nNeutronengranaten neutralisieren Cyborgs in Fahrzeugen and Gebäuden."
+DE: "Nukleargeschütze werden mit Neutronengranaten ausgestattet.\nNeutronengranaten neutralisieren Cyborgs in Fahrzeugen und Gebäuden."
 FR: "Le Nuclécanon peut tirer des Obus à neutrons.\nLes Obus à neutrons tuent les unités d'infanterie dans les véhicules et les bâtiments."
 ES: "Mejora el cañón nuclear para que dispare proyectiles de neutrones.\nÉstos matan a la infantería en vehículos y edificios."
 IT: "Aggiorna il Cannone nucleare per sparare Proiettili ai neutroni.\nI Proiettili ai neutroni uccidono la fanteria nei veicoli e nelle strutture."
@@ -58613,9 +58647,11 @@ AR: "ﻖﻴﺒﻄﺘﻠﻟ ﻞﺑﺎﻗ ﺮﻴﻏ"
 UK: "Невідомо"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Sie hatten nur Glück, General. Noch mal schlagen Sie mich nicht." (#2753)
+
 GUI:BioDefeatedEntry_Pos8
 US: "TBD"
-DE: "Sie hatten nur Glück, General. Noch mal schlagen Sie mich nicht."
+DE: "Sie hatten nur Glück, General. Nochmal schlagen Sie mich nicht."
 FR: "Inconnu"
 ES: "TBD"
 IT: "TBD"
@@ -99515,9 +99551,11 @@ AR: "يوﻮﻨﻟا ﺮﯿﺠﻔﺘﻟا\n\n00 . 3 : ﻲﻟزﺎﻨﺘﻟا ﺪ
 UK: "Знищити цільову область\n\nТаймер зворотного відліку: 3:00"
 END
 
+// Patch104p @fix dmgreen 24/03/2025 Changes DE from "Drücke F, um den Schnellen Vorlauf einzuschalten." (#2753)
+
 GUI:FastForwardInstructions
 US: "Press F to toggle Fast Forward"
-DE: "Drücke F, um den Schnellen Vorlauf einzuschalten."
+DE: "Drücke F, um den schnellen Vorlauf einzuschalten."
 FR: "Appuyez sur F pour passer en Avance rapide."
 ES: "Pulsa F para activar el Avance Rápido."
 IT: "Premi F per attivare/disattivare l'avanti veloce."

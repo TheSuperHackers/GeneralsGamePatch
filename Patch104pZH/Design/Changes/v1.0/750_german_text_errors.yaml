@@ -5,14 +5,18 @@ title: Fixes some errors in German language strings
 
 changes:
   - fix: Fixes some errors in German language strings.
-
+  - fix: Fixes and improves German language strings.
+  
 labels:
   - minor
   - text
   - v1.0
-
+  
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/750
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2753
 
 authors:
   - xezon
+  - dmgreen
+  
