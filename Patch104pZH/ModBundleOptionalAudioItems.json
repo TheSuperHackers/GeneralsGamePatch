@@ -291,6 +291,33 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "OptionalAudioSwedish",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesOptional",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/Audio/Sounds/English/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/CommonVoice/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Sounds/Restoration/EnglishVoice/*.wav",
+                                "target": "Data/Audio/Sounds/English/*.wav"
+                            },
+                            {
+                                "source": "Data/Audio/Speech/Restoration/EnglishEva/*.wav",
+                                "target": "Data/Audio/Speech/English/*.wav"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

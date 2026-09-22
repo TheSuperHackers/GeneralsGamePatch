@@ -244,6 +244,30 @@
                         }
                     }
                 ]
+            },
+            {
+                "name": "OptionalLangSwedish",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceTargetList": [
+                            {
+                                "source": "Data/generals.str",
+                                "target": "Data/Swedish/generals.csf"
+                            }
+                        ],
+                        "params": {
+                            "language": "Swedish",
+                            "excludeMarkersList": [
+                                [
+                                    "//patch104p-core-begin",
+                                    "//patch104p-core-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
             }
         ]
     }
