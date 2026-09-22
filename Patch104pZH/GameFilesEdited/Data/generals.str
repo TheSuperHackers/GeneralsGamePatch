@@ -41344,19 +41344,22 @@ AR: "ﻚﺗاﺮﯿﯿﻐﺗ ﻆﻔﺣ نوﺪﺑ ﺔﻣﺪﻘﺘﻤﻟا ضﺮ�
 UK: "Вийдіть із меню додаткових параметрів дисплею, не вносячи змін"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "ADVANCED DISPLAY OPTIONS" (#2700)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2700)
+
 // context: Title located on Advanced Display Options Menu
 GUI:AdvanceDisplayOptions
-US: "ADVANCED DISPLAY OPTIONS"
-DE: "Erweiterte Anzeigeoptionen"
-FR: "OPTIONS D'AFFICHAGE AVANCEES"
-ES: "OPCIONES DE VÍDEO AVANZADAS"
-IT: "OPZIONI GRAFICHE AVANZATE"
-KO: "화면 고급 설정"
-ZH: "進階顯示選項"
-BP: "OPÇÕES DE VÍDEO AVANÇADAS"
-PL: "Zaawansowane opcje wyświetlania"
+US: "ADVANCED GRAPHICS SETTINGS"
+DE: "Erweiterte Grafikeinstellungen"
+FR: "PARAMÈTRES GRAPHIQUES AVANCÉS"
+ES: "CONFIGURACIÓN GRÁFICA AVANZADA"
+IT: "IMPOSTAZIONI GRAFICHE AVANZATE"
+KO: "고급 그래픽 설정"
+ZH: "進階圖形設定"
+BP: "CONFIGURAÇÕES GRÁFICAS AVANÇADAS"
+PL: "Zaawansowane Ustawienia Grafiki"
 RU: "РАСШИРЕННЫЕ НАСТРОЙКИ ГРАФИКИ"
-AR: "ﺔﻣﺪﻘﺘﻤﻟا ضﺮﻌﻟا تاداﺪﻋإ"
+AR: "ADVANCED GRAPHICS SETTINGS"
 UK: "РОЗШИРЕНІ НАЛАШТУВАННЯ ГРАФІКИ"
 END
 
