@@ -50692,19 +50692,22 @@ AR: "HINT:\nSatellite Hack 1 reveals all enemy Command Centers"
 UK: "ПІДКАЗКА:\nЗлам супутника 1 розкриває всі ворожі командні центри"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Satellite Hack 2 reveals all that enemy units can see" (#2711)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2711)
+
 HELP:SatelliteHack2-01
-US: "HINT:\nSatellite Hack 2 reveals all that enemy units can see"
-DE: "TIPP:\nMit dem Satellitenzugriff II sehen Sie alle Gebiete, die auch Ihr Gegner sieht."
-FR: "ASTUCE :\nL'amélioration Piratage satellite 2\nrévèle tout ce que les unités ennemies peuvent voir."
-ES: "PISTA:\nPirateo de satélite 2 revela cuánto pueden ver las unidades enemigas."
-IT: "SUGGERIMENTO:\nViolazione satellite II rivela tutto ciò che le unità nemiche possono vedere."
-KO: "힌트:\n위성 해킹 2는 지도 상의 적 유닛 전체를 표시해줍니다."
-ZH: "建議：\n衛星侵入2可以顯示所有可見的敵人單位位置。"
-BP: "DICA:\nO Satélite Espião 2 mostra todas as unidades inimigas que podem ser vistas."
-PL: "RADA:\nŁącze hakerskie II odsłania wszystko, co widzą nieprzyjacielskie jednostki."
-RU: "ПОДСКАЗКА:\nКража данных со спутника 2 периодически показывает все, что видят вражеские войска"
-AR: "HINT:\nSatellite Hack 2 reveals all that enemy units can see"
-UK: "ПІДКАЗКА:\nЗлам супутника 2 періодично показує все, що бачать ворожі війська"
+US: "HINT:\nSatellite Hack 2 intermittently reveals all that enemy units can see"
+DE: "TIPP:\nSatellite Hack 2 enthüllt zeitweise alles, was feindliche Einheiten sehen können."
+FR: "ASTUCE :\nSatellite Hack 2 révèle par intermittence tout ce que les unités ennemies peuvent voir."
+ES: "PISTA:\nSatellite Hack 2 revela de forma intermitente todo lo que las unidades enemigas pueden ver."
+IT: "SUGGERIMENTO:\nSatellite Hack 2 rivela a intermittenza tutto ciò che le unità nemiche possono vedere."
+KO: "힌트:\nSatellite Hack 2는 적군이 볼 수 있는 모든 것을 간헐적으로 공개합니다."
+ZH: "建議：\nSatellite Hack 2 會間歇性地顯示敵方單位所能看到的一切。"
+BP: "DICA:\nO Satellite Hack 2 revela intermitentemente tudo o que as unidades inimigas podem ver."
+PL: "RADA:\nŁącze hakerskie 2 okresowo ujawnia wszystko, co widzą wrogie jednostki."
+RU: "ПОДСКАЗКА:\nВзлом Спутника 2 периодически показывает все, что видят вражеские войска"
+AR: "HINT:\nSatellite Hack 2 intermittently reveals all that enemy units can see"
+UK: "ПІДКАЗКА:\nЗлам Спутника 2 періодично показує все, що бачать ворожі війська"
 END
 
 HELP:EMPMines-01
