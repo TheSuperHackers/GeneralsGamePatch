@@ -1,0 +1,2 @@
+Summer night models are using cbnaptcom_wall2_d
+Summer day models are using cbnaptcom_wall2 _d (with a space) instead of cbnaptcom_wall2_d (without a space)

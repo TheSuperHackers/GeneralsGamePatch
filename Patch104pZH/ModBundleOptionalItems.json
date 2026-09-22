@@ -606,6 +606,26 @@
                                 "target": "Art/Textures/cbmogdis06_ventesn.dds"
                             },
                             {
+                                "source": "Art/Textures/GenerateMip/cbnaptcom_ceiling_n.psd",
+                                "target": "Art/Textures/cbnaptcom_ceiling_sn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/GenerateMip/cbnaptcom_ceiling_dn.psd",
+                                "target": "Art/Textures/cbnaptcom_ceiling_dsn.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbnaptcom_ceiling_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbnaptcom_wall_en.dds"
+                            },
+                            {
+                                "source": "Art/Textures/Template/black16px.tga",
+                                "target": "Art/Textures/cbnaptcom_wall2_en.dds"
+                            },
+                            {
                                 "source": "Art/Textures/GenerateMip/cbwrfwhrs2_s.psd",
                                 "target": "Art/Textures/cbwrfwhrs2_sg.dds"
                             },
