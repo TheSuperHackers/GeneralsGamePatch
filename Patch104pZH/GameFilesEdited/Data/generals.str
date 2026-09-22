@@ -88,6 +88,7 @@
 // Patch104p @tweak xezon 09/09/2023 Uses more normal structured sentences in Italian mission subtitles. (#2338)
 // Patch104p @fix xezon 10/09/2023 Adds missing words and sentences to Spanish mission subtitles. (#2339)
 // Patch104p @tweak xezon 10/09/2023 Uses more normal structured sentences in Spanish mission subtitles. (#2339)
+// Patch104p @fix dmgreen 27/03/2025 Changes to all Nuclear tanks upgrade strings for US, DE, FR, ES, IT, KO, ZH, BP, PL (#2677)
 
 
 // context: Button to go to the game options screen
@@ -29546,18 +29547,18 @@ END
 
 // context: Appears when you mouse over the Nuclear Tanks Upgrade on the Chinese Nuclear Missile Silo
 CONTROLBAR:TooltipUpgradeChinaNuclearTanks
-US: "Improves Overlord and Battlemaster speed"
-DE: "Overlord- und Battlemaster-Panzer werden schneller."
-FR: "Empereurs et Maîtres de guerre plus rapides."
-ES: "Mejora la velocidad a Overlord y Battlemaster"
-IT: "Velocità di Overlord e Battlemaster migliorata."
-KO: "배틀마스터와 오버로드의 속도가 증가합니다."
-ZH: "改進炎黃坦克和戰神坦克的速度。"
-BP: "Aumenta a velocidade do Battlemaster e do Overlord."
-PL: "Poprawia prędkość Imperatorów i Pancernych Pięści."
-RU: "+25% к скорости передвижения Владык и Мастеров боя"
-AR: "ﺔﻋﺮﺳ ﻦﯿﺴﺤﺗ ﻢﺘﻳ\nBattlemaster ﺔﺑﺎﺑد\nOverlord ﺔﺑﺎﺑدو"
-UK: "+25% до швидкості пересування Повелителя та Майстра бою"
+US: "Increases the speed of Battlemaster and Overlord by 25%"
+DE: "Verbessert die Geschwindigkeit von Battlemaster-Panzer und Overlord um 25%."
+FR: "Augmente la vitesse de Battlemaster et du Overlord de 25 %."
+ES: "Aumenta la velocidad del Battlemaster y Overlord en un 25%."
+IT: "Aumenta la velocità Maestro di Battaglia e del Overlord del 25%."
+KO: "배틀마스터와 오버로드의 속도가 25% 증가합니다."
+ZH: "戰鬥大師和霸主的速度提高 25%。"
+BP: "Aumenta a velocidade do Battlemaster e Overlord em 25%."
+PL: "Zwiększa prędkość Pancernej Pięści i Cesarza o 25%."
+RU: "+25% к скорости передвижения Мастера боя и Владыки"
+AR: "Increases the speed of Battlemaster and Overlord by 25%"
+UK: "+25% до швидкості пересування Майстра бою та Повелителя"
 END
 
 // context: Appears when you mouse over the Stun Bullets Upgrade on the Chinese Propaganda Center
@@ -56228,18 +56229,18 @@ UK: "Спрацьовування міни ініціює нейтронний �
 END
 
 CONTROLBAR:TooltipUpgradeChinaFusionReactors
-US: "Improves Emperor and Battlemaster speed"
-DE: "Emperor Overlord- und Battlemaster-Panzer werden schneller."
-FR: "Accroît la vitesse des Chars Despote, Empereurs et Maîtres de guerre."
-ES: "Mejora la velocidad a Emperor, Overlord y Battlemaster."
-IT: "Velocità di Battlemaster, Overlord ed Emperor migliorata."
-KO: "엠퍼러와 배틀마스터의 속도가 증가합니다."
-ZH: "改進帝王坦克和戰神坦克的速度。"
-BP: "Aumenta a velocidade do Emperor e do Battlemaster."
-PL: "Poprawia prędkość Pancernych Pięści i Cesarzy."
-RU: "+25% к скорости передвижения Императора и Мастера боя"
-AR: "ﺔﻛﺮﻌﻤﻟا ﺪﯿﺳو ﺔﻳرﻮﻃاﺮﺒﻣﻹا ﺔﺑﺎﺑﺪﻟا ﺔﻋﺮﺳ ﻦﯿﺴﺤﺗ"
-UK: "+25% до швидкості пересування Імператора та Майстра бою"
+US: "Increases the speed of Battlemaster and Emperor Overlord by 25%"
+DE: "Verbessert die Geschwindigkeit von Battlemaster-Panzer und Emperor Overlord um 25%."
+FR: "Augmente la vitesse de Battlemaster et du l'Empereur Overlord de 25 %."
+ES: "Aumenta la velocidad del Maestro de batalla y del Emperador Overlord en un 25 %."
+IT: "Aumenta la velocità Maestro di Battaglia e del dell'Imperatore Signore Supremo del 25%."
+KO: "배틀마스터와 엠퍼러 오버로드의 속도가 25% 증가합니다."
+ZH: "戰鬥大師和皇帝霸主的速度提高 25%。"
+BP: "Aumenta a velocidade do Battlemaster e Emperor Overlord em 25%."
+PL: "Zwiększa prędkość Pancernej Pięści i Cesarza o 25%."
+RU: "+25% к скорости передвижения Мастера боя и Императора"
+AR: "Increases the speed of Battlemaster and Emperor Overlord by 25%"
+UK: "+25% до швидкості пересування Майстра бою та Імператора"
 END
 
 CONTROLBAR:TooltipDetonateFakebuilding
@@ -97977,19 +97978,19 @@ UK: "Підірвати"
 END
 
 // unused
-CONTROLBAR:Tank_TooltipUpgradeChinaNuclearTanks
-US: "+25% Emperor and Battlemaster speed"
-DE: "Battlemaster und Overlords sind 25% schneller."
-FR: "Accroît de 25 % la vitesse des Chars Despote et Empereurs."
-ES: "+25% velocidad a Emperor y Battlemaster."
-IT: "+25% alla velocità di Emperor e Battlemaster."
-KO: "엠퍼러와 배틀마스터 탱크의 속도 25% 증가."
-ZH: "帝王坦克和戰神坦克速度增加25％ 。"
-BP: "Mais 25% na velocidade do Emperor e Batllemaster."
-PL: "Pancerna Pięść i Cesarz są o 25% szybsze."
-RU: "+25% к скорости передвижения Императора и Мастера боя"
-AR: "ﺔﻛﺮﻌﻤﻟا ﺪﯿﺳو ﺔﻳرﻮﻃاﺮﺒﻣﻹا ﺔﺑﺎﺑﺪﻠﻟ ﺔﯿﻓﺎﺿإ ﺔﻋﺮﺳ +٢٥٪"
-UK: "+25% до швидкості пересування Імператора та Майстра бою"
+CONTROLBAR:TooltipUpgradeChinaFusionReactors
+US: "Increases the speed of Battlemaster and Emperor Overlord by 25%"
+DE: "Verbessert die Geschwindigkeit von Battlemaster-Panzer und Emperor Overlord um 25%."
+FR: "Augmente la vitesse de Battlemaster et du l'Empereur Overlord de 25 %."
+ES: "Aumenta la velocidad del Maestro de batalla y del Emperador Overlord en un 25 %."
+IT: "Aumenta la velocità Maestro di Battaglia e del dell'Imperatore Signore Supremo del 25%."
+KO: "배틀마스터와 엠퍼러 오버로드의 속도가 25% 증가합니다."
+ZH: "戰鬥大師和皇帝霸主的速度提高 25%。"
+BP: "Aumenta a velocidade do Battlemaster e Emperor Overlord em 25%."
+PL: "Zwiększa prędkość Pancernej Pięści i Cesarza o 25%."
+RU: "+25% к скорости передвижения Мастера боя и Императора"
+AR: "Increases the speed of Battlemaster and Emperor Overlord by 25%"
+UK: "+25% до швидкості пересування Майстра бою та Імператора"
 END
 
 // Patch104p @fix xezon 10/09/2023 Fixes wrong or inconsistent power supply strings of KO, PL. (#2344)
