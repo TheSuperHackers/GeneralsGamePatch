@@ -88,6 +88,7 @@
 // Patch104p @tweak xezon 09/09/2023 Uses more normal structured sentences in Italian mission subtitles. (#2338)
 // Patch104p @fix xezon 10/09/2023 Adds missing words and sentences to Spanish mission subtitles. (#2339)
 // Patch104p @tweak xezon 10/09/2023 Uses more normal structured sentences in Spanish mission subtitles. (#2339)
+// Patch104p @fix dmgreen 13/03/2025 Changes existing US, DE, FR, KO, PL strings that contain 1000 and 10000 to be consistent across the text (#2660)
 
 
 // context: Button to go to the game options screen
@@ -5621,12 +5622,12 @@ END
 
 // context: Tooltip displayed when the user mouses over the Streak 3 battle honor icon
 TOOLTIP:BattleHonorStreak3
-US: "Streak Honor\nPlayer has won 3 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 3 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 3 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 3 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 3 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 3 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 3 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 3 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장(3)\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 3 연승을 달성했습니다.\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장(3)\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 3 연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（3）\n玩家連續贏得3場遭遇戰遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 3 partidas de combate seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w trzech kolejnych potyczkach.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -5637,12 +5638,12 @@ END
 
 // context: Tooltip displayed when the user mouses over the Streak 10 battle honor icon
 TOOLTIP:BattleHonorStreak10
-US: "Streak Honor\nPlayer has won 10 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 10 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 10 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 10 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 10 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 10 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 10 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 10 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장(10)\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 10 연승을 달성했습니다.\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장(10)\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 10 연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（10）\n玩家連續贏得10場遭遇戰遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 10 partidas de combate seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w dziesięciu kolejnych potyczkach.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -40140,14 +40141,16 @@ AR: "GLA buildings have deep underground areas that allow their workers to remai
 UK: "Будівлі ГВА мають глибокі підземні ходи, що дозволяє їхнім робітникам залишатися захищеними. Після знищення будівлі ГВА позаду залишиться діра. Робітники, сховані в цій дірі, з часом відновлять конструкцію. Атакуйте отвір, щоб усунути загрозу ГВА"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes KO from "연승 훈장(25)\n해당 플레이어는 25 연승을 기록했습니다" (#2660)
+
 // context: Tooltip displayed when the user mouses over the Streak 25 battle honor icon
 TOOLTIP:BattleHonorStreak25
-US: "Streak Honor\nPlayer has won 25 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 25 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 25 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 25 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 25 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 25 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 25 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 25 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장(25)\n해당 플레이어는 25 연승을 기록했습니다."
+KO: "연승 훈장(25)\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 25 연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（25）\n玩家連續贏得25場遭遇戰遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 25 partidas de Combate seguidas.\nReceba uma medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w 25 kolejnych potyczkach.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -45944,12 +45947,12 @@ UK: "Поставте прапорець, щоб обмежити Гармати
 END
 
 TOOLTIP:BattleHonorStreak100
-US: "Streak Honor\nPlayer has won 100 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 100 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 100 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 100 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 100 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 100 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 100 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 100 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 100연승을 달성했습니다.\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 100연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（100）\n玩家連續贏得100場遭遇戰遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 100 partidas de combate seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w 100 kolejnych potyczkach.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -45959,12 +45962,12 @@ UK: "Відзнака серії\nГравець виграв 100 сутичок
 END
 
 TOOLTIP:BattleHonorStreak500
-US: "Streak Honor\nPlayer has won 500 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 500 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 500 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 500 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 500 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 500 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 500 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 500 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 500 연승을 달성했습니다.\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 500 연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（500）\n玩家連續贏得500場遭遇戰遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 500 partidas de combate seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w 500 kolejnych potyczkach.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -45973,28 +45976,30 @@ AR: "Streak Honor\nPlayer has won 500 Skirmish games in a row\nEarn a new medal 
 UK: "Відзнака серії\nГравець виграв 500 сутичок поспіль\nОтримайте нову відзнаку за 3, 10, 25, 100, 500 і 1 000 перемог поспіль"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes PL from "25" to "1000" (#2660)
+
 TOOLTIP:BattleHonorStreak1000
-US: "Streak Honor\nPlayer has won 1000 Skirmish games in a row"
-DE: "Siegesmedaille\nDer Spieler hat 1000 Gefechte in Folge gewonnen."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 1000 parties Escarmouche d'affilée."
+US: "Streak Honor\nPlayer has won 1,000 Skirmish games in a row"
+DE: "Siegesmedaille\nDer Spieler hat 1.000 Gefechte in Folge gewonnen."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 1 000 parties Escarmouche d'affilée."
 ES: "Medalla (racha)\nEl jugador ha ganado 1.000 escaramuzas seguidas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 1.000 partite Schermaglia consecutive."
-KO: "연승 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 1000 연승을 달성했습니다."
+KO: "연승 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 1000연승을 달성했습니다."
 ZH: "連勝勳章（1000）\n玩家連續贏得1000場遭遇戰遊戲。"
 BP: "Medalha de Série\nO jogador venceu 1.000 partidas de combate seguidas."
-PL: "Medal za dobrą passę\nGracz zwyciężył w 25 kolejnych potyczkach."
+PL: "Medal za dobrą passę\nGracz zwyciężył w 1000 kolejnych potyczkach."
 RU: "Медаль за Стойкость\nИгрок победил в 1 000 Сражениях подряд"
 AR: "Streak Honor\nPlayer has won 1000 Skirmish games in a row"
 UK: "Відзнака серії\nГравець виграв 1 000 сутичок поспіль"
 END
 
 TOOLTIP:BattleHonorStreak3Online
-US: "Streak Honor\nPlayer has won 3 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 3 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 3 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 3 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 3 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 3 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 3 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 3 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 3연승을 달성했습니다.\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 3연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（3）\n玩家連續贏得3場遭線上遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 3 partidas on-line seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w 3 kolejnych grach sieciowych.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -46004,12 +46009,12 @@ UK: "Відзнака серії\nГравець виграв 3 онлайн-г�
 END
 
 TOOLTIP:BattleHonorStreak10Online
-US: "Streak Honor\nPlayer has won 10 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 10 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 10 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 10 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 10 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 10 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 10 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 10 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 10연승을 달성했습니다.\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 10연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（10）\n玩家連續贏得10場線上遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 10 partidas on-line seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w 10 kolejnych grach sieciowych.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -46019,12 +46024,12 @@ UK: "Відзнака серії\nГравець виграв 10 онлайн-і
 END
 
 TOOLTIP:BattleHonorStreak25Online
-US: "Streak Honor\nPlayer has won 25 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 25 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 25 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 25 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 25 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 25 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 25 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 25 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 25연승을 달성했습니다.\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 25연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（25）\n玩家連續贏得25場線上遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 25 partidas on-line seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w 25 kolejnych grach sieciowych.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -46034,12 +46039,12 @@ UK: "Відзнака серії\nГравець виграв 25 онлайн-і
 END
 
 TOOLTIP:BattleHonorStreak100Online
-US: "Streak Honor\nPlayer has won 100 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 100 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 100 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 100 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 100 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 100 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 100 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 100 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 100연승을 달성했습니다.\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 100연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（100）\n玩家連續贏得100場線上遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 100 partidas on-line seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w 100 kolejnych grach sieciowych.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -46049,12 +46054,12 @@ UK: "Відзнака серії\nГравець виграв 100 онлайн-�
 END
 
 TOOLTIP:BattleHonorStreak500Online
-US: "Streak Honor\nPlayer has won 500 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 500 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 500 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nPlayer has won 500 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 500 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 500 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 500 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 500 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 500연승을 달성했습니다.\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 500연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章（500）\n玩家連續贏得500場遭線上遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nO jogador venceu 500 partidas on-line seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nGracz zwyciężył w 500 kolejnych grach sieciowych.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -46064,9 +46069,9 @@ UK: "Відзнака серії\nГравець виграв 500 онлайн-�
 END
 
 TOOLTIP:BattleHonorStreak1000Online
-US: "Streak Honor\nPlayer has won 1000 Online games in a row"
-DE: "Siegesmedaille\nDer Spieler hat 1000 Online-Spiele in Folge gewonnen."
-FR: "Distinction d'enchaînement\nLe joueur a remporté 1000 parties en ligne d'affilée."
+US: "Streak Honor\nPlayer has won 1,000 Online games in a row"
+DE: "Siegesmedaille\nDer Spieler hat 1.000 Online-Spiele in Folge gewonnen."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 1 000 parties en ligne d'affilée."
 ES: "Medalla (racha)\nEl jugador ha ganado 1.000 partidas online seguidas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 1.000 partite online consecutive."
 KO: "연승 훈장\n해당 플레이어는 온라인 게임에서 1000연승을 달성했습니다."
@@ -46079,9 +46084,9 @@ UK: "Відзнака серії\nГравець виграв 1 000 онлайн
 END
 
 TOOLTIP:BattleHonorDomination100
-US: "Domination Honor\nPlayer has won over 100 Skirmish games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 100 Gefechte gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
-FR: "Distinction de domination\nLe joueur a remporté plus de 100 parties Escarmouche.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
+US: "Domination Honor\nPlayer has won over 100 Skirmish games\nEarn a new medal for 100, 500, 1,000 and 10,000 lifetime wins"
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 100 Gefechte gewonnen. Nach 100, 500, 1.000 und 10.000 Siegen bekommst du eine Medaille."
+FR: "Distinction de domination\nLe joueur a remporté plus de 100 parties Escarmouche.\nGagnez une nouvelle récompense pour 100, 500, 1 000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 100 escaramuzas\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 100 partite Schermaglia.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
 KO: "우수 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 100승을 달성했습니다. 통산 100, 500, 1000, 10000승에 대해 훈장을 받게 됩니다."
@@ -46094,9 +46099,9 @@ UK: "Відзнака панування\nГравець виграв понад
 END
 
 TOOLTIP:BattleHonorDomination500
-US: "Domination Honor\nPlayer has won over 500 Skirmish games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 500 Gefechte gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
-FR: "Distinction de domination\nLe joueur a remporté plus de 500 parties Escarmouche.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
+US: "Domination Honor\nPlayer has won over 500 Skirmish games\nEarn a new medal for 100, 500, 1,000 and 10,000 lifetime wins"
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 500 Gefechte gewonnen. Nach 100, 500, 1.000 und 10.000 Siegen bekommst du eine Medaille."
+FR: "Distinction de domination\nLe joueur a remporté plus de 500 parties Escarmouche.\nGagnez une nouvelle récompense pour 100, 500, 1 000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 500 escaramuzas\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 500 partite Schermaglia.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
 KO: "우수 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 500승을 달성했습니다. 통산 100, 500, 1000, 10000승에 대해 훈장을 받게 됩니다."
@@ -46109,9 +46114,9 @@ UK: "Відзнака панування\nГравець виграв понад
 END
 
 TOOLTIP:BattleHonorDomination1000
-US: "Domination Honor\nPlayer has won over 1,000 Skirmish games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 1000 Gefechte gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
-FR: "Distinction de domination\nLe joueur a remporté plus de 1000 parties Escarmouche.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
+US: "Domination Honor\nPlayer has won over 1,000 Skirmish games\nEarn a new medal for 100, 500, 1,000 and 10,000 lifetime wins"
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 1.000 Gefechte gewonnen. Nach 100, 500, 1.000 und 10.000 Siegen bekommst du eine Medaille."
+FR: "Distinction de domination\nLe joueur a remporté plus de 1000 parties Escarmouche.\nGagnez une nouvelle récompense pour 100, 500, 1 000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 1.000 escaramuzas\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 1.000 partite Schermaglia.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
 KO: "우수 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 1000승을 달성했습니다. 통산 100, 500, 1000, 10000승에 대해 훈장을 받게 됩니다."
@@ -46123,25 +46128,27 @@ AR: "Domination Honor\nPlayer has won over 1,000 Skirmish games\nEarn a new meda
 UK: "Відзнака панування\nГравець виграв понад 1 000 сутичок\nОтримайте нову відзнаку за 100, 500, 1 000 і 10 000 перемог за все життя"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes KO from "1000" to "10000" (#2660)
+
 TOOLTIP:BattleHonorDomination10000
 US: "Domination Honor\nPlayer has won over 10,000 Skirmish games"
 DE: "Vorherrschaftsmedaille\nDer Spieler hat über 10.000 Gefechte gewonnen."
 FR: "Distinction de domination\nLe joueur a remporté plus de 10 000 parties Escarmouche."
 ES: "Medalla (dominación)\nEl jugador ha ganado más de 10.000 escaramuzas."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 10.000 partite Schermaglia."
-KO: "우수 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 1000승을 달성했습니다."
+KO: "우수 훈장\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 10000승을 달성했습니다."
 ZH: "稱霸勳章（10000）\n玩家獲得超過10000場遭遇戰遊戲勝利。"
 BP: "Condecoração de Conquista\nO jogador venceu mais de 10.000 partidas de combate."
 PL: "Medal za dominację\nGracz wygrał ponad 10000 potyczek."
 RU: "Медаль за Превосходство\nИгрок победил в более чем 10 000 Сражений"
-AR: "Domination Honor\nPlayer has won over 10,000 Skirmish games"
+AR: "Domination Honor\nPlayer has won over 10000 Skirmish games"
 UK: "Відзнака панування\nГравець виграв понад 10 000 сутичок"
 END
 
 TOOLTIP:BattleHonorDomination100Online
-US: "Domination Honor\nPlayer has won over 100 Online games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 100 Online-Spiele gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
-FR: "Distinction de domination\nLe joueur a remporté plus de 100 parties en ligne.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
+US: "Domination Honor\nPlayer has won over 100 Online games\nEarn a new medal for 100, 500, 1,000 and 10,000 lifetime wins"
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 100 Online-Spiele gewonnen. Nach 100, 500, 1.000 und 10.000 Siegen bekommst du eine Medaille."
+FR: "Distinction de domination\nLe joueur a remporté plus de 100 parties en ligne.\nGagnez une nouvelle récompense pour 100, 500, 1 000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 100 partidas online\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 100 partite online.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
 KO: "우수 훈장\n해당 플레이어는 온라인 게임에서 100승을 달성했습니다.\n통산 100, 500, 1000, 10000승에 대해 훈장을 받게 됩니다."
@@ -46154,9 +46161,9 @@ UK: "Відзнака панування\nГравець виграв понад
 END
 
 TOOLTIP:BattleHonorDomination500Online
-US: "Domination Honor\nPlayer has won over 500 Online games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 500 Online-Spiele gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
-FR: "Distinction de domination\nLe joueur a remporté plus de 500 parties en ligne.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
+US: "Domination Honor\nPlayer has won over 500 Online games\nEarn a new medal for 100, 500, 1,000 and 10,000 lifetime wins"
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 500 Online-Spiele gewonnen. Nach 100, 500, 1.000 und 10.000 Siegen bekommst du eine Medaille."
+FR: "Distinction de domination\nLe joueur a remporté plus de 500 parties en ligne.\nGagnez une nouvelle récompense pour 100, 500, 1 000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 500 partidas online\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 500 partite online.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
 KO: "우수 훈장\n해당 플레이어는 온라인 게임에서 500승을 달성했습니다.\n통산 100, 500, 1000, 10000승에 대해 훈장을 받게 됩니다."
@@ -46169,9 +46176,9 @@ UK: "Відзнака панування\nГравець виграв понад
 END
 
 TOOLTIP:BattleHonorDomination1000Online
-US: "Domination Honor\nPlayer has won over 1,000 Online games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 1000 Online-Spiele gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
-FR: "Distinction de domination\nLe joueur a remporté plus de 1000 parties en ligne.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
+US: "Domination Honor\nPlayer has won over 1,000 Online games\nEarn a new medal for 100, 500, 1,000 and 10,000 lifetime wins"
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 1.000 Online-Spiele gewonnen. Nach 100, 500, 1.000 und 10.000 Siegen bekommst du eine Medaille."
+FR: "Distinction de domination\nLe joueur a remporté plus de 1 000 parties en ligne.\nGagnez une nouvelle récompense pour 100, 500, 1 000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 1.000 partidas online\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 1.000 partite online.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
 KO: "우수 훈장\n해당 플레이어는 온라인 게임에서 1000승을 달성했습니다.\n통산 100, 500, 1000, 10000승에 대해 훈장을 받게 됩니다."
@@ -46244,12 +46251,12 @@ UK: "Глобальний генерал\nВиграйте принаймні о
 END
 
 TOOLTIP:BattleHonorStreakDisabled
-US: "Streak Honor\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章\n每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nOdznaczenie to otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -46259,12 +46266,12 @@ UK: "Відзнака серії\nОтримайте нову відзнаку �
 END
 
 TOOLTIP:BattleHonorStreakOnlineDisabled
-US: "Streak Honor\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
-FR: "Distinction d'enchaînement\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
+US: "Streak Honor\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
 ES: "Medalla (racha)\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
-KO: "연승 훈장\n3, 10, 25, 100, 500,1000연승에 대해 훈장을 받게 됩니다."
+KO: "연승 훈장\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
 ZH: "連勝勳章\n每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
 BP: "Medalha de Série\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
 PL: "Medal za dobrą passę\nOdznaczenie to otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
@@ -46304,9 +46311,9 @@ UK: "Найвища відзнака\nЩоб заробити цю медаль,
 END
 
 TOOLTIP:BattleHonorDominationDisabled
-US: "Domination Honor\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nNach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
-FR: "Distinction de domination\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
+US: "Domination Honor\nEarn a new medal for 100, 500, 1,000 and 10,000 lifetime wins"
+DE: "Vorherrschaftsmedaille\nNach 100, 500, 1.000 und 10.000 Siegen bekommst du eine Medaille."
+FR: "Distinction de domination\nGagnez une nouvelle récompense pour 100, 500, 1 000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nSe gana medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
 KO: "우수 훈장\n통산 100, 500, 1000, 10000승에 대해 훈장을 받게 됩니다."
@@ -46319,9 +46326,9 @@ UK: "Відзнака панування\nОтримайте нову відзн
 END
 
 TOOLTIP:BattleHonorDominationOnlineDisabled
-US: "Domination Honor\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nNach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
-FR: "Distinction de domination\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
+US: "Domination Honor\nEarn a new medal for 100, 500, 1,000 and 10,000 lifetime wins"
+DE: "Vorherrschaftsmedaille\nNach 100, 500, 1.000 und 10.000 Siegen bekommst du eine Medaille."
+FR: "Distinction de domination\nGagnez une nouvelle récompense pour 100, 500, 1 000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nSe gana medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
 KO: "우수 훈장\n통산 100, 500, 1000, 10000승에 대해 훈장을 받게 됩니다."
@@ -101274,35 +101281,39 @@ AR: ""
 UK: "ЗАВАНТАЖИТИ ПОВТОР"
 END
 
+// Patch104p @fix dmgreen 13/03/2025 All lines in this string, except DE localization, were empty. This strings already exist in original file, so they were added back. (#2660)
+
 // context: Tooltip displayed when the user mouses over the Streak 5 battle honor icon
 TOOLTIP:BattleHonorStreak5
-US: ""
-DE: ""
-FR: ""
-ES: ""
-IT: ""
-KO: ""
-ZH: ""
-BP: ""
-PL: ""
+US: "Streak Honor\nPlayer has won 5 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 5 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 5 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
+ES: "Medalla (racha)\nEl jugador ha ganado 5 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
+IT: "Vittorie in serie\nIl giocatore ha vinto 5 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
+KO: "연승 훈장(5)\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 5 연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
+ZH: "連勝勳章（5）\n玩家連續贏得3場遭遇戰遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
+BP: "Medalha de Série\nO jogador venceu 5 partidas de combate seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
+PL: "Medal za dobrą passę\nGracz zwyciężył w 5 kolejnych potyczkach.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
 RU: "Медаль за стойкость\nИгрок выиграл 5 игр в режиме «Сражение» подряд\nЗаработайте новую медаль за 3, 10, 25, 100, 500 и 1 000 побед подряд"
-AR: ""
+AR: "Streak Honor\nPlayer has won 5 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
 UK: "Відзнака серії\nГравець виграв 5 сутичок поспіль\nОтримайте нову відзнаку за 3, 10, 25, 100, 500 і 1 000 перемог поспіль"
 END
 
+// Patch104p @fix dmgreen 13/03/2025 All lines in this string, except DE localization, were empty. This strings already exist in original file, so they were added back. (#2660)
+
 // context: Tooltip displayed when the user mouses over the Streak 20 battle honor icon
 TOOLTIP:BattleHonorStreak20
-US: ""
-DE: ""
-FR: ""
-ES: ""
-IT: ""
-KO: ""
-ZH: ""
-BP: ""
-PL: ""
+US: "Streak Honor\nPlayer has won 20 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 20 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 20 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
+ES: "Medalla (racha)\nEl jugador ha ganado 20 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
+IT: "Vittorie in serie\nIl giocatore ha vinto 20 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
+KO: "연승 훈장(20)\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 20 연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
+ZH: "連勝勳章（20）\n玩家連續贏得3場遭遇戰遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
+BP: "Medalha de Série\nO jogador venceu 20 partidas de combate seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
+PL: "Medal za dobrą passę\nGracz zwyciężył w 20 kolejnych potyczkach.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
 RU: "Медаль за стойкость\nИгрок выиграл 20 игр в режиме «Сражение» подряд\nЗаработайте новую медаль за 3, 10, 25, 100, 500 и 1 000 побед подряд"
-AR: ""
+AR: "Streak Honor\nPlayer has won 20 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
 UK: "Відзнака серії\nГравець виграв 20 сутичок поспіль\nОтримайте нову відзнаку за 3, 10, 25, 100, 500 і 1 000 перемог поспіль"
 END
 
@@ -101324,35 +101335,39 @@ AR: "كل عربات الصواريخ لديها ذخيرة أكثر بنسبة 
 UK: "Усі ракетні баггі мають на 25% більше боєприпасів"
 END
 
+// Patch104p @fix dmgreen 13/03/2025 All lines in this string, except DE localization, were empty. This strings already exist in original file, so they were added back. (#2660)
+
 // context: Tooltip displayed when the user mouses over the Streak 3 battle honor icon
 TOOLTIP:BattleHonorStreak3Disabled
-US: ""
-DE: "Siegesmedaille\nFür diese Auszeichnung musst du 3 Spiele in Folge gewinnen."
-FR: ""
-ES: ""
-IT: ""
-KO: ""
-ZH: ""
-BP: ""
-PL: ""
-RU: "Медаль за стойкость\nИгрок выиграл 3 игр в режиме «Сражение» подряд\nЗаработайте новую медаль за 3, 10, 25, 100, 500 и 1 000 побед подряд"
-AR: ""
+US: "Streak Honor\nPlayer has won 3 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1,000 consecutive wins"
+DE: "Siegesmedaille\nDer Spieler hat 3 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1.000 Siege in Folge bekommst du jeweils eine Medaille."
+FR: "Distinction d'enchaînement\nLe joueur a remporté 3 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1 000 victoires consécutives."
+ES: "Medalla (racha)\nEl jugador ha ganado 3 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
+IT: "Vittorie in serie\nIl giocatore ha vinto 3 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
+KO: "연승 훈장(3)\n해당 플레이어는 싱글플레이 혹은 멀티플레이에서 3 연승을 달성했습니다.\n3, 10, 25, 100, 500, 1000연승에 대해 훈장을 받게 됩니다."
+ZH: "連勝勳章（3）\n玩家連續贏得3場遭遇戰遊戲。每連續贏得3、10、25、100、500、與1000場遊戲將可以獲得額外的一個勳章。"
+BP: "Medalha de Série\nO jogador venceu 3 partidas de combate seguidas.\nReceba uma nova medalha a cada 3, 10, 25, 100, 500 e 1.000 vitórias consecutivas."
+PL: "Medal za dobrą passę\nGracz zwyciężył w trzech kolejnych potyczkach.\nMedal ten otrzymuje się za 3, 10, 25, 100, 500 i 1000 zwycięstw pod rząd."
+RU: "Медаль за стойкость\nИгрок выиграл 3 игры в режиме «Сражение» подряд\nЗаработайте новую медаль за 3, 10, 25, 100, 500 и 1 000 побед подряд"
+AR: "Streak Honor\nPlayer has won 3 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
 UK: "Відзнака серії\nГравець виграв 3 сутички поспіль\nОтримайте нову відзнаку за 3, 10, 25, 100, 500 і 1 000 перемог поспіль"
 END
 
+// Patch104p @fix dmgreen 13/03/2025 All lines in this string, except DE localization, were empty. This strings already exist in original file, so they were added back. (#2660)
+
 // context: Tooltip displayed when the user mouses over the Blitz battle honor icon
 TOOLTIP:BattleHonorBlitz10Disabled
-US: ""
-DE: "Blitzkrieg-Orden\nGewinne in 10 Minuten (oder schneller) gegen Computergegner!"
-FR: ""
-ES: ""
-IT: ""
-KO: ""
-ZH: ""
-BP: ""
-PL: ""
-RU: "Медаль за Блиц\nПобедите компьютерного(ых) оппонента(ов) за 10 минут, чтобы получить эту медаль"
-AR: ""
+US: "Blitz Honor\nBeat opponent(s) in 10 minutes or less to earn this medal"
+DE: "Blitzkrieg-Orden\nSchlage deine(n) Gegner innerhalb von 10 Minuten, um diese Medaille zu erhalten."
+FR: "Distinction éclair\nGagnez contre un ou plusieurs adversaire(s) en 10 minutes maximum pour remporter cette récompense."
+ES: "Medalla (relámpago)\nEl jugador ha ganado en menos de 10 minutos.\nGana una nueva medalla venciendo a tu(s) oponente(s) en menos de 5 minutos."
+IT: "Stella della rapidità\nOttieni una vittoria in meno di 10 minuti per ottenere questa medaglia."
+KO: "전격 훈장\n이 메달을 얻기 위해서는 10분 안에 상대방을 이겨야 합니다."
+ZH: "快攻勳章（10）\n玩家已經在10分鐘或更少的時間內擊敗對手。"
+BP: "Medalha Relâmpago\nO jogador derrotou um ou mais oponentes em 10 minutos ou menos."
+PL: "Medal za blitzkrieg\nGracz pokonał przeciwnika w czasie krótszym niż 10 minut."
+RU: "Медаль за Блиц-победу\nИгрок победил компьютерного(ых) оппонента(ов) за 10 минут или меньше"
+AR: "Blitz Honor\nBeat opponent(s) in 10 minutes or less to earn this medal"
 UK: "Медаль за Бліц\nПереможіть комп'ютерного опонента(ів) за 10 хвилин, щоб отримати цю медаль"
 END
 

@@ -1,0 +1,22 @@
+---
+date: 2025-03-27
+
+title: Changes to strings with 1000 and 10000
+
+
+changes:
+  - fix: 1000 and 10000 are consistent across the text
+  - fix: Added 4 missing strings that contain 1000 and 10000
+  
+subchanges:
+  
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2660
+
+authors:
+  - dmgreen
