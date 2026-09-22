@@ -51437,19 +51437,21 @@ UK: "ПІДКАЗКА:\nПокращені міни-пастки потужні�
 END
 
 // Patch104p @fix xezon 20/08/2023 Fix name discrepancies with CONTROLBAR:UpgradeSuicideBomb for all latin languages. (#2250)
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "The Demolitions ability enables all units to detonate" (#2712)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2712)
 
 HELP:Demolitions-01
-US: "HINT:\nThe Demolitions ability enables all units to detonate"
-DE: "TIPP:\nDer TNT-Angriff ermöglicht Ihren Einheiten, sich selbst zu sprengen."
-FR: "ASTUCE :\nL'aptitude explosifs confère à vos unités la capacité d'exploser."
-ES: "PISTA:\nLa capacidad de demoliciones permite que las unidades detonen."
-IT: "SUGGERIMENTO:\nL'abilità di Demolizione consente alle unità di esplodere."
-KO: "힌트:\n데몰리션 업그레이드는 유닛에 폭발 능력을 제공합니다."
-ZH: "建議：\n升級炸藥可讓單位擁有引爆炸藥的能力。"
-BP: "DICA:\nA atualização da Habilidade de Demolição concede\nàs unidades a habilidade de explodi-las."
-PL: "RADA:\nWyposażenie jednostki w materiały wybuchowe umożliwia jej detonację."
-RU: "ПОДСКАЗКА:\nCпособность Подрыв дает Вашим войскам возможность совершить самоподрыв\nпосле смерти или по вашей команде"
-AR: "ﺢﯿﻤﻠﺗ:\nﺮﯿﺠﻔﺘﻟا ةرﺪﻗ ةﺪﺣﻮﻟا ﻲﻄﻌﺗ ﻢﻳﺪﮫﺘﻟا ﺔﯿﻗﺮﺗ"
+US: "HINT:\nThe Demolitions ability enables all units to detonate after death or at your command"
+DE: "TIPP:\nMit der Fähigkeit „Zerstörung“ können alle Einheiten nach dem Tod oder auf Ihren Befehl hin detonieren."
+FR: "ASTUCE :\nLa capacité Démolitions permet à toutes les unités d'exploser après la mort ou à votre commande."
+ES: "PISTA:\nLa habilidad Demoliciones permite que todas las unidades detonen después de morir o cuando tú lo ordenes."
+IT: "SUGGERIMENTO:\nL'abilità Demolizioni consente a tutte le unità di esplodere dopo la morte o su tuo comando."
+KO: "힌트:\n폭파 능력을 사용하면 모든 유닛이 사망 후 또는 명령에 따라 폭발할 수 있습니다."
+ZH: "建議：\n爆破能力使所有單位在死亡後或在你的命令下引爆。"
+BP: "DICA:\nA habilidade Demolições permite que todas as unidades detonem após a morte ou sob seu comando."
+PL: "RADA:\nUmiejętność „Detonuj” umożliwia wszystkim jednostkom detonację po śmierci lub na twój rozkaz."
+RU: "ПОДСКАЗКА:\nСпособность Подрыва позволяет вашим войскам детонировать по команде"
+AR: "HINT:\nThe Demolitions ability enables all units to detonate after death or at your command"
 UK: "ПІДКАЗКА:\nЗдатність Підриву дає військам можливість здетонувати"
 END
 
