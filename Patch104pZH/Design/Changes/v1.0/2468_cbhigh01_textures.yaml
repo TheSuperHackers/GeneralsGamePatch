@@ -10,6 +10,7 @@ subchanges:
   - fix: |
       cbhigh01_r
         - Fixes texture and alpha channel damage inconsistencies with cbhigh01_e
+        - Fixes floating pixels and lines in alpha channel
   - fix: |
       cbhigh01_g
         - Fixes minor brightness discrepancy with cbhigh01
@@ -39,6 +40,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2468
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2469
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2498
 
 authors:
   - xezon
