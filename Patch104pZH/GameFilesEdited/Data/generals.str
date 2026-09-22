@@ -88,6 +88,7 @@
 // Patch104p @tweak xezon 09/09/2023 Uses more normal structured sentences in Italian mission subtitles. (#2338)
 // Patch104p @fix xezon 10/09/2023 Adds missing words and sentences to Spanish mission subtitles. (#2339)
 // Patch104p @tweak xezon 10/09/2023 Uses more normal structured sentences in Spanish mission subtitles. (#2339)
+// Patch104p @fix dmgreen 25/03/2025 Adds missing dash to all LOAD string for ES (#2758)
 
 
 // context: Button to go to the game options screen
@@ -8373,12 +8374,14 @@ AR: "ﺔﯿﻟﺎﺤﻟا ﺔﻌﻳرﺮﺴﻟا ﻞﯿﻐﺸﺘﻟا ﺢﯿﺗ�
 UK: "Поточна гаряча клавіша"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Asignar nueva tecla directa" (#2758)
+
 // context: Button to assign a new key
 GUI:AssignNewHotkey
 US: "Assign New Hotkey"
 DE: "Neue Schnelltaste zuweisen"
 FR: "Assigner nouv. raccourci"
-ES: "Asignar nueva tecla directa"
+ES: "Asignar atajo de teclado"
 IT: "Assegna un nuovo tasto"
 KO: "새로 단축키 지정하기"
 ZH: "指定新熱鍵"
@@ -10067,12 +10070,13 @@ UK: "Ваш серійний номер заборонено. Ознайомте
 END
 
 // Patch104p @fix dmgreen 04/12/2024 Changes US from "Your serial is already in use" (#2727)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Tu núm de serie ya está en uso." (#2758)
 
 WOL:ChatErrorSerialDup
 US: "Your serial number is already in use"
 DE: "Deine Seriennummer wird bereits verwendet."
 FR: "Votre numéro de série est déjà utilisé."
-ES: "Tu núm de serie ya está en uso."
+ES: "Tu número de serie ya está en uso."
 IT: "Il tuo numero di serie è in uso."
 KO: "시리얼 번호가 이미 사용 중 입니다."
 ZH: "您的序號已經在使用。"
@@ -10084,12 +10088,13 @@ UK: "Ваш серійний номер вже використовується"
 END
 
 // Patch104p @fix dmgreen 04/12/2024 Changes US from "Your serial is invalid" (#2727)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Tu núm de serie no es válido." (#2758)
 
 WOL:ChatErrorSerialUnknown
 US: "Your serial number is invalid"
 DE: "Deine Seriennummer ist ungültig."
 FR: "Votre numéro de série est invalide."
-ES: "Tu núm de serie no es válido."
+ES: "Tu número de serie no es válido."
 IT: "Il tuo numero di serie non è valido."
 KO: "시리얼 번호를 사용할 수 없습니다."
 ZH: "您的序號無效。"
@@ -10581,11 +10586,13 @@ AR: "%ls is in %s on %s"
 UK: "%ls знаходиться в %s на %s"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "%ls no está conectado." (#2758)
+
 WOL:FindOffline
 US: "%ls is not logged in"
 DE: "%ls ist nicht angemeldet."
 FR: "%ls n'est pas identifié."
-ES: "%ls no está conectado."
+ES: "%ls no está en línea."
 IT: "%ls non è collegato."
 KO: "%ls은(는) 접속 중이 아닙니다."
 ZH: "%ls 未登入。"
@@ -12818,12 +12825,14 @@ AR: "سرﺎﺤﻟا"
 UK: "Охорона"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Pone lo objetos seleccionados en modo \"área vigilada\"." (#2758)
+
 // context: Help text for the 'Guard' icon.
 GUI:GuardDescription
 US: "Set the selected object(s) into 'guard area' mode"
 DE: "Gib den gewählten Einheiten den Bewachen-Befehl."
 FR: "Pour que l'objet sélectionné passe en mode \"se protéger\"."
-ES: "Pone lo objetos seleccionados en modo \"área vigilada\"."
+ES: "Pone los objetos seleccionados en modo \"área vigilada\"."
 IT: "Imposta l'elemento/gli elementi selezionato/i nella modalità di pattugliamento."
 KO: "선택한 대상(들)을 '지역 경계' 모드로 설정합니다."
 ZH: "設定選擇的物體進入『防禦區域』模式。"
@@ -14208,12 +14217,14 @@ AR: "١ يﺰﻛﺮﻤﻟا ﻖﻳﺮﻔﻟا"
 UK: "Перейти до команди 1"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Selecciona y centra la vista sobre el equipo" (#2758)
+
 // context: Help text for 'Center Team X' command
 GUI:ViewTeam1Description
 US: "Select and center view about team 1"
 DE: "Zentriere den Kartenausschnitt auf Team 1."
 FR: "Pour sélectionner l'équipe 1 et centrer la vue sur elle."
-ES: "Selecciona y centra la vista sobre el equipo 1."
+ES: "Selecciona y centra la vista sobre equipo 1."
 IT: "Seleziona e centra la visuale sulla squadra 1."
 KO: "팀 1을 선택하고 봅니다."
 ZH: "選擇隊伍 1 並將其放至螢幕居中。"
@@ -14240,12 +14251,14 @@ AR: "٢ يﺰﻛﺮﻤﻟا ﻖﻳﺮﻔﻟا"
 UK: "Перейти до команди 2"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Selecciona y centra la vista sobre el equipo" (#2758)
+
 // context: Help text for 'Center Team X' command
 GUI:ViewTeam2Description
 US: "Select and center view about team 2"
 DE: "Zentriere den Kartenausschnitt auf Team 2."
 FR: "Pour sélectionner l'équipe 2 et centrer la vue sur elle."
-ES: "Selecciona y centra la vista sobre el equipo 2."
+ES: "Selecciona y centra la vista sobre equipo 2."
 IT: "Seleziona e centra la visuale sulla squadra 2."
 KO: "팀 2를 선택하고 봅니다."
 ZH: "選擇隊伍 2 並將其放至螢幕居中。"
@@ -14272,12 +14285,14 @@ AR: "٣ يﺰﻛﺮﻤﻟا ﻖﻳﺮﻔﻟا"
 UK: "Перейти до команди 3"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Selecciona y centra la vista sobre el equipo" (#2758)
+
 // context: Help text for 'Center Team X' command
 GUI:ViewTeam3Description
 US: "Select and center view about team 3"
 DE: "Zentriere den Kartenausschnitt auf Team 3."
 FR: "Pour sélectionner l'équipe 3 et centrer la vue sur elle."
-ES: "Selecciona y centra la vista sobre el equipo 3."
+ES: "Selecciona y centra la vista sobre equipo 3."
 IT: "Seleziona e centra la visuale sulla squadra 3."
 KO: "팀 3을 선택하고 봅니다."
 ZH: "選擇隊伍 3 並將其放至螢幕居中。"
@@ -14304,12 +14319,14 @@ AR: "٤ يﺰﻛﺮﻤﻟا ﻖﻳﺮﻔﻟا"
 UK: "Перейти до команди 4"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Selecciona y centra la vista sobre el equipo" (#2758)
+
 // context: Help text for 'Center Team X' command
 GUI:ViewTeam4Description
 US: "Select and center view about team 4"
 DE: "Zentriere den Kartenausschnitt auf Team 4."
 FR: "Pour sélectionner l'équipe 4 et centrer la vue sur elle."
-ES: "Selecciona y centra la vista sobre el equipo 4."
+ES: "Selecciona y centra la vista sobre equipo 4."
 IT: "Seleziona e centra la visuale sulla squadra 4."
 KO: "팀 4를 선택하고 봅니다."
 ZH: "選擇隊伍 4 並將其放至螢幕居中。"
@@ -19387,11 +19404,13 @@ AR: "ﺔﻳرﺎﻨﻟا ﺦﻳراﻮﺼﻟا"
 UK: "Вогонь ракетами: &F"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Cabeza de Antrax: &N" (#2758)
+
 CONTROLBAR:AnthraxWarhead
 US: "Anthrax Warhead: &N"
 DE: "Chemischer-Gefechtskopf: &C"
 FR: "Ogive Anthrax: &N"
-ES: "Cabeza de Antrax: &N"
+ES: "Cabeza de Ántrax: &N"
 IT: "Testata all'antrace: &N"
 KO: "탄저병 탄두: &N"
 ZH: "炭疽菌彈頭：&N"
@@ -27376,11 +27395,13 @@ AR: "MISSION OBJECTIVE:\nCollect $40,000 in stolen supplies"
 UK: "МЕТА МІСІЇ:\nЗберіть 40 000 доларів у вигляді крадених припасів"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Primer objetivo:\nReune 20.000$ cogiendo las cajas de los convoys de la ONU." (#2758)
+
 MAP:GLA021stThirdObjective
 US: "First Goal:\nCollect $20,000 by taking the UN Convoys' crates"
 DE: "1. Ziel:\nSammeln Sie die Kisten des Konvois im Wert von $20.000 ein."
 FR: "Premier objectif  :\nRécupérer 20 000 dollars en vous emparant des caisses des N-U."
-ES: "Primer objetivo:\nReune 20.000$ cogiendo las cajas de los convoys de la ONU."
+ES: "Primer objetivo:\nReune 20.000$ cogiendo las cajas de los convoyes de la ONU."
 IT: "Primo obiettivo:\nRaccogliete $20.000 recuperando le casse dei convogli dell'ONU."
 KO: "1차 목표:\nUN 호송 크레이트에서 $20.000를 수집하십시오."
 ZH: "第一目標：\n收集聯合國護航部隊的箱子來積聚至＄20,000。"
@@ -27574,11 +27595,13 @@ AR: "WARNING:\nThe fool Americans are trying to stop us by destroying the bunker
 UK: "УВАГА:\nДурні американці намагаються зупинити нас, знищуючи бункери"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Los americanos han vuelto a tomar nuestro búnker. ¡Recupéralo ya!" (#2758)
+
 MAP:GLA06BunkerRetaken
 US: "The Americans have retaken our bunker. Take it back now"
 DE: "Die Westliche Allianz hat unseren Bunker eingenommen. Holen Sie ihn sich zurück."
 FR: "Les Américains ont pris notre Bunker. Reprenez-le maintenant !"
-ES: "Los americanos han vuelto a tomar nuestro búnker. ¡Recupéralo ya!"
+ES: "Los americanos han vuelto a tomar nuestro búnker. ¡Recupérelo ya!"
 IT: "Gli USA hanno riconquistato il nostro bunker. Riprendetelo!"
 KO: "미군이 벙커를 다시 점령했습니다. 다시 점령하십시오!"
 ZH: "美國人已經取走我們的碉堡。將他奪回來！"
@@ -27787,11 +27810,13 @@ AR: "WARNING:\nIf your forces are seen with the stolen trucks the traitors\nwill
 UK: "УВАГА:\nЯкщо ваші сили будуть помічені з викраденими вантажівками,\nто зрадники знатимуть, що вони ваші"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "AVISO:\nEsta área está fuera de los limites para los camiones robados.\nSi los traidores lo descubren, atacarán." (#2758)
+
 MAP:GLA07ConvoyHint03
 US: "WARNING:\nThis area is off limits to the stolen trucks\nIf the traitors discover them here they will be attacked"
 DE: "WARNUNG:\nDieses Gebiet ist für LKWs gesperrt.\nWenn sie die Verräter hier finden, greifen sie an!"
 FR: "ALERTE :\ncette zone est hors limite.\nSi les traîtres repèrent les camions volés à cet endroit, ils les attaqueront."
-ES: "AVISO:\nEsta área está fuera de los limites para los camiones robados.\nSi los traidores lo descubren, atacarán."
+ES: "AVISO:\nEsta área está fuera de los límites para los camiones robados.\nSi los traidores lo descubren, atacarán."
 IT: "ATTENZIONE:\nQuesta zona è off limits per i camion rubati.\nSe i traditori li scoprono qui, li attaccheranno."
 KO: "경고:\n해당 지역은 도난 차량 제한 지역입니다.\n이 지역에서 배신자에게 발각되면 공격을 당할 것입니다."
 ZH: "警告：\n這區域是偷來卡車的禁區。\n如果叛軍發現他們在這裡他們將會被攻擊。"
@@ -27817,11 +27842,13 @@ AR: "Order the trucks to detonate near the traitors' buildings\nfor maximum effe
 UK: "Накажіть підірвати вантажівки біля будівель зрадників\nдля максимальної ефективності"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "La base traidora está destruida.\nExtermina a las fuerzas que queden para completar tu victoria." (#2758)
+
 MAP:GLA07BaseKIACleanUp
 US: "The traitor base is destroyed\nWipe out their remaining forces to complete your victory"
 DE: "Der Stützpunkt ist zerstört.\nLöschen Sie jetzt alle überlebenden Verräter aus!"
 FR: "La base des traîtres est détruite !\nEliminez leurs dernières forces pour vous assurer la victoire."
-ES: "La base traidora está destruida.\nExtermina a las fuerzas que queden para completar tu victoria."
+ES: "La base traidora está destruida.\nExtermine a las fuerzas que queden para completar tu victoria."
 IT: "La base dei traditori è stata distrutta!\nAnnientate le loro forze residue per conquistare la vittoria."
 KO: "배신자의 기지가 파괴되었습니다!\n잔존 병력을 소탕하여 승리를 굳히십시오."
 ZH: "叛軍的基地被毀滅！\n徹底摧毀剩餘的叛軍以完成您的勝利。"
@@ -28074,11 +28101,13 @@ AR: "Civilian Objective Buildings can be captured by your Rangers. Holding these
 UK: "Ваші рейнджери можуть захоплювати цивільні споруди. Утримання цих будівель дасть вам переваги проти ваших ворогів. Захопіть нафтові вишки, вибравши Рейнджера, клацнувши лівою кнопкою миші кнопку Захоплення, а потім клацнувши лівою кнопкою миші на самій нафтовій вишці. Нафтові вишки забезпечують вас додатковими ресурсами, оскільки вони викачують нафту"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "bonus" to "extras" (#2758)
+
 SCRIPT:TrainingCrate
 US: "Crates contain bonus items for your soldiers that will increase their abilities. Additional ammunition, armor and other items can be found in crates. Order your soldiers or vehicles to move onto a crate to open it and collect the contents"
 DE: "Kisten enthalten verschiedene Bonusgegenstände (beispielsweise Munition oder Rüstungen), die die Fähigkeiten deiner Cyborgs verbessern. Bewege deine Cyborgs oder Fahrzeuge über eine Kiste, um diese zu öffnen."
 FR: "Les caisses contiennent des objets bonus qui augmentent les capacités de vos soldats. Vous pouvez également y trouver des munitions supplémentaires, des armures et d'autres objets. Ordonnez à vos soldats ou à vos véhicules de passer sur une caisse pour l'ouvrir et en récupérer le contenu."
-ES: "Los cajas contienen objetos bonus para los soldados que aumentarán sus capacidades: munición adicional, armas, etc.. Ordena a tus soldados o vehículos que vayan hasta una caja, la abran y cojan lo que contenga."
+ES: "Las cajas contienen objetos extras para los soldados que aumentarán sus capacidades: munición adicional, armas, etc.. Ordena a tus soldados o vehículos que vayan hasta una caja, la abran y cojan lo que contenga."
 IT: "Le casse contengono degli oggetti bonus per i tuoi soldati, che aumenteranno le loro capacità: munizioni aggiuntive, corazze e altri oggetti. Ordina ai soldati o ai veicoli di passare sopra una cassa per raccoglierne il contenuto."
 KO: "크레이트에는 병력의 능력을 향상시킬 수 있는 보너스 아이템이 들어 있습니다. 추가적인 탄약, 장갑 그리고 그밖에 다른 아이템들을 크레이트에서 찾을 수 있습니다. 병사 혹은 차량을 크레이트 위로 이동시켜서 열어보십시오."
 ZH: "箱子中有特別補助它可以增加士兵的技能。額外的彈藥、裝甲及其他。指揮士兵或載具去收集箱子裡的東西。"
@@ -29945,6 +29974,8 @@ AR: "ًارﻮﻓ ةﺪﺣﻮﻟا ﺐﻠﻃ"
 UK: "Наказати підрозділу припинити все, що він робить"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Cañón" to "cañón" (#2758)
+
 // context: Appears when you mouse over the Waypoint cameo on all units
 CONTROLBAR:ToolTipWayPoints
 US: "Click on the ground to set waypoints"
@@ -31281,6 +31312,7 @@ UK: "Може вивести з ладу ворожі будівлі за доп
 END
 
 // Patch104p @fix xezon 22/08/2023 Streamlines FR, BP with CONTROLBAR:AirF_ToolTipUSABUildChinook. (#2273)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Lleva Rangers para realizar lanzamientos de combate. Equipado con un láser de defensa de puntos." (#2758)
 
 // context: Appears when you mouse over the Chinook cameo on the US Supply Center
 CONTROLBAR:ToolTipUSABUildChinook
@@ -31419,13 +31451,14 @@ UK: "Стріляє ракетами і гарматами. Перезарядж
 END
 
 // Patch104p @fix dmgreen 04/12/2024 Changes US from "Use special laser-guided attack to rapid-fire missiles\n\nStrong vs. tanks, aircraft\nWeak vs. infantry" (#2727)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Usa un ataque guiado por láser con misiles de fuego rápido.\n\nPotente contra tanques, aviación\nDébil contra infantería" (#2758)
 
 // context: Appears when you mouse over the Missile Defender cameo on the USA Barracks
 CONTROLBAR:ToolTipUSABuildMissileDefender
 US: "Use special Laser-Guided attack to rapid-fire missiles\n\nStrong vs. tanks, aircraft\nWeak vs. infantry"
 DE: "Feuert lasergelenkte Raketen ab.\n\nStärken: Panzer und Flugzeuge\nSchwächen: Cyborgs"
 FR: "Utilise le guidage laser pour tirer des missiles en rafale.\n\nEfficace contre les chars et l'aviation.\nVulnérable face à l'infanterie."
-ES: "Usa un ataque guiado por láser con misiles de fuego rápido.\n\nPotente contra tanques, aviación\nDébil contra infantería"
+ES: "Usa un ataque guiado por láser con misiles de fuego rápido.\n\nPotente contra tanques y aviación\nDébil contra infantería"
 IT: "Lancia rapidamente speciali missili a puntamento laser.\n\nEfficace contro carri armati, aerei.\nDebole contro fanteria."
 KO: "미사일을 속사하기 위해 특수 레이저 유도 공격을 사용합니다.\n\n탱크, 항공기에 강합니다.\n보병에 약합니다."
 ZH: "使用特殊雷射導引攻擊一連串的飛彈。\n\n對坦克、飛機傷害嚴重\n對步兵傷害輕微"
@@ -32257,13 +32290,14 @@ UK: "Усі Технічки будуть створені як ветерани
 END
 
 // Patch104p @fix dmgreen 06/12/2024 Changes US from "Allows you to create a surprise ambush of Rebels anywhere\n\nRank 1: 4 Rebels\nRank 2: 8 Rebels\nRank 3: 16 Rebels\n\nDeploy from: Command Center" (#2727)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Te permite crear una emboscada sorpresa de rebeldes en cualquier parte.\n\nRango 1: 4 rebeldes\nRango 2: 8 rebeldes\nRango 3: 16 rebeldes\n\nDespliegue desde: Centro de mando" (#2758)
 
 // context: Appears when you mouse over Rebel Ambush cameo on the GLA General Points Command Bar
 CONTROLBAR:ToolTipGLAScienceRebelAmbush
 US: "Allows you to create a surprise ambush of Rebels anywhere on the map\n\nRank 1: 4 Rebels\nRank 2: 8 Rebels\nRank 3: 16 Rebels\n\nDeploy from: Command Center"
 DE: "Bereiten Sie einen Hinterhalt vor.\n\nStufe 1: 4 Cyborgs\nStufe 2: 8 Cyborgs\nStufe 3: 16 Cyborgs\n\nProduktionsstätte: Kommandozentrale"
 FR: "Tend une embuscade aux Rebelles à n'importe quel endroit.\n\nGrade 1 : 4 Rebelles\nGrade 2 : 8 Rebelles\nGrade 3 : 16 Rebelles\n\nDéployée depuis : Poste de commandement."
-ES: "Te permite crear una emboscada sorpresa de rebeldes en cualquier parte.\n\nRango 1: 4 rebeldes\nRango 2: 8 rebeldes\nRango 3: 16 rebeldes\n\nDespliegue desde: Centro de mando"
+ES: "Te permite crear una emboscada sorpresa de rebeldes en cualquier parte del mapa.\n\nRango 1: 4 rebeldes\nRango 2: 8 rebeldes\nRango 3: 16 rebeldes\n\nDespliegue desde: Centro de mando"
 IT: "Consente di tendere un'imboscata con dei ribelli, in qualsiasi luogo.\n\nGrado 1: 4 ribelli\nGrado 2: 8 ribelli\nGrado 3: 16 ribelli\n\nLanciata da: Centro comando"
 KO: "반군 기습 부대를 배치합니다.\n\n등급 1: 반군 4명\n등급 2: 반군 8명\n등급 3: 반군 16명\n\n명령 위치: 커맨드 센터"
 ZH: "允許您在任何地方創造意外埋伏的反抗軍。\n\n等級一：四個反抗軍\n等級二：八個反抗軍\n等級三：十六個反抗軍\n\n部署來源：指揮中心"
@@ -35765,12 +35799,13 @@ UK: "- Сили США нададуть підтримку з повітря"
 END
 
 // Patch104p @fix dmgreen 11/12/2024 Changes US from "- Call in Carpet Bombs and destroy the GLA" (#2727)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Solicita bombardeo a nivel y destruye el GLA" (#2758)
 
 LOAD:China05_3
 US: "- Call in Carpet Bombers to assist with destroying the GLA bases"
 DE: "– Vernichten Sie die IBG mit einem Flächenbombardement"
 FR: "- Programmer un bombardement intensif et détruire la GLA"
-ES: "Solicita bombardeo a nivel y destruye el GLA"
+ES: "- Solicita bombardeo a nivel para asistir en la destrucción de bases del GLA"
 IT: "- Richiedete un bombardamento a tappeto e distruggete l'ELG."
 KO: "- 융단 폭격을 요청하여 GLA를 섬멸하십시오."
 ZH: "- 呼叫地毯式轟炸炸彈摧毀全球解放軍"
@@ -36141,11 +36176,13 @@ AR: "- GLA defectors have joined with China"
 UK: "- Перебіжчики ГВА об'єдналися з Китаєм"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "convoys" to "convoyes" (#2758)
+
 LOAD:GLA07_2
 US: "- Assault the convoys and sever their supply lines"
 DE: "– Konvois angreifen und Nachschub unterbrechen"
 FR: "- Assaillir les convois et couper les lignes de ravitaillement"
-ES: "Asalta los convoys y corta su suministro"
+ES: "- Asalta los convoyes y corta su suministro"
 IT: "- Assalite i convogli e tagliate le loro linee di rifornimento."
 KO: "- 호위대를 공격하고 보급선을 차단하십시오."
 ZH: "- 攻擊護衛隊並切斷他們的補給線"
@@ -36232,12 +36269,14 @@ AR: "Download Progress"
 UK: "Хід завантаження"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Medalla (relámpago)\nEl jugador ha ganado en menos de 10 minutos.\nGana una nueva medalla venciendo a tu(s) oponente(s) en menos de 5 minutos." (#2758)
+
 // context: Tooltip displayed when the user mouses over the Blitz battle honor icon
 TOOLTIP:BattleHonorBlitz10
 US: "Blitz Honor\nBeat opponent(s) in 10 minutes or less to earn this medal"
 DE: "Blitzkrieg-Orden\nSchlage deine(n) Gegner innerhalb von 10 Minuten, um diese Medaille zu erhalten."
 FR: "Distinction éclair\nGagnez contre un ou plusieurs adversaire(s) en 10 minutes maximum pour remporter cette récompense."
-ES: "Medalla (relámpago)\nEl jugador ha ganado en menos de 10 minutos.\nGana una nueva medalla venciendo a tu(s) oponente(s) en menos de 5 minutos."
+ES: "Medalla (relámpago)\nDerrota oponente(s) en menos de 10 minutos para ganar esta medalla."
 IT: "Stella della rapidità\nOttieni una vittoria in meno di 10 minuti per ottenere questa medaglia."
 KO: "전격 훈장\n이 메달을 얻기 위해서는 10분 안에 상대방을 이겨야 합니다."
 ZH: "快攻勳章（10）\n玩家已經在10分鐘或更少的時間內擊敗對手。"
@@ -36704,11 +36743,13 @@ AR: "ﺀﺎﻗﺪﺻﻷﺍ ﺮﺒﻋ ﺔﺒﻌﻠﻟﺍ ﺔﻤﺋﺎﻗ ﺐﻴ�
 UK: "Сортувати список ігор за приятелями"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Add a pplayer to your list of Buddies." (#2758)
+
 TOOLTIP:AddToBuddies
 US: "Add a player to your list of Buddies"
 DE: "Spieler in Buddy-Liste aufnehmen."
 FR: "Ajoute un joueur à votre liste d'amis."
-ES: "Add a pplayer to your list of Buddies."
+ES: "Agrega un jugador a tu lista de colegas."
 IT: "Aggiungi un giocatore all'elenco dei tuoi amici."
 KO: "플레이어를 친구목록에 등록합니다."
 ZH: "增加一位玩家至您的好友名單。"
@@ -39148,12 +39189,14 @@ AR: "DirectX Error"
 UK: "Помилка DirectX"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "reune" to "cumple" (#2758)
+
 // context: Message box we put up if the user has DirectX 8.0 or other problem with the video card.
 ERROR:D3DFailureMessage
 US: "Please make sure you have DirectX 8.1 or higher installed. Also verify that your video card meets the minimum requirements"
 DE: "Vergewissere dich, dass auf deinem Computer DirectX 8.1 oder höher installiert ist. Außerdem muss deine Grafikkarte die Mindestvoraussetzungen erfüllen."
 FR: "Veuillez vous assurer que votre ordinateur possède DirectX 8.1 ou une version supérieure. Veuillez aussi vérifier que votre carte graphique possède les caractéristiques minimum requises par le jeu."
-ES: "Comprueba que tienes DirectX 8.1 o superior instalado. Y comprueba que tu tarjeta de vídeo reune los requisitos mínimos."
+ES: "Comprueba que tienes DirectX 8.1 o superior instalado. Y comprueba que tu tarjeta de vídeo cumple los requisitos mínimos."
 IT: "Verifica di aver installato DirectX 8.1 o superiore. Controlla anche che la scheda video soddisfi i requisiti minimi di sistema."
 KO: "DirectX 8.1 혹은 그 이상이 설치되었는지 확인해주시기 바랍니다. 그리고 비디오 카드의 최소 요구사양 만족 여부를 확인해 주시기 바랍니다."
 ZH: "請確定您已安裝 DirectX 8.1 或更新的版本，同時確定您的顯示卡已經到達最低配備需求。"
@@ -39660,11 +39703,13 @@ AR: "ﺔﻠﺣﺎﻘﻟا ﺔﺌﯿﺴﻟا ﻲﺿارﻷا"
 UK: "Безплідні землі"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Cañón Crater" (#2758)
+
 MAP:CraterCanyon
 US: "Crater Canyon"
 DE: "Crater Canyon"
 FR: "Cratère et canyon"
-ES: "Cañón Crater"
+ES: "Cañón Cráter"
 IT: "Canyon del cratere"
 KO: "Crater Canyon"
 ZH: "Crater Canyon"
@@ -40125,11 +40170,13 @@ AR: "Tournament Ladder 04"
 UK: "Турнірна Сходинка 04"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "estrucutra" to "estructura" (#2758)
+
 MAP:TrainingGLAHole
 US: "GLA buildings have deep underground areas that allow their workers to remain protected. After destroying a GLA building a hole will be left behind. Workers hidden in this hole will eventually rebuild the structure. Attack the hole to remove the GLA threat"
 DE: "IBG-Gebäude verfügen über unterirdische Bunker zum Schutz der Arbeitsbots. Nach der Zerstörung eines IBG-Gebäudes bleibt ein tiefes Loch zurück. Die dort versteckten Arbeitsbots bauen das Gebäude später wieder auf. Greife das Loch an, um dies zu verhindern!"
 FR: "Les bâtiments de la GLA possèdent de grandes zones souterraines qui permettent à ses travailleurs d'être protégés. Après la destruction d'un de ces bâtiments, il restera un trou. Les travailleurs cachés dans ce trou seront à même de reconstruire la structure. Attaquez le trou pour enrayer la menace de la GLA."
-ES: "Los edificios del GLA tienen profundos subterráneos que permiten a sus trabajadores permanecer protegidos. Después de destruir un edificio del GLA se quedará un hueco en la parte trasera. Los trabajadores que se ocultan en estos huecos reconstruirán la estrucutra. Ataca los huecos para acabar con la amenaza del GLA."
+ES: "Los edificios del GLA tienen profundos subterráneos que permiten a sus trabajadores permanecer protegidos. Después de destruir un edificio del GLA se quedará un hueco en la parte trasera. Los trabajadores que se ocultan en estos huecos reconstruirán la estructura. Ataca los huecos para acabar con la amenaza del GLA."
 IT: "Le strutture dell'ELG dispongono di zone sotterranee che proteggono chi si trova al loro interno. Dopo aver distrutto una struttura dell'ELG, rimarrà un buco nel terreno: è possibile che i terroristi nascosti al suo interno ricostruiscano la struttura. Attaccate anche il rifugio per eliminare la minaccia dell'ELG."
 KO: "GLA 건물에는 지하 깊은 곳에 일꾼을 보호할 수 있는 장소가 있습니다. GLA 건물을 파괴하게 되면 땅굴이 남게 되는데, 이후에 여기에 숨어있던 일꾼들이 건물을 다시 건설할 수 있게 됩니다. GLA의 위협에서 완전히 벗어나기 위해서는 땅굴을 반드시 제거하십시오."
 ZH: "全球解放軍挖通地下區域，並允許他們的工人藏於其中受到保護。在摧毀全球解放軍之後的洞常被人忽略遺忘。工人就藏於這些洞中並會重建這些建築。攻擊那些洞口以消除全球解放軍的威脅。"
@@ -40681,11 +40728,13 @@ AR: "ﻪﺒﻨﺷود"
 UK: "Душанбе"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Shymket" (#2758)
+
 OBJECT:Shymkent
 US: "Shymkent"
 DE: "Kobey Village"
 FR: "Chymkent"
-ES: "Shymket, Kazakstán"
+ES: "Shymkent, Kazakstán"
 IT: "Shymkent"
 KO: "심켄트"
 ZH: "希肯特"
@@ -50289,12 +50338,13 @@ UK: "ПІДКАЗКА:\nМікрохвильовий танк може виво�
 END
 
 // Patch104p @fix dmgreen 06/12/2024 Changes US from "HINT:\nThe Microwave Tank's microwaves injure nearby infantry" (#2727)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Las ondas del tanque de microondas hieren a la infantería cercana" (#2758)
 
 HELP:MicrowaveTank-02
 US: "HINT:\nThe Microwave Tank fries enemy infantry nearby"
 DE: "TIPP:\nDer Mikrowellenpanzer beschädigt gegnerische Cyborgs."
 FR: "ASTUCE :\nLe Char Micro-ondes blesse les unités d'infanterie situées à proximité."
-ES: "PISTA:\nLas ondas del tanque de microondas hieren a la infantería cercana."
+ES: "PISTA:\nEl tanque de microondas fríe a la infantería cercana."
 IT: "SUGGERIMENTO:\nLe microonde del carro a microonde danneggiano la fanteria."
 KO: "힌트:\n초단파 탱크는 근처의 보병에 손상을 입힐 수 있습니다."
 ZH: "建議：\n微波坦克的微波可以殺傷鄰近的步兵。"
@@ -57030,12 +57080,13 @@ UK: "Тактична ядерна зброя скидається з повіт
 END
 
 // Patch104p @fix dmgreen 06/12/2024 Changes US from "Causes your units to do more damage for a time when targeted\n\nRank 1: 10 percent for 10 seconds\nRank 2: 20 percent for 20 seconds\nRank 3: 30 percent for 30 seconds\n\nDeploy from: Command Center" (#2727)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Tus unidades hacen más daño por un tiempo cuando se las apunta.\n\nRango 1: 10 por ciento durante 10 segundos\nRango 2: 20 por ciento durante 20 segundos\nRango 3: 30 por ciento durante 30 segundos\n\nDespliegue desde: Centro de mando" (#2758)
 
 CONTROLBAR:ToolTipChinaScienceFrenzy
 US: "Temporarily increases the firepower of targeted units\n\nRank 1: +10% firepower for 10 seconds\nRank 2: +20% firepower for 20 seconds\nRank 3: +30% firepower for 30 seconds\n\nDeploy from: Command Center"
 DE: "Die gewählten Einheiten verursachen vorübergehend mehr Schaden.\n\nStufe 1: 10% für 10 Sekunden\nStufe 2: 20% für 20 Sekunden\nStufe 3: 30% für 30 Sekunden\n\nProduktionsstätte: Kommandozentrale"
 FR: "Vos unités infligent temporairement plus de dégâts.\n\nGrade 1 : 10 pour cent pendant 10 secondes\nGrade 2 : 20 pour cent pendant 20 secondes\nGrade 3 : 30 pour cent pendant 30 secondes\n\nDéployée depuis : Poste de commandement."
-ES: "Tus unidades hacen más daño por un tiempo cuando se las apunta.\n\nRango 1: 10 por ciento durante 10 segundos\nRango 2: 20 por ciento durante 20 segundos\nRango 3: 30 por ciento durante 30 segundos\n\nDespliegue desde: Centro de mando"
+ES: "Aumenta temporalmente la potencia de fuego de las unidades marcadas\n\nRango 1: +10% de potencia por 10 segundos\nRango 2: +20% de potencia por 20 segundos\nRango 3: +30% de potencia por 30 segundos\n\nDespliegue desde: Centro de mando"
 IT: "Le vostre unità provocano più danni per un certo periodo di tempo.\n\nGrado 1: 10% per 10 secondi\nGrado 2: 20% per 20 secondi\nGrado 3: 30% per 30 secondi\n\nLanciata da: Centro comando"
 KO: "선택된 아군 유닛의 공격력이 잠시동안 향상될 것입니다.\n\n등급 1: 10초 동안 10%\n등급 2: 20초 동안 20%\n등급 3: 30초 동안 30%\n\n명령 위치: 커맨드 센터"
 ZH: "讓您選擇的單位在有限時間內可造成較高的傷害。\n\n等級一：增加10%、有效時間10秒\n等級二：增加20%、有效時間20秒\n等級三：增加30%、有效時間30秒\n\n部署來源：指揮中心"
@@ -59530,11 +59581,13 @@ AR: "؟ﺎﮫﻣﺪﺨﺘﺴﺗ ﻻ ﺖﻨﻛ اذإ تﻻاﺮﻨﺠﻟا طﺎ
 UK: "Яка користь від збору очок генерала, якщо ви їх не використовуєте? Якщо ви придбали Генеральські повноваження за свої бали, праворуч на екрані з’явиться значок. Просто натисніть і спостерігайте за початком феєрверку. Чим більше очок ви витратите, тим потужніша сила"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Dragon" to "Dragón" (#2758)
+
 ACADEMY:TryGarrisoningAStructure
 US: "Soldiers can be effective in the open, but are deadlier when garrisoned inside civilian buildings. Select your soldiers and send them into an empty structure. They'll be protected by the walls - unless a Flash Bang, Toxin Tractor or Dragon Tank comes their way"
 DE: "Cyborgs sind auf offenem Feld sehr effektiv, sie können sich aber auch in Zivilgebäuden verschanzen. Wähle die gewünschten Cyborgs dazu aus und schicke sie in ein leeres Gebäude. Dort sind sie in Sicherheit, bis deine Gegner mit Blendgranaten, Säuretraktoren oder Drachenpanzern anrücken."
 FR: "Les soldats peuvent être efficaces en extérieur, mais mortels s'ils sont en garnison dans des bâtiments civils. Sélectionnez vos soldats et envoyez-les dans un bâtiment vide. Les murs les protégeront, à moins qu'une Grenade flash, un Tracteur bactériologique ou un Char Dragon ne les attaque."
-ES: "Los soldados pueden ser eficaces en campo abierto, pero guarnecidos en edificios civiles pueden resultar mortales. Selecciona tus soldados y envíalos a un edificio vacío. Estarán protegidos por los muros - a no ser que aparezca una granada cegadora, un tractor de toxinas o un tanque Dragon"
+ES: "Los soldados pueden ser eficaces en campo abierto, pero guarnecidos en edificios civiles pueden resultar mortales. Selecciona a tus soldados y envíalos a un edificio vacío. Estarán protegidos por los muros - a no ser que aparezca una granada cegadora, un tractor de toxinas o un tanque Dragón"
 IT: "I soldati sono efficaci in campo aperto, ma possono essere ancor più letali posti di presidio in un edificio civile. Seleziona le truppe e falle entrare in una struttura vuota: lì saranno protette dalle pareti, a meno che il nemico non usi una Granata flash, un Contaminatore o un Carro Dragon."
 KO: "병사들은 초기에 유용합니다. 병사들은 민간 건물에 배치될 경우 특히 강력합니다. 병사들을 선택하고 그들을 빈 건물 안으로 보내십시오. 섬광 폭음탄이나 독소 트랙터, 드래곤 탱크를 제외한 다른 공격으로부터 건물이 그들을 보호해줄 것입니다."
 ZH: "部隊在開闊地時可以發揮最大的戰鬥效能，部隊駐守於平民建築內時則是致命的，指派您的部隊進入空建築內，建築將會保護他們 - 除非敵人使用閃光彈、毒素車、或是火龍坦克進行攻擊。"
@@ -59702,12 +59755,13 @@ UK: "Загалом, отримати припаси пізніше в місі�
 END
 
 // Patch104p @fix dmgreen 06/12/2024 Changes US from "Garrisoned buildings can be tough to handle - unless you know some tricks. Upgrade your USA Rangers with Flash Bangs, build GLA Toxin Tractors or Chinese Dragon Tanks to quickly clear out these strong points. The USA also can upgrade to the Bunker Buster to even clear out Tunnel Networks!" (#2727)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "al" to "el" (#2758)
 
 ACADEMY:ClearBuildings
 US: "Garrisoned buildings can be tough to handle - unless you know some tricks. Upgrade your US Rangers with Flash Bangs, build GLA Toxin Tractors or Chinese Dragon Tanks to quickly clear out these strong points. The USA can also upgrade to the Bunker Buster to even clear out Tunnel Networks!"
 DE: "Befestigte Gebäude sind schwer zu knacken ... es sei denn, du kennst ein paar Tricks. Rüste deine Ranger mit Blendgranaten aus, baue Säuretraktoren oder säubere die Gebäude mit Drachenpanzern. Mit ihren Bunker Buster-Bomben kann die WA übrigens sogar Tunnelsysteme räumen."
 FR: "Les bâtiments de garnison peuvent parfois opposer une farouche résistance. Améliorez vos Rangers américains avec des Grenades flash, construisez des Tracteurs bactériologiques pour la GLA ou des Chars Dragon pour la Chine afin de nettoyer en moins de deux ces poches de résistance. Les USA peuvent même améliorer le Tueur de bunker pour nettoyer les Réseaux de tunnels !"
-ES: "Los edificios guarnecidos pueden ser duros de pelar - si no sabes algunos trucos. Mejora tus rangers de EE.UU. con granadas cegadoras, construye tractores de toxinas del GLA o tanques Dragon chinos para despejar esas plazas fuertes. ¡Los EE.UU. también pueden mejorar al antibúnker para despejar las redes de túneles!"
+ES: "Los edificios guarnecidos pueden ser duros de pelar - si no sabes algunos trucos. Mejora tus rangers de EE.UU. con granadas cegadoras, construye tractores de toxinas del GLA o tanques Dragón chinos para despejar esas plazas fuertes. ¡Los EE.UU. también pueden mejorar el antibúnker para despejar las redes de túneles!"
 IT: "Gli edifici presidiati non sono un bersaglio facile, a meno di non utilizzare la tattica giusta. Aggiorna i Ranger USA con le Granate flash, costruisci un Contaminatore dell'ELG o un carro Dragon cinese per togliere rapidamente di mezzo queste roccaforti. Gli USA possono potenziare i loro Distruttori di bunker, rendendoli capaci di ripulire anche le Reti di tunnel!"
 KO: "병력이 배치된 건물들은 다루기가 매우 어렵지만, 대처 방법은 있습니다. 이러한 거점들을 신속하게 제거하기 위해서는 미국 레인저의 섬광폭음탄 업그레이드를 하거나, GLA 독소 트랙터나 중국 드래곤 탱크를 만드십시오. 미국은 터널 네트워크를 소탕하기 위해 벙커 버스터 업그레이드를 할 수도 있습니다."
 ZH: "除非您知道技巧，否則被敵軍駐守的建築是很難攻下的。美國的遊騎兵升級閃光彈、建造全球解放軍的毒素車、或中國的火龍坦克，都可以快速的清除這些據點內的防禦。美國甚至可以升級碉堡殺手來清除全球解放軍的地道網路系統！"
@@ -59780,11 +59834,13 @@ AR: "ءاﺪﻋﻷا ﻲﺿارﻷ لﻮﺧﺪﻟﺎﺑ ﻚﻟ ﺢﻤﺴﺗ ت�
 UK: "Деякі підрозділи можуть викрадати інші транспортні засоби. Викрадення техніки за допомогою викрадачів або терористів може дозволити вам проникнути на територію ворога"
 END
 
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "las teclas directas" to "los atajos de teclado" (#2758)
+
 ACADEMY:UseSelectionHotkeys
 US: "General, hotkeys are a great way to enhance your control of your forces. \"E\" will select all of the same unit types on the view screen. If you tap \"E\" twice quickly it will select all the same type across the entire battlefield. \"Q\" will select all your combat units on the map. \"W\" will select all your air units on the map. Give them a try, they'll help you out"
 DE: "Schnelltasten erleichtern die Befehligung deiner Streitkräfte ungemein. Mit \"E\"' kannst du alle Einheiten eines Typs auf dem Bildschirm auswählen. Willst du alle Einheiten auf dem Schlachtfeld auswählen, drücke die Taste zweimal. Mit \"Q\" wählst du alle Einheiten auf der Karte aus. \"W\" wählt alle Lufteinheiten auf der Karte aus. Versuche es."
 FR: "Général, utilisez les raccourcis clavier pour contrôler plus efficacement vos troupes. \"E\" permet de sélectionner toutes les unités d'un certain type présentes à l'écran. Appuyez sur \"E\" deux fois de suite pour sélectionner toutes les unités d'un certain type sur le champ de bataille. \"Q\" permet de sélectionner toutes les unités de combat sur la carte. Ces raccourcis sont une aide précieuse, alors utilisez-les sans réserve."
-ES: "General, las teclas directas son un buen modo de aumentar el control de tus fuerzas. \"E\" seleccionará todas las unidades del mismo tipo de la pantalla de vista. Si pulsas \"E\" rápidamente dos veces, seleccionarás todas las del mismo tipo del campo de batalla. \"Q\" seleccionará todas tus unidades de combate en el mapa. Pruébalas: te servirán de ayuda."
+ES: "General, los atajos de teclado son un buen modo de aumentar el control de tus fuerzas. \"E\" seleccionará todas las unidades del mismo tipo de la pantalla de vista. Si pulsas \"E\" rápidamente dos veces, seleccionarás todas las del mismo tipo del campo de batalla. \"Q\" seleccionará todas tus unidades de combate en el mapa. Pruébalas: te servirán de ayuda."
 IT: "I comandi da tastiera sono un ottimo metodo per migliorare la tua capacità di controllo sulle truppe. \"E\" seleziona tutte le unità dello stesso tipo presenti sullo schermo: premendo due volte rapidamente \"E\" selezionerai tutte le unità di quel tipo presenti sul campo di battaglia. \"Q\" seleziona tutte le unità da combattimento sulla mappa. Prova a usarli, ti saranno utili."
 KO: "장군님, 단축키는 유닛 컨트롤을 향상시킬 수 있는 훌륭한 방법입니다. 'E' 키는 화면 내의 같은 종류의 유닛 모두를 선택합니다. 'E' 키를 두번 빠르게 누르면 전체 지도에 있는 같은 종류의 유닛 모두가 선택됩니다. 'Q' 키를 누르면 지도 전채의 모든 전투 유닛을 선택합니다. 'W' 키는 지도 상의 모든 공중 유닛을 선택합니다. 한번 시도해 보십시오. 많은 도움이 될 것입니다."
 ZH: "將軍，熱鍵是增加您軍隊控制力的好方法。\"E\" 鍵將選擇所有在螢幕上相同的單位。如果您按 \"E\" 鍵兩次，將會選擇戰場上所有的相同單位。\"Q\" 鍵將選擇您地圖上所有的戰鬥單位。\"W\" 鍵將選擇您地圖上所有的空中單位。去試試看，那對你會很有幫助的。"
@@ -97924,13 +97980,14 @@ END
 
 // Patch104p @fix xezon 22/08/2023 Streamlines US, DE, FR, ES, IT, KO, ZH, BP, PL, RU with CONTROLBAR:ToolTipUSABUildChinook. (#2273)
 // Patch104p @fix xezon 22/08/2023 Adds a sentence for the Point Defense Laser for US, DE, FR, ES, IT, KO, ZH, BP, PL, RU, UK. (#2273) (#2519)
+// Patch104p @fix dmgreen 25/03/2025 Changes ES from "Helicóptero de transporte y asalto. Recoge suministros. Lleva rangers para realizar lanzamientos de combate. Equipado con un láser de defensa de puntos." (#2758)
 
 // Alias CONTROLBAR:AirF_ToolTipUSABuildCombatChinook
 CONTROLBAR:AirF_ToolTipUSABUildChinook
 US: "Assault Transport helicopter. Collects supplies. Works with Rangers to perform Combat Drop attack. Equipped with a Point Defense Laser"
 DE: "Großer Transporthelikopter für Kampfeinsätze. Sammelt Rohstoffe. Setzt Ranger auf besetzten Zivilgebäuden ab. Ist mit einer Laserwaffe bestückt."
 FR: "Hélicoptère de transport d'assaut. Récupère du ravitaillement. Coopère avec les Rangers pour les parachuter. Equipé d'un laser défensif."
-ES: "Helicóptero de transporte y asalto. Recoge suministros. Lleva rangers para realizar lanzamientos de combate. Equipado con un láser de defensa de puntos."
+ES: "Helicóptero de transporte y asalto. Recoge suministros. Lleva rangers para realizar lanzamientos de combate. Equipado con láser de defensa de puntos."
 IT: "Elicottero da trasporto d'assalto. Raccoglie i rifornimenti. Utlizzato per paracadutare i ranger durante le manovre d'attacco. Dotato di un laser di difesa."
 KO: "공격용 수송 헬기입니다. 서플라이를 수집합니다. 레인저와 함께 공중 강습 작전을 펼칠 수 있습니다. 포인트 디펜스 레이저가 장착되었습니다."
 ZH: "一種攻擊型運輸直昇機。搜集補給品。可和遊騎兵一起執行戰鬥空降攻擊。配備防禦激光。"

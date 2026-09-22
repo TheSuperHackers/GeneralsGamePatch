@@ -8,6 +8,7 @@ changes:
   - fix: The TOOLTIP:NumberOfVotes string now has Spanish text.
   - fix: The Spanish tool tip for the GLA Terrorist now describes the unit as "Soldado suicida" and is therefore more consistent with the English wording.
   - fix: Some rare Spanish speech subtitles no longer print the first row in bold font.
+  - fix: Fixes and improves Spanish language strings
 
 subchanges:
   - fix: Spanish tool tip strings now consistently refer to rocket soldiers as "infantería con misiles".
@@ -28,6 +29,8 @@ links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2261
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2334
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2350
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2758
 
 authors:
   - xezon
+  - dmgreen
