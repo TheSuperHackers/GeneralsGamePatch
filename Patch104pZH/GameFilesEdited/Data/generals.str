@@ -24882,19 +24882,21 @@ AR: "ﻞﻳﻮﻄﻟا ﺝﺮﺒﻟا"
 UK: "Висока вежа"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Added " " before number 2 for US, ES, IT, KO, ZH, PL (#2678)
+
 OBJECT:Starlifter
-US: "Starlifter2"
+US: "Starlifter 2"
 DE: "Starlifter 2"
 FR: "Starlifter 2"
-ES: "Starlifter2"
-IT: "Starlifter2"
-KO: "스타리프터2"
-ZH: "星形舉重機"
+ES: "Starlifter 2"
+IT: "Starlifter 2"
+KO: "스타리프터 2"
+ZH: "星際運輸機 2"
 BP: "Starlifter 2"
-PL: "Starlifter2"
-RU: "Старлифтер 2"
-AR: "٢ ﻢﺠﻨﻟا ﻊﻓار"
-UK: "Старліфтер2"
+PL: "Starlifter 2"
+RU: "Starlifter 2"
+AR: "Starlifter 2"
+UK: "Starlifter 2"
 END
 
 OBJECT:StatueAngel
