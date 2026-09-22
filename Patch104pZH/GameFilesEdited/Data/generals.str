@@ -41392,20 +41392,23 @@ AR: "Toggle showing shadows in game. Turn off for improved performance"
 UK: "Увімкнути показ тіней у грі. Вимкніть для кращої продуктивності"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Behind Buildings" (#2701)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2701)
+
 // context: Checkbox on the Advance Display Options menu
 GUI:BehindBuilding
-US: "Behind Buildings"
-DE: "Hinter Gebäuden"
-FR: "Transparence des bâtiments"
-ES: "Tras los edificios"
-IT: "Tracce di calore"
-KO: "건물 후방 표시"
-ZH: "建築物後方顯示"
-BP: "Assinatura de Calor"
-PL: "Za budynkami"
+US: "Show Units Behind Buildings"
+DE: "Einheiten hinter Gebäuden anzeigen"
+FR: "Afficher les unités derrière les bâtiments"
+ES: "Mostrar unidades detrás de los edificios"
+IT: "Mostra unità dietro gli edifici"
+KO: "건물 뒤에 있는 유닛 표시"
+ZH: "顯示建築物後面的單位"
+BP: "Mostrar unidades atrás dos edifícios"
+PL: "Pokaż jednostki za budynkami"
 RU: "Отображать Войска за зданиями"
 AR: "تﺎﻳﺎﻨﺒﻟا ﻒﻠﺧ"
-UK: "Показувати Підрозділи за будівлями"
+UK: "Показувати одиниці за будівлями"
 END
 
 // context: Checkbox on the Advance Display Options menu
