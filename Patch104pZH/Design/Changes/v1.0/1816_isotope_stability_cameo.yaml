@@ -8,6 +8,7 @@ changes:
   - tweak: Moves the Isotope Stability upgrade icon to a different cameo position on the China Nuke Battlemaster tank.
 
 labels:
+  - balancemismatchwith104
   - bug
   - china
   - gui

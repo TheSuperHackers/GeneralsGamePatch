@@ -9,7 +9,9 @@ changes:
 labels:
   - boss
   - buff
+  - bug
   - design
+  - gamemismatchwith104
   - minor
   - v1.0
 

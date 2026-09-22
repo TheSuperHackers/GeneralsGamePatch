@@ -8,6 +8,7 @@ changes:
   - tweak: Reduces the Remote Demo Charge's maximum volume from 65 to 40, minimum volume from 40 to 20. This makes the bomb beep sound much quieter.
 
 labels:
+  - balancemismatchwith104
   - buff
   - controversial
   - design

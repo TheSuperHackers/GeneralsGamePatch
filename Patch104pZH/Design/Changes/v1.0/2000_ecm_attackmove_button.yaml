@@ -7,6 +7,7 @@ changes:
   - fix: Adds the missing Attack Move button to the China ECM Tank. It can now move to attack units on its own.
 
 labels:
+  - balancemismatchwith104
   - bug
   - china
   - gui

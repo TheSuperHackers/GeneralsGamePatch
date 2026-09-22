@@ -943,7 +943,7 @@ Contains 255 entries with
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/273](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/273)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/274](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/274)
 
-**Labels:** art, gla, minor, v1.0
+**Labels:** art, bug, gla, minor, v1.0
 
 **Authors:** commy2
 
@@ -3021,7 +3021,7 @@ Contains 255 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1716](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1716)
 
-**Labels:** bug, gla, minor, v1.0
+**Labels:** balancemismatchwith104, bug, gla, minor, v1.0
 
 **Authors:** Stubbjax
 
@@ -3070,7 +3070,7 @@ Contains 255 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1801)
 
-**Labels:** buff, controversial, design, gla, minor, usa, v1.0
+**Labels:** balancemismatchwith104, buff, controversial, design, gla, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -3086,7 +3086,7 @@ Contains 255 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1802)
 
-**Labels:** audio, china, controversial, design, gla, minor, usa, v1.0
+**Labels:** audio, balancemismatchwith104 china, controversial, design, gla, minor, usa, v1.0
 
 **Authors:** xezon
 
@@ -3382,7 +3382,7 @@ Contains 255 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2001](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2001)
 
-**Labels:** enhancement, gla, gui, minor, v1.0
+**Labels:** balancemismatchwith104, enhancement, gla, gui, minor, v1.0
 
 **Authors:** xezon
 
@@ -3737,7 +3737,7 @@ Contains 255 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2086](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2086)
 
-**Labels:** gla, minor, text, v1.0
+**Labels:** balancemismatchwith104, gla, minor, text, v1.0
 
 **Authors:** xezon
 
@@ -4252,7 +4252,7 @@ Contains 255 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2188](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2188)
 
-**Labels:** bug, gla, minor, v1.0
+**Labels:** audio, bug, gla, minor, v1.0
 
 **Authors:** commy2
 
@@ -4644,7 +4644,7 @@ Contains 255 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2258](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2258)
 
-**Labels:** gla, minor, text, v1.0
+**Labels:** balancemismatchwith104, gla, minor, text, v1.0
 
 **Authors:** xezon
 
@@ -4672,11 +4672,13 @@ Contains 255 entries with
 **Changes**
 
 - **FIX**: The GLA Cash Bounty no longer requires a GLA Command Center scaffold or structure to activate or upgrade. It works entirely passive now.
+- **TWEAK**: Increases Cash Bounty Dummy spawn interval from 250 to 1000 ms.
 
 **Links**
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2263](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2263)
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2298](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2298)
+- [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/1764)
 
 **Labels:** boss, buff, bug, controversial, design, gla, minor, v1.0
 
@@ -4710,7 +4712,7 @@ Contains 255 entries with
 
 - [https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2269](https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2269)
 
-**Labels:** gla, minor, text, v1.0
+**Labels:** balancemismatchwith104, gla, minor, text, v1.0
 
 **Authors:** xezon
 

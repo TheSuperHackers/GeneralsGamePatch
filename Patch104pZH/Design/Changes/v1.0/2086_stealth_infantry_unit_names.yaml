@@ -15,6 +15,7 @@ subchanges:
   - fix: The GLA Stealth (Campaign) Hijacker is now called "Stealth Hijacker".
 
 labels:
+  - balancemismatchwith104
   - gla
   - minor
   - text
