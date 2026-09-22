@@ -1,0 +1,20 @@
+---
+date: 2023-07-29
+
+title: Fixes MOAB B2 Bomber Countermeasures missile evasion rate
+
+changes:
+  - fix: Reduces MOAB B2 Bomber missile evasion rate after Countermeasures upgrade from 50% to 30%.
+
+labels:
+  - bug
+  - minor
+  - nerf
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2172
+
+authors:
+  - commy2
