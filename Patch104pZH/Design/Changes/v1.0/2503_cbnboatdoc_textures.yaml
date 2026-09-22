@@ -1,0 +1,47 @@
+---
+date: 2024-09-06
+
+title: Fixes and polishes cbnboatdoc textures
+
+changes:
+  - fix: Fixes and polishes Civilian cbnboatdoc textures.
+
+subchanges:
+  - fix: |
+      cbnboatdoc, cbnboatdoc_d, cbnboatdoc_s, cbnboatdoc_ds
+        - Fixes minor damage artifacts on wooden planks in alpha channel
+  - fix: |
+      cbnboatdoc_e, cbnboatdoc_r
+        - Fixes minor damage artifacts on wooden planks in alpha channel
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbnboatdoc_es, cbnboatdoc_rs
+        - Fixes minor damage inconsistencies with cbnboatdo2_ds
+        - Fixes minor damage artifacts on wooden planks in alpha channel
+        - Fixes floating pixels in alpha channel
+  - fix: |
+      cbnboatdoc_n, cbnboatdoc_dn
+        - Increases light brightness
+        - Increases light feather
+  - fix: |
+      cbnboatdoc_sn, cbnboatdoc_dsn
+        - Increases light feather
+  - fix: |
+      cbnboatdoc_en
+        - Fixes incorrect night light
+  - optimization: |
+      cbnboatdoc_esn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2503
+
+authors:
+  - xezon
