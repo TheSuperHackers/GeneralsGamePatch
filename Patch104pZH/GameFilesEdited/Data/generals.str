@@ -57406,7 +57406,7 @@ BP: "O General Malcolm \"Ás\" Granger prefere utilizar o máximo do poder aére
 PL: "Generał Malcolm \"As\" Granger zwykł stosować maksymalną dostępną ilość lotnictwa."
 RU: "Генерал Малькольм \"Воздушный ас\" Грейнджер эффективно использует доступную ему авиацию для уничтожения своих врагов"
 AR: "General Malcolm \"Ace\" Granger prefers to utilize the maximum airpower available to defeat his enemies"
-UK: "Генерал Малькольм "Ас" Грейнджер вважає за краще використовувати максимум повітряних сил що є, щоб перемогти своїх ворогів"
+UK: "Генерал Малькольм \"Ас\" Грейнджер використовує повітряні сили на максимум, щоб перемогти своїх ворогів"
 END
 
 // Patch104p @fix commy2 06/08/2022 Fixes misspelled "Grainger" in DE, ES.
@@ -57843,7 +57843,7 @@ BP: "O General Alexis Alexander prefere construir defesas de base pesadas e supe
 PL: "Generał Alexis Alexander lub wznosić ciężkie systemy obronne i wykorzystywać superbronie do pokonania wroga."
 RU: "Генерал Алексис Александр предпочитает возводить тяжелые оборонительные сооружения и использовать Супероружие для уничтожения своих врагов"
 AR: "General Alexis Alexander prefers to build heavy base defenses and build superweapons to defeat her enemies"
-UK: "Генерал Алексіс Алекзендер вважає за краще будувати потужну оборонну базу та створювати суперзброю, щоб перемогти своїх ворогів"
+UK: "Генерал Алексіс Алекзендер вважає за краще будувати посилені лінії оборони та суперзброю, щоб перемогти своїх ворогів"
 END
 
 GUI:BioClassNumber_Pos3
@@ -57993,7 +57993,7 @@ BP: "O General Ta Hun Kwai prefere construir bons tanques para derrotar os seus 
 PL: "Generał Ta Hun Kwai buduje najpotężniejsze czołgi na świecie."
 RU: "Генерал Та Хун Квай предпочитает создавать танковые армады для уничтожения своих врагов"
 AR: "General Ta Hun Kwai prefers to construct well built tanks to defeat his enemies"
-UK: "Генерал Та Хун Квай віддає перевагу будуванню гарних танків, щоб перемогти своїх ворогів"
+UK: "Генерал Та Хун Квай застосовує потужні танкові підрозділи, щоб перемогти своїх ворогів"
 END
 
 GUI:BioClassNumber_Pos4
@@ -58445,7 +58445,7 @@ BP: "O General \"Anvil\" Shin Fai prefere alistar soldados treinados para derrot
 PL: "Generał \"Kowadło\" Shin Fai pokonuje wrogów dzięki werbowaniu znakomicie wyszkolonych żołnierzy."
 RU: "Генерал \"Ударник\" Шин Фай предпочитает использовать хорошо обученных солдат для уничтожения своих врагов"
 AR: "General \"Anvil\" Shin Fai prefers to enlist highly trained soldiers to defeat his enemies"
-UK: "Генерал «Анвіл» Шін Фай вважає за краще залучати добре тренованих солдатів для перемоги над ворогами"
+UK: "Генерал \"Ковадло\" Шін Фай вважає за краще залучати добре треновану піхоту для перемоги над ворогами"
 END
 
 GUI:BioClassNumber_Pos7
@@ -59122,7 +59122,7 @@ BP: "A China usa chamas e muitos soldados para derrotar os seus inimigos."
 PL: "Chiny używają ognia i miażdżącej przewagi liczebnej."
 RU: "Китай использует огневое и количественное превосходство для уничтожения своих врагов"
 AR: "China uses fire and overwhelming numbers to defeat its enemies"
-UK: "Китай використовує вогонь і переважну кількість, щоб перемогти своїх ворогів"
+UK: "Китай використовує вогонь і перевагу у кількості, щоб перемогти своїх ворогів"
 END
 
 TOOLTIP:BioStrategyLong_USA
