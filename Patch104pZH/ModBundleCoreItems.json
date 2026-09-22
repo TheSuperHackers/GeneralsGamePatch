@@ -218,6 +218,34 @@
                 ]
             },
             {
+                "name": "PristineCoreINI",
+                "big": true,
+                "files": [
+                    {
+                        "sourceParent": "GameFilesEdited",
+                        "sourceList": [
+                            "Data/INI/**/*.ini"
+                        ],
+                        "registryList": [
+                            "Resources/FileHashRegistry/Generals-108-GeneralsZH-104.csv"
+                        ],
+                        "params": {
+                            "forceEOL": "\r\n",
+                            "deleteComments": ";",
+                            "deleteWhitespace": 1,
+                            "sourceEncoding": "ascii",
+                            "targetEncoding": "ascii",
+                            "excludeMarkersList": [
+                                [
+                                    ";patch104p-optional-begin",
+                                    ";patch104p-optional-end"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
                 "name": "CoreMaps",
                 "big": true,
                 "files": [
