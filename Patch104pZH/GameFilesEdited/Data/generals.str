@@ -101824,3 +101824,31 @@ RU: "Ополчение"
 AR: "ﺎﯿﺸﯿﻠﯿﻤ"
 UK: "Міліція"
 END
+
+CONTROLBAR:Destroy
+US: "Destroy: &D"
+DE: "Zerstören: &D"
+FR: "Détruire: &D"
+ES: "Destruir: &D"
+IT: "Distruggere: &D"
+KO: "파괴: &D"
+ZH: "毁灭: &D"
+BP: "Destruir: &D"
+PL: "Zniszczenie: &D"
+RU: "Уничтожить: &D"
+AR: "Destroy: &D"
+END
+
+CONTROLBAR:TooltipDestroy
+US: "Destroy"
+DE: "Zerstören"
+FR: "Détruire"
+ES: "Destruir"
+IT: "Distruggere"
+KO: "파괴"
+ZH: "毁灭"
+BP: "Destruir"
+PL: "Zniszczenie"
+RU: "Уничтожить"
+AR: "Destroy"
+END
