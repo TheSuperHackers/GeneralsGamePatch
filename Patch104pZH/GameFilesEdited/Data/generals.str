@@ -7,6 +7,10 @@
 // IMPORTANT INFORMATION: If you want to help with edits here's some advice for you:
 // 1. The US language is the main reference language for all other languages on which you need to base your edits and translations. But if you are unsure what is the correct meaning of US text line please refer to RU line, you can translate it to your language in google translate and you will get a better understanding of what US text line truly means
 // 2. Use Google Translate to translate words and sentences and Google Word Document to check if your new sentences are grammatically correct
+// 3. Starting from line - (DIALOGEVENT:EvaChina_AllyUnderAttackSubtitle) until line - (DIALOGEVENT:UnitDescriptXUSA037Subtitle) you can find voice over text used in game audio dialogues. The retail game ships with 3 different voice-overs: English, German and French.
+//    3.1 If you want to do your own localization edit, you can ignore these lines. The game has subtitles for ES, IT, KO, CH localizations. All other localizations have this symbol "*" before the text, which shows that it's not shown in game.
+//    3.2 You can add your own language lines (BP for example) there instead of English ones if you want to have subtitles or fan made voiceover for your localization later.
+
 
 // Patch104p generals.csf files for each language are generated from this file.
 // Patch104p Multi STR file contains
@@ -64426,6 +64430,8 @@ RU: "*Warning... GLA forces are moving towards the power plant!"
 AR: "*Warning... GLA forces are moving towards the power plant!"
 UK: "*Warning... GLA forces are moving towards the power plant!"
 END
+
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "carpet bombers" to "Carpet bombers" (#2714)
 
 DIALOGEVENT:MisCHI02xXO07Subtitle
 US: "*General, I've made contact with one of our spy outposts. They are under GLA attack. If we can rescue them, I can patch into their system and we will be able to call in carpet bombers"
