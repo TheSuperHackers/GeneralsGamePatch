@@ -15309,7 +15309,7 @@ KO: "스텔스 전투기"
 ZH: "隱形戰鬥機"
 BP: "Bombardeiro Invisível"
 PL: "Niewykrywalny bombowiec"
-RU: "Истребитель Стелс"
+RU: "Штурмовик Стелс"
 AR: "ﺔﻠﺗﺎﻘﻤﻟا ﺢﺒﺸﻟا ةﺮﺋﺎﻃ"
 UK: "Літак-невидимка"
 END
@@ -17209,7 +17209,7 @@ KO: "스텔스 전투기: &F"
 ZH: "隱形戰鬥機：&F"
 BP: "Bombardeiro Invisível: &I"
 PL: "Niewykrywalny bombowiec: &M"
-RU: "Истребитель Стелс: &F"
+RU: "Штурмовик Стелс: &F"
 AR: "ﺔﯿﺑﺮﺤﻟا ﺢﺒﺸﻟا ﺔﻠﺗﺎﻘﻣ"
 UK: "Літак-невидимка: &F"
 END
@@ -24952,7 +24952,7 @@ KO: "스텔스 전투기"
 ZH: "隱形戰鬥機"
 BP: "Bombardeiro Invisível"
 PL: "Niewykrywalny bombowiec"
-RU: "Истребитель Стелс"
+RU: "Штурмовик Стелс"
 AR: "ﺔﻠﺗﺎﻘﻤﻟا ﺢﺒﺸﻟا ﺓﺮﺋﺎﻃ"
 UK: "Літак-невидимка"
 END
@@ -29331,7 +29331,7 @@ KO: "랩터와 스텔스 전투기의 미사일 공격력이 25% 증가합니다
 ZH: "猛禽和隱形戰機的飛彈攻擊力增加25％。"
 BP: "Os mísseis dos Raptors e Bombardeiros Invisíveis causam +25% de dano."
 PL: "Siła rakiet Raptorów i niewykrywalnych bombowców rośnie o 25%."
-RU: "Ракеты истребителей Раптор и Стелс наносят на +25% больше урона"
+RU: "Ракеты самолетов Раптор и Стелс наносят на +25% больше урона"
 AR: "رﻮﺘﺑار ةﺮﺋﺎﻃ نإ\nﺔﻠﺗﺎﻘﻤﻟا ﺢﺒﺸﻟا ةﺮﺋﺎﻃ ﻒﺋاﺬﻗو\nﺮﺜﻛأ رﺮﺿ +٢٥% ناﺮﻓﻮﻳ"
 UK: "Ракети Раптора і Літака-невидимки завдають на 25% більше шкоди"
 END
@@ -50446,19 +50446,22 @@ AR: "ﺢﯿﻤﻠﺗ:\nةﺎﺸﻤﻟا ﺔﻳﺎﻤﺤﻟ ﺔﯿﺋﺎﯿﻤﯿ
 UK: "ПІДКАЗКА:\nВикористовуйте покращені хімічні костюми, щоб захистити піхоту\nвід смертельних токсинів і радіації"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "The Stealth Bomber's Bunker Buster upgrade can damage garrisoned enemies" (#2709)
+// Patch104p @fix dmgreen 27/03/2025 Changes KO, ZH strings to reflect US change (#2679)
+
 HELP:BunkerBuster-01
-US: "HINT:\nThe Stealth Bomber's Bunker Buster upgrade can damage garrisoned enemies"
+US: "HINT:\nThe Stealth Bomber's Bunker Buster upgrade allows to clear out garrisoned enemies"
 DE: "TIPP:\nDie Bunker Buster-Bomben des Tarnkappenbombers\nbeschädigen auch in Häusern verschanzte Gegner."
 FR: "ASTUCE :\nL'amélioration Tueur de bunker du Chasseur furtif\npermet de blesser les ennemis en garnison dans un bâtiment."
 ES: "PISTA:\nMejorar el bombardero invisible con antibúnker\npuede dañar a enemigos guarnecidos."
 IT: "SUGGERIMENTO:\nI Distruttori di bunker del Caccia stealth permettono\ndi danneggiare le strutture presidiate dal nemico."
-KO: "힌트:\n스텔스 폭격기의 벙커 버스터 업그레이드는 건물 안의 적에게 피해를 줄 수 있습니다."
-ZH: "建議：\n隱形轟炸機的碉堡殺手升級能力可以殺傷建築內駐守的敵軍。"
+KO: "힌트:\n스텔스 폭격기의 벙커 버스터 업그레이드를 통해 주둔한 적을 죽일 수 있습니다."
+ZH: "建議：\n隱形轟炸機的「掩體破壞者」升級可以清除駐紮的敵人。"
 BP: "DICA:\nA atualização do Destruidor de Bunker dos Bombardeiros Invisíveis\npode danificar as guarnições inimigas."
 PL: "RADA:\nModernizacja \"Niszczyciel bunkrów\" umożliwia niewykrywalnemu bombowcowi\nzadawanie obrażeń obsadzie budynków."
-RU: "ПОДСКАЗКА:\nУстановка Противобункерных ракет на Истребитель Стелс\nпозволит ему нейтрализовывать гарнизоны вражеских войск"
-AR: "ﺢﯿﻤﻠﺗ:\nﺔﻠﺗﺎﻘﻤﻟا ﺢﺒﺸﻟا ةﺮﺋﺎﻃ ﻲﻓ ﻲﻔﺨﻤﻟا ﻞﻠﺴﺘﻟا ﺔﯿﻗﺮﺗ\nءاﺪﻋﻷا تﺎﻨﯿﺼﺤﺗ ﺮﻣﺪﻳ نأ ﻦﻜﻤﻳ"
-UK: "ПІДКАЗКА:\n\nВстановлення Протибункерних ракет на Винищувач Стелс\nдозволить йому нейтралізувати гарнізони ворожих військ"
+RU: "ПОДСКАЗКА:\nУлучшение штурмовиков Стелс с помощью Противобункерных ракет\nпозволит им уничтожать пехоту противника в зданиях"
+AR: "HINT:\nThe Stealth Bomber's Bunker Buster upgrade allows to kill garrisoned enemies"
+UK: "ПІДКАЗКА:\nОзброєння штурмовиків Стелс Протибункерними ракетами\nдозволить їм знищувати піхоту супротивника в будівлях"
 END
 
 HELP:BunkerBuster-02
@@ -56019,7 +56022,7 @@ KO: "스텔스 파이터 미사일이 건물 안의 부대에 피해를 줄 것�
 ZH: "隱形戰鬥機發射的飛彈對駐守的士兵造成傷害。"
 BP: "Os mísseis dos Bombardeiros Invisíveis danificam tropas protegidas."
 PL: "Rakiety niewykrywalnych bombowców będą razić żołnierzy obsadzających budynki."
-RU: "Истребитель Стелс сможет уничтожать пехоту в зданиях"
+RU: "Штурмовик Стелс сможет уничтожать пехоту в зданиях"
 AR: "ﺔﻠﺗﺎﻘﻤﻟا ﺢﺒﺸﻟا ةﺮﺋﺎﻃ ﺪﻳوﺰﺗ ﻢﺘﯿﺳ\nتاﻮﻘﻟا تﺎﻌﻤﺠﺗ ﻰﻠﻋ ءﺎﻀﻘﻟا ةرﺪﻘﺑ"
 UK: "Ракети Літака-невидимки знищують гарнізони"
 END
@@ -98852,7 +98855,7 @@ KO: "킹 랩터\n컴뱃 치누크\n레이저 포인트 방어\n비행기 생산 
 ZH: "猛禽王戰機\n戰鬥運輸機\n毒素恐怖份子\n雷射點防禦\n降低飛機成本\n較低等級的鬼魅炮艇機\n以隱形戰鬥機開始\n無坦克"
 BP: "King Raptors\nChinooks de Combate\nDefesas Pontuais a Laser\nRedução de custo para aeronaves\nAvião de Artilharia Spectre em patentes baixas\nInício com Bombardeiros Invisíveis\nSem tanques"
 PL: "Królewski Raptor\nChinook bojowy\nObrona laserowa\nZmniejszenie kosztów lotnictwa\nSzturmowiec Widmo przy niższej randze\nZaczyna grę z niewykrywalnym bombowcem\nBrak czołgów"
-RU: "Королевские Рапторы\nБоевые Чинуки\nЗащитные лазеры\nУлучшение - Стелс Команч\nНизкая стоимость авиации\nБоевой самолет «Spectre» доступен на раннем ранге\nИстребители Стелс доступны сразу\nНет танков"
+RU: "Королевские Рапторы\nБоевые Чинуки\nЗащитные лазеры\nУлучшение - Стелс Команч\nНизкая стоимость авиации\nБоевой самолет «Spectre» доступен на раннем ранге\nШтурмовики Стелс доступны сразу\nНет танков"
 AR: ": ـﺑ ﻲﻛﺮﯿﻣﻷا ﺶﯿﺠﻟا ﺰﯿﻤﺘﻳ\nﺔﯿﻜﻠﻤﻟا رﻮﺘﺑار ةﺮﺋﺎﻃ\nكﻮﻨﯿﺷ ﺔﻠﺗﺎﻘﻤﻟا\nﺔﻳرﺰﯿﻠﻟا تﺎﻋﺎﻓﺪﻟا\nﺶﻧﺎﻣﻮﻛ ةﺮﺋﺎﻃ ﻞﻠﺴﺗ ﺔﯿﻗﺮﺗ\nةﺮﺋﺎﻄﻟا ﻰﻟإ ﺔﻔﻠﻜﺘﻟا ﺾﯿﻔﺨﺗ\nﺔﺤﻠﺴﻤﻟا ﺮﺘﻜﺒﺳ ﺔﯿﺣوﺮﻣ\nﺔﻠﺗﺎﻘﻤﻟا ﺢﺒﺸﻟا ةﺮﺋﺎﻃ"
 UK: "Королівські Раптори\nБойові Чінуки\nЛазерний захист від ракет\nНевидимість Команча\nДешевші літаки\nШтурмовий літак Спектр на нижчому рангу\nЛітак-невидимка доступний за замовчуванням\nНема танків"
 END
@@ -101239,7 +101242,7 @@ KO: "랩터와 스텔스기의 미사일 파괴력이 12% 증가합니다."
 ZH: "猛禽戰機和隱形戰鬥機飛彈造成+12%額外傷害。"
 BP: "Os mísseis dos Raptors e dos Bombardeiros Invisíveis causam +12% de danos."
 PL: "Pociski raptora i niewidzialnego myśliwca zadają obrażenia większe o +12%."
-RU: "Ракеты истребителей Раптор и Стелс наносят на 12% больше урона"
+RU: "Ракеты самолетов Раптор и Стелс наносят на 12% больше урона"
 AR: "Raptor and Stealth Fighter missiles do +12% more damage"
 UK: "Ракети Раптора і Літака-невидимки завдають на +12% більше шкоди"
 END
