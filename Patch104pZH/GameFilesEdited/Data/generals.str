@@ -33734,8 +33734,8 @@ END
 
 // context: Appears when you mouse over the Emergency Vehicle Repair cameo on any General Points Command Bar
 CONTROLBAR:ToolTipScienceEmergencyRepair
-US: "Repairs vehicles in an area\n\nRank 1: Light Repair\nRank 2: Medium Repair\nRank 3: Serious Repair\n\nDeploy from: Command Center"
-DE: "Repariert Fahrzeuge im gewählten Bereich für eine bestimmte Zeit.\n\nStufe 1: 30 Sekunden\nStufe 2: 45 Sekunden\nStufe 3: 60 Sekunden\n\nProduktionsstätte: Kommandozentrale"
+US: "Repairs infantry, vehicles and buildings in an area\n\nRank 1: Light Repair\nRank 2: Medium Repair\nRank 3: Serious Repair\n\nDeploy from: Command Center"
+DE: "Repariert Cyborgs, Fahrzeuge und Gebäude im gewählten Bereich für eine bestimmte Zeit.\n\nStufe 1: 30 Sekunden\nStufe 2: 45 Sekunden\nStufe 3: 60 Sekunden\n\nProduktionsstätte: Kommandozentrale"
 FR: "Réparent les véhicules d'une zone.\n\nGrade 1 : réparation légère\nGrade 2 : réparation standard\nGrade 3 : réparation importante\n\nDéployées depuis : Poste de commandement."
 ES: "Repara vehículos en un área.\n\nRango 1: Reparación leve\nRango 2: Reparación media\nRango 3: Reparación seria\n\nDespliegue desde: Centro de mando"
 IT: "Ripara i veicoli in zona.\n\nGrado 1: riparazione leggera\nGrado 2: riparazione media\nGrado 3: riparazione ingente\n\nLanciata da: Centro comando"
