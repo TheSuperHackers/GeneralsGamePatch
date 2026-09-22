@@ -1,0 +1,90 @@
+---
+date: 2024-09-05
+
+title: Fixes cbnarcade textures
+
+changes:
+  - fix: Fixes Civilian cbnarcade textures.
+
+subchanges:
+  - fix: |
+      cbnarcade, cbnarcade_d, cbnarcade_g
+        - Fixes staircase visuals
+        - Fixes window visuals and reflections
+  - fix: |
+      cbnarcade_e, cbnarcade_r
+        - Fixes staircase visuals
+  - fix: |
+      cbnarcade_dg
+        - Fixes staircase visuals
+        - Fixes window visuals and reflections
+        - Fixes minor texture damage inconsistencies with cbnarcade_d
+        - Adds missing alpha channel
+  - fix: |
+      cbnarcade_s
+        - Fixes staircase visuals
+        - Fixes minor window reflection errors
+  - fix: |
+      cbnarcade_ds
+        - Fixes staircase visuals
+        - Fixes snow inconsistencies with cbnarcade_s
+        - Fixes major texture damage inconsistencies with cbnarcade_es
+  - fix: |
+      cbnarcade_es
+        - Fixes staircase visuals
+        - Fixes major texture damage inconsistencies with cbnarcade_ds
+  - fix: |
+      cbnarcade_rs
+        - Fixes staircase visuals
+        - Fixes texture damage inconsistencies with cbnarcade_es
+  - fix: |
+      cbnarcade_sg
+        - Fixes staircase visuals
+        - Fixes window reflection drawing over window barricades
+  - fix: |
+      cbnarcade_dsg
+        - Fixes staircase visuals
+        - Fixes snow inconsistencies with cbnarcade_s
+        - Fixes major texture damage inconsistencies with cbnarcade_es
+        - Fixes window reflection drawing over window barricades
+  - fix: |
+      cbnarcade_n, cbnarcade_dn
+        - Fixes window light sizes and positions
+        - Adds missing window lights
+        - Improves light visuals
+  - fix: |
+      cbnarcade_ng, cbnarcade_dng
+        - Fixes window barricade artifacts
+        - Fixes window light sizes and positions
+        - Adds missing window lights
+        - Improves light visuals
+  - fix: |
+      cbnarcade_sn, cbnarcade_dsn
+        - Fixes incorrect night light
+        - Fixes window light sizes and positions
+        - Adds missing window lights
+        - Adds missing snow
+        - Improves light visuals
+  - fix: |
+      cbnarcade_sng, cbnarcade_dsng
+        - Fixes window barricade artifacts
+        - Fixes window light sizes and positions
+        - Adds missing window lights
+        - Adds missing snow
+        - Improves light visuals
+  - fix: |
+      cbnarcade_en, cbnarcade_rn, cbnarcade_esn, cbnarcade_rsn
+        - Fixes incorrect night light
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2500
+
+authors:
+  - xezon
