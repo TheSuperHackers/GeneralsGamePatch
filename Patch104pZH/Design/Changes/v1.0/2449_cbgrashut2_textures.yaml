@@ -10,20 +10,27 @@ subchanges:
   - fix: |
       cbgrashut2, cbgrashut2_d, cbgrashut2_ds
         - Adds missing door
+        - Fixes roof visuals in alpha channel
   - fix: |
       cbgrashut2_e, cbgrashut2_es
         - Fixes minor texture damage inconsistencies with cbgrashut2_d, cbgrashut2_ds
         - Adds missing door
         - Adds additional damages to alpha channel
+        - Fixes roof visuals in alpha channel
         - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut2_r
         - Adds additional damages to alpha channel
+        - Fixes roof visuals in alpha channel
         - Fixes floating pixels in alpha channel
+  - fix: |
+      cbgrashut2_s
+        - Fixes roof visuals in alpha channel
   - fix: |
       cbgrashut2_rs
         - Adds missing door
         - Adds additional damages to alpha channel
+        - Fixes roof visuals in alpha channel
         - Fixes floating pixels in alpha channel
   - fix: |
       cbgrashut2_en, cbgrashut2_rsn
@@ -46,6 +53,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2449
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2452
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2489
 
 authors:
   - xezon
