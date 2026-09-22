@@ -1,0 +1,43 @@
+---
+date: 2024-09-06
+
+title: Fixes cbnbarncoo textures
+
+changes:
+  - fix: Fixes Civilian cbnbarncoo textures.
+
+subchanges:
+  - fix: |
+      cbnbarncoo_d, cbnbarncoo_dg, cbnbarncoo_ds
+        - Fixes minor damage inconsistencies with cbnbarncoo_e, cbnbarncoo_es
+  - fix: |
+      cbnbarncoo_dsg
+        - Fixes minor damage inconsistencies with cbnbarncoo_es
+        - Removes sudden snow on window barricades
+  - fix: |
+      cbnbarncoo_g
+        - Adds missing window barricades
+  - fix: |
+      cbnbarncoo_n, cbnbarncoo_ng, cbnbarncoo_sn, cbnbarncoo_sng
+        - Fixes minor light artifacts
+  - fix: |
+      cbnbarncoo_dn, cbnbarncoo_dng, cbnbarncoo_dsn, cbnbarncoo_dsng
+        - Fixes minor light artifacts
+        - Fixes barn door light inconsistencies with cbnbarncoo_n
+        - Recreates light damages
+  - optimization: |
+      cbnbarncoo_esn
+        - Optimizes texture size
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2502
+
+authors:
+  - xezon
