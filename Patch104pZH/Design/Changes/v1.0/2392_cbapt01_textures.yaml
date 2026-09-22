@@ -16,9 +16,17 @@ subchanges:
         - Fixes window damage visuals
         - Fixes window reflection errors
   - fix: |
+      cbapt01_e, cbapt01_es
+        - Improves window cutouts in alpha channel
+        - Fixes vent damages in alpha channel
+        - Fixes floating pixels in alpha channel
+  - fix: |
       cbapt01_r, cbapt01_rs
+        - Fixes bright edges of texture damages
         - Fixes minor alpha channel discrepancies with cbapt01_e, cbapt01_es
-        - Fixes floating pieces in alpha channel
+        - Improves window cutouts in alpha channel
+        - Fixes vent damages in alpha channel
+        - Fixes floating pixels in alpha channel
   - fix: |
       cbapt01_g, cbapt01_s, cbapt01_sg
         - Fixes window reflection errors
@@ -39,6 +47,7 @@ labels:
 links:
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2392
   - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2395
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2490
 
 authors:
   - xezon
