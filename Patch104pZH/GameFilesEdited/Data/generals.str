@@ -31505,20 +31505,23 @@ AR: "ةرﻮﻄﺘﻣ ﺔﯿﻟﺎﺘﻗ ﺔﺑﺮﻋ\nلﺎﻌﻓ ﻲﻟآ ح�
 UK: "Транспорт. Піхота всередині може використовувати бійниці для ураження ворога\n\nЕфективний проти піхоти\nСлабкий проти танків"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Heals vehicles and soldiers. Cleans up radiation and toxins" (#2699)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2699)
+
 // context: Appears when you mouse over the Ambulance cameo on the USA War Factory
 CONTROLBAR:ToolTipUSABuildMedic
-US: "Heals vehicles and soldiers. Cleans up radiation and toxins"
-DE: "Cyborgs werden repariert. Neutralisierung von Strahlung und chemischen Kampfstoffen."
-FR: "Soigne les soldats. Elimine les radiations et les toxines."
-ES: "Cura soldados. Limpia radiaciones y toxinas."
-IT: "Cura i soldati. Elimina radiazioni e tossine."
-KO: "병사들을 치료합니다. 방사능이나 독소를 제거합니다."
-ZH: "治療士兵。清除輻射與毒素。"
-BP: "Cura soldados. Pode eliminar a radiação e as toxinas das áreas selecionadas."
-PL: "Leczy żołnierzy. Usuwa skażenie promieniotwórcze i toksyny."
-RU: "Ремонтирует технику и лечит солдат поблизости. Очищает местность от радиации и токсинов"
+US: "Repairs vehicles and heals soldiers nearby. Cleans up radiation and toxins"
+DE: "Repariert Fahrzeuge und heilt Soldaten in der Nähe. Reinigt Strahlung und Giftstoffe."
+FR: "Répare les véhicules et soigne les soldats à proximité. Nettoie les radiations et les toxines."
+ES: "Repara vehículos y cura soldados cercanos. Limpia radiación y toxinas."
+IT: "Ripara i veicoli e cura i soldati nelle vicinanze. Pulisce le radiazioni e le tossine."
+KO: "근처 차량을 수리하고 군인을 치료합니다. 방사능과 독소를 정화합니다."
+ZH: "修理車輛並治療附近的士兵。清除輻射和毒素。"
+BP: "Conserta veículos e cura soldados próximos. Limpa radiação e toxinas."
+PL: "Naprawia pojazdy i leczy pobliskich żołnierzy. Oczyszcza z promieniowania i toksyn."
+RU: "Ремонтирует технику и лечит солдат поблизости. Очищает территорию от радиации и токсинов"
 AR: "ةﺎﺸﻤﻟا ﺮﺻﺎﻨﻋ جﻼﻌﺑ مﻮﻘﺗ\nﻦﻣ ﻒﯿﻈﻨﺘﻟاو تﺎﺑﺮﻌﻟا حﻼﺻإو\nمﻮﻤﺴﻟاو ﺔﺠھﻮﺘﻤﻟا ﺔﻌﺷﻷا"
-UK: "Ремонтує техніку та лікує солдатів. Очищає радіацію та токсини"
+UK: "Ремонтує техніку та лікує солдатів поблизу. Очищає від радіації та токсинів"
 END
 
 // context: Appears when you mouse over the Scout Drone cameo on all USA Ground Vehicles
