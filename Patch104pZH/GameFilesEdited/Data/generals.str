@@ -101824,3 +101824,40 @@ RU: "Ополчение"
 AR: "ﺎﯿﺸﯿﻠﯿﻤ"
 UK: "Міліція"
 END
+
+// Patch104p @fix Polypheides 26/03/2025 added missing 1.05 custom mission menu.
+// Official patch 1.05 does not include translations for other languages.
+// Edits for GUI:CustomMission and GUI:StartCustomMission will be community-made.
+
+GUI:CustomMission
+US: "CUSTOM MISSION"
+DE: "BENUTZERDEFINIERTE MISSION"
+FR: "MISSION PERSONNALISÉE"
+ES: "MISIÓN PERSONALIZADA"
+IT: "MISSIONE PERSONALIZZATA"
+KO: "맞춤형 미션"
+ZH: "自訂任務"
+BP: "MISSÃO PERSONALIZADA"
+PL: "MISJA NIESTANDARDOWA"
+RU: "ПОЛЬЗОВ. КАРТЫ"
+AR: "مهمة مخصصة"
+UK: "ВЛАСНІ МІСІЇ"
+END
+
+// Patch104p @fix Polypheides 11/06/2025 added missing 1.05 start custom mission button.
+// Placeholder translations added for DE, FR, ES, IT, KO, ZH, BP, PL, AR.
+
+GUI:StartCustomMission
+US: "START GAME"
+DE: "START GAME"
+FR: "START GAME"
+ES: "INICIAR PARTIDA"
+IT: "START GAME"
+KO: "START GAME"
+ZH: "START GAME"
+BP: "START GAME"
+PL: "START GAME"
+RU: "НАЧАТЬ ИГРУ"
+AR: "START GAME"
+UK: "ПОЧАТИ ГРУ"
+END
