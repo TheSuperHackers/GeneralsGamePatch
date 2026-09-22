@@ -31385,21 +31385,23 @@ END
 
 // Patch104p @fix xezon 26/07/2023 Removes superfluous mention of "enemy" for US, DE, FR, ES, BP, PL, RU, UK. (#2167) (#2519)
 // Patch104p @fix xezon 22/08/2023 Streamlines FR, ES, IT, ZH, BP, PL with CONTROLBAR:AirF_ToolTipUSABuildStealthFighter. (#2273)
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Stealthed while moving\n\nStrong vs. base defenses\nWeak vs. rocket soldiers" (#2716)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2716)
 
 // context: Appears when you mouse over the Stealth Fighter cameo on the USA Airfield
 CONTROLBAR:ToolTipUSABuildStealthFighter
-US: "Stealthed while moving\n\nStrong vs. base defenses\nWeak vs. rocket soldiers"
-DE: "Während des Fluges getarnt.\n\nStärken: Abwehreinrichtungen\nSchwächen: Raketen-Bots"
-FR: "Déplacement furtif.\n\nEfficace contre les défenses terrestres.\nVulnérable face à l'infanterie armée de missiles."
-ES: "Invisible cuando se mueve.\n\nPotente contra defensas de base\nDébil contra infantería con misiles"
-IT: "Mimetizzato mentre si muove.\n\nEfficace contro difese della base.\nDebole contro fanteria con missili."
-KO: "이동 시 스텔스 상태를 유지합니다.\n\n기지 방어물에 강합니다.\n전투기에 약합니다."
-ZH: "移動時隱形。\n\n對敵軍基地防禦工事傷害嚴重\n對敵軍戰鬥機傷害輕微"
-BP: "Invisível quando movendo.\n\nEficiente contra Defesas de Base\nVulnerável contra Infantaria com Mísseis"
-PL: "Zamaskowany podczas ruchu.\n\nSilny przeciwko systemom obronnym bazy\nSłaby przeciwko piechocie rakietowej"
-RU: "Замаскирован пока не атакует\n\Эффективен против обороны баз\nСлаб против истребителей"
-AR: "كﺮﺤﺘﻟا ﻼﺧ ﻲﻔﺨﺘﻟا\n\nﺔﯿﺳﺎﺳﻷا وﺪﻌﻟا تﺎﻋﺎﻓد ﺪﺿ لﺎﻌﻓ\nوﺪﻌﻟا ﻲﻠﺗﺎﻘﻣ ﺪﺿ ﻒﯿﻌﺿ"
-UK: "Невидимий під час руху\n\nЕфективний проти захисту бази\nСлабкий проти винищувачів"
+US: "Stealthed\n\nStrong vs. base defenses\nWeak vs. rocket soldiers"
+DE: "Getarnt.\n\nStärken: Abwehreinrichtungen\nSchwächen: Raketen-Bots"
+FR: "Furtif.\n\nEfficace contre les défenses terrestres.\nVulnérable face à l'infanterie armée de missiles."
+ES: "Sigiloso.\n\nPotente contra defensas de base\nDébil contra infantería con misiles"
+IT: "Nascosto.\n\nEfficace contro difese della base.\nDebole contro fanteria con missili."
+KO: "은밀하다.\n\n기지 방어물에 강합니다.\n전투기에 약합니다."
+ZH: "隱身。\n\n對敵軍基地防禦工事傷害嚴重\n對敵軍戰鬥機傷害輕微"
+BP: "Furtivo.\n\nEficiente contra Defesas de Base\nVulnerável contra Infantaria com Mísseis"
+PL: "Ukryty.\n\nSilny przeciwko systemom obronnym bazy\nSłaby przeciwko piechocie rakietowej"
+RU: "Невидим\n\nСилён против обороны баз\nСлаб против солдат с ракетами"
+AR: "Stealthed\n\nStrong vs. base defenses\nWeak vs. rocket soldiers"
+UK: "Невидимий\n\nЕфективний проти оборони бази\nСлабкий проти ракетної піхоти"
 END
 
 // context: Appears when you mouse over the Comanche cameo on the USA Airfield
@@ -100327,20 +100329,22 @@ UK: "Реактор забезпечує на 300% більше енергії"
 END
 
 // Patch104p @fix xezon 26/07/2023 Removes superfluous mention of "enemy" for US, DE, FR, ES, BP, PL, RU, UK. (#2167) (#2519)
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Stealthed while moving\nEquipped with a Point Defense Laser\n\nStrong vs. base defenses\nWeak vs. rocket soldiers" (#2716)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2716)
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
-US: "Stealthed while moving\nEquipped with a Point Defense Laser\n\nStrong vs. base defenses\nWeak vs. rocket soldiers"
-DE: "Während des Fluges getarnt.\nIst mit einer Laserwaffe bestückt.\n\nStärken: Abwehreinrichtungen\nSchwächen: Raketen-Bots"
-FR: "Déplacement furtif.\nEquipé d'un laser défensif.\n\nEfficace contre les défenses terrestres.\nVulnérable face à l'infanterie armée de missiles."
-ES: "Invisible cuando se mueve.\nEquipado con un láser de defensa de puntos.\n\nPotente contra defensas de base\nDébil contra infantería con misiles"
-IT: "Mimetizzato mentre si muove.\nDotato di un laser di difesa.\n\nEfficace contro difese della base.\nDebole contro fanteria con missili."
-KO: "이동 시 스텔스 상태를 유지합니다.\n포인트 디펜스 레이저가 장착되어 있습니다.\n\n기지 방어물에 강합니다.\n전투기에 약합니다."
-ZH: "移動時隱形。\n裝備防禦雷射。\n\n防禦基地強力\n敵軍飛機傷害輕微"
-BP: "Invisível quando movendo.\nequipado com um Laser de Defesa Pontual.\n\nEficiente contra Defesas de Base\nVulnerável contra Infantaria com Mísseis"
-PL: "Zamaskowany podczas ruchu.\nUzbrojony w laser obrony punktowej.\n\nSilny przeciwko systemom obronnym bazy\nSłaby przeciwko piechocie rakietowej"
-RU: "Замаскирован\nИмеет Оборонительный лазер\n\nЭффективен против обороны баз\nСлаб против истребителей"
-AR: "ﺖﺒﻫﺫ ﺎﻤﻨﻳﺃ ﻚﺗاﺪﺣﻭ ﻚﻘﻓاﺮﻳ\nﺔﻄﻘﻨﻟا ﻦﻋ ﻉﺎﻓﺩ ﺭﺰﻴﻠﺑ ﺰﻬﺠﻣ\n\nﺔﻴﺳﺎﺳﺄﻟا ﻭﺪﻌﻟا ﺕﺎﻋﺎﻓﺩ ﺪﺿ ﻱﻮﻗ\nﻭﺪﻌﻟا ﻲﻠﺗﺎﻘﻣ ﺪﺿ ﻒﻴﻌﺿ"
-UK: "Невидимий\nОбладнаний Захисним лазером\n\nСильний проти оборони баз\nСлабкий проти винищувачів"
+US: "Stealthed\nEquipped with a Point Defense Laser\n\nStrong vs. base defenses\nWeak vs. anti-air weapons"
+DE: "Getarnt\nAusgestattet mit einem Punktverteidigungslaser\n\nStark gegen Basisverteidigung\nSchwach gegen Flugabwehrgeschütze"
+FR: "Furtif\nÉquipé d'un laser de défense ponctuelle\n\nFort contre les défenses de base\nFaible contre canons antiaériens."
+ES: "En sigilo\nEquipado con un láser de defensa puntual\n\nFuerte contra las defensas de la base\nDébil contra cañones antiaéreos"
+IT: "Stealthed\nEquipaggiato con un laser di difesa puntuale\n\nForte contro le difese di base\nDebole contro i cannoni antiaerei"
+KO: "스텔스\n포인트 방어 레이저 장착\n\n기지 방어에 강함\n대공포에 대한 약함."
+ZH: "隱身\n配備點防禦雷射\n\n與基地防禦相比強大\n比起防空砲，威力較弱"
+BP: "Furtivo\nEquipado com um Laser de Defesa de Ponto\n\nForte vs. defesas de base\nFraco vs. antiaéreas"
+PL: "Zamaskowany\nWyposażony w laser do obrony punktowej\n\nSilny przeciwko obronie bazy\nSłaby kontra działa przeciwlotnicze"
+RU: "Невидим\nОборудован Защитным лазером\n\nСилён против обороны баз\nСлаб против зенитных орудий"
+AR: "Stealthed\nEquipped with a Point Defense Laser\n\nStrong vs. base defenses\nWeak vs. anti-air weapons"
+UK: "Невидимий\nОбладнаний Захисним лазером\n\nСильний проти оборони баз\nСлабкий проти пневматичної зброї"
 END
 
 GUI:RetaliationTitle
