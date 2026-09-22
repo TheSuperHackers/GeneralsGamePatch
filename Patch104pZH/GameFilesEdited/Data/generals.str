@@ -50322,19 +50322,22 @@ AR: ": ﺢﯿﻤﻠﺗ\nوﺪﻌﻟا فاﺪھأ 'ﻲﻠﻄﻳ' نأ ﻦﻜﻤ�
 UK: "ПІДКАЗКА:\nЛазер «Месника» може «позначати» ворожі цілі\nСтрільба по позначеним мішеням завдає більшої шкоди"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Avengers are support units that can also attack aircraft" (#2707)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2707)
+
 HELP:Avenger-02
-US: "HINT:\nAvengers are support units that can also attack aircraft"
-DE: "TIPP:\nAvenger können auch Flugzeuge angreifen."
-FR: "ASTUCE :\nLe Vengeur est une unité de soutien qui peut aussi attaquer l'aviation."
-ES: "PISTA:\nLos Avenger son unidades de apoyo que pueden atacar aviones."
-IT: "SUGGERIMENTO:\nGli Avenger sono unità di supporto con capacità antiaerea."
-KO: "힌트:\n어벤져는 항공기들도 공격할 수 있는 지원 유닛입니다."
-ZH: "建議：\n復仇者是一種支援單位，且具備攻擊飛機的能力。"
-BP: "DICA:\nOs Vingadores são unidades de apoio que também podem atacar aeronaves."
-PL: "RADA:\nMściciele to jednostki wspierające, które mogą też atakować lotnictwo."
-RU: "ПОДСКАЗКА:\nМститель может оборонять себя и войска вокруг\nот ракетного огня и воздушных атак противника"
-AR: "ﺢﯿﻤﻠﺗ:\nتاﺮﺋﺎﻄﻟا ﺔﻤﺟﺎﮫﻤﺑ ﺔﻣﻮﻋﺪﻣ ةﺎﺸﻤﻟا تاﺪﺣو"
-UK: "ПІДКАЗКА:\nМесник може обороняти себе і війська навколо\nвід ракетного вогню і повітряних атак противника"
+US: "HINT:\nAvengers are support units that can neutralize missiles and attack aircraft"
+DE: "TIPP:\nAvengers sind Unterstützungseinheiten, die Raketen neutralisieren und Flugzeuge angreifen können."
+FR: "ASTUCE :\nLes Avengers sont des unités de soutien qui peuvent neutraliser les missiles et attaquer les avions."
+ES: "PISTA:\nLos Vengadores son unidades de apoyo que pueden neutralizar misiles y atacar aviones."
+IT: "SUGGERIMENTO:\nGli Avengers sono unità di supporto in grado di neutralizzare missili e attaccare aerei."
+KO: "힌트:\n어벤저스는 미사일과 공격 항공기를 무력화할 수 있는 지원 유닛입니다."
+ZH: "建議：\n復仇者是能夠摧毀飛彈和攻擊飛機的支援部隊。"
+BP: "DICA:\nOs Vingadores são unidades de suporte que podem neutralizar mísseis e atacar aeronaves."
+PL: "RADA:\nMściciele to jednostki wsparcia, które potrafią neutralizować rakiety i samoloty szturmowe."
+RU: "ПОДСКАЗКА:\nМстители — это вспомогательные юниты, способные нейтрализовать ракеты и сбивать самолеты"
+AR: "HINT:\nAvengers are support units that can neutralize missiles and attack aircraft"
+UK: "ПІДКАЗКА:\nМесники - це допоміжні юніти, здатні нейтралізувати ракети та збивати літаки"
 END
 
 HELP:FireBase-01
