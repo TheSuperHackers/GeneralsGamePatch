@@ -50369,19 +50369,22 @@ AR: "HINT:\nSelect an area for the Spectre Gunship to attack,\nthen manually tar
 UK: "ПІДКАЗКА:\nВиберіть зону для атаки штурмовика Спектра,\nпотім вручну націлюйте його на ворогів"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Use the Leaflet Drop to disable enemy infantry" (#2708)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2708)
+
 HELP:LeafletDrop-01
-US: "HINT:\nUse the Leaflet Drop to disable enemy infantry"
-DE: "TIPP:\nDeaktivieren Sie gegnerische Cyborgs mit Flugblattaktionen."
-FR: "ASTUCE :\nUtilisez le largage de propagande pour neutraliser l'infanterie ennemie."
-ES: "PISTA:\nLanza propaganda para inutilizar a la infantería enemiga."
-IT: "SUGGERIMENTO:\nUsa il Lancio di volantini per bloccare la fanteria nemica."
-KO: "힌트:\n적의 차량과 보병들을 무력화 시키기 위해 선전물 투하를 이용하십시오."
-ZH: "建議：\n使用空投傳單來癱瘓敵軍載具與步兵。"
-BP: "DICA:\nUse Soltar Folhetos para desativar os veículos e a infantaria do inimigo."
-PL: "RADA:\nZrzut ulotek unieruchomi nieprzyjacielskie jednostki."
-RU: "ПОДСКАЗКА:\nИспользуйте сброс Листовок с пропагандой для деморализации вражеских войск\nи временного выведения их из строя"
-AR: "HINT:\nUse the Leaflet Drop to disable enemy infantry"
-UK: "ПІДКАЗКА:\nВикористовуйте листівки, для виведення з ладу ворожих одиниць"
+US: "HINT:\nUse the Leaflet Drop to disable enemy units"
+DE: "TIPP:\nNutze den Leaflet Drop, um feindliche Einheiten außer Gefecht zu setzen."
+FR: "ASTUCE :\nUtilisez le largage de tracts pour désactiver les unités ennemies."
+ES: "PISTA:\nUsa el Leaflet Drop para inhabilitar unidades enemigas."
+IT: "SUGGERIMENTO:\nUsa il lancio di volantini per disabilitare le unità nemiche."
+KO: "힌트:\n전단지 투하를 사용하여 적군 유닛을 무력화하세요."
+ZH: "建議：\n使用傳單投擲來癱瘓敵方單位。"
+BP: "DICA:\nUse o Lançamento de Panfletos para desativar a infantaria inimiga."
+PL: "RADA:\nUżyj Zrzutu Ulotek, aby unieszkodliwić jednostki wroga."
+RU: "ПОДСКАЗКА:\nИспользуйте сброс листовок чтобы вывести из строя вражеские войска"
+AR: "HINT:\nUse the Leaflet Drop to disable enemy units"
+UK: "ПІДКАЗКА:\nВикористайте скид листівок, щоб вивести з ладу ворожі одиниці"
 END
 
 // Patch104p @fix xezon 10/09/2023 Removes "and will stun any survivors" sentence from all languages. (#2342)
