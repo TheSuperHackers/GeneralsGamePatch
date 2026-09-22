@@ -1,0 +1,160 @@
+---
+date: 2024-09-24
+
+title: Fixes and improves cbniteclub textures
+
+changes:
+  - fix: Fixes and improves Civilian cbniteclub textures.
+
+subchanges:
+  - fix: |
+      cbniteclub, cbniteclub_d, cbniteclub_g
+        - Fixes minor artifacts on house edges and billboards
+        - Fixes background visuals of wine glasses
+        - Increases usable surface area of blue glass facade
+        - Fixes minor misshaped window reflections
+        - Fixes wine glasses window reflection strength mismatch with blue glass facade
+  - fix: |
+      cbniteclub_e
+        - Fixes minor artifacts on house edges and billboards
+        - Fixes background visuals of wine glasses
+        - Increases usable surface area of blue glass facade
+  - fix: |
+      cbniteclub_r
+        - Fixes minor artifacts on house edges and billboards
+        - Fixes background visuals of wine glasses
+        - Increases usable surface area of blue glass facade
+        - Adds small additional damages
+  - fix: |
+      cbniteclub_dg
+        - Fixes minor artifacts on house edges and billboards
+        - Fixes background visuals of wine glasses
+        - Increases usable surface area of blue glass facade
+        - Fixes wine glasses window reflection strength mismatch with blue glass facade
+        - Fixes window reflections over barricades
+  - fix: |
+      cbniteclub_s
+        - Fixes snow inconsistencies with cbniteclub_sg
+        - Fixes cyan snow
+        - Fixes minor artifacts on house edges and billboards
+        - Fixes background visuals of wine glasses
+        - Increases usable surface area of blue glass facade
+        - Fixes minor misshaped window reflections
+        - Fixes wine glasses window reflection strength mismatch with blue glass facade
+        - Fixes window reflections over snow
+  - fix: |
+      cbniteclub_ds
+        - Fixes snow inconsistencies with cbniteclub_sg
+        - Fixes cyan snow
+        - Fixes snow drawing over damages
+        - Fixes minor artifacts on house edges and billboards
+        - Fixes background visuals of wine glasses
+        - Increases usable surface area of blue glass facade
+        - Fixes minor misshaped window reflections
+        - Fixes wine glasses window reflection strength mismatch with blue glass facade
+        - Fixes window reflections over snow
+  - fix: |
+      cbniteclub_es, cbniteclub_rs
+        - Fixes snow inconsistencies with cbniteclub_ds
+        - Fixes cyan snow
+        - Fixes snow drawing over damages
+        - Fixes minor artifacts on house edges and billboards
+        - Fixes background visuals of wine glasses
+        - Increases usable surface area of blue glass facade
+  - fix: |
+      cbniteclub_sg
+        - Fixes major snow inconsistencies with cbniteclub_s
+        - Fixes minor artifacts on house edges and billboards
+        - Fixes background visuals of wine glasses
+        - Increases usable surface area of blue glass facade
+        - Fixes minor misshaped window reflections
+        - Fixes wine glasses window reflection strength mismatch with blue glass facade
+        - Fixes window reflections over snow
+  - fix: |
+      cbniteclub_dsg
+        - Fixes snow inconsistencies with cbniteclub_ds
+        - Fixes cyan snow
+        - Fixes snow drawing over damages
+        - Fixes minor artifacts on house edges and billboards
+        - Fixes background visuals of wine glasses
+        - Increases usable surface area of blue glass facade
+        - Fixes minor misshaped window reflections
+        - Fixes wine glasses window reflection strength mismatch with blue glass facade
+        - Fixes window reflections over snow
+  - fix: |
+      cbniteclub_n
+        - Fixes and polishes door, window and billboard lights
+        - Increases usable surface area of blue glass facade
+        - Adds lights for red symbols billboard
+        - Adds lights for blue window facade
+        - Removes superfluous alpha channel
+  - fix: |
+      cbniteclub_dn
+        - Fixes and polishes door, window and billboard lights
+        - Increases usable surface area of blue glass facade
+        - Adds lights for red symbols billboard
+        - Adds lights for blue window facade
+        - Improves damage visuals on lights
+  - fix: |
+      cbniteclub_en, cbniteclub_rn, cbniteclub_esn, cbniteclub_rsn
+        - Fixes incorrect night light
+  - fix: |
+      cbniteclub_ng
+        - Fixes light artifacts around window barricades
+        - Fixes and polishes door, window and billboard lights
+        - Increases usable surface area of blue glass facade
+        - Adds lights for red symbols billboard
+        - Adds lights for blue window facade
+  - fix: |
+      cbniteclub_dng
+        - Fixes light artifacts around window barricades
+        - Fixes and polishes door, window and billboard lights
+        - Increases usable surface area of blue glass facade
+        - Adds lights for red symbols billboard
+        - Adds lights for blue window facade
+        - Improves damage visuals on lights
+  - fix: |
+      cbniteclub_sn
+        - Fixes and polishes door, window and billboard lights
+        - Increases usable surface area of blue glass facade
+        - Adds lights for red symbols billboard
+        - Adds lights for blue window facade
+        - Improves snow visuals on lights
+  - fix: |
+      cbniteclub_dsn
+        - Fixes and polishes door, window and billboard lights
+        - Increases usable surface area of blue glass facade
+        - Adds lights for red symbols billboard
+        - Adds lights for blue window facade
+        - Improves damage visuals on lights
+        - Improves snow visuals on lights
+  - fix: |
+      cbniteclub_sng
+        - Fixes light artifacts around window barricades
+        - Fixes and polishes door, window and billboard lights
+        - Increases usable surface area of blue glass facade
+        - Adds lights for red symbols billboard
+        - Adds lights for blue window facade
+        - Improves snow visuals on lights
+  - fix: |
+      cbniteclub_dsng
+        - Fixes light artifacts around window barricades
+        - Fixes and polishes door, window and billboard lights
+        - Increases usable surface area of blue glass facade
+        - Adds lights for red symbols billboard
+        - Adds lights for blue window facade
+        - Improves damage visuals on lights
+        - Improves snow visuals on lights
+
+labels:
+  - art
+  - civilian
+  - minor
+  - optional
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2512
+
+authors:
+  - xezon
