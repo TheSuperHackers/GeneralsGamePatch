@@ -56856,19 +56856,21 @@ UK: "Стріляє протиракетним лазером"
 END
 
 // Patch104p @fix xezon 20/08/2023 Improves wording for US, ES, IT, BP. (#2261)
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Heavy lift transport\nCan upgrade with base defense structures and Napalm Bomb\n\nStrong vs. tanks, light vehicles\nWeak vs. rocket soldiers, anti-air defenses" (#2713)
+// Patch104p @fix dmgreen 27/03/2025 Changes ES, IT, KO, ZH, BP, PL strings to reflect US change (#2713)
 
 CONTROLBAR:ToolTipChinaBuildHelix
-US: "Heavy lift transport\nCan upgrade with base defense structures and Napalm Bomb\n\nStrong vs. tanks, light vehicles\nWeak vs. rocket soldiers, anti-air defenses"
+US: "Heavy lift transport\nCan upgrade with base defense structures and Napalm Bombs\n\nStrong vs. tanks, light vehicles\nWeak vs. rocket soldiers, anti-air defenses"
 DE: "Transporthubschrauber.\nKann mit Abwehreinrichtungen und Napalmbomben bestückt werden.\n\nStärken: Panzer und leichte Fahrzeuge\nSchwächen: Raketen-Bots und Flugabwehrgeschütze"
 FR: "Véhicule de transport lourd.\nPeut être amélioré avec des bombes au napalm et des structures défensives standard.\n\nEfficace contre les chars et les véhicules légers.\nVulnérable face à l'infanterie armée de missiles et aux défenses antiaériennes."
-ES: "Transporte elevador pesado.\nSe puede actualizar con estructuras de defensa de base y bomba de napalm.\n\nPotente contra tanques, vehículos ligeros\nDébil contra infantería con misiles, defensas antiaéreas"
-IT: "Trasporto pesante.\nPuò essere potenziato con strutture di difesa della base e bomba al napalm.\n\nEfficace contro carri armati, veicoli leggeri.\nDebole contro fanteria con missili, difese contraerea."
-KO: "대형 수송기입니다.\n기지 방어 시설과 네이팜탄으로 업그레이드합니다.\n\n탱크,경장비 차량에 강합니다.\n미사일로 무장한 보병, 대공 방어 시설에 약합니다."
-ZH: "重型運輸機。\n可以升級防禦、汽油彈。\n\n對坦克、輕型載具傷害嚴重\n對裝甲飛彈步兵、制空防禦傷害輕微"
-BP: "Transporte Aéreo Pesado.\nPode ser atualizado com Estruturas de Defesa de Base e Bomba de Napalm.\n\nEficiente contra Tanques, Veículos Leves\nVulnerável contra Infantaria com Mísseis, Defesas Antiaéreas"
-PL: "Ciężki transportowiec.\nMożna go wyposażyć w jeden z trzech systemów obronnych i bombę napalmową.\n\nSilny przeciwko czołgom, lekkim pojazdom\nSłaby przeciwko piechocie piechocie rakietowej, obronie przeciwlotniczej"
-RU: "Тяжелый транспортный вертолёт\nМожет быть улучшен для обороны или поддержки, а также для сброса Бомб с Напалмом\n\nЭффективен против танков и легкой пехоты\nСлаб против пехоты вооруженной ракетами и систем ПВО"
-AR: "ﻞﯿﻘﺜﻟا ﺪﻌﺼﻤﻟا ﻞﻘﻧ\nﻢﻟﺎﺑﺎﻨﻟا ﺔﻠﺒﻨﻗو ﺔﯿﺳﺎﺳﻷا عﺎﻓﺪﻟا ﺐﯿﻛاﺮﺘﺑ تﺎﯿﻗﺮﺗ\n\nﺔﻔﯿﻔﺨﻟا تﺎﺑﺮﻌﻟا و تﺎﺑﺎﺑﺪﻟا ﺪﺿ يﻮﻗ\nيﻮﺠﻟا عﺎﻓﺪﻟاو ﻲﺟ ﻲﺑ رﻷا ﺦﻳراﻮﺻ ﺪﺿ ﻒﯿﻌﺿ"
+ES: "Transporte pesado\nSe puede mejorar con estructuras de defensa de base y bombas de napalm\n\nFuerte contra tanques, vehículos ligeros\nDébil contra soldados con cohetes, defensas antiaéreas"
+IT: "Trasporto pesante\nPuò essere potenziato con strutture di difesa di base e bombe al napalm\n\nForte contro carri armati, veicoli leggeri\nDebole contro soldati missilistici, difese antiaeree."
+KO: "중량물 운반\n기지 방어 구조물 및 나팜탄으로 업그레이드 가능\n\n전차, 경차량에 강함\n로켓병, 대공방어에 약함."
+ZH: "重型運輸\n可以升級基地防禦結構和凝固汽油彈\n\n對抗坦克、輕型車輛較強\n對抗火箭兵、防空防禦較弱"
+BP: "Transporte de carga pesada\nPode ser atualizado com estruturas de defesa de base e bombas de napalm\n\nForte contra tanques, veículos leves\nFraco contra soldados de foguetes, defesas antiaéreas"
+PL: "Ciężki transportowiec\nMożna go ulepszyć w systemy obronne i bombę napalmową\n\nSilny przeciwko czołgom, lekkim pojazdom\nSłaby przeciwko piechocie rakietowej, obronie przeciwlotniczej"
+RU: "Тяжелый транспортный вертолёт\nМожно установить защитные сооружения и Бомбы с напалмом\n\nЭффективен против танков и лёгкой пехоты\nСлаб против пехоты вооруженной ракетами и систем ПВО базы"
+AR: "Heavy lift transport\nCan upgrade with base defense structures and Napalm Bombs\n\nStrong vs. tanks, light vehicles\nWeak vs. rocket soldiers, anti-air defenses"
 UK: "Важкий транспортний вертоліт\nМожуть бути встановлені захисні споруди та Бомби з напалмом\n\nСильний проти танків та легкої піхоти\nСлабкий проти піхоти озброєної ракетами та систем ППО бази"
 END
 
@@ -96855,9 +96857,9 @@ KO: "중장비를 수송합니다.\n기지 방어 시설과 핵폭탄으로 업�
 ZH: "重型運輸機。\n可以升級基地防禦、核彈\n\n對坦克、輕型載具傷害嚴重\n對裝甲飛彈步兵、制空防禦傷害輕微"
 BP: "Transporte Aéreo Pesado.\nPode ser atualizado com Estruturas de Defesa de Base e Bomba de Nuclear.\n\nEficiente contra Tanques, Veículos Leves\nVulnerável contra Infantaria com Mísseis, Defesas Antiaéreas"
 PL: "Ciężki transportowiec szturmowy.\nMożna go wyposażyć w jeden z trzech systemów obronnych i bombę nuklearną\n\nSilny przeciwko czołgom, lekkim pojazdom\nSłaby przeciwko piechocie piechocie rakietowej, obronie przeciwlotniczej"
-RU: "Тяжелый транспортный вертолёт\nМожет быть улучшен для оборонительных или вспомогательных целей, а также для сброса Ядерных бомб\n\nЭффективен против танков и легкой пехоты\nСлаб против пехоты вооруженной ракетами и систем ПВО баз"
+RU: "Тяжелый транспортный вертолёт\nМожно установить защитные сооружения и Ядерные бомбы\n\nЭффективен против танков и легкой пехоты\nСлаб против пехоты вооруженной ракетами и систем ПВО баз"
 AR: "ﻞﯿﻘﺜﻟا ﺪﻌﺼﻤﻟا ﻞﻘﻧ\nﺔﯿﺳﺎﺳﻷا عﺎﻓﺪﻟا ﺐﯿﻛاﺮﺘﺑ تﺎﯿﻗﺮﺗ\nﺔﻳوﻮﻨﻟا ﺔﻠﺒﻨﻘﻟﺎﺑ ﻒﺼﻘﻟاو\n\nﺔﻔﯿﻔﺨﻟا تﺎﺑﺮﻌﻟا و تﺎﺑﺎﺑﺪﻟا ﺪﺿ يﻮﻗ\nةﺎﺸﻤﻟا ﺦﻳراﻮﺻ مﺎﻣأ ﻒﯿﻌﺿ\nﺔﻳﻮﺠﻟا تادﺎﻀﻤﻟا و"
-UK: "Вантажний транспорт\nПокращується оборонними спорудами та ядерною бомбою\n\nСильний проти танків, легкої техніки\nСлабкий проти озброєної ракетами піхоти, протиповітряної оборони"
+UK: "Важкий транспортний вертоліт\nПокращується оборонними спорудами та ядерною бомбою\n\nСильний проти танків, легкої техніки\nСлабкий проти озброєної ракетами піхоти, протиповітряної оборони"
 END
 
 MAP:CHI01xListeningPostHint01
@@ -97804,9 +97806,9 @@ KO: "대형 공격 수송기입니다.\n기지 방어 시설과 네이팜탄으�
 ZH: "重型運輸機。\n可以升級基地防禦、油氣彈。\n\n對坦克、輕型載具傷害嚴重\n對裝甲飛彈步兵、制空防禦傷害輕微"
 BP: "Transporte de assalto aéreo pesado.\nPode ser atualizado com Bunker e Bomba de Napalm.\n\nEficiente contra Tanques, Veículos Leves\nVulnerável contra Infantaria com Mísseis, Defesas Antiaéreas"
 PL: "Ciężki transportowiec.\nMożna go wyposażyć w bunkier i bombę nuklearną.\n\nSilny przeciwko czołgom, lekkim pojazdom\nSłaby przeciwko piechocie piechocie rakietowej, obronie przeciwlotniczej"
-RU: "Тяжёлый штурмовой транспорт\nПроизводится с Бункером, а также может быть вооружен бомбами с Напалмом\n\nЭффективен против танков и легкой техники\nСлаб против пехоты вооруженной ракетами и систем ПВО баз"
+RU: "Тяжелый штурмовой вертолёт\nМожно установить Бункер и Бомбы с напалмом\n\nЭффективен против танков и легкой техники\nСлаб против пехоты вооруженной ракетами и систем ПВО баз"
 AR: "ﻞﯿﻘﺜﻟا مﻮﺠﮫﻟا ﻞﻘﻧ ﺪﻌﺼﻣ\nﻢﻟﺎﺑﺎﻨﻟا ﺔﻠﺒﻨﻗو ﺔﯿﺳﺎﺳﻷا تﺎﻋﺎﻓﺪﻟا ﺐﯿﻛﺮﺘﺑ تﺎﯿﻗﺮﺘﻟا\n\nتﺎﺑﺮﻌﻟاو تﺎﺑﺎﺑﺪﻟا ﺪﺿ ﺔﻳﻮﻗ\nﺔﻳﻮﺠﻟا تﺎﻋﺎﻓﺪﻟا ﺪﺿو ةﺎﺸﻤﻟا ﺦﻳراﻮﺻ ﺪﺿ ﺔﻔﯿﻌﺿ"
-UK: "Важкий штурмовий транспорт\nПокращується бункером та напалмовою бомбою\n\nСильний проти танків, легкої техніки\nСлабкий проти озброєної ракетами піхоти, протиповітряної оборони"
+UK: "Важкий штурмовий вертоліт\nПокращується бункером та напалмовою бомбою\n\nСильний проти танків, легкої техніки\nСлабкий проти озброєної ракетами піхоти, протиповітряної оборони"
 END
 
 // Patch104p @fix xezon 09/07/2023 Fixes missing unit name specialization for DE. (#2088)
