@@ -1,0 +1,19 @@
+---
+date: 2025-03-27
+
+title: Fixes inaccurate tool tip strings of USA Pathfinder
+
+changes:
+  - fix: The tool tip strings of the USA Pathfinder no longer incorrecly claim that the unit is revealed when shooting.
+  
+labels:
+  - minor
+  - text
+  - usa
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2697
+
+authors:
+  - dmgreen

@@ -31436,20 +31436,23 @@ AR: "ﻪﺟﻮﻣ صﺎﺧ مﻮﺠھ مﺪﺨﺘﺴﻳ\nﺔﻌﻳﺮﺴﻟا �
 UK: "Використовує спеціальну атаку з лазерним наведенням\n\nЕфективний проти танків, літаків\nСлабкий проти піхоти"
 END
 
+// Patch104p @fix dmgreen 27/03/2025 Changes US from "Camouflaged while not moving or shooting. Spots hidden enemies\n\nStrong vs. infantry\nWeak vs. light vehicles, scouts" (#2697)
+// Patch104p @fix dmgreen 27/03/2025 Changes DE, FR, ES, IT, KO, ZH, BP, PL strings to reflect US change (#2697)
+
 // context: Appears when you mouse over the Pathfinder cameo on the USA Barracks
 CONTROLBAR:ToolTipUSABuildPathFinder
-US: "Camouflaged while not moving or shooting. Spots hidden enemies\n\nStrong vs. infantry\nWeak vs. light vehicles, scouts"
-DE: "Ist für seine Gegner nur sichtbar, wenn er feuert oder sich bewegt. Entdeckt feindliche Einheiten.\n\nStärken: Cyborgs\nSchwächen: Leichte Fahrzeuge und Späher"
-FR: "Camouflé lorsqu'il est immobile ou ne tire pas. Repère les ennemis cachés.\n\nEfficace contre l'infanterie.\nVulnérable face aux véhicules légers et aux éclaireurs."
-ES: "Camuflado mientras no se mueve o dispara. Detecta enemigos ocultos.\n\nPotente contra infantería\nDébil contra vehículos ligeros, exploradores"
-IT: "Mimetizzato quando non spara e non si muove. Localizza i nemici mimetizzati.\n\nEfficace contro fanteria.\nDebole contro veicoli leggeri, esploratori."
-KO: "이동, 사격중이 아닐 때 위장합니다. 숨어 있는 적을 보이게 합니다\n\n보병에 강합니다.\n경장비 차량, 정찰 유닛에 약합니다."
-ZH: "在非移動或射擊時偽裝隱藏。 發現隱藏敵軍。\n\n對步兵傷害嚴重\n對輕型載具、偵查兵傷害輕微"
-BP: "Unidade camuflada quando não está se movendo ou atacando. Identifica inimigos escondidos.\n\nEficiente contra Infantaria\nVulnerável contra Veículos Leves, Unidades de Reconhecimento"
-PL: "Zamaskowany, gdy nie porusza się ani nie strzela. Widzi ukrytych wrogów.\n\nSilny przeciwko piechocie\nSłaby przeciwko lekkim pojazdom, zwiadowcom"
-RU: "Замаскирован, пока не движется. Обнаруживает замаскированные объекты и войска\n\nЭффективен против пехоты\nСлаб против легкой техники и разведчиков"
+US: "Camouflaged while not moving. Spots hidden enemies\n\nStrong vs. infantry\nWeak vs. light vehicles, scouts"
+DE: "Ist für seine Gegner nur sichtbar, wenn er sich bewegt. Erkennt versteckte Feinde\n\nStark gegen Infanterie\nSchwach gegen leichte Fahrzeuge, Späher"
+FR: "Camouflé lorsqu'il est immobile. Repère les ennemis cachés\n\nFort contre l'infanterie\nFaible contre les véhicules légers, les éclaireurs."
+ES: "Camuflado mientras no se mueve. Detecta enemigos ocultos\n\nPotente contra infantería\nDébil contra vehículos ligeros y exploradores"
+IT: "Mimetizzato mentre è fermo. Individua i nemici nascosti\n\nForte contro la fanteria\nDebole contro veicoli leggeri, esploratori."
+KO: "움직이지 않고 위장함. 숨은 적을 발견합니다\n\n보병에 강함\n경차량, 정찰병에 약함."
+ZH: "不動時進行偽裝。發現隱藏的敵人\n\n與步兵相比強大\n與輕型車輛、偵察兵相比實力較弱"
+BP: "Camuflado mesmo sem se mover. Detecta inimigos escondidos\n\nForte vs. infantaria\nFraco vs. veículos leves, batedores"
+PL: "Zakamuflowany, choć się nie porusza. Wykrywa ukrytych wrogów\n\nSilny przeciwko piechocie\nSłaby przeciwko lekkim pojazdom, zwiadowcom"
+RU: "Замаскирован, пока не движется. Обнаруживает замаскированные объекты и войска\n\nСилён против пехоты\nСлаб против легкой техники, разведчиков"
 AR: "ﺔﻳدﺎﻌﻤﻟا ةﺎﺸﻤﻟا تاﺪﺣو ﺺﻨﻘﺑ مﻮﻘﻳ\nلﻼﺧ ﻦﻣ ﻲﻔﺨﺘﻟﺎﺑ مﻮﻘﻳو\nﺺﻨﻘﻟا تﺎﯿﻠﻤﻋ وأ تﺎﺒﺴﻟا\n\nةﺎﺸﻤﻟا ﺪﺿ لﺎﻌﻓ\nﺔﻔﯿﻔﺨﻟا تﺎﺑﺮﻌﻟا ﺪﺿ ﻒﯿﻌﺿ\nﺔﻓﺎﺸﻜﻟا تاﺪﺣﻮﻟا و"
-UK: "Закамуфльований, поки не рухається. Виявляє прихованих ворогів\n\nСильний проти піхоти\nСлабкий проти легкої техніки, розвідників"
+UK: "Замаскований, доки не рухається. Виявляє замасковані об'єкти та війська\n\nСильні проти піхоти\nСлабкі проти легкої техніки, розвідників"
 END
 
 // Patch104p @fix xezon 22/08/2023 Removes "Build Limit" sentence from all language strings. (#2271) (#2519)
