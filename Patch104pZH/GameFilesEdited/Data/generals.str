@@ -2495,7 +2495,7 @@ BP: "MULTIJOGADOR"
 PL: "Gra wieloosobowa"
 RU: "СЕТЕВАЯ ИГРА"
 AR: "دﺪﻌﺘﻤﻟا ﺐﻌﻠﻟا"
-UK: "МЕРЕЖОВА ГРА"
+UK: "МЕРЕЖЕВА ГРА"
 END
 
 // context: Multiplayer game name (not to be confused with the player name)
@@ -46740,7 +46740,7 @@ BP: "General Infantaria - China"
 PL: "Generał piechoty Chin"
 RU: "Пехотный Генерал Китая"
 AR: "China Infantry General"
-UK: "Піхотний Китайський Генерал"
+UK: "Піхотний Генерал Китаю"
 END
 
 SIDE:ChinaNukeGeneral
