@@ -2437,7 +2437,7 @@ END
 // context: Warning message. The player has placed too many beacons and he cannot place any more.
 GUI:TooManyBeacons
 US: "Sorry, you can't place any more Beacons"
-DE: "Du kannst keine weiteren Notizen platzieren."
+DE: "Sie können keine weiteren Notizen platzieren."
 FR: "Vous ne pouvez plus placer de balise."
 ES: "Lo siento, no puedes colocar más señales."
 IT: "Purtroppo non puoi posizionare altri radiofari."
@@ -3376,7 +3376,7 @@ END
 //          that he has reached the limit of units that he can select at once
 GUI:MaxSelectionSize
 US: "You can only select %d units at one time"
-DE: "Du kannst maximal %d Einheiten gleichzeitig auswählen."
+DE: "Sie können maximal %d Einheiten gleichzeitig auswählen."
 FR: "Vous ne pouvez sélectionner que %d unités à la fois."
 ES: "Sólo puedes seleccionar %d unidades a la vez."
 IT: "Puoi selezionare al massimo %d unità alla volta."
@@ -3458,7 +3458,7 @@ END
 //          can not continue because of discrepancies in the data between the different player machines
 GUI:DesyncText
 US: "C&C Generals Zero Hour has gone out of synch with the other game participants. It is possible that the other participants have modified their versions. C&C Generals Zero Hour cannot continue, however, you may add players to your Ignore List from your Communicator if you choose not to play with them in the future"
-DE: "C&C Generäle - Die Stunde Null läuft nicht mehr synchron. Möglicherweise haben einige Mitspieler ihre Version des Spiels verändert. C&C Generäle - Die Stunde Null kann nicht fortgesetzt werden. Wenn du mit einigen Spielern nicht mehr spielen willst, trage sie in deine Ignorieren-Liste ein."
+DE: "C&C Generäle - Die Stunde Null läuft nicht mehr synchron. Möglicherweise haben einige Mitspieler ihre Version des Spiels verändert. C&C Generäle - Die Stunde Null kann nicht fortgesetzt werden. Wenn Sie mit einigen Spielern nicht mehr spielen möchten, tragen Sie sie in Ihre Ignorieren-Liste ein."
 FR: "C&C Generals - Heure H n'est plus synchronisé avec les autres participants. Ces derniers ont peut-être modifié leur version. C&C Generals - Heure H ne peut continuer. Toutefois, vous pouvez ajouter des joueurs à votre liste Ignorer, à partir de votre Compad si vous ne souhaitez pas rejouer avec eux à l'avenir."
 ES: "C&C Generals Zero Hour ya no está sincronizado con los demás participantes de la partida. Es posible que los demás hayan modificado sus versiones. Sin embargo, C&C Generals Zero Hour no puede continuar; puedes añadir jugadores a tu lista de Ignorados desde el Comunicador si optas por no jugar con ellos en el futuro."
 IT: "C&C Generals Zero Hour ha perso la sincronizzazione con gli altri partecipanti. È possibile che questi ultimi abbiano modificato le loro versioni. C&C Generals Zero Hour non è in grado di continuare. Ricorda che puoi inserire dei giocatori nella Lista ignorati nel Comunicatore, se non desideri più giocare con loro in futuro."
@@ -3794,7 +3794,7 @@ END
 // context: Congratulation message for the winner at the end of a match
 GUI:YouAreVictorious
 US: "You are Victorious!"
-DE: "Du hast gewonnen!"
+DE: "Sie haben gewonnen!"
 FR: "Vous avez gagné !"
 ES: "¡Has conseguido la victoria!"
 IT: "Hai vinto!"
@@ -3810,7 +3810,7 @@ END
 // context: Informative message for the loser at the end of a match
 GUI:YouHaveBeenDefeated
 US: "You have been Defeated"
-DE: "Du hast verloren!"
+DE: "Sie haben verloren!"
 FR: "Vous avez échoué..."
 ES: "Te han derrotado"
 IT: "Sei stato sconfitto."
@@ -4082,7 +4082,7 @@ END
 // context: Online locale selection popup dialog. (Locale in the meaning of Country)
 GUI:LocaleSelect
 US: "SELECT YOUR LOCALE"
-DE: "Wähle dein Land"
+DE: "Wählen Sie Ihr Land"
 FR: "Sélectionnez votre pays"
 ES: "Elegir País"
 IT: "SELEZIONA NAZIONE"
@@ -4634,7 +4634,7 @@ END
 // context: Verification dialog
 GUI:Confirm
 US: "Are you sure?"
-DE: "Bist du sicher?"
+DE: "Sind Sie sicher?"
 FR: "Vraiment ?"
 ES: "¿Estás seguro?"
 IT: "Sei sicuro?"
@@ -4868,7 +4868,7 @@ END
 //          when the player moves over the Skirmish Game button in the Main Menu.
 TOOLTIP:Skirmish
 US: "Enter Skirmish setup menu"
-DE: "Stürze dich in ein Gefecht."
+DE: "Stürzen Sie sich in ein Gefecht."
 FR: "Afficher le menu Escarmouche."
 ES: "Entrar en el menú de configuración Escaramuza."
 IT: "Accedi al menu di impostazione della schermaglia."
@@ -4884,7 +4884,7 @@ END
 // context: This particular one is shows up when the player move over the Internet button
 TOOLTIP:Online
 US: "Click to join C&C Generals Zero Hour Online. Test your skills against opponents from around the world!"
-DE: "Klicke, um dich bei Generäle - Die Stunde Null Online anzumelden. Danach kannst du gegen Spieler aus aller Welt antreten."
+DE: "Klicken Sie, um sich bei Generäle - Die Stunde Null Online anzumelden. Danach können Sie gegen Spieler aus aller Welt antreten."
 FR: "Cliquez ici pour rejoindre Generals - Heure H en ligne. Affrontez des adversaires du monde entier !"
 ES: "Haz clic para unirte a C&C Generals Zero Hour Online. ¡Prueba tus habilidades contra oponentes de todo el mundo!"
 IT: "Clicca per entrare in C&C Generals Zero Hour Online. Metti alla prova la tua abilità contro avversari di tutto il mondo!"
@@ -4900,7 +4900,7 @@ END
 // context: This particular one is shows up when the player move over the Network button
 TOOLTIP:Network
 US: "Click to Join the Network Lobby. Test your mettle against your friends over a Local Area Network"
-DE: "Rufe die Netzwerk-Lobby auf und kämpfe mit deinen Freunden in einem LAN um die Weltherrschaft."
+DE: "Rufen Sie die Netzwerk-Lobby auf und kämpfen Sie mit Ihren Freunden in einem LAN um die Weltherrschaft."
 FR: "Cliquez ici pour rejoindre la salle du réseau. Affrontez vos amis grâce à un réseau local."
 ES: "Haz clic para entrar en la Sala de Red. Demuestra lo que vales contra tus amigos en una red de área local."
 IT: "Clicca per entrare nella lobby di rete. Misura il tuo coraggio contro i tuoi amici su una rete locale."
@@ -4984,7 +4984,7 @@ END
 // context: Help text for the map preview window
 TOOLTIP:MapPreviewWindow
 US: "Map previews can give you a leg up on the battle to come. Make sure to look for your Supply Docks & Tech Buildings. You may also choose your starting point"
-DE: "Informiere dich über die bevorstehende Schlacht, mögliche Nachschublager und Hightech-Gebäude oder wähle deinen Startpunkt."
+DE: "Informieren Sie sich über die bevorstehende Schlacht, mögliche Nachschublager und Hightech-Gebäude oder wählen Sie Ihren Startpunkt."
 FR: "Les aperçus des cartes vous informent du combat qui se prépare. Veillez à jeter un coup d'oeil à vos bâtiments de ravitaillement et de recherches. Vous pouvez également choisir votre point de départ."
 ES: "Las previsualizaciones del mapa te pueden dar ventaja en el próximo combate. Asegúrate de buscar tus muelles de suministros y edificios de tecnología. También puedes escoger tu punto de partida."
 IT: "Le anteprime della mappa possono fornirti alcune indicazioni sulla battaglia che ti attende. Controlla le zone di rifornimento e le strutture tecnologiche. Puoi anche scegliere la posizione di partenza."
@@ -5016,7 +5016,7 @@ END
 // context: Help text for the accept button
 TOOLTIP:AcceptButton
 US: "Accept your current choice"
-DE: "Bestätige deine Entscheidung."
+DE: "Bestätigen Sie Ihre Entscheidung."
 FR: "Acceptez votre sélection."
 ES: "Acepta tu elección actual."
 IT: "Accetta la scelta attuale."
@@ -5032,7 +5032,7 @@ END
 // context: Help text to the save replay button
 TOOLTIP:CopyReplayToDesktop
 US: "Copy selected Replay file to your Desktop"
-DE: "Kopiere die gewählte Wiederholungsdatei auf deinen Desktop."
+DE: "Kopieren Sie die gewählte Wiederholungsdatei auf Ihren Desktop."
 FR: "Copiez le ralenti sélectionné sur votre Bureau."
 ES: "Copia el archivo de Repetición a tu Escritorio."
 IT: "Copia sul desktop il file del replay selezionato."
@@ -5148,7 +5148,7 @@ END
 // context: Used to set your starting position
 TOOLTIP:StartPosition
 US: "Starting Position"
-DE: "Bestimme die Position deiner Kommandozentrale."
+DE: "Bestimmen Sie die Position Ihrer Kommandozentrale."
 FR: "Définissez votre point de départ."
 ES: "Posición Inicial."
 IT: "Posizione iniziale."
@@ -5266,7 +5266,7 @@ END
 // context:Used to indicate map starting locations
 TOOLTIP:StartLocation
 US: "Starting position"
-DE: "Startposition. Klicke, um diese als deine Startposition auf der Karte auszuwählen."
+DE: "Startposition. Klicken Sie, um diese als Ihre Startposition auf der Karte auszuwählen."
 FR: "Définissez votre point de départ. Pour cela, cliquez sur l'emplacement de la carte de votre choix."
 ES: "Posición inicial."
 IT: "Posizione iniziale."
@@ -5330,7 +5330,7 @@ END
 // context: Help text for the enter key box
 TOOLTIP:AssignHotkey
 US: "Enter your new command Hotkey here"
-DE: "Gib hier deine neue Schnelltaste ein."
+DE: "Geben Sie hier Ihre neue Schnelltaste ein."
 FR: "Saisissez votre nouveau raccourci clavier ici."
 ES: "Introduce tu nueva tecla directa para el comando."
 IT: "Inserisci qui il nuovo tasto per il comando."
@@ -5362,7 +5362,7 @@ END
 // context: Help text for the assign key button
 TOOLTIP:AssignButton
 US: "Assigns your chosen Hotkey command"
-DE: "Bestätige deine Entscheidung."
+DE: "Bestätigen Sie Ihre Entscheidung."
 FR: "Assigne le raccourci clavier de votre choix."
 ES: "Asigna el comando a la tecla que has elegido."
 IT: "Assegna il tasto scelto per il comando."
@@ -5410,7 +5410,7 @@ END
 // context: Help text for the select Audio Provider button
 TOOLTIP:ProviderSelect
 US: "Select the 3-D Audio Provider. The game has already chosen your optimal set up but you may manually change if you prefer"
-DE: "Wähle einen 3D Audio-Provider aus. Das Spiel hat bereits die optimalen Einstellungen gewählt. Du kannst diese natürlich jederzeit ändern."
+DE: "Wähle einen 3D Audio-Provider aus. Das Spiel hat bereits die optimalen Einstellungen gewählt. Sie können diese natürlich jederzeit ändern."
 FR: "Sélectionnez le périphérique audio 3D. Le jeu a déjà choisi la configuration optimale mais vous pouvez la modifier manuellement."
 ES: "Elige el Proveedor de Audio 3D. El juego ya ha seleccionado tu configuración óptima, pero puedes cambiarla manualmente si quieres."
 IT: "Seleziona la fonte audio 3D. Il gioco ha preselezionato l'impostazione ideale, ma se preferisci puoi modificarla manualmente."
@@ -5426,7 +5426,7 @@ END
 // context: Help text for the Speaker configuration button
 TOOLTIP:SpeakerSelect
 US: "Select your speaker setup. The game has already chosen your optimal set up but you may manually change if you prefer"
-DE: "Wähle die Lautsprecher-Konfiguration. Das Spiel hat bereits die optimalen Einstellungen gewählt. Du kannst diese natürlich jederzeit ändern."
+DE: "Wähle die Lautsprecher-Konfiguration. Das Spiel hat bereits die optimalen Einstellungen gewählt. Sie können diese natürlich jederzeit ändern."
 FR: "Sélectionnez la configuration de vos haut-parleurs. Le jeu a déjà choisi la configuration optimale mais vous pouvez la modifier manuellement."
 ES: "Elige la configuración del altavoz. El juego ya ha seleccionado tu configuración óptima, pero puedes cambiarla manualmente si quieres."
 IT: "Seleziona la configurazione delle casse. Il gioco ha preselezionato l'impostazione ideale, ma se preferisci puoi modificarla manualmente."
@@ -5444,7 +5444,7 @@ END
 // context: Used on the login screen for Online play.
 TOOLTIP:DontUseAccount
 US: "Log in without using your C&C Generals Zero Hour Online Account. You will not be able to access your Player Persona or Communicator"
-DE: "Wenn du dich nicht mit deinem Generäle - Die Stunde Null Online-Account anmeldest, hast du keinen Zugriff auf Online Spiele und den Kommunikator."
+DE: "Wenn Sie sich nicht mit Ihrem Generäle - Die Stunde Null Online-Account anmelden, haben Sie keinen Zugriff auf Online-Spiele und den Kommunikator."
 FR: "Connectez-vous sans utiliser votre compte Generals -Heure H en ligne. Vous ne pourrez pas accéder à vos données personnelles de joueur ni à votre Compad."
 ES: "Iniciar sesión sin usar tu cuenta de C&C Generals Zero Hour Online. No podrás acceder a tu personalidad de jugador o tu Comunicador."
 IT: "Collegati senza usare l'account di C&C Generals Zero Hour Online. Non sarai in grado di accedere alle statistiche del giocatore o al Comunicatore."
@@ -5460,7 +5460,7 @@ END
 // context: Communicator button help text
 TOOLTIP:CommunicatorButton
 US: "Contact your buddies"
-DE: "Kontaktiere deine Buddys."
+DE: "Kontaktieren Sie Ihre Buddys."
 FR: "Contactez vos amis."
 ES: "Contacta con tus colegas."
 IT: "Contatta i tuoi amici."
@@ -5606,7 +5606,7 @@ END
 // context: Tooltip over the battle honors listbox on the player stat screen
 TOOLTIP:BattleHonors
 US: "The Battle Honors a player has received\nBattle Honors are won by achieving certain goals in solo or multiplayer"
-DE: "Die Auszeichnungen eines Spielers. Wenn du im Einzelspieler- oder Multiplayer-Modus bestimmte Ziele erreichst, bekommst du Auszeichnungen."
+DE: "Die Auszeichnungen eines Spielers. Wenn Sie im Einzelspieler- oder Multiplayer-Modus bestimmte Ziele erreichen, bekommen Sie Auszeichnungen."
 FR: "Les distinctions qu'un joueur a reçues en accomplissant certains objectifs en mode Solo ou Multijoueur."
 ES: "Las condecoraciones del jugador\nSe consiguen al alcanzar objetivos en modo de un jugador o multijugador."
 IT: "Le onorificenze ricevute da un giocatore.\nPuoi ottenere onorificenze raggiungendo determinati obiettivi nella modalità a giocatore singolo o in multigiocatore."
@@ -5622,7 +5622,7 @@ END
 // context: Tooltip displayed when the user mouses over the Streak 3 battle honor icon
 TOOLTIP:BattleHonorStreak3
 US: "Streak Honor\nPlayer has won 3 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 3 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 3 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 3 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 3 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 3 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -5638,7 +5638,7 @@ END
 // context: Tooltip displayed when the user mouses over the Streak 10 battle honor icon
 TOOLTIP:BattleHonorStreak10
 US: "Streak Honor\nPlayer has won 10 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 10 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 10 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 10 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 10 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 10 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -5832,7 +5832,7 @@ END
 // context: Tooltip for the set locale button on the Myinfo Screen
 TOOLTIP:SetLocale
 US: "Change your current Locale selection"
-DE: "Ändere deine aktuelle Ländereinstellung."
+DE: "Ändern Sie Ihre aktuelle Ländereinstellung."
 FR: "Changez le pays actuellement sélectionné."
 ES: "Cambia el país seleccionado."
 IT: "Modifica la nazione attuale."
@@ -5848,7 +5848,7 @@ END
 // context: On my info screen, Prompt the user whether or not they'd like to delete their current gamespy account
 TOOLTIP:DeleteAccount
 US: "Delete your current account"
-DE: "Lösche deinen aktuellen Account."
+DE: "Löschen Sie Ihren aktuellen Account."
 FR: "Supprimez votre compte actuel."
 ES: "Borra tu cuenta actual."
 IT: "Elimina l'account attuale."
@@ -5898,7 +5898,7 @@ END
 // context: Prompt re-assuring that the user wants to delete their account
 GUI:AreYouSureDeleteAccount
 US: "Are you sure you want to permanently delete your account and all your saved statistics?"
-DE: "Willst du deinen Account und die gespeicherten Statistiken wirklich löschen?"
+DE: "Möchten Sie Ihren Account und die gespeicherten Statistiken wirklich löschen?"
 FR: "Voulez-vous vraiment supprimer définitivement votre compte et toutes vos statistiques sauvegardées ?"
 ES: "¿Seguro que quieres borrar para siempre tu cuenta y todas tus estadísticas guardadas?"
 IT: "Vuoi davvero eliminare in modo permanente il tuo account e tutte le statistiche salvate?"
@@ -6307,7 +6307,7 @@ END
 //          This message is displayed in the chat window of the multiplayer lobby.
 GUI:LocalPlayerNoMap
 US: "You do not have the map %ls"
-DE: "Dir fehlt die Karte %ls."
+DE: "Ihnen fehlt die Karte %ls."
 FR: "Vous n'avez pas la carte %ls."
 ES: "No tienes el mapa %ls."
 IT: "Non hai la mappa %ls."
@@ -6324,7 +6324,7 @@ END
 //          This message is displayed in the chat window of the multiplayer lobby.
 GUI:NeedMorePlayers
 US: "You need more player(s) to start the game"
-DE: "Du brauchst mehr Mitspieler, um das Spiel zu starten."
+DE: "Sie brauchen mehr Mitspieler, um das Spiel zu starten."
 FR: "D'autres joueurs sont nécessaires pour lancer la partie."
 ES: "Necesitas más jugadores para empezar la partida."
 IT: "Ti servono altri giocatori per iniziare la partita."
@@ -6341,7 +6341,7 @@ END
 //          This message is displayed in the chat window of the multiplayer lobby.
 GUI:NotifiedStartIntent
 US: "The other players have been notified that you want to start the game"
-DE: "Die anderen Spieler wissen jetzt, dass du das Spiel starten möchtest."
+DE: "Die anderen Spieler wissen jetzt, dass Sie das Spiel starten möchten."
 FR: "Les autres joueurs ont été prévenus que vous souhaitiez lancer la partie."
 ES: "Los otros jugadores están avisados de que quieres empezar la partida."
 IT: "Gli altri giocatori sanno che tu vuoi iniziare la partita."
@@ -7300,7 +7300,7 @@ END
 // context: The player tried to connect to the chat server but took too long
 GUI:GSDisconReason5
 US: "Login process has timed out. Please check your internet connection"
-DE: "Fehler bei der Anmeldung. Bitte überprüfe deine Internetverbindung."
+DE: "Fehler bei der Anmeldung. Bitte überprüfen Sie Ihre Internetverbindung."
 FR: "Temps de connexion écoulé. Veuillez vérifier votre connexion Internet."
 ES: "Se ha superado el tiempo de acceso. Por favor comprueba tu conexión a internet."
 IT: "Tempo esaurito per il collegamento. Verifica la connessione a Internet."
@@ -7317,7 +7317,7 @@ END
 //          and it must have a valid email address associated with them.
 GUI:GSDisconReason6
 US: "That nickname/email combo does not exist. If you want to create an account, click on Create Account"
-DE: "Spitzname oder E-Mail-Adresse nicht gefunden! Wenn du einen Account erstellen willst, klicke auf 'Account erstellen'."
+DE: "Spitzname oder E-Mail-Adresse nicht gefunden! Wenn Sie einen Account erstellen wollen, klicken Sie auf 'Account erstellen'."
 FR: "L'association Pseudo/E-mail n'existe pas. Pour créer un compte, cliquez sur Créer Compte."
 ES: "Ese apodo/email no existe. Si quieres crear una cuenta, haz clic en Crear cuenta."
 IT: "La combinazione soprannome/e-mail non esiste. Se vuoi creare un account, clicca su Crea account."
@@ -7527,7 +7527,7 @@ END
 // context: Failure to join a GameSpy chat room or game being hosted
 GUI:JoinFailedBannedFromRoom
 US: "Failed to join - you have been banned from the room"
-DE: "Anmeldung gescheitert - Du wurdest aus dem Raum verbannt."
+DE: "Anmeldung gescheitert - Sie wurden aus dem Raum verbannt."
 FR: "Accès impossible. Vous avez été banni de la salle."
 ES: "Error de acceso: te han vetado de esta sala."
 IT: "Ingresso fallito, sei stato bandito dalla stanza."
@@ -7559,7 +7559,7 @@ END
 // context: Failure to join a GameSpy chat room or game being hosted
 GUI:JoinFailedAlreadyInRoom
 US: "Failed to join - you are already in a room"
-DE: "Anmeldung gescheitert - Du bist schon in einem Raum."
+DE: "Anmeldung gescheitert - Sie sind schon in einem Raum."
 FR: "Accès impossible. Vous êtes déjà dans une salle."
 ES: "Error de acceso: ya estás en una sala."
 IT: "Ingresso fallito, sei già entrato in una stanza."
@@ -7639,7 +7639,7 @@ END
 // context: The room administrator has kicked the player from the chat room
 GUI:GSKicked
 US: "You were kicked from the room"
-DE: "Man hat dich aus dem Raum geworfen."
+DE: "Man hat Sie aus dem Raum geworfen."
 FR: "Vous avez été éjecté de la salle."
 ES: "Te han expulsado de la sala."
 IT: "Sei stato espulso dalla stanza."
@@ -7705,7 +7705,7 @@ END
 // context: You have to use a profile in order to be able to store friend lists
 GUI:GPNoProfile
 US: "You did not log in using a Profile. No Buddy information is available"
-DE: "Du hast dich ohne Profil angemeldet. Keine Buddy-Informationen verfügbar!"
+DE: "Sie haben sich ohne Profil angemeldet. Keine Buddy-Informationen verfügbar!"
 FR: "Vous ne vous êtes pas connecté avec un profil. Aucune info sur les amis disponible."
 ES: "Has entrado sin usar Perfil. No tienes disponible la información de tus colegas."
 IT: "Non ti sei collegato usando un profilo. Non sono disponibili informazioni sugli amici."
@@ -8002,7 +8002,7 @@ END
 // context: Warning to the player when he is low in money.
 GUI:NotEnoughMoneyToBuild
 US: "You don't have enough money to build that"
-DE: "Du hast zu wenig Geld!"
+DE: "Sie haben zu wenig Geld!"
 FR: "Vous n'avez pas assez d'argent pour construire cela."
 ES: "No tienes dinero para construir eso."
 IT: "Non hai abbastanza denaro per la costruzione."
@@ -8018,7 +8018,7 @@ END
 // context: Warning to the player when he is low in money.
 GUI:NotEnoughMoneyToUpgrade
 US: "You don't have enough money to make upgrade"
-DE: "Für dieses Upgrade fehlt dir das nötige Geld."
+DE: "Für dieses Upgrade fehlt Ihnen das nötige Geld."
 FR: "Vous n'avez pas assez d'argent pour effectuer des améliorations."
 ES: "No tienes dinero para la mejora."
 IT: "Non hai abbastanza denaro per l'aggiornamento."
@@ -9225,7 +9225,7 @@ END
 // context: Message to the player to inform him that he MUST update the game
 GUI:MustPatchForOnline
 US: "You must download the Update to play C&C Generals Zero Hour Online"
-DE: "Du musst das Update herunterladen, damit du\nGeneräle - Die Stunde Null online spielen kannst."
+DE: "Sie müssen das Update herunterladen, damit Sie\nGeneräle - Die Stunde Null online spielen können."
 FR: "Vous devez télécharger la mise à jour pour jouer à Generals - Heure H en ligne."
 ES: "Tienes que descargar la actualización para jugar a C&C Generals Zero Hour Online."
 IT: "Devi scaricare l'aggiornamento per giocare a C&C Generals Zero Hour Online."
@@ -9241,7 +9241,7 @@ END
 // context: Courtesy request
 GUI:CanPatchForOnline
 US: "Would you like to download the Update?"
-DE: "Willst du das Update herunterladen?"
+DE: "Möchten Sie das Update herunterladen?"
 FR: "Voulez-vous télécharger la mise à jour ?"
 ES: "¿Quieres descargar la actualización?"
 IT: "Vuoi scaricare l'aggiornamento?"
@@ -9693,7 +9693,7 @@ END
 
 WOL:ServerBan
 US: "Sorry, you've been banned from C&C Generals Zero Hour Online. Please review the Service Terms"
-DE: "Du wurdest aus Generäle - Die Stunde Null Online ausgeschlossen. Bitte lies die Nutzungsbedingungen."
+DE: "Sie wurden aus Generäle - Die Stunde Null Online ausgeschlossen. Bitte lies die Nutzungsbedingungen."
 FR: "Vous avez été banni de Generals - Heure H en ligne. Veuillez consulter les conditions d'utilisation."
 ES: "Te han prohibido el acceso a C&C Generals Zero Hour Online. Repasa los Términos de Servicio."
 IT: "Purtroppo sei stato bandito da C&C Generals Zero Hour Online. Consulta nuovamente i termini d'uso."
@@ -9708,7 +9708,7 @@ END
 
 WOL:DisconnectedError
 US: "Sorry, you've been banned from C&C Generals Zero Hour Online. Please review the Service Terms"
-DE: "Du wurdest aus Generäle - Die Stunde Null Online ausgeschlossen. Bitte lies die Nutzungsbedingungen."
+DE: "Sie wurden aus Generäle - Die Stunde Null Online ausgeschlossen. Bitte lies die Nutzungsbedingungen."
 FR: "Vous avez été banni de Generals - Heure H en ligne. Veuillez consulter les conditions d'utilisation."
 ES: "Te han prohibido el acceso a C&C Generals Zero Hour Online. Repasa los Términos de Servicio."
 IT: "Purtroppo sei stato bandito da C&C Generals Zero Hour Online. Consulta nuovamente i termini d'uso."
@@ -10008,7 +10008,7 @@ END
 
 WOL:ChatErrorBanned
 US: "Sorry, you've been banned from C&C Generals Zero Hour Online. Please review the Service Terms"
-DE: "Du wurdest aus Generäle - Die Stunde Null Online ausgeschlossen. Bitte lies die Nutzungsbedingungen."
+DE: "Sie wurden aus Generäle - Die Stunde Null Online ausgeschlossen. Bitte lies die Nutzungsbedingungen."
 FR: "Vous avez été banni de Generals - Heure H en ligne. Veuillez consulter les conditions d'utilisation."
 ES: "Te han prohibido el acceso a C&C Generals Zero Hour Online. Repasa los Términos de Servicio."
 IT: "Purtroppo sei stato bandito da C&C Generals Zero Hour Online. Consulta nuovamente i termini d'uso."
@@ -10038,7 +10038,7 @@ END
 
 WOL:ChatErrorAccountDisabled
 US: "Your account has been disabled"
-DE: "Dein Account wurde deaktiviert."
+DE: "Ihr Account wurde deaktiviert."
 FR: "Votre compte a été désactivé."
 ES: "Se ha desactivado tu cuenta."
 IT: "Il tuo account è stato disattivato."
@@ -10053,7 +10053,7 @@ END
 
 WOL:ChatErrorSerialBanned
 US: "Your serial number has been banned. Please review the Service Terms"
-DE: "Deine Seriennummer wurde gesperrt. Bitte lies unsere Nutzungsbedingungen."
+DE: "Ihre Seriennummer wurde gesperrt. Bitte lesen Sie unsere Nutzungsbedingungen."
 FR: "Votre numéro de série a été banni. Veuillez consulter les conditions d'utilisation."
 ES: "Tu número de serie ha sido rechazado. Repasa los Términos de Servicio."
 IT: "Il tuo numero di serie è stato bandito. Consulta nuovamente i termini d'uso."
@@ -10070,7 +10070,7 @@ END
 
 WOL:ChatErrorSerialDup
 US: "Your serial number is already in use"
-DE: "Deine Seriennummer wird bereits verwendet."
+DE: "Ihre Seriennummer wird bereits verwendet."
 FR: "Votre numéro de série est déjà utilisé."
 ES: "Tu núm de serie ya está en uso."
 IT: "Il tuo numero di serie è in uso."
@@ -10087,7 +10087,7 @@ END
 
 WOL:ChatErrorSerialUnknown
 US: "Your serial number is invalid"
-DE: "Deine Seriennummer ist ungültig."
+DE: "Ihre Seriennummer ist ungültig."
 FR: "Votre numéro de série est invalide."
 ES: "Tu núm de serie no es válido."
 IT: "Il tuo numero di serie non è valido."
@@ -10312,7 +10312,7 @@ END
 
 WOL:BannedFromChannel
 US: "You've been banned from the channel"
-DE: "Du wurdest aus dem Channel verbannt."
+DE: "Sie wurden aus dem Channel verbannt."
 FR: "Vous avez été banni du canal."
 ES: "Te han vetado del canal."
 IT: "Sei stato bandito dal canale."
@@ -10357,7 +10357,7 @@ END
 
 WOL:OldWOLAPI
 US: "Shared Internet Components need to be updated. Please install from the C&C Generals Zero Hour disc"
-DE: "Aktualisiere die gemeinsamen Internetkomponenten. Du findest sie auf der C&C Generäle - Die Stunde Null-CD."
+DE: "Aktualisiere die gemeinsamen Internetkomponenten. Sie finden sie auf der C&C Generäle - Die Stunde Null-CD."
 FR: "Les composants Internet partagés doivent être mis à jour. Veuillez les installer à partir du disque de C&C Generals - Heure H."
 ES: "Hay que actualizar los componentes compartidos de Internet. Instala desde el disco de C&C Generals Zero Hour"
 IT: "I componenti condivisi di Internet devono essere aggiornati. Installali dal disco di C&C Generals Zero Hour."
@@ -11024,7 +11024,7 @@ END
 // context: Player needs more than %d (number of players) to start this kind of game
 LAN:NeedMorePlayers
 US: "You need more than %d player(s) to start a game"
-DE: "Du brauchst mehr als %d Spieler, um ein Spiel zu starten."
+DE: "Sie brauchen mehr als %d Spieler, um ein Spiel zu starten."
 FR: "Il faut plus de %d joueur(s) pour lancer une partie."
 ES: "Necesitas más de %d jugadores para empezar una partida."
 IT: "Ancora %d giocatore/i è/sono necessario/i per iniziare una partita."
@@ -11040,7 +11040,7 @@ END
 // context: Player needs more than 1 team to play a network game
 LAN:NeedMoreTeams
 US: "You need more than 1 team to start a game"
-DE: "Du brauchst mehr als 1 Team, um ein Spiel zu starten."
+DE: "Sie brauchen mehr als 1 Team, um ein Spiel zu starten."
 FR: "Il faut plus d'une équipe pour lancer une partie."
 ES: "Necesitas más de 1 equipo para empezar una partida."
 IT: "Ti serve più di una squadra per iniziare una partita."
@@ -11156,7 +11156,7 @@ END
 //          (CRC is a checksum term frequently used in computers)
 LAN:ErrorCRCMismatch
 US: "Game has detected a mismatch. This means the multiplayer game has lost synchronization data between the players. It is possible that your opponent has modified his version and you may want to include him on your Ignore List"
-DE: "Fehler! Die Daten der einzelnen Spieler sind nicht mehr synchron! Möglicherweise hat dein Gegner seine Version des Spiels bearbeitet. Wenn du willst, kannst du ihn auf deine Ignorieren-Liste setzen."
+DE: "Fehler! Die Daten der einzelnen Spieler sind nicht mehr synchron! Möglicherweise hat Ihr Gegner seine Version des Spiels bearbeitet. Wenn Sie wollen, können Sie ihn auf Ihre Ignorieren-Liste setzen."
 FR: "Le jeu a détecté une incompatibilité. La partie multijoueur a perdu les données de synchronisation entre les joueurs. Il se peut que votre adversaire ait modifié sa version. Vous pouvez l'inclure dans votre liste Ignorer."
 ES: "El juego ha detectado un error en la búsqueda. La partida multijugador ha perdido los datos de sincronización entre jugadores. Es posible que tu rival haya modificado su versión y puede que quieras incluirlo en tu lista de Ignorados."
 IT: "Il gioco ha rilevato un errore di sincronizzazione nei dati della partita multigiocatore. È possibile che il tuo avversario abbia modificato la sua versione. Se vuoi, puoi inserirlo nella Lista ignorati."
@@ -11585,7 +11585,7 @@ END
 // context: Displays player's account information.
 TOOLTIP:MyInfo
 US: "Click to explore your Persona Information. You may view your rank, points, wins, losses, Battle Honors, etc"
-DE: "Klicke hier, um einen Blick auf deinen Rang, deine Punkte, deine Siege, deine Niederlagen usw. zu werfen."
+DE: "Klicken Sie hier, um einen Blick auf Ihren Rang, Ihre Punkte, Ihre Siege, Ihre Niederlagen usw. zu werfen."
 FR: "Cliquez pour consultez vos infos personnelles (rang, points, victoires, défaites, distinctions, etc.)"
 ES: "Haz clic para ver la info de tu Personaje: rango, puntos, victorias, derrotas, condecoraciones..."
 IT: "Clicca per consultare le statistiche personali. Puoi controllare grado, punti, vittorie, sconfitte, onorificenze, eccetera."
@@ -11667,7 +11667,7 @@ END
 // context: Joins quickmatch.
 TOOLTIP:Quickmatch
 US: "Click to begin QuickMatch. QuickMatch will attempt to automatically match you with a player who has the closest skill level and preferences"
-DE: "Starte QuickMatch. Quickmatch sucht nun einem Spieler mit deinen Fähigkeiten und deinen Voreinstellungen."
+DE: "Starten Sie QuickMatch. Quickmatch sucht nun einen Spieler mit Ihren Fähigkeiten und Ihren Voreinstellungen."
 FR: "Cliquez ici pour lancer un QuickMatch qui tentera de vous associer avec les joueurs dotés d'un niveau et de préférences proches des vôtres."
 ES: "Haz clic para iniciar QuickMatch, que te buscará automáticamente a quien más se aproxime a tu nivel y preferencias."
 IT: "Clicca per avviare QuickMatch. Il programma tenterà di selezionare un avversario con livello di abilità e preferenze simili ai tuoi."
@@ -11741,7 +11741,7 @@ KO: "현재 제너럴 제로 아워 온라인에 있는 플레이어들의 목�
 ZH: "列出現在於 將軍：決戰時刻 線上遊戲的玩家。"
 BP: "Lista de jogadores atualmente conectados ao C&C Generals Zero Hour Online."
 PL: "Lista graczy obecnych na serwerze C&C Generals: Zero Hour Online."
-RU: "Список игроков, находящихся  в сети Generals Online"
+RU: "Список игроков, находящихся в сети Generals Online"
 AR: "List of players currently on C&C Generals Zero Hour Online"
 UK: "Список гравців на C&C Generals Zero Hour Online"
 END
@@ -11749,7 +11749,7 @@ END
 // context: Widens the QM search.
 TOOLTIP:WidenSearch
 US: "Click to widen your opponent search criteria. The more specific your criteria is, the more difficult it can be to find an opponent"
-DE: "Erweitere deine Suchkriterien. Je spezifischer die Suchkriterien sind, desto länger dauert die Suche nach einem geeigneten Gegner."
+DE: "Erweitern Sie Ihre Suchkriterien. Je spezifischer die Suchkriterien sind, desto länger dauert die Suche nach einem geeigneten Gegner."
 FR: "Cliquez pour élargir vos critères de recherche. Plus ils seront précis, plus vous aurez de mal à trouver un adversaire de taille."
 ES: "Haz clic para ampliar los criterios de búsqueda de tu rival. Cuanto más específicos sean, más difícil será encontrarlo."
 IT: "Clicca per ampliare il campo di ricerca dell'avversario. Più i criteri sono specifici, più difficile può essere trovare qualcuno."
@@ -11783,7 +11783,7 @@ END
 // context: Joins the selected game.
 TOOLTIP:JoinGame
 US: "Click to join the selected game"
-DE: "Schließe dich dem gewählten Spiel an."
+DE: "Schließen Sie sich dem gewählten Spiel an."
 FR: "Cliquez ici pour rejoindre la partie sélectionnée."
 ES: "Haz clic para acceder a la partida seleccionada."
 IT: "Clicca per partecipare alla partita selezionata."
@@ -11881,7 +11881,7 @@ END
 // context: The chat window.
 TOOLTIP:ChatWindow
 US: "Type and press Enter in the Text Entry box below to send messages to this Chat window. Other players can read and respond"
-DE: "Gib eine Nachricht in das Eingabefeld ein und schicke sie mit Enter ab. Deine Mitspieler können deine Nachrichten lesen und beantworten."
+DE: "Geben Sie eine Nachricht in das Eingabefeld ein und schicken Sie sie mit Enter ab. Ihre Mitspieler können Ihre Nachrichten lesen und beantworten."
 FR: "Saisissez votre texte dans la fenêtre prévue à cet effet et appuyez sur Entrée pour envoyer le message dans cette fenêtre de discussion. Les autres joueurs peuvent le lire et y répondre."
 ES: "Escribe y pulsa Enter en el cuadro de texto para enviar mensajes a la ventana del chat. Otros jugadores la leerán y te responderán."
 IT: "Scrivi nel riquadro sottostante e premi Invio per inviare dei messaggi in questa finestra di chat. Gli altri giocatori potranno leggerli e rispondere."
@@ -11961,7 +11961,7 @@ END
 // context: Players listbox in custom lobby when no player is highlighted
 TOOLTIP:PlayersInLobby
 US: "Current players in your lobby"
-DE: "Die in deiner Lobby anwesenden Spieler."
+DE: "Die in Ihrer Lobby anwesenden Spieler."
 FR: "Joueurs actuellement dans votre salle."
 ES: "Jugadores en tu sala."
 IT: "Giocatori al momento nella tua lobby."
@@ -11993,7 +11993,7 @@ END
 // context: Players listbox in custom lobby
 TOOLTIP:BuddyPlayer
 US: "Your buddy %s"
-DE: "Dein Buddy %s"
+DE: "Ihr Buddy %s"
 FR: "Votre ami %s"
 ES: "Tu colega %s"
 IT: "Tuo amico %s"
@@ -12757,7 +12757,7 @@ END
 // context: Help text for the 'Cheer' command.
 GUI:CheerDescription
 US: "Commands your forces to exult over your great deeds"
-DE: "Lass dich von deinem Heer feiern!"
+DE: "Lassen Sie sich von Ihrem Heer feiern!"
 FR: "Pour que vos unités vous félicitent."
 ES: "Ordena a tus fuerzas que se alegren por tus hazañas."
 IT: "Ordina alle tue forze di esultare per i tuoi trionfi."
@@ -13297,7 +13297,7 @@ END
 // context: Help text for 'Center Base' command
 GUI:CenterBaseDescription
 US: "Center the view about the player's base"
-DE: "Zentriere die Karte über deinem Stützpunkt."
+DE: "Zentrieren Sie die Karte über Ihrem Stützpunkt."
 FR: "Pour centrer la vue sur la base du joueur."
 ES: "Centra la vista sobre la base del jugador."
 IT: "Centra la visuale sulla base del giocatore."
@@ -15988,10 +15988,10 @@ END
 
 CONTROLBAR:UpgradeChinaOverlordGattlingCannon
 US: "Gattling Cannon: &C"
-DE: "Gatling-Geschütz: &G"
+DE: "Gattling-Geschütz: &G"
 FR: "Mitrailleuse Gattling: &M"
 ES: "Cañón Gattling: &C"
-IT: "Cannone gatling: &C"
+IT: "Cannone gattling: &C"
 KO: "개틀링 캐논: &C"
 ZH: "蓋特砲：&C"
 BP: "Canhão Gattling: &C"
@@ -16165,7 +16165,7 @@ END
 
 CONTROLBAR:TempDescription
 US: "Please take the time to fill out my description located in CommandButton.ini! Thanks a bunch"
-DE: "Bitte nimm dir die Zeit und fülle meine Beschreibung in CommandButton.ini aus! Danke!"
+DE: "Bitte nimm Ihnen die Zeit und fülle meine Beschreibung in CommandButton.ini aus! Danke!"
 FR: "Merci de prendre le temps de remplir ma description située dans le fichier CommandButton.ini !"
 ES: "Please take the time to fill out my description located in CommandButton.ini! Thanks a bunch"
 IT: "Please take the time to fill out my description located in CommandButton.ini! Thanks a bunch"
@@ -17024,10 +17024,10 @@ END
 
 CONTROLBAR:ConstructChinaTankGattling
 US: "Gattling Tank: &G"
-DE: "Gatling-Panzer: &G"
+DE: "Gattling-Panzer: &G"
 FR: "Char Gattling: &G"
 ES: "Tanque Gattling: &G"
-IT: "Carro gatling: &G"
+IT: "Carro gattling: &G"
 KO: "개틀링 탱크: &G"
 ZH: "蓋特坦克：&G"
 BP: "Tanque Gattling: &G"
@@ -17042,10 +17042,10 @@ END
 
 CONTROLBAR:Boss_ConstructChinaTankGattling
 US: "Gattling Tank: &A"
-DE: "Gatling-Panzer: &A"
+DE: "Gattling-Panzer: &A"
 FR: "Char Gattling: &A"
 ES: "Tanque Gattling: &A"
-IT: "Carro gatling: &A"
+IT: "Carro gattling: &A"
 KO: "개틀링 탱크: &A"
 ZH: "蓋特坦克：&A"
 BP: "Tanque Gattling: &A"
@@ -17699,10 +17699,10 @@ END
 
 CONTROLBAR:ConstructChinaGattlingCannon
 US: "Gattling Cannon: &G"
-DE: "Gatling-Geschütz: &G"
+DE: "Gattling-Geschütz: &G"
 FR: "Mitrailleuse Gattling: &G"
 ES: "Cañón Gattling: &A"
-IT: "Cannone gatling: &G"
+IT: "Cannone gattling: &G"
 KO: "개틀링 캐논: &G"
 ZH: "蓋特機砲：&G"
 BP: "Canhão Gattling: &G"
@@ -17716,10 +17716,10 @@ END
 
 CONTROLBAR:Boss_ConstructChinaGattlingCannon
 US: "Gattling Cannon: &G"
-DE: "Gatling-Geschütz: &G"
+DE: "Gattling-Geschütz: &G"
 FR: "Mitrailleuse Gattling: &G"
 ES: "Cañón Gattling: &A"
-IT: "Cannone gatling: &G"
+IT: "Cannone gattling: &G"
 KO: "개틀링 캐논: &G"
 ZH: "蓋特機砲：&G"
 BP: "Canhão Gattling: &G"
@@ -20610,10 +20610,10 @@ END
 
 UPGRADE:OverlordGattlingCannon
 US: "Overlord Gattling Cannon"
-DE: "Overlord-Gatling-Geschütz"
+DE: "Overlord-Gattling-Geschütz"
 FR: "Mitrailleuse Gattling Empereur"
 ES: "Cañón Gattling Overlord"
-IT: "Cannone gatling Overlord"
+IT: "Cannone gattling Overlord"
 KO: "오버로드 개틀링 캐논"
 ZH: "炎黃坦克蓋特機砲"
 BP: "Canhão Gattling Overlord"
@@ -22984,10 +22984,10 @@ END
 // context: Chinese Unit
 OBJECT:GattlingTank
 US: "Gattling Tank"
-DE: "Gatling-Panzer"
+DE: "Gattling-Panzer"
 FR: "Char Gattling"
 ES: "Tanque Gattling"
-IT: "Carro gatling"
+IT: "Carro gattling"
 KO: "개틀링 탱크"
 ZH: "蓋特坦克"
 BP: "Tanque Gattling"
@@ -23962,10 +23962,10 @@ END
 
 OBJECT:GattlingCannon
 US: "Gattling Cannon"
-DE: "Gatling-Geschütz"
+DE: "Gattling-Geschütz"
 FR: "Mitrailleuse Gattling"
 ES: "Cañón Gattling"
-IT: "Cannone gatling"
+IT: "Cannone gattling"
 KO: "개틀링 캐논"
 ZH: "蓋特機砲"
 BP: "Canhão Gattling"
@@ -26960,7 +26960,7 @@ END
 // context: Placeholder - DO NOT TRANSLATE!!!
 SCRIPT:CHI02AudioHolder16
 US: "<'EVA' speaking>\n'General, the GLA have brought their Toxin Tractors with them. You'll know them by the green ooze they spray. Keep your infantry units away from them and use your tanks to deal with this new threat.'"
-DE: "<'EVA' spricht>\n'General, die IBG hat ihre Toxin-Traktoren mitgebracht. Du kennst sie an dem grünen Schlamm, den sie versprühen. Halten Sie Ihre Infanterieeinheiten von ihnen fern und setzen Sie Ihre Panzer ein, um mit dieser neuen Bedrohung fertig zu werden.'"
+DE: "<'EVA' spricht>\n'General, die IBG hat ihre Toxin-Traktoren mitgebracht. Sie erkennen sie an dem grünen Schlamm, den sie versprühen. Halten Sie Ihre Infanterieeinheiten von ihnen fern und setzen Sie Ihre Panzer ein, um mit dieser neuen Bedrohung fertig zu werden.'"
 FR: "<'EVA' parlant>\n'Général, les GLA ont apporté leurs Toxin Tractors avec eux. Vous les reconnaîtrez à la vase verte qu'ils pulvérisent. Gardez vos unités d'infanterie loin d'eux et utilisez vos chars pour faire face à cette nouvelle menace.'"
 ES: "<'EVA' speaking>\n'General, the GLA have brought their Toxin Tractors with them. You'll know them by the green ooze they spray. Keep your infantry units away from them and use your tanks to deal with this new threat.'"
 IT: "<'EVA' speaking>\n'General, the GLA have brought their Toxin Tractors with them. You'll know them by the green ooze they spray. Keep your infantry units away from them and use your tanks to deal with this new threat.'"
@@ -27539,7 +27539,7 @@ KO: "임무 목표:\n벙커 4개 점령 후 모든 미국 옹호자들을 섬멸
 ZH: "任務目標：\n佔領四個碉堡及徹底摧毀所有美國防禦兵力。"
 BP: "OBJETIVO DA MISSÃO:\nCapture 4 Bunkers e elimine todas as forças americanas."
 PL: "CEL MISJI:\nZajmij cztery bunkry i zlikwiduj wszystkich Amerykanów, którzy ich bronią."
-RU: "ЦЕЛЬ МИССИИ:\nЗахватить 4 бункера и  уничтожить американские войска"
+RU: "ЦЕЛЬ МИССИИ:\nЗахватить 4 бункера и уничтожить американские войска"
 AR: "MISSION OBJECTIVE:\nCapture 4 Bunkers and Wipe out all American defenders"
 UK: "МЕТА МІСІЇ:\nЗахопіть 4 бункери та знищіть усіх американських захисників"
 END
@@ -27614,7 +27614,7 @@ KO: "벙커 수가 충분해졌습니다.\n미군을 섬멸하여 승리를 쟁�
 ZH: "您已擁有必需的碉堡數。\n現在徹底摧毀美軍以確保您的勝利！"
 BP: "Você possui o número necessário de Bunkers.\nAgora, elimine os americanos e assegure sua vitória!"
 PL: "Zajmujesz wymaganą liczbę bunkrów.\nTeraz, aby przypieczętować zwycięstwo, zlikwiduj Amerykanów!"
-RU: "Вы завладели необходимым количеством бункеров.\nТеперь уничтожьте  американцев, чтобы обеспечить свою победу!"
+RU: "Вы завладели необходимым количеством бункеров.\nТеперь уничтожьте американцев, чтобы обеспечить свою победу!"
 AR: "You own the required number of bunkers\nNow wipe out the Americans to secure your victory"
 UK: "Ви володієте необхідною кількістю бункерів\nТепер знищіть американців, щоб забезпечити свою перемогу"
 END
@@ -27881,7 +27881,7 @@ END
 // context: Training Mission text
 SCRIPT:TrainingMove
 US: "Left click on units to select them. Selected units can be given commands. With a unit selected you can left click on the ground to give them a move command. Left click on enemy soldiers to order your selected unit to attack"
-DE: "Wähle eine Einheit mit einem Linksklick aus und erteile ihr einen Befehl. Linksklicke auf den Boden, wenn du deine Einheit bewegen möchtest. Nach einem Linksklick auf feindliche Cyborgs geht deine Einheit zum Angriff über."
+DE: "Wählen Sie eine Einheit mit einem Linksklick aus und erteilen Sie ihr einen Befehl. Klicken Sie auf den Boden, wenn Sie Ihre Einheit bewegen möchten. Nach einem Linksklick auf feindliche Cyborgs geht Ihre Einheit zum Angriff über."
 FR: "Cliquez sur les unités pour les sélectionner et pouvoir ainsi leur donner des ordres. Lorsqu'une unité est sélectionnée, cliquez sur le terrain pour lui donner un ordre. Cliquez sur des soldats ennemis pour que l'unité sélectionnée passe à l'attaque."
 ES: "Haz clic sobre las unidades para seleccionarlas y darles órdenes. Con una seleccionada puedes hacer clic en el suelo para que se mueva. Haz clic sobre los soldados enemigos para atacarles con esa unidad."
 IT: "Clicca col pulsante sinistro sulle unità per selezionarle. Puoi far muovere le unità selezionate cliccando col pulsante sinistro al suolo. Clicca invece sul nemico per farle attaccare."
@@ -27896,7 +27896,7 @@ END
 
 SCRIPT:TrainingCommand
 US: "You have liberated a USA Command Center. Here you can use many of your special abilities. To choose technologies and special weapons click on the flashing General button"
-DE: "Du hast die WA-Kommandozentrale befreit. In der Zentrale kannst du deine Spezialfähigkeiten einsetzen. Klicke auf die blinkende General-Schaltfläche, wenn du eine Technologie oder eine Spezialwaffe auswählen möchtest."
+DE: "Sie haben die WA-Kommandozentrale befreit. In der Zentrale können Sie Ihre Spezialfähigkeiten einsetzen. Klicken Sie auf die blinkende General-Schaltfläche, wenn Sie eine Technologie oder eine Spezialwaffe auswählen möchten."
 FR: "Vous avez libéré un Poste de commandement US. Vous pouvez y utiliser nombre de vos capacités spéciales. Pour sélectionner des technologies et des armes spéciales, cliquez sur le bouton Général scintillant."
 ES: "Has liberado el Centro de mando de E.E.U.U. Aquí puedes usar muchas de tus capacidades especiales. Para escoger tecnologías y armas especiales haz clic en el botón parpadeante General."
 IT: "Hai liberato un Centro comando USA: qui puoi sfruttare le abilità speciali. Per selezionare tecnologie e armi speciali, clicca sul pulsante con le tre stelle."
@@ -27911,7 +27911,7 @@ END
 
 SCRIPT:TrainingExplor
 US: "The Fog of War around your units can be pushed back by moving into new and unexplored areas. The Fog shows you where you have explored and where you have not. Explore new areas to find enemy forces and resources to expand your army"
-DE: "Wenn deine Truppen in neue Gebiete vorrücken, lichtet sich der Nebel des Krieges. Unerforschte Gegenden werden vom Nebel des Krieges verdeckt. Rücke in fremde Gebiete vor, um feindliche Stellungen und Rohstoffe zu finden."
+DE: "Wenn Ihre Truppen in neue Gebiete vorrücken, lichtet sich der Nebel des Krieges. Unerforschte Gegenden werden vom Nebel des Krieges verdeckt. Rücken Sie in fremde Gebiete vor, um feindliche Stellungen und Rohstoffe zu finden."
 FR: "Le brouillard de guerre qui entoure vos unités se dissipe peu à peu lorsque vous explorez de nouvelles zones. Ce brouillard vous permet de savoir quels endroits restent à explorer afin de trouver de nouvelles forces hostiles et des ressources pour agrandir votre armée."
 ES: "Podrás despejar la niebla de la guerra, moviéndote hacia nuevas áreas sin explorar. El humo muestra dónde has explorado y dónde no. Explora áreas nuevas para encontrar enemigos y recursos para ampliar tu ejército."
 IT: "La foschia che circonda le tue unità si può ridurre facendole avanzare nelle zone inesplorate. La foschia copre le zone che non hai ancora esplorato. Perlustra nuove aree per localizzare forze nemiche e risorse per il tuo esercito."
@@ -27926,7 +27926,7 @@ END
 
 SCRIPT:TrainingBarracks
 US: "You have liberated a USA Barracks. Buildings like this allow you to train new units. The Barracks trains soldiers. Left click on your new Barracks to see what soldiers you can train. Left click on a unit in the Barracks to spend the supplies to create that unit"
-DE: "Du hast die WA-Cyborg-Kaserne befreit. In Produktionsstätten werden Cyborgs gebaut. Wenn du wissen willst, welche Einheiten du bauen kannst, linksklicke jetzt auf deine neue Cyborg-Kaserne. Nach einem Klick auf die gewünschte Einheit beginnt der Bau."
+DE: "Sie haben die WA-Cyborg-Kaserne befreit. In Produktionsstätten werden Cyborgs gebaut. Wenn Sie wissen wollen, welche Einheiten Sie bauen können, klicken Sie jetzt mit der linken Maustaste auf Ihre neue Cyborg-Kaserne. Nach einem Klick auf die gewünschte Einheit beginnt der Bau."
 FR: "Vous avez libéré une Caserne américaine. Vous pouvez entraîner de nouvelles unités dans ce type de bâtiment. Cliquez sur la nouvelle Caserne pour voir quel type de soldats vous pouvez y entraîner. Cliquez sur une unité dans la Caserne pour dépenser les réserves nécessaires à sa création."
 ES: "Has liberado los Barracones de E.E.U.U. En estos edificios podrás entrenar unidades nuevas. Los barracones entrenan soldados. Haz clic sobre los barracones para ver qué soldados puedes entrenar o sobre una unidad para gastar suministros en crearla."
 IT: "Hai liberato una Caserma USA. Gli edifici come questo permettono di addestrare nuove unità: nella Caserma si addestrano i soldati. Clicca col pulsante sinistro sulla Caserma per vedere quali unità puoi addestrare, quindi clicca su una di esse per produrla."
@@ -27941,7 +27941,7 @@ END
 
 SCRIPT:TrainingPilots
 US: "You have freed several Pilots. USA pilots are often veterans of many battles and they can enter your vehicles to provide their skills and experience to the crew of the vehicle. Vehicles with golden chevrons near them have experienced crews and are more effective in combat"
-DE: "Du hast mehrere Piloten befreit. WA-Piloten sind meist kampferprobte Veteranen, die aufgrund ihrer Erfahrung verschiedene Fahrzeuge steuern können. Natürlich profitiert auch die Besatzung eines Fahrzeugs von dieser Erfahrung. Mit goldenen Winkeln markierte Fahrzeuge sind aus diesem Grund deutlich effektiver."
+DE: "Sie haben mehrere Piloten befreit. WA-Piloten sind meist kampferprobte Veteranen, die aufgrund ihrer Erfahrung verschiedene Fahrzeuge steuern können. Natürlich profitiert auch die Besatzung eines Fahrzeugs von dieser Erfahrung. Mit goldenen Winkeln markierte Fahrzeuge sind aus diesem Grund deutlich effektiver."
 FR: "Vous avez libéré plusieurs Pilotes. Les Pilotes américains sont souvent des vétérans de guerre. Ils peuvent monter dans des véhicules et partager leurs connaissances avec l'équipage. Les véhicules disposant de chevrons dorés près d'eux sont plus expérimentés et plus efficaces au combat."
 ES: "Has liberado a muchos pilotos. Los pilotos de E.E.U.U. son a menudo veteranos de guerra y pueden entrar en tu vehículos para compartir sus conocimientos y experiencia con la dotación. Los vehículos con galones dorados tienen tripulación experimentada y son más efectivos en combate."
 IT: "Hai liberato alcuni piloti americani, veterani di numerose battaglie. Essi possono mettere la loro esperienza a disposizione dell'equipaggio dei veicoli. I veicoli con i galloni dorati hanno un equipaggio esperto e sono più efficaci in combattimento."
@@ -27956,7 +27956,7 @@ END
 
 SCRIPT:TrainingSupply
 US: "You have liberated a USA Supply Center. Supply Centers collect supplies, providing you with the resources to build new buildings and units. Each Supply Center automatically generates a single Chinook helicopter that will gather supplies for you"
-DE: "Du hast ein Nachschublager der WA-Army befreit. Hier werden die Rohstoffe, die du für den Bau neuer Einheiten und Gebäude brauchst, gelagert. Jedes Nachschublager wird von einem Chinook-Transporthubschrauber mit frischen Rohstoffen versorgt."
+DE: "Sie haben ein Nachschublager der WA-Army befreit. Hier werden die Rohstoffe, die Sie für den Bau neuer Einheiten und Gebäude brauchen, gelagert. Jedes Nachschublager wird von einem Chinook-Transporthubschrauber mit frischen Rohstoffen versorgt."
 FR: "Vous avez libéré un Dépôt de ravitaillement américain. Ce type de bâtiment renferme du ravitaillement, vous permettant ainsi de construire de nouvelles unités et d'autres bâtiments. Chaque dépôt de ravitaillement génère automatiquement un hélicoptère Chinook qui récupère le ravitaillement pour vous."
 ES: "Has liberado un centro de suministros de E.E.U.U. Estos centros recolectan suministros, dándote recursos para construir nuevos edificios y unidades. Cada centro genera automáticamente un helicóptero Chinook que te traerá suministros."
 IT: "Hai liberato un Centro rifornimenti USA. Qui sono custodite le scorte che ti garantiscono le risorse necessarie per creare nuove strutture e unità. Ogni Centro rifornimenti dispone di un elicottero Chinook, in grado di raccogliere le risorse."
@@ -27971,7 +27971,7 @@ END
 
 SCRIPT:TrainingDozer
 US: "You have liberated a USA Construction Dozer. Left click on your new Construction Dozer to see what buildings it can create. Select the War Factory and choose a location for it to be built. Once done creating the War Factory, the Dozer will be available for other construction projects"
-DE: "Du hast einen Bulldozer der WA befreit. Linksklicke auf den Bulldozer, um dessen Bau-Liste einzublenden. Markiere in der Liste die Waffenfabrik und bestimme einen geeigneten Standort. Nach dem Bau der Waffenfabrik steht der Bulldozer für weitere Bauprojekte zur Verfügung."
+DE: "Sie haben einen Bulldozer der WA befreit. Linksklicke auf den Bulldozer, um dessen Bau-Liste einzublenden. Markiere in der Liste die Waffenfabrik und bestimme einen geeigneten Standort. Nach dem Bau der Waffenfabrik steht der Bulldozer für weitere Bauprojekte zur Verfügung."
 FR: "Vous avez libéré un Engin de chantier américain. Cliquez sur votre nouvel Engin de chantier pour voir quels sont les bâtiments qu'il peut construire. Sélectionnez le Complexe militaro-industriel et un endroit où le construire. Une fois que le Complexe est créé, l'Engin de chantier peut être utilisé pour d'autres projets de construction."
 ES: "Has liberado una excavadora de los E.E.U.U. Haz clic sobre ella para ver qué edificios puede crear. Selecciona la Fábrica de guerra y escoge un lugar para construirla. Una vez que la hayas construido, la Excavadora está disponible para otras construcciones."
 IT: "Hai liberato un Bulldozer da costruzione USA: clicca col pulsante sinistro su di esso per vedere che cosa puoi creare. Seleziona la Fabbrica militare e quindi un luogo adatto alla sua costruzione: non appena i lavori saranno conclusi, il Bulldozer sarà disponibile per altri progetti."
@@ -27986,7 +27986,7 @@ END
 
 SCRIPT:TrainingUnits
 US: "Your new War Factory can be used to build vehicles like Crusader Tanks. Left click on a Crusader Tank to order it to be built. You can left click multiple times to order multiple tanks to be constructed"
-DE: "In deiner neuen Waffenfabrik kannst du Crusader-Panzer und andere Fahrzeuge bauen. Nach einem Linksklick auf den Crusader-Panzer wird dieser hergestellt. Klicke mehrmals auf den Panzer, wenn du mehrere Einheiten produzieren möchtest."
+DE: "In Ihrer neuen Waffenfabrik können Sie Crusader-Panzer und andere Fahrzeuge bauen. Nach einem Linksklick auf den Crusader-Panzer wird dieser hergestellt. Klicken Sie mehrmals auf den Panzer, wenn Sie mehrere Einheiten produzieren möchten."
 FR: "Votre nouveau Complexe militaro-industriel peut être utilisé pour construire des véhicules, tels que le Char Crusader. Cliquez sur un Char Crusader pour entamer sa construction. Vous pouvez cliquer à plusieurs reprises pour construire plusieurs chars."
 ES: "Tu nueva Fábrica de guerra puede ser usada para fabricar vehículos como Tanques Crusader. Haz clic sobre uno para que se construya; haciendo varios clics se construyen múltiples tanques."
 IT: "La tua nuova Fabbrica militare si può usare per creare veicoli, come i carri Crusader. Clicca col pulsante sinistro su un carro Crusader per costruirlo: puoi cliccare più volte per realizzare più carri."
@@ -28001,7 +28001,7 @@ END
 
 SCRIPT:TrainingPower
 US: "You have liberated a USA Cold Fusion Reactor. Reactors are used by American and Chinese forces to power their base. Your power bar indicates how much power your base has. If your base runs low on power base defenses may go off-line and your radar will go out"
-DE: "Du hast den Fusionsreaktor der Westlichen Allianz befreit. Die Westliche Allianz und der Asiatische Pakt versorgen ihre Stützpunkte mit Atomenergie. Die Energieleiste zeigt das Energieniveau deines Stützpunktes an. Hast du zu wenig Energie, fallen die Defensivsysteme und das Radar deiner Basis aus."
+DE: "Sie haben den Fusionsreaktor der Westlichen Allianz befreit. Die Westliche Allianz und der Asiatische Pakt versorgen ihre Stützpunkte mit Atomenergie. Die Energieleiste zeigt das Energieniveau Ihres Stützpunktes an. Haben Sie zu wenig Energie, fallen die Defensivsysteme und das Radar Ihrer Basis aus."
 FR: "Vous avez libéré un Réacteur à fusion froide américain. Le Réacteur est utilisé par les Américains et les Chinois pour alimenter leurs bases. Votre jauge de puissance indique la quantité d'énergie de votre base. Si celle-ci est faible, vos défenses et votre radar risquent d'être désactivés."
 ES: "Has liberado un reactor de fusión fría de E.E.U.U. Estos reactores se usan en las bases de E.E.U.U. y chinas para dar energía. La barra indica la energía que tiene tu base. Si anda escasa, tus defensas y el radar no funcionarán."
 IT: "Hai liberato un Reattore a fusione a freddo USA. I Reattori sono utilizzati dalle forze americane e cinesi per fornire energia alle basi. La barra dell'energia indica quella a disposizione: se scarseggia, potrebbero disattivarsi sia le difese che il radar."
@@ -28031,7 +28031,7 @@ END
 
 SCRIPT:TrainingObjective
 US: "You have liberated an entire USA base and are now ready to carry the fight to the enemy. Each mission has mission objectives that you must follow in order to win the mission and to progress in your war against your enemies. Follow the mission objective to win the mission"
-DE: "Du hast den WA-Stützpunkt befreit und bist jetzt kampfbereit. Du musst in jeder Mission bestimmte Einsatzziele erreichen, um die Mission zu meistern und das nächste Kapitel des Spiels freizuschalten. Erfülle nun deine Einsatzziele, um die Mission erfolgreich abzuschließen."
+DE: "Sie haben den WA-Stützpunkt befreit und sind jetzt kampfbereit. Sie müssen in jeder Mission bestimmte Einsatzziele erreichen, um die Mission zu meistern und das nächste Kapitel des Spiels freizuschalten. Erfüllen Sie nun Ihre Einsatzziele, um die Mission erfolgreich abzuschließen."
 FR: "Vous avez libéré l'ensemble d'une base américaine et vous êtes désormais prêt à attaquer l'ennemi. Dans chaque mission, vous devez atteindre des objectifs afin de progresser contre l'ennemi. Atteignez tous les objectifs d'une mission pour l'accomplir."
 ES: "Has liberado una base entera de E.E.U.U. y ahora están preparados para luchar contra el enemigo. Cada misión tiene objetivos que debes seguir para ganar y progresar en la guerra contra tus enemigos. Sigue el objetivo de la misión para conseguirla."
 IT: "Hai liberato un'intera base USA, che ora è pronta per combattere contro il nemico. Ogni missione ha degli obiettivi particolari che devi raggiungere per vincere e progredire nella lotta contro il nemico. Persegui l'obiettivo della missione per conquistare la vittoria."
@@ -28061,7 +28061,7 @@ END
 
 SCRIPT:TrainingTech
 US: "Civilian Objective Buildings can be captured by your Rangers. Holding these buildings will give you advantages against your enemies. Capture the Oil Derricks by selecting a Ranger, left clicking the capture button and then left clicking on the Oil Derrick itself. Oil Derricks provide you with additional resources as they pump oil"
-DE: "Deine Ranger können Hightech-Gebäude erobern. Wenn du diese Gebäude hältst, bist du deinen Feinden gegenüber im Vorteil. Erobere nun die Ölfördertürme. Wähle dazu einen Ranger aus, klicke auf die Erobern-Schaltfläche und anschließend auf den Ölförderturm. Ölfördertürme versorgen dich mit zusätzlichen Rohstoffen."
+DE: "Ihre Ranger können Hightech-Gebäude erobern. Wenn Sie diese Gebäude halten, sind Sie Ihren Feinden gegenüber im Vorteil. Erobern Sie nun die Ölfördertürme. Wählen Sie dazu einen Ranger aus, klicken Sie auf die Erobern-Schaltfläche und anschließend auf den Ölförderturm. Ölfördertürme versorgen Sie mit zusätzlichen Rohstoffen."
 FR: "Les bâtiments civils cibles peuvent être pris par vos Rangers. Tenez ces bâtiments pour prendre l'avantage sur l'ennemi. Pour vous emparer d'un Derrick de pétrole, sélectionnez un Ranger, cliquez sur le bouton Prendre bâtiment, puis sur le Derrick. Les Derricks de pétrole fournissent des ressources supplémentaires en extrayant du pétrole."
 ES: "Tus Rangers pueden tomar los edificios civiles. Mantener estos edificios te dará ventajas sobre tus enemigos. Toma las torres de perforación seleccionando un Ranger, clic en el botón tomar y luego en la torre. Te proporcionan recursos adicionales al bombear petróleo."
 IT: "Gli edifici civili speciali possono essere conquistati dai Ranger. Mantenendo il possesso di queste strutture sarai in vantaggio rispetto al nemico. Conquista i derrick selezionando un Ranger, cliccando col pulsante sinistro sull'icona di conquista e quindi sul derrick stesso. I derrick forniscono risorse aggiuntive."
@@ -28076,7 +28076,7 @@ END
 
 SCRIPT:TrainingCrate
 US: "Crates contain bonus items for your soldiers that will increase their abilities. Additional ammunition, armor and other items can be found in crates. Order your soldiers or vehicles to move onto a crate to open it and collect the contents"
-DE: "Kisten enthalten verschiedene Bonusgegenstände (beispielsweise Munition oder Rüstungen), die die Fähigkeiten deiner Cyborgs verbessern. Bewege deine Cyborgs oder Fahrzeuge über eine Kiste, um diese zu öffnen."
+DE: "Kisten enthalten verschiedene Bonusgegenstände (beispielsweise Munition oder Rüstungen), die die Fähigkeiten Ihrer Cyborgs verbessern. Bewegen Sie Ihre Cyborgs oder Fahrzeuge über eine Kiste, um diese zu öffnen."
 FR: "Les caisses contiennent des objets bonus qui augmentent les capacités de vos soldats. Vous pouvez également y trouver des munitions supplémentaires, des armures et d'autres objets. Ordonnez à vos soldats ou à vos véhicules de passer sur une caisse pour l'ouvrir et en récupérer le contenu."
 ES: "Los cajas contienen objetos bonus para los soldados que aumentarán sus capacidades: munición adicional, armas, etc.. Ordena a tus soldados o vehículos que vayan hasta una caja, la abran y cojan lo que contenga."
 IT: "Le casse contengono degli oggetti bonus per i tuoi soldati, che aumenteranno le loro capacità: munizioni aggiuntive, corazze e altri oggetti. Ordina ai soldati o ai veicoli di passare sopra una cassa per raccoglierne il contenuto."
@@ -28329,7 +28329,7 @@ IT: "OBIETTIVI MISSIONE:\nConquistate il Centro comando a est per iniziare la pr
 KO: "임무 목표:\n생산 시작을 위해 동쪽 커맨드 센터부터 점령하십시오.\n반역자 300명을 처단하십시오."
 ZH: "任務目標：\n到東方指揮中心去開始生產。\n消滅三百位叛徒。"
 BP: "OBJETIVOS DA MISSÃO:\nCapture o Centro de Comando ao Leste para iniciar a produção.\nElimine 300 traidores."
-PL: "CELE MISJI:\nW celu rozpoczęcia produkcji zająć sztab znajdujący się na wschodzie .\nZabić 300 cywili."
+PL: "CELE MISJI:\nW celu rozpoczęcia produkcji zająć sztab znajdujący się na wschodzie.\nZabić 300 cywili."
 RU: "ЦЕЛИ МИССИИ:\nЗахватить командный центр на востоке чтобы начать производство.\nУбейте 300 предателей."
 AR: "MISSION OBJECTIVES:\nClaim the Command Center to the East to begin production\nKill 300 traitors"
 UK: "ЦІЛІ МІСІЇ:\nЗахопити командний центр на сході, щоб почати виробництво\nУбити 300 зрадників"
@@ -29024,7 +29024,7 @@ END
 // context: Appears when you mouse over the Manual Control cameo on the GLA Demo Trap
 CONTROLBAR:TooltipDemoTrapManual
 US: "Explode on your command"
-DE: "Die Sprengfalle explodiert auf dein Kommando."
+DE: "Die Sprengfalle explodiert auf Ihr Kommando."
 FR: "Explose à votre signal."
 ES: "Explota al ordenarlo."
 IT: "Esplode al tuo comando."
@@ -29357,10 +29357,10 @@ END
 // context: Upgrade to give one Overlord tank an extra Gatling weapon turret
 CONTROLBAR:TooltipUpgradeChinaOverlordGattlingCannon
 US: "Build a Gattling Cannon on this Overlord"
-DE: "Rüstet diesen Overlord mit einem Gatling-Geschütz auf."
+DE: "Rüstet diesen Overlord mit einem Gattling-Geschütz auf."
 FR: "Construit une Mitrailleuse Gattling sur cet Empereur."
 ES: "Construye un Cañón Gattling en este Overlord."
-IT: "Costruisce un Cannone gatling su questo Overlord."
+IT: "Costruisce un Cannone gattling su questo Overlord."
 KO: "해당 오버로드 후면에 개틀링 캐논을 장착합니다."
 ZH: "在炎黃坦克上增設蓋特機砲。"
 BP: "Equipa este Overlord com um Canhão Gattling."
@@ -29375,10 +29375,10 @@ END
 
 CONTROLBAR:TooltipUpgradeChinaTankGattlingCannon
 US: "Build a Gattling Cannon on this tank"
-DE: "Rüstet diesen Panzer mit einem Gatling-Geschütz auf."
+DE: "Rüstet diesen Panzer mit einem Gattling-Geschütz auf."
 FR: "Construit une Mitrailleuse Gattling sur ce char."
 ES: "Construye un Cañón Gattling en este tanque."
-IT: "Costruisce un Cannone gatling su questo carro armato."
+IT: "Costruisce un Cannone gattling su questo carro armato."
 KO: "탱크 뒤쪽에 개틀링 캐논을 장착합니다."
 ZH: "在這輛坦克上建造一門加特林大砲。"
 BP: "Equipa este tanque com um Canhão Gattling."
@@ -29497,10 +29497,10 @@ END
 // context: Appears when you mouse over the Chain Guns Upgrades on the Chinese War Factory
 CONTROLBAR:TooltipChinaUpgradeChainGuns
 US: "+25% damage to all gattling weapons"
-DE: "Alle Gatling-Waffen verursachen 25% mehr Schaden."
+DE: "Alle Gattling-Waffen verursachen 25% mehr Schaden."
 FR: "+ 25 % de dégâts pour les armes de type Gattling."
 ES: "+25% de daños para todas las armas Gattling."
-IT: "+25% di danno a tutte le unità con Gatling."
+IT: "+25% di danno a tutte le unità con Gattling."
 KO: "모든 개틀링 무기 공격력이 25% 증가시킵니다."
 ZH: "所有蓋特機砲增加25％的破壞力。"
 BP: "Aumenta em +25% os danos de todas as armas Gattling."
@@ -29855,7 +29855,7 @@ END
 // context: Appears when you mouse over the Combat Drop cameo on the USA Chinook
 CONTROLBAR:ToolTipUSACombatDrop
 US: "Order Rangers to rappel down on enemy targets. Use on garrisoned buildings to kill all enemy soldiers inside"
-DE: "Bringt Ranger ins Zielgebiet. Wenn du sie auf einem besetzten Gebäude absetzt, werden die dort stationierten Einheiten neutralisiert."
+DE: "Bringt Ranger ins Zielgebiet. Wenn Sie sie auf einem besetzten Gebäude absetzen, werden die dort stationierten Einheiten neutralisiert."
 FR: "Ordonne aux Rangers de foncer sur la cible ennemie. A utiliser dans les bâtiments de garnison pour tuer tous les soldats ennemis qui s'y trouvent."
 ES: "Ordena a los Rangers que caigan sobre el objetivo enemigo. Se usa para matar a todos los soldados enemigos guarnecidos en edificios."
 IT: "Ordina ai Ranger di calarsi sul bersaglio nemico. Utilizzalo su strutture presidiate per uccidere tutti i nemici presenti all'interno."
@@ -30269,7 +30269,7 @@ END
 // context: Appears when you mouse over the Cash Hack cameo on China's Black Lotus
 CONTROLBAR:ToolTipChinaFireBlackLotusCashHack
 US: "Steal cash from targeted enemy Supply Center"
-DE: "Besorgt dir Geld aus dem feindlichen Nachschublager."
+DE: "Besorgt Ihnen Geld aus dem feindlichen Nachschublager."
 FR: "Vole de l'argent dans le Dépôt de ravitaillement ennemi visé."
 ES: "Roba dinero del centro de suministros enemigo objetivo."
 IT: "Sottrae del contante dal centro rifornimenti nemico scelto come bersaglio."
@@ -30285,7 +30285,7 @@ END
 // context: Appears when you mouse over the Hack the Internet cameo on the Chinese Hacker
 CONTROLBAR:ToolTipChinaFireHackerInternetHack
 US: "Hack into the Internet to steal money"
-DE: "Hackt dich in das Internet, um Geld zu stehlen."
+DE: "Hackt sich ins Internet, um Geld zu stehlen."
 FR: "Pirate l'Internet pour voler de l'argent."
 ES: "Piratea por internet para robar dinero."
 IT: "Penetra in Internet per rubare denaro."
@@ -30352,7 +30352,7 @@ END
 // context: Appears when you mouse over the Pick Up Prisoner cameo on the POW Truck for all factions
 CONTROLBAR:ToolTipPickUpPrisoner
 US: "Pick up enemy prisoner to return him to your base"
-DE: "Bringt den feindlichen Cyborg zu deinem Stützpunkt."
+DE: "Bringt den feindlichen Cyborg zu Ihrem Stützpunkt."
 FR: "Récupère un prisonnier ennemi pour le ramener à votre base."
 ES: "Coge al prisionero enemigo para devolverlo a tu base."
 IT: "Preleva il prigioniero nemico per riportarlo alla tua base."
@@ -30506,7 +30506,7 @@ KO: "미국군 기지에 전력을 공급합니다.\n\n전력 공급: 5"
 ZH: "提供能源給美國基地。\n\n能源供應：5"
 BP: "Fornece energia para as bases dos E.U.A.\n\nEnergia Gerada: 5"
 PL: "Zaopatruje bazy amerykańskie w elektryczność.\n\nDostarczana energia: 5"
-RU: "Производит энергию для базы США.\n\Производит энергии : 5"
+RU: "Производит энергию для базы США.\n\Производит энергии: 5"
 AR: "ﺪﻋاﻮﻗ ﺪﻳوﺰﺘﺑ مﻮﻘﻳ\nﺔﯿﻜﻳﺮﻣﻷا ةﺪﺤﺘﻤﻟا تﺎﻳﻻﻮﻟا\n\n٥ : ﺔﺑﻮﻠﻄﻤﻟا ﺔﻗﺎﻄﻟا"
 UK: "Забезпечує живлення для баз США\n\nЕнергія: 5"
 END
@@ -30522,7 +30522,7 @@ KO: "미국 병사들을 훈련시킵니다."
 ZH: "訓練美國士兵以派上戰場。"
 BP: "Treina soldados dos E.U.A. para serem usados nas batalhas."
 PL: "Szkoli do walki żołnierzy amerykańskich."
-RU: "Тренирует солдат армии США "
+RU: "Тренирует солдат армии США"
 AR: "ﻢﮫﻣاﺪﺨﺘﺳﻹ نﻮﯿﻜﻳﺮﻣأ دﻮﻨﺟ ﺐﻳرﺪﺗ\nكرﺎﻌﻤﻟاو بوﺮﺤﻟا ﻲﻓ"
 UK: "Тренує солдат США для використання в боях"
 END
@@ -32158,7 +32158,7 @@ END
 // context: Appears when you mouse over the Artillery Barrage cameo on the Chinese General Points Command Bar
 CONTROLBAR:ToolTipChinaScienceArtilleryBarrage
 US: "Call off-map artillery to strike your target\n\nRank 1: 12 Shells\nRank 2: 24 Shells\nRank 3: 36 Shells\n\nDeploy from: Command Center"
-DE: "Fordere Artillerieunterstützung gegen dein Ziel an.\n\nStufe 1: 12 Schuss\nStufe 2: 24 Schuss\nStufe 3: 36 Schuss\n\nProduktionsstätte: Kommandozentrale"
+DE: "Fordern Sie Artillerieunterstützung gegen Ihr Ziel an.\n\nStufe 1: 12 Schuss\nStufe 2: 24 Schuss\nStufe 3: 36 Schuss\n\nProduktionsstätte: Kommandozentrale"
 FR: "Demande à l'artillerie située en dehors de la carte d'attaquer votre cible.\n\nGrade 1 : 12 obus\nGrade 2 : 24 obus\nGrade 3 : 36 obus\n\nDéployé depuis : Poste de commandement."
 ES: "Ordena a la artillería que está fuera del mapa atacar a tu objetivo.\n\nRango 1: 12\nRango 2: 24\nRango 3: 36\n\nDespliegue desde: Centro de mando"
 IT: "Una pioggia di bombe lanciate dall'artiglieria pesante colpisce il bersaglio.\n\nGrado 1: 12 proiettili\nGrado 2: 24 proiettili\nGrado 3: 36 proiettili\n\nLanciata da: Centro comando"
@@ -32391,7 +32391,7 @@ END
 // context: Ingame options menu, Quit To Desktop confirmation
 GUI:QuitToDesktopConf
 US: "Are you sure you want to quit back to the Desktop?"
-DE: "Möchtest du das Spiel wirklich beenden und zum Desktop zurückkehren?"
+DE: "Möchten Sie das Spiel wirklich beenden und zum Desktop zurückkehren?"
 FR: "Voulez-vous vraiment quitter pour revenir au Bureau ?"
 ES: "¿Seguro que quieres volver al Escritorio?"
 IT: "Vuoi davvero tornare al desktop?"
@@ -33077,7 +33077,7 @@ END
 // context: Warning to the player when he already has the max of that unit type
 GUI:UnitMaxedOut
 US: "You already have the maximum for this unit"
-DE: "Du hast das Maximum für diese Einheit bereits erreicht."
+DE: "Sie haben das Maximum für diese Einheit bereits erreicht."
 FR: "Vous avez déjà atteint le maximum pour cette unité."
 ES: "Ya tienes el máximo para esta unidad."
 IT: "Hai già raggiunto il limite massimo per questa unità."
@@ -33126,7 +33126,7 @@ END
 // context: In-game options menu, Surrender confirmation
 GUI:SurrenderConfirmation
 US: "Are you sure you want to Surrender?"
-DE: "Möchtest du wirklich aufgeben?"
+DE: "Möchten Sie wirklich aufgeben?"
 FR: "Voulez-vous vraiment capituler ?"
 ES: "¿Seguro que te quieres rendir?"
 IT: "Vuoi davvero arrenderti?"
@@ -33413,7 +33413,7 @@ END
 //"Forces a delayed port probe; see readme.txt for a list of firewalls this should be used with"
 TOOLTIP:SendDelay
 US: "For Firewall Users Only. (Please Consult the Manual)"
-DE: "Nur für Firewall-Benutzer. (Weitere Infos findest du im Handbuch)"
+DE: "Nur für Firewall-Benutzer. (Weitere Infos finden Sie im Handbuch)"
 FR: "Pour les utilisateurs de pare-feu uniquement (veuillez consulter le manuel)."
 ES: "Sólo para los Usuarios de Firewall. (Consulta el Manual)"
 IT: "Solo per utenti con firewall (consulta il manuale per ulteriori informazioni)."
@@ -33480,7 +33480,7 @@ END
 // context: Message to inform the player that we can't get a list of servers
 GUI:CannotConnectToServserv
 US: "Unable to establish a connection with Command and Conquer Generals Zero Hour servers. Please check your internet connection"
-DE: "Verbindung zu den C&C Generäle - Die Stunde Null-Servern konnte nicht hergestellt werden. Bitte überprüfe deine Internetverbindung."
+DE: "Verbindung zu den C&C Generäle - Die Stunde Null-Servern konnte nicht hergestellt werden. Bitte überprüfen Sie Ihre Internetverbindung."
 FR: "Connexion aux serveurs de Command & Conquer Generals - Heure H impossible. Veuillez vérifier votre connexion Internet."
 ES: "No se puede conectar con los servidores de Command and Conquer Generals Zero Hour. Comprueba tu conexión a Internet."
 IT: "Impossibile stabilire una connessione con i server di Command & Conquer Generals Zero Hour. Verifica la tua connessione a Internet."
@@ -33767,7 +33767,7 @@ END
 // context: Located on the ingame menu, warns the user if his machine is below minimum system requirements.
 GUI:MinSpecFailedMessage
 US: "Your system does not meet the minimum hardware requirements. You may experience slower than normal frame rates in your multiplayer games"
-DE: "Dein System erfüllt nicht die minimalen Hardware-Voraussetzungen. Die Frame-Rate in Multiplayer-Spielen ist möglicherweise langsamer als normal."
+DE: "Ihr System erfüllt nicht die minimalen Hardware-Voraussetzungen. Die Frame-Rate in Multiplayer-Spielen ist möglicherweise langsamer als normal."
 FR: "Votre système ne répond pas à la configuration minimale requise. Vous risquez de rencontrer des problèmes dus à un faible débit lors des parties multijoueur."
 ES: "Tu sistema no cumple los requisitos de hardware mínimos. Te irá más lento de lo normal en las partidas multijugador."
 IT: "Il tuo sistema non rispetta i requisiti minimi. Potresti notare una velocità di gioco inferiore alla norma nelle partite multigiocatore."
@@ -34052,7 +34052,7 @@ END
 // context: Located on Options Menu
 TOOLTIP:OptionsAccept
 US: "Accept the changes made and exit the Options Menu"
-DE: "Deine Änderungen werden angenommen und das Optionsmenü verlassen."
+DE: "Ihre Änderungen werden angenommen und das Optionsmenü verlassen."
 FR: "Pour confirmer les changements effectués et quitter le menu Options."
 ES: "Aceptar los cambios realizados y salir del Menú de opciones."
 IT: "Accetta le modifiche apportate ed esci dal menu delle opzioni."
@@ -34068,7 +34068,7 @@ END
 // context: Located on Options Menu
 TOOLTIP:OptionsCancel
 US: "Exit the Options Menu without making your changes"
-DE: "Das Optionsmenü wird ohne deine Änderungen verlassen."
+DE: "Das Optionsmenü wird ohne Ihre Änderungen verlassen."
 FR: "Pour quitter le menu Options sans effectuer de changements."
 ES: "Salir del Menú opciones sin hacer tus cambios."
 IT: "Esci dal menu delle opzioni senza applicare le modifiche."
@@ -34133,7 +34133,7 @@ END
 // context: Help Test for the buddies button to sort the buddies to the top of the game's list
 TOOLTIP:SortBuddies
 US: "Sort Buddies to the top of the game list"
-DE: "Sortiere deine Buddys an den Anfang der Spieleliste."
+DE: "Sortieren Sie Ihre Buddys an den Anfang der Spieleliste."
 FR: "Classer les amis en haut de la liste."
 ES: "Poner a los colegas al principio de la lista de partida."
 IT: "Ordina gli amici all'inizio dell'elenco partite."
@@ -34163,7 +34163,7 @@ END
 
 CONTROLBAR:GeneralsExperienceMenuDescription
 US: "Show the experience menu where you can spend experience points gained in battle for various General's Powers"
-DE: "Rufe das Erfahrungsmenü auf, um deine in der Schlacht gewonnenen Erfahrungspunkte in Spezialfähigkeiten der Generäle einzutauschen."
+DE: "Rufen Sie das Erfahrungsmenü auf, um die in der Schlacht gewonnenen Erfahrungspunkte in Spezialfähigkeiten der Generäle einzutauschen."
 FR: "Pour afficher le menu Expérience des généraux dans lequel vous pouvez attribuer les points d'expérience obtenus au combat à différents rangs de généraux."
 ES: "Muestra el menú experiencia donde puedes gastarte los puntos ganados en combate por varios poderes de General"
 IT: "Mostra il menu esperienza, dove puoi utilizzare i punti esperienza guadagnati in battaglia per diverse abilità."
@@ -34662,7 +34662,7 @@ END
 // context: Tooltip for the money
 CONTROLBAR:MoneyDescription
 US: "This is the amount of money you have"
-DE: "Zeigt deinen aktuellen Kontostand."
+DE: "Zeigt Ihren aktuellen Kontostand."
 FR: "Représente la quantité d'argent que vous possédez."
 ES: "Ésta es la cantidad de dinero que tienes"
 IT: "La quantità di denaro a tua disposizione."
@@ -34845,7 +34845,7 @@ END
 // context: In-game options menu, Restart confirmation
 GUI:RestartConfirmation
 US: "Are you sure you want to restart?"
-DE: "Willst du wirklich neu starten?"
+DE: "Möchten Sie wirklich neu starten?"
 FR: "Voulez-vous vraiment recommencer ?"
 ES: "¿Seguro que quieres reiniciar?"
 IT: "Vuoi davvero riavviare?"
@@ -35005,7 +35005,7 @@ END
 // context: The user has chosen to delete a save game file, this is a confirmation of that delete operation
 GUI:ConfirmDelete
 US: "Are you sure you want to delete this game?"
-DE: "Willst du dieses Spiel wirklich löschen?"
+DE: "Möchten Sie dieses Spiel wirklich löschen?"
 FR: "Voulez-vous vraiment supprimer cette partie ?"
 ES: "¿Seguro que quieres borrar esta partida?"
 IT: "Vuoi davvero eliminare la partita selezionata?"
@@ -36235,7 +36235,7 @@ END
 // context: Tooltip displayed when the user mouses over the Blitz battle honor icon
 TOOLTIP:BattleHonorBlitz10
 US: "Blitz Honor\nBeat opponent(s) in 10 minutes or less to earn this medal"
-DE: "Blitzkrieg-Orden\nSchlage deine(n) Gegner innerhalb von 10 Minuten, um diese Medaille zu erhalten."
+DE: "Blitzkrieg-Orden\nSchlage Ihre(n) Gegner innerhalb von 10 Minuten, um diese Medaille zu erhalten."
 FR: "Distinction éclair\nGagnez contre un ou plusieurs adversaire(s) en 10 minutes maximum pour remporter cette récompense."
 ES: "Medalla (relámpago)\nEl jugador ha ganado en menos de 10 minutos.\nGana una nueva medalla venciendo a tu(s) oponente(s) en menos de 5 minutos."
 IT: "Stella della rapidità\nOttieni una vittoria in meno di 10 minuti per ottenere questa medaglia."
@@ -36251,7 +36251,7 @@ END
 // context: Tooltip displayed when the user mouses over the Blitz battle honor icon
 TOOLTIP:BattleHonorBlitz5
 US: "Blitz Honor\nBeat opponent(s) in 5 minutes or less to earn this medal"
-DE: "Blitzkrieg-Orden\nSchlage deine(n) Gegner innerhalb von 5 Minuten, um diese Medaille zu erhalten."
+DE: "Blitzkrieg-Orden\nSchlage Ihre(n) Gegner innerhalb von 5 Minuten, um diese Medaille zu erhalten."
 FR: "Distinction éclair\nGagnez contre un ou plusieurs adversaire(s) en 5 minutes maximum pour remporter cette récompense."
 ES: "Medalla (relámpago)\nEl jugador ha ganado en menos de 5 minutos."
 IT: "Stella della rapidità\nOttieni una vittoria in meno di 5 minuti per ottenere questa medaglia."
@@ -36387,7 +36387,7 @@ KO: "중국 캠페인 훈장\n중국 캠페인을 완수하면 수여됩니다."
 ZH: "中國戰役勳章\n完成所有中國戰役以贏得此勳章。\n完成陣營的最高難度關卡來贏得最高的榮譽。"
 BP: "Medalha de Campanha da China\nComplete a Campanha da China para receber esta medalha.\nPara ganhar a maior medalha, vença a campanha no nível Difícil."
 PL: "Medal za kampanię chińską\nAby go zdobyć, ukończ kampanię Chin.\nZa ukończenie tej kampanii na poziomie brutalnym otrzymasz najwyższy stopień odznaczenia."
-RU: "Медаль Кампании Китая\nЗавершите кампанию  Китая на Высокой сложности, чтобы получить эту медаль"
+RU: "Медаль Кампании Китая\nЗавершите кампанию Китая на Высокой сложности, чтобы получить эту медаль"
 AR: "China Campaign Honor\nComplete the China Campaign to earn this honor\nBeat the campaign on Hard difficulty to achieve the highest honor"
 UK: "Відзнака китайської кампанії\nЗавершіть китайську кампанію, щоб отримати цю відзнаку\nПройдіть кампанію на важкому рівні складності, щоб отримати найвищу нагороду"
 END
@@ -36522,7 +36522,7 @@ END
 
 GUI:GSNoLoginInfoAll
 US: "Please enter your email, nickname, and password. Then, click on Login or Create Account"
-DE: "Gib deine E-Mail-Adresse, einen Spitznamen und ein Passwort ein. Klicke anschließend auf 'Login' oder 'Account erstellen'."
+DE: "Geben Sie Ihre E-Mail-Adresse, einen Spitznamen und ein Passwort ein. Klicken Sie anschließend auf 'Login' oder 'Account erstellen'."
 FR: "Veuillez saisir votre E-mail, Pseudo et Mot de passe. Cliquez ensuite sur Connexion ou Créer Compte."
 ES: "Por favor, introduce tu email, apodo y contraseña. Luego pulsa Conectar o Crear cuenta."
 IT: "Inserisci indirizzo e-mail, soprannome e password. Quindi clicca su Collegamento o Crea account."
@@ -36537,7 +36537,7 @@ END
 
 GUI:GSNoLoginInfoEmailNickname
 US: "Please enter your email and nickname. Then, click on Login or Create Account"
-DE: "Gib deine E-Mail-Adresse und einen Spitznamen ein. Klicke anschließend auf 'Login' oder 'Account erstellen'."
+DE: "Geben Sie Ihre E-Mail-Adresse und einen Spitznamen ein. Klicken Sie anschließend auf 'Login' oder 'Account erstellen'."
 FR: "Veuillez saisir votre E-mail et Pseudo. Cliquez ensuite sur Connexion ou Créer Compte."
 ES: "Por favor, introduce tu email y tu apodo. Luego pulsa Conectar o Crear cuenta."
 IT: "Inserisci indirizzo e-mail e soprannome. Quindi clicca su Collegamento o Crea account."
@@ -36552,7 +36552,7 @@ END
 
 GUI:GSNoLoginInfoEmailPassword
 US: "Please enter your email and password. Then, click on Login or Create Account"
-DE: "Gib deine E-Mail-Adresse und ein Passwort ein. Klicke anschließend auf 'Login' oder 'Account erstellen'."
+DE: "Geben Sie Ihre E-Mail-Adresse und ein Passwort ein. Klicken Sie anschließend auf 'Login' oder 'Account erstellen'."
 FR: "Veuillez saisir votre E-mail et Mot de passe. Cliquez ensuite sur Connexion ou Créer Compte."
 ES: "Por favor, introduce tu email y contraseña. Luego pulsa Conectar o Crear cuenta."
 IT: "Inserisci indirizzo e-mail e password. Quindi clicca su Collegamento o Crea account."
@@ -36583,7 +36583,7 @@ END
 
 GUI:GSNoLoginInfoNicknamePassword
 US: "Please enter your nickname and password. Then, click on Login or Create Account"
-DE: "Gib deine E-Mail-Adresse und ein Passwort ein. Klicke anschließend auf 'Login' oder 'Account erstellen'."
+DE: "Geben Sie Ihre E-Mail-Adresse und ein Passwort ein. Klicken Sie anschließend auf 'Login' oder 'Account erstellen'."
 FR: "Veuillez saisir votre Pseudo et Mot de passe, puis cliquer sur Connexion ou Créer Compte."
 ES: "Por favor, introduce tu apodo y tu contraseña. Luego, pulsa Conectar o Crear cuenta."
 IT: "Inserisci soprannome e password. Quindi clicca su Collegamento o Crea account."
@@ -36598,7 +36598,7 @@ END
 
 GUI:GSNoLoginInfoEmail
 US: "Please enter your email. Then, click on Login or Create Account"
-DE: "Gib deine E-Mail-Adresse ein. Klicke anschließend auf 'Login' oder 'Account erstellen'."
+DE: "Geben Sie Ihre E-Mail-Adresse ein. Klicken Sie anschließend auf 'Login' oder 'Account erstellen'."
 FR: "Veuillez saisir votre E-mail, puis cliquer sur Connexion ou Créer Compte."
 ES: "Por favor, introduce tu email. Luego, pulsa Conectar o Crear cuenta."
 IT: "Inserisci l'indirizzo e-mail. Quindi clicca su Collegamento o Crea account."
@@ -36613,7 +36613,7 @@ END
 
 GUI:GSNoLoginInfoNickname
 US: "Please enter your nickname. Then, click on Login or Create Account"
-DE: "Gib deinen Spitznamen ein. Klicke anschließend auf 'Login' oder 'Account erstellen'."
+DE: "Geben Sie Ihren Spitznamen ein. Klicken Sie anschließend auf 'Login' oder 'Account erstellen'."
 FR: "Veuillez saisir votre Pseudo, puis cliquer sur Connexion ou Créer Compte."
 ES: "Por favor, introduce tu apodo. Luego, pulsa Conectar o Crear cuenta."
 IT: "Inserisci il soprannome. Quindi clicca su Collegamento o Crea account."
@@ -36628,7 +36628,7 @@ END
 
 GUI:GSNoLoginInfoPassword
 US: "Please enter your password. Then, click on Login or Create Account"
-DE: "Gib dein Passwort ein. Klicke anschließend auf 'Login' oder 'Account erstellen'."
+DE: "Geben Sie Ihr Passwort ein. Klicken Sie anschließend auf 'Login' oder 'Account erstellen'."
 FR: "Veuillez saisir votre Mot de passe, puis cliquer sur Connexion ou Créer Compte."
 ES: "Por favor, introduce tu contraseña. Luego, pulsa Conectar o Crear cuenta."
 IT: "Inserisci la password. Quindi clicca su Collegamento o Crea account."
@@ -36644,7 +36644,7 @@ END
 // context: Used to popup the status of a buddy.
 Buddy:MultipleOnlineNotification
 US: "You have buddies online"
-DE: "Einige Buddys von dir sind online."
+DE: "Einige Buddys von Ihnen sind online."
 FR: "Vous avez des amis en ligne."
 ES: "Tienes colegas conectados."
 IT: "Hai degli amici collegati."
@@ -37894,7 +37894,7 @@ END
 // comment: this is additional tutorial text to explain General's abilities
 MAP:TrainingGenerals
 US: "Left click on the generals button in the lower right corner of your screen to choose a new ability for your General. As you are promoted your General will gain access to new abilities. Some abilities will allow you to create new special units, while others will give you special powers that are used from your Command Center"
-DE: "Linksklicke auf die General-Schaltfläche in der rechten unteren Bildschirmecke, um eine neue Fähigkeit für deinen General auszuwählen. Nach jeder Beförderung stehen deinem General neue Fähigkeiten zur Verfügung. Diese ermöglichen beispielsweise den Bau neuer Einheiten oder den Einsatz von Spezialfähigkeiten."
+DE: "Linksklicken Sie auf die General-Schaltfläche in der rechten unteren Bildschirmecke, um eine neue Fähigkeit für Ihren General auszuwählen. Nach jeder Beförderung stehen Ihrem General neue Fähigkeiten zur Verfügung. Diese ermöglichen beispielsweise den Bau neuer Einheiten oder den Einsatz von Spezialfähigkeiten."
 FR: "Cliquez sur l'étoile scintillante dans le coin inférieur droit pour choisir une nouvelle capacité pour votre général. Chaque fois que vous êtes promu, votre général accède à de nouvelles capacités. Certaines peuvent lui permettre de créer des unités spéciales tandis que d'autres lui confèrent des pouvoirs spéciaux, utilisables depuis le Poste de commandement."
 ES: "Clic izquierdo en el botón \"generales\" en la esquina inferior derecha de la pantalla para escoger una capacidad nueva para tu General. Conforme asciendas, el General accede a nuevas capacidades. Algunas te permitirán crear unidades especiales nuevas, mientras que otras te darán poderes especiales que podrás usar desde el Centro de mando."
 IT: "Clicca col pulsante sinistro sul pulsante dei generali, in basso a destra sullo schermo, per scegliere una nuova abilità per il Generale. Quando viene promosso, il Generale accede a nuove abilità. Alcune permettono di creare unità speciali, mentre altre garantiscono capacità particolari che potranno essere usate dal Centro comando."
@@ -37911,7 +37911,7 @@ END
 
 MAP:TrainingSalvage
 US: "You have created a pile of salvage. Salvage is left behind whenever GLA vehicles destroy an enemy vehicle. GLA vehicles pick up salvage by moving over it. Salvage may grant weapon upgrades, money, or experience. Technicals, Quad Cannons and Marauders will be able to upgrade their weapons with salvage"
-DE: "Zerstört ein Fahrzeug der IBG ein feindliches Fahrzeug, bleibt ein Wrack zurück. Fahre über die Wrackteile, um sie einzusammeln. Für Wrackteile bekommst du Geld oder Erfahrung. Kampfjeeps, Vierlingsgeschütze und Marodeurpanzer verbessern mit Wrackteilen ihre Waffensysteme."
+DE: "Zerstört ein Fahrzeug der IBG ein feindliches Fahrzeug, bleibt ein Wrack zurück. Fahren Sie über die Wrackteile, um sie einzusammeln. Für Wrackteile bekommen Sie Geld oder Erfahrung. Kampfjeeps, Vierlingsgeschütze und Marodeurpanzer verbessern mit Wrackteilen ihre Waffensysteme."
 FR: "Vous avez créé une casse. Chaque fois que des véhicules de la GLA détruisent des véhicules ennemis, les débris viennent s'ajouter à ce tas. La casse peut vous faire gagner de l'argent ou de l'expérience. Grâce à elle, les Jeeps, Quads et Maraudeur peuvent améliorer leurs armes."
 ES: "Has creado una pila de objetos salvados. Siempre que los vehículos de GLA destruyan vehículos enemigos, los dejarán atrás. Los vehículos de GLA pueden cogerlos, pasando por encima. Los podrás cambiar por dinero o experiencia. Las Camionetas, Cañones Quad y Marauders pueden mejorar sus armas con objetos salvados."
 IT: "Del materiale di ricupero è apparsoi. Quando i veicoli dell'ELG distruggono dei nemici, a terra restano dei detriti: i veicoli ELG possono recuperarli passandoci sopra per ottenere denaro o esperienza. Utilizzandoli, Tecniche, Cannoni quadrupli e Marauder possono potenziare le loro armi."
@@ -37926,7 +37926,7 @@ END
 
 MAP:TrainingUpgrade
 US: "Upgrades are bought at different structures in your base. They improve your units. Left click on the Barracks and then left click on Capture Building icon to upgrade your Rangers to be able to capture enemy buildings"
-DE: "Kaufe in verschiedenen Gebäuden Upgrades, um deine Einheiten zu verbessern. Linksklicke zuerst auf die Cyborg-Kaserne und anschließend auf die Schaltfläche 'Gebäude besetzen'. Nun können deine Ranger feindliche Gebäude besetzen."
+DE: "Kaufe in verschiedenen Gebäuden Upgrades, um Ihre Einheiten zu verbessern. Linksklicken Sie zuerst auf die Cyborg-Kaserne und anschließend auf die Schaltfläche 'Gebäude besetzen'. Nun können Ihre Ranger feindliche Gebäude besetzen."
 FR: "Vous pouvez acquérir des améliorations dans différents bâtiments de votre base. Grâce à elles, vos unités peuvent progresser. Cliquez sur la Caserne puis sur l'icône Prendre bâtiment pour améliorer vos Rangers et leur permettre ainsi de s'emparer des bâtiments ennemis."
 ES: "Las mejoras se compran en diferentes estructuras de la base. Mejoran tus unidades. Haz clic sobre los Barracones y después en el icono Tomar edificio para hacer que tus Rangers puedan hacerse con edificios enemigos."
 IT: "Gli aggiornamenti si acquistano in diverse strutture della tua base: essi migliorano le tue unità. Clicca col pulsante sinistro sulla caserma e, quindi, su Conquista struttura per aggiornare i Ranger in modo che possano conquistare le strutture nemiche."
@@ -37958,7 +37958,7 @@ END
 // context: Located on the Quickmatch setup menu
 TOOLTIP:PlayerSetting
 US: "Choose to match with a 1 vs. 1 or Team Game"
-DE: "Entscheide dich für ein 1 gegen 1 oder Team-Spiel."
+DE: "Entscheide Sie für ein 1 gegen 1 oder Team-Spiel."
 FR: "Choisissez de faire un match en 1 contre 1 ou en équipe."
 ES: "Elige 1 contra 1 o Partida en equipo."
 IT: "Scegli una partita 1 contro 1 o a squadre."
@@ -38006,7 +38006,7 @@ END
 // context: Located on the Quickmatch setup menu
 TOOLTIP:Ladder
 US: "Choose the ladder on which you'd like to play"
-DE: "Wähle die Rangliste aus, in der du spielen möchtest."
+DE: "Wählen Sie die Rangliste aus, in der Sie spielen möchten."
 FR: "Choisissez le classement auquel vous voulez jouer."
 ES: "Elige una tabla para jugar."
 IT: "Scegli la classifica nella quale desideri giocare."
@@ -38022,7 +38022,7 @@ END
 // context: Located on the Quickmatch setup menu
 TOOLTIP:QuickMatchStatus
 US: "QuickMatch will attempt to match you based on skill level, PC spec, etc"
-DE: "Die Option QuickMatch wird versuchen, dich mit anderen Spielern entsprechend deines Könnens, PC-Eigenschaften etc. zu verbinden."
+DE: "Die Option QuickMatch wird versuchen, Sie mit anderen Spielern entsprechend Ihres Könnens, PC-Eigenschaften etc. zu verbinden."
 FR: "QuickMatch effectue une recherche basée sur votre niveau, les caractéristiques de votre PC, etc."
 ES: "QuickMatch intentará buscarte un jugador en función de la habilidad, espec. del PC, etc."
 IT: "QuickMatch tenterà di trovare un avversario basandosi sul tuo livello di abilità, sulla velocità del PC, eccetera."
@@ -38075,7 +38075,7 @@ END
 // context: Located in the disconnecting screen and allows for a player to vote out someone
 TOOLTIP:GamesBeingformed
 US: "Your connection speed to this game's players"
-DE: "Deine Verbindungsgeschwindigkeit zu den Spielern dieses Spiels."
+DE: "Ihre Verbindungsgeschwindigkeit zu den Spielern dieses Spiels."
 FR: "Votre vitesse de connexion pour les joueurs participant à cette partie."
 ES: "Tu velocidad de conexión para los jugadores de esta partida."
 IT: "Velocità di connessione con i giocatori di questa partita."
@@ -38342,7 +38342,7 @@ END
 //          This message is displayed in the chat window of the multiplayer lobby.
 GUI:LocalPlayerNoMapWillTransfer
 US: "You do not have the map %ls. It will be transferred to you at game start"
-DE: "Du hast die Karte %ls nicht. Sie wird beim Spielstart auf dein System übertragen."
+DE: "Sie haben die Karte %ls nicht. Sie wird beim Spielstart auf Ihr System übertragen."
 FR: "Vous n'avez pas la carte %ls. Celle-ci vous sera transférée au début de la partie."
 ES: "No tienes el mapa %ls. Se te transferirá al comienzo de la partida."
 IT: "Non disponi della mappa %ls. Il trasferimento avverrà all'inizio della partita."
@@ -38640,7 +38640,7 @@ END
 // context: Tooltip in skirmish map selection
 TOOLTIP:MapHardSuccess
 US: "Beat this map against the maximum number of Hard opponents!"
-DE: "Glückwunsch! Du hast diese Karte gegen einen schweren Gegner gemeistert."
+DE: "Glückwunsch! Sie haben diese Karte gegen einen schweren Gegner gemeistert."
 FR: "Gagnez cette partie en Escarmouche contre le nombre maximal d'adversaires de niveau difficile !"
 ES: "¡Juega este mapa contra el máximo número de oponentes Brutales!"
 IT: "Congratulazioni! Hai superato questa mappa contro un avversario difficile!"
@@ -38657,7 +38657,7 @@ END
 // this is to prevent cheating.
 Buddy:CantTalkToIngameBuddy
 US: "You cannot send messages to buddies in your game if you are observing"
-DE: "Als Zuschauer kannst du deinen Buddys keine Nachrichten schicken."
+DE: "Als Zuschauer können Sie Ihren Buddys keine Nachrichten schicken."
 FR: "Vous ne pouvez pas envoyer de messages à vos amis pendant la partie si vous êtes en mode observateur."
 ES: "No puedes enviar mensajes a tus colegas en tu juego si estás de observador."
 IT: "Non puoi inviare messaggi agli amici presenti nella partita, se sei un osservatore."
@@ -39151,7 +39151,7 @@ END
 // context: Message box we put up if the user has DirectX 8.0 or other problem with the video card.
 ERROR:D3DFailureMessage
 US: "Please make sure you have DirectX 8.1 or higher installed. Also verify that your video card meets the minimum requirements"
-DE: "Vergewissere dich, dass auf deinem Computer DirectX 8.1 oder höher installiert ist. Außerdem muss deine Grafikkarte die Mindestvoraussetzungen erfüllen."
+DE: "Vergewissere Sie, dass auf Ihrem Computer DirectX 8.1 oder höher installiert ist. Außerdem muss Ihre Grafikkarte die Mindestvoraussetzungen erfüllen."
 FR: "Veuillez vous assurer que votre ordinateur possède DirectX 8.1 ou une version supérieure. Veuillez aussi vérifier que votre carte graphique possède les caractéristiques minimum requises par le jeu."
 ES: "Comprueba que tienes DirectX 8.1 o superior instalado. Y comprueba que tu tarjeta de vídeo reune los requisitos mínimos."
 IT: "Verifica di aver installato DirectX 8.1 o superiore. Controlla anche che la scheda video soddisfi i requisiti minimi di sistema."
@@ -39196,7 +39196,7 @@ END
 
 TOOLTIP:CheckAudioHardware
 US: "Check this box to enable hardware acceleration for Audio"
-DE: "Mit diesem Kontrollkästchen aktivierst du die Hardwarebeschleunigung der Soundausgabe."
+DE: "Mit diesem Kontrollkästchen aktivieren Sie die Hardwarebeschleunigung der Soundausgabe."
 FR: "Sélectionnez cette option pour autoriser l'accélération matérielle du son."
 ES: "Marca esta casilla para activar la aceleración de audio por Hardware."
 IT: "Attiva questa opzione per abilitare l'accelerazione hardware per l'audio."
@@ -39211,7 +39211,7 @@ END
 
 TOOLTIP:AudioSurround
 US: "Check this box if you have surround sound speakers"
-DE: "Aktiviere dieses Kontrollkästchen, wenn du Surround-Lautsprecher hast."
+DE: "Aktivieren Sie dieses Kontrollkästchen, wenn Sie Surround-Lautsprecher haben."
 FR: "Sélectionnez cette option si vous avez des hauts-parleurs Surround."
 ES: "Marca esta casilla si tienes altavoces con sonido surround."
 IT: "Attiva questa opzione se hai le casse surround."
@@ -39372,7 +39372,7 @@ END
 // context: Tooltip description for the generals experience bar.
 CONTROLBAR:GeneralsExpDescription
 US: "This meter shows how close you are to reaching your next General level"
-DE: "An dieser Anzeige kannst du ablesen, wann dein General das nächste Mal befördert wird."
+DE: "An dieser Anzeige können Sie ablesen, wann Ihr General das nächste Mal befördert wird."
 FR: "Ce compteur montre ce qui vous sépare du prochain niveau de Général."
 ES: "Este medidor te muestra cuánto queda para alcanzar el siguiente nivel de General."
 IT: "Questo indicatore mostra quanto ti manca per raggiungere il livello successivo."
@@ -39537,7 +39537,7 @@ END
 // context: The user has lost his connection to the network and is being told to check their connection.
 GUI:SocketError
 US: "Failed trying to communicate with the network, check your connection"
-DE: "Datenaustausch nicht möglich. Bitte prüfe deine Netzwerkverbindung."
+DE: "Datenaustausch nicht möglich. Bitte prüfen Sie Ihre Netzwerkverbindung."
 FR: "Erreur lors de la tentative de communication avec le réseau, vérifiez votre connexion."
 ES: "Fallo al comunicar con la red, comprueba tu conexión."
 IT: "Errore nella comunicazione con la rete, verifica la connessione."
@@ -40143,7 +40143,7 @@ END
 // context: Tooltip displayed when the user mouses over the Streak 25 battle honor icon
 TOOLTIP:BattleHonorStreak25
 US: "Streak Honor\nPlayer has won 25 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 25 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 25 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 25 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 25 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 25 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -40542,7 +40542,7 @@ END
 // context: Error message that pops up if you try to quickmatch at high resolutions
 GUI:QuickMatch800x600
 US: "Please change your video resolution to 800 x 600 to play QuickMatch"
-DE: "Um ein QuickMatch spielen zu können, musst du die Grafikauflösung auf 800 x 600 einstellen."
+DE: "Um ein QuickMatch spielen zu können, müssen Sie die Grafikauflösung auf 800 x 600 einstellen."
 FR: "Veuillez passer en résolution de 800 x 600 pour jouer en QuickMatch."
 ES: "Cambia la resolución de Vídeo a 800x600 para jugar un Quickmatch."
 IT: "Devi impostare la risoluzione a 800x600 per usare QuickMatch."
@@ -42103,7 +42103,7 @@ END
 // For future usage.
 GUI:PerformanceTestingMessage
 US: "Please wait while we test your system performance to determine optimal settings"
-DE: "Bitte warte, während wir die Leistung deines Systems überprüfen, um optimale Einstellungen bestimmen zu können."
+DE: "Bitte warte, während wir die Leistung Ihres Systems überprüfen, um optimale Einstellungen bestimmen zu können."
 FR: "Veuillez attendre, nous testons les performances de votre système pour déterminer les paramètres optionnels."
 ES: "Por favor espera mientras probamos el rendimiento de tu sistema para determinar los mejores ajustes."
 IT: "Attendi la verifica delle prestazioni del sistema per determinare la configurazione ottimale."
@@ -45062,7 +45062,7 @@ END
 
 GUI:InternetDisconnectionMenuBody2
 US: "It is possible that the person is attempting to reconnect so you may choose to wait until this player's timer has elapsed. When the timer counts down to 0 that person will be automatically removed from the game and the battle will continue"
-DE: "Es kann sein, dass die betreffende Person versucht, die Verbindung wieder herzustellen. Aus diesem Grund solltest Du warten bis der Countdown abgelaufen ist. In diesem Fall wird der Spieler automatisch entfernt und das Spiel wird fortgesetzt."
+DE: "Es kann sein, dass die betreffende Person versucht, die Verbindung wieder herzustellen. Aus diesem Grund solltest Sie warten bis der Countdown abgelaufen ist. In diesem Fall wird der Spieler automatisch entfernt und das Spiel wird fortgesetzt."
 FR: "Il est possible que la personne soit en train d'essayer de se reconnecter, vous pouvez donc choisir d'attendre que son compte à rebours soit terminé. Quand le compte à rebours sera terminé, cette personne sera exclue de la partie et la bataille pourra continuer."
 ES: "Es posible que algún jugador este intentando reconectar, así que puedes elegir esperar hasta que el tiempo s de este jugador concluya. Cuando el contador llegue a 0, esa persona será desconectada de la partida y la batalla continuará."
 IT: "E' possibile che il giocatore stia cercando di riconnettersi, quindi puoi attentere che abbia esaurito il tempo disponibile. Quando il timer raggiunge lo 0, il giocatore verrà automaticamente rimosso dal gioco e la partita continuerà."
@@ -45352,7 +45352,7 @@ END
 
 GUI:MustHaveAdminRights
 US: "You must have administrative rights to install a patch"
-DE: "Du musst Administratorrechte haben, um diesen Patch zu installieren."
+DE: "Sie müssen Administratorrechte haben, um diesen Patch zu installieren."
 FR: "Vous devez avoir les droits administrateurs pour installer la mise à jour."
 ES: "Debes tener derechos de administrador para poder instalar un parche."
 IT: "Sono necessari i diritti di amministratore per installare la patch."
@@ -45398,7 +45398,7 @@ END
 
 GUI:AgeFailed
 US: "You must be 13 years of age or older to play this game online"
-DE: "Du musst mindestens 13 Jahre alt sein, um dieses Spiel online spielen zu können."
+DE: "Sie müssen mindestens 13 Jahre alt sein, um dieses Spiel online spielen zu können."
 FR: "Vous devez avoir au moins 13 ans pour jouer en ligne à ce jeu."
 ES: "Debes tener 13 años o más para poder jugar a este juego online."
 IT: "Devi avere 13 anni o più per giocare questo gioco online."
@@ -45763,7 +45763,7 @@ END
 
 TOOLTIP:MapMaxBrutalSuccess
 US: "Congratulations! You have beaten this map against the maximum number of Hard opponents!"
-DE: "Glückwunsch! Du hast diese Karte gegen die maximale Anzahl der schweren Gegner gemeistert."
+DE: "Glückwunsch! Sie haben diese Karte gegen die maximale Anzahl der schweren Gegner gemeistert."
 FR: "Félicitations ! Vous avez terminé cette carte en affrontant le maximum d'adversaires de niveau difficile !"
 ES: "¡Enhorabuena! ¡Has ganado esta partida contra el número máximo de oponentes Brutales!"
 IT: "Congratulazioni! Hai superato questa mappa contro il numero massimo di avversari di livello Brutale!"
@@ -45930,7 +45930,7 @@ END
 
 TOOLTIP:LimitSuperweapons
 US: "Check to limit Particle Cannons, Scud Storms, etc. to one per player"
-DE: "Aktivierst du diese Option, hat jeder Spieler maximal eine Superwaffe jeder Art."
+DE: "aktivieren Sie diese Option, hat jeder Spieler maximal eine Superwaffe jeder Art."
 FR: "Cochez cette case pour limiter le nombre de Canons à particules, de Scuds multiples, etc. à un par joueur."
 ES: "Limita a uno/jugador los cañones de partículas, tormentas SCUD, etc."
 IT: "Seleziona per limitare l'uso di Cannone particellare, SCUD Storm, eccetera, a un'unità per giocatore."
@@ -45945,7 +45945,7 @@ END
 
 TOOLTIP:BattleHonorStreak100
 US: "Streak Honor\nPlayer has won 100 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 100 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 100 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 100 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 100 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 100 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -45960,7 +45960,7 @@ END
 
 TOOLTIP:BattleHonorStreak500
 US: "Streak Honor\nPlayer has won 500 Skirmish games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 500 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 500 Gefechte in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 500 parties Escarmouche d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 500 escaramuzas seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 500 partite Schermaglia consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -45990,7 +45990,7 @@ END
 
 TOOLTIP:BattleHonorStreak3Online
 US: "Streak Honor\nPlayer has won 3 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 3 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 3 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 3 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 3 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 3 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -46005,7 +46005,7 @@ END
 
 TOOLTIP:BattleHonorStreak10Online
 US: "Streak Honor\nPlayer has won 10 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 10 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 10 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 10 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 10 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 10 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -46020,7 +46020,7 @@ END
 
 TOOLTIP:BattleHonorStreak25Online
 US: "Streak Honor\nPlayer has won 25 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 25 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 25 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 25 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 25 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 25 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -46035,7 +46035,7 @@ END
 
 TOOLTIP:BattleHonorStreak100Online
 US: "Streak Honor\nPlayer has won 100 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 100 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 100 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 100 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 100 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 100 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -46050,7 +46050,7 @@ END
 
 TOOLTIP:BattleHonorStreak500Online
 US: "Streak Honor\nPlayer has won 500 Online games in a row\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nDer Spieler hat 500 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nDer Spieler hat 500 Online-Spiele in Folge gewonnen.\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nLe joueur a remporté 500 parties en ligne d'affilée.\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nEl jugador ha ganado 500 partidas online seguidas.\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nIl giocatore ha vinto 500 partite online consecutive.\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -46080,7 +46080,7 @@ END
 
 TOOLTIP:BattleHonorDomination100
 US: "Domination Honor\nPlayer has won over 100 Skirmish games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 100 Gefechte gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 100 Gefechte gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommen Sie eine Medaille."
 FR: "Distinction de domination\nLe joueur a remporté plus de 100 parties Escarmouche.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 100 escaramuzas\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 100 partite Schermaglia.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
@@ -46095,7 +46095,7 @@ END
 
 TOOLTIP:BattleHonorDomination500
 US: "Domination Honor\nPlayer has won over 500 Skirmish games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 500 Gefechte gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 500 Gefechte gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommen Sie eine Medaille."
 FR: "Distinction de domination\nLe joueur a remporté plus de 500 parties Escarmouche.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 500 escaramuzas\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 500 partite Schermaglia.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
@@ -46110,7 +46110,7 @@ END
 
 TOOLTIP:BattleHonorDomination1000
 US: "Domination Honor\nPlayer has won over 1,000 Skirmish games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 1000 Gefechte gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 1000 Gefechte gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommen Sie eine Medaille."
 FR: "Distinction de domination\nLe joueur a remporté plus de 1000 parties Escarmouche.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 1.000 escaramuzas\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 1.000 partite Schermaglia.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
@@ -46140,7 +46140,7 @@ END
 
 TOOLTIP:BattleHonorDomination100Online
 US: "Domination Honor\nPlayer has won over 100 Online games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 100 Online-Spiele gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 100 Online-Spiele gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommen Sie eine Medaille."
 FR: "Distinction de domination\nLe joueur a remporté plus de 100 parties en ligne.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 100 partidas online\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 100 partite online.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
@@ -46155,7 +46155,7 @@ END
 
 TOOLTIP:BattleHonorDomination500Online
 US: "Domination Honor\nPlayer has won over 500 Online games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 500 Online-Spiele gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 500 Online-Spiele gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommen Sie eine Medaille."
 FR: "Distinction de domination\nLe joueur a remporté plus de 500 parties en ligne.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 500 partidas online\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 500 partite online.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
@@ -46170,7 +46170,7 @@ END
 
 TOOLTIP:BattleHonorDomination1000Online
 US: "Domination Honor\nPlayer has won over 1,000 Online games\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nDer Spieler hat über 1000 Online-Spiele gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
+DE: "Vorherrschaftsmedaille\nDer Spieler hat über 1000 Online-Spiele gewonnen. Nach 100, 500, 1000 und 10.000 Siegen bekommen Sie eine Medaille."
 FR: "Distinction de domination\nLe joueur a remporté plus de 1000 parties en ligne.\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nel jugador ha ganado más de 1.000 partidas online\nSe gana una medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nIl giocatore ha vinto più di 1.000 partite online.\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
@@ -46215,7 +46215,7 @@ END
 
 TOOLTIP:BattleHonorUltimate
 US: "Ultimate Honor\nBeat every Skirmish map against the maximum number of Hard opponents to earn this medal"
-DE: "Ultimative Ehre\nDiese Medaille bekommst du, wenn du alle Gefechtskarten gegen die maximale Anzahl schwerer Gegner meisterst."
+DE: "Ultimative Ehre\nDiese Medaille bekommen Sie, wenn Sie alle Gefechtskarten gegen die maximale Anzahl schwerer Gegner meisterst."
 FR: "Distinction suprême\nRemportez la victoire sur toutes les cartes Escarmouche contre le nombre maximal d'adversaires de niveau difficile pour gagner cette distinction."
 ES: "Medalla (final)\nEl jugador ha ganado en todos los mapas de escaramuza contra el número máximo de oponentes Brutales."
 IT: "Onore supremo\nIl giocatore ha superato ogni mappa Schermaglia contro il numero massimo di avversari a livello Brutale."
@@ -46230,7 +46230,7 @@ END
 
 TOOLTIP:BattleHonorGlobalGeneral
 US: "Global General Honor\nWin at least one Online game playing as each General to earn a medal"
-DE: "Globaler Generalsorden\nDiese Medaille bekommst du, wenn du mit allen Generälen mindestens ein Online-Spiel gewonnen hast!"
+DE: "Globaler Generalsorden\nDiese Medaille bekommen Sie, wenn Sie mit allen Generälen mindestens ein Online-Spiel gewonnen haben!"
 FR: "Distinction de commandement\nRemportez au moins une partie en ligne en incarnant chacun des généraux pour gagner une récompense."
 ES: "Medalla (general mundial)\nTuya si ganas al menos una partida online con cada general."
 IT: "Medaglia del generale\nIl giocatore ha vinto almeno una partita online con tutti i generali."
@@ -46245,7 +46245,7 @@ END
 
 TOOLTIP:BattleHonorStreakDisabled
 US: "Streak Honor\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -46260,7 +46260,7 @@ END
 
 TOOLTIP:BattleHonorStreakOnlineDisabled
 US: "Streak Honor\nEarn a new medal for 3, 10, 25, 100, 500 & 1000 consecutive wins"
-DE: "Siegesmedaille\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommst du jeweils eine Medaille."
+DE: "Siegesmedaille\nFür 3, 10, 25, 100, 500 & 1000 Siege in Folge bekommen Sie jeweils eine Medaille."
 FR: "Distinction d'enchaînement\nGagnez une nouvelle récompense pour 3, 10, 25, 100, 500 et 1000 victoires consécutives."
 ES: "Medalla (racha)\nSe gana medalla por 3, 10, 25, 100, 500 y 1.000 victorias consecutivas."
 IT: "Vittorie in serie\nOttieni una nuova medaglia per ogni 3, 10, 25, 100, 500 e 1.000 vittorie consecutive."
@@ -46290,7 +46290,7 @@ END
 
 TOOLTIP:BattleHonorUltimateDisabled
 US: "Ultimate Honor\nBeat every Skirmish map against the maximum number of Hard opponents to earn this medal"
-DE: "Ultimative Ehre\nDiese Medaille bekommst du, wenn du alle Gefechtskarten gegen die maximale Anzahl schwerer Gegner meisterst."
+DE: "Ultimative Ehre\nDiese Medaille bekommen Sie, wenn Sie alle Gefechtskarten gegen die maximale Anzahl schwerer Gegner meisterst."
 FR: "Distinction suprême\nRemportez la victoire sur toutes les cartes Escarmouche contre le nombre maximal d'adversaires de niveau difficile pour gagner cette distinction."
 ES: "Medalla (final)\nPara obtener esta medalla, gana en todos los mapas de escaramuza contra el número máximo de oponentes Brutales."
 IT: "Onore supremo\nSupera ogni mappa Schermaglia contro il numero massimo di avversari a livello Brutale per ottenere questa medaglia."
@@ -46305,7 +46305,7 @@ END
 
 TOOLTIP:BattleHonorDominationDisabled
 US: "Domination Honor\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nNach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
+DE: "Vorherrschaftsmedaille\nNach 100, 500, 1000 und 10.000 Siegen bekommen Sie eine Medaille."
 FR: "Distinction de domination\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nSe gana medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
@@ -46320,7 +46320,7 @@ END
 
 TOOLTIP:BattleHonorDominationOnlineDisabled
 US: "Domination Honor\nEarn a new medal for 100, 500, 1000 and 10000 lifetime wins"
-DE: "Vorherrschaftsmedaille\nNach 100, 500, 1000 und 10.000 Siegen bekommst du eine Medaille."
+DE: "Vorherrschaftsmedaille\nNach 100, 500, 1000 und 10.000 Siegen bekommen Sie eine Medaille."
 FR: "Distinction de domination\nGagnez une nouvelle récompense pour 100, 500, 1000 et 10 000 victoires consécutives."
 ES: "Medalla (dominación)\nSe gana medalla por 100, 500, 1.000 y 10.000 victorias en total."
 IT: "Medaglia del dominio\nOttieni una nuova medaglia per ogni 100, 500, 1.000 e 10.000 vittorie nella tua carriera."
@@ -46335,7 +46335,7 @@ END
 
 TOOLTIP:BattleHonorGlobalGeneralDisabled
 US: "Global General Honor\nWin at least one Online game playing as each General to earn this medal"
-DE: "Globaler Generalsorden\nDiese Medaille bekommst du, wenn du mit allen Generälen mindestens ein Online-Spiel gewonnen hast!"
+DE: "Globaler Generalsorden\nDiese Medaille bekommen Sie, wenn Sie mit allen Generälen mindestens ein Online-Spiel gewonnen haben!"
 FR: "Distinction de commandement\nRemportez au moins une partie en ligne en incarnant chacun des généraux pour gagner une récompense."
 ES: "Medalla (general mundial)\nTuya si ganas al menos una partida online con cada general."
 IT: "Medaglia del generale\nVinci almeno una partita online con tutti i generali per ottenere questa onorificenza."
@@ -46350,7 +46350,7 @@ END
 
 TOOLTIP:BattleHonorBlitzDisabled
 US: "Blitz Honor\nBeat opponent(s) in 10 minutes or less to earn this medal"
-DE: "Blitzkrieg-Orden\nSchlage deine(n) Gegner innerhalb von 10 Minuten, um diese Medaille zu erhalten."
+DE: "Blitzkrieg-Orden\nSchlage Ihre(n) Gegner innerhalb von 10 Minuten, um diese Medaille zu erhalten."
 FR: "Distinction éclair\nGagnez contre un ou plusieurs adversaire(s) en 10 minutes maximum pour remporter cette récompense."
 ES: "Medalla (relámpago)\nVence a tu(s) oponente(s) en menos de 10 minutos para ganarla."
 IT: "Stella della rapidità\nOttieni una vittoria in meno di 10 minuti per ottenere questa medaglia."
@@ -46928,10 +46928,10 @@ END
 
 SCIENCE:ChinaGattlingTankTraining
 US: "Gattling Tank Training"
-DE: "Gatling-Panzer-Training"
+DE: "Gattling-Panzer-Training"
 FR: "Apprentissage Char Gattling"
 ES: "Entrenamiento tanque Gattling"
-IT: "Addestramento Carro gatling"
+IT: "Addestramento Carro gattling"
 KO: "개틀링 탱크 훈련"
 ZH: "訓練蓋特坦克"
 BP: "Treinamento de Tanques Gattling"
@@ -47252,10 +47252,10 @@ END
 
 CONTROLBAR:UpgradeChinaHelixGattlingCannon
 US: "Gattling Cannon: &C"
-DE: "Gatling-Geschütz: &C"
+DE: "Gattling-Geschütz: &C"
 FR: "Mitrailleuse Gattling: &M"
 ES: "Cañón Gattling: &C"
-IT: "Cannone gatling: &C"
+IT: "Cannone gattling: &C"
 KO: "개틀링 캐논: &C"
 ZH: "蓋特機砲：&C"
 BP: "Canhão Gattling: &C"
@@ -49090,10 +49090,10 @@ END
 
 UPGRADE:HelixGattlingCannon
 US: "Helix Gattling Cannon"
-DE: "Helix-Gatling"
+DE: "Helix-Gattling"
 FR: "Mitrailleuse Gattling Hélix"
 ES: "Cañón Gattling Helix"
-IT: "Cannone gatling Helix"
+IT: "Cannone gattling Helix"
 KO: "헬릭스 개틀링 캐논"
 ZH: "螺旋直昇機蓋特機砲"
 BP: "Canhão Gattling do Helix"
@@ -50579,7 +50579,7 @@ KO: "힌트:\n헬릭스는 업그레이드하면 네이팜탄을 투하할 수 �
 ZH: "建議：\n螺旋直昇機可以升級攜帶汽油彈。\n對下方的目標進行轟炸。"
 BP: "DICA:\nO Helix pode ser atualizado para lançar bombas de napalm.\nElas podem ser lançadas sobre alvos abaixo do Helix."
 PL: "RADA:\nHelisę można wyposażyć w bomby napalmowe.\nBomby te mogą być zrzucane na cele znajdujące się pod Helisą."
-RU: "ПОДСКАЗКА:\nНа Хеликс можно установить бомбы с Напалмом\nИх можно будет сбрасывать на цели находящиеся прямо  под Хеликсом"
+RU: "ПОДСКАЗКА:\nНа Хеликс можно установить бомбы с Напалмом\nИх можно будет сбрасывать на цели находящиеся прямо под Хеликсом"
 AR: "HINT:\nThe Helix can be upgraded to drop napalm bombs\nThese can be dropped on targets beneath the Helix"
 UK: "ПІДКАЗКА:\nХелікс можна вдосконалити, щоб скидати напалмові бомби\nна ворогів"
 END
@@ -50589,29 +50589,29 @@ END
 HELP:Helix-03
 //patch104p-core-begin
 US: "HINT:\nYou can upgrade a Helix with a Battle Bunker,\nPropaganda Tower, or Gattling Cannon"
-DE: "TIPP:\nSie können einen Helix mit einem Bunker,\neinem Propagandaturm oder einem Gatling-Geschütz bestücken."
+DE: "TIPP:\nSie können einen Helix mit einem Bunker,\neinem Propagandaturm oder einem Gattling-Geschütz bestücken."
 FR: "ASTUCE :\nAméliorez l'Hélix avec un bunker chinois,\nun Haut-parleur d'embrigadement ou une Mitrailleuse Gattling."
 ES: "PISTA:\nPuedes mejorar un Helix con un búnker de combate,\nuna torre de propaganda o un cañón Gattling."
-IT: "SUGGERIMENTO:\nPotete aggiornare un Helix con Bunker da battaglia,\nDiffusore o Cannone gatling."
+IT: "SUGGERIMENTO:\nPotete aggiornare un Helix con Bunker da battaglia,\nDiffusore o Cannone gattling."
 KO: "힌트:\n배틀 벙커, 프로퍼갠더 타워,\n혹은 개틀링 캐논으로 헬릭스를 업그레이드 할 수 있습니다."
 ZH: "建議：\n您可以以戰鬥碉堡、思想強化電塔、\n或蓋特機槍來升級螺旋直昇機。"
 BP: "DICA:\nVocê pode atualizar um Helix com um Bunker de Combate,\numa Torre de Propaganda ou um Canhão Gattling."
 PL: "RADA:\nHelisę można wyposażyć w bunkier bojowy,\nmegafon lub działko gattling."
-RU: "ПОДСКАЗКА:\nВы можете установить Боевой бункер на  Хеликс,\nВышку пропаганды или Пулеметную турель"
+RU: "ПОДСКАЗКА:\nВы можете установить Боевой бункер на Хеликс,\nВышку пропаганды или Пулеметную турель"
 AR: "HINT:\nYou can upgrade a Helix with a Battle Bunker,\nPropaganda Tower, or Gattling Cannon"
 UK: "ПІДКАЗКА:\nВи можете покращити Хелікс за допомогою бойового бункера,\nвежі пропаганди, або гармати Гатлінга"
 //patch104p-core-end
 //patch104p-optional-begin
 US: "HINT:\nYou can upgrade a Helix with a Battle Bunker,\nSpeaker Tower, or Gattling Cannon"
-DE: "TIPP:\nSie können einen Helix mit einem Bunker,\neinem Lautsprecherturm oder einem Gatling-Geschütz bestücken."
+DE: "TIPP:\nSie können einen Helix mit einem Bunker,\neinem Lautsprecherturm oder einem Gattling-Geschütz bestücken."
 FR: "ASTUCE :\nAméliorez l'Hélix avec un bunker chinois,\nun Haut-parleur d'embrigadement ou une Mitrailleuse Gattling."
 ES: "PISTA:\nPuedes mejorar un Helix con un búnker de combate,\nuna torre de megafonía o un cañón Gattling."
-IT: "SUGGERIMENTO:\nPotete aggiornare un Helix con Bunker da battaglia,\nDiffusore o Cannone gatling."
+IT: "SUGGERIMENTO:\nPotete aggiornare un Helix con Bunker da battaglia,\nDiffusore o Cannone gattling."
 KO: "힌트:\n배틀 벙커, 스피커 타워,\n혹은 개틀링 캐논으로 헬릭스를 업그레이드 할 수 있습니다."
 ZH: "建議：\n您可以以戰鬥碉堡、思想強化電塔、\n或蓋特機槍來升級螺旋直昇機。"
 BP: "DICA:\nVocê pode atualizar um Helix com um Bunker de Combate,\numa Torre de Alto-Falantes ou um Canhão Gattling."
 PL: "RADA:\nHelisę można wyposażyć w bunkier bojowy,\nmegafon lub działko gattling."
-RU: "ПОДСКАЗКА:\nВы можете установить Боевой бункер на  Хеликс,\nВышку пропаганды или Пулеметную турель"
+RU: "ПОДСКАЗКА:\nВы можете установить Боевой бункер на Хеликс,\nВышку пропаганды или Пулеметную турель"
 AR: "HINT:\nYou can upgrade a Helix with a Battle Bunker,\nPropaganda Tower, or Gattling Cannon"
 UK: "ПІДКАЗКА:\nВи можете покращити Хелікс за допомогою бойового бункера,\nвежі пропаганди, або гармати Гатлінга"
 //patch104p-optional-end
@@ -51103,10 +51103,10 @@ END
 
 HELP:Mini-Gunner-01
 US: "HINT:\nMini-Gunners carry a personal Gattling Gun"
-DE: "TIPP:\nMinigun-Cyborgs haben eine eigene Gatling-Kanone."
+DE: "TIPP:\nMinigun-Cyborgs haben eine eigene Gattling-Kanone."
 FR: "ASTUCE :\nLes Mitrailleurs transportent leur propre Mitrailleuse Gattling."
 ES: "PISTA:\nLos artilleros de minigun llevan un cañón Gattling."
-IT: "SUGGERIMENTO:\nI Commando sono dotati di un Cannone gatling portatile."
+IT: "SUGGERIMENTO:\nI Commando sono dotati di un Cannone gattling portatile."
 KO: "힌트:\n미니 거너는 개틀링 건을 사용합니다."
 ZH: "建議：\n蓋特機槍兵需帶有單兵用蓋特機槍。"
 BP: "DICA:\nMinicanhoneiros carregam um Canhão Gattling individual."
@@ -51193,10 +51193,10 @@ END
 
 HELP:EmperorTank-02
 US: "HINT:\nThe Emperor Tank can be upgraded with a Gattling Cannon"
-DE: "TIPP:\nDer Emperor-Panzer kann mit einem Gatling-Geschütz aufgerüstet werden."
+DE: "TIPP:\nDer Emperor-Panzer kann mit einem Gattling-Geschütz aufgerüstet werden."
 FR: "ASTUCE :\nLe Char Despote peut être amélioré avec une Mitrailleuse Gattling."
 ES: "PISTA:\nEl tanque Emperor puede mejorarse con un cañón Gattling."
-IT: "SUGGERIMENTO:\nIl Carro Emperor si può potenziare con un Cannone gatling."
+IT: "SUGGERIMENTO:\nIl Carro Emperor si può potenziare con un Cannone gattling."
 KO: "힌트:\n엠퍼러 탱크는 개틀링 캐논 장착 업그레이드를 할 수 있습니다."
 ZH: "建議：\nThe 帝王坦克可以升級加裝一門蓋特機槍."
 BP: "DICA:\nO Tanque Emperor pode ser atualizado com um Canhão Gattling."
@@ -56046,10 +56046,10 @@ END
 
 CONTROLBAR:TooltipUpgradeChinaHelixGattlingCannon
 US: "Build a Gattling Cannon on this Helix"
-DE: "Rüstet diesen Helix mit einem Gatling-Geschütz auf."
+DE: "Rüstet diesen Helix mit einem Gattling-Geschütz auf."
 FR: "Construit une Mitrailleuse Gattling sur cet Hélix."
 ES: "Construye un Cañón Gattling en este Helix."
-IT: "Costruisce un Cannone gatling su questo Helix."
+IT: "Costruisce un Cannone gattling su questo Helix."
 KO: "이 헬릭스에 개틀링 캐논을 만듭니다."
 ZH: "在螺旋直昇機上增設蓋特機砲。"
 BP: "Equipa este Helix com um Canhão Gattlin."
@@ -56926,10 +56926,10 @@ END
 
 CONTROLBAR:ToolTipUSAScienceSpectreGunship
 US: "Spectre Gunships circle the battlefield and pummel enemy forces with Howitzers and Gattling Cannons\n\nDeploy from: Command Center"
-DE: "Spectres kreisen um das Schlachtfeld und attackieren feindliche Einheiten mit Haubitzen und Gatling-Geschützen.\n\nProduktionsstätte: Kommandozentrale"
+DE: "Spectres kreisen um das Schlachtfeld und attackieren feindliche Einheiten mit Haubitzen und Gattling-Geschützen.\n\nProduktionsstätte: Kommandozentrale"
 FR: "Le Spectre survole le champ de bataille et pilonne les troupes ennemies avec des obusiers et des Mitrailleuses Gattling.\n\nDéployé depuis : Poste de commandement."
 ES: "Los Spectre cercan el campo de batalla y machacan las fuerzas enemigas con Howitzers y cañones Gattling.\n\nDespliegue desde: Centro de mando"
-IT: "La Cannoniera Spectre sorvola il campo di battaglia e colpisce il nemico con Howitzer e Cannoni gatling.\n\nLanciata da: Centro comando"
+IT: "La Cannoniera Spectre sorvola il campo di battaglia e colpisce il nemico con Howitzer e Cannoni gattling.\n\nLanciata da: Centro comando"
 KO: "스펙터 건쉽은 전장을 선회하며 적 부대를 유탄포와 개틀링 캐논으로 연속 공격합니다.\n\n명령 위치: 커맨드 센터"
 ZH: "鬼魅炮艇機在戰場上空盤旋並以機載的榴彈砲與蓋特機槍對目標攻擊。\n\n部署來源：指揮中心"
 BP: "Aviões de Artilharia Spectre circundam o campo de batalha e atingem as forças inimigas com disparos de Canhões Howitzers e Gattlin.\n\nOrdenado por: Centro de Comando"
@@ -57001,10 +57001,10 @@ END
 
 CONTROLBAR:ToolTipChinaScienceGattlingTankTraining
 US: "All Gattling Tanks will be built as elite"
-DE: "Alle neuen Gatling-Panzer sind Eliteeinheiten."
+DE: "Alle neuen Gattling-Panzer sind Eliteeinheiten."
 FR: "Tous les Chars Gattling seront transformés en élite."
 ES: "Todos los tanques Gattling pasarán a ser élite."
-IT: "Tutti i Carri gatling saranno realizzati come élite."
+IT: "Tutti i Carri gattling saranno realizzati come élite."
 KO: "모든 개틀링 탱크가 엘리트급으로 생산될 것입니다."
 ZH: "所有建造的蓋特坦克均為精英階級。"
 BP: "Todos os Tanques Gattlin são criados como armas de elite."
@@ -59157,7 +59157,7 @@ END
 
 GUI:ChallengeWinText
 US: "Congratulations, you've defeated %s"
-DE: "Glückwunsch. Du hast %s besiegt."
+DE: "Glückwunsch. Sie haben %s besiegt."
 FR: "Félicitations, vous avez vaincu le %s."
 ES: "Felicidades, has derrotado a %s."
 IT: "Congratulazioni, avete sconfitto il %s."
@@ -59427,7 +59427,7 @@ END
 
 ACADEMY:BuildAllStructures
 US: "When you're on the battlefield it's important to utilize all the tools available to you, General. Make sure you build all the structures. You must maintain a strong military force"
-DE: "Ein General muss auf dem Schlachtfeld alle verfügbaren Mittel einsetzen. Baue also alle Gebäude, die du für den Aufbau einer schlagkräftigen Armee brauchst."
+DE: "Ein General muss auf dem Schlachtfeld alle verfügbaren Mittel einsetzen. Bauen Sie also alle Gebäude, die Sie für den Aufbau einer schlagkräftigen Armee brauchen."
 FR: "Sur le champ de bataille, il est essentiel d'utiliser les outils disponibles, général. Pensez à construire tous les bâtiments dont vous disposez pour assurer la supériorité de vos troupes."
 ES: "General, cuando estés en el campo de batalla es importante usar todas las herramientas disponibles. Construye todos los edificios que tengas para mantener una potente fuerza militar"
 IT: "Quando sei sul campo di battaglia, è importante che utilizzi tutto ciò che hai a disposizione. Costruisci tutte le strutture necessarie per mantenere una forza militare di livello adeguato."
@@ -59442,7 +59442,7 @@ END
 
 ACADEMY:BuildSupplyCenterEarlier
 US: "General, one of the most important functions of a strong leader is making sure that the soldiers have plenty of supplies. We suggest that you make sure to build a Supply Center or Stash whenever you begin a mission. Supplies bring you cash and cash brings you victory"
-DE: "Ein kluger General sorgt dafür, dass seine Truppen stets über genug Rohstoffe verfügen. Aus diesem Grund solltest du am Anfang einer Mission ein Nachschub- oder ein Geheimlager bauen. Schließlich sind Rohstoffe dein ganzes Kapital. Hast du keine Rohstoffe, kannst du diesen Krieg nicht gewinnen!"
+DE: "Ein kluger General sorgt dafür, dass seine Truppen stets über genug Rohstoffe verfügen. Aus diesem Grund sollten Sie am Anfang einer Mission ein Nachschub- oder ein Geheimlager bauen. Schließlich sind Rohstoffe Ihr ganzes Kapital. haben Sie keine Rohstoffe, können Sie diesen Krieg nicht gewinnen!"
 FR: "Général, l'une des principales choses dont doit s'assurer un grand chef, c'est que ses soldats ont suffisamment de ravitaillement. Je vous suggère de bien vous assurer que vous avez un Dépôt ou une Cache de ravitaillement lorsque vous partez en mission. Sans ravitaillement, pas d'argent. Et sans argent, pas de victoire."
 ES: "Una de las funciones más importantes de un líder fuerte es hacer que los soldados tengan suficientes suministros. Te sugerimos que construyas un centro o reserva de suministros donde comiences una misión. Los suministros te reportan dinero y el dinero trae la victoria"
 IT: "Una delle doti più importanti di un vero leader è fare in modo che i rifornimenti non manchino mai. Ti suggeriamo di costruire un Centro rifornimenti o un Nucleo rifornimenti, all'inizio di ogni missione. I rifornimenti significano denaro e il denaro significa vittoria."
@@ -59457,7 +59457,7 @@ END
 
 ACADEMY:TryBuildingRadar
 US: "The Fog of War surrounds us all. One helpful way to see through the pea soup is via radar. Each faction is unique in how it obtains the eye in the sky. The USA Command Center automatically comes with radar, the Chinese Command Center must be upgraded and the GLA must build a Radar Van from its Arms Dealer"
-DE: "Wir sind vom Nebel des Krieges umgeben. Du brauchst also Radaranlagen. Während in die Kommandozentralen der WA bereits Radarsysteme integriert sind, muss der Asiatische Pakt seine Kommandozentralen zuerst aufrüsten. Die IBG kauft bei Waffenhändlern Radarwagen."
+DE: "Wir sind vom Nebel des Krieges umgeben. Sie brauchen also Radaranlagen. Während in die Kommandozentralen der WA bereits Radarsysteme integriert sind, muss der Asiatische Pakt seine Kommandozentralen zuerst aufrüsten. Die IBG kauft bei Waffenhändlern Radarwagen."
 FR: "Le brouillard de guerre nous entoure. Le radar est le moyen le plus efficace de percer cette purée de pois. Chaque faction a une manière particulière de l'obtenir. Le Poste de commandement US en est toujours pourvu, alors que celui des Chinois doit être amélioré pour l'obtenir. La GLA doit quant à elle construire un Radar mobile par l'intermédiaire de son Trafiquant d'armes."
 ES: "La niebla de la guerra nos rodea a todos. Un modo práctico de ver a través del puré de guisantes es el radar. Cada facción tiene sus propios sistemas de detección. El centro de mando de EE.UU. incluye el radar, el chino hay que mejorarlo y el GLA debe construir una furgoneta radar en su tienda de armas"
 IT: "La foschia avvolge ogni cosa: il radar rappresenta un ottimo metodo per superare questo ostacolo. Ogni fazione ha il proprio metodo per osservare la situazione dall'alto: il Centro comando USA è già dotato di un radar, quello cinese lo ottiene come aggiornamento e l'ELG deve costruire un Furgone radar dal Trafficante d'armi."
@@ -59472,7 +59472,7 @@ END
 
 ACADEMY:BuildMorePeons
 US: "If you ask any other Generals they'll confirm a simple rule: The grunts make the army. In order to build your base you'll need to put your Dozers or Workers to work. These guys are key to your future success so don't forget them!"
-DE: "Alle Generäle sollten eine einfache Regel beherzigen: Die unteren Ränge sind das Rückgrat einer Armee. Ohne Bulldozer und Arbeitsbots kannst du keinen Stützpunkt errichten. Diese Einheiten legen den Grundstein für deine zukünftigen Triumphe. Vergiss das nie!"
+DE: "Alle Generäle sollten eine einfache Regel beherzigen: Die unteren Ränge sind das Rückgrat einer Armee. Ohne Bulldozer und Arbeitsbots können Sie keinen Stützpunkt errichten. Diese Einheiten legen den Grundstein für Ihre zukünftigen Triumphe. Vergessen Sie das nie!"
 FR: "N'importe quel général vous le confirmera : sans troufions, une armée n'est rien. Pour construire votre base, vous devez faire travailler vos Ouvriers ou vos Engins de chantier. Ils sont la clé du succès, alors ne les oubliez pas !"
 ES: "Si preguntas a otro general, te confirmará una sencilla regla: Los soldados son la base del ejército. Para construir tu base necesitas poner a trabajar a tus excavadoras o trabajadores. Estos chicos son la clave de tu futuro éxito... ¡así que no los olvides!"
 IT: "Chiedi a un qualsiasi generale, ti confermerà una regola basilare: sono i soldati semplici a fare l'esercito. Per creare la tua base, devi utilizzare Bulldozer e Operai: sono loro la chiave del tuo successo, non dimenticarlo mai!"
@@ -59487,7 +59487,7 @@ END
 
 ACADEMY:TryCapturingStructures
 US: "General, sometimes it's easier to take what you want rather than work for it. If you build the \"Capture\" upgrade from your Barracks you'll be able to steal enemy structures. There are also Tech Buildings littered around the battlefield that can enhance your army even further"
-DE: "Manchmal ist es sinnvoller, sich Dinge einfach zu nehmen, anstatt dafür zu arbeiten. Mit dem \"Erobern\"-Upgrade deiner Kasernen kannst du feindliche Gebäude einnehmen. Darüber hinaus kannst du deine Armee mit Hilfe verschiedener Hightech-Gebäude optimieren."
+DE: "Manchmal ist es sinnvoller, sich Dinge einfach zu nehmen, anstatt dafür zu arbeiten. Mit dem \"Erobern\"-Upgrade Ihrer Kasernen können Sie feindliche Gebäude einnehmen. Darüber hinaus können Sie Ihre Armee mit Hilfe verschiedener Hightech-Gebäude optimieren."
 FR: "Général, il est plus simple de prendre ce que vous désirez que de travailler pour le construire. Si votre Caserne construit l'amélioration \"Prendre bâtiment\", vous pourrez capturer des bâtiments ennemis. Les bâtiments de recherches disséminés autour du champ de bataille peuvent également profiter à votre armée."
 ES: "General, a veces es más fácil coger lo que quieres en lugar de trabajar por ello. Si creas la mejora de \"Tomar\" desde tus barracones, podrás robar los edificios del enemigo. Por el campo de batalla hay dispersos edificios de tecnología que pueden mejorar aún más tu ejército"
 IT: "A volte è più facile prendere ciò che ti serve, piuttosto che realizzarlo. Realizzando l'aggiornamento \"Conquista\", presso la caserma, puoi assumere il controllo delle strutture nemiche. Sul campo di battaglia ci saranno anche altri edifici che potranno essere utili al tuo esercito."
@@ -59502,7 +59502,7 @@ END
 
 ACADEMY:SpendGeneralsPoints
 US: "With war come the spoils. Every time you destroy an enemy you'll earn your way toward more Generals Points. These can be spent by pressing the \"star\" button on the right side of the Command Bar. Simply open the Generals Points menu and spend your hard earned points on some new war toys"
-DE: "Dem Sieger gehört die Beute. Wenn du einen Gegner besiegst, bekommst du Generalspunkte. Klicke auf die Stern-Schaltfläche am rechten Rand der Befehlsleiste, wenn du deine sauer verdienten Punkte in einige neue Waffensysteme investieren möchtest."
+DE: "Dem Sieger gehört die Beute. Wenn Sie einen Gegner besiegen, bekommen Sie Generalspunkte. Klicken Sie auf die Stern-Schaltfläche am rechten Rand der Befehlsleiste, wenn Sie Ihre sauer verdienten Punkte in einige neue Waffensysteme investieren möchten."
 FR: "Toute guerre rapporte un butin. A chaque fois que vous détruisez un ennemi, vous remportez des points de général. Pour les dépenser, cliquez sur l'étoile à droite, dans la barre de commandes. Une fois le menu des points de général affiché, échangez vos points contre de nouveaux joujoux de guerre."
 ES: "Con la guerra viene el botín. Cada vez que destruyas a un enemigo conseguirás más puntos de general. Puedes gastarlos con el botón de \"estrella\" de la parte inferior derecha de la barra de mando. Abre el menú de Puntos de general y cómprate nuevos juguetes con tus merecidos puntos"
 IT: "Guerra significa denaro: ogni volta che distruggerai un nemico, otterrai dei nuovi punti Generale, che potrai quindi utilizzare tramite il pulsante della \"stella\", sul lato destro della barra di comando. Apri il menu dei punti Generale e impiega quelli accumulati per acquistare delle nuove armi."
@@ -59517,7 +59517,7 @@ END
 
 ACADEMY:TryUsingSuperweapons
 US: "What's the use of collecting Generals points if you don't use them? If you've purchased Generals Powers by using your points an icon will pop up on the right side of the screen. Simply press it and watch the fireworks begin. The more points you spend, the more powerful the power"
-DE: "Was nützen Generalspunkte, wenn du sie nicht verwendest? Hast du deine Punkte in Generalsfähigkeiten investiert, erscheint am rechten Bildschirmrand ein Symbol. Nach einem Klick auf dieses Symbol beginnt das Feuerwerk. Je mehr Punkte du einsetzt, desto effektiver ist die Fähigkeit."
+DE: "Was nützen Generalspunkte, wenn Sie sie nicht verwendest? haben Sie Ihre Punkte in Generalsfähigkeiten investiert, erscheint am rechten Bildschirmrand ein Symbol. Nach einem Klick auf dieses Symbol beginnt das Feuerwerk. Je mehr Punkte Sie einsetzt, desto effektiver ist die Fähigkeit."
 FR: "A quoi bon collectionner des points de général si vous ne les utilisez pas ? Si vous achetez des pouvoirs de général en utilisant vos points, un icone apparaîtra sur la droite de votre écran. Vous n'avez qu'à cliquer dessus pour profiter d'un beau feu d'artifice. Plus vous dépenserez de points, plus les effets du pouvoir fraîchement acquis seront dévastateurs."
 ES: "¿De qué sirve reunir puntos de general si no los usas? Si has comprado poderes de general usando tus puntos, aparecerá un icono en la parte derecha de la pantalla. Púlsalo y mira cómo empiezan los fuegos artificiales. Cuantos más puntos gastes más fuerte será el poder"
 IT: "A cosa serve raccogliere punti Generale se non li utilizzi? Se hai ottenuto dei poteri del Generale impiegando i punti, sul lato destro dello schermo compare un'icona: selezionala e goditi lo spettacolo! Più punti spendi, più elevato è il potere acquisito."
@@ -59532,7 +59532,7 @@ END
 
 ACADEMY:TryGarrisoningAStructure
 US: "Soldiers can be effective in the open, but are deadlier when garrisoned inside civilian buildings. Select your soldiers and send them into an empty structure. They'll be protected by the walls - unless a Flash Bang, Toxin Tractor or Dragon Tank comes their way"
-DE: "Cyborgs sind auf offenem Feld sehr effektiv, sie können sich aber auch in Zivilgebäuden verschanzen. Wähle die gewünschten Cyborgs dazu aus und schicke sie in ein leeres Gebäude. Dort sind sie in Sicherheit, bis deine Gegner mit Blendgranaten, Säuretraktoren oder Drachenpanzern anrücken."
+DE: "Cyborgs sind auf offenem Feld sehr effektiv, sie können sich aber auch in Zivilgebäuden verschanzen. Wählen Sie die gewünschten Cyborgs dazu aus und schicke sie in ein leeres Gebäude. Dort sind sie in Sicherheit, bis Ihre Gegner mit Blendgranaten, Säuretraktoren oder Drachenpanzern anrücken."
 FR: "Les soldats peuvent être efficaces en extérieur, mais mortels s'ils sont en garnison dans des bâtiments civils. Sélectionnez vos soldats et envoyez-les dans un bâtiment vide. Les murs les protégeront, à moins qu'une Grenade flash, un Tracteur bactériologique ou un Char Dragon ne les attaque."
 ES: "Los soldados pueden ser eficaces en campo abierto, pero guarnecidos en edificios civiles pueden resultar mortales. Selecciona tus soldados y envíalos a un edificio vacío. Estarán protegidos por los muros - a no ser que aparezca una granada cegadora, un tractor de toxinas o un tanque Dragon"
 IT: "I soldati sono efficaci in campo aperto, ma possono essere ancor più letali posti di presidio in un edificio civile. Seleziona le truppe e falle entrare in una struttura vuota: lì saranno protette dalle pareti, a meno che il nemico non usi una Granata flash, un Contaminatore o un Carro Dragon."
@@ -59547,7 +59547,7 @@ END
 
 ACADEMY:IdleBuildingUnits
 US: "General, fielding and leading a great army should be your highest goal. Make sure you're building your fighting units by clicking on a Barracks, War Factory, Airfield, etc. and then clicking a respective picture in the bottom Command Bar. It will be money well spent and will help you achieve victory"
-DE: "Der Aufbau und die militärische Führung einer Armee ist die wichtigste Aufgabe eines Generals. Klicke also auf deine Kasernen, Waffenfabriken, Flugfelder usw. und wähle in der Befehlsleiste die gewünschte Einheit aus. Nur wenn du ein schlagkräftiges Heer aufbaust, kannst du deine Gegner bezwingen."
+DE: "Der Aufbau und die militärische Führung einer Armee ist die wichtigste Aufgabe eines Generals. Klicken Sie also auf Ihre Kasernen, Waffenfabriken, Flugfelder usw. und wählen Sie in der Befehlsleiste die gewünschte Einheit aus. Nur wenn Sie ein schlagkräftiges Heer aufbaust, können Sie Ihre Gegner bezwingen."
 FR: "Général, votre priorité doit être d'aligner et de diriger une grande armée. Construisez des unités de combat en cliquant sur une Caserne, un Complexe militaro-industriel, un Aérodrome, etc., puis sur l'un des icones dans la barre de commandes. Vous dépenserez votre argent utilement et cela vous permettra de remporter la victoire."
 ES: "General, organizar y liderar un gran ejército debería ser tu objetivo principal. Asegúrate de construir tus unidades de combate haciendo clic en barracones, fábrica de guerra, aeródromo, etc., y luego el consiguiente dibujo del botón de la barra de mando. Será dinero bien gastado y te ayudará a lograr la victoria"
 IT: "Guidare un grande esercito in battaglia dovrebbe essere il tuo obiettivo primario: ricorda di creare unità da combattimento nella Caserma, nella Fabbrica militare, all'Aeroporto, eccetera, tramite le apposite icone nella barra di comando inferiore. Sarà denaro ben speso e ti aiuterà a conquistare la vittoria."
@@ -59562,7 +59562,7 @@ END
 
 ACADEMY:TryDragSelectingUnits
 US: "Manipulating your army is one of the trickiest things a General must learn. While you can click on each individual unit, it's usually faster to \"lasso\" a group of units. Simply click and drag the box around the units. They will now be in your control. If you click on another area the units will move to this spot"
-DE: "Die Befehligung einer Armee ist nicht ganz einfach. Du kannst alle Einheiten per Mausklick einzeln auswählen. Allerdings ist dies relativ mühsam. Klicke daher mit der linken Maustaste und ziehe einen Auswahlrahmen um die gewünschten Einheiten. Diese warten nun auf deine Befehle. Klicke jetzt auf einen beliebigen Punkt der Karte, um deine Truppen in Bewegung zu setzen."
+DE: "Die Befehligung einer Armee ist nicht ganz einfach. Sie können alle Einheiten per Mausklick einzeln auswählen. Allerdings ist dies relativ mühsam. Klicken Sie daher mit der linken Maustaste und ziehen Sie einen Auswahlrahmen um die gewünschten Einheiten. Diese warten nun auf Ihre Befehle. Klicken Sie jetzt auf einen beliebigen Punkt der Karte, um Ihre Truppen in Bewegung zu setzen."
 FR: "Diriger une armée est la tâche la plus complexe dont doit s'acquitter un général. Il est possible de sélectionner les unités une par une, mais bien plus rapide de les sélectionner par groupe. Pour cela, cliquez et faites glisser le curseur de votre souris pour dessiner un rectangle de sélection autour des unités. Relâchez le bouton et ces unités attendront vos ordres. Cliquez ensuite à un autre endroit pour les y envoyer."
 ES: "Una de las cosas más delicadas que debe aprender un general es a manipular su ejército. Aunque puedes hacer clic en cada unidad, normalmente es más rápido \"echar el lazo\" a un grupo. Haz clic y arrastra un recuadro en torno a las unidades, que pasarán a estar bajo tu control. Si haces clic en otra zona, las unidades irán allí"
 IT: "La gestione del proprio esercito è il compito più difficile per ogni generale. Anche se puoi selezionare ogni singola unità, è di solito più comodo \"circondare\" un gruppo di unità, tenendo premuto il pulsante e disegnando un riquadro di selezione. Così tutte le unità saranno pronte all'azione. Un clic su un punto qualsiasi lo imposterà come destinazione."
@@ -59596,7 +59596,7 @@ END
 
 ACADEMY:RanOutOfPower
 US: "While the GLA has no need for power, China and the USA eat it up like popcorn. Running on low power puts your production and defenses at a disadvantage. Make sure to build a Cold Fusion Reactor or a Nuclear Reactor for maximum output. Without power you have no chance in this war"
-DE: "Der Asiatische Pakt und die WA sind - im Gegensatz zur IBG - auf eine lückenlose Energieversorgung angewiesen. Investiere beim Bau deines Stützpunktes also in Kraftwerke, um deine Kriegsmaschinerie am Laufen zu halten. Baue Atom- oder Fusionsreaktoren, um deine Stromversorgung zu optimieren. Ohne Energie hast du in diesem Krieg keine Chance!"
+DE: "Der Asiatische Pakt und die WA sind - im Gegensatz zur IBG - auf eine lückenlose Energieversorgung angewiesen. Investieren Sie beim Bau Ihres Stützpunktes also in Kraftwerke, um Ihre Kriegsmaschinerie am Laufen zu halten. Bauen Sie Atom- oder Fusionsreaktoren, um Ihre Stromversorgung zu optimieren. Ohne Energie haben Sie in diesem Krieg keine Chance!"
 FR: "Alors que la GLA n'en a pas besoin, les USA et la Chine consomment le courant comme du pop-corn. Pour que ces bases restent opérationnelles, un général doit dépenser beaucoup d'argent pour alimenter sa machine de guerre en courant. Pensez à construire un Réacteur à fusion froide ou un Réacteur nucléaire pour obtenir une puissance maximale. Le succès est plus difficile à atteindre avec un faible approvisionnement en énergie."
 ES: "Aunque el GLA no necesita energía, China y los EE.UU. la devoran como palomitas. Para mantener fuerte una base, hay que gastar dinero en mucha energía para alimentar la maquinaria de guerra. Construye un reactor de fusión fría o un reactor nuclear para un rendimiento máximo. Poca energía puede suponer unas escasas victorias"
 IT: "Mentre l'ELG non ha alcun bisogno di energia, Cina e USA ne dipendono interamente: per mantenere operativa la propria base, il generale saggio investe nella produzione dell'energia necessaria. Ricorda di costruire un Reattore a fusione fredda o un Reattore nucleare per ottenere la massima resa: poca energia è spesso sinonimo di sconfitta."
@@ -59613,7 +59613,7 @@ END
 
 ACADEMY:BuildMoreGatherers
 US: "General, make sure you're building plenty of Workers, Supply Trucks or Chinooks to keep your income flowing. You can purchase extra gatherers by clicking on the resource gatherer's picture in the Supply Center or Stash. Don't be shy about maximizing your resource potential"
-DE: "Baue reichlich Arbeitsbots, Versorgungs-LKWs oder Chinooks, um die Rohstoffversorgung deiner Armee zu sichern. Klicke einfach auf ein Nachschub- oder Geheimlager, um zusätzliche Einheiten zu bauen. Auf diese Weise kannst du deine Rohstoffreserven aufstocken."
+DE: "Bauen Sie reichlich Arbeitsbots, Versorgungs-LKWs oder Chinooks, um die Rohstoffversorgung Ihrer Armee zu sichern. Klicken Sie einfach auf ein Nachschub- oder Geheimlager, um zusätzliche Einheiten zu bauen. Auf diese Weise können Sie Ihre Rohstoffreserven aufstocken."
 FR: "Général, pensez à construire beaucoup d'Ouvriers, de Camions de ravitaillement ou de Chinook pour assurer des rentrées d'argent constantes. Pour construire plus d'unités de collecte, cliquez sur le Dépôt ou la Cache de ravitaillement. N'ayez pas peur de maximiser votre potentiel de ressources."
 ES: "General, asegúrate de construir cantidad de trabajadores, camiones de suministros o Chinook para que tus ingresos fluyan. Puedes crear recolectores extra haciendo clic en el centro o reserva de suministros. No te cortes a la hora de maximizar tu potencial de recursos"
 IT: "Ricorda di addestrare Operai, Camion dei rifornimenti e Chinook a sufficienza, per mantenere costanti gli incassi. Puoi realizzarne di nuovi cliccando sul Centro rifornimenti o sul Nucleo rifornimenti. Non esitare a sfruttare a fondo le risorse in tuo possesso."
@@ -59628,7 +59628,7 @@ END
 
 ACADEMY:BuildAHero
 US: "Jarmen Kell, Col. Burton and Black Lotus can be invaluable to your strategy. These heroes can turn the tide of a battle and are invisible to the enemy. To locate your hero on the radar, look for the cross hair icon. Though you can only build one at a time don't underestimate their importance"
-DE: "Infiltratoren, Kommandobots und Black Bots können eine Schlacht entscheiden, da sie perfekt getarnt und für deine Gegner nicht zu sehen sind. Auf dem Radar ist die Position dieser Einheiten mit einem Fadenkreuz markiert. Da du immer nur eine Helden-Einheit bauen darfst, solltest du ihre Bedeutung nicht unterschätzen!"
+DE: "Infiltratoren, Kommandobots und Black Bots können eine Schlacht entscheiden, da sie perfekt getarnt und für Ihre Gegner nicht zu sehen sind. Auf dem Radar ist die Position dieser Einheiten mit einem Fadenkreuz markiert. Da Sie immer nur eine Helden-Einheit bauen darfst, sollten Sie ihre Bedeutung nicht unterschätzen!"
 FR: "Jarmen Kell, le colonel Burton et Lotus Noir peuvent être des atouts irremplaçables de votre stratégie. Ces héros peuvent influer sur l'issue d'une bataille et ne peuvent pas être repérés par l'ennemi. Sur votre radar, votre héros est indiqué par un réticule. Vous ne pouvez en construire qu'un à la fois, mais ne sous-estimez pas pour autant sa puissance."
 ES: "Jarmen Kell, el coronel Burton y Loto Negro pueden ser valiosísimos para tu estrategia. Estos héroes pueden darle la vuelta a una batalla y son invisibles para el enemigo. Para localizar a tu héroe en el radar, busca el icono del punto de mira. Aunque sólo puedes crear uno a la vez, no subestimes su importancia"
 IT: "Jarmen Kell, il Colonnello Burton e Loto Nero possono essere elementi preziosi della tua strategia. Questi eroi sono in grado di mutare le sorti di una battaglia e sono completamente invisibili al nemico. Per localizzare il tuo guerriero sul radar, cerca l'icona del mirino. Anche se si tratta di un'unità singola, non sottovalutarne mai l'importanza."
@@ -59643,7 +59643,7 @@ END
 
 ACADEMY:PickStrategyCenterPlan
 US: "The US Strategy Center is a very helpful structure. You should remember to choose the strategy that best fits your gameplan. Search & Destroy, Bombardment and Hold the Line are all excellent ways to give you the edge you need. Along with these overall strategies you can purchase many upgrades from this building"
-DE: "Das Strategiezentrum der WA ist sehr nützlich. Wähle eine Strategie, die deinem Schlachtplan (Zerstörung, Bombardement oder Stellung halten) entspricht. Die Wahl des richtigen Schlachtplanes hat schon so manchen Krieg entschieden. Darüber hinaus stehen für das Strategiezentrum zahlreiche Upgrades zur Verfügung."
+DE: "Das Strategiezentrum der WA ist sehr nützlich. Wählen Sie eine Strategie, die Ihrem Schlachtplan (Zerstörung, Bombardement oder Stellung halten) entspricht. Die Wahl des richtigen Schlachtplanes hat schon so manchen Krieg entschieden. Darüber hinaus stehen für das Strategiezentrum zahlreiche Upgrades zur Verfügung."
 FR: "Le Commandement tactique américain est un bâtiment très utile. Pensez à choisir la stratégie qui convient le mieux à votre plan de bataille. Recherche et destruction, Bombardement et Tenir la position permettent bien souvent de prendre l'avantage. Outre ces stratégies générales, ce bâtiment vend de nombreuses améliorations."
 ES: "El centro de estrategia de EE.UU. es un edificio muy útil. Elige la estrategia que mejor se adapte a tu plan de juego. Búsqueda y destrucción, Bombardeo y Resistencia son formas excelentes de darte la ventaja que necesitas. Junto a las estrategias generales, puedes comprar muchas mejoras en este edificio"
 IT: "Il Centro strategico USA è una struttura molto utile: scegli sempre la strategia che meglio si adatta al tuo piano d'azione. Ricerca e distruzione, Bombardamento e Presidio possono concederti il vantaggio necessario per vincere. Insieme a queste strategie globali, questo edificio consente di realizzare molti aggiornamenti."
@@ -59658,7 +59658,7 @@ END
 
 ACADEMY:UseTunnelNetwork
 US: "When it comes to the GLA sneaking around the battlefield is their calling card. Tunnel Networks offer defense capabilities but they also allow the player to move around quickly. Simply build a few Tunnel Networks and send your units inside. Click on the structure and you can expel them from any other Tunnel Network anywhere on the map. They are key to the overall GLA strategy"
-DE: "Die IBG vertraut auf dem Schlachtfeld auf Geheimhaltung und verdeckte Einsätze. Tunnelsysteme bieten gute Defensivmöglichkeiten, ermöglichen aber gleichzeitig schnelle Vorstöße. Baue einfach einige Tunnelsysteme und schicke deine Einheiten hinein. Klicke auf die Struktur, damit deine Truppen die unterirdischen Gänge durch ein beliebiges Tunnelsystem auf der Karte verlassen. Dies ist die wichtigste Strategie der IBG!"
+DE: "Die IBG vertraut auf dem Schlachtfeld auf Geheimhaltung und verdeckte Einsätze. Tunnelsysteme bieten gute Defensivmöglichkeiten, ermöglichen aber gleichzeitig schnelle Vorstöße. Bauen Sie einfach einige Tunnelsysteme und schicke Ihre Einheiten hinein. Klicken Sie auf die Struktur, damit Ihre Truppen die unterirdischen Gänge durch ein beliebiges Tunnelsystem auf der Karte verlassen. Dies ist die wichtigste Strategie der IBG!"
 FR: "La furtivité est la carte de visite de la GLA sur le champ de bataille. Les Réseaux de tunnels leur permettent non seulement de se défendre, mais aussi de se déplacer rapidement. Creusez tout simplement quelques Réseaux de tunnels, puis envoyez vos unités dedans. Cliquez sur le bâtiment pour les faire sortir de n'importe quel autre Réseau de tunnels de la carte. La stratégie globale de la GLA repose sur ces tunnels."
 ES: "En cuanto al GLA, acechar por el campo de batalla es su tarjeta de visita. Las redes de túneles ofrecen capacidades defensivas, pero también permiten moverse rápidamente. Construye algunas redes de túneles y envía a tus unidades. Haz clic en el edificio y podrás expulsarlas desde cualquier otra red de túneles del mapa. Son clave para la estrategia global del GLA"
 IT: "Quando si parla dell'ELG, il punto chiave è muoversi non visti sul campo di battaglia. Le Reti di tunnel offrono buone capacità difensive, permettendo inoltre dei movimenti rapidi: costruitene alcune e inviate al loro interno le vostre unità. Clicca sulla struttura per farle uscire da qualsiasi Rete di tunnel presente sulla mappa. Questo elemento è il cardine della strategia globale dell'ELG."
@@ -59673,7 +59673,7 @@ END
 
 ACADEMY:UseControlGroups
 US: "Managing a large army can be a bit unruly sometimes. One way to manage lots of units easily is by creating a \"control group\". Simply select the group of units in question and press \"Ctrl\" & a number at the same time. Now anytime you press this number, the group of units will be selected. Tap the number twice quickly and the camera view will center over the group"
-DE: "Die Verwaltung einer großen Armee ist nicht ganz einfach. Aus diesem Grund empfiehlt sich die Bildung von Gruppen. Wähle die gewünschten Einheiten dazu aus und drücke STRG und eine beliebige Zahl. Drückst du in Zukunft diese Zahl, wird die entsprechende Gruppe ausgewählt. Möchtest du die Kamera über der Gruppe zentrieren, drücke die Taste zweimal hintereinander."
+DE: "Die Verwaltung einer großen Armee ist nicht ganz einfach. Aus diesem Grund empfiehlt sich die Bildung von Gruppen. Wählen Sie die gewünschten Einheiten dazu aus und drücken Sie STRG und eine beliebige Zahl. Drücken Sie in Zukunft diese Zahl, wird die entsprechende Gruppe ausgewählt. Möchten Sie die Kamera über der Gruppe zentrieren, drücken Sie die Taste zweimal hintereinander."
 FR: "Pour gérer un grand nombre d'unités, le plus simple est encore de créer des groupes de sélection. Pour cela, sélectionnez les unités de votre choix et appuyez simultanément sur \"Ctrl\" et une touche numérotée. A chaque fois que vous appuierez sur ce chiffre, le groupe d'unités correspondant sera sélectionné. Appuyez à deux reprises sur cette touche pour centrer la vue sur le groupe en question."
 ES: "A veces, administrar un gran ejército puede ser un poco difícil. Un modo de administrar muchas unidades fácilmente es crear un \"grupo de control\". Selecciona un grupo de unidades y pulsa a la vez \"Ctrl\" + un número. Ahora, cuando pulses ese número, dicho grupo de unidades será seleccionado. Pulsa el número dos veces rápidamente y la cámara se centrará en el grupo"
 IT: "A volte non è semplice gestire un esercito di grandi dimensioni: un metodo per dare ordini a molte unità è quello di creare un \"gruppo di controllo\". Seleziona le truppe in questione e premi \"Ctrl\" insieme a un tasto numerico: ora, ogni volta che premerai questo tasto selezionerai il gruppo di unità. Premi rapidamente due volte il numero per centrare la visuale sulle unità."
@@ -59688,7 +59688,7 @@ END
 
 ACADEMY:UseSecondaryIncomeMethods
 US: "General, acquiring supplies later in a mission can be difficult. Each faction has a unique way to gain funds during long battles. China can build Hackers and an Internet Center. You can direct the Hackers to hack the internet for funds anywhere or just send them inside Internet Center to gain money even quicker. The GLA depends on the Black Market and the USA relies on the Supply Drop. If you don't plan ahead you may have shortages"
-DE: "General, die Rohstoffbeschaffung kann im Verlauf einer Mission schwierig werden. Alle Kriegsparteien finanzieren ihre Armee anders. Der asiatische Pakt vertraut beispielsweise auf Hacker und Web-Zentren. Hacker können über das Internet Geld auf die Konten des Paktes umleiten. Tun sie dies in einem Web-Zentrum, sind sie deutlich effektiver. Während die WA auf ihre Abwurfzonen vertraut, verlässt sich die IBG auf den Schwarzmarkt. Wenn du nicht vorausplanst, bekommst du irgendwann Probleme!"
+DE: "General, die Rohstoffbeschaffung kann im Verlauf einer Mission schwierig werden. Alle Kriegsparteien finanzieren ihre Armee anders. Der asiatische Pakt vertraut beispielsweise auf Hacker und Web-Zentren. Hacker können über das Internet Geld auf die Konten des Paktes umleiten. Tun sie dies in einem Web-Zentrum, sind sie deutlich effektiver. Während die WA auf ihre Abwurfzonen vertraut, verlässt sich die IBG auf den Schwarzmarkt. Wenn Sie nicht vorausplanst, bekommen Sie irgendwann Probleme!"
 FR: "Général, sachez que chaque faction peut se procurer du ravitaillement à sa manière durant les longues batailles. La Chine peut construire un Technopirate et un Centre Internet. Demandez alors au Technopirate de pirater l'Internet pour détourner des fonds ou envoyez-le dans le Centre Internet pour gagner de l'argent encore plus vite. La GLA se finance grâce au Marché noir tandis que les USA comptent sur leur Pont aérien. Soyez toujours prévoyant et vous éviterez les pénuries."
 ES: "General, adquirir suministros con la misión avanzada puede ser difícil. Cada facción tiene un modo propio de obtener fondos durante las batallas largas. China puede crear un hacker y un centro de Internet. Puedes dirigir a los hackers para que pirateen Internet en busca de fondos, o meterlos en el centro de Internet para ganar dinero aún más deprisa. El GLA depende del mercado negro y los EE.UU., del lanzamiento de suministros. Si no haces planes por adelantado, podría haber escasez"
 IT: "Ottenere scorte nelle fasi avanzate di una missione può non essere facile: ogni fazione utilizza i propri metodi per riuscirci. La Cina può realizzare un Hacker e un Centro Internet, da dove l'unità può recuperare fondi via Internet, oppure ottenere semplicemente del denaro senza troppa fatica. L'ELG dipende dal Mercato nero, mentre gli USA fanno affidamento sui lanci di rifornimenti. Fai attenzione: pianifica con cura o ti ritroverai a corto di scorte."
@@ -59705,7 +59705,7 @@ END
 
 ACADEMY:ClearBuildings
 US: "Garrisoned buildings can be tough to handle - unless you know some tricks. Upgrade your US Rangers with Flash Bangs, build GLA Toxin Tractors or Chinese Dragon Tanks to quickly clear out these strong points. The USA can also upgrade to the Bunker Buster to even clear out Tunnel Networks!"
-DE: "Befestigte Gebäude sind schwer zu knacken ... es sei denn, du kennst ein paar Tricks. Rüste deine Ranger mit Blendgranaten aus, baue Säuretraktoren oder säubere die Gebäude mit Drachenpanzern. Mit ihren Bunker Buster-Bomben kann die WA übrigens sogar Tunnelsysteme räumen."
+DE: "Befestigte Gebäude sind schwer zu knacken ... es sei denn, Sie kennen ein paar Tricks. Rüsten Sie Ihre Ranger mit Blendgranaten aus, bauen Sie Säuretraktoren oder säubern Sie die Gebäude mit Drachenpanzern. Mit ihren Bunker Buster-Bomben kann die WA übrigens sogar Tunnelsysteme räumen."
 FR: "Les bâtiments de garnison peuvent parfois opposer une farouche résistance. Améliorez vos Rangers américains avec des Grenades flash, construisez des Tracteurs bactériologiques pour la GLA ou des Chars Dragon pour la Chine afin de nettoyer en moins de deux ces poches de résistance. Les USA peuvent même améliorer le Tueur de bunker pour nettoyer les Réseaux de tunnels !"
 ES: "Los edificios guarnecidos pueden ser duros de pelar - si no sabes algunos trucos. Mejora tus rangers de EE.UU. con granadas cegadoras, construye tractores de toxinas del GLA o tanques Dragon chinos para despejar esas plazas fuertes. ¡Los EE.UU. también pueden mejorar al antibúnker para despejar las redes de túneles!"
 IT: "Gli edifici presidiati non sono un bersaglio facile, a meno di non utilizzare la tattica giusta. Aggiorna i Ranger USA con le Granate flash, costruisci un Contaminatore dell'ELG o un carro Dragon cinese per togliere rapidamente di mezzo queste roccaforti. Gli USA possono potenziare i loro Distruttori di bunker, rendendoli capaci di ripulire anche le Reti di tunnel!"
@@ -59720,7 +59720,7 @@ END
 
 ACADEMY:PickUpSalvage
 US: "The GLA is a sneaky bunch but they're also resourceful. Whenever the GLA units destroy another vehicle a salvage bonus is left behind. Roll over the salvaged parts to upgrade your units, gain veterancy or get some extra cash. Salvage can make a big difference in a long fight so don't leave it just lying around"
-DE: "Die Einheiten der IBG sind verschlagen und einfallsreich. Zerstört ein Fahrzeug der IBG ein feindliches Fahrzeug, bleibt ein Wrack zurück. Fahre über die Wrackteile, um sie einzusammeln. Für Wrackteile bekommst du Geld oder Erfahrung. Da Wrackteile in langen Feldzügen entscheidend sein können, solltest du sie nicht herumliegen lassen."
+DE: "Die Einheiten der IBG sind verschlagen und einfallsreich. Zerstört ein Fahrzeug der IBG ein feindliches Fahrzeug, bleibt ein Wrack zurück. Fahren Sie über die Wrackteile, um sie einzusammeln. Für Wrackteile bekommen Sie Geld oder Erfahrung. Da Wrackteile in langen Feldzügen entscheidend sein können, sollten Sie sie nicht herumliegen lassen."
 FR: "Les troupes de la GLA sont sournoises, mais pleines de ressources. Chaque fois qu'une unité de la GLA détruit un véhicule ennemi, un bonus est laissé dans les décombres. Roulez dessus pour améliorer vos unités, gagner de l'expérience ou de l'argent supplémentaire. Ces bonus peuvent faire toute la différence au cours d'un long combat, alors ne les laissez pas s'envoler."
 ES: "El GLA es un grupo taimado, pero también ingenioso. Cuando las unidades del GLA destruyen otro vehículo, detrás queda un bonus de rescate. Pasa sobre las partes aprovechables para mejorar tus unidades, ganar veteranía o conseguir dinero extra. El material aprovechable puede marcar la diferencia en un combate largo, así que no lo dejes por ahí"
 IT: "L'ELG non ha armi all'avanguardia, ma è pieno di risorse: ogni volta che un'unità dell'ELG distrugge un altro veicolo, a terra restano dei materiali recuperabili. Passa sopra questi materiali per potenziare le tue unità, renderle veterane oppure ottenere dei fondi extra. Questa tattica può fare la differenza nelle battaglie più estenuanti: non lasciare mai nulla di inutilizzato."
@@ -59735,7 +59735,7 @@ END
 
 ACADEMY:UseGuardAbility
 US: "Sometimes it's important that units stay put and guard a particular area. Simply select the unit and press the \"shield\" button or \"G\" key and then select the area to be guarded. The unit will attack any enemies that enter its guard radius"
-DE: "Gelegentlich müssen deine Einheiten ein bestimmtes Gebiet überwachen. Wähle die gewünschte Einheit dazu aus und drücke die Taste 'G' (oder klicke auf das Schild-Symbol). Die Einheit attackiert nun alle Gegner, die in das überwachte Gebiet eindringen."
+DE: "Gelegentlich müssen Ihre Einheiten ein bestimmtes Gebiet überwachen. Wählen Sie die gewünschte Einheit dazu aus und drücken Sie die Taste 'G' (oder klicken Sie auf das Schild-Symbol). Die Einheit attackiert nun alle Gegner, die in das überwachte Gebiet eindringen."
 FR: "Il est parfois important que vos unités gardent un secteur en particulier. Pour cela, sélectionnez l'unité, puis appuyez sur le bouton \"Bouclier\" ou sur la touche \"G\" et indiquez le secteur à protéger. L'unité attaquera alors tout ennemi pénétrant dans son champ d'action."
 ES: "A veces es importante que las unidades se queden y vigilen una zona concreta. Selecciona una, pulsa el botón del \"escudo\" o la tecla \"G\" y elige la zona a proteger. La unidad atacará a todo enemigo que penetre en el radio protegido"
 IT: "A volte è importante che le unità restino a difesa di una determinata posizione. Seleziona l'unità e clicca sul pulsante dello \"scudo\", o premi \"G\", per poi indicare l'area da sorvegliare. L'unità assalirà tutti i nemici che penetreranno nel suo raggio di sorveglianza."
@@ -59752,7 +59752,7 @@ END
 
 ACADEMY:MultipleSupplyCenters
 US: "Supplies are the name of the game, General. They can be gathered at Supply Docks littered around the battlefield. While one dock may be enough early on, it's usually best to branch out and find a few more during a mission. You'll need to build a Supply Center or Stash close to the Supply Dock to ensure efficient collection"
-DE: "Ohne Rohstoffe geht gar nichts. Halte also die Augen nach Versorgungslagern offen! Am Anfang einer Kampagne kommst du vermutlich mit einem Lager aus. Allerdings solltest du im Laufe der Mission weitere Versorgungslager suchen. Baue in der Nähe des Lagers ein Nachschub- oder ein Geheimlager, um die Rohstoffe dort zwischenzulagern."
+DE: "Ohne Rohstoffe geht gar nichts. Halten Sie also die Augen nach Versorgungslagern offen! Am Anfang einer Kampagne kommst Sie vermutlich mit einem Lager aus. Allerdings sollten Sie im Laufe der Mission weitere Versorgungslager suchen. Bauen Sie in der Nähe des Lagers ein Nachschub- oder ein Geheimlager, um die Rohstoffe dort zwischenzulagern."
 FR: "Le succès repose sur le ravitaillement, général. Vous pouvez le stocker dans les entrepôts de ravitaillement éparpillés sur le champ de bataille. Même si un entrepôt peut suffire en début de mission, il est généralement plus sage d'en trouver d'autres par la suite. Vous devrez construire un Dépôt ou une Cache de ravitaillement près de l'entrepôt pour garantir une collecte efficace."
 ES: "Lo fundamental son los suministros, general. Pueden reunirse en los puertos de suministros dispersos por el campo de batalla. Aunque al principio puede bastar con un muelle, es mejor extenderse y buscar más durante una misión. Necesitarás construir un centro o reserva de suministros cerca del puerto de suministros para asegurar una recaudación eficaz"
 IT: "I rifornimenti sono la chiave del successo: puoi riceverli presso le zone di rifornimento sparse per il campo di battaglia. Anche se una singola zona può essere sufficiente all'inizio della partita, è sempre meglio utilizzarne delle altre con il procedere della missione. Per assicurare un flusso ottimale dei rifornimenti, costruisci un Centro o un Nucleo rifornimenti nelle vicinanze della zona di rifornimento."
@@ -59767,7 +59767,7 @@ END
 
 ACADEMY:GarrionVehicle
 US: "Some units may enter or steal other vehicles. Stealing vehicles with Hijackers or Terrorists can allow you to sneak into enemy territory"
-DE: "Bestimmte Einheiten können Fahrzeuge entführen. Wenn du ein feindliches Fahrzeug mit einem Entführer oder einer fahrenden Bombe kaperst, kannst du unerkannt in feindliche Gebiete vorstoßen."
+DE: "Bestimmte Einheiten können Fahrzeuge entführen. Wenn Sie ein feindliches Fahrzeug mit einem Entführer oder einer fahrenden Bombe kaperst, können Sie unerkannt in feindliche Gebiete vorstoßen."
 FR: "Certaines unités peuvent monter à bord de véhicules ennemis et même les voler. Vous pouvez ainsi vous faufiler derrière les lignes ennemies en volant des véhicules à l'aide de Pirates de la route ou de Terroristes."
 ES: "Algunas unidades pueden entrar en vehículos o robarlos. Robar vehículos con secuestradores o terroristas puede permitirte infiltrarte en territorio enemigo"
 IT: "Alcune unità possono entrare nei veicoli nemici, oppure rubarli. Utilizzando Dirottatori e Terroristi puoi penetrare nel territorio dell'avversario."
@@ -59782,7 +59782,7 @@ END
 
 ACADEMY:UseSelectionHotkeys
 US: "General, hotkeys are a great way to enhance your control of your forces. \"E\" will select all of the same unit types on the view screen. If you tap \"E\" twice quickly it will select all the same type across the entire battlefield. \"Q\" will select all your combat units on the map. \"W\" will select all your air units on the map. Give them a try, they'll help you out"
-DE: "Schnelltasten erleichtern die Befehligung deiner Streitkräfte ungemein. Mit \"E\"' kannst du alle Einheiten eines Typs auf dem Bildschirm auswählen. Willst du alle Einheiten auf dem Schlachtfeld auswählen, drücke die Taste zweimal. Mit \"Q\" wählst du alle Einheiten auf der Karte aus. \"W\" wählt alle Lufteinheiten auf der Karte aus. Versuche es."
+DE: "Schnelltasten erleichtern die Befehligung Ihrer Streitkräfte ungemein. Mit \"E\"' können Sie alle Einheiten eines Typs auf dem Bildschirm auswählen. Wollen Sie alle Einheiten auf dem Schlachtfeld auswählen, drücken Sie die Taste zweimal. Mit \"Q\" wählen Sie alle Einheiten auf der Karte aus. \"W\" wählt alle Lufteinheiten auf der Karte aus. Versuchen Sie es."
 FR: "Général, utilisez les raccourcis clavier pour contrôler plus efficacement vos troupes. \"E\" permet de sélectionner toutes les unités d'un certain type présentes à l'écran. Appuyez sur \"E\" deux fois de suite pour sélectionner toutes les unités d'un certain type sur le champ de bataille. \"Q\" permet de sélectionner toutes les unités de combat sur la carte. Ces raccourcis sont une aide précieuse, alors utilisez-les sans réserve."
 ES: "General, las teclas directas son un buen modo de aumentar el control de tus fuerzas. \"E\" seleccionará todas las unidades del mismo tipo de la pantalla de vista. Si pulsas \"E\" rápidamente dos veces, seleccionarás todas las del mismo tipo del campo de batalla. \"Q\" seleccionará todas tus unidades de combate en el mapa. Pruébalas: te servirán de ayuda."
 IT: "I comandi da tastiera sono un ottimo metodo per migliorare la tua capacità di controllo sulle truppe. \"E\" seleziona tutte le unità dello stesso tipo presenti sullo schermo: premendo due volte rapidamente \"E\" selezionerai tutte le unità di quel tipo presenti sul campo di battaglia. \"Q\" seleziona tutte le unità da combattimento sulla mappa. Prova a usarli, ti saranno utili."
@@ -59797,7 +59797,7 @@ END
 
 ACADEMY:AlternateMouseInterface
 US: "One new addition is the \"Alternate Mouse Interface\" option located in the Options Menu. If you are used to commanding armies using right click as your action button then this may help you get a better handle on your army"
-DE: "Eine neue Funktion ist die Option 'Maus umkehren' im Optionen-Menü. Wenn du gewohnt bist, deine Armeen mit der rechten Maustaste zu steuern, ist diese Funktion eine echte Erleichterung."
+DE: "Eine neue Funktion ist die Option 'Maus umkehren' im Optionen-Menü. Wenn Sie gewohnt sind, Ihre Armeen mit der rechten Maustaste zu steuern, ist diese Funktion eine echte Erleichterung."
 FR: "Une option a été ajoutée dans le menu des options : \"Autre interface souris\". Si vous avez l'habitude de commander vos troupes en utilisant le clic droit comme bouton d'action, vous trouverez sûrement avantage à utiliser cette nouvelle option."
 ES: "Se ha añadido la opción de \"interfaz de ratón alternativa\" situada en el menú de Opciones. Si estás acostumbrado a dar órdenes usando el clic derecho como botón de acción, esto puede ayudarte a manejar mejor tu ejército"
 IT: "Una novità è costituita dall'\"inversione tasti mouse\", accessibile tramite il menu delle opzioni. Se sei abituato a impartire ordini con il pulsante destro del mouse, questa funzione potrebbe tornarti utile durante la battaglia."
@@ -59812,7 +59812,7 @@ END
 
 ACADEMY:DoubleClickAttackMoveGuard
 US: "General, we have created a new way to direct your army. Simply select your units and double click the destination area. Your units will attack-move to the spot and then guard it. You may enable this through the options menu"
-DE: "Wir haben die Steuerung deiner Truppen vereinfacht. Wähle die gewünschten Einheiten einfach aus und doppelklicke auf die Zielposition. Die Einheiten rücken nun zum Zielgebiet vor und bewachen es. Du kannst diese Funktion im Optionen-Menü aktivieren."
+DE: "Wir haben die Steuerung Ihrer Truppen vereinfacht. Wählen Sie die gewünschten Einheiten einfach aus und doppelklicken Sie auf die Zielposition. Die Einheiten rücken nun zum Zielgebiet vor und bewachen es. Sie können diese Funktion im Optionen-Menü aktivieren."
 FR: "Général, nous avons élaboré une nouvelle stratégie pour diriger votre armée. Sélectionnez vos unités et faites un double clic sur leur zone de destination. Vos unités se rendront dans la zone et attaqueront, puis tiendront la position. Vous pouvez activer cette option depuis le menu des options."
 ES: "General, hemos creado una nueva forma de dirigir tu ejército. Selecciona tus unidades y haz doble clic en la zona de destino. Éstas atacarán/avanzarán a ese punto y luego lo protegerán. Puedes activar esto por medio del menú de Opciones"
 IT: "Abbiamo creato un nuovo metodo per impartire ordini all'esercito: seleziona le tue unità e fai doppio clic sulla destinazione. Verrà eseguito un movimento di combattimento, seguito da un presidio. Questa funzione si può attivare tramite il menu delle opzioni."
@@ -59827,7 +59827,7 @@ END
 
 ACADEMY:BuildBarracksSooner
 US: "In order to create a well balanced force you must build a Barracks earlier in the mission. Infantry can make or break your gameplan so it's best not to forget them"
-DE: "Nur wenn du frühzeitig eine Kaserne errichtest, kannst du eine ausgewogene Armee aufbauen. Cyborgs haben schon so manche Schlacht entschieden. Vergiss das nicht!"
+DE: "Nur wenn Sie frühzeitig eine Kaserne errichtest, können Sie eine ausgewogene Armee aufbauen. Cyborgs haben schon so manche Schlacht entschieden. Vergessen Sie das nicht!"
 FR: "Pour bien équilibrer vos forces, construisez une Caserne en début de mission. L'infanterie est un élément clé dans votre victoire alors ne la négligez pas !"
 ES: "Para crear una fuerza equilibrada, construye unos barracones al comienzo de la misión. La infantería puede ejecutar el plan de juego o chafártelo, así que mejor no olvidarla"
 IT: "Per creare una forza equilibrata, devi realizzare una Caserma nelle prime fasi della missione. La fanteria è la base di qualsiasi strategia, non dimenticartene mai."
@@ -59857,7 +59857,7 @@ END
 
 ACADEMY:BuildTechStructureSooner
 US: "For the advanced weaponry there is no replacement for a Strategy Center, Propaganda Center or Palace. Don't forget to build one a bit earlier in missions to ensure success"
-DE: "Moderne Waffen werden in Strategiezentren, Propagandazentren und Palästen entwickelt. Errichte also frühzeitig eines der genannten Gebäude, um deine Siegchancen zu erhöhen."
+DE: "Moderne Waffen werden in Strategiezentren, Propagandazentren und Palästen entwickelt. Errichten Sie also frühzeitig eines der genannten Gebäude, um Ihre Siegchancen zu erhöhen."
 FR: "Pour obtenir de l'armement de pointe, rien ne vaut un Commandement tactique, un Centre de propagande ou un Palais. N'oubliez pas d'en construire un en début de mission pour garantir votre succès."
 ES: "Para el armamento avanzado no hay nada mejor que un centro de estrategia, de propaganda o un palacio. No olvides construir uno al comienzo de las misiones para asegurar el éxito"
 IT: "Per chi usa armi avanzate, Centro strategico, Diffusore e Palazzo sono indispensabili. Ricordati sempre di realizzarli nelle prime fasi della missione, se vuoi puntare alla vittoria."
@@ -59872,7 +59872,7 @@ END
 
 ACADEMY:NoIncome
 US: "General, it's vital to your success that your income flow continues throughout the mission. Too many gaps lead to losing your edge. Make sure you're keeping the supplies rolling in consistently"
-DE: "Ein gesichertes Einkommen ist das A und O. Regelmäßige finanzielle Engpässe können dich den Sieg kosten. Sorge also dafür, dass du immer genug Rohstoffe hast."
+DE: "Ein gesichertes Einkommen ist das A und O. Regelmäßige finanzielle Engpässe können Sie den Sieg kosten. Sorgen Sie also dafür, dass Sie immer genug Rohstoffe haben."
 FR: "Général, pour le succès de votre mission, il est vital que rien ne vienne interrompre votre flux de revenus. Votre ennemi prendra le dessus si les interruptions sont trop fréquentes. Assurez-vous que rien n'entrave les transferts de ravitaillement."
 ES: "General, es vital para tu éxito que tengas un flujo de ingresos durante la misión. Demasiados intervalos te harán perder la ventaja. Haz que entren suministros constantemente"
 IT: "È fondamentale per il tuo successo che il denaro non manchi mai durante la missione: dei momenti di stanca potrebbero metterti in difficoltà. Mantieni sempre costante il flusso dei rifornimenti."
@@ -59887,7 +59887,7 @@ END
 
 ACADEMY:ClearMines
 US: "Demo Traps and mines can really be the start of a bad day. These sneaky tactics can be combated by using Dozers or Workers to clear these dangerous areas out"
-DE: "Sprengfallen sind der Albtraum deiner Gegner. Lediglich Bulldozer und Arbeitsbots können diese lästigen Minen unschädlich machen."
+DE: "Sprengfallen sind der Albtraum Ihrer Gegner. Lediglich Bulldozer und Arbeitsbots können diese lästigen Minen unschädlich machen."
 FR: "Rien de pire pour commencer la journée que de tomber sur un Piège explosif ou une mine artisanale. Le mieux pour lutter contre ces tactiques sournoises est d'utiliser des Engins de chantier et des Ouvriers afin de sécuriser les zones dangereuses."
 ES: "Las trampas de demolición y las minas pueden ser el comienzo de un mal día. Estas tácticas furtivas pueden combatirse usando excavadoras o trabajadores para limpiar las zonas peligrosas"
 IT: "Le Trappole demolitrici e le mine possono rovinare anche un piano perfetto: per controbattere a queste mosse sporche devi usare Bulldozer e Operai per bonificare le aree pericolose."
@@ -59951,7 +59951,7 @@ END
 
 ACADEMY:Firestorm
 US: "China has the unique ability to create a Firestorm when multiple MiGs or Inferno Cannons target a single enemy or area. Make sure to coordinate your attacks for maximum effect"
-DE: "Feuern mehrere MiGs oder Infernalgeschütze auf ein Ziel, kann der Asiatische Pakt einen Feuersturm entfesseln. Je besser du deine Angriffe koordinierst, desto effektiver bist du!"
+DE: "Feuern mehrere MiGs oder Infernalgeschütze auf ein Ziel, kann der Asiatische Pakt einen Feuersturm entfesseln. Je besser Sie Ihre Angriffe koordinieren, desto effektiver sind Sie!"
 FR: "La Chine dispose d'une aptitude unique. Elle peut faire tomber une Pluie ardente sur une unité ou une zone ennemie en la visant avec plusieurs Migs ou plusieurs Napacanons. Pensez à coordonner votre attaque pour un effet maximal."
 ES: "China tiene la capacidad única de crear una tormenta de fuego cuando varios MiG o cañones Inferno apuntan a un mismo enemigo o punto. Asegúrate de coordinar tus ataques para un efecto máximo"
 IT: "La Cina ha la capacità di scatenare una tempesta di fuoco, utilizzando più MIG o più Cannoni Inferno contro un singolo bersaglio. Coordina i tuoi attacchi per ottenere l'effetto più devastante."
@@ -59981,7 +59981,7 @@ END
 
 TOOLTIP:HeatEffects
 US: "Toggle showing heat distortion effects. Turn off for improved performance"
-DE: "Schalte Hitzeeffekte ein oder aus. Deaktiviere sie, wenn du die Leistung des Spiels verbessern möchtest."
+DE: "Schalten Sie Hitzeeffekte ein oder aus. Deaktivieren Sie sie, wenn Sie die Leistung des Spiels verbessern möchten."
 FR: "Cochez cette case pour afficher les effets de distorsion de chaleur. Ceci réduit les performances sur certaines machines."
 ES: "Alternar efectos de distorsión del calor. Desactívalo para un mejor rendimiento."
 IT: "Mostra o nasconde gli effetti di distorsione del calore. Disattiva l'opzione per aumentare le prestazioni."
@@ -60011,7 +60011,7 @@ END
 
 TOOLTIP:WeatherEffects
 US: "Toggle showing weather effects such as snow. Turn off for improved performance"
-DE: "Schalte Wettereffekte (z. B. Schnee) ein oder aus. Deaktiviere sie, wenn du die Leistung des Spiels verbessern möchtest."
+DE: "Schalten Sie Wettereffekte (z. B. Schnee) ein oder aus. Deaktivieren Sie sie, wenn Sie die Leistung des Spiels verbessern möchten."
 FR: "Cochez cette case pour afficher les effets météo, comme la neige. Ceci réduit les performances sur certaines machines."
 ES: "Alternar efectos climáticos (como nieve). Desactívalo para un mejor rendimiento."
 IT: "Mostra o nasconde gli effetti meteo, come la neve. Disattiva l'opzione per aumentare le prestazioni."
@@ -63922,7 +63922,7 @@ US: "*I prefer my Gattling Tank"
 DE: "*I prefer my Gattling Tank"
 FR: "*I prefer my Gattling Tank"
 ES: "\nPrefiero mi tanque Gattling."
-IT: "\nPreferisco il mio Carri gatling."
+IT: "\nPreferisco il mio Carri gattling."
 KO: "\n내 개틀링 탱크가 훨씬 좋군."
 ZH: "\n我比較喜歡我的蓋特坦克。"
 BP: "*I prefer my Gattling Tank"
@@ -95389,7 +95389,7 @@ US: "*Our Helix 2 airship is a slow transport helicopter that can carry infantry
 DE: "*Our Helix 2 airship is a slow transport helicopter that can carry infantry or a single vehicle. Although armed with a light machine gun, it can be upgraded with the Gattling Cannon, Propaganda Tower, or Battle Bunker. It can also be upgraded to carry a large napalm bomb"
 FR: "*Our Helix 2 airship is a slow transport helicopter that can carry infantry or a single vehicle. Although armed with a light machine gun, it can be upgraded with the Gattling Cannon, Propaganda Tower, or Battle Bunker. It can also be upgraded to carry a large napalm bomb"
 ES: "\nNuestro Helix 2 es un helicóptero que puede llevar infantería o bien un vehículo.\nEstá armado con una ametralladora ligera, pero puede mejorarse con un cañón Gattling,\nuna torre de propaganda, un búnker de combate o una gran bomba de napalm."
-IT: "\nIl velivolo Helix 2 è un elicottero da trasporto per fanteria o veicoli singoli.\nPuò ricevere come aggiornamenti Cannone gatling,\nDiffusore, Bunker da battaglia e Bomba al napalm."
+IT: "\nIl velivolo Helix 2 è un elicottero da trasporto per fanteria o veicoli singoli.\nPuò ricevere come aggiornamenti Cannone gattling,\nDiffusore, Bunker da battaglia e Bomba al napalm."
 KO: "\n아군의 헬릭스 2 에어쉽은 보병이나 차량을 수송하는 헬기입니다.\n머신건으로 무장하였고 개틀링 캐논, 프로퍼갠더 타워,\n배틀 벙커, 네이팜탄 투하 등의 업그레이드가 가능합니다."
 ZH: "\n我們的螺旋直昇機 2 是一種速度緩慢的運輸直昇機，可以運送步兵或一架載具。\n雖然裝配輕型機關槍，它仍然可以加上蓋特砲、思想強化電塔或戰鬥碉堡加以升級。\n它也可以升級用來攜帶一顆大型汽油彈。"
 BP: "*Our Helix 2 airship is a slow transport helicopter that can carry infantry or a single vehicle. Although armed with a light machine gun, it can be upgraded with the Gattling Cannon, Propaganda Tower, or Battle Bunker. It can also be upgraded to carry a large napalm bomb"
@@ -96503,7 +96503,7 @@ US: "*The Helix 2 is a slow transport helicopter that can carry infantry or a si
 DE: "*The Helix 2 is a slow transport helicopter that can carry infantry or a single vehicle. Although armed with a light machine gun, it can be upgraded with the Gattling Cannon, Propaganda Tower, or Battle Bunker. It can also be upgraded to carry a large napalm bomb"
 FR: "*The Helix 2 is a slow transport helicopter that can carry infantry or a single vehicle. Although armed with a light machine gun, it can be upgraded with the Gattling Cannon, Propaganda Tower, or Battle Bunker. It can also be upgraded to carry a large napalm bomb"
 ES: "\nEl Helix 2 es un helicóptero que puede llevar infantería o bien un vehículo.\nEstá armado con una ametralladora ligera, pero puede mejorarse con un cañón Gattling,\nuna torre de propaganda, un búnker de combate o una gran bomba de napalm."
-IT: "\nIl velivolo Helix è un elicottero da trasporto per fanteria o veicoli singoli.\nPuò ricevere come aggiornamenti Cannone gatling,\nDiffusore, Bunker da battaglia e Bomba al napalm."
+IT: "\nIl velivolo Helix è un elicottero da trasporto per fanteria o veicoli singoli.\nPuò ricevere come aggiornamenti Cannone gattling,\nDiffusore, Bunker da battaglia e Bomba al napalm."
 KO: "\n헬릭스 2는 보병이나 차량을 실어 나르는 느린 수송용 헬기입니다.\n머신건으로 무장하였고 개틀링 캐논, 프로퍼갠더 타워, 배틀 벙커,\n네이팜탄 투하 등의 업그레이드가 가능합니다."
 ZH: "\n螺旋直昇機 2 是一種速度緩慢的運輸直昇機，可以運送步兵或一架載具。\n雖然裝配輕型機關槍，它仍然可以加上蓋特砲、思想強化電塔或戰鬥碉堡加以升級。\n它也可以升級用來攜帶一顆大型汽油彈。"
 BP: "*The Helix 2 is a slow transport helicopter that can carry infantry or a single vehicle. Although armed with a light machine gun, it can be upgraded with the Gattling Cannon, Propaganda Tower, or Battle Bunker. It can also be upgraded to carry a large napalm bomb"
@@ -98519,10 +98519,10 @@ END
 
 CONTROLBAR:AirF_ToolTipUSAScienceSpectreGunship
 US: "Spectre Gunships circle the battlefield and pummel enemy forces with Howitzers and Gattling Cannons\n\nLevel 1: 10 seconds\nLevel 2: 15 seconds\nLevel 3: 30 seconds\n\nDeploy from: Command Center"
-DE: "Spectres kreisen um das Schlachtfeld und attackieren feindliche Einheiten mit Haubitzen und Gatling-Geschützen.\n\nStufe 1: 10 Sekunden\nStufe 2: 15 Sekunden\nStufe 3: 30 Sekunden\n\nProduktionsstätte: Kommandozentrale"
+DE: "Spectres kreisen um das Schlachtfeld und attackieren feindliche Einheiten mit Haubitzen und Gattling-Geschützen.\n\nStufe 1: 10 Sekunden\nStufe 2: 15 Sekunden\nStufe 3: 30 Sekunden\n\nProduktionsstätte: Kommandozentrale"
 FR: "Le Spectre survole le champ de bataille et pilonne les troupes ennemies avec des obusiers et des Mitrailleuses Gattling.\n\nGrade 1 : 10 secondes\nGrade 2 : 15 secondes\nGrade 3 : 30 secondes\n\nDéployé depuis : Poste de commandement."
 ES: "Los Spectre cercan el campo de batalla y machacan las fuerzas enemigas con Howitzers y cañones Gattling.\n\nNivel 1: 10 segundos\nNivel 2: 15 segundos\nNivel 3: 30 segundos\n\nDespliegue desde: Centro de mando"
-IT: "La Cannoniera Spectre sorvola il campo di battaglia e colpisce il nemico con Howitzer e Cannoni gatling.\n\nLivello 1: 10 secondi.\nLivello 2: 15 secondi.\nLivello 3: 30 secondi.\n\nLanciata da: Centro comando"
+IT: "La Cannoniera Spectre sorvola il campo di battaglia e colpisce il nemico con Howitzer e Cannoni gattling.\n\nLivello 1: 10 secondi.\nLivello 2: 15 secondi.\nLivello 3: 30 secondi.\n\nLanciata da: Centro comando"
 KO: "스펙터 건쉽은 전장을 선회하며 적 부대를 유탄포와 개틀링 캐논으로 연속 공격합니다.\n\n등급 1: 10초\n등급 2: 15초\n등급 3: 30초\n\n명령 위치: 커맨드 센터"
 ZH: "鬼魅炮艇機在戰場上空盤旋並以機載的榴彈砲與蓋特機槍對目標攻擊。\n\n等級一：十秒\n等級二：十五秒\n等級三：三十秒\n\n部署來源：指揮中心"
 BP: "Aviões de Artilharia Spectre flanqueiam o campo de batalha e esmagam a força inimiga com os canhões Howitzers e Gattling.\n\nPatente 1: 10 segundos\nPatente 2: 15 segundos\nPatente 3: 30 segundos\n\nOrdenado pelo: Centro de Comando"
@@ -99242,10 +99242,10 @@ END
 
 CONTROLBAR:Tank_TooltipUpgradeChinaOverlordGattlingCannon
 US: "Build a Gattling Cannon on this Emperor"
-DE: "Dieser Emperor wird mit einer Gatling-Kanone aufgerüstet."
+DE: "Dieser Emperor wird mit einer Gattling-Kanone aufgerüstet."
 FR: "Construit une Mitrailleuse Gattling sur ce Despote."
 ES: "Añade un cañón Gattling a este Emperor."
-IT: "Crea di un Cannone gatling su questo Emperor."
+IT: "Crea di un Cannone gattling su questo Emperor."
 KO: "엠퍼러에 개틀링 캐논 설치."
 ZH: "在帝王坦克建造一門蓋特機砲。"
 BP: "Construir um Canhão Gattling nesse Emperor."
@@ -100360,7 +100360,7 @@ END
 
 GUI:Retaliation
 US: "Toggle this button off to disable your units from retaliating against attacking enemies automatically"
-DE: "Wenn du diesen Punkt deaktivierst, verteidigen sich angegriffene Einheiten nicht mehr automatisch."
+DE: "Wenn Sie diesen Punkt deaktivieren, verteidigen sich angegriffene Einheiten nicht mehr automatisch."
 FR: "Cochez cette option pour que vos troupes ripostent automatiquement à leurs agresseurs."
 ES: "Desactiva este botón para que tus unidades no tomen represalias automáticamente contra los enemigos que las ataquen."
 IT: "Disattiva questa opzione per impedire alle tue unità di reagire automaticamente agli attacchi nemici."
@@ -101327,7 +101327,7 @@ END
 // context: Tooltip displayed when the user mouses over the Streak 3 battle honor icon
 TOOLTIP:BattleHonorStreak3Disabled
 US: ""
-DE: "Siegesmedaille\nFür diese Auszeichnung musst du 3 Spiele in Folge gewinnen."
+DE: "Siegesmedaille\nFür diese Auszeichnung müssen Sie 3 Spiele in Folge gewinnen."
 FR: ""
 ES: ""
 IT: ""
