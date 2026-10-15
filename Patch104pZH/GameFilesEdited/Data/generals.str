@@ -50946,7 +50946,7 @@ BP: "DICA:\nAs Armadilhas Explosivas serão detonadas quando um inimigo tentar\n
 PL: "RADA:\nPułapka bombowa eksploduje, gdy wróg spróbuje\nobsadzić lub zająć zaminowany obiekt."
 RU: "ПОДСКАЗКА:\nРастяжки сдетонируют, когда враг попытается\nзанять или захватить заминированное здание"
 AR: "ﺢﯿﻤﻠﺗ:\nوﺪﻌﻟا روﺮﻣ لﺎﺣ ﻲﻓ مﺎﻐﻟﻷا رﺎﺠﻔﻧإ ﻢﺘﯿﺳ\nﺎﮫﯿﻠﻋ ﻰﻟﻮﺘﺴﻤﻟا ءﺎﯿﺷﻸﻟ وأ ﻦﯿﺼﺤﺘﻠﻟ ﺪﻌﺗ"
-UK: "ПІДКАЗКА:\nМіни-пастки спрацюють, коли ворог спробує\nзайняти буділю або захопити структуру"
+UK: "ПІДКАЗКА:\nМіни-пастки спрацюють, коли ворог спробує\nзайняти будівлю або захопити структуру"
 END
 
 HELP:KingRaptor-01
