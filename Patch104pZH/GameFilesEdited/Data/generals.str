@@ -88,6 +88,7 @@
 // Patch104p @tweak xezon 09/09/2023 Uses more normal structured sentences in Italian mission subtitles. (#2338)
 // Patch104p @fix xezon 10/09/2023 Adds missing words and sentences to Spanish mission subtitles. (#2339)
 // Patch104p @tweak xezon 10/09/2023 Uses more normal structured sentences in Spanish mission subtitles. (#2339)
+// Patch104p @tweak dmgreen 18/10/2026 Converted informal German second-person forms (Du, dich, dir, dein, and related verb forms) to the appropriate formal forms (Sie, Ihnen, Ihr, and corresponding verb forms) where context supports the change. (#2865)
 
 
 // context: Button to go to the game options screen
