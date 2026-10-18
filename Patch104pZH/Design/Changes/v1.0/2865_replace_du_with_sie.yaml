@@ -1,0 +1,19 @@
+date: 2026-10-17
+
+title: Replaces informal German address with formal address
+
+changes:
+  - tweak: Makes German localization use formal second-person address consistently
+
+subchanges:
+  - Converts informal German second-person forms (Du, dich, dir, dein, and related verb forms) to the appropriate formal forms (Sie, Ihnen, Ihr, and corresponding verb forms) where context supports the change.
+
+labels:
+  - minor
+  - text
+  - v1.0
+
+links:
+  - https://github.com/TheSuperHackers/GeneralsGamePatch/pull/2865
+
+authors: dmgreen
