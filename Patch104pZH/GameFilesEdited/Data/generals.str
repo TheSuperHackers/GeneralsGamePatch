@@ -3143,7 +3143,7 @@ BP: "WORLD BUILDER"
 PL: "Edytor map"
 RU: "Редактор карт WorldBuilder"
 AR: "ﻲﻤﻟﺎﻌﻟا ءﺎﻨﺒﻟا ﻂﻤﻧ"
-UK: "WORLD BUILDER"
+UK: "РЕДАКТОР КАРТ"
 END
 
 // Patch104p @fix xezon 24/07/2022 Fixes DE string from "World-Editors". (#750)
@@ -4528,7 +4528,7 @@ BP: "IP Rede:"
 PL: "IP LAN:"
 RU: "IP локал. сети:"
 AR: "ﻲﻠﺤﻤﻟا ﻥاﻮﻨﻌﻟﺎ:"
-UK: "LAN IP:"
+UK: "IP-адреса локальної мережі:"
 END
 
 // context: Quickmatch screen. Minimum points required for an opponent to meet the match criteria as a percentage
@@ -6469,7 +6469,7 @@ BP: "1 vs 1"
 PL: "1 na 1"
 RU: "1 на 1"
 AR: "1 ﺪﺿ 1"
-UK: "1 vs 1"
+UK: "1 на 1"
 END
 
 // context: Online chat channel name
@@ -6485,7 +6485,7 @@ BP: "2 vs 2"
 PL: "2 na 2"
 RU: "2 на 2"
 AR: "2 vs 2"
-UK: "2 vs 2"
+UK: "2 на 2"
 END
 
 // context: Online chat channel name
@@ -6501,7 +6501,7 @@ BP: "3 vs 3"
 PL: "3 na 3"
 RU: "3 на 3"
 AR: "3 vs 3"
-UK: "3 vs 3"
+UK: "3 на 3"
 END
 
 // context: Email entry box in login
@@ -7862,7 +7862,7 @@ BP: "Procurando QuickMatch."
 PL: "Prowadzi QuickMatching."
 RU: "Ищет быстрый матч"
 AR: "QuickMatching"
-UK: "%hs у Швидких Матчах"
+UK: "Шукає швидкий матч"
 END
 
 // context: Used to popup the status of a buddy. %hs is replaced by the Buddy's name
@@ -12069,7 +12069,7 @@ BP: "\nRegião: %s\n%d vitórias/%d derrotas"
 PL: "\nRegion: %s\nzwycięstwa:%d/porażki: %d"
 RU: "\nРегион: %s\n%d побед/%d поражений"
 AR: "\nRegion: %s\n%d wins/%d losses"
-UK: "\nРегіон: %s\n%d перемог/%і поразок"
+UK: "\nРегіон: %s\n%d перемог/%d поразок"
 END
 
 // context: Game listbox in custom lobby.
@@ -12927,7 +12927,7 @@ BP: "Ativar 'Letter Box'"
 PL: "Przełącza tryb panoramiczny"
 RU: "Соотношение сторон экрана 16:9"
 AR: "ﺖﯿﺒﺜﺘﻟا ﻞﺋﺎﺳر قوﺪﻨﺻ"
-UK: "Toggle Letter Box"
+UK: "Увімкнути/вимкнути режим кіноформату"
 END
 
 // Patch104p @fix xezon 03/08/2023 Changes DE from "Schalte den 16:9-Modus ein/aus.". (#2217)
@@ -12945,7 +12945,7 @@ BP: "Liga/desliga o modo de exibição 'Letter Box'."
 PL: "Włącza lub wyłącza tryb panoramiczny."
 RU: "Включить/Выключить соотношение сторон экрана 16:9"
 AR: "فﺎﻘﻳإ / ﻞﯿﻐﺸﺗ ﺖﯿﺒﺜﺘﻟا ﻞﺋﺎﺳر قوﺪﻨﺻ ﻂﻤﻧ"
-UK: "Toggles Letterbox Mode on/off"
+UK: "Увімкнення та вимкнення режиму кіноформату"
 END
 
 // context: Help text for the 'Scatter units' icon/command.
@@ -13997,7 +13997,7 @@ BP: "Seleciona os membros do time 4."
 PL: "Wybiera jednostki należące do oddziału 4."
 RU: "Выделить членов отряда 4"
 AR: "Select members of team 4"
-UK: "Select members of team 4"
+UK: "Вибрати учасників команди 4"
 END
 
 // context: Command to Select Team X
@@ -34270,7 +34270,7 @@ BP: "IP Online:"
 PL: "Adres IP:"
 RU: "Интернет IP:"
 AR: "Online IP:"
-UK: "Online IP:"
+UK: "IP-адреса в Інтернеті:"
 END
 
 // context: Failed login attempt
@@ -36734,7 +36734,7 @@ BP: "\nRegião: %ls\nPing: %d ms\n%d vitórias/%d derrotas\n%d desconexões\nEx�
 PL: "\nRegion: %ls\nPing: %d ms\n%d zwycięstw/%d porażek\n%d rozłączeń\nUlubiona strona konfliktu: %ls"
 RU: "\nРегион: %ls\nЗадержка: %d мс\n%d побед/%d поражений\n%d отсоединений\nПредпочитаемая армия: %ls"
 AR: "\nRegion: %ls\nPing: %d ms\n%d wins/%d losses\n%d disconnects\nFavorite army: %ls"
-UK: "\nРегіон: %l\nПінг: %d мс\n%d перемог/%d поразок\n%d від’єднується\nУлюблена армія: %ls"
+UK: "\nРегіон: %l\nПінг: %d мс\n%d перемог/%d поразок\n%d розривів з’єднання\nУлюблена армія: %ls"
 END
 
 // context: Supply centers can't be too close to supply sources
@@ -39285,7 +39285,7 @@ BP: "%hs está procurando um QuickMatch."
 PL: "%hs prowadzi QuickMatching."
 RU: "%hs играет Быстрый матч"
 AR: "%hs is QuickMatching"
-UK: "%hs is QuickMatching"
+UK: "%hs грає Швидкий матч"
 END
 
 // context: Used to popup the status of a buddy. %hs is replaced by the Buddy's name
@@ -45439,7 +45439,7 @@ BP: "4 vs 4"
 PL: "4 na 4"
 RU: "4 на 4"
 AR: "4 vs 4"
-UK: "4 vs 4"
+UK: "4 на 4"
 END
 
 // context: Online chat channel name
